@@ -1,6 +1,6 @@
 export const guideSlug = "best-docking-stations-for-macbook-air";
 export const guideTitle = "8 Best Docking Stations for MacBook Air in 2026";
-export const metaTitle = "Best Docking Stations for MacBook Air in 2026 (M1-M5)";
+export const metaTitle = "Best Docking Stations for MacBook Air (2026)";
 export const metaDescription =
   "8 best docking stations for MacBook Air in 2026, matched to M1 through M5 display limits, DisplayLink dual-monitor setups, and real charging needs.";
 export const mainKeyword = "docking station for macbook air";
@@ -8,7 +8,7 @@ export const introParagraphs = [
   "A MacBook Air's biggest docking limitation isn't the dock, it's the chip. Every Air through the M3 generation drives only one native external display, so a second monitor requires either clamshell mode on the M3 or a DisplayLink adapter that intercepts the video signal entirely. Picking the wrong dock for your specific chip generation is the single most common mistake buyers make with this laptop.",
   "Below are 8 docking stations for MacBook Air we evaluated on chip-generation compatibility, DisplayLink dual-monitor support, charging behavior for a fanless 45W laptop, and port selection, ranging from an under-$40 compact hub to an under-$200 triple-display DisplayLink dock."
 ];
-export const lastUpdated = "2026-07-18";
+export const lastUpdated = "2026-10-28";
 export const readTime = "10 min";
 export const heroImage = "https://m.media-amazon.com/images/I/31mqa4FsYcL._SL500_.jpg";
 
@@ -481,7 +481,10 @@ export const faq: FaqItem[] = [
   {
     q: "Which pick supports 3 external monitors on a MacBook Air?",
     a: "Only the Anker DL6350 in this list supports a genuine triple-display setup, done entirely through DisplayLink software rendering since no MacBook Air chip generation natively drives 3 displays. Expect noticeably more CPU overhead than a single or dual-display DisplayLink setup.",
-  }
+  },
+  { q: "Does a MacBook Air work with a dock?", a: "Yes. A dock plugs into a Thunderbolt or USB-C port and adds ports, charging and external displays. Apple says displays connect to the Thunderbolt ports on the side, and a hub or dock cannot increase the maximum number of displays the Air supports." },
+  { q: "Can a MacBook Air M5 run two external monitors from a dock?", a: "Apple lists up to two external displays for MacBook Air with M4 or M5, for example two displays at 6K 60Hz or 4K 144Hz, in addition to the built-in screen. Older M1 to M3 Air models have lower limits, so check Apple's page for your model before buying a dual-output dock." },
+  { q: "Do I need DisplayLink for a MacBook Air dual monitor setup?", a: "Only if your chip's native limit is too low. DisplayLink docks add displays through a software driver instead of the Mac's own display output, so check the dock maker's current macOS support list. If your Air is an M4 or M5, a standard dock may already cover two monitors." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

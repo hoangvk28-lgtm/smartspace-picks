@@ -8,7 +8,7 @@ export const guideDescription =
 export const metaTitle = "7 Best Seat Cushions for Office Chair in 2026";
 export const metaDescription =
   "7 best office chair seat cushions in 2026: coccyx cutout, gel-infused, and flat contoured picks for tailbone pain and all-day WFH comfort. Ranked $30-$70.";
-export const lastUpdated = "2026-06-16";
+export const lastUpdated = "2026-10-28";
 export const readTime = "12 min";
 export const heroImage = `${BASE}/08-hero-7-best-seat-cushions-office-chair-2026.webp`;
 
@@ -297,7 +297,11 @@ export const faq = [
   {
     q: "Should I get a seat cushion or a lumbar support pillow first?",
     a: "Identify where your discomfort is. Seat cushions address pressure from below: tailbone, hips, thighs. Lumbar pillows address the lower back curve. If discomfort is in your lower back, start with a lumbar pillow. If discomfort is at the seat surface, start with a seat cushion.",
-  }
+  },
+  { q: "What kind of cushion is best for an office chair?", a: "Memory foam suits most people because it moulds to your shape, while gel or honeycomb designs run cooler. Look for a cushion about 2 to 3 inches thick with a non-slip base and a strap that holds it in place." },
+  { q: "Is the cutout on a seat cushion at the back or the front?", a: "The cutout sits at the back, where your tailbone rests, with the open end of the U toward the chair back. It takes pressure off the coccyx, so put the closed edge toward the front of the chair." },
+  { q: "Which seat cushion helps lower back pain?", a: "A seat cushion helps by improving posture and cutting pressure, but the lower back is better served by a separate lumbar support. Choose a firm cushion with a coccyx cutout and pair it with lumbar support if pain is in the lower back." },
+  { q: "What should I do if my office chair has no cushioning?", a: "Add a 2 to 3 inch memory foam or gel cushion with a non-slip bottom. A hard seat is the most common cause of numbness, so choose a cushion wide enough to cover the whole seat." }
 ];
 
 export const relatedGuides = [

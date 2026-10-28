@@ -7,7 +7,7 @@ export const introParagraphs = [
   "MacBook Pro's exact display output ceiling through a Thunderbolt 5 dock depends heavily on which Apple Silicon chip tier you own, with base M-series chips, Pro chips, and Max chips each supporting genuinely different maximum display configurations on the same dock.",
   "We compared this lineup on per-chip-tier display documentation, cooling design under sustained load, and whether the dock locks to a single Mac or supports switching between devices, since one listing specifically states it's restricted to one Mac and doesn't support switching between multiple Macs."
 ];
-export const lastUpdated = "2026-09-14";
+export const lastUpdated = "2026-10-28";
 export const readTime = "9 min";
 export const heroImage = "https://m.media-amazon.com/images/I/41tUd3UqrmL._SL500_.jpg";
 
@@ -187,7 +187,10 @@ export const faq = [
   { "q": "Is the CalDigit TS5 Plus worth the extra cost over the iVANKY FusionDock Max 2 if I only use one Mac?", "a": "If you exclusively use one Mac and value genuinely silent fanless operation, the iVANKY's detailed per-chip display documentation and quiet design may better suit your needs, but if you want the highest port count with 10GbE networking and Windows compatibility, the CalDigit TS5 Plus's higher price is justified." },
   { "q": "Can I install any M.2 NVMe SSD into the UGREEN Maxidok's storage slot?", "a": "Not any SSD; the listing specifically excludes SSDs with a heatsink wider than 24mm, explicitly naming the Seagate FireCuda 530, Samsung 9100 PRO, and certain WD_BLACK and Lexar models as incompatible, so checking your specific SSD's heatsink dimensions is essential before purchase." },
   { "q": "How do I connect an HDMI monitor to the UGREEN Maxidok since its DP port doesn't support DP++?", "a": "The listing specifically states you'll need an active DP-to-HDMI adapter or cable, since passive adapters and cables will not work with this dock's DisplayPort output for HDMI monitor connections." },
-  { "q": "Do these Thunderbolt 5 docks require the latest macOS version to work properly?", "a": "Checking each specific listing's minimum macOS version requirement is worth doing before purchase, since Thunderbolt 5 support and specific display or bandwidth features often require a recent macOS version to function as advertised." }
+  { "q": "Do these Thunderbolt 5 docks require the latest macOS version to work properly?", "a": "Checking each specific listing's minimum macOS version requirement is worth doing before purchase, since Thunderbolt 5 support and specific display or bandwidth features often require a recent macOS version to function as advertised." },
+  { q: "Will a Thunderbolt 5 dock work with a MacBook Pro that only has Thunderbolt 4?", a: "Thunderbolt 5 is backward compatible, so it connects and works, but you get Thunderbolt 4 speeds. The extra bandwidth only helps on a Mac with Thunderbolt 5 ports." },
+  { q: "How many displays can an M3 Max MacBook Pro drive through a dock?", a: "Apple lists up to four external displays for the M3 Max, up to two for the M3 Pro and the M4 Pro, and up to four for the M4 Max. A dock cannot exceed the chip's limit, so check Apple's spec page for your exact chip." },
+  { q: "Is a Thunderbolt 5 dock worth it for a MacBook Pro M5?", a: "It is worth it if you run several high-resolution or high-refresh displays and your Mac has Thunderbolt 5 ports. For one or two 4K displays and basic ports, a Thunderbolt 4 dock is usually enough and costs less." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

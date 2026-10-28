@@ -1,14 +1,13 @@
 export const guideSlug = "best-docking-stations-for-macbook-pro";
 export const guideTitle = "8 Best Docking Stations for MacBook Pro in 2026";
-export const metaTitle = "Best Docking Stations for MacBook Pro in 2026 (Thunderbolt 4 & 5)";
-export const metaDescription =
-  "8 best docking stations for MacBook Pro in 2026, from budget USB-C hubs to Thunderbolt 5 CalDigit docks. Compare Mac display limits, chip compatibility, and charging.";
+export const metaTitle = "Best Docking Stations for MacBook Pro (2026)";
+export const metaDescription = "8 docking stations for MacBook Pro compared by Mac display limits, chip compatibility and charging, from budget USB-C hubs to Thunderbolt 5 docks.";
 export const mainKeyword = "docking station for macbook pro";
 export const introParagraphs = [
   "MacBook Pro buyers run into one complaint more than any other: a dock advertised as supporting dual monitors, but their base M-series chip only drives one external display natively. That limit comes from the chip itself, not the dock, so picking the right dock starts with knowing exactly which M-chip generation is inside your Mac.",
   "Below are 8 docking stations we evaluated specifically for MacBook Pro compatibility, prioritizing genuine Thunderbolt certification since Apple co-developed the standard with Intel and Macs support it natively, ranging from an under-$60 budget USB-C hub to an under-$500 professional Thunderbolt 5 dock."
 ];
-export const lastUpdated = "2026-07-18";
+export const lastUpdated = "2026-10-28";
 export const readTime = "10 min";
 export const heroImage = "https://m.media-amazon.com/images/I/31DKJ3K5cUL._SL500_.jpg";
 
@@ -481,7 +480,10 @@ export const faq: FaqItem[] = [
   {
     q: "Is CalDigit worth the extra cost over a generic Thunderbolt dock for Mac?",
     a: "CalDigit has a long track record as a Mac-first dock brand, and its TS4 and TS5 Plus docks are built with high port counts and bandwidth specifically for demanding Mac desk setups and multi-display workflows. If you need the highest port count or Thunderbolt 5 bandwidth for a Pro/Max chip Mac, it's a reasonable premium; casual dual-display users can get similar core functionality from the UGREEN or Plugable picks at a lower price.",
-  }
+  },
+  { q: "Does a Thunderbolt 4 dock work with a MacBook Pro M3 Max?", a: "Yes, a Thunderbolt 4 dock connects and works on an M3 Max MacBook Pro. Apple lists up to four external displays for the M3 Max, but a single Thunderbolt 4 cable has a fixed bandwidth, so one dock may not carry every display at full resolution. Spread displays across the dock and the Mac's other ports if you want four." },
+  { q: "What dock do I need for a MacBook Pro with an M5 chip?", a: "Pick by display count and port type, not by the chip name alone. Apple's spec page for your exact model lists how many external displays it supports, and a dock cannot add more than that limit. Match the dock's video outputs and its charging wattage to the laptop." },
+  { q: "Is the best dock for a 14 inch MacBook Pro different from the 16 inch?", a: "Not because of screen size. What matters is the chip's display limit, the Thunderbolt generation of its ports and the wattage the laptop needs while charging, so check those three on your model rather than the screen diagonal." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

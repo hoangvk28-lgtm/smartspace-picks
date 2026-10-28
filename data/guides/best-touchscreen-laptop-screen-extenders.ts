@@ -243,6 +243,10 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-14-inch-touchscreen-laptop-screen-extenders", title: "Best 14-Inch Touchscreen Screen Extenders (2026)" },
+  { href: "/guide/best-15-6-inch-touchscreen-laptop-screen-extenders", title: "Best 15.6 Inch Touchscreen Laptop Extenders" },
+  { href: "/guide/best-quad-screen-extenders-for-16-inch-laptops", title: "Best Quad-Screen Extenders for 16-Inch Laptops" },
+  { href: "/guide/best-hdmi-touchscreen-portable-monitors", title: "Best HDMI Touchscreen Portable Monitors (2026)" },
   { href: "/guide/best-usb-c-laptop-screen-extenders", title: "Best USB-C Laptop Screen Extenders (2026)" },
   { href: "/guide/best-4k-laptop-screen-extenders", title: "Best 4K Laptop Screen Extenders (2026)" },
   { href: "/guide/best-laptop-screen-extenders-for-work", title: "Best Laptop Screen Extenders for Work (2026)" }

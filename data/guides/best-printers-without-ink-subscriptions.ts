@@ -7,7 +7,7 @@ export const introParagraphs = [
   "Wanting to avoid an ink subscription is a reasonable, common goal, but it's worth being precise about what that actually protects you from. A printer having no subscription program built in isn't the same thing as a printer that will accept any third-party ink you buy; some models still restrict non-original cartridges through firmware even without an active subscription running.",
   "Below are 8 printers we evaluated for genuinely subscription-free operation, leaning heavily toward ink-tank models, which sidestep the cartridge-and-subscription business model entirely, while also flagging cartridge printers that avoid a bundled subscription but are still worth checking for ink-lock behavior before buying third-party ink."
 ];
-export const lastUpdated = "2026-07-25";
+export const lastUpdated = "2026-10-28";
 export const readTime = "10 min";
 export const heroImage = "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg";
 
@@ -473,7 +473,10 @@ export const faq: FaqItem[] = [
     q: "Do laser printers avoid the subscription question better than inkjets?",
     a: "Not automatically, but toner cartridges last for thousands of pages compared to a few hundred for inkjet cartridges, so a subscription offer comes up far less often in practice with a laser printer. If print volume is mostly text, that reduces how much the subscription question matters day to day.",
   },
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "A buyer who wants to permanently avoid ink subscriptions and cartridge concerns" }
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "A buyer who wants to permanently avoid ink subscriptions and cartridge concerns" },
+  { q: "What printers don't need a subscription?", a: "Any printer will print without one, since subscriptions are optional programs. Ink tank and laser models avoid the topic most reliably, which is why those make up most of this guide." },
+  { q: "What is a printer that doesn't require ink?", a: "Laser printers use toner powder instead of liquid ink, and thermal label or receipt printers use heated paper, which is not covered in this guide. For documents, a laser printer is the practical choice." },
+  { q: "Can I use refillable or third-party ink without a subscription?", a: "It depends on the model, because some cartridge printers restrict non-original ink through firmware. Ink tank printers are built for refills and carry that risk less." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

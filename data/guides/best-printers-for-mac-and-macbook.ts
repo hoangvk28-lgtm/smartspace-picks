@@ -1,6 +1,6 @@
 export const guideSlug = "best-printers-for-mac-and-macbook";
 export const guideTitle = "7 Best Printers for Mac and MacBook in 2026";
-export const metaTitle = "Best Printers for Mac and MacBook in 2026 (AirPrint vs Full Driver)";
+export const metaTitle = "Best Printers for Mac and MacBook (2026)";
 export const metaDescription =
   "7 printers we evaluated for Mac and MacBook households, plus how AirPrint compares to a full manufacturer driver install and where each option falls short.";
 export const mainKeyword = "printer for mac";
@@ -8,7 +8,7 @@ export const introParagraphs = [
   "Most Mac households default to AirPrint because it's built into macOS and requires no extra software, but AirPrint trades away features a full manufacturer driver provides, like tray selection, print quality presets, and ink level monitoring. Neither option is objectively better; the right one depends on how much control you want over print settings.",
   "Below are 7 printers we evaluated on wireless and AirPrint-style compatibility with macOS. Most listed here are standard wireless AIOs rather than printers explicitly marketed as \"Mac-certified,\" so we're framing this around actual AirPrint compatibility and driver availability rather than a marketing label, and flagging where Apple Silicon driver support for older printer models is worth double-checking."
 ];
-export const lastUpdated = "2026-07-25";
+export const lastUpdated = "2026-10-28";
 export const readTime = "9 min";
 export const heroImage = "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg";
 
@@ -441,7 +441,10 @@ export const faq: FaqItem[] = [
   {
     q: "What's the difference between AirPrint and a manufacturer's app like HP Smart or Canon PRINT?",
     a: "AirPrint is Apple's built-in, no-install printing standard with simplified settings. Manufacturer apps like HP Smart, Canon PRINT, or Epson's software add features like ink level tracking, print quality presets, and maintenance tools, at the cost of installing and maintaining extra software.",
-  }
+  },
+  { q: "What printer should I buy for a MacBook Air?", a: "Choose a printer that lists AirPrint, since a MacBook Air can print to it without installing a manufacturer driver. If you also want to scan or use special features, check that the maker offers a macOS driver." },
+  { q: "Which printers have Mac drivers?", a: "Most major brands offer macOS drivers, but AirPrint covers basic printing without one. The guide notes where a printer needs the full driver for scanning or maintenance tools." },
+  { q: "Do I need to install software for a Mac printer?", a: "Often not. An AirPrint printer on the same network appears in the printer list on its own, while some models need a driver for scanning or advanced settings." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

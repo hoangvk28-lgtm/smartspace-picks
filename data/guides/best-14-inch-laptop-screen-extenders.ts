@@ -247,6 +247,7 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-14-inch-touchscreen-laptop-screen-extenders", title: "Best 14-Inch Touchscreen Screen Extenders (2026)" },
   { href: "/guide/best-15-6-inch-laptop-screen-extenders", title: "Best 15.6-Inch Laptop Screen Extenders (2026)" },
   { href: "/guide/best-16-inch-laptop-screen-extenders", title: "Best 16-Inch Laptop Screen Extenders (2026)" },
   { href: "/guide/best-lightweight-laptop-screen-extenders", title: "Best Lightweight Laptop Screen Extenders (2026)" }

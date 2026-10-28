@@ -211,6 +211,7 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-hdmi-touchscreen-portable-monitors", title: "Best HDMI Touchscreen Portable Monitors (2026)" },
   { href: "/guide/best-oled-portable-monitors", title: "Best OLED Portable Monitors (2026)" },
   { href: "/guide/best-portable-monitors-for-photo-editing", title: "Best Portable Monitors for Photo Editing (2026)" },
   { href: "/guide/best-portable-usb-c-monitors", title: "Best Portable USB-C Monitors (2026)" }
