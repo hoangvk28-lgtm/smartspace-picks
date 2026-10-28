@@ -426,7 +426,7 @@ export default async function BuyingGuidePage({ params }: Props) {
               </svg>
               <Link prefetch={false}
                 href={`/author/${authorToSlug(guide.author)}`}
-                className="hover:text-ink hover:underline transition-colors"
+                className="text-brand font-medium hover:underline"
               >
                 {guide.author}
               </Link>
