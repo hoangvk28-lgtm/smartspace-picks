@@ -263,7 +263,7 @@ export default async function BestDeskShelvesSmallDesksPage() {
                   />
                 </svg>
               </div>
-              <span>Jamie Cole, Lead Product Researcher</span>
+              <Link prefetch={false} href="/author/jamie-cole" className="hover:text-ink hover:underline transition-colors">Jamie Cole, Lead Product Researcher</Link>
             </div>
             <div className="flex items-center gap-1.5 text-xs text-ink-muted">
               <svg

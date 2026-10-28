@@ -2,11 +2,12 @@ import type { Guide } from "@/data/guides";
 
 export const mouseDpiExplainedGuide: Guide = {
   title: "Mouse DPI Explained: What Setting Do You Actually Need?",
+  metaTitle: "What Is a DPI Setting? Mouse DPI Explained",
   slug: "mouse-dpi-explained",
   categorySlug: "desk-setup",
   subcategorySlug: "keyboard-mouse",
   description:
-    "Mouse DPI explained in plain terms, covering what the number means for cursor sensitivity and how to choose the right setting for work or gaming.",
+    "What a DPI setting on a mouse means, which DPI to use for office work or gaming, and how DPI interacts with screen resolution and Windows pointer speed.",
   mainKeyword: "mouse dpi explained",
   subKeywords: [
     "what is mouse dpi",
@@ -27,6 +28,16 @@ export const mouseDpiExplainedGuide: Guide = {
     "monitor-resolution-explained"
   ],
   faq: [
+    {
+      question: "What is a DPI setting on a mouse?",
+      answer:
+        "The DPI setting tells the mouse how many dots (counts) it reports for every inch you move it. At 800 DPI, one inch of hand movement moves the cursor about 800 pixels; at 1600 DPI it moves about 1600. Many mice have a DPI button on top or a setting in the maker's software that cycles through presets such as 800, 1200, 1600 and 3200."
+    },
+    {
+      question: "How do I change my mouse DPI setting?",
+      answer:
+        "Press the DPI button if your mouse has one (often just below the scroll wheel), or open the manufacturer's app, such as Logitech Options+ or Razer Synapse, and pick a value. Windows has no DPI control of its own; the pointer speed slider in Mouse settings only scales movement, so set DPI in the mouse first and keep the Windows slider at its middle position with Enhance pointer precision off for the most predictable feel."
+    },
     {
       question: "What does DPI actually mean for a mouse?",
       answer:

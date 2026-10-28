@@ -33,8 +33,8 @@ export const authors: Author[] = [
       "Amazon buyer review pattern analysis",
     ],
     credentials: [
-      { label: "Products evaluated", value: "500+" },
-      { label: "Guides published", value: "13+" },
+      { label: "Products compared", value: "14,000+" },
+      { label: "Guides published", value: "5,900+" },
       { label: "Years researching", value: "4+" },
       { label: "Scoring dimensions", value: "5 weighted criteria" },
     ],
@@ -67,8 +67,8 @@ export const authors: Author[] = [
       "Compact Home Office",
     ],
     credentials: [
-      { label: "Guides published", value: "13+" },
-      { label: "Products evaluated", value: "80+" },
+      { label: "Guides published", value: "5,900+" },
+      { label: "Products compared", value: "14,000+" },
       { label: "Scoring criteria", value: "5 weighted dimensions" },
       { label: "Update frequency", value: "Reviewed every 6 months" },
     ],
@@ -93,9 +93,9 @@ export function getAuthorBySlug(slug: string): Author | undefined {
 }
 
 export function getAuthorByName(name: string): Author | undefined {
-  return authors.find(
-    (a) => a.name.toLowerCase() === name.toLowerCase()
-  );
+  // Bylines may carry a role suffix, e.g. "Jamie Cole, Lead Product Researcher"
+  const bare = name.split(",")[0].trim().toLowerCase();
+  return authors.find((a) => a.name.toLowerCase() === bare);
 }
 
 export function authorToSlug(name: string): string {

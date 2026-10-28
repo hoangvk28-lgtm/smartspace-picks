@@ -332,6 +332,18 @@ export default async function BestSmallKeyboardsPage() {
           <h2 className="text-lg font-bold text-ink mb-4 tracking-tight">Related Buying Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             {[
+              { href: "/guide/best-75-percent-keyboards", title: "Best 75% Keyboards", label: "By Layout" },
+              { href: "/guide/best-65-percent-keyboards", title: "Best 65% Keyboards", label: "By Layout" },
+              { href: "/guide/best-60-percent-keyboards", title: "Best 60% Keyboards", label: "By Layout" },
+              { href: "/guide/best-96-percent-keyboards", title: "Best 96% Keyboards (Numpad Kept)", label: "By Layout" },
+              { href: "/guide/best-small-wireless-keyboards", title: "Best Small Wireless Keyboards", label: "Compact" },
+              { href: "/guide/best-small-mechanical-keyboards", title: "Best Small Mechanical Keyboards", label: "Compact" },
+              { href: "/guide/best-small-keyboards-for-mac", title: "Best Small Keyboards for Mac", label: "Compact" },
+              { href: "/guide/best-small-keyboard-with-numpad", title: "Best Small Keyboards with Numpad", label: "Compact" },
+              { href: "/guide/best-small-keyboards-under-50", title: "Best Small Keyboards Under $50", label: "Budget" },
+              { href: "/guide/best-small-keyboards-under-100", title: "Best Small Keyboards Under $100", label: "Budget" },
+              { href: "/guide/keyboard-size-chart", title: "Keyboard Size Chart", label: "Reference" },
+              { href: "/guide/keycap-size-chart", title: "Keycap Size Chart", label: "Reference" },
               { href: "/guide/laptop-stands-small-desks", title: "Best Laptop Stands for Small Desks", label: "Desk Setup" },
               { href: "/guide/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" },
               { href: "/guide/desk-lamps-small-desks", title: "Best Desk Lamps for Small Desks", label: "Desk Setup" }
