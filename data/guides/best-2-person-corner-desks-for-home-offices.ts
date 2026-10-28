@@ -336,4 +336,6 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-corner-desks","title":"Best Corner Desks"},{"href":"/guide/best-corner-desks-for-home-office","title":"Best Corner Desks for Home Office"},{"href":"/guide/best-corner-desks-for-small-spaces","title":"Best Corner Desks for Small Spaces"}];
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-l-shaped-standing-desks-for-two", title: "Best L-Shaped Standing Desks for Two (2026)" },
+  { href: "/guide/best-standing-desks-for-two-under-500", title: "Best Standing Desks for Two Under $500" },{"href":"/guide/best-corner-desks","title":"Best Corner Desks"},{"href":"/guide/best-corner-desks-for-home-office","title":"Best Corner Desks for Home Office"},{"href":"/guide/best-corner-desks-for-small-spaces","title":"Best Corner Desks for Small Spaces"}];

@@ -1,8 +1,8 @@
 export const guideSlug = "best-standing-desks-for-two-people";
 export const guideTitle = "8 Best Standing Desks for Two People in 2026";
-export const metaTitle = "Best Standing Desks for Two People, Honestly Reviewed (2026)";
+export const metaTitle = "Best Standing Desks for Two People (2026)";
 export const metaDescription =
-  "8 desks we evaluated for two-person use, with an honest split between the one purpose-built dual-workstation desk and single-user desks wide enough to share.";
+  "Standing desks for two compared: true dual-workstation desks vs extra-wide frames, with width, motor and weight-capacity checks before you share one.";
 export const mainKeyword = "standing desk for two people";
 export const introParagraphs = [
   "Very few Amazon listings for standing desks are actually built for two people to use at once, and most guides on this topic quietly ignore that. Of the 8 picks below, only one is explicitly marketed as a two-person desk in its own title. The rest are single-user standing desks that can work for two people sharing a room only if the width, depth, and preset count happen to fit that use case, and we say so directly rather than pretending otherwise.",
@@ -481,6 +481,10 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-l-shaped-standing-desks-for-two", title: "Best L-Shaped Standing Desks for Two (2026)" },
+  { href: "/guide/best-standing-desks-for-two-under-500", title: "Best Standing Desks for Two Under $500" },
+  { href: "/guide/best-extra-wide-standing-desks", title: "Best Extra Wide Standing Desks (2026)" },
+  { href: "/guide/standing-desk-for-two-dimensions", title: "Standing Desk for Two: Dimensions Guide" },
   { href: "/guide/best-standing-desk-frames", title: "Best Standing Desk Frames for Desktop Compatibility (2026)" },
   { href: "/guide/best-standing-desks-for-heavy-setups", title: "Best Standing Desks for Heavy Setups (2026)" },
   { href: "/guide/best-dual-motor-standing-desks", title: "Best Dual-Motor Standing Desks (2026)" },

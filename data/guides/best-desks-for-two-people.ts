@@ -411,4 +411,8 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-l-shaped-desks","title":"Best L-Shaped Desks for Home Offices"},{"href":"/guide/best-corner-desks","title":"8 Best Corner Desks in 2026"},{"href":"/guide/best-2-person-corner-desks-for-home-offices","title":"8 Best 2-Person Corner Desks for Home Offices in 2026"},{"href":"/guide/desk-size-chart","title":"Desk Size Chart: Standard Dimensions by Type (2026)"},{"href":"/guide/l-shaped-desk-size-chart","title":"L-Shaped Desk Size Chart: Dimensions and Room Fit (2026)"},{"href":"/guide/best-computer-desks","title":"Best Computer Desks for Home Offices"}];
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-l-shaped-standing-desks-for-two", title: "Best L-Shaped Standing Desks for Two (2026)" },
+  { href: "/guide/best-standing-desks-for-two-under-500", title: "Best Standing Desks for Two Under $500" },
+  { href: "/guide/best-extra-wide-standing-desks", title: "Best Extra Wide Standing Desks (2026)" },
+  { href: "/guide/standing-desk-for-two-dimensions", title: "Standing Desk for Two: Dimensions Guide" },{"href":"/guide/best-l-shaped-desks","title":"Best L-Shaped Desks for Home Offices"},{"href":"/guide/best-corner-desks","title":"8 Best Corner Desks in 2026"},{"href":"/guide/best-2-person-corner-desks-for-home-offices","title":"8 Best 2-Person Corner Desks for Home Offices in 2026"},{"href":"/guide/desk-size-chart","title":"Desk Size Chart: Standard Dimensions by Type (2026)"},{"href":"/guide/l-shaped-desk-size-chart","title":"L-Shaped Desk Size Chart: Dimensions and Room Fit (2026)"},{"href":"/guide/best-computer-desks","title":"Best Computer Desks for Home Offices"}];

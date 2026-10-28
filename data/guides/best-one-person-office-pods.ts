@@ -181,6 +181,9 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-modern-office-pods", title: "Best Modern Office Pods for 2026" },
+  { href: "/guide/best-soundproof-office-pods", title: "Best Soundproof Office Pods (2026)" },
+  { href: "/guide/office-pod-size-chart", title: "Office Pod Size Chart: Dimensions by Capacity" },
   { href: "/guide/best-mini-portable-offices", title: "Best Mini Portable Offices (2026)" },
   { href: "/guide/best-small-office-pods", title: "Best Small Office Pods (2026)" },
   { href: "/guide/best-office-phone-booths-for-home-use", title: "Best Office Phone Booths for Home Use (2026)" }

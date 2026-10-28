@@ -445,6 +445,8 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides = [
+  { href: "/guide/office-pod-cost-guide", title: "Office Pod Cost Guide: Price Ranges (2026)" },
+  { href: "/guide/best-two-person-office-pods", title: "Best Two Person Office Pods (2026)" },
   { href: "/guide/best-office-pods", title: "Best Office Pods for Home and Office (2026)" },
   {
     "href": "/guide/best-foldable-office-pods",

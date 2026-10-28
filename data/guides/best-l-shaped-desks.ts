@@ -411,4 +411,5 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/l-shaped-desk-size-chart","title":"L-Shaped Desk Size Chart: Dimensions and Room Fit (2026)"},{"href":"/guide/best-l-shaped-desks-under-100","title":"Best L-Shaped Desks Under $100"},{"href":"/guide/best-l-shaped-desks-under-200","title":"Best L-Shaped Desks Under $200"},{"href":"/guide/best-corner-desks","title":"8 Best Corner Desks in 2026"},{"href":"/guide/desk-size-chart","title":"Desk Size Chart: Standard Dimensions by Type (2026)"},{"href":"/guide/best-desks-for-two-people","title":"Best Desks for Two People"}];
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-l-shaped-standing-desks-for-two", title: "Best L-Shaped Standing Desks for Two (2026)" },{"href":"/guide/l-shaped-desk-size-chart","title":"L-Shaped Desk Size Chart: Dimensions and Room Fit (2026)"},{"href":"/guide/best-l-shaped-desks-under-100","title":"Best L-Shaped Desks Under $100"},{"href":"/guide/best-l-shaped-desks-under-200","title":"Best L-Shaped Desks Under $200"},{"href":"/guide/best-corner-desks","title":"8 Best Corner Desks in 2026"},{"href":"/guide/desk-size-chart","title":"Desk Size Chart: Standard Dimensions by Type (2026)"},{"href":"/guide/best-desks-for-two-people","title":"Best Desks for Two People"}];

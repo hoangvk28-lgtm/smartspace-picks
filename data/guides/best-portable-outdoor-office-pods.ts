@@ -167,6 +167,8 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-backyard-office-pods", title: "Best Backyard Office Pods and Studios (2026)" },
+  { href: "/guide/office-pod-vs-backyard-office-shed", title: "Office Pod vs Backyard Office Shed Compared" },
   { href: "/guide/best-portable-office-pods", title: "Best Portable Office Pods (2026)" },
   { href: "/guide/best-home-office-booths", title: "Best Home Office Booths (2026)" },
   { href: "/guide/best-office-pods-for-remote-work", title: "Best Office Pods for Remote Work (2026)" }

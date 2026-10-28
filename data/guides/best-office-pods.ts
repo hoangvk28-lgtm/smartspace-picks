@@ -401,4 +401,10 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-small-office-pods","title":"Best Small Office Pods"},{"href":"/guide/best-portable-office-pods-for-sale","title":"Best Portable Office Pods for Sale"},{"href":"/guide/best-office-pods-under-5000","title":"Best Office Pods Under $5000"},{"href":"/guide/best-modular-office-pods","title":"Best Modular Office Pods"}];
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-two-person-office-pods", title: "Best Two Person Office Pods (2026)" },
+  { href: "/guide/best-modern-office-pods", title: "Best Modern Office Pods for 2026" },
+  { href: "/guide/best-soundproof-office-pods", title: "Best Soundproof Office Pods (2026)" },
+  { href: "/guide/best-backyard-office-pods", title: "Best Backyard Office Pods and Studios (2026)" },
+  { href: "/guide/office-pod-size-chart", title: "Office Pod Size Chart: Dimensions by Capacity" },
+  { href: "/guide/office-pod-cost-guide", title: "Office Pod Cost Guide: Price Ranges (2026)" },{"href":"/guide/best-small-office-pods","title":"Best Small Office Pods"},{"href":"/guide/best-portable-office-pods-for-sale","title":"Best Portable Office Pods for Sale"},{"href":"/guide/best-office-pods-under-5000","title":"Best Office Pods Under $5000"},{"href":"/guide/best-modular-office-pods","title":"Best Modular Office Pods"}];
