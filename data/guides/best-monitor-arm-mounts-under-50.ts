@@ -483,6 +483,7 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-monitor-arms-under-200", title: "Best Monitor Arms Under $200 (2026)" },
   { href: "/guide/best-single-monitor-arms", title: "8 Best Single Monitor Arms in 2026" },
   { href: "/guide/best-monitor-arms-for-laptop", title: "8 Best Monitor Arms for Laptop in 2026" },
   { href: "/guide/best-dual-monitor-arms", title: "Best Dual Monitor Arms" },

@@ -396,6 +396,8 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides = [
+  { href: "/guide/best-under-desk-footrests-under-30", title: "Best Under-Desk Footrests Under $30 (2026)" },
+  { href: "/guide/best-under-desk-footrests-under-50", title: "Best Under-Desk Footrests Under $50 (2026)" },
   {
     "href": "/guide/best-foot-rests-with-massage-rollers",
     "title": "Best Foot Rests with Massage Rollers"

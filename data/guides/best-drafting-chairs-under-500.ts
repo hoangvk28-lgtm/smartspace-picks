@@ -292,4 +292,6 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drafting-chairs-under-50","title":"Best Drafting Chairs Under $50"},{"href":"/guide/best-drafting-chairs-under-100","title":"Best Drafting Chairs Under $100"},{"href":"/guide/best-drafting-chairs-under-150","title":"Best Drafting Chairs Under $150"}];
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-drafting-chairs-for-short-people", title: "Best Drafting Chairs for Short People (2026)" },
+  { href: "/guide/drafting-chair-height-chart", title: "Drafting Chair Height Chart by Desk Height" },{"href":"/guide/best-drafting-chairs-under-50","title":"Best Drafting Chairs Under $50"},{"href":"/guide/best-drafting-chairs-under-100","title":"Best Drafting Chairs Under $100"},{"href":"/guide/best-drafting-chairs-under-150","title":"Best Drafting Chairs Under $150"}];

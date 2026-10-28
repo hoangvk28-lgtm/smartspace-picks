@@ -24,6 +24,8 @@ export const standardDeskHeightGuide: Guide = {
   readTime: "8 min",
   recommendedProductIds: [],
   relatedGuideSlugs: [
+    "best-computer-desks",
+    "best-writing-desks",
     "best-standing-desk-under-300",
     "best-standing-desk-under-500",
     "best-ergonomic-chair-under-300",

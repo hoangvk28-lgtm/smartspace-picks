@@ -240,6 +240,8 @@ export const faq = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-laptop-stands-under-30", title: "Best Laptop Stands Under $30 (2026)" },
+  { href: "/guide/best-laptop-stands-under-50", title: "Best Laptop Stands Under $50 (2026)" },
   { href: "/guide/best-vertical-laptop-stands-under-15", title: "Best Vertical Laptop Stands Under $15" },
   { href: "/guide/best-vertical-laptop-stands", title: "Best Vertical Laptop Stands" }
 ];

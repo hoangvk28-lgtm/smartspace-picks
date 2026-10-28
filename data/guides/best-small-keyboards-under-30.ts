@@ -273,6 +273,8 @@ export const faq = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-small-keyboards-under-50", title: "Best Small Keyboards Under $50 (2026)" },
+  { href: "/guide/best-small-keyboards-under-100", title: "Best Small Keyboards Under $100 (2026)" },
   { href: "/guide/best-small-keyboard-with-numpad", title: "Best Small Keyboards with Numpad" },
   { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards" }
 ];

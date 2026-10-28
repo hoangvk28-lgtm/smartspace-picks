@@ -181,6 +181,7 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-office-pods", title: "Best Office Pods for Home and Office (2026)" },
   { href: "/guide/best-mini-portable-offices", title: "Best Mini Portable Offices (2026)" },
   { href: "/guide/best-one-person-office-pods", title: "Best One-Person Office Pods (2026)" },
   { href: "/guide/best-office-pods-for-small-apartments", title: "Best Office Pods for Small Apartments (2026)" }

@@ -6,7 +6,7 @@ export const guideTitle = "8 Best Small Keyboards (2026): Compact Picks for Desk
 export const guideDescription =
   "Eight compact keyboards compared across layout, switch type, connectivity, and price - from hot-swap mechanical 75% boards to ultra-portable mini keyboards. The right pick for every setup and budget.";
 export const metaTitle = "Best Small Keyboards 2026: Compact Picks";
-export const metaDescription = "8 compact keyboards for small desks -- mechanical, wireless, and budget picks compared across layout, switch type, and connectivity. From 60% to TKL.";
+export const metaDescription = "Compact keyboards for small desks and small spaces: 60% to TKL mechanical, wireless, and budget picks compared by layout, switches, and connectivity.";
 export const mainKeyword = "best small keyboard";
 export const lastUpdated = "2026-05-27";
 export const readTime = "10 min";
@@ -383,5 +383,13 @@ export const faq: Array<{ q: string; a: string }> = [
   {
     q: "Do I need hot-swappable switches?",
     a: "Hot-swap is worth paying for if you are new to mechanical keyboards and unsure of your preferred switch type, or if you want the flexibility to try multiple switch feels without buying multiple keyboards. Changing switches takes about two minutes with no soldering tools required. If you already know your preferred switch type and are confident in that preference, a non-hot-swap keyboard is a reasonable choice at the same or lower price.",
+  },
+  {
+    q: "What size keyboard fits a small space best?",
+    a: "Measure the free width on your desk first. A 60% board is about 11.5 inches wide, a 75% about 12.6 inches, a TKL about 14.4 inches, and a full-size board about 17.5 inches. Leave at least 8 to 10 inches beside the keyboard for your mouse, so on a desk under 36 inches wide a 60% or 75% layout is the practical choice. Our keyboard size chart lists exact dimensions for every layout.",
+  },
+  {
+    q: "What if I need a numpad but still want a small keyboard?",
+    a: "Look at a 96% (1800-compact) layout, which keeps the numpad while trimming the gaps between key clusters, or use a 60% to 75% board plus a separate numpad you only put on the desk when you need it. Our guide to small keyboards with a numpad compares both approaches.",
   }
 ];

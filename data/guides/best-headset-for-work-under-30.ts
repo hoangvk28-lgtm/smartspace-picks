@@ -241,6 +241,9 @@ export const faq = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-headset-for-work-under-50", title: "Best Headsets for Work Under $50 (2026)" },
+  { href: "/guide/best-headset-for-work-under-100", title: "Best Headsets for Work Under $100 (2026)" },
+  { href: "/guide/best-headset-for-work-under-150", title: "Best Headsets for Work Under $150 (2026)" },
   { href: "/guide/best-headset-for-work-under-70", title: "Best Headsets for Work Under $70" },
   { href: "/guide/best-headphones-for-online-classes", title: "Best Headphones for Online Classes" }
 ];

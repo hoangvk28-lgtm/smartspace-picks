@@ -238,6 +238,7 @@ export const faq: { q: string; a: string }[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-small-desks", title: "Best Small Desks for Small Spaces (2026)" },
   { href: "/guide/best-electric-standing-desk", title: "Best Electric Standing Desks in 2026" },
   { href: "/guide/best-small-solid-wood-desk", title: "Best Small Solid Wood Desks in 2026" },
   { href: "/guide/best-standing-desk-with-drawers", title: "Best Standing Desks with Drawers in 2026" },

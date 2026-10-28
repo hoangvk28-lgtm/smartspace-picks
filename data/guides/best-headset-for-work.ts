@@ -448,6 +448,11 @@ export const faq = [
 ];
 
 export const relatedGuides = [
+  { href: "/guide/best-headset-for-work-under-50", title: "Best Headsets for Work Under $50 (2026)" },
+  { href: "/guide/best-headset-for-work-under-100", title: "Best Headsets for Work Under $100 (2026)" },
+  { href: "/guide/best-headset-for-work-under-150", title: "Best Headsets for Work Under $150 (2026)" },
+  { href: "/guide/best-headsets-for-zoom", title: "Best Headsets for Zoom Calls (2026)" },
+  { href: "/guide/best-headsets-for-teams", title: "Best Teams Certified Headsets (2026)" },
   { title: "7 Best Gaming Headsets: Budget to Premium", href: "/guide/best-headphones-for-gaming" },
   { title: "7 Best Headphones for Working Out", href: "/guide/best-headphones-for-working-out" },
   { title: "Best Headphone Stands for Your Desk", href: "/guide/best-headphone-stand-desk" },

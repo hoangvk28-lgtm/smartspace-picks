@@ -438,6 +438,9 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-docking-stations-under-50", title: "Best Docking Stations Under $50 (2026)" },
+  { href: "/guide/best-docking-stations-under-150", title: "Best Docking Stations Under $150 (2026)" },
+  { href: "/guide/best-docking-stations-under-200", title: "Best Docking Stations Under $200 (2026)" },
   { href: "/guide/best-usb-c-docking-stations", title: "Best USB-C Docking Stations (2026)" },
   { href: "/guide/usb-c-hub-vs-docking-station", title: "USB-C Hub vs. Docking Station" },
   { href: "/guide/best-docking-stations-for-desk-setup", title: "Best Docking Stations for Desk Setup (2026)" }

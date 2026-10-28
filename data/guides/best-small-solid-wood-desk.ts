@@ -366,6 +366,8 @@ export const faq: { q: string; a: string }[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-writing-desks", title: "Best Writing Desks for Home Offices (2026)" },
+  { href: "/guide/best-small-desks", title: "Best Small Desks for Small Spaces (2026)" },
   {
     href: "/guide/best-solid-wood-desk",
     title: "Best Solid Wood Desks for Home Office in 2026",

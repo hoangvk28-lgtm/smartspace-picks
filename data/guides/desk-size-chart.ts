@@ -2,6 +2,7 @@ import type { Guide } from "@/data/guides";
 
 export const deskSizeChartGuide: Guide = {
   title: "Desk Size Chart: Standard Dimensions by Type (2026)",
+  metaTitle: "Desk Size Chart: Standard Desk Dimensions",
   slug: "desk-size-chart",
   categorySlug: "desk-setup",
   subcategorySlug: "accessories",
@@ -22,10 +23,21 @@ export const deskSizeChartGuide: Guide = {
   readTime: "9 min",
   recommendedProductIds: [],
   relatedGuideSlugs: [
+    "desk-depth-guide",
+    "best-small-desks",
+    "best-30-inch-desks",
+    "best-36-inch-desks",
+    "best-40-inch-desks",
+    "best-narrow-desks",
+    "l-shaped-desk-size-chart",
+    "gaming-desk-size-chart",
     "best-small-desk-accessories",
     "best-desk-setup-accessories",
     "best-corner-standing-desk",
-    "best-standing-desk-48-inch"
+    "best-standing-desk-48-inch",
+    "standard-desk-height",
+    "standing-desk-height-chart",
+    "best-standing-desks-for-two-people"
   ],
   faq: [
     {
@@ -52,6 +64,21 @@ export const deskSizeChartGuide: Guide = {
       question: "What size desk fits in a small bedroom or dorm room?",
       answer:
         "A desk 30 to 36 inches wide and 18 to 20 inches deep fits most small bedroom and dorm corners while still holding a laptop and basic accessories. Wall-mounted floating desks can go as narrow as 24 inches for extremely tight spaces.",
+    },
+    {
+      question: "Is a 27-inch-wide desk big enough?",
+      answer:
+        "A 27-inch-wide desk works for a laptop plus a mouse, or a single monitor up to about 24 inches with a compact keyboard, but it leaves little room for anything else. Pair it with a 60% to 75% keyboard (about 11.5 to 12.6 inches wide) so your mouse still fits beside it, and add a monitor riser or wall shelf to move storage off the desktop."
+    },
+    {
+      question: "What is the standard size of a gaming desk?",
+      answer:
+        "Most gaming desks are 47 to 63 inches wide and 24 to 30 inches deep. The extra depth matters more than the width: a 27-inch or larger monitor needs at least 24 inches of depth to sit at a comfortable viewing distance, and low-sensitivity gaming needs a wide mouse area beside the keyboard."
+    },
+    {
+      question: "How big should a desk for two people be?",
+      answer:
+        "Plan on at least 60 inches of width so each person gets about 30 inches, which is the practical minimum for a laptop or one monitor plus a keyboard. For two people with external monitors each, 72 inches or wider is more realistic, and a standing desk shared by two needs a dual-motor frame rated for the combined load."
     }
   ],
   sections: [

@@ -78,7 +78,7 @@ function rowToPublicGuide(row: GuideRow): PublicGuide {
         row.hero_image ||
         undefined,
       heroImageAlt: row.hero_image_alt || undefined,
-      metaTitle: row.meta_title || undefined,
+      metaTitle: row.meta_title || staticGuide.metaTitle || undefined,
       metaDescription: row.meta_description || undefined,
       intro: row.intro || undefined,
     };
@@ -145,7 +145,7 @@ export async function getPublicGuides(): Promise<PublicGuide[]> {
         heroImage: g.heroImage || row.hero_image || "",
         thumbnailImage: g.thumbnailImage || g.heroImage || row.thumbnail_image || row.hero_image || undefined,
         heroImageAlt: row.hero_image_alt || undefined,
-        metaTitle: row.meta_title || undefined,
+        metaTitle: row.meta_title || g.metaTitle || undefined,
         metaDescription: row.meta_description || undefined,
         intro: row.intro || undefined,
       };

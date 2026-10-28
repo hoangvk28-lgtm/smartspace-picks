@@ -226,6 +226,8 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-portable-monitors-under-150", title: "Best Portable Monitors Under $150 (2026)" },
+  { href: "/guide/best-portable-monitors-under-300", title: "Best Portable Monitors Under $300 (2026)" },
   { href: "/guide/best-portable-monitors-under-200", title: "Best Portable Monitors Under $200 (2026)" },
   { href: "/guide/best-budget-usb-c-monitors", title: "Best Budget USB-C Monitors (2026)" },
   { href: "/guide/best-hdmi-portable-monitors", title: "Best HDMI Portable Monitors (2026)" }

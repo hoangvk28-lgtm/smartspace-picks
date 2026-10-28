@@ -166,6 +166,8 @@ export const faq: { q: string; a: string }[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-under-desk-footrests-under-30", title: "Best Under-Desk Footrests Under $30 (2026)" },
+  { href: "/guide/best-under-desk-footrests-under-50", title: "Best Under-Desk Footrests Under $50 (2026)" },
   { href: "/guide/best-adjustable-under-desk-footrests", title: "Best Adjustable Under-Desk Footrests (2026)" },
   { href: "/guide/best-under-desk-footrests", title: "Best Under-Desk Footrests (2026)" },
   { href: "/guide/best-rocking-footrests-under-desk", title: "Best Rocking Footrests Under Desk (2026)" },

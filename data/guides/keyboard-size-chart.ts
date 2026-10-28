@@ -2,6 +2,7 @@ import type { Guide } from "@/data/guides";
 
 export const keyboardSizeChartGuide: Guide = {
   title: "Keyboard Size Chart: All Layouts and Dimensions (2026)",
+  metaTitle: "Keyboard Sizes Chart: Every Layout Measured",
   slug: "keyboard-size-chart",
   categorySlug: "desk-setup",
   subcategorySlug: "accessories",
@@ -23,10 +24,19 @@ export const keyboardSizeChartGuide: Guide = {
   readTime: "12 min",
   recommendedProductIds: [],
   relatedGuideSlugs: [
+    "keycap-size-chart",
+    "best-small-keyboards-under-50",
+    "best-small-keyboards-under-100",
+    "best-75-percent-keyboards",
+    "best-65-percent-keyboards",
+    "best-60-percent-keyboards",
+    "best-96-percent-keyboards",
     "tkl-vs-full-size-keyboard",
     "60-vs-65-vs-75-keyboard",
-    "best-mechanical-keyboard-under-100",
-    "best-monitor-arm-under-100"
+    "best-small-keyboards",
+    "best-small-keyboard-with-numpad",
+    "best-ergonomic-keyboards-for-small-hands",
+    "best-mechanical-keyboard-under-100"
   ],
   faq: [
     {
@@ -58,6 +68,21 @@ export const keyboardSizeChartGuide: Guide = {
       question: "What is the difference between Cherry MX Red and Brown?",
       answer:
         "Cherry MX Red is a linear switch - it presses straight down with no tactile bump or click. Cherry MX Brown is a tactile switch - it has a subtle bump at the actuation point (2.0mm) that provides keystroke feedback without a click sound. Red is preferred for gaming; Brown is preferred for typing in shared environments.",
+    },
+    {
+      question: "What is the normal width of a keyboard?",
+      answer:
+        "A normal full-size keyboard is about 17.5 inches (44.5cm) wide. Laptop keyboards are much narrower, usually 11 to 13 inches, because they drop the numpad. If you want a full layout with a numpad in less space, a 96% (1800-compact) board keeps nearly every key at roughly 15 inches (38cm) wide, which fits the common 'under 360-380mm' desk budget."
+    },
+    {
+      question: "Does a 65% keyboard have Num Lock or a numpad?",
+      answer:
+        "No. A 65% keyboard has no numpad and usually no Num Lock key, so Num Lock only matters if the keyboard maps a numpad onto letter keys through the Fn layer. If you type numbers often, either pair a 65% board with a separate USB or wireless numpad, or step up to a 96% layout, which keeps the numpad while staying about 2.5 inches narrower than full-size."
+    },
+    {
+      question: "How big is a TKL keyboard?",
+      answer:
+        "A tenkeyless (TKL, 80%) keyboard is about 14.4 inches (36.5cm) wide and 5.1 inches (13cm) deep. It keeps the function row, arrow keys, and navigation cluster, and only drops the numpad, which frees roughly 3 inches of desk width for your mouse compared with a full-size board."
     }
   ],
   sections: [

@@ -317,6 +317,7 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides = [
+  { href: "/guide/best-monitor-arms-under-200", title: "Best Monitor Arms Under $200 (2026)" },
   { href: "/guide/ultrawide-vs-dual-monitor", title: "Ultrawide vs Dual Monitor" },
   { href: "/guide/best-standing-desk-under-200", title: "Best Standing Desk Under $200" },
   { href: "/guide/standard-desk-height", title: "Standard Desk Height Guide" },

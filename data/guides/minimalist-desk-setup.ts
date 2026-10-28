@@ -3,7 +3,7 @@ const BASE = "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/
 export const guideTitle = "Minimalist Desk Setup: 10 Clean, Clutter-Free Workspaces (2026)";
 export const guideDescription =
   "A minimalist desk setup is not about removing everything from your workspace. It is about keeping only the items that make your desk easier to use, easier to clean, and easier to focus on.";
-export const metaTitle = "Minimalist Desk Setup Ideas for a Clean, Clutter-Free Workspace";
+export const metaTitle = "Minimalist Desk Setup Ideas: 10 Clean Workspaces";
 export const metaDescription =
   "Build a minimalist desk setup with 10 clean workspace ideas, including desk mats, slim organizers, cable trays, wireless chargers, and simple accessories.";
 export const lastUpdated = "May 2026";
@@ -300,5 +300,20 @@ export const faq: { question: string; answer: string }[] = [
     question: "Is a minimalist desk setup good for small spaces?",
     answer:
       "Yes -- a minimal setup is especially effective on small desks because it maximizes usable surface area. A clamp lamp, slim organizer, and hidden cables free up the most space. A monitor stand with a storage shelf adds a second layer without expanding the desk footprint. See our guide to small desk setup ideas for more.",
+  },
+  {
+    question: "What are the must-haves for a minimalist desk setup?",
+    answer:
+      "Five items cover most setups: a desk mat to define the work zone, a monitor riser or arm to free surface space, an under-desk cable tray for the power strip, one small organizer for pens and cables, and a lamp that clamps or stands off the desk. Add a wireless charger only if it replaces a cable you already have on the desk."
+  },
+  {
+    question: "What is the quickest way to set up a minimalist desk at home?",
+    answer:
+      "Clear the desk completely, then put back only the screen, keyboard, mouse, and lamp. Bundle every cable behind the desk with a few adhesive clips and a cable tray, and move everything else into one drawer or box. This takes under an hour and gets you most of the visual result before you buy anything new."
+  },
+  {
+    question: "How do I make a minimalist desk setup ergonomic?",
+    answer:
+      "Set the top of the monitor at or slightly below eye level and about an arm's length away, keep elbows near 90 degrees with the keyboard at elbow height, and keep feet flat or on a footrest. A compact keyboard helps here too, because it lets the mouse sit closer to your body instead of out past a numpad."
   }
 ];

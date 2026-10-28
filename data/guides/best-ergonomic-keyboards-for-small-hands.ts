@@ -262,6 +262,8 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-65-percent-keyboards", title: "Best 65% Keyboards for Compact Desks (2026)" },
+  { href: "/guide/best-75-percent-keyboards", title: "Best 75% Keyboards for Small Desks (2026)" },
   { href: "/guide/best-compact-ergonomic-keyboards", title: "Best Compact Ergonomic Keyboards (2026)" },
   { href: "/guide/best-split-ergonomic-keyboards", title: "Best Split Ergonomic Keyboards (2026)" },
   { href: "/guide/best-low-profile-ergonomic-keyboards", title: "Best Low-Profile Ergonomic Keyboards (2026)" }

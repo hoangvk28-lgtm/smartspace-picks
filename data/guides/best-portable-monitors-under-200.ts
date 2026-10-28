@@ -294,6 +294,8 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-portable-monitors-under-150", title: "Best Portable Monitors Under $150 (2026)" },
+  { href: "/guide/best-portable-monitors-under-300", title: "Best Portable Monitors Under $300 (2026)" },
   { href: "/guide/best-monitor-under-100", title: "Best Monitor Under $100 (2026)" },
   { href: "/guide/best-2k-portable-monitors", title: "Best 2K Portable Monitors (2026)" },
   { href: "/guide/best-portable-monitors-with-vesa-mounts", title: "Best Portable Monitors with VESA Mounts (2026)" }

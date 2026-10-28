@@ -303,6 +303,10 @@ export const atAGlanceRows = products.map((p) => ({
 
 export const faq = [
   {
+    q: "Is there a full layout keyboard under 360mm wide?",
+    a: "Yes. A 96% (1800-compact) keyboard keeps the numpad and nearly every full-size key but typically measures about 37 to 39cm wide, while some low-profile wireless 96% boards come in closer to 36cm. Check the exact width in the listing's dimensions, not the product title, because 'compact' is used loosely. If you need to stay strictly under 36cm, a TKL board (about 36.5cm or less) plus a separate numpad that you move aside when not needed is the most reliable option.",
+  },
+  {
     q: "What is a 96% keyboard?",
     a: "A 96% keyboard includes all the keys of a full-size 104-key keyboard including the numpad in a more compact frame. It achieves this by eliminating the gaps between key clusters and slightly tightening the navigation section. The result is a keyboard about 4 to 6 cm narrower than a standard full-size layout while retaining every key including the number pad.",
   },
@@ -329,7 +333,9 @@ export const faq = [
 ];
 
 export const relatedGuides = [
+  { href: "/guide/best-96-percent-keyboards", title: "Best 96% Keyboards with Numpad (2026)" },
   { href: "/guide/best-small-keyboards", title: "Best Small Keyboards" },
+  { href: "/guide/keyboard-size-chart", title: "Keyboard Size Chart" },
   { href: "/guide/best-compact-keyboard-under-50", title: "Best Compact Keyboards Under $50" },
   { href: "/guide/best-small-desk-accessories", title: "Best Small Desk Accessories" }
 ];

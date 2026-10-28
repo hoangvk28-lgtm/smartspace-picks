@@ -329,6 +329,8 @@ export const faq: FaqItem[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-ergonomic-keyboards-under-50", title: "Best Ergonomic Keyboards Under $50 (2026)" },
+  { href: "/guide/best-ergonomic-keyboards-under-150", title: "Best Ergonomic Keyboards Under $150 (2026)" },
   { href: "/guide/best-ergonomic-keyboard-and-mouse-combos", title: "Best Ergonomic Keyboard and Mouse Combos (2026)" },
   { href: "/guide/best-split-ergonomic-keyboards", title: "Best Split Ergonomic Keyboards (2026)" },
   { href: "/guide/best-small-keyboards", title: "Best Small Keyboards for Small Desks (2026)" }
