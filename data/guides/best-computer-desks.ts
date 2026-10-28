@@ -411,4 +411,5 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/desk-size-chart","title":"Desk Size Chart: Standard Dimensions by Type (2026)"},{"href":"/guide/best-computer-desks-under-100","title":"Best Computer Desks Under $100"},{"href":"/guide/best-computer-desks-under-200","title":"Best Computer Desks Under $200"},{"href":"/guide/best-writing-desks","title":"Best Writing Desks for Home Offices"},{"href":"/guide/standard-desk-height","title":"Standard Desk Height: What It Is and How to Find Yours"},{"href":"/guide/best-gaming-desks","title":"Best Gaming Desks for Small Rooms"}];
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/home-office-desk-setup-ideas", title: "Home Office Desk Setup Ideas That Work" },{"href":"/guide/desk-size-chart","title":"Desk Size Chart: Standard Dimensions by Type (2026)"},{"href":"/guide/best-computer-desks-under-100","title":"Best Computer Desks Under $100"},{"href":"/guide/best-computer-desks-under-200","title":"Best Computer Desks Under $200"},{"href":"/guide/best-writing-desks","title":"Best Writing Desks for Home Offices"},{"href":"/guide/standard-desk-height","title":"Standard Desk Height: What It Is and How to Find Yours"},{"href":"/guide/best-gaming-desks","title":"Best Gaming Desks for Small Rooms"}];

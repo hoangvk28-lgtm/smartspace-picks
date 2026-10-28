@@ -22,6 +22,8 @@ export const sixtyVs65Vs75KeyboardGuide: Guide = {
   readTime: "11 min",
   recommendedProductIds: [],
   relatedGuideSlugs: [
+    "75-vs-tkl-keyboard",
+    "smallest-keyboard-layouts",
     "tkl-vs-full-size-keyboard",
     "keyboard-size-chart",
     "best-mechanical-keyboard-under-100",

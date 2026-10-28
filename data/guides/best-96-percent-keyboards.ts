@@ -397,4 +397,5 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-small-keyboard-with-numpad","title":"Best Small Keyboards with Numpad"},{"href":"/guide/keyboard-size-chart","title":"Keyboard Size Chart"},{"href":"/guide/tkl-vs-full-size-keyboard","title":"TKL vs Full-Size Keyboard"},{"href":"/guide/best-small-keyboards","title":"Best Small Keyboards"}];
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/96-vs-tkl-keyboard", title: "96% vs TKL Keyboard: Size and Key Differences" },{"href":"/guide/best-small-keyboard-with-numpad","title":"Best Small Keyboards with Numpad"},{"href":"/guide/keyboard-size-chart","title":"Keyboard Size Chart"},{"href":"/guide/tkl-vs-full-size-keyboard","title":"TKL vs Full-Size Keyboard"},{"href":"/guide/best-small-keyboards","title":"Best Small Keyboards"}];

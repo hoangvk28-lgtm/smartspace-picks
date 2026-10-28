@@ -24,6 +24,11 @@ export const keyboardSizeChartGuide: Guide = {
   readTime: "12 min",
   recommendedProductIds: [],
   relatedGuideSlugs: [
+    "full-size-keyboard-dimensions",
+    "smallest-keyboard-layouts",
+    "96-vs-tkl-keyboard",
+    "75-vs-tkl-keyboard",
+    "laptop-keyboard-size-guide",
     "keycap-size-chart",
     "best-small-keyboards-under-50",
     "best-small-keyboards-under-100",

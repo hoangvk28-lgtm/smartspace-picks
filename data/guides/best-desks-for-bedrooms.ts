@@ -407,4 +407,5 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/desk-size-chart","title":"Desk Size Chart: Standard Dimensions by Type (2026)"},{"href":"/guide/best-small-desks","title":"Best Small Desks for Small Spaces"},{"href":"/guide/best-36-inch-desks","title":"Best 36-Inch Desks for Small Rooms"},{"href":"/guide/best-dorm-desks","title":"Best Dorm Desks for Small Rooms"},{"href":"/guide/best-small-desks-under-100","title":"Best Small Desks Under $100"},{"href":"/guide/small-desk-organization-ideas","title":"Small Desk Organization Ideas: 7 Methods That Actually Keep a Tiny Desk Clean"}];
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/small-bedroom-desk-setup", title: "Small Bedroom Desk Setup That Actually Fits" },{"href":"/guide/desk-size-chart","title":"Desk Size Chart: Standard Dimensions by Type (2026)"},{"href":"/guide/best-small-desks","title":"Best Small Desks for Small Spaces"},{"href":"/guide/best-36-inch-desks","title":"Best 36-Inch Desks for Small Rooms"},{"href":"/guide/best-dorm-desks","title":"Best Dorm Desks for Small Rooms"},{"href":"/guide/best-small-desks-under-100","title":"Best Small Desks Under $100"},{"href":"/guide/small-desk-organization-ideas","title":"Small Desk Organization Ideas: 7 Methods That Actually Keep a Tiny Desk Clean"}];

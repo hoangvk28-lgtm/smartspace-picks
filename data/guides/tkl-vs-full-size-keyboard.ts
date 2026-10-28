@@ -22,6 +22,8 @@ export const tklVsFullSizeKeyboardGuide: Guide = {
   readTime: "9 min",
   recommendedProductIds: [],
   relatedGuideSlugs: [
+    "96-vs-tkl-keyboard",
+    "75-vs-tkl-keyboard",
     "60-vs-65-vs-75-keyboard",
     "keyboard-size-chart",
     "best-mechanical-keyboard-under-100",

@@ -403,4 +403,5 @@ export const faq = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/75-vs-tkl-keyboard", title: "75% vs TKL Keyboard: Which Layout Fits You" },
   { href: "/guide/keycap-size-chart", title: "Keycap Size Chart: 1u and Spacebar Sizes" },{"href":"/guide/best-small-keyboards","title":"Best Small Keyboards"},{"href":"/guide/keyboard-size-chart","title":"Keyboard Size Chart"},{"href":"/guide/60-vs-65-vs-75-keyboard","title":"60% vs 65% vs 75% Keyboard"},{"href":"/guide/best-65-percent-keyboards","title":"Best 65% Keyboards"}];

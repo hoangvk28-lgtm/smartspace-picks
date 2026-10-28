@@ -23,6 +23,7 @@ export const deskSizeChartGuide: Guide = {
   readTime: "9 min",
   recommendedProductIds: [],
   relatedGuideSlugs: [
+    "small-bedroom-desk-setup",
     "desk-depth-guide",
     "best-small-desks",
     "best-30-inch-desks",
