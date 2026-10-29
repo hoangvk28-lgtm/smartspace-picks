@@ -45,14 +45,34 @@ const BLOCKED_USER_AGENTS = [
 const BLOCKED_COUNTRIES = new Set(["SG"]);
 const ALLOWED_BOTS = /Googlebot|bingbot|GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|Claude-Web|PerplexityBot|Applebot|DuckDuckBot|YandexBot/i;
 
+// The 403 must never be cached: Cloudflare's "HTML pages - cache" rule on
+// /guide/* would otherwise store one blocked response and serve it to every
+// real visitor for that URL (including Bing/Google search clicks).
+function forbidden() {
+  return new NextResponse("Forbidden", {
+    status: 403,
+    headers: {
+      "Cache-Control": "private, no-store, max-age=0",
+      "CDN-Cache-Control": "no-store",
+      "Cloudflare-CDN-Cache-Control": "no-store",
+    },
+  });
+}
+
 export function middleware(request: NextRequest) {
   const ua = request.headers.get("user-agent") ?? "";
   if (!ua || BLOCKED_USER_AGENTS.some((re) => re.test(ua))) {
-    return new NextResponse("Forbidden", { status: 403 });
+    return forbidden();
   }
-  const country = request.headers.get("x-vercel-ip-country") ?? "";
+  // The site sits behind the Cloudflare proxy, so x-vercel-ip-country is the
+  // country of the Cloudflare edge, not the visitor (Vietnam/Asia visitors are
+  // often routed through Cloudflare's SG PoP). Prefer CF-IPCountry, which is the
+  // real visitor country, and only fall back to Vercel's header when not proxied.
+  const country =
+    request.headers.get("cf-ipcountry") ??
+    (request.headers.get("cf-ray") ? "" : request.headers.get("x-vercel-ip-country") ?? "");
   if (BLOCKED_COUNTRIES.has(country) && !ALLOWED_BOTS.test(ua)) {
-    return new NextResponse("Forbidden", { status: 403 });
+    return forbidden();
   }
   return NextResponse.next();
 }
