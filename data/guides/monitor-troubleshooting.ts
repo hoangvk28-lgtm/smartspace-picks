@@ -1,3 +1,4 @@
+import { productBox } from "@/lib/product-box";
 import type { Guide } from "@/data/guides";
 
 export const monitorTroubleshootingGuide: Guide = {
@@ -70,7 +71,11 @@ export const monitorTroubleshootingGuide: Guide = {
     },
     {
       heading: "Start With Cables Before Assuming Hardware Failure",
-      body: `A surprising number of monitor problems trace back to a simple loose or damaged cable rather than an actual monitor defect. Before troubleshooting further, disconnect and firmly reseat the video cable at both the monitor and computer ends, and if possible, test with a different cable entirely, since a subtly damaged cable can cause flickering, no-signal errors, or color issues that look exactly like a failing monitor.`,
+      body: `A surprising number of monitor problems trace back to a simple loose or damaged cable rather than an actual monitor defect. Before troubleshooting further, disconnect and firmly reseat the video cable at both the monitor and computer ends, and if possible, test with a different cable entirely, since a subtly damaged cable can cause flickering, no-signal errors, or color issues that look exactly like a failing monitor.
+
+### Certified cables to rule out the cable first
+
+${productBox([{"label": "HDMI replacement", "name": "UGREEN 8K HDMI 2.1 Certified Cable", "text": "Certified Ultra High Speed 48Gbps HDMI 2.1. Handles 4K at 120Hz or 240Hz, a common cause of flicker when an old cable can't keep up.", "asin": "B0CFFFSFFN", "image": "https://m.media-amazon.com/images/I/41gkw+msNrL._SL500_.jpg"}, {"label": "DisplayPort replacement", "name": "IVANKY VESA Certified DisplayPort 1.4 Cable", "text": "VESA certified DP 1.4 for 4K at high refresh rates. Fixes many blank-screen and signal-dropout issues caused by uncertified cables.", "asin": "B07VVJZJ2P", "image": "https://m.media-amazon.com/images/I/41OJwZ43hVL._SL500_.jpg"}])}`,
     },
     {
       heading: "Checking Software Settings Before a Hardware Diagnosis",

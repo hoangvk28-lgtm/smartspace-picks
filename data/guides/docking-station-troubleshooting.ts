@@ -1,3 +1,4 @@
+import { productBox } from "@/lib/product-box";
 import type { Guide } from "@/data/guides";
 
 export const dockingStationTroubleshootingGuide: Guide = {
@@ -69,7 +70,11 @@ export const dockingStationTroubleshootingGuide: Guide = {
     },
     {
       heading: "Why Power Delivery Mismatches Cause Confusing Symptoms",
-      body: `A docking station that can't supply enough power for your specific laptop doesn't necessarily fail outright, it often results in a laptop that charges very slowly, only maintains its current charge level without increasing it, or even slowly drains while under heavy use despite being connected to the dock. This can look like a defective dock when it's actually a straightforward wattage mismatch, checking the dock's rated power delivery against your laptop's actual charging requirement resolves the confusion.`,
+      body: `A docking station that can't supply enough power for your specific laptop doesn't necessarily fail outright, it often results in a laptop that charges very slowly, only maintains its current charge level without increasing it, or even slowly drains while under heavy use despite being connected to the dock. This can look like a defective dock when it's actually a straightforward wattage mismatch, checking the dock's rated power delivery against your laptop's actual charging requirement resolves the confusion.
+
+### If you need to replace the dock or the cable
+
+${productBox([{"label": "Reliable dual-monitor dock", "name": "Anker 11-in-1 USB-C Docking Station", "text": "HDMI plus DisplayPort for two screens, 10Gbps USB-C and USB-A ports and up to 85W pass-through charging from a 100W charger.", "asin": "B09Q5V9G5P", "image": "https://m.media-amazon.com/images/I/31j9gHhrD5L._SL500_.jpg"}, {"label": "Rule out a bad cable", "name": "Cable Matters Thunderbolt 4 Cable (Intel Certified)", "text": "A certified 40Gbps, 100W cable. Swapping in a known-good cable is the fastest way to tell whether the dock or the cable is failing.", "asin": "B084Z65YJQ", "image": "https://m.media-amazon.com/images/I/411y0Q68plL._SL500_.jpg"}])}`,
     },
     {
       heading: "Keeping Drivers and Firmware Updated",

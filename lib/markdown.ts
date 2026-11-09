@@ -15,6 +15,12 @@ export function markdownToHtml(text: string): string {
   while (i < lines.length) {
     const line = lines[i];
 
+    // Raw single-line HTML block (e.g. productBox()) — pass through untouched
+    if (/^<div[\s>]/.test(line)) {
+      out.push(line);
+      i++; continue;
+    }
+
     // H3
     if (/^### /.test(line)) {
       out.push(`<h3>${inlineMd(line.slice(4).trim())}</h3>`);
@@ -92,6 +98,7 @@ export function markdownToHtml(text: string): string {
       i < lines.length &&
       lines[i].trim() &&
       !/^[#>]/.test(lines[i]) &&
+      !/^<div[\s>]/.test(lines[i]) &&
       !/^\|/.test(lines[i]) &&
       !/^[-*] /.test(lines[i]) &&
       !/^\d+\. /.test(lines[i]) &&

@@ -1,3 +1,4 @@
+import { productBox } from "@/lib/product-box";
 import type { Guide } from "@/data/guides";
 
 export const inkjetVsLaserPrinterGuide: Guide = {
@@ -70,7 +71,11 @@ export const inkjetVsLaserPrinterGuide: Guide = {
     },
     {
       heading: "Why Print Volume Should Drive Your Decision",
-      body: `The core tradeoff between inkjet and laser comes down to upfront cost versus per-page running cost. A laser printer's toner cartridge costs more than an ink cartridge but prints several times more pages, making the per-page cost meaningfully lower, this only pays off if you actually print enough volume to offset the higher initial printer and cartridge cost. Someone printing a few pages a month rarely recoups that difference, while a household or small office printing regularly sees real savings from a laser printer over time.`,
+      body: `The core tradeoff between inkjet and laser comes down to upfront cost versus per-page running cost. A laser printer's toner cartridge costs more than an ink cartridge but prints several times more pages, making the per-page cost meaningfully lower, this only pays off if you actually print enough volume to offset the higher initial printer and cartridge cost. Someone printing a few pages a month rarely recoups that difference, while a household or small office printing regularly sees real savings from a laser printer over time.
+
+### One proven pick on each side
+
+${productBox([{"label": "Best for text-heavy printing", "name": "Brother HL-L2405W Compact Laser Printer", "text": "A compact black-and-white laser with dual-band Wi-Fi. Toner won't dry out between jobs, so it suits light, irregular printing too.", "asin": "B0CPL7HRQN", "image": "https://m.media-amazon.com/images/I/31n0Y8gzpfL._SL500_.jpg"}, {"label": "Best for color at low running cost", "name": "Epson EcoTank ET-2800 All-in-One", "text": "Refillable ink tanks instead of cartridges, with up to 4,500 black and 7,500 color pages per bottle set. Prints, scans and copies.", "asin": "B096N8DN2H", "image": "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg"}])}`,
     },
     {
       heading: "Considering What You Actually Print",

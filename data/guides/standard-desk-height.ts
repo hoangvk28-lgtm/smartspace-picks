@@ -1,3 +1,4 @@
+import { productBox } from "@/lib/product-box";
 import type { Guide } from "@/data/guides";
 
 export const standardDeskHeightGuide: Guide = {
@@ -167,7 +168,11 @@ Most standing desks have a height range of approximately 27"-47". Users under 5'
 - Monitor arm raises the screen independently of desk height
 - Replace with an adjustable standing desk
 
-**The standing desk solution:** If you find yourself constantly adjusting because no fixed height works throughout the day, an adjustable standing desk removes the problem entirely. See our [Best Standing Desks Under $300](/guide/best-standing-desk-under-300) guide for options starting at ~$200, or [Best Standing Desks Under $500](/guide/best-standing-desk-under-500) for dual-motor and L-shaped options.`,
+**The standing desk solution:** If you find yourself constantly adjusting because no fixed height works throughout the day, an adjustable standing desk removes the problem entirely. See our [Best Standing Desks Under $300](/guide/best-standing-desk-under-300) guide for options starting at ~$200, or [Best Standing Desks Under $500](/guide/best-standing-desk-under-500) for dual-motor and L-shaped options.
+
+### Quick fixes for a desk that doesn't fit you
+
+${productBox([{"label": "Fix the height for good", "name": "FLEXISPOT EN1 48\" x 24\" Electric Standing Desk", "text": "Adjusts from 28.9\" to 46.5\" so any user height can hit elbow level, sitting or standing. 4 memory presets and a one-piece top.", "asin": "B08BJ2QRM9", "image": "https://m.media-amazon.com/images/I/31LVVrs5LsL._SL500_.jpg"}, {"label": "Desk too high? Raise your feet", "name": "VIVO Height Adjustable Foot Rest", "text": "If you raised your chair to reach a tall desk, this lifts your feet 5\" to 10-1/4\" so they stay flat. Steel frame and anti-slip top.", "asin": "B0763RMV58", "image": "https://m.media-amazon.com/images/I/41M+cQ7robL._SL500_.jpg"}])}`,
     }
   ],
 };

@@ -44,7 +44,8 @@ export function RichContent({ html, className = "" }: RichContentProps) {
       } else {
         // External: ensure opens in new tab
         anchor.setAttribute("target", "_blank");
-        anchor.setAttribute("rel", "noopener noreferrer");
+        const rel = anchor.getAttribute("rel") || "";
+        anchor.setAttribute("rel", /sponsored/.test(rel) ? rel : "noopener noreferrer");
       }
     }
 

@@ -1,3 +1,4 @@
+import { productBox } from "@/lib/product-box";
 import type { Guide } from "@/data/guides";
 
 export const keyboardSizeChartGuide: Guide = {
@@ -241,7 +242,11 @@ TKL  (14.0") ############################
 | FPS competitive gaming | 65% |
 | Programmer who uses F-keys | 75% or TKL |
 
-![Keyboard size comparison visual showing width of each layout](/images/guides/keyboard-size-chart/05-keycap-size-chart-visual.webp)`,
+![Keyboard size comparison visual showing width of each layout](/images/guides/keyboard-size-chart/05-keycap-size-chart-visual.webp)
+
+### Keyboards worth a look in each compact size
+
+${productBox([{"label": "Best 65% pick", "name": "Redragon K631 PRO 65% Wireless Keyboard", "text": "68 keys with arrows kept, three connection modes and hot-swap sockets. The narrowest size that still feels normal for everyday typing.", "asin": "B0FR478KBZ", "image": "https://m.media-amazon.com/images/I/41syh6UjoyL._SL500_.jpg"}, {"label": "Best 75% pick", "name": "EPOMAKER x AULA F75 Wireless Keyboard", "text": "Keeps a physical F-row in a 75% footprint. Gasket mount, five layers of sound padding, a volume knob and Bluetooth, 2.4GHz or wired.", "asin": "B0CNT61VMZ", "image": "https://m.media-amazon.com/images/I/4118-K9UgOL._SL500_.jpg"}, {"label": "Best TKL pick", "name": "Keychron C3 Pro TKL Wired Keyboard", "text": "Full 87-key TKL layout with PBT keycaps, hot-swap switches and QMK/VIA remapping. Drops only the numpad.", "asin": "B0F47NZ6DM", "image": "https://m.media-amazon.com/images/I/41JHnxYHN+L._SL500_.jpg"}])}`,
     },
     {
       heading: "Best Keyboard Size for Gaming",

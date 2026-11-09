@@ -1,3 +1,4 @@
+import { productBox } from "@/lib/product-box";
 import type { Guide } from "@/data/guides";
 
 export const deskSizeChartGuide: Guide = {
@@ -116,7 +117,11 @@ A corner desk's total footprint is larger than its per-side measurement suggests
 
 ### Standing desks (variable height range)
 
-The width and depth of a standing desk usually match a standard desk, but the defining spec is its height adjustment range. Check that the minimum height suits your sitting posture and the maximum height comfortably clears your elbows while standing, not just the mid-point.`,
+The width and depth of a standing desk usually match a standard desk, but the defining spec is its height adjustment range. Check that the minimum height suits your sitting posture and the maximum height comfortably clears your elbows while standing, not just the mid-point.
+
+### Two desks that match the most common sizes
+
+${productBox([{"label": "Compact 40\" desk", "name": "SHW Mission 40-Inch Home Office Computer Desk", "text": "A 40-inch wide steel-frame desk that fits a laptop plus one monitor in a bedroom or dorm. Comes with a 5-year limited warranty.", "asin": "B08YWYVTS4", "image": "https://m.media-amazon.com/images/I/413g29V3AhL._SL500_.jpg"}, {"label": "Standard 48 x 24 standing desk", "name": "ErGear 48 x 24 Inch Electric Standing Desk", "text": "The standard 48 x 24 inch top with an electric range of 28.35\" to 46.46\" and 4 memory presets for sit and stand heights.", "asin": "B0B41YH9B6", "image": "https://m.media-amazon.com/images/I/415He+cLvaL._SL500_.jpg"}])}`,
     },
     {
       heading: "How to Measure Your Space Before Buying",
