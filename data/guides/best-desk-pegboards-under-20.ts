@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Mounting Method", "description": "Compared adhesive, drilled, and freestanding mounting options and their respective weight ratings." },
-  { "title": "Weight Capacity", "description": "Compared stated weight limits per panel or mounting method where specified." },
-  { "title": "Panel Material and Durability", "description": "Compared ABS plastic, PP plastic, and wood construction across the lineup." },
-  { "title": "Modularity", "description": "Checked how freely panels can be combined or rearranged to fit different space needs." },
-  { "title": "Installation Simplicity", "description": "Compared stated setup time and complexity across mounting methods." }
+  {
+    "title": "Stated load per panel",
+    "description": "We looked for a published weight rating on each kit, because only the VEVOR (20 lbs per panel) and Jersvimc (3 kg adhesive, 6 kg screw) state one. Pegboard capacity depends on material, hook shape and fasteners, so a kit with no number, like the Cionyce, got less credit for load-heavy uses."
+  },
+  {
+    "title": "Mounting method and wall damage",
+    "description": "We sorted kits by how they attach, since the Cionyce is adhesive only, the VEVOR takes nails or adhesive, and the Jersvimc offers both adhesive and screws. Renters and dorm residents need no-drill options, while heavier loads need something stronger than tape."
+  },
+  {
+    "title": "Panel size and layout flexibility",
+    "description": "We compared panel footprints, from the Cionyce's 9.8 inch squares to the VEVOR's 11 inch squares, and whether panels combine freely. A 4-panel kit rearranges into a long strip or a block, while a 2-panel kit locks you into a smaller layout."
+  },
+  {
+    "title": "Freestanding option for desks",
+    "description": "We singled out the Halyuhn Wood organizer at 13.8 x 11 x 6.7 inches because it sits on the desk with no mounting at all and sets up in under 5 minutes. For someone who cannot touch the wall, that mattered more than panel count."
+  },
+  {
+    "title": "Material and moisture resilience",
+    "description": "We compared materials: ABS or HIPS on the VEVOR, PP on the Cionyce, waterproof and rust-resistant ABS on the Jersvimc, and wood pegs on the Halyuhn. Plastic pegs tend to stay put when a hook is pulled out, which makes material a real daily-use factor."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The highest weight capacity", "VEVOR Pegboard Combination Kit, 4 Panels"],
-        ["A portable desktop organizer with no wall mounting", "Halyuhn Wood Desk Pegboard Organizer"],
-        ["A no-drill, renter-friendly wall kit", "Cionyce 4 PCS White Pegboard Wall Organizer"],
-        ["The lowest price with mounting method flexibility", "Jersvimc 2Pcs Black Pegboard Wall Organizer Kit"]
+    "subheading": "By Mounting Situation",
+    "intro": "Where you can attach it decides the pick before price does.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Dorm or rental where nothing may be drilled",
+          "Cionyce 4 PCS White Pegboard Wall Organizer, with self-adhesive install and no drilling"
+        ],
+        [
+          "Wall you can nail or tape and a heavier tool load",
+          "VEVOR Pegboard Combination Kit, with 20 lbs capacity per panel and nail or adhesive mounting"
+        ],
+        [
+          "Small patch of wall and a mixed choice of screw or adhesive",
+          "Jersvimc 2Pcs Black Pegboard Wall Organizer Kit, 3 kg on adhesive or 6 kg on screws"
+        ],
+        [
+          "Cannot mount anything, only a desktop surface",
+          "Halyuhn Wood Desk Pegboard Organizer, freestanding with 4 wooden pegs and 2 platforms"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $14", "Jersvimc (under $15)"],
-        ["Under $16", "Halyuhn Wood (under $20)"],
-        ["Under $20", "VEVOR (under $20) or Cionyce (under $20)"]
+    "subheading": "By Budget",
+    "intro": "All four are under $20, so the choice is between panel count and extras.",
+    "table": {
+      "headers": [
+        "Spend level",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest possible outlay for a starter wall",
+          "Jersvimc 2Pcs Black Pegboard Wall Organizer Kit, the cheapest here but only 2 panels"
+        ],
+        [
+          "Mid under-$20 for a 4-panel block",
+          "Cionyce 4 PCS, adhesive panels that combine freely"
+        ],
+        [
+          "Upper under-$20 for the strongest spec sheet",
+          "VEVOR Pegboard Combination Kit, with the highest stated per-panel capacity"
+        ],
+        [
+          "Any budget in the range if you cannot use tools at all",
+          "Halyuhn Wood Desk Pegboard Organizer, pre-sized with pegs and platforms"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Wall-Mounted vs Freestanding Desktop",
-    cards: [
-      { label: "Wall-mounted (VEVOR, Cionyce, Jersvimc)", text: "Frees up desk surface entirely, ideal if desk space is at a premium and wall space is available." },
-      { label: "Freestanding (Halyuhn Wood)", text: "Sits directly on the desk with zero wall mounting, ideal for renters or shared spaces where wall changes aren't possible." }
+    "subheading": "Adhesive vs Nails or Screws",
+    "intro": "The method that keeps the wall clean is not always the one that holds the most.",
+    "cards": [
+      {
+        "label": "Adhesive: Cionyce, Jersvimc, VEVOR",
+        "text": "No holes in the wall and quick to rearrange, which suits renters. The Jersvimc lists only 3 kg on adhesive, so treat it as a light-duty base for pens, tape and a headphone hook."
+      },
+      {
+        "label": "Nails or screws: VEVOR, Jersvimc",
+        "text": "Better for dense loads and anything you will tug daily. The Jersvimc doubles its rating to 6 kg on screws, and the VEVOR reaches 20 lbs per panel when nailed."
+      }
     ],
-    note: "If you have available wall space and want to maximize desk surface area, a wall-mounted kit is the better choice. If you can't or don't want to touch the wall at all, the freestanding Halyuhn Wood pick works entirely on the desk itself.",
+    "note": "Choose adhesive for light desk-supply storage, and move to screws or nails if you plan to hang a heavy headset, scissors and a tape gun together."
   },
   {
-    subheading: "By Mounting Method",
-    table: {
-      headers: ["Your installation preference", "Recommended pick"],
-      rows: [
-        ["No drilling, adhesive only", "Cionyce"],
-        ["Choice between adhesive or drilled", "VEVOR or Jersvimc"],
-        ["No wall interaction at all", "Halyuhn Wood (freestanding)"]
+    "subheading": "By What You Plan to Hang",
+    "intro": "Match the load to the panel, not the other way round.",
+    "table": {
+      "headers": [
+        "What goes on it",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Pens, scissors, sticky notes and a USB hub",
+          "Cionyce 4 PCS, a larger 4-panel footprint for lightweight items"
+        ],
+        [
+          "Headphones, a small speaker and tape dispensers",
+          "VEVOR Pegboard Combination Kit, rated 20 lbs per panel"
+        ],
+        [
+          "Only a few small tools in a tiny desk corner",
+          "Jersvimc 2Pcs, since two panels cover a corner without overkill"
+        ],
+        [
+          "A rotating collection you want to move between rooms",
+          "Halyuhn Wood Desk Pegboard Organizer, which packs down in minutes"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Rented Apartment or Dorm Room Specifically",
-    cards: [
-      { label: "Look for", text: "A self-adhesive mounting option or a freestanding design that leaves no marks or holes when removed." },
-      { label: "In this comparison", text: "The Cionyce pick's self-adhesive installation and the Halyuhn Wood pick's freestanding design both suit rental restrictions well." }
-    ],
+    "subheading": "For Dorm Residents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Adhesive mounting that peels off cleanly, a modest panel size that fits above a desk, and a material that does not warp in a humid room."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Cionyce's self-adhesive PP panels need no drilling, and the Halyuhn freestanding board avoids the wall entirely if your housing office bans adhesive strips."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need to hang heavier items and want the highest stated weight capacity, where the VEVOR pick's 20 lbs per panel leads this comparison." },
-      { label: "Save if", text: "You just want basic pegboard storage for lightweight items, where the Jersvimc pick covers that for under $14." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $50 guide adds metal panels and a clamp-on desk board.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want steel panels that hold hooks rigidly, a clamp that bypasses the wall, or standard 1 inch hole spacing for existing hooks. Those are in the under $50 guide."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light storage for pens and cables, where the VEVOR or Jersvimc is plenty at under $20."
+      }
+    ]
   }
 ];
 
@@ -182,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I mount these pegboards without drilling holes in a rented wall?", "a": "Yes, the Cionyce pick specifically uses self-adhesive installation with no drilling required, and both the VEVOR and Jersvimc picks offer adhesive mounting as an alternative to their drilled options, though weight capacity is typically lower with adhesive-only mounting." },
-  { "q": "What's the most common mistake buyers make when installing an adhesive-mounted pegboard?", "a": "Hanging items immediately after installation without allowing the adhesive to properly cure first, which can cause the panel to fail prematurely since the adhesive bond needs time to reach full strength." },
-  { "q": "Is the VEVOR pick worth it over the cheaper Jersvimc option?", "a": "If you need to hang heavier items and want the highest stated weight capacity at 20 lbs per panel, yes, but if you're storing lightweight items and want the lowest price with mounting flexibility, the Jersvimc pick covers that for about $5 less." },
-  { "q": "How is the Halyuhn Wood pick different from the wall-mounted options in this comparison?", "a": "It's a freestanding desktop organizer that sits directly on your desk surface without any wall attachment at all, making it the only pick here requiring zero wall interaction, unlike the VEVOR, Cionyce, and Jersvimc picks which all mount to a wall in some form." },
-  { "q": "Can I combine multiple pegboard panels to create a larger storage area later?", "a": "Yes, both the VEVOR and Cionyce picks specifically support modular combination of their panels, letting you expand your storage area by adding more panels in different arrangements without replacing your initial purchase." },
-  { "q": "Do these budget pegboards come with hooks and accessories included?", "a": "This varies by pick, so check the specific listing, since some budget pegboards at this price include basic accessories while others provide only the panel itself, requiring separate hooks or bins purchased to actually use the pegboard for storage." }
+  {
+    "q": "Will adhesive pegboards hold when I pull a hook off?",
+    "a": "Light loads, yes, but adhesive ratings are low. The Jersvimc lists 3 kg for adhesive and 6 kg for screws, so pulling a heavy hook straight out can lift an edge. Press panels firmly for 24 hours before loading them."
+  },
+  {
+    "q": "What is the biggest mistake when buying a budget pegboard kit?",
+    "a": "Ignoring the weight rating. Only the VEVOR at 20 lbs per panel and the Jersvimc state a number, so a heavy headset hung on the unrated Cionyce can sag adhesive. Load heavy items low and close to the panel."
+  },
+  {
+    "q": "Is the VEVOR worth it over the Cionyce?",
+    "a": "If you will hang anything weighty, yes, because the VEVOR states 20 lbs per panel and takes nails. The Cionyce is cheaper and tool-free but lists no capacity, so it suits pens, tape and cables only."
+  },
+  {
+    "q": "How do I install a self-adhesive pegboard without damaging paint?",
+    "a": "Clean the wall with rubbing alcohol, press each panel for 30 seconds, and wait about a day before loading. To remove, warm the strips with a hair dryer and peel slowly, though some paint can still lift on older coats."
+  },
+  {
+    "q": "Can I use standard pegboard hooks on these plastic panels?",
+    "a": "Often not. Many plastic kits ship their own hooks sized to their hole pattern, and the Halyuhn uses 4 wooden pegs. Check the hole size and spacing on the listing before buying extras from a hardware store."
+  },
+  {
+    "q": "Do pegboard panels warp over time?",
+    "a": "Wood and thin plastic can bow when loaded unevenly or exposed to heat. The Jersvimc advertises waterproof, rust-resistant ABS, and the VEVOR uses ABS/HIPS. Spread weight across panels and avoid hanging near a radiator."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

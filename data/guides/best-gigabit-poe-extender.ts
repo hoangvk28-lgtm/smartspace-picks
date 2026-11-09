@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Gigabit Speed Consistency", "description": "Compared whether full 1000Mbps holds across the extender's full rated distance and port count." },
-  { "title": "Per-Port Power Output", "description": "Compared standard versus dedicated high-power ports while maintaining Gigabit speed." },
-  { "title": "Warranty and Support", "description": "Compared warranty length and stated ongoing support commitment." },
-  { "title": "Local Power Requirement", "description": "Compared whether each extender requires a local outlet or draws entirely from the upstream PoE source." },
-  { "title": "Multi-Device Capacity", "description": "Compared how many devices each extender can power simultaneously at full Gigabit speed." }
+  {
+    "title": "Real Gigabit across every port",
+    "description": "A Gigabit label does not guarantee 1000Mbps at each port. The VIMIN and the passthrough switch list full Gigabit on 1 in 3 out designs, the Davuaz lists Gigabit on all four ports, and the TRENDnet is a single-output Gigabit PoE+ unit. We favored listings that state speed per port, since a 100Mbps hop throttles a 4K camera."
+  },
+  {
+    "title": "Per-port wattage and total budget",
+    "description": "The Davuaz lists one 60W port and three 30W ports from a 90W total input, which is shared across all four ports at once. The TRENDnet auto-senses 15.4W or 30W. We compared each pick's per-port draw against typical cameras and access points, and flagged shared budgets as a limit."
+  },
+  {
+    "title": "Reach and daisy chaining",
+    "description": "We looked at distance: the VIMIN lists a 100m (328ft) extension on 802.3af/at, and the TRENDnet lists a 3-unit daisy chain up to 1312ft. A longer chain loses power at each hop, so we treated headline distance as a ceiling and checked how many hops each listing allows."
+  },
+  {
+    "title": "Warranty and compliance",
+    "description": "A longer warranty signals the maker will stand behind it. The TRENDnet lists a 3-year warranty and NDAA compliance, while the Davuaz offers a 24 hour refund or replacement guarantee. The VIMIN and passthrough switch list neither, so we judged the cheaper picks as buyers who accept more risk."
+  },
+  {
+    "title": "Mounting and environment",
+    "description": "We checked how each installs. The VIMIN and passthrough switch list wall and DIN-rail mounting, and the passthrough has an LED port status display and 3-level cascading. None lists an outdoor waterproof rating, so we treated all as indoor or enclosure-only products."
+  }
 ];
 
 export const howToChoose = [

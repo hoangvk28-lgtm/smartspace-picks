@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41T9HOw-2hL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F42J2ZSZ?tag=deskfinds0d-20",
-    "description": "This vegan-leather valet tray has a built-in fast wireless charging pad, a phone dock, a lidded privacy compartment and 6 compartments in all for keys, a wallet and small items. The coating is described as water-resistant and scratch-resistant.\n\nIt costs about $5 more than the other valet below and adds the lidded compartment and a more executive look. Against the name plate, it is more practical but less personal.\n\nBest for someone who keeps a phone and keys on the desk. The caveat is that it needs an outlet and a charging-compatible phone.",
+    "description": "This vegan-leather valet tray has a built-in fast wireless charging pad, a phone dock, a lidded privacy compartment and 6 compartments in all for keys, a wallet and small items. The coating is described as water-resistant and scratch-resistant.\n\nIt costs under $10 more than the other valet below and adds the lidded compartment and a more executive look. Against the name plate, it is more practical but less personal.\n\nBest for someone who keeps a phone and keys on the desk. The caveat is that it needs an outlet and a charging-compatible phone.",
     "specs": [
       "Wireless charging pad built in",
       "6 compartments, lidded section",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41G40DCEmtL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08RS6DNHB?tag=deskfinds0d-20",
-    "description": "This tray has four compartments for a wallet, keys, phone and coins, with a wireless charger built in. The listing says it works on a dresser, nightstand or desk.\n\nIt costs about $5 less than the leather valet above and is plainer, with fewer compartments. Against the wood organizer, it is more tech-focused.\n\nBest for a budget gift that does two jobs. The caveat is that it is less refined and the listing says little about the finish.",
+    "description": "This tray has four compartments for a wallet, keys, phone and coins, with a wireless charger built in. The listing says it works on a dresser, nightstand or desk.\n\nIt costs under $10 less than the leather valet above and is plainer, with fewer compartments. Against the wood organizer, it is more tech-focused.\n\nBest for a budget gift that does two jobs. The caveat is that it is less refined and the listing says little about the finish.",
     "specs": [
       "4 compartments",
       "Built-in wireless charger",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31cII05mXZL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DZYT9SZC?tag=deskfinds0d-20",
-    "description": "This clear acrylic block measures 8 by 3 inches and is customized with a name, title or logo using UV printing. It is made from solid acrylic.\n\nIt is the most personal gift here and costs about $30. Against the engraved wood organizer, it does less but looks more professional.\n\nBest for a promotion or a new role. The caveat is that custom items usually cannot be returned, so check spelling.",
+    "description": "This clear acrylic block measures 8 by 3 inches and is customized with a name, title or logo using UV printing. It is made from solid acrylic.\n\nIt is the most personal gift here and costs under $40. Against the engraved wood organizer, it does less but looks more professional.\n\nBest for a promotion or a new role. The caveat is that custom items usually cannot be returned, so check spelling.",
     "specs": [
       "8 x 3 inch acrylic",
       "Custom name and logo",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41sLDWkH7mL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FYS283J7?tag=deskfinds0d-20",
-    "description": "This handcrafted wood organizer measures 19 by 13 by 3 inches and works as a phone and tablet stand, pen holder and accessory tray, with an engraved design you choose.\n\nIt costs about $5 less than the LEGO set and is bigger than any pick except the desk set. Against the acrylic plate, it is functional.\n\nBest for a personalized practical gift. The caveat is that 19 inches wide is large on a tiny desk.",
+    "description": "This handcrafted wood organizer measures 19 by 13 by 3 inches and works as a phone and tablet stand, pen holder and accessory tray, with an engraved design you choose.\n\nIt costs under $10 less than the LEGO set and is bigger than any pick except the desk set. Against the acrylic plate, it is functional.\n\nBest for a personalized practical gift. The caveat is that 19 inches wide is large on a tiny desk.",
     "specs": [
       "19 x 13 x 3 inch wood",
       "Engraved design choice",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41c1Tm-3f+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DJ19VGDD?tag=deskfinds0d-20",
-    "description": "The LEGO Botanicals Mini Orchid is a building set with 5 peach blooms, buds and leaves, which becomes an artificial orchid for a desk or shelf.\n\nIt is a low-maintenance plant, unlike a live one, and costs about $24. Against the stands above, it is decorative rather than functional.\n\nBest for a builder or plant lover with no time to water. The caveat is that it needs assembly time and has no practical use.",
+    "description": "The LEGO Botanicals Mini Orchid is a building set with 5 peach blooms, buds and leaves, which becomes an artificial orchid for a desk or shelf.\n\nIt is a low-maintenance plant, unlike a live one, and costs under $25. Against the stands above, it is decorative rather than functional.\n\nBest for a builder or plant lover with no time to water. The caveat is that it needs assembly time and has no practical use.",
     "specs": [
       "5 peach blooms plus buds",
       "Artificial orchid build",
@@ -219,47 +219,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Desk footprint of the gift",
-    "explanation": "Footprint is the surface area a gift takes up, and many desks are 24 inches deep or less. A 19 inch organizer can crowd a small desk. Look for dimensions in the listing and compare them to the recipient's space."
+    "explanation": "Footprint is the surface area a gift takes up, and many desks are 24 inches deep or less. A 19 inch organizer can crowd a small desk. Look for dimensions in the listing and compare them to the recipient's space. A 19 inch piece like the personalized organizer needs real depth, so measure the free desk space before choosing a bigger gift."
   },
   {
     "criterion": "Useful versus decorative",
-    "explanation": "Practical gifts like a charging tray get used daily, while decor depends on taste. A gift that solves a space problem lasts longer. Ask yourself what it would replace on the desk."
+    "explanation": "Practical gifts like a charging tray get used daily, while decor depends on taste. A gift that solves a space problem lasts longer. Ask yourself what it would replace on the desk. Ask what the gift would replace on the desk, because the valet trays and the UPERGO stand solve clutter and a decorative orchid does not."
   },
   {
     "criterion": "Return policy on personalized items",
-    "explanation": "Custom name plates and engraved organizers are often final sale. A typo can ruin the gift. Check the listing's return terms and proof the text twice."
+    "explanation": "Custom name plates and engraved organizers are often final sale. A typo can ruin the gift. Check the listing's return terms and proof the text twice. The name plate block and engraved organizer are made to order, so read the return terms in the listing and proof every letter first."
   },
   {
     "criterion": "Wireless charging compatibility",
-    "explanation": "Wireless pads work with phones that support the standard, and a case can reduce the charge. The recipient's phone matters. Check the listing's compatibility note and watch case thickness."
+    "explanation": "Wireless pads work with phones that support the standard, and a case can reduce the charge. The recipient's phone matters. Check the listing's compatibility note and watch case thickness. A thick case or a metal card can weaken wireless charging, so check the recipient's phone and the pad's compatibility note before ordering."
   },
   {
     "criterion": "Workplace and dorm rules",
-    "explanation": "Offices and dorms sometimes limit what plugs in or what decorates a desk. Lighted or heated gifts can break rules. Pick items without heating elements and confirm any rules."
+    "explanation": "Offices and dorms sometimes limit what plugs in or what decorates a desk. Lighted or heated gifts can break rules. Pick items without heating elements and confirm any rules. Heated, lit or plugged gifts can break dorm and office policies, and the charging trays need an outlet, so confirm the rules before gifting them."
   },
   {
     "criterion": "Material and cleaning",
-    "explanation": "Wipe-clean leather-look surfaces and acrylic hold up to coffee spills better than raw wood. Real wood can stain. Check the surface description."
+    "explanation": "Wipe-clean leather-look surfaces and acrylic hold up to coffee spills better than raw wood. Real wood can stain. Check the surface description. The leather look surface on the RHCSZ set wipes clean, while raw wood absorbs coffee, so check the material description before choosing for a messy desk."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Price ceiling",
-    "description": "Each pick is listed at $50 or less at the time of our research."
+    "title": "Daily use versus decoration",
+    "description": "In the $25 to $50 range we favoured gifts that solve a desk problem. The two valet trays with wireless charging, the RHCSZ 4 piece organizer set and the UPERGO headphone and controller stand all replace clutter, while the LEGO Botanicals orchid is a keepsake that takes a weekend to build."
   },
   {
-    "title": "Usefulness",
-    "description": "We favored gifts that solve a desk problem over pure decor."
+    "title": "Footprint against the recipient's desk",
+    "description": "Many desks are 24 inches deep or less, so we compared listed sizes. The personalized wood organizer is 19 x 13 x 3 inches and can crowd a small desk, while the 8 x 3 inch acrylic name plate block is easy to place. We scored large pieces lower for compact setups."
   },
   {
-    "title": "Size",
-    "description": "Listed dimensions were checked against compact desks."
+    "title": "Wireless charging fit",
+    "description": "We checked what the two charging valet trays require: a phone that supports wireless charging, and a case thin enough for the charge to pass through. The listings do not guarantee fast speeds, so we treated them as convenience gifts, not a replacement for a cable."
   },
   {
-    "title": "Personalization",
-    "description": "We noted which listings offer custom text or engraving."
+    "title": "Custom order risk",
+    "description": "The name plate block and the personalized organizer are made to order, so a typo or wrong logo is a wasted gift. We rated custom items on how many options the listing exposes (engraving choice, UV printing, text fields) and noted that returns on custom work are usually limited."
   }
 ];
 
@@ -399,28 +399,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "What makes a good desk gift?",
-    "a": "A good desk gift is small, useful and fits the recipient's habits. Items that replace clutter get used more than decoration."
+    "q": "Do the valet trays charge every phone?",
+    "a": "Only phones that support wireless charging, and a thick case can weaken or block the charge. Both trays have a built-in pad, but check the recipient's phone model first. For older phones, the RHCSZ organizer set or the UPERGO stand is safer."
   },
   {
-    "q": "Are personalized gifts risky?",
-    "a": "They can be, because most cannot be returned. Check the spelling and the seller's policy."
+    "q": "Is the Leather Valet Tray better than the plain Valet Tray?",
+    "a": "The first has 6 compartments with a lidded section and vegan PU leather, while the second has 4 compartments. Pick the larger tray for someone who empties pockets daily, and the smaller one for a nightstand or a tighter desk."
   },
   {
-    "q": "Does wireless charging work with any phone?",
-    "a": "Only phones that support wireless charging, and thick cases can interfere. Confirm before gifting."
+    "q": "What should I check before ordering a personalized organizer?",
+    "a": "Check the spelling and the engraving design choice, since the 19 x 13 x 3 inch wood piece is made to order and likely cannot be returned. Also check the size against the recipient's desk, because it holds a phone, tablet and pen."
   },
   {
-    "q": "Is $50 enough for a coworker?",
-    "a": "For most workplaces, yes. Many exchanges have lower limits, so check any cap."
+    "q": "Will the UPERGO stand fit all consoles?",
+    "a": "It fits controllers for PS5, Xbox and Switch according to the listing, and holds headphones too. Wide gaming headsets still vary, so check the stand's listed width. It is solid wood, so avoid placing it near spills."
   },
   {
-    "q": "How do I clean a leather-look organizer?",
-    "a": "Wipe with a damp cloth. RHCSZ's listing describes a wipe-clean surface."
+    "q": "Is the LEGO orchid a good office gift?",
+    "a": "It suits a recipient who likes building. The set has 5 peach blooms plus buds and builds an artificial orchid, so there is no watering. It is intended for adults, takes a weekend and sits on a desk without care."
   },
   {
-    "q": "Can I gift a plant instead?",
-    "a": "A live plant needs care and light. The LEGO orchid avoids that."
+    "q": "How do I clean a PU leather organizer?",
+    "a": "Wipe the RHCSZ set with a slightly damp cloth, since the surface is wipe clean. Avoid solvents and harsh cleaners that dull the finish. Raw wood items like the personalized organizer stain from spills, so use a coaster nearby."
   }
 ];
 

@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41rfPudcZ6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B092CKLXMN?tag=deskfinds0d-20",
-    "description": "Dezin has a double-layer anti-scalding outer shell with a stainless steel inner, including the inner lid, spout and filter, and measures 7.9 by 7.3 inches. It has an anti-splash lid, boil-dry protection and auto shut-off.\n\nThe cool-touch body is the key difference from WTJMOV, and it matters in a cramped room where you might brush the kettle. It costs under $30, about $1 less than WTJMOV.\n\nChoose it for a crowded shelf or desk. The caveat is that wattage is not stated in the part of the listing we reviewed, so confirm it before your school's check.",
+    "description": "Dezin has a double-layer anti-scalding outer shell with a stainless steel inner, including the inner lid, spout and filter, and measures 7.9 by 7.3 inches. It has an anti-splash lid, boil-dry protection and auto shut-off.\n\nThe cool-touch body is the key difference from WTJMOV, and it matters in a cramped room where you might brush the kettle. It costs under $30, under $10 less than WTJMOV.\n\nChoose it for a crowded shelf or desk. The caveat is that wattage is not stated in the part of the listing we reviewed, so confirm it before your school's check.",
     "specs": [
       "0.8L, double wall",
       "Stainless inner, lid, spout, filter",
@@ -219,51 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Dorm wattage and appliance rules",
-    "explanation": "Colleges often cap appliance wattage or ban some heating items outright, and the rules differ by school. A lower wattage like 800W is easier to justify than 1500W. Check your housing list before buying, and keep the receipt in case you must return it."
+    "explanation": "Colleges often cap appliance wattage or ban some heating items outright, and the rules differ by school. A lower wattage like 800W is easier to justify than 1500W. Check your housing list before buying, and keep the receipt in case you must return it. Ask whether the hall caps appliance wattage, since the 800W WTJMOV and 1500W COMFEE fall on opposite sides of a common limit."
   },
   {
     "criterion": "Concealed heating element",
-    "explanation": "A concealed element sits under a flat base instead of a bare coil in the water. Many dorm policies prohibit open coils, and Elite Gourmet and COMFEE name concealed elements. Look for that phrase in the listing."
+    "explanation": "A concealed element sits under a flat base instead of a bare coil in the water. Many dorm policies prohibit open coils, and Elite Gourmet and COMFEE name concealed elements. Look for that phrase in the listing. A concealed element avoids exposed coils that collect scale, so check the listing for that phrase as on the Elite Gourmet and COMFEE."
   },
   {
     "criterion": "Boil time versus wattage",
-    "explanation": "Higher wattage boils faster, but a stated boil time depends on volume and voltage. COMFEE lists 5 to 7 minutes for 1.7L at 1500W, and WTJMOV about 5 minutes for 0.8L at 800W. Treat these as best case and fill only what you need."
+    "explanation": "Higher wattage boils faster, but a stated boil time depends on volume and voltage. COMFEE lists 5 to 7 minutes for 1.7L at 1500W, and WTJMOV about 5 minutes for 0.8L at 800W. Treat these as best case and fill only what you need. Boil time depends on both wattage and volume, so a 1500W kettle with 1.7L may take longer to fill than a 0.8L model takes to boil."
   },
   {
     "criterion": "Double wall and tip safety",
-    "explanation": "A double wall keeps the outside cool, which helps in a cramped room. Dezin and Elite Gourmet have it. Check for a cool-touch statement and a stable base."
+    "explanation": "A double wall keeps the outside cool, which helps in a cramped room. Dezin and Elite Gourmet have it. Check for a cool-touch statement and a stable base. A double wall keeps the outside cool and an anti splash lid reduces drips, so check both on the Dezin if you share a tight desk."
   },
   {
     "criterion": "Capacity versus roommates",
-    "explanation": "A 0.6L kettle fills one mug, while 1.7L serves a suite. Elite Gourmet holds 0.6L and COMFEE 1.7L. Pick based on how many people share the unit."
+    "explanation": "A 0.6L kettle fills one mug, while 1.7L serves a suite. Elite Gourmet holds 0.6L and COMFEE 1.7L. Pick based on how many people share the unit. A 0.6L kettle fills one mug, while 1.7L fills a suite, so count how many roommates will share before choosing."
   },
   {
     "criterion": "Glass versus stainless",
-    "explanation": "Glass lets you see the water but breaks more easily in a busy dorm, and scale shows quickly in hard water. Chefman uses glass, while Amazon Basics and COMFEE use stainless. Check for a named borosilicate or 304 stainless."
+    "explanation": "Glass lets you see the water but breaks more easily in a busy dorm, and scale shows quickly in hard water. Chefman uses glass, while Amazon Basics and COMFEE use stainless. Check for a named borosilicate or 304 stainless. Glass shows scale faster and breaks in a bag, so choose stainless like the Amazon Basics if the kettle will move between rooms."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Dorm rule friendliness",
-    "description": "We compared stated wattage and whether a concealed element is named."
+    "title": "Wattage and housing rules",
+    "description": "Some residence halls cap appliance wattage or limit heating devices to shared kitchens. We compared the WTJMOV 800W with four 1500W models, and marked the lower wattage kettles as safer, while pointing out that rules differ by building and should be checked. A kettle that gets confiscated at move in is the most expensive mistake."
   },
   {
-    "title": "Safety features",
-    "description": "Boil-dry protection, auto shut-off and double-wall designs were weighed ahead of marketing claims."
+    "title": "Concealed heating element",
+    "description": "A concealed element sits under a flat base instead of a bare coil. The Elite Gourmet 0.6L and COMFEE 1.7L use one, which makes cleaning easier and reduces limescale buildup in a tiny sink where scrubbing is awkward. Concealed bases also protect the element from stray crumbs and limescale flakes."
   },
   {
-    "title": "Capacity and size",
-    "description": "Capacity in liters and footprint were compared for small rooms."
+    "title": "Cool touch and tip safety",
+    "description": "In a cramped room, a double wall body keeps the outside cooler. The Dezin 0.8L and Elite Gourmet use double wall designs, and the Dezin has an anti splash lid. We checked base stability since a tipped kettle with boiling water is the main dorm hazard."
   },
   {
-    "title": "Materials and cleaning",
-    "description": "Interior materials, opening width and filters were noted."
+    "title": "Size against roommates",
+    "description": "The Elite Gourmet fills one mug at 0.6L, the WTJMOV and Dezin hold 0.8L, and the COMFEE holds 1.7L. We matched sizes to how many people share a room, and gave the travel friendly 0.6L extra credit for storage. A shared mini fridge and a kettle together can strain a single wall outlet."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $25 to $30 were compared with the documented features."
+    "title": "Glass versus stainless",
+    "description": "The Chefman glass kettles let you see the water but break easier in a busy room, while the stainless Amazon Basics 1L and WTJMOV resist knocks. We weighed durability against visibility for a student who moves in and out each term."
   }
 ];
 
@@ -309,11 +309,11 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "About $23",
+          "Under $25",
           "Chefman 1.2L 1500W Glass Electric Kettle with Infuser"
         ],
         [
-          "About $24",
+          "Under $25",
           "Amazon Basics 1L 1500W Stainless Electric Kettle"
         ],
         [
@@ -321,7 +321,7 @@ export const howToChoose: HowToChooseSection[] = [
           "COMFEE 1.7L 1500W Stainless Electric Kettle"
         ],
         [
-          "About $25",
+          "Under $30",
           "Elite Gourmet 0.6L Dual Voltage Travel Kettle"
         ],
         [
@@ -403,28 +403,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Are electric kettles allowed in dorms?",
-    "a": "It varies by college. Some allow kettles with concealed elements, some cap wattage and some ban them. Check your housing list before buying."
+    "q": "Can I bring a 1500W kettle to a dorm?",
+    "a": "It depends on the residence hall. Some cap wattage or ban heating items outside shared kitchens, and a 1500W unit can trip a floor circuit. Ask the housing office first. The WTJMOV at 800W is the lower draw option in this list."
   },
   {
-    "q": "Is a 1500W kettle safe for a dorm outlet?",
-    "a": "A 1500W load is near the limit of a standard 15 amp circuit shared with other devices. A lower-wattage kettle is gentler on a shared dorm circuit."
+    "q": "Which kettle suits a single student best?",
+    "a": "The Elite Gourmet 0.6L or the Dezin 0.8L fit one or two mugs and tuck away on a shelf. The Elite Gourmet has a concealed element and dual voltage, so it also works at home abroad. A 1.7L COMFEE suits a suite."
   },
   {
-    "q": "Is a kettle worth it over a microwave?",
-    "a": "A kettle boils water without a shared appliance, and the COMFEE listing says it is quicker than a microwave. A microwave works for food, though."
+    "q": "What is the main safety mistake in a dorm?",
+    "a": "Placing the kettle near the edge of a desk or on a cord. Use a flat spot, keep the cord clear, and unplug after use. Double wall bodies like the Dezin stay cooler on the outside, which helps in tight spaces."
   },
   {
-    "q": "How do I clean scale from a kettle?",
-    "a": "Use diluted white vinegar or baking soda, as COMFEE's listing suggests, then rinse well. Do it every few weeks in hard water."
+    "q": "Is a glass kettle fine for a dorm?",
+    "a": "It works if you are careful. The Chefman glass kettles show the water level and include infusers, but glass breaks more easily than the stainless WTJMOV or Amazon Basics. Choose glass only if you rarely move it."
   },
   {
-    "q": "Can I use a travel kettle abroad?",
-    "a": "Only if it is dual voltage. Elite Gourmet has a 120V and 220 to 240V switch. Single-voltage kettles can be damaged on the wrong supply."
+    "q": "How do I clean a kettle with no sink access?",
+    "a": "Fill with equal parts water and white vinegar, boil, let it sit for a few minutes, then rinse with a few fills of water. Do this about monthly. A concealed element like the COMFEE one is quicker to wipe."
   },
   {
-    "q": "Does BPA-free mean plastic-free?",
-    "a": "No. It means a certain chemical is absent, not that plastic is. Look for plastic-free lid and spout wording."
+    "q": "Does a UL cord matter in a dorm?",
+    "a": "Many schools require listed appliances. The COMFEE lists a UL standard power cord, which can help satisfy that rule. Check your school's policy anyway, because requirements vary and some schools prohibit kettles outright."
   }
 ];
 

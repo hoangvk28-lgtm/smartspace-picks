@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Mounting Versatility", "description": "Compared clamp-on, dual-position, and wall-mounted installation options across the lineup." },
-  { "title": "Panel Size", "description": "Compared single-panel and combined-panel dimensions, from moderate to the largest sizes in this comparison." },
-  { "title": "Specialized Functionality", "description": "Checked for privacy screening, cable management, and gaming-specific accessory features." },
-  { "title": "Construction Material", "description": "Compared steel panel construction and finish quality across the lineup." },
-  { "title": "Accessory Completeness", "description": "Compared total accessory count and specialization for gaming versus general use." }
+  {
+    "title": "Clamp range and mounting freedom",
+    "description": "We checked mounting rules, starting with the HUHOLE 32 x 12 inch board that clamps to desks up to 2 inches thick and mounts above or below the surface. A board that works both ways solves more desk layouts than a single-position clamp. Measure the edge before ordering."
+  },
+  {
+    "title": "Panel size versus modularity",
+    "description": "We weighed single large panels against multi-panel systems, since the Keepo is one 33 x 22 inch sheet while the Daanxw is built from 12 inch squares. One big panel hangs faster, but modular steel can be rearranged as the setup changes. Sizing the panel to the desk saves a return."
+  },
+  {
+    "title": "Magnetic and steel advantages",
+    "description": "We gave credit to powder-coated steel that is magnetic, as on the HUHOLE, because pin magnets and small metal tools stick without any hooks. Rust resistance mattered too, since desk boards sit near coffee mugs and spills. Gaming gear is heavy, so check fasteners."
+  },
+  {
+    "title": "Accessory mix for the setup",
+    "description": "We compared the box contents, such as the PEGZONE 20.4 x 16.5 board's 15 accessories and the Keepo's console holder, headphone holder and cable organizer. At up to $60 the accessories are part of the price, so a thin bundle was penalized. Unused hooks are wasted money."
+  },
+  {
+    "title": "Weight limits stated",
+    "description": "We noted that none of these listings publish a universal load number, and treated capacity as dependent on panel material, fasteners and hook leverage. We favored steel boards and flagged the Keepo for lacking a stated limit. Verify capacity on the official spec sheet."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Dual-position mounting that also serves as a privacy screen", "HUHOLE 32 x 12 Inch Clamp On Desk Pegboard"],
-        ["The largest single panel with gaming-specific accessories", "Keepo Peg Board Wall Organizer for Gaming Setup"],
-        ["A larger clamp-on panel with more accessories and colors", "PEGZONE Clamp on Desk Pegboard, 20.4\" x 16.5\""],
-        ["Steel construction and scalability at the lowest price", "Daanxw Peg Board Kit, Metal Pegboard"]
+    "subheading": "By Mounting Style",
+    "intro": "The way you attach the board shapes how much desk or wall it needs.",
+    "table": {
+      "headers": [
+        "Your layout",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Desk with a clamp-friendly edge up to 2 inches",
+          "HUHOLE 32 x 12 Inch Clamp On Desk Pegboard Complete Kit, mountable above or below the desk"
+        ],
+        [
+          "Bare wall behind a gaming setup",
+          "Keepo Peg Board Wall Organizer for Gaming Setup, 33 x 22 inch, adhesive or screw mount"
+        ],
+        [
+          "Mid-size clamp board with color choices",
+          "PEGZONE Clamp on Desk Pegboard, 20.4 x 16.5 inch, horizontal or vertical install"
+        ],
+        [
+          "Wall space and a growing, modular setup",
+          "Daanxw Peg Board Kit, 12x12 inch steel panels that scale up to 72x12"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $48", "Daanxw Metal (under $50)"],
-        ["Under $56", "PEGZONE 20.4\"x16.5\" (under $60)"],
-        ["Under $59", "Keepo Gaming Setup (under $60)"],
-        ["Under $60", "HUHOLE 32x12 (under $60)"]
+    "subheading": "By Budget",
+    "intro": "Under $60 the cheapest kit and the premium clamp differ by features, not just size.",
+    "table": {
+      "headers": [
+        "Budget position",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest cost, steel, wall only",
+          "Daanxw Peg Board Kit, Metal Pegboard, the value pick with cups, boxes and hooks"
+        ],
+        [
+          "Mid cost for a large single panel",
+          "Keepo Peg Board Wall Organizer, 33 x 22 inches for gaming gear"
+        ],
+        [
+          "Upper mid for a clamp with 15 accessories",
+          "PEGZONE Clamp on Desk Pegboard, 20.4 x 16.5, 3 color options"
+        ],
+        [
+          "Top of the range for dual-position clamp",
+          "HUHOLE 32 x 12 Inch Clamp On Desk Pegboard, also a privacy screen or cable panel"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Dual-Position Clamp Mount vs Fixed Wall or Desk Mounting",
-    cards: [
-      { label: "Dual-position clamp (HUHOLE)", text: "Mounts above the desk for daily access or below the desk as a cable management modesty panel, genuinely versatile placement." },
-      { label: "Fixed clamp or wall mount (PEGZONE, Keepo, Daanxw)", text: "Mounts in one specific position, simpler but less adaptable if your needs change over time." }
+    "subheading": "One Large Panel vs Modular Panels",
+    "intro": "A single sheet and a kit of squares solve different layouts.",
+    "cards": [
+      {
+        "label": "Single large panel: Keepo, HUHOLE",
+        "text": "Fast to hang and clean in appearance. The Keepo's 33 x 22 inches is the biggest here, but you cannot rearrange it, so a layout mistake needs a rehang."
+      },
+      {
+        "label": "Modular panels: Daanxw, PEGZONE",
+        "text": "More flexibility as gear changes. The Daanxw reaches 72x12 inches in a long strip, and the PEGZONE grows its accessory use through shelves and magnets."
+      }
     ],
-    note: "If you want the flexibility to reposition the pegboard between above-desk organization and below-desk cable hiding, the HUHOLE's dual-position design is worth the price premium. For a single fixed use case, the other picks are simpler and often cheaper.",
+    "note": "Choose modular if your gear collection is still growing, and a single large panel once your layout is settled."
   },
   {
-    subheading: "By Panel Size and Specialization",
-    table: {
-      headers: ["Your setup type", "Recommended pick"],
-      rows: [
-        ["Dedicated gaming room, largest single panel", "Keepo Gaming Setup (33x22 in)"],
-        ["Multi-purpose desk with color-matched aesthetic", "PEGZONE 20.4\"x16.5\""],
-        ["Scalable wall project, standard accessories", "Daanxw Metal Pegboard"]
+    "subheading": "By Setup Type",
+    "intro": "Think about what sits next to the board.",
+    "table": {
+      "headers": [
+        "Setup",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Gaming desk with a console and headset",
+          "Keepo Peg Board Wall Organizer for Gaming Setup, with console holder and headphone holder"
+        ],
+        [
+          "Sit-stand desk where wall space is limited",
+          "HUHOLE 32 x 12 clamp board, mounted below the desk for cable management"
+        ],
+        [
+          "Shared desk where privacy and color matter",
+          "PEGZONE 20.4 x 16.5 clamp board, with 3 color options"
+        ],
+        [
+          "Craft or tool wall that needs standard hooks",
+          "Daanxw Peg Board Kit, 1/8 and 1/4 inch holes at 1 inch spacing"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For an Open Office Needing Both Organization and Visual Privacy Specifically",
-    cards: [
-      { label: "Look for", text: "A pegboard specifically designed to double as a visual barrier or privacy screen, not just a storage panel." },
-      { label: "In this comparison", text: "The HUHOLE pick is specifically designed to block distractions and act as a visual barrier in an open office setting." }
-    ],
+    "subheading": "For Gamers With Cable Clutter Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A board with a headphone holder, a console or controller rest and cable routing, and enough area to keep cords off the desk."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Keepo includes a console holder, headphone holder and cable organizer on a 33 x 22 inch panel, and the HUHOLE can act as a cable management panel below the desk."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want dual-position mounting that doubles as a privacy screen or cable management panel, where the HUHOLE pick delivers unique functionality no other pick here matches." },
-      { label: "Save if", text: "You want steel construction and scalable wall-mounted storage without needing clamp mounting or specialized functionality, where the Daanxw pick covers that for about $12 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Beyond this tier you reach full wall systems like Wall Control, which need studs and drilling.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need a documented high load, a full wall of tool storage, or a branded modular system. Heavier loads need studs and drilling."
+      },
+      {
+        "label": "Save if",
+        "text": "Your desk accessories weigh under a few pounds, where the under $50 guide's PEGZONE 16.5 inch clamp board covers the same use."
+      }
+    ]
   }
 ];
 
@@ -183,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the HUHOLE pegboard actually block sound as well as visual distractions?", "a": "No, it's specifically designed as a visual barrier to block sightlines and create a sense of privacy, not as a sound-dampening panel, so it won't reduce noise from an open office environment." },
-  { "q": "What's the most common mistake buyers make when choosing between the HUHOLE and Keepo picks?", "a": "Assuming both serve the same purpose since they're similarly priced, when the HUHOLE's dual-position mounting and privacy screen function serve a different use case than the Keepo's larger single panel focused specifically on gaming accessory organization." },
-  { "q": "Is the Keepo pick's larger panel size worth it over the smaller PEGZONE variant?", "a": "If you have a dedicated gaming setup with controllers, headsets, and cables to organize, yes, its console holder and headphone holder are specifically built for that purpose, but for general desk organization, the PEGZONE's smaller size and color options may suit a standard office desk better." },
-  { "q": "Do I need a desk with a specific edge thickness to use the HUHOLE's C-clamp mount?", "a": "Yes, the C-clamps are designed for table edges up to 2 inches thick, so measure your desk's edge thickness before purchasing to ensure a secure clamp fit." },
-  { "q": "Can the Daanxw metal pegboard be mounted below a desk like the HUHOLE pick?", "a": "The listing doesn't specifically describe below-desk mounting as a designed use case, so if you specifically need that dual-position flexibility, the HUHOLE pick is purpose-built for it while the Daanxw is designed primarily for standard wall mounting." },
-  { "q": "Are magnetic accessories compatible with all the pegboards in this comparison, or just the HUHOLE?", "a": "Only the HUHOLE pick specifically states magnetic steel construction that allows magnetic accessories to attach directly to the panel surface, so magnetic accessories may not adhere properly to the other picks' panel materials." }
+  {
+    "q": "Is the HUHOLE worth it over the PEGZONE clamp boards?",
+    "a": "If you want above or below desk mounting and a magnetic steel surface, yes. The HUHOLE also works as a privacy screen, while the PEGZONE 20.4 x 16.5 has more color choices and a 15-piece accessory set."
+  },
+  {
+    "q": "What desk thickness does a clamp-on pegboard support?",
+    "a": "The HUHOLE needs 2 inches or less of desk edge, and other clamps list 1 to 65 mm ranges. Thick butcher-block tops can exceed those limits, so measure the edge and look for a drawer or rail under the desk before ordering."
+  },
+  {
+    "q": "Does the Keepo's lack of a weight rating matter?",
+    "a": "Yes for heavy gear. Its listing gives no capacity figure, so use adhesive mounting only for light accessories and screws for headsets and consoles. Load limits depend on the wall, panel material and how far items stick out."
+  },
+  {
+    "q": "How do I set up a below-desk clamp pegboard?",
+    "a": "Clamp it to the underside edge, tighten until the pads are snug, and run cables along the board to a tray or channel. The HUHOLE can mount below the desk, but check leg and drawer clearance before tightening."
+  },
+  {
+    "q": "How do I keep metal pegboard hooks from sliding out?",
+    "a": "Standard round hooks do not lock into metal and can fall out, so add o-rings, tape or locking clips. The Daanxw uses standard hole spacing, so many aftermarket locks fit. Slotted hooks designed for the board are the cleanest fix."
+  },
+  {
+    "q": "Can I stick a magnetic pegboard to the wall with adhesive?",
+    "a": "Only if the listing supports it. The Keepo uses adhesive or screws, while the HUHOLE is designed for clamping to a desk. Steel boards are heavy, so use screws into studs for anything beyond very light loads."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

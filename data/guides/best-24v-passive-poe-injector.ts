@@ -84,69 +84,151 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Passive vs Standard PoE Verification", "description": "Confirmed each listing explicitly states 24V passive delivery, not 802.3af/at/bt negotiated PoE." },
-  { "title": "Named Device Compatibility", "description": "Compared listings naming specific compatible brands and part numbers against generic claims." },
-  { "title": "Port Speed", "description": "Compared Gigabit versus 100Mbps port speeds across the 24V passive tier." },
-  { "title": "Power Source Flexibility", "description": "Compared standard AC-powered units against DC-input units built for solar or battery power." },
-  { "title": "Compatibility Warnings", "description": "Compared how clearly each listing warns against use with incompatible 48V standard PoE devices." }
+  {
+    "title": "Exact voltage and polarity",
+    "description": "A 24V passive injector is only right for devices that expect 24V. We read each listing for a stated output voltage and a named compatibility list, such as Ubiquiti, Mikrotik, Tranzeo, and AirCam. Anything vague about voltage was scored low, since the mistake is destructive."
+  },
+  {
+    "title": "Wattage and amperage",
+    "description": "We compared 24W (1A) for the first and last picks, 30W for PoE Texas, and 15W for the EN15G. A 24V radio that peaks above its idle draw will brown out on a low-wattage injector, so the budget was matched to common 24V gear. A radio that ships with a 24W brick expects at least that, so we compared each injector with the original it claims to replace and flagged any that fall short."
+  },
+  {
+    "title": "Gigabit or Fast Ethernet",
+    "description": "PoE Texas and the EN15G pass Gigabit, while the 24V24W injector is 100Mbps. A 100Mbps injector throttles a modern radio, so we treated Gigabit as a requirement for newer Ubiquiti and Mikrotik hardware. At 100Mbps an injector throttles a Gigabit-capable radio, so a modern bridge on this link will never reach its listed speed, even if power is fine."
+  },
+  {
+    "title": "Input flexibility",
+    "description": "PoE Texas takes 12 to 60V DC input with diode-isolated RJ45 and DC power inputs. We noted that this lets it run from a 12V battery or solar setup, which a fixed 24V brick cannot. We saw this as useful for solar and battery sites, where a standard AC brick is not an option and a wide input range keeps the system running through voltage swings."
+  },
+  {
+    "title": "Explicit warnings",
+    "description": "One listing warns that it is not compatible with 48V gear, which is exactly the honest disclosure we want. We favored pages that spell out where the injector must not be used. Plain statements of what not to do were worth more to us than long lists of compatible brands, since the damage in this category comes from the mismatch nobody wrote down."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Power Source",
-    table: {
-      headers: ["Your power source", "Recommended pick"],
-      rows: [
-        ["Standard AC outlet, basic device", "24volt Passive PoE Injector 24W (Ubiquiti replacement)"],
-        ["Solar panel or battery, remote install", "PoE Texas 24V Passive PoE Injector"],
-        ["Standard AC outlet, Gigabit device", "EN15G-24-3 Gigabit PoE Injector 24V 15W"],
-        ["Lowest cost basic Ubiquiti replacement", "24volt Passive PoE Injector Adapter 100Mbps"]
+    "subheading": "By Device Type",
+    "intro": "24V passive PoE is a legacy standard, so check the device label before anything else.",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "An older Ubiquiti radio that came with the POE-25-5W",
+          "24volt Passive PoE Injector 24W (Ubiquiti POE-25-5W Replacement), with 24V 24W 1A"
+        ],
+        [
+          "A Gigabit-capable 24V radio that needs more headroom",
+          "PoE Texas 24V Passive PoE Injector, with up to 30W and Gigabit"
+        ],
+        [
+          "A low-draw 24V device that only needs about 15W",
+          "EN15G-24-3 Gigabit PoE Injector, at 24V 15W"
+        ],
+        [
+          "A 24V device on a 100Mbps link",
+          "24volt Passive PoE Injector Adapter, 24V24W 100Mbps, as a Ubiquiti replacement for several part numbers"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $9", "24volt Passive PoE Injector Adapter (under $9)"],
-        ["Under $13", "24volt Passive PoE Injector 24W (under $15)"],
-        ["Under $20", "EN15G-24-3 or PoE Texas (both under $20)"]
+    "subheading": "By Budget",
+    "intro": "This is the cheapest class of PoE injector.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $10, 100Mbps",
+          "24volt Passive PoE Injector Adapter, 24V24W, the lowest-cost injector in this guide"
+        ],
+        [
+          "Under $15, Ubiquiti replacement",
+          "24volt Passive PoE Injector 24W (Ubiquiti POE-25-5W Replacement), at 24W"
+        ],
+        [
+          "Under $20, Gigabit",
+          "EN15G-24-3, at 15W"
+        ],
+        [
+          "Under $20, 30W and DC input",
+          "PoE Texas 24V, the most flexible input"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Passive PoE vs Standard 802.3af/at PoE",
-    cards: [
-      { label: "Passive PoE (this entire comparison)", text: "Applies a fixed voltage with no negotiation, common on older Ubiquiti airMAX and some UniFi hardware, and will not work with standard 802.3af/at devices or vice versa." },
-      { label: "Standard 802.3af/at PoE", text: "Negotiates power with the connected device automatically, common on modern IP cameras, VoIP phones, and newer access points; see our best-poe-injector guide for that category." }
+    "subheading": "24V Passive vs 802.3af/at Active",
+    "intro": "The point is that these are not interchangeable.",
+    "cards": [
+      {
+        "label": "24V passive",
+        "text": "Delivers power at a fixed voltage with no handshake. It is the right fit for older Ubiquiti and Mikrotik radios, and a mismatched device can fail. Always match the voltage on the device's label."
+      },
+      {
+        "label": "802.3af/at active",
+        "text": "A negotiated standard at about 48V. Modern cameras and APs expect it, and a 24V passive injector will not work with them. Use a standard injector or PoE switch."
+      }
     ],
-    note: "Check your specific device's documentation for whether it expects passive or standard PoE before buying, since the two are not interchangeable and connecting the wrong type typically just fails to power the device.",
+    "note": "If the device label says 24V passive, buy this class; otherwise choose an 802.3af or at injector."
   },
   {
-    subheading: "By Data Speed Needed",
-    table: {
-      headers: ["Your device's port speed", "Recommended pick"],
-      rows: [
-        ["100Mbps device", "24volt Passive PoE Injector 24W or the budget replacement pick"],
-        ["Gigabit device, standard AC power", "EN15G-24-3 Gigabit PoE Injector"],
-        ["Gigabit device, DC/solar power", "PoE Texas 24V Passive PoE Injector"]
+    "subheading": "By Power Source",
+    "intro": "Some installs are off-grid or battery-fed.",
+    "table": {
+      "headers": [
+        "Your supply",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A normal wall outlet",
+          "24volt Passive PoE Injector 24W (Ubiquiti or 24volt Passive PoE Injector Adapter, 24V24W, which ship with their own supply"
+        ],
+        [
+          "A 12V battery or solar bank",
+          "PoE Texas 24V, as it accepts 12 to 60V DC input"
+        ],
+        [
+          "A bench or lab setup",
+          "EN15G-24-3, which is a small, Gigabit unit"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Solar-Powered CCTV or Remote Radio Installation Specifically",
-    cards: [
-      { label: "Look for", text: "An injector that explicitly accepts a wide DC input range rather than requiring standard AC power, since remote and solar installations often have variable voltage from a battery or panel." },
-      { label: "In this comparison", text: "The PoE Texas pick specifically accepts a 12-60V DC input range and names solar CCTV and RV solar setups as intended use cases." }
-    ],
+    "subheading": "For a Wireless Bridge Install Specifically",
+    "intro": "Point-to-point bridges are the classic 24V application.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Gigabit data, at least 24W, a drip loop on the cable, and a surge protector at the outdoor end."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The PoE Texas 24V suits a bridge that runs from a 12V supply, while the 24volt Passive PoE Injector 24W (Ubiquiti is the direct replacement for older radios."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You're powering a remote solar or DC-based installation, or need Gigabit speed, where the PoE Texas or EN15G-24-3 picks near $20 justify their price with genuine capability differences." },
-      { label: "Save if", text: "You just need a basic direct replacement for an original Ubiquiti 24V passive adapter, where the under $9 budget pick covers that need reliably." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Even the top pick is cheap, so spending more means a different class.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You use 802.3af/at devices. See the budget injector guide or the 60W injector guide."
+      },
+      {
+        "label": "Save if",
+        "text": "You need a straight replacement. The 24volt Passive PoE Injector Adapter, 24V24W and 24volt Passive PoE Injector 24W (Ubiquiti cost the least."
+      }
+    ]
   }
 ];
 
@@ -174,12 +256,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "What's the difference between 24V passive PoE and standard PoE?", "a": "Passive PoE applies a constant voltage to specific wire pairs with no negotiation, common on older Ubiquiti and airMAX hardware, while standard 802.3af/at PoE performs a detection handshake at 48V, and the two are not interchangeable." },
-  { "q": "Can I use a 24V passive injector with a standard IP camera?", "a": "Only if your camera specifically supports 24V passive PoE; most modern IP cameras use standard 802.3af/at PoE at 48V and require a different injector type entirely." },
-  { "q": "How do I know if my Ubiquiti device needs a 24V passive injector?", "a": "Check the device's original power adapter or its product specification page; older UniFi and airMAX hardware commonly uses 24V passive PoE, while newer UniFi devices increasingly support standard 802.3af/at PoE." },
-  { "q": "Can a 24V passive PoE injector run on solar power?", "a": "A standard AC-powered passive injector cannot, but a specifically designed DC-input unit, like the PoE Texas pick in this comparison, accepts a wide voltage range from a solar panel or battery source." },
-  { "q": "Is Gigabit speed available for 24V passive PoE injectors?", "a": "Yes, though it's less common than at 100Mbps; the EN15G-24-3 pick in this comparison specifically offers Gigabit speed while keeping the 24V passive power delivery method." },
-  { "q": "What happens if I connect a 24V passive device to a 48V standard PoE injector?", "a": "It typically won't power on at all since the voltage and negotiation method don't match, though the specific outcome depends on the device's own input protection circuitry." }
+  {
+    "q": "Can I use a 24V passive injector with a 48V PoE camera?",
+    "a": "No. The 24V injector does not send the negotiation a 48V active PoE camera expects, and one listing warns specifically about 48V incompatibility. Use a 48V active injector or a PoE switch for those cameras. Check each camera label before ordering."
+  },
+  {
+    "q": "What happens if I plug a non-PoE device into a 24V injector?",
+    "a": "Power flows right away, and some devices can be damaged. Passive PoE has no detection, so label the cable and plug the injector's PoE port only into devices that list 24V passive. Plug in only devices that name 24V passive on the label."
+  },
+  {
+    "q": "Is the PoE Texas injector worth paying more than the 24V24W unit?",
+    "a": "Yes if you need Gigabit, 30W, or DC input. The 24V24W unit is 100Mbps, which is fine for an older radio that cannot go faster, and it costs much less. A 100Mbps model costs far less and suits older radios."
+  },
+  {
+    "q": "How do I power a PoE Texas injector from a battery?",
+    "a": "Connect a 12 to 60V DC source to its power input. The listing mentions diode-isolated RJ45 and DC inputs. Check the battery voltage when full, because charging can push 12V banks above 14V. Fully charged banks can read above 14V, so check before connecting."
+  },
+  {
+    "q": "Which cable should I use with a 24V passive injector?",
+    "a": "Solid copper Cat5e or better, up to 328ft. A long run drops voltage, which matters at 24V. If the radio reboots, shorten the cable or use a higher-wattage injector, like the 30W PoE Texas. Keep the injector and radio at the shortest cable that works."
+  },
+  {
+    "q": "Can I replace my Ubiquiti POE-24-24W with these?",
+    "a": "The 24V24W injector's listing names POE-25-5W, POE-24-12W, and POE-24-24W as replacements. Compare the voltage, wattage, and plug on your unit, and check that the data speed matches your radio. Keep the old unit's label for the settings."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

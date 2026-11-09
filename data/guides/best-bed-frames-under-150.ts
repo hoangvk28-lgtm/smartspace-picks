@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Weight Capacity", "description": "Compared stated maximum weight capacity or load-bearing figures across all four frames." },
-  { "title": "Material Composition", "description": "Compared solid wood, bamboo, and metal-and-wood construction approaches." },
-  { "title": "Storage and Tech Features", "description": "Compared built-in drawers, charging stations, and LED lighting inclusion." },
-  { "title": "Under-Bed Clearance", "description": "Compared stated clearance heights for storage capacity." },
-  { "title": "Headboard Design", "description": "Compared headboard-free, upholstered, and wood-panel headboard styles." }
+  {"title":"Stated capacity and frame thickness","description":"We compared the Mellow Naturalista 1000 lb recommendation and 3.5 inch solid wood frame against the SHA CERLIN 800 lb and Zinus Ellie 700 lb ratings. A capacity covers mattress plus sleepers, so we added a margin of about 20 percent over the real combined weight of mattress and sleepers, which keeps a frame from creaking under daily load."},
+  {"title":"Material and finish","description":"The Mellow is solid wood, the Zinus Ellie is bamboo, and the SHA CERLIN pairs metal with a waterproof, scratchproof wooden headboard. We weighed each against squeak risk, since metal joints can rub over time and bolts need retightening."},
+  {"title":"Storage and clearance","description":"Clearance runs from 10 inches on the UHTN drawer frame to 11 on the Zinus Ellie and 12 on the SHA CERLIN. The UHTN trades open space for 2 built in drawers, and we scored it on whether the drawers actually replace a dresser."},
+  {"title":"Tech features","description":"The UHTN adds 2 AC, 2 USB and 1 USB-C ports plus RGB lighting with app control. We counted these as a real convenience for a bedside, but gave them less weight than structure, since a lighting app or outlet can fail while the frame must last years."},
+  {"title":"Slat and mattress fit","description":"We checked slat details, such as the Mellow non slip tape, because foam mattresses need slat gaps near 3 inches or less and no sliding. Frames that do not state their slat spacing were flagged for a quick manufacturer check before ordering."}
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "Four frames land under $150 with very different strengths, so choose by what you must have: weight capacity, storage drawers or a ready headboard.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Start with the job the frame must do for your room, then use price to choose between the picks that fit it.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [

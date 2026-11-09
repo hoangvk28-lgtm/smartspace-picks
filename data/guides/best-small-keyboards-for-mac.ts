@@ -189,24 +189,24 @@ export const products: GuideProduct[] = [
 
 export const howWeEvaluated = [
   {
-    "title": "Mac key mapping",
-    "description": "We checked for Command and Option labels, Mac shortcut keys and macOS compatibility stated on each listing."
+    "title": "Mac key layout and legends",
+    "description": "A Mac keyboard needs Command and Option in the right order and Mac-labelled function keys. Apple Magic Keyboard, ProtoArc K90-A and Logitech MX Mechanical Mini for Mac are Mac-native, while NuPhy Air75 V2 may ship Windows-first legends, so we checked how each listing handles that."
   },
   {
-    "title": "Compact footprint",
-    "description": "Boards without a number pad were prioritized, and dimensions were noted where given."
+    "title": "Function row and shortcut keys",
+    "description": "Macally's two boards list 13 shortcut keys for brightness, volume and media, and ProtoArc keeps Mac legends on a compact layout. We checked whether F1 through F12 map to Mac controls out of the box, since a Windows-first board needs a remap before brightness works."
   },
   {
-    "title": "Connection and battery",
-    "description": "Bluetooth, dongle and wired options were compared, along with rated battery life."
+    "title": "Bluetooth pairing and device switching",
+    "description": "ProtoArc lists 3 Bluetooth channels, NuPhy adds 2.4GHz and Bluetooth 5.1, and Logitech works across several devices. We favored boards that switch between a Mac and an iPad in one keypress, over single-device pairing that needs repeating."
   },
   {
-    "title": "Typing feel",
-    "description": "Scissor, low-profile mechanical and standard mechanical switches were compared as described."
+    "title": "Battery and charging port",
+    "description": "Apple and Macally Bluetooth charge over USB-C or a rechargeable cell, and Macally lists an 800mAh battery for up to 2 months. We counted USB-C as a plus for a Mac that already uses that cable, and noted that NuPhy's RGB drains battery faster."
   },
   {
-    "title": "Value and support",
-    "description": "Price bucket, warranty terms and brand track record were weighed together."
+    "title": "Typing feel at this size",
+    "description": "Apple and Macally use scissor switches with short travel, while NuPhy Air75 V2 and Logitech MX Mechanical Mini are low-profile mechanical boards. We compared them on feel and noise, since a shallow scissor key and a tactile low-profile switch suit different typists."
   }
 ];
 
@@ -220,115 +220,118 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By System Setup",
+    "subheading": "By Typing Feel",
+    "intro": "Mac typists split between shallow scissor keys and a mechanical bump.",
     "table": {
       "headers": [
-        "Your setup",
-        "Pick from this guide"
+        "Preference",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Mac only, want it to just work",
-          "Apple Magic Keyboard"
+          "Shallow, quiet, native Mac layout",
+          "Apple Magic Keyboard, with auto-pairing and USB-C."
         ],
         [
-          "Mac and iPad only, backlit",
-          "ProtoArc K90-A"
+          "Mechanical feel, quiet switches, Mac keys",
+          "Logitech MX Mechanical Mini for Mac, with Tactile Quiet switches."
         ],
         [
-          "Mac plus occasional PC",
-          "Macally Wireless Bluetooth Keyboard for Mac"
+          "Mechanical feel with remapping",
+          "NuPhy Air75 V2, a 75% aluminum low-profile board with QMK/VIA."
         ],
         [
-          "Fixed Mac desk, wired",
-          "Macally Small USB Wired Keyboard"
+          "Backlit scissor-style, Mac legends",
+          "ProtoArc K90-A, with a 3-level white backlight."
         ],
         [
-          "Mechanical typing",
-          "NuPhy Air75 V2 or Logitech MX Mechanical Mini for Mac"
+          "Plain scissor keys",
+          "Macally Wireless Bluetooth Keyboard for Mac, 78 keys."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Spend by what you need to keep, not by brand.",
     "table": {
       "headers": [
-        "Budget",
-        "Pick from this guide"
+        "Price range",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "$25 to $50",
-          "ProtoArc K90-A, Macally Wireless Bluetooth Keyboard for Mac or Macally Small USB Wired Keyboard"
+          "$25 to $50, simple compact",
+          "ProtoArc K90-A, Macally Bluetooth or Macally USB Wired."
         ],
         [
-          "$50 to $75",
-          "NuPhy Air75 V2"
+          "$50 to $75, mechanical",
+          "NuPhy Air75 V2, the only low-profile mechanical in this band."
         ],
         [
-          "$75 to $100",
-          "Apple Magic Keyboard"
+          "$75 to $100, native Apple",
+          "Apple Magic Keyboard."
         ],
         [
-          "$100 to $150",
-          "Logitech MX Mechanical Mini for Mac"
+          "$100 to $150, quiet mechanical",
+          "Logitech MX Mechanical Mini for Mac."
         ]
       ]
     }
   },
   {
-    "subheading": "Scissor vs Mechanical Keys",
-    "intro": "Scissor keys are shallow and quiet, mechanical keys offer feedback and options.",
+    "subheading": "Wired vs Bluetooth",
+    "intro": "Reliability against desk neatness.",
     "cards": [
       {
-        "label": "Scissor",
-        "text": "Matches the feel of a MacBook. The Apple Magic Keyboard, Macally boards and ProtoArc K90-A are scissor-style and are good for quiet shared rooms."
+        "label": "Wired",
+        "text": "No battery, no pairing, and no lag. Macally Small USB Wired is plug and play with a 4 ft 7 in cable, but the cord ties it to the Mac or a dongle."
       },
       {
-        "label": "Mechanical",
-        "text": "Gives key feedback and a longer life. The NuPhy Air75 V2 and Logitech MX Mechanical Mini for Mac are low-profile mechanical boards."
+        "label": "Bluetooth",
+        "text": "A clean desk and easy device switching. Apple, ProtoArc, Macally Bluetooth and NuPhy all use it, but they need charging."
       }
     ],
-    "note": "Most Mac users should choose scissor unless they type for hours."
+    "note": "Choose wired Macally for a fixed desk and Bluetooth such as ProtoArc K90-A for a Mac plus iPad."
   },
   {
-    "subheading": "By Warranty and Support",
+    "subheading": "By Connection Need",
+    "intro": "Match the board to the devices you switch between.",
     "table": {
       "headers": [
         "Need",
-        "Pick from this guide"
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Up to two-year warranty",
-          "Macally Wireless Bluetooth Keyboard for Mac"
+          "One Mac only",
+          "Apple Magic Keyboard."
         ],
         [
-          "Known platform maker",
-          "Apple Magic Keyboard"
+          "Mac plus iPad and phone",
+          "ProtoArc K90-A, with 3 Bluetooth channels."
         ],
         [
-          "Software support",
-          "Logitech MX Mechanical Mini for Mac via Logi Options+"
+          "Mac, PC and tablet",
+          "Logitech MX Mechanical Mini for Mac, multi-device."
         ],
         [
-          "Open firmware",
-          "NuPhy Air75 V2: QMK/VIA"
+          "Lowest latency",
+          "NuPhy Air75 V2 on 2.4GHz."
         ]
       ]
     }
   },
   {
-    "subheading": "For MacBook Docking Setups Specifically",
+    "subheading": "For Small Desks and Laptops Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "A keyboard that pairs quickly, charges over USB-C, and matches the MacBook's key layout so muscle memory transfers."
+        "text": "No number pad, a thin body that fits a laptop bag and a layout that keeps arrow keys."
       },
       {
         "label": "In this comparison",
-        "text": "The Apple Magic Keyboard charges over USB-C and pairs automatically, and the ProtoArc K90-A copies the Mac layout with backlighting."
+        "text": "Apple Magic Keyboard and ProtoArc K90-A skip the numpad, and NuPhy Air75 V2 is a 75% board that keeps a function row."
       }
     ]
   },
@@ -337,11 +340,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You type a lot and want a quiet mechanical feel: the Logitech MX Mechanical Mini for Mac is the most polished pick."
+        "text": "You type for hours. Logitech MX Mechanical Mini for Mac and NuPhy Air75 V2 sit above the $50 band for their switches."
       },
       {
         "label": "Save if",
-        "text": "You want a simple compact board: the Macally Small USB Wired Keyboard or Macally Wireless Bluetooth Keyboard for Mac are cheaper."
+        "text": "You only need basic typing. ProtoArc K90-A, Macally Wired and Bluetooth stay $25 to $50."
       }
     ]
   }
@@ -350,50 +353,50 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Mac modifier layout",
-    "explanation": "Mac keyboards put Control, Option and Command in a specific order, and the Windows order differs. Wrong order makes shortcuts feel off until you remap. Look for 'Mac layout' or printed Command and Option, and check that Windows boards include a toggle."
+    "explanation": "Mac keyboards put Control, Option and Command in a specific order, and the Windows order differs. Wrong order makes shortcuts feel off until you remap. Look for 'Mac layout' or printed Command and Option, and check that Windows boards include a toggle. On a Mac, Command sits beside the spacebar, and Windows boards that put Alt there make shortcuts like copy and paste awkward until remapped."
   },
   {
     "criterion": "Function row and shortcut keys",
-    "explanation": "Mac function keys control brightness, Mission Control, Spotlight and dictation. A Windows-first board may not map these properly. Check the listing for shortcut keys such as 13 Mac shortcuts or for the number of dedicated keys."
+    "explanation": "Mac function keys control brightness, Mission Control, Spotlight and dictation. A Windows-first board may not map these properly. Check the listing for shortcut keys such as 13 Mac shortcuts or for the number of dedicated keys. A board with dedicated brightness and media keys, such as the Macally pair's 13 shortcuts, avoids opening settings for common tasks."
   },
   {
     "criterion": "Bluetooth pairing and multi-device",
-    "explanation": "Mac keyboards generally pair over Bluetooth, and boards with several channels let you switch between a Mac, an iPad and a phone. Check the number of devices and whether the listing mentions auto-detection of the operating system."
+    "explanation": "Mac keyboards generally pair over Bluetooth, and boards with several channels let you switch between a Mac, an iPad and a phone. Check the number of devices and whether the listing mentions auto-detection of the operating system. If you also use an iPad or phone, a 3-slot board such as ProtoArc K90-A saves re-pairing each time you switch."
   },
   {
     "criterion": "Battery and charging port",
-    "explanation": "USB-C charging matches current Macs and removes a separate cable. Rated life ranges from a month to six months depending on lighting and use. Look for the battery capacity and USB-C, not micro-USB."
+    "explanation": "USB-C charging matches current Macs and removes a separate cable. Rated life ranges from a month to six months depending on lighting and use. Look for the battery capacity and USB-C, not micro-USB. A battery quoted in months, like Macally's 800mAh up to 2 months, beats one that lists only a capacity with no runtime."
   },
   {
     "criterion": "Mechanical versus scissor feel",
-    "explanation": "Scissor keys are shallow and match the MacBook's feel, while low-profile mechanical keys give more feedback. If you use a Mac laptop all day, shallow keys feel familiar, but heavy typists often prefer a mechanical board. Check for the switch type in the title or bullets."
+    "explanation": "Scissor keys are shallow and match the MacBook's feel, while low-profile mechanical keys give more feedback. If you use a Mac laptop all day, shallow keys feel familiar, but heavy typists often prefer a mechanical board. Check for the switch type in the title or bullets. Scissor keys feel shallow and quiet, while a low-profile mechanical like Logitech's gives a tactile bump, so try the feel if you can before committing."
   }
 ];
 
 export const faq = [
   {
-    "q": "Do I need a Mac-specific keyboard?",
-    "a": "Not strictly, since most Bluetooth keyboards work on macOS. A Mac-specific layout saves remapping and gives you the correct shortcut keys, which makes it more comfortable."
+    "q": "Will a Windows keyboard work on a Mac?",
+    "a": "It will connect, but the keys may be in the wrong places. Windows boards put Alt and Windows where a Mac expects Option and Command, and brightness keys may not work. Boards such as ProtoArc K90-A and Logitech MX Mechanical Mini for Mac print Mac legends."
   },
   {
-    "q": "How do I remap a Windows keyboard for Mac?",
-    "a": "In System Settings under Keyboard, choose Modifier Keys and swap Option and Command. Some keyboards also have a hardware toggle to switch layouts."
+    "q": "Does the Apple Magic Keyboard work with an iPad?",
+    "a": "It pairs over Bluetooth with iPads as well as Macs, but it is a single-device board that you re-pair when switching. If you move between a Mac and an iPad often, ProtoArc K90-A with 3 Bluetooth channels is easier to switch."
   },
   {
-    "q": "Will a small keyboard work with my iPad?",
-    "a": "Yes, most Bluetooth keyboards do, and models such as the ProtoArc K90-A and Macally wireless board list iPad compatibility."
+    "q": "Is NuPhy Air75 V2 worth choosing over Apple Magic Keyboard?",
+    "a": "For typing feel and customization, yes. NuPhy is a 75% low-profile mechanical board with QMK/VIA remapping and three connection modes, but its legends can be Windows-first. Apple wins on native layout and automatic pairing, so choose by what you value."
   },
   {
-    "q": "Is the Apple Magic Keyboard worth the price?",
-    "a": "It is worth it if you want a native layout, auto-pairing and a month-long battery. If you prefer mechanical keys or backlighting, other picks offer more."
+    "q": "Is a wired Macally keyboard better than a Bluetooth one?",
+    "a": "For simplicity, yes. Macally Small USB Wired has a 4 ft 7 in cable, 78 scissor keys and no battery to charge, so it works instantly. The Bluetooth Macally adds auto OS detection and 2 months of battery but needs pairing."
   },
   {
-    "q": "Are mechanical keyboards good for Mac?",
-    "a": "Yes. Boards like the NuPhy Air75 V2 and Logitech MX Mechanical Mini for Mac work well, but check that the legends and modifier keys match macOS."
+    "q": "How do I remap keys on a Mac with a non-Mac keyboard?",
+    "a": "Use System Settings under Keyboard, then Modifier Keys, to swap Option and Command. For NuPhy Air75 V2 or Logitech, QMK/VIA or Logi software can do the same on the board. Remapping fixes position, but not mismatched printed legends."
   },
   {
-    "q": "How long do wireless Mac keyboards last between charges?",
-    "a": "It depends on the model: Apple lists about a month, while the Macally wireless board lists up to two months. Backlit boards use more power."
+    "q": "Will a small Mac keyboard drain my laptop battery over Bluetooth?",
+    "a": "Barely. Bluetooth keyboards draw a tiny amount, and Apple Magic Keyboard is rated for about a month on a charge. The bigger drain is NuPhy's RGB backlight, so turn the lighting down if you want its battery to last."
   }
 ];
 

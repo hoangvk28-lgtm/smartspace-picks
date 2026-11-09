@@ -5,7 +5,7 @@ export const metaDescription = "Six trackball mice at or under $100 compared by 
 export const mainKeyword = "trackball mouse under 100";
 export const introParagraphs = [
   "A hundred dollars buys the brands that dominate trackball buying guides: Logitech, Kensington and ELECOM. At this level you are paying for support, software, build quality and refinements like fast charging, ruby bearings or a vertical shell with a metal wheel.",
-  "The six picks are listed at under $100 or less and range from a wired Kensington ring to Logitech's flagship MX Ergo S. We compared them on listed specs: connection options, battery or cable, tilt, buttons and software. Price spreads inside this band are wide, from about $49 to $100, so the ranking leans on what each step actually adds."
+  "The six picks are listed at under $100 or less and range from a wired Kensington ring to Logitech's flagship MX Ergo S. We compared them on listed specs: connection options, battery or cable, tilt, buttons and software. Price spreads inside this band are wide, from under $50 to $100, so the ranking leans on what each step actually adds."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -190,52 +190,48 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "What the extra money buys",
-    "explanation": "Over $50 you mostly pay for brand support, better bearings, software and refinements such as fast charging. A $100 model is not always better for light use. Check which of those extras you would actually use."
+    "criterion": "Tilt and posture support",
+    "explanation": "A tilt such as 20 degrees rotates the hand slightly toward neutral, while a vertical shell like the 60 degree TB675 goes further. A detachable wrist rest adds support for long sessions. Look for the angle and rest in the listing, and consider how much change you want from your current mouse. Kensington's TB675 Wired lists a 60 degree tilt, against the MX Ergo S at 20 degrees."
   },
   {
-    "criterion": "Connection flexibility",
-    "explanation": "Premium models often offer Bluetooth, a receiver and a wired fallback in one device. That matters if you move between a laptop, a work PC and a tablet. Check the device count and the connection list."
+    "criterion": "Thumb or finger design",
+    "explanation": "A thumb trackball is operated by your thumb while your hand stays still, and a finger model uses the index finger. The difference decides which digit tires and how the shell feels. Look for the word thumb or finger in the title, and think about which digit feels stronger. The DEFT PRO is finger operated and the Logitech picks are thumb operated."
   },
   {
-    "criterion": "Software and button remapping",
-    "explanation": "Brand software lets you remap buttons and set per-app profiles. Some models list ten programmable inputs. Check the software compatibility with your operating system."
+    "criterion": "Scroll hardware",
+    "explanation": "Trackballs scroll with a wheel, a ring or a tilt wheel, and a metal wheel lasts longer than plastic. The TB675 Wired lists a metal 4D scroll wheel, and the Orbit 72337 uses a scroll ring. Check which style the listing describes, and whether it supports horizontal movement. The Orbit uses a scroll ring and the TB675 Wired a metal 4D wheel."
   },
   {
-    "criterion": "Vertical versus tilted grip",
-    "explanation": "A 60 degree vertical shell reduces palm-down twist more than a 20 degree tilt but takes longer to adapt to. A shallow tilt is easier to learn. Look for the degree figure."
+    "criterion": "Connection modes",
+    "explanation": "Wired mode avoids charging, wireless mode removes the cable, and Bluetooth saves a port. The DEFT PRO offers all three. Check which modes a listing names, since some picks are receiver-only, which can be awkward if your laptop has no USB-A port. The DEFT PRO runs three modes, while the Orbit 72337 never states its connection."
   },
   {
-    "criterion": "Battery or wired",
-    "explanation": "A wired model has no battery to age, while Logitech's rechargeable cell offers fast charging. A replaceable-cell model lasts months. Check the battery claim."
-  },
-  {
-    "criterion": "Warranty and support",
-    "explanation": "Premium brands usually list multi-year coverage. Support matters if the ball or sensor fails. Check the warranty text."
+    "criterion": "Battery life and charging method",
+    "explanation": "Battery life ranges from months on AA cells to a quick USB-C charge, such as the MX Ergo S claim of 24 hours after one minute. Claims are the maker's best case. Look for the charge port and whether it works while charging, so a dead mouse is never an excuse to stop work. The MX Ergo S claims 24 hours from a one minute charge, a best-case figure."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Brand and support",
-    "description": "We compared warranty and support notes in each listing."
+    "title": "Build and sensor quality",
+    "description": "We looked at build clues, such as the metal 4D scroll wheel on the wired Kensington TB675 and the red ball on the ELECOM DEFT PRO. Near $100, a trackball should feel durable and track smoothly, so material claims and sensor notes weighed more than at lower prices. The TB675 Wired lists a metal 4D scroll wheel, a rare material note at this price."
   },
   {
-    "title": "Ergonomic design",
-    "description": "Tilt, vertical shells and wrist rests were noted."
+    "title": "Angle, rest and posture",
+    "description": "We compared the 20 degree tilt of the Logitech MX Ergo S, the flat Ergo M575 and the detachable wrist rest on the Kensington Orbit 72337. Adjustable posture support matters at this tier, because buyers spend more to reduce strain. The MX Ergo S tilts 20 degrees; the TB675 Wired goes to 60; the Orbit adds a detachable wrist rest."
   },
   {
-    "title": "Connections and power",
-    "description": "Bluetooth, receivers, wired fallback and battery claims were compared."
+    "title": "Thumb versus finger control",
+    "description": "We separated thumb designs like the Logitech and Kensington TB675 from the finger-operated ELECOM DEFT PRO. Finger trackballs spread work across stronger digits, while thumb balls keep the hand quiet, so each was judged against its stated goal. The DEFT PRO is finger operated, the others thumb, so we kept both groups."
   },
   {
-    "title": "Customization",
-    "description": "Button counts and software support were weighed."
+    "title": "Connection and battery",
+    "description": "We checked connection types, such as wired, wireless and Bluetooth on the DEFT PRO, and battery claims, including up to 24 months on the M575 and fast USB-C charging on the MX Ergo S. Reliable power matters on a desk tool. The DEFT PRO runs wired, wireless or Bluetooth, while the Orbit is receiver only."
   },
   {
-    "title": "Value for price",
-    "description": "We set each price beside its listed features and the complaints or praise owners repeat most."
+    "title": "Premium justification",
+    "description": "We asked whether the $100 MX Ergo S beats the $54 M575 for most buyers. The MX Ergo S adds tilt, USB-C charging and a precision switch, but the M575 covers the basics, so the extra cost had to buy visible comfort or control. The M575 claims 24 months of battery, which covers most needs, so the $100 MX Ergo S has to justify itself."
   }
 ];
 
@@ -375,28 +371,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Is the Logitech MX Ergo S worth $100?",
-    "a": "It is worth it if you use a trackball for hours daily and want tilt, fast charging and a precision toggle. For lighter use the M575 line is enough. The price gap is almost double."
+    "q": "Is the Logitech MX Ergo S worth it over the Ergo M575?",
+    "a": "If you want an angle adjustment and rechargeable battery, yes. The MX Ergo S offers a 20 degree tilt, USB-C charging and a speed and precision switch. The M575 is simpler, with a long battery claim, so it suits users who just want a thumb ball."
   },
   {
-    "q": "Do Kensington trackballs need software?",
-    "a": "Basic movement needs none. Button mapping uses Kensington software. Chrome OS support for customizing may be limited."
+    "q": "Which is best for large hands?",
+    "a": "The ELECOM DEFT PRO has a large body, which suits big hands but may overwhelm small ones. The Logitech MX Ergo S is also sizable. Check the listed dimensions and compare them with your hand length before ordering."
   },
   {
-    "q": "Which has the best battery life?",
-    "a": "Listings claim up to 120 days for the MX Ergo S and up to 24 months for the M575 on its included batteries. These are manufacturer claims. Use is the real test."
+    "q": "What does a wrist rest add?",
+    "a": "The Kensington Orbit 72337 includes a detachable rest that keeps the wrist off the desk and supports the heel of the hand. Some people like it for long sessions, while others find that it anchors the wrist and encourages finger movement. It can be removed."
   },
   {
-    "q": "Is a wired trackball better?",
-    "a": "A wired one has no battery to age. A wireless one is more flexible. Choose by desk layout."
+    "q": "Can I use a wired trackball for work?",
+    "a": "Yes. The Kensington TB675 Wired is a 60 degree vertical design with USB-C and a USB-A adapter, so there is no battery to charge. The tradeoff is cable length and desk clutter, so measure the distance from your port."
   },
   {
-    "q": "Can a trackball with a wrist rest help comfort?",
-    "a": "A rest can support the palm. If you have persistent pain, ask a doctor or ergonomist. These are comfort products, not medical devices."
+    "q": "How do I set up the DEFT PRO?",
+    "a": "It offers wired, wireless and Bluetooth modes, so pick the one you need. For wireless, plug in the receiver and switch it on. For Bluetooth, hold the pairing button and select it in settings. Install the maker's software if you want to remap its 8 buttons."
   },
   {
-    "q": "How do I choose between thumb and finger balls?",
-    "a": "Thumb balls feel closest to a mouse, while finger balls spread work. Test in the return window."
+    "q": "Do trackballs need maintenance?",
+    "a": "Yes, occasionally. Remove the ball and clean the cavity every few weeks, wiping away dust and skin oil. For wireless models, check the battery level, and update the software for any button changes."
   }
 ];
 

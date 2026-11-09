@@ -5,7 +5,7 @@ export const metaDescription = "Eight foot warmers with auto shut-off compared b
 export const mainKeyword = "foot warmer with auto shut off";
 export const introParagraphs = [
   "Every heated foot warmer says it has an auto shut-off, so the phrase has become almost meaningless on a listing. What actually differs is how long the timer runs, how many steps it offers, and whether it can be set at all. A fixed two hour cutoff and a selectable 30 minute to 8 hour timer protect you in very different ways.",
-  "This guide ranks eight plug-in warmers by exactly that detail. We compared the stated timer lengths first, then heat range, cord length, whether the listing names a certification and how the pad is washed. Prices run from about $22 to $50. We worked from the listings only, and the numbers below are the sellers' claims, so confirm the timer on your own unit the first time you use it."
+  "This guide ranks eight plug-in warmers by exactly that detail. We compared the stated timer lengths first, then heat range, cord length, whether the listing names a certification and how the pad is washed. Prices run from under $25 to $50. We worked from the listings only, and the numbers below are the sellers' claims, so confirm the timer on your own unit the first time you use it."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41KbfQeO1VL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FH6SR6MC?tag=deskfinds0d-20",
-    "description": "Diweez heats both sides with 9 levels from 104F to 149F and 3 timers, with an anti-slip sole, an extended cord and a removable cover with a rear zipper for machine washing.\n\nIt costs $1 less than ROWARMSEY and about $2 more than KADORVA, with the same range as KADORVA but without a stated cord length. Compared with Ceuku, it has more heat but coarser timers.\n\nBest for someone wanting nine steps at a modest price. The caveat is that timer lengths are not given in the listing.",
+    "description": "Diweez heats both sides with 9 levels from 104F to 149F and 3 timers, with an anti-slip sole, an extended cord and a removable cover with a rear zipper for machine washing.\n\nIt costs $1 less than ROWARMSEY and under $10 more than KADORVA, with the same range as KADORVA but without a stated cord length. Compared with Ceuku, it has more heat but coarser timers.\n\nBest for someone wanting nine steps at a modest price. The caveat is that timer lengths are not given in the listing.",
     "specs": [
       "9 levels, 104F to 149F",
       "3 timer settings",
@@ -247,178 +247,184 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Fixed versus selectable timer",
-    "explanation": "A fixed timer, like Gintao's 2 hours, cuts power at one length no matter what. A selectable timer, like Ceuku's 0.5 to 2 hours or Girasol's 1 to 8, lets you match the session to your day. Look for the list of timer steps in the bullets."
+    "explanation": "A fixed timer, like Gintao's 2 hours, cuts power at one length no matter what. A selectable timer, like Ceuku's 0.5 to 2 hours or Girasol's 1 to 8, lets you match the session to your day. Look for the list of timer steps in the bullets.  A fixed timer is simpler, while a selectable one adds flexibility, so choose based on whether you want control or reliability."
   },
   {
     "criterion": "Longest timer versus your day",
-    "explanation": "A 2 hour cutoff is safe but means restarting it all afternoon. An 8 hour timer is convenient but protects less if you leave. Choose the shortest maximum that fits how long you actually sit."
+    "explanation": "A 2 hour cutoff is safe but means restarting it all afternoon. An 8 hour timer is convenient but protects less if you leave. Choose the shortest maximum that fits how long you actually sit.  If you sit for 3 hours, a 2 hour cutoff means one restart, which is a reasonable price for safety."
   },
   {
     "criterion": "Always-on modes",
-    "explanation": "Some listings include an infinite or always-on option, like DenGraph's, which defeats the purpose of an auto shut-off. It matters because a forgotten pad then runs until someone notices. Check whether the timer menu includes it, and avoid that setting whenever you are not at the desk."
+    "explanation": "Some listings include an infinite or always-on option, like DenGraph's, which defeats the purpose of an auto shut-off. It matters because a forgotten pad then runs until someone notices. Check whether the timer menu includes it, and avoid that setting whenever you are not at the desk.  Always-on modes belong on the avoid list unless you are at the desk the entire time."
   },
   {
     "criterion": "Overheat protection and certification",
-    "explanation": "A timer is one safeguard, and overheat protection is another. Gintao names ETL and FCC, and others only claim safety generally. Look for a named mark and an overheat feature in addition to a timer."
+    "explanation": "A timer is one safeguard, and overheat protection is another. Gintao names ETL and FCC, and others only claim safety generally. Look for a named mark and an overheat feature in addition to a timer.  A named lab mark means a third party reviewed the design, which a general safety claim does not."
   },
   {
     "criterion": "Restart behavior and cord",
-    "explanation": "Check whether the pad needs a manual restart after cutoff and whether the cord reaches. Pure Enrichment and KADORVA list 10 foot cords. Measure from your outlet and avoid extension cords."
+    "explanation": "Check whether the pad needs a manual restart after cutoff and whether the cord reaches. Pure Enrichment and KADORVA list 10 foot cords. Measure from your outlet and avoid extension cords.  Check that the pad stays off after cutoff instead of reheating without you pressing a button."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Timer steps",
-    "description": "We compared listed timer lengths and whether they can be selected."
+    "title": "Fixed or selectable timer",
+    "description": "We separated fixed cutoffs from selectable ones. Gintao has a fixed 2 hour auto shut-off, Ceuku lists 0.5, 1, 1.5 or 2 hours, and Girasol and KADORVA list 1 to 8 hours, so a selectable timer was credited because it lets you match a session to your day. A selectable range, such as 0.5 to 2 hours on Ceuku, is the best balance of control and safety here."
   },
   {
-    "title": "Other safeguards",
-    "description": "Overheat protection and named certification were checked."
+    "title": "Longest allowed run",
+    "description": "A 2 hour cutoff is safer but needs restarting, while 8 hours is convenient but protects less. We marked the maximum alongside what a normal session looks like, since a pad that runs unattended for 8 hours adds risk. That means the shortest maximum is usually the safest, though it adds restarts."
   },
   {
-    "title": "Heat range",
-    "description": "Listed minimum and maximum temperatures were compared."
+    "title": "Always-on options",
+    "description": "DenGraph and ROWARMSEY-style menus can include an always-on setting. DenGraph lists 2, 4, 8 hours or on, and we marked that down because a forgotten pad then runs indefinitely. A forgotten pad on an infinite setting is exactly the failure a shut-off is meant to prevent."
   },
   {
-    "title": "Cord and care",
-    "description": "Cord length and washing instructions were noted."
+    "title": "Overheat protection and marks",
+    "description": "A timer is one safeguard. Gintao names ETL and FCC, and Pure Enrichment lists a 2 hour shut-off with a 10 foot controller. We credited named marks over general safety claims. Overheat protection works even when the timer does not, so both together beat either alone."
   },
   {
-    "title": "Value for price",
-    "description": "Prices were weighed against documented features."
+    "title": "Heat range and size",
+    "description": "We compared 95F to 120F on Gintao, 96.8F to 131F on Ceuku and 110F to 140F on Pure Enrichment, plus 22 x 20 and 20 x 20 inch pads, since a shut-off matters less than a heat range that suits your feet. A pad that runs too cool feels pointless, and one that runs too hot is a risk, so the range was part of the verdict."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Timer Need",
+    "subheading": "By Timer Type",
+    "intro": "Timer choice is the point of this guide.",
     "table": {
       "headers": [
-        "Your situation",
-        "Recommended pick"
+        "Your habit",
+        "Best pick here"
       ],
       "rows": [
         [
-          "Short sessions, half hour steps",
-          "Ceuku Electric Heated Foot Warmer"
+          "A fixed 2 hour cutoff with no settings to forget",
+          "Gintao Electric Heated Foot Warmer Pad, with a fixed 2 hour auto shut-off"
         ],
         [
-          "Full workday, long timer",
-          "Girasol Double Sided Heated Foot Warmer"
+          "Short steps from 30 minutes to 2 hours",
+          "Ceuku Electric Heated Foot Warmer, with 0.5, 1, 1.5 or 2 hour timers"
         ],
         [
-          "Want a fixed 2 hour cutoff",
-          "Gintao Electric Heated Foot Warmer Pad"
+          "A fixed 2 hour timer with a longer cord",
+          "Pure Enrichment PureRelief Deluxe Foot Warmer, with a 10 foot controller cord"
         ],
         [
-          "Want a 4 hour middle option",
-          "KADORVA Double Sided Electric Foot Warmer"
+          "1 to 8 hour steps for a long day",
+          "Girasol Double Sided Heated Foot Warmer, with 9 levels from 104F to 140F"
         ],
         [
-          "Want 2, 4 or 8 hours on a mat",
-          "DenGraph Heated Floor Mat Foot Warmer"
+          "1, 4 or 8 hour presets with LCD",
+          "KADORVA Double Sided Electric Foot Warmer, with a 10 foot cord"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Prices run from under $25 to under $50.",
     "table": {
       "headers": [
-        "Price range",
-        "Recommended pick"
+        "Budget",
+        "Best pick here"
       ],
       "rows": [
         [
           "Under $25",
-          "DenGraph Heated Floor Mat Foot Warmer"
+          "DenGraph Heated Floor Mat Foot Warmer, with 86F to 118F"
         ],
         [
-          "$25 to $35",
-          "Ceuku Electric Heated Foot Warmer"
+          "Under $30",
+          "Ceuku Electric Heated Foot Warmer, with 9 levels"
         ],
         [
-          "$33 to $37",
-          "Gintao Electric Heated Foot Warmer Pad"
+          "Under $35",
+          "Gintao Electric Heated Foot Warmer Pad, with ETL and FCC marks"
         ],
         [
-          "$37 to $40",
-          "ROWARMSEY Double Sided Electric Foot Warmer"
+          "Under $40",
+          "Girasol, KADORVA or Diweez double-sided warmers, with 9 levels and 3 timers"
         ],
         [
-          "$45 to $50",
-          "Pure Enrichment PureRelief Deluxe Foot Warmer"
+          "Under $50",
+          "Pure Enrichment PureRelief Deluxe Foot Warmer, with 110F to 140F"
         ]
       ]
     }
   },
   {
-    "subheading": "Fixed Timer vs Selectable Timer",
+    "subheading": "Fixed Cutoff vs Adjustable Timer",
+    "intro": "The safety difference is who decides when it stops.",
     "cards": [
       {
-        "label": "Fixed timer",
-        "text": "One cutoff, usually 2 hours, which is simple but forces restarts. Picks: Gintao Electric Heated Foot Warmer Pad and Pure Enrichment PureRelief Deluxe Foot Warmer."
+        "label": "Fixed cutoff",
+        "text": "Gintao and Pure Enrichment stop at 2 hours regardless, so a forgotten pad cannot run all day."
       },
       {
-        "label": "Selectable timer",
-        "text": "You pick a duration, which fits uneven days but takes a moment to set. Picks: Ceuku, Girasol, KADORVA, ROWARMSEY, Diweez and DenGraph."
+        "label": "Adjustable timer",
+        "text": "Ceuku, Girasol, KADORVA and Diweez let you choose, so you can match your day but may choose too long."
       }
     ],
-    "note": "Most users should default to a selectable timer with a short setting, and use the fixed 2 hours only for simplicity."
+    "note": "Choose fixed if you tend to forget, and adjustable if you want control."
   },
   {
-    "subheading": "Cord and Placement",
+    "subheading": "By Heat Preference",
+    "intro": "Heat ranges differ widely.",
     "table": {
       "headers": [
-        "Your concern",
-        "Recommended pick"
+        "You prefer",
+        "Best pick here"
       ],
       "rows": [
         [
-          "Outlet is far away",
-          "KADORVA Double Sided Electric Foot Warmer"
+          "Gentle 95F to 120F",
+          "Gintao Electric Heated Foot Warmer Pad, with 3 levels"
         ],
         [
-          "Controller on a long cord",
-          "Pure Enrichment PureRelief Deluxe Foot Warmer"
+          "Warm 110F to 140F",
+          "Pure Enrichment PureRelief Deluxe Foot Warmer, with 4 settings"
         ],
         [
-          "Want the lowest top heat",
-          "Ceuku Electric Heated Foot Warmer"
+          "Wide range up to 149F",
+          "KADORVA Double Sided Electric Foot Warmer, with 9 levels"
         ],
         [
-          "Want a stated wattage",
-          "Girasol Double Sided Heated Foot Warmer"
+          "Low 86F to 118F",
+          "DenGraph Heated Floor Mat Foot Warmer, with 2, 4, 8 hour or on"
         ]
       ]
     }
   },
   {
     "subheading": "For Forgetful Users Specifically",
+    "intro": "A forgetful user needs the product to forget for them.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A timer that has no always-on option, a short default and a named overheat feature."
+        "text": "A fixed or short timer with no always-on mode, plus overheat protection and a named lab mark."
       },
       {
         "label": "In this comparison",
-        "text": "Gintao Electric Heated Foot Warmer Pad stops at 2 hours and lists overheat protection, and Ceuku Electric Heated Foot Warmer lets you cap at 30 minutes."
+        "text": "Gintao has a fixed 2 hour cutoff with ETL and FCC marks, and Ceuku tops out at 2 hours with an LCD display."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "The price spread is small.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want a long warranty or a longer cord. Pure Enrichment PureRelief Deluxe Foot Warmer lists a 5 year warranty and a 10 foot cord."
+        "text": "You want hotter settings. Pure Enrichment under $50 reaches 140F; see the best foot warmers under $50 guide for lower-cost options."
       },
       {
         "label": "Save if",
-        "text": "You only need basic timed warmth. Ceuku Electric Heated Foot Warmer and DenGraph Heated Floor Mat Foot Warmer cost $30 or less."
+        "text": "You want a shut-off at the lowest cost. Gintao under $35 or Ceuku under $30 include timers."
       }
     ]
   }
@@ -427,28 +433,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Does auto shut-off make it safe to leave on?",
-    "a": "It reduces risk but is not a license to leave a heater unattended. Do not cover or fold the warmer while it runs, and unplug it when you leave. The Pure Enrichment PureRelief has a 2 hour auto shut-off, and the Gintao's is fixed at 2 hours."
+    "q": "Is auto shut-off enough to make a foot warmer safe?",
+    "a": "No, it helps but is only one safeguard. Look for overheat protection and a named mark such as ETL, which Gintao cites. Use the lowest setting you need, keep cords clear, and never leave any heated pad running overnight."
   },
   {
-    "q": "How do I know the timer works?",
-    "a": "Confirm it the first time you use it. Set the shortest option, such as 0.5 hour on the Ceuku, and check that it stops when expected. If it does not, stop using the unit and return it."
+    "q": "What mistake do buyers make with timer settings?",
+    "a": "Choosing the longest timer for convenience. A short timer limits risk if you leave the desk. Ceuku offers 0.5 to 2 hours and Gintao is fixed at 2, which are safer than an 8 hour setting."
   },
   {
-    "q": "Is a selectable timer worth it over a fixed one?",
-    "a": "Yes if your sessions vary. The Ceuku (0.5 to 2 hours) and the Girasol (1 to 8 hours) give you control, while the Gintao's fixed 2 hours is simpler but cannot be shortened or extended."
+    "q": "Is Pure Enrichment worth more than Gintao?",
+    "a": "Pure Enrichment is near $50 with 4 settings from 110F to 140F and a 10 foot controller cord. Gintao is under $35 with a fixed 2 hour auto shut-off and 3 levels. The pricier one offers hotter settings."
   },
   {
-    "q": "Does it restart by itself after cutoff?",
-    "a": "Usually you must press a button again. Check the manual, and if a unit remembers its last timer, confirm what it does after a power cycle. The DenGraph lists an on option, so use it with care."
+    "q": "How do I set the timer on a double-sided foot warmer?",
+    "a": "Plug it in, press the timer button on the controller until the display shows 1, 4 or 8 hours, then pick a heat level. KADORVA and Girasol use LCD displays. Check what happens when the timer ends and whether it needs a restart."
   },
   {
-    "q": "How do I wash one?",
-    "a": "Unplug the controller or cord first, as the Gintao and Ceuku listings say, then wash gently and dry fully before reconnecting. Never power it on while damp."
+    "q": "Why does my foot warmer shut off too early?",
+    "a": "Auto-off is a deliberate cutoff, such as Gintao's fixed 2 hours. If that is too short for your day, choose a selectable timer like Girasol's 1 to 8 hours. A frequent early shut-off could also mean a faulty controller."
   },
   {
-    "q": "Are these medical devices?",
-    "a": "No. They are comfort products, and the KADORVA and Diweez reach up to 149F. If you have reduced feeling in your feet, ask a doctor first, since you may not notice heat building."
+    "q": "Do I need to unplug a warmer after auto shut-off?",
+    "a": "Yes, it is best to unplug after use. Auto shut-off cuts heat but the unit stays powered, and a pad with an always-on mode can restart. Store it flat and avoid folding the heating area sharply."
   }
 ];
 

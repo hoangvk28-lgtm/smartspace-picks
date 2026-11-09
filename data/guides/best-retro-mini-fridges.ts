@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41FJlG+D7mL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09TVNFBB8?tag=deskfinds0d-20",
-    "description": "WANAI is a 3.5 cu ft dual-door retro fridge in yellow with 7-level temperature control, LED lighting, and two removable shelves. The listing calls it a dual-zone cooler.\n\nIt holds more than any other retro pick except Majnesvon, and costs about $60 more. Against Bodare below, it offers more space but a less detailed material description.\n\nBest for a colorful statement piece with room to spare. The caveat is that it takes up more floor space than the 1.6 cu ft bar fridges.",
+    "description": "WANAI is a 3.5 cu ft dual-door retro fridge in yellow with 7-level temperature control, LED lighting, and two removable shelves. The listing calls it a dual-zone cooler.\n\nIt holds more than any other retro pick except Majnesvon, and costs under $75 more. Against Bodare below, it offers more space but a less detailed material description.\n\nBest for a colorful statement piece with room to spare. The caveat is that it takes up more floor space than the 1.6 cu ft bar fridges.",
     "specs": [
       "3.5 cu ft, dual door",
       "7-level temperature control",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Bigger footprint",
-      "Costs about $178"
+      "Costs under $200"
     ],
     "bestFor": "A colorful kitchen or den"
   },
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41newfn++9L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GZ1Y425B?tag=deskfinds0d-20",
-    "description": "Bodare is a 3.2 cu ft two-door fridge in vintage cream, with fingerprint-resistant stainless steel exterior, an R600a compressor and 7 temperature levels between 32F and 50F.\n\nIt costs about $18 less than WANAI and adds a fingerprint-resistant finish. Against Frigidaire EFR331 below, it has a separate freezer door.\n\nBest for buyers wanting a cleanable finish. The caveat is a price above single-door models.",
+    "description": "Bodare is a 3.2 cu ft two-door fridge in vintage cream, with fingerprint-resistant stainless steel exterior, an R600a compressor and 7 temperature levels between 32F and 50F.\n\nIt costs under $20 less than WANAI and adds a fingerprint-resistant finish. Against Frigidaire EFR331 below, it has a separate freezer door.\n\nBest for buyers wanting a cleanable finish. The caveat is a price above single-door models.",
     "specs": [
       "3.2 cu ft, two doors",
       "32F to 50F range",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31F-HS9Tu3L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C1HSQKLK?tag=deskfinds0d-20",
-    "description": "West Bend is a 3.1 cu ft retro fridge with a freezer section, two removable shelves, a crisper drawer and a mini ice cube tray. It uses mechanical temperature control with manual defrost and measures 18 by 20.75 by 34.5 inches.\n\nIt is the most expensive pick at about $230, and compared with Bodare, it has fewer finish details. Mechanical dials are simple and avoid electronics.\n\nBest for someone wanting a simple dial. The caveat is manual defrosting and a high price.",
+    "description": "West Bend is a 3.1 cu ft retro fridge with a freezer section, two removable shelves, a crisper drawer and a mini ice cube tray. It uses mechanical temperature control with manual defrost and measures 18 by 20.75 by 34.5 inches.\n\nIt is the most expensive pick at under $250, and compared with Bodare, it has fewer finish details. Mechanical dials are simple and avoid electronics.\n\nBest for someone wanting a simple dial. The caveat is manual defrosting and a high price.",
     "specs": [
       "3.1 cu ft with freezer",
       "Mechanical control, manual defrost",
@@ -97,7 +97,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Manual defrost",
-      "Costs about $230"
+      "Costs under $250"
     ],
     "bestFor": "Simple dial control"
   },
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/313XrXkno1L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DK4KNV28?tag=deskfinds0d-20",
-    "description": "ICEBOX is a 2.5 cu ft Energy Star certified single-door fridge in four color options, with two removable glass shelves, a full-width door shelf, a reversible door and adjustable legs.\n\nIt is the only retro pick with an Energy Star label listed. Compared with Frigidaire EFR331 below, it holds less but costs about $55 more.\n\nBest for a retro look with an efficiency label. The caveat is price and no freezer.",
+    "description": "ICEBOX is a 2.5 cu ft Energy Star certified single-door fridge in four color options, with two removable glass shelves, a full-width door shelf, a reversible door and adjustable legs.\n\nIt is the only retro pick with an Energy Star label listed. Compared with Frigidaire EFR331 below, it holds less but costs under $60 more.\n\nBest for a retro look with an efficiency label. The caveat is price and no freezer.",
     "specs": [
       "2.5 cu ft, Energy Star",
       "Four color options",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/311ZHzYDlrL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07NJ8SM6D?tag=deskfinds0d-20",
-    "description": "Frigidaire EFR331 is a 3.2 cu ft single-door retro fridge with an adjustable thermostat, a reversible door, two glass shelves, a 2L door basket and a chiller compartment with an ice cube tray.\n\nIt has the same capacity as Bodare but costs about $6 less and has no separate freezer. Against Majnesvon below, it is a more established brand.\n\nBest for a retro fridge with brand recognition. The caveat is that the chiller is not a true freezer.",
+    "description": "Frigidaire EFR331 is a 3.2 cu ft single-door retro fridge with an adjustable thermostat, a reversible door, two glass shelves, a 2L door basket and a chiller compartment with an ice cube tray.\n\nIt has the same capacity as Bodare but costs under $10 less and has no separate freezer. Against Majnesvon below, it is a more established brand.\n\nBest for a retro fridge with brand recognition. The caveat is that the chiller is not a true freezer.",
     "specs": [
       "3.2 cu ft single door",
       "Chiller compartment",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31eymFbyKWL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G1H629Q6?tag=deskfinds0d-20",
-    "description": "Majnesvon is a 3.5 cu ft retro fridge with a freezer, seven temperature settings, rearrangeable glass shelves and a claimed 0.42 kWh per day.\n\nIt matches WANAI's capacity at about $59 less, and its kWh claim is the lowest among the retro picks. Against Frigidaire EFR176 below, it holds twice as much.\n\nBest for a roomy, budget-conscious buyer. The caveat is a lesser-known brand.",
+    "description": "Majnesvon is a 3.5 cu ft retro fridge with a freezer, seven temperature settings, rearrangeable glass shelves and a claimed 0.42 kWh per day.\n\nIt matches WANAI's capacity at under $60 less, and its kWh claim is the lowest among the retro picks. Against Frigidaire EFR176 below, it holds twice as much.\n\nBest for a roomy, budget-conscious buyer. The caveat is a lesser-known brand.",
     "specs": [
       "3.5 cu ft with freezer",
       "0.42 kWh per day claimed",
@@ -219,126 +219,134 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Finish and fingerprints",
-    "explanation": "Retro fridges come in painted metal, stainless and glossy finishes, and glossy ones show every smudge. It matters if the fridge sits in a kitchen. Look for fingerprint-resistant wording in the listing."
+    "explanation": "Retro fridges come in painted metal, stainless and glossy finishes, and glossy ones show every smudge. It matters if the fridge sits in a kitchen. Look for fingerprint-resistant wording in the listing. Look at the color name in the listing and the photos of the real unit, because glossy cream shows smudges while painted steel hides them better."
   },
   {
     "criterion": "Chiller versus true freezer",
-    "explanation": "A chiller compartment holds an ice tray but may not keep food frozen, while a two-door unit has a separate freezer. This matters if you buy frozen meals or ice cream. Look for a separate freezer door and a listed freezer temperature."
+    "explanation": "A chiller compartment holds an ice tray but may not keep food frozen, while a two-door unit has a separate freezer. This matters if you buy frozen meals or ice cream. Look for a separate freezer door and a listed freezer temperature. Read the spec line for the words freezer compartment versus chiller, and keep a thermometer inside the first week to confirm it holds ice cream hard."
   },
   {
     "criterion": "Usable space versus cu ft",
-    "explanation": "Listed cubic feet includes door bins and the freezer box. That matters because shelf height and the compressor hump limit what fits. Check that a 2 liter bottle fits upright, as the Frigidaire models state."
+    "explanation": "Listed cubic feet includes door bins and the freezer box. That matters because shelf height and the compressor hump limit what fits. Check that a 2 liter bottle fits upright, as the Frigidaire models state. Subtract the freezer box and door bins from the headline cubic feet and ask whether your tallest bottle still fits on the shelf you are left with."
   },
   {
     "criterion": "Defrost method",
-    "explanation": "Manual defrost means unplugging and emptying the unit as ice builds up, as with West Bend. Frost-free or one-touch options exist. Check the listing."
+    "explanation": "Manual defrost means unplugging and emptying the unit as ice builds up, as with West Bend. Frost-free or one-touch options exist. Check the listing. Look for the phrase auto defrost or manual defrost in the bullets, and expect to unplug and towel dry a manual unit a few times a year."
   },
   {
     "criterion": "Door swing and size",
-    "explanation": "A reversible door lets you open it in either direction, which matters in a tight corner. Retro handles and rounded bodies add depth, so a fridge can stick out further than the listing suggests. Measure depth including handles and the clearance behind."
+    "explanation": "A reversible door lets you open it in either direction, which matters in a tight corner. Retro handles and rounded bodies add depth, so a fridge can stick out further than the listing suggests. Measure depth including handles and the clearance behind. Measure the nook width and the clearance behind the unit, since retro bodies can be deeper than modern boxes of the same size, and confirm the hinge can flip sides."
   },
   {
     "criterion": "Efficiency evidence",
-    "explanation": "ICEBOX lists Energy Star, while others give claimed kWh. Retro styling does not guarantee efficiency. Look for the label."
+    "explanation": "ICEBOX lists Energy Star, while others give claimed kWh. Retro styling does not guarantee efficiency. Look for the label. Look for the Energy Star label or a stated kWh figure, and treat a claim with no testing method behind it as marketing rather than a measured result."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Style and finish",
-    "description": "We compared color options and finish descriptions in each listing."
+    "title": "Usable capacity vs headline cubic feet",
+    "description": "We compared the stated 1.55 to 3.5 cubic feet against what the layout implies. Freezer boxes, door bins and compressor humps eat into a listed figure, so we gave a bonus to units that name shelf count, a 2L bottle fit or a crisper drawer."
   },
   {
-    "title": "Capacity and freezer",
-    "description": "Cubic feet and the type of freezer compartment were compared."
+    "title": "Freezer or chiller",
+    "description": "We separated true freezer sections from chiller compartments. West Bend, Bodare and Majnesvon list a freezer, Frigidaire's EFR331 has a chiller that is not a true freezer, and ICEBOX lists none, which matters if you want ice cream stored at a proper cold temperature."
   },
   {
-    "title": "Efficiency and noise",
-    "description": "Energy Star status and claimed kWh were noted where given."
+    "title": "Defrost and maintenance burden",
+    "description": "We noted manual defrost, as on West Bend, against units that do not mention it. Manual defrost means unplugging and emptying every few months, a real chore for a dorm or office, so we scored it as a recurring cost rather than a footnote."
   },
   {
-    "title": "Price",
-    "description": "Price was compared per cubic foot."
+    "title": "Noise and efficiency evidence",
+    "description": "We looked for dB figures and efficiency claims. Bodare lists no dB rating, ICEBOX carries Energy Star, and Majnesvon claims 0.42 kWh per day without testing detail. Sources note that retro fridges can be audible near 40 dB, so stated figures mattered in a bedroom."
+  },
+  {
+    "title": "Footprint, fit and finish",
+    "description": "We compared stated dimensions such as West Bend's 18 x 20.75 x 34.5 inches and the compact Frigidaire EFR176 bar fridge against reversible doors and finishes. Retro shapes are often deeper than modern boxes, so alcove fit decided several rankings."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Space Available",
+    "subheading": "By Capacity Need",
+    "intro": "Retro fridges split into bar size, mid size and near full size, so match the shelf space to your actual groceries.",
     "table": {
       "headers": [
-        "Your situation",
+        "Your need",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Desk or bar corner",
-          "Frigidaire EFR176 1.6 Cu Ft Retro Bar Fridge"
+          "A bar fridge for drinks beside a desk or bed",
+          "Frigidaire EFR176 1.6 Cu Ft Retro Bar Fridge, with a side bottle opener and 2L door basket"
         ],
         [
-          "Small kitchen nook",
-          "ICEBOX 2.5 Cu Ft Energy Star Compact Fridge"
+          "Compact fridge with an Energy Star label for a dorm",
+          "ICEBOX 2.5 Cu Ft Energy Star Compact Fridge, with a reversible door"
         ],
         [
-          "Studio apartment",
-          "Frigidaire EFR331 3.2 Cu Ft Retro Fridge"
+          "A family sized snack and drink fridge with a separate freezer door",
+          "Bodare 3.2 Cu Ft Retro Double Door Fridge, with a stainless finish"
         ],
         [
-          "Den with room to spare",
-          "WANAI 3.5 Cu Ft Retro Dual Door Fridge"
+          "The most capacity in this guide with dual doors",
+          "WANAI 3.5 Cu Ft Retro Dual Door Fridge, though it takes more floor space"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Prices span a wide range, and a lower price here often means a lesser known brand.",
     "table": {
       "headers": [
-        "Price range",
+        "Price bucket",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $120",
+          "Under $120 for the smallest footprint with an established brand",
           "Frigidaire EFR176 1.6 Cu Ft Retro Bar Fridge"
         ],
         [
-          "$118 to $125",
-          "Majnesvon 3.5 Cu Ft Retro Fridge with Freezer"
+          "Under $120 for the most capacity per dollar",
+          "Majnesvon 3.5 Cu Ft Retro Fridge with Freezer, a lesser known brand"
         ],
         [
-          "$150 to $160",
-          "Bodare 3.2 Cu Ft Retro Double Door Fridge"
+          "Under $160 for a single door from a known brand",
+          "Frigidaire EFR331 3.2 Cu Ft Retro Fridge, a chiller rather than a freezer"
         ],
         [
-          "$154 to $180",
-          "Frigidaire EFR331 3.2 Cu Ft Retro Fridge"
+          "Under $180 for dual door and seven temperature levels",
+          "WANAI 3.5 Cu Ft Retro Dual Door Fridge"
         ],
         [
-          "Over $200",
+          "Under $230 for a premium brand look with a mechanical dial",
           "West Bend 3.1 Cu Ft Retro Fridge with Freezer"
         ]
       ]
     }
   },
   {
-    "subheading": "Single Door vs Two Door",
+    "subheading": "Chiller vs True Freezer",
+    "intro": "This is the choice most retro fridge buyers overlook, and it changes what you can store.",
     "cards": [
       {
-        "label": "Single door",
-        "text": "One door, with a chiller or small ice box, simpler and cheaper. Frigidaire EFR331 3.2 Cu Ft Retro Fridge, Frigidaire EFR176 1.6 Cu Ft Retro Bar Fridge and ICEBOX 2.5 Cu Ft Energy Star Compact Fridge fall here."
+        "label": "Chiller compartment (Frigidaire EFR331, Frigidaire EFR176)",
+        "text": "Holds an ice tray and chills drinks but is not sized or cold enough to keep frozen meals. It suits beverages and snacks only."
       },
       {
-        "label": "Two door",
-        "text": "A separate freezer door for real frozen food, at a higher cost. WANAI 3.5 Cu Ft Retro Dual Door Fridge, Bodare 3.2 Cu Ft Retro Double Door Fridge and Majnesvon 3.5 Cu Ft Retro Fridge with Freezer fall here."
+        "label": "Separate freezer (West Bend, Bodare, Majnesvon, WANAI)",
+        "text": "A dedicated freezer section keeps frozen food hard and makes ice, at the cost of cutting into fridge height. West Bend adds an ice cube tray, and Bodare has a separate freezer door."
       }
     ],
-    "note": "Choose single door unless you actually store frozen meals."
+    "note": "If you mostly want cold drinks, a chiller model is simpler; if you cook or buy frozen meals, choose a separate freezer."
   },
   {
-    "subheading": "Finish and Color",
+    "subheading": "By Maintenance Preference",
+    "intro": "How much upkeep you want is easy to ignore until the ice builds up.",
     "table": {
       "headers": [
         "Your preference",
@@ -346,34 +354,34 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Fingerprint-resistant",
-          "Bodare 3.2 Cu Ft Retro Double Door Fridge"
+          "Minimal upkeep and you do not mind a small dial",
+          "ICEBOX 2.5 Cu Ft, which is Energy Star certified"
         ],
         [
-          "Four color choices",
-          "ICEBOX 2.5 Cu Ft Energy Star Compact Fridge"
+          "Simple mechanical control and willingness to defrost",
+          "West Bend 3.1 Cu Ft, with manual defrost"
         ],
         [
-          "Bold yellow",
-          "WANAI 3.5 Cu Ft Retro Dual Door Fridge"
+          "Seven temperature levels without a manual dial",
+          "Majnesvon or Bodare, which both list seven settings"
         ],
         [
-          "Simple mechanical dial",
-          "West Bend 3.1 Cu Ft Retro Fridge with Freezer"
+          "Little to maintain because you only store drinks",
+          "Frigidaire EFR176 bar fridge"
         ]
       ]
     }
   },
   {
-    "subheading": "For Game Rooms and Bars Specifically",
+    "subheading": "For Dorm Rooms Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "A bottle opener, a door that holds large bottles and a compact depth."
+        "text": "A reversible door for awkward corners, a footprint under about 20 inches wide, Energy Star or a stated kWh figure, and a freezer if you plan on frozen meals."
       },
       {
         "label": "In this comparison",
-        "text": "Frigidaire EFR176 1.6 Cu Ft Retro Bar Fridge has a side bottle opener, and Frigidaire EFR331 3.2 Cu Ft Retro Fridge holds a 2L bottle in the door."
+        "text": "ICEBOX offers Energy Star and a reversible door, and Frigidaire EFR331 adds a reversible door with a chiller for drinks."
       }
     ]
   },
@@ -382,11 +390,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want an Energy Star label, a dial control, or a premium look. ICEBOX 2.5 Cu Ft Energy Star Compact Fridge and West Bend 3.1 Cu Ft Retro Fridge with Freezer fit."
+        "text": "You want a recognized brand look and a mechanical dial, as on the West Bend, or a stainless finish that resists fingerprints, as on the Bodare."
       },
       {
         "label": "Save if",
-        "text": "You want capacity or a compact style. Majnesvon 3.5 Cu Ft Retro Fridge with Freezer and Frigidaire EFR176 1.6 Cu Ft Retro Bar Fridge cost less."
+        "text": "You only need cold storage, so Majnesvon or Frigidaire EFR176 give the capacity or the size you need for less."
       }
     ]
   }
@@ -395,28 +403,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Are retro fridges less efficient?",
-    "a": "Not necessarily. Efficiency depends on insulation and compressor, not looks. ICEBOX lists Energy Star while others give only claimed kWh."
+    "q": "Do retro mini fridges run louder than regular ones?",
+    "a": "Some do. Sources note a 40 dB noise level is audible on one retro model, and many listings, including Bodare's, give no dB rating. If the fridge will sit near your bed, check for a stated dB figure and read buyer comments about compressor hum."
   },
   {
-    "q": "Do retro mini fridges have real freezers?",
-    "a": "Only the two-door models do. Single-door units have a chiller that may not keep ice cream frozen."
+    "q": "What is the most common mistake with retro mini fridges?",
+    "a": "Buying on color and cubic feet alone. Usable space is smaller once the freezer box and door bins are subtracted, and retro bodies are often deeper than modern ones. Measure your alcove depth, width and door swing before ordering."
   },
   {
-    "q": "Is a retro fridge worth over a plain one?",
-    "a": "If you see it every day, the styling can be worth it. Majnesvon and Frigidaire EFR176 add retro looks at low prices."
+    "q": "Is the ICEBOX Energy Star model worth it over the Frigidaire EFR331?",
+    "a": "ICEBOX offers Energy Star certification and a reversible door at 2.5 cu ft, while the Frigidaire EFR331 gives 3.2 cu ft with a chiller and an established brand. Choose ICEBOX if power use matters, Frigidaire if you want more space."
   },
   {
-    "q": "How do I defrost a manual defrost fridge?",
-    "a": "Unplug it, empty it and let the ice melt, catching water with towels. West Bend uses manual defrost."
+    "q": "How do I defrost a manual defrost fridge like the West Bend?",
+    "a": "Unplug it, empty the contents and leave the door open with towels underneath until the ice melts, then wipe it dry. Plan for it every few months, since heavy frost reduces space and makes the compressor work harder."
   },
   {
-    "q": "How much clearance does it need?",
-    "a": "Leave a few inches behind and at the sides, and check the manual."
+    "q": "Can I flip the door on these fridges?",
+    "a": "Frigidaire EFR331 and ICEBOX list a reversible door, which helps in a corner. Others do not clearly state it, so check the listing. Allow clearance on the hinge side and a few inches behind for airflow."
   },
   {
-    "q": "Can I put it in a bedroom?",
-    "a": "Yes, but compressors cycle on and off. Check for a stated dB if noise matters."
+    "q": "Is a chiller compartment the same as a freezer?",
+    "a": "No. A chiller holds ice trays and keeps drinks cold but is not designed to keep frozen food at zero degrees. If you plan to store ice cream or frozen meals, choose West Bend, Majnesvon, Bodare or WANAI with a separate freezer."
   }
 ];
 

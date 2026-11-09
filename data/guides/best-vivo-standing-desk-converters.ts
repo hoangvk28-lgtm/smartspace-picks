@@ -152,39 +152,69 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Organized VIVO's broad catalog by genuine differentiators", description: "Given the size of VIVO's lineup, we grouped picks by size, mechanism, and mount type rather than repeating similar review numbers across an undifferentiated list." },
-  { title: "Verified real bamboo construction versus laminate finish claims", description: "We confirmed the bamboo pick explicitly states real bamboo construction rather than a cosmetic bamboo-look finish." },
-  { title: "Distinguished VIVO's manual K Series from the newer electric line", description: "We noted the meaningful review-base gap between VIVO's established manual converters and their newer electric offerings." },
-  { title: "Flagged corner-specific models as a distinct geometry requirement", description: "We separated corner-desk converters from rectangular platforms, since they serve fundamentally different desk shapes." }
+  {
+    "title": "Platform sizes from 26 to 48 inches",
+    "description": "VIVO sells 26, 32, 38, 42, 43 and 48 inch platforms in this guide. We matched each to a setup: 26 inches for one monitor, 32 for a monitor with a laptop, and 42 or 48 inches for two screens, then checked that the base fits. Smaller models also leave space for a lamp or notebook."
+  },
+  {
+    "title": "Standard desk vs corner desk",
+    "description": "VIVO Extra Wide 38 inch Corner and VIVO Black 43 in Electric Corner are the corner designs. We checked that each only fits an L-shaped desk corner with enough return depth, and treated the corner models as specialist picks. Corner models are specialist picks that can only serve one desk shape."
+  },
+  {
+    "title": "Manual lift vs electric lift",
+    "description": "VIVO Black 42 inch Electric (DESK-VE42B) and the 43 inch electric corner model use push-button lift, while the K Series models are manual. We weighed the extra cost against the ease of changing height many times a day. A motor also adds a cable that must reach an outlet."
+  },
+  {
+    "title": "Monitor support and ratings",
+    "description": "The 32 inch dual-monitor model is rated for 13 to 30 inch displays, so a 32 inch monitor will not fit. We compared stated monitor ranges against typical office screens. Check the VESA pattern on each screen as well as its inches."
+  },
+  {
+    "title": "Materials and finish",
+    "description": "VIVO Real Bamboo 32 inch (DESK-V000KO) lists real bamboo, not a laminate look, while the rest are black laminate surfaces. We counted material as a cost-versus-appearance choice, not a performance upgrade. Bamboo costs more, but the listing makes no strength claim for it."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Platform Size",
+    "intro": "VIVO offers eight options, from 26 to 48 inches.",
     "table": {
       "headers": [
-        "Your monitor setup",
-        "Recommended pick in this comparison"
+        "Your setup",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Single monitor or laptop, small desk",
-          "VIVO Black 26 in Standing Desk Converter"
+          "One monitor on a small desk",
+          "VIVO Black 26 in Standing Desk Converter, DESK-V026KB."
         ],
         [
-          "Dual monitors",
-          "VIVO 32 inch Desk Converter"
+          "A monitor plus a laptop",
+          "VIVO 32 inch Desk Converter, K Series."
         ],
         [
-          "Triple monitors, need maximum surface area",
-          "VIVO Black 48 in Standing Desk Converter"
+          "Two monitors on a straight desk",
+          "VIVO Black 48 in Standing Desk Converter, DESK-V048KB."
+        ],
+        [
+          "Two monitors on a stand with a mount",
+          "VIVO Height Adjustable 32 inch Dual 13-30 Inch Monitor Stand."
+        ],
+        [
+          "Real bamboo look",
+          "VIVO Real Bamboo 32 inch Standing Desk Converter, DESK-V000KO."
+        ],
+        [
+          "L-shaped desk corner",
+          "VIVO Extra Wide 38 inch Corner Desk Converter, K Series."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "VIVO spans the lowest to the highest price.",
     "table": {
       "headers": [
         "Price range",
@@ -192,49 +222,67 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $130",
-          "VIVO Black 26 in Standing Desk Converter"
+          "Under $110, smallest",
+          "VIVO Black 26 in, DESK-V026KB."
         ],
         [
-          "Mid-range",
-          "VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand"
+          "Under $145, 32 inch manual",
+          "VIVO 32 inch K Series or VIVO Real Bamboo 32 inch."
         ],
         [
-          "No firm budget ceiling, prioritizing lift quality or brand",
-          "VIVO Black 43 in Electric Corner Desk Converter"
+          "Under $200, large manual",
+          "VIVO Black 48 in, DESK-V048KB."
+        ],
+        [
+          "Under $220, electric",
+          "VIVO Black 42 inch Electric, DESK-VE42B."
+        ],
+        [
+          "Under $280, electric corner",
+          "VIVO Black 43 in Electric Corner, DESK-V000VCE."
         ]
       ]
     }
   },
   {
-    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "subheading": "Manual vs Electric Lift",
+    "intro": "VIVO is one of the few lines with both in standard and corner shapes.",
     "cards": [
       {
-        "label": "Manual (Gas-Spring)",
-        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO 32 inch Desk Converter, VIVO Black 48 in Standing Desk Converter, VIVO Extra Wide 38 inch Corner Desk Converter."
+        "label": "Manual",
+        "text": "K Series models raise by hand, need no outlet and cost the least. Most VIVO picks here are manual."
       },
       {
-        "label": "Electric (Motorized)",
-        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: VIVO Black 42 inch Electric Desk Converter, VIVO Black 43 in Electric Corner Desk Converter."
+        "label": "Electric",
+        "text": "VIVO Black 42 inch DESK-VE42B and the 43 inch Corner model use push-button lift for a higher price."
       }
     ],
-    "note": "Most buyers should default to a manual pick like VIVO Black 26 in Standing Desk Converter unless you'll adjust height multiple times a day, in which case VIVO Black 42 inch Electric Desk Converter's push-button lift is worth the premium."
+    "note": "Choose manual unless you switch position many times a day."
   },
   {
-    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "subheading": "By Desk Shape",
+    "intro": "Corner desks need corner models, and straight desks do not.",
     "table": {
       "headers": [
-        "What you're weighing",
+        "Desk shape",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Highest star rating",
-          "VIVO 32 inch Desk Converter"
+          "L-shaped, manual",
+          "VIVO Extra Wide 38 inch Corner Desk Converter."
         ],
         [
-          "Largest review base (more statistical confidence)",
-          "VIVO 32 inch Desk Converter"
+          "L-shaped, electric",
+          "VIVO Black 43 in Electric Corner Desk Converter."
+        ],
+        [
+          "Straight desk, one monitor",
+          "VIVO Black 26 in or VIVO 32 inch."
+        ],
+        [
+          "Straight desk, two monitors",
+          "VIVO Black 48 in or the 32 inch dual-stand model."
         ]
       ]
     }
@@ -244,11 +292,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Look for",
-        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+        "text": "A platform at least wide enough for both screens, or an integrated stand with a stated monitor size range and a VESA match."
       },
       {
         "label": "In this comparison",
-        "text": "VIVO 32 inch Desk Converter fits this specifically: Largest review base in VIVO's entire lineup."
+        "text": "The 32 inch Dual 13-30 Inch Monitor Stand model has the mount built in, while VIVO Black 48 in gives open platform space."
       }
     ]
   },
@@ -257,11 +305,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what VIVO Black 43 in Electric Corner Desk Converter offers: Highest rating among VIVO's electric options. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "You want push-button lift or a corner fit. The 42 and 43 inch electric models sit in the under-$220 to under-$280 tiers."
       },
       {
         "label": "Save if",
-        "text": "VIVO Black 26 in Standing Desk Converter already covers the essentials: Lowest price with VIVO's largest review pool behind it. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+        "text": "A manual converter is enough. VIVO Black 26 in stays under $110 and VIVO 32 inch under $130."
       }
     ]
   }
@@ -269,33 +317,52 @@ export const howToChoose: HowToChooseSection[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Measure your existing desk's height before ordering",
-    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all.\n\nThis matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand.\n\nBefore ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+    "criterion": "Measure the lowest platform height first",
+    "explanation": "VIVO bases add height even when lowered, so a desk that is already 29 or 30 inches can put the keyboard too high. Find the minimum height on the listing, add it to your desk, and compare with your elbow height. Check also whether the base has rubber feet, since a slipping platform is worse than a slightly high one."
   },
   {
-    "criterion": "Match platform size to your actual number of monitors",
-    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up.\n\nA platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge.\n\nCheck the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+    "criterion": "Use 26 to 48 inches by monitor count",
+    "explanation": "The 26 inch fits one monitor, the 32 inch a monitor with a laptop, and the 42 and 48 inch platforms two screens. VIVO also sells an integrated dual stand rated 13 to 30 inches, so a 32 inch monitor needs a different model. If you may later add a laptop riser or document holder, step up one size to leave space."
   },
   {
-    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
-    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price.\n\nIf you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying.\n\nCheck the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+    "criterion": "Choose motor or manual on how often you switch",
+    "explanation": "The 42 inch DESK-VE42B and 43 inch corner model add push-button lift, while the K Series models are manual. A motor costs more and needs an outlet, so it pays off only if you change positions several times a day. If your outlet is out of reach, a manual unit saves you an extension cord across the floor."
   },
   {
-    "criterion": "Check your desk's depth against the converter's base footprint",
-    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base.\n\nThis matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view.\n\nCheck the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+    "criterion": "Confirm corner geometry before buying a corner model",
+    "explanation": "The 38 inch and 43 inch corner converters only fit an L-shaped desk corner. Measure the return depth and the angle where the two desk sections meet, and compare with the listing's footprint. A corner unit that is too deep will overhang the desk edge and make the desk uncomfortable to sit at when it is lowered."
   },
   {
-    "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "criterion": "Weigh bamboo against laminate for the money",
+    "explanation": "VIVO Real Bamboo 32 inch lists real bamboo, while the standard K Series is a black laminate. Bamboo is a look and feel upgrade, not a stated strength upgrade, so compare weight capacities before paying more. Bamboo also scratches differently from laminate, which can matter on a work surface you use every day."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "What's VIVO's most popular converter?", a: "The VIVO 32 inch Desk Converter, K Series, sharing VIVO's largest review pool at 15,583." },
-  { q: "Does VIVO make an electric converter?", a: "Yes, the VIVO Black 42 inch Electric Desk Converter, with a smaller review base than the manual K Series line." },
-  { q: "Is there a VIVO converter for corner desks?", a: "Yes, the VIVO Extra Wide 38 inch Corner Desk Converter, and an electric corner version is also available." },
-  { q: "Does VIVO offer a real wood option?", a: "Yes, the VIVO Real Bamboo 32 inch Standing Desk Converter is confirmed genuine bamboo construction, not a laminate finish." },
-  { q: "What's VIVO's largest platform?", a: "The VIVO Black 48 in Standing Desk Converter, sharing VIVO's broad K Series review pool." }
+  {
+    "q": "Which VIVO converter fits two monitors?",
+    "a": "The 42 or 48 inch platforms are built for two monitors, and the 32 inch dual-monitor stand version fits two screens from 13 to 30 inches. A 26 inch platform holds one monitor, so measure the combined width of your screens first."
+  },
+  {
+    "q": "Can I use VIVO's corner converter on a straight desk?",
+    "a": "No. VIVO Extra Wide 38 inch Corner and the 43 inch electric corner converter are made for L-shaped corners and need the return depth of that corner. On a rectangular desk, pick a standard model such as the 32 inch K Series."
+  },
+  {
+    "q": "Is the electric VIVO worth over the manual 48 inch?",
+    "a": "If you change height often. VIVO Black 42 inch Electric (DESK-VE42B) lists push-button lift but costs more than the 48 inch manual DESK-V048KB, and it is narrower. The manual 48 inch gives more width for less."
+  },
+  {
+    "q": "Does the bamboo VIVO hold more weight?",
+    "a": "Not by anything the listing states. VIVO Real Bamboo 32 inch lists real bamboo instead of laminate, which affects look and feel, so check the weight capacity in pounds on the listing, same as with any other converter."
+  },
+  {
+    "q": "What monitor sizes work on the VIVO dual-monitor stand?",
+    "a": "The integrated stand is rated for 13 to 30 inch displays, so a 32 inch monitor is outside the range. Also check the VESA mount pattern on your screens, which the stand needs to match."
+  },
+  {
+    "q": "How do I assemble a VIVO converter?",
+    "a": "Most are partly assembled, so the work is mounting the platform and testing the lift. Set it on a flat desk, check the clearance behind it, and lift it with nothing loaded before adding monitors."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

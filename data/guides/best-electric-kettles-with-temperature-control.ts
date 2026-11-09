@@ -247,51 +247,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Preset range and drink fit",
-    "explanation": "A preset is a stored temperature, and the useful ones match what you brew, such as 175F for green tea and 195 to 205F for coffee. Cuisinart CPK-17P1 covers 160 to 200F while the glass Cuisinart reaches 110F, and NELO spans 104 to 212F. Check that your drinks fall inside the range."
+    "explanation": "A preset is a stored temperature, and the useful ones match what you brew, such as 175F for green tea and 195 to 205F for coffee. Cuisinart CPK-17P1 covers 160 to 200F while the glass Cuisinart reaches 110F, and NELO spans 104 to 212F. Check that your drinks fall inside the range. Check that the range covers the drinks you make, since the CPK-17P1 is limited to 160F to 200F, but the NELO starts at 104F."
   },
   {
     "criterion": "Keep-warm length",
-    "explanation": "A keep-warm function maintains a set temperature, and its length varies from 30 minutes on Cuisinart CPK-17P1 to 4 hours on YPJKR and a claimed 24 on REGARSUN. Longer holds are convenient but use idle power. Pick a length that fits your routine."
+    "explanation": "A keep-warm function maintains a set temperature, and its length varies from 30 minutes on Cuisinart CPK-17P1 to 4 hours on YPJKR and a claimed 24 on REGARSUN. Longer holds are convenient but use idle power. Pick a length that fits your routine. Keep warm length runs from 30 minutes to 24 hours, so match the REGARSUN or the YPJKR hold to how long you stay at a desk."
   },
   {
     "criterion": "Wattage and circuit load",
-    "explanation": "Wattage ranges from 1000W on REGARSUN to 1750W on Chefman Lightning. Higher watts boil faster but strain a shared circuit. Check the rating and match it to dorm or office limits."
+    "explanation": "Wattage ranges from 1000W on REGARSUN to 1750W on Chefman Lightning. Higher watts boil faster but strain a shared circuit. Check the rating and match it to dorm or office limits. A 1750W Chefman boils fast but can overload an old circuit, so compare wattage across the 1000W REGARSUN and 1100W NELO before choosing."
   },
   {
     "criterion": "Interior materials",
-    "explanation": "A temperature kettle may be stainless, glass or glass with a plastic shell, and plastic often hides in lids. Mecity and REGARSUN claim no plastic contact. Look for plastic-free lid and spout wording."
+    "explanation": "A temperature kettle may be stainless, glass or glass with a plastic shell, and plastic often hides in lids. Mecity and REGARSUN claim no plastic contact. Look for plastic-free lid and spout wording. A glass body with a plastic shell can still put plastic near the water, so read the interior description on the Cuisinart or Chefman listing."
   },
   {
     "criterion": "Memory and smart features",
-    "explanation": "Extras like Cuisinart's memory feature or Govee's app change daily use. Memory keeps your place if you lift the kettle, and an app lets you set a temperature remotely. Buy them only if you will use them."
+    "explanation": "Extras like Cuisinart's memory feature or Govee's app change daily use. Memory keeps your place if you lift the kettle, and an app lets you set a temperature remotely. Buy them only if you will use them. A memory feature on the CPK-17P1 recalls your last temperature, and the Govee app adds control, but both add parts that can fail."
   },
   {
     "criterion": "Capacity versus brew size",
-    "explanation": "A 1.7 liter kettle serves a household, while a 0.8 to 1 liter model suits one or two cups. Govee holds 0.8 and Mecity 1.7. Pick based on how much you brew."
+    "explanation": "A 1.7 liter kettle serves a household, while a 0.8 to 1 liter model suits one or two cups. Govee holds 0.8 and Mecity 1.7. Pick based on how much you brew. A 1.7L kettle serves a household while a 0.8 to 1L model suits one or two cups, so count the cups before you choose a size."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Temperature control",
-    "description": "We compared preset ranges, step sizes and how clearly each listing describes them."
+    "title": "Preset range and drink fit",
+    "description": "We compared ranges: the Cuisinart 1.7L covers 110F to 212F, the NELO 104F to 212F, and the Cuisinart CPK-17P1 160F to 200F. A wide range reaches the low temperatures delicate tea wants, while a narrow band suits only tea and coffee. We matched the range to real drinks."
   },
   {
-    "title": "Keep-warm and extras",
-    "description": "Hold lengths, memory features and app control were compared."
+    "title": "Keep warm length",
+    "description": "Holds run from 30 minutes on the Cuisinart CPK-17P1 to 2 hours on the NELO, 4 hours on the YPJKR and up to 24 hours on the REGARSUN. We weighed the length against the standby power the heating cycles use. A short 30 minute hold finishes the cycle sooner and uses less standby power."
   },
   {
-    "title": "Materials",
-    "description": "Interior materials and plastic-contact claims were compared."
+    "title": "Wattage and circuit load",
+    "description": "Wattage runs from 1000W on the REGARSUN to 1750W on the Chefman Lightning. Higher wattage boils faster but can trip an older circuit, so we favored 1100 to 1200W models for older apartments and noted the 1750W for a fast kitchen. We also checked how many presets sit between 160F and 200F for tea."
   },
   {
-    "title": "Power and capacity",
-    "description": "Wattage and volume were compared, treating boil claims cautiously."
+    "title": "Interior materials",
+    "description": "The Mecity is double wall stainless, the Govee is 304 stainless, and the Cuisinart 1.7L glass has a cool touch dual layer shell. We looked at what touches the water, since a glass body with a plastic shell may hide plastic near the lid. A fully stainless water path is the safer pick for daily tea and coffee."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $30 to $110 were compared with documented features."
+    "title": "Memory and smart features",
+    "description": "The Cuisinart CPK-17P1 has a memory feature, and the Govee adds WiFi and Bluetooth app control. We weighed convenience against failure risk, because an app can change or break while a simple preset dial keeps working."
   }
 ];
 
@@ -345,7 +345,7 @@ export const howToChoose: HowToChooseSection[] = [
           "YPJKR 1.0L 1200W Kettle with 7 Temperature Settings"
         ],
         [
-          "About $45 to $50",
+          "Under $50 to $50",
           "Mecity 1.7L Touch Screen Temperature Control Kettle"
         ],
         [
@@ -353,7 +353,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Cuisinart 1.7L Glass Variable Temperature Kettle 110F to 212F"
         ],
         [
-          "About $102",
+          "Under $125",
           "Cuisinart CPK-17P1 Electric Kettle with 6 Presets"
         ]
       ]
@@ -431,28 +431,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "What temperature for green tea?",
-    "a": "Green tea is commonly brewed near 175F, while black tea and French press use hotter water. Check that your kettle's presets cover your drinks."
+    "q": "What temperature should I use for different drinks?",
+    "a": "Green tea works near 175F and coffee close to 200F. A kettle with a range from 104F, like the NELO, reaches cooler settings than a 160F to 200F model, which matters for delicate leaves."
   },
   {
-    "q": "Is temperature control worth it over a basic kettle?",
-    "a": "If you drink green tea or pour-over coffee, yes, since boiling water can taste bitter. For instant noodles and oatmeal, a basic kettle is enough."
+    "q": "Do I need WiFi control like the Govee?",
+    "a": "Most buyers do not. The Govee offers WiFi and Bluetooth app control with a 104F to 212F range, but a simple dial on the Mecity or REGARSUN does the same job. App features can lose support, so choose it for convenience, not necessity."
   },
   {
-    "q": "Does the kettle stay at temperature when I lift it?",
-    "a": "Cuisinart CPK-17P1 has a memory feature for 2 minutes off the base. Others do not state this."
+    "q": "Is the Cuisinart glass kettle better than the CPK-17P1?",
+    "a": "It depends on use. The glass model spans 110F to 212F with a dual layer cool touch shell, while the CPK-17P1 has 6 presets from 160F to 200F, a 30 minute keep warm and memory. Choose by the range you need."
   },
   {
-    "q": "How long can I leave keep-warm on?",
-    "a": "Use it only while nearby. Holds range from 30 minutes to a claimed 24 hours, and unattended heating is a risk."
+    "q": "Does a 1750W kettle cause problems?",
+    "a": "It can. The Chefman Lightning draws 1750W, which can trip an older shared circuit, particularly with a microwave running. A 1000W REGARSUN or 1100W NELO is gentler. Check your breaker before buying a 1750W model."
   },
   {
-    "q": "Do smart kettles need an account?",
-    "a": "Govee uses an app and WiFi or Bluetooth. Expect to set up the app, and check privacy settings."
+    "q": "How long can the REGARSUN keep warm?",
+    "a": "The REGARSUN lists up to 24 hours of keep warm, while the YPJKR holds 4 hours and the NELO 2 hours. Long holds draw power in cycles, so use a long hold only when you need it and empty it afterwards."
   },
   {
-    "q": "How do I descale a temperature control kettle?",
-    "a": "Boil diluted white vinegar, rinse well, and avoid wetting the base. Glass and stainless both need regular descaling."
+    "q": "How do I avoid scale in a temperature kettle?",
+    "a": "Use filtered water if your tap is hard, and descale about monthly with vinegar and water. Heating to 212F then letting water sit builds scale on the element. Stainless interiors like the Mecity wipe clean more easily than glass."
   }
 ];
 

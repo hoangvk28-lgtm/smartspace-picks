@@ -189,24 +189,24 @@ export const products: GuideProduct[] = [
 
 export const howWeEvaluated = [
   {
-    "title": "Touch signal path",
-    "description": "Each listing was read for the USB lead that carries touch when video arrives over HDMI."
+    "title": "Touch and video path",
+    "description": "Touch needs a separate data path from HDMI, so we checked how each pick connects. The JUNEBOX lists HDMI, VGA and a USB-B touch input, the MAFNKOU offers USB-C or HDMI, and the InnoView lists 2 USB-C plus HDMI, and we rewarded clarity on which cable carries touch, since a touch screen that arrives with no explanation of the second cable is the most common return."
   },
   {
-    "title": "Size and resolution",
-    "description": "We compared stated diagonal, pixel count and aspect ratio against typical use."
+    "title": "Panel size and sharpness",
+    "description": "We compared panel resolution against size. The MAFNKOU is 13.3 inch at 1920 by 1200 in 16:10, the JUNEBOX and InnoView are 1080p at 13.3 and 15.6 inch, the VIEWMEI is 1280 by 800 and the Hosyond and ELECROW are 1024 by 600, which is too soft for reading long documents but fine for a Pi dashboard."
   },
   {
-    "title": "System support",
-    "description": "Windows, macOS, Raspberry Pi and console touch statements were noted, including stated exclusions."
+    "title": "Touch point count",
+    "description": "We checked how many fingers each screen supports. The JUNEBOX, MAFNKOU and VIEWMEI list 10-point touch, the Hosyond and ELECROW list 5-point, and the VIEWMEI's touch is single-point on a Pi, so we matched touch count to gesture needs, because pinch to zoom or a two-finger scroll needs more than basic five-point input."
   },
   {
-    "title": "Mounting and ports",
-    "description": "VESA holes, USB hubs, adapters and stands were weighed for fixed and portable use."
+    "title": "Portability and mounting",
+    "description": "We compared weight and mounts, like the JUNEBOX's 1.21 kg body with a VESA 75 by 75 mount, the VIEWMEI's light 520 g, and the MAFNKOU's folding cover that turns into a stand. A screen that is heavy or lacks a stand earned less credit, since a portable panel is only portable if it fits a bag and props itself up."
   },
   {
-    "title": "Value for the price",
-    "description": "Package contents and warranty were scored against the price bucket."
+    "title": "Console and Pi compatibility",
+    "description": "Some buyers want touch on a Raspberry Pi or a game console. The Hosyond includes a Raspberry Pi HDMI adapter and the ELECROW bolts onto a Pi, while the MAFNKOU and InnoView list no touch on consoles or iPads, which we treated as a limit for anyone planning to pair the screen with a Switch or an iPad."
   }
 ];
 
@@ -347,50 +347,50 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Why HDMI alone has no touch",
-    "explanation": "HDMI is a one-way video and audio format. Touch is a USB input device, the same family as a mouse, so it needs a USB cable back to the computer. If the listing says touch works over HDMI, look for the words plus USB-A to USB-C or USB-B touch input in the same bullet."
+    "explanation": "HDMI carries only video and audio, so a touch screen needs a second connection to send finger positions back to the computer. The JUNEBOX uses a separate USB-B touch cable, and the MAFNKOU can use USB-C for both. If you plug only HDMI, you get a plain second screen with no touch. Look for the touch cable named in the listing, and confirm it is included in the box and not sold separately."
   },
   {
     "criterion": "USB-B, USB-A and USB-C touch leads",
-    "explanation": "Different monitors carry touch on different plugs: the JUNEBOX uses a USB-B port, the InnoView takes a USB-A to USB-C cable, and the MAFNKOU uses a full-featured USB-C port. Buying a spare cable of the wrong type is a common mistake. Check the box contents for the exact touch cable."
+    "explanation": "USB-C can carry video, power and touch on one cable if your laptop supports DisplayPort over USB-C, while HDMI setups need a USB lead and a power source. The InnoView lists 2 USB-C and HDMI, the MAFNKOU notes HDMI needs an extra USB lead, and the JUNEBOX lists HDMI, VGA and USB-B. Check which ports your computer has."
   },
   {
     "criterion": "Touch points by operating system",
-    "explanation": "Ten-point touch lets you pinch and rotate with several fingers, but listings often cut it down: the VIEWMEI gives single-point touch on Raspberry Pi OS and the ELECROW gives five-point on Windows. A touch point count is not the same on every system. Read the operating system line under the touch bullet."
+    "explanation": "Ten-point touch supports pinch and multi-finger gestures, while five-point is basic. The JUNEBOX, MAFNKOU and VIEWMEI list 10-point touch, the Hosyond and ELECROW list 5-point, and the VIEWMEI's touch is single-point on a Raspberry Pi. Consoles and iPads often do not support touch. Check the operating systems named."
   },
   {
     "criterion": "Resolution at small sizes",
-    "explanation": "A 7-inch 1024 x 600 panel looks fine for a dashboard, but the same pixel count on a 10-inch screen shows larger, softer text. A 1280 x 800 panel at 10.1 inches is sharper, and 1920 x 1200 at 13.3 inches is sharper still. Compare the pixel numbers to the diagonal, not just the word HD."
+    "explanation": "A 7 inch screen at 1024 by 600 is fine for a Raspberry Pi dashboard but too coarse for reading a document, while 13.3 inch at 1920 by 1080 or 1920 by 1200 is sharper. The Hosyond is 10.1 inch at 1024 by 600, and the VIEWMEI is 1280 by 800. Match the resolution to what you will read, and treat 1024 by 600 as a floor for dashboards, not documents."
   },
   {
     "criterion": "Power source and adapter",
-    "explanation": "A bright touch panel with speakers needs steady power, and some sellers state a 15W or higher charger is needed, with the adapter not included. A weak port causes flicker or a screen that blinks off. Check the listing for adapter not included and add one to your cart."
+    "explanation": "A portable monitor draws power from USB-C, an adapter, or a laptop port, and a weak port may dim the screen. The InnoView lists no power adapter included, while others bundle one. Check whether the listing says what powers it, the required amps, and whether the adapter is in the box."
   }
 ];
 
 export const faq = [
   {
-    "q": "Does an HDMI touchscreen monitor need a USB cable?",
-    "a": "Yes. HDMI carries video only, so touch needs a separate USB cable. The JUNEBOX uses USB-B, the MAFNKOU asks for an extra USB connection and the InnoView needs a USB-A to USB-C lead."
+    "q": "Why does my touchscreen display but not respond to touch?",
+    "a": "HDMI only carries the picture. You need a second cable, such as a USB-B lead on the JUNEBOX or USB-C on the MAFNKOU, to send touch back to the computer. Plug that cable into the computer and check the operating system recognizes the touch device."
   },
   {
-    "q": "Why does my touch screen work as a monitor but not as a touch device?",
-    "a": "The USB touch cable is missing or in the wrong port, or the computer does not support touch on that screen. Console and iPad connections often do not pass touch at all."
+    "q": "Can I use these with an iPad or a game console?",
+    "a": "Not for touch. The MAFNKOU and InnoView list no touch support on consoles or iPads, though the video may still display through HDMI. Touch works on Windows, macOS and Android in most listings. Check the listing for the system you own."
   },
   {
-    "q": "Can I use these with a Raspberry Pi?",
-    "a": "Yes, the Hosyond, VIEWMEI and ELECROW list Raspberry Pi support, usually with single-point touch on Pi OS. The Hosyond even includes an adapter."
+    "q": "Is the 15.6 inch InnoView worth more than the 13.3 inch models?",
+    "a": "If you want the largest screen, yes. The InnoView lists 15.6 inch 1080p IPS, a sleeve, a stand, and an 18-month warranty, but a power adapter is not included. The 13.3 inch MAFNKOU is taller in 16:10 and lighter on the bag."
   },
   {
-    "q": "Is a 7 inch touch monitor large enough?",
-    "a": "It is enough for a dashboard, clock or controller, but not for documents. For a laptop second screen choose 13 inches or more."
+    "q": "Can a Raspberry Pi use the 7 inch ELECROW?",
+    "a": "Yes, it is built for it. The ELECROW lists rear holes for mounting a Raspberry Pi, 5-point touch with no driver, and an acrylic stand. At 7 inches and 1024 by 600 it is too small for reading long documents."
   },
   {
-    "q": "Will touch work on a Mac over HDMI?",
-    "a": "The MAFNKOU lists macOS touch, but only with the added USB connection. Check each listing's operating system line."
+    "q": "Does a portable monitor need its own power?",
+    "a": "Often it does. Many draw from USB-C on the laptop, but a weak port can dim the screen, and a HDMI connection needs a separate power lead. Use the supplied adapter when you can, and check the listing, since the InnoView does not include one."
   },
   {
-    "q": "Can I mount these on a wall or arm?",
-    "a": "The JUNEBOX has a 75 x 75 mm VESA interface, and the VIEWMEI and ELECROW list rear mounting holes. Confirm the hole spacing before buying a bracket."
+    "q": "How do I clean a touchscreen?",
+    "a": "Turn it off and use a microfiber cloth lightly dampened with water or a screen cleaner. Avoid spraying liquid on the panel, which can seep behind the glass. The Hosyond lists a tempered glass touch panel, which resists scratches but still shows fingerprints."
   }
 ];
 

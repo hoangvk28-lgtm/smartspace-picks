@@ -189,24 +189,24 @@ export const products: GuideProduct[] = [
 
 export const howWeEvaluated = [
   {
-    "title": "Certification wording",
-    "description": "We recorded exactly what each listing claims: Teams certified, Teams version, or open-office certified."
+    "title": "What the certification covers",
+    "description": "We read each listing for the exact Teams wording, separating plain Microsoft Teams certified from Open Office certified. The Lenovo Wireless VoIP lists Open Office, which is a microphone performance tier, while the Yealink UH34 lists Teams certification without a dedicated button. We treated this as the first filter."
   },
   {
-    "title": "Teams button and call control",
-    "description": "Dedicated Teams buttons, in-line controls and mute behavior were compared."
+    "title": "Teams button and call controls",
+    "description": "We checked whether the headset has a dedicated Teams button on the earcup or in-line. The Logitech Zone Wireless, Poly Blackwire 3320 and Lenovo Wired VoIP 5000 do, and for someone in six or more meetings a day, one press to open the app saves real clicks."
   },
   {
-    "title": "Connection and dongle needs",
-    "description": "Wired, Bluetooth and dongle requirements were noted, including cases where a receiver is needed for certified features."
+    "title": "Connection type and dongle needs",
+    "description": "We compared USB, Bluetooth and receiver setups, because certified controls often run through a USB receiver and not Bluetooth. The Lenovo Wireless VoIP needs its dongle for Teams features, so we ranked its Bluetooth mode as a phone feature only."
   },
   {
-    "title": "Noise handling",
-    "description": "Microphone design, noise cancelling and open-office claims were compared."
+    "title": "Microphone noise handling",
+    "description": "We looked at microphone design separately from ear-side noise cancelling. Logitech's Zone 305 uses dual noise-canceling mics without active noise cancelling, while Zone Wireless adds ANC, and that split decides whether callers or the wearer hear less of the room."
   },
   {
-    "title": "Price and warranty",
-    "description": "Price bucket and warranty length were weighed together."
+    "title": "Comfort, battery and warranty",
+    "description": "We weighed weight, battery and cover. The Zone 305 weighs 122 g with 16 hours of talk time, Lenovo lists 31 hours, and the Lenovo Wired 5000 has a 3 year warranty. All-day wear and ownership cost both shifted ranking."
   }
 ];
 
@@ -220,124 +220,129 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Work Setting",
+    "subheading": "By Where You Work",
+    "intro": "The right Teams headset depends more on room noise than on price.",
     "table": {
       "headers": [
-        "Your situation",
-        "Pick from this guide"
+        "Your workspace",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Open office with noise",
-          "Logitech Zone Wireless: active noise cancellation"
+          "A quiet home office where you take a few calls a day",
+          "Logitech Zone 305, with a 122 g body and dual noise-canceling mics"
         ],
         [
-          "Hybrid, on the move",
-          "Logitech Zone 305"
+          "A noisy open office with colleagues nearby",
+          "Lenovo Wireless VoIP Headset, which lists Teams Open Office certification"
         ],
         [
-          "Open-office certified wireless",
-          "Lenovo Wireless VoIP Headset"
+          "A shared desk where you stay plugged in all day",
+          "Poly Blackwire 3320 Teams, with no battery and a dedicated Teams button"
         ],
         [
-          "Fixed desk, wired",
-          "Poly Blackwire 3320 Teams"
-        ],
-        [
-          "Budget certified",
-          "Lenovo Wired VoIP Headset 5000"
+          "A hybrid desk with a phone nearby that you also answer",
+          "Logitech Zone Wireless, which connects to a computer and a phone at once"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "These six cover entry level wired to premium wireless.",
     "table": {
       "headers": [
         "Budget",
-        "Pick from this guide"
+        "Recommended pick"
       ],
       "rows": [
         [
-          "$25 to $50",
-          "Lenovo Wired VoIP Headset 5000 or Yealink UH34"
+          "The lowest cost for a certified headset with a Teams button",
+          "Lenovo Wired VoIP Headset 5000, with a 3 year warranty"
         ],
         [
-          "$50 to $75",
-          "Poly Blackwire 3320 Teams or Lenovo Wireless VoIP Headset"
+          "A simple USB pick that also works with Zoom",
+          "Yealink UH34, with replaceable ear cushions"
         ],
         [
-          "$75 to $100",
-          "Logitech Zone 305 or Logitech Zone Wireless"
+          "A mid-range wireless pick with flip-to-mute",
+          "Logitech Zone 305, certified for Microsoft Teams"
+        ],
+        [
+          "A premium spend for active noise cancellation and Qi charging",
+          "Logitech Zone Wireless, the best premium pick here"
         ]
       ]
     }
   },
   {
-    "subheading": "Teams Certified vs Open Office Certified",
-    "intro": "Microsoft's program includes a tier aimed at noisy offices, and the wording on listings varies.",
+    "subheading": "Wired USB vs Wireless With Dongle",
+    "intro": "Both are certified, but they fail in different ways.",
     "cards": [
       {
-        "label": "Teams certified",
-        "text": "Means the headset has been checked for use with Teams. The Yealink UH34, Lenovo Wired VoIP Headset 5000, Logitech Zone 305 and Logitech Zone Wireless say this."
+        "label": "Wired USB (Poly Blackwire 3320, Lenovo Wired 5000, Yealink UH34)",
+        "text": "No battery, no pairing and no latency from a wireless link. USB-C with a USB-A adapter on the first two covers modern laptops, while Yealink is USB-A only."
       },
       {
-        "label": "Open Office",
-        "text": "Is a separate claim about microphone performance in noisy rooms. The Lenovo Wireless VoIP Headset lists it, so it is the one to check first if you work in a busy space."
+        "label": "Wireless (Logitech Zone 305, Zone Wireless, Lenovo Wireless VoIP)",
+        "text": "You can walk away from the desk and take calls on the move, but the headset needs charging, and Lenovo's Teams features depend on its USB-A receiver."
       }
     ],
-    "note": "Verify any certification on Microsoft's own device list before buying."
+    "note": "Most desk workers should default to wired unless they genuinely need to leave their chair on calls."
   },
   {
-    "subheading": "By Teams Button Need",
+    "subheading": "By Microphone and Noise Priority",
+    "intro": "Noise cancelling means two different things on these headsets.",
     "table": {
       "headers": [
-        "Need",
-        "Pick from this guide"
+        "Your priority",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Teams button on earcup",
-          "Logitech Zone Wireless"
+          "Callers hear less of your room",
+          "Lenovo Wireless VoIP Headset, with a three-mic noise suppression design"
         ],
         [
-          "Teams button, wired",
-          "Lenovo Wired VoIP Headset 5000 or Poly Blackwire 3320 Teams"
+          "You hear less of the room",
+          "Logitech Zone Wireless, which has active noise cancellation"
         ],
         [
-          "Do not need a button",
-          "Yealink UH34"
+          "An adjustable boom mic that you position yourself",
+          "Poly Blackwire 3320 Teams, with a flexible boom and 180 degree pivoting speakers"
         ],
         [
-          "Dongle required for Teams features",
-          "Lenovo Wireless VoIP Headset"
+          "AI-based mic noise handling at a low price",
+          "Lenovo Wired VoIP Headset 5000, with an AI noise-canceling microphone"
         ]
       ]
     }
   },
   {
-    "subheading": "For Work-from-Home Setups Specifically",
+    "subheading": "For IT Departments Buying in Bulk Specifically",
+    "intro": "Standard fleets care about support, certification and replacement parts.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A dedicated mute and Teams button, a boom mic that blocks household noise, and either a long cable or a wireless range of 30 meters."
+        "text": "Explicit Teams certification, a clear warranty and parts you can replace such as ear cushions, plus one model that covers USB-C and USB-A laptops."
       },
       {
         "label": "In this comparison",
-        "text": "The Logitech Zone 305 lists a 30 meter range and flip-to-mute boom, and the Lenovo Wired VoIP Headset 5000 offers a 3 year warranty."
+        "text": "Lenovo Wired VoIP Headset 5000 has a 3 year warranty and a Teams button, and Yealink UH34 offers replaceable ear cushions and in-line LED call controls."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "Premium here buys comfort, noise control or battery life.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You work in a loud open office: the Logitech Zone Wireless adds active noise cancellation and a Teams button."
+        "text": "You wear the headset for hours in a noisy room, where Logitech Zone Wireless adds active noise cancellation and Qi charging."
       },
       {
         "label": "Save if",
-        "text": "You work at a desk with a cable: the Lenovo Wired VoIP Headset 5000 gives a Teams button and a long warranty for less."
+        "text": "You mostly sit at a desk in a quiet room, where Lenovo Wired VoIP Headset 5000 gives a Teams button and 3 year warranty for less."
       }
     ]
   }
@@ -346,50 +351,50 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "What the certification claim actually says",
-    "explanation": "Teams certified is a program run by Microsoft with the manufacturer, and it signals that the headset meets requirements for audio and call controls. Open Office is a separate tier for microphone performance in noisy rooms. Read the exact wording on the listing and confirm it on Microsoft's device list."
+    "explanation": "Teams certified is a program run by Microsoft with the manufacturer, and it signals that the headset meets requirements for audio and call controls. Open Office is a separate tier for microphone performance in noisy rooms. Read the exact wording on the listing and confirm it on Microsoft's device list. Check the exact word Teams on the listing and then confirm it on Microsoft's own device list."
   },
   {
     "criterion": "Dedicated Teams button",
-    "explanation": "Some certified headsets have a button that opens Teams or joins a meeting with one press, and others do not. This matters if you start many meetings a day. Look for 'Teams button' in the bullets or the images of the earcup."
+    "explanation": "Some certified headsets have a button that opens Teams or joins a meeting with one press, and others do not. This matters if you start many meetings a day. Look for 'Teams button' in the bullets or the images of the earcup. The button helps most if you open Teams repeatedly and a wired model lets you skip the charging step."
   },
   {
     "criterion": "Wired, Bluetooth or dongle",
-    "explanation": "Wired headsets are the simplest and have no battery. Wireless models may need a dongle for full Teams functionality, as one pick here says. Check whether the USB receiver is required for certified features."
+    "explanation": "Wired headsets are the simplest and have no battery. Wireless models may need a dongle for full Teams functionality, as one pick here says. Check whether the USB receiver is required for certified features. Look at what connection the certified controls need, since USB receivers often unlock features that Bluetooth does not."
   },
   {
     "criterion": "Microphone and noise handling",
-    "explanation": "A boom with dual noise-canceling mics rejects more room noise than a single mic. Open-office models are designed for busy rooms. Look for the number of mics and the word 'noise-canceling' next to the microphone."
+    "explanation": "A boom with dual noise-canceling mics rejects more room noise than a single mic. Open-office models are designed for busy rooms. Look for the number of mics and the word 'noise-canceling' next to the microphone. Read whether the listing mentions mic noise suppression, active noise cancelling or both before you buy."
   },
   {
     "criterion": "Warranty and replaceable parts",
-    "explanation": "A headset is used every day, and cushions wear. A longer warranty or replaceable ear cushions extends its life. One pick here lists a 3 year warranty and another has replaceable cushions."
+    "explanation": "A headset is used every day, and cushions wear. A longer warranty or replaceable ear cushions extends its life. One pick here lists a 3 year warranty and another has replaceable cushions. Compare cushion replacement and warranty length when the headset will be used for years."
   }
 ];
 
 export const faq = [
   {
-    "q": "What does Microsoft Teams certified mean?",
-    "a": "It means Microsoft and the manufacturer have checked the headset against requirements for audio and call controls. That usually means features like mute sync work as expected."
+    "q": "What does Microsoft Teams certified mean on a headset listing?",
+    "a": "Microsoft and the manufacturer have checked the headset against Teams requirements for audio quality and call controls, so features like mute sync and the call button should work. Certification can also be a tier, such as Open Office, which is about microphone performance in noisy rooms."
   },
   {
-    "q": "Will a non-certified headset work with Teams?",
-    "a": "Usually yes for audio, but features such as the mute button or call answer may not sync. A certified headset reduces that risk."
+    "q": "Will a headset that is not certified still work with Teams?",
+    "a": "Usually yes for basic audio, since Teams treats it as a standard device. The risk is in the extras, because the mute button, answer button and busy light may not sync with the app. A certified headset like the Yealink UH34 reduces that risk."
   },
   {
-    "q": "Do I need a Teams button?",
-    "a": "No, it is a convenience feature. If you join many meetings a day, a button saves steps."
+    "q": "Do I really need a dedicated Teams button?",
+    "a": "No, it is a convenience, not a requirement. The Poly Blackwire 3320 and Logitech Zone Wireless have one, and it helps if you open Teams dozens of times a day. If you join a few scheduled calls, the Yealink UH34 works without it."
   },
   {
-    "q": "Why do some wireless headsets need a dongle for Teams?",
-    "a": "Certified functions often work through a USB receiver rather than Bluetooth. The Lenovo Wireless VoIP Headset lists the receiver as required for Teams features."
+    "q": "Why does the Lenovo Wireless VoIP need a dongle for Teams features?",
+    "a": "Certified call controls often run through the USB receiver and not through Bluetooth. The Lenovo lists the receiver as required for Teams features, so plan on using the USB-A dongle on the computer and keep Bluetooth for pairing a phone."
   },
   {
-    "q": "Is open-office certification important?",
-    "a": "It matters if you work in a noisy space because it is about microphone performance. At a quiet desk it is less important."
+    "q": "Is Open Office certification worth paying for?",
+    "a": "It is worth it if colleagues talk near your desk, because it is about microphone noise suppression. In a quiet room it matters less than comfort and battery, and the Logitech Zone 305 with its dual noise-canceling mics is a reasonable fit there."
   },
   {
-    "q": "How can I check certification?",
-    "a": "Look up the model on Microsoft's own list of certified devices, and treat marketing claims as a starting point."
+    "q": "How can I check a headset's Teams certification myself?",
+    "a": "Search the exact model on Microsoft's own list of certified devices and compare the name to the listing, since similar model numbers exist. Treat the seller's wording as a starting point, and look for Teams or Open Office on the Microsoft list."
   }
 ];
 

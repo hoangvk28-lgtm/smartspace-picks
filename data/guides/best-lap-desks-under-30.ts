@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Cup Holder and Drink Storage", "description": "Compared which picks include a dedicated cup holder and checked its stated dimensions for practical usability." },
-  { "title": "Device Slot and Phone/Tablet Storage", "description": "Compared dedicated phone or tablet slots and their stated size compatibility." },
-  { "title": "Wrist and Ergonomic Support", "description": "Checked for dedicated wrist pads or ergonomic angle features designed to reduce typing fatigue." },
-  { "title": "Cushion Type and Stability", "description": "Compared microbead, foam, and particle-padding cushion designs across the lineup." },
-  { "title": "Assembly Requirements", "description": "Compared whether each pick arrives ready to use or requires setup." }
+  {
+    "title": "Surface size versus laptop size",
+    "description": "We compared listed surfaces, 17.8 by 13.7 inches on the LAPGEAR, 16.54 by 12.6 on the HUANUO and 16.5 by 11.8 on the GORILLA GRIP, with their laptop limits of 14 to 15.6 inches. Under $30 the stated limit is the safest guide, because overhang tips a laptop."
+  },
+  {
+    "title": "Built-in extras",
+    "description": "We looked at what each board adds, such as the LAPGEAR 3 inch cup holder, the HUANUO wrist pad, storage pocket and tablet holder, and the GORILLA GRIP 7.5 inch device slot. Extras are why a $25 board costs more than a $15 one, so we asked whether each is genuinely usable."
+  },
+  {
+    "title": "Surface material",
+    "description": "The GORILLA GRIP lists a scratch-resistant wood top, the HUANUO an anti-slip surface and the SONGMICS engineered wood. A hard top spreads heat and slides a mouse well, while a soft surface may block vents. A hard top also glides a mouse better than a cushion, but it can feel cold and slippery on a bare lap, so we noted which boards include a cushion underneath."
+  },
+  {
+    "title": "Cushion and carrying",
+    "description": "We compared cushioning such as thick foam on the GORILLA GRIP and plastic particle padding on the SONGMICS, and noted that the SONGMICS ships with no assembly. A comfortable cushion matters for legs on a long session. Plastic particle padding is lighter but compresses sooner than foam, which is why we weighed it against the lower price of the SONGMICS."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["A functional cup holder and device ledge", "LAPGEAR Cup Holder Lap Desk, White Oak Woodgrain"],
-        ["Dedicated wrist support for extended typing", "HUANUO Laptop Lap Desk with Cushion, Woodgrain"],
-        ["A dedicated phone or tablet slot", "GORILLA GRIP Laptop Lap Desk with Phone Holder"],
-        ["A versatile, ready-to-use surface at the lowest price", "SONGMICS Lap Desk, Bed Tray with Carry Handle"]
+    "subheading": "By Feature",
+    "intro": "The four picks differ mainly by built-in extras.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A cup holder for coffee or tea on a couch",
+          "LAPGEAR Cup Holder Lap Desk, with a 3 inch wide, 1 inch deep holder"
+        ],
+        [
+          "A wrist pad and tablet holder together",
+          "HUANUO Laptop Lap Desk with Cushion Laptop Lap Desk with Cushion, in woodgrain"
+        ],
+        [
+          "A phone or tablet slot with a scratch-resistant top",
+          "GORILLA GRIP Laptop Lap Desk with Phone Holder, a 7.5 inch slot"
+        ],
+        [
+          "A simple bed tray with a handle",
+          "SONGMICS Lap Desk, Bed Tray Lap Desk, Bed Tray with Carry Handle"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $23", "SONGMICS (under $25)"],
-        ["under $25", "GORILLA GRIP (under $25)"],
-        ["Under $25", "LAPGEAR Cup Holder (under $25)"],
-        ["Under $30", "HUANUO (under $30)"]
+    "subheading": "By Laptop Size",
+    "intro": "Check the listed laptop limit.",
+    "table": {
+      "headers": [
+        "Your laptop",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "14 inch laptop",
+          "LAPGEAR Cup Holder, which lists a 14 inch limit"
+        ],
+        [
+          "15 inch laptop",
+          "GORILLA GRIP, which lists a 15 inch limit"
+        ],
+        [
+          "15.6 inch laptop",
+          "HUANUO Laptop Lap Desk with Cushion, which lists a 15.6 inch limit"
+        ],
+        [
+          "A small laptop or tablet used on a bed",
+          "SONGMICS Lap Desk, Bed Tray, with a 12.6 by 15.7 inch desktop"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Cup Holder vs Device Slot Priority",
-    cards: [
-      { label: "Cup holder (LAPGEAR)", text: "Holds a drink securely on the desk surface itself, ideal if you regularly work with coffee or water nearby." },
-      { label: "Device slot (GORILLA GRIP)", text: "Holds a phone or small tablet upright within view, better if checking notifications or a second screen matters more than a drink holder." }
+    "subheading": "Foam Cushion vs Particle Padding",
+    "intro": "Cushion type changes how the board feels on your legs.",
+    "cards": [
+      {
+        "label": "Foam cushion",
+        "text": "GORILLA GRIP lists a thick foam cushion, and LAPGEAR Cup Holder lists a microbead cushion. Both mold to your legs and are comfortable for long use."
+      },
+      {
+        "label": "Particle padding",
+        "text": "SONGMICS Lap Desk, Bed Tray uses plastic particle padding, which is lighter and cheaper but gives less support, so it feels firmer."
+      }
     ],
-    note: "If you regularly want a drink within reach while working, the LAPGEAR's cup holder is the more practical feature. If keeping your phone visible matters more, the GORILLA GRIP's device slot serves that need instead.",
+    "note": "For long sessions, take a foam or microbead cushion."
   },
   {
-    subheading: "By Ergonomic Priority",
-    table: {
-      headers: ["Your comfort need", "Recommended pick"],
-      rows: [
-        ["Reducing wrist strain during long typing sessions", "HUANUO (dedicated wrist pad)"],
-        ["General lap stability and comfort", "LAPGEAR Cup Holder or GORILLA GRIP"],
-        ["Basic comfort without specialized ergonomic features", "SONGMICS"]
+    "subheading": "By Room",
+    "intro": "Different rooms add different needs.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Coffee on a couch",
+          "LAPGEAR Cup Holder, for the cup holder"
+        ],
+        [
+          "A shared desk in a dorm with limited space",
+          "HUANUO Laptop Lap Desk with Cushion, with its storage pocket"
+        ],
+        [
+          "A bed where the board must hold a phone",
+          "GORILLA GRIP"
+        ],
+        [
+          "Quick setup without assembly",
+          "SONGMICS Lap Desk, Bed Tray, which ships ready to use"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Long Writing or Typing Sessions in Bed Specifically",
-    cards: [
-      { label: "Look for", text: "A dedicated wrist pad that supports your hands at a comfortable angle during extended keyboard use." },
-      { label: "In this comparison", text: "The HUANUO pick's ergonomic wrist pad is specifically designed to reduce hand fatigue during exactly this kind of extended use." }
-    ],
+    "subheading": "For Remote Workers on a Sofa Specifically",
+    "intro": "A sofa session is long, so comfort and wrist position matter.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A cushion that does not slide, a surface big enough for a mouse and a wrist pad or ledge."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HUANUO Laptop Lap Desk with Cushion lists an ergonomic wrist pad and tablet holder, and LAPGEAR Cup Holder lists a device ledge, so both suit a sofa day."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want dedicated wrist support for extended typing sessions, where the HUANUO pick's ergonomic wrist pad addresses a genuine comfort need the other picks don't specifically target." },
-      { label: "Save if", text: "You just want a versatile, ready-to-use surface without extra features, where the SONGMICS pick covers that at the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Adjustable tilt is the next step.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a screen angle. The under $40 guide lists boards with 3 to 8 tilt positions, which none of the SONGMICS Lap Desk, Bed Tray class offer."
+      },
+      {
+        "label": "Save if",
+        "text": "A flat board is enough. SONGMICS Lap Desk, Bed Tray gives a bed tray at the lowest price tier here."
+      }
+    ]
   }
 ];
 
@@ -183,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will the LAPGEAR cup holder fit a large travel mug or insulated tumbler?", "a": "It's specifically sized at 3 inches in diameter and 1 inch deep for standard cups and glasses, so a larger insulated tumbler or travel mug with a wider base may not fit securely, and checking your specific drinkware's dimensions against this size is worth doing before buying." },
-  { "q": "What's the most common mistake buyers make when choosing a lap desk with multiple features?", "a": "Assuming more included features always means better value, when paying for a cup holder, device slot, and wrist pad you'll never actually use provides less real value than choosing a simpler design that matches your genuine needs." },
-  { "q": "Is the HUANUO pick worth the price premium over the GORILLA GRIP or LAPGEAR picks?", "a": "If dedicated wrist support during extended typing sessions genuinely matters to your comfort, yes, but if you don't experience wrist strain and prioritize a cup holder or phone slot instead, the LAPGEAR or GORILLA GRIP picks address those specific needs at a lower price." },
-  { "q": "Does the SONGMICS pick lack cushioning since it doesn't mention a specific cushion type?", "a": "It uses plastic particle padding for cushioning, a different material than the microbead or foam cushions on the other picks, but it still provides comfortable lap support despite the simpler feature set overall." },
-  { "q": "Can I fit a 15.6 inch laptop and still have room for a separate mouse on the HUANUO lap desk?", "a": "The listing specifically notes that sufficient mouse space is only provided with laptops sized 14 inches or smaller, so a 15.6 inch laptop would likely take up most of the available surface without leaving comfortable room for a separate mouse." },
-  { "q": "Do any of these lap desks fold flat for easier storage?", "a": "None of the four picks in this comparison are specifically described as foldable; they're designed as fixed, rigid surfaces meant to be stored as-is under a bed, in a closet, or beside a chair when not in use." }
+  {
+    "q": "Can a lap desk hold a 15.6 inch laptop?",
+    "a": "Yes, if the listing says so. The HUANUO lists up to 15.6 inches and the GORILLA GRIP lists up to 15 inches, while the LAPGEAR lists 14 inches. A laptop larger than the stated limit may hang off an edge and tip."
+  },
+  {
+    "q": "Is the cup holder on the LAPGEAR safe near a laptop?",
+    "a": "It sits at the side, so a spill is less likely to reach the keyboard, but any open cup near electronics carries risk. Use a lid and keep it on the side opposite your mouse hand. Use a lid, and keep the cup on the side away from your mouse hand so that a knock does not tip it toward the keyboard."
+  },
+  {
+    "q": "Is the HUANUO worth it over a simple SONGMICS tray?",
+    "a": "If you want a wrist pad, storage pocket and tablet holder, yes. The SONGMICS is an engineered wood tray with padding and a carry handle. It is simpler, so choose it only if you do not need the extras. The SONGMICS tray is cheaper but lacks a wrist pad and tablet slot, so decide which extras you will actually use."
+  },
+  {
+    "q": "How do I keep a laptop cool on a wood top lap desk?",
+    "a": "Use a hard surface so vents stay clear. Wood tops are less likely to trap heat than fabric. A fan is not on these picks, so avoid heavy gaming sessions for long periods. Avoid placing it on a soft blanket, since a blocked vent raises the laptop temperature."
+  },
+  {
+    "q": "Will a lap desk help my posture?",
+    "a": "It helps by raising the laptop a bit and giving a stable surface, and the study of 15 adults showed less neck and wrist strain. The screen is still low, so consider a separate stand and keyboard. If you type for hours, pair the board with an external keyboard and raise the screen on a stand."
+  },
+  {
+    "q": "What if the cushion goes flat?",
+    "a": "Foam and microbead cushions compress over time. Shake or fluff the beads and keep the board away from heat. If it will not recover, replace it, since a flat cushion makes the board slide. Particle padding tends to flatten faster than foam, so check the return window in the first few weeks."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

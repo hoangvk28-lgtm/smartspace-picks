@@ -190,52 +190,48 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Ball diameter and reach",
-    "explanation": "A 34mm thumb ball is the common small size, while finger balls run 40 to 55mm. A small hand reaches a 34mm ball more easily. Look for the millimeter figure."
+    "criterion": "Shell dimensions",
+    "explanation": "A small-hand trackball has a compact body, such as the 3.7 x 4.9 inch ELECOM, and a short reach to the ball. A shell that is too big makes your thumb stretch. Check the dimensions in the specs, and be wary of listings that omit them. Guidance puts hands under about 17 cm in the small-trackball range, so measure first. Measure the width of your palm against any posted dimensions before you buy a small shell."
   },
   {
-    "criterion": "Listed body dimensions",
-    "explanation": "Dimensions tell you whether the body will overshoot your palm. A 3.7 by 4.9 inch body is compact. Compare with your hand length."
+    "criterion": "Ball diameter",
+    "explanation": "The ball size, such as 34mm or 1.34 inch, should suit the fingertip or thumb pad that moves it. A large ball is smooth but demands reach. Look for the millimeter size, and compare it with the size of your thumb pad. The ELECOM lists 3.7 x 4.9 inches; the Perixx and TB450 list less. Most listings show a hand in at least one photo, so use it to judge how big the ball looks."
+  },
+  {
+    "criterion": "Tilt angle comfort",
+    "explanation": "A 45 degree tilt like the TB450 rotates the forearm sharply, which may feel steep for a small hand. A flat shell is easier to learn. Look for a stated angle, and be ready to adapt over one to two weeks. A tilt like the TB450's 45 degrees is steeper than the flat ELECOM. Try the shell with your hand resting on a flat desk, since that shows how far the thumb needs to stretch."
   },
   {
     "criterion": "Handheld versus desk",
-    "explanation": "A handheld model removes reach entirely but gives less precision. Desk models give stability. Choose by how you work."
+    "explanation": "A handheld trackball sits in your palm without a desk, which suits a couch but offers less precision than a desk model. Check the listing for a base or rest, and think about where you will use it most. The welspo is handheld with a laser pointer and the YUMQUA is a wired handheld. Handhelds slip more easily with sweaty palms, so a rubber grip is worth a look in photos."
   },
   {
-    "criterion": "Tilt angle",
-    "explanation": "A steep tilt can strain a small hand if the shell is wide, because the palm has to climb over the body. A gentle or adjustable angle is usually safer. Look for the degree figure and check photos for the shell width."
-  },
-  {
-    "criterion": "Weight and battery",
-    "explanation": "A light body is easier to nudge on a desk. Batteries add weight. Check the weight if listed."
-  },
-  {
-    "criterion": "Button reach",
-    "explanation": "Buttons placed far from the thumb force your hand to stretch, which defeats the purpose of a compact body. Back and forward buttons are the usual offenders. Check the photos for button position and see whether the side buttons sit within thumb reach."
+    "criterion": "Operating system and cable",
+    "explanation": "Some budget trackballs list only Windows, and others use a USB-A cable that needs an adapter. Check compatibility, connection type and whether a receiver is included before ordering. The Perixx lists Windows only, so check before using it on a Mac. If a listing does not name its operating system, ask the seller before you pay."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Ball size",
-    "description": "We compared listed ball diameters."
+    "title": "Body dimensions",
+    "description": "We compared stated sizes, such as the 3.7 x 4.9 inch ELECOM EX-G small body and the 1.34 inch ball on the Perixx. For small hands a body that is too wide makes the thumb stretch, so size data counted for more than extras. The ELECOM is 3.7 x 4.9 inches and the TB450 uses a 34mm ball; the Perixx and welspo give less detail."
   },
   {
-    "title": "Body size",
-    "description": "Dimensions were noted where listed."
+    "title": "Ball size relative to the hand",
+    "description": "We checked ball sizes, from the 34mm Kensington TB450 to the 1.34 inch Perixx. A small ball matches a small thumb or finger, while a large ball needs more reach. We preferred listings that state the size. The Perixx has a 1.34 inch ball, the smallest here, while the TB450's is 34mm."
   },
   {
-    "title": "Connection",
-    "description": "Wired and wireless were compared."
+    "title": "Tilt for small forearms",
+    "description": "We noted the 45 degree tilt of the TB450 and flat shells like the ELECOM. A steep tilt can feel too extreme for a small hand, so we credited a tilt that is stated and a tilt choice where available. The TB450 tilts 45 degrees and the ELECOM stays flat."
   },
   {
-    "title": "Comfort",
-    "description": "Tilt and handheld designs were weighed."
+    "title": "Handheld alternatives",
+    "description": "We separated handheld designs, such as the welspo and YUMQUA, which lack a desk base, from desk trackballs. Handheld mice suit couches and presentations, but they are less precise for daily desk work. The welspo adds a laser pointer, and the YUMQUA is wired, so neither suits a desk day."
   },
   {
-    "title": "Value for price",
-    "description": "Value meant asking what extra dollars add on the listing, then checking whether owners mention it."
+    "title": "Compatibility and wiring",
+    "description": "We noted the Perixx listing mentions Windows only, and that the YUMQUA and the wired thumb model use USB cables. A cheap trackball with limited compatibility is not good value, so notes weighed in the score. The Perixx lists Windows only, and the welspo needs AAA batteries."
   }
 ];
 
@@ -367,28 +363,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "How do I know if a trackball fits my hand?",
-    "a": "Measure from your wrist crease to your fingertip and compare to the listed length. Check photos for button reach. Use the return window."
+    "q": "What trackball suits small hands?",
+    "a": "The ELECOM EX-G Small Body at 3.7 x 4.9 inches is made for smaller hands, and the Kensington TB450 uses a 34mm thumb ball. A smaller ball and shell reduce stretching, so pick one with stated dimensions. A 34mm ball like the TB450's is smaller than the 44mm balls on larger models."
   },
   {
-    "q": "Are handhelds better for small hands?",
-    "a": "They remove reach issues but are less precise. Desk models are more stable."
+    "q": "Is a handheld trackball a good choice?",
+    "a": "For couch use or presentations, yes. The welspo adds a laser pointer, and the YUMQUA is wired and driver-free. They are less precise than a desk model, so they are better as a second mouse. The welspo uses an AAA battery and the TB450 claims up to 18 months."
   },
   {
-    "q": "What ball size is smallest?",
-    "a": "A 34mm thumb ball is the common compact size. Finger balls are larger."
+    "q": "Is the Kensington TB450 worth it over the Perixx 717?",
+    "a": "The TB450 adds Bluetooth LE with 2.4GHz and a claimed 18 months of battery, while the Perixx is a 2.4GHz receiver model for Windows. The TB450 costs under $15 more, and works better across devices. Compare the ELECOM's 3.7 x 4.9 inches with your palm."
   },
   {
-    "q": "Is a steep tilt good for small hands?",
-    "a": "It can help forearm posture, but a wide shell may feel awkward. Try it with a return window."
+    "q": "Does a steep tilt suit small hands?",
+    "a": "It can feel awkward. The TB450 has a 45 degree tilt, which turns the forearm toward a handshake but may feel steep. Try it for a week, and choose a flat model like the ELECOM if the angle bothers you. The TB450 tilts 45 degrees, so test it for a week."
   },
   {
-    "q": "Is the Kensington TB450 worth the extra cost?",
-    "a": "It is worth it for the tilt and battery life. Cheaper models cover basics."
+    "q": "Do I need AAA batteries?",
+    "a": "The welspo uses an AAA battery, and the Perixx uses a receiver with batteries listed. Check each box, since some leave batteries out. Buy a spare pair so a dead cell does not stop work. The YUMQUA ships with one AAA battery included."
   },
   {
-    "q": "Do I need software?",
-    "a": "Some models use apps to remap buttons. Basic use needs no software."
+    "q": "How do I know if a trackball is too big?",
+    "a": "Rest your hand on it. If your thumb must stretch to reach the ball or your fingers cannot reach the buttons, it is too big. A good fit lets the thumb rest on the ball with the palm supported. The 34mm TB450 ball suits a small thumb pad."
   }
 ];
 

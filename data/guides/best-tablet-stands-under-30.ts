@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Stated Load Capacity", "description": "Compared explicit weight capacity figures where disclosed across the lineup." },
-  { "title": "Portable Monitor Compatibility", "description": "Checked which picks specifically support portable monitors for dual-screen setups." },
-  { "title": "Base Stability Design", "description": "Compared non-slip base coverage and anti-tip engineering across all four picks." },
-  { "title": "Device Size Range", "description": "Compared minimum and maximum device compatibility across the tier." },
-  { "title": "Convenience Features", "description": "Checked for cable management, tilt slots, and other practical extras." }
+  { "title": "Stated load capacity", "description": "We read load ratings where given, including the Urmust's 2.42 lb capacity and the Bimo's 1kg. A 12.9 inch iPad Pro with a case can approach 1kg, so we flagged the lower rating and treated it as a hard limit for large tablets. The UGREEN and slim portable specs show no weight limit." },
+  { "title": "Joint adjustment and tools", "description": "We noted the Urmust's included wrench for adjusting its joint. A joint that can be tightened as it wears keeps the stand from slowly sagging, which matters because joint slippage is the usual weak point on adjustable aluminum stands. The others rely on their folding or dual-rod designs instead." },
+  { "title": "Non-slip base coverage", "description": "We compared base grip, from the Bimo's full-bottom non-slip foam to the silicone grip on the slim portable model. Pads help prevent sliding but do not add weight, so they complement rather than replace a stable base. The others do not describe full-bottom padding in their specs." },
+  { "title": "Tilt slots versus infinite angles", "description": "We compared the slim model's 8 tilt slots with the continuous joints on the other three. Slots lock firmly and rarely drift, while infinite adjustment suits unusual desk heights. Slots cannot hit an angle between two notches." },
+  { "title": "Landscape and portrait support", "description": "We checked orientation, including landscape and portrait on the slim portable stand and the Urmust's 360 rotation and cable clips. Reading, drawing, and video calls all prefer different angles. The UGREEN stresses its dual-rod support over rotation." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "At this ceiling you pay for stated load, joints you can service, and non-slip bases, so the first table maps your tablet size to a pick.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Four picks sit close to the $30 mark, so we tie each cost step to a specific build feature.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Stated Load Capacity",
+    intro: "Mounting orientation is the second axis, because drawing prefers a low angle while video calls want the screen raised.",
     table: {
       headers: ["Your device weight needs", "Recommended pick"],
       rows: [
@@ -154,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a stated load capacity with a direct fix for sagging or falling issues plus cable management, where the Urmust pick delivers all three at the top of this tier." },
-      { label: "Save if", text: "You just want stable, repeatable tilt positioning without needing a stated load capacity figure, where the Slim Portable Aluminum pick covers that for about $9 less." }
+      { label: "Save if", text: "You just want stable, repeatable tilt positioning without needing a stated load capacity figure, where the Slim Portable Aluminum pick covers that for under $10 less." }
     ],
   }
 ];
@@ -184,8 +187,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Can the Urmust's included wrench fix a stand that's already developed sagging issues after months of use?", "a": "Yes, the wrench is specifically designed to let you tighten the joint screws whenever the stand starts feeling loose, so it addresses sagging both at initial setup and as an ongoing maintenance solution over the stand's lifespan." },
-  { "q": "What's the most common mistake buyers make when choosing a tablet stand for a portable monitor at this tier?", "a": "Assuming any stand that physically fits the monitor's screen size dimensions can safely support its actual weight, when portable monitors often weigh more than tablets of similar size, making a stand's specific load capacity rating more important than screen size compatibility alone." },
-  { "q": "Is the Urmust pick worth it over the cheaper Bimo option?", "a": "If you specifically want the highest stated load capacity with cable management and a direct sagging fix, yes, but if building a dual-screen workspace with a portable monitor at a lower price matters more, the Bimo pick covers that for about $8 less." },
+  { "q": "Can the Bimo hold a heavy 13 inch iPad Pro?", "a": "Its listing states a 1kg load capacity, which is borderline once a protective case is added. The Urmust lists 2.42 lb and an included wrench for its joint, so the Urmust is the safer pick for a heavy tablet. Check your tablet's weight with its case on before buying." },
+  { "q": "Is the Urmust pick worth it over the cheaper Bimo option?", "a": "If you specifically want the highest stated load capacity with cable management and a direct sagging fix, yes, but if building a dual-screen workspace with a portable monitor at a lower price matters more, the Bimo pick covers that for under $10 less." },
   { "q": "How do I know if my portable monitor's weight falls within the Bimo's 1kg rated capacity?", "a": "Check your portable monitor's specification sheet or product listing for its exact weight, then compare that figure against the Bimo's stated 1kg (2.2 lb) rating, keeping in mind that most portable monitors in the 13-15 inch range typically weigh under 2 lbs." },
   { "q": "Do these tablet stands work equally well for both landscape and portrait tablet orientation?", "a": "Yes, all four picks in this comparison support both landscape and portrait orientation, with the Slim Portable Aluminum pick specifically confirming equal performance in either orientation through its multi-slot design." },
   { "q": "Can I use these stands with a stylus for drawing, or will they wobble during active use?", "a": "The Bimo pick specifically mentions stability during stylus drawing due to its full foam base coverage, making it a solid choice for active use, while the other picks should also provide reasonable stability though checking specific stability claims for your intended activity level is worth doing." }

@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41S5Lj0GhSL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CCF81FPG?tag=deskfinds0d-20",
-    "description": "Igloo is a 3.2 cu ft single-door fridge and freezer combo with slide-out shelves, door racks for cans and tall bottles, a can dispenser and static cooling. The listing talks about frozen meals but gives no freezer temperature in these bullets.\n\nCompared with OLIXIS, it has a more traditional layout at about $10 more, but the freezer sits inside the same door as the fridge. Against EUHOMY, it costs $50 less and does not state a noise or kWh figure.\n\nBest for a simple one-door fridge with a small freezer. The caveat is that the freezer is not documented, so treat it as a chilling box rather than for long term frozen storage.",
+    "description": "Igloo is a 3.2 cu ft single-door fridge and freezer combo with slide-out shelves, door racks for cans and tall bottles, a can dispenser and static cooling. The listing talks about frozen meals but gives no freezer temperature in these bullets.\n\nCompared with OLIXIS, it has a more traditional layout at under $15 more, but the freezer sits inside the same door as the fridge. Against EUHOMY, it costs $50 less and does not state a noise or kWh figure.\n\nBest for a simple one-door fridge with a small freezer. The caveat is that the freezer is not documented, so treat it as a chilling box rather than for long term frozen storage.",
     "specs": [
       "3.2 cu ft, single door",
       "Static cooling",
@@ -190,60 +190,52 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Freezer temperature in the listing",
-    "explanation": "A true freezer holds food at 0F or below, while a chiller box may only reach the low 20s F. A stated number such as -7.6F or -13F shows the maker has designed the compartment for frozen food. Look for the freezer temperature in the bullets, and be cautious when the listing mentions only frozen meals with no figure."
+    "criterion": "Separate freezer versus an in-fridge box",
+    "explanation": "A separate freezer door, as on the Midea, EUHOMY, OLIXIS and DEMULLER, lets the freezer sit at 0F or below while the fridge stays above freezing. A single door like the Igloo has a box inside the fridge, which tends to hold a milder temperature. Check the freezer's temperature range in the listing, not just the word freezer."
   },
   {
-    "criterion": "Separate door or shared door",
-    "explanation": "A separate freezer door keeps cold air in when you open the fridge, which reduces ice buildup and temperature swings. A freezer inside the fridge door shares air with the fridge, and often holds frost-prone ice trays rather than frozen meals. Check the listing for the phrase double door or separate freezer door."
+    "criterion": "Freezer temperature range",
+    "explanation": "The OLIXIS lists freezing to minus 13F, the EUHOMY to minus 7.6F and the Midea about minus 11F to 5F, which are good for long storage. A freezer that only gets to 20F is fine for ice but not for ice cream. Look for a range that goes below 0F, which is the point at which frozen food stays solid and safe for weeks rather than days."
   },
   {
-    "criterion": "Share of volume taken by the freezer",
-    "explanation": "Total cubic feet counts both sections, so a 3.2 cu ft model with a 0.75 cu ft freezer leaves about 1.85 cu ft of fresh space after insulation and compressor volume. Subtract the freezer from the headline number to see what is left for groceries. Look for the split in the listing, as the OLIXIS and DEMULLER pages provide."
+    "criterion": "Freezer size in cubic feet",
+    "explanation": "Total cubic feet hides the split. The OLIXIS lists 0.75 for the freezer and 1.85 for fresh food, and the DEMULLER 0.8 and 1.6, so a 3.2 cubic foot unit may only offer 0.75 for frozen items. Look for separate figures for the freezer and fresh sections, or compute the freezer share from the dimensions on the listing."
   },
   {
-    "criterion": "Defrosting method",
-    "explanation": "Most mini fridges with freezers need manual defrosting, meaning you unplug and wait while ice melts. Ice buildup can steal storage and make the compressor work harder. Check the listing for manual defrost wording and consider whether you will tolerate doing this a few times a year."
+    "criterion": "Defrost method",
+    "explanation": "Manual defrost models, like the DEMULLER, need unplugging and emptying every few months when ice builds, while frost-free designs add cost. Check the defrost type, since a manual unit left alone loses space and efficiency, and ice that builds near the evaporator also makes the compressor run longer."
   },
   {
-    "criterion": "Noise and energy claims",
-    "explanation": "Compressors cycle more when a freezer is included, so quiet and kWh claims matter more here. Stated numbers are the maker's own: EUHOMY lists 40 dB and 0.98 kWh per day, OLIXIS 41 dB and 0.8, and Midea 270 kWh per year. Compare like with like and note which listings give no number."
-  },
-  {
-    "criterion": "Standing time before use",
-    "explanation": "Compressor oil settles during shipping, so several listings ask you to let the fridge stand upright before plugging in, from 4 hours for OLIXIS to 24 hours for other models. Skipping this can shorten the compressor's life. Read the note in the listing and plan setup around it."
+    "criterion": "Energy and noise together",
+    "explanation": "The Midea lists 270 kWh per year, the EUHOMY 0.98 kWh per day and the OLIXIS 0.8 kWh per day, with noise at 38 to 41 dB. Daily figures multiply by 365 to compare, so 0.8 kWh a day is about 292 kWh a year. Check units on the label before comparing, because a yearly figure and a daily figure are not directly comparable."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Freezer documentation",
-    "description": "We looked for stated freezer temperatures and separate doors, since vague freezer wording tells you little."
+    "title": "Freezer capability",
+    "description": "We compared listed freezer ranges, from minus 13F on the OLIXIS to minus 7.6F on the EUHOMY, to see which can store frozen food long-term. A freezer that only reaches the mid 20s was treated as an ice box, not a freezer, because food stored there loses quality within a couple of weeks."
   },
   {
-    "title": "Usable fresh space",
-    "description": "Freezer volume was subtracted from total capacity where the listing gave a split."
+    "title": "Capacity split",
+    "description": "We looked at how each pick divides its space, such as 0.75 cubic feet of freezer and 1.85 of fresh on the OLIXIS. In a compact fridge the freezer eats fridge space, so we weighed whether the split matched typical use, such as a few frozen dinners and ice rather than a bulk grocery run."
   },
   {
-    "title": "Noise and energy claims",
-    "description": "Stated decibels, daily or yearly kWh and certifications were compared as seller claims."
+    "title": "Energy and noise",
+    "description": "We noted the Midea 270 kWh per year, the OLIXIS 0.8 kWh per day and noise figures of 38 to 41 dB. Because a fridge runs constantly, efficiency was a major factor for budgets up to under $250."
   },
   {
-    "title": "Footprint and layout",
-    "description": "Dimensions, door type and shelf design were weighed for small rooms."
-  },
-  {
-    "title": "Price for the claims made",
-    "description": "Prices were compared against what each listing actually documents."
+    "title": "Defrost and layout",
+    "description": "We compared manual defrost on the DEMULLER, slide-out shelves on the Igloo and the chiller on the Frigidaire. These details decide daily ease, so we credited them alongside the numbers, since a manual defrost chore can be a daily annoyance for people who rely on the fridge as their only one."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Freezer Use",
-    "intro": "How you use the freezer sets the right pick.",
+    "subheading": "By Primary Need",
+    "intro": "These fridges differ mostly in how much freezer space they give you.",
     "table": {
       "headers": [
         "Your situation",
@@ -251,30 +243,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Frozen meals and ice cream, firmly frozen",
-          "EUHOMY 3.2 Cu Ft Two Door Mini Fridge"
-        ],
-        [
-          "Documented fridge and freezer ranges",
+          "Efficiency and a real freezer for a long-term apartment",
           "Midea 3.1 Cu Ft Energy Star Fridge with Freezer"
         ],
         [
-          "Ice cubes and a few frozen items",
-          "Igloo 3.2 Cu Ft Single Door Fridge with Freezer"
+          "The deepest freezer temperature range",
+          "OLIXIS 3.2 Cu Ft Double Door Mini Fridge, to minus 13F"
         ],
         [
-          "One person, small freezer door",
-          "DEMULLER 45L Double Door Mini Fridge"
+          "A balanced two door with a larger fridge section",
+          "EUHOMY 3.2 Cu Ft Two Door Mini Fridge"
         ],
         [
-          "More fridge space than freezer",
-          "Frigidaire 4.5 Cu Ft Compact Refrigerator"
+          "A compact space with a small footprint",
+          "DEMULLER 45L Double Door Mini Fridge, 45L"
+        ],
+        [
+          "The most overall space including a chiller",
+          "Frigidaire 4.5 Cu Ft Compact Refrigerator, 4.5 cubic feet"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "The six picks span roughly $100 to $210.",
     "table": {
       "headers": [
         "Price range",
@@ -282,44 +275,46 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $100",
-          "DEMULLER 45L Double Door Mini Fridge"
+          "Around $100",
+          "DEMULLER 45L, the lowest price here"
         ],
         [
-          "$100 to $150",
-          "OLIXIS 3.2 Cu Ft Double Door Mini Fridge"
+          "Around $150",
+          "OLIXIS 3.2 Cu Ft Double Door Mini Fridge, the cheapest 3.2 cubic foot two door"
         ],
         [
-          "$150 to $190",
-          "Igloo 3.2 Cu Ft Single Door Fridge with Freezer"
+          "Around $160",
+          "Igloo 3.2 Cu Ft Single Door Fridge with Freezer, with slide-out shelves"
         ],
         [
-          "$185 to $200",
-          "Frigidaire 4.5 Cu Ft Compact Refrigerator"
+          "Around $190",
+          "Frigidaire 4.5 Cu Ft Compact Refrigerator for the extra volume"
         ],
         [
-          "$200 to $210",
-          "Midea 3.1 Cu Ft Energy Star Fridge with Freezer"
+          "Around $200 to $210",
+          "Midea 3.1 Cu Ft or EUHOMY 3.2 Cu Ft, the premium two door models"
         ]
       ]
     }
   },
   {
-    "subheading": "Double Door vs Single Door",
+    "subheading": "Two Door vs Single Door",
+    "intro": "A freezer behind its own door is a different product from a box inside the fridge.",
     "cards": [
       {
-        "label": "Double door",
-        "text": "A separate freezer door keeps frozen food colder and limits frost, but takes space from the fridge. Picks: EUHOMY, OLIXIS and DEMULLER 45L."
+        "label": "Two door",
+        "text": "The Midea 3.1 Cu Ft, EUHOMY 3.2 Cu Ft, OLIXIS 3.2 Cu Ft and DEMULLER 45L have separate doors, which keep freezer cold and let the freezer hit below 0F."
       },
       {
         "label": "Single door",
-        "text": "One door gives more usable fresh space and a lower price, but the freezer is less reliable. Picks: Igloo, Midea and Frigidaire 4.5 Cu Ft."
+        "text": "The Igloo 3.2 Cu Ft and Frigidaire 4.5 Cu Ft use one door, which costs less and has more fresh volume, but any freezer is a small internal box."
       }
     ],
-    "note": "Choose double door if you will store frozen meals, and single door if the freezer is mostly for ice."
+    "note": "Most buyers who actually freeze meals should choose a two door unit."
   },
   {
-    "subheading": "Efficiency and Noise",
+    "subheading": "By Space",
+    "intro": "Two door units are narrow but tall.",
     "table": {
       "headers": [
         "Your concern",
@@ -327,47 +322,49 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Energy Star claim",
-          "Midea 3.1 Cu Ft Energy Star Fridge with Freezer"
+          "A narrow corner with limited width",
+          "DEMULLER 45L, measuring 14.9 by 14.6 by 30.8 inches"
         ],
         [
-          "Lowest listed kWh per day of two door picks",
-          "OLIXIS 3.2 Cu Ft Double Door Mini Fridge"
+          "A bedroom where noise matters",
+          "DEMULLER 45L at 38 dB or EUHOMY 3.2 Cu Ft at 40 dB"
         ],
         [
-          "Lowest stated noise figure",
-          "DEMULLER 45L Double Door Mini Fridge"
+          "Energy bills are a concern",
+          "Midea 3.1 Cu Ft at 270 kWh per year"
         ],
         [
-          "Stated 40 dB and cold freezer",
-          "EUHOMY 3.2 Cu Ft Two Door Mini Fridge"
+          "A dorm with slide-out shelves for bottles",
+          "Igloo 3.2 Cu Ft with slide-out shelves"
         ]
       ]
     }
   },
   {
-    "subheading": "For Small Apartments Specifically",
+    "subheading": "For a Small Apartment Specifically",
+    "intro": "A small apartment often uses this fridge as the only fridge.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A narrow footprint, a reversible door that clears a wall, and a freezer that is real enough for a few meals."
+        "text": "A true freezer below 0F, an annual kWh figure and a size under about 25 inches wide."
       },
       {
         "label": "In this comparison",
-        "text": "DEMULLER 45L Double Door Mini Fridge is the narrowest at 14.9 inches, and Frigidaire 4.5 Cu Ft Compact Refrigerator has a flush back for tight placement."
+        "text": "Midea 3.1 Cu Ft lists a freezer from minus 11F to 5F and 270 kWh per year, which suits an apartment kitchen."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "Going beyond $210 gets a full size fridge.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You will keep frozen meals or want a certified efficient unit. EUHOMY 3.2 Cu Ft Two Door Mini Fridge and Midea 3.1 Cu Ft Energy Star Fridge with Freezer document their freezers best."
+        "text": "You freeze weekly meals. A full apartment fridge outperforms OLIXIS 3.2 Cu Ft on freezer volume."
       },
       {
         "label": "Save if",
-        "text": "A few frozen items and ice are enough. DEMULLER 45L Double Door Mini Fridge and OLIXIS 3.2 Cu Ft Double Door Mini Fridge cost much less."
+        "text": "You only need ice. Igloo 3.2 Cu Ft gives a freezer box for less."
       }
     ]
   }
@@ -376,28 +373,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can a mini fridge freezer hold ice cream?",
-    "a": "Only if the freezer reaches about 0F or lower. Models like EUHOMY and OLIXIS state sub-zero figures, while single-door freezers often cannot hold it."
+    "q": "Can a mini fridge freezer store ice cream?",
+    "a": "Only the two door models that go below 0F, so check the range first. The OLIXIS lists freezing to minus 13F, the EUHOMY to minus 7.6F and the Midea about minus 11F to 5F. Single door boxes like the Igloo may not stay hard enough for ice cream."
   },
   {
-    "q": "Do I need to defrost a mini fridge with a freezer?",
-    "a": "Usually yes. DEMULLER's listing mentions manual defrost. Unplug, empty the unit and let ice melt into towels."
+    "q": "Is the Midea Energy Star model worth it?",
+    "a": "If it runs all year, the lower running cost adds up. It lists 270 kWh per year. The EUHOMY lists 0.98 kWh per day, which is about 358 kWh per year, so the Midea can save a noticeable amount."
   },
   {
-    "q": "Is a double door fridge worth it over a single door?",
-    "a": "If you store frozen meals, yes. A separate door keeps the freezer colder and reduces frost, at the cost of less fresh space."
+    "q": "How much freezer space do I really get?",
+    "a": "Less than the headline. The OLIXIS lists 0.75 cubic feet of freezer in a 3.2 cubic foot unit, and the DEMULLER about 0.8 in a smaller body. A cubic foot holds roughly a few frozen dinners."
   },
   {
-    "q": "How long should I wait before plugging in a new one?",
-    "a": "Follow the listing. OLIXIS asks for 4 hours upright, and some other models recommend 24 hours. This lets compressor oil settle."
+    "q": "Do I need to defrost these fridges?",
+    "a": "The DEMULLER lists manual defrost, so unplug it and empty it when ice builds up. Many others also need occasional defrosting, so check each manual. Do not chip ice with a sharp tool, since a punctured evaporator ruins the fridge, and give it several hours to thaw."
   },
   {
-    "q": "What temperature should I set the fridge to?",
-    "a": "Aim for 40F or lower for the fresh section, following general food safety guidance. A middle setting is usually a good start, then adjust."
+    "q": "Can I put a two door fridge on carpet?",
+    "a": "Yes, but use a firm flat surface if possible, leave airflow behind and keep it level. Check the leveling feet. Carpet can hold heat, so give it extra clearance and avoid blocking the vents at the back or base."
   },
   {
-    "q": "Will it fit a dorm?",
-    "a": "Check your school's size cap. Many dorm rules limit fridge size, so compare the cubic feet and footprint against the housing policy before ordering."
+    "q": "How do I choose between 38 dB and 41 dB?",
+    "a": "The figure is a rated value, not a measurement in your room. A few decibels is slight in a kitchen, but a bedroom at night is more sensitive. The DEMULLER lists 38 dB and OLIXIS 41 dB, so choose the former if you sleep near it."
   }
 ];
 

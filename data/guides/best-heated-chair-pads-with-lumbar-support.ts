@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41hsGP5QK8L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GSQSXP5D?tag=deskfinds0d-20",
-    "description": "COMFIER is a shaped lumbar cushion that follows the natural curve of the spine and layers three features on top: rotating kneading nodes, 2 vibration motors with 3 modes and 3 intensity levels, and built-in heat across the lower back. It is designed for office chairs, car seats and sofas.\n\nCompared with the CILI lumbar pillow below, it adds the kneading nodes and costs about $10 more, while the CILI has the simpler vibration only. Versus the comrelax cushion, it concentrates everything on the lower back instead of spreading motors up the spine.\n\nBest for someone whose lower back is the main complaint. The caveat is the price, tied for highest here, and the listing gives no heat temperatures or timer.",
+    "description": "COMFIER is a shaped lumbar cushion that follows the natural curve of the spine and layers three features on top: rotating kneading nodes, 2 vibration motors with 3 modes and 3 intensity levels, and built-in heat across the lower back. It is designed for office chairs, car seats and sofas.\n\nCompared with the CILI lumbar pillow below, it adds the kneading nodes and costs under $15 more, while the CILI has the simpler vibration only. Versus the comrelax cushion, it concentrates everything on the lower back instead of spreading motors up the spine.\n\nBest for someone whose lower back is the main complaint. The caveat is the price, tied for highest here, and the listing gives no heat temperatures or timer.",
     "specs": [
       "Kneading nodes plus 2 vibration motors",
       "3 vibration modes, 3 intensities",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Vm61OD-OL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C861JHDT?tag=deskfinds0d-20",
-    "description": "CILI's lumbar pillow has 2 heat levels, 2 vibration motors with 3 modes, an overheat protection thermostat and an auto shut-off. Adjustable straps let you position it on chairs, sofas, beds or even train seats.\n\nIt has fewer functions than COMFIER, with vibration only and no kneading, and it costs about $10 less. Against the flat WOOLALA cover, it adds an actual lumbar shape but covers a much smaller area.\n\nBest for a desk chair where the lower back is the only trouble spot. The caveat is that two heat levels and no listed temperatures give little control.",
+    "description": "CILI's lumbar pillow has 2 heat levels, 2 vibration motors with 3 modes, an overheat protection thermostat and an auto shut-off. Adjustable straps let you position it on chairs, sofas, beds or even train seats.\n\nIt has fewer functions than COMFIER, with vibration only and no kneading, and it costs under $15 less. Against the flat WOOLALA cover, it adds an actual lumbar shape but covers a much smaller area.\n\nBest for a desk chair where the lower back is the only trouble spot. The caveat is that two heat levels and no listed temperatures give little control.",
     "specs": [
       "2 heat levels",
       "2 vibration motors, 3 modes",
@@ -191,51 +191,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Shaped support versus flat heat",
-    "explanation": "A real lumbar cushion has a curve that fills the gap behind your lower back, while a flat heated cover only adds warmth. Support matters if your chair lacks a lumbar curve, because a warm but flat pad does little for posture. Look for words like shaped, curved or ergonomic, and notice that CARSHION and WOOLALA are flat covers."
+    "explanation": "A lumbar-shaped pad adds a curve for the lower back and heat, while a flat pad like the WOOLALA or CARSHION warms the seat and back without shape. The COMFIER and CILI have a real lumbar curve, and the comrelax is flat. If your chair already has lumbar support, a flat pad is enough, so check the product photo for a curve, and note that a curve that sits too high will push on your ribs instead of your lower back."
   },
   {
-    "criterion": "Massage type: kneading vs vibration",
-    "explanation": "Kneading uses rotating nodes that press along the muscle, while vibration is a buzzing motor. Kneading feels deeper but may press uncomfortably if you sit on it all day. Check the wording: COMFIER lists rotating nodes plus 2 vibration motors, while comrelax lists 8 vibration motors only."
+    "criterion": "Massage type: kneading versus vibration",
+    "explanation": "Kneading nodes push and roll the muscle, while vibration only shakes the surface. The COMFIER lists kneading nodes plus 2 vibration motors, the CILI lists 2 vibration motors in 3 modes, and the comrelax lists 8 vibration motors in 5 modes. Choose by whether you want deep pressure or light buzzing."
   },
   {
     "criterion": "USB power versus plug-in",
-    "explanation": "USB pads run from a laptop, power bank or phone adapter, but their heat is generally gentler because the supply is limited. Wall adapters give stronger heat but tie you to an outlet. Check whether the listing names a 5V USB cable, as the generic and WOOLALA pads do, or a wall adapter, and plan your cable run."
+    "explanation": "A USB pad runs from a power bank or a laptop, which is convenient but may heat more slowly, while a plug-in pad uses a wall adapter and heats faster. The WOOLALA offers USB or 110V, and the CARSHION includes two adapters. Check whether the pad needs 5V 2A or a higher voltage, and what adapter is included if any."
   },
   {
     "criterion": "Stated temperatures and timers",
-    "explanation": "Two pads here publish temperatures, CARSHION at 107F to 136F, while others offer only 'low, medium, high'. A timer matters because a pad on all day is unnecessary and potentially a risk. Check for degrees and for timer hours, and avoid pads with neither."
+    "explanation": "A pad that lists 107F, 122F and 136F, like the CARSHION, lets you pick a comfortable level, while a listing that says only low and high does not. Timers matter too: the USB pad lists 1 or 2 hours and the CILI has auto shut-off. Look for temperature numbers and a timer in the bullets, and be wary of a pad with neither."
   },
   {
     "criterion": "Strap design and chair fit",
-    "explanation": "A lumbar cushion must sit at your lower back, not slide down, and straps are what hold it there. CILI lists adjustable straps for chairs, sofas and train seats, and CARSHION lists adjustable straps too. Measure your backrest and check that the strap goes around the chair frame."
-  },
-  {
-    "criterion": "Comfort products, not medical devices",
-    "explanation": "Listings use phrases like pain relief and sore muscles, but these are comfort products and not medical devices. If you have back pain that persists or reduced feeling in your skin, ask a doctor first. Use low heat, use the timer, and stop if the area feels uncomfortably warm."
+    "explanation": "A pad slides off a smooth office chair unless it straps on. The CILI lists adjustable straps and the USB pad lists a non-slip base. Measure your seat and back size against the pad, for example 17 by 35.5 inches on the WOOLALA, and check that the straps reach around your chair."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Lumbar design",
-    "description": "We separated shaped lumbar cushions from flat heated covers so the headline claim matches the product."
+    "title": "Lumbar shaping versus flat coverage",
+    "description": "We separated pads with a real lumbar curve from flat pads. The COMFIER and CILI add a shaped lumbar section, while the comrelax, CARSHION and WOOLALA are flat, and we judged shaped support as a real benefit for a seated desk worker, since a flat pad adds warmth but no change in posture."
   },
   {
-    "title": "Heat and massage features",
-    "description": "Heat steps, vibration motors, kneading and independent controls were compared."
+    "title": "Massage method and motors",
+    "description": "We compared the COMFIER's kneading nodes plus 2 vibration motors, the CILI's 2 motors in 3 modes, and the comrelax's 8 motors in 5 modes, and noted that heat and vibration run separately on the comrelax, which lets you use warmth alone during calls."
   },
   {
-    "title": "Power source",
-    "description": "USB, wall adapter and dual power options were noted, with cautions about weak supplies."
+    "title": "Heat clarity and safety controls",
+    "description": "We credited stated temperatures, such as the CARSHION's 107F, 122F and 136F, and safety features like the CILI's overheat thermostat and auto shut-off and the USB pad's 1 or 2 hour timer. The COMFIER and WOOLALA list no temperatures, which we treated as a gap for a product used for hours."
   },
   {
-    "title": "Fit and straps",
-    "description": "Dimensions, strap types and chair compatibility were checked."
+    "title": "Power flexibility",
+    "description": "We compared power choices, like the WOOLALA's USB or 110V adapter, the CARSHION's two adapters, and the USB pad's 5V power bank option, since a desk worker may want a pad that works from a laptop port or a wall, and a USB pad may heat more slowly than a plug-in one."
   },
   {
-    "title": "Value for price",
-    "description": "Price was compared against documented features, ignoring unquantified claims."
+    "title": "Chair fit and coverage",
+    "description": "We checked size and straps, such as the CARSHION's 38.5 by 17.5 inch coverage of back, hips and thighs and the WOOLALA's 17 by 35.5 inches, and credited the CILI's adjustable straps for staying put on a slick office chair, while a flat pad without straps tends to creep forward."
   }
 ];
 
@@ -285,7 +281,7 @@ export const howToChoose: HowToChooseSection[] = [
           "CARSHION Heated Seat Cover with Expanded Heating Area"
         ],
         [
-          "About $50",
+          "Under $60",
           "CILI Heated Lumbar Support Pillow with Vibration"
         ],
         [
@@ -371,28 +367,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Will a heated lumbar cushion fix my posture?",
-    "a": "A shaped cushion can fill the gap behind your lower back, but heat alone does not change posture. These are comfort products, so if you have back pain, ask a doctor."
+    "q": "Is a heated seat pad safe to use all day?",
+    "a": "Use a model with a timer or overheat protection, such as the CILI's thermostat and auto shut-off or the USB pad's 1 or 2 hour timer. Sitting on a heater for hours can overheat skin, so use the lowest setting and take breaks."
   },
   {
-    "q": "Can I use a USB lumbar pad with my laptop?",
-    "a": "Many USB pads list laptop or power bank power. A laptop port may give weaker heat than a wall adapter, so expect a gentler warmth."
+    "q": "Can I run a heated chair pad from a power bank?",
+    "a": "Only some models. The WOOLALA and the unbranded USB pad list USB power, and they can run from a bank or a laptop, but check that the bank supplies the 5V current the pad needs. A weak bank heats slowly."
   },
   {
-    "q": "Is kneading worth it over vibration?",
-    "a": "Kneading feels deeper but can press too hard on a long sit. COMFIER has both, while comrelax and CILI use vibration only, which suits all day wear better."
+    "q": "Is the COMFIER worth more than the CILI?",
+    "a": "If you want kneading plus vibration, yes. The COMFIER lists kneading nodes with 2 vibration motors, while the CILI lists vibration only with 2 heat levels and an overheat thermostat at a lower price. Both have a real lumbar shape."
   },
   {
-    "q": "How do I set up a lumbar pad on my chair?",
-    "a": "Place it at the curve of your lower back, around belt height, and tighten the straps around the chair back. Re-adjust after sitting, since it will settle."
+    "q": "Will these fit a gaming chair?",
+    "a": "Most fit an office chair, but a gaming chair with deep bolsters may not hold a flat pad. The CILI's adjustable straps wrap a seat back, and the WOOLALA is 17 by 35.5 inches. Measure the chair and check strap length."
   },
   {
-    "q": "Can I wash these?",
-    "a": "Most are spot clean only because of the electronics. Check each listing for a removable cover, and never submerge a controller."
+    "q": "Are heated pads medical devices?",
+    "a": "No. They are comfort products, and the listings make no medical claims worth relying on. If you have back pain, nerve problems, or reduced skin sensation, talk to a doctor before using heat for long periods."
   },
   {
-    "q": "Is there a risk of overheating?",
-    "a": "Use a pad with a thermostat or auto shut-off, such as CILI's, and avoid sleeping on any heated pad. Keep the setting low if you have reduced sensation."
+    "q": "How do I clean a heated seat cushion?",
+    "a": "Unplug it and let it cool, then wipe the cover with a damp cloth. Never submerge it unless the listing says the cover is removable. Let everything dry fully, and do not fold the heating elements sharply."
   }
 ];
 

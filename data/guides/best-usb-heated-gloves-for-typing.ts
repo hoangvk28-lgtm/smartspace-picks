@@ -5,7 +5,7 @@ export const metaDescription = "Seven heated fingerless gloves for desk typing c
 export const mainKeyword = "usb heated gloves for typing";
 export const introParagraphs = [
   "Typing is the one task where full gloves fail, because you lose the fingertip feel that makes keys land where you aim them. Fingerless heated gloves are the answer, but the category splits in two: gloves that plug into a USB port and stop when you unplug, and gloves with a rechargeable battery that you can wear to the kitchen. That split shapes everything else about the choice.",
-  "The seven pairs here cover both styles and a price range from about $10 to $100. We compared them on listed specs: power source, heat settings in degrees, runtime, number of pairs and how much of the hand the heating covers. USB heat is low power, so expect warm palms rather than a heater. A few listings promise circulation benefits, which we did not weigh, because gloves like these are meant for comfort only."
+  "The seven pairs here cover both styles and a price range from under $15 to $100. We compared them on listed specs: power source, heat settings in degrees, runtime, number of pairs and how much of the hand the heating covers. USB heat is low power, so expect warm palms rather than a heater. A few listings promise circulation benefits, which we did not weigh, because gloves like these are meant for comfort only."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41wVsuTduKL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G1Y59XBJ?tag=deskfinds0d-20",
-    "description": "Huaerle uses a 2000 mAh battery for a listed 3 to 5 hours of continuous heat, with three levels at 45, 50 and 55 degrees C. The heating wraps both sides of the hand, so the palm and the back of the hand warm together, and the half-finger fabric stays flexible for typing.\n\nIt costs about $12 less than uncn below and is the only pick with a stated three-level range plus a runtime window. Against the USB pairs, you give up unlimited runtime but gain freedom to walk.\n\nBest for a typist who wants adjustable, cord-free warmth. The caveat is that the 55C top setting is warm for long contact, so start low.",
+    "description": "Huaerle uses a 2000 mAh battery for a listed 3 to 5 hours of continuous heat, with three levels at 45, 50 and 55 degrees C. The heating wraps both sides of the hand, so the palm and the back of the hand warm together, and the half-finger fabric stays flexible for typing.\n\nIt costs under $15 less than uncn below and is the only pick with a stated three-level range plus a runtime window. Against the USB pairs, you give up unlimited runtime but gain freedom to walk.\n\nBest for a typist who wants adjustable, cord-free warmth. The caveat is that the 55C top setting is warm for long contact, so start low.",
     "specs": [
       "2000 mAh, 3 to 5 hours",
       "45, 50 or 55 degrees C",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41+YOkvYWfL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H82ZFB76?tag=deskfinds0d-20",
-    "description": "JS LifeStyle lists a 7.7V 2400 mAh battery in a thin fingerless design with a flip cover that traps heat around the hands. The listing recommends it for indoor use.\n\nIt costs under $100, about $60 more than uncn, yet gives fewer stated features: no temperature levels or runtime. Against every other pick, the flip cover is its distinct trait.\n\nChoose it only if you want a premium build and a flip cover. The caveat is the price and the thin spec sheet, so confirm heat levels and battery life with the seller.",
+    "description": "JS LifeStyle lists a 7.7V 2400 mAh battery in a thin fingerless design with a flip cover that traps heat around the hands. The listing recommends it for indoor use.\n\nIt costs under $100, under $75 more than uncn, yet gives fewer stated features: no temperature levels or runtime. Against every other pick, the flip cover is its distinct trait.\n\nChoose it only if you want a premium build and a flip cover. The caveat is the price and the thin spec sheet, so confirm heat levels and battery life with the seller.",
     "specs": [
       "7.7V 2400 mAh battery",
       "Flip cover traps heat",
@@ -219,51 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "USB cable or battery power",
-    "explanation": "A USB glove only heats while plugged in, so it ties your hands to the port, whereas a battery glove goes with you. Sintege and SATINIOR are USB only, and Huaerle and uncn are cordless. Decide whether you stay at one desk before choosing."
+    "explanation": "A USB glove only heats while plugged in, so it ties your hands to the port, whereas a battery glove goes with you. Sintege and SATINIOR are USB only, and Huaerle and uncn are cordless. Decide whether you stay at one desk before choosing. A cable glove never runs out of charge, but a 5 foot cord like HoFire's limits how far you can move from the port."
   },
   {
     "criterion": "USB current and adapter use",
-    "explanation": "USB heat is low power, and sellers warn against using a supply beyond the stated rating. A typical glove pulls modest current, and a laptop port may supply less than a wall adapter, so it may run cooler. Read the rated voltage and amps and use a standard 5V adapter."
+    "explanation": "USB heat is low power, and sellers warn against using a supply beyond the stated rating. A typical glove pulls modest current, and a laptop port may supply less than a wall adapter, so it may run cooler. Read the rated voltage and amps and use a standard 5V adapter. Read the amperage in the bullets, because listings in this group warn against 2A-plus outputs for gloves rated near 0.76A."
   },
   {
     "criterion": "Heat level in degrees",
-    "explanation": "A level stated in degrees lets you compare gloves, while a label like warm tells you nothing. Huaerle lists 45, 50 and 55C, uncn gives 130F and 113F, and SATINIOR about 40C. Look for numbers and start on the lowest setting."
+    "explanation": "A level stated in degrees lets you compare gloves, while a label like warm tells you nothing. Huaerle lists 45, 50 and 55C, uncn gives 130F and 113F, and SATINIOR about 40C. Look for numbers and start on the lowest setting. A 40C setting is mild for typing, while 55C is hot enough that you should test it on the lowest step first."
   },
   {
     "criterion": "Runtime per charge",
-    "explanation": "Battery gloves lose heat output as the cell drains, and the top setting drains fastest. Huaerle lists 3 to 5 hours and uncn up to 3. Look for a runtime per setting, and avoid listings with unclear or garbled numbers."
+    "explanation": "Battery gloves lose heat output as the cell drains, and the top setting drains fastest. Huaerle lists 3 to 5 hours and uncn up to 3. Look for a runtime per setting, and avoid listings with unclear or garbled numbers. A 3000 mAh battery gives about 3 hours on a high setting per uncn's listing, which is a morning, not a full day."
   },
   {
     "criterion": "Coverage and typing dexterity",
-    "explanation": "Heat on the palm only differs from heat on both sides of the hand. Huaerle heats both sides while others target the palm. Check the glove for exposed fingertips and a snug wrist."
+    "explanation": "Heat on the palm only differs from heat on both sides of the hand. Huaerle heats both sides while others target the palm. Check the glove for exposed fingertips and a snug wrist. Palm-only heat leaves the back of the hand cold, which is where most desk chill shows up, so compare which surfaces each pair heats."
   },
   {
     "criterion": "Pairs, pads and washing",
-    "explanation": "Some listings include two pairs, and others have a removable heating pad so you can clean the glove. HoFire has a removable pad and Sintege includes two pairs. Look for cleaning instructions and an instruction to remove the pad or battery first."
+    "explanation": "Some listings include two pairs, and others have a removable heating pad so you can clean the glove. HoFire has a removable pad and Sintege includes two pairs. Look for cleaning instructions and an instruction to remove the pad or battery first. A removable pad turns a glove into something you can actually wash, and two pairs mean a spare when one cable fails."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Power and runtime",
-    "description": "We compared USB versus battery power, stated capacity and runtime where given."
+    "title": "Power style, cable or battery",
+    "description": "A cable glove heats only while plugged in, while a battery glove moves freely but runs down. Sintege, SATINIOR and HoFire are USB-cabled, while Huaerle, uncn, LipLopBest and JS LifeStyle carry batteries, and we scored each by how that suits a seated desk. We also noted that cabled gloves stop the moment the plug is pulled."
   },
   {
-    "title": "Heat control",
-    "description": "Heat levels, stated degrees and safety guidance were weighed above marketing claims."
+    "title": "USB input and safe amperage",
+    "description": "Most USB gloves are rated at 5V, and the listing for one pair says its draw is 0.76A. We checked whether each states its rating, since a high-output fast-charge port or a 2A-plus adapter can overheat a glove built for less. Listings that warn against fast-charge ports got credit for saying so."
   },
   {
-    "title": "Typing fit",
-    "description": "Half-finger design, fabric stretch and wrist closure were compared for keyboard use."
+    "title": "Heat in degrees and runtime",
+    "description": "Huaerle lists 45, 50 and 55C, uncn 113F and 130F with up to 3 hours, and SATINIOR about 40C. We ranked stated temperatures above unlabeled levels, and noted that LipLopBest lists neither capacity nor runtime. A mild 40C is easier to wear for hours than a 55C setting."
   },
   {
-    "title": "Care and extras",
-    "description": "Removable pads, pairs included and cleaning notes were noted."
+    "title": "Dexterity for typing",
+    "description": "Every pair here is fingerless, so keys stay accessible. Huaerle heats the palm and back of the hand, while LipLopBest focuses on the palm, and we judged how much of the hand gets warmed without bulk. Fingerless cuts keep keys, trackpads and phones usable."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $10 to $100 were compared against what each listing documents."
+    "title": "Pairs, pads and washing",
+    "description": "Sintege and SATINIOR ship two pairs and HoFire has a removable pad for washing. We counted cost per pair and whether the heating element can come out before the fabric is washed. A spare pair also covers the case when one cable fails."
   }
 ];
 
@@ -271,37 +271,39 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Power Style",
+    "intro": "Cabled and cordless gloves are different products for different desks.",
     "table": {
       "headers": [
-        "Your situation",
+        "Situation",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Cord-free, adjustable heat",
-          "Huaerle Rechargeable Heated Fingerless Gloves"
+          "Always near a USB port",
+          "Sintege 2 Pairs USB Heated Fingerless Gloves, with no battery to charge."
         ],
         [
-          "Bigger battery, firm wrist",
-          "uncn Cordless Heated Fingerless Gloves 3000mAh"
+          "Cordless, long runtime",
+          "uncn Cordless Heated Fingerless Gloves 3000mAh, up to 3 hours."
         ],
         [
-          "USB desk with a spare pair",
-          "Sintege 2 Pairs USB Heated Fingerless Gloves"
+          "Cordless, three clear levels in degrees",
+          "Huaerle Rechargeable Heated Fingerless Gloves at 45, 50 or 55C."
         ],
         [
-          "Mild USB heat with stated limit",
-          "SATINIOR 2 Pairs USB Heated Fingerless Gloves"
+          "Digital display and Type-C charging",
+          "LipLopBest Portable Heated Fingerless Gloves with Display."
         ],
         [
-          "Long cable at a big desk",
-          "HoFire USB Heating Fingerless Gloves with 5ft Cable"
+          "Cabled, long reach",
+          "HoFire USB Heating Fingerless Gloves with a 5 foot cable."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "The cabled options are the cheapest and the best battery model sits above them.",
     "table": {
       "headers": [
         "Price range",
@@ -309,65 +311,67 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $12",
-          "HoFire USB Heating Fingerless Gloves with 5ft Cable"
+          "Under $12, cheapest",
+          "HoFire USB Heating Fingerless Gloves."
         ],
         [
-          "About $18",
-          "SATINIOR 2 Pairs USB Heated Fingerless Gloves"
+          "Under $20, two pairs",
+          "SATINIOR 2 Pairs USB, with a stated 40C temperature."
         ],
         [
-          "About $27",
-          "Huaerle Rechargeable Heated Fingerless Gloves"
+          "Under $30, rechargeable",
+          "Huaerle Rechargeable, with three heat levels in degrees."
         ],
         [
-          "About $40",
-          "uncn Cordless Heated Fingerless Gloves 3000mAh"
+          "Under $45, biggest battery",
+          "uncn Cordless 3000mAh."
         ],
         [
-          "About $100",
-          "JS LifeStyle Rechargeable Heated Fingerless Gloves 7.7V"
+          "Over $90, high-voltage battery",
+          "JS LifeStyle Rechargeable 7.7V with a flip cover."
         ]
       ]
     }
   },
   {
     "subheading": "USB Cable vs Rechargeable Battery",
+    "intro": "One is cheaper and tethered, the other is freer but needs charging.",
     "cards": [
       {
         "label": "USB cable",
-        "text": "USB gloves cost less and never run out but only work while plugged in. In this guide that is Sintege 2 Pairs USB Heated Fingerless Gloves, SATINIOR 2 Pairs USB Heated Fingerless Gloves and HoFire USB Heating Fingerless Gloves with 5ft Cable."
+        "text": "Heats as long as it is plugged in and costs far less. Sintege, SATINIOR and HoFire fit here, but the cord can tangle with a mouse and heat stops when unplugged."
       },
       {
-        "label": "Rechargeable",
-        "text": "A battery frees your hands but has limited runtime and a higher price. That covers Huaerle Rechargeable Heated Fingerless Gloves, uncn Cordless Heated Fingerless Gloves 3000mAh, LipLopBest Portable Heated Fingerless Gloves with Display and JS LifeStyle Rechargeable Heated Fingerless Gloves 7.7V."
+        "label": "Rechargeable battery",
+        "text": "Frees both hands and works on a train or in a cold room without a port. Huaerle, uncn and JS LifeStyle fit here, but runtime is limited to a few hours."
       }
     ],
-    "note": "Stay with USB if you type at one desk all day, otherwise pick a rechargeable pair."
+    "note": "Choose cabled Sintege for a fixed desk and battery Huaerle if you move around."
   },
   {
     "subheading": "By Heat Control",
+    "intro": "Temperature steps matter more than a headline wattage.",
     "table": {
       "headers": [
-        "Your concern",
+        "Control need",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Three levels in degrees",
-          "Huaerle Rechargeable Heated Fingerless Gloves"
+          "Three levels in degrees Celsius",
+          "Huaerle, 45, 50 or 55C."
+        ],
+        [
+          "Two clear levels in Fahrenheit",
+          "uncn, 130F high and 113F low."
+        ],
+        [
+          "Mild, fixed heat",
+          "SATINIOR, about 40C."
         ],
         [
           "Digital readout",
-          "LipLopBest Portable Heated Fingerless Gloves with Display"
-        ],
-        [
-          "Stated 40C ceiling",
-          "SATINIOR 2 Pairs USB Heated Fingerless Gloves"
-        ],
-        [
-          "Two simple settings",
-          "uncn Cordless Heated Fingerless Gloves 3000mAh"
+          "LipLopBest, which shows the level on a display."
         ]
       ]
     }
@@ -377,11 +381,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Look for",
-        "text": "Exposed fingertips, a heat level in degrees and a power source that matches your desk setup."
+        "text": "Half-finger design, stated heat in degrees, and a runtime that covers a work block."
       },
       {
         "label": "In this comparison",
-        "text": "Huaerle Rechargeable Heated Fingerless Gloves lists 45 to 55C with half fingers, and Sintege 2 Pairs USB Heated Fingerless Gloves gives two spare pairs for a USB desk."
+        "text": "Huaerle heats palm and back of hand at 45 to 55C, and uncn lists a 3000 mAh battery for up to 3 hours."
       }
     ]
   },
@@ -390,11 +394,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want cordless freedom and a bigger battery. uncn Cordless Heated Fingerless Gloves 3000mAh and Huaerle Rechargeable Heated Fingerless Gloves offer that."
+        "text": "You want a battery. uncn and Huaerle are the best-documented in the $27 to $40 range, and JS LifeStyle is the premium option."
       },
       {
         "label": "Save if",
-        "text": "You only need a mild warm-up at the keyboard. HoFire USB Heating Fingerless Gloves with 5ft Cable and SATINIOR 2 Pairs USB Heated Fingerless Gloves cost under $20."
+        "text": "You sit at a USB port. HoFire under $12 and SATINIOR at under $20 cover the basics."
       }
     ]
   }
@@ -403,28 +407,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can I plug USB gloves into my laptop?",
-    "a": "Yes, several listings say laptop ports work. A laptop port may supply less current than a wall adapter, so the gloves may run cooler there. Use a standard 5V source, not a higher profile."
+    "q": "Can I plug USB heated gloves into any charger?",
+    "a": "No. Most are rated for 5V and some list a draw below 1A, and listings warn against high-output or fast-charge ports. Use a standard 5V adapter or a laptop port, and check that the glove states its input before connecting."
   },
   {
-    "q": "Can these gloves overheat?",
-    "a": "Follow the seller's limits. SATINIOR recommends no more than 1 hour of continuous heating, and sellers warn against supplies above the rating. Take them off if they feel too hot."
+    "q": "How long will battery heated gloves last?",
+    "a": "Typically a few hours. uncn lists 3000 mAh with up to 3 hours, Huaerle 2000 mAh with 3 to 5 hours, and LipLopBest gives no runtime. Runtime drops on high settings, so plan for the lowest level that keeps your hands comfortable."
   },
   {
-    "q": "Are rechargeable gloves worth it over USB?",
-    "a": "Yes if you move around, because the battery lets you walk. If you stay seated all day, USB is cheaper and has no runtime limit."
+    "q": "Is Huaerle worth it over the cheaper USB two-packs?",
+    "a": "If you want no cable on the desk, yes. Huaerle is rechargeable with 45, 50 or 55C levels, while Sintege and SATINIOR cost much less for two pairs but heat only while plugged in. A cable can snag on a mouse hand."
   },
   {
-    "q": "How do I wash heated gloves?",
-    "a": "Remove the heating pad or battery first, as HoFire allows, and follow the care line. Keep cables and batteries dry."
+    "q": "Are 55C gloves too hot for typing?",
+    "a": "They can be. Huaerle's top setting is quite warm for skin, so start on 45C and move up only if needed. SATINIOR's listing says about 40C with a 1 hour continuous recommendation, which suits a gentler desk routine."
   },
   {
-    "q": "Will fingerless gloves keep my fingertips warm?",
-    "a": "They warm the palm and wrist, which helps, but fingertips stay exposed. For very cold rooms, add a heated mat or room heat."
+    "q": "Can I wash heated fingerless gloves?",
+    "a": "Only if the heating part is removable. HoFire has a removable heating pad, and listings advise drying any element that gets wet before powering on. Do not machine wash a glove with a built-in battery, and hand wash the fabric gently otherwise."
   },
   {
-    "q": "Do heated gloves help with Raynaud's or arthritis?",
-    "a": "We do not rely on those claims. These are comfort products and not medical devices, and anyone with reduced sensation should ask a doctor first because of burn risk."
+    "q": "Do heated gloves work for people with poor circulation?",
+    "a": "Be careful. If you have diabetes, neuropathy or reduced sensation, you may not feel when a glove is too hot. Start on the lowest setting, check your skin often, and ask a doctor before regular use."
   }
 ];
 

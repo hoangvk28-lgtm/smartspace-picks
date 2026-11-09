@@ -190,48 +190,48 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Bluetooth versus USB-A receiver",
-    "explanation": "Modern MacBooks have USB-C ports only, so a 2.4G dongle needs an adapter. Bluetooth pairs directly and saves a port. Look for Bluetooth 5.0 or higher in the title and confirm the dongle is optional."
+    "criterion": "Bluetooth without a receiver",
+    "explanation": "Bluetooth lets the mouse pair directly with a MacBook, so you do not need a USB-A port or a dongle. Many modern laptops offer only USB-C, so a receiver-only mouse needs an adapter. Look for the phrase Bluetooth 5.0 or higher in the title, and check that the listing names Mac or macOS support before buying. Pair each of the three channels on the POJTK or seenda once, then switch with the channel button."
   },
   {
-    "criterion": "Does the listing name macOS?",
-    "explanation": "Many listings say wide compatibility without ever naming the operating systems. That vague phrase can hide a Windows-only driver or a feature that is missing on Mac. Look for the words macOS or Mac OS X and a minimum version such as 10.12 or higher, and treat a missing mention as a reason to read the questions section before buying."
+    "criterion": "Side button macOS support",
+    "explanation": "Extra thumb buttons, such as back and forward, depend on a driver, and some mice ship drivers only for Windows. On a Mac, they may do nothing, even when the pointer works. Read the last bullets of the listing for a macOS note, and check the Q and A section for buyers reporting Mac behavior. The TECKNET listing flags its side button for Mac; the others do not mention it either way."
   },
   {
-    "criterion": "Buttons that do not carry over",
-    "explanation": "A few mice have side buttons that only work on Windows. The TECKNET listing warns about this. Check for any note beside the side buttons."
+    "criterion": "Silent versus quiet clicks",
+    "explanation": "Silent buttons use dampened switches to reduce the click sound, but they are never fully silent, and the scroll wheel can still tick. This matters in libraries and cafes where MacBooks live. Look for a stated decibel figure, such as under 40 dB, and remember it is the maker's claim. Only the seenda lists a figure under 40 dB; the rest simply say silent."
   },
   {
-    "criterion": "Vertical angle and hand size",
-    "explanation": "Vertical mice tilt the hand about 52 to 58 degrees. Most here target small to medium hands, with ProtoArc listing hand lengths under 7.5 inches. Measure from wrist crease to middle fingertip before choosing."
+    "criterion": "Vertical angle and shell size",
+    "explanation": "The angle, such as 58 degrees, tilts your forearm toward a handshake, but only works if the shell fits your hand. Several picks here suit small to medium hands only. Measure your hand from wrist crease to fingertip and compare it with the listing's hand range before ordering. The ProtoArc EM11 NL and POJTK both list 58 degrees, but fit small to medium hands."
   },
   {
-    "criterion": "Rechargeable or replaceable battery",
-    "explanation": "A built-in rechargeable battery charges over USB-C, the same cable your MacBook already uses, so there is nothing extra to carry. The trade-off is that a sealed cell cannot be swapped when it wears out. Look for the battery capacity in mAh, such as 500mAh, and a claim of days or hours per charge, and check whether the mouse can be used while charging."
-  },
-  {
-    "criterion": "DPI and trackpad habits",
-    "explanation": "MacBook users are used to the smooth scaling of a trackpad, so a mouse that is too sensitive can feel jumpy when you first switch. A moderate DPI of 1000 to 1600 usually feels closest to a trackpad on a laptop screen, while 4000 and above suits large external monitors. Look for adjustable steps in the listing and a button on the mouse to cycle through them without opening software."
+    "criterion": "Charging port and battery",
+    "explanation": "USB-C charging means the same cable that charges your MacBook can charge the mouse, which cuts clutter in a bag. Cells are usually small, so expect a recharge every few weeks. Look for Type-C and a mAh figure in the specs, and check whether the mouse works while it charges. The POJTK lists Bluetooth 5.3, 2.4G and Type-C; the Uineer lists no battery life."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "macOS compatibility",
-    "description": "We checked whether each listing names Mac or MacBook and noted any caveats."
+    "title": "Bluetooth-first connection",
+    "description": "We checked whether each mouse pairs over Bluetooth without a dongle, since many MacBooks have only USB-C ports. The UGREEN, ProtoArc EM11 NL and TECKNET all list Bluetooth, so we penalized any pick that leans on a USB-A receiver alone. Many recent MacBooks have two or three USB-C ports shared with charging, so a USB-A dongle needs an adapter."
   },
   {
-    "title": "Connection options",
-    "description": "We compared Bluetooth, receivers and Type-C choices."
+    "title": "macOS button behavior",
+    "description": "We read compatibility notes about side buttons, because the TECKNET listing warns that back and forward may skip on Mac. A mouse can point fine yet lose its extra buttons, so a stated macOS caveat counted against a pick. The TECKNET listing's side-button warning is why it ranked below the UGREEN despite a 36 month warranty."
   },
   {
-    "title": "Ergonomic fit",
-    "description": "We compared vertical angle and stated hand size."
+    "title": "Quiet operation",
+    "description": "We compared quiet-click claims, such as the silent buttons on the POJTK and the quiet layout on the UGREEN. MacBook users often work in libraries and coffee shops, and a loud click draws attention, so we valued softer switches. The seenda and POJTK both advertise silent buttons, but only the maker's claim backs either."
   },
   {
-    "title": "Value and warranty",
-    "description": "We weighed price, warranty and extras."
+    "title": "Vertical angle and hand size",
+    "description": "We compared angles, including 58 degrees on the ProtoArc EM11 NL and POJTK, and noted that several are for small to medium hands. Angle only helps if the shell fits, so hand guidance mattered. The ProtoArc EM11 NL tops out at 2400 DPI and the POJTK at 4800, both fine for macOS."
+  },
+  {
+    "title": "Extras that fit a laptop desk",
+    "description": "We looked at features such as the seenda volume knob, the Uineer ambient light and the 36 month TECKNET warranty. For a portable setup, useful extras earned credit while decorative lighting did not. The Uineer's light and the seenda's volume knob are extras; the TECKNET's 36 month warranty is the real value."
   }
 ];
 
@@ -363,28 +363,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do I need an adapter for the USB receiver?",
-    "a": "Newer MacBooks have USB-C ports only, so a USB-A dongle requires an adapter. Bluetooth avoids that."
+    "q": "Do these mice need a dongle on a MacBook?",
+    "a": "No, all six pair over Bluetooth, so a MacBook with only USB-C ports needs no adapter. The 2.4G receivers are optional extras for other computers. If you also use a desktop, check whether the mouse lists three devices so both stay paired."
   },
   {
-    "q": "Why do some side buttons not work on Mac?",
-    "a": "Some mice rely on drivers that exist only for Windows. The TECKNET listing warns of this."
+    "q": "Will the back and forward buttons work on macOS?",
+    "a": "Not always. The TECKNET Vertical Bluetooth listing warns that the side buttons may skip on Mac. Check the compatibility bullets for macOS, and read the Q and A. If side buttons matter to you, pick a mouse that explicitly names macOS support."
   },
   {
-    "q": "Is a vertical mouse worth it over a trackpad?",
-    "a": "A mouse offers more precision for long sessions. Vertical shapes may help forearm comfort. See a doctor or ergonomist if pain persists."
+    "q": "Is the ProtoArc EM11 NL worth it over a $20 pick?",
+    "a": "It adds a 58 degree angle and dual Bluetooth with 2.4G for under $10 more than the seenda and POJTK. The catch is a top DPI of 2400 and a fit for small to medium hands. If your hand is average, it is a fair step up."
   },
   {
-    "q": "How do I pair a Bluetooth mouse with a Mac?",
-    "a": "Open System Settings, choose Bluetooth and turn it on. Then press the pairing button on the underside of the mouse until its light flashes and pick it from the list. Models with several channels let you repeat the process on a second device."
+    "q": "Can I pair it with an iPad as well?",
+    "a": "Many of these mice pair over Bluetooth with iPadOS, but check each listing since support varies. The POJTK lists Bluetooth 5.3, and the seenda lists 3 devices, which would let you keep a MacBook and an iPad paired. Test the cursor in a store return window."
   },
   {
-    "q": "Can I connect three devices?",
-    "a": "Several picks pair two Bluetooth devices plus a dongle. Switch with the button on the underside."
+    "q": "How do I pair one of these with a Mac?",
+    "a": "Open System Settings, choose Bluetooth, then hold the mouse's pairing button until its light flashes. Pick it in the list. For models with three channels, press the channel button first so you pair into the right slot, and repeat for the second device."
   },
   {
-    "q": "How long does charging take?",
-    "a": "The listings here mention built-in batteries around 500mAh to 600mAh charged over USB-C, but most do not give a charge time in the highlights. Plan on an hour or two for a full charge. Check the product page, and charge it before a long day rather than during one."
+    "q": "Do ambient lights drain the battery?",
+    "a": "Yes, lighting uses power. The Uineer lists a 7-color ambient light but no battery life figure, so try it with the light off. If you work in an office, turning the light off also avoids distracting coworkers."
   }
 ];
 

@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Di-qugqSL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CB7J3WV3?tag=deskfinds0d-20",
-    "description": "BANGSON is a 3.2 cubic foot two door fridge with a separate freezer, measuring 19.68 by 17.9 by 34.01 inches. The listing gives a freezer range of minus 4 to 18 degrees Fahrenheit and a fridge range of 33.8 to 46.4, an average of 38 decibels, five settings and adjustable leveling legs.\n\nIt costs under $250, about $21 more than Electactic, and its freezer has the coldest listed floor of the freezer models. It is much taller than the single door models.\n\nChoose it for an apartment or office that needs a true freezer. The caveat is the height, and the listed 38 dB is an average that may include compressor starts.",
+    "description": "BANGSON is a 3.2 cubic foot two door fridge with a separate freezer, measuring 19.68 by 17.9 by 34.01 inches. The listing gives a freezer range of minus 4 to 18 degrees Fahrenheit and a fridge range of 33.8 to 46.4, an average of 38 decibels, five settings and adjustable leveling legs.\n\nIt costs under $250, under $25 more than Electactic, and its freezer has the coldest listed floor of the freezer models. It is much taller than the single door models.\n\nChoose it for an apartment or office that needs a true freezer. The caveat is the height, and the listed 38 dB is an average that may include compressor starts.",
     "specs": [
       "3.2 cu ft, separate freezer",
       "Freezer -4F to 18F",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31IMB4KPI5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DNDNT69T?tag=deskfinds0d-20",
-    "description": "Electactic is a 3.1 cubic foot fridge with a separate built in freezer compartment, two reversible doors, adjustable glass shelves and a fridge range of 32 to 50 degrees. The listing states a freezer range of minus 1 to 3 degrees.\n\nIt costs under $250, about $21 less than BANGSON, and its freezer is warmer, so it is fine for frozen meals and ice cream but not for long term storage. It has a lower top fridge temperature than the beverage coolers.\n\nGreat for a bedroom or small office where a freezer matters. The caveat is that the fridge range tops at 50 degrees, which is above the 40 degree food safe mark at the warmest settings.",
+    "description": "Electactic is a 3.1 cubic foot fridge with a separate built in freezer compartment, two reversible doors, adjustable glass shelves and a fridge range of 32 to 50 degrees. The listing states a freezer range of minus 1 to 3 degrees.\n\nIt costs under $250, under $25 less than BANGSON, and its freezer is warmer, so it is fine for frozen meals and ice cream but not for long term storage. It has a lower top fridge temperature than the beverage coolers.\n\nGreat for a bedroom or small office where a freezer matters. The caveat is that the fridge range tops at 50 degrees, which is above the 40 degree food safe mark at the warmest settings.",
     "specs": [
       "3.1 cu ft, two doors",
       "Fridge 32F to 50F",
@@ -218,56 +218,52 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Separate freezer versus a chiller",
-    "explanation": "A two door fridge with its own freezer door runs a separate cold section, while a chiller compartment or ice box shares the main cooling. The difference matters because only the first reliably keeps ice cream and frozen meals solid. Look for the freezer temperature range, such as minus 4 to 18 degrees, in the listing."
+    "criterion": "Separate freezer door versus freezer box",
+    "explanation": "A true two door fridge freezer has its own door and compressor path, so the freezer section can actually hold ice cream, as the BANGSON lists a freezer range of minus 4F to 18F and the Electactic lists minus 1F to 3F. A single door model only offers a small box. Check the freezer temperature range on the listing, not just the words fridge freezer."
   },
   {
-    "criterion": "Fridge temperature range",
-    "explanation": "Food stays safest at or below 40 degrees Fahrenheit, and many of these fridges have ranges up to 46 or 50 degrees. Set the dial colder if you store meat or dairy. Look at both the minimum and the maximum in the specs."
+    "criterion": "Kilowatt hours per year",
+    "explanation": "Larger bodies cost more to run, and the COWSAR 4.4 cubic foot lists about 253 kilowatt hours per year, which gives a firm way to compare against smaller units. A few dozen kilowatt hours per year is a real difference over a ten year life. Look for the yearly figure or the daily one in the specifications, and multiply it by your local rate."
   },
   {
-    "criterion": "Size and doorway clearance",
-    "explanation": "A 34 inch tall fridge fits under a counter or beside a desk, but measure the doorway and elevator before ordering. Leave a few inches behind and on the sides for ventilation. Check the listed dimensions in inches."
+    "criterion": "Beverage fridge shelf and glass",
+    "explanation": "Glass door beverage fridges such as the Velivi, ROVSUN and EUHOMY look good but lose cold through the glass, so double or Low-E glass matters. The ROVSUN lists Low-E glass and the EUHOMY double pane. Check the glass type and whether the door has a lock if the fridge is in a shared space."
   },
   {
-    "criterion": "Beverage cooler versus fridge",
-    "explanation": "Beverage fridges have glass doors and ranges that run to 61 or 64 degrees, which is fine for soda and beer but not for fresh food. They also show off contents. Check the label and the upper temperature."
+    "criterion": "Chiller compartment and temperature floor",
+    "explanation": "The Frigidaire EFR323 includes a chiller compartment that runs colder than the main shelf, useful for meat or deli items for a day or two. Without it, the main section may sit near 38 to 40F. Look for a chiller or crisper and the lowest listed temperature, rather than relying on a cubic foot figure."
   },
   {
-    "criterion": "Lock and shared use",
-    "explanation": "A lock on a beverage fridge keeps drinks secure in a shared office. Few models offer it. Check the bullets for a lock and key."
-  },
-  {
-    "criterion": "Energy use and noise",
-    "explanation": "A listed kWh per year, like 253 for the COWSAR, helps you compare running costs. Decibels near 38 are typical for compressor fridges. Look for both numbers."
+    "criterion": "Delivery size and door path",
+    "explanation": "A 3 to 4.5 cubic foot fridge is bigger than most people expect, and it may be a tight squeeze through a dorm door or narrow stairwell. Measure the doorway and the spot, then add clearance for the door swing. Check the carton and product dimensions listed in inches."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Freezer quality",
-    "description": "We compared listed freezer temperatures and whether the freezer is separate."
+    "title": "Freezer performance",
+    "description": "At up to $300, the key divider is whether a freezer is a real compartment or a token box. We checked listed ranges, such as minus 4F to 18F on the BANGSON and minus 1F to 3F on the Electactic, to see which can hold frozen food, and gave less credit to wide ranges that reach only to 18F."
   },
   {
-    "title": "Temperature range",
-    "description": "We checked the lowest and highest settings in each listing."
+    "title": "Capacity per dollar",
+    "description": "We compared cubic feet, can counts and interior layout across picks from 3.1 to 4.5 cubic feet. The 145 can EUHOMY and 126 can Velivi lead on drinks, while the COWSAR 4.4 cubic foot holds the most food, so capacity was weighed against what each actually stores."
   },
   {
-    "title": "Capacity and size",
-    "description": "We compared cubic feet, cans and dimensions."
+    "title": "Efficiency and noise",
+    "description": "We noted listed kilowatt hours, such as 253 kWh per year on the COWSAR, and decibel numbers such as 38 dB on the BANGSON. Bigger fridges run harder, so a published figure counted in a pick's favor and a missing one counted against it."
   },
   {
-    "title": "Price",
-    "description": "Every pick is under $300 when gathered."
+    "title": "Build and access",
+    "description": "We looked at flush back designs, leveling legs, lockable doors and door glass type. A stainless finish, a lock or Low-E glass changes how a fridge lives in a shared room, so we credited those details when they were on the listing."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Freezer Need",
-    "intro": "Decide first how much freezer you need.",
+    "subheading": "By Primary Use",
+    "intro": "At this price you can choose a real fridge freezer, a big fridge, or a drink display.",
     "table": {
       "headers": [
         "Your situation",
@@ -275,30 +271,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Real freezer for frozen meals",
-          "BANGSON 3.2 Cu Ft Two Door Fridge Freezer"
+          "A bedroom or studio where the fridge replaces a kitchen unit",
+          "BANGSON 3.2 Cu Ft Two Door Fridge Freezer, with a separate freezer section"
         ],
         [
-          "Cheaper separate freezer",
-          "Electactic 3.1 Cu Ft Fridge with Freezer"
+          "Same use but with a slightly lower freezer range and a roomy fridge side",
+          "Electactic 3.1 Cu Ft Fridge with Freezer, with 32F to 50F fresh and a colder freezer"
         ],
         [
-          "Chiller only, stainless look",
-          "Frigidaire EFR323 3.2 Cu Ft Compact Fridge"
+          "Maximum fresh food space and no freezer needed",
+          "COWSAR 4.4 Cu Ft Fridge without Freezer at 4.4 cubic feet"
         ],
         [
-          "No freezer, maximum fridge",
-          "COWSAR 4.4 Cu Ft Fridge without Freezer"
+          "Cold drinks for guests with a lockable glass door",
+          "Velivi 3.2 Cu Ft Lockable Beverage Fridge"
         ],
         [
-          "Drinks only",
-          "ROVSUN 3.3 Cu Ft Glass Door Beverage Fridge"
+          "A large drink display for an office or game room",
+          "EUHOMY 4.5 Cu Ft 145 Can Beverage Fridge"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "From the low $170s to just under $300, the extra money buys size or a second door.",
     "table": {
       "headers": [
         "Price range",
@@ -306,52 +303,46 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "$175 to $180",
-          "ROVSUN 3.3 Cu Ft Glass Door Beverage Fridge"
+          "Around $175 to $185, the entry tier",
+          "ROVSUN 3.3 Cu Ft Glass Door Beverage Fridge or Frigidaire EFR323 Compact Fridge"
         ],
         [
-          "$180 to $185",
-          "Frigidaire EFR323 3.2 Cu Ft Compact Fridge"
+          "Around $210 to $230",
+          "Electactic 3.1 Cu Ft Fridge with Freezer, or BANGSON 3.2 Cu Ft Two Door Fridge Freezer at the top of the range"
         ],
         [
-          "$209 to $210",
-          "Electactic 3.1 Cu Ft Fridge with Freezer"
-        ],
-        [
-          "$229 to $230",
-          "BANGSON 3.2 Cu Ft Two Door Fridge Freezer"
-        ],
-        [
-          "$239 to $240",
+          "Around $240",
           "Velivi 3.2 Cu Ft Lockable Beverage Fridge"
         ],
         [
-          "$266 to $267",
-          "COWSAR 4.4 Cu Ft Fridge without Freezer"
+          "Around $265",
+          "COWSAR 4.4 Cu Ft Fridge without Freezer for the biggest fresh interior"
         ],
         [
-          "$299 to $300",
-          "EUHOMY 4.5 Cu Ft 145 Can Beverage Fridge"
+          "Just under $300",
+          "EUHOMY 4.5 Cu Ft 145 Can Beverage Fridge for the largest capacity"
         ]
       ]
     }
   },
   {
-    "subheading": "Food Fridge vs Beverage Cooler",
+    "subheading": "Two Doors vs One Door",
+    "intro": "Two door fridge freezers separate the cold zones but cost more space.",
     "cards": [
       {
-        "label": "Food fridge",
-        "text": "Colder floor temperatures and sometimes a freezer. That is BANGSON 3.2 Cu Ft Two Door Fridge Freezer, Electactic 3.1 Cu Ft Fridge with Freezer, Frigidaire EFR323 3.2 Cu Ft Compact Fridge and COWSAR 4.4 Cu Ft Fridge without Freezer."
+        "label": "Two doors",
+        "text": "The BANGSON 3.2 Cu Ft and Electactic 3.1 Cu Ft give the freezer its own door, which keeps cold air from escaping when you open the fridge side and lets the freezer reach lower temperatures."
       },
       {
-        "label": "Beverage cooler",
-        "text": "Glass door, drinks only, up to 61 to 64 degrees. That is Velivi 3.2 Cu Ft Lockable Beverage Fridge, ROVSUN 3.3 Cu Ft Glass Door Beverage Fridge and EUHOMY 4.5 Cu Ft 145 Can Beverage Fridge."
+        "label": "One door",
+        "text": "The Frigidaire EFR323 and COWSAR 4.4 Cu Ft use one door and a single air space, which is simpler and gives more fresh volume, but any freezer area is limited to a small box or none."
       }
     ],
-    "note": "Most households should buy a food fridge unless the unit is solely for a bar."
+    "note": "If you will freeze meals, buy a two door unit. If you mostly keep fresh food and drinks, a one door model is simpler."
   },
   {
-    "subheading": "Shared Space Needs",
+    "subheading": "By Space and Setup",
+    "intro": "These fridges are big enough that room layout matters.",
     "table": {
       "headers": [
         "Your concern",
@@ -359,47 +350,49 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Lock for an office",
+          "A narrow gap where the fridge sits close to a wall",
+          "Frigidaire EFR323 Compact Fridge, which has a flush back design"
+        ],
+        [
+          "Uneven dorm floors or tile",
+          "BANGSON 3.2 Cu Ft Two Door Fridge Freezer, which lists leveling legs"
+        ],
+        [
+          "A shared office where drinks might walk away",
           "Velivi 3.2 Cu Ft Lockable Beverage Fridge"
         ],
         [
-          "Lots of cans for parties",
-          "EUHOMY 4.5 Cu Ft 145 Can Beverage Fridge"
-        ],
-        [
-          "Quiet bedroom, true freezer",
-          "BANGSON 3.2 Cu Ft Two Door Fridge Freezer"
-        ],
-        [
-          "Energy conscious",
-          "COWSAR 4.4 Cu Ft Fridge without Freezer"
+          "Warm sunlit room with a glass door fridge",
+          "ROVSUN 3.3 Cu Ft Glass Door Beverage Fridge with Low-E glass"
         ]
       ]
     }
   },
   {
-    "subheading": "For Apartments Specifically",
+    "subheading": "For a Home Office or Studio Specifically",
+    "intro": "A studio fridge works hard because it is the main fridge.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A fridge with a separate freezer that fits under a counter."
+        "text": "A fridge with a freezer door, a listed yearly energy figure and a temperature range down to at least 32F on the fresh side."
       },
       {
         "label": "In this comparison",
-        "text": "BANGSON 3.2 Cu Ft Two Door Fridge Freezer and Electactic 3.1 Cu Ft Fridge with Freezer both have separate freezer doors."
+        "text": "Electactic 3.1 Cu Ft lists 32F to 50F on the fridge side and minus 1F to 3F on the freezer, and BANGSON 3.2 Cu Ft adds 38 dB noise and leveling legs, so both suit a studio."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "Above $300 you reach full size apartment fridges, so decide if you need that.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You need a true freezer. BANGSON 3.2 Cu Ft Two Door Fridge Freezer has the lowest freezer range listed."
+        "text": "You need more than 4.5 cubic feet or full width shelving. At that point a counter-depth apartment fridge beats EUHOMY 4.5 Cu Ft on capacity and efficiency."
       },
       {
         "label": "Save if",
-        "text": "You only need drink storage. ROVSUN 3.3 Cu Ft Glass Door Beverage Fridge at under $180 is the cheapest cooler."
+        "text": "You only want a bigger drinks cooler. The under $150 guide covers Erivess 1.7 Cu Ft and similar models for far less."
       }
     ]
   }
@@ -408,28 +401,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Will a mini fridge freezer hold ice cream?",
-    "a": "Only a separate freezer door usually does. The Electactic lists a freezer at -1F to 3F and the BANGSON at -4F to 18F, so the Electactic is the better fit for ice cream. Single compartment freezer boxes will not hold it."
+    "q": "Is a two door mini fridge better than a one door with a freezer box?",
+    "a": "For frozen food, yes. The BANGSON freezer lists minus 4F to 18F and the Electactic lists minus 1F to 3F, which is real freezer territory. A one door model like the Frigidaire has a chiller but not a true freezer, so choose by what you freeze."
   },
   {
-    "q": "Can I put food in a beverage fridge?",
-    "a": "Not safely. Ranges up to 61 or 64 degrees on the EUHOMY and Velivi are meant for drinks. Keep milk and meat in a true fridge like the Frigidaire EFR323."
+    "q": "How big a fridge fits through a standard doorway?",
+    "a": "A 3.2 to 4.5 cubic foot fridge is typically around 20 to 24 inches wide and 30 to 34 inches tall, so most doors work, but measure yours. The EUHOMY 4.5 cubic foot is the largest here, so check stairwells and corridors before ordering."
   },
   {
-    "q": "How do I know it will fit?",
-    "a": "Measure the space and add a few inches for ventilation. The Frigidaire EFR323 has a flush back to save depth, and the BANGSON has leveling legs for uneven floors."
+    "q": "Do glass door fridges stay cold enough?",
+    "a": "They keep drinks cold, but glass loses cold faster than a solid door. The ROVSUN lists Low-E double layer glass and the EUHOMY lists double pane, both of which help. Their ranges start at 32F, so they suit drinks, and food needs the solid-door Frigidaire or COWSAR."
   },
   {
-    "q": "Is a 4.4 cu ft fridge allowed in a dorm?",
-    "a": "Often not. Many schools cap size, so check before buying the COWSAR 4.4 or EUHOMY 4.5. The 3.2 cu ft models from BANGSON and Frigidaire are safer."
+    "q": "Is the COWSAR 4.4 cubic foot worth it over a 3.2 cubic foot fridge?",
+    "a": "If you cook and shop for fresh food, yes. It lists 253 kWh per year and gives about a third more fresh volume than a 3.2 cubic foot fridge with a freezer box. If you need frozen food, the BANGSON two door unit is the better choice."
   },
   {
-    "q": "Do beverage fridges need defrosting?",
-    "a": "Frost free models like the Velivi do not, while others do. Check the listing before you buy, and leave airflow behind a compressor model."
+    "q": "How long should I wait before loading a new fridge?",
+    "a": "Let it stand upright for several hours after transport, then run it empty for a few hours to settle. Moving a fridge on its side can shift compressor oil, so check the manual for the rest time. Set the dial to a middle setting at first."
   },
   {
-    "q": "How much does a mini fridge cost to run?",
-    "a": "The COWSAR lists 253 kWh per year, and rates vary by your electricity price. Multiply the kWh by your local price per kWh for a rough annual figure."
+    "q": "How do I keep a compact fridge efficient?",
+    "a": "Keep the door seal clean, avoid placing it beside a heater or in direct sun, and leave airflow at the back. Defrost manual models when frost reaches about a quarter inch. Using leveling legs on the BANGSON helps the door seal sit square."
   }
 ];
 

@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Controller Chip Generation", "description": "Compared JHL6340 versus officially certified JHL7440 and USB4 V2 controller chips." },
-  { "title": "PCIe Bandwidth", "description": "Compared stated Gbps throughput figures across all four docks." },
-  { "title": "Power Input Flexibility", "description": "Compared the number and type of power input options for the enclosure." },
-  { "title": "GPU Compatibility Range", "description": "Compared stated compatible NVIDIA and AMD graphics card generations." },
-  { "title": "Additional Features", "description": "Compared daisy chain hub functionality and built-in NVMe storage options." }
+  {
+    "title": "Controller chip and real bandwidth",
+    "description": "The JHL6340 chip on the PCIE 3.0 x16 dock gives about 22Gbps, while GOLDSOUN and GODLIY list an officially certified JHL7440 for 40Gbps. MINISFORUM DEG2 lists up to 80Gbps over Thunderbolt 5 or 64Gbps over OCuLink. We treated bandwidth as the biggest performance limiter. A card on a 22Gbps link cannot reach its desktop performance, however powerful it is."
+  },
+  {
+    "title": "Power input options",
+    "description": "The PCIE 3.0 dock lists 4 power inputs (CPU, Molex, PD 3.0, DC5521) and MINISFORUM supports universal ATX or SFX supplies. We checked which docks need a separate supply, since none of the four sells the graphics card or ATX supply. The graphics card and ATX supply are separate purchases on all four listings."
+  },
+  {
+    "title": "GPU compatibility",
+    "description": "The PCIE 3.0 dock lists NVIDIA GTX 450 through RTX 5090 plus AMD, and a handheld such as Lenovo Legion Go. We compared that with JHL7440 picks, which also work with discrete cards but state fewer card families. Stated card families beat a vague works with most GPUs line."
+  },
+  {
+    "title": "Laptop charging and hub function",
+    "description": "GOLDSOUN and GODLIY list 85W PD charging on a Thunderbolt 4 port with a daisy-chain port that doubles as a hub, and GODLIY adds 2 Thunderbolt 4 or 3 USB4 ports. We checked whether the dock can replace a laptop charger. A dock that charges the laptop cuts one power brick from the desk."
+  },
+  {
+    "title": "Setup risk",
+    "description": "GOLDSOUN and GODLIY warn not to insert the CPU cable into the wrong port, and MINISFORUM has a hardware mode switch that adds complexity. We weighed setup traps against price. A wrong cable in a power port can damage the card, so the instructions matter."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,129 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The lowest price with wide GPU support", "PCIE 3.0 x16 22Gbps eGPU Dock"],
-        ["A certified controller validated for AI workloads", "GOLDSOUN External eGPU Dock"],
-        ["The highest bandwidth with built-in NVMe storage", "MINISFORUM DEG2 USB4 V2 eGPU Dock"],
-        ["A certified controller as an alternative brand", "GODLIY External eGPU Dock"]
+    "subheading": "By Primary Need",
+    "intro": "Pick on bandwidth and the job.",
+    "table": {
+      "headers": [
+        "If you want",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Widest GPU compatibility at the lowest price",
+          "PCIE 3.0 x16 22Gbps eGPU Dock, with 4 power inputs."
+        ],
+        [
+          "Certified 40Gbps and 85W laptop charging",
+          "GOLDSOUN External eGPU Dock."
+        ],
+        [
+          "Two Thunderbolt ports and a hub",
+          "GODLIY External eGPU Dock, with 2 Thunderbolt 4 or 3 USB4 ports."
+        ],
+        [
+          "Highest bandwidth with NVMe storage",
+          "MINISFORUM DEG2 USB4 V2 eGPU Dock, up to 80Gbps."
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $100", "PCIE 3.0 x16 22Gbps eGPU Dock (under $100)"],
-        ["Under $150", "GOLDSOUN External eGPU Dock (under $150)"],
-        ["Under $160", "GODLIY External eGPU Dock (under $160)"],
-        ["Under $250", "MINISFORUM DEG2 USB4 V2 (under $250)"]
+    "subheading": "By Budget",
+    "intro": "The spread goes from entry to flagship.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $100, cheapest",
+          "PCIE 3.0 x16 22Gbps eGPU Dock."
+        ],
+        [
+          "Under $150, certified 40Gbps",
+          "GOLDSOUN External eGPU Dock."
+        ],
+        [
+          "Under $160, two ports",
+          "GODLIY External eGPU Dock."
+        ],
+        [
+          "Under $250, 80Gbps",
+          "MINISFORUM DEG2 USB4 V2."
+        ]
+      ]
+    }
   },
   {
-    subheading: "JHL6340 vs JHL7440 Controller Chips",
-    cards: [
-      { label: "JHL6340 (PCIE 3.0 x16 pick)", text: "Delivers a stated 22Gbps, a lower but still capable bandwidth ceiling suited to most gaming and creative workloads at a lower price." },
-      { label: "Officially certified JHL7440 (GOLDSOUN, GODLIY)", text: "A more rigorously validated controller chip delivering 40Gbps, specifically recommended for AI training and demanding rendering workloads." }
+    "subheading": "JHL6340 vs JHL7440 Controller",
+    "intro": "The chip sets the bandwidth ceiling.",
+    "cards": [
+      {
+        "label": "JHL6340",
+        "text": "Around 22Gbps, and a PCIE 3.0 x16 dock on this chip is the cheapest. It lists broad GPU compatibility, but a modern card is bandwidth-limited."
+      },
+      {
+        "label": "JHL7440",
+        "text": "The certified chip used by GOLDSOUN and GODLIY gives 40Gbps and 85W charging, a clear step up for gaming."
+      }
     ],
-    note: "If your workload is mainstream gaming or general creative work, the JHL6340-based pick's lower price is a reasonable tradeoff. If you're doing AI training or heavy rendering, the certified JHL7440 controller's validation matters more.",
+    "note": "Choose a JHL7440 dock such as GOLDSOUN unless the lowest cost matters more than frame rate."
   },
   {
-    subheading: "By Power Input Flexibility Needed",
-    table: {
-      headers: ["Your power setup", "Recommended pick"],
-      rows: [
-        ["Need flexible power options (CPU, Molex, PD, DC)", "PCIE 3.0 x16 22Gbps eGPU Dock"],
-        ["Already have a standard ATX or SFX PSU", "MINISFORUM DEG2 USB4 V2"]
+    "subheading": "By Power Input Flexibility",
+    "intro": "Power connectors differ more than the box suggests.",
+    "table": {
+      "headers": [
+        "Need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Four input options including Molex and PD 3.0",
+          "PCIE 3.0 x16 22Gbps eGPU Dock."
+        ],
+        [
+          "Standard ATX or SFX supply",
+          "MINISFORUM DEG2 USB4 V2."
+        ],
+        [
+          "ATX supply with a laptop PD pass-through",
+          "GOLDSOUN or GODLIY."
+        ],
+        [
+          "Avoid wrong-port wiring errors",
+          "MINISFORUM DEG2, which has labelled mode switching."
+        ]
+      ]
+    }
   },
   {
-    subheading: "For AI Training and Local LLM Inference Specifically",
-    cards: [
-      { label: "Look for", text: "A dock specifically validated for AI workloads with a built-in re-drive signal booster to stabilize high-bandwidth PCIe transfer during sustained inference tasks." },
-      { label: "In this comparison", text: "The GOLDSOUN pick specifically states support for local Deepseek-R1 deployment, and the MINISFORUM pick specifically includes a re-drive signal booster for LLM inference stability." }
-    ],
+    "subheading": "For AI Training and Local LLM Inference Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The highest host bandwidth and an NVMe slot, so model weights load quickly and the GPU is not starved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "MINISFORUM DEG2 lists up to 80Gbps over Thunderbolt 5 or 64Gbps over OCuLink with an integrated M.2 NVMe slot."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the highest bandwidth with built-in NVMe storage for AI and rendering work, where the MINISFORUM DEG2 justifies its under $250 price." },
-      { label: "Save if", text: "You want broad GPU compatibility at the lowest price, where the PCIE 3.0 x16 pick delivers that for under $100." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want the highest bandwidth with NVMe storage. MINISFORUM DEG2 sits in the under-$250 tier."
+      },
+      {
+        "label": "Save if",
+        "text": "Broad GPU compatibility is enough. The PCIE 3.0 x16 dock stays under $100."
+      }
+    ]
   }
 ];
 
@@ -182,12 +266,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Do I need to buy a graphics card and power supply separately for any of these eGPU docks?", "a": "Yes, all four picks in this comparison specifically state the graphics card and, in most cases, the ATX or SFX power supply are not included, so budget for these as separate purchases when planning your total eGPU setup cost." },
-  { "q": "What's the most common mistake buyers make when setting up an eGPU dock for the first time?", "a": "Inserting the CPU power cable into the wrong port, specifically the PCIE-8PIN port on the GOLDSOUN and GODLIY docks, which the manufacturer explicitly warns against and which triggers an automatic power-off protection requiring a cable reset to recover from." },
-  { "q": "Is the MINISFORUM DEG2's higher price worth it over the JHL7440-based picks for gaming?", "a": "For mainstream gaming, the JHL7440-based GOLDSOUN or GODLIY picks deliver strong performance at a meaningfully lower price, but if you're doing AI training, LLM inference, or 8K rendering where the extra bandwidth and built-in NVMe storage matter, the MINISFORUM DEG2's higher price is justified." },
-  { "q": "How do I know if my laptop's USB4 or Thunderbolt port supports eGPU functionality?", "a": "Checking your specific laptop or device's documentation for confirmed Thunderbolt 3/4 or USB4 eGPU support is worth doing, and some devices with USB4 may require a BIOS update to enable full eGPU functionality, as specifically noted for certain console-class devices." },
-  { "q": "Can I use these eGPU docks with a Lenovo Legion Go or other gaming handheld?", "a": "The PCIE 3.0 x16 pick specifically states compatibility with the Lenovo Legion Go, and other picks in this comparison generally support USB4/Thunderbolt-equipped devices including gaming handhelds, though checking each specific handheld model's own USB4 implementation is worth doing before purchase." },
-  { "q": "Does using an eGPU dock void my laptop's warranty?", "a": "Connecting an external eGPU dock through a standard USB4 or Thunderbolt port generally does not void a laptop's warranty since no internal modification is required, though checking your specific laptop manufacturer's warranty terms is worth doing if you have concerns." }
+  {
+    "q": "Do I need to buy a graphics card and power supply separately?",
+    "a": "Yes. All four docks are empty shells, and the listings state the graphics card and, in most cases, the ATX power supply are not included. Budget for both on top of the dock, and check the supply's connectors against your card."
+  },
+  {
+    "q": "What is the setup mistake that damages an eGPU dock?",
+    "a": "Plugging the CPU power cable into the wrong port, specifically a PCIE 8-pin port, on the GOLDSOUN and GODLIY docks. The listing warns against it, so read the port labels twice before powering on."
+  },
+  {
+    "q": "Is MINISFORUM DEG2 worth over the JHL7440-based picks for gaming?",
+    "a": "For mainstream gaming, no. GOLDSOUN and GODLIY at 40Gbps get strong performance for much less, while DEG2 adds 80Gbps over Thunderbolt 5, OCuLink up to 64Gbps and an NVMe slot, which pays off mainly for AI and rendering."
+  },
+  {
+    "q": "How do I check that my laptop supports eGPU?",
+    "a": "Look for Thunderbolt 3, 4 or confirmed USB4 eGPU support in the laptop's documentation. USB4 does not require PCIe tunneling, so some USB4 ports will not run an eGPU at all even though they accept the cable."
+  },
+  {
+    "q": "Can I use these docks with a handheld such as the Lenovo Legion Go?",
+    "a": "The PCIE 3.0 x16 dock lists Lenovo Legion Go compatibility. Other docks may work too, but only that listing names the handheld, and the 22Gbps link limits performance compared with a 40Gbps dock."
+  },
+  {
+    "q": "Does an eGPU dock void a laptop warranty?",
+    "a": "Connecting a standard USB4 or Thunderbolt device does not normally void it, but a manufacturer can refuse support if a third-party device damages the port. Read your laptop's terms and use only certified power supplies."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

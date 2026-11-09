@@ -104,39 +104,65 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Required explicit white confirmation in the product listing", description: "We prioritized products with \"white\" directly stated in the title, rather than assuming any popular converter comes in this finish." },
-  { title: "Flagged where a same-model listing's confirmed color needs live verification", description: "For one pick, our data confirmed black rather than white for a specific ASIN sharing a base model with a confirmed white variant; we disclosed this rather than guessing." },
-  { title: "Compared price between color variants of the same base model where possible", description: "We noted where a white variant's price differs from its black counterpart at the same platform size." },
-  { title: "Covered a range of sizes within the confirmed white product pool", description: "We included compact, standard, corner, and large white options rather than only the most common size." }
+  {
+    "title": "Color confirmation on the listing",
+    "description": "Only VIVO White 42, VIVO White 48 and the two Aconcept models are confirmed white. VIVO Black 48 (DESK-V048V) is confirmed black in our research and may offer white on the current page. We scored color certainty before anything else. A listing that names white in the title earned more trust than one that names it only in a photo."
+  },
+  {
+    "title": "Platform size against the work",
+    "description": "VIVO White 42 and 48 give two-monitor width, Aconcept Extra-Slim is 24 by 14 inches, and Aconcept Corner is 32 inches. We matched each to a setup, from a lone laptop to a dual-monitor desk. Width decides whether a second monitor fits at all. Aconcept Extra-Slim is the only one that suits a laptop alone."
+  },
+  {
+    "title": "Corner vs straight desk",
+    "description": "The Aconcept 32 inch White Corner is the only corner design here. We checked that it needs an L-shaped corner, and that a straight desk is better served by VIVO White 42 or 48. A corner model also has a different base shape from a rectangular one."
+  },
+  {
+    "title": "Match to a white desk and a white room",
+    "description": "A white converter on a dark desk looks like an add-on, while on a white desk it blends in. We compared finish listings, and noted that listings which say white without a material description may have a thin laminate. Shade differences show most under warm lighting."
+  },
+  {
+    "title": "Price against size",
+    "description": "Aconcept Extra-Slim is the lowest-priced pick at a small size, VIVO White 42 is mid-priced, and VIVO White 48 costs more. We judged what each step buys. A small, cheap converter is useful only if you really use one screen."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Platform Size",
+    "intro": "Only five picks, from 24 to 48 inches.",
     "table": {
       "headers": [
-        "Your monitor setup",
-        "Recommended pick in this comparison"
+        "Your setup",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Single monitor or laptop, small desk",
-          "Aconcept Extra-Slim 24 x 14 inch White Lift Standing Desk Converter"
+          "A laptop or small monitor",
+          "Aconcept Extra-Slim 24 x 14 inch White Lift Standing Desk Converter."
         ],
         [
-          "Dual monitors",
-          "VIVO White 42 in Standing Desk Converter"
+          "White desk corner",
+          "Aconcept 32 inch White Corner Height Adjustable Standing Desk Converter."
         ],
         [
-          "Triple monitors, need maximum surface area",
-          "VIVO White 42 in Standing Desk Converter"
+          "Monitor plus laptop on a straight desk",
+          "VIVO White 42 in Standing Desk Converter, DESK-V042KW."
+        ],
+        [
+          "Two monitors, confirmed white",
+          "VIVO White 48 in Standing Desk Converter, DESK-V048VW."
+        ],
+        [
+          "Two monitors, color to verify",
+          "VIVO Black 48 in Standing Desk Converter, DESK-V048V."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "White options are priced from small to large.",
     "table": {
       "headers": [
         "Price range",
@@ -144,63 +170,77 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $50",
-          "Aconcept Extra-Slim 24 x 14 inch White Lift Standing Desk Converter"
+          "Under $50, lowest",
+          "Aconcept Extra-Slim 24 x 14 inch White."
         ],
         [
-          "Mid-range",
-          "VIVO White 42 in Standing Desk Converter"
+          "Under $100, corner",
+          "Aconcept 32 inch White Corner."
         ],
         [
-          "No firm budget ceiling, prioritizing lift quality or brand",
-          "VIVO White 48 in Standing Desk Converter"
+          "Under $180, 42 inch",
+          "VIVO White 42 in, DESK-V042KW."
+        ],
+        [
+          "Under $290, 48 inch",
+          "VIVO White 48 in, DESK-V048VW."
         ]
       ]
     }
   },
   {
-    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "subheading": "Corner Desk vs Straight Desk",
+    "intro": "The corner model is the one case where desk shape rules out the rest.",
     "cards": [
       {
-        "label": "Manual (Gas-Spring)",
-        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO White 42 in Standing Desk Converter, VIVO White 48 in Standing Desk Converter, VIVO Black 48 in Standing Desk Converter."
+        "label": "Corner desk",
+        "text": "Aconcept 32 inch White Corner is made for an L-shaped corner, and needs that return depth."
       },
       {
-        "label": "Electric (Motorized)",
-        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: none in this specific roundup, since most picks here use a manual lift."
+        "label": "Straight desk",
+        "text": "VIVO White 42 and 48 are rectangular models for a straight desk, and Aconcept Extra-Slim suits a small one."
       }
     ],
-    "note": "Every pick in this specific comparison uses a manual lift; check our broader converter roundup if you specifically want an electric option."
+    "note": "Pick the corner model only if your desk is L-shaped."
   },
   {
-    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "subheading": "By Color Certainty",
+    "intro": "White varies, so confirmation matters.",
     "table": {
       "headers": [
-        "What you're weighing",
+        "Need",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Highest star rating",
-          "VIVO White 42 in Standing Desk Converter"
+          "Color confirmed in the listing",
+          "VIVO White 42 or 48, or either Aconcept model."
         ],
         [
-          "Largest review base (more statistical confidence)",
-          "VIVO White 42 in Standing Desk Converter"
+          "White 48 inch with the same base model",
+          "VIVO White 48 in, DESK-V048VW."
+        ],
+        [
+          "A 48 inch that may have white on the current page",
+          "VIVO Black 48 in, DESK-V048V, verify first."
+        ],
+        [
+          "Smallest white",
+          "Aconcept Extra-Slim."
         ]
       ]
     }
   },
   {
-    "subheading": "For a Dual-Monitor Setup Specifically",
+    "subheading": "For a White Desk Setup Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+        "text": "A confirmed white finish, a material description and photos in daylight, so the shade matches your desk."
       },
       {
         "label": "In this comparison",
-        "text": "VIVO White 42 in Standing Desk Converter fits this specifically: Explicitly confirmed white."
+        "text": "VIVO White 42 and 48 and both Aconcept models are explicitly confirmed white in the listing, while VIVO Black 48 needs color verification."
       }
     ]
   },
@@ -209,11 +249,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what VIVO White 48 in Standing Desk Converter offers: Largest confirmed white platform in this comparison. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "You need two-monitor width in white. VIVO White 48 sits under $290, above the under-$180 VIVO White 42."
       },
       {
         "label": "Save if",
-        "text": "Aconcept Extra-Slim 24 x 14 inch White Lift Standing Desk Converter already covers the essentials: Explicitly confirmed white. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+        "text": "A laptop is all you use. Aconcept Extra-Slim stays under $50."
       }
     ]
   }
@@ -221,33 +261,52 @@ export const howToChoose: HowToChooseSection[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Measure your existing desk's height before ordering",
-    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all.\n\nThis matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand.\n\nBefore ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+    "criterion": "Mind the lowest height on a white converter",
+    "explanation": "White VIVO and Aconcept converters all sit above the desk even when lowered, and the extra height can push a keyboard above elbow level. Find the stated minimum height, add your desk height, and check the total against your seated elbow. Light finishes show wear and dust faster, so you will also notice a platform that sits crooked or high."
   },
   {
-    "criterion": "Match platform size to your actual number of monitors",
-    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up.\n\nA platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge.\n\nCheck the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+    "criterion": "Match 24, 32, 42 or 48 inches to your gear",
+    "explanation": "Aconcept Extra-Slim is 24 by 14 inches for a laptop, the Aconcept Corner is 32 inches, and VIVO White comes in 42 and 48 inches. Add up your screens and keyboard to find the narrowest width that avoids overhang. Aconcept Extra-Slim at 24 by 14 inches leaves little room for a separate mouse and keyboard on top."
   },
   {
-    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
-    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price.\n\nIf you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying.\n\nCheck the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+    "criterion": "Expect manual lift in a white finish",
+    "explanation": "The white models here are manual lift. If you want a motor, VIVO's electric converters are not confirmed white in this guide, so a motor and a white finish cost you one or the other. Manual lift also means no cable to hide, which keeps a white setup visually clean."
   },
   {
-    "criterion": "Check your desk's depth against the converter's base footprint",
-    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base.\n\nThis matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view.\n\nCheck the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+    "criterion": "Check that a white finish is confirmed, not assumed",
+    "explanation": "VIVO Black 48 (DESK-V048V) is confirmed black and may have a white variant on the current page. Open the listing and read the color name in the title and swatches before you buy. Color names such as ivory, cream or light gray can differ from pure white, so compare against your desk."
   },
   {
-    "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "criterion": "Look at the surface material, not just the color",
+    "explanation": "A white finish can be paint on MDF or a laminate wrap, and cheaper ones chip at the edges. Check the listing for the material and the edge treatment, and keep sunlight off it to prevent yellowing. White edges chip visibly, so a rounded or wrapped edge is a quality sign worth looking for in photos."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which white converter has the most reviews?", a: "The VIVO White 42 in Standing Desk Converter, sharing VIVO's large K Series review pool of 15,583." },
-  { q: "What's the cheapest confirmed white converter?", a: "The Aconcept Extra-Slim White Lift Standing Desk Converter at under $50." },
-  { q: "Is there a white corner desk converter?", a: "Yes, the Aconcept 32 inch White Corner Height Adjustable Standing Desk Converter." },
-  { q: "What's the largest confirmed white platform?", a: "The VIVO White 48 in Standing Desk Converter, at 48 inches." },
-  { q: "What if white isn't available when I check?", a: "Color inventory shifts over time; check the current listing or consider our general standing desk converter guide for proven alternatives in other colors." }
+  {
+    "q": "Which white standing desk converter is best for two monitors?",
+    "a": "VIVO White 42 or VIVO White 48. Both are confirmed white and wide enough for two screens and a keyboard, and the 48 inch costs more. Aconcept Extra-Slim at 24 by 14 inches fits only a laptop or small monitor."
+  },
+  {
+    "q": "Is VIVO Black 48 available in white?",
+    "a": "The listing is confirmed black in our research, and may offer white on the current product page. Verify the color options before ordering, or choose VIVO White 48 (DESK-V048VW), which is confirmed white."
+  },
+  {
+    "q": "Does the Aconcept corner converter fit a straight desk?",
+    "a": "No. Aconcept 32 inch White Corner is made for an L-shaped desk corner and needs the return depth of that corner. On a straight desk, choose the VIVO White 42 inch model instead."
+  },
+  {
+    "q": "Will a white converter match a white desk exactly?",
+    "a": "Not necessarily. Whites vary from warm to cool, and a laminate finish can read differently from a painted desk. Check listing photos in daylight and compare against the desk, since a shade mismatch looks worse than a contrasting color."
+  },
+  {
+    "q": "Is Aconcept Extra-Slim big enough for a laptop and a mouse?",
+    "a": "Only barely. At 24 by 14 inches it fits a single laptop or a small monitor, with little room for a separate keyboard and mouse on the same surface. For a laptop plus an external monitor, step up to the VIVO White 42 inch model."
+  },
+  {
+    "q": "Is white laminate harder to keep clean?",
+    "a": "It shows marks, such as pen lines and fingerprints, more than darker finishes do. Wipe it with a damp cloth, avoid harsh solvents that can dull a laminate, and keep it out of direct sunlight, which can yellow white surfaces over time. A matte finish hides marks better than a gloss one."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

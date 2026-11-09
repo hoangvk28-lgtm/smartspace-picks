@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Incline Flexibility", "description": "Compared fixed incline systems against multi-level manual incline options across the lineup." },
-  { "title": "Motor Power and Weight Capacity", "description": "Compared stated HP and weight capacity ranging from 265 to 350 lbs." },
-  { "title": "Belt Cushioning", "description": "Compared belt layer count and shock absorber components across all four picks." },
-  { "title": "App and Smart Features", "description": "Checked which picks offer app connectivity for tracking and social features." },
-  { "title": "Support Hardware Design", "description": "Compared handle bar and side rail stability approaches across the tier." }
+  { "title": "Incline mechanism and range", "description": "We compared how each pick delivers its slope, from the 3 levels on the LONTEK to the single fixed 8% on the QuietClimb. Several incline pads in this tier need manual repositioning, so we judged whether you could realistically change the setting without stopping a workday." },
+  { "title": "Weight capacity headroom", "description": "Listed limits run from 265 lbs on the QuietClimb to 350 lbs on the LONTEK. We applied a 50 lb headroom rule and gave extra credit to the 350 lb limit, because a motor close to its rated load wears faster once you add incline resistance." },
+  { "title": "Top speed and who it serves", "description": "We compared the 4 mph ceiling on most picks to the 6.2 mph reach of the Acezoe, since desk walkers rarely need more but light joggers do. Under $150 we weighted speed lower than cushioning unless a pad claimed jogging use, since unused top speed is money spent for nothing." },
+  { "title": "Cushioning and belt build", "description": "We checked belt layer counts and shock absorber hardware, such as the 7-layer belt with 6 silicone absorbers on the Acezoe. A thicker cushion stack is the clearest sign a pad will stay comfortable once an incline raises the impact on your knees." },
+  { "title": "Setup, app support and warranty clarity", "description": "We looked at assembly effort, handle or rail support, app compatibility such as PitPat on the Superun, and warranty length. Pads in this tier are often bought for a bedroom or small office, so tool-free setup and clear support terms carry real weight for first-time buyers." }
 ];
 
 export interface HowToChooseSection {
@@ -102,13 +102,15 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "This tier is where incline becomes standard, so decide how steep and how strong you need the pad to be.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
-        ["A quiet, effective incline system in a compact frame", "Walking Pad with QuietClimb 8% Incline, 2.5HP"],
-        ["Manual multi-level incline with the highest weight capacity", "LONTEK 15% Incline Walking Pad Treadmill with Handles"],
-        ["App-based tracking with the widest speed range", "Acezoe Walking Pad Treadmill with Incline and Handle Bar"],
-        ["The lowest price with flexible side-rail support", "Superun 6% Incline Walking Pad"]
+        ["The highest weight capacity and steepest incline options", "LONTEK, with a 350 lb limit and 3 levels up to 15%"],
+        ["Tracking workouts and a wider speed range", "Acezoe, which adds app connectivity and speeds up to 6.2 mph"],
+        ["The lowest-cost incline pad with side support", "Superun, with 6% incline and side rails"],
+        ["A compact pad with a quieter, upgraded incline system", "QuietClimb, rated under 45 dB with a fixed 8% slope"],
+        ["Support for a first-time walker who wants to hold something", "LONTEK, whose handles and side impact strips add stability"]
       ],
     },
   },
@@ -117,44 +119,46 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $112", "Superun (under $120)"],
-        ["Under $130", "LONTEK (under $130)"],
-        ["Under $150", "QuietClimb (under $150)"],
-        ["Under $170", "Acezoe (under $170)"]
+        ["Under $125, the cheapest way to get an incline", "Superun, the lowest price in this tier by a clear margin"],
+        ["Under $150 for the best capacity per dollar", "LONTEK, which beats both pricier picks on weight limit"],
+        ["Under $200 for a compact, quieter climbing pad", "QuietClimb, the most expensive of the flat-footprint designs"],
+        ["Near $170 if app tracking and speed range matter", "Acezoe, slightly above this ceiling but the richest feature set"],
+        ["Under $100 if you do not need incline", "The under $100 guide covers flat pads that cost less"]
       ],
     },
   },
   {
-    subheading: "Fixed Incline vs Manual Multi-Level Incline",
+    subheading: "Manual Incline vs Fixed Incline",
     cards: [
-      { label: "Fixed incline (QuietClimb)", text: "Provides a simple, always-on incline boost without needing to physically adjust anything, but offers less flexibility." },
-      { label: "Manual multi-level incline (LONTEK)", text: "Requires physically flipping out legs or placing pads to change incline, but gives you genuine choice between flat, moderate, and steep settings." }
+      { label: "Manual or multi-level (LONTEK, Acezoe)", text: "You change the slope by repositioning legs or pads, which gives 3 levels or a 10% setting. It adds variety and a higher peak, but you must step off the belt to change it." },
+      { label: "Fixed single slope (QuietClimb, Superun)", text: "One 8% or 6% slope is always set, so there is nothing to adjust and fewer parts to loosen. It is simpler, though you cannot go flat for a recovery day." }
     ],
-    note: "If you want a consistent, no-fuss incline workout every time, the QuietClimb's fixed system is simpler. If you want to vary intensity across sessions or over time as fitness improves, the LONTEK's multi-level system is worth the extra manual step.",
+    note: "Most buyers should default to a multi-level pad like the LONTEK, unless they need the lighter, quieter footprint of the QuietClimb.",
   },
   {
-    subheading: "By Weight Capacity Needs",
+    subheading: "By Preferred Speed and Activity",
     table: {
-      headers: ["Your weight capacity needs", "Recommended pick"],
+      headers: ["Your routine", "Recommended pick"],
       rows: [
-        ["Standard capacity, up to 265 lbs", "QuietClimb"],
-        ["Higher capacity, up to 300 lbs", "Acezoe or Superun"],
-        ["Highest capacity in this tier, up to 350 lbs", "LONTEK"]
+        ["Steady 2 to 3 mph walking during calls", "Superun, since extra speed would go unused"],
+        ["Brisk walking that edges toward a light jog", "Acezoe, whose 6.2 mph ceiling leaves room above your comfortable pace"],
+        ["Mixed walk and climb sessions for fitness", "LONTEK, because 3 incline levels give you progression"],
+        ["Quiet walking in a shared home office", "QuietClimb, with its stated under 45 dB operation"]
       ],
     },
   },
   {
-    subheading: "For a Buyer Who Wants Social Fitness Motivation Specifically",
+    subheading: "For Heavier Walkers Specifically",
     cards: [
-      { label: "Look for", text: "App connectivity that supports real-time data sync and social features like friend competitions, not just basic step tracking on an LED display." },
-      { label: "In this comparison", text: "The Acezoe pick's app connectivity specifically enables synchronized real-time data and friend competitions that the non-app picks in this tier don't offer." }
+      { label: "Look for", text: "A stated capacity at least 50 lbs above your weight, a larger motor, and side rails or handles you can grip. Check that the incline does not reduce the listed limit." },
+      { label: "In this comparison", text: "The LONTEK is the only pick listing 350 lbs, with 3.0HP and handles. The Acezoe at 300 lbs and Superun at 300 lbs work for walkers under about 250 lbs." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want app-based tracking with the widest speed range and most belt cushioning, where the Acezoe pick delivers all three at the top of this tier." },
-      { label: "Save if", text: "You want flexible side-rail support without incline levels, where the Superun pick covers that for about $39 less." }
+      { label: "Spend more if", text: "You want automatic incline and capacities above 400 lbs, which start appearing in the under $400 guide. Moving up also buys clearer motor specs than the bullet claims here." },
+      { label: "Save if", text: "You will walk at 2 to 3 mph on a flat or gentle slope. The Superun costs noticeably less than the Acezoe and covers that use with side rails and an app option." }
     ],
   }
 ];
@@ -183,12 +187,12 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I change the LONTEK's incline level while actively walking on it?", "a": "No, changing between the flat, 10%, and 15% incline settings requires stopping and physically repositioning the legs or placing the included pads, so you'll want to set your desired incline before starting your session rather than mid-walk." },
-  { "q": "What's the most common mistake buyers make when comparing incline percentages across these picks?", "a": "Assuming a higher stated incline percentage always means a more effective or harder workout, when the actual difference between 6% and 15% incline in practice depends heavily on your walking speed and how consistently you use the incline, not just the maximum number available." },
-  { "q": "Is the Acezoe pick worth it over the cheaper LONTEK option?", "a": "If you specifically want app connectivity and the widest speed range for occasional jogging, yes, but if the highest weight capacity and multi-level manual incline matter more, the LONTEK pick covers that for about $40 less." },
-  { "q": "How do I know if the Superun's side rails provide enough support for someone with balance concerns?", "a": "The side rails support multiple walking positions, which can help with balance, but for anyone with significant stability concerns or recovering from injury, consulting a doctor before starting any walking pad routine is worth doing regardless of which pick you choose." },
-  { "q": "Do these walking pads work without connecting to an app, or is the app required?", "a": "Only the Acezoe pick specifically emphasizes app connectivity as a core feature, and even then it should function for basic walking without the app, while the other three picks operate independently via their built-in LED display and remote control." },
-  { "q": "Can the higher weight capacity picks in this tier, like the LONTEK, still fit under a standard desk?", "a": "Yes, weight capacity relates to how much weight the frame supports rather than the pad's physical footprint, so checking the specific dimensions against your desk's clearance is the relevant measurement, not the weight rating." }
+  { "q": "Can I change the incline while walking on these pads?", "a": "Not on most. The LONTEK and Acezoe use manual incline that needs you to step off and adjust the legs, and the QuietClimb and Superun are fixed. If you want to change slope mid-walk, the auto-incline pads in the under $400 guide are the better route." },
+  { "q": "Is the 350 lb capacity on the LONTEK a good sign?", "a": "It is, when paired with a 3.0HP brushless motor, because the pad has real headroom for lighter users too. Still, check that the limit applies at maximum incline, since steeper slopes load the motor more than a flat belt does." },
+  { "q": "Is the Acezoe worth more than the Superun?", "a": "The Acezoe costs noticeably more and adds a 10% incline, a 7-layer belt, a 40 x 16 inch belt and speeds to 6.2 mph. The Superun covers casual desk walking cheaply, so pay up only if you value the cushioning or may jog." },
+  { "q": "How do I set up the incline on a manual pad?", "a": "Unplug the pad, lift the front, and place the supplied incline legs or feet as the manual directs. Make sure both sides match before you step on, because an uneven slope puts unusual strain on your knees and the frame." },
+  { "q": "How often should I maintain a budget walking pad?", "a": "Wipe the belt and deck weekly, vacuum dust from around the motor cover monthly, and check lubrication guidance in your manual. Cheap belts drift off-centre over time, so look for the manual's alignment steps if you hear rubbing." },
+  { "q": "What does PitPat app compatibility actually give me?", "a": "It lets the Superun sync speed and distance to a phone so you can track daily steps without a console. It is a convenience, not a performance feature, so do not let it outweigh capacity or cushioning when choosing between picks." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

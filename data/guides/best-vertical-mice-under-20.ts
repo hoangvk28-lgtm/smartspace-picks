@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "DPI Range and Adjustability", "description": "Compared stated DPI levels and adjustability across the budget lineup." },
-  { "title": "Connection Type", "description": "Distinguished wired USB connections from 2.4GHz wireless designs and their respective tradeoffs." },
-  { "title": "Cable Length or Wireless Range", "description": "Compared cable length for wired picks and working distance for wireless picks." },
-  { "title": "Button Count and Functionality", "description": "Compared total button count and next/previous browsing button inclusion." },
-  { "title": "Warranty Length", "description": "Compared stated warranty duration across the lineup where specified." }
+  {
+    "title": "DPI steps and top speed",
+    "description": "We compared the listed DPI steps, because the Perixx PERIMICE-513 runs 1000 to 6400 while the Anker and both KUNSI mice stop at 1600. Since many people drop DPI when they first switch to a vertical grip, we valued a low entry step and enough headroom to grow into on multi-monitor desks."
+  },
+  {
+    "title": "Wired cable or wireless range",
+    "description": "We read the stated cable lengths and wireless ranges, because the Perixx's 5.9 ft cable and the KUNSI Wired's 1.8 m cable decide whether a tower under the desk can be reached. For the wireless pair we noted the 10 m KUNSI range, which matters more than it sounds at a cluttered desk."
+  },
+  {
+    "title": "Battery and power habits",
+    "description": "We looked at how each wireless pick handles power, since the Anker sleeps after 8 minutes idle and the KUNSI Wireless needs 2 AAA cells that are not included. At this budget tier a mouse that quietly eats batteries costs more over a year than the few dollars you saved at checkout."
+  },
+  {
+    "title": "Click noise and button layout",
+    "description": "We checked button counts (six on all four) and the silent-click claim on the Perixx, because a vertical mouse sits in a different position and mis-clicks are common during the first week. Noise matters most in dorms and shared offices where a loud click carries across the room."
+  },
+  {
+    "title": "Warranty as a quality signal",
+    "description": "We compared warranty terms, from the Perixx 12 months to the Anker 18 months, because under $20 the guarantee is often the only evidence a maker expects the mouse to last. A longer term earned extra weight when the hardware spec sheets were otherwise close."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The widest DPI range and longest cable", "Perixx PERIMICE-513 Wired Ergonomic Vertical Mouse"],
-        ["Reliable wireless with power-saving and longer warranty", "Anker 2.4G Wireless Ergonomic Vertical Mouse"],
-        ["The simplest, cheapest wired option", "KUNSI Wired Ergonomic Vertical Mouse"],
-        ["Wireless freedom at the lowest price", "KUNSI Wireless Ergonomic Vertical Mouse"]
+    "subheading": "By Primary Need",
+    "intro": "Sub-$20 vertical mice are all basic 6-button designs, so the real split is connection style and how much DPI headroom you want.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Widest DPI range plus a cable long enough to reach a tower under the desk",
+          "Perixx PERIMICE-513 Wired Ergonomic Vertical Mouse, with 1000 to 6400 DPI and a 5.9 ft cable"
+        ],
+        [
+          "Wireless with auto power saving and a longer warranty",
+          "Anker 2.4G Wireless Ergonomic Vertical Mouse, which sleeps after 8 minutes idle and carries 18 months of coverage"
+        ],
+        [
+          "Cheapest possible plug-and-play with no driver install",
+          "KUNSI Wired Ergonomic Vertical Mouse, a 1.8 m cable and nothing to pair or charge"
+        ],
+        [
+          "Cable-free desk at the lowest wireless entry cost",
+          "KUNSI Wireless Ergonomic Vertical Mouse, with a receiver that parks inside the mouse and about 10 m of range"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $10", "KUNSI Wired (under $10) or KUNSI Wireless (under $10)"],
-        ["Under $19", "Perixx PERIMICE-513 (under $20)"],
-        ["Under $20", "Anker 2.4G (under $20)"]
+    "subheading": "By Budget",
+    "intro": "All four picks sit under $20, but the spread inside that ceiling changes what you get.",
+    "table": {
+      "headers": [
+        "Budget inside the $20 ceiling",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $10, just testing the vertical shape",
+          "KUNSI Wired Ergonomic Vertical Mouse, the lowest-risk way to learn whether you like the angle"
+        ],
+        [
+          "Under $10 but you hate cables",
+          "KUNSI Wireless Ergonomic Vertical Mouse, though budget two AAA batteries on top since none ship in the box"
+        ],
+        [
+          "Under $20 to $20 and you want the warranty",
+          "Anker 2.4G Wireless Ergonomic Vertical Mouse, the 18-month term is the longest here"
+        ],
+        [
+          "Up to the full $20 for the best spec sheet",
+          "Perixx PERIMICE-513, since it adds silent clicks and 6400 DPI that the cheaper trio lacks"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Wired vs Wireless at This Price",
-    cards: [
-      { label: "Wired (Perixx, KUNSI Wired)", text: "No battery concerns and no wireless dropout risk, at the cost of desk cable management." },
-      { label: "Wireless (Anker, KUNSI Wireless)", text: "Frees up desk space from cables but requires AAA batteries and occasional battery swaps." }
+    "subheading": "Wired vs Wireless on a Tight Budget",
+    "intro": "A cable never needs charging, but it also tethers a mouse you are still learning to hold.",
+    "cards": [
+      {
+        "label": "Wired: Perixx and KUNSI Wired",
+        "text": "No batteries, no pairing, and no dropout when 2.4 GHz traffic is busy. The cost is cable drag on a mouse that already feels unfamiliar, and the Perixx's 5.9 ft cord is the more forgiving of the two."
+      },
+      {
+        "label": "Wireless: Anker and KUNSI Wireless",
+        "text": "Cleaner desk and easier repositioning while you find a comfortable angle. The Anker auto-sleeps after 8 minutes, and the KUNSI Wireless stores its receiver in the body, but both depend on batteries you must keep stocked."
+      }
     ],
-    note: "If cable clutter bothers you, a wireless pick like the Anker or KUNSI Wireless frees up desk space. If you'd rather avoid battery management entirely, a wired pick removes that concern.",
+    "note": "Most buyers at this price should default to the wired Perixx unless desk clutter is the reason for upgrading in the first place."
   },
   {
-    subheading: "By DPI Needs",
-    table: {
-      headers: ["Your precision needs", "Recommended pick"],
-      rows: [
-        ["Maximum DPI range for varied tasks", "Perixx PERIMICE-513 (up to 6400)"],
-        ["Standard office DPI range", "Anker, KUNSI Wired, or KUNSI Wireless (up to 1600)"]
+    "subheading": "By Desk Layout",
+    "intro": "The physical layout of your computer and desk changes which cable or range spec matters.",
+    "table": {
+      "headers": [
+        "Your setup",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Laptop on the desk with a USB port within reach",
+          "KUNSI Wired Ergonomic Vertical Mouse, the 1.8 m cable is more than enough"
+        ],
+        [
+          "Tower tucked under the desk or behind a monitor",
+          "Perixx PERIMICE-513, the 5.9 ft cable routes around a stand without tugging"
+        ],
+        [
+          "Mouse shared between a desk and a couch or standing station",
+          "KUNSI Wireless Ergonomic Vertical Mouse, with about 10 m working distance"
+        ],
+        [
+          "USB ports are scarce and you carry the mouse around",
+          "Anker 2.4G Wireless, one receiver and the sleep mode protects batteries in a bag"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a First-Time Vertical Mouse User Specifically",
-    cards: [
-      { label: "Look for", text: "The lowest-risk price point to try the ergonomic shape before committing to a pricier model, since adjustment takes 1-2 weeks regardless of price." },
-      { label: "In this comparison", text: "Either KUNSI pick, wired or wireless, lets you try the vertical mouse format for under $10 before investing more." }
-    ],
+    "subheading": "For a First-Time Vertical Mouse User Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A low-cost way to survive the awkward first week or two, six buttons so you can keep your usual shortcuts, and a DPI that starts low enough to avoid overshooting while your wrist adapts to the new angle."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Start with the Perixx PERIMICE-513, whose 1000 DPI floor and silent clicks make the learning period gentler, or the KUNSI Wired if you want the cheapest trial before committing."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the widest DPI range or a longer warranty, where the Perixx or Anker picks each deliver a genuine upgrade over the under $10 KUNSI options." },
-      { label: "Save if", text: "You just want to try the vertical mouse format at minimal cost, where either KUNSI pick covers that for under $10." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "These four are the entry rung of vertical mice, and the next step up is meaningful.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You type and click for hours, need a tilt that is documented, or have hands that do not fit a one-size shape. The under $30 guide adds rechargeable batteries and sized options, and the Anker's 18 months is the best coverage in this tier."
+      },
+      {
+        "label": "Save if",
+        "text": "You are only checking whether a vertical grip suits you, in which case the KUNSI Wired or KUNSI Wireless costs under $10 and the lesson is the same."
+      }
+    ]
   }
 ];
 
@@ -181,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "How long does it actually take to get comfortable using a vertical mouse for the first time?", "a": "Most manufacturers, including Perixx in this comparison, recommend a 1-2 week adjustment period, so don't expect the ergonomic benefits or comfort to feel natural immediately on day one." },
-  { "q": "What's the most common mistake buyers make when comparing DPI ranges across budget vertical mice?", "a": "Assuming any stated DPI range meets their needs without considering their actual monitor setup or task variety, when a wider range like the Perixx pick's 1000-6400 genuinely serves more varied use cases than a narrower 800-1600 range." },
-  { "q": "Is the Anker pick worth it over the cheaper KUNSI wireless option?", "a": "If a genuine power-saving mode and a longer 18-month warranty matter to you, yes, but if you just want basic wireless functionality at the lowest possible price, the KUNSI Wireless pick covers that for about $10 less." },
-  { "q": "Do these budget vertical mice work the same on Mac and Windows?", "a": "Core functionality works on both, but next/previous browsing buttons specifically are unavailable on Mac OS across all four picks in this comparison, a limitation worth knowing if you rely on those buttons for web navigation." },
-  { "q": "How do I know if a wired or wireless vertical mouse is better for my desk setup?", "a": "If cable clutter is a concern or you frequently move the mouse between locations, a wireless pick like the Anker or KUNSI Wireless is more convenient, but if you'd rather avoid battery management entirely, a wired pick like the Perixx or KUNSI Wired removes that concern." },
-  { "q": "Can I use these vertical mice for gaming, or are they only suited to office work?", "a": "While designed primarily for ergonomic office use, the adjustable DPI settings on all four picks provide enough sensitivity range for casual gaming, though a dedicated gaming mouse would offer more specialized features like higher polling rates." }
+  {
+    "q": "How long does it take to get used to a budget vertical mouse like the Perixx?",
+    "a": "Plan on one to two weeks of daily use. The first four or five days feel awkward as your forearm rotates toward a handshake position, and the Perixx listing itself suggests allowing that adaptation time before judging the shape."
+  },
+  {
+    "q": "Should I lower DPI when switching to a vertical mouse?",
+    "a": "Often yes. Arm-driven movement feels twitchy at high DPI, so start near 800 or 1000 and raise it later. The Perixx's 1000 to 6400 range and the Anker's 800 to 1600 both allow a gentle start."
+  },
+  {
+    "q": "Is the Anker 2.4G worth more than the KUNSI Wireless?",
+    "a": "If the 8 minute auto power-saving and 18-month warranty matter, yes. The KUNSI Wireless costs less and stores its receiver inside the body, but it needs two AAA batteries that are not included and has the same 1600 DPI ceiling."
+  },
+  {
+    "q": "Do these mice work on a Mac or a Chromebook?",
+    "a": "Basic pointing and clicking works with USB-A receivers on most systems, but the next and previous browser buttons do not work on macOS across these picks. A USB-C only laptop also needs an adapter, because every mouse here uses USB-A."
+  },
+  {
+    "q": "Do I need to install drivers for the wired options?",
+    "a": "No. The KUNSI Wired is plug-and-play with no driver, and the Perixx behaves the same for standard use. DPI is switched by a button on the mouse itself, so there is no software to download or update."
+  },
+  {
+    "q": "Will a $20 vertical mouse fit my hand?",
+    "a": "These are single-size designs aimed at average hands. Check the width and thumb rest against your current mouse, because a size that is too big leaves the pinky dragging on the desk, and none of these picks offers a size choice."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

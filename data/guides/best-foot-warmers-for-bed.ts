@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/4121Gjgk6WL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H3KS667X?tag=deskfinds0d-20",
-    "description": "Diweez heats from both sides with 9 levels from 104F to 140F, three timers spanning 1 to 8 hours, 90W operation, an anti-slip base and a long cord. The flannel cover unzips and machine washes.\n\nIt costs about $1 more than QOTOLY LED and tops out lower at 140F. It is also less plush than QOTOLY Faux Fur.\n\nBest for someone who wants a clear wattage figure and a washable flannel cover. The caveat is that it starts at 104F and is a floor pad, not a mattress-mounted one.",
+    "description": "Diweez heats from both sides with 9 levels from 104F to 140F, three timers spanning 1 to 8 hours, 90W operation, an anti-slip base and a long cord. The flannel cover unzips and machine washes.\n\nIt costs under $10 more than QOTOLY LED and tops out lower at 140F. It is also less plush than QOTOLY Faux Fur.\n\nBest for someone who wants a clear wattage figure and a washable flannel cover. The caveat is that it starts at 104F and is a floor pad, not a mattress-mounted one.",
     "specs": [
       "90W, double sided heating",
       "9 levels, 104F to 140F",
@@ -247,47 +247,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Under-sheet zone or loose pad",
-    "explanation": "A mattress-style pad sits flat under your sheet at the foot of the bed, while a loose pad rests on top. The zone stays put when you toss and turn, but a loose pad can bunch up. Check the listing's size and whether elastic bands or straps hold it down."
+    "explanation": "A mattress-style pad sits flat under your sheet at the foot of the bed, while a loose pad rests on top. The zone stays put when you toss and turn, but a loose pad can bunch up. Check the listing's size and whether elastic bands or straps hold it down.  A pad that slips down is worse than a smaller pad that stays put, so check for elastic bands or straps in the listing."
   },
   {
     "criterion": "Bed size match",
-    "explanation": "Foot zones are sold per mattress size, such as Reaks Queen at 24 by 60 inches and King at 24 by 78. A zone that is too short leaves part of the foot area cold, and one that is too wide wastes the heat. Measure your mattress width and compare."
+    "explanation": "Foot zones are sold per mattress size, such as Reaks Queen at 24 by 60 inches and King at 24 by 78. A zone that is too short leaves part of the foot area cold, and one that is too wide wastes the heat. Measure your mattress width and compare.  Measure your mattress width and compare it to the zone, since king-size foot zones run 78 inches long."
   },
   {
     "criterion": "Lowest heat and top heat",
-    "explanation": "At night your body is still, so a hot setting is risky and can wake you. Reaks runs 87F to 115F, while some portable pads reach 149F. Look for a low starting temperature and use only the lowest setting you need."
+    "explanation": "At night your body is still, so a hot setting is risky and can wake you. Reaks runs 87F to 115F, while some portable pads reach 149F. Look for a low starting temperature and use only the lowest setting you need.  A low first setting is the one you will actually use most nights, so ignore the maximum when comparing."
   },
   {
     "criterion": "Auto-off and timer length",
-    "explanation": "Guidance is to avoid sleeping with powered electric bedding, so a timer is your safety net. Choices run from 8 hours on Battle Creek to 1 to 12 on Reaks. Choose the shortest timer that will warm the bed, and read the exact hours."
+    "explanation": "Guidance is to avoid sleeping with powered electric bedding, so a timer is your safety net. Choices run from 8 hours on Battle Creek to 1 to 12 on Reaks. Choose the shortest timer that will warm the bed, and read the exact hours.  Shorter timers reduce risk because the pad turns off once the bed is warm, and you can restart it by touch."
   },
   {
     "criterion": "Cord length and wire feel",
-    "explanation": "Cords need to reach the wall without being stretched across the floor. SpotWarm has 13 feet and Reaks has a 13 foot controller cord. Reaks also notes you may feel the wires slightly, so check whether the listing mentions padding."
+    "explanation": "Cords need to reach the wall without being stretched across the floor. SpotWarm has 13 feet and Reaks has a 13 foot controller cord. Reaks also notes you may feel the wires slightly, so check whether the listing mentions padding.  If you sleep near the wall, a 13 foot cord leaves a lot of slack that can tangle, so consider cord management."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Heat range at rest",
-    "description": "We compared minimum and maximum temperatures with the idea that a sleeper needs gentle warmth."
+    "title": "Bed size and zone dimensions",
+    "description": "We compared the listed foot zone against mattress sizes, because a zone too short leaves part of your feet cold. Reaks lists 24 x 60 inches for a queen and 24 x 78 for a king. A pad that does not match your mattress width wastes heat. A pad that bunches is the most common complaint with loose designs, so zone size and fit were scored first."
   },
   {
-    "title": "Timers and auto-off",
-    "description": "Timer range and per-level shutoffs were weighed heavily for bedtime safety."
+    "title": "Lowest heat setting",
+    "description": "At night you are still, so a hot setting is risky. We read each range's first number: Reaks starts at 87F, and portable pads like QOTOLY reach 149F. A bed warmer should offer a genuinely low setting. Nobody needs 149F in a bed, which is why the 87F start on Reaks scored well."
   },
   {
-    "title": "Size and fit",
-    "description": "Listed dimensions were checked against queen and king mattress widths."
+    "title": "Timer and auto-off",
+    "description": "Electric bedding should not run all night, so we compared timer options: Reaks offers 1 to 12 hours, Battle Creek 8 hours, and Templewet 1 to 9. We favored the shortest options that still match how long you need to warm the bed. Longer timers add convenience but also risk, so we treated more steps as a plus only if short options exist."
   },
   {
-    "title": "Cord and control",
-    "description": "We compared cord lengths and whether the controller can be reached from bed."
+    "title": "Cord and controller reach",
+    "description": "Cords must reach the wall without crossing the floor. SpotWarm lists a 13 foot cord and Reaks a 13 foot controller cord, with Reaks noting you may feel the wires slightly. We checked whether controllers can be reached from bed. A cord that crosses the floor is a trip hazard at night, so reach mattered."
   },
   {
-    "title": "Care and price",
-    "description": "Washing instructions and prices were weighed against what each listing documents."
+    "title": "Under-sheet vs loose designs",
+    "description": "Mattress pads sit under your sheet and stay put, while pads like QOTOLY and Diweez rest loose and can bunch. We weighed which stays in place through a night of turning. Pads that stay put through a night of turning scored above ones that needed adjusting."
   }
 ];
 
@@ -295,130 +295,136 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Bed Size",
+    "intro": "Match the heated zone to your mattress.",
     "table": {
       "headers": [
-        "Your situation",
-        "Recommended pick"
+        "Your bed",
+        "Best pick here"
       ],
       "rows": [
         [
-          "Queen bed, want fine control",
-          "Reaks Foot Heated Mattress Pad Queen"
+          "Queen bed with fine temperature control",
+          "Reaks Foot Heated Mattress Pad Queen, with 12 settings from 87F to 115F"
         ],
         [
-          "King bed or tall sleeper",
-          "Reaks Foot Heated Mattress Pad King"
+          "King bed or a taller sleeper",
+          "Reaks Foot Heated Mattress Pad King, with a 24 x 78 inch foot zone"
         ],
         [
-          "Queen bed on a smaller budget",
-          "Templewet Foot Heated Mattress Pad Queen"
+          "Queen bed on a lower budget",
+          "Templewet Foot Heated Mattress Pad Queen, with a 1 to 9 hour timer and a fit for mattresses up to 15 inches"
         ],
         [
-          "Want a remote and hidden cords",
-          "SpotWarm Hidden Heat Foot of Bed Warmer"
+          "Queen bed and you want a remote",
+          "SpotWarm Hidden Heat Foot of Bed Warmer, with a wireless RF remote and 6 levels"
         ],
         [
-          "Smaller sheet warmer only",
-          "Battle Creek Ice It Bed Warmer"
+          "No full bed pad, just a smaller warmer",
+          "Battle Creek Ice It Bed Warmer, an 18 x 36 inch pad with an 8 hour auto-off"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Prices run from under $40 to above $75.",
     "table": {
       "headers": [
-        "Price range",
-        "Recommended pick"
+        "Budget",
+        "Best pick here"
       ],
       "rows": [
         [
-          "Under $36",
-          "QOTOLY Faux Fur Foot Warmer with LED Display"
+          "Under $40",
+          "QOTOLY Faux Fur Foot Warmer with LED Display, with 9 levels"
         ],
         [
-          "$36 to $40",
-          "Templewet Foot Heated Mattress Pad Queen"
+          "Under $40",
+          "Templewet Foot Heated Mattress Pad Queen, a full under-sheet zone"
         ],
         [
-          "$38 to $40",
-          "Diweez Double Sided Heated Foot Warmer"
+          "Under $40",
+          "Diweez Double Sided Heated Foot Warmer, with 90W double-sided heating"
         ],
         [
-          "$49 to $50",
-          "Reaks Foot Heated Mattress Pad Queen"
+          "Under $60",
+          "Reaks Foot Heated Mattress Pad Queen, with 12 settings"
         ],
         [
           "Above $75",
-          "SpotWarm Hidden Heat Foot of Bed Warmer"
+          "SpotWarm Hidden Heat Foot of Bed Warmer, with a hidden-heat design"
         ]
       ]
     }
   },
   {
-    "subheading": "Under the Sheet vs On Top",
+    "subheading": "Under-Sheet Pad vs Loose Warmer",
+    "intro": "Where the warmer sits decides whether it stays there.",
     "cards": [
       {
-        "label": "Under the sheet",
-        "text": "Stays in place all night and heats the sheet, but you cannot easily move it. Picks: Reaks Queen and King, SpotWarm, Templewet and Battle Creek."
+        "label": "Under-sheet",
+        "text": "Reaks, Templewet and SpotWarm sit under the sheet and stay at the foot of the bed, though you may feel wires slightly."
       },
       {
-        "label": "On top or loose",
-        "text": "A pad you place yourself and can move to the sofa or desk, but it may shift. Picks: QOTOLY Faux Fur Foot Warmer with LED Display, Diweez Double Sided Heated Foot Warmer and QOTOLY Double Sided Electric Foot Warmer."
+        "label": "Loose",
+        "text": "QOTOLY, Diweez and Battle Creek rest loose, so you can move them but they bunch or slide as you turn."
       }
     ],
-    "note": "Most bed sleepers will prefer an under-sheet zone, while sit-up readers should choose a loose pad."
+    "note": "Most sleepers should choose an under-sheet pad unless they want to carry the warmer elsewhere."
   },
   {
-    "subheading": "Timer and Remote Preferences",
+    "subheading": "By Timer Preference",
+    "intro": "Timers differ a lot across this group.",
     "table": {
       "headers": [
-        "Your concern",
-        "Recommended pick"
+        "Your habit",
+        "Best pick here"
       ],
       "rows": [
         [
-          "Want a wireless remote",
-          "SpotWarm Hidden Heat Foot of Bed Warmer"
+          "You want a long 12 hour option",
+          "Reaks Foot Heated Mattress Pad King, with a 1 to 12 hour timer"
         ],
         [
-          "Want a timer up to 12 hours",
-          "Reaks Foot Heated Mattress Pad Queen"
+          "A single 8 hour timer without fuss",
+          "Battle Creek Ice It Bed Warmer, with an 8 hour auto-off"
         ],
         [
-          "Want an 8 hour default",
-          "Battle Creek Ice It Bed Warmer"
+          "Short 1, 4 or 8 hour presets",
+          "QOTOLY Faux Fur Foot Warmer, with 1, 4 or 8 hour timers"
         ],
         [
-          "Want a switch near your hands",
-          "Battle Creek Ice It Bed Warmer"
+          "Each level has its own shutoff",
+          "SpotWarm Hidden Heat Foot of Bed Warmer, with 6 levels each with auto-shutoff"
         ]
       ]
     }
   },
   {
     "subheading": "For Cold Sleepers Specifically",
+    "intro": "A cold sleeper needs gentle warmth for the whole night.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A low starting heat, a clearly stated auto-off and a zone sized for your mattress, so warmth reaches the whole foot area."
+        "text": "A foot zone that matches your mattress, a low starting temperature and a timer that allows a warm-up then shuts off."
       },
       {
         "label": "In this comparison",
-        "text": "Reaks Foot Heated Mattress Pad Queen starts at 87F with a 1 to 12 hour timer, and Battle Creek Ice It Bed Warmer is described as low, gentle heat with an 8 hour shutoff."
+        "text": "Reaks starts at 87F with 12 settings and a 1 to 12 hour auto-off, which gives the most control for a cold sleeper."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "SpotWarm is the only pick above $75.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want a remote, fine heat steps or a king size. SpotWarm Hidden Heat Foot of Bed Warmer and Reaks Foot Heated Mattress Pad King deliver those."
+        "text": "You want a remote and a hidden design. SpotWarm adds a wireless RF remote; see the best foot warmers for neuropathy guide for another safety angle."
       },
       {
         "label": "Save if",
-        "text": "You want basic foot warmth. Templewet Foot Heated Mattress Pad Queen and QOTOLY Faux Fur Foot Warmer with LED Display cost about $36 or less."
+        "text": "You only want a warm foot of the bed. Templewet under $40 or Reaks under $60 deliver that."
       }
     ]
   }
@@ -427,28 +433,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Is it safe to sleep with a foot warmer on?",
-    "a": "Guidance for electric bedding is to avoid sleeping under a powered electric blanket. Use a short timer, the lowest setting and do not cover a loose pad. Ask a doctor if you have reduced feeling."
+    "q": "Is it safe to sleep with a heated foot pad on?",
+    "a": "Manufacturers differ, so follow the listing. Most bed warmers include a timer and auto-off, such as Reaks's 1 to 12 hour range and Battle Creek's 8 hours. Use the lowest setting, pick the shortest timer, and never fold or cover the pad."
   },
   {
-    "q": "Will a foot pad fit my bed size?",
-    "a": "Match the zone to your mattress. Reaks lists 24 by 60 inches for queen and 24 by 78 for king, while Templewet fits mattresses up to 15 inches thick."
+    "q": "What mistake do buyers make with bed foot warmers?",
+    "a": "Buying the wrong size. A queen pad on a king bed leaves one side cold, and a king zone on a queen bed wastes heat. Match the zone, such as 24 x 60 versus 24 x 78 inches, to your mattress."
   },
   {
-    "q": "Is a mattress pad worth it over a portable pad?",
-    "a": "If you only want warmth for sleep, an under-sheet zone like Reaks stays in place. If you also want to warm your feet on the sofa, a portable pad like Diweez is more flexible."
+    "q": "Is the SpotWarm worth more than the Reaks pads?",
+    "a": "SpotWarm is above $75 for a hidden-heat design with a wireless RF remote. Reaks Queen under $60 offers 12 settings from 87F to 115F and a 1 to 12 hour timer, which gives finer control for less."
   },
   {
-    "q": "How early should I turn it on?",
-    "a": "Battle Creek's listing suggests about 30 minutes before bed, since it heats slowly. Others heat faster, so check your listing."
+    "q": "How do I set up a heated mattress pad at the foot of the bed?",
+    "a": "Lay the pad flat at the foot of the mattress, tuck the edges under, route the cord to the wall, and place the sheet over it. Check the cord reaches without stretching, and do not cover it with a thick duvet."
   },
   {
-    "q": "How do I wash these?",
-    "a": "Reaks and Templewet are machine washable, and Diweez and QOTOLY need their heating layers unzipped first. Unplug before washing and dry fully."
+    "q": "Can I wash a heated mattress pad?",
+    "a": "Often yes, but only with the controller removed and the care label followed. Use a gentle cycle, low heat, and air dry. Check the pad before use for kinked wires or damage, and never use it if wet."
   },
   {
-    "q": "Are these medical devices?",
-    "a": "No. They are comfort products, and we do not rely on circulation claims."
+    "q": "Why does my bed warmer feel too hot or too cold?",
+    "a": "Heat depends on setting, room temperature and sheet layers. Start on the lowest setting; Reaks starts at 87F. If it feels cold, increase one step at a time rather than jumping to the top, and check that the pad is flat."
   }
 ];
 

@@ -191,15 +191,15 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "True left-hand versus symmetrical",
-    "explanation": "A left-handed shape is a mirror image of a right-hand body, with the thumb ball on the right side, while an ambidextrous design uses a symmetrical shell. A mirrored shape usually fits the left hand more naturally, but only a few models exist. Look for left-handed in the listing title."
+    "explanation": "A left-handed shape is a mirror image of a right-hand body, with the thumb ball on the right side, while an ambidextrous design uses a symmetrical shell. A mirrored shape usually fits the left hand more naturally, but only a few models exist. Look for left-handed in the listing title. Remember that most symmetrical trackballs hide the thumb or finger position in the middle of the body, so left or right matters less for finger-ball designs."
   },
   {
     "criterion": "Button mapping for left use",
-    "explanation": "Even symmetrical bodies may have primary buttons that favor one hand, and software can swap left and right. A dedicated hand-switch button helps on shared desks. Check for a mapping utility or a physical switch."
+    "explanation": "Even symmetrical bodies may have primary buttons that favor one hand, and software can swap left and right. A dedicated hand-switch button helps on shared desks. Check for a mapping utility or a physical switch. Six buttons on the ELECOM EX-G give you room to put right-click and back under the fingers you actually use."
   },
   {
     "criterion": "Ball size and hand span",
-    "explanation": "Thumb balls are around 34mm while finger balls range 40 to 55mm. A bigger ball gives finer control but needs a larger hand span. The Orbit with a 32mm ball is aimed at small to average hands."
+    "explanation": "Thumb balls are around 34mm while finger balls range 40 to 55mm. A bigger ball gives finer control but needs a larger hand span. The Orbit with a 32mm ball is aimed at small to average hands. If your hand is under about 18cm from wrist to fingertip, the 32mm Orbit ball will feel easier to reach than a 55mm ball."
   },
   {
     "criterion": "Software and OS limits",
@@ -211,31 +211,31 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Wired or wireless",
-    "explanation": "A wired model never needs charging. A wireless one allows free placement but needs batteries or charging. Confirm the receiver type."
+    "explanation": "A wired model never needs charging. A wireless one allows free placement but needs batteries or charging. Confirm the receiver type. Wireless adds free placement and Bluetooth multi-device pairing on the Nulea, while the wired Kensington Expert never needs a battery or a receiver port."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Left-hand suitability",
-    "description": "We checked each listing for explicit left-handed or ambidextrous wording."
+    "title": "Genuine left-hand shape",
+    "description": "Only the two ELECOM EX-G listings are mirror-image left-handed bodies with a thumb ball on the left side. The Kensington Orbit, Nulea and Expert are symmetrical. We separated these two groups, because a symmetrical shell often gives up thumb-button reach or palm support for the left hand."
   },
   {
-    "title": "Ball and body size",
-    "description": "Listed ball diameters and fit notes were compared."
+    "title": "Button count and remapping",
+    "description": "The ELECOM EX-G lists six programmable buttons and 750 or 1500 DPI, while the Expert has four buttons. We checked whether a mapping utility or hand switch exists, since a lefty on a shared layout relies on remapping to put the primary click under the right finger."
   },
   {
-    "title": "Connection and power",
-    "description": "Wired, 2.4GHz and Bluetooth setups were noted."
+    "title": "Ball size and hand span",
+    "description": "Sizes run from the Orbit's 32mm ball to the 40mm Orbit with scroll ring and the 55mm balls on the Nulea M512 and Expert. We matched these to hand size, since a large ball gives fine control but needs a wide, relaxed thumb or finger stretch."
   },
   {
-    "title": "Buttons and software",
-    "description": "Button counts, DPI steps and software notes were weighed."
+    "title": "Connection and operating system",
+    "description": "The Nulea pairs with three devices over Bluetooth or 2.4GHz, the Orbit adds AES encryption, and the Expert is wired USB-A. We also noted that the ELECOM listing names Windows 8.1 to 11, which matters for Mac and ChromeOS buyers."
   },
   {
-    "title": "Value for price",
-    "description": "Value meant asking what extra dollars add on the listing, then checking whether owners mention it."
+    "title": "Cleaning and value",
+    "description": "Ruby bearings, listed as three 2.5mm units on the second ELECOM, resist dust and skin oil better than plastic. We priced each pick against its extras: the Expert costs more but includes a detachable wrist rest, which is a real benefit for long sessions."
   }
 ];
 
@@ -368,27 +368,27 @@ export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
     "q": "Do any thumb trackballs work well for left-handers?",
-    "a": "A few, like the ELECOM EX-G left-handed models here, are mirrored for the left hand. Most other thumb balls are right-handed. Check the title for left-handed."
+    "a": "Yes, but the choice is narrow. The two ELECOM EX-G listings are true left-handed thumb trackballs with the ball under the left thumb, while the Kensington and Nulea models are symmetrical. For a left hand, the mirrored ELECOM shape is the only one here designed around thumb reach and palm support."
   },
   {
     "q": "Is an ambidextrous trackball as comfortable as a left-handed one?",
-    "a": "It can be fine, but the shape is a compromise. A mirrored shape usually fits better. Try one with a return window."
+    "a": "Often yes for finger-ball designs like the Nulea M512 or Kensington Expert, where the ball sits in the center under your fingers. The compromise shows up with buttons: a symmetrical body may put the primary buttons where a left thumb stretches, so check button layout before assuming comfort."
   },
   {
-    "q": "Are the two ELECOM EX-G left-handed listings different?",
-    "a": "They are very close siblings with the same price and button count. The difference is in listed system requirements and details. Choose by availability."
+    "q": "Are the two ELECOM EX-G listings different?",
+    "a": "Largely the same mouse, with six buttons and 750 or 1500 DPI. The second listing highlights three 2.5mm ruby bearings and Windows 8.1 to 11 support, while the first emphasizes the 2.4GHz wireless link and red ball. Read both listings for your OS before buying."
   },
   {
     "q": "Can I swap the buttons in software?",
-    "a": "Most listings mention software for button assignment, which can swap left and right. Check for a download and OS support."
+    "a": "Usually yes, and it matters for lefties on shared desks. Symmetrical models like the Nulea and Orbit can be remapped in an operating system settings panel, while the ELECOM EX-G has six programmable buttons through its utility. The Orbit with a touch ring lists no drivers, so remapping there is limited to what the OS allows."
   },
   {
     "q": "Is the Kensington Expert worth the premium for a lefty?",
-    "a": "It is worth it if you want the wrist rest and a 55mm ball. For lighter use a cheaper ambidextrous model is enough. It is wired."
+    "a": "Only if wrist support matters to you. The Expert costs more than the ELECOM and lists a 55mm ball, a scroll ring and a detachable wrist rest, but it is wired and symmetrical. A left-handed ELECOM costs less and gives the true mirrored shape, though it has no wrist rest."
   },
   {
     "q": "How long does it take to adapt?",
-    "a": "Expect a week or two. Left-handers already adapt to right-handed gear, so many adjust quickly."
+    "a": "Plan on several days of regular use before the movement feels natural, and expect your wrist to feel different at first. Start with short sessions, lower the DPI at first, and keep a normal mouse nearby for precision tasks until the ball feels automatic."
   }
 ];
 

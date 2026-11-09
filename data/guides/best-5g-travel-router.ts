@@ -84,70 +84,151 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Speed and Wi-Fi Generation", "description": "Compared Wi-Fi 6 and Wi-Fi 7 speed ceilings alongside stated 4G/5G cellular speed capability." },
-  { "title": "Simultaneous Device Support", "description": "Compared the maximum number of devices each hotspot supports connecting at once." },
-  { "title": "SIM and Data Plan Flexibility", "description": "Compared built-in eSIM systems against standard Nano SIM slots and included starter SIM cards." },
-  { "title": "Battery Life", "description": "Compared stated battery capacity and usage hours across listings." },
-  { "title": "Additional Features", "description": "Compared touchscreen interfaces, VPN client support, and security features like firewalls and WPA3." }
+  {
+    "title": "Real 5G versus 4G LTE",
+    "description": "Despite the keyword, two of the four picks are 4G LTE: the GL.iNet MUDI and the SCHOK. Only the two NETGEAR Nighthawks are 5G. We labeled each by its true modem, since a buyer chasing 5G speed will be disappointed by a Cat 12 LTE device capped at 600Mbps."
+  },
+  {
+    "title": "Wi-Fi generation and device count",
+    "description": "The M7 lists Wi-Fi 7 up to 3.6Gbps for 32 devices, the M6 lists Wi-Fi 6 at 3.6Gbps PHY for 32 devices, and the SCHOK lists dual-band for 16. Several travel routers lack the 6GHz band, so we noted Wi-Fi 7 branding does not guarantee it. We weighed device count by how many gadgets a traveling family carries."
+  },
+  {
+    "title": "Battery capacity and honest runtime",
+    "description": "The M7 lists up to 10 hours, the GL.iNet a 7000mAh battery for up to 8 hours, and the SCHOK a 4000mAh removable battery. Real runtime under load is often shorter than claims, so we favored a removable battery or USB-C charging for a day of use. Neither NETGEAR listing offers a removable cell, so a power bank is the backup there."
+  },
+  {
+    "title": "SIM, eSIM, and carrier compatibility",
+    "description": "The M7 lists eSIM data plans in 140+ countries, and the M6 lists broad GSM and CDMA carrier compatibility. A hotspot is only useful if it works on your carrier's bands, so we credited eSIM options for travelers, and told buyers to confirm band support for their carrier."
+  },
+  {
+    "title": "VPN and router features",
+    "description": "The GL.iNet lists OpenVPN and WireGuard with 30+ VPN servers, which is useful for a hotel network. We compared these features against the hotspots, which focus on cellular speed and have fewer router options, and counted them as a real advantage for security-minded travelers."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Priority",
-    table: {
-      headers: ["What matters most", "Recommended pick"],
-      rows: [
-        ["Fastest speed, global eSIM coverage", "NETGEAR Nighthawk M7 5G Mobile Hotspot"],
-        ["VPN protection and customization", "GL.iNet GL-E750V2 MUDI"],
-        ["Touchscreen, 32-device support at lower price", "NETGEAR Nighthawk M6"],
-        ["Lowest price, basic reliable connectivity", "SCHOK 4G LTE Portable WiFi"]
+    "subheading": "By Travel Style",
+    "intro": "The right device depends on whether you travel overseas, for work, or just need backup internet.",
+    "table": {
+      "headers": [
+        "Your trip",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "International trips with several devices and eSIM data plans",
+          "NETGEAR Nighthawk M7 5G Mobile Hotspot, with Wi-Fi 7 and eSIM plans in 140+ countries"
+        ],
+        [
+          "Work trips where you need a VPN on hotel Wi-Fi",
+          "GL.iNet GL-E750V2 MUDI, with OpenVPN and WireGuard"
+        ],
+        [
+          "Domestic trips with a carrier SIM and a touchscreen",
+          "NETGEAR Nighthawk M6 5G/4G LTE Mobile Hotspot (MR6110), with broad carrier compatibility"
+        ],
+        [
+          "A backup connection for one or two devices at the lowest cost",
+          "SCHOK 4G LTE Portable WiFi, with a removable battery"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $50", "SCHOK 4G LTE Portable WiFi (under $50)"],
-        ["Under $180", "GL.iNet MUDI (under $170) or NETGEAR M6 (under $180)"],
-        ["Under $500", "NETGEAR Nighthawk M7 5G (under $500)"]
+    "subheading": "By Budget",
+    "intro": "The spread here is the widest in any travel gear category.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $50",
+          "SCHOK, the cheapest LTE hotspot"
+        ],
+        [
+          "Under $170",
+          "GL.iNet GL-E750V2, with VPN and a 7000mAh battery"
+        ],
+        [
+          "Under $180",
+          "NETGEAR Nighthawk M6, a real 5G hotspot with Wi-Fi 6"
+        ],
+        [
+          "Under $500",
+          "NETGEAR Nighthawk M7, with Wi-Fi 7 and eSIM"
+        ]
+      ]
+    }
   },
   {
-    subheading: "5G vs 4G LTE for Travel",
-    cards: [
-      { label: "5G (Nighthawk M7)", text: "Delivers significantly faster speeds where 5G coverage is strong, worth the premium for buyers regularly in well-covered urban and suburban areas." },
-      { label: "4G LTE (MUDI, Nighthawk M6, SCHOK)", text: "More consistently available across rural and international locations where 5G infrastructure remains limited, often a more reliable real-world choice." }
+    "subheading": "5G Hotspot vs 4G LTE Travel Router",
+    "intro": "The question is whether coverage and speed justify the price.",
+    "cards": [
+      {
+        "label": "5G hotspot (NETGEAR Nighthawk M7, NETGEAR Nighthawk M6)",
+        "text": "Faster where 5G is available, and supports many devices. It costs more and depends on your carrier's 5G coverage, so in a weak 5G area it falls back to LTE."
+      },
+      {
+        "label": "4G LTE device (GL.iNet GL-E750V2, SCHOK)",
+        "text": "Lower speeds, around 300Mbps to 600Mbps at best, but fine for video calls and browsing. These cost far less and are enough for most travelers."
+      }
     ],
-    note: "Check actual 5G coverage maps for your specific travel destinations before paying a premium for 5G capability that may not be available where you're actually traveling.",
+    "note": "Most travelers should default to LTE unless they will be in strong 5G coverage."
   },
   {
-    subheading: "By SIM/eSIM Approach",
-    table: {
-      headers: ["Your preference", "Recommended pick"],
-      rows: [
-        ["App-based global eSIM, no physical SIM", "NETGEAR Nighthawk M7"],
-        ["Physical eSIM card, operator switching", "GL.iNet MUDI"],
-        ["Standard Nano SIM, any compatible carrier", "NETGEAR Nighthawk M6"],
-        ["Included starter SIM card", "SCHOK 4G LTE Portable WiFi"]
+    "subheading": "By Battery Need",
+    "intro": "A hotspot that dies at noon is not useful.",
+    "table": {
+      "headers": [
+        "Your day",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A full day away from a charger",
+          "NETGEAR Nighthawk M7, with up to 10 hours listed"
+        ],
+        [
+          "A long day with a spare battery in the bag",
+          "SCHOK, with a removable 4000mAh battery"
+        ],
+        [
+          "A day with a portable charger and a power bank",
+          "GL.iNet GL-E750V2, with a 7000mAh battery"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Frequent International Business Travel Specifically",
-    cards: [
-      { label: "Look for", text: "App-based eSIM data plan purchasing that works across many countries without needing to locate and purchase a local SIM card at each destination, plus built-in security features like a firewall and WPA3 encryption for protecting sensitive business data." },
-      { label: "In this comparison", text: "The Nighthawk M7 specifically offers eSIM coverage across 140+ countries purchasable directly through its app, removing the local SIM card hunt at each destination." }
-    ],
+    "subheading": "For a Work Trip With a Laptop Specifically",
+    "intro": "Hotel and conference Wi-Fi is often slow or filtered.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A VPN client, a stated device count, and a SIM option that matches your carrier."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The GL.iNet GL-E750V2 offers VPN support, while the NETGEAR Nighthawk M7 offers the highest listed speed."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You travel internationally and want the fastest speed with app-based global eSIM purchasing, where the Nighthawk M7's under $500 price delivers genuinely differentiated international travel convenience." },
-      { label: "Save if", text: "You need reliable 4G connectivity for a family or small group's basic needs, where the SCHOK pick covers that for a fraction of the flagship price." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The M7 is far above the others in price.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need Wi-Fi 7 and 32 devices. The NETGEAR Nighthawk M7 costs the most and lists eSIM in 140+ countries."
+      },
+      {
+        "label": "Save if",
+        "text": "You need basic connectivity. The SCHOK costs the least and the GL.iNet GL-E750V2 adds VPN for much less than the 5G pair."
+      }
+    ]
   }
 ];
 
@@ -175,12 +256,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "What's the difference between a 5G travel router and a standard travel router?", "a": "A 5G or 4G travel router has its own built-in cellular modem and SIM slot, letting it connect to the internet independently through a cellular network, while a standard travel router requires an existing Wi-Fi or Ethernet connection to work from." },
-  { "q": "Do I need a data plan for a 5G or 4G travel router to work?", "a": "Yes, every router in this comparison requires either a SIM card with an active data plan or, for eSIM-capable models, a data plan purchased through the manufacturer's app." },
-  { "q": "Is 5G worth paying extra for compared to 4G LTE?", "a": "Only if you'll actually be in areas with strong 5G coverage; check coverage maps for your specific travel destinations, since 5G infrastructure remains considerably less widespread than 4G LTE, especially in rural or international areas." },
-  { "q": "Can I use my existing phone's SIM card in a cellular travel router?", "a": "Some models accept a standard SIM card you can move from a compatible unlocked device, but check your specific carrier's terms and the router's SIM compatibility, since data-only plans typically differ from standard phone plans." },
-  { "q": "How many devices can a cellular travel router realistically support at once?", "a": "The routers in this comparison range from 16 to 32 supported devices, though actual usable performance depends on how much bandwidth each connected device demands simultaneously." },
-  { "q": "Is a built-in eSIM better than a physical SIM card for travel?", "a": "eSIM removes the need to physically source and swap SIM cards at each destination, which is more convenient for frequent international travel, though a physical SIM gives you more flexibility to shop around for the cheapest local carrier plan independently." }
+  {
+    "q": "Do I need a 5G router or is 4G LTE enough?",
+    "a": "LTE is enough for video calls, browsing, and streaming for one or two people. Choose 5G if your carrier has strong 5G coverage where you travel and you need many devices or high speeds. A cheaper LTE device often feels the same on a video call."
+  },
+  {
+    "q": "Why is the GL.iNet in a 5G guide if it is 4G?",
+    "a": "It is a 4G LTE router with strong VPN features. We included it as a value pick, but it tops out at LTE speeds. A true 5G modem appears only on the two NETGEAR Nighthawk models. Treat it as a value pick for VPN and travel-router use."
+  },
+  {
+    "q": "Is the Nighthawk M7 worth paying more than the M6?",
+    "a": "If you want Wi-Fi 7 and eSIM plans in 140+ countries, yes. The M6 lists Wi-Fi 6 and broad carrier compatibility for much less, and it still reaches 3.6Gbps PHY for 32 devices. Both reach the same listed Wi-Fi throughput figure, so the difference is Wi-Fi generation and eSIM."
+  },
+  {
+    "q": "How do I set up a SIM on these hotspots?",
+    "a": "Insert a nano SIM from your carrier, then open the admin page or app and set the APN. The M7 also supports eSIM plans. Confirm the device supports your carrier's bands first. Check the carrier's band list against the device's before ordering."
+  },
+  {
+    "q": "Does a travel router work without a SIM?",
+    "a": "The GL.iNet can also act as a travel router for wired and Wi-Fi internet, and the others are cellular hotspots. A hotspot without a SIM or eSIM plan has no connection, so plan your data in advance. Buy a data plan or a local SIM before you leave."
+  },
+  {
+    "q": "How can I make the battery last longer?",
+    "a": "Turn off unused Wi-Fi bands, limit connected devices, and use USB-C power in the car or at a desk. The SCHOK has a removable battery, so a spare gives a second full day. Dim any display and lower the Wi-Fi power if the setting exists."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Controller Chip Certification", "description": "Distinguished Intel-certified chips from standard ASM2464PD chips across the lineup." },
-  { "title": "Cooling Method", "description": "Compared active fan cooling against fanless passive designs across all four picks." },
-  { "title": "Real-World Speed Benchmarks", "description": "Compared stated tested speeds and specific transfer time benchmarks." },
-  { "title": "Brand Track Record", "description": "Checked for established brand history and warranty terms across the tier." },
-  { "title": "Thunderbolt Generation Compatibility", "description": "Compared Thunderbolt 3/4 versus Thunderbolt 5 forward compatibility." }
+  {
+    "title": "Intel versus ASMedia controller",
+    "description": "We separated the two JHL7440 models from ACASIS from the ASM2464PD models from ICY BOX and UGREEN. Both chips deliver 40Gbps, but the Intel JHL7440 is the older design and often costs more, so at this tier we asked whether the extra money bought a measurable edge."
+  },
+  {
+    "title": "Measured throughput claims",
+    "description": "We compared the manufacturer figures, such as 2805 and 2734 MB/s read and write on the ACASIS fan model and up to 3600MB/s on the UGREEN over Thunderbolt 4. These are vendor claims on best-case hosts, so we used them to rank, not to promise speeds. We did not treat the Thunderbolt 4 figure as a promise, because speeds fall when the SSD fills up or the controller heats."
+  },
+  {
+    "title": "Cooling approach",
+    "description": "We looked at fan, fin and fanless designs. The ACASIS fan model, ICY BOX fanless, ACASIS finned and UGREEN double-sided fins differ in how they handle sustained writes, which can push a Gen4 SSD past 80C and trigger throttling without airflow. The Intel pair also works across more host generations, which matters if you move the enclosure between an older Thunderbolt 3 PC and a newer laptop."
+  },
+  {
+    "title": "Warranty and brand history",
+    "description": "We noted the ICY BOX 24-month warranty and 26-year brand history, and the UGREEN 8TB support. At this price, a longer warranty and a clear capacity limit separate a safe purchase from a gamble on a less-known seller. Zero moving parts on the finned ACASIS means no fan to fail, but also no active relief on a long write, so we weighed those tradeoffs together."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["An Intel-certified chip with active cooling for professional workloads", "ACASIS 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan (JHL7440)"],
-        ["An established brand with silent fanless operation", "ICY BOX 40Gbps M.2 NVMe SSD Enclosure, Tool-Free Aluminum"],
-        ["The same Intel chip with zero fan noise", "ACASIS 40Gbps M.2 NVMe SSD Enclosure, Aluminum Heat-Dissipating Fins"],
-        ["Efficient passive cooling at the lowest price", "UGREEN 40Gbps M.2 NVMe Enclosure, Double-Sided Fin Design"]
+    "subheading": "By Cooling Preference",
+    "intro": "Four enclosures offer three cooling styles.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The heaviest sustained copies, such as full drive clones",
+          "ACASIS 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan, with its active fan and JHL7440 chip"
+        ],
+        [
+          "Silence and zero moving parts",
+          "ACASIS 40Gbps M.2 NVMe SSD Enclosure, Aluminum, a fanless aluminum fin enclosure with no fan to fail"
+        ],
+        [
+          "A tool-free build with fanless aluminum and a longer warranty",
+          "ICY BOX Tool-Free Aluminum, with a 24-month warranty"
+        ],
+        [
+          "The slimmest body with double-sided fins",
+          "UGREEN 40Gbps Double-Sided Fin Design, ultra-slim at up to 3600MB/s"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $70", "UGREEN (under $70)"],
-        ["Under $72", "ACASIS Aluminum Fins (under $80)"],
-        ["Under $76", "ACASIS with Fan (under $80)"],
-        ["Under $80", "ICY BOX (under $80)"]
+    "subheading": "By Budget",
+    "intro": "Under $75 to $80 spans every option.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $75",
+          "UGREEN 40Gbps, the lowest price with 8TB support"
+        ],
+        [
+          "Under $75",
+          "ACASIS 40Gbps M.2 NVMe SSD Enclosure, Aluminum, for Intel JHL7440 without a fan"
+        ],
+        [
+          "Under $100",
+          "ACASIS 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan, for the fan and Intel controller"
+        ],
+        [
+          "Under $100",
+          "ICY BOX, for the brand history and warranty"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Intel-Certified Chip vs Standard ASM2464PD Chip",
-    cards: [
-      { label: "Intel-certified chip (ACASIS picks)", text: "Provides genuine Thunderbolt certification and dual-chip stability, backed by Intel's own testing standards." },
-      { label: "Standard ASM2464PD chip (ICY BOX, UGREEN)", text: "Provides Thunderbolt compatibility without Intel's specific certification, generally still reliable but with a different assurance level." }
+    "subheading": "Intel JHL7440 vs ASM2464PD",
+    "intro": "The two chips are rivals for 40Gbps enclosures at this price.",
+    "cards": [
+      {
+        "label": "Intel JHL7440",
+        "text": "The ACASIS 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan and ACASIS 40Gbps M.2 NVMe SSD Enclosure, Aluminum use it. It is a long-established Thunderbolt controller, with compatibility across Thunderbolt 5, 4, 3 and USB4 hosts."
+      },
+      {
+        "label": "ASMedia ASM2464PD",
+        "text": "The ICY BOX and UGREEN 40Gbps use it. It is the chip most current enclosures cite for 40Gbps, and it usually costs less."
+      }
     ],
-    note: "If certified reliability specifically matters for professional or mission-critical use, the ACASIS picks' Intel-certified chip is worth prioritizing. For typical everyday use, the ASM2464PD-based picks perform reliably at a comparable or lower price.",
+    "note": "Either reaches 40Gbps on a Thunderbolt 4 port. Pick by cooling and warranty rather than chip name."
   },
   {
-    subheading: "By Cooling Preference",
-    table: {
-      headers: ["Your cooling preference", "Recommended pick"],
-      rows: [
-        ["Active cooling for sustained heavy workloads", "ACASIS with Fan"],
-        ["Silent fanless operation", "ICY BOX or ACASIS Aluminum Fins"],
-        ["Efficient passive cooling at lower cost", "UGREEN"]
+    "subheading": "By Host Port",
+    "intro": "The host decides the speed.",
+    "table": {
+      "headers": [
+        "Your computer",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Thunderbolt 5 or 4 laptop",
+          "ACASIS 40Gbps M.2 NVMe SSD Enclosure, Aluminum, which lists Thunderbolt 5, 4, 3 and USB4 compatibility"
+        ],
+        [
+          "USB4 laptop",
+          "UGREEN 40Gbps, which lists up to 3600MB/s over Thunderbolt 4"
+        ],
+        [
+          "Mixed Thunderbolt and USB-C computers in one household",
+          "ICY BOX, which is fanless and works across ports"
+        ],
+        [
+          "Heavy video editing machine",
+          "ACASIS 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan, with its fan"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Recording Studio or Quiet Office Environment Specifically",
-    cards: [
-      { label: "Look for", text: "A fully fanless design using passive aluminum heat dissipation, eliminating any operational noise that could interfere with audio recording or a quiet workspace." },
-      { label: "In this comparison", text: "Both the ICY BOX and ACASIS Aluminum Fins picks specifically use fanless designs, explicitly marketed for recording studios and quiet office environments." }
-    ],
+    "subheading": "For Video Editors Specifically",
+    "intro": "Editors move large clips, which stresses cooling and write speed.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A fan or large fin area, a stated 8TB support or higher, and a controller that holds speed after several minutes."
+      },
+      {
+        "label": "In this comparison",
+        "text": "ACASIS 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan lists a fan with 2805 and 2734 MB/s read and write, and UGREEN 40Gbps lists 8TB support, so either suits an editor."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want an Intel-certified chip with active cooling for sustained professional workloads, where the ACASIS with Fan pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want efficient passive cooling with 8TB support, where the UGREEN pick covers that for about $6 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The next tier adds OWC and Lexar branding.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a longer warranty and real-world performance claims from a Mac-focused brand. The under $100 guide includes the OWC Express 1M2."
+      },
+      {
+        "label": "Save if",
+        "text": "You want 40Gbps and 8TB support at the lowest price. UGREEN 40Gbps costs the least."
+      }
+    ]
   }
 ];
 
@@ -183,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Does an Intel-certified chip like the JHL7440 make a noticeable real-world speed difference over the ASM2464PD chip?", "a": "The theoretical maximum speeds are similar between these chip types, so the practical difference comes down more to certification assurance and dual-chip stability claims rather than a dramatic real-world speed gap, with actual performance depending more on your specific SSD and cable combination." },
-  { "q": "What's the most common mistake buyers make when choosing between active and fanless cooling at this tier?", "a": "Assuming fanless designs always sacrifice significant performance, when the ACASIS Aluminum Fins pick uses the same Intel-certified chip as its fan-equipped sibling and performs well for typical use, with active cooling mainly benefiting the most sustained, extended heavy transfer workloads specifically." },
-  { "q": "Is the ACASIS with Fan pick worth it over the cheaper ACASIS Aluminum Fins option?", "a": "If you specifically run sustained, extended heavy workloads where active cooling prevents thermal throttling, yes, but if your use is more typical or intermittent, the fanless Aluminum Fins pick delivers the same Intel-certified chip and silent operation for about $4 less." },
-  { "q": "How do I remember to activate the ACASIS fan manually before starting a large file transfer?", "a": "Building a habit of pressing the fan switch before any large or extended transfer is the practical approach, though if you frequently forget this step, a fully automatic temperature-triggered enclosure like the ACASIS Aluminum Fins pick's passive design (which needs no activation at all) avoids this concern entirely." },
-  { "q": "Can I use these enclosures with a MacBook that only has USB-C ports without Thunderbolt support?", "a": "Yes, all four picks in this comparison work with standard USB-C ports, though achieving the full stated 40Gbps speed requires a genuine Thunderbolt 3/4 or USB4 port specifically, with a standard USB-C-only port delivering reduced speeds instead." },
-  { "q": "Do any of these enclosures come with the NVMe SSD included, or do I need to purchase that separately?", "a": "No, all four picks in this comparison are enclosures only, requiring you to purchase and install a compatible M.2 NVMe SSD separately, so factor that additional cost into your total budget when planning this purchase." }
+  {
+    "q": "Is JHL7440 better than ASM2464PD?",
+    "a": "Both deliver 40Gbps. JHL7440 is Intel's older Thunderbolt controller and works with a wide range of hosts, while ASM2464PD is newer, cheaper and common in current USB4 enclosures. Judge the model by cooling and warranty rather than chip alone."
+  },
+  {
+    "q": "Will my enclosure run at full speed on a USB 3.2 port?",
+    "a": "No. A 40Gbps enclosure falls back to the host's speed, so a USB 3.2 Gen 2 port gives about 10Gbps and Gen 1 gives 5Gbps. Look for a Thunderbolt or USB4 label on the port. Without the host port, the chip name does not matter, because a Thunderbolt 3 or 4 port already delivers 40Gbps to either design."
+  },
+  {
+    "q": "Is the ICY BOX worth the extra over the UGREEN?",
+    "a": "If you want the 24-month warranty, tool-free install and a brand with a long history, yes. The UGREEN lists a slimmer body and 8TB support at a lower price, so it wins on size and cost. Both include metal bodies that act as heat sinks, so cooling is similar for short jobs."
+  },
+  {
+    "q": "Does fanless cooling work for long copies?",
+    "a": "For moderate copies yes, but sustained writes to a Gen4 NVMe can push temperatures past 80C and trigger throttling. A fan model like the ACASIS with JHL7440 holds speed better on large jobs. If you move 200GB or more at a time, take the fan model, and if you only back up a few gigabytes, silence is a better trade."
+  },
+  {
+    "q": "Can I use any M.2 SSD?",
+    "a": "Use an NVMe M-key drive at 2280 length. SATA M.2 SSDs generally do not work in NVMe-only enclosures, and some drives, such as certain budget models, report compatibility quirks on Macs, so check user reports for your exact SSD."
+  },
+  {
+    "q": "How do I know the drive is running at 40Gbps?",
+    "a": "On a Mac, System Information lists the link speed. On Windows, a benchmark showing about 2500 to 3600 MB/s sequential suggests a 40Gbps link. A figure near 1000 MB/s means a 10Gbps fallback. Mac users can also check the Thunderbolt entry in System Information, which lists the negotiated link speed."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

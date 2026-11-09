@@ -191,165 +191,169 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Thumb fatigue over long sessions",
-    "explanation": "A thumb ball asks one digit to do the fine cursor work, so a stiff ball or an awkward reach can tire it. The standard 34mm ball is easy to roll, but if you work for six hours or more a day, test whether your thumb feels sore after the first week. Look for a stated thumb-operated design and a return window of at least 30 days."
+    "explanation": "A thumb ball asks one digit to do the fine cursor work, so a stiff ball or an awkward reach can tire it. The standard 34mm ball is easy to roll, but if you work for six hours or more a day, test whether your thumb feels sore after the first week. Look for a stated thumb-operated design and a return window of at least 30 days. Alternate between a thumb trackball and a regular mouse for the first week, and keep the cursor speed higher so you move the ball with short strokes."
   },
   {
     "criterion": "Tilt angle and forearm position",
-    "explanation": "Some thumb models tilt 15 to 20 degrees, which lifts the outer edge of your hand and reduces palm-down forearm twist. Others sit flat, which is fine if you do not mind. Look for a stated angle in degrees; a vague ergonomic claim without a number does not tell you anything."
+    "explanation": "Some thumb models tilt 15 to 20 degrees, which lifts the outer edge of your hand and reduces palm-down forearm twist. Others sit flat, which is fine if you do not mind. Look for a stated angle in degrees; a vague ergonomic claim without a number does not tell you anything. Look for a stated angle in degrees, such as 20 on MX Ergo S, since a flat body forces your forearm into the same twisted pose."
   },
   {
     "criterion": "Right-hand only construction",
-    "explanation": "Almost all thumb trackballs are shaped for the right hand, because the ball sits at the left of the body. A left-handed buyer should look for a model explicitly marked left-hand, or choose a finger ball instead. Check the title for the word right-handed or left-handed."
+    "explanation": "Almost all thumb trackballs are shaped for the right hand, because the ball sits at the left of the body. A left-handed buyer should look for a model explicitly marked left-hand, or choose a finger ball instead. Check the title for the word right-handed or left-handed. Left-handed buyers should check photos of the ball position before buying, and note that no mirror version of these models is listed."
   },
   {
     "criterion": "Bearing and ball smoothness",
-    "explanation": "The ball rides on small bearings, and plastic ones can feel sticky as dust builds up. Larger or ruby-type bearings stay smoother. Look for any mention of the bearing type, and check that the ball pops out for cleaning."
+    "explanation": "The ball rides on small bearings, and plastic ones can feel sticky as dust builds up. Larger or ruby-type bearings stay smoother. Look for any mention of the bearing type, and check that the ball pops out for cleaning. Look for listings that name a ball size, such as PORLEI's 34mm, and for a ball that pops out for cleaning, since stuck lint shows up as cursor jitter."
   },
   {
     "criterion": "Button layout and programmability",
-    "explanation": "Thumb balls usually include back and forward buttons near the thumb, and some let you reassign them. A six-button layout can map shortcuts like copy or paste. Check the listing for the button count and whether software is required for remapping."
+    "explanation": "Thumb balls usually include back and forward buttons near the thumb, and some let you reassign them. A six-button layout can map shortcuts like copy or paste. Check the listing for the button count and whether software is required for remapping. Count back and forward buttons, since a mouse replacement without them slows down browsing and file work."
   },
   {
     "criterion": "Charging versus cable",
-    "explanation": "A wired ball never dies but ties you to the computer, while a wireless one needs a battery. The wired USB-C route is simplest on modern laptops. Check for dual Type-A and Type-C plugs on wired listings."
+    "explanation": "A wired ball never dies but ties you to the computer, while a wireless one needs a battery. The wired USB-C route is simplest on modern laptops. Check for dual Type-A and Type-C plugs on wired listings. A wired model never dies mid-task, while a rechargeable ball with a rated runtime like MX Ergo S's 120 days rarely needs attention."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Thumb ergonomics",
-    "description": "We compared shell shape, tilt where listed and any ergonomic certification claims in the listing text."
+    "title": "Thumb fatigue over long sessions",
+    "description": "A thumb ball moves the cursor with one digit, so it can tire the thumb if you work for hours. We checked each listing for ergonomic features, such as the 20 degree tilt on Logitech MX Ergo S, and for the adjustable speed that lets you move the cursor with smaller thumb motions."
   },
   {
-    "title": "Connection and power",
-    "description": "Wired versus Bluetooth, receiver details and battery type were checked from each listing."
+    "title": "Tilt angle and forearm position",
+    "description": "MX Ergo S lists a 20 degree tilt, which angles the forearm toward a handshake posture, while Nulea and PORLEI sit flat. We weighed this because a flat thumb trackball keeps the forearm twisted, which is the position many buyers are trying to escape."
   },
   {
-    "title": "Button and software features",
-    "description": "Button counts, DPI steps and programmable options were weighed."
+    "title": "Hand fit and right-hand construction",
+    "description": "Nearly all thumb trackballs here are built for the right hand, so a left-handed buyer should look at ambidextrous designs instead. We noted compact bodies, such as M575, since a small hand can reach the ball and the buttons more comfortably."
   },
   {
-    "title": "Fit for the thumb layout",
-    "description": "We noted which models use a standard 34mm ball and which listings leave ball size out."
+    "title": "Connection and charging",
+    "description": "MX Ergo S offers USB-C charging with a 120 day full-charge rating, Nulea M501 is rechargeable with Bluetooth and a dongle, and Nulea M509 and PORLEI are wired. We compared each on how often you would charge or replace anything."
   },
   {
-    "title": "Value for price",
-    "description": "We compared price against listed features and buyer feedback themes."
+    "title": "Buttons and software",
+    "description": "Nulea has six buttons and four DPI levels, M575 uses Logi Tune, and MX Ergo S lists six customizable buttons. We scored higher for listings that state button count and software, since a trackball with no back or forward button is a downgrade from a mouse."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Usage Level",
+    "subheading": "By Hand and Desk Setup",
+    "intro": "Thumb trackballs are right-handed, so fit comes first.",
     "table": {
       "headers": [
-        "Your situation",
+        "Situation",
         "Recommended pick"
       ],
       "rows": [
         [
-          "You sit at a trackball all day",
-          "Logitech MX Ergo S Advanced Wireless Trackball"
+          "Wrist posture is the priority",
+          "Logitech MX Ergo S Advanced, with a 20 degree tilt."
         ],
         [
-          "You manage a team's peripherals",
-          "Logitech Ergo M575 for Business Wireless Trackball"
+          "Managed office deployment",
+          "Logitech Ergo M575 for Business, certified by US Ergonomics per the listing."
         ],
         [
-          "You want the original white M575",
-          "Logitech Ergo M575 Wireless Trackball (White)"
+          "White desk setup",
+          "Logitech Ergo M575 Wireless Trackball (White)."
         ],
         [
-          "You want wireless on a budget",
-          "Nulea M501 Wireless Thumb Trackball Mouse"
+          "Budget wireless, multiple devices",
+          "Nulea M501, with Bluetooth and a dongle."
         ],
         [
-          "You want wired and USB-C ready",
-          "Nulea M509 Wired Thumb Trackball Mouse"
+          "Wired, no battery",
+          "Nulea M509 Wired Thumb Trackball."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Spend on tilt and software, or save with a plain ball.",
     "table": {
       "headers": [
-        "Budget",
+        "Price range",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $28",
-          "PORLEI Wired Thumb Trackball Mouse, 34mm"
+          "Under $28, cheapest",
+          "PORLEI Wired Thumb Trackball, 34mm."
         ],
         [
-          "$28 to $34",
-          "Nulea M501 Wireless Thumb Trackball Mouse"
+          "$28 to $34, wireless",
+          "Nulea M501 Wireless."
         ],
         [
-          "$40 to $60",
-          "Logitech Ergo M575 for Business Wireless Trackball"
+          "$40 to $60, Logitech thumb layout",
+          "Logitech Ergo M575 for Business."
         ],
         [
-          "About $100",
-          "Logitech MX Ergo S Advanced Wireless Trackball"
+          "Over $90, flagship",
+          "Logitech MX Ergo S."
         ]
       ]
     }
   },
   {
-    "subheading": "Tilted vs Flat Body",
+    "subheading": "Wired vs Wireless",
+    "intro": "Cable convenience against reliability.",
     "cards": [
       {
-        "label": "Tilted",
-        "text": "A hinged or angled body lifts the outer edge of your hand to reduce forearm rotation. In this list the Logitech MX Ergo S Advanced Wireless Trackball lists a 20 degree tilt."
+        "label": "Wired",
+        "text": "No battery, no pairing, and nothing to forget. Nulea M509 and PORLEI work immediately, though the cable is 5.9 feet or 1.8m and limits placement."
       },
       {
-        "label": "Flat",
-        "text": "A flat body is simpler and lower, and it suits people who find a raised shape awkward. The Nulea M501 Wireless Thumb Trackball Mouse, Nulea M509 Wired Thumb Trackball Mouse and PORLEI Wired Thumb Trackball Mouse, 34mm are flat, and the Logitech Ergo M575 for Business Wireless Trackball has no listed tilt."
+        "label": "Wireless",
+        "text": "A clean desk and device switching. Nulea M501 pairs three devices, while Logitech models use Bluetooth, but need charging."
       }
     ],
-    "note": "Most buyers should start flat unless they already feel forearm strain with a regular mouse."
+    "note": "Pick wired Nulea M509 for a fixed desk and wireless MX Ergo S if you move between devices."
   },
   {
-    "subheading": "Wired or Wireless Connection",
+    "subheading": "By Customization Need",
+    "intro": "Software and button count decide how much you can adapt it.",
     "table": {
       "headers": [
-        "Your situation",
+        "Need",
         "Recommended pick"
       ],
       "rows": [
         [
-          "You want no batteries ever",
-          "Nulea M509 Wired Thumb Trackball Mouse"
+          "Most customizable buttons, six",
+          "Logitech MX Ergo S."
         ],
         [
-          "You want RGB lighting and a low cost",
-          "PORLEI Wired Thumb Trackball Mouse, 34mm"
+          "Four DPI levels, three devices",
+          "Nulea M501."
         ],
         [
-          "You want three paired devices",
-          "Nulea M501 Wireless Thumb Trackball Mouse"
+          "Cursor speed through software",
+          "Logitech Ergo M575 for Business via Logi Tune."
         ],
         [
-          "You want fast charging",
-          "Logitech MX Ergo S Advanced Wireless Trackball"
+          "Five DPI settings, simple",
+          "PORLEI Wired Thumb Trackball."
         ]
       ]
     }
   },
   {
-    "subheading": "For Hybrid Office Workers Specifically",
+    "subheading": "For Wrist Strain Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "A compact body, easy device switching and a long battery or a cable you can keep plugged in."
+        "text": "A stated tilt angle, a thumb ball that sits under your resting thumb and adjustable speed so you move it less."
       },
       {
         "label": "In this comparison",
-        "text": "The Nulea M501 Wireless Thumb Trackball Mouse switches between three devices, while the Nulea M509 Wired Thumb Trackball Mouse suits a permanent laptop dock with its Type-C plug."
+        "text": "MX Ergo S lists a 20 degree tilt, and M575 has a sculpted shell certified by US Ergonomics per its business listing."
       }
     ]
   },
@@ -358,11 +362,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You use a thumb ball for hours daily and want tilt, fast charging and a precision toggle, which the Logitech MX Ergo S Advanced Wireless Trackball offers."
+        "text": "You trackball for hours. MX Ergo S, over $90, adds tilt, USB-C and button customization."
       },
       {
         "label": "Save if",
-        "text": "You are trying thumb control for the first time, where the PORLEI Wired Thumb Trackball Mouse, 34mm or Nulea M509 Wired Thumb Trackball Mouse keeps cost low."
+        "text": "You want to try the format first. PORLEI under $28 and Nulea M501 at $28 to $34 are cheap ways to test."
       }
     ]
   }
@@ -371,28 +375,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Does a thumb trackball work for left-handed users?",
-    "a": "Most thumb balls are built for the right hand. A left-hand model exists from some brands, but none in this list is marked left-handed. Left-handers usually do better with a finger-operated ball."
+    "q": "Is a thumb trackball better for my wrist than a mouse?",
+    "a": "It can be, because the hand stays still and the thumb does the movement. Logitech MX Ergo S adds a 20 degree tilt that eases forearm twist, but a thumb ball can tire the thumb, so build up use gradually."
   },
   {
-    "q": "Will my thumb get tired?",
-    "a": "It can, especially in the first week and with a stiff ball. Take short breaks and try a trial period of a couple of weeks. If your thumb stays sore, switch to a finger trackball."
+    "q": "Will a thumb trackball work for left-handed users?",
+    "a": "Mostly no. Almost every thumb trackball in this list is right-hand only, so a left-handed buyer should look at an ambidextrous or centre-ball design instead. Check the shape in the listing photos before buying."
   },
   {
-    "q": "Can I replace the ball if I lose it?",
-    "a": "Replacement 34mm balls are sold separately for some models, like the M575 family, but check compatibility. Do not buy a ball sold with no mouse unless the listing names your model."
+    "q": "Is Logitech MX Ergo S worth it over the cheaper Nulea M501?",
+    "a": "If you want the tilt and the Logitech software, yes. Ergo S lists USB-C charging with 120 days on a full charge and 6 customizable buttons, while Nulea M501 gives Bluetooth, a dongle and three-device pairing for a much lower price but no tilt."
   },
   {
-    "q": "Is the MX Ergo S worth it over the cheaper M575 line?",
-    "a": "If you work at a trackball all day, the tilt, fast charging and precision switch are worth the money. For lighter use the M575 line or the Nulea covers the basics. Price is the deciding factor."
+    "q": "Is a wired trackball better than a wireless one?",
+    "a": "For reliability, yes. Nulea M509 and PORLEI plug in with no pairing or batteries, and Nulea M509 fits both USB-C and USB-A ports. The cable limits where the trackball can sit, so measure from the port."
   },
   {
-    "q": "How do I clean the ball and sensor?",
-    "a": "Push the ball out through the underside hole, wipe the ball and rollers with a lint-free cloth, and let it dry. Do this every few weeks. Avoid harsh solvents."
+    "q": "How do I clean a thumb trackball?",
+    "a": "Pop out the ball, wipe it with a dry or slightly damp cloth, and remove dust from the three support bearings with a cotton swab. Do this every few weeks, since lint on the bearings is the usual reason the cursor sticks."
   },
   {
-    "q": "Do thumb trackballs work on glass or any surface?",
-    "a": "Yes, since the body stays still and the ball does the tracking. This makes them good for couches, glass desks and cluttered work surfaces."
+    "q": "Does a thumb trackball work on a small desk?",
+    "a": "Yes, and that is a strength. Because the body stays still, it needs a patch only as wide as the device, so M575 and PORLEI suit tight spots. A wired model also avoids a charging cable on a crowded desk."
   }
 ];
 

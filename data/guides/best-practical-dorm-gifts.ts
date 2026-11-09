@@ -5,7 +5,7 @@ export const metaDescription = "Seven practical dorm gifts students use weekly, 
 export const mainKeyword = "practical dorm gifts";
 export const introParagraphs = [
   "Dorm life has three chronic shortages: closet space, floor space and time. The most practical gifts attack one of those directly, like a laundry bag you can carry on your back to the laundromat or hangers that triple a rail's capacity. Anything that does not save space or time tends to get relegated to a box under the bed by October.",
-  "We looked at seven gifts between about $7 and $17 that each solve one specific dorm problem. Our comparison covered listed capacities, dimensions, materials and what is included in the box. Nothing here plugs in or heats, so housing rules are not a worry, and the whole set could fit in one extra bag on move-in day."
+  "We looked at seven gifts between under $10 and $17 that each solve one specific dorm problem. Our comparison covered listed capacities, dimensions, materials and what is included in the box. Nothing here plugs in or heats, so housing rules are not a worry, and the whole set could fit in one extra bag on move-in day."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/415C8zKePDL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07QLK56D4?tag=deskfinds0d-20",
-    "description": "Dalykate is a 115L laundry bag measuring 13 inches across and 29 inches tall, big enough for 2 to 3 loads, with adjustable padded shoulder straps up to 28.4 inches, a 13 by 9 inch front mesh pocket for detergent, an inner zip pocket and a hanging loop. The 600D oxford cloth is waterproof, machine washable and listed for up to 44 pounds.\n\nCompared with the Lifewit hampers below, it is a bag you carry on your back, which matters when the laundry room is a few floors away. It costs about $5 more and does not stand on its own.\n\nBest for a student who hauls laundry to a basement or laundromat. The caveat is that it needs a good knot on the drawstring, and it is large when full.",
+    "description": "Dalykate is a 115L laundry bag measuring 13 inches across and 29 inches tall, big enough for 2 to 3 loads, with adjustable padded shoulder straps up to 28.4 inches, a 13 by 9 inch front mesh pocket for detergent, an inner zip pocket and a hanging loop. The 600D oxford cloth is waterproof, machine washable and listed for up to 44 pounds.\n\nCompared with the Lifewit hampers below, it is a bag you carry on your back, which matters when the laundry room is a few floors away. It costs under $10 more and does not stand on its own.\n\nBest for a student who hauls laundry to a basement or laundromat. The caveat is that it needs a good knot on the drawstring, and it is large when full.",
     "specs": [
       "115L, 2 to 3 loads",
       "600D oxford, up to 44 lbs",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51ArGXhiuCL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0B7JGC67R?tag=deskfinds0d-20",
-    "description": "Lifewit gives two freestanding collapsible hampers, each 15.7 by 11.8 by 26.4 inches and 80L, with an iron wire frame sewn into the top edge, reinforced handles and a PE waterproof interior coating. They fold into one piece for storage.\n\nAgainst Dalykate, you get two hampers for about $5 less, so one can hold whites and one colors, but neither has straps. Unlike the wall-hung options, they stand on the floor, which takes room in a small dorm.\n\nBest for a student who wants to sort laundry in the room. The caveat is that a full hamper must sit on a flat surface to stay upright, and two take floor space.",
+    "description": "Lifewit gives two freestanding collapsible hampers, each 15.7 by 11.8 by 26.4 inches and 80L, with an iron wire frame sewn into the top edge, reinforced handles and a PE waterproof interior coating. They fold into one piece for storage.\n\nAgainst Dalykate, you get two hampers for under $10 less, so one can hold whites and one colors, but neither has straps. Unlike the wall-hung options, they stand on the floor, which takes room in a small dorm.\n\nBest for a student who wants to sort laundry in the room. The caveat is that a full hamper must sit on a flat surface to stay upright, and two take floor space.",
     "specs": [
       "2 hampers, 80L each",
       "Iron wire frame, stands up",
@@ -219,51 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Closet rail and drawer space",
-    "explanation": "A dorm closet is often one rail and a shelf, so storage gifts must work in that footprint. Stackable hangers can multiply rail capacity, but the thickness and material decide how much weight they take. Look for stated materials and the number of holes, and avoid claims with no specifics."
+    "explanation": "A dorm closet is often one rail and a shelf, so storage gifts must work in that footprint. Stackable hangers can multiply rail capacity, but the thickness and material decide how much weight they take. Look for stated materials and the number of holes, and avoid claims with no specifics. Measure the rod length and height before buying, since cascading hangers only help if the drop below them is free."
   },
   {
     "criterion": "Laundry route and carry style",
-    "explanation": "If the laundry room is across campus, a backpack bag beats a basket, while a freestanding hamper suits an in-room routine. A bag with a stated capacity of 2 to 3 loads covers a typical week. Look for a listed capacity in liters or loads and the strap length."
+    "explanation": "If the laundry room is across campus, a backpack bag beats a basket, while a freestanding hamper suits an in-room routine. A bag with a stated capacity of 2 to 3 loads covers a typical week. Look for a listed capacity in liters or loads and the strap length. Count the stairs and the distance to the laundry room, because a loaded 115L bag is far easier to carry on your back than a hamper in your hands."
   },
   {
     "criterion": "No-drill mounting",
-    "explanation": "Most dorms forbid drilling or nails, so adhesive and hook products must be removable. Adhesive strips need clean, smooth surfaces, and cinder block walls often defeat them. Look for a stated load limit and the surfaces that are supported."
+    "explanation": "Most dorms forbid drilling or nails, so adhesive and hook products must be removable. Adhesive strips need clean, smooth surfaces, and cinder block walls often defeat them. Look for a stated load limit and the surfaces that are supported. Test adhesive hooks on a spare corner first, and avoid placing them above a heater or near a damp wall where the glue loosens."
   },
   {
     "criterion": "Material and microwave safety",
-    "explanation": "Wheat straw and polypropylene are microwave safe only when the label says so, and they should never go into a conventional oven. Using an unrated plastic in a microwave can warp or release odors. Look for the exact material in the bullets and any usage warning."
+    "explanation": "Wheat straw and polypropylene are microwave safe only when the label says so, and they should never go into a conventional oven. Using an unrated plastic in a microwave can warp or release odors. Look for the exact material in the bullets and any usage warning. Look for the words microwave safe and BPA free in the listing, and avoid heating plastic lids in the microwave even when the bowl allows it."
   },
   {
     "criterion": "Foldability and storage",
-    "explanation": "Dorm rooms do not have a closet for storing empty hampers, so a collapsible design is a real advantage. A foldable hamper with a wire frame stands up when needed and folds flat when empty. Look for a folded size or 'collapsible' in the bullets."
+    "explanation": "Dorm rooms do not have a closet for storing empty hampers, so a collapsible design is a real advantage. A foldable hamper with a wire frame stands up when needed and folds flat when empty. Look for a folded size or 'collapsible' in the bullets. Compare the folded dimensions with a drawer or under-bed gap, since a hamper that stays standing all week uses floor space."
   },
   {
     "criterion": "Glass and breakage risk",
-    "explanation": "Glass jars look nice but can break in a backpack or on a hard floor. If the student moves rooms every year, plastic or acrylic is safer. Check whether the listing says glass and consider wrapping it for transport."
+    "explanation": "Glass jars look nice but can break in a backpack or on a hard floor. If the student moves rooms every year, plastic or acrylic is safer. Check whether the listing says glass and consider wrapping it for transport. Glass is fine on a desk but risky on a shared shelf, so give it to someone with a steady spot and not a crowded one."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Problem solved",
-    "description": "We looked for a clear dorm problem each gift addresses, like laundry, closet space or key loss."
+    "title": "Closet rail and drawer space",
+    "description": "A dorm closet is often one short rail, so we compared what each gift saves. HEYHOUSE's six hangers with 9 holes each stack clothes vertically, and we weighed whether a student with a small closet would use them more than a novelty item. A gift that frees rail space beats one that adds clutter."
   },
   {
-    "title": "Capacity and size",
-    "description": "Liters, dimensions and piece counts were compared against a small dorm closet and desk."
+    "title": "Laundry route and carry style",
+    "description": "If the laundry room is down the hall, a backpack bag beats a hamper. Dalykate lists 115L for 2 to 3 loads and up to 44 lbs, while Lifewit gives two 80L collapsible hampers, so we scored how each carries and stores between trips. Weight limits matter once wet towels are in the bag."
   },
   {
-    "title": "Materials and care",
-    "description": "Oxford cloth, PP plastic, stainless steel and glass were compared by what the listing states."
+    "title": "No-drill mounting",
+    "description": "Most dorms forbid drilling or nails. VIRFIN lists 2 adhesive tapes and a hold of at least 5 lbs, and we favored it for that reason, while noting that adhesive hooks fail on textured cinder block walls. Dorm damage fees make this the most practical filter."
   },
   {
-    "title": "Dorm rule fit",
-    "description": "No-drill mounting and no-heat items ranked higher to avoid housing violations."
+    "title": "Material, cleaning and safety",
+    "description": "Romooa's wheat straw bowl set is a cook, drain and serve kit, and we checked how it is cleaned and whether the listing says microwave safe. Dalykate is machine washable, and Hushee is glass, so breakage mattered there. We recorded where a listing gave no care instructions."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from about $7 to $17 were compared against what each gift does."
+    "title": "Foldability and gift value",
+    "description": "A dorm has no spare closet, so Lifewit's hampers that fold flat and ILSYINH's 4 by 4 inch acrylic sign take little room. We compared each gift's cost against how often a student would use it, preferring everyday items over novelties. Frequency of use beats novelty on a student budget."
   }
 ];
 
@@ -274,35 +274,36 @@ export const howToChoose: HowToChooseSection[] = [
     "intro": "Start with what the student is short on.",
     "table": {
       "headers": [
-        "Your situation",
+        "Problem",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Laundry room is far away",
-          "Dalykate 115L Backpack Laundry Bag"
+          "Long walk to the laundry room",
+          "Dalykate 115L Backpack Laundry Bag, with backpack straps and 2 to 3 loads."
         ],
         [
-          "Wants to sort laundry in the room",
-          "Lifewit 80L Collapsible Laundry Hampers 2 Pack"
+          "No place to sort laundry",
+          "Lifewit 80L Collapsible Laundry Hampers 2 Pack, which fold flat when empty."
         ],
         [
           "Tiny closet rail",
-          "HEYHOUSE 6 Pack Magic Closet Hangers"
+          "HEYHOUSE 6 Pack Magic Closet Hangers, 9 holes each."
         ],
         [
-          "Cannot drill into walls",
-          "VIRFIN Adhesive Wall Key Holder with 3 Hooks"
+          "No kitchen, ramen late at night",
+          "Romooa 45 oz Wheat Straw Pig Ramen Bowl Set with a drain bowl and utensils."
         ],
         [
-          "Late-night noodle meals",
-          "Romooa 45 oz Wheat Straw Pig Ramen Bowl Set"
+          "Keys always lost, walls cannot be drilled",
+          "VIRFIN Adhesive Wall Key Holder with 3 Hooks."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Every pick here is under $20, with the cheapest near the entry.",
     "table": {
       "headers": [
         "Price range",
@@ -311,64 +312,66 @@ export const howToChoose: HowToChooseSection[] = [
       "rows": [
         [
           "Under $7",
-          "VIRFIN Adhesive Wall Key Holder with 3 Hooks"
+          "VIRFIN Adhesive Wall Key Holder with 3 Hooks."
         ],
         [
-          "$9 to $10",
-          "ILSYINH Funny Dorm Acrylic Desk Sign"
+          "$9 to $10, decor",
+          "ILSYINH Funny Dorm Acrylic Desk Sign."
         ],
         [
-          "$12 to $13",
-          "Lifewit 80L Collapsible Laundry Hampers 2 Pack"
+          "$12 to $13, storage",
+          "Lifewit 80L Collapsible Laundry Hampers 2 Pack, or HEYHOUSE closet hangers."
         ],
         [
-          "$13 to $15",
-          "Hushee 1200ml Glass Treat Jar with Metal Lid"
+          "$13 to $15, kitchen",
+          "Romooa Ramen Bowl Set or Hushee Glass Treat Jar."
         ],
         [
-          "$16 to $17",
-          "Dalykate 115L Backpack Laundry Bag"
+          "$16 to $17, heavy use",
+          "Dalykate 115L Backpack Laundry Bag."
         ]
       ]
     }
   },
   {
     "subheading": "Carry Bag vs Standing Hamper",
+    "intro": "The way laundry travels decides which fits.",
     "cards": [
       {
         "label": "Backpack laundry bag",
-        "text": "Carried on the back, good for long trips, but it does not stand and must hang or lean. Dalykate."
+        "text": "Carried hands free, good for long trips, but it does not stand and must hang or lean. Dalykate holds up to 44 lbs."
       },
       {
         "label": "Freestanding hamper",
-        "text": "Stands upright in the room and sorts loads, but takes floor space and is carried by handles. Lifewit, as a pack of two."
+        "text": "Stands upright and sorts loads, but takes floor space and is carried by handles. Lifewit provides two, and folds flat when empty."
       }
     ],
-    "note": "Choose the backpack if the laundry room is far, and the hampers if it is down the hall."
+    "note": "Pick Dalykate if the laundry room is far away, and Lifewit if the room has space for two hampers."
   },
   {
     "subheading": "Closet vs Wall Storage",
+    "intro": "Space is the constraint in every dorm.",
     "table": {
       "headers": [
-        "Your concern",
+        "Constraint",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Not enough hanging space",
-          "HEYHOUSE 6 Pack Magic Closet Hangers"
+          "Closet rail is crowded",
+          "HEYHOUSE 6 Pack Magic Closet Hangers, which stack clothes vertically."
         ],
         [
-          "Keys and hats keep getting lost",
-          "VIRFIN Adhesive Wall Key Holder with 3 Hooks"
+          "No floor space",
+          "VIRFIN Adhesive Wall Key Holder, mounted with adhesive."
         ],
         [
-          "Snacks need a home",
-          "Hushee 1200ml Glass Treat Jar with Metal Lid"
+          "Shelf-top storage",
+          "Hushee 1200ml Glass Treat Jar."
         ],
         [
-          "Laundry piles on the floor",
-          "Lifewit 80L Collapsible Laundry Hampers 2 Pack"
+          "Desk space only",
+          "ILSYINH Funny Dorm Acrylic Desk Sign, 4 by 4 inches."
         ]
       ]
     }
@@ -382,7 +385,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "Dalykate 115L Backpack Laundry Bag hangs from a loop and Lifewit 80L Collapsible Laundry Hampers 2 Pack folds flat when empty, both keeping floor space free."
+        "text": "Dalykate 115L hangs from a loop and Lifewit 80L folds flat when empty, both keeping floor space free."
       }
     ]
   },
@@ -391,11 +394,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "The student does a lot of laundry or has a packed wardrobe. Dalykate 115L Backpack Laundry Bag and HEYHOUSE 6 Pack Magic Closet Hangers are used weekly."
+        "text": "The student does a lot of laundry or has a packed wardrobe. Dalykate 115L and HEYHOUSE 6 Pack are used weekly."
       },
       {
         "label": "Save if",
-        "text": "You only need a small add-on. VIRFIN Adhesive Wall Key Holder with 3 Hooks and ILSYINH Funny Dorm Acrylic Desk Sign cost about $10 or less."
+        "text": "You only need a small add-on. VIRFIN Key Holder and ILSYINH Acrylic Sign sit under $10."
       }
     ]
   }
@@ -404,24 +407,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "How do I stick a wall hook to dorm walls?",
-    "a": "Clean the surface, press the adhesive for about half a minute, and wait before hanging items, as VIRFIN's listing suggests with its two installation tries. Painted cinder block can resist adhesive, so test a spot first."
+    "q": "What is the most useful gift for a dorm student on a small budget?",
+    "a": "A laundry bag is the highest-use item. Dalykate 115L has backpack straps, a front pocket for detergent and a 44 lb limit, and a typical student uses it weekly. HEYHOUSE's 6 pack hangers and VIRFIN's key hooks are cheaper practical add-ons."
   },
   {
-    "q": "Are magic hangers worth it?",
-    "a": "If your closet rail is short, yes, since they stack clothes vertically. They are not for heavy coats, so keep those on regular hangers."
+    "q": "Will adhesive hooks stay up on dorm walls?",
+    "a": "Often, but not on every surface. VIRFIN lists a hold of at least 5 lbs with 2 adhesive tapes, which suits keys, but painted cinder block and textured walls can defeat adhesive. Clean the spot with alcohol first and press for 30 seconds."
   },
   {
-    "q": "Which laundry bag is better, a backpack or a hamper?",
-    "a": "A backpack is better if you carry laundry far, while a freestanding hamper is better for sorting at home. Dalykate is the backpack and Lifewit is the hamper."
+    "q": "Is the Romooa ramen bowl safe in a microwave?",
+    "a": "Confirm the microwave note on the Romooa listing, since wheat straw ware varies by maker. Never put the metal chopsticks or fork in the microwave, handwash the bowls gently and dry them fully so the straw fiber does not hold water."
   },
   {
-    "q": "Can I use a wheat straw bowl in the microwave?",
-    "a": "Yes when the label says microwave safe, but never use it in a conventional oven. Follow the listing's instructions and avoid overheating empty."
+    "q": "Is Lifewit's two-pack worth it over a single laundry bag?",
+    "a": "If the student has a car or short walk to laundry, yes. Lifewit gives two 80L hampers that stand up, fold flat and sort whites from colors, while Dalykate is one 115L backpack bag that suits a long trek to a laundry room."
   },
   {
-    "q": "How do I clean a glass treat jar?",
-    "a": "Wash it by hand with warm soapy water and dry fully before refilling. Check that the lid seal is clean so food stays fresh."
+    "q": "Are the funny decor gifts worth it?",
+    "a": "They are gifts, not tools. ILSYINH's acrylic sign and Hushee's glass treat jar add personality at around the $10 to $15 level, but only the jar also stores snacks. Pair a decor piece with a useful gift for the best result."
+  },
+  {
+    "q": "How should I pack a glass jar for shipping to a dorm?",
+    "a": "Wrap Hushee's 1200ml glass jar in clothing and keep it near the middle of a box, because glass breaks if it hits a hard corner. The airtight metal lid keeps snacks fresh. If you are sending it by mail, add padding around the lid."
   }
 ];
 

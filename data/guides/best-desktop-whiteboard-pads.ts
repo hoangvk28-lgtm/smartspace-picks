@@ -104,99 +104,143 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Flat or low-angle placement only", description: "We excluded freestanding upright boards, keeping this comparison to products that genuinely sit flat or at a low angle in front of a keyboard." },
-  { title: "Material: paper pad vs. glass", description: "We compared cheaper paper-pad products against glass surfaces, noting glass's better long-term ghosting resistance versus the paper pads' lower cost." },
-  { title: "Writing area within the low-profile format", description: "We noted where double-sided or larger pads offer more usable writing area within the same flat-format constraint." },
-  { title: "Review volume as reliability evidence", description: "We weighted established review history for confidence in each specific product's durability and quality." }
+  {
+    "title": "Flat or low-angle placement",
+    "description": "We separated true pad formats from upright boards. The Scribbledo pads lie flat, Lumspax and the glass options use a low profile stand, and none stand upright, so each fits in front of a keyboard where a taller board would block your view. Placement also decides whether you can see the pad while typing."
+  },
+  {
+    "title": "Surface type and ghosting",
+    "description": "We compared paper style surfaces against glass. Sources note that cheaper melamine surfaces ghost faster and glass resists ghosting, so the two glass picks earned credit for durability while the paper pads earned credit for price and flat storage. Ghosting is the main long term complaint with this format."
+  },
+  {
+    "title": "Writing area against desk depth",
+    "description": "We compared 5x7 inch, 8 x 6 inch, 9x12 inch and 10 x 10 inch formats. A bigger surface gives room for a to-do list but uses desk depth in front of your keyboard, so we scored the best usable area for the depth consumed. Depth lost to the pad is depth taken from your wrist rest."
+  },
+  {
+    "title": "Single or double sided",
+    "description": "We checked which pads can be flipped. The Scribbledo 9x12 and Lumspax 10 x 10 are double-sided, effectively doubling usable writing space inside one footprint, while the 5x7 pad pays for its low price with a single small face. A flip side is the cheapest way to double the space."
+  },
+  {
+    "title": "Ruling, lines and price",
+    "description": "We noted the lined surface on both Scribbledo pads and compared the price tier, with the two Scribbledo options and Lumspax all under $10 and the glass picks costing a little more. A pad that costs less than lunch has to earn its desk space. Price alone should not decide if you write daily."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Paper Pad vs. Glass Low-Profile Board",
-    cards: [
-      { label: "Paper pad (Scribbledo)", text: "Cheapest option, genuinely flat, but wears faster than glass over repeated use." },
-      { label: "Glass low-angle (TSJ, Mini Pure Glass)", text: "Better long-term ghosting resistance, at a moderate price increase." }
-    ],
+    "subheading": "By Placement",
+    "intro": "The right pad depends on where it sits relative to your keyboard.",
+    "table": {
+      "headers": [
+        "Where it will go",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Flat in front of the keyboard for quick notes",
+          "Scribbledo Mini Dry Erase Notepad 5x7, which is the smallest and cheapest"
+        ],
+        [
+          "Flat but with more space for a list",
+          "Scribbledo Dry Erase Board with Lines for Desk, 9x12, double-sided"
+        ],
+        [
+          "Slightly angled so you can see it without leaning forward",
+          "Lumspax Small Desktop White Board with Stand, 10 x 10"
+        ],
+        [
+          "A glass surface at a low angle in front of a monitor",
+          "Small Glass Desktop Whiteboard Dry-Erase, Mini Pure Glass"
+        ]
+      ]
+    }
   },
   {
     "subheading": "By Budget",
+    "intro": "All five are under $17, so the difference between buckets is surface type.",
     "table": {
       "headers": [
-        "Price range",
+        "Price bucket",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $9",
-          "Scribbledo Mini Dry Erase Notepad 5x7"
+          "Under $9 for two small pads",
+          "Scribbledo Mini Dry Erase Notepad 5x7 2-pack"
         ],
         [
-          "Under $9",
-          "Scribbledo Dry Erase Board with Lines for Desk"
+          "Under $9 for a single large flip-over pad",
+          "Scribbledo 9x12 double-sided pad"
         ],
         [
-          "Under $10",
+          "Under $10 for a stand and double sided use",
           "Lumspax Small Desktop White Board with Stand"
         ],
         [
-          "Under $15",
-          "Small Glass Desktop Whiteboard Dry-Erase"
+          "Under $15 for a glass surface",
+          "Small Glass Desktop Whiteboard Dry-Erase, Mini Pure Glass"
         ],
         [
-          "Under $17",
-          "TSJ OFFICE Small Desktop Whiteboard"
+          "Under $17 for the smallest true glass option",
+          "TSJ OFFICE Small Desktop Whiteboard, 8 x 6 inches"
         ]
       ]
     }
   },
   {
-    "subheading": "Scribbledo Mini Dry Erase Notepad 5x7 vs TSJ OFFICE Small Desktop Whiteboard",
+    "subheading": "Paper Pad vs Glass Low-Profile Board",
+    "intro": "This is the main durability decision in the guide.",
     "cards": [
       {
-        "label": "Scribbledo Mini Dry Erase Notepad 5x7",
-        "text": "Buyers who want the cheapest genuine flat pad option. At under $9, it's the lowest-cost pick in this comparison."
+        "label": "Paper style pad (Scribbledo, Lumspax)",
+        "text": "Cheapest and easy to store, but sources note that cheaper surfaces ghost faster when ink sits. Plan on wiping each day with a clean cloth and replacing the pad if shadows stay."
       },
       {
-        "label": "TSJ OFFICE Small Desktop Whiteboard",
-        "text": "Buyers who want the smallest low-profile glass footprint. At under $20, it sits at the higher end of this comparison's price range."
+        "label": "Glass low-profile board (Small Glass Desktop Whiteboard, TSJ OFFICE 8 x 6)",
+        "text": "Resists ghosting and streaking over repeated use and cleans in one wipe, but it costs more and the TSJ OFFICE is only 8 x 6 inches. Glass can also break if dropped."
       }
     ],
-    "note": "Most buyers should default to Scribbledo Mini Dry Erase Notepad 5x7 unless smallest glass option specifically applies to your situation."
+    "note": "Most people who write on the pad every day should choose glass; occasional users are fine with a paper pad."
   },
   {
-    "subheading": "By Stated Review Confidence",
+    "subheading": "By Desk Depth",
+    "intro": "Pads sit between the keyboard and the monitor, so depth is the limit.",
     "table": {
       "headers": [
-        "What you want",
+        "Your desk",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Best Overall",
-          "Scribbledo Mini Dry Erase Notepad 5x7"
+          "A shallow desk with little space in front of the keyboard",
+          "Scribbledo 5x7 or TSJ OFFICE 8 x 6, the smallest footprints"
         ],
         [
-          "Best Larger Pad Format",
-          "Scribbledo Dry Erase Board with Lines for Desk"
+          "A standard desk with room in front of the keyboard",
+          "Lumspax 10 x 10, with its angled stand"
         ],
         [
-          "Best Low-Profile Board With Stand",
-          "Lumspax Small Desktop White Board with Stand"
+          "A deeper desk or one used mainly for writing",
+          "Scribbledo 9x12 double-sided, the largest surface"
+        ],
+        [
+          "A desk with a monitor stand that leaves a gap",
+          "Small Glass Desktop Whiteboard, with a low stand"
         ]
       ]
     }
   },
   {
-    "subheading": "For A lightweight pad-style board Specifically",
+    "subheading": "For Daily To-Do Lists Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "A board whose stated size and features genuinely match a lightweight pad-style board rather than a generic all-purpose listing."
+        "text": "A lined surface, a surface that wipes clean in one pass, enough space for five to eight lines, and a footprint that does not push your keyboard back."
       },
       {
         "label": "In this comparison",
-        "text": "Scribbledo Mini Dry Erase Notepad 5x7 is the strongest match for most buyers in this category, based on its stated review base and feature set."
+        "text": "Both Scribbledo pads are lined, and the 9x12 gives the most lines, while the glass pick wipes cleanly with a cloth."
       }
     ]
   },
@@ -205,31 +249,49 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Buyers who want the smallest low-profile glass footprint."
+        "text": "You write every day and dislike shadowy ink, which is where the glass picks justify their small price premium. If you want an upright board, see the freestanding desktop whiteboards guide."
       },
       {
         "label": "Save if",
-        "text": "Buyers who want the cheapest genuine flat pad option."
+        "text": "You make a list a few times a week, so the Scribbledo pad covers it for under $9."
       }
     ]
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the product is genuinely flat or low-angle, not upright", explanation: "This guide is limited to pad-style products for in-front-of-keyboard placement, not freestanding upright boards." },
-  { criterion: "Weigh paper pad cost against glass durability", explanation: "Paper pads are cheaper but wear faster over repeated erasing than a glass surface." },
-  { criterion: "Check double-sided for more writing area", explanation: "Some pads are double-sided, effectively doubling usable writing space within the same footprint." },
-  { criterion: "Consider desk depth used by the specific placement", explanation: "Larger pads (9x12 in) use more desk depth in front of your keyboard than smaller ones (5x7 in)." },
-  { criterion: "Use review volume for confidence in durability claims", explanation: "A large, established review base is the best evidence available for how well a pad holds up to repeated erasing." }
+  { criterion: "Confirm the product is genuinely flat or low-angle, not upright", explanation: "This guide is limited to pad-style products for in-front-of-keyboard placement, not freestanding upright boards.  A pad lies flat or at a shallow angle, so confirm the listing says pad, notepad or low-angle stand, and rule out anything that needs to stand upright on its own. Check the product photos too, since a stand changes how much depth it takes." },
+  { criterion: "Weigh paper pad cost against glass durability", explanation: "Paper pads are cheaper but wear faster over repeated erasing than a glass surface.  Paper style pads like the Scribbledo options are the cheapest here, and sources warn that cheaper surfaces ghost faster, so erase promptly and avoid leaving ink overnight. Glass costs more but resists ghosting better. Replacing a worn paper pad every few months still costs less than one glass board." },
+  { criterion: "Check double-sided for more writing area", explanation: "Some pads are double-sided, effectively doubling usable writing space within the same footprint.  Look for the words double-sided in the title. The Scribbledo 9x12 and Lumspax 10 x 10 are double-sided, so you can flip to a clean face when the first side gets crowded. Ask whether you will really flip it, because many people use only one face." },
+  { criterion: "Consider desk depth used by the specific placement", explanation: "Larger pads (9x12 in) use more desk depth in front of your keyboard than smaller ones (5x7 in).  Measure your keyboard to monitor depth. A 9x12 pad takes more front-to-back space than a 5x7, and a pad that pushes your keyboard back forces you to reach. Leave at least a few inches of palm space between the keyboard and the pad." },
+  { criterion: "Use review volume for confidence in durability claims", explanation: "A large, established review base is the best evidence available for how well a pad holds up to repeated erasing.  Treat the listing as your evidence, and prefer clearly stated surface type and size over star-based claims, because a pad's real durability only shows after months of erasing. Pair that with the listed surface material, which is the stronger durability clue." }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "How is a pad different from an upright whiteboard?", a: "A pad lies flat or at a low angle in front of your keyboard, rather than standing upright on its own base, which changes wrist posture and desk depth used." },
-  { q: "Should I get a paper pad or glass?", a: "Paper pads are cheaper but wear faster over repeated use. Glass costs more but resists ghosting better long-term." },
-  { q: "What's the cheapest option?", a: "The Scribbledo Mini Dry Erase Notepad 2-pack at under $9." },
-  { q: "Which has the most writing area?", a: "The Scribbledo 9x12 double-sided board, which offers the most usable space within the flat-pad format." },
-  
-  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the smallest low-profile glass footprint." }
+  {
+    "q": "How is a whiteboard pad different from a desktop board?",
+    "a": "A pad lies flat or sits at a low angle in front of your keyboard. A desktop board stands upright, so it takes more desk space and can block your view. A pad is better for short notes you glance at while typing."
+  },
+  {
+    "q": "What is the biggest mistake buyers make with these pads?",
+    "a": "Leaving ink on the surface overnight. Sources note that markers dry and ghost more when left, so wipe after each session. Use the marker that comes with the pad, and replace the pad if the surface stays stained."
+  },
+  {
+    "q": "Is the glass option worth it over a Scribbledo pad?",
+    "a": "Glass resists ghosting better over time, though it costs more. A Scribbledo pad costs under $9, comes in a 2-pack in the 5x7 size and lies flat. If you write daily, glass is worth it. For occasional notes, paper is enough."
+  },
+  {
+    "q": "How do I clean a whiteboard pad?",
+    "a": "Wipe with a dry microfiber cloth right after writing. For stubborn marks, use a drop of whiteboard cleaner or a damp cloth. Avoid harsh chemicals that dull the surface, and keep markers capped so ink does not dry on the pad."
+  },
+  {
+    "q": "Which size should I pick for a small desk?",
+    "a": "The Scribbledo 5x7 and the TSJ OFFICE 8 x 6 use the least depth. A 9x12 pad takes more room in front of the keyboard, so choose it only if you have depth to spare and you want the largest surface. The glass board also has a stand that takes extra depth."
+  },
+  {
+    "q": "Will a pad slide around on the desk?",
+    "a": "Flat pads can slide on a smooth desk, so check for a non-slip base on the listing. Lumspax uses a low profile stand that sits firm, and the glass board has a stand. Put a small mat underneath if it slides."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

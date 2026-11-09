@@ -189,24 +189,24 @@ export const products: GuideProduct[] = [
 
 export const howWeEvaluated = [
   {
-    "title": "Documented dimensions",
-    "description": "We compared stated exterior and interior sizes, and marked listings with unclear numbers."
+    "title": "Documented interior and exterior size",
+    "description": "GEARONIC lists 54 x 45 x 92 inches outside and 46 x 43 x 80 inches inside, and the mobile booth is 79 x 79 x 87 inches. We compared interior dimensions, since a pod that looks roomy in photos can leave little space once a desk and chair go in."
   },
   {
-    "title": "Acoustic claims",
-    "description": "Stated dB or RW ratings were recorded with their tolerance, and pods without a number were marked as unverified."
+    "title": "Acoustic claims and their wording",
+    "description": "GEARONIC states RW35dB with a tolerance of plus or minus 5dB, the mobile booth claims 25 to 30 dB and another pod claims 30dB noise reduction. Rw, STC and plain dB are not interchangeable, so we favored claims with a stated tolerance and treated bare numbers as marketing."
   },
   {
-    "title": "Ventilation and light",
-    "description": "Fan counts, airflow figures and lighting specs were compared for comfort in a closed space."
+    "title": "Ventilation, light and power",
+    "description": "The small pod lists four roof extractors at 110 m3/h airflow, GEARONIC dual silent fans and a 36W dimmable LED, and the 30dB pod adds ethernet. A sealed booth gets stuffy within a call or two, so numbers for airflow counted more than the word ventilation."
   },
   {
-    "title": "Mobility and assembly",
-    "description": "Wheels, fixed columns, on-site assembly and lead time were noted."
+    "title": "Mobility, assembly and lead time",
+    "description": "GEARONIC can roll on wheels, KB Housing is built on site, and YARDADU takes 8 to 12 weeks to produce. We weighed assembly needs against building access, because a booth that needs a loading dock and a crew is a different purchase from one that rolls into a lift."
   },
   {
     "title": "Value for the price band",
-    "description": "Features were weighed against the price band, with extra weight on what is documented."
+    "description": "Prices here jump from entry booths to a full 120 sq ft backyard room, so a single scale would mislead. We judged each against its category: a solo booth for calls, a small meeting pod for four to six people, and a permanent second office for the home."
   }
 ];
 
@@ -350,54 +350,54 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Sound rating and what it means",
-    "explanation": "Pods quote sound reduction in dB, Rw or STC, and the numbers are not directly comparable. Some guides suggest a floor around STC 28 to 30 and note that speech privacy is better above about 35. Ask for the manufacturer's test report and look for a tolerance, as on the GEARONIC (plus or minus 5dB)."
+    "explanation": "Pods quote sound reduction in dB, Rw or STC, and the numbers are not directly comparable. Some guides suggest a floor around STC 28 to 30 and note that speech privacy is better above about 35. Ask for the manufacturer's test report and look for a tolerance, as on the GEARONIC (plus or minus 5dB). Rw35 or STC 35 is a sensible target for speech privacy, while ratings near 25 to 30 only soften conversation."
   },
   {
     "criterion": "Ventilation and airflow",
-    "explanation": "A sealed pod without fresh air gets stuffy within a call or two. Fans move air, and listings with numbers, such as 110 cubic meters per hour on one pick, are easier to judge. Look for fan count and the word 'ventilation', and avoid pods that list only a vent hole."
+    "explanation": "A sealed pod without fresh air gets stuffy within a call or two. Fans move air, and listings with numbers, such as 110 cubic meters per hour on one pick, are easier to judge. Look for fan count and the word 'ventilation', and avoid pods that list only a vent hole. Ask whether the fans run on their own switch, since a pod with fans tied to the light wastes the benefit when you work with the light off."
   },
   {
     "criterion": "Fire and building rules",
-    "explanation": "Some cities tie sprinkler and fire-alarm rules to the booth size and material, and requirements vary. A building that has a sprinkler system may need coverage inside a larger pod. Ask the seller for material specifications and check with your building manager before ordering."
+    "explanation": "Some cities tie sprinkler and fire-alarm rules to the booth size and material, and requirements vary. A building that has a sprinkler system may need coverage inside a larger pod. Ask the seller for material specifications and check with your building manager before ordering. Booths wider than about 4 feet in any direction can trigger sprinkler rules in some cities, so the dimensions matter here too."
   },
   {
     "criterion": "Interior size and comfort",
-    "explanation": "A pod that seems roomy in photos can feel tight once a desk and chair are in. Compare interior dimensions, not exterior ones, and check the ceiling height. The GEARONIC lists an interior of 46 by 43 by 80 inches."
+    "explanation": "A pod that seems roomy in photos can feel tight once a desk and chair are in. Compare interior dimensions, not exterior ones, and check the ceiling height. The GEARONIC lists an interior of 46 by 43 by 80 inches. A desk 24 inches deep plus a chair needs about 40 inches of floor depth, so subtract the desk from the interior before deciding the pod fits you."
   },
   {
     "criterion": "Assembly, delivery and lead time",
-    "explanation": "Prefab pods may need a crew, a loading dock and an elevator. Production can take 8 to 12 weeks for some builds. Ask about freight, assembly and returns before paying."
+    "explanation": "Prefab pods may need a crew, a loading dock and an elevator. Production can take 8 to 12 weeks for some builds. Ask about freight, assembly and returns before paying. Confirm whether the quoted price includes delivery to your floor, because freight and a two-person crew can add a large part of the cost."
   },
   {
     "criterion": "Power, ports and light",
-    "explanation": "Built-in sockets, USB and ethernet remove cables, and a dimmable light reduces glare. Look for the number and type of ports on the listing, such as the two Type-C ports on one pick."
+    "explanation": "Built-in sockets, USB and ethernet remove cables, and a dimmable light reduces glare. Look for the number and type of ports on the listing, such as the two Type-C ports on one pick. A dimmable light and a fan that runs on its own switch matter more on long calls than a fourth outlet."
   }
 ];
 
 export const faq = [
   {
     "q": "What is an office pod?",
-    "a": "A self-contained room or booth that you place inside an office, home or yard to get a quiet space. Sizes range from solo phone booths to meeting pods and full backyard offices."
+    "a": "An office pod is a prefabricated, enclosed room used for calls, focus work or small meetings inside a larger space, or outside as a backyard office. The solo booths here fit one person, the mobile booth seats four to six, and YARDADU is a 120 sq ft garden office."
   },
   {
     "q": "Are office pods really soundproof?",
-    "a": "Not completely. Most reduce noise by a stated amount, such as 25 to 35 dB. Ask for test data, and treat the number as a range."
+    "a": "Not fully. Even the best claims here, such as GEARONIC's RW35dB plus or minus 5dB, reduce speech but do not eliminate it, and 25 to 30 dB is closer to a privacy screen than a recording studio. Ask for a test report, since a pod with no published rating is furniture."
   },
   {
     "q": "Do office pods need ventilation?",
-    "a": "Yes. A closed pod needs fans that bring in fresh air, and listings that give an airflow figure are easier to compare."
+    "a": "Yes, and the numbers matter. A sealed pod gets warm and stuffy fast, so look for fan count and airflow, such as the four roof extractors rated 110 m3/h on the small pod or GEARONIC's dual silent fans. A pod with only a vent hole is unsuitable for long calls."
   },
   {
     "q": "Do I need a permit or fire approval?",
-    "a": "It depends on your city and building. Some jurisdictions tie sprinkler rules to booth size, so check with the building manager or local fire authority first."
+    "a": "Possibly. Some cities require fire-sprinkler coverage inside booths larger than about 4 feet in any direction in a sprinklered building, and some require a permit. Rules vary by city, so ask your building manager or fire marshal before ordering, and choose a model with a material specification sheet."
   },
   {
     "q": "Can I move a pod after I buy it?",
-    "a": "Some pods have wheels or fixed support columns, such as the GEARONIC Solo. Modular pods need disassembly, and backyard pods are permanent."
+    "a": "Some can. GEARONIC can sit on wheels or fixed columns and the mobile booth uses a folding table on wheels, while KB Housing builds on site and YARDADU is a permanent prefab room. If you rent, choose a rolling or modular pod that fits through a standard doorway or lift."
   },
   {
     "q": "How long does delivery take?",
-    "a": "It varies. A backyard office pod can list 8 to 12 weeks of production, while stocked booths are quicker. Confirm freight and assembly times with the seller."
+    "a": "It depends on the type. Stock booths like GEARONIC ship on a normal freight schedule, but a made-to-order prefab like YARDADU lists 8 to 12 weeks of production before shipping. Ask about freight, liftgate delivery and whether assembly is included, since a crew and a loading dock may be needed."
   }
 ];
 

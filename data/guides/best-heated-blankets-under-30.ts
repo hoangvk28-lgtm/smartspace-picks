@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/416g6V8yuHL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F99LB7MH?tag=deskfinds0d-20",
-    "description": "CAROMIO is a waffle weave throw with velvet on one face and sherpa on the other, six heat levels topping out around 115 degrees per the listing, and an LCD controller. It shuts off after four hours and is listed as ETL certified with NTC and PTC temperature sensing wires.\n\nA four hour cutoff is the shortest in this group, which suits napping on a couch better than Poouthym's 10 hours. It costs about $4 more than Poouthym and about $2 more than Mlivrom.\n\nBest for users who worry about leaving a heated blanket on. The caveat is that four hours is short for a full workday, so you will need to restart it.",
+    "description": "CAROMIO is a waffle weave throw with velvet on one face and sherpa on the other, six heat levels topping out around 115 degrees per the listing, and an LCD controller. It shuts off after four hours and is listed as ETL certified with NTC and PTC temperature sensing wires.\n\nA four hour cutoff is the shortest in this group, which suits napping on a couch better than Poouthym's 10 hours. It costs under $10 more than Poouthym and under $10 more than Mlivrom.\n\nBest for users who worry about leaving a heated blanket on. The caveat is that four hours is short for a full workday, so you will need to restart it.",
     "specs": [
       "6 levels, up to 115F",
       "4 hour auto shut-off",
@@ -163,183 +163,179 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Auto shut-off length",
-    "explanation": "An auto shut-off cuts power after a set number of hours, and in this price tier it ranges from 4 hours to 10. A short timer protects you if you doze, while a long one means the blanket may run for hours unattended. Look for the exact number of hours in the bullets, since a vague phrase such as auto off tells you nothing."
+    "explanation": "An auto shut-off cuts power after a set number of hours, and in this price tier it ranges from 4 hours to 10. A short timer protects you if you doze, while a long one means the blanket may run for hours unattended. Look for the exact number of hours in the bullets, since a vague phrase such as auto off tells you nothing. Compare it against how long you usually sit, and decide whether a short cutoff or a long one fits that habit."
   },
   {
     "criterion": "ETL or UL listing",
-    "explanation": "A safety listing means an independent lab tested the product to a recognized standard. Heated bedding and blankets are usually covered by UL 964, and a listing from ETL is a comparable check. Look for the actual mark in the product photos, and be cautious when only the adapter carries a mark."
+    "explanation": "A safety listing means an independent lab tested the product to a recognized standard. Heated bedding and blankets are usually covered by UL 964, and a listing from ETL is a comparable check. Look for the actual mark in the product photos, and be cautious when only the adapter carries a mark. Photograph the label or controller markings if the listing images show them, since a mark in the title alone is not proof."
   },
   {
     "criterion": "Heat range and settings",
-    "explanation": "The temperature range tells you how warm the top setting really gets, and the step count shows how finely you can tune it. A throw that stops at 110 degrees will feel mild in a cold room. Compare the minimum and maximum temperatures in the listing, not just the number of levels."
+    "explanation": "The temperature range tells you how warm the top setting really gets, and the step count shows how finely you can tune it. A throw that stops at 110 degrees will feel mild in a cold room. Compare the minimum and maximum temperatures in the listing, not just the number of levels. Test the claim against your room: a top end of 110F is fine for a warm room but modest in a drafty one."
   },
   {
     "criterion": "Detachable controller",
-    "explanation": "A controller you can unplug makes the blanket machine washable. Without one, a heated throw is hard to clean and eventually gets dirty. Look for the phrase detachable or removable controller, and read the washing temperature instructions."
+    "explanation": "A controller you can unplug makes the blanket machine washable. Without one, a heated throw is hard to clean and eventually gets dirty. Look for the phrase detachable or removable controller, and read the washing temperature instructions. Check that the controller is also rated for a cool cycle wash, since it is the part that most often fails."
   },
   {
     "criterion": "Cord length and plug type",
-    "explanation": "The cord is the hidden limit of a plug-in blanket, since a short one forces an extension cord, which is a poor idea with heating products. Measure from your chair to the outlet and compare to the listed length. The Mlivrom listing, for example, gives 74 inches."
+    "explanation": "The cord is the hidden limit of a plug-in blanket, since a short one forces an extension cord, which is a poor idea with heating products. Measure from your chair to the outlet and compare to the listed length. The Mlivrom listing, for example, gives 74 inches. Remember to add a few feet for slack if you sit on a rolling chair that moves."
   },
   {
     "criterion": "Corded versus USB",
-    "explanation": "USB heat draws far less power and is more portable, but it is also usually weaker than a mains throw. A poncho like the Tenswa suits a desk, while a plug-in throw suits a couch. Check the power source and whether a power bank is needed."
+    "explanation": "USB heat draws far less power and is more portable, but it is also usually weaker than a mains throw. A poncho like the Tenswa suits a desk, while a plug-in throw suits a couch. Check the power source and whether a power bank is needed. Check the wattage or power note, since a laptop port is not always enough for sustained heat."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Safety listing and timer",
-    "description": "ETL or UL marks, overheat protection and the length of the auto-off were weighed first."
+    "title": "Auto shut-off length",
+    "description": "We compared the listed timers, from the CAROMIO's 4 hour cutoff to the 10 hour limits on the Poouthym and EHEYCIGA and the selectable 1 to 9 hours on the Mlivrom. Most throws stop after about three hours, so a timer that outlasts a movie night without running all afternoon scored best."
   },
   {
-    "title": "Heat range",
-    "description": "We compared the listed minimum and maximum temperatures and number of settings."
+    "title": "Safety listing on the label",
+    "description": "We looked for named marks, since the Mlivrom is ETL and FCC listed and the Poouthym and EHEYCIGA cite ETL, while the Tenswa USB poncho names none. At under $30 an independent lab mark is the best evidence the wiring was tested, so a missing mark cost points."
   },
   {
-    "title": "Washability",
-    "description": "Detachable controllers and care notes counted toward the score."
+    "title": "Heat steps and temperature span",
+    "description": "We checked how finely each throw can be tuned, from the Poouthym's 5 levels at 86 to 113F to the EHEYCIGA's 9 levels at 85 to 110F. A low floor matters for gentle warmth, and a top end near 110F can feel mild in a cold room."
   },
   {
-    "title": "Price",
-    "description": "Every pick is $30 or less when data was gathered, and we compared features per dollar."
+    "title": "Washing and controller design",
+    "description": "We favored detachable controllers, like those on the Mlivrom and EHEYCIGA, because the controller must come off before any wash. A throw you cannot clean ends up in the closet, so washability counted as part of the safety picture at this budget."
+  },
+  {
+    "title": "Cord reach or USB power",
+    "description": "We compared the Mlivrom's 74 inch cord against the USB-powered Tenswa poncho, since a short cord forces an extension cord, which is a poor pairing with heating products. USB heat is weaker but travels, so we judged each against desk use."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Timer Preference",
-    "intro": "The timer is the main safety lever at this price.",
+    "subheading": "By How You Use It",
+    "intro": "Sub-$30 heated throws look alike, so match the format to how you sit.",
     "table": {
       "headers": [
-        "Your situation",
+        "Your use",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Want to set 1 to 9 hours yourself",
-          "Mlivrom Heated Throw with 1-9 Hour Timer"
+          "A couch or bed throw with fine heat control",
+          "EHEYCIGA Heated Throw Blanket 50x60, with 9 levels from 85 to 110F and a detachable controller"
         ],
         [
-          "Want a short 4 hour cutoff",
-          "CAROMIO Waffle Weave Heated Throw"
+          "A throw you control by the hour",
+          "Mlivrom Heated Throw with 1-9 Hour Timer, with ETL and FCC listings and a 74 inch cord"
         ],
         [
-          "Fine with a 10 hour cutoff",
-          "Poouthym Wave Fleece Heated Throw"
+          "Desk work where arms stay free",
+          "Tenswa USB Heated Poncho Blanket, with a hood and front zipper"
         ],
         [
-          "Want 9 fine heat steps",
-          "EHEYCIGA Heated Throw Blanket 50x60"
-        ],
-        [
-          "Need hands free typing",
-          "Tenswa USB Heated Poncho Blanket"
+          "A short nap-friendly cutoff",
+          "CAROMIO Waffle Weave Heated Throw, which auto-offs after 4 hours and shows settings on an LCD"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "The five picks sit between the very cheapest and the top of the sub-$30 bracket.",
     "table": {
       "headers": [
-        "Price range",
+        "Budget position",
         "Recommended pick"
       ],
       "rows": [
         [
-          "$22 to $23",
-          "Poouthym Wave Fleece Heated Throw"
+          "Lowest price in the group",
+          "Poouthym Wave Fleece Heated Throw, with one-button controls and 5 levels"
         ],
         [
-          "$24 to $25",
-          "Mlivrom Heated Throw with 1-9 Hour Timer"
+          "Low to mid with a long timer range",
+          "Mlivrom Heated Throw, priced under $25 per its listing with a selectable timer"
         ],
         [
-          "$26 to $27",
+          "Mid with a short auto-off and an LCD",
           "CAROMIO Waffle Weave Heated Throw"
         ],
         [
-          "$29 to $30",
-          "EHEYCIGA Heated Throw Blanket 50x60"
-        ],
-        [
-          "$29 to $30 USB",
-          "Tenswa USB Heated Poncho Blanket"
+          "Top of the bracket for the widest heat range",
+          "EHEYCIGA Heated Throw Blanket 50x60, 9 levels and a soft faux fur finish"
         ]
       ]
     }
   },
   {
-    "subheading": "Plug-in Throw vs USB Poncho",
+    "subheading": "Short Auto-Off vs Long Timer",
+    "intro": "Timers decide whether the blanket protects you if you doze or follows you through a long session.",
     "cards": [
       {
-        "label": "Plug-in throw",
-        "text": "Uses wall power for stronger heat over a larger area but needs an outlet within the cord length. In this guide that is Mlivrom Heated Throw with 1-9 Hour Timer, Poouthym Wave Fleece Heated Throw, CAROMIO Waffle Weave Heated Throw and EHEYCIGA Heated Throw Blanket 50x60."
+        "label": "Short cutoff: CAROMIO at 4 hours",
+        "text": "Safer if you tend to fall asleep under a throw. The downside is restarting it during a long evening."
       },
       {
-        "label": "USB poncho",
-        "text": "Wears on the shoulders and runs from USB, so it is portable but weaker. That is Tenswa USB Heated Poncho Blanket."
+        "label": "Long cutoff: Poouthym and EHEYCIGA at 10 hours, Mlivrom up to 9",
+        "text": "Stays on through a full workday or movie night. They put more trust on you to switch off when you leave the room."
       }
     ],
-    "note": "Most people should choose a plug-in throw unless they need hands free warmth at a desk."
+    "note": "Most buyers who use a throw at a desk or sofa will be fine with the Mlivrom's selectable timer, since you set the hours yourself."
   },
   {
-    "subheading": "Where You Will Use It",
+    "subheading": "By Softness and Fabric",
+    "intro": "Fabric affects feel and cleaning.",
     "table": {
       "headers": [
-        "Your concern",
+        "Feel you want",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Couch and movie nights",
-          "Poouthym Wave Fleece Heated Throw"
+          "Plush, fluffy faux rabbit fur",
+          "Poouthym Wave Fleece Heated Throw, with a faux rabbit fur side"
         ],
         [
-          "Cold home office chair",
-          "EHEYCIGA Heated Throw Blanket 50x60"
+          "Faux fur plus sherpa for a cozy lining",
+          "EHEYCIGA Heated Throw Blanket, with faux fur and sherpa"
         ],
         [
-          "Napping on the sofa",
-          "CAROMIO Waffle Weave Heated Throw"
+          "Textured waffle weave and sherpa",
+          "CAROMIO Waffle Weave Heated Throw, machine washable per its listing"
         ],
         [
-          "Desk with no nearby outlet",
-          "Tenswa USB Heated Poncho Blanket"
-        ],
-        [
-          "Mixed use with a timer",
-          "Mlivrom Heated Throw with 1-9 Hour Timer"
+          "A lighter flannel feel",
+          "Mlivrom Heated Throw, which the listing describes as flannel rather than plush"
         ]
       ]
     }
   },
   {
-    "subheading": "For Dorm Rooms Specifically",
+    "subheading": "For a Dorm Desk Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "An ETL listing, a short timer and a size that fits a Twin XL as a top layer."
+        "text": "A lab mark, a short or adjustable timer, a controller that detaches for washing, and a cord long enough to reach the wall without an extension cord. Check your housing rules for heating items first."
       },
       {
         "label": "In this comparison",
-        "text": "CAROMIO Waffle Weave Heated Throw has a four hour shutoff and Mlivrom Heated Throw with 1-9 Hour Timer lets you set the time. Confirm the school's heated appliance rules first."
+        "text": "The Mlivrom offers a 74 inch cord, ETL and FCC marks and a 1 to 9 hour timer, and the Tenswa USB poncho can run from a laptop or power bank, which some housing rules treat more kindly."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "The under $100 guide adds wearable blankets with heated foot pockets and cordless models.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want finer heat control or a bit more heat. EHEYCIGA Heated Throw Blanket 50x60 and CAROMIO Waffle Weave Heated Throw offer the wider ranges."
+        "text": "You want sleeves, a heated foot pocket or cordless freedom. Those features appear in the under $100 guide, with timers up to 12 hours."
       },
       {
         "label": "Save if",
-        "text": "You only need basic warmth on a couch. Poouthym Wave Fleece Heated Throw is the lowest priced under $25."
+        "text": "You only want a warm lap throw for a sofa, where the Poouthym or Mlivrom covers that at the bottom of the range."
       }
     ]
   }
@@ -348,28 +344,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Is it safe to sleep under a heated throw?",
-    "a": "Experts generally advise against sleeping with a powered electric blanket on. Use a short timer, unplug before sleeping and never fold or bunch the blanket while it is on."
+    "q": "Is a heated throw under $30 safe to leave on at my desk?",
+    "a": "Only if it has an auto shut-off and a lab mark, and you do not cover the controller. The Mlivrom lists ETL and FCC and a selectable timer. Never fold or bunch a heated blanket while it is on."
+  },
+  {
+    "q": "What is the most common mistake with cheap heated throws?",
+    "a": "Ignoring the shut-off hours and the washing rules. A 10 hour cutoff like the Poouthym's can run all afternoon, and a throw washed with its controller attached can be ruined. Read both lines before buying."
+  },
+  {
+    "q": "Is the EHEYCIGA worth more than the Poouthym?",
+    "a": "If you want finer control, yes: 9 levels from 85 to 110F and a detachable controller versus 5 levels from 86 to 113F. The Poouthym is the cheaper pick and its simple one-button controls suit buyers who do not want settings."
   },
   {
     "q": "How do I wash a heated throw?",
-    "a": "Detach the controller first, then wash on a gentle cycle in cold or cool water as the listing says. Do not tumble dry on high heat, and make sure it is fully dry before use."
+    "a": "Unplug it, detach the controller, and use a gentle cycle in cold or warm water per the label. Dry it completely before using it again. The Mlivrom and EHEYCIGA have detachable controllers, which makes this routine simple."
   },
   {
-    "q": "Is a $25 heated blanket worth it over a $60 one?",
-    "a": "For couch and desk use, the cheaper throws cover the key features of a timer, overheat protection and a listing. Pay more for larger sizes, dual controls or longer warranties."
+    "q": "How long does it take to heat up?",
+    "a": "Most throws feel warm within a few minutes on a high setting, then you drop to a lower level. Listings rarely state exact warm-up times at this tier, so judge by the temperature range rather than marketing claims."
   },
   {
-    "q": "Can I use an extension cord with a heated blanket?",
-    "a": "It is better not to. Heating products draw steady power, and a thin extension cord can overheat. Plug it directly into a wall outlet."
-  },
-  {
-    "q": "Will a USB poncho run from a laptop?",
-    "a": "Possibly, but a laptop port supplies limited current, so heat may be low. A wall adapter or a power bank is usually a better source."
-  },
-  {
-    "q": "How warm do heated throws get?",
-    "a": "These listings range from 85 to 115 degrees on the highest setting. That is warm to the touch, but not hot like a heating pad."
+    "q": "Can I power the Tenswa poncho from a laptop?",
+    "a": "It is USB powered, so a laptop port or power bank can drive it, but the listing does not state the power draw. Check that your source can supply enough current, and expect gentler heat than a mains throw."
   }
 ];
 

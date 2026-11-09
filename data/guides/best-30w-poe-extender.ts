@@ -84,69 +84,151 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real Output Wattage vs Input Rating", "description": "Compared documented output wattage against the stated 30W input to check for an undisclosed gap." },
-  { "title": "Speed and Distance Tradeoffs", "description": "Compared fixed versus switchable speed-and-distance modes." },
-  { "title": "Multi-Device Power Sharing", "description": "Compared how total wattage splits across multiple output ports." },
-  { "title": "Build Quality and Waterproofing", "description": "Compared plastic versus metal housing and IP rating specificity." },
-  { "title": "Warranty and Support Commitment", "description": "Compared stated guarantee terms and support responsiveness." }
+  {
+    "title": "Input vs usable output",
+    "description": "A 30W input is not 30W for your devices. We compared output claims: the Tliffpaco allows 25.5W per port, while the Davuaz Gigabit explicitly discloses a 24W total output. Listings that admit the gap scored above those that imply the full 30W is available."
+  },
+  {
+    "title": "Speed and distance tradeoff",
+    "description": "The Davuaz 100Mbps model offers 100m at 100Mbps or 250m at 10Mbps, while the Tliffpaco holds Gigabit through a 2-level cascade to 300m. At this wattage the speed you keep after the hop mattered more than headline distance. We also noted that 10Mbps suits only a basic single camera stream, so extended range counted as a niche feature at this tier."
+  },
+  {
+    "title": "Daisy chain limits",
+    "description": "The WAVLINK lists a chain to 600m total, the Tliffpaco to 300m. Chaining on a 30W input leaves less at each hop, so we only rewarded long chains with the stated device count to match. A 600m claim on a 30W input leaves little for the far device, so a chain only counted when a usable output power at the last hop was plausible."
+  },
+  {
+    "title": "Weather rating",
+    "description": "We read IP66 on both Davuaz units and IP67 on the WAVLINK with caps on all cable ports. Outdoor 30W extenders are mostly mounted on poles, so a rating without waterproof caps did not count. Moisture is the main killer of cheap extenders, and a rating alone does not seal a loose cable gland."
+  },
+  {
+    "title": "Fit for 802.3af vs 802.3at sources",
+    "description": "We compared which sources the listings accept. The WAVLINK and Tliffpaco state 802.3af/at support, so they can sit behind either type of switch. A 30W input needs an at-class source to deliver anything near its limit. We also checked that at-class sources are common on modern small-business switches."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Intelligent power allocation at the lowest price", "Tliffpaco 2-Port Gigabit PoE Extender/Switch"],
-        ["Switchable extended range up to 250m", "Davuaz Outdoor PoE Extender (100Mbps, 250m mode)"],
-        ["Full Gigabit speed across three devices", "Davuaz Outdoor PoE Gigabit Extender (30W in, 24W out)"],
-        ["A metal housing for outdoor durability", "WAVLINK IP67 Outdoor Gigabit PoE Extender"]
+    "subheading": "By Load Per Port",
+    "intro": "The most useful number at a 30W input is what you can pull from each output.",
+    "table": {
+      "headers": [
+        "Your device draw",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "One camera at 12W to 25W on a short hop",
+          "Tliffpaco 2-Port Gigabit, with 25.5W max per port"
+        ],
+        [
+          "Three low-draw devices such as sensors or small cameras",
+          "Davuaz Outdoor PoE Extender (100Mbps, powering three devices at 100Mbps"
+        ],
+        [
+          "Two cameras with a total near 20W at Gigabit",
+          "Davuaz Outdoor PoE Gigabit Gigabit Extender, with 24W total output"
+        ],
+        [
+          "One device at the end of a long daisy chain",
+          "WAVLINK IP67 Outdoor, using a 1-in-1-out chain to 600m"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $14", "Tliffpaco (under $15) or Davuaz 100Mbps (under $15)"],
-        ["Under $17", "Davuaz Gigabit (30W in, 24W out) (under $20)"],
-        ["Under $40", "WAVLINK IP67 Outdoor (under $40)"]
+    "subheading": "By Budget",
+    "intro": "The 30W class is cheap, with only the WAVLINK costing more.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $15, 30W Gigabit",
+          "Tliffpaco 2-Port Gigabit, with intelligent allocation"
+        ],
+        [
+          "Under $15, 100Mbps with a long mode",
+          "Davuaz Outdoor PoE Extender (100Mbps, with a 250m switch"
+        ],
+        [
+          "Under $20, Gigabit outdoor",
+          "Davuaz Outdoor PoE Gigabit Gigabit, with IP66"
+        ],
+        [
+          "Under $40, IP67 and 600m",
+          "WAVLINK IP67, with waterproof caps and a long chain"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Fixed Gigabit Speed vs Switchable Extended Range",
-    cards: [
-      { label: "Fixed Gigabit speed (Tliffpaco, Davuaz Gigabit)", text: "Both maintain full 1000Mbps at all times, better suited to bandwidth-sensitive devices that need consistent high throughput." },
-      { label: "Switchable extended range (Davuaz 100Mbps)", text: "Trades speed for reach on demand, useful when one specific device needs to be placed farther than the standard 100m range allows." }
+    "subheading": "Gigabit vs 100Mbps With Extended Mode",
+    "intro": "The 30W class splits into two types of extender, and the question is how you will use the link.",
+    "cards": [
+      {
+        "label": "Gigabit (Tliffpaco, Davuaz Outdoor PoE Gigabit, WAVLINK)",
+        "text": "Full 1000Mbps works for 4K cameras and APs, and holds speed through the first hop. Pick this when the far end is a fast device."
+      },
+      {
+        "label": "100Mbps with a 250m toggle (Davuaz Outdoor PoE Extender (100Mbps)",
+        "text": "The switch gives 100m at 100Mbps or 250m at 10Mbps. At 10Mbps you get a basic camera stream only, so it only makes sense for a single modest device."
+      }
     ],
-    note: "If your devices need consistent high bandwidth, the Gigabit-rated picks are the better fit. If you need occasional extended reach for a lower-bandwidth device, the switchable Davuaz pick gives you that flexibility.",
+    "note": "For most buyers, Gigabit wins; the toggle suits only a single basic camera at the edge of a property."
   },
   {
-    subheading: "By Number of Devices to Power",
-    table: {
-      headers: ["Devices to power", "Recommended pick"],
-      rows: [
-        ["One high-power device at extended distance", "WAVLINK IP67 Outdoor Gigabit PoE Extender"],
-        ["Two devices with intelligent power sharing", "Tliffpaco 2-Port Gigabit PoE Extender/Switch"],
-        ["Three devices from one 30W input", "Either Davuaz pick, depending on speed need"]
+    "subheading": "By Placement",
+    "intro": "Where the box mounts changes the rating you need.",
+    "table": {
+      "headers": [
+        "Placement",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under a soffit or in a covered porch",
+          "Tliffpaco 2-Port Gigabit, which has no stated weather rating"
+        ],
+        [
+          "On an open pole or pergola",
+          "WAVLINK IP67, with caps on all ports"
+        ],
+        [
+          "On a wall with some rain exposure",
+          "Davuaz Outdoor PoE Gigabit Gigabit, at IP66"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a PTZ Camera Requiring Full 30W Specifically",
-    cards: [
-      { label: "Look for", text: "A listing that discloses actual output wattage per port, not just the input rating, since some extenders share a 30W input across multiple ports for a lower per-port output." },
-      { label: "In this comparison", text: "The WAVLINK pick's single output port delivers the full 30W IEEE 802.3af/at rating to one device, rather than splitting it across multiple ports like the multi-device picks." }
-    ],
+    "subheading": "For a Driveway Camera Pair Specifically",
+    "intro": "Driveway runs are typically long with two cameras at the far end.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "An output of at least 12W per camera, Gigabit if the cameras are 4K, and an IP rating for the mount."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Davuaz Outdoor PoE Gigabit and the Tliffpaco each cover two modest cameras, and the WAVLINK adds a chain that reaches 600m."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need a metal, IP67-rated housing for a single high-power device at extended distance, where the WAVLINK's under $40 price is justified by that build quality." },
-      { label: "Save if", text: "You want to power multiple standard-wattage devices at Gigabit speed, where the Tliffpaco pick delivers that for under $15, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The 30W class gives little room to spend.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need IP67 and a long chain. The WAVLINK costs the most and is the only pick with a 600m chain."
+      },
+      {
+        "label": "Save if",
+        "text": "You run one camera. The Tliffpaco and the Davuaz Outdoor PoE Extender (100Mbps cost the least here; the budget extender guide has lower-cost 15W options."
+      }
+    ]
   }
 ];
 
@@ -174,12 +256,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will a 30W PoE extender always deliver the full 30W to my connected device?", "a": "Not necessarily; the Davuaz Gigabit pick specifically discloses only 24W total output despite a 30W input rating, so checking a listing's actual output wattage figure rather than just its input rating is worth doing before buying." },
-  { "q": "What's the most common mistake buyers make when choosing a 30W PoE extender?", "a": "Assuming the 30W input rating means the full 30W reaches each connected device, when several extenders specifically disclose a lower total or per-port output wattage than the input figure suggests." },
-  { "q": "Is the WAVLINK extender worth the higher price over the Tliffpaco pick?", "a": "If you specifically need a metal, IP67-rated housing for a single high-power device at extended distance, the WAVLINK's higher price is justified, but for powering multiple standard devices at a lower cost, the Tliffpaco pick delivers strong value." },
-  { "q": "Can I switch between fast speed and long distance on the same extender?", "a": "Yes, the Davuaz 100Mbps pick specifically includes a switch to enter extension mode, trading standard 100Mbps speed for a 250m reach at a reduced 10Mbps, giving you that flexibility on one physical unit." },
-  { "q": "Do I need a 30W extender for a standard IP camera, or is a lower wattage extender enough?", "a": "Standard IP cameras typically use 15.4W under the older 802.3af standard, so a 30W extender is specifically necessary only if your camera or device requires the higher IEEE 802.3at (PoE+) power tier." },
-  { "q": "How do I know if my device needs the full 30W or can work with a lower output?", "a": "Checking your specific device's power specification label or documentation for its exact wattage requirement, then matching that against an extender's disclosed output (not just input) wattage, is the reliable way to confirm adequate power delivery." }
+  {
+    "q": "Does a 30W PoE extender give my devices 30W?",
+    "a": "No. The extender uses some power itself, and the Davuaz Gigabit explicitly discloses 24W total output. Plan for around 24W to 25W for your devices, and subtract about 20 percent for cable loss on a long run. Measure at the device if you can."
+  },
+  {
+    "q": "What is the worst mistake with a 30W extender?",
+    "a": "Pairing it with an 802.3af source. An af port supplies 15.4W at most, so the extender will not reach its 30W capacity. Use a 30W 802.3at source, and confirm the switch port allows it. Check the switch port's PoE class in its spec sheet or settings page."
+  },
+  {
+    "q": "Is the WAVLINK worth paying more than the Tliffpaco?",
+    "a": "If you need IP67 and a daisy chain to 600m, yes. The Tliffpaco costs far less, keeps Gigabit, and reaches 300m through a 2-level cascade, which is plenty for most yards. Pair it with Gigabit if the camera stream is high resolution."
+  },
+  {
+    "q": "How do I use the Davuaz 250m mode?",
+    "a": "Flip the switch to extended mode, then expect 10Mbps at 250m. Test the camera's frame rate before mounting, since a camera with a high bitrate will drop frames and look frozen. A bench test at the end saves a climb up a pole."
+  },
+  {
+    "q": "Can a 30W extender power a PTZ camera?",
+    "a": "Most PTZ cameras need more than 24W with heaters on. A 30W extender can run a small PTZ without heater, but check the camera's peak draw. For heaters or large PTZ units, choose a 60W class instead. Compare to the camera's spec sheet."
+  },
+  {
+    "q": "Why does my camera disconnect in hot weather?",
+    "a": "Heat raises the cable's resistance, so voltage drops more at the far end. A 30W extender with a long run may brown out. Use shorter or thicker cables, and avoid mounting the extender in direct sun. Shade helps too."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

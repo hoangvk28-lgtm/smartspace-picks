@@ -104,116 +104,150 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Required confirmed 36 inch platform width for every pick", description: "We verified this exact dimension rather than including nearby sizes rounded loosely in marketing copy." },
-  { title: "Compared review volume across established and budget brands at this size", description: "We noted where VIVO and FITUEYES have much larger review bases than the budget SANODESK and FlexiSpot alternatives at this specific size." },
-  { title: "Flagged duplicate listings sharing identical specs", description: "We noted where the same FITUEYES design appears across multiple listings, useful for buyers checking current stock." },
-  { title: "Weighed price against review history within this specific size tier", description: "36 inch converters here range across a range of price points, and we compared value across that range." }
+  {
+    "title": "Platform width for two monitors",
+    "description": "A 36 inch deck is the common size for two monitors, but only if their stand footprints fit. We compared each listing's platform width and noted that a similar 36 inch model can differ in depth, from about 24 to nearly 30 inches, which changes how much keyboard space you get."
+  },
+  {
+    "title": "Lift mechanism and effort",
+    "description": "We read how each converter lifts. The SANODESK is marketed for an effortless lift mechanism, and the others describe standard manual height adjustment. A lift that is awkward to operate gets left at one height, so it counted against a pick. The listings give few details on lift travel, so we kept that gap in mind and favored picks that describe their mechanism."
+  },
+  {
+    "title": "Duplicate and overlapping listings",
+    "description": "Two FITUEYES listings share a design and review pool, and the second is flagged as a duplicate. We treated duplicates as a single pick for comparison, and told buyers to check stock because the two listings can disappear or merge. A listing that goes out of stock mid-purchase is a real annoyance for a desk you want to set up this week."
+  },
+  {
+    "title": "Brand track record in the category",
+    "description": "We looked at which brands are established in standing-desk gear. VIVO and FlexiSpot are long-time standing-desk brands, while SANODESK has a smaller footprint. We used brand history as a tie-breaker for similar specs, not a reason on its own. A reliable brand also tends to keep parts and instructions online for years, which helps if a lift stiffens."
+  },
+  {
+    "title": "Price spread among 36 inch decks",
+    "description": "Prices run from under $120 for the SANODESK and FlexiSpot to under $160 for the FITUEYES pair. At a size where the hardware is similar, a price gap of that size was only justified when it bought a confirmed feature or a better-known brand. Value was judged per confirmed feature, not per inch of width."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Platform Size",
+    "subheading": "By Monitor Layout",
+    "intro": "A 36 inch deck is the sweet spot for most two-monitor desks, but only some layouts fit.",
     "table": {
       "headers": [
-        "Your monitor setup",
-        "Recommended pick in this comparison"
+        "Your layout",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Single monitor or laptop, small desk",
-          "FLEXISPOT Standing Desk Converter 36 Inch Desk Riser"
+          "Two 24 inch monitors side by side with a keyboard in front",
+          "DESK-V036KB VIVO 36 inch converter, with the largest review base here"
         ],
         [
-          "Dual monitors",
-          "VIVO Black 36 in Standing Desk Converter"
+          "One large monitor and a laptop on a wider desk",
+          "FITUEYES 36 Inch Wide Sit to Stand Converter, as a well-reviewed alternative"
         ],
         [
-          "Triple monitors, need maximum surface area",
-          "FLEXISPOT Standing Desk Converter 36 Inch Desk Riser"
+          "A single monitor and an easy lift for frequent switching",
+          "SANODESK 36 inch converter, marketed for an effortless lift"
+        ],
+        [
+          "Two monitors on a tight budget",
+          "FLEXISPOT 36 Inch Desk Riser, with a known standing-desk brand"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "The group sits in a tight band, so the differences are small but real.",
     "table": {
       "headers": [
-        "Price range",
+        "Price tier",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $116",
-          "SANODESK 36 inch Standing Desk Converter"
+          "Under $120, the lowest cost",
+          "SANODESK, the cheapest confirmed 36 inch pick"
         ],
         [
-          "Mid-range",
-          "VIVO Black 36 in Standing Desk Converter"
+          "Under $120, a known brand",
+          "FLEXISPOT, at nearly the same cost"
         ],
         [
-          "No firm budget ceiling, prioritizing lift quality or brand",
-          "FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter Stand Up Desk Tabletop"
+          "Under $155, the best-reviewed",
+          "DESK-V036KB, from VIVO's K Series"
+        ],
+        [
+          "Under $160, an alternative",
+          "FITUEYES, for a second opinion on a similar design"
         ]
       ]
     }
   },
   {
-    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "subheading": "Established Brand vs Lower-Cost Alternative",
+    "intro": "In a size class with similar hardware, brand mostly buys support and review history.",
     "cards": [
       {
-        "label": "Manual (Gas-Spring)",
-        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO Black 36 in Standing Desk Converter, FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter, FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter Stand Up Desk Tabletop."
+        "label": "Established brands (DESK-V036KB, FLEXISPOT, FITUEYES)",
+        "text": "These come with a larger review pool and a company that is likely to answer a support request years later. It matters when a gas spring fails, since parts and replacements are easier to find."
       },
       {
-        "label": "Electric (Motorized)",
-        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: none in this specific roundup, since most picks here use a manual lift."
+        "label": "Lower-cost alternative (SANODESK)",
+        "text": "The lowest price and a marketed effortless lift, but a smaller review base to judge reliability. A sensible pick if you only need it a few years or a spare desk."
       }
     ],
-    "note": "Every pick in this specific comparison uses a manual lift; check our broader converter roundup if you specifically want an electric option."
+    "note": "Most buyers should default to an established brand unless the price gap is large."
   },
   {
-    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "subheading": "By Desk Depth",
+    "intro": "Deck depth varies on 36 inch models, so match it to your desk.",
     "table": {
       "headers": [
-        "What you're weighing",
+        "Your desk depth",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Highest star rating",
-          "VIVO Black 36 in Standing Desk Converter"
+          "A deep desk with room for a keyboard and a monitor",
+          "DESK-V036KB, since it is the top-reviewed 36 inch pick"
         ],
         [
-          "Largest review base (more statistical confidence)",
-          "VIVO Black 36 in Standing Desk Converter"
+          "A narrow desk where the deck must stay shallow",
+          "SANODESK, but verify the listed depth before ordering"
+        ],
+        [
+          "Any desk, with the keyboard tray tradeoff",
+          "FITUEYES, which sits in the middle of the pack"
         ]
       ]
     }
   },
   {
-    "subheading": "For a Dual-Monitor Setup Specifically",
+    "subheading": "For a Two-Monitor Home Office Specifically",
+    "intro": "The usual 36 inch buyer is trying to fit two monitors and a laptop on one desk.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+        "text": "A listed platform depth near 24 inches or more, a stated weight rating that covers both monitors, and a stable base."
       },
       {
         "label": "In this comparison",
-        "text": "VIVO Black 36 in Standing Desk Converter fits this specifically: Largest review base of any confirmed 36 inch converter."
+        "text": "The DESK-V036KB and FITUEYES are the most reviewed, while the FLEXISPOT gives a known brand at the lowest tier."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "Wider decks and electric lifts cost more.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter Stand Up Desk Tabletop offers: Same proven design and review pool as the alternative listing. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "You need more width or a motor. The 42 inch standing desk converter guide and the 48 inch guide cover wider decks, and the FITUEYES costs the most at this size."
       },
       {
         "label": "Save if",
-        "text": "SANODESK 36 inch Standing Desk Converter already covers the essentials: Lowest price for a confirmed 36 inch converter. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+        "text": "Two monitors fit on the deck. The SANODESK and FLEXISPOT cost the least."
       }
     ]
   }
@@ -221,33 +255,52 @@ export const howToChoose: HowToChooseSection[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Measure your existing desk's height before ordering",
-    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all.\n\nThis matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand.\n\nBefore ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+    "criterion": "Deck depth, not just width",
+    "explanation": "Two converters sold as 36 inches wide can differ by about five inches in depth, from roughly 24 to nearly 30 inches. A shallow deck leaves the keyboard hanging off the edge. Read the depth in the specifications, and compare it with how far you like your monitor from your eyes.  A deck 24 inches deep suits a laptop and a monitor, while a 30 inch deck suits a keyboard plus a notepad."
   },
   {
-    "criterion": "Match platform size to your actual number of monitors",
-    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up.\n\nA platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge.\n\nCheck the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+    "criterion": "Monitor base footprints side by side",
+    "explanation": "A 36 inch deck is the usual size for two monitors, but only if both bases fit with a gap between them. Many monitor stands are 8 to 10 inches wide, and clamps or arms change the math. Sketch the bases on paper at actual size, and check the deck width.  Allow at least two inches between bases so the screens do not touch."
   },
   {
-    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
-    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price.\n\nIf you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying.\n\nCheck the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+    "criterion": "Duplicate and near-identical listings",
+    "explanation": "This group includes two FITUEYES listings with a shared design and review pool, plus listings under similar names. Duplicates can differ in shipping speed, stock, or price. Compare the product codes and images before paying, and avoid the higher-priced listing for the same item.  Search the item code in each listing title to see whether two offers are the same unit."
   },
   {
-    "criterion": "Check your desk's depth against the converter's base footprint",
-    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base.\n\nThis matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view.\n\nCheck the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+    "criterion": "Rated load for two monitors",
+    "explanation": "Dual monitors, a laptop, and a lamp can add up to more than a converter was designed for. Retail guides flag this as a common oversight. Look for the capacity on the product page, and keep the total under it with margin, because overloading wears the lift.  An overloaded lift often shows up as a deck that drifts downward on its own."
   },
   {
-    "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "criterion": "Desk edge and overhang",
+    "explanation": "A 36 inch deck on a 36 inch desk leaves no space for hands on either side, and it can rock if it overhangs. Measure the desk's width and the deck's width. Leave room beside the deck for a mouse or notebook, or move up to a wider desk.  A deck that rocks at the edge is a sign it is too wide for the desk."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which 36 inch converter has the most reviews?", a: "The VIVO Black 36 in Standing Desk Converter, sharing VIVO's massive K Series review pool of 15,583." },
-  { q: "What's the cheapest confirmed 36 inch converter?", a: "The SANODESK 36 inch Standing Desk Converter at under $120." },
-  { q: "Is 36 inches enough for dual monitors?", a: "Generally yes, this is a genuine sweet spot size that comfortably fits two standard monitors with keyboard and mouse space." },
-  { q: "Is there a FlexiSpot option at 36 inches?", a: "Yes, the FLEXISPOT Standing Desk Converter 36 Inch Desk Riser at a budget-friendly price." },
-  { q: "Why do two FITUEYES listings look identical?", a: "The same product sometimes appears across multiple Amazon listings; check both for current stock and pricing before ordering." }
+  {
+    "q": "Can a 36 inch standing desk converter hold two monitors?",
+    "a": "Often yes. Retailers describe 36 inch decks as suited to two monitors when the stand footprints fit. Measure each monitor base, add a couple of inches of space between them, and keep room in front for a keyboard. If you cannot fit both bases, step up to a wider deck."
+  },
+  {
+    "q": "What is the mistake with 36 inch converters buyers make most?",
+    "a": "Ignoring depth. Two 36 inch models can differ by about five inches in deck depth. A shallow deck forces the keyboard to hang at the edge, so check the listing for depth and not just width. Measure the desk before you commit to a width."
+  },
+  {
+    "q": "Is the FITUEYES worth paying more than the SANODESK?",
+    "a": "Only if you want the larger review pool and a design with similar width. The SANODESK costs less and markets an effortless lift, so for a lighter setup it is the better value. For heavier monitors, prefer a known brand."
+  },
+  {
+    "q": "Why are two FITUEYES listings in this guide?",
+    "a": "They are separate listings of the same design with a shared review pool. One is flagged as a duplicate, so check stock and pick the one that ships sooner. Search the product code in the title to see if two listings are really the same item."
+  },
+  {
+    "q": "How do I put a converter on a desk with a wall behind it?",
+    "a": "Leave enough clearance behind the desk for the arms to travel forward as the deck rises. Most scissor converters move up and forward, so measure the distance from the desk edge to the wall before buying."
+  },
+  {
+    "q": "Should I check the weight capacity on a 36 inch model?",
+    "a": "Yes. Retail guides flag it as a common oversight for dual monitors. The listings here do not give a rating in our data, so read it on the product page and add the weight of both monitors, a laptop, and accessories."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

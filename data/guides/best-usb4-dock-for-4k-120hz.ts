@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Display Resolution by Host Generation", "description": "Compared stated maximum resolution and refresh rate across Thunderbolt 3/4/5 and USB4 hosts." },
-  { "title": "Native vs Adapter-Based HDMI", "description": "Compared built-in native HDMI 2.1 ports against USB-C to HDMI adapter dependencies." },
-  { "title": "Charging Wattage", "description": "Compared host charging wattage and sustained power delivery across all downstream ports." },
-  { "title": "Per-Chip Apple Silicon Documentation", "description": "Compared how specifically each listing documents display support by exact Mac chip." },
-  { "title": "Price Relative to Display Capability", "description": "Compared price against genuine 8K or high-refresh 4K display support." }
+  {
+    "title": "Refresh rate on the actual output port",
+    "description": "We read which port carries the 120Hz claim on each dock, because several docks cap HDMI at 4K 60Hz while the DisplayPort or Thunderbolt route does the high-refresh work. For a 4K 120Hz buyer we gave full credit only to docks that state 120Hz or 144Hz at 4K on the output you would really plug a monitor into."
+  },
+  {
+    "title": "Dual-display 4K at high refresh",
+    "description": "We checked whether two 4K screens can both hold 120Hz at the same time, since a single-screen claim says nothing about a two-monitor desk. Thunderbolt 5 docks with 80 to 120Gbps of display bandwidth scored well here, while the Targus's dual 4K 60Hz ceiling put it in a different tier."
+  },
+  {
+    "title": "Host requirements and DSC dependence",
+    "description": "Many 4K 120Hz results rely on Display Stream Compression on both the laptop and the dock, so we noted which listings spell out host requirements. A Thunderbolt 5 dock on a Thunderbolt 4 laptop falls back to 40Gbps, which is why we weighted the stated fallback behavior."
+  },
+  {
+    "title": "Charging headroom",
+    "description": "We compared host charging against the 140W class that gaming and creator laptops draw under load. A dock that tops out at 100W can leave a power-hungry laptop draining while it drives two fast monitors, so 140W pass-through earned extra weight in this tier."
+  },
+  {
+    "title": "Port mix beyond video",
+    "description": "We looked at 2.5GbE, SD 4.0 or UHS-II readers, and front-facing 30W charging ports as the tiebreakers once display specs were equal. The price gap between the under-$150 Targus and the docks above $250 only makes sense if these extras replace separate adapters you would otherwise buy."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The most detailed per-platform display documentation", "CalDigit TS5 Thunderbolt 5 Dock"],
-        ["Native dual HDMI 2.1 with no adapters needed", "Plugable Thunderbolt 5 Dock, Dual HDMI 2.1"],
-        ["Triple 4K display support at a lower price", "StarTech Thunderbolt 5 USB4 Dock"],
-        ["Genuine 8K support in a portable form factor", "Targus USB4 Dual Video Mobile Dock"]
+    "subheading": "By Display Setup",
+    "intro": "Your monitor count and refresh rate decide the tier more than any brand.",
+    "table": {
+      "headers": [
+        "Your display setup",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "One or two 4K monitors at 144Hz over HDMI 2.1",
+          "Plugable Thunderbolt 5 Dock, Dual HDMI 2.1, which drives 4K at 144Hz natively on both ports"
+        ],
+        [
+          "Dual 8K at 60Hz or triple 4K at 144Hz",
+          "StarTech Thunderbolt 5 USB4 Dock, which lists triple 4K 144Hz on Windows and dual 8K 60Hz"
+        ],
+        [
+          "Dual 6K 60Hz with Thunderbolt 5 or TB4 fallback",
+          "CalDigit TS5 Thunderbolt 5 Dock, with Bandwidth Boost and dual 6K support on a TB4 host"
+        ],
+        [
+          "Two plain 4K 60Hz screens, nothing faster",
+          "Targus USB4 Dual Video Mobile Dock, whose dual 4K 60Hz ceiling matches the need at the lowest cost"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $120", "Targus USB4 Dual Video Mobile Dock (under $120)"],
-        ["Under $285", "StarTech Thunderbolt 5 USB4 Dock (under $300)"],
-        ["Under $350", "Plugable Thunderbolt 5 Dock (under $350)"],
-        ["Under $400", "CalDigit TS5 (under $400)"]
+    "subheading": "By Budget",
+    "intro": "Prices in this guide run from under $150 to over $350, so each tier buys a real capability jump.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Under $150",
+          "Targus USB4 Dual Video Mobile Dock, a travel-ready dock for 4K 60Hz rather than 120Hz"
+        ],
+        [
+          "$250 to $300",
+          "StarTech Thunderbolt 5 USB4 Dock, which brings triple 4K 144Hz and a 180W brick at a mid-tier cost"
+        ],
+        [
+          "$300 to $360",
+          "Plugable Thunderbolt 5 Dock, with dual HDMI 2.1 and two front 30W charging ports"
+        ],
+        [
+          "Over $360",
+          "CalDigit TS5 Thunderbolt 5 Dock, with 140W charging, 240W sustained supply and the broadest port set"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Desk-Anchored High-Power Dock vs Portable 8K-Capable Dock",
-    cards: [
-      { label: "Desk-anchored (CalDigit, Plugable, StarTech)", text: "Delivers the highest resolution ceilings, refresh rates, and sustained charging power for a permanent multi-monitor workstation." },
-      { label: "Portable (Targus)", text: "Delivers genuine 8K single-display capability in a lightweight, travel-ready form factor at a fraction of the cost." }
+    "subheading": "Thunderbolt 5 Bandwidth vs USB4 40Gbps",
+    "intro": "The core tradeoff is how much display bandwidth reaches the monitors.",
+    "cards": [
+      {
+        "label": "Thunderbolt 5 (80 to 120Gbps)",
+        "text": "Bandwidth Boost lets display traffic climb toward 120Gbps, which is what makes dual 4K 144Hz or dual 8K plausible. CalDigit TS5, Plugable TB5 and StarTech TB5 fall here."
+      },
+      {
+        "label": "USB4 at 40Gbps",
+        "text": "Enough for dual 4K 60Hz, and 4K 120Hz on one screen with DSC, but a second fast monitor runs out of lanes. The Targus USB4 Dual Video Mobile Dock sits here, and it is honest about its 60Hz limit."
+      }
     ],
-    note: "If you need triple displays or the highest possible refresh rates for a permanent setup, one of the three premium desk docks is worth the investment. If you occasionally need 8K output while traveling, the Targus pick covers that need without the premium price.",
+    "note": "Most buyers chasing 120Hz should pay for Thunderbolt 5 only if their laptop has a TB5 port; otherwise the Targus or a TB4 route is the efficient choice."
   },
   {
-    subheading: "By Host Generation",
-    table: {
-      headers: ["Your laptop's port generation", "Recommended pick"],
-      rows: [
-        ["Thunderbolt 5 or USB4 v2 host", "Any of the four picks unlock their full display potential"],
-        ["Thunderbolt 4 or standard USB4 host", "Expect reduced resolution ceilings on all picks; check each listing's TB4-specific figures"]
+    "subheading": "By Laptop Type",
+    "intro": "Your host decides how much of the dock you can actually use.",
+    "table": {
+      "headers": [
+        "Your host",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Thunderbolt 5 gaming laptop or MacBook Pro",
+          "CalDigit TS5, because its 140W charging and Bandwidth Boost match a high-draw host"
+        ],
+        [
+          "Windows laptop with Thunderbolt 4 only",
+          "Plugable Thunderbolt 5 Dock, since it falls back cleanly and still gives HDMI 2.1 output"
+        ],
+        [
+          "Windows creator laptop with three monitors",
+          "StarTech Thunderbolt 5 USB4 Dock, which lists triple 4K 144Hz on Windows only"
+        ],
+        [
+          "Thin ultrabook on the go",
+          "Targus USB4 Dual Video Mobile Dock, with its slim travel-ready body and 140W USB-C PD pass-through"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Apple Silicon Macs Specifically",
-    cards: [
-      { label: "Look for", text: "A listing that specifically breaks down display support by exact Mac chip (base M-series versus Pro/Max), since Apple's own display output limits vary meaningfully by chip generation." },
-      { label: "In this comparison", text: "The StarTech and Plugable picks both specifically document exact chip-level display support, from base M-series limits up to M5 Max daisy-chain capability." }
-    ],
+    "subheading": "For a Competitive-Gaming Desk Specifically",
+    "intro": "Latency-sensitive play makes refresh rate and Ethernet matter.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A true 120Hz or 144Hz output on HDMI 2.1 or DisplayPort, plus 2.5GbE so wired online play does not depend on Wi-Fi."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Plugable Thunderbolt 5 Dock has native dual HDMI 2.1 and 2.5GbE in a 16-in-1 body, and the StarTech adds 2.5GbE with 9K jumbo frames."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the most detailed platform documentation with sustained full-port power delivery, where the CalDigit TS5 justifies its under $400 price." },
-      { label: "Save if", text: "You want genuine 8K support without needing triple displays or maximum charging wattage, where the Targus pick delivers that for under $120." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The gap between the under-$150 tier and the over-$250 tier is bandwidth.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You run two 4K monitors above 60Hz or expect to add 8K or a third screen. The CalDigit TS5 or Plugable TB5 give headroom the under $150 Targus cannot."
+      },
+      {
+        "label": "Save if",
+        "text": "You run one 4K display at 60Hz and want a travel dock. The Targus covers it, or see the best USB4 dock for dual monitors guide for a mid-range alternative."
+      }
+    ]
   }
 ];
 
@@ -182,12 +268,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Do I need a Thunderbolt 5 laptop to get 8K output from the CalDigit TS5?", "a": "Yes, on Windows the TS5 specifically requires a Thunderbolt 5 host for dual 8K@60Hz, while Thunderbolt 4 hosts are limited to dual 6K@60Hz on the same dock, so confirming your laptop's exact port generation is essential before expecting 8K output." },
-  { "q": "What's the most common mistake buyers make when shopping for a high-resolution USB4 dock?", "a": "Buying based on a dock's advertised 8K or 4K 120Hz headline spec without first confirming their own laptop has the required Thunderbolt 5 or USB4 v2 host generation needed to actually unlock that maximum resolution and refresh rate." },
-  { "q": "Is the CalDigit TS5 worth the extra cost over the StarTech pick if I only need dual displays, not triple?", "a": "If you only need dual displays and don't require the CalDigit's 15-port count or sustained full-port power delivery, the StarTech pick's triple-display capability at a lower price still covers dual-display needs comfortably and saves money." },
-  { "q": "Can the Targus mobile dock really output genuine 8K despite its low price and compact size?", "a": "Yes, the listing specifically confirms single 8K at 30Hz support, though the refresh rate is lower than the pricier desk docks' 8K@60Hz capability, a reasonable tradeoff given its portable form factor and much lower price." },
-  { "q": "Will these docks work with a Thunderbolt 3 laptop, or do they require Thunderbolt 4 or 5?", "a": "Compatibility varies: the Plugable pick explicitly does not support Thunderbolt 3-only hosts, while the CalDigit TS5 will work with Thunderbolt 3 hosts but with reduced functionality below its maximum rated performance." },
-  { "q": "Do gaming laptops work with these high-resolution docks?", "a": "Checking compatibility carefully is worth doing, since the Plugable pick specifically excludes gaming laptops equipped with a DisplayPort MUX, a common design in gaming laptops that routes the GPU's display output differently than standard laptops." }
+  {
+    "q": "Do I need a Thunderbolt 5 laptop to get 4K at 120Hz from these docks?",
+    "a": "Not always. A Thunderbolt 4 or USB4 laptop with DisplayPort 1.4 and DSC can drive 4K 120Hz on one or two screens. Thunderbolt 5 docks like the CalDigit TS5 add headroom for dual 4K 144Hz and above, but on a TB4 laptop they fall back to 40Gbps."
+  },
+  {
+    "q": "Why does my monitor only show 60Hz when the dock says 120Hz?",
+    "a": "The usual cause is the port. Some docks limit HDMI to 4K 60Hz and reserve 120Hz for DisplayPort or the Thunderbolt route. Also check the monitor's own input, the cable rating, and the refresh setting in Windows display options, because the default often stays at 60Hz."
+  },
+  {
+    "q": "Is the Plugable Thunderbolt 5 dock worth the premium over the Targus USB4 dock?",
+    "a": "If you want two 4K screens above 60Hz, yes. The Plugable has native dual HDMI 2.1 for 4K 144Hz, while the Targus tops out at dual 4K 60Hz. If a single 4K 60Hz screen is all you run, the Targus under $150 covers it."
+  },
+  {
+    "q": "How do I set up dual 4K 120Hz after plugging in the dock?",
+    "a": "Connect the dock to your laptop's Thunderbolt or USB4 port with the supplied cable, plug each monitor into a separate video output, then open Windows Display Settings, select each screen, and set refresh rate to 120Hz under advanced display. Use certified HDMI 2.1 or DP 1.4 cables."
+  },
+  {
+    "q": "Can a dock hold 140W charging while driving two high-refresh monitors?",
+    "a": "The TS5, Plugable and StarTech docks in this guide list 140W host charging, which is separate from display bandwidth. Charging is limited by the included power brick, so confirm the adapter is rated for the full wattage, as the StarTech's 180W brick leaves margin for its own ports."
+  },
+  {
+    "q": "Does heat throttle a 4K 120Hz dock over long sessions?",
+    "a": "Docks move a lot of data and run warm, and thermal throttling shows up as flicker or dropped links. Keep the dock on an open surface with airflow, avoid stacking it under a monitor stand, and prefer models with metal housings, as heat is the first thing to degrade a high-bandwidth link."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

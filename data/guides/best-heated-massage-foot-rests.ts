@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41FQg33LsIL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H4VLR3Q9?tag=deskfinds0d-20",
-    "description": "Heycool offers 3 vibration modes, 3 heat levels and 3 heater timer settings of 1, 2 or 4 hours, with overheat protection. The memory foam cushion has a high-friction rubber base and a surface you simply wipe clean.\n\nIt costs less than every footrest above it. Versus Snailax B0GWM98GN2 you lose published temperatures and a stated size, but gain a third heat step. Against Beleduc below, it is cheaper by about $30 and omits any height adjustment in its listing.\n\nGood for a first heated footrest on a modest budget. The caveat is the thinner spec sheet: no temperatures or dimensions are given, so measure your under-desk space before ordering.",
+    "description": "Heycool offers 3 vibration modes, 3 heat levels and 3 heater timer settings of 1, 2 or 4 hours, with overheat protection. The memory foam cushion has a high-friction rubber base and a surface you simply wipe clean.\n\nIt costs less than every footrest above it. Versus Snailax B0GWM98GN2 you lose published temperatures and a stated size, but gain a third heat step. Against Beleduc below, it is cheaper by under $40 and omits any height adjustment in its listing.\n\nGood for a first heated footrest on a modest budget. The caveat is the thinner spec sheet: no temperatures or dimensions are given, so measure your under-desk space before ordering.",
     "specs": [
       "3 heat levels, 3 vibration modes",
       "1, 2 or 4 hour heater timer",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41MLw177VIL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HHN55BK5?tag=deskfinds0d-20",
-    "description": "Beleduc has a detachable double layer design that gives 3 height settings between 5 and 7 inches, plus 3 vibration intensities and 2 heat levels. A memory foam core and a non-slip base keep it steady on carpet, wood, tile or laminate.\n\nIt is the most expensive footrest here, costing about $26 more than the Snailax 4 hour timer model, and it only has 2 heat levels. The payoff is the finer height tuning, which matters if your chair and desk heights leave an awkward gap.\n\nBest for taller people or adjustable chair users who need to dial in leg angle. The caveat is price, and the listing gives no timer or heat temperatures.",
+    "description": "Beleduc has a detachable double layer design that gives 3 height settings between 5 and 7 inches, plus 3 vibration intensities and 2 heat levels. A memory foam core and a non-slip base keep it steady on carpet, wood, tile or laminate.\n\nIt is the most expensive footrest here, costing under $30 more than the Snailax 4 hour timer model, and it only has 2 heat levels. The payoff is the finer height tuning, which matters if your chair and desk heights leave an awkward gap.\n\nBest for taller people or adjustable chair users who need to dial in leg angle. The caveat is price, and the listing gives no timer or heat temperatures.",
     "specs": [
       "3 heights, 5 to 7 inches",
       "2 heat levels, 3 vibration levels",
@@ -190,24 +190,24 @@ export const buyingCriteria: BuyingCriterion[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Heat and timer transparency",
-    "description": "Models that publish temperatures and timer lengths scored above those that only list level counts."
+    "title": "Vibration versus shiatsu action",
+    "description": "We separated light vibration from real kneading. The Snailax, Heycool and Beleduc footrests use vibration motors, the second Snailax adds a gentle swing, and the Snailax Shiatsu uses rolling nodes. We noted that the Shiatsu is not a desk footrest, since it must sit on the floor and be held."
   },
   {
-    "title": "Massage type and control",
-    "description": "We looked at vibration modes, swing or shiatsu action, and whether massage can run apart from heat."
+    "title": "Stated heat temperature",
+    "description": "Where listings gave numbers we used them: the Snailax lists 113F on low and 131F on high. The Heycool, Beleduc and the other Snailax list no temperatures, which we treated as a gap for a product that warms bare feet for hours, where a few degrees decide comfort."
   },
   {
-    "title": "Adjustability and fit",
-    "description": "Listed heights and dimensions were compared against typical desk clearances."
+    "title": "Timers for heat and massage",
+    "description": "A single timer for heat and vibration is simple, while separate timers are better. The Snailax lists a 1, 2 or 4 hour heater timer with vibration that shuts off after 15 minutes, and the Heycool lists a 1, 2 or 4 hour heater timer, so we credited separate control, since you may want warmth for hours but vibration for only a few minutes."
   },
   {
-    "title": "Cleaning and materials",
-    "description": "Wipe clean fabric, washable covers and non-slip bases earned credit for everyday upkeep."
+    "title": "Height and desk clearance",
+    "description": "We compared height, from the Snailax's 5 or 7 inch positions and the Beleduc's 5 to 7 inches to the other Snailax's low 3 or 4 inch profile. A tall footrest raises your knees, so desk clearance counted, since toes touching the desk's underside defeat the point."
   },
   {
-    "title": "Value for price",
-    "description": "Prices were weighed against documented features only, not unquantified claims."
+    "title": "Safety for reduced sensation",
+    "description": "A heater under bare feet is a risk if you cannot feel heat well. We noted the Heycool's overheat protection and the Snailax's separate heat and vibration controls, and recommend starting at the lowest heat step, particularly for anyone who cannot feel temperature well."
   }
 ];
 
@@ -257,7 +257,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Heycool Heated Vibrating Foot Rest"
         ],
         [
-          "About $50",
+          "Under $60",
           "Snailax Shiatsu Foot Massager with Heat"
         ],
         [
@@ -269,7 +269,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Snailax Heated Foot Rest with 4 Hour Timer"
         ],
         [
-          "Around $80",
+          "Under $100",
           "Beleduc Heated Foot Rest with 3 Heights"
         ]
       ]
@@ -343,28 +343,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can I use a heated footrest with shoes on?",
-    "a": "Heat transfers best to bare or sock feet, and thick shoe soles will blunt it. Most listings assume you are not wearing heavy shoes, so check that the surface is rated for foot pressure."
+    "q": "Is vibration or shiatsu better for tired feet?",
+    "a": "They feel different. Vibration, as on the Snailax and Heycool, is gentle and lets you keep working, while shiatsu nodes on the Snailax Shiatsu knead with real pressure. If you want pressure, the Shiatsu is better, but it is not a desk footrest."
   },
   {
-    "q": "Do heated foot rests need an outlet?",
-    "a": "They plug into a wall outlet, and cord length is rarely listed. Measure from your desk to the outlet and add slack for chair movement, avoiding extension cords where possible."
+    "q": "How hot does a heated foot rest get?",
+    "a": "The Snailax lists 113F on low and 131F on high. The Heycool, Beleduc and swing Snailax list no temperatures, so test it on the lowest step. Heat is comfortable at body warmth, and anything near 130F should not be used for hours."
   },
   {
-    "q": "Is a swing footrest worth it over a plain vibrating one?",
-    "a": "The swing adds an ankle rocking motion, but it also sits lower at 3 or 4 inches. If you sit at a standard desk and like to fidget it is nice, but a taller vibrating model such as the Snailax 4 hour timer unit may fit your legs better."
+    "q": "Is the Beleduc worth more than the Heycool?",
+    "a": "If you want three heights and memory foam, yes. The Beleduc lists 3 heights from 5 to 7 inches, 2 heat levels and 3 vibration levels, but no timer or temperatures. The Heycool is cheaper with 3 heat levels, 3 modes and overheat protection."
   },
   {
-    "q": "How do I set up a vacuum packed footrest?",
-    "a": "The swing model's listing notes it needs up to an hour after opening to fully expand. Let it sit before judging the height and plug it in only after it has fully expanded."
+    "q": "Can I use a vibrating foot rest while working?",
+    "a": "Yes, but low vibration is better for typing. The Snailax lists vibration that shuts off after 15 minutes, and the swing Snailax adds a gentle motion. Strong vibration can make your leg shake, so start on the lowest mode."
   },
   {
-    "q": "Are heated massage foot rests medical devices?",
-    "a": "No, they are comfort products. If you have neuropathy or reduced feeling in your feet, ask a doctor before using heat, since you may not feel if it is too warm."
+    "q": "What height should I pick for a standard desk?",
+    "a": "A 5 to 7 inch height works for most. The Snailax offers 5 or 7 inches and the Beleduc 3 heights in that range, while the swing Snailax is only 3 or 4 inches. Choose based on how far your feet are from the floor when seated."
   },
   {
-    "q": "How do I clean one?",
-    "a": "Wipe the surface with a damp cloth for fabric models like Heycool. For a removable cover such as the Snailax shiatsu, follow the care line, unplug first and let it dry completely before reuse."
+    "q": "How do I clean a heated massage foot rest?",
+    "a": "Unplug it and wipe the fabric with a damp cloth, as the Heycool lists wipe-clean fabric. The Snailax Shiatsu has a removable washable cover. Never submerge the heater, and make sure it is dry before plugging in."
   }
 ];
 

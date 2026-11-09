@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/510llNkNg9L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HDYXY663?tag=deskfinds0d-20",
-    "description": "Nanori is a 3.2 cu ft, 130 can fridge with a clear double-pane Low-E glass door that, per the listing, reduces heat transfer and limits UV exposure. The touch panel sets 35F to 65F, and blue LED lighting, adjustable shelves and adjustable feet are included.\n\nIt is the closest rival to EUHOMY, about $17 cheaper and with a wider range, but with no noise or kWh figure. Against Electactic below, it describes the glass better, though the pricing is similar.\n\nBest for a drink display that needs a wide temperature range. The caveat is the missing noise and energy numbers.",
+    "description": "Nanori is a 3.2 cu ft, 130 can fridge with a clear double-pane Low-E glass door that, per the listing, reduces heat transfer and limits UV exposure. The touch panel sets 35F to 65F, and blue LED lighting, adjustable shelves and adjustable feet are included.\n\nIt is the closest rival to EUHOMY, under $20 cheaper and with a wider range, but with no noise or kWh figure. Against Electactic below, it describes the glass better, though the pricing is similar.\n\nBest for a drink display that needs a wide temperature range. The caveat is the missing noise and energy numbers.",
     "specs": [
       "3.2 cu ft, 130 cans",
       "35F to 65F range",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51jfyYqGQwL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DLWCH7N8?tag=deskfinds0d-20",
-    "description": "Feelfunn is the biggest here at 4.5 cu ft, 20.9 by 20.2 by 31.3 inches, holding up to 145 cans or 33 wine bottles. The touch panel runs from 32F to 61F, the glass is double layer with a sealing strip, and the listing states under 42 dB and a one year warranty.\n\nIt cools colder than any other pick, to 32F, and holds the most, but is about $85 more than EUHOMY and has a bigger footprint. The stated noise ceiling is higher than EUHOMY's.\n\nBest for a family room or office needing extra capacity and a true 32F floor. The caveat is size and price.",
+    "description": "Feelfunn is the biggest here at 4.5 cu ft, 20.9 by 20.2 by 31.3 inches, holding up to 145 cans or 33 wine bottles. The touch panel runs from 32F to 61F, the glass is double layer with a sealing strip, and the listing states under 42 dB and a one year warranty.\n\nIt cools colder than any other pick, to 32F, and holds the most, but is under $100 more than EUHOMY and has a bigger footprint. The stated noise ceiling is higher than EUHOMY's.\n\nBest for a family room or office needing extra capacity and a true 32F floor. The caveat is size and price.",
     "specs": [
       "4.5 cu ft, 145 cans",
       "32F to 61F range",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/519o+StfLML._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C1S3RB9Q?tag=deskfinds0d-20",
-    "description": "Antarctic Star is a 1.7 cu ft compressor cooler holding about 70 cans, with 2 adjustable shelves, a digital thermostat from 40F to 61F, a tinted double pane tempered glass door and blue LED light. The listing calls it quiet but gives no decibel number.\n\nCompared with the 130 can models, it is about $30 to $50 cheaper and much smaller. Against Electactic 68 below, it costs about $16 more and mentions tinted glass.\n\nBest for a bedroom or dorm where a smaller display fridge is enough. The caveat is the 40F floor.",
+    "description": "Antarctic Star is a 1.7 cu ft compressor cooler holding about 70 cans, with 2 adjustable shelves, a digital thermostat from 40F to 61F, a tinted double pane tempered glass door and blue LED light. The listing calls it quiet but gives no decibel number.\n\nCompared with the 130 can models, it is under $40 to $50 cheaper and much smaller. Against Electactic 68 below, it costs under $20 more and mentions tinted glass.\n\nBest for a bedroom or dorm where a smaller display fridge is enough. The caveat is the 40F floor.",
     "specs": [
       "1.7 cu ft, 70 cans",
       "40F to 61F range",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51fkj7eu-oL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DHJNCW3H?tag=deskfinds0d-20",
-    "description": "This Electactic cooler is 1.7 cu ft and holds up to 68 cans, using a sturdy metal partition for organizing drinks. The compressor runs from 40F to 61F with a temperature control button, and the listing frames it for bedrooms, garages and game rooms.\n\nIt is the cheapest pick here and about $16 below Antarctic Star, giving up the stated glass tint. The listing does not state noise or door pane count.\n\nBest for a low cost glass door fridge for cans. The caveat is that it does not cool below 40F.",
+    "description": "This Electactic cooler is 1.7 cu ft and holds up to 68 cans, using a sturdy metal partition for organizing drinks. The compressor runs from 40F to 61F with a temperature control button, and the listing frames it for bedrooms, garages and game rooms.\n\nIt is the cheapest pick here and under $20 below Antarctic Star, giving up the stated glass tint. The listing does not state noise or door pane count.\n\nBest for a low cost glass door fridge for cans. The caveat is that it does not cool below 40F.",
     "specs": [
       "1.7 cu ft, 68 cans",
       "40F to 61F range",
@@ -219,27 +219,23 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Pane count and glass coatings",
-    "explanation": "Glass conducts heat much more than a solid door, so double or triple panes and Low-E coatings are how makers make up for it. Fewer panes mean the compressor runs more and condensation can form on the outside. Look for double pane, Low-E or three pane in the listing, as in the Nanori and Honeywell pages."
+    "explanation": "A double pane door has an air gap that slows heat transfer, and a Low-E coating reflects heat, while a three pane door adds a second gap. The Nanori lists double-pane Low-E, the Honeywell lists three pane glass, and the Antarctic Star lists tinted double pane. Better glass keeps the compressor off longer, so check the pane count in the listing."
   },
   {
     "criterion": "UV protection and sunlight",
-    "explanation": "Light can warm the interior and degrade drinks like beer and wine. UV blocking glass or a tint reduces that effect, but a fridge in direct sun will still struggle. Check for UV wording on the listing and place the unit away from windows."
+    "explanation": "Sunlight through a glass door warms drinks and can spoil wine or light-sensitive beverages. The EUHOMY lists double layer UV blocking glass, while others do not mention it. If the fridge sits near a window, choose one with UV blocking or tinted glass, and keep it out of direct sun."
   },
   {
     "criterion": "Temperature floor",
-    "explanation": "Many glass door fridges bottom out at 37F or 40F, because they are built for beverages and wine. That is not cold enough to keep dairy safe over many days, since guidance is 40F or lower. Check the lowest listed temperature if you want to store anything besides drinks."
+    "explanation": "A drinks fridge that bottoms out at 40F, as the Antarctic Star and Electactic 68 can, is not cold enough to store dairy safely, while the Feelfunn reaches 32F and the Nanori 35F. Look for the coldest setting in the specs, since many glass door coolers are tuned for beverages only."
   },
   {
     "criterion": "Can count versus real shelving",
-    "explanation": "Can counts are best-case numbers with cans packed tightly. Real storage depends on shelf layout and whether tall bottles fit. Look for adjustable or removable shelves, and note that wire racks, slide out shelves and metal partitions each handle bottles differently."
+    "explanation": "A 130 can rating assumes cans stacked in a particular layout, and your tall bottles may fit fewer. The Electactic 130 lists five adjustable wire racks for tall bottles and the Feelfunn holds 33 wine bottles. Compare shelf count and adjustability, not just the can number, and measure your largest bottle against the shelf spacing before ordering."
   },
   {
-    "criterion": "Noise and fan design",
-    "explanation": "Beverage fridges often add a fan for even cooling, which hums. Stated figures such as 36 dB for EUHOMY or under 42 dB for Feelfunn help, but several listings give no number. If it will sit in a bedroom, favor a model with a stated figure."
-  },
-  {
-    "criterion": "Clearance and under counter use",
-    "explanation": "A fridge designed for freestanding use needs rear and side clearance for heat. Squeezing it under a counter without ventilation can make it run hotter. Check whether the listing says it is under counter safe, as Electactic's does, and read the manual for clearances."
+    "criterion": "Noise and clearance",
+    "explanation": "A compressor drinks fridge may hum, and the Feelfunn lists under 42 dB. Under-counter use needs a front-venting design with ventilation clearance, such as the Electactic lists. Check whether it is front vented, since a rear vented unit pushed into a cabinet will overheat and shorten the compressor's life."
   }
 ];
 
@@ -247,23 +243,23 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     "title": "Glass construction",
-    "description": "We compared pane count, coatings and UV claims, since glass is the defining feature."
+    "description": "We compared the pane count and coatings: the Nanori's double-pane Low-E, the Honeywell's three panes, the EUHOMY's double layer UV blocking glass, and the Antarctic Star's tinted double pane. Better glass matters because the door is the weakest insulation point on any display fridge, and a drinks cooler in a warm room runs its compressor more often."
   },
   {
-    "title": "Temperature range",
-    "description": "Listed lowest and highest settings were compared with typical food safety guidance."
+    "title": "Temperature floor and range",
+    "description": "We checked how cold each can go. The Feelfunn lists 32F to 61F, the Nanori 35F to 65F, the EUHOMY and Electactic 37F to 61F, and the 68 can models only 40F. A drinks fridge that cannot reach the mid 30s is a beverage unit only."
   },
   {
-    "title": "Capacity and layout",
-    "description": "Can counts, shelf types and dimensions were weighed for real rooms."
+    "title": "Capacity versus footprint",
+    "description": "A 130 can cooler is large. We compared the 3.2 cu ft, 130 can models with the Feelfunn's 4.5 cu ft and the 1.7 cu ft, 68 to 70 can models, and credited the smaller units for tight spots and the Feelfunn for the most wine storage, though its 4.5 cu ft body needs the most floor space."
   },
   {
-    "title": "Noise and energy claims",
-    "description": "Stated decibels and kWh were noted as seller claims."
+    "title": "Energy and noise data",
+    "description": "Few listings state them. The EUHOMY lists 0.69 kWh per day and the Feelfunn lists under 42 dB, while most give neither. We scored a stated number higher than none, since a glass door fridge in a living space runs all day and its noise and energy use are felt every hour."
   },
   {
-    "title": "Price for the claims made",
-    "description": "Prices were compared against what each listing documents."
+    "title": "Under-counter practicality",
+    "description": "The Electactic 130 lists under-counter or freestanding use, which matters for a bar. We checked for front venting and clearance notes, and flagged picks with thin listing detail, since heat buildup in a cabinet shortens compressor life and can warm the drinks you are trying to chill."
   }
 ];
 
@@ -326,7 +322,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Honeywell 116 Can Three Pane Glass Door Fridge"
         ],
         [
-          "Around $295",
+          "Under $300",
           "Feelfunn 4.5 Cu Ft 145 Can Glass Door Fridge"
         ]
       ]
@@ -404,28 +400,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do glass door fridges use more energy?",
-    "a": "Usually a bit more than solid door models, since glass insulates less. Double or triple panes and Low-E coatings reduce the gap. EUHOMY states 0.69 kWh per day."
+    "q": "Is a glass door fridge less efficient?",
+    "a": "Usually, because glass insulates worse than a solid door. Double pane Low-E glass, as on the Nanori, reduces heat gain, and the EUHOMY lists 0.69 kWh per day. Keep it out of the sun and fill it, since a full fridge holds cold better."
   },
   {
-    "q": "Can I keep food in a beverage fridge?",
-    "a": "Only if it reaches 40F or lower. Several models stop at 37F or 40F, so food is a risk. Feelfunn's 4.5 cu ft model lists 32F."
+    "q": "Can I store dairy in a drinks fridge?",
+    "a": "Only if it reaches about 40F or below at the top. The Antarctic Star 68 and Electactic 68 bottom out at 40F, so dairy is marginal. The Feelfunn reaches 32F. Use a thermometer to verify the real temperature."
   },
   {
-    "q": "Is a three pane door worth it?",
-    "a": "It should insulate better than two panes, but Honeywell's listing has little else documented. Compare temperature range and size before paying for panes alone."
+    "q": "Is the Feelfunn worth the higher price?",
+    "a": "If you want capacity and a cold floor, yes. The Feelfunn lists 4.5 cu ft, 145 cans, 33 wine bottles, 32F to 61F and under 42 dB, but costs the most and has the biggest footprint. A 3.2 cu ft model is plenty for most rooms."
   },
   {
-    "q": "How do I set one up?",
-    "a": "Stand it upright for the time in the listing, such as 24 hours for EUHOMY and Feelfunn. Then level it, leave ventilation space and set a middle temperature."
+    "q": "Can I put it under a counter?",
+    "a": "Only if it is built for that. The Electactic 130 lists under-counter use, but many drinks coolers vent at the back and need clearance. Check for a front-venting design, and leave a few inches around the sides and back."
   },
   {
-    "q": "Does sunlight matter?",
-    "a": "Yes. Direct sun warms the interior and can fade labels. UV blocking glass helps, but place it away from windows anyway."
+    "q": "Why must I wait before plugging it in?",
+    "a": "The EUHOMY listing says to stand it upright for 24 hours first, since oil in the compressor needs time to settle after transport. Plugging in too early can damage the compressor. Follow the manual, and let it cool before loading drinks."
   },
   {
-    "q": "Can it go under a counter?",
-    "a": "Only if the listing says so. Electactic's 130 can model is described for under counter use, and others need rear and side clearance."
+    "q": "How do I clean the glass and shelves?",
+    "a": "Unplug it, take out the shelves, and wash them with warm soapy water. Wipe the glass with a soft cloth and a mild cleaner, avoiding harsh scrubbing on tinted or coated glass. Check the door gasket for dirt that breaks the seal."
   }
 ];
 

@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41nAvEOL19L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H6WZD58J?tag=deskfinds0d-20",
-    "description": "WELLFIT lists a 40 by 16 inch belt, a 3.5HP brushless motor, a 375 lb capacity, noise under 40 dB, a 0 to 12% auto incline and a top speed of 7.6 mph. A handle bar and a foldable frame are included.\n\nAt about $300 it costs the same as the Rockare, which offers the same belt size, and it adds capacity and speed, while the Rockare quotes a lower noise figure. Against the 47 inch pads, you give up 7 inches of length for incline.\n\nBest for a taller, heavier walker who wants incline and jogging speeds. The caveat is that 40 inches is a minimum for people over 6 feet.",
+    "description": "WELLFIT lists a 40 by 16 inch belt, a 3.5HP brushless motor, a 375 lb capacity, noise under 40 dB, a 0 to 12% auto incline and a top speed of 7.6 mph. A handle bar and a foldable frame are included.\n\nAt under $400 it costs the same as the Rockare, which offers the same belt size, and it adds capacity and speed, while the Rockare quotes a lower noise figure. Against the 47 inch pads, you give up 7 inches of length for incline.\n\nBest for a taller, heavier walker who wants incline and jogging speeds. The caveat is that 40 inches is a minimum for people over 6 feet.",
     "specs": [
       "40 x 16 inch belt, 375 lb",
       "3.5HP, 0 to 12% incline",
@@ -97,7 +97,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Belt shorter than the WalkingPads",
-      "Costs about $300"
+      "Costs under $400"
     ],
     "bestFor": "Tall, heavier walkers who want incline"
   },
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/21OnfNtfL-L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H9Y7GPPY?tag=deskfinds0d-20",
-    "description": "Rockare lists a 40 by 16 inch belt, a 3.5HP BLDC motor with noise stated under 30dB, a 12-level 12% auto incline, a 5 mph top speed and a 300 lb capacity. A large display remembers settings between sessions.\n\nIt costs a cent more than WELLFIT at about $300 and gives up 75 lb of capacity and speed, but it quotes a lower noise level. Against THERUN, it adds incline and a stronger motor for about $210 more.\n\nBest for a tall walker who wants incline and low noise without jogging speeds. The caveat is that 5 mph caps any running plans.",
+    "description": "Rockare lists a 40 by 16 inch belt, a 3.5HP BLDC motor with noise stated under 30dB, a 12-level 12% auto incline, a 5 mph top speed and a 300 lb capacity. A large display remembers settings between sessions.\n\nIt costs a cent more than WELLFIT at under $400 and gives up 75 lb of capacity and speed, but it quotes a lower noise level. Against THERUN, it adds incline and a stronger motor for under $250 more.\n\nBest for a tall walker who wants incline and low noise without jogging speeds. The caveat is that 5 mph caps any running plans.",
     "specs": [
       "40 x 16 inch belt",
       "3.5HP BLDC, under 30dB",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41K23ajwhGL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HFMJQCMH?tag=deskfinds0d-20",
-    "description": "THERUN lists a 40 inch long belt that is 15 inches wide, six silicone shock absorbers, built-in front wheels and a 300 lb capacity, with a deck designed to stop belt shifting. The long, 15 inch wide belt is the main reason a taller walker would pick it over short budget pads.\n\nAt about $90 it costs one third of the Rockare, but the speed range is walking-focused and no incline is stated. It meets the 40 inch threshold for walkers up to about 6 feet.\n\nBest for a tall budget buyer who walks flat at desk speed. The caveat is that over 6 feet, the 47 inch pads give your stride more room.",
+    "description": "THERUN lists a 40 inch long belt that is 15 inches wide, six silicone shock absorbers, built-in front wheels and a 300 lb capacity, with a deck designed to stop belt shifting. The long, 15 inch wide belt is the main reason a taller walker would pick it over short budget pads.\n\nAt under $100 it costs one third of the Rockare, but the speed range is walking-focused and no incline is stated. It meets the 40 inch threshold for walkers up to about 6 feet.\n\nBest for a tall budget buyer who walks flat at desk speed. The caveat is that over 6 feet, the 47 inch pads give your stride more room.",
     "specs": [
       "40 x 15 inch belt",
       "300 lb capacity",
@@ -162,202 +162,108 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Belt length for your height",
-    "explanation": "Belt length is the running surface from front to back, not the whole deck. Walkers over about 5 foot 10 tend to shorten their stride on belts under 40 inches, and over 6 feet 47 inches is more comfortable. Check the length of the belt itself in inches in the listing, because some listings quote deck length."
+    "criterion": "Belt length",
+    "explanation": "The belt length is the distance you can step along the deck, from 40 inches on WELLFIT and Rockare to 47.2 inches on the Z3. Taller walkers take longer strides, and a short belt makes them shorten their steps or risk the back edge. Look for the dimension in the listing and match it to your height. Divide your height in inches by 1.5 for a rough stride-based target."
   },
   {
-    "criterion": "Belt width and sway",
-    "explanation": "A belt at 15 inches is workable, while 16 to 17 inches gives wider-shouldered or larger users room to move. Narrow belts add a feeling of walking a tightrope. Look for the belt width stated separately from the deck."
+    "criterion": "Belt width",
+    "explanation": "The G1 offers 17 inches, WELLFIT and Rockare 16, and THERUN 15. A wider belt gives more room for big shoes and lateral movement. Check the width, and consider that a narrow belt can cause you to graze the sides during a long stride. Bring a tape measure to your own shoes if you wear a large size."
   },
   {
-    "criterion": "Deck length versus desk clearance",
-    "explanation": "A longer deck is harder to store and may stick out from under a desk, which matters for tall people who also use tall desks. Measure the depth of your desk area and compare with the listed deck length. A 47 inch deck needs more room than a 35 inch one."
+    "criterion": "Handle and display height",
+    "explanation": "Handle bars and displays set the posture you adopt at the desk. The G1's handle lowers for storage, and the Z3's display tilts for a standing desk. Look for adjustable or foldable handles, and check that the console will not block your sightline. Sit your desk height against the console height in photos."
   },
   {
-    "criterion": "Motor and weight rating",
-    "explanation": "Tall users are often heavier, so motor and capacity matter. A 3.5HP brushless motor runs relaxed at low speeds, and a 375 lb rating leaves headroom. Look for continuous horsepower and a stated capacity, and keep at least 50 lb over your weight."
+    "criterion": "Capacity and motor",
+    "explanation": "Taller people are often heavier, and WELLFIT's 375 lbs leads this group, with Rockare and THERUN at 300 lbs. A pad near your weight strains the motor. Look for a stated limit and keep 50 lbs of headroom, and be wary of the G1's missing figures. Remember that long limbs usually mean a heavier body."
   },
   {
-    "criterion": "Handle and standing desk fit",
-    "explanation": "A handle bar helps balance, but it may block a tall desk's under-frame. A tilted display helps standing desk users read speed. Check handle fold options and where the display sits."
-  },
-  {
-    "criterion": "Conflicting dimensions in listings",
-    "explanation": "A listing may quote a 40 inch belt in one bullet and 35.5 inches in another, as one candidate here did. The conflict suggests copy errors or a changed model. Verify the number in the spec table and in buyer questions before buying."
+    "criterion": "Cushioning",
+    "explanation": "Long strides land with greater force, so a thick cushion helps knees. The Z3 lists 8 layers and Rockare quadruple cushioning. Check for stated layers or absorbers, and compare them to the belt length when deciding. Pick the cushioning figure over the marketing phrase."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  {
-    "title": "Belt length",
-    "description": "We required 40 inches or more in the listing and dropped pads with conflicting lengths."
-  },
-  {
-    "title": "Belt width",
-    "description": "We compared widths from 15 to 17 inches."
-  },
-  {
-    "title": "Motor and capacity",
-    "description": "We compared stated horsepower, capacity and speed range."
-  },
-  {
-    "title": "Noise and cushioning",
-    "description": "We noted stated decibel levels and cushioning layers."
-  },
-  {
-    "title": "Price",
-    "description": "We compared price across the five picks."
-  }
+  { "title": "Belt length against your height", "description": "The WalkingPad Z3 lists a 47.2 inch belt and the G1 47 inches, while WELLFIT, Rockare and THERUN sit near 40. Taller walkers take longer steps, so we used 45 inches as the comfort threshold for anyone over roughly 6 feet and treated 40 inches as the floor. Anyone over six feet should prefer the longer figure." },
+  { "title": "Belt width for stability", "description": "The G1 is 17 inches wide, WELLFIT and Rockare 16 and THERUN 15, and the Z3 15.7. A wider belt gives larger feet and wider strides room, so we noted width where listed since a tall walker with big shoes can graze the side rails on a narrow belt. A narrow belt is a quiet source of fatigue." },
+  { "title": "Handle height and desk clearance", "description": "The G1 has a handle bar that lowers for storage, and the Z3 has a tilted standing-desk display. We considered whether a tall user can keep a straight posture at a desk, because a low handle or display forces hunching over long sessions." },
+  { "title": "Motor and weight limit", "description": "WELLFIT lists 3.5HP and 375 lbs, Rockare 3.5HP BLDC and 300 lbs, and THERUN 2.5HP and 300 lbs. Taller people are often heavier, so we weighed capacity alongside length and flagged the G1's missing motor and weight figures as a gap. A tilted display also keeps your neck neutral over long sessions." },
+  { "title": "Speed range and cushioning", "description": "The Z3 caps at 4 mph, the G1 reaches 7.5 mph and WELLFIT 7.6 mph. We checked cushioning too, such as the Z3's 8 layers and Rockare's quadruple cushioning, since long strides land with more force and a thin belt transmits it to knees." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Your Height",
-    "table": {
-      "headers": [
-        "Your height",
-        "Recommended pick"
+    subheading: "By Primary Need",
+    intro: "For taller walkers belt length and handle height come first, so the sections below start from your height.",
+    table: {
+      headers: ["If you mainly need", "Recommended pick"],
+      rows: [
+        ["The longest belt for a long stride", "WalkingPad Z3, with a 47.2 inch belt and 8-layer cushioning"],
+        ["The longest and widest belt with a high top speed", "WalkingPad G1, at 47 x 17 inches and up to 7.5 mph"],
+        ["Auto incline with the highest capacity", "WELLFIT, at 375 lbs and 12% incline"],
+        ["The quietest stated motor", "Rockare, rated under 30 dB"],
+        ["The cheapest 40 inch belt", "THERUN, at a low price with six absorbers"]
       ],
-      "rows": [
-        [
-          "Over 6 feet, desk walking",
-          "WalkingPad Z3 Foldable Walking Pad"
-        ],
-        [
-          "Over 6 feet, want to jog too",
-          "WalkingPad G1 Foldable Treadmill with Handle"
-        ],
-        [
-          "5 foot 10 to 6 feet, budget",
-          "THERUN 40 Inch Belt Under-Desk Walking Pad"
-        ],
-        [
-          "5 foot 10 to 6 feet, want incline",
-          "Rockare 12-Level Auto Incline Walking Pad"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "By Budget",
-    "table": {
-      "headers": [
-        "Price range",
-        "Recommended pick"
+    subheading: "By Height",
+    table: {
+      headers: ["Your height", "Recommended pick"],
+      rows: [
+        ["About 5 feet 10 inches to 6 feet", "WELLFIT or Rockare, whose 40 inch belts are an acceptable minimum"],
+        ["About 6 feet to 6 feet 3 inches", "WalkingPad G1, with a 47 inch belt and 17 inch width"],
+        ["Over 6 feet 3 inches", "WalkingPad Z3, the longest belt listed"],
+        ["Budget at about 6 feet", "THERUN, though you may want more length"]
       ],
-      "rows": [
-        [
-          "Under $100",
-          "THERUN 40 Inch Belt Under-Desk Walking Pad"
-        ],
-        [
-          "$100 to $300",
-          "Rockare 12-Level Auto Incline Walking Pad"
-        ],
-        [
-          "$300 to $400",
-          "WalkingPad G1 Foldable Treadmill with Handle"
-        ],
-        [
-          "$400 and up",
-          "WalkingPad Z3 Foldable Walking Pad"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "47 Inch Belt vs 40 Inch Belt",
-    "cards": [
-      {
-        "label": "47 inch belts",
-        "text": "Fit longer strides with room to spare. WalkingPad G1 Foldable Treadmill with Handle and WalkingPad Z3 Foldable Walking Pad are in this group."
-      },
-      {
-        "label": "40 inch belts",
-        "text": "Fit up to about 6 feet. WELLFIT 3.5HP Auto Incline Walking Pad, Rockare 12-Level Auto Incline Walking Pad and THERUN 40 Inch Belt Under-Desk Walking Pad are in this group."
-      }
+    subheading: "Long Belt vs Auto Incline",
+    cards: [
+      { label: "Long belt (WalkingPad Z3, G1)", text: "A 47 inch belt lets you take a full stride without clipping the back edge. These skip auto incline and cost more, but they are more comfortable for height." },
+      { label: "Auto incline with a 40 inch belt (WELLFIT, Rockare)", text: "These add 12% slopes and strong motors for less money, but a 40 inch belt feels short for anyone above about 6 feet at a brisk pace." }
     ],
-    "note": "Over 6 feet, choose a 47 inch belt; under that, a 40 inch belt works."
+    note: "Most tall walkers should default to the longer belt, unless they specifically need the incline for exercise.",
   },
   {
-    "subheading": "By Speed Needs",
-    "table": {
-      "headers": [
-        "Your speed",
-        "Recommended pick"
+    subheading: "By Budget",
+    table: {
+      headers: ["Price range", "Recommended pick"],
+      rows: [
+        ["Around $90", "THERUN, the cheapest 40 inch belt"],
+        ["Around $300", "WELLFIT or Rockare, both with auto incline"],
+        ["Around $400", "WalkingPad G1, with the widest belt"],
+        ["Around $560", "WalkingPad Z3, the highest price and longest belt"]
       ],
-      "rows": [
-        [
-          "Slow walking only, 1 to 4 mph",
-          "WalkingPad Z3 Foldable Walking Pad"
-        ],
-        [
-          "Brisk to 5 mph with low noise",
-          "Rockare 12-Level Auto Incline Walking Pad"
-        ],
-        [
-          "Jogging, up to 7.6 mph",
-          "WELLFIT 3.5HP Auto Incline Walking Pad"
-        ],
-        [
-          "Jogging, up to 7.5 mph",
-          "WalkingPad G1 Foldable Treadmill with Handle"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "For Standing Desk Users Specifically",
-    "cards": [
-      {
-        "label": "Look for",
-        "text": "A handle that folds out of the way, a display you can read standing, and a quiet motor."
-      },
-      {
-        "label": "In this comparison",
-        "text": "WalkingPad Z3 Foldable Walking Pad has a 15 degree tilted display and a 180 degree fold, and WalkingPad G1 Foldable Treadmill with Handle lowers its handlebar."
-      }
-    ]
+    subheading: "For Standing Desk Walkers Specifically",
+    cards: [
+      { label: "Look for", text: "A belt of at least 45 inches, a handle that lowers or folds away, and a display that does not block your desk. Check the clearance beneath a raised desk." },
+      { label: "In this comparison", text: "The Z3 has a tilted standing-desk display and the G1's handle lowers for storage. Both are better matched to a tall user than a 40 inch pad." }
+    ],
   },
   {
-    "subheading": "When to Spend More",
-    "cards": [
-      {
-        "label": "Spend more if",
-        "text": "You are over 6 feet, as WalkingPad G1 Foldable Treadmill with Handle and WalkingPad Z3 Foldable Walking Pad give 47 inch belts."
-      },
-      {
-        "label": "Save if",
-        "text": "You are about 5 foot 10 and walk flat, where THERUN 40 Inch Belt Under-Desk Walking Pad is enough."
-      }
-    ]
+    subheading: "When to Spend More",
+    cards: [
+      { label: "Spend more if", text: "You are over 6 feet or walk more than an hour daily. The Z3 and G1 cost far more than THERUN but fit a long stride, and the under $700 guide covers more long-belt choices." },
+      { label: "Save if", text: "You stand about 5 feet 10 inches or less. THERUN or the WELLFIT offers a 40 inch belt for much less." }
+    ],
   }
 ];
 
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
-  {
-    "q": "How long should the belt be?",
-    "a": "Aim for at least 40 inches if you are 5 foot 10 or taller, and 47 inches if you are over 6 feet. The belt, not the deck, is the number to check."
-  },
-  {
-    "q": "Is a wider belt worth it?",
-    "a": "A 17 inch belt like the G1 gives more lateral room than a 15 inch one. It helps if you have broad shoulders or a wide gait."
-  },
-  {
-    "q": "Why not pick a cheaper 35 inch pad?",
-    "a": "A shorter belt makes you shorten your stride, which feels awkward and tires you. Some listings also contradict their own length."
-  },
-  {
-    "q": "Will a long pad fit under my desk?",
-    "a": "Measure the depth under your desk, because a 47 inch deck takes more room than a short one. Fold-in-half models like the G1 can be stored upright."
-  },
-  {
-    "q": "How often should I lubricate the belt?",
-    "a": "Follow the manual's schedule, because tall users take longer strides and put more friction on the belt. Check for a dry belt if you hear noise."
-  }
+  { "q": "What belt length do tall people need?", "a": "Taller walkers should aim for at least 45 inches, which the WalkingPad G1 at 47 inches and Z3 at 47.2 inches both meet. A 40 inch belt like THERUN's is a minimum that suits walkers up to roughly 5 feet 10 inches." },
+  { "q": "What is the common mistake for tall buyers?", "a": "Buying on motor power and ignoring belt length. A 3.5HP pad with a 40 inch belt still forces short steps at brisk speed. Check belt length first, then capacity, because a long stride lands harder and needs more cushioning." },
+  { "q": "Is the WalkingPad Z3 worth more than the G1?", "a": "The Z3 has a 47.2 inch belt, 8-layer cushioning and a quiet motor, but caps at 4 mph and costs more. The G1 reaches 7.5 mph and costs less. For desk walking pick the Z3, for light jogging pick the G1." },
+  { "q": "How do I set up a pad for my height?", "a": "Set your desk so your elbows sit at about 90 degrees while standing on the belt, and raise the monitor to eye level. Start at 1 mph and check that your stride does not touch the end of the belt." },
+  { "q": "Can tall people use a 40 inch pad?", "a": "Yes at slow speeds, and many do. Under about 3 mph a 40 inch belt can work for someone around 6 feet, but expect to shorten your stride as speed increases. Rockare and WELLFIT offer extra features that offset this." },
+  { "q": "How do I clean and maintain a long belt?", "a": "Wipe the belt with a damp cloth, vacuum around the motor and lubricate as the manual says. Longer belts have more surface to collect dust, and the G1 and Z3 are easier to clean when folded." }
 ];
 
 export const relatedGuides = [

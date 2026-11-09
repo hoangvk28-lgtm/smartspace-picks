@@ -167,11 +167,11 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Bluetooth versus USB receiver",
-    "explanation": "Bluetooth pairs directly, which is useful on a tablet or a laptop without USB-A. A USB receiver gives more stable connection but can be lost on the road. Look for a receiver storage slot in the listing, or choose Bluetooth if your laptop has no USB-A."
+    "explanation": "Bluetooth pairs directly, which is useful on a tablet or a laptop without USB-A. A USB receiver gives more stable connection but can be lost on the road. Look for a receiver storage slot in the listing, or choose Bluetooth if your laptop has no USB-A. A receiver typically reconnects after sleep faster than Bluetooth, which can lag for a second after the laptop wakes."
   },
   {
     "criterion": "Battery type and listed life",
-    "explanation": "Replaceable AA and AAA batteries cost little and can be swapped in a cafe. Listed battery claims range from 12 months to 250 hours of play. Check whether the battery is included and whether a power switch is present."
+    "explanation": "Replaceable AA and AAA batteries cost little and can be swapped in a cafe. Listed battery claims range from 12 months to 250 hours of play. Check whether the battery is included and whether a power switch is present. TECKNET's on and off switch can extend life when the mouse sits in a bag."
   },
   {
     "criterion": "Ergonomic features on a small shell",
@@ -179,31 +179,35 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Surface tracking quality",
-    "explanation": "Optical sensors struggle on glass or glossy surfaces. A darkfield sensor, as listed on the MX Anywhere 2S, is described as working on varied surfaces. Look for any-surface language when you work in cafes or on shared tables."
+    "explanation": "Optical sensors struggle on glass or glossy surfaces. A darkfield sensor, as listed on the MX Anywhere 2S, is described as working on varied surfaces. Look for any-surface language when you work in cafes or on shared tables. A darkfield sensor tracks on glass because it uses angled light, which cheaper optical sensors cannot."
   },
   {
     "criterion": "Operating system compatibility",
-    "explanation": "Extra buttons sometimes do not work on macOS, and a few listings state this directly. Check the compatibility list and any note about side buttons before you buy. This matters most if you plan to use the mouse with both a Windows laptop and a Mac."
+    "explanation": "Extra buttons sometimes do not work on macOS, and a few listings state this directly. Check the compatibility list and any note about side buttons before you buy. This matters most if you plan to use the mouse with both a Windows laptop and a Mac. Bluetooth models pair with iPads and many phones, while receiver models need a USB-A port."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Size and weight",
-    "description": "We compared listed dimensions and weight so the mouse suits a bag pocket."
+    "title": "Size and weight for travel",
+    "description": "TECKNET lists 4.09 by 2.68 by 1.49 inches and the Logitech G305 weighs 3.4 oz. We compared dimensions against typical hand lengths, because a shell under about 4 inches suits small hands and light bag duty but forces a claw grip on large ones. We weighed shell length against typical hand sizes."
   },
   {
-    "title": "Comfort features",
-    "description": "We looked for contoured shells, side grips and ambidextrous design rather than treating all compact mice as equal."
+    "title": "Connection method",
+    "description": "The MX Anywhere 2S and M196 use Bluetooth and need no dongle, while the G305, M185 and TECKNET use a nano receiver that stores in the mouse or on its back. We weighed this against laptops that lack a USB-A port and against the chance of losing a receiver on the road."
   },
   {
-    "title": "Connection and battery",
-    "description": "We compared Bluetooth versus receivers and listed battery life."
+    "title": "Battery type and listed life",
+    "description": "The G305 lists up to 250 hours on one AA, the M185 up to a year, the M196 12 months, and TECKNET up to 24 months with an on and off switch. We noted that these are listed claims and favored pairs with a replaceable AA you can swap in a cafe. One AA is easy to buy on the road."
   },
   {
-    "title": "Value for price",
-    "description": "We weighed features against price, from about $9 to $47."
+    "title": "Ergonomic shape on a small shell",
+    "description": "Contoured and ambidextrous shells on the M185 and M196, and the side grips on TECKNET, were credited. We did not give credit for the word ergonomic alone, because a compact body cannot offer the vertical angle of a full-size ergonomic mouse. A shell that fits your hand matters more than a grip label."
+  },
+  {
+    "title": "Tracking and compatibility",
+    "description": "The MX Anywhere 2S lists 4000 DPI darkfield tracking meant for varied surfaces, while the G305 reaches 12,000 DPI. We checked operating system notes too, since side buttons on some Logitech models need software and may not work fully on macOS. Glossy desks and glass tables are the real test for cheaper sensors."
   }
 ];
 
@@ -344,23 +348,23 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Can I use these mice on a MacBook?",
-    "a": "Bluetooth models pair directly with a Mac. USB-A receiver models need an adapter on newer MacBooks, and the TECKNET listing notes its side button does not work on macOS."
+    "a": "Yes for the basics. The MX Anywhere 2S and M196 use Bluetooth, which suits a MacBook with only USB-C ports, while the M185 and G305 need a USB-A receiver or an adapter. Extra buttons on the G305 may need Logitech software, so check the macOS note before buying."
   },
   {
     "q": "Is the G305 really a travel mouse?",
-    "a": "The listing calls it a great laptop travel companion thanks to its weight and receiver storage. It is designed as a gaming mouse, so ergonomics are secondary."
+    "a": "For many people, yes. It weighs 3.4 oz, lists up to 250 hours on one AA and stores its nano receiver inside, which suits a bag. It is a gaming mouse in origin with 12,000 DPI, so the shell is slightly taller than purpose-built travel mice."
   },
   {
     "q": "How do I pair a Bluetooth mouse?",
-    "a": "Turn it on, hold the pairing button until the light flashes and select it in the Bluetooth settings of your device. The process is similar on Windows, macOS and tablets."
+    "a": "Hold the mouse's pairing button until its light blinks, then open your laptop's Bluetooth settings and pick the mouse. The MX Anywhere 2S and M196 both use Bluetooth, so no receiver is needed. If it will not connect, remove the old pairing and try again close to the laptop."
   },
   {
     "q": "Is a ten dollar mouse worth it over a Logitech?",
-    "a": "The TECKNET model gives you comparable basics at a lower price, but Logitech offers more refined sensors and Bluetooth options. If you only need occasional use, the cheaper pick is fine."
+    "a": "Often yes, if you want a basic shell. TECKNET lists 800 to 2600 DPI and up to 24 months battery, and the M196 offers Bluetooth with a year of battery. Spending more on the MX Anywhere 2S buys 4000 DPI darkfield tracking and a sturdier build, not a different shape."
   },
   {
     "q": "How do I extend battery life?",
-    "a": "Switch the power off when you pack the mouse and let sleep mode do its work at the desk. Carry a spare AA or AAA cell in your bag for the models that take replaceable batteries. If the pointer starts to stutter, replace the battery before it fully dies."
+    "a": "Use the power switch when you pack the mouse, since TECKNET and the M185 both include one or a sleeping mode. Avoid leaving it on a vibrating surface, use a quality AA, and remember that listed figures such as 12 or 24 months assume light daily use."
   }
 ];
 

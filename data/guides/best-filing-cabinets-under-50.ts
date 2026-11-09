@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Lock Mechanism", "description": "Checked which picks include a genuine keyed lock versus no locking mechanism at all." },
-  { "title": "Wheel and Caster Stability", "description": "Compared caster count, locking mechanisms, and tip-prevention design across mobile picks." },
-  { "title": "Material and Construction", "description": "Distinguished metal construction from wood-finish designs and their respective weight capacities." },
-  { "title": "Multi-Purpose Functionality", "description": "Checked whether a cabinet's top surface doubles as a printer stand or other functional space." },
-  { "title": "Drawer Organization Features", "description": "Compared hanging rail adjustability and file size compatibility across the lineup." }
+  {
+    "title": "Lock and document security",
+    "description": "We checked which cabinets actually lock, since the SISESOL has a keyed lock and the Yoonkool secures both drawers with a single lock, while both DUMOS cabinets have none. For tax papers or ID copies at this price, a lock is a basic requirement that decides the shortlist."
+  },
+  {
+    "title": "Stated capacity and build material",
+    "description": "We compared materials and loads, with the SISESOL's metal body rated for 200 lbs against wood DUMOS builds that state no figure. Metal costs more weight on the floor, but at under $50 a published number is the best evidence a drawer will survive a full load of folders."
+  },
+  {
+    "title": "Mobility and tip prevention",
+    "description": "We looked at casters, because the SISESOL has 360 degree wheels with a center tip-prevention caster and the DUMOS pair has 5 swivel casters, two of them front locking brakes on the compact model. The Yoonkool has no wheels and stays fixed, which suits a corner."
+  },
+  {
+    "title": "Fit under a desk",
+    "description": "We compared footprints, including the Yoonkool's 15.9 inch depth and the compact DUMOS built to tuck under standard desks. A pedestal that does not clear your knee space or modesty panel gets rejected no matter how good the drawers are."
+  },
+  {
+    "title": "Filing hardware included",
+    "description": "We checked whether hanging rails or bars are included, since the SISESOL has a removable bar and the Yoonkool and compact DUMOS have adjustable rails. Rails turn a drawer into a real file drawer for letter or A4 folders instead of a tray."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Genuine lock security and the highest weight capacity", "SISESOL 2 Drawer File Cabinet on Wheels"],
-        ["A cabinet that doubles as a printer stand", "DUMOS 2 Drawer Storage Cabinet, Rolling Under Desk"],
-        ["A compact, under-desk cabinet with coordinated aesthetic", "DUMOS 2 Drawer Rolling File Cabinet, Small Wood"],
-        ["Lock security at the lowest price", "Yoonkool 2 Drawer File Cabinet with Lock"]
+    "subheading": "By Primary Need",
+    "intro": "Four sub-$50 cabinets, four different priorities.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A lock and the strongest stated load",
+          "SISESOL 2 Drawer File Cabinet on Wheels, a keyed lock and 200 lb capacity"
+        ],
+        [
+          "A cabinet that doubles as a printer stand",
+          "DUMOS 2 Drawer Storage Cabinet, Rolling Under Desk, with a flat top and 5 swivel casters"
+        ],
+        [
+          "A compact pedestal that tucks under a standard desk",
+          "DUMOS 2 Drawer Rolling File Cabinet, Small Wood, with adjustable hanging rails and 2 front brakes"
+        ],
+        [
+          "The cheapest cabinet that still locks",
+          "Yoonkool 2 Drawer File Cabinet with Lock, one lock for both drawers"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $43", "Yoonkool (under $45)"],
-        ["Under $50", "DUMOS Rolling Storage (under $50), DUMOS Small Wood (under $50), or SISESOL (under $50)"]
+    "subheading": "By Budget",
+    "intro": "The range under $50 is narrow, but the features move a lot inside it.",
+    "table": {
+      "headers": [
+        "Budget position",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Bottom of the range with a lock",
+          "Yoonkool 2 Drawer File Cabinet with Lock, the lowest price here"
+        ],
+        [
+          "Middle of the range for a wood pedestal",
+          "DUMOS 2 Drawer Rolling File Cabinet, Small Wood"
+        ],
+        [
+          "Middle with a printer-friendly top",
+          "DUMOS 2 Drawer Storage Cabinet, Rolling Under Desk, priced the same per the listing"
+        ],
+        [
+          "Top of the range for metal and a lock",
+          "SISESOL 2 Drawer File Cabinet on Wheels"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Locked Metal vs Unlocked Wood Rolling Cabinets",
-    cards: [
-      { label: "Locked metal (SISESOL, Yoonkool)", text: "Provides genuine document security with a keyed lock, better for sensitive files, tax documents, or shared spaces." },
-      { label: "Unlocked wood rolling (DUMOS picks)", text: "Trades lock security for a coordinated aesthetic and printer-stand functionality, better for general organization without security needs." }
+    "subheading": "Metal vs Wood Pedestal",
+    "intro": "The material changes weight, strength and the lock option.",
+    "cards": [
+      {
+        "label": "Metal: SISESOL and Yoonkool",
+        "text": "Stronger and lockable, with powder coating or an anti-rust spray against scratches. The SISESOL weighs more, and both need some assembly."
+      },
+      {
+        "label": "Wood: both DUMOS cabinets",
+        "text": "Lighter and warmer looking, with a flat top that can hold a printer. They have no lock, and wood carries lower weight limits than metal."
+      }
     ],
-    note: "If document security genuinely matters, the SISESOL or Yoonkool's lock is worth prioritizing. If you just need organized storage and a matching desk aesthetic, the DUMOS picks deliver that without the lock feature.",
+    "note": "Anyone storing sensitive documents should choose metal, since neither wood DUMOS offers a lock."
   },
   {
-    subheading: "By Mobility Needs",
-    table: {
-      headers: ["Your placement needs", "Recommended pick"],
-      rows: [
-        ["Rolling between locations with tip resistance", "SISESOL (center caster prevents tipping)"],
-        ["Fixed under-desk placement with wheels", "Either DUMOS pick"],
-        ["Fixed, stationary placement", "Yoonkool (no wheels)"]
+    "subheading": "By Where It Sits",
+    "intro": "A fixed corner and a rolling pedestal are different purchases.",
+    "table": {
+      "headers": [
+        "Placement",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A corner that never moves",
+          "Yoonkool 2 Drawer File Cabinet with Lock, with no wheels and a fixed footprint"
+        ],
+        [
+          "Under a standard desk, rolled out when needed",
+          "DUMOS 2 Drawer Rolling File Cabinet, Small Wood, with 2 front locking brakes"
+        ],
+        [
+          "Next to the desk as a printer stand",
+          "DUMOS 2 Drawer Storage Cabinet, whose flat top fits a printer"
+        ],
+        [
+          "Rolling across mixed floors with a lock",
+          "SISESOL on 360 degree wheels with a center caster to prevent tipping"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Small Home Office Needing Extra Surface Space Specifically",
-    cards: [
-      { label: "Look for", text: "A filing cabinet with a flat, sturdy top surface specifically designed to double as a printer stand or additional workspace." },
-      { label: "In this comparison", text: "The DUMOS Storage Cabinet's flat top surface is specifically designed to hold a printer or other office equipment." }
-    ],
+    "subheading": "For a Dorm or Small Rental Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A footprint under 17 inches deep, casters that lock, and a lock for documents like leases and ID copies. Check the knee clearance under your desk before buying."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The SISESOL combines a keyed lock with a tip-prevention caster, and the compact DUMOS tucks under standard desks. The Yoonkool's 15.9 inch depth is the shallowest here."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want genuine lock security combined with the highest weight capacity and tip-resistant wheels, where the SISESOL pick delivers all three at the top of this tier." },
-      { label: "Save if", text: "You want basic lock security without needing wheels, where the Yoonkool pick covers that for about $7 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $100 guide adds larger capacity and dual-key locks.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need 100 or more files per drawer, a dual-key lock or a wider top. Those appear in the under $100 guide."
+      },
+      {
+        "label": "Save if",
+        "text": "You only keep a few active folders, where the Yoonkool or compact DUMOS covers that."
+      }
+    ]
   }
 ];
 
@@ -181,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Do I need a locking filing cabinet if I'm just storing general household paperwork?", "a": "Not necessarily; if your documents don't require privacy or security from other household members, a non-locking cabinet like the DUMOS picks provides the same organizational storage without the added lock feature you wouldn't use." },
-  { "q": "What's the most common mistake buyers make when choosing between metal and wood filing cabinets at this price?", "a": "Assuming wood cabinets are always less durable than metal, when the actual difference depends more on specific construction quality and intended use, since a well-built wood cabinet like the DUMOS picks handles typical home office storage needs perfectly well despite lacking metal's higher raw weight capacity." },
-  { "q": "Is the SISESOL pick worth it over the cheaper Yoonkool option?", "a": "If you specifically want wheeled mobility with tip-resistant stability alongside lock security, yes, but if a stationary, non-wheeled cabinet with basic lock security meets your needs, the Yoonkool pick delivers that for about $7 less." },
-  { "q": "Can the DUMOS Storage Cabinet's top surface actually hold a full-size printer safely?", "a": "Yes, its flat, wide top surface is specifically designed and rated to function as a sturdy printer stand, though checking your specific printer's weight and footprint against the stated top surface dimensions is worth doing before assuming any printer fits securely." },
-  { "q": "Do these budget filing cabinets require professional assembly?", "a": "No, all four picks in this comparison are designed for straightforward self-assembly with labeled parts and included instructions, making them suitable for first-time furniture assemblers without professional help." },
-  { "q": "How do I know if a filing cabinet's hanging rails will fit my existing file folders?", "a": "Check whether the listing specifically mentions adjustable hanging rails compatible with letter, legal, or A4 sizes, since all four picks in this comparison support these standard sizes, though verifying against your specific folder dimensions before buying is still worthwhile." }
+  {
+    "q": "Is the SISESOL worth more than the Yoonkool?",
+    "a": "If you want wheels and a stated 200 lb load, yes. The SISESOL adds a keyed lock, a tip-prevention caster and full-extension drawers, while the Yoonkool is cheaper, fixed in place and uses one lock for both drawers. The SISESOL is the one to buy if you rent and move often."
+  },
+  {
+    "q": "What mistake do buyers make with budget filing cabinets?",
+    "a": "Ignoring the lock and clearance. Both DUMOS cabinets have no lock, so they suit non-sensitive papers only. Also measure the gap under your desk, because wheels add height. A cheap padlock does not fix a cabinet with no lock built in."
+  },
+  {
+    "q": "Do these cabinets take letter and legal files?",
+    "a": "Most vertical cabinets are one size only. Letter files are about 15 inches wide and legal files about 18, and the listings here mention letter or A4 rails, so confirm legal support before buying. Hanging folders sized for the wrong paper will sag and jam."
+  },
+  {
+    "q": "How do I stop a rolling cabinet from tipping?",
+    "a": "Open only one drawer at a time and load the bottom first. The SISESOL has a center tip-prevention caster, and the compact DUMOS has 2 front brakes. Lock the wheels before pulling a full drawer. A felt pad under each caster also protects the floor."
+  },
+  {
+    "q": "How do I install the hanging rails?",
+    "a": "Slide the removable bar or rails into the drawer slots, then hang folders so they can slide freely. The SISESOL has a removable bar, and the Yoonkool and compact DUMOS have adjustable rails. Space folders evenly so the rail does not bow."
+  },
+  {
+    "q": "Does a metal cabinet scratch floors?",
+    "a": "Casters can scuff hard floors, and metal cabinets are heavier. A felt pad or rug under the SISESOL helps, and the DUMOS 5 swivel casters roll smoothly on mixed surfaces. Check the weight before moving a loaded drawer."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

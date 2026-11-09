@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51wi0DMDWiL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DFWV1K5H?tag=deskfinds0d-20",
-    "description": "TESLYAR is a solid wood docking station with a felt-lined drawer, a glasses shelf, pen holder, key hooks and a ring peg. Its footprint is about 10.4 by 5.5 inches, and it has hidden slots for a phone cable and watch charger.\n\nIt costs about $32 less than the KINGFOM set and has a much smaller footprint, though it is designed for a nightstand or dresser as much as a desk. Compared with the pen set, it sees use every day instead of once.\n\nA good gift for someone who keeps keys and a watch on the desk. The caveat is that cables and items are not included, and the listing leans on a male audience.",
+    "description": "TESLYAR is a solid wood docking station with a felt-lined drawer, a glasses shelf, pen holder, key hooks and a ring peg. Its footprint is about 10.4 by 5.5 inches, and it has hidden slots for a phone cable and watch charger.\n\nIt costs under $40 less than the KINGFOM set and has a much smaller footprint, though it is designed for a nightstand or dresser as much as a desk. Compared with the pen set, it sees use every day instead of once.\n\nA good gift for someone who keeps keys and a watch on the desk. The caveat is that cables and items are not included, and the listing leans on a male audience.",
     "specs": [
       "Solid wood, felt drawer",
       "10.4 x 5.5 inch footprint",
@@ -191,47 +191,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Gift versus recipient fit",
-    "explanation": "A $60 to $100 desk gift is public: coworkers will see it. A gag item can look cheap, while a personalized gift looks deliberate. Think about who sees the desk and match the tone. Read the listing photos for the final look."
+    "explanation": "A $60 to $100 desk gift is public: coworkers will see it. A gag item can look cheap, while a personalized gift looks deliberate. Think about who sees the desk and match the tone. Read the listing photos for the final look. Think about who walks past the desk, because a gag item can look cheap while an engraved pen set looks deliberate and polished."
   },
   {
     "criterion": "Personalization and timing",
-    "explanation": "Engraved gifts take extra days and cannot be returned. A misspelled name ruins the gift. Confirm the engraving options and the shipping estimate before ordering."
+    "explanation": "Engraved gifts take extra days and cannot be returned. A misspelled name ruins the gift. Confirm the engraving options and the shipping estimate before ordering. Engraving on the Executive Gift Shoppe set takes extra days and cannot be returned, so confirm the text and the delivery estimate before ordering."
   },
   {
     "criterion": "Power source",
-    "explanation": "Motion pieces use batteries or USB, and batteries are often not included. A gift that arrives without batteries is a letdown. Read the listing for the battery count and size and add them to your cart."
+    "explanation": "Motion pieces use batteries or USB, and batteries are often not included. A gift that arrives without batteries is a letdown. Read the listing for the battery count and size and add them to your cart. The Swinging Sticks sculpture needs 4 AA batteries, so read the listing for what is included and add a pack to the cart."
   },
   {
     "criterion": "Material and finish",
-    "explanation": "PU leather, solid wood, aluminum and acrylic age differently. Leather-look surfaces wipe clean while wood color varies. Look for the materials named in the bullets."
+    "explanation": "PU leather, solid wood, aluminum and acrylic age differently. Leather-look surfaces wipe clean while wood color varies. Look for the materials named in the bullets. Wood and rosewood age with fine scratches, while PU leather wipes clean, so choose the finish that matches how messy the recipient's desk is."
   },
   {
     "criterion": "Desk footprint",
-    "explanation": "A big sculpture or five piece organizer needs real desk space. Compare listed dimensions in inches to the recipient's desk. Wide pieces suit a large desk."
+    "explanation": "A big sculpture or five piece organizer needs real desk space. Compare listed dimensions in inches to the recipient's desk. Wide pieces suit a large desk. The TESLYAR dock has a 10.4 x 5.5 inch footprint, so compare it with the free area next to the recipient's monitor before gifting."
   },
   {
     "criterion": "Noise in an open office",
-    "explanation": "Motion gifts can click, tick or hum, and a sound that seems tiny at home is obvious in a quiet room. Silent items suit open plans. Look for any mention of tick or noise in the listing, as the Swinging Sticks listing does."
+    "explanation": "Motion gifts can click, tick or hum, and a sound that seems tiny at home is obvious in a quiet room. Silent items suit open plans. Look for any mention of tick or noise in the listing, as the Swinging Sticks listing does. Kinetic gifts like the MISDENK machine tick or hum, so check the listing and reviews for noise before putting one in a quiet office."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Price ceiling",
-    "description": "Every pick was priced at or under $100 when data was gathered."
+    "title": "Public visibility of the gift",
+    "description": "A gift in the $50 to $100 range sits in view of every visitor, so we judged tone. The Executive Gift Shoppe pen and pencil set reads as formal, the MISDENK kinetic machine as playful, and the RUIXINDA levitating speaker as a tech showpiece. We matched each to a recipient type."
   },
   {
-    "title": "Materials and finish",
-    "description": "We compared the materials and finish for each gift, favoring solid and wipe clean options."
+    "title": "Batteries and power",
+    "description": "Motion pieces rely on power we checked in the listings. The Swinging Sticks sculpture needs 4 AA batteries, the MISDENK machine has a touch start button, and the speaker has a 1200mAh battery. A gift that arrives without batteries is a letdown, so we flagged it."
   },
   {
-    "title": "Desk footprint and noise",
-    "description": "Listed dimensions and noise notes were weighed for office use."
+    "title": "Material and finish",
+    "description": "We compared PU leather on the KINGFOM 5 piece set, solid wood on the TESLYAR docking station, aluminum arms on the Swinging Sticks and a rosewood gift box on the pen set. Wood and rosewood feel upscale, while PU leather is the easiest to wipe clean."
   },
   {
-    "title": "Gift suitability",
-    "description": "We matched each pick to a clear recipient or milestone."
+    "title": "Noise in a quiet office",
+    "description": "Kinetic gifts tick, click or hum. We noted that the MISDENK machine and Swinging Sticks produce motion and some sound, which a recipient with a private office handles easily and an open plan floor may not. Silent desk pieces ranked better for shared spaces."
   }
 ];
 

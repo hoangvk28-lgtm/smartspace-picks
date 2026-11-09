@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51drbs3F+mL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FDJ3LF8H?tag=deskfinds0d-20",
-    "description": "Chilvil is a 5-piece stainless steel fidget set that includes spiky sensory rings, a fidget spinner and a bike chain style roller, with a magnetic slider among the types.\n\nIt costs about $17, the same as LARAH, and gives variety rather than one toy. Against the single spinners below, it lets the recipient pick a favorite.\n\nBest for someone who has not found their fidget yet. The caveat is that metal fidgets can click audibly in a quiet room.",
+    "description": "Chilvil is a 5-piece stainless steel fidget set that includes spiky sensory rings, a fidget spinner and a bike chain style roller, with a magnetic slider among the types.\n\nIt costs under $20, the same as LARAH, and gives variety rather than one toy. Against the single spinners below, it lets the recipient pick a favorite.\n\nBest for someone who has not found their fidget yet. The caveat is that metal fidgets can click audibly in a quiet room.",
     "specs": [
       "5 piece set",
       "Stainless steel",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51WPgLwNORL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09YV61314?tag=deskfinds0d-20",
-    "description": "LARAH is a working water pen with 13 fidget rings, 10 large and 2 small steel balls, two refills and touch screen tips, made from drop-resistant alloy with gold plating.\n\nAt about $17 it matches Chilvil in price and doubles as a writing tool. Against PILPOC, it is more toy than pocket cube.\n\nBest for a note taker who clicks pens. The caveat is small parts, so it is not for young children.",
+    "description": "LARAH is a working water pen with 13 fidget rings, 10 large and 2 small steel balls, two refills and touch screen tips, made from drop-resistant alloy with gold plating.\n\nAt under $20 it matches Chilvil in price and doubles as a writing tool. Against PILPOC, it is more toy than pocket cube.\n\nBest for a note taker who clicks pens. The caveat is small parts, so it is not for young children.",
     "specs": [
       "13 rings, 12 steel balls",
       "Includes 2 refills",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51PW5X5Xd7L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CVYK21SN?tag=deskfinds0d-20",
-    "description": "PILPOC's fidget cube has six sides of switches, dials and buttons, built from sturdy plastic for pocket carry. The listing pitches it for fidgeting without disturbance in classes or meetings.\n\nAt about $14 it costs a few dollars more than Apqdw and uses a flat layout of features. Against SMALL FISH, it is a pricier version of the same format.\n\nBest for meetings where noise matters. The caveat is that plastic switches feel less premium than metal toys.",
+    "description": "PILPOC's fidget cube has six sides of switches, dials and buttons, built from sturdy plastic for pocket carry. The listing pitches it for fidgeting without disturbance in classes or meetings.\n\nAt under $15 it costs a few dollars more than Apqdw and uses a flat layout of features. Against SMALL FISH, it is a pricier version of the same format.\n\nBest for meetings where noise matters. The caveat is that plastic switches feel less premium than metal toys.",
     "specs": [
       "6 sided fidget cube",
       "Plastic body",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31WIndFvjvL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0B5FDKG15?tag=deskfinds0d-20",
-    "description": "Apqdw is a 1.54 inch polished alloy kinetic spinning toy in rainbow silver, sized for pockets, bags and desks.\n\nIt costs about $13, and offers a single smooth motion. Against Chilvil, it has fewer pieces but a more refined finish.\n\nBest for a minimalist who wants one object. The caveat is that spinning metal can make a low whir.",
+    "description": "Apqdw is a 1.54 inch polished alloy kinetic spinning toy in rainbow silver, sized for pockets, bags and desks.\n\nIt costs under $15, and offers a single smooth motion. Against Chilvil, it has fewer pieces but a more refined finish.\n\nBest for a minimalist who wants one object. The caveat is that spinning metal can make a low whir.",
     "specs": [
       "1.54 inch alloy",
       "Rainbow silver finish",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/417YXw1eYcL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08CZBHZK2?tag=deskfinds0d-20",
-    "description": "Amersumer is a magnetic desk sculpture with many small balls that you shape into forms, doubling as desk decor. The listing warns that only the base is magnetic and that it is not suitable for children under 14.\n\nIt costs about $8, and is the best pick for creative building. Against PILPOC, it is a desk toy rather than a pocket one.\n\nBest for a creative adult. The caveat is the small balls, which are a hazard for children and pets and can roll off a desk.",
+    "description": "Amersumer is a magnetic desk sculpture with many small balls that you shape into forms, doubling as desk decor. The listing warns that only the base is magnetic and that it is not suitable for children under 14.\n\nIt costs under $10, and is the best pick for creative building. Against PILPOC, it is a desk toy rather than a pocket one.\n\nBest for a creative adult. The caveat is the small balls, which are a hazard for children and pets and can roll off a desk.",
     "specs": [
       "Many small balls",
       "Magnetic base",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41oqh2o8-KL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B071X8S8WQ?tag=deskfinds0d-20",
-    "description": "SMALL FISH is an infinity cube, a folding cube that can be flipped endlessly with one hand, listed for kids and adults.\n\nIt is the cheapest pick at about $9, and simpler than PILPOC. The flip motion is easy to learn.\n\nBest for a low-cost stocking stuffer or office swap. The caveat is that cheap folding cubes can wear at the hinges.",
+    "description": "SMALL FISH is an infinity cube, a folding cube that can be flipped endlessly with one hand, listed for kids and adults.\n\nIt is the cheapest pick at under $10, and simpler than PILPOC. The flip motion is easy to learn.\n\nBest for a low-cost stocking stuffer or office swap. The caveat is that cheap folding cubes can wear at the hinges.",
     "specs": [
       "Infinity folding cube",
       "One-hand use",
@@ -219,47 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Noise in quiet rooms",
-    "explanation": "Metal fidgets click, spin with a whir or clack against a desk. In an open office that irritates neighbors. Look for descriptions of silent or discreet use, and favor plastic or magnetic designs for meetings."
+    "explanation": "Metal fidgets click, spin with a whir or clack against a desk. In an open office that irritates neighbors. Look for descriptions of silent or discreet use, and favor plastic or magnetic designs for meetings. Reading buyer comments for the words clack, click or whir is the quickest check, and magnetic or silicone designs, like Amersumer, stay almost silent."
   },
   {
     "criterion": "Small parts and safety",
-    "explanation": "Many fidgets include small balls, rings or magnets that are choking hazards for children and pets. Amersumer says it is not suitable for under 14. Read the age warning and keep it away from young kids."
+    "explanation": "Many fidgets include small balls, rings or magnets that are choking hazards for children and pets. Amersumer says it is not suitable for under 14. Read the age warning and keep it away from young kids. If a young child or a pet shares the space, choose a one-piece design such as the infinity cube and keep multi-ball sets like LARAH out of reach."
   },
   {
     "criterion": "Material and durability",
-    "explanation": "Stainless steel and alloy last longer than thin plastic hinges. A cheap cube can wear quickly. Check the material in the listing."
+    "explanation": "Stainless steel and alloy last longer than thin plastic hinges. A cheap cube can wear quickly. Check the material in the listing. Look for the metal named in the listing, such as stainless steel on Chilvil or alloy on Apqdw, and for hinge descriptions on cube-style fidgets that wear first at the joints."
   },
   {
     "criterion": "Single motion versus variety",
-    "explanation": "A single spinner is simple, while a set gives the recipient options. If unsure, pick variety. Check the piece list."
+    "explanation": "A single spinner is simple, while a set gives the recipient options. If unsure, pick variety. Check the piece list. A five-piece set like Chilvil lets the recipient discover their preference, while a single spinner is cheaper but may get ignored after a week."
   },
   {
     "criterion": "Comfort item, not a treatment",
-    "explanation": "Fidgets are toys and not therapy. Do not promise a medical effect. For anyone with real anxiety or attention concerns, a gift should not replace professional support."
+    "explanation": "Fidgets are toys and not therapy. Do not promise a medical effect. For anyone with real anxiety or attention concerns, a gift should not replace professional support. Avoid gift cards or notes that promise anxiety relief, since listings only describe the toy and not any health effect."
   },
   {
     "criterion": "Power and setup",
-    "explanation": "A kinetic sand table needs power and an app. A pocket toy needs nothing. Check whether the gift needs a phone or outlet."
+    "explanation": "A kinetic sand table needs power and an app. A pocket toy needs nothing. Check whether the gift needs a phone or outlet. Oasis Mini Sand Art Table needs an outlet and a phone for its app, so confirm the desk has both before giving it as a gift."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Noise and discretion",
-    "description": "We noted whether listings describe quiet use and what material the toy is made from."
+    "title": "Noise in a quiet office",
+    "description": "Metal rings, chains and spinners clack against a desk, which irritates neighbors in an open office. We checked material and motion on every pick, favoring the silent magnetic Amersumer, the folding SMALL FISH cube and the plastic PILPOC cube over the all-metal Chilvil set and Apqdw spinner."
   },
   {
-    "title": "Safety notes",
-    "description": "Age warnings and small parts were flagged from the listings."
+    "title": "Small parts and age warnings",
+    "description": "Many fidgets include balls, rings or magnets that are choking hazards for children and pets. Amersumer states it is not suitable for under 14, and LARAH has 12 steel balls, so we read each listing for an age note and marked down gifts that skip it."
   },
   {
-    "title": "Build and material",
-    "description": "Stainless steel, alloy and plastic were compared for durability."
+    "title": "Build material and durability",
+    "description": "Chilvil is stainless steel and rustproof per its listing, Apqdw is polished alloy and LARAH is an alloy pen, while SMALL FISH and PILPOC rely on plastic hinges. We treated metal as longer-lived, and hinge wear as the typical failure on cheap cubes."
   },
   {
-    "title": "Price and gift appeal",
-    "description": "Cost was weighed against how gift-ready each item is."
+    "title": "One motion versus variety",
+    "description": "A single spinner like Apqdw offers one motion, while the Chilvil 5 piece set and the six sided PILPOC cube give the recipient choices. Since you rarely know which feel someone will prefer, we credited variety for gifts to people you do not know well."
+  },
+  {
+    "title": "Gift value and setup demands",
+    "description": "Oasis Mini Sand Art Table sits far above the rest in price and needs power and an app, while the pocket toys need nothing. We asked whether each is worth gifting at its price tier, and flagged the sand table as a display piece, not a fidget."
   }
 ];
 
@@ -267,37 +271,39 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Where It Will Be Used",
+    "intro": "The setting decides whether noise matters.",
     "table": {
       "headers": [
-        "Your situation",
+        "Setting",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Quiet meetings",
-          "PILPOC theFube Fidget Cube"
+          "Open office, on calls",
+          "Amersumer Magnetic Desk Sculpture Toy, which is quiet to use."
         ],
         [
-          "On a desk as decor",
-          "Oasis Mini Sand Art Table"
+          "Pocket on a commute",
+          "PILPOC theFube Fidget Cube, with six sides in a pocket size."
         ],
         [
-          "In a pocket",
-          "Apqdw 1.54 Inch Kinetic Metal Spinning Toy"
+          "Meetings, one hand",
+          "SMALL FISH Infinity Cube Fidget, a one-hand folding cube."
         ],
         [
-          "Writing and fidgeting",
-          "LARAH Fidget Pen with Rings and Balls"
+          "Desk drawer, variety",
+          "Chilvil 5 Piece Metal Fidget Set with rings, spinner and chain."
         ],
         [
-          "A mix to try",
-          "Chilvil 5 Piece Metal Fidget Set"
+          "Writer or student",
+          "LARAH Fidget Pen with Rings and Balls, which also works as a pen."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Most gifts sit under $20, with one far above.",
     "table": {
       "headers": [
         "Price range",
@@ -305,65 +311,63 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $9",
-          "SMALL FISH Infinity Cube Fidget"
+          "Under $10, cheapest gifts",
+          "SMALL FISH Infinity Cube Fidget or Amersumer Magnetic Desk Sculpture Toy."
         ],
         [
-          "$8 to $10",
-          "Amersumer Magnetic Desk Sculpture Toy"
+          "$12 to $14, metal spinner",
+          "Apqdw 1.54 Inch Kinetic Metal Spinning Toy."
         ],
         [
-          "$12 to $14",
-          "Apqdw 1.54 Inch Kinetic Metal Spinning Toy"
+          "$14 to $17, cube or sets",
+          "PILPOC theFube Fidget Cube, Chilvil 5 Piece Metal Fidget Set or LARAH Fidget Pen."
         ],
         [
-          "$14 to $17",
-          "PILPOC theFube Fidget Cube"
-        ],
-        [
-          "Over $100",
-          "Oasis Mini Sand Art Table"
+          "Over $100, display piece",
+          "Oasis Mini Sand Art Table, a 9 inch bamboo sand table."
         ]
       ]
     }
   },
   {
     "subheading": "Hand Fidget vs Watch Piece",
+    "intro": "One is a tactile gadget, the other is decor that moves.",
     "cards": [
       {
         "label": "Hand fidget",
-        "text": "You hold and operate it, giving constant tactile feedback. Chilvil 5 Piece Metal Fidget Set, LARAH Fidget Pen with Rings and Balls, PILPOC theFube Fidget Cube, Apqdw 1.54 Inch Kinetic Metal Spinning Toy and SMALL FISH Infinity Cube Fidget fall here."
+        "text": "You hold and operate it, giving constant tactile feedback. Chilvil, LARAH, PILPOC, Apqdw and SMALL FISH are in this group, and all are small enough for a drawer."
       },
       {
         "label": "Watch piece",
         "text": "It moves by itself or is shaped slowly, and works as decor. Oasis Mini Sand Art Table and Amersumer Magnetic Desk Sculpture Toy fall here."
       }
     ],
-    "note": "Most people want a hand fidget, so choose a showpiece only for a recipient with desk space."
+    "note": "Choose a hand fidget such as PILPOC for most recipients, and a watch piece only for someone who likes desk decor."
   },
   {
     "subheading": "Material and Feel",
+    "intro": "The material decides noise and longevity.",
     "table": {
       "headers": [
-        "Your preference",
+        "Preference",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Heavy stainless steel",
-          "Chilvil 5 Piece Metal Fidget Set"
+          "Heavy stainless steel feel",
+          "Chilvil 5 Piece Metal Fidget Set, rustproof per its listing."
         ],
         [
-          "Polished alloy",
-          "Apqdw 1.54 Inch Kinetic Metal Spinning Toy"
+          "Smooth polished alloy spin",
+          "Apqdw 1.54 Inch Kinetic Metal Spinning Toy."
         ],
         [
-          "Light plastic",
-          "PILPOC theFube Fidget Cube"
+          "Alloy pen with moving parts",
+          "LARAH Fidget Pen, with 13 rings and 12 steel balls."
         ],
         [
-          "Magnetic and creative",
-          "Amersumer Magnetic Desk Sculpture Toy"
+          "Lighter plastic",
+          "PILPOC theFube Fidget Cube or SMALL FISH Infinity Cube."
         ]
       ]
     }
@@ -386,11 +390,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want a display piece that will sit on a desk for years. Oasis Mini Sand Art Table is the only one in that class."
+        "text": "You want a display piece that will sit on a desk for years. Oasis Mini Sand Art Table is the only one in that class, at over $100."
       },
       {
         "label": "Save if",
-        "text": "A pocket toy is enough. SMALL FISH Infinity Cube Fidget and Amersumer Magnetic Desk Sculpture Toy cost about $8 each."
+        "text": "A pocket toy is enough. SMALL FISH Infinity Cube and Amersumer Magnetic Desk Sculpture both sit under $10."
       }
     ]
   }
@@ -399,28 +403,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do fidget toys relieve stress?",
-    "a": "They are comfort items that give hands something to do, and results vary by person. They are not a treatment for anxiety or any condition. The PILPOC theFube and SMALL FISH Infinity Cube are simple, quiet ways to try one."
+    "q": "Are fidget toys actually proven to reduce stress?",
+    "a": "Treat them as comfort items, not treatments. Many people like having something to do with their hands during a call, and that is what these gifts offer, but none of the listings make a medical claim and a gift should never replace support for real anxiety or attention concerns."
   },
   {
-    "q": "Are fidget toys safe for kids?",
-    "a": "Many have small parts. The Amersumer Magnetic Desk Sculpture Toy states it is not for those under 14, so read each listing's age note. The LARAH Fidget Pen has 12 steel balls and rings."
+    "q": "Which fidget is quietest for an open office?",
+    "a": "Amersumer Magnetic Desk Sculpture is the quietest, because it is soft magnetic balls shaped by hand. SMALL FISH Infinity Cube flips with one hand, and PILPOC theFube uses plastic, so both are discreet. The metal Chilvil set and Apqdw spinner click and whir."
   },
   {
-    "q": "Is the sand table worth the price?",
-    "a": "Only as a display piece, since the Oasis Mini Sand Art Table needs power and an app. A cheaper cube does the fidget job. It suits someone who wants hundreds of patterns and RGB lighting."
+    "q": "Is Oasis Mini Sand Art Table worth over $100?",
+    "a": "Only as a display piece. It runs hands free with app control, RGB lighting and hundreds of patterns inside a 9 inch bamboo build, but it needs power and a phone. For a pocket fidget, the under-$20 picks do the job."
   },
   {
-    "q": "Are metal fidgets loud?",
-    "a": "They can click or whir. The Chilvil 5 Piece Metal Fidget Set and Apqdw Spinning Toy make noise, so for an open office, plastic or a flip cube is quieter."
+    "q": "Are these safe for kids?",
+    "a": "Not all. Amersumer is marked not suitable for under 14, and LARAH includes 13 rings and 12 steel balls that are small parts. SMALL FISH and PILPOC cubes are described for kids and adults, but always follow the age guidance on the listing."
   },
   {
-    "q": "How do I care for a magnetic sculpture?",
-    "a": "Keep the balls in the tray when not in use and away from children and pets. Count them after each session, since small magnets are easy to lose."
+    "q": "Which is better for a coworker gift, a cube or a metal set?",
+    "a": "A cube for most coworkers. PILPOC theFube has six sides and fits a pocket without making noise, while Chilvil's five metal pieces offer more variety but are audible. If you do not know the recipient, pick the quieter cube."
   },
   {
-    "q": "What should I pair with the gift?",
-    "a": "A note and a small snack work well. Avoid implying it will fix stress. A fidget pen like the LARAH, with 2 refills included, adds a practical use."
+    "q": "How do I keep a fidget toy from becoming a distraction?",
+    "a": "Keep it in a drawer for calls and use it during reading or waiting time. Single-motion pieces like Apqdw spinner are easiest to ignore while working, and LARAH Fidget Pen doubles as a writing tool, so it never sits unused on the desk."
   }
 ];
 

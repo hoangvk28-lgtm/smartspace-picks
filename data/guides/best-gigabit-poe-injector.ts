@@ -84,68 +84,154 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Port Speed Verification", "description": "Confirmed each listing explicitly states Gigabit (not just Fast Ethernet) input and output ports." },
-  { "title": "Power Standard Match", "description": "Compared 802.3af/at standard-based injectors against 48V passive PoE injectors." },
-  { "title": "Institutional Compliance", "description": "Compared stated NDAA and TAA compliance for government and enterprise procurement needs." },
-  { "title": "Warranty Length", "description": "Compared stated manufacturer warranty periods across listings." },
-  { "title": "Build Quality Signals", "description": "Compared stated enclosure materials, LED indicators, and other build details." }
+  {
+    "title": "Standard versus passive power",
+    "description": "The first check is whether the injector matches your device. The TRENDnet and ThePoEstore injectors are 802.3af/at with 15.4W or 30W auto-sensing, while the Omada is 48V passive for up to 24W and is not compatible with standard PoE. A mismatch can damage gear, so we weighted this above price."
+  },
+  {
+    "title": "Actual speed and range",
+    "description": "Every pick lists Gigabit, but we checked the supporting detail. The TRENDnet lists full duplex 2Gbps and LED indicators, and the ThePoEstore lists up to 100m (328ft) range. We treated a stated range and speed as real information, and a bare Gigabit label as weaker."
+  },
+  {
+    "title": "Warranty and compliance",
+    "description": "The TRENDnet TPE-115GI and TPE-114GI list NDAA and TAA compliance with a 3-year warranty, which institutional buyers need. The Omada and ThePoEstore state neither. For a home network that matters little, but we scored it for business and school installs."
+  },
+  {
+    "title": "Diagnostics and build",
+    "description": "We compared diagnostics and housing: the TPE-115GI has LED indicators for PoE connectivity, the TPE-114GI has a sturdy metal enclosure, and the Omada is wall-mountable. In a closet an LED saves troubleshooting time, and a metal case handles heat better."
+  },
+  {
+    "title": "Price and what it excludes",
+    "description": "None includes an Ethernet cable according to its listing, and the cheapest, the Omada at under $15, serves only passive 48V gear. We asked what each pick leaves out, and noted that the ThePoEstore's explicit usage notes help avoid a mismatch."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Power Delivery Method",
-    table: {
-      headers: ["Your device uses", "Recommended pick"],
-      rows: [
-        ["Standard 802.3af/at negotiation", "TRENDnet TPE-115GI or TPE-114GI"],
-        ["48V passive PoE (some Ubiquiti/MikroTik)", "Omada POE4824G"],
-        ["Standard PoE without needing NDAA compliance", "ThePoEstore Gigabit PoE+ Injector"]
+    "subheading": "By Device Type",
+    "intro": "The device you power decides which injector is safe.",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A standard 802.3af/at camera or access point needing under 30W",
+          "TRENDnet Gigabit PoE+ Injector, TPE-115GI, with LED indicators and a 3-year warranty"
+        ],
+        [
+          "A standard PoE+ device where a metal case matters more than LEDs",
+          "TRENDnet Gigabit PoE+ Injector, TPE-114GI, with a sturdy metal enclosure"
+        ],
+        [
+          "An Omada device or other gear that needs 48V passive power",
+          "Omada 48V PoE Injector, Gigabit, Up to 24W (POE4824G), built for passive 48V"
+        ],
+        [
+          "A budget standard-PoE camera at the lowest compliant cost",
+          "ThePoEstore Gigabit PoE+ Injector, with 30W auto-sensing and usage notes"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $14", "Omada POE4824G (under $15)"],
-        ["Under $20", "TRENDnet TPE-114GI or ThePoEstore (both under $20)"],
-        ["Under $25", "TRENDnet TPE-115GI (under $25)"]
+    "subheading": "By Budget",
+    "intro": "Every pick here is under $25, so the gaps are compliance and warranty.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $15, passive 48V only",
+          "Omada 48V PoE Injector, the cheapest, for passive devices"
+        ],
+        [
+          "Under $20, standard PoE+ metal case",
+          "TRENDnet TPE-114GI, with NDAA and TAA compliance and a 3-year warranty"
+        ],
+        [
+          "Under $20, plain standard PoE+",
+          "ThePoEstore Gigabit PoE+ Injector, with a 100m range"
+        ],
+        [
+          "Under $25, LED indicators",
+          "TRENDnet TPE-115GI, with connectivity LEDs for troubleshooting"
+        ]
+      ]
+    }
   },
   {
-    subheading: "NDAA-Compliant vs Standard Consumer Injectors",
-    cards: [
-      { label: "NDAA/TAA compliant (TPE-115GI, TPE-114GI)", text: "Meets U.S. government procurement requirements and typically pairs with a longer stated manufacturer warranty, worth the extra cost for institutional or government-adjacent deployments." },
-      { label: "Standard consumer (Omada, ThePoEstore)", text: "Costs less and performs identically for a home or small business network with no procurement compliance requirement." }
-    ],
-    note: "Most home and small business buyers should default to a standard consumer injector unless a specific procurement policy requires NDAA compliance.",
+    "subheading": "Standard 802.3af/at vs Passive 48V",
+    "intro": "This is the one mismatch that can damage equipment.",
+    "cards": [
+      {
+        "label": "Standard 802.3af/at (TRENDnet pair, ThePoEstore)",
+        "text": "The injector negotiates power with the device, so it only sends power when the device asks for it. This makes it safe with most cameras and access points, and it covers 15.4W or 30W loads."
+      },
+      {
+        "label": "Passive 48V (Omada)",
+        "text": "The injector sends power all the time, at a fixed voltage, without checking the device. It works only with gear built for that voltage and can damage a standard PoE device."
+      }
+    ]
   },
   {
-    subheading: "By Warranty and Support",
-    table: {
-      headers: ["What you want", "Recommended pick"],
-      rows: [
-        ["Longest stated warranty (3 years)", "TRENDnet TPE-115GI or TPE-114GI"],
-        ["Visual LED connectivity confirmation", "TRENDnet TPE-115GI"],
-        ["Lowest price with basic support", "Omada POE4824G or ThePoEstore"]
+    "subheading": "By Power Requirement",
+    "intro": "Match watts to your device's draw, with some headroom.",
+    "table": {
+      "headers": [
+        "Your device draw",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Up to 15.4W, such as a basic camera",
+          "ThePoEstore Gigabit PoE+ Injector, which auto-senses 15.4W or 30W"
+        ],
+        [
+          "Up to 30W, such as a PTZ camera or Wi-Fi 6 access point",
+          "TRENDnet TPE-115GI or TPE-114GI, both PoE+ at up to 30W"
+        ],
+        [
+          "Up to 24W on a passive device",
+          "Omada POE4824G, rated up to 24W"
+        ],
+        [
+          "Unsure of the draw",
+          "TRENDnet TPE-114GI, with an auto-sensing metal unit and clear specs"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Ubiquiti or MikroTik Access Point Specifically",
-    cards: [
-      { label: "Look for", text: "Explicit confirmation of 48V passive PoE support, since Ubiquiti and MikroTik gear commonly uses passive PoE rather than the negotiated 802.3af/at standard most consumer injectors assume." },
-      { label: "In this comparison", text: "The Omada POE4824G specifically states 48V passive PoE support, making it the correct match for this device category rather than a standard-PoE injector." }
-    ],
+    "subheading": "For a School or Government Install Specifically",
+    "intro": "Procurement rules can rule out unknown brands.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "NDAA and TAA compliance in writing, a multi-year warranty, and LED indicators for facilities staff."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The TRENDnet TPE-115GI and TPE-114GI list NDAA and TAA compliance and a 3-year warranty, while the Omada and ThePoEstore list neither."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need NDAA compliance and want LED connectivity indicators, where the TRENDnet TPE-115GI's under $25 price buys both features plus a 3-year warranty." },
-      { label: "Save if", text: "You just need reliable Gigabit PoE+ power for a home network device, where the Omada POE4824G or ThePoEstore pick delivers that for less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The extra cost here is small, so check what it buys.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need compliance or a warranty. The TRENDnet TPE-115GI is the priciest here and adds LEDs, while the TPE-114GI adds a metal case for a few dollars less."
+      },
+      {
+        "label": "Save if",
+        "text": "You run one passive 48V device. The Omada is the cheapest here, and the ThePoEstore is the cheapest standard injector."
+      }
+    ]
   }
 ];
 

@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Material Sourcing and Construction", "description": "Compared solid wood, MDF-free construction claims, and upholstered finishes across all four picks." },
-  { "title": "Headboard Height and Design", "description": "Compared tall functional headboards against curved and upholstered decorative designs." },
-  { "title": "Drawer Slide Quality", "description": "Compared soft-close mechanisms against standard rolling caster drawer systems." },
-  { "title": "Weight Capacity", "description": "Compared stated maximum weight capacity figures where disclosed." },
-  { "title": "Assembly and Shipping", "description": "Compared stated assembly time and single versus multi-box shipping." }
+  {"title":"Material sourcing and construction","description":"At this tier we favoured frames that state their materials. The SUCSSRICH is 100 percent solid wood with no MDF or particleboard, and the AMERLIFE lists solid pine. Engineered boards can swell and loosen bolts, so a stated solid wood build is a real reason to pay more."},
+  {"title":"Headboard height and look","description":"Headboards range from 45.2 inches on the SUCSSRICH to 50 inches on the AMERLIFE, plus the Walker Edison arched pine and curved velvet designs. Taller headboards suit pillow sitting but can block a window or wall art, so we compared heights."},
+  {"title":"Drawer slide quality","description":"The SUCSSRICH has soft close slides on 2 solid wood drawers, and the AMERLIFE lists 10.6 inches of underbed storage. We judged slide quality by whether the listing names a mechanism, since cheap drawers stick and chip."},
+  {"title":"Weight capacity","description":"The AMERLIFE lists 1300 lb, which gives room for a heavy hybrid mattress and two sleepers. We read the Walker Edison pieces, which lean on style, as better for lighter loads, and noted that unstated capacities are worth a question to the seller."},
+  {"title":"Assembly and shipping","description":"The Walker Edison Chantelle lists under 60 minutes of assembly, while the 70 lb Boho frame is light enough to move. We compared weight and assembly time because heavy solid wood frames can take two people and a long afternoon, which matters if you rent and may move the frame again."}
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "Under $500 the decision is solid wood versus styling. Frames here are meant to last through several moves, so material and hardware matter most.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Four frames cover storage, solid wood and upholstered looks. Pick the one that matches how long you plan to keep the bed.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [

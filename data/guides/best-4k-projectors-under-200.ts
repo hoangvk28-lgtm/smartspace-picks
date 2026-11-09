@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Native Resolution vs 4K Decoding", "description": "Verified whether each pick has a genuine native 4K panel or a 1080P panel decoding 4K source content." },
-  { "title": "ANSI Brightness", "description": "Compared stated ANSI lumens figures across the lineup, from 800 to 3500." },
-  { "title": "Streaming App Access", "description": "Compared built-in app ecosystems and officially licensed streaming service access." },
-  { "title": "Auto-Calibration Features", "description": "Compared auto focus, keystone correction, and obstacle avoidance across all four picks." },
-  { "title": "Built-In Audio Quality", "description": "Compared built-in speaker wattage and audio technology support." }
+  { "title": "Native resolution versus 4K decoding", "description": "We separated native pixel counts from decoding claims. The Netflix model, X6, and Magcubic are all native 1080P that merely accept a 4K signal. Accepting 4K is not the same as displaying 3840 by 2160 pixels, so at this price the label overstates the sharpness. The HAPPRUN lists no native resolution in its specs at all." },
+  { "title": "Lumen claims against likely reality", "description": "We compared the listed brightness, from 800 ANSI on the X6 and Magcubic to 3500 on the Netflix model. A 3500 ANSI figure on a projector this cheap deserves skepticism, and one guide says 1500 to 2000 ANSI is the range for a dark room. Only the HAPPRUN's 1500 sits in a believable range here." },
+  { "title": "Keystone and setup", "description": "We noted the HAPPRUN's manual focus with auto keystone and the Magcubic's obstacle avoidance. Digital keystone correction remaps the image and can soften it, so physically squaring the projector to the wall is better. The Netflix and X6 models rely on a gimbal or manual placement." },
+  { "title": "Built-in apps and licensing", "description": "We checked the officially licensed Netflix on one pick against Android 14 on the X6. Unlicensed streaming apps can fail to play 4K or HD, so licensed apps remove a common frustration for a first-time projector buyer. Check which app store the unit ships with before relying on it." },
+  { "title": "Fan noise and audio", "description": "We compared noise claims such as the X6's under 28 dB cooling and speaker output from 15W stereo to 2x10W Dolby. Built-in speakers on budget units are weak, but a quiet fan matters in a bedroom. The HAPPRUN's 2x10W Dolby speakers out-muscle the Magcubic's 15W stereo pair." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "At this ceiling you are mostly buying a 1080P projector with a 4K-capable chip, so the first table sorts by room darkness and use.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "The four are priced close together, so the budget table matches the cheapest HAPPRUN to dim rooms and the Netflix unit to casual streaming.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Room Lighting Conditions",
+    intro: "Streaming convenience is the second axis, with licensed Netflix on one pick and Android on another.",
     table: {
       headers: ["Your room's lighting", "Recommended pick"],
       rows: [
@@ -154,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want officially licensed Netflix access with the highest stated brightness, where the Netflix Built-in pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You just want solid built-in streaming and Dolby Audio without needing maximum brightness, where the HAPPRUN pick covers that for about $40 less." }
+      { label: "Save if", text: "You just want solid built-in streaming and Dolby Audio without needing maximum brightness, where the HAPPRUN pick covers that for under $50 less." }
     ],
   }
 ];
@@ -184,8 +187,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Will these budget '4K projectors' actually display 4K movies in true 4K resolution?", "a": "No, all four picks in this comparison have native 1080P display panels that decode and downscale 4K source content to 1080P, so while they can accept and process 4K files, the actual projected image resolution is 1080P, not genuine 4K." },
-  { "q": "What's the most common mistake buyers make when comparing brightness between these budget projectors?", "a": "Comparing generic 'lumens' figures from other market listings against the ANSI lumens figures stated by these four picks, when ANSI lumens is a standardized, more reliable measurement that isn't directly comparable to unqualified lumens claims elsewhere." },
-  { "q": "Is the Netflix Built-in pick worth it over the cheaper HAPPRUN option?", "a": "If you specifically want officially licensed Netflix access and the highest stated brightness, yes, but if you just want solid streaming access and Dolby Audio at the lowest price, the HAPPRUN pick covers that for about $40 less." },
+  { "q": "Does 4K decoding mean the picture is true 4K?", "a": "No. Most of these picks accept a 4K signal but list a native 1080P panel, so the image is built from about 1920 by 1080 pixels. True native 4K, a full 3840 by 2160 pixels, appears only in the ViewSonic, XGIMI, and BenQ models in the under $1000 guide." },
+  { "q": "Is the Netflix Built-in pick worth it over the cheaper HAPPRUN option?", "a": "If you specifically want officially licensed Netflix access and the highest stated brightness, yes, but if you just want solid streaming access and Dolby Audio at the lowest price, the HAPPRUN pick covers that for under $50 less." },
   { "q": "How do I know if my room is dark enough for these budget projectors to look good?", "a": "As a general rule, the higher a pick's ANSI lumens figure, the better it performs with some ambient light present, so the 3500 ANSI Netflix Built-in pick handles brighter rooms better than the 800 ANSI Magcubic or X6 picks, which perform best in fully darkened spaces." },
   { "q": "Do any of these projectors require a separate streaming device like a Fire Stick?", "a": "No, all four picks in this comparison include built-in streaming capability through either an Android-based app store or a dedicated streaming system, so none require an external TV stick or dongle for basic streaming access." },
   { "q": "Can these budget projectors be used for gaming without noticeable lag?", "a": "These budget picks aren't specifically designed or marketed for competitive gaming with low input lag figures, so if gaming performance is a priority, checking for projectors with explicitly stated low input lag specifications in a higher tier is worth doing before assuming any budget projector handles gaming well." }

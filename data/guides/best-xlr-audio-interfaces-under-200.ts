@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Preamp Gain Range", "description": "Compared stated maximum gain in decibels and clean-gain headroom across all four picks." },
-  { "title": "Tone-Shaping Features", "description": "Compared vintage emulation modes and onboard compression against transparent, clean designs." },
-  { "title": "Physical Control Surfaces", "description": "Compared monitor dials, faders, and transport controls for hands-on workflow support." },
-  { "title": "Bundled Software Depth", "description": "Compared included DAW software and plugin suites for genuine dollar value." },
-  { "title": "Channel Count", "description": "Compared single versus dual simultaneous mic preamp configurations." }
+  { "title": "Preamp quality and sound character", "description": "We compared the Audient iD4 MKII's console-derived preamp with 58dB gain and the UA Volt 2's Vintage Mic Preamp mode. A preamp that stays quiet across its whole gain sweep matters more than a high maximum number. The 2i2 adds Air mode and the ioStation uses XMAX-L preamps." },
+  { "title": "Built-in processing and plugins", "description": "We noted the UA Volt 2's built-in 76 Compressor emulation and bundled UA plugins, and the Scarlett 2i2's Ableton Live Lite. Bundled software can save real money, but only if you will use the specific DAW it targets. The iD4 and ioStation lean on Audient and Studio One tools." },
+  { "title": "Two inputs for dual mics", "description": "We counted preamps, with the Volt 2, 2i2, and ioStation each listing two and the iD4 only one. A podcast with a guest or a vocal-plus-guitar session needs the second input, so the iD4 suits solo creators. The extra input is the single biggest functional gap in this tier." },
+  { "title": "Monitoring controls", "description": "We read the Audient iD4's dual-function dial and the ioStation 24c's motorized fader and transport controls. Hardware controls shorten the trip between recording and playback, which matters when you work alone. The Volt 2 and 2i2 use simpler knobs." },
+  { "title": "Instrument and line inputs", "description": "We checked for JFET instrument inputs, which the iD4 lists, since a plain line input can sound thin with a guitar. Pad and phantom switches round out the basics, but few of these picks document them in detail. Confirm the instrument input is on the front panel when you plug a guitar in." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "This tier brings two preamps and onboard processing, so the first table starts with whether you record one source or several.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Prices sit near the $200 mark, so each step of budget maps to a different extra: plugins, a fader, or a second input.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Physical Control Style",
+    intro: "The second axis is workflow, where controllers and plugins matter more than raw converter specs.",
     table: {
       headers: ["Your workflow preference", "Recommended pick"],
       rows: [
@@ -183,8 +186,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Is the Universal Audio Volt 2's vintage preamp mode suitable for podcast recording, or is it only for music?", "a": "It can work for podcasts if you like a slightly warmer vocal tone, but most podcast production benefits more from a clean, transparent preamp that you can process afterward, so the Focusrite Scarlett 2i2 or Audient iD4 are typically better starting points for spoken-word content." },
-  { "q": "What's the most common mistake buyers make when choosing a single-channel interface at this price tier?", "a": "Buying a single-preamp interface like the Audient iD4 for a format that will eventually need to record two people, then discovering they need a second interface or an external mixer, when a dual-channel option like the Scarlett 2i2 would have avoided that upgrade cost entirely." },
-  { "q": "Is the PreSonus ioStation 24c worth the extra cost over the Focusrite Scarlett 2i2 if I don't need a physical fader?", "a": "If you're confident you'll navigate your DAW entirely with a mouse and keyboard, the Scarlett 2i2 delivers similar core audio quality for about $25 less, but if hands-on physical mixing control appeals to your workflow, the ioStation's motorized fader is a genuinely useful addition worth the price difference." },
+  { "q": "Is the Audient iD4 MKII's single preamp enough?", "a": "For a solo streamer or vocalist, yes. The console preamp offers 58dB of gain and the JFET input handles guitar. Anyone recording two voices or two instruments at once will need the Volt 2, 2i2, or ioStation, each of which has two mic preamps." },
+  { "q": "Is the PreSonus ioStation 24c worth the extra cost over the Focusrite Scarlett 2i2 if I don't need a physical fader?", "a": "If you're confident you'll navigate your DAW entirely with a mouse and keyboard, the Scarlett 2i2 delivers similar core audio quality for under $30 less, but if hands-on physical mixing control appeals to your workflow, the ioStation's motorized fader is a genuinely useful addition worth the price difference." },
   { "q": "How do I set up the Audient iD4 MKII's dual-function monitor dial for computer volume control?", "a": "The dial automatically switches to computer volume control mode when connected via USB and no external monitor speakers are actively selected, and this function is typically enabled by default without requiring separate driver configuration." },
   { "q": "Can I use these interfaces with a laptop that only has USB-C ports?", "a": "All four picks in this comparison support USB-C connectivity either natively or via an included adapter cable, though checking each product's specific listed cable and port requirements is worth doing to confirm compatibility with your exact laptop model before purchase." },
   { "q": "Does the Universal Audio Volt 2's built-in 76 Compressor emulation replace the need for a compressor plugin in my DAW?", "a": "For basic vocal leveling during recording, it can reduce or eliminate the need for a separate compressor plugin, but many producers still add additional compression in post-production for more precise control over the final mix." }

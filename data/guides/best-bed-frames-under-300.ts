@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Weight Capacity", "description": "Compared stated maximum weight capacity figures across all four frames." },
-  { "title": "Headboard Craftsmanship", "description": "Compared carved, tall mid-century, and full-panel headboard design approaches." },
-  { "title": "Storage Configuration", "description": "Compared drawer count and integration quality across the tier." },
-  { "title": "Warranty Coverage", "description": "Compared stated warranty length where disclosed." },
-  { "title": "Material Composition", "description": "Compared solid wood, steel-reinforced, and iron-frame construction approaches." }
+  {"title":"Weight capacity and structure","description":"The ZINUS Vivek lists 2200 lb for queen and up with a steel interior framework, while the AMERLIFE solid wood frame lists 1300 lb. We read these as a sign of a stiffer frame that resists sagging for heavier mattresses, not a promise any bed needs that much."},
+  {"title":"Warranty and material disclosure","description":"We checked what each listing discloses. The ZINUS includes a 5 year limited warranty, and the AMERLIFE states 100 percent solid pine with no engineered wood. Clear disclosure scored higher than styling, since it is what you can verify after delivery."},
+  {"title":"Storage configuration","description":"The Virubi and Belffin each list 6 drawers, so we compared drawer weight and clearance. Six drawers can hold a full set of linens, but the frame is heavier and harder to relocate, so we marked storage beds as a fixed placement choice, so measure the room and the drawer pull out space before ordering."},
+  {"title":"Headboard craft and height","description":"The Virubi has a 48.80 inch headboard, and the Belffin a hollow carved decorative headboard with USB and USB-C charging and RGB lighting. We weighed styling against practicality, since a tall headboard affects wall space and nightstand reach."},
+  {"title":"Slat airflow and mattress care","description":"Platform slats should be close enough to support foam, with some airflow. The Virubi cites enhanced slat airflow, which helps reduce trapped moisture under a mattress. We noted spacing near 3 inches or less as the target to confirm."}
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "At $200 to $300 the choice is between a solid wood or steel frame with a warranty and a storage bed with decorative extras.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Four frames sit in this tier, from a no frills steel and wood platform to a 6 drawer bed with lighting. Match the pick to your actual priority.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [

@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "VA/Wattage Capacity", "description": "Compared stated VA and wattage ratings across the lineup, from 550VA to 700VA." },
-  { "title": "USB Charging Inclusion", "description": "Checked which picks include USB charging ports and their stated amperage output." },
-  { "title": "Battery-Backup vs Surge-Only Outlet Split", "description": "Compared how many outlets provide genuine battery backup versus surge protection alone." },
-  { "title": "Runtime Transparency", "description": "Compared how specifically each listing details expected runtime at different device wattages." },
-  { "title": "Battery Replaceability", "description": "Checked whether each pick supports user-replaceable batteries for long-term serviceability." }
+  { "title": "Wattage headroom for a PC", "description": "We checked whether each watt rating gives real headroom, such as the SL700U at 370W versus the INTERNET550U at 300W. A desktop and monitor can pull a few hundred watts at load, and runtime drops sharply when you sit near the limit, so extra wattage means more minutes. Eaton's 300W ceiling suits a router and monitor better than a tower." },
+  { "title": "Runtime transparency", "description": "We favored listings that publish runtime, like the APC BE600M1's 23 minutes at 100W and Eaton's runtime table by device type for router, TV, and PC. Manufacturer runtime charts are the best guide, and a pick with none leaves you guessing. That data lets you estimate minutes before buying." },
+  { "title": "Battery plus surge versus surge-only outlets", "description": "We counted outlet types: 5 battery-backed sockets on the SL700U and BE600M1, 4 on the ST625U, and 5 on the INTERNET550U. Gear on surge-only sockets loses power with the wall, so the battery count decides how many devices ride through a blip. The BE600M1 has only 2 surge-only outlets, the fewest here." },
+  { "title": "USB charging during outages", "description": "We compared USB ports, including the 2.4A shared pair on the SL700U and the BE600M1's 1.5A port that keeps working in an outage. Phone charging during a blackout is a real use for a small UPS, but shared amperage splits when two devices charge. Check whether the port amps are shared across both ports." },
+  { "title": "Replaceable battery access", "description": "We checked for easy battery replacement, which the APC BE600M1 calls out. Lead-acid cells commonly wear out in 3 to 5 years, and a unit with a simple swap panel stays useful past that point rather than becoming e-waste. That also lowers lifetime cost versus replacing the whole unit." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "With 550 to 700VA on offer, this tier suits a router stack or a single desktop, and which one you plug in decides the best pick.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Under $100 four brands cluster within a handful of dollars, so the budget table shows where small differences in outlets and USB ports justify the gap.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -138,6 +140,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "USB Charging vs Maximum Outlet Count",
+    intro: "Outage USB charging is a secondary decision, because only some listings say the ports stay live on battery.",
     cards: [
       { label: "USB charging (SL700U, ST625U)", text: "Adds convenient device charging directly from the UPS, useful for keeping a phone charged during setup or an outage." },
       { label: "Maximum outlet count (INTERNET550U)", text: "Prioritizes 10 total outlets over USB ports, better if you have many AC devices to connect rather than needing USB charging." }
@@ -155,7 +158,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest capacity with the strongest USB charging and warranty combination, where the CyberPower SL700U delivers the most complete package in this comparison." },
-      { label: "Save if", text: "You want USB charging with the same $100,000 warranty tier at a lower price, where the CyberPower ST625U covers that for about $10 less." }
+      { label: "Save if", text: "You want USB charging with the same $100,000 warranty tier at a lower price, where the CyberPower ST625U covers that for under $15 less." }
     ],
   }
 ];
@@ -185,7 +188,7 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Does the APC BE600M1's USB port really keep charging my phone during a power outage?", "a": "Yes, its listing specifically states the built-in 1.5A USB port works during outages, drawing from the battery backup to continue charging connected devices even when wall power is completely gone." },
-  { "q": "What's the most common mistake buyers make when comparing outlet counts across these UPS units?", "a": "Assuming more total outlets always means more outage protection, when a pick like the Eaton Tripp Lite INTERNET550U splits its extra outlets between battery-backup and surge-only types, so the actual number of outlets that stay powered during an outage may be the same as a competitor with fewer total outlets." },
+  { "q": "How long will a 600VA UPS keep a desktop running?", "a": "Only a few minutes at a typical desktop load, and runtime falls steeply as watts rise. The APC BE600M1 lists 23 minutes at a 100W load, but a 300W gaming PC would drain it in a small fraction of that. Plan the UPS for a safe shutdown, not a movie night." },
   { "q": "Is the CyberPower SL700U worth the price premium over the ST625U?", "a": "If you specifically need the highest available capacity at this tier along with slightly faster USB charging, yes, but if you want a matching $100,000 warranty and nearly identical USB charging at a lower price, the ST625U offers strong value instead." },
   { "q": "How do I know how long my specific devices will run on one of these UPS units?", "a": "Check your device's wattage rating (often on the power adapter or in its specifications) and compare it against runtime figures like those the Eaton Tripp Lite INTERNET550U provides for common device types, adjusting proportionally for devices with different wattage draws." },
   { "q": "Can I replace the battery in the APC BE600M1 myself when it eventually degrades?", "a": "Yes, its listing specifically references the APCRBC154 replacement battery, sold separately, designed for easy user replacement without needing to purchase an entirely new UPS unit." },

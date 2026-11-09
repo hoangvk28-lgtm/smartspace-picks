@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Screen Size and Display Quality", "description": "Compared 15.6 inch resolution and glare-free coating across the lineup." },
-  { "title": "Mounting Mechanism", "description": "Distinguished tool-free mounting designs from traditional hardware-kit installation." },
-  { "title": "Voice and Accessibility Features", "description": "Checked for voice event creation and accessibility-focused design across all four picks." },
-  { "title": "Warranty and Support", "description": "Compared stated warranty length and customer support availability." },
-  { "title": "Storage and Expandability", "description": "Compared built-in storage capacity and whether expansion options exist." }
+  {
+    "title": "Screen size and clarity",
+    "description": "We compared panels, noting the 15.6 inch 1080P Full HD display on the Family Hub Planner and the glare-free HD touchscreen on the 15in model. A 15.6 inch screen reads from across a kitchen, which is the real argument for stepping up from 10 inches. Glare near a kitchen window makes that difference obvious."
+  },
+  {
+    "title": "Warranty and support",
+    "description": "We looked at the 15in model's 2-year warranty with 24/7 support against shorter terms elsewhere. A display on the wall is a pain to return, so a long warranty with a human line counted for a lot in this tier. None of the 10.1 inch picks come with that level of coverage."
+  },
+  {
+    "title": "Mounting and installation",
+    "description": "We compared mounting, from the Family Hub Planner's tool-free thumb nut setup in under 30 seconds to the Westsee's table stand and wall kit in the box. Installation needing a stud and drill makes a wall display less likely to move later. A wall that needs a stud finder deserves the included kit."
+  },
+  {
+    "title": "Storage and photo features",
+    "description": "We noted 32GB storage on all of them, expandable on the 15in model with AI photo restoration, and AI photo enhancement on the Hub Planner that needs the internet. These are conveniences, not reasons to buy, so we weighted them lightly. The 15in model is the only one that can add memory later."
+  },
+  {
+    "title": "Scheduling tools and subscription",
+    "description": "We compared voice event creation and TeamSnap sync on the Hub Planner, Day, Week, Month and Custom views on the Westsee, and the no-subscription claims. A calendar that locks features behind a fee loses points. The Westsee and the Smart Family Calendar both state that."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The longest warranty with expandable photo storage", "15in Digital Calendar Wall Touch Screen, Chore Chart, Photo Frame"],
-        ["Tool-free mounting with voice-based event creation", "15.6in Smart Digital Calendar, Family Hub Planner"],
-        ["The lowest price with flexible mounting included", "Westsee 15.6in Digital Calendar, No Subscription Smart Family Planner"],
-        ["Accessibility-focused design for multi-generational households", "Digital Calendar, 15.6-inch Smart Family Calendar with Touch Screen"]
+    "subheading": "By Primary Need",
+    "intro": "Four 15.6 inch displays that look alike until you read the extras.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The longest warranty and expandable storage",
+          "15in Digital Calendar Wall Touch Screen, with a 2-year warranty and 24/7 support"
+        ],
+        [
+          "Fast mounting and voice event entry",
+          "15.6in Smart Digital Calendar, Family Hub Planner, with tool-free mounting and TeamSnap sync"
+        ],
+        [
+          "A table stand and wall kit in one box",
+          "Westsee 15.6in Digital Calendar, No Subscription Smart Family Planner"
+        ],
+        [
+          "A design friendly to seniors and kids",
+          "15.6-inch Smart Family Calendar with Touch Screen, with a 2-in-1 photo frame mode"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $140", "Smart Family Calendar with Touch Screen (under $140)"],
-        ["Under $150", "Westsee (under $150)"],
-        ["Under $160", "Family Hub Planner (under $160)"],
-        ["Under $168", "Wall Touch Screen with AI Photo Restoration (under $170)"]
+    "subheading": "By Budget",
+    "intro": "Under $150 you pay for warranty and mounting convenience.",
+    "table": {
+      "headers": [
+        "Budget position",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest price in the 15.6 inch tier",
+          "15.6-inch Smart Family Calendar with Touch Screen"
+        ],
+        [
+          "Low to mid with stand and wall kit included",
+          "Westsee 15.6in Digital Calendar"
+        ],
+        [
+          "Mid to upper with tool-free mounting",
+          "15.6in Smart Digital Calendar, Family Hub Planner"
+        ],
+        [
+          "Top of the range for warranty and AI photos",
+          "15in Digital Calendar Wall Touch Screen, the most expensive here"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Tool-Free Mounting vs Traditional Hardware Kit Installation",
-    cards: [
-      { label: "Tool-free mounting (Family Hub Planner)", text: "Uses a thumb nut design for installation in under 30 seconds without drilling or a screwdriver." },
-      { label: "Traditional hardware kit (Wall Touch Screen, Westsee, Smart Family Calendar)", text: "Requires standard mounting hardware and tools, a more involved but still manageable setup process." }
+    "subheading": "Tool-Free Mounting vs Wall Kit",
+    "intro": "How you hang a 15.6 inch screen shapes how permanent it is.",
+    "cards": [
+      {
+        "label": "Tool-free: Family Hub Planner",
+        "text": "Thumb nuts let you hang or move it in under 30 seconds without a drill. It suits renters."
+      },
+      {
+        "label": "Wall kit and stand: Westsee, 15in model",
+        "text": "Fixed to a stud or anchor with included hardware, steadier long term. The Westsee also has a table stand if you change your mind."
+      }
     ],
-    note: "If you want the fastest possible setup without any tools, the Family Hub Planner's tool-free design is worth prioritizing. If a slightly longer setup with standard hardware doesn't bother you, the other three picks offer similar core functionality.",
+    "note": "Renters should favor tool-free, and owners can use the hardware kit for a cleaner permanent install."
   },
   {
-    subheading: "By Household Composition",
-    table: {
-      headers: ["Your household situation", "Recommended pick"],
-      rows: [
-        ["Multi-generational household with seniors and children", "Smart Family Calendar with Touch Screen"],
-        ["Family managing youth sports schedules", "Family Hub Planner (TeamSnap sync)"],
-        ["Standard family wanting maximum warranty security", "Wall Touch Screen with 2-year warranty"]
+    "subheading": "By Household Habits",
+    "intro": "Choose by how people interact with the screen.",
+    "table": {
+      "headers": [
+        "Habit",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Voice entry while cooking",
+          "15.6in Smart Digital Calendar, Family Hub Planner, with voice event creation"
+        ],
+        [
+          "Sports schedules from TeamSnap",
+          "Family Hub Planner, which supports that sync"
+        ],
+        [
+          "Switching Day, Week, Month and Custom views",
+          "Westsee 15.6in Digital Calendar"
+        ],
+        [
+          "Grandparents or children using it",
+          "15.6-inch Smart Family Calendar with Touch Screen, built to be accessible"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Household Managing Youth Sports Schedules Specifically",
-    cards: [
-      { label: "Look for", text: "Direct sync support for TeamSnap or similar youth sports scheduling platforms, not just the standard personal calendar apps like Google or Outlook." },
-      { label: "In this comparison", text: "The Family Hub Planner pick's specific TeamSnap sync support directly addresses households juggling multiple children's sports team schedules alongside personal calendars." }
-    ],
+    "subheading": "For a Large Kitchen Wall Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A display of 15 inches or more, mounting that suits your wall, and a no-subscription statement. Check glare from windows."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The 15in model's glare-free HD touchscreen and the Hub Planner's 1080P panel suit bright kitchens."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the longest warranty coverage with expandable photo storage, where the Wall Touch Screen pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You want the full 15.6 inch experience with accessibility-focused design, where the Smart Family Calendar with Touch Screen pick covers that for about $28 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Most buyers will find the cheaper 15.6 inch options enough.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want the 2-year warranty, expandable storage and AI photo restoration."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need the larger screen, where the 15.6-inch Smart Family Calendar or Westsee has the same size for less."
+      }
+    ]
   }
 ];
 
@@ -183,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the tool-free Family Hub Planner pick still be permanently wall-mounted, or is it only for temporary placement?", "a": "The tool-free thumb nut design is intended for both temporary and more permanent placement, since it secures firmly once installed, though it can be removed and repositioned more easily than a screw-mounted alternative if you later want to relocate it." },
-  { "q": "What's the most common mistake buyers make when choosing a digital calendar specifically for a multi-generational household?", "a": "Assuming any 15.6 inch touchscreen automatically works well for both elderly grandparents and young children, when interface design choices genuinely vary between picks, making a specifically accessibility-marketed option like the Smart Family Calendar with Touch Screen worth prioritizing for that use case." },
-  { "q": "Is the Wall Touch Screen pick's 2-year warranty worth the extra cost over the cheaper Westsee option?", "a": "If long-term warranty security and expandable storage matter to you, yes, but if you want the same core 15.6 inch experience with both mounting options included at a lower price, the Westsee pick covers that for about $18 less." },
-  { "q": "How do I know if my family's youth sports platform will sync with the Family Hub Planner's TeamSnap support?", "a": "TeamSnap is a specific named platform, so if your team management app is exactly TeamSnap, sync should work as described, but a different sports scheduling platform wouldn't be covered by this specific integration, so checking your actual platform name against the listing is worth doing." },
-  { "q": "Do any of these 15.6 inch calendars require professional installation?", "a": "No, all four picks in this comparison are designed for self-installation, though the specific process varies from the Family Hub Planner's tool-free approach to the standard hardware-kit installation used by the other three picks." },
-  { "q": "Can these larger digital calendars still function as a desk calendar, or are they wall-mount only?", "a": "All four picks in this comparison support both wall mounting and desk or tabletop placement, with the Westsee pick specifically including both a table stand and wall-mount kit in the box for maximum placement flexibility." }
+  {
+    "q": "Is the 15.6 inch size worth it over 10.1 inches?",
+    "a": "For a kitchen or hallway, yes, because text and color-coded events read from across the room. For a desk or a small entryway, the 10.1 inch models in the under $75 guide are enough. Check your wall type and the stud spacing first."
+  },
+  {
+    "q": "What mistake do buyers make with large digital calendars?",
+    "a": "Mounting without checking the weight and studs. These displays weigh roughly five to fifteen pounds and need solid anchors, so use the supplied kit and check that your wall can take it. A bright room also benefits from the 15in glare-free screen."
+  },
+  {
+    "q": "Is the 15in model worth the premium over the Westsee?",
+    "a": "If you want the 2-year warranty, 24/7 support and expandable storage, yes. The Westsee has a table stand, a wall kit and Day, Week, Month and Custom views, but a shorter warranty. Both have a 32GB base, so storage alone is no reason to pay more."
+  },
+  {
+    "q": "How do I mount the Family Hub Planner?",
+    "a": "Use its thumb nut mounting to attach the bracket and hang the display, which takes under 30 seconds without tools. Check that the wall surface is flat before pressing it on. Keep the display level so the bracket seats evenly."
+  },
+  {
+    "q": "Do I need a subscription?",
+    "a": "The Westsee and the 15.6-inch Smart Family Calendar say no subscription is needed for core features. Some other displays charge for advanced tools, so read the listing. Look for the exact phrase in the listing, not the title."
+  },
+  {
+    "q": "Does the AI photo feature need internet?",
+    "a": "The Hub Planner's AI photo enhancement needs an internet connection, and the 15in model's AI restoration is a convenience rather than a calendar feature. Confirm what runs offline before relying on it. Offline use is limited to what is already stored on the device."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

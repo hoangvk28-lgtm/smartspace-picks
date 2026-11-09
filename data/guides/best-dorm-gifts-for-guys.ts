@@ -5,7 +5,7 @@ export const metaDescription = "Seven dorm gifts for guys heading to college, fr
 export const mainKeyword = "dorm gifts for guys";
 export const introParagraphs = [
   "Ask most guys heading to a dorm what they need and the answer is food, a way to get to the shower and back, and something to do when the library closes. Gifts that cover those three things beat anything shiny, and the ones that fit in a single duffel are easier to get through move-in day.",
-  "This guide lays out seven gifts from about $6 to $36, mixing practical gear with light-hearted extras. We compared them on listed size, material, what is in the box and price. We also kept to items that need no outlet, which avoids housing-rule problems with heaters, cords and cooking appliances."
+  "This guide lays out seven gifts from under $10 to $36, mixing practical gear with light-hearted extras. We compared them on listed size, material, what is in the box and price. We also kept to items that need no outlet, which avoids housing-rule problems with heaters, cords and cooking appliances."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/410Hml5Yk8L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DZMZX45B?tag=deskfinds0d-20",
-    "description": "BAIMAY is a hanging mesh shower caddy with layered compartments, a sturdy metal hook, and breathable quick-dry material. The listing says it converts between a compact toiletry bag and a larger caddy that fits full-size bottles, and it also works for camping or travel.\n\nIt is the one gift here every dorm resident with a shared bathroom will use daily, which puts it ahead of the novelty items. Compared with the nail kit, it covers bigger needs and costs about $16 more.\n\nBest for a student who walks down a hall to a shared bathroom. The caveat is that mesh pockets let small items slip through, so tiny bottles may need a pouch.",
+    "description": "BAIMAY is a hanging mesh shower caddy with layered compartments, a sturdy metal hook, and breathable quick-dry material. The listing says it converts between a compact toiletry bag and a larger caddy that fits full-size bottles, and it also works for camping or travel.\n\nIt is the one gift here every dorm resident with a shared bathroom will use daily, which puts it ahead of the novelty items. Compared with the nail kit, it covers bigger needs and costs under $20 more.\n\nBest for a student who walks down a hall to a shared bathroom. The caveat is that mesh pockets let small items slip through, so tiny bottles may need a pouch.",
     "specs": [
       "Hanging mesh, metal hook",
       "Quick-dry breathable material",
@@ -219,51 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Shared bathroom readiness",
-    "explanation": "Many dorms have a hall bathroom, so a shower caddy that hangs, drains and dries matters more than any gadget. Mesh dries faster than solid plastic, which reduces mildew in humid halls. Look for a hook rated for a shower rod or door and a stated quick-dry material."
+    "explanation": "Many dorms have a hall bathroom, so a shower caddy that hangs, drains and dries matters more than any gadget. Mesh dries faster than solid plastic, which reduces mildew in humid halls. Look for a hook rated for a shower rod or door and a stated quick-dry material. Check that the caddy has drain holes and a hook that fits the shower rod, since bathrooms differ."
   },
   {
     "criterion": "Microwave safe materials",
-    "explanation": "Most dorm cooking happens in a shared microwave, and not all plastic is rated for it. Look for a stated polypropylene or BPA free material and a temperature range, as Layron lists. Avoid using a container without a microwave label."
+    "explanation": "Most dorm cooking happens in a shared microwave, and not all plastic is rated for it. Look for a stated polypropylene or BPA free material and a temperature range, as Layron lists. Avoid using a container without a microwave label. Confirm the bowl has a microwave safe symbol on the base, and note any temperature limit."
   },
   {
     "criterion": "Dorm rule compliance",
-    "explanation": "Housing rules ban open flames, sharp-tip dart sets in some halls and many appliances. A magnetic dart set avoids wall damage and sharp tips. Check your school's list for games and for anything with a point or a plug."
+    "explanation": "Housing rules ban open flames, sharp-tip dart sets in some halls and many appliances. A magnetic dart set avoids wall damage and sharp tips. Check your school's list for games and for anything with a point or a plug. Read the housing rules for sharp tools and weapons, and avoid anything with a point."
   },
   {
     "criterion": "Space in a duffel or car",
-    "explanation": "Everything has to fit in one trip, and bulky gifts stay at home. A 12 inch snack box and a 45 oz bowl each take bag room. Compare listed dimensions to the space you actually have."
+    "explanation": "Everything has to fit in one trip, and bulky gifts stay at home. A 12 inch snack box and a 45 oz bowl each take bag room. Compare listed dimensions to the space you actually have. Measure your duffel or car, since a move-in day is crowded and a flat box fits better."
   },
   {
     "criterion": "Seasonal packaging",
-    "explanation": "Some snack boxes are sold as seasonal variants, so what arrives may include Halloween branding or specific candy. If you are gifting at another time of year, check the product title for a season. Look for non-seasonal variants if timing matters."
+    "explanation": "Some snack boxes are sold as seasonal variants, so what arrives may include Halloween branding or specific candy. If you are gifting at another time of year, check the product title for a season. Look for non-seasonal variants if timing matters. Check the seasonal contents of snack boxes so you are not shipping candy from the wrong holiday."
   },
   {
     "criterion": "Daily use versus sentiment",
-    "explanation": "A shower caddy or bowl is used every day, while a keychain or tray is sentimental. A good gift mixes both. Count how often he will use it each week to decide where to spend."
+    "explanation": "A shower caddy or bowl is used every day, while a keychain or tray is sentimental. A good gift mixes both. Count how often he will use it each week to decide where to spend. Ask yourself if it will be used on a weekly basis, which favors the caddy and bowl over keepsakes."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Daily dorm use",
-    "description": "Items used daily, like a caddy and a bowl, ranked above novelty pieces."
+    "title": "Shared bathroom readiness",
+    "description": "We favored items for communal bathrooms, such as the BAIMAY hanging mesh shower caddy with a metal hook and quick-dry material that converts to a toiletry bag. Shower caddies come up constantly in dorm advice, and quick-dry mesh avoids mildew. The BAIMAY hook fits a standard shower rod and doubles as a bag."
   },
   {
-    "title": "Housing rule fit",
-    "description": "We avoided anything that plugs in, heats or has sharp tips, to avoid rule problems."
+    "title": "Microwave and kitchen safety",
+    "description": "We checked materials on the Layron 45 oz bowl, which is BPA free polypropylene, dishwasher safe and has a side handle. Dorm cooking usually means a shared microwave, so safe plastics and handles matter more than a stylish look. The Layron bowl also suits pasta and oatmeal."
   },
   {
-    "title": "Size and packing",
-    "description": "Listed dimensions were compared with a typical duffel and small shelves."
+    "title": "Dorm rule compliance",
+    "description": "We screened for sharp or restricted gear, noting the BATURU magnetic dart board uses magnetic darts with no sharp tips and the Aridantrp kit uses stainless tools. Anything that could be confiscated or marked a hazard dropped down. The BATURU board is easy to carry to a common room."
   },
   {
-    "title": "Materials",
-    "description": "Stainless steel, polypropylene, leather and mesh builds were compared on what the listings state."
+    "title": "Space in a duffel or car",
+    "description": "We compared packing size, from the COLLEGEBOX snack box at 12.2 x 10.5 x 3 inches to the keychain that mails in a card. A move-in day is crowded, so slim gifts that slide into a drawer were rated higher. The COLLEGEBOX note lists seasonal contents, so check before buying."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from about $6 to $36 were compared against what each gift delivers."
+    "title": "Daily use versus sentiment",
+    "description": "We separated items a student touches daily, the caddy and bowl, from novelty gifts like the Go to Class valet tray and keychain. The funny extras are cheap and personal, but the practical pair carries the guide. The keychain also mails flat in a card."
   }
 ];
 
@@ -395,7 +395,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You want a small gesture. Aeolussoms Go to Class Funny Stainless Keychain and Aridantrp 7 in 1 Manicure and Nail Kit cost about $7 or less."
+        "text": "You want a small gesture. Aeolussoms Go to Class Funny Stainless Keychain and Aridantrp 7 in 1 Manicure and Nail Kit cost under $10."
       }
     ]
   }
@@ -404,24 +404,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Is a shower caddy necessary for a dorm?",
-    "a": "If the bathroom is down the hall, yes. Carrying shampoo and a razor in a hand is awkward, and a hanging mesh caddy dries between uses."
+    "q": "What is the best practical dorm gift for a guy?",
+    "a": "The BAIMAY mesh shower caddy. It hangs on a metal hook, dries quickly, fits full-size bottles and doubles as a toiletry bag, so it gets used daily in a communal bathroom. Rinse and hang it to dry after each shower."
   },
   {
-    "q": "Can I microwave a ramen bowl safely?",
-    "a": "Only follow the listing's guidance. Layron's listing notes a temperature range and says to microwave for a few minutes, and the bowl should never go in a conventional oven."
+    "q": "What mistake do buyers make with funny dorm gifts?",
+    "a": "Skipping the details. The Go to Class tray includes a swear word, and its size is not listed clearly. Check the text and measure your desk, and pair a joke gift with something useful. Check the text before buying if the student is a minor."
   },
   {
-    "q": "Is a snack box worth it?",
-    "a": "It is a quick treat that is gone fast. It makes the most sense at midterms or move-in, and a lasting item like a bowl works better alongside it."
+    "q": "Is the COLLEGEBOX snack box worth it?",
+    "a": "It holds 45 snacks in a slim 12.2 x 10.5 x 3 inch box with gift wrap and a message option, and is the priciest pick. Contents may include seasonal items, so check the date. Check the expiry dates when it arrives."
+  },
+  {
+    "q": "Can a student cook with the Layron 45 oz bowl?",
+    "a": "Yes in a microwave. It handles noodles, pasta and oatmeal, is dishwasher safe and has a side handle. It needs a microwave in the room or shared kitchen and is bulky to store. Vent the lid so steam can escape."
   },
   {
     "q": "Are magnetic darts safe in a dorm?",
-    "a": "They have no sharp tips, so there are no holes in walls, which avoids damage charges. Still, use the board away from electronics, since magnets can affect some devices."
+    "a": "The BATURU board uses magnetic darts with no sharp tips, so walls stay safe. It is aimed at kids and teens, and is less precise than real darts, but it is portable. Hang it on a wall with a removable hook."
   },
   {
-    "q": "What should I check before gifting a seasonal snack box?",
-    "a": "Read the title and contents. A listing like COLLEGEBOX's mentions Halloween, so expect seasonal items, and look for a non-seasonal variant if you are gifting in another month."
+    "q": "What do I check before buying the Aridantrp nail kit?",
+    "a": "It has 7 stainless steel tools in a leather case, but few detailed specs. Check the tool list, and keep it in a pouch so small pieces do not get lost. Keep it in a pouch in a drawer."
   }
 ];
 

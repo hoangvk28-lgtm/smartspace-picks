@@ -43,9 +43,9 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41qlPecCUNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4D1QJB9?tag=deskfinds0d-20",
-    description: "This hutch's 5-tier design pairs built-in outlets with an integrated light strip, giving you both power access and ambient lighting for displaying items or working in lower-light conditions. At 30 inches wide, it's more compact than the 45.3 inch SANYOUNG pick above, making it a better fit for narrower desks.\n\nCompared to that top pick, this one costs about $30 less while still including genuine outlet access and lighting, though it drops the height-adjustable clearance and the 100 lb load rating in exchange for a smaller footprint and 5 distinct storage tiers instead of 3. The wooden construction with a white or black finish option adds some styling flexibility the metal-frame SANYOUNG pick doesn't offer.\n\nBest for buyers with narrower desks who still want power access and lighting.",
+    description: "This hutch's 5-tier design pairs built-in outlets with an integrated light strip, giving you both power access and ambient lighting for displaying items or working in lower-light conditions. At 30 inches wide, it's more compact than the 45.3 inch SANYOUNG pick above, making it a better fit for narrower desks.\n\nCompared to that top pick, this one costs under $40 less while still including genuine outlet access and lighting, though it drops the height-adjustable clearance and the 100 lb load rating in exchange for a smaller footprint and 5 distinct storage tiers instead of 3. The wooden construction with a white or black finish option adds some styling flexibility the metal-frame SANYOUNG pick doesn't offer.\n\nBest for buyers with narrower desks who still want power access and lighting.",
     specs: ["5 tiers, 30in wide wooden construction", "Built-in outlets, integrated light strip", "Available in white or black finish"],
-    pros: ["More compact footprint fits narrower desks than the top pick", "5 distinct tiers versus 3 on the SANYOUNG pick", "About $30 cheaper while still including outlets and lighting"],
+    pros: ["More compact footprint fits narrower desks than the top pick", "5 distinct tiers versus 3 on the SANYOUNG pick", "Under $40 cheaper while still including outlets and lighting"],
     cons: ["No stated height-adjustable clearance like the SANYOUNG pick", "Lower weight capacity than the steel-frame top pick"],
     bestFor: "buyers with narrower desks who still want power and lighting",
   },
@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Power and Charging Capability", "description": "Compared outlet count, USB-A versus USB-C availability, and cable routing design across powered picks." },
-  { "title": "Weight Capacity", "description": "Checked stated total static load ratings and frame material, steel versus wood, across the lineup." },
-  { "title": "Height and Monitor Adjustability", "description": "Compared adjustable clearance ranges and maximum supported monitor sizes." },
-  { "title": "Storage Tier Count", "description": "Compared number of shelves or tiers relative to price and footprint width." },
-  { "title": "Value at the Top of This Tier", "description": "Weighed whether powered features justified the price gap over the non-powered Tangkula pick." }
+  {
+    "title": "Load capacity per shelf and in total",
+    "description": "We read each listing for weight limits, because a hutch holds books and monitors differently. The 45.3in model lists 100 lb static load on a steel frame, while Tangkula states no capacity at all, so we treated unspecified limits as a risk for heavy monitors. Heavy items belong on the lowest shelf anyway."
+  },
+  {
+    "title": "Width against your desk",
+    "description": "We compared widths from 29.9 inches on the HOOBRO to 45.3 inches on the biggest unit. Width mismatch is a common buying mistake, and the 45.3in model needs a desk wider than 47.3 inches, so we checked the minimum desk width against each stated footprint. Measure the desk and leave a margin on both sides."
+  },
+  {
+    "title": "Power and lighting built in",
+    "description": "We counted outlets and lights. The 45.3in model has 2 AC outlets, a USB and a USB-C port, and the Aetheris and HOOBRO add outlets plus a light strip, while Tangkula has none, which changes how many power strips you still need. Outlets share one plug, so add up the wattage."
+  },
+  {
+    "title": "Monitor clearance and height",
+    "description": "We checked clearance for monitor screens. The 45.3in model adjusts to 20, 24 or 28 inches and fits monitors up to 32 inches, and Tangkula also lists 32 inches, but other hutches offer no stated clearance. Measure your monitor's depth before ordering."
+  },
+  {
+    "title": "Stability and tip protection",
+    "description": "We looked for steel frames and anti-tip details. The 45.3in model has a steel frame, the others are wood, and Tangkula lists no anti-tip hardware, which matters when a tall shelf sits at the back edge of a desk. Wood frames are fine for light loads only."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The most complete power setup and highest capacity", "45.3in Desktop Bookshelf with Outlet, 3-Tier Adjustable Desk Hutch"],
-        ["Power and lighting on a narrower desk", "Aetheris Desktop Organizer Shelf, 5-Tier"],
-        ["Power and lighting at the lowest price", "HOOBRO Desktop Bookcase, 2-Tier"],
-        ["Maximum shelf storage without power features", "Tangkula Desktop Bookshelf, 6-Shelf Countertop Hutch"]
+    "subheading": "By Desk Width",
+    "intro": "Measure the clear width of the desk before you look at features.",
+    "table": {
+      "headers": [
+        "Your desk",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A desk wider than 47.3 inches",
+          "45.3in Desktop Bookshelf with Outlet, 3-Tier Adjustable Desk Hutch, a steel frame with the highest capacity"
+        ],
+        [
+          "A desk about 37 inches or wider with a large monitor",
+          "Tangkula Desktop Bookshelf for Computer Up to 32in, 6-Shelf Countertop Hutch, with the most shelf area"
+        ],
+        [
+          "A desk about 30 to 36 inches wide",
+          "Aetheris Desktop Organizer Shelf, 5-Tier with Outlets and Light Strip, at 30 inches wide"
+        ],
+        [
+          "A narrow desk near 30 inches",
+          "HOOBRO Desktop Bookcase, 2-Tier with Outlets and Light Strip, at 29.9 inches wide"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Around $56", "Tangkula (under $60) or HOOBRO (under $60)"],
-        ["Around $70", "Aetheris (under $70)"],
-        ["Up to $100", "SANYOUNG Desktop Bookshelf with Outlet (under $100)"]
+    "subheading": "By Budget",
+    "intro": "Prices step down from the steel-frame model to the 2-tier HOOBRO.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The cheapest hutch with outlets and a light strip",
+          "HOOBRO Desktop Bookcase, 2-Tier with Outlets and Light Strip"
+        ],
+        [
+          "A mid-range hutch with five tiers",
+          "Aetheris Desktop Organizer Shelf, 5-Tier with Outlets and Light Strip, cheaper than the steel-frame pick"
+        ],
+        [
+          "A competitive price for the most shelves without power",
+          "Tangkula Desktop Bookshelf for Computer Up to 32in, 6-Shelf Countertop Hutch"
+        ],
+        [
+          "The top of this tier for outlets, USB-C and height adjustment",
+          "45.3in Desktop Bookshelf with Outlet, 3-Tier Adjustable Desk Hutch"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Powered Hutches vs the Non-Powered Tangkula Pick",
-    cards: [
-      { label: "Powered (SANYOUNG, Aetheris, HOOBRO)", text: "Adds outlets, USB or USB-C ports, and often a light strip, worth the added cost if you need to charge devices or light your desk area at shelf level." },
-      { label: "Non-powered (Tangkula)", text: "Delivers the most raw shelf storage for the price by skipping power features entirely, better if your desk's power needs are already solved elsewhere." }
+    "subheading": "Powered Hutch vs Plain Shelf",
+    "intro": "Built-in power helps a cluttered desk, but it adds a cable and a limit.",
+    "cards": [
+      {
+        "label": "Powered (45.3in, Aetheris, HOOBRO)",
+        "text": "Outlets keep chargers and lamps off the floor, and the light strip adds task light. Check the plug limit and that the hutch needs one wall outlet."
+      },
+      {
+        "label": "Plain (Tangkula)",
+        "text": "No outlets or lighting, but six shelves and a 37 inch width. It is simpler and suits a desk that already has a power strip."
+      }
     ],
-    note: "Most buyers who specifically want power access at shelf height should default to the HOOBRO or Aetheris pick depending on desk width, unless the SANYOUNG pick's higher weight capacity and adjustable height genuinely matter for a large monitor setup.",
+    "note": "Default to powered if the desk has no nearby outlet, and plain if a power strip already sits there."
   },
   {
-    subheading: "By Desk Width",
-    table: {
-      headers: ["Your desk width", "Recommended pick"],
-      rows: [
-        ["Narrow desks (under 30 inches of hutch space)", "HOOBRO (29.9in wide)"],
-        ["Medium desks (around 30-37 inches)", "Aetheris (30in) or Tangkula (37in)"],
-        ["Wide desks (47.3 inches or more)", "SANYOUNG (45.3in, requires 47.3in minimum desk width)"]
+    "subheading": "By Monitor Setup",
+    "intro": "A hutch that is too low will block your screen.",
+    "table": {
+      "headers": [
+        "Your monitor",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A 27 or 32 inch monitor on the desk with the hutch above",
+          "45.3in Desktop Bookshelf with Outlet, 3-Tier Adjustable Desk Hutch, with 20, 24 and 28 inch heights"
+        ],
+        [
+          "A monitor up to 32 inches with a lot of books",
+          "Tangkula Desktop Bookshelf for Computer Up to 32in, 6-Shelf Countertop Hutch"
+        ],
+        [
+          "A laptop with an external keyboard",
+          "HOOBRO Desktop Bookcase, 2-Tier with Outlets and Light Strip, with a compact 29.9 inch width"
+        ],
+        [
+          "A small monitor and lots of small items",
+          "Aetheris Desktop Organizer Shelf, 5-Tier with Outlets and Light Strip, with 5 tiers"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Large Gaming Monitor Setup Specifically",
-    cards: [
-      { label: "Look for", text: "Height-adjustable clearance and a high stated weight capacity, since large gaming monitors and their stands are heavier and need ergonomic eye-level positioning." },
-      { label: "In this comparison", text: "The SANYOUNG pick's 3-level height adjustment and 100 lb steel-frame capacity specifically support monitors up to 32 inches at ergonomic height." }
-    ],
+    "subheading": "For Small Desks Specifically",
+    "intro": "On a narrow desk, every inch of hutch width takes space from the mouse and keyboard.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A width at least a few inches less than the desk, a stated tier height and outlets on the side so cords do not run across the work area."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HOOBRO Desktop Bookcase at 29.9 inches and Aetheris at 30 inches wide are the narrow picks, and both include outlets."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need the highest weight capacity, adjustable monitor height, and the most complete outlet setup, where the SANYOUNG pick covers all three at the top of this tier." },
-      { label: "Save if", text: "You just want built-in power and lighting without needing height adjustment, where the HOOBRO pick delivers that for about $43 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The 45.3in pick is the one place where the extra money buys capacity.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You keep heavy books or a monitor on the shelves, where 45.3in Desktop Bookshelf with Outlet lists 100 lb and a steel frame."
+      },
+      {
+        "label": "Save if",
+        "text": "You store light items on a narrow desk, where HOOBRO Desktop Bookcase is the cheapest powered pick."
+      }
+    ]
   }
 ];
 
@@ -184,8 +270,8 @@ export const buyingCriteria = [
 export const faq = [
   { "q": "Does the SANYOUNG pick's 100 lb weight capacity mean I can stack that much on a single shelf?", "a": "No, that figure is the total static load across the entire unit, not a single shelf's capacity, so distributing weight across all 3 tiers evenly is important rather than concentrating it on one level." },
   { "q": "What's the most common mistake buyers make when choosing a desk hutch with USB-C ports?", "a": "Assuming any hutch labeled with 'USB ports' includes USB-C, when many budget powered hutches only include older USB-A ports, so checking the exact port type listed in the feature bullets before buying is worth doing if USB-C charging matters to you." },
-  { "q": "Is the SANYOUNG pick worth it over the cheaper HOOBRO option?", "a": "If you need height-adjustable monitor clearance and the highest weight capacity, yes, but if you just want basic outlet access and lighting without those extras, the HOOBRO pick delivers that for about $43 less." },
-  { "q": "How do I measure my desk to confirm the SANYOUNG pick's minimum width requirement is met?", "a": "Measure the clear, usable width of your desk surface where the hutch will sit, excluding any monitor arm clamps or edge-mounted accessories, and confirm it exceeds 47.3 inches before ordering." },
+  { "q": "Is the SANYOUNG pick worth it over the cheaper HOOBRO option?", "a": "If you need height-adjustable monitor clearance and the highest weight capacity, yes, but if you just want basic outlet access and lighting without those extras, the HOOBRO pick delivers that for noticeably less." },
+  { "q": "How do I measure my desk to confirm the SANYOUNG pick's minimum width requirement is met?", "a": "Measure the clear, usable width of the desk surface where the hutch will sit, excluding any monitor arm clamps or edge accessories. The 45.3in model needs a desk wider than 47.3 inches, so confirm that figure with a tape measure and leave a gap on each side before ordering." },
   { "q": "Can the Aetheris or HOOBRO pick's light strip be turned off if I don't want it running all the time?", "a": "Both are designed as integrated features with their own control, typically a switch or touch control on the strip itself, so checking the specific listing's control method is worth doing if you want to confirm it doesn't run continuously without an off option." },
   { "q": "Do I need to route cables differently for the SANYOUNG pick's dual-way installation compared to the other picks?", "a": "Yes, the SANYOUNG pick specifically supports routing its cord outward for easy access or inward to hide it behind the grid panel, a choice the other three picks in this tier don't offer since they don't have the same grid panel design." }
 ];

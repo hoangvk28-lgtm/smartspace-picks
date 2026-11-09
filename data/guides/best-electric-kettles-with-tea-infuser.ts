@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41b1Z5L+GnL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D1C18CN3?tag=deskfinds0d-20",
-    "description": "INTASTING is a 1 liter borosilicate glass kettle at 1200W with 1F control, a non-drip V-shaped nozzle, an anti-scalding lid, an auto memory of your last temperature and time and a hold of up to 1 hour. The listing says the opening is wide for cleaning.\n\nIt offers the finest temperature steps here, and the memory function recalls your usual brew. It costs under $70, about $18 more than Cosori.\n\nChoose it for precise temperature on a smaller kettle. The caveat is that 1 liter is small for groups, and the listing does not describe the infuser in detail.",
+    "description": "INTASTING is a 1 liter borosilicate glass kettle at 1200W with 1F control, a non-drip V-shaped nozzle, an anti-scalding lid, an auto memory of your last temperature and time and a hold of up to 1 hour. The listing says the opening is wide for cleaning.\n\nIt offers the finest temperature steps here, and the memory function recalls your usual brew. It costs under $70, under $20 more than Cosori.\n\nChoose it for precise temperature on a smaller kettle. The caveat is that 1 liter is small for groups, and the listing does not describe the infuser in detail.",
     "specs": [
       "1L glass, 1200W, 1F steps",
       "Auto memory of last settings",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/514t+i7XMDL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B089CVHW5K?tag=deskfinds0d-20",
-    "description": "Aigostar is a 1.7 liter, 1500W kettle in thickened borosilicate glass and 304 stainless steel with 5 presets shown by LED color, an auto shut-off within 30 seconds of reaching the set temperature, boil-dry protection and a 360 degree base.\n\nColor-coded presets make it easy to see the target at a glance, and it costs under $40, about $14 less than Cosori. It lacks Cosori's lift-out infuser detail.\n\nBest for a glass kettle with simple presets. The caveat is that 1500W is a heavy circuit load, and infuser details are limited.",
+    "description": "Aigostar is a 1.7 liter, 1500W kettle in thickened borosilicate glass and 304 stainless steel with 5 presets shown by LED color, an auto shut-off within 30 seconds of reaching the set temperature, boil-dry protection and a 360 degree base.\n\nColor-coded presets make it easy to see the target at a glance, and it costs under $40, under $15 less than Cosori. It lacks Cosori's lift-out infuser detail.\n\nBest for a glass kettle with simple presets. The caveat is that 1500W is a heavy circuit load, and infuser details are limited.",
     "specs": [
       "1.7L, 1500W glass and 304 steel",
       "5 presets, LED color indicator",
@@ -236,7 +236,7 @@ export const products: GuideProduct[] = [
       "60 minute keep-warm"
     ],
     "cons": [
-      "Costs about $330",
+      "Costs under $400",
       "Capacity not in the bullets"
     ],
     "bestFor": "Daily tea with automated steeping"
@@ -247,51 +247,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Infuser design and steep control",
-    "explanation": "An infuser is the basket that holds leaves in the water, and how it lifts out decides how long you steep. Cosori lifts the whole infuser out to stop steeping, while Breville automates it. Look for a removable infuser with a lid you can open to add leaves."
+    "explanation": "An infuser is the basket that holds leaves in the water, and how it lifts out decides how long you steep. Cosori lifts the whole infuser out to stop steeping, while Breville automates it. Look for a removable infuser with a lid you can open to add leaves. Steeping inside the kettle stains it, so choose a lift out or lowering basket like the Cosori or Breville BTM800XL and clean it after each use."
   },
   {
     "criterion": "Temperature presets for tea",
-    "explanation": "Different teas want different temperatures, commonly near 175F for green and hotter for black. Cosori starts at 165F, Narcissus covers 100 to 212F, and Taylor Swoden has none. Check that the lowest preset is low enough for your tea."
+    "explanation": "Different teas want different temperatures, commonly near 175F for green and hotter for black. Cosori starts at 165F, Narcissus covers 100 to 212F, and Taylor Swoden has none. Check that the lowest preset is low enough for your tea. Tea wants different temperatures, so check that the range includes about 175F for green and a full boil for black before buying."
   },
   {
     "criterion": "Glass versus stainless",
-    "explanation": "Glass lets you see the leaves unfurl but breaks and shows scale, while stainless is sturdy. Aigostar and Narcissus use borosilicate glass with stainless infusers. Look for the word borosilicate and a stainless infuser."
+    "explanation": "Glass lets you see the leaves unfurl but breaks and shows scale, while stainless is sturdy. Aigostar and Narcissus use borosilicate glass with stainless infusers. Look for the word borosilicate and a stainless infuser. Glass shows leaves and scale, while steel hides both, so choose between the INTASTING and a stainless model by how clean you will keep it."
   },
   {
     "criterion": "Cleaning after steeping",
-    "explanation": "Tea residue and tannin stain a kettle, especially one that steeps in the main chamber. Taylor Swoden has an infuser with a separate lid for easy cleaning. Check how easily the infuser and interior come apart."
+    "explanation": "Tea residue and tannin stain a kettle, especially one that steeps in the main chamber. Taylor Swoden has an infuser with a separate lid for easy cleaning. Check how easily the infuser and interior come apart. Tannin stains build in the water line, so a wide mouth on the Narcissus or the removable infuser on the Taylor Swoden makes cleaning easier."
   },
   {
     "criterion": "Capacity versus servings",
-    "explanation": "A 1 liter kettle serves one or two cups, while PULZO's 3 liters serves a crowd. Match capacity to how many cups you brew. A big kettle used for one cup wastes water and energy."
+    "explanation": "A 1 liter kettle serves one or two cups, while PULZO's 3 liters serves a crowd. Match capacity to how many cups you brew. A big kettle used for one cup wastes water and energy. A 1L kettle fills one or two cups and a 3L PULZO serves a crowd, so count the cups you pour before you choose a size."
   },
   {
     "criterion": "Keep-warm specifics",
-    "explanation": "A keep-warm function holds the water at a set temperature, but listings often conflict. Narcissus cites both 6 hours and 10 minutes, and Taylor Swoden holds 176 to 185F. Check the stated temperature and length."
+    "explanation": "A keep-warm function holds the water at a set temperature, but listings often conflict. Narcissus cites both 6 hours and 10 minutes, and Taylor Swoden holds 176 to 185F. Check the stated temperature and length. Listings state keep warm in different ways, from 30 minute holds to 24 hours, so read the exact time and temperature before relying on it."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Infuser design",
-    "description": "We compared how each infuser lifts out, opens and cleans."
+    "title": "Infuser design and steep control",
+    "description": "We compared infusers: the Cosori has a lift out basket with a lid, the Breville BTM800XL lowers a tea basket automatically with a timer, and the Narcissus has a stainless infuser and filter. Steep control matters because leaves left in hot water turn bitter. A basket that lifts out is simpler to rinse than one built into the lid."
   },
   {
-    "title": "Temperature control",
-    "description": "Preset ranges and step sizes were compared against common tea temperatures."
+    "title": "Temperature presets for tea",
+    "description": "Different teas want different water: about 175F for green and much hotter water for black. The Narcissus runs 100F to 212F in 5F steps, the INTASTING 1F steps, and the Cosori starts at 165F. We favored kettles that can hit the actual tea. Lower presets also protect a glass body from the thermal shock of a full boil."
   },
   {
-    "title": "Materials",
-    "description": "Glass and stainless parts and plastic-free claims were compared."
+    "title": "Glass versus stainless",
+    "description": "Most picks here are glass, such as the INTASTING, Narcissus, Aigostar and Taylor Swoden, which show the leaves. Steel survives knocks better and hides tannin staining, so we weighed visibility against durability. None of the glass picks should be filled with cold water straight from a freezer."
   },
   {
-    "title": "Capacity and features",
-    "description": "Capacity, keep-warm and extras were compared."
+    "title": "Capacity and serving size",
+    "description": "Sizes range from 1L on the INTASTING and Taylor Swoden to the 3L PULZO dispenser with a drip free spigot. A 1L kettle serves one or two cups, while the PULZO and the 1.8L Narcissus suit a group. We also checked how heavy a full 3L unit gets before it reaches the table."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $30 to $350 were compared with documented features."
+    "title": "Keep warm and auto off",
+    "description": "Keep warm options run from 60 minutes on the Cosori and Breville to 6 or 24 hours on the PULZO, and the Aigostar shuts off within 30 seconds of boiling. We judged whether the hold fits a steeping routine. A 24 hour hold on the PULZO is only useful for a shared office pantry."
   }
 ];
 
@@ -345,15 +345,15 @@ export const howToChoose: HowToChooseSection[] = [
           "Aigostar 1.7L Glass Kettle with Infuser and 5 Presets"
         ],
         [
-          "About $50 to $54",
+          "Under $60 to $54",
           "Cosori 1.7L Kettle with Tea Infuser and 6 Presets"
         ],
         [
-          "About $68 to $110",
+          "Under $75 to $110",
           "INTASTING 1L Glass Kettle with Infuser and 1F Control"
         ],
         [
-          "About $330",
+          "Under $400",
           "Breville BTM800XL Tea Maker Infuser and Kettle"
         ]
       ]
@@ -431,28 +431,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "What temperature should I use for loose-leaf tea?",
-    "a": "Green and white teas are commonly steeped near 175 to 185F, while black tea takes hotter water. Check that your kettle's presets reach your tea's range."
+    "q": "Can I leave tea leaves in the kettle?",
+    "a": "Only briefly. Steeping in the main chamber lets tannins stain the glass or steel, and leaves left too long turn bitter. The Breville BTM800XL lowers its basket automatically and the Cosori lifts out, which makes timing easier."
   },
   {
-    "q": "Can I steep in the kettle and still boil water for other uses?",
-    "a": "Yes, but rinse the kettle and infuser first, since tea leaves flavor the next boil. A kettle with a removable infuser is easiest."
+    "q": "What temperature should I use for green tea?",
+    "a": "About 175F is a common target, which keeps it from tasting harsh. The Cosori offers presets from 165F and the Narcissus steps in 5F increments from 100F to 212F. A pure boil kettle will scorch delicate leaves."
   },
   {
-    "q": "Is a kettle with an infuser worth it over a teapot?",
-    "a": "It saves a step and holds temperature, but a teapot is simpler to clean. If you brew loose leaf often, the kettle saves dishes."
+    "q": "Is a glass kettle with an infuser better than stainless?",
+    "a": "Glass lets you watch the leaves unfurl, as with the INTASTING and Narcissus, but it breaks if knocked and shows scale. Stainless hides stains and survives bumps. Choose glass for a stationary counter kettle."
   },
   {
-    "q": "How do I clean tea stains from a kettle?",
-    "a": "Rinse after each use, and clean with diluted vinegar or baking soda as needed. Glass shows stains faster than stainless."
+    "q": "Is the PULZO 3L worth it over a 1L kettle?",
+    "a": "Only for groups. The PULZO is a glass dispenser with 10 presets and a drip free spigot, and it keeps warm for 6 or 24 hours. A 1L Taylor Swoden or INTASTING fits one or two cups and takes less counter space."
   },
   {
-    "q": "Can I put herbs and flowers in the infuser?",
-    "a": "Narcissus lists a filter that takes flowers, herbs and bags. Check the mesh size so fine leaves do not escape."
+    "q": "How do I remove tea stains from a kettle?",
+    "a": "Fill with equal parts white vinegar and water, boil, let it sit, then scrub with a soft brush and rinse. Do it about monthly. A removable infuser like the Taylor Swoden one makes it easier to reach the inside walls."
   },
   {
-    "q": "Do infuser kettles have plastic parts?",
-    "a": "Some do, especially lids and infuser rims. Look for plastic-free wording such as Cosori's no-plastic-contact claim."
+    "q": "Does an infuser kettle work for coffee?",
+    "a": "Not well. The infuser basket is made for leaves, and coffee grounds clog the mesh and leave sediment. Use a separate brewer for coffee and keep the infuser kettle for tea, or choose a standard kettle if you drink both."
   }
 ];
 

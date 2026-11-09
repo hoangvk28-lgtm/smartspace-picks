@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Weight Capacity and Frame Construction", "description": "Compared stated weight ratings and frame material weight across the lineup, from 300 to 450 lbs." },
-  { "title": "Motor Lifespan and Power", "description": "Compared stated motor HP and any disclosed lifespan figures across all four picks." },
-  { "title": "Belt Width and Deck Size", "description": "Compared belt dimensions and their suitability for taller users." },
-  { "title": "Incline Type", "description": "Distinguished automatic incline adjustment from manual repositioning systems." },
-  { "title": "App and Voice Control Features", "description": "Compared app ecosystem breadth and voice control availability across the tier." }
+  { "title": "Capacity range for real headroom", "description": "Capacities here run from 300 lbs on the TOPUTURE to 450 lbs on the 450 lb Auto Incline pad. We used a 50 lb headroom rule and noted that the 400 to 450 lb picks leave room even for heavier users or for people who add a weighted backpack." },
+  { "title": "Motor transparency and durability claims", "description": "The MERACH lists 1.25 CHP and a 15,000 hour motor life, while others cite only horsepower. We favoured honest continuous figures because peak HP can overstate sustained power by a wide margin, then treated lifespan numbers as brand claims rather than verified results, so they only broke ties." },
+  { "title": "Auto versus manual incline", "description": "We split the lineup into the 450 lb pad with 9-level auto incline, the MERACH with 12 levels, and the WELLFIT and TOPUTURE with manual or low-level options. Motorized incline saves you from stepping off the belt, which matters for anyone who walks while working." },
+  { "title": "Deck size and stability", "description": "The MERACH's 16.5 x 41.3 inch deck suits taller users, and its 67.7 lb steel frame reduces shaking. We compared belt dimensions and frame weight because a wider, heavier pad stays steadier at brisk speeds than a light one." },
+  { "title": "Warranty, app support and noise", "description": "We read warranty terms such as the 3-year coverage with live support on the 450 lb pad, plus app and voice control on the WELLFIT. Spending close to $300 means support should be part of the value, so we weighed it alongside decibel claims and assembly effort." }
 ];
 
 export interface HowToChooseSection {
@@ -102,13 +102,15 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "This tier is where weight capacity and motorized incline begin to separate the strong pads from the basic ones.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
-        ["The most durable frame and a wider deck for taller users", "MERACH UltraWalk W60 Walking Pad Treadmill"],
-        ["The highest weight capacity with automatic incline", "Walking Pad Treadmill 450 lb, Auto Incline"],
-        ["Voice control with beginner-friendly stability", "WELLFIT Walking Pad with Incline and Handle Bar, 350LB"],
-        ["The lowest price with an adjustable handlebar", "TOPUTURE Walking Pad Treadmill with Adjustable Handle Bar"]
+        ["The highest capacity and motorized incline", "450 lb Auto Incline, with 450 lbs and 9 levels to 12%"],
+        ["A durable steel frame with a long deck for taller users", "MERACH UltraWalk W60, thanks to its 16.5 x 41.3 inch deck"],
+        ["A beginner-friendly pad with voice control and Apple Health", "WELLFIT, which also folds to 4.45 inches"],
+        ["The cheapest entry that still offers a folding desktop", "TOPUTURE, the lowest price here"],
+        ["Guided workouts from an app", "450 lb Auto Incline, which includes the FitYo app with 50 plus courses"]
       ],
     },
   },
@@ -117,44 +119,46 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $199", "TOPUTURE (under $200)"],
-        ["Under $220", "WELLFIT (under $250)"],
-        ["Under $250", "450 lb Auto Incline (under $250)"],
-        ["Under $330", "MERACH UltraWalk (under $350)"]
+        ["Under $250, the entry point of this tier", "TOPUTURE, the cheapest while still cushioned"],
+        ["Under $250 for stability-focused walking", "WELLFIT, with a 350 lb limit and a 3.0HP motor"],
+        ["Under $300 for the best value in features", "450 lb Auto Incline, which pairs 450 lbs with a 3-year warranty"],
+        ["Above $300 for the sturdiest frame", "MERACH UltraWalk W60, which sits above this tier's ceiling"],
+        ["Above $350 if auto incline is non-negotiable", "The under $400 guide lists several 3.5HP auto-incline pads"]
       ],
     },
   },
   {
-    subheading: "Automatic Incline vs Manual Incline Adjustment",
+    subheading: "Steel Frame vs Folding Compact Build",
     cards: [
-      { label: "Automatic incline (450 lb Auto Incline pick)", text: "Adjusts incline at the touch of a button across 9 levels, no manual repositioning required during use." },
-      { label: "Manual incline (MERACH, WELLFIT, TOPUTURE)", text: "Requires physically setting the incline level, though the MERACH pick's system still allows quick preset selection via remote or app." }
+      { label: "Heavier steel frame (MERACH UltraWalk W60, 450 lb Auto Incline)", text: "A frame near 67 lbs holds still under a firm stride and supports higher weight limits. It is harder to carry and best left in one spot." },
+      { label: "Slim folding build (WELLFIT, TOPUTURE)", text: "Folding to 4.45 inches or tucking behind a desk makes storage easy, but a lighter frame can flex at higher speeds or on a steep incline." }
     ],
-    note: "If you want to vary incline frequently during a single session without stopping, the automatic incline pick is worth prioritizing. If you typically set one incline level per session, the manual options work just as well at a lower price.",
+    note: "Most buyers should default to a heavier frame if the pad stays in one room, and choose the folding builds only when storage is the priority.",
   },
   {
-    subheading: "By Weight Capacity",
+    subheading: "By Warranty and Support Preference",
     table: {
-      headers: ["Your weight capacity needs", "Recommended pick"],
+      headers: ["What you want", "Recommended pick"],
       rows: [
-        ["Standard capacity, up to 300 lbs", "TOPUTURE"],
-        ["Higher capacity, up to 350 lbs", "WELLFIT"],
-        ["Heavy-duty capacity, 400-450 lbs", "MERACH or the 450 lb Auto Incline pick"]
+        ["Live, real-person support for three years", "450 lb Auto Incline, with its stated 3-year warranty and support"],
+        ["A durability number to compare, even if it is a claim", "MERACH UltraWalk W60, with its 15,000 hour motor figure"],
+        ["Voice control and health-app syncing", "WELLFIT, compatible with Apple Health"],
+        ["Short warranty accepted for the lowest price", "TOPUTURE, which carries 1-year coverage"]
       ],
     },
   },
   {
-    subheading: "For a Taller User Specifically",
+    subheading: "For Heavier Walkers Specifically",
     cards: [
-      { label: "Look for", text: "A wider deck explicitly marketed for taller users with a stated width increase, rather than assuming any standard walking pad accommodates a longer stride comfortably." },
-      { label: "In this comparison", text: "The MERACH UltraWalk's 16.5 x 41.3 inch deck is specifically marketed as providing 33% more stride space for taller users, a detail none of the other three picks emphasize." }
+      { label: "Look for", text: "A stated capacity at least 50 lbs above your weight, a motor with a continuous rating, and a heavier frame. Treat vague horsepower claims with caution." },
+      { label: "In this comparison", text: "The 450 lb Auto Incline and MERACH list 450 and 400 lbs, and both have heavy frames. The WELLFIT at 350 lbs works for people under about 300 lbs." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the most durable frame with a stated 15,000-hour motor lifespan and a deck built for taller users, where the MERACH pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want a solid, cushioned walking pad with an adjustable handlebar without needing the highest weight capacity, where the TOPUTURE pick covers that for about $131 less." }
+      { label: "Spend more if", text: "You need 12 incline levels, a longer deck or a documented 1.25 CHP motor like the MERACH. The under $400 guide shows how much more a 3.5HP auto-incline pad costs than the cheapest option here." },
+      { label: "Save if", text: "You want a basic cushioned pad with a folding desktop. The TOPUTURE covers that for the least, and the under $200 guide offers similar 350 lb picks for less." }
     ],
   }
 ];
@@ -183,12 +187,12 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Does the MERACH's higher noise level of 53.6 dB mean it's disruptive during video calls?", "a": "It's louder than the quietest picks in lower tiers, but 53.6 dB is still comparable to a normal conversation level, so while it may be noticeable on a video call microphone, it's unlikely to be significantly disruptive for most typical work-from-home use." },
-  { "q": "What's the most common mistake buyers make when choosing between automatic and manual incline systems at this tier?", "a": "Assuming automatic incline is always worth the premium, when many users set one incline level per session anyway, making a manual system's lower price a better value if you don't specifically need mid-session incline changes." },
-  { "q": "Is the MERACH pick worth it over the cheaper 450 lb Auto Incline option?", "a": "If you specifically want the most durable stated motor lifespan and a wider deck for a taller user, yes, but if the highest weight capacity with automatic incline adjustment matters more, the 450 lb pick covers that for about $81 less." },
-  { "q": "How do I know if the WELLFIT's voice control feature works with my existing smart home setup?", "a": "Check the specific listing for named compatible voice assistants, since voice control implementations vary, and confirming compatibility with your existing smart speaker or phone assistant before purchase avoids relying on a feature that might not integrate with your setup." },
-  { "q": "Can a taller user comfortably use the standard-width picks in this tier, or is the MERACH's wider deck necessary?", "a": "A taller user can still use the standard-width picks, but the MERACH's specifically marketed 33% wider deck provides meaningfully more stride room, so if you're notably tall or have a longer natural stride, that wider deck is worth prioritizing." },
-  { "q": "Do the higher weight capacity picks in this tier require different maintenance than lighter-duty walking pads?", "a": "Not fundamentally different, though heavier daily use under higher weight loads may mean belt lubrication and inspection matter more frequently, so following the specific manufacturer's maintenance schedule for your pick is worth doing regardless of its weight rating." }
+  { "q": "Is the MERACH worth more than the 450 lb Auto Incline?", "a": "Pay up for the MERACH if you are tall and want its 41.3 inch deck, steel frame and 12 incline levels. Pick the 450 lb Auto Incline if capacity, 3-year support and an included app matter more, because it costs under $100 less." },
+  { "q": "What does 1.25 CHP actually mean?", "a": "CHP is continuous horsepower, the output a motor sustains while running for long periods. A 1.25 CHP rating is more honest than a 3.5HP peak figure, so use CHP to compare pads whenever it is listed and be wary of listings that give only peak." },
+  { "q": "Are manual incline pads worth buying at this price?", "a": "The WELLFIT offers 10% manual incline and is fine for steady walking, but you must step off to change slope. If you want to switch during a call, the 450 lb Auto Incline pad with 9 levels is the smarter pick." },
+  { "q": "How do I set up a heavy steel-frame pad?", "a": "Unbox it with a second person, place it on a flat floor with about 3 feet of clearance behind, and level the feet before use. Check that the power cable has slack and avoid placing it on thick carpet, which can overheat the motor." },
+  { "q": "How often should a 3.0HP pad be lubricated?", "a": "Follow the manual, but many pads call for treatment every few months of regular use. Wipe the deck first, then apply the recommended lubricant under the belt. A dry deck makes the motor work harder and adds noise." },
+  { "q": "Can the TOPUTURE's folding desktop hold a laptop?", "a": "It is designed to hold a laptop and small items while you walk, though an uneven surface can wobble at a faster speed. Keep walking under about 2.5 mph while typing, and use a laptop stand if the screen sits too low for your neck." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

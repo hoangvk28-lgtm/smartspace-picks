@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51N4TVdAaaL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HBWQV6ZD?tag=deskfinds0d-20",
-    "description": "Handylit pairs a 31.5 by 13 inch leather surface with 5 heat settings from 95F to 135F, a 3 hour auto shut-off, overheat protection and a digital display that lights green after each hour as a stretch reminder. The surface carries printed spreadsheet shortcuts, and the pad can serve as a hand or foot warmer.\n\nCompared with HAOCOO below, it has a wider top temperature, 135F against 131F, and a printed reference guide, but a shorter 3 hour cutoff against HAOCOO's 4. It also costs about $3 more than HAOCOO.\n\nBest for office workers who live in spreadsheets and want the widest range. The caveat is the printed pattern, which some desks will not suit.",
+    "description": "Handylit pairs a 31.5 by 13 inch leather surface with 5 heat settings from 95F to 135F, a 3 hour auto shut-off, overheat protection and a digital display that lights green after each hour as a stretch reminder. The surface carries printed spreadsheet shortcuts, and the pad can serve as a hand or foot warmer.\n\nCompared with HAOCOO below, it has a wider top temperature, 135F against 131F, and a printed reference guide, but a shorter 3 hour cutoff against HAOCOO's 4. It also costs under $10 more than HAOCOO.\n\nBest for office workers who live in spreadsheets and want the widest range. The caveat is the printed pattern, which some desks will not suit.",
     "specs": [
       "95F to 135F, 5 levels",
       "3 hour auto shut-off",
@@ -186,24 +186,24 @@ export const buyingCriteria: BuyingCriterion[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Honest sizing",
-    "description": "We compared stated dimensions and flagged picks whose real size differs from a bold title."
+    "title": "Honest sizing against the word large",
+    "description": "Most pads here are about 31.5 by 13 inches, with ChezMax at 30 by 13.5, so large here means a desk mat, not a full desktop cover. We checked listed dimensions against a standard keyboard and mouse footprint and looked at whether heat covers the full surface or only part of it."
   },
   {
-    "title": "Temperature and timer",
-    "description": "Heat range, step count, cutoff length and selectable timers were compared."
+    "title": "Temperature range and timer",
+    "description": "Handylit spans 95F to 135F across 5 levels, while HAOCOO runs 104F to 131F across 4. Timers matter just as much: LYHXLYJH lets you choose 1, 2 or 3 hours, and HAOCOO runs 4. We rewarded published numbers over vague warm and hot labels."
   },
   {
-    "title": "Displays and extras",
-    "description": "Digital displays, reminder lights, charging zones and printed guides were noted as usable extras."
+    "title": "Displays and extras that add real value",
+    "description": "A digital temperature readout, Handylit's hourly stretch reminder and ChezMax's 15W wireless charging zone were all credited, but only when the listing described them concretely. Extras that raise the price without a stated function counted for little."
   },
   {
-    "title": "Safety wording",
-    "description": "Named protections and warnings were weighed over general safety claims."
+    "title": "Safety wording and fine print",
+    "description": "Several listings carry warnings about not using the pad on glass, near liquids or folded over. We read these carefully and gave credit to pads that name overheat protection, since a forearm resting on a heated surface for hours is a bigger exposure than a heated lap blanket."
   },
   {
     "title": "Value for price",
-    "description": "Cost was compared to documented features, not brand reputation."
+    "description": "Prices run tight, with most pads under $26 and Heetz near double. We asked whether Heetz's reminder light and slim leather surface justified the gap, and found that the cheaper picks, especially Handylit and HAOCOO, match it on size and shut-off with more documented temperature detail."
   }
 ];
 
@@ -253,7 +253,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Handylit Large Heated Desk Pad with Shortcut Print"
         ],
         [
-          "About $25",
+          "Under $30",
           "ChezMax Large Heated Desk Pad with Wireless Charging"
         ],
         [
@@ -261,7 +261,7 @@ export const howToChoose: HowToChooseSection[] = [
           "LYHXLYJH Large Heated Desk Pad with 3 Hour Cutoff"
         ],
         [
-          "About $51",
+          "Under $60",
           "Heetz Large Heated Desk Pad"
         ]
       ]
@@ -330,7 +330,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You just want large and warm. HAOCOO Large Heated Desk Mat with Digital Display costs about $22 and has a 4 hour timer."
+        "text": "You just want large and warm. HAOCOO Large Heated Desk Mat with Digital Display costs under $22 and has a 4 hour timer."
       }
     ]
   }
@@ -340,27 +340,27 @@ export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
     "q": "Are large heated pads safe on glass desks?",
-    "a": "The LYHXLYJH listing advises against using its pad on fragile surfaces like glass-top desks. Heat can build up under a pad and stress glass, so use a different desk surface or check the manual."
+    "a": "Check the listing before trying. Heat on a glass top can create thermal stress, and some pads warn against it, while others, like LYHXLYJH, list a three layer insulated base that protects the desk surface. When in doubt, put a thin felt or cork mat underneath and keep the setting low."
   },
   {
     "q": "Does a large pad use more power?",
-    "a": "Wattage is not stated on these listings, so check the label. Larger pads often draw more than small ones, but they are still modest compared to a space heater."
+    "a": "Barely. These pads are low voltage and use far less than a space heater, though none of the listings here give a full wattage table. The heat is delivered to your forearms and hands, not the room, so you may still want a separate source if your whole office is cold."
   },
   {
-    "q": "Is a pad with wireless charging worth it?",
-    "a": "Only if your phone supports wireless charging and sits on the desk. A pad with a marked charging zone like ChezMax saves a cable, but a separate charger gives more flexibility."
+    "q": "Is a pad with wireless charging worth it over a plain one?",
+    "a": "Only if you charge on your desk anyway. ChezMax adds a 15W zone for compatible phones, but a charging coil next to a heating element means the phone can warm up, which phones dislike. Handylit and HAOCOO give you a similar size and temperature range for a similar price."
   },
   {
     "q": "How do I clean a large heated pad?",
-    "a": "Unplug it and wipe the leather or PU surface with a damp cloth. Never submerge or machine wash it."
+    "a": "Wipe it with a slightly damp cloth while it is unplugged and cool. Waterproof PU or leather tops on ChezMax and LYHXLYJH tolerate that, but you should never submerge a pad or let liquid run to the cord. Dry the surface completely before turning it back on."
   },
   {
     "q": "Can my mouse track on a leather surface?",
-    "a": "Most optical mice work on smooth PU, though glossy surfaces can cause hiccups. If you game, choose a pad whose listing states mouse suitability."
+    "a": "Usually yes for an optical mouse, but results vary. Glossy PU or leather can confuse a sensor that prefers a matte texture, so a pad like Heetz with a slim leather surface may need a small cloth mouse mat on top. Test before you fix the pad in place."
   },
   {
     "q": "Why are all of these about the same size?",
-    "a": "The biggest widely sold heated desk pads are around 31.5 by 13 inches, so most listings use that footprint. The bigger differences are in controls and extras."
+    "a": "Because they are built around the same 31.5 by 13 inch standard that fits a full keyboard and mouse together. ChezMax at 30 by 13.5 is the exception. If you want true desk coverage across a 55 inch or wider surface, a pad this size will cover only the front section."
   }
 ];
 

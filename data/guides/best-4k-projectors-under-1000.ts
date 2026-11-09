@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Native Resolution Verification", "description": "Confirmed genuine 4K UHD physical pixel count versus decoded 1080P panels." },
-  { "title": "Refresh Rate and Input Lag", "description": "Compared stated refresh rates and input lag figures for gaming performance." },
-  { "title": "Light Source Technology", "description": "Compared DLP lamp-based and RGB triple laser light source technologies." },
-  { "title": "Brightness and Room Suitability", "description": "Compared ANSI lumens figures and maximum projection size across the lineup." },
-  { "title": "Throw Distance Flexibility", "description": "Checked standard versus short-throw options for different room layouts." }
+  { "title": "True native 4K resolution", "description": "We separated these four from cheaper projectors by their native 3840 by 2160 resolution. Pixel-shifting designs can resolve detail close to native, but a projector listing true native 4K guarantees every pixel exists on its chip. The ViewSonic PX701-4K and BenQ TK700 both list native 4K without pixel shifting claims." },
+  { "title": "Input lag and refresh", "description": "We compared the ViewSonic PX701-4K's 4.2ms input lag at 240Hz and the BenQ TK700's 4.2ms against the XGIMI's 1ms claim. Console gamers want sub-20ms lag, so each of these clears the bar that cheaper 4K-labeled projectors miss. A 1ms figure usually comes from the maker, not from independent measurement." },
+  { "title": "Brightness for rooms", "description": "We compared 4000 ANSI on the PX749-4K, 3200 on the PX701-4K, and 1600 ISO on the XGIMI. Brighter lamps cope with ambient light, while the XGIMI's RGB triple laser favors portability and color over raw output. The BenQ TK700 lists no ANSI figure in the specs shown here." },
+  { "title": "Color accuracy", "description": "We noted the XGIMI's SGS-certified delta-E below 1. A low delta-E means colors look as the filmmaker intended, which matters more for movies than for gaming or sports. The ViewSonic and BenQ listings lean on HDR support rather than a color certificate." },
+  { "title": "Gaming support", "description": "We looked at the PX749-4K's native Xbox 1440p at 120Hz support. Console features separate gaming projectors from home theater units at the same price, so match them to your actual games. The PX701-4K and TK700 list 4.2ms lag but no console-specific resolution mode." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "These are the first projectors in the group with true native 4K, so the first table splits gamers from movie fans.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Prices sit at or just above the $1000 mark, so the budget table is about brightness against portability and color.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Room Size",
+    intro: "Portability is a second axis, because the XGIMI Elfin Flip folds away while the ViewSonic and BenQ units stay put.",
     table: {
       headers: ["Your room size", "Recommended pick"],
       rows: [
@@ -154,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest brightness with native Xbox optimization for a large theater room, where the ViewSonic PX749-4K delivers that at the top of this tier." },
-      { label: "Save if", text: "You want genuine native 4K resolution with top gaming performance at the lowest price, where the ViewSonic PX701-4K covers that for about $200 less." }
+      { label: "Save if", text: "You want genuine native 4K resolution with top gaming performance at the lowest price, where the ViewSonic PX701-4K covers that for under $250 less." }
     ],
   }
 ];
@@ -184,8 +187,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Can I tell the difference between native 4K and 1080P-with-4K-decoding on a typical home projection screen size?", "a": "Yes, especially on larger screens above 100 inches or when viewing genuinely 4K-mastered content up close, native 4K resolution shows meaningfully more fine detail and sharper text than a 1080P panel processing the same 4K source, though the difference is less noticeable on smaller screens or at greater viewing distances." },
-  { "q": "What's the most common mistake buyers make when choosing between DLP lamp-based and laser light source projectors at this tier?", "a": "Assuming laser is always the better choice for image quality, when DLP lamp-based projectors like the ViewSonic picks in this comparison deliver higher stated brightness and established gaming performance, making the choice more about your specific priorities (brightness and gaming versus color accuracy and portability) than one technology being universally superior." },
-  { "q": "Is the ViewSonic PX749-4K worth it over the cheaper PX701-4K option?", "a": "If you specifically want native Xbox 1440p at 120Hz support with the highest 4000 ANSI lumens brightness for a large theater room, yes, but if genuine native 4K with strong general gaming performance at a lower price matters more, the PX701-4K covers that for about $200 less." },
+  { "q": "Is native 4K noticeably sharper than 4K decoding?", "a": "On a large screen, yes. Native 4K projectors like the ViewSonic PX701-4K draw 3840 by 2160 pixels, while the budget 4K decoding models draw about 1920 by 1080. At a typical 100 inch size you will see finer detail on text and fine textures." },
+  { "q": "Is the ViewSonic PX749-4K worth it over the cheaper PX701-4K option?", "a": "If you specifically want native Xbox 1440p at 120Hz support with the highest 4000 ANSI lumens brightness for a large theater room, yes, but if genuine native 4K with strong general gaming performance at a lower price matters more, the PX701-4K covers that for under $250 less." },
   { "q": "How do I know if my room's throw distance works with the BenQ TK700's standard configuration versus needing the short-throw variant?", "a": "Measure the actual distance from your intended projector placement to your screen or wall, and compare it against the standard TK700's 8.2 feet for a 100 inch image versus the TK700STi short-throw variant's 6.5 feet requirement for the same size image." },
   { "q": "Can the XGIMI Elfin Flip 4K's portable design still deliver the same picture quality as the fixed DLP projectors in this comparison?", "a": "Yes, its native 4K UHD resolution and SGS-certified color accuracy match or exceed the color precision of the DLP alternatives, though its stated 1600 ISO lumens brightness is lower than the ViewSonic picks' ANSI lumens figures, making it better suited to darker rooms or evening use." },
   { "q": "Do these true native 4K projectors require a more powerful source device to actually output 4K content?", "a": "Your source device (streaming box, gaming console, or computer) needs to support 4K output for you to see the full benefit of these projectors' native 4K resolution, so confirming your specific streaming devices or consoles output genuine 4K signals is worth checking before assuming automatic 4K playback from any connected source." }

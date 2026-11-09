@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "2.5GbE Requirements", "description": "Compared whether 2.5GbE requires Thunderbolt specifically or works over standard USB-C." },
-  { "title": "Cross-Platform Compatibility", "description": "Compared confirmed Mac compatibility against Windows/ChromeOS-only designs." },
-  { "title": "Built-in Storage or Display Capability", "description": "Compared docks offering integrated NVMe storage or premium multi-display support." },
-  { "title": "Power Delivery Transparency", "description": "Compared how clearly each listing discloses actual power allocation and reserved wattage." },
-  { "title": "Price Relative to Feature Set", "description": "Compared price against genuine networking, storage, and display capabilities." }
+  {
+    "title": "Ethernet speed in the spec line",
+    "description": "We confirmed 2.5GBASE-T on each listing, since a 2.5GbE dock still needs a 2.5G switch or router to deliver it. The StarTech hub lists 10/100/1000/2500Mbps, while another listing's 2.5GbE needs a USB-C host plus a compatible device. Buyers on a gigabit router gain nothing from this port, so we noted that dependency on every pick."
+  },
+  {
+    "title": "Operating system compatibility",
+    "description": "The StarTech USB4 driverless dock is Windows and ChromeOS only, not macOS. We marked this heavily because a Mac buyer would lose the video outputs, even though the Ethernet may still work. That rule saved the StarTech USB4 a recommendation to Mac buyers, where it would have been a mismatch."
+  },
+  {
+    "title": "Display bandwidth at this tier",
+    "description": "We compared triple 4K 60Hz native video on the StarTech USB4 against single 8K or dual 4K on the 21-in-1, and 8K at 240Hz on the Sonnet Echo 13. The price swing from under $75 to over $400 follows this spec. A Mac with a base chip also caps external displays, so the 21-in-1's 8K claim needs your host checked."
+  },
+  {
+    "title": "Network management features",
+    "description": "StarTech lists PXE boot, Wake-on-LAN, USB event monitoring and MAC address cloning. For IT-managed desks these matter more than raw speed, and we credited them accordingly. Those features only show up in business deployments, but they separate a managed desk dock from a consumer hub."
+  },
+  {
+    "title": "Charging overhead",
+    "description": "The hub reserves 15W of its 100W pass-through for stability, so the laptop sees less than 100W. The 21-in-1 lists 90W charging. We favored listings that state this plainly. A laptop pulling 100W under load can see slower charging through the hub, which matters on thin chargers."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Triple 4K display support with 2.5GbE for IT deployments", "StarTech USB4 Driverless Dock"],
-        ["Confirmed Mac compatibility with genuine 2.5GbE", "40Gbps MacBook Docking Station, 21-in-1"],
-        ["A compact, budget-friendly 2.5GbE hub with IT tools", "StarTech 3-Port USB-C Hub"],
-        ["Built-in ultra-fast NVMe storage plus 2.5GbE", "Sonnet Echo 13 Thunderbolt 5 SSD Dock"]
+    "subheading": "By Operating System",
+    "intro": "The OS decides which of these docks even works.",
+    "table": {
+      "headers": [
+        "Your system",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Windows or ChromeOS laptop with three monitors",
+          "StarTech USB4 Driverless Dock, Triple 4K 60Hz with 2.5GbE"
+        ],
+        [
+          "MacBook needing 2.5GbE and many ports",
+          "40Gbps MacBook Docking Station, 21-in-1 with 2.5GbE"
+        ],
+        [
+          "Any laptop needing only Ethernet and USB hubbing",
+          "StarTech 3-Port USB-C Hub with 2.5GbE, which adds the network port cheaply"
+        ],
+        [
+          "Thunderbolt 5 MacBook with fast storage",
+          "Sonnet Echo 13 Thunderbolt 5 SSD Dock, with 4 Thunderbolt 5 ports"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $75", "StarTech 3-Port USB-C Hub (under $80)"],
-        ["Under $120", "40Gbps MacBook Docking Station (under $120)"],
-        ["Under $180", "StarTech USB4 Driverless Dock (under $180)"],
-        ["Under $450", "Sonnet Echo 13 SSD Dock (under $450)"]
+    "subheading": "By Budget",
+    "intro": "Prices run from under $75 to over $400.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Under $75",
+          "StarTech 3-Port USB-C Hub with 2.5GbE, for adding 2.5G Ethernet and passthrough charging"
+        ],
+        [
+          "Under $125",
+          "40Gbps MacBook Docking Station, 21-in-1, with 2x 40Gbps ports and HDMI"
+        ],
+        [
+          "Under $200",
+          "StarTech USB4 Driverless Dock, with triple 4K 60Hz native video and PXE boot"
+        ],
+        [
+          "Under $450",
+          "Sonnet Echo 13 Thunderbolt 5 SSD Dock, with a Kingston NVMe SSD at up to 6600 MB/s"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Compact Networking Hub vs Full-Featured Dock",
-    cards: [
-      { label: "Compact networking hub (StarTech 3-Port)", text: "Adds 2.5GbE and basic USB-C connectivity in a small, affordable package without display or storage features." },
-      { label: "Full-featured dock (StarTech Triple 4K, MacBook Dock, Sonnet Echo 13)", text: "Combines 2.5GbE with substantial display support and, in some cases, built-in storage for a complete workstation solution." }
+    "subheading": "Hub vs Full Dock",
+    "intro": "How much you need beyond Ethernet decides the class.",
+    "cards": [
+      {
+        "label": "Hub",
+        "text": "The StarTech 3-Port hub adds 2.5GbE, USB and 100W pass-through in a small body, with 15W reserved for stability."
+      },
+      {
+        "label": "Full dock",
+        "text": "The StarTech USB4, 21-in-1 and Sonnet Echo 13 add display outputs, many ports and 40Gbps or TB5 links."
+      }
     ],
-    note: "If you just need to add fast Ethernet to a MacBook or tablet without display needs, the compact StarTech hub covers that efficiently. If you're building a complete multi-display workstation, one of the full-featured docks is worth the investment.",
+    "note": "Pick the hub if you only want faster wired internet, and a full dock if you also need displays."
   },
   {
-    subheading: "By Platform",
-    table: {
-      headers: ["Your platform", "Recommended pick"],
-      rows: [
-        ["Windows or ChromeOS only", "StarTech USB4 Driverless Dock"],
-        ["Mac (M3/M4) or mixed Mac/Windows", "40Gbps MacBook Docking Station or Sonnet Echo 13"]
+    "subheading": "By Management Needs",
+    "intro": "IT-managed desks care about features beyond speed.",
+    "table": {
+      "headers": [
+        "You need",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "PXE boot and Wake-on-LAN",
+          "StarTech USB4 Driverless Dock, with both listed"
+        ],
+        [
+          "USB event monitoring and MAC address cloning",
+          "StarTech 3-Port USB-C Hub, which lists both"
+        ],
+        [
+          "Fast local storage plus network",
+          "Sonnet Echo 13 SSD Dock, with a built-in NVMe SSD"
+        ],
+        [
+          "Pure port count at a low cost",
+          "40Gbps MacBook Docking Station 21-in-1, with a broad port list"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For NAS-Connected Home or Studio Networks Specifically",
-    cards: [
-      { label: "Look for", text: "A dock that specifically discloses its 2.5GbE requirements (host connection type and network device compatibility), so you can confirm your router or NAS will actually deliver the full 2.5Gbps speed." },
-      { label: "In this comparison", text: "The 40Gbps MacBook Docking Station specifically discloses that 2.5GbE performance requires both a USB-C host connection and a 2.5GbE-compatible device on the network side." }
-    ],
+    "subheading": "For a Home Network Upgrade Specifically",
+    "intro": "2.5G only matters with a matching network.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A 2.5GBASE-T port that lists 10/100/1000/2500Mbps negotiation, and confirm your router or switch supports 2.5G."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The StarTech 3-Port Hub lists 10/100/1000/2500Mbps and costs under $75, the cheapest way to add 2.5GbE here."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want built-in ultra-fast NVMe storage combined with 2.5GbE and premium multi-display support, where the Sonnet Echo 13 justifies its under $450 price." },
-      { label: "Save if", text: "You just need to add 2.5GbE networking to a laptop or tablet without display needs, where the StarTech 3-Port Hub delivers that for under $80." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The Sonnet Echo 13 is the premium pick.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a built-in SSD and Thunderbolt 5. The Sonnet Echo 13 over $400 adds both; compare the 10GbE guide for faster network ports."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need 2.5GbE. The StarTech hub under $75 or the 21-in-1 under $125 do that for much less."
+      }
+    ]
   }
 ];
 
@@ -182,12 +268,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will I actually get 2.5Gbps speeds from these docks on my home network?", "a": "Only if your router, switch, or NAS also specifically supports 2.5GbE or higher, since the MacBook Docking Station's listing specifically confirms 2.5GbE performance requires a compatible device on both ends of the connection, not just the dock itself." },
-  { "q": "What's the most common mistake buyers make when choosing a USB4 dock with 2.5GbE?", "a": "Assuming any dock with a 2.5GbE port will deliver 2.5Gbps speeds on their existing network, without checking whether their router or NAS is also 2.5GbE-capable, resulting in speeds no faster than standard Gigabit Ethernet despite the dock's own capability." },
-  { "q": "Is the Sonnet Echo 13 worth its significant price premium over the StarTech 3-Port Hub for basic networking needs?", "a": "If you only need to add fast Ethernet to a laptop without display or storage needs, the StarTech 3-Port Hub's much lower price covers that efficiently, but if you want built-in ultra-fast NVMe storage alongside premium multi-display support, the Sonnet Echo 13's price reflects that substantially more capable feature set." },
-  { "q": "Will the StarTech USB4 Driverless Dock work with my MacBook?", "a": "No, the listing explicitly states this dock is not compatible with macOS, so MacBook users specifically needing 2.5GbE should choose the MacBook Docking Station or Sonnet Echo 13 pick instead." },
-  { "q": "Can I use the StarTech 3-Port Hub with an iPad Pro?", "a": "Yes, the listing specifically mentions this hub is designed for devices like iPad Air and iPad Pro that lack built-in USB-A or Ethernet ports, providing 2.5GbE networking and charging pass-through for these tablets." },
-  { "q": "Do I need a separate power adapter for the MacBook Docking Station's full charging capability?", "a": "The listing specifically states the docking station supports 90W charging compatible with Thunderbolt or USB-C host devices, so checking whether a compatible power adapter is included in the specific package you purchase is worth doing before assuming full charging capability out of the box." }
+  {
+    "q": "Do I need a 2.5G router for a 2.5GbE dock to help?",
+    "a": "Yes. The dock negotiates down to the speed of the other end, so a gigabit router limits you to 1Gbps. You need a 2.5G switch or router, plus Cat5e or better cable, to see the benefit. Check the label on your router before ordering."
+  },
+  {
+    "q": "Does the StarTech USB4 dock work on a MacBook?",
+    "a": "No. The listing says it is Windows and ChromeOS only, not macOS, because it relies on native Windows support. Mac buyers should look at the 21-in-1 or the Sonnet Echo 13. Mac buyers should rule it out early."
+  },
+  {
+    "q": "Is the Sonnet Echo 13 worth over the cheaper docks?",
+    "a": "Only if you want built-in SSD storage. The Echo 13 includes a Kingston PCIe 4.0 NVMe SSD at up to 6600MB/s and four Thunderbolt 5 ports, at over $400, while the StarTech hub under $75 is just a 2.5GbE hub."
+  },
+  {
+    "q": "How do I enable PXE boot or Wake-on-LAN on the StarTech dock?",
+    "a": "Both are enabled in the laptop's BIOS or UEFI network settings, and the StarTech docks list the features as supported. IT teams usually configure them in a management tool, so check with your administrator first. Ask IT first, since settings are managed centrally."
+  },
+  {
+    "q": "Why does my laptop charge slowly through the 3-port hub?",
+    "a": "The StarTech hub reserves 15W of its 100W pass-through for its own stability, so your laptop gets roughly 85W. A laptop needing 100W may charge slowly under load, so plug in the original charger if so. Plug in the original charger if so."
+  },
+  {
+    "q": "Can I run an 8K display from the 21-in-1 dock?",
+    "a": "The listing says single 8K or dual 4K across its 2x 40Gbps ports plus HDMI, but 8K requires a host and cable that carry it. Verify your laptop's display output before relying on the 8K claim."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

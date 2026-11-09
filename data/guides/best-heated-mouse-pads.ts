@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41X4MKcX1YL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H9RGJ3Q2?tag=deskfinds0d-20",
-    "description": "Nauttxon wraps your hand with heat from both below and above through a curtain-style cover. It offers 3 heat settings, 2, 4 or 8 hour timers and runs on 10W USB, measuring 10.2 by 8.1 by 4.5 inches with a waterproof faux leather surface.\n\nCompared with Flyyears below, it surrounds the hand instead of just warming from beneath, and the curtain is meant to block drafts. It costs about $8 more than Flyyears and, per the listing, needs a 5V 2A source: it is not suitable for computer USB ports.\n\nBest for someone whose hand gets cold from AC vents. The caveat is the charger requirement, so plan on a wall adapter, and the highest setting carries a caution in the listing.",
+    "description": "Nauttxon wraps your hand with heat from both below and above through a curtain-style cover. It offers 3 heat settings, 2, 4 or 8 hour timers and runs on 10W USB, measuring 10.2 by 8.1 by 4.5 inches with a waterproof faux leather surface.\n\nCompared with Flyyears below, it surrounds the hand instead of just warming from beneath, and the curtain is meant to block drafts. It costs under $10 more than Flyyears and, per the listing, needs a 5V 2A source: it is not suitable for computer USB ports.\n\nBest for someone whose hand gets cold from AC vents. The caveat is the charger requirement, so plan on a wall adapter, and the highest setting carries a caution in the listing.",
     "specs": [
       "Double-sided heating, 10W USB",
       "3 heat levels, 2/4/8 hour timer",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/511rTIc+DvL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D5V2F493?tag=deskfinds0d-20",
-    "description": "SooQi is a heated wrist rest rather than a flat pad, with 3 modes of Gentle (98F to 104F), Comfort (104F to 111F) and Blaze (111F to 118F). One side is cotton filled and warm, the other is bead filled with a cooling cover, and the cover is removable and machine washable.\n\nIt is the gentlest heater in the guide, with a top of 118F compared with 145F on IriQuart. It also costs about $4 more than Flyyears and comes with a power adapter the listing calls UL certified.\n\nBest for someone who wants wrist cushioning with mild warmth. The caveat is that it warms the wrist, not the whole hand, and the listing's pain claims should be treated as marketing.",
+    "description": "SooQi is a heated wrist rest rather than a flat pad, with 3 modes of Gentle (98F to 104F), Comfort (104F to 111F) and Blaze (111F to 118F). One side is cotton filled and warm, the other is bead filled with a cooling cover, and the cover is removable and machine washable.\n\nIt is the gentlest heater in the guide, with a top of 118F compared with 145F on IriQuart. It also costs under $10 more than Flyyears and comes with a power adapter the listing calls UL certified.\n\nBest for someone who wants wrist cushioning with mild warmth. The caveat is that it warms the wrist, not the whole hand, and the listing's pain claims should be treated as marketing.",
     "specs": [
       "98F to 118F, 3 modes",
       "Dual-sided, washable cover",
@@ -191,51 +191,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "USB power versus wall adapter",
-    "explanation": "Most heated mouse pads draw around 10W, which is 5V at 2A, while some computer ports supply much less. On a weak laptop port, a pad may run lukewarm or heat slowly. Check the listing for its required amps, and if it says not suitable for computer USB ports, as Nauttxon does, plan on a wall charger."
+    "explanation": "Many heated mouse pads draw 5V from USB, but a laptop port may not supply enough current to heat well. The Nauttxon lists 10W and needs a 5V 2A adapter, not a computer port, while the IriQuart and Flyyears work from a laptop or bank. Check the wattage and the adapter in the listing, and use a wall charger when it is recommended."
   },
   {
     "criterion": "Temperature steps in degrees",
-    "explanation": "A pad that lists 110F, 130F and 145F tells you far more than 'low, medium, high'. On a small pad, heat concentrates in the palm, so the highest step may feel hot after an hour. Pick the model whose middle step you would be happy with all afternoon, and prefer listings that publish degrees."
+    "explanation": "A pad that lists 110F, 130F and 145F, like the IriQuart and HRZOUKP, tells you what each level feels like, while SooQi's 98F to 118F is gentle. A 145F top step is warm enough to be uncomfortable for hours. Look for degrees in the listing, and start on the lowest step, because a pad with only low, medium and high gives no way to compare."
   },
   {
     "criterion": "Timer length stated clearly",
-    "explanation": "Several pads offer 2, 4 or 8 hour timers, but others say only 'timer function'. An unstated timer means you cannot be sure the pad turns off when you leave for lunch. Look for the hour options in the bullets and avoid the 8 hour setting unless you will be at the desk."
+    "explanation": "A 2, 4 or 8 hour timer prevents the pad running overnight, and the Nauttxon, Flyyears and IriQuart list those. The HRZOUKP lists a timer but not the hours. Look for a stated shutoff time, and avoid pads that give none."
   },
   {
     "criterion": "Wrist support and surface feel",
-    "explanation": "A wrist rest changes your hand angle, and plush fleece feels warmer than faux leather but is harder to wipe clean. Wrist support helps on long sessions, while a flat pad suits low-profile mice. Check for the words wrist rest or support and for whether the cover is removable and washable."
+    "explanation": "A built-in wrist rest, such as the Flyyears or HRZOUKP, raises your wrist but may change your mouse height, while a flat pad keeps it low. A plush surface feels soft but is harder to wipe, while faux leather is easy to clean. Choose by how you rest your hand, and check the thickness, because a thick pad can raise your wrist above a comfortable angle."
   },
   {
     "criterion": "Pad versus enclosed heater",
-    "explanation": "A pad warms from below, a double-sided pad warms above and below, and a mini heater surrounds your hand with warm air. Enclosed designs feel warmer but cost more, and a heater may fall under office or dorm appliance rules. Decide what level of coverage you need before choosing."
-  },
-  {
-    "criterion": "Comfort product, not medical device",
-    "explanation": "Listings often mention Raynaud's, circulation or pain relief, but these are comfort products and not medical devices. If you have reduced sensation in your hand, you may not feel a surface getting too warm, so ask a doctor first. Choose lower settings and a timer."
+    "explanation": "A pad heats the palm from below, while the NIFBANG enclosed ceramic heater warms the hand from all sides, but it is not a mouse surface. The Nauttxon is dual-sided with a curtain against drafts. Decide whether you want a mouse surface or a hand warmer, since an enclosed heater costs more and takes more desk space."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
+    "title": "Heat range and clarity",
+    "description": "We compared stated levels of heat: the IriQuart and HRZOUKP's 110F, 130F and 145F, the SooQi's 98F to 118F, and the NIFBANG's 100F, 120F and 140F. Gentle starts counted for comfort, while a 145F top step earned a note for long sessions, since a palm resting on a hot surface can feel it within minutes. Listings that gave no degrees were scored as unknown."
+  },
+  {
     "title": "Power requirements",
-    "description": "We compared stated USB needs and flagged pads that do not suit computer ports."
+    "description": "A heated pad draws more than a typical USB device, so a weak laptop port may heat only slowly or switch the pad off. We noted the Nauttxon needs a 5V 2A adapter and warns against computer USB ports, while the Flyyears and IriQuart work from a laptop, bank or adapter."
   },
   {
-    "title": "Heat clarity",
-    "description": "Listed temperatures and level counts were weighed above vague 'warm' claims."
+    "title": "Timers and safety",
+    "description": "We credited 2, 4 and 8 hour timers on the Nauttxon, Flyyears and IriQuart, the NIFBANG's tip-over shut-off and flame retardant casing, and the SooQi's UL certified adapter per its listing, and marked down the HRZOUKP's missing timer hours, because a timer without hours cannot be planned around."
   },
   {
-    "title": "Timer and safety",
-    "description": "Auto shut-off lengths, tip-over protection and adapter claims were checked on the page."
+    "title": "Comfort and surface",
+    "description": "We compared the Nauttxon's waterproof faux leather and dual-sided heating, the Flyyears' wrist rest, the HRZOUKP's plush surface, and the SooQi's washable cover and cooling bead side, which suits a summer desk as well as a winter one, and judged how easy each wipes clean."
   },
   {
-    "title": "Comfort and support",
-    "description": "Wrist rest design, cover material and washability were considered."
-  },
-  {
-    "title": "Value for price",
-    "description": "Cost was compared with documented features and power flexibility."
+    "title": "Realistic expectations",
+    "description": "A heated mouse pad warms a hand, not a medical treatment. We flagged the SooQi's pain claims as marketing, and noted the NIFBANG is a heater rather than a pad, which suits some hands better, especially anyone whose fingers rather than the palm get cold."
   }
 ];
 
@@ -297,7 +293,7 @@ export const howToChoose: HowToChooseSection[] = [
           "SooQi USB Heated Wrist Rest for Mouse"
         ],
         [
-          "Around $40",
+          "Under $50",
           "NIFBANG Ceramic Desk Hand Warmer"
         ]
       ]
@@ -371,28 +367,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can a laptop USB port power a heated mouse pad?",
-    "a": "Some can, but many pads need about 5V and 2A, and the Nauttxon listing says it is not suitable for computer ports. A wall adapter is the safer choice."
+    "q": "Can I power a heated mouse pad from my laptop USB port?",
+    "a": "Sometimes. The Flyyears and IriQuart list laptop or bank power, but the Nauttxon needs a 5V 2A adapter and warns against computer ports. A weak port may heat slowly or not at all, so check the listing and use a wall adapter when advised."
   },
   {
-    "q": "Is it safe to leave one on all day?",
-    "a": "Choose a pad with a 2 or 4 hour timer and avoid the 8 hour setting unless you are at the desk. Unplug it when you leave."
+    "q": "How hot do heated mouse pads get?",
+    "a": "The IriQuart and HRZOUKP list 110F, 130F and 145F, the SooQi 98F to 118F, and the NIFBANG 100F to 140F. Start on the lowest step, since a palm resting on 145F for hours may feel hot."
   },
   {
-    "q": "Is a wrist rest style worth it over a flat pad?",
-    "a": "If you use a mouse for hours, wrist support helps hand angle. Flat pads suit low-profile mice and keep your wrist level with the desk."
+    "q": "Is the Nauttxon worth more than the HRZOUKP?",
+    "a": "If you want heat above and below your hand, yes. The Nauttxon is double-sided with a draft curtain and a 2, 4 or 8 hour timer, while the HRZOUKP is cheapest with wrist support and three temperatures but no stated timer hours."
   },
   {
-    "q": "How do I clean a plush heated pad?",
-    "a": "Follow the listing. SooQi has a removable washable cover, while plush pads like HRZOUKP are usually spot cleaned. Never soak the heating element."
+    "q": "Will a heated pad work with my mouse?",
+    "a": "Mostly. A smooth faux leather surface, like the Nauttxon's, is fine for optical mice, but a plush surface may reduce tracking. Test with your mouse, and keep a regular pad if the cursor skips."
   },
   {
-    "q": "Are these medical devices for Raynaud's?",
-    "a": "No. Listings may mention Raynaud's, but these are comfort products. Ask a doctor about any condition, and use low settings if you have reduced sensation."
+    "q": "Is a heated wrist rest good for pain?",
+    "a": "It may feel comfortable, but it is not a medical device. The SooQi's pain claims are marketing, and if you have wrist pain or numbness you should see a doctor. Use gentle heat, and take regular breaks."
   },
   {
-    "q": "Will a mini heater be allowed at my workplace?",
-    "a": "A mini heater like NIFBANG is a space heater under some office or dorm rules, even a small one. A USB pad is usually less controversial, but check your policy."
+    "q": "How do I clean a heated mouse pad?",
+    "a": "Unplug it and wipe faux leather with a damp cloth. The SooQi has a washable cover, but the heating element should never be soaked. Plush surfaces need gentle brushing, and everything must be fully dry before use."
   }
 ];
 

@@ -84,70 +84,151 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Power Source Flexibility", "description": "Compared whether each extender supports only PoE input or can adapt to multiple power source types." },
-  { "title": "Per-Port Wattage Budget", "description": "Compared how total input power is shared or allocated across the 2 PoE output ports." },
-  { "title": "Warranty and Support Commitment", "description": "Compared warranty length and stated ongoing technical support." },
-  { "title": "Network Security Features", "description": "Compared VLAN isolation and port isolation options for improved network security." },
-  { "title": "Build Quality for the Installation Context", "description": "Compared casing materials and design suited to small business versus basic home use." }
+  {
+    "title": "Output count vs shared wattage",
+    "description": "A 3-port extender usually has one uplink and two PoE outputs, so the shared budget decides what it can run. The BV-Tech lists a 30W shared budget and the Ztyuav 24W max output. We scored how clearly each listing disclosed that gap instead of promising three powered devices."
+  },
+  {
+    "title": "Gigabit and switching behavior",
+    "description": "We checked whether each unit holds full Gigabit and how it behaves as a switch. The MokerLink lists 12Gbps switching with auto-adaptive Gigabit, and the Ztyuav offers a dipswitch VLAN mode. Features that isolate a port got credit only when the listing explained the use."
+  },
+  {
+    "title": "Cascade and reach",
+    "description": "We compared stated cascade support: NICGIGA lists 2-3 units, and the BV-Tech maintains Gigabit at a 100m hop. At this port count a second extender is common, so the chain limit was weighted over peak speed, and any claim without a stated power at the far end was discounted."
+  },
+  {
+    "title": "Fault visibility",
+    "description": "We looked for status LEDs, port isolation diagnostics, and any auto-detect. The Ztyuav has LED port indicators and the MokerLink has isolation diagnostics, both of which cut the guesswork when a camera goes dark at night and you are standing on a ladder trying to work out which port failed."
+  },
+  {
+    "title": "Return and support terms",
+    "description": "We compared the written policies. NICGIGA lists a 1-year warranty, lifetime support, and a 30-day return, which counted for a lot on a mid-run box that is hard to swap once mounted. Written terms beat vague promises of good service every time we compared them."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The strongest warranty and support commitment", "NICGIGA 1 in 3 Out Gigabit PoE Extender"],
-        ["A small business deployment with dedicated uplink", "BV-Tech 3-Port PoE Extender"],
-        ["Flexibility to adapt between extender and switch roles", "MokerLink 3 Ports Gigabit PoE Passthrough Switch"],
-        ["The lowest price with optional VLAN isolation", "Ztyuav 3 Port Gigabit PoE Extender"]
+    "subheading": "By Use Case",
+    "intro": "The third port changes how you connect devices, so start from the layout you need.",
+    "table": {
+      "headers": [
+        "Your layout",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Two cameras plus a local laptop jack at the far end",
+          "NICGIGA 1 in 3 Out, which pairs two PoE ports with a data port"
+        ],
+        [
+          "A far-end shed with two cameras and a shared 30W budget",
+          "BV-Tech 3-Port, which keeps Gigabit across a 100m hop"
+        ],
+        [
+          "A flexible switch that can also act as a plain extender",
+          "MokerLink 3 Ports Passthrough Switch, with three-in-one modes"
+        ],
+        [
+          "Separating camera traffic from the main network on a budget",
+          "Ztyuav 3 Port, using the dipswitch VLAN mode"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $14", "Ztyuav 3 Port Gigabit PoE Extender (under $15)"],
-        ["Under $22", "BV-Tech 3-Port PoE Extender (under $25)"],
-        ["Under $27", "NICGIGA 1 in 3 Out Extender (under $30)"],
-        ["Under $30", "MokerLink 3 Ports Passthrough Switch (under $30)"]
+    "subheading": "By Budget",
+    "intro": "Prices cluster under $30, so features decide.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $15",
+          "Ztyuav 3 Port, the cheapest of the four with an LED status display"
+        ],
+        [
+          "Under $25",
+          "BV-Tech 3-Port, with a stated 30W shared budget"
+        ],
+        [
+          "Under $30",
+          "NICGIGA 1 in 3 Out, which adds lifetime support and a 30-day return"
+        ],
+        [
+          "Just under $30",
+          "MokerLink 3 Ports Passthrough Switch, the most flexible of the four"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Single-Purpose Extension vs Multi-Mode Flexibility",
-    cards: [
-      { label: "Single-purpose extension (NICGIGA, BV-Tech, Ztyuav)", text: "All three are purpose-built PoE extenders that draw power exclusively from the upstream PoE source, simple and predictable for a straightforward extension need." },
-      { label: "Multi-mode flexibility (MokerLink)", text: "This pick genuinely functions as a PoE extender, network extender, or PoE switch depending on the power source connected, adaptable if your network needs might change over time." }
+    "subheading": "Extender Mode vs Switch Mode",
+    "intro": "The three-in-one MokerLink makes this choice explicit, but it applies to all.",
+    "cards": [
+      {
+        "label": "Extender mode",
+        "text": "This relays the upstream link and power to downstream devices over a long hop. It is the right mode for the NICGIGA and BV-Tech, where the whole point is distance."
+      },
+      {
+        "label": "Switch mode",
+        "text": "The MokerLink 3 Ports can act as a normal PoE switch when the run is short. It also helps to isolate ports so a flaky camera does not take down the other one."
+      }
     ],
-    note: "If you have a straightforward, unchanging PoE extension need, the simpler single-purpose picks are more cost-effective. If you want one device that can adapt as your network setup evolves, the MokerLink's genuine multi-mode flexibility is worth its slightly higher price.",
+    "note": "If you only need distance, any of the four works; if you want one box that might later become a switch, the MokerLink is the safer buy."
   },
   {
-    subheading: "By Warranty and Support Need",
-    table: {
-      headers: ["Your support preference", "Recommended pick"],
-      rows: [
-        ["Longest stated warranty and lifetime support", "NICGIGA 1 in 3 Out Gigabit PoE Extender"],
-        ["Comfortable without an extended warranty commitment", "BV-Tech or Ztyuav picks"],
-        ["Business deployment wanting documented reliability", "NICGIGA 1 in 3 Out Gigabit PoE Extender"]
+    "subheading": "By Shared Budget",
+    "intro": "A 30W input feeds the extender and both outputs, so the headroom is smaller than a 3-port label suggests.",
+    "table": {
+      "headers": [
+        "Your loads",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Two cameras drawing 8W to 10W each",
+          "BV-Tech 3-Port, as its 30W shared budget covers two modest loads"
+        ],
+        [
+          "One camera at 12W and one low-draw sensor",
+          "Ztyuav 3 Port, at 24W max output"
+        ],
+        [
+          "A single heavier device and a spare port",
+          "NICGIGA 1 in 3 Out, which runs two PoE devices on its listed power"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Basic Two-Camera Home Setup Specifically",
-    cards: [
-      { label: "Look for", text: "A straightforward 1-in-2-out extender at the lowest price, since a basic home camera setup typically doesn't need multi-mode flexibility or business-oriented uplink architecture." },
-      { label: "In this comparison", text: "The Ztyuav pick's low price and optional VLAN toggle make it a strong, uncomplicated fit for a basic two-camera home installation." }
-    ],
+    "subheading": "For a Backyard Office Run Specifically",
+    "intro": "A backyard office usually needs a camera outside and an AP inside the shed.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Two PoE outputs with a clear total budget, plus a Gigabit uplink for the AP. Outdoor protection matters if the unit lives on the wall."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The BV-Tech pairs Gigabit with two PoE ports for a camera and AP, and the NICGIGA adds lifetime support for a hard-to-reach mount."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want genuine flexibility to adapt the device between PoE extension, network extension, and PoE switch roles, where the MokerLink's under $30 price is justified by that versatility." },
-      { label: "Save if", text: "You have a simple, unchanging two-device PoE extension need, where the Ztyuav pick delivers that for under $15, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "None of these exceeds 30W, so spending more buys features, not power.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want port isolation and switching modes. The MokerLink 3 Ports costs the most here and is the only one with diagnostics; the 4-port guide offers more ports."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need distance. The NICGIGA and Ztyuav extend a Gigabit link with the least spend."
+      }
+    ]
   }
 ];
 
@@ -175,12 +256,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can a 3-port PoE extender really function as three different devices depending on the power source?", "a": "The MokerLink pick specifically confirms this three-in-one design, functioning as a PoE extender, network extender, or PoE switch depending on whether you supply PoE input, DC 12V, or DC 37-57V power, so checking the specific power requirement for the mode you need is important before purchase." },
-  { "q": "What's the most common mistake buyers make when choosing a 3-port PoE extender?", "a": "Assuming each PoE output port independently supports its full rated wattage simultaneously, when several 3-port extenders specifically share a single total power budget across both output ports combined." },
-  { "q": "Is the MokerLink extender worth the higher price over the Ztyuav pick?", "a": "If you specifically want the flexibility to adapt the device between PoE extension, network extension, and PoE switch roles, the MokerLink's higher price is justified, but for a simple, unchanging two-device extension need, the Ztyuav pick's much lower price is likely the better fit." },
-  { "q": "Do I need the BV-Tech's dedicated uplink port for a home installation?", "a": "The dedicated uplink port architecture is specifically designed for small business network topology, so for a simple home installation, a straightforward 1-in-2-out extender like the NICGIGA or Ztyuav picks may be a more appropriately matched and simpler choice." },
-  { "q": "Does the VLAN isolation feature on the Ztyuav pick need to be enabled by default?", "a": "No, the One Key VLAN mode is specifically controlled by a dipswitch, letting you enable or disable port isolation as needed rather than forcing it as an always-on or always-off default setting." },
-  { "q": "Can I power two devices with different wattage needs from the same 3-port extender?", "a": "Yes, but you should check whether the extender's power budget is shared or independent per port; the BV-Tech pick specifically shares a 30W total budget across both PoE ports, so the combined draw of your two devices needs to stay within that shared limit." }
+  {
+    "q": "Does a 3-port PoE extender really power three devices?",
+    "a": "Usually it powers two. The BV-Tech lists one uplink plus two PoE ports, and NICGIGA's 1 in 3 out powers two PoE devices. The third port is typically data only, so count PoE outputs rather than the port total on the box."
+  },
+  {
+    "q": "What mistake do buyers make with 30W extenders?",
+    "a": "They split 30W evenly and assume two 15W cameras are fine. The extender itself uses some power, and the Ztyuav lists 24W max output, so two cameras near 12W each leave very little headroom for infrared at night."
+  },
+  {
+    "q": "Is the MokerLink worth more than the NICGIGA?",
+    "a": "If you want switch mode, port isolation, and 12Gbps switching, yes. The NICGIGA wins on cost and support terms, but it is only an extender. A simple camera and AP run rarely needs the extra features."
+  },
+  {
+    "q": "How do I set up the Ztyuav's VLAN mode?",
+    "a": "Flip the dipswitch on the unit to enable its One Key VLAN mode, which separates the downstream ports from each other. Confirm each port's LED lights before mounting, and note the setting on a label, since the switch is easy to forget later."
+  },
+  {
+    "q": "Can I cascade two 3-port extenders?",
+    "a": "NICGIGA lists 2-3 unit cascade support. Each hop uses part of the input power, so a second unit leaves less for the far devices. Plan the last unit's loads at no more than the lowest budget in the chain."
+  },
+  {
+    "q": "Why does my camera reboot at night on an extender?",
+    "a": "Infrared illuminators raise power draw after dark. A 30W shared budget can dip, so cameras that look fine in daylight reboot at night. Check the camera's maximum draw with IR on, and size the extender for that number."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

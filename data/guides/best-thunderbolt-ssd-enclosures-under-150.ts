@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Controller Chip Generation", "description": "Compared JHL9480 and dual-chip configurations enabling genuine 80Gbps speeds." },
-  { "title": "Cooling Sophistication", "description": "Compared fanless, single-speed, and multi-speed active cooling designs across the lineup." },
-  { "title": "Status Monitoring Features", "description": "Checked for LCD displays and other real-time monitoring capabilities." },
-  { "title": "Thunderbolt Generation Compatibility", "description": "Compared Thunderbolt 5 requirements and backward compatibility with 4/3 and USB4." },
-  { "title": "PCIe SSD Generation Support", "description": "Compared PCIe Gen4 and Gen5 NVMe SSD compatibility across all four picks." }
+  {
+    "title": "80Gbps host requirement",
+    "description": "We started from the point that an 80Gbps enclosure needs a Thunderbolt 5 or USB4 V2.0 host to reach its top speed, and runs at 40Gbps on a Thunderbolt 4 port. These four all use the Intel JHL9480 controller, so the question was cooling and speed claims. We also noted that Thunderbolt 5 laptops are still new, so many buyers will run these at 40Gbps for a while."
+  },
+  {
+    "title": "Speed claims",
+    "description": "We compared the listed figures, up to 7000MB/s on the UGREEN, 6300 write and 5900 read on the Qwiizlab, 6000MB/s on the ACASIS and 100GB in 15 seconds on the MOKiN. These are vendor best-case numbers on a Gen5 SSD and a Thunderbolt 5 host. None of these figures is a promise for your computer, because heat and the SSD itself shape the real result."
+  },
+  {
+    "title": "Cooling control",
+    "description": "We looked at how fans are managed, such as the UGREEN fan that activates at 40C, the ACASIS auto fan that starts at 55C and stops at 40C with manual override, and the MOKiN 3-speed fan. Thunderbolt 5 enclosures run hot, so fan behavior matters. A fan that starts late avoids noise but lets the SSD run warm first, so we balanced noise against thermal headroom."
+  },
+  {
+    "title": "Drive support",
+    "description": "We checked PCIe Gen 5 and Gen 4 support, 8TB limits and included accessories like a silicone travel case. Because these enclosures cost more, a stated capacity and Gen5 support was a requirement. A silicone travel case on the UGREEN protects the case from scratches, which is a small but real extra at this price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The highest stated speed with active cooling", "UGREEN 80Gbps M.2 NVMe SSD Enclosure with Cooling Fan"],
-        ["Genuine 80Gbps speed with completely silent operation", "Qwiizlab Fanless 80Gbps NVMe Enclosure, Aluminum Chassis"],
-        ["Real-time visual status monitoring during transfers", "MOKiN 80Gbps M.2 NVMe SSD Enclosure with LCD Display"],
-        ["Genuine 80Gbps speed at the lowest price", "ACASIS 80Gbps M.2 NVMe SSD Enclosure, Thunderbolt 5 & USB4 V2.0"]
+    "subheading": "By Cooling Style",
+    "intro": "Thunderbolt 5 enclosures generate more heat, so the cooling choice is central.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The highest listed speed with a fan that wakes at 40C",
+          "UGREEN 80Gbps 80Gbps Enclosure with Cooling Fan, up to 7000MB/s"
+        ],
+        [
+          "A silent desk with a Gen5 SSD and no fan",
+          "Qwiizlab Fanless 80Gbps NVMe Enclosure, with an aluminum chassis"
+        ],
+        [
+          "Fan speed control and a live status screen",
+          "MOKiN 80Gbps 80Gbps Enclosure with LCD Display, with a 3-speed fan"
+        ],
+        [
+          "An automatic fan with manual override",
+          "ACASIS 80Gbps Thunderbolt 5 and USB4 V2.0 Enclosure, which starts at 55C"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $150", "ACASIS (under $150)"],
-        ["Under $152", "MOKiN (under $160)"],
-        ["Under $160", "Qwiizlab (under $160)"],
-        ["Under $170", "UGREEN (under $170)"]
+    "subheading": "By Budget",
+    "intro": "All four 80Gbps picks cluster right around the $150 line, so the gaps between them are small and features should decide.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest price in this roundup",
+          "ACASIS 80Gbps, with auto fan and manual override"
+        ],
+        [
+          "Only slightly more than the ACASIS",
+          "MOKiN 80Gbps, with an LCD and a 3-speed fan"
+        ],
+        [
+          "Mid-pack price",
+          "Qwiizlab, the silent fanless pick"
+        ],
+        [
+          "Highest price here",
+          "UGREEN 80Gbps, with the highest listed speed and a travel case"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Active Fan Cooling vs Completely Fanless Design",
-    cards: [
-      { label: "Active fan cooling (UGREEN, MOKiN, ACASIS)", text: "Actively manages heat during sustained high-speed transfers, with varying activation thresholds and speed levels." },
-      { label: "Completely fanless (Qwiizlab)", text: "Relies entirely on a copper plate and aluminum chassis for passive cooling, delivering genuinely silent operation." }
+    "subheading": "Fan vs Fanless at 80Gbps",
+    "intro": "At these speeds, heat is the main limit on sustained performance.",
+    "cards": [
+      {
+        "label": "Active fan",
+        "text": "The UGREEN 80Gbps, MOKiN 80Gbps and ACASIS 80Gbps cool with fans, which hold speed on a Gen5 SSD but add noise and a part that can fail."
+      },
+      {
+        "label": "Fanless",
+        "text": "The Qwiizlab uses a heavy aluminum chassis, which is silent but may throttle under long sustained writes."
+      }
     ],
-    note: "If you regularly perform extended high-speed transfers where thermal management matters most, an active-cooling pick like the UGREEN or MOKiN gives you more assurance. If silent operation is a priority and your workloads are more moderate, the Qwiizlab's fanless design delivers that without sacrificing genuine 80Gbps capability.",
+    "note": "If you move more than a few hundred gigabytes at a time, take a fan. For burst transfers, the fanless unit is calmer."
   },
   {
-    subheading: "By Thunderbolt Generation Compatibility",
-    table: {
-      headers: ["Your host device", "Recommended pick"],
-      rows: [
-        ["Thunderbolt 5 host, want maximum speed", "UGREEN or MOKiN"],
-        ["Thunderbolt 4/3 host, need backward compatibility", "Qwiizlab or MOKiN"],
-        ["USB4 V2.0 host, no Thunderbolt 3 needed", "ACASIS"]
+    "subheading": "By Host and Drive",
+    "intro": "The ceiling is your host and your SSD.",
+    "table": {
+      "headers": [
+        "Your setup",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A Thunderbolt 5 laptop with a Gen5 NVMe",
+          "UGREEN 80Gbps or Qwiizlab, which list up to 7000MB/s and PCIe Gen 5"
+        ],
+        [
+          "A Thunderbolt 4 laptop that you may upgrade later",
+          "ACASIS 80Gbps, which also lists USB4 V2.0"
+        ],
+        [
+          "A creator who wants status information at a glance",
+          "MOKiN 80Gbps, with its LCD display"
+        ],
+        [
+          "A Gen4 SSD you already own",
+          "Qwiizlab, since it lists support for both Gen 5 and Gen 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Content Creator Monitoring Transfer Health During Long Sessions Specifically",
-    cards: [
-      { label: "Look for", text: "A built-in status display showing real-time temperature and fan activity, rather than relying on guesswork about whether thermal throttling might be affecting your transfer speeds." },
-      { label: "In this comparison", text: "The MOKiN pick's LCD display specifically provides real-time temperature and fan speed monitoring during intensive, extended transfer sessions." }
-    ],
+    "subheading": "For Thunderbolt 5 Owners Specifically",
+    "intro": "Verify the host port before spending.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A Thunderbolt 5 or USB4 V2.0 port on your computer, a Gen5 NVMe SSD and a short certified cable."
+      },
+      {
+        "label": "In this comparison",
+        "text": "ACASIS 80Gbps lists Thunderbolt 5 and USB4 V2.0 and UGREEN 80Gbps lists 8TB support, so either suits a Thunderbolt 5 workflow."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the highest stated theoretical speed with active cooling and a travel case, where the UGREEN pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want genuine 80Gbps speed without needing Thunderbolt 3 backward compatibility, where the ACASIS pick covers that for about $20 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Above this tier you reach branded Thunderbolt 5 enclosures.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a long warranty from an established storage brand, which is where the OWC Express and Lexar models in the under $100 guide are stronger than these four."
+      },
+      {
+        "label": "Save if",
+        "text": "Your computer only has Thunderbolt 4. The under $100 guide delivers 40Gbps for less."
+      }
+    ]
   }
 ];
 
@@ -183,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "If my computer only has a Thunderbolt 4 port, will these 80Gbps enclosures still work, just at a lower speed?", "a": "Yes, all four picks in this comparison specifically state backward compatibility with Thunderbolt 4/3 and USB4, so they'll function normally on a Thunderbolt 4 port, just capped at that generation's maximum 40Gbps speed rather than the full 80Gbps these enclosures are capable of with a genuine Thunderbolt 5 host." },
-  { "q": "What's the most common mistake buyers make when purchasing an 80Gbps enclosure at this tier?", "a": "Assuming any 80Gbps-labeled enclosure automatically delivers that speed with their existing computer and SSD, when actually achieving 80Gbps requires a genuine Thunderbolt 5 or USB4 V2.0 host port, a rated 80Gbps cable, and a sufficiently fast PCIe Gen5 SSD installed inside the enclosure." },
-  { "q": "Is the UGREEN pick worth it over the cheaper ACASIS option?", "a": "If you specifically want the highest stated theoretical speed with a lower fan activation threshold and an included travel case, yes, but if you don't need Thunderbolt 3 backward compatibility and want genuine 80Gbps speed at a lower price, the ACASIS pick covers that for about $20 less." },
-  { "q": "How do I know if my SSD is genuinely PCIe Gen5 rated to take advantage of the Qwiizlab's full speed potential?", "a": "Check your specific SSD's manufacturer specification sheet for its stated PCIe generation and interface speed rating, since only a genuine PCIe Gen5 SSD will approach the Qwiizlab enclosure's stated maximum sequential speeds, while a PCIe Gen4 or older SSD will be limited to its own lower maximum speed regardless of the enclosure's higher ceiling." },
-  { "q": "Can the ACASIS pick's lack of Thunderbolt 3 compatibility be worked around with an adapter?", "a": "The listing specifically states the enclosure is not compatible with Thunderbolt 3 devices without qualification, so relying on a generic adapter to bridge this incompatibility isn't a reliable solution, making one of the Thunderbolt 3-compatible picks in this comparison the better choice if you specifically have a Thunderbolt 3-only host." },
-  { "q": "Do any of these enclosures require external power beyond the Thunderbolt or USB connection?", "a": "All four picks in this comparison are designed to be bus-powered through the Thunderbolt or USB4 connection itself, without requiring a separate external power adapter, keeping them genuinely portable for use with laptops and other bus-powered host devices." }
+  {
+    "q": "Will an 80Gbps enclosure work on a Thunderbolt 4 laptop?",
+    "a": "Yes, but it runs at 40Gbps. Thunderbolt 5 and USB4 V2.0 products are designed to be backward compatible, so you can buy now and benefit when you upgrade your computer. You pay for the higher ceiling now, and gain from it when you upgrade your computer."
+  },
+  {
+    "q": "Do I need a Gen5 SSD to benefit?",
+    "a": "To reach about 6000 to 7000 MB/s, yes, along with a Thunderbolt 5 host. A Gen4 SSD will not saturate the link, so it leaves most of the extra bandwidth unused. The Qwiizlab lists both Gen 5 and Gen 4 support. Always check the SSD's own maximum read and write speed before buying."
+  },
+  {
+    "q": "Is the fanless Qwiizlab worth it over the UGREEN?",
+    "a": "If silence matters, yes. It lists 6300MB/s write and 5900MB/s read on an aluminum chassis. The UGREEN lists up to 7000MB/s with an active fan that starts at 40C, which holds speed longer on large jobs. Fanless units rely on a large metal body, so keep them off soft surfaces."
+  },
+  {
+    "q": "How does the ACASIS auto fan behave?",
+    "a": "It starts at 55C and stops at 40C, with a manual override. That keeps noise down for small transfers and kicks in for long copies, which is handy for people who work next to the enclosure. A larger gap between start and stop temperatures also means the fan runs in short bursts rather than constantly."
+  },
+  {
+    "q": "Are these enclosures safe for long writes?",
+    "a": "Thunderbolt 5 SSDs run hot, so a fan or a large chassis is important. Watch for a drop in speed during a long copy, which signals throttling. Keep the enclosure on a hard surface with airflow. A slowdown in a long copy is the best sign that the drive is throttling."
+  },
+  {
+    "q": "Why are these more expensive than 40Gbps models?",
+    "a": "The Intel JHL9480 controller adds cost and often needs a fan. You are paying for the higher ceiling, not for a faster drive. If your computer only has Thunderbolt 4, a cheaper 40Gbps model gives the same result."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

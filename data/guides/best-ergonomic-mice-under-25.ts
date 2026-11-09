@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31zY6niDmxL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DYV75S7M?tag=deskfinds0d-20",
-    "description": "Lekvey is a vertical wireless mouse that comes in color options, with a 600mAh rechargeable battery, USB-C charging and page back/forward buttons. The listing gives the dimensions as 5.0 x 3.0 x 2.5 inches and a weight of 95 g.\n\nIt is the largest battery of the cheap vertical picks, but costs about $7 more than tlkawzy and has no Bluetooth detail in its highlights. Versus Perixx it charges over USB-C rather than using a battery.\n\nGood for users who like color and USB-C. The caveat is limited detail about DPI and wireless modes.",
+    "description": "Lekvey is a vertical wireless mouse that comes in color options, with a 600mAh rechargeable battery, USB-C charging and page back/forward buttons. The listing gives the dimensions as 5.0 x 3.0 x 2.5 inches and a weight of 95 g.\n\nIt is the largest battery of the cheap vertical picks, but costs under $10 more than tlkawzy and has no Bluetooth detail in its highlights. Versus Perixx it charges over USB-C rather than using a battery.\n\nGood for users who like color and USB-C. The caveat is limited detail about DPI and wireless modes.",
     "specs": [
       "600mAh, USB-C charging",
       "5.0 x 3.0 x 2.5 inch body",
@@ -191,51 +191,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Hand size you actually have",
-    "explanation": "Many budget vertical mice are listed for hand lengths under about 7.5 inches. A mouse too small for your hand makes fingertips hang off the buttons and can tire the wrist faster than a flat mouse would. Measure from the wrist crease to the tip of the middle finger, and compare with the stated range before choosing."
+    "explanation": "Hand size is the stated range a mouse was designed for, and many budget vertical shells target hands under about 7.5 inches. A shell that is too small leaves fingertips hanging over the buttons and makes the wrist work harder than a flat mouse would. Measure from the wrist crease to the tip of your middle finger and compare it with the range in the title or bullets."
   },
   {
     "criterion": "Vertical angle versus contour",
-    "explanation": "A vertical shell tilts the hand to a handshake angle, often 52 degrees or more, which rotates the forearm toward neutral. A contoured flat mouse offers grip but less rotation. At this price both exist, so decide whether you want a true angle change, and expect a few days of adjustment if you pick vertical."
+    "explanation": "A vertical shell tilts the hand to about a handshake angle, often 52 degrees or more, which rotates the forearm toward neutral and relieves twisting. A contoured flat mouse adds side grips but keeps the palm down, so it relaxes the grip rather than the forearm. Decide which strain you have, and look for the degree figure in the listing."
   },
   {
     "criterion": "Bluetooth and multi-device pairing",
-    "explanation": "Some picks pair two Bluetooth devices plus a 2.4G receiver, which suits a laptop and a desktop. Others offer only a USB-A dongle. If your laptop lacks USB-A, Bluetooth is the safer choice, and look for the phrase 3 devices in the listing."
+    "explanation": "Pairing is how many computers a mouse can remember, and some picks hold two Bluetooth devices plus a 2.4G receiver. If your laptop lacks a USB-A port, a dongle-only mouse forces you to buy an adapter or leaves it unusable. Search the listing for the phrase 3 devices or Bluetooth 5 before you buy."
   },
   {
     "criterion": "Rechargeable versus AAA battery",
-    "explanation": "A built-in rechargeable battery means no spare cells but also no swapping when it fades. AAA batteries are often not included, so they add to the real price. Check mAh for rechargeable models and months for battery ones, and confirm whether batteries are in the box."
+    "explanation": "A built-in rechargeable cell needs no spares but cannot be swapped when it fades, while AAA models run for months and swap in seconds. Cells often are not included, so the real price rises by a couple of dollars. Check for a mAh figure on rechargeable models and a months claim on battery ones, then confirm what ships in the box."
   },
   {
     "criterion": "Quiet clicks and what they mean",
-    "explanation": "Several picks claim quiet buttons but only one lists a decibel figure. Silent buttons reduce sound but the scroll wheel may still tick. Look for a measured number such as 40 dB and remember it is the maker's claim."
+    "explanation": "Quiet buttons use dampened switches that cut the click sound, but the scroll wheel often still ticks. Only one pick here lists a decibel figure, and it is the maker's claim. Look for a number such as 40 dB rather than the word silent, and read reviews from shared-room users to see whether it holds."
   },
   {
     "criterion": "Compatibility notes for side buttons",
-    "explanation": "Forward and back buttons are driven by software on some mice, so they may not work on macOS even when the pointer does. The TECKNET compact listing here, for example, warns about its side button. Read the last bullets of each listing for notes and warnings, and confirm that your operating system is named before ordering."
+    "explanation": "Forward and back buttons rely on drivers that some mice only ship for Windows, so they may fail on macOS even when the pointer works. The TECKNET compact listing warns about this directly. Read the last bullets and Q and A section of the listing, and confirm that your operating system is named before ordering."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Hand fit",
-    "description": "We compared stated hand sizes and shell dimensions."
+    "title": "Hand fit against listed size",
+    "description": "We compared each listing's stated hand range and body dimensions, since several budget vertical shells are sized for hands under about 7.5 inches. At this ceiling a mouse that is too small is the most common reason buyers return one, so we gave fit more weight than any spec-sheet extra."
   },
   {
-    "title": "Ergonomic design",
-    "description": "We separated true vertical shells from contoured flat mice."
+    "title": "Vertical angle versus contour",
+    "description": "We separated true vertical shells, such as the 52 degree seenda, from the flat contoured TECKNET. A real tilt rotates the forearm toward a handshake position, while a contour mostly adds grip, so we judged each pick on whether its shape matched the strain it claims to relieve."
   },
   {
-    "title": "Connectivity",
-    "description": "We compared Bluetooth, 2.4G and device counts."
+    "title": "Pairing and receiver needs",
+    "description": "We checked whether each mouse offers Bluetooth, a 2.4G dongle or both, and how many devices it remembers. For laptops without a USB-A port, a dongle-only model like the tlkawzy is a real limitation, so channel count and Bluetooth presence shaped our ranking."
   },
   {
-    "title": "Battery",
-    "description": "We compared rechargeable and AAA approaches."
+    "title": "Battery type and hidden cost",
+    "description": "We noted rechargeable cells versus AAA batteries, and whether cells ship in the box. A mouse that needs two AAA batteries the listing does not include costs more than its sticker, which matters when every pick sits within a few dollars of the $25 ceiling."
   },
   {
-    "title": "Price",
-    "description": "We kept every pick at $25 or below."
+    "title": "What you give up at $25",
+    "description": "We compared sensor range, button count and click noise across the six, looking at what a sub-$25 shell trades away. Tops of 2400 to 4800 DPI are fine for office work, so we only penalised unclear claims, like a quiet-button promise that skips the scroll wheel."
   }
 ];
 
@@ -371,28 +371,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Will a cheap vertical mouse work for a large hand?",
-    "a": "Most budget vertical mice are sized for small to medium hands. Large hands are better off checking dimensions."
+    "q": "Will a cheap vertical mouse fit a large hand?",
+    "a": "Usually not. Most vertical mice at this price are sized for small to medium hands, around 7.5 inches or less from wrist crease to fingertip. If your hand is bigger, your fingers hang off the buttons and the wrist tires faster, so check the stated hand range before ordering."
   },
   {
-    "q": "Does a $20 mouse have good sensors?",
-    "a": "Budget optical sensors handle everyday office work. Fine design work or gaming needs a better sensor."
+    "q": "Is a $20 vertical mouse worth it over the $10 TECKNET?",
+    "a": "If you feel wrist or forearm strain, a true vertical shell such as the Redragon or seenda changes your posture in a way a flat contoured mouse cannot. If you only want a comfortable everyday mouse, the TECKNET Compact does the job and saves about half the money."
   },
   {
-    "q": "Is a vertical mouse worth it over a $10 contoured mouse?",
-    "a": "If you notice wrist strain, a vertical shape may feel more relaxed. See a doctor or ergonomist if pain persists."
+    "q": "How long does a vertical mouse take to get used to?",
+    "a": "Expect several days of slightly clumsy pointing, sometimes up to two weeks, because the handshake grip uses different muscles. Start by using it for email and browsing, then move to precise tasks. If it still feels wrong after two weeks, a contoured mouse may suit you better."
   },
   {
-    "q": "How do I charge a rechargeable mouse?",
-    "a": "Plug in the USB cable and charge until the light changes. Some can be used while charging."
+    "q": "Can I use these on a Mac or a laptop without USB-A?",
+    "a": "Bluetooth models such as the Redragon and seenda pair directly with a MacBook or any laptop, no dongle needed. Dongle-only models like the tlkawzy need a USB-A port or an adapter, and the TECKNET listing warns that its side button may not work on macOS."
   },
   {
-    "q": "Do the batteries come in the box?",
-    "a": "Some listings warn AAA batteries are not included. Check the listing."
+    "q": "Are the quiet buttons actually silent?",
+    "a": "Only partly. The seenda lists its buttons under 40 dB, and the Perixx advertises quiet left and right clicks, but a scroll wheel can still tick. Treat these as maker claims that reduce click noise, not a guarantee of silence in a shared dorm or library."
   },
   {
-    "q": "How do I pair with Bluetooth?",
-    "a": "Hold the pairing button on the underside until the light flashes, then pick the mouse in your device's Bluetooth settings. Models with three channels let you repeat this for a second Bluetooth device and the 2.4G receiver. Press the channel button to switch between them."
+    "q": "How should I charge or power these mice?",
+    "a": "The Redragon, tlkawzy and Lekvey charge over USB, and you can usually keep working while they charge. The TECKNET uses AAA batteries that the listing says are not included, so buy them with the mouse. Unplug chargers once full to protect small batteries."
   }
 ];
 

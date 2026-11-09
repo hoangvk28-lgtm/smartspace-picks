@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Motor Noise Level", "description": "Compared stated decibel figures where disclosed across the motorized lineup." },
-  { "title": "Safety Features", "description": "Checked for stated electrical safety design and connection reliability across all four picks." },
-  { "title": "Screen Size and Aspect Ratio", "description": "Compared diagonal size and 16:9 versus 4:3 aspect ratio suited to different content types." },
-  { "title": "Assembly and Mounting", "description": "Compared pre-assembled versus DIY assembly and wall versus ceiling mount flexibility." },
-  { "title": "Layer Construction", "description": "Compared PVC layer count and black backing across the lineup." }
+  { "title": "Motor noise", "description": "We compared stated noise, such as the under 42 dB motor on the first pick. Motorized screens move during use, and a loud motor during a quiet scene is distracting, so a listed decibel figure told us more than a generic claim of a quiet motor. Noise matters most when the housing hangs within a few feet of the seats." },
+  { "title": "Aspect ratio and size", "description": "We checked ratios across the 100 and 120 inch picks, including the Auto Motorized model's 4:3 ratio. A 4:3 case wastes space for widescreen video, so we favored 16:9 canvases for movie use and treated 4:3 as a classroom trade. The 120 inch DINAH and 100 inch picks differ mainly in width, so measure the wall before choosing." },
+  { "title": "Control options", "description": "We compared remote and wired control, since the first two list dual control or wired and wireless remotes. A motorized screen that only responds to one remote becomes stuck up or down if that remote fails. Wired plus wireless, as on the YODOLLA, leaves a fallback if batteries die." },
+  { "title": "Mounting and casing", "description": "We compared wall or ceiling mounting and the casing material, from solid metal on one pick to plain PVC layers elsewhere. A rolled screen hangs from a single housing, so a sturdy case protects the cloth from bending. That makes wall versus ceiling placement a case-by-case call." },
+  { "title": "Cloth layering and gain", "description": "We read the fabric claims, including 4-layer PVC with black backing on one pick and a 1.1 gain matte white on another. Pull-down cloth without side tensioning can curl at the edges, so layers and backing helped separate the better builds. A black backing also stops light from the room leaking through the cloth." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "Motorized screens add a mechanism, so the table leads with what that motor, case, and control scheme actually need to do in a living room.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Every pick here is priced within under $15 of the others, so the budget table groups them by what you gain from the small step up, such as 120 inches of width.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -132,6 +134,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Aspect Ratio",
+    intro: "Cloth flatness is the second axis, because pull-down screens without side tension can curl at the edges and a thicker backed fabric sits better.",
     table: {
       headers: ["Your primary content", "Recommended pick"],
       rows: [
@@ -151,7 +154,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the largest motorized screen size for maximum immersive viewing, where the DINAH pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want a quiet, safe motorized screen without needing maximum size, where the 100 Inch Motorized or YODOLLA picks cover that for about $10 less." }
+      { label: "Save if", text: "You want a quiet, safe motorized screen without needing maximum size, where the 100 Inch Motorized or YODOLLA picks cover that for under $15 less." }
     ],
   }
 ];
@@ -181,8 +184,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Do motorized projector screens require a licensed electrician for installation?", "a": "No, all four picks in this comparison are designed to plug into a standard household outlet and don't require electrical wiring work, though mounting the screen securely to a wall stud or ceiling joist is still an important installation step to get right." },
-  { "q": "What's the most common mistake buyers make when choosing a motorized screen over a tripod-based one?", "a": "Not confirming their installation location has adequate wall stud or ceiling joist support before purchase, since motorized screens require genuine structural mounting unlike a tripod screen that simply stands on the floor anywhere." },
-  { "q": "Is the DINAH pick worth it over the cheaper 100 Inch Motorized option?", "a": "If you specifically want the largest 120 inch screen size for maximum immersive viewing, yes, but if a specifically stated quiet motor and dual control options matter more, the 100 Inch Motorized pick covers that for about $10 less." },
+  { "q": "Will a motorized pull-down screen sit perfectly flat?", "a": "Usually not quite. Pull-down cloth without tab tensioning tends to curl slightly at the sides and cup in the middle, which a fixed frame avoids. Layered, black backed PVC like the first pick's 4-layer cloth hangs flatter than thin single-layer fabric." },
+  { "q": "Is the DINAH pick worth it over the cheaper 100 Inch Motorized option?", "a": "If you specifically want the largest 120 inch screen size for maximum immersive viewing, yes, but if a specifically stated quiet motor and dual control options matter more, the 100 Inch Motorized pick covers that for under $15 less." },
   { "q": "How do I know if my wall or ceiling can support a motorized projector screen's weight?", "a": "Locate wall studs or ceiling joists with a stud finder and confirm they align with the screen's mounting points, since motorized screens with their motor mechanism weigh more than a simple fabric screen and need genuine structural support, not just drywall alone." },
   { "q": "Can the 4:3 aspect ratio pick still display widescreen movies without major issues?", "a": "Widescreen 16:9 content will display with black bars on a 4:3 screen, which works but doesn't use the full screen area for that content type, so if movies are your primary use, one of the 16:9 picks in this comparison is the better match." },
   { "q": "Do these motorized screens include a warranty covering the motor mechanism specifically?", "a": "Warranty terms vary by manufacturer and aren't detailed with the same specificity across all four listings, so checking each specific product page's warranty section, particularly regarding motor coverage, is worth doing before purchase given the added mechanical complexity of a motorized screen." }

@@ -120,39 +120,65 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Confirmed current Mount-It! model availability", description: "We only included converters we could verify as currently sold rather than assuming the full historical Mount-It! catalog remains available." },
-  { title: "Distinguished integrated mount from open-platform designs", description: "We flagged which Mount-It! models include dedicated monitor mounts versus open surface area, since this changes real-world setup." },
-  { title: "Weighed the triple-monitor electric model's lower rating honestly", description: "This model has both the lowest rating and smallest review base in the current lineup, and we disclosed this directly rather than glossing over it because it's the specialized top-tier option." },
-  { title: "Compared price across Mount-It!'s full current range", description: "Mount-It! pricing spans from a budget compact option to a premium triple-monitor electric model, and we compared value across that range." }
+  {
+    "title": "Platform size against your monitors",
+    "description": "Platforms run from the 30 inch compact tabletop to the 32 by 22 inch riser and the dual and triple monitor models. We matched each width to how many screens it really holds, since a monitor that overhangs the edge makes the platform unstable at standing height."
+  },
+  {
+    "title": "Lift mechanism: gas spring or electric",
+    "description": "Five of the six use a gas-spring lift that needs no outlet, while only the Triple Monitor model is electric. We weighed this against how often you adjust, since a gas-spring needs a push each time and an electric motor needs a nearby outlet. Gas springs also soften with age, so capacity headroom matters."
+  },
+  {
+    "title": "Monitor mounts and VESA needs",
+    "description": "The Dual Monitor model includes two dedicated mounts and requires VESA-compatible monitors, while the other picks are open platforms. We checked that distinction because a VESA mount saves desk space but excludes monitors without a mounting pattern. A monitor without VESA holes needs an open platform instead."
+  },
+  {
+    "title": "Desk depth and base footprint",
+    "description": "A converter's base is deeper than its platform, and deeper models need much of the desk. We compared compact designs against the 32 by 22 riser, because a shallow desk leaves little room for the keyboard tray and legroom once the platform is raised. We assumed a desk at least 24 inches deep for the larger models."
+  },
+  {
+    "title": "Value inside one brand's lineup",
+    "description": "Prices run from under $130 for the 30 inch model to near $500 for the electric triple, so we asked what each step buys. The 32 by 22 gas-spring model sits in the middle, and the electric triple only makes sense for a three-screen setup. Spend only where the extra monitors or motor are actually used."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Platform Size",
+    "intro": "Pick the platform by how many monitors you plan to put on it, then check the depth of your desk.",
     "table": {
       "headers": [
-        "Your monitor setup",
-        "Recommended pick in this comparison"
+        "Your situation",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Single monitor or laptop, small desk",
-          "Mount-It! Standing Desk Converter 32 x 22"
+          "One laptop or one monitor on a shallow desk",
+          "Mount-It! Height Adjustable Standing Desk Converter, Compact 30 Inch Wide Tabletop, the smallest and cheapest"
         ],
         [
-          "Dual monitors",
-          "Mount-It! Standing Desk Converter"
+          "One or two monitors with open platform space",
+          "Mount-It! Standing Desk Converter 32 x 22, a 32 by 22 inch gas-spring platform"
         ],
         [
-          "Triple monitors, need maximum surface area",
-          "Mount-It! Triple Monitor Electric Standing Desk Converter"
+          "Two VESA monitors held on dedicated mounts",
+          "Mount-It! Standing Desk Converter Dual Monitor, with two mounts included"
+        ],
+        [
+          "A compact desk that needs a small footprint",
+          "Mount-It! Compact Standing Desk Riser, a compact gas-spring workstation"
+        ],
+        [
+          "Three screens and heavy daily use",
+          "Mount-It! Triple Monitor Electric Standing Desk Converter, an electric lift with three mounts"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "The lineup spans from under $130 to close to $500, so each tier changes what you get.",
     "table": {
       "headers": [
         "Price range",
@@ -160,16 +186,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $129",
-          "Mount-It! Height Adjustable Standing Desk Converter"
+          "Under $130, a basic 30 inch riser",
+          "Mount-It! Height Adjustable Standing Desk Converter, Compact 30 Inch Wide Tabletop"
         ],
         [
-          "Mid-range",
-          "Mount-It! Compact Standing Desk Riser"
+          "Under $200, a larger platform",
+          "Mount-It! Standing Desk Converter 32 x 22, a roomier gas-spring platform"
         ],
         [
-          "No firm budget ceiling, prioritizing lift quality or brand",
-          "Mount-It! Triple Monitor Electric Standing Desk Converter"
+          "Under $225, compact ergonomic design",
+          "Mount-It! Compact Standing Desk Riser, a compact riser for tight desks"
+        ],
+        [
+          "Under $280, built-in monitor mounts",
+          "Mount-It! Standing Desk Converter Dual Monitor, with two mounts included"
+        ],
+        [
+          "Under $500, three monitors and motorized lift",
+          "Mount-It! Triple Monitor Electric Standing Desk Converter, the only electric option"
         ]
       ]
     }
@@ -178,31 +212,40 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Manual (Gas-Spring) vs Electric Lift",
     "cards": [
       {
-        "label": "Manual (Gas-Spring)",
-        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: Mount-It! Standing Desk Converter, Mount-It! Standing Desk Converter Dual Monitor, Mount-It! Standing Desk Converter 32 x 22."
+        "label": "Manual gas-spring",
+        "text": "Needs no outlet, costs less, and suits adjusting once or twice a day. It covers the compact, 32 by 22, Dual Monitor and 30 inch models, which all use gas-spring lift."
       },
       {
-        "label": "Electric (Motorized)",
-        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: Mount-It! Triple Monitor Electric Standing Desk Converter."
+        "label": "Electric motor",
+        "text": "Smoother and easier on a heavy load, but you need an outlet and pay far more. The Triple Monitor model is the only electric pick here."
       }
     ],
-    "note": "Most buyers should default to a manual pick like Mount-It! Height Adjustable Standing Desk Converter unless you'll adjust height multiple times a day, in which case Mount-It! Triple Monitor Electric Standing Desk Converter's push-button lift is worth the premium."
+    "note": "Most buyers should default to a gas-spring model like the 32 by 22 and spend more on electric only for three screens or frequent adjustments."
   },
   {
-    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "subheading": "By Monitor Mounting Needs",
+    "intro": "How your monitors attach decides whether you want an open platform or built-in mounts.",
     "table": {
       "headers": [
-        "What you're weighing",
+        "Your situation",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Highest star rating",
-          "Mount-It! Standing Desk Converter 32 x 22"
+          "Monitors with VESA holes and a wish to free desk space",
+          "Mount-It! Standing Desk Converter Dual Monitor, which uses two included VESA-ready mounts"
         ],
         [
-          "Largest review base (more statistical confidence)",
-          "Mount-It! Standing Desk Converter Dual Monitor"
+          "Monitors without VESA mounting",
+          "Mount-It! Standing Desk Converter 32 x 22, an open platform you can set screens on"
+        ],
+        [
+          "A laptop on a riser with a separate keyboard",
+          "Mount-It! Height Adjustable Standing Desk Converter, Compact 30 Inch Wide Tabletop, for laptop plus keyboard"
+        ],
+        [
+          "Three monitors on a deep desk",
+          "Mount-It! Triple Monitor Electric Standing Desk Converter, three mounts with electric lift"
         ]
       ]
     }
@@ -212,11 +255,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Look for",
-        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+        "text": "A platform at least 32 inches wide or built-in mounts, plus a stated weight capacity that covers two monitors, a keyboard and a mouse. Confirm the monitors are VESA-compatible if the model uses mounts."
       },
       {
         "label": "In this comparison",
-        "text": "Mount-It! Standing Desk Converter fits this specifically: Largest review base in Mount-It!'s current lineup."
+        "text": "The Mount-It! Standing Desk Converter Dual Monitor includes two dedicated mounts, and the 32 x 22 inch riser has open platform space for two screens set side by side."
       }
     ]
   },
@@ -225,11 +268,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what Mount-It! Triple Monitor Electric Standing Desk Converter offers: Only current Mount-It! model built for three monitors with electric lift. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "You run three monitors or change position many times a day. The Mount-It! Triple Monitor Electric model adds motorized lift and a third mount, and the Dual Monitor model suits two screens with VESA mounts."
       },
       {
         "label": "Save if",
-        "text": "Mount-It! Height Adjustable Standing Desk Converter already covers the essentials: Lowest price in Mount-It!'s current converter lineup. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+        "text": "You have one monitor and a modest desk. The 30 inch compact converter under $130 gives you gas-spring lift for far less, and the 32 by 22 riser adds space for under $200."
       }
     ]
   }
@@ -253,17 +296,36 @@ export const buyingCriteria: BuyingCriterion[] = [
     "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base.\n\nThis matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view.\n\nCheck the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
   },
   {
-    "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "criterion": "Check weight capacity against your actual load",
+    "explanation": "The weight capacity listed on a converter must cover your monitors, keyboard, laptop and anything else on the platform, and gas springs lose smoothness near the limit. A dual-monitor load of two 24 inch screens can approach 30 lb before accessories. Find the number on the listing, and treat a missing capacity as a reason to move on."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which Mount-It! converter is highest rated?", a: "The Mount-It! Standing Desk Converter 32 x 22 with Gas Spring Lift, at 4.6." },
-  { q: "Which Mount-It! converter has the most reviews?", a: "The Mount-It!" },
-  { q: "Is the triple-monitor Mount-It! converter well-reviewed?", a: "It has the lowest rating (3.8) and smallest review base (63) in Mount-It!'s current lineup, though it's their only current triple-monitor electric option." },
-  { q: "What's the cheapest current Mount-It! converter?", a: "The Mount-It! Height Adjustable Standing Desk Converter at 30 inches, priced under $130." },
-  { q: "Does Mount-It! make a dual-monitor mount option?", a: "Yes, the Mount-It! Standing Desk Converter Dual Monitor includes two dedicated monitor mounts." }
+  {
+    "q": "Which Mount-It! converter is best for a small desk?",
+    "a": "The compact 30 inch model suits the shallowest desks and costs the least here, under $130. A 30 inch platform holds one monitor and a keyboard, but a second screen will overhang. The 32 by 22 inch riser offers more surface if your desk is at least about 24 inches deep."
+  },
+  {
+    "q": "How does a gas-spring lift compare with an electric lift?",
+    "a": "A gas spring needs no outlet and costs less, but you push or pull a handle and the platform can feel heavy to lift with a loaded desk. The Triple Monitor model uses a motor and buttons for smooth changes, at a much higher price and with a cable to manage."
+  },
+  {
+    "q": "Do I need VESA monitors for the dual-monitor model?",
+    "a": "Yes. The Mount-It! Dual Monitor converter includes two dedicated monitor mounts, and those need monitors with a VESA mounting pattern on the back. If your screens lack one, choose an open platform like the 32 by 22 inch riser and set the monitors on it directly."
+  },
+  {
+    "q": "Is the triple-monitor electric converter worth the extra cost?",
+    "a": "Only for a three-screen setup. It is the only Mount-It! model here built for three monitors with electric lift, and it carries the highest price in the lineup. If you use two monitors, the dual-monitor gas-spring model is a far better fit."
+  },
+  {
+    "q": "Will a converter fit my desk and monitor arm?",
+    "a": "Measure depth first. A converter's base sits in front of a wall-side gap, and deeper platforms need much of the desk, often 24 inches or more. A clamp-on monitor arm may not fit through the converter frame, so check the arm's clamp type and the platform height range."
+  },
+  {
+    "q": "How high will it raise my screens?",
+    "a": "Check the listed height range and add it to your desk height. A converter adds its own height even when lowered, so a taller person should confirm the top setting puts the keyboard at elbow height. Remember that a heavy monitor load can make a gas spring lift feel stiffer."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

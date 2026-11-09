@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/318Zx708e4L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FMXY3MBP?tag=deskfinds0d-20",
-    "description": "Midea is a 1.7 cubic foot mini fridge that is listed as Energy Star certified, with an adjustable thermostat, a reversible door, a door shelf for a 2 liter bottle and a removable shelf. The listing pitches it as low noise for bedrooms and dorms.\n\nIt costs about $40 more than the Upstreman and Frestec 1.7 cubic foot models, and its Energy Star listing is the main difference. Compared with Frigidaire and Igloo, it is smaller but cheaper than either.\n\nChoose it for a dorm bedroom where energy use and noise matter. The caveat is that the listing excerpt does not state a decibel figure or a freezer, so check the exact specs.",
+    "description": "Midea is a 1.7 cubic foot mini fridge that is listed as Energy Star certified, with an adjustable thermostat, a reversible door, a door shelf for a 2 liter bottle and a removable shelf. The listing pitches it as low noise for bedrooms and dorms.\n\nIt costs under $50 more than the Upstreman and Frestec 1.7 cubic foot models, and its Energy Star listing is the main difference. Compared with Frigidaire and Igloo, it is smaller but cheaper than either.\n\nChoose it for a dorm bedroom where energy use and noise matter. The caveat is that the listing excerpt does not state a decibel figure or a freezer, so check the exact specs.",
     "specs": [
       "1.7 cu ft, Energy Star",
       "Reversible door",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/21ecLQI7VAL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DDCTGB8P?tag=deskfinds0d-20",
-    "description": "Frigidaire is a 3.2 cubic foot mini fridge with a compact chiller compartment that comes with an ice tray, an adjustable thermostat, glass shelves, a 2 liter door basket and a built-in can dispenser. It has a reversible door and a flush back design.\n\nIt costs under $150, about $1 less than the Igloo, but holds more at 3.2 cubic feet than Igloo's 2.6. The chiller compartment is not described as a true freezer.\n\nBest for a shared room or a small office that needs more space. The caveat is that 3.2 cubic feet may exceed a dorm's size cap, so check the rules.",
+    "description": "Frigidaire is a 3.2 cubic foot mini fridge with a compact chiller compartment that comes with an ice tray, an adjustable thermostat, glass shelves, a 2 liter door basket and a built-in can dispenser. It has a reversible door and a flush back design.\n\nIt costs under $150, under $10 less than the Igloo, but holds more at 3.2 cubic feet than Igloo's 2.6. The chiller compartment is not described as a true freezer.\n\nBest for a shared room or a small office that needs more space. The caveat is that 3.2 cubic feet may exceed a dorm's size cap, so check the rules.",
     "specs": [
       "3.2 cu ft, chiller section",
       "Flush back, reversible door",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/411Alh5MkYL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CPY23Y4F?tag=deskfinds0d-20",
-    "description": "Upstreman is a 1.7 cubic foot fridge measuring 18.9 by 17.7 by 19.3 inches with a 33.8 to 46.4 degree range across five settings and a compact freezer. The listing says it runs at 38 decibels and notes it is not for storing ice cream. It carries a one year service promise.\n\nIt costs under $100, about $10 more than Frestec, but its listing gives specifics such as noise and temperature. It is cheaper than Midea.\n\nPick it for a dorm student on a budget. The caveat is the 46.4 degree top, which is not the coldest, and the freezer is small.",
+    "description": "Upstreman is a 1.7 cubic foot fridge measuring 18.9 by 17.7 by 19.3 inches with a 33.8 to 46.4 degree range across five settings and a compact freezer. The listing says it runs at 38 decibels and notes it is not for storing ice cream. It carries a one year service promise.\n\nIt costs under $100, under $15 more than Frestec, but its listing gives specifics such as noise and temperature. It is cheaper than Midea.\n\nPick it for a dorm student on a budget. The caveat is the 46.4 degree top, which is not the coldest, and the freezer is small.",
     "specs": [
       "1.7 cu ft, 38 dB",
       "33.8F to 46.4F, 5 settings",
@@ -218,28 +218,24 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Cubic feet versus real space",
-    "explanation": "Cubic feet is the total interior volume, but shelves, a freezer box and the compressor hump take some of it. A 1.7 cubic foot fridge holds fewer groceries than the number suggests. Look at the interior shelf sizes and whether a 2 liter bottle fits upright."
+    "criterion": "Energy Star and yearly running cost",
+    "explanation": "A fridge runs 24 hours a day, so a certified efficient model quietly pays back over years, and the Midea 1.7 cubic foot is the Energy Star pick in this tier. Efficiency labels cover the fridge as a whole, not each shelf, so compare the listed kilowatt hours per year rather than the badge alone. Look for the yearly figure on the listing or the yellow label photo."
   },
   {
-    "criterion": "Dorm size caps",
-    "explanation": "Some schools cap fridge size under about 3.8 cubic feet and some limit combined space for roommates. A unit over the cap may be removed. Check your housing page and compare cubic feet."
+    "criterion": "Freezer compartment honesty",
+    "explanation": "The three picks with a freezer box, the Igloo, Upstreman and Frestec, use a small evaporator shelf inside a single door, which usually holds ice and a frozen meal but will not keep ice cream firm. Their listed ranges, such as 28.4F to 50F on the Frestec, tell you how cold the box actually gets. Check the lowest temperature, not the word freezer."
   },
   {
-    "criterion": "Freezer type",
-    "explanation": "A freezer box inside a single door fridge shares the fridge's cooling, so it is often not cold enough to keep ice cream solid. A two door model has a separate freezer door and cooling path. Look for the words true freezer, or a listed freezer temperature, and treat a vague compartment as ice-cube storage only."
+    "criterion": "Beverage fridge versus food fridge",
+    "explanation": "A glass door beverage fridge such as the Clickoods holds 126 cans but its range starts near 39F and is tuned for bottles, not meat. A standard compact fridge has a colder back wall and a chiller. Decide what goes in first, then check the minimum temperature and whether the shelves are wire or tempered glass."
   },
   {
-    "criterion": "Temperature range and food safety",
-    "explanation": "Refrigerated food should stay at or below 40 degrees Fahrenheit. A listing that tops at 50 or 61 degrees is for drinks. Check the lowest and highest settings in the specs."
+    "criterion": "Door swing and wall clearance",
+    "explanation": "A 1.7 cubic foot body is about 19 inches deep, and a door that opens the wrong way against a bed or wall can make it useless. The Midea and Frigidaire list reversible doors, and the Frigidaire is flush back so it sits against a wall. Check hinge reversibility and the rear clearance in the manual."
   },
   {
-    "criterion": "Noise level",
-    "explanation": "Compressor fridges cycle on and off and list 36 to 38 decibels here. A bedroom needs a lower number. Look for a stated dB and reviews that mention clicking."
-  },
-  {
-    "criterion": "Energy Star and electricity use",
-    "explanation": "Energy Star certified compact refrigerators use less electricity than standard ones. The Midea listing carries the mark. Check for the logo or the yearly kWh on the label."
+    "criterion": "Noise at night",
+    "explanation": "Compressors cycle, and a dorm or studio makes the click audible. The Upstreman lists 38 dB, the Frestec 37 dB and the Clickoods under 36 dB, which is near library level. Look for an actual decibel number, not the phrase whisper quiet, and compare it with the quiet room you will place it in."
   }
 ];
 
@@ -247,27 +243,27 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     "title": "Cooling range",
-    "description": "We compared the listed minimum and maximum temperatures."
+    "description": "We recorded each listed temperature range, such as 28.4F to 50F on the Frestec and 39F to 61F on the Clickoods, because under $150 a fridge that cannot reach 40F is a beverage cooler in practice. The range told us whether each pick suited food, drinks or both."
   },
   {
-    "title": "Size and capacity",
-    "description": "We compared cubic feet, dimensions and can capacity."
+    "title": "Efficiency",
+    "description": "We looked at the one Energy Star certified pick, the Midea, and at listed power figures for the rest. In this price tier a running cost difference of tens of kilowatt hours a year matters more than a feature, so we weighted it higher than in the under $50 tier."
   },
   {
-    "title": "Noise",
-    "description": "Listed decibel figures were compared."
+    "title": "Interior layout",
+    "description": "We compared shelf type, door storage and whether a 2 liter bottle fits, plus the 76 can and 126 can counts on the Erivess and Clickoods. A larger cubic foot number only counted if the layout, such as a door basket or can dispenser, made the space usable."
   },
   {
-    "title": "Price",
-    "description": "Every pick is $150 or less."
+    "title": "Placement and noise",
+    "description": "We checked reversible doors, flush back designs and noise ratings of 36 to 38 dB where listed. A compact fridge usually sits beside a bed or desk, so a clean fit against a wall and a low hum scored higher than raw capacity."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Size Needed",
-    "intro": "Pick a size first, then check dorm rules.",
+    "subheading": "By Primary Use",
+    "intro": "Seven picks cover three jobs: food storage, a small freezer box, and a drink display.",
     "table": {
       "headers": [
         "Your situation",
@@ -275,30 +271,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under a desk, one person",
-          "Upstreman 1.7 Cu Ft Mini Fridge with Freezer"
+          "General groceries and leftovers in a small apartment",
+          "Midea 1.7 Cu Ft Energy Star Mini Fridge, the efficiency pick with a reversible door"
         ],
         [
-          "Energy Star for a small room",
-          "Midea 1.7 Cu Ft Energy Star Mini Fridge"
+          "A bigger fridge with a chiller drawer for drinks and meat",
+          "Frigidaire 3.2 Cu Ft Mini Refrigerator, which adds a chiller and a flush back"
         ],
         [
-          "Bigger shared room",
-          "Frigidaire 3.2 Cu Ft Mini Refrigerator"
+          "Ice cubes or a single frozen meal alongside fresh food",
+          "Igloo 2.6 Cu Ft Mini Fridge with Freezer, the largest freezer-box model here"
         ],
         [
-          "Wants a freezer box",
-          "Igloo 2.6 Cu Ft Mini Fridge with Freezer"
+          "Quiet bedroom use with a freezer box",
+          "Frestec 1.7 Cu Ft Mini Fridge with Freezer, listed at 37 dB"
         ],
         [
-          "Tight budget",
-          "Frestec 1.7 Cu Ft Mini Fridge with Freezer"
+          "A drink wall for guests or a game room",
+          "Clickoods 3.3 Cu Ft Glass Door Beverage Fridge, holding 126 cans"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Roughly $90 to $150 covers every pick here, with big efficiency and size differences inside that band.",
     "table": {
       "headers": [
         "Price range",
@@ -306,48 +303,46 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "About $90",
-          "Frestec 1.7 Cu Ft Mini Fridge with Freezer"
+          "Around $90, the cheapest tier",
+          "Frestec 1.7 Cu Ft Mini Fridge with Freezer, or Erivess 1.7 Cu Ft Beverage Fridge if drinks are the priority"
         ],
         [
-          "About $90 (drinks only)",
-          "Erivess 1.7 Cu Ft 76 Can Beverage Fridge"
+          "Around $100",
+          "Upstreman 1.7 Cu Ft Mini Fridge with Freezer, with five temperature settings"
         ],
         [
-          "About $100",
-          "Upstreman 1.7 Cu Ft Mini Fridge with Freezer"
+          "Around $130",
+          "Clickoods 3.3 Cu Ft Glass Door Beverage Fridge, which is the most capacity per dollar"
         ],
         [
-          "$129 to $130",
-          "Clickoods 3.3 Cu Ft Glass Door Beverage Fridge"
+          "Around $140",
+          "Midea 1.7 Cu Ft Energy Star Mini Fridge for long-run electricity savings"
         ],
         [
-          "$139 to $140",
-          "Midea 1.7 Cu Ft Energy Star Mini Fridge"
-        ],
-        [
-          "$149 to $150",
-          "Frigidaire 3.2 Cu Ft Mini Refrigerator"
+          "Around $150, the top of this guide",
+          "Frigidaire 3.2 Cu Ft Mini Refrigerator or Igloo 2.6 Cu Ft Mini Fridge with Freezer for the largest food-focused interiors"
         ]
       ]
     }
   },
   {
-    "subheading": "Food Fridge vs Beverage Cooler",
+    "subheading": "Freezer Box vs No Freezer",
+    "intro": "A freezer box adds ice-making but takes shelf space and tightens the cold range.",
     "cards": [
       {
-        "label": "Food fridge",
-        "text": "Cools to a food safe range with a small freezer box. That is Midea 1.7 Cu Ft Energy Star Mini Fridge, Frigidaire 3.2 Cu Ft Mini Refrigerator, Igloo 2.6 Cu Ft Mini Fridge with Freezer, Upstreman 1.7 Cu Ft Mini Fridge with Freezer and Frestec 1.7 Cu Ft Mini Fridge with Freezer."
+        "label": "With a freezer box",
+        "text": "The Igloo 2.6 Cu Ft, Upstreman 1.7 Cu Ft and Frestec 1.7 Cu Ft models carve out a small evaporator shelf that holds ice and a frozen meal. It costs fridge volume and needs manual or one-touch defrosting."
       },
       {
-        "label": "Beverage cooler",
-        "text": "A compressor with a glass door and a warmer range for drinks. That is Erivess 1.7 Cu Ft 76 Can Beverage Fridge and Clickoods 3.3 Cu Ft Glass Door Beverage Fridge."
+        "label": "Without a freezer",
+        "text": "The Midea 1.7 Cu Ft, Frigidaire 3.2 Cu Ft, Erivess 1.7 Cu Ft and Clickoods 3.3 Cu Ft use the full interior for fresh food or drinks and are simpler to maintain, but cannot make ice or hold frozen food."
       }
     ],
-    "note": "Most students should buy a food fridge unless they only want drinks."
+    "note": "Most dorm and office buyers do better without a freezer box, so default to the Midea unless you specifically need ice."
   },
   {
-    "subheading": "Noise Sensitivity",
+    "subheading": "By Room and Space",
+    "intro": "Where the fridge sits decides which pick works.",
     "table": {
       "headers": [
         "Your concern",
@@ -355,47 +350,49 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Sleeping near the fridge",
-          "Clickoods 3.3 Cu Ft Glass Door Beverage Fridge"
+          "Tight spot against a wall or inside a cabinet gap",
+          "Frigidaire 3.2 Cu Ft Mini Refrigerator, whose flush back lets it sit closer to the wall"
         ],
         [
-          "Quiet bedroom fridge",
-          "Frestec 1.7 Cu Ft Mini Fridge with Freezer"
+          "Next to a bed where noise is a worry",
+          "Frestec 1.7 Cu Ft (37 dB) or Upstreman 1.7 Cu Ft (38 dB), the two with listed bedside-friendly numbers"
         ],
         [
-          "38 dB listed",
-          "Upstreman 1.7 Cu Ft Mini Fridge with Freezer"
+          "A living room where the fridge is on display",
+          "Clickoods 3.3 Cu Ft Glass Door Beverage Fridge, which doubles as a display case"
         ],
         [
-          "Energy Star low noise",
-          "Midea 1.7 Cu Ft Energy Star Mini Fridge"
+          "A small office stocked with cold drinks and lunch",
+          "Erivess 1.7 Cu Ft Beverage Fridge for 76 cans, or Midea 1.7 Cu Ft for mixed food"
         ]
       ]
     }
   },
   {
-    "subheading": "For Dorm Rooms Specifically",
+    "subheading": "For Students Sharing a Room Specifically",
+    "intro": "Shared rooms need low noise, a fair size and permission from housing.",
     "cards": [
       {
         "label": "Look for",
-        "text": "1.7 cubic feet or less, a clear noise rating and a reversible door."
+        "text": "A 1.7 cubic foot body, a reversible door, a listed decibel figure under 40 and an efficiency rating, since the fridge may run all year."
       },
       {
         "label": "In this comparison",
-        "text": "Upstreman 1.7 Cu Ft Mini Fridge with Freezer and Frestec 1.7 Cu Ft Mini Fridge with Freezer both list 37 to 38 dB and 1.7 cubic feet."
+        "text": "Midea 1.7 Cu Ft is the Energy Star option with a reversible door, and Frestec 1.7 Cu Ft adds a freezer box at 37 dB. Both stay within the typical 1.7 cubic foot size caps."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "Moving beyond $150 changes how much food fits, not just the sticker.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want Energy Star or more space. Midea 1.7 Cu Ft Energy Star Mini Fridge and Frigidaire 3.2 Cu Ft Mini Refrigerator give you that."
+        "text": "You want a separate freezer door or a 4 cubic foot interior. The under $300 guide adds true two-door units, which this list lacks beyond the Igloo 2.6 Cu Ft freezer box."
       },
       {
         "label": "Save if",
-        "text": "You want a basic dorm fridge. Frestec 1.7 Cu Ft Mini Fridge with Freezer is under $90 with a freezer box."
+        "text": "You mostly store drinks. Erivess 1.7 Cu Ft Beverage Fridge holds 76 cans at the lowest price tier here."
       }
     ]
   }
@@ -404,28 +401,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "What size mini fridge can I have in a dorm?",
-    "a": "It depends on the school. Some cap fridges under 3.8 cubic feet and others allow more, so check your housing page. The Midea and Upstreman at 1.7 cu ft are the safest fit, while the Frigidaire 3.2 may push limits."
+    "q": "Is the Midea Energy Star model worth it over cheaper picks?",
+    "a": "If the fridge will run all year, probably yes. An efficient compressor lowers the running cost each month, and the Midea also has a reversible door and a 2 liter bottle door shelf. If you rarely use the fridge, the Frestec or Upstreman give a freezer box for less."
   },
   {
-    "q": "Is a beverage fridge okay for food?",
-    "a": "Beverage coolers often run 37 to 61 degrees and are not meant for fresh meat or dairy. The Erivess (37F to 61F) and Clickoods (39F to 61F) are built for drinks, so keep perishables in a true fridge."
+    "q": "Can a freezer box in a one-door fridge keep ice cream hard?",
+    "a": "Usually not. The Frestec lists a range down to 28.4F, which freezes water slowly but sits above the 0F needed for ice cream. These boxes suit ice cubes and a frozen dinner for a day or two, so look at the minimum temperature on the listing."
   },
   {
-    "q": "Will a mini freezer hold ice cream?",
-    "a": "Usually not. Single door fridge freezers are small and may not stay cold enough. The Igloo 2.6 Cu Ft and Frestec 1.7 Cu Ft include freezer sections, so treat them as ice cube trays, not long-term freezing."
+    "q": "Which pick works as a drink fridge for a game room?",
+    "a": "The Clickoods Glass Door Beverage Fridge holds 126 cans and lists under 36 dB, so it suits a game room. The Erivess 76 can model costs less but holds fewer. Both list compressor cooling and a range that starts above 37F, so they are for drinks, not meat."
   },
   {
-    "q": "How much clearance does a mini fridge need?",
-    "a": "Manufacturers commonly ask for a few inches behind and on the sides. Check the manual. The Frigidaire 3.2 has a flush back design, which saves space behind, but it still needs airflow."
+    "q": "How much space should I leave around a 1.7 cubic foot fridge?",
+    "a": "Leave several inches behind and on the sides for airflow unless the manual says otherwise. The Frigidaire is flush back, which brings it closer to the wall, but the Upstreman is about 19 inches deep. Always check the manual and avoid enclosing it in a cabinet without vents."
   },
   {
-    "q": "Can I stack a microwave on top?",
-    "a": "Only if both manuals allow it and the fridge top can bear the weight. A small microwave on the Midea or Upstreman is tight, so check the load rating first."
+    "q": "Do I need to defrost these fridges?",
+    "a": "The Frestec has a one-touch defrost and the Erivess lists auto defrost. Others with a freezer box need manual defrosting, which means unplugging and emptying them when ice builds past a quarter inch. Frost buildup also lowers efficiency, so do not ignore it."
   },
   {
-    "q": "Is Energy Star worth it?",
-    "a": "It saves some electricity, which helps if you run it year round. The Midea 1.7 Cu Ft is the Energy Star pick here, and a reversible door makes it easier to place."
+    "q": "Will a fridge be loud in a small bedroom?",
+    "a": "Compressors cycle and clicks can be audible. The Upstreman at 38 dB, the Frestec at 37 dB and the Clickoods under 36 dB are listed as quiet, but listed figures are not measured in your room. Place it on a firm floor and away from the bed headboard to reduce vibration."
   }
 ];
 

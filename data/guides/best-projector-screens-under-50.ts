@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Backing Layer Technology", "description": "Compared black-backed contrast-improving screens against standard white-backed fabric." },
-  { "title": "Stand Inclusion and Stability", "description": "Checked which picks include a self-supporting tripod stand versus fabric-only mounting." },
-  { "title": "Fabric Maintenance", "description": "Compared washability and wrinkle resistance across all four picks." },
-  { "title": "Customer Support Policy", "description": "Compared stated support availability and replacement policies across the lineup." },
-  { "title": "Assembly Time and Tools", "description": "Compared stated setup time and tool requirements for stand-equipped picks." }
+  { "title": "Stand stability against wind", "description": "We looked at what keeps each freestanding frame upright. The tripod pick lists a water bag for ballast and the STWUI uses an all-iron bracket, and a 120 inch sail catches far more wind than a 100 inch one, so base design mattered more here than fabric size." },
+  { "title": "Black backing and light show-through", "description": "Both IOLIEO picks add a black backing layer. We treated that as a real picture feature, since a bare white cloth lets projector light pass through and washes out dark scenes, especially if a street lamp or porch light sits behind the screen." },
+  { "title": "Setup time without tools", "description": "We compared stated assembly effort, such as the STWUI's 9-minute no-tool build against sliding snap clips on the tripod pick. A screen you can raise in minutes gets used for spontaneous movie nights, while one that takes an afternoon ends up in the closet." },
+  { "title": "Front and rear projection support", "description": "We checked which listings state both front and rear projection, as the STWUI does with its elastic milk silk fabric. Rear projection lets you hide the projector behind the cloth for a cleaner outdoor setup, though it needs extra clearance behind the frame." },
+  { "title": "Fabric care and support", "description": "We compared washable or ironable fabric claims and the stated support policy, including the seven-day live US-based support on both IOLIEO listings. At this tier the cloth is the part that creases, so being able to wash or iron it counts." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "Moving from fabric-only to a frame means choosing how the screen stands, and a taller 120 inch image catches wind like a sail, so compare base design before comparing size.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Under $50 the gap between the cheapest backed screen and the priciest stand model is wide, so we mapped budget to what you give up, mainly ballast, backing layers, and projection modes.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Setup Location",
+    intro: "Light leak is the quieter issue here, since a plain white cloth glows from behind and flattens contrast whenever anything bright sits nearby.",
     table: {
       headers: ["Your setup location", "Recommended pick"],
       rows: [
@@ -153,7 +156,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a genuinely reinforced, stable tripod stand for outdoor use, where the Tripod Stand Washable pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want black-backing contrast benefits without needing a stand, where the IOLIEO 100 inch pick covers that for about $25 less." }
+      { label: "Save if", text: "You want black-backing contrast benefits without needing a stand, where the IOLIEO 100 inch pick covers that for under $30 less." }
     ],
   }
 ];
@@ -183,7 +186,7 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Does a black backing layer make the screen heavier or harder to fold than a standard fabric screen?", "a": "The black backing adds a thin additional layer to the fabric, but both IOLIEO picks are still described as foldable and machine washable, so the added layer doesn't meaningfully compromise portability or maintenance compared to standard fabric screens." },
-  { "q": "What's the most common mistake buyers make when choosing between a stand-equipped and wall-mounted screen at this tier?", "a": "Assuming a stand-equipped screen is always more convenient, when a wall-mounted black-backed screen like the IOLIEO picks can actually deliver better image contrast if you have a suitable mounting wall, making the choice depend on your specific setup location rather than convenience alone." },
+  { "q": "Does a black backing layer actually improve the picture?", "a": "It blocks light from passing through the cloth and from hitting it from behind, which keeps dark scenes darker when a lamp or street light is nearby. Both IOLIEO picks include it, while the STWUI relies on its milk silk fabric and rear-projection design instead." },
   { "q": "Is the Tripod Stand Washable pick worth it over the cheaper STWUI option?", "a": "Both include reinforced stands, so the choice mainly comes down to the snap-clip tensioning system on the Tripod Stand Washable pick versus the STWUI's specifically engineered chassis fix, with about a $10 price difference between them." },
   { "q": "How do I build a DIY frame for the IOLIEO screens using PVC pipes?", "a": "The listing doesn't include detailed DIY frame instructions, but general PVC pipe frame tutorials for projector screens are widely available online, and IOLIEO's live customer support can also provide guidance if you have specific questions about frame dimensions." },
   { "q": "Can the black-backed IOLIEO screens still be used for rear projection?", "a": "The black backing layer is specifically designed to block light from passing through, which means these screens are optimized for front projection only, so a screen without black backing, like the Mdbebbron pick from the lower tier, is the better choice if rear projection is needed." },

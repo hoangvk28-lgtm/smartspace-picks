@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31taEiXna7L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DD5FH26S?tag=deskfinds0d-20",
-    "description": "Cuisinart's Soho is a 1 liter double-wall kettle with a stainless interior, one-touch operation, auto shut-off with overheat and boil-dry protection, cord storage in the base and a limited 3 year warranty. The listing says it stays cool to the touch.\n\nIt is the most compact double-wall pick and carries a 3 year warranty, which COOKTRON does not state. It costs under $50, about $16 more than COOKTRON.\n\nChoose it for a small footprint and a longer warranty. The caveat is price, and noise is not described.",
+    "description": "Cuisinart's Soho is a 1 liter double-wall kettle with a stainless interior, one-touch operation, auto shut-off with overheat and boil-dry protection, cord storage in the base and a limited 3 year warranty. The listing says it stays cool to the touch.\n\nIt is the most compact double-wall pick and carries a 3 year warranty, which COOKTRON does not state. It costs under $50, under $20 more than COOKTRON.\n\nChoose it for a small footprint and a longer warranty. The caveat is price, and noise is not described.",
     "specs": [
       "1.0L, double wall",
       "Stainless interior",
@@ -181,7 +181,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Noise not claimed",
-      "Costs near $60"
+      "Costs under $65"
     ],
     "bestFor": "Pour-over with a gentler element"
   },
@@ -219,51 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Why noise claims are rare",
-    "explanation": "Kettle noise comes from the boil, the switch click and any beeper, and few makers publish a measurement. COOKTRON claims under 30 dB, but that is a seller figure. Treat any dB number as a lead, and read buyer feedback about noise."
+    "explanation": "Kettle noise comes from the boil, the switch click and any beeper, and few makers publish a measurement. COOKTRON claims under 30 dB, but that is a seller figure. Treat any dB number as a lead, and read buyer feedback about noise. Read buyer comments for words like click, rumble or beep, since those describe what you will hear better than any number."
   },
   {
     "criterion": "Double-wall construction",
-    "explanation": "A double wall insulates the water and can damp some boil sound, while keeping the exterior cool. COOKTRON, Yoochu, Cuisinart Soho and Mecity use it. Check whether the outer shell is stainless or plastic."
+    "explanation": "A double wall insulates the water and can damp some boil sound, while keeping the exterior cool. COOKTRON, Yoochu, Cuisinart Soho and Mecity use it. Check whether the outer shell is stainless or plastic. Open the listing photos: a stainless outer shell stays cool and rattles less than a thin plastic one, so tap or compare weight if specs are silent."
   },
   {
     "criterion": "Thermostat type",
-    "explanation": "A Strix thermostat is a well-known shut-off mechanism that clicks off at boil, while an electronic shut-off may add a beeper. COOKTRON and Cosori name Strix. Check if the listing mentions an audible indicator."
+    "explanation": "A Strix thermostat is a well-known shut-off mechanism that clicks off at boil, while an electronic shut-off may add a beeper. COOKTRON and Cosori name Strix. Check if the listing mentions an audible indicator. A beeper at shut-off can be louder than the boil itself in a quiet bedroom, so prefer a model that clicks off silently if you sleep nearby."
   },
   {
     "criterion": "Wattage and boil intensity",
-    "explanation": "Higher wattage boils faster and often rolls harder, while lower wattage runs gentler but longer. Epeios is 1200W and the 1.7 liter models are 1500W. Check wattage if noise and circuit load both matter."
+    "explanation": "Higher wattage boils faster and often rolls harder, while lower wattage runs gentler but longer. Epeios is 1200W and the 1.7 liter models are 1500W. Check wattage if noise and circuit load both matter. A 1500W kettle on a 15 amp circuit uses about 12.5 amps, which leaves little room for a space heater or hair dryer on the same breaker."
   },
   {
     "criterion": "Presets that skip a full boil",
-    "explanation": "If you do not need 212F, heating to a lower preset avoids the loud rolling stage. Mecity has six presets and Cosori's gooseneck five. Check the preset range for your drinks."
+    "explanation": "If you do not need 212F, heating to a lower preset avoids the loud rolling stage. Mecity has six presets and Cosori's gooseneck five. Check the preset range for your drinks. Check the bottom of the preset range too, since 140F to 175F covers most tea and coffee and keeps the water well below the loud stage."
   },
   {
     "criterion": "Interior materials",
-    "explanation": "Quiet kettles still need a plastic-free path, and plastic often hides in lids and indicators. Cosori's stainless model lists a plastic-free level indicator. Look for stainless on lid, spout and filter."
+    "explanation": "Quiet kettles still need a plastic-free path, and plastic often hides in lids and indicators. Cosori's stainless model lists a plastic-free level indicator. Look for stainless on lid, spout and filter. Grade 304 stainless is the usual food-contact spec, so look for that phrase on the lid, spout and filter and not just the body."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Noise evidence",
-    "description": "We looked for stated noise figures and flagged them as unverified, and compared design features that plausibly reduce sound."
+    "title": "Construction that dampens boil noise",
+    "description": "Noise comes mainly from bubbles forming and collapsing against the element, so we checked for double-wall bodies and stainless interiors on every listing. COOKTRON, Yoochu, Cuisinart Soho and Mecity all state a double wall, which insulates the water and keeps the shell cool, while the Cosori and Epeios models do not."
   },
   {
-    "title": "Construction",
-    "description": "Double-wall design, thermostat type and shell materials were compared."
+    "title": "Whether a noise number is actually offered",
+    "description": "No standard test exists for kettle loudness, so a decibel figure is a seller claim and not a verified measurement. COOKTRON is the only listing that states one (under 30 dB), and we treated it as a lead worth checking in buyer feedback, not as proof."
   },
   {
-    "title": "Features",
-    "description": "Presets, hold times and capacity were compared across the seven kettles."
+    "title": "Switch-off sound and boil intensity",
+    "description": "The click of a Strix thermostat and the beep of an electronic shut-off are separate noises from the boil. We noted which listings name Strix (COOKTRON, Cosori 1.7L) and which add presets, such as Mecity's six, since stopping below 212F skips the loudest rolling stage."
   },
   {
-    "title": "Materials",
-    "description": "Interior materials and plastic-contact claims were compared."
+    "title": "Plastic-free water path",
+    "description": "A quiet kettle is not much use if hot water touches plastic. We read each listing for stainless on the lid, spout and filter, and rewarded Cosori 1.7L and Yoochu for stating it, while COOKTRON's plastic outer shell cost it a little credit."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $30 to $70 were compared with documented features."
+    "title": "Capacity and warranty against the price",
+    "description": "A 1.7L kettle serves a household but a 0.8L to 1.0L model is plenty for one desk. We compared Cuisinart Soho's 3-year limited warranty against the under-$30 Yoochu to judge whether the extra cost buys real longevity."
   }
 ];
 
@@ -271,37 +271,39 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Where You Use It",
+    "intro": "A bedroom beside a sleeper needs a different kettle than a shared open office, so start with the room.",
     "table": {
       "headers": [
-        "Your situation",
+        "Where it will sit",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Bedroom or open office",
-          "COOKTRON 1.7L Quiet Double Wall Electric Kettle"
+          "Bedroom or open office where a stated quiet figure helps",
+          "COOKTRON 1.7L Quiet Double Wall is the only listing with a noise claim and also names a Strix thermostat and a double wall."
         ],
         [
-          "Small kitchen, longer warranty",
-          "Cuisinart Soho 1L Double Wall Electric Kettle"
+          "Small kitchen or dorm shelf, wants a longer warranty",
+          "Cuisinart Soho 1L Double Wall is the most compact double-wall option and carries a 3-year limited warranty."
         ],
         [
-          "Family kitchen with presets",
-          "Mecity 1.7L Touch Screen Stainless Kettle with Presets"
+          "Family kitchen that wants presets for tea and coffee",
+          "Mecity 1.7L Touch Screen has six presets, keep-warm and a double-wall stainless body."
         ],
         [
-          "Pour-over at a quiet desk",
-          "Epeios 0.9L Gooseneck Kettle with 1F Control"
+          "Quiet desk used for pour-over coffee",
+          "Epeios 0.9L Gooseneck has 1F steps, a brew timer and a 7 mm spout for slow, controlled pouring."
         ],
         [
-          "Plastic-free path, Strix shut-off",
-          "Cosori 1.7L Stainless Electric Kettle No Plastic Contact"
+          "Anyone who wants no plastic touching hot water",
+          "Cosori 1.7L Stainless lists a plastic-free spout, lid, filter and level indicator, with a Strix shut-off."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Price differences here mostly buy presets and warranty, not a quieter boil.",
     "table": {
       "headers": [
         "Price range",
@@ -309,65 +311,64 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $30",
-          "Yoochu 1.7L Double Wall Stainless Cool Touch Kettle"
+          "Under $30, cheapest sensible entry",
+          "Yoochu 1.7L Double Wall Stainless gives a full 1.7L, 304 stainless water parts and a wide opening at the lowest price here."
         ],
         [
-          "About $32 to $34",
-          "COOKTRON 1.7L Quiet Double Wall Electric Kettle"
+          "$30 to $35, with a noise claim",
+          "COOKTRON 1.7L Quiet Double Wall adds the only stated decibel figure and a Strix thermostat for a few dollars more."
         ],
         [
-          "About $50",
-          "Cuisinart Soho 1L Double Wall Electric Kettle"
+          "$45 to $55, compact and warrantied",
+          "Cuisinart Soho 1L Double Wall buys cord storage in the base and 3 years of cover."
         ],
         [
-          "About $59",
-          "Epeios 0.9L Gooseneck Kettle with 1F Control"
-        ],
-        [
-          "About $63",
-          "Cosori 0.8L Gooseneck Kettle with Temperature Control"
+          "$55 to $65, temperature control for coffee",
+          "Epeios 0.9L Gooseneck or Cosori 0.8L Gooseneck, the two precision pour-over kettles in this roundup."
         ]
       ]
-    }
+    },
+    "note": "Pay extra for control and warranty, not for a promise of silence that no listing can verify."
   },
   {
     "subheading": "Double Wall vs Single Wall Stainless",
+    "intro": "This is the one construction choice that changes both noise and how hot the outside gets.",
     "cards": [
       {
         "label": "Double wall",
-        "text": "A double wall insulates the water and keeps the outside cool, and may damp some boil sound. That covers COOKTRON 1.7L Quiet Double Wall Electric Kettle, Yoochu 1.7L Double Wall Stainless Cool Touch Kettle, Cuisinart Soho 1L Double Wall Electric Kettle and Mecity 1.7L Touch Screen Stainless Kettle with Presets."
+        "text": "A second wall traps heat, so the shell stays cool to touch and some boil sound is muffled. COOKTRON, Yoochu, Cuisinart Soho and Mecity all state it. The trade is slightly more weight and, on COOKTRON, a plastic outer shell."
       },
       {
         "label": "Single wall",
-        "text": "A single wall is simpler and sometimes cheaper, but the body is hotter to touch. That covers Cosori 1.7L Stainless Electric Kettle No Plastic Contact, Epeios 0.9L Gooseneck Kettle with 1F Control and Cosori 0.8L Gooseneck Kettle with Temperature Control, which do not state a double wall."
+        "text": "A single stainless layer is simpler and can be lighter, but the body gets hot enough to burn a brushing hand. Cosori 1.7L, Epeios and Cosori 0.8L Gooseneck do not state a double wall, so expect a hot exterior."
       }
     ],
-    "note": "Pick double wall if noise and a cool exterior both matter."
+    "note": "Default to double wall such as Yoochu unless you specifically need a gooseneck spout, where only single-wall options exist here."
   },
   {
     "subheading": "By Noise Strategy",
+    "intro": "Because no listing proves how loud it is, pick the tactic that fits how you use it.",
     "table": {
       "headers": [
-        "Your concern",
+        "Strategy",
         "Recommended pick"
       ],
       "rows": [
         [
-          "A stated quiet figure to check",
-          "COOKTRON 1.7L Quiet Double Wall Electric Kettle"
+          "Start from a stated figure and verify it in reviews",
+          "COOKTRON 1.7L Quiet Double Wall, claimed under 30 dB."
         ],
         [
-          "Avoid a full rolling boil with presets",
-          "Mecity 1.7L Touch Screen Stainless Kettle with Presets"
+          "Stop short of a rolling boil with a lower preset",
+          "Mecity 1.7L Touch Screen, with six presets and keep-warm."
         ],
         [
-          "Gentler 1200W element",
-          "Epeios 0.9L Gooseneck Kettle with 1F Control"
+          "Run a gentler element for smaller volumes",
+          "Epeios 0.9L Gooseneck, a 1200W element and brew timer, lower than the 1500W models."
         ],
         [
-          "Click shut-off with a Strix thermostat",
-          "Cosori 1.7L Stainless Electric Kettle No Plastic Contact"
+          "Accept a click but skip the beeper",
+          "Cosori 1.7L Stainless, which names a Strix thermostat that clicks off at boil."
         ]
       ]
     }
@@ -377,11 +378,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Look for",
-        "text": "A double wall, a thermostat type you can name, no beeper and buyer feedback that mentions noise. Fill only what you need."
+        "text": "A double wall, a thermostat type you can name, no beeper, a lid that seats firmly, and buyer comments that mention noise. Fill only what you need, since less water boils sooner."
       },
       {
         "label": "In this comparison",
-        "text": "COOKTRON 1.7L Quiet Double Wall Electric Kettle names a Strix thermostat and a double wall, and Cuisinart Soho 1L Double Wall Electric Kettle is the most compact double-wall option."
+        "text": "COOKTRON 1.7L Quiet Double Wall names Strix and a double wall and is the only one with a noise claim. Cuisinart Soho 1L Double Wall is the most compact double-wall pick for a small desk."
       }
     ]
   },
@@ -390,11 +391,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want presets, a timer or a longer warranty. Mecity 1.7L Touch Screen Stainless Kettle with Presets, Epeios 0.9L Gooseneck Kettle with 1F Control and Cuisinart Soho 1L Double Wall Electric Kettle add those."
+        "text": "You want presets, a hold timer or longer cover. Mecity 1.7L Touch Screen, Epeios 0.9L Gooseneck and Cuisinart Soho 1L Double Wall each add one of those over the under-$35 tier."
       },
       {
         "label": "Save if",
-        "text": "A plain double wall is enough. Yoochu 1.7L Double Wall Stainless Cool Touch Kettle and COOKTRON 1.7L Quiet Double Wall Electric Kettle cost about $30 to $34."
+        "text": "A plain double wall is enough. Yoochu 1.7L and COOKTRON 1.7L cover that for $30 to $35 between them, and neither is outclassed on noise by a pricier model."
       }
     ]
   }
@@ -403,28 +404,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Which kettle is actually the quietest?",
-    "a": "We cannot say from listings, since only COOKTRON states a figure and it is a seller claim. Look at buyer feedback about noise and choose a double wall as a starting point."
+    "q": "Is a double-wall kettle actually quieter?",
+    "a": "It can help, but not by a measured amount. The double wall insulates the water, which keeps the outside cool and can muffle some of the boil, yet no standard test publishes a decibel number for kettles. COOKTRON claims under 30 dB, a seller figure, so confirm it against buyer comments on noise."
   },
   {
-    "q": "Why is a kettle noisy?",
-    "a": "Most noise is the rolling boil, with extra from the switch click and any beeper. A lower preset or a gentler wattage reduces the roll."
+    "q": "Can I run a 1500W kettle on a shared circuit in a dorm or office?",
+    "a": "Usually, but watch what else is on it. A 1500W kettle such as COOKTRON, Yoochu or Mecity pulls roughly 12.5 amps at 120V, and a typical 15 amp circuit also runs lights and a monitor. If breakers trip, the 1200W Epeios or the 0.8L Cosori gooseneck draws less."
   },
   {
-    "q": "Is a double wall worth it over a single wall?",
-    "a": "It keeps the outside cool and may damp some sound, but it adds cost and a plastic shell on some models. It helps if kids or a small space are involved."
+    "q": "Does a lower preset make a kettle quieter?",
+    "a": "Often yes, because the loud rolling boil only happens near 212F. Mecity offers six presets and Cosori's 0.8L gooseneck five, so heating to 175F for green tea or 195F for pour-over stops well before the noisiest stage. Plain black tea or instant noodles still need a full boil."
   },
   {
-    "q": "Does a lower wattage mean quieter?",
-    "a": "Not guaranteed. A lower-wattage kettle boils more gently but longer. Epeios is 1200W against 1500W for the large models."
+    "q": "Is Cuisinart Soho worth it over the cheaper Yoochu?",
+    "a": "If you want a 1.0L body and a 3-year limited warranty, yes. Yoochu is the cheapest pick here and holds 1.7L with a stainless water path, so it wins on size per dollar. Soho's case is compactness and cover, not quieter operation, since neither listing states a noise figure."
   },
   {
-    "q": "Can I silence the beeper?",
-    "a": "Most kettles do not have a beeper setting. Check the listing for an audible indicator, and prefer Strix click-off models if sound matters."
+    "q": "What is the quietest way to run a kettle at night?",
+    "a": "Fill only what you need, since less water boils sooner and has less time to roll. Place the base on a soft mat, because a hard counter amplifies the click and rattle. A double-wall model like COOKTRON also avoids the hot-shell tick as it cools."
   },
   {
-    "q": "How do I descale a kettle?",
-    "a": "Boil diluted white vinegar, rinse well, and repeat in hard water areas. Scale can make a kettle louder."
+    "q": "How do I descale a stainless kettle without damaging it?",
+    "a": "Boil a half-and-half mix of water and white vinegar, let it sit 15 minutes, rinse and boil plain water twice. Models with a wide opening, like Yoochu, let you reach the walls. Scale on the element also makes boiling louder, so a monthly clean helps noise too."
   }
 ];
 

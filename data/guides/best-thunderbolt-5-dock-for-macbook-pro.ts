@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Per-Chip-Tier Display Documentation", "description": "Compared how specifically each listing documents display support by exact Apple Silicon chip tier." },
-  { "title": "Cooling Design", "description": "Compared fanless silent cooling against active fan-based thermal management." },
-  { "title": "Cross-Platform vs Mac-Exclusive", "description": "Compared docks working across Mac and Windows against Mac-only restricted designs." },
-  { "title": "Built-in Storage Constraints", "description": "Compared docks offering NVMe storage and any disclosed physical size limitations." },
-  { "title": "Real-World Transfer Speed", "description": "Compared concrete stated file transfer benchmarks against raw bandwidth figures alone." }
+  {
+    "title": "Display count by M-series chip",
+    "description": "We checked how each listing ties monitor counts to the exact MacBook Pro chip, because base M-series Macs drive one external display while Pro and Max chips drive more. The iVANKY page documented this by exact chip tier, which made it the easiest to verify before buying. Check Apple's chip page for your Mac too."
+  },
+  {
+    "title": "macOS display limits stated plainly",
+    "description": "We read whether the dock admits macOS-specific ceilings. CalDigit's TS5 Plus says macOS does not support triple displays whatever the chip, a caveat that would otherwise show up as a surprise after unboxing two 6K panels and a third monitor. Verify this before pairing a dock with a third monitor."
+  },
+  {
+    "title": "Charging for 16-inch models",
+    "description": "We compared upstream wattage against what a 16-inch MacBook Pro Max can draw. The 140W figure on CalDigit, Anker and iVANKY matters because a 100W dock leaves a heavily loaded Max chip slowly draining while rendering. Anything below that is a quiet downgrade for a 16-inch Max."
+  },
+  {
+    "title": "Thermal and noise behavior",
+    "description": "We looked for published thermal data, since a dock sits beside a laptop at a desk. iVANKY's fanless design lists a 49C maximum under a 12-hour full load, while UGREEN states a 60mm fan under 30dB. A silent dock still needs ventilation space on the desk."
+  },
+  {
+    "title": "Cross-platform versus Mac-only",
+    "description": "We weighed whether the dock also works if you swap in a Windows laptop. iVANKY's FusionDock Max 2 is Mac only and supports one Mac, while CalDigit and Anker cover both, which matters for shared or future-proof desks. Dock lock-in to one Mac is a real tradeoff at this price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The highest port count with genuine 10GbE networking", "CalDigit TS5 Plus Thunderbolt 5 Docking Station"],
-        ["Genuinely silent fanless cooling with detailed chip documentation", "iVANKY FusionDock Max 2, 23-in-1"],
-        ["Cross-platform Mac and Windows compatibility", "Anker Prime TB5 Docking Station, 14-in-1"],
-        ["Built-in NVMe storage at the lowest price", "UGREEN Maxidok Thunderbolt 5 Docking Station"]
+    "subheading": "By MacBook Pro Chip and Display Plan",
+    "intro": "Your chip sets the monitor ceiling before the dock does, so start there.",
+    "table": {
+      "headers": [
+        "Your plan",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A Max chip with two high-resolution external monitors",
+          "iVANKY FusionDock Max 2, whose display table is split by exact M-chip tier"
+        ],
+        [
+          "Dual 6K or dual 8K on a Mac that supports it",
+          "CalDigit TS5 Plus Thunderbolt 5 Docking Station, which lists both but excludes triple displays on macOS"
+        ],
+        [
+          "A single external monitor plus fast storage on a base-tier chip",
+          "UGREEN Maxidok Thunderbolt 5 Docking Station, whose NVMe slot takes drives up to 8TB"
+        ],
+        [
+          "One large monitor while you also move large project folders",
+          "Anker Prime TB5 Docking Station, which cites a 150GB copy in 25 seconds"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $370", "UGREEN Maxidok (under $400)"],
-        ["Under $400", "iVANKY FusionDock Max 2 or Anker Prime TB5 (both under $400)"],
-        ["Under $500", "CalDigit TS5 Plus (under $500)"]
+    "subheading": "By Budget",
+    "intro": "These docks span a wide price range, with UGREEN the cheapest here.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup, under $400",
+          "UGREEN Maxidok Thunderbolt 5 Docking Station, with a built-in NVMe slot"
+        ],
+        [
+          "A mid-range spend for fast copies and active cooling",
+          "Anker Prime TB5 Docking Station, with 14 ports in total"
+        ],
+        [
+          "A higher spend for silent operation on a Mac-only desk",
+          "iVANKY FusionDock Max 2, with 23 ports and a 24-month warranty"
+        ],
+        [
+          "The top of the range for 20 ports and 10GbE",
+          "CalDigit TS5 Plus Thunderbolt 5 Docking Station, with a 330W power supply"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Silent Fanless Cooling vs Active Fan Cooling",
-    cards: [
-      { label: "Silent fanless cooling (iVANKY)", text: "Uses aerospace-grade thermal materials and an aluminum chassis with no internal fan at all, disclosed to stay well below UL touch-temperature limits during sustained load." },
-      { label: "Active fan cooling (CalDigit, Anker, UGREEN)", text: "Uses internal fans to actively manage heat, generally supporting higher sustained power delivery across more total ports." }
+    "subheading": "Fanless Silence vs Active Cooling",
+    "intro": "Cooling design decides whether you hear the dock during long renders.",
+    "cards": [
+      {
+        "label": "Fanless (iVANKY FusionDock Max 2)",
+        "text": "A passive design means no fan noise in a quiet room, and the listing reports 49C at the hottest point after 12 hours of full load, so thermal data backs the claim."
+      },
+      {
+        "label": "Active fan (Anker Prime, UGREEN Maxidok)",
+        "text": "Anker cools actively under full load and UGREEN runs a 60mm fan under 30dB. A fan can handle more sustained wattage, at the cost of a faint sound."
+      }
     ],
-    note: "If a completely silent desk environment matters most, the iVANKY's fanless design is genuinely unique in this comparison. If you need the highest total port count and power delivery, the fan-cooled picks handle that more robustly.",
+    "note": "Most MacBook Pro owners should default to fanless unless they max out several ports for hours."
   },
   {
-    subheading: "By Your Exact Mac Chip Tier",
-    table: {
-      headers: ["Your Mac chip", "Recommended pick"],
-      rows: [
-        ["M1/M2/M3/M4 Max (triple display capable)", "iVANKY FusionDock Max 2"],
-        ["M4/M5 base or Pro chips (dual display)", "iVANKY FusionDock Max 2 or CalDigit TS5 Plus"],
-        ["M1/M2/M3 base chips (single display)", "Any pick works, but expect only one external display"]
+    "subheading": "By Peripheral Mix",
+    "intro": "The kinds of devices you plug in change the better fit more than the display count.",
+    "table": {
+      "headers": [
+        "Your desk mix",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wired 10GbE network plus a NAS or RAID array",
+          "CalDigit TS5 Plus Thunderbolt 5 Docking Station, whose 10GbE is ten times Gigabit Ethernet"
+        ],
+        [
+          "Several Thunderbolt 5 external drives",
+          "iVANKY FusionDock Max 2, with three Thunderbolt 5 ports at 120Gbps"
+        ],
+        [
+          "A single NVMe SSD with no separate enclosure",
+          "UGREEN Maxidok Thunderbolt 5 Docking Station, though it excludes some wide-heatsink SSDs"
+        ],
+        [
+          "Mostly SD cards, USB drives and a webcam",
+          "Anker Prime TB5 Docking Station, though its front USB-C ports share 45W"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Buyers Who Switch Between Multiple Macs Specifically",
-    cards: [
-      { label: "Look for", text: "A dock that doesn't explicitly restrict itself to a single paired Mac, since some Mac-exclusive docks are specifically locked and don't support switching between different Macs." },
-      { label: "In this comparison", text: "The iVANKY FusionDock Max 2 specifically states it is restricted to only one Mac and does not support switching between other Macs, a real limitation to check before purchase." }
-    ],
+    "subheading": "For Video Editors Specifically",
+    "intro": "Editors lose more time to slow copies and thermal throttling than to missing ports.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Documented transfer speed, 140W charging for a loaded 16-inch laptop, and stable temperatures that do not slow the dock down mid-export."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Anker Prime TB5 Docking Station states a 150GB copy in 25 seconds, and iVANKY FusionDock Max 2 pairs fanless cooling with disclosed thermal data."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the highest port count with dual USB controllers and genuine 10GbE networking, where the CalDigit TS5 Plus justifies its under $500 price." },
-      { label: "Save if", text: "You want built-in NVMe storage at the lowest price and your SSD's heatsink fits the disclosed width limit, where the UGREEN Maxidok delivers that for under $400." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Higher prices here buy ports and thermal headroom, not just brand.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You daily-drive a Max chip with a NAS on 10GbE, where CalDigit TS5 Plus at the top of the price range pays for 20 ports."
+      },
+      {
+        "label": "Save if",
+        "text": "You need a single NVMe slot and one monitor, where UGREEN Maxidok under $400 is the lowest price in this roundup with real Thunderbolt 5 bandwidth."
+      }
+    ]
   }
 ];
 
@@ -186,7 +272,7 @@ export const faq = [
   { "q": "What's the most common mistake buyers make when choosing a Thunderbolt 5 dock for MacBook Pro?", "a": "Assuming their MacBook Pro's dual-display or triple-display support is determined solely by the dock's rating, without checking their exact Mac chip tier (base, Pro, or Max), which independently caps the maximum number of external displays regardless of the dock's own capability." },
   { "q": "Is the CalDigit TS5 Plus worth the extra cost over the iVANKY FusionDock Max 2 if I only use one Mac?", "a": "If you exclusively use one Mac and value genuinely silent fanless operation, the iVANKY's detailed per-chip display documentation and quiet design may better suit your needs, but if you want the highest port count with 10GbE networking and Windows compatibility, the CalDigit TS5 Plus's higher price is justified." },
   { "q": "Can I install any M.2 NVMe SSD into the UGREEN Maxidok's storage slot?", "a": "Not any SSD; the listing specifically excludes SSDs with a heatsink wider than 24mm, explicitly naming the Seagate FireCuda 530, Samsung 9100 PRO, and certain WD_BLACK and Lexar models as incompatible, so checking your specific SSD's heatsink dimensions is essential before purchase." },
-  { "q": "How do I connect an HDMI monitor to the UGREEN Maxidok since its DP port doesn't support DP++?", "a": "The listing specifically states you'll need an active DP-to-HDMI adapter or cable, since passive adapters and cables will not work with this dock's DisplayPort output for HDMI monitor connections." },
+  { "q": "How do I connect an HDMI monitor to the UGREEN Maxidok since its DP port doesn't support DP++?", "a": "Use an active DisplayPort to HDMI adapter, since UGREEN's listing says the DP port requires an active adapter for HDMI monitors and a cheap passive cable will show no picture. If the monitor has a DisplayPort input, connect it directly and skip the adapter, and keep the adapter's maximum resolution and refresh rate in mind." },
   { "q": "Do these Thunderbolt 5 docks require the latest macOS version to work properly?", "a": "Checking each specific listing's minimum macOS version requirement is worth doing before purchase, since Thunderbolt 5 support and specific display or bandwidth features often require a recent macOS version to function as advertised." },
   { q: "Will a Thunderbolt 5 dock work with a MacBook Pro that only has Thunderbolt 4?", a: "Thunderbolt 5 is backward compatible, so it connects and works, but you get Thunderbolt 4 speeds. The extra bandwidth only helps on a Mac with Thunderbolt 5 ports." },
   { q: "How many displays can an M3 Max MacBook Pro drive through a dock?", a: "Apple lists up to four external displays for the M3 Max, up to two for the M3 Pro and the M4 Pro, and up to four for the M4 Max. A dock cannot exceed the chip's limit, so check Apple's spec page for your exact chip." },

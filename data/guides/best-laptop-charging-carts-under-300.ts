@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Lock Mechanism", "description": "Compared genuine locking cabinet doors against open-frame designs with only caster locks." },
-  { "title": "Device Capacity and Size Compatibility", "description": "Compared stated device counts and maximum supported screen sizes across the lineup." },
-  { "title": "Circuit and Power Safety", "description": "Checked for circuit breakers, grounding protection, and surge protection across all four picks." },
-  { "title": "Assembly and Support", "description": "Compared included assembly instructions, video guides, and manufacturer support availability." },
-  { "title": "Cable Management Design", "description": "Compared zig-zag frames, charger holders, and rear cable systems for organization." }
+  {
+    "title": "Lock points and who holds keys",
+    "description": "We checked how many lock points each cart offers, because a single latch on a 16-device unit is easier to defeat than the front and rear key locks on the 30-device models. In this under $300 tier we gave extra weight to carts that secure both access sides, since devices left overnight are the main reason schools buy a cart at all."
+  },
+  {
+    "title": "Device capacity against screen limit",
+    "description": "We compared the stated bay count with the maximum laptop size each cart accepts. Two 30-device carts here stop at 14 inch screens while the POCHAR 20-Device takes 15.6 inch machines, so a bigger headline number does not help if your fleet is larger than the bay allows."
+  },
+  {
+    "title": "Power distribution and breaker protection",
+    "description": "We looked for built-in outlet strips, circuit breakers and surge protection, because thirty chargers on one cord is a real overload risk. Carts that name a breaker or surge feature in the listing were scored above those that only say plug-and-play, and we noted which ones do not state any."
+  },
+  {
+    "title": "Ventilation and cable management",
+    "description": "We read each description for open airflow versus closed doors, and for slotted or zig-zag cable routing. Laptops charging in a sealed cabinet run warmer, so the open-frame POCHAR 20-Device earned credit for airflow while the locking cabinets earned credit for security, and we weighed that tradeoff openly."
+  },
+  {
+    "title": "Assembly effort and support",
+    "description": "Flat-pack carts arrive in many pieces, so we noted who includes assembly video, direct manufacturer contact or plug-and-play setup. For a school office without IT staff, the POCHAR 30 Unit support path and the VEVOR no-assembly claim mattered more than a slightly lower sticker price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +116,129 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Lock security with numbered slots for tracking", "Meteteel 30 Device Charging Cart"],
-        ["Direct manufacturer assembly support", "POCHAR 30 Unit Device Charging Station"],
-        ["Lock security and surge protection at lower capacity", "VEVOR 16 Device Charging Station with Lock and Key"],
-        ["Wider laptop compatibility up to 15.6 inches", "POCHAR 20-Device Laptop Charging Cart"]
+    "subheading": "By Primary Security Need",
+    "intro": "Start with what you are protecting and how many devices you must cover, because the lock design and bay count split these four carts cleanly.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Numbered bays so a teacher can tell at a glance which laptop is missing, with front and rear locks",
+          "Meteteel 30 Device Charging Cart, whose numbered slots make daily check-in quick for a full class set"
+        ],
+        [
+          "Same 30-device capacity and double locks, but with a manufacturer assembly video you can follow without IT help",
+          "POCHAR 30 Unit Device Charging Station, which trades slot numbering for documented setup support"
+        ],
+        [
+          "A lockable cart for a smaller group of 16 devices that arrives ready to plug in",
+          "VEVOR 16 Device Charging Station with Lock and Key, which skips heavy assembly and includes surge protection"
+        ],
+        [
+          "Bigger laptops that will not fit a 14 inch limit, with fast open access between classes",
+          "POCHAR 20-Device Laptop Charging Cart, which accepts up to 15.6 inch screens"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $230", "VEVOR (under $250)"],
-        ["Under $250", "POCHAR 20-Device (under $250)"],
-        ["Under $300", "Meteteel or POCHAR 30 Unit (both under $300)"]
+    "subheading": "By Budget Within This Tier",
+    "intro": "All four sit under $300, so the real question is what each step up buys you.",
+    "table": {
+      "headers": [
+        "Price bucket",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $230 and you only need to secure 16 devices",
+          "VEVOR 16 Device Charging Station, the cheapest lock-equipped cart in this group"
+        ],
+        [
+          "Under $250 with 20 larger laptops and no locking doors needed",
+          "POCHAR 20-Device Laptop Charging Cart, which saves money by skipping cabinet doors"
+        ],
+        [
+          "Under $300 and a full 30-device class set",
+          "Meteteel 30 Device cart, priced at the top of this tier for the numbered slots"
+        ],
+        [
+          "Under $300 and you want the same capacity with easier setup support",
+          "POCHAR 30 Unit cart, which matches the Meteteel on price but lacks slot numbers"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Locking Cabinet vs Open-Frame Design",
-    cards: [
-      { label: "Locking cabinet (Meteteel, POCHAR 30 Unit, VEVOR)", text: "Adds genuine key-lock security for devices left unattended, at the cost of slower access during frequent device swaps." },
-      { label: "Open-frame (POCHAR 20-Device)", text: "Prioritizes fast, unrestricted access and wider laptop compatibility over locked security." }
+    "subheading": "Locking Cabinet vs Open Frame",
+    "intro": "These two designs solve different problems, and most buyers should decide on whether the cart ever sits unattended.",
+    "cards": [
+      {
+        "label": "Locking cabinet (Meteteel, POCHAR 30 Unit, VEVOR)",
+        "text": "Closed doors with key locks keep devices secure overnight and block casual grabs, but airflow is limited to vents and loading a full set takes longer. The Meteteel and POCHAR 30 Unit lock front and rear, while the VEVOR has a single lock point."
+      },
+      {
+        "label": "Open frame (POCHAR 20-Device)",
+        "text": "Slots stay exposed, so devices cool better and students can swap laptops in seconds. The tradeoff is zero physical security unless you keep the cart in a locked room, and it holds 20 rather than 30."
+      }
     ],
-    note: "If your cart will sit unsupervised between uses, a locking cabinet pick like the Meteteel or POCHAR 30 Unit is worth the tradeoff. If speed of access and larger laptop compatibility matter more, the open-frame POCHAR 20-Device pick is the better fit.",
+    "note": "Default to a locking cabinet if the cart lives in a shared hallway or classroom, and choose the open POCHAR 20-Device only if the room itself locks."
   },
   {
-    subheading: "By Device Screen Size",
-    table: {
-      headers: ["Your device size", "Recommended pick"],
-      rows: [
-        ["Up to 14 inches", "Meteteel or POCHAR 30 Unit"],
-        ["Up to 15.6 inches", "POCHAR 20-Device or VEVOR"]
+    "subheading": "By Laptop Size",
+    "intro": "Screen size is the most common reason a cart gets returned, so match it before you match capacity.",
+    "table": {
+      "headers": [
+        "Your fleet",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "13 to 14 inch Chromebooks in a standard class set of up to 30",
+          "Meteteel 30 Device cart or POCHAR 30 Unit, both rated to 14 inches"
+        ],
+        [
+          "15.6 inch laptops that would be too wide for the 14 inch carts",
+          "POCHAR 20-Device cart, the only pick here rated to 15.6 inches"
+        ],
+        [
+          "A mixed lab of 16 or fewer devices that changes year to year",
+          "VEVOR 16 Device cart, where lower capacity matters less than flexibility"
+        ],
+        [
+          "Thicker laptops in cases, which eat slot width",
+          "POCHAR 20-Device cart, since open bays tolerate cases better than rigid slots"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For an Organization Without Dedicated IT Support Specifically",
-    cards: [
-      { label: "Look for", text: "A cart with a detailed assembly video and direct manufacturer support contact, since setup issues need to be resolved without in-house technical staff." },
-      { label: "In this comparison", text: "The POCHAR 30 Unit pick's assembly video and direct manufacturer support specifically address setup and troubleshooting without needing dedicated IT staff." }
-    ],
+    "subheading": "For an Organization Without Dedicated IT Support Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "An assembly video or direct manufacturer contact, a built-in breaker so a bad charger trips safely, and a plug-and-play power strip so no one has to wire anything."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The POCHAR 30 Unit pairs a breaker with a documented assembly video and manufacturer support, while the VEVOR arrives plug-and-play with surge protection for a smaller group."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need genuine 30-device lock security with numbered slots for daily tracking, where the Meteteel pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You need lock security and surge protection without 30-device capacity, where the VEVOR pick covers that for about $70 less." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need 30 secured devices with numbered bays and double locks, which is what the Meteteel offers. If you outgrow this tier, the under $500 carts add 32 to 36 bays and larger screen limits."
+      },
+      {
+        "label": "Save if",
+        "text": "Your group is 16 devices or fewer, in which case the VEVOR gives lock and surge protection at a noticeably lower price than the 30-device carts, or your room already locks and the open POCHAR 20-Device is enough."
+      }
+    ]
   }
 ];
 
@@ -181,12 +266,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the Meteteel or POCHAR 30-unit cart's locks be rekeyed if I lose the included keys?", "a": "Both include 2 keys per lock as standard, and while rekeying isn't typically a feature on budget carts at this price point, contacting the manufacturer directly for replacement keys is usually possible if you retain your order information." },
-  { "q": "What's the most common mistake buyers make when choosing a locking cart at this tier?", "a": "Assuming all 'lockable' carts offer equivalent security, when a front-and-rear dual-lock design like the Meteteel or POCHAR 30 Unit provides meaningfully more protection than a single lock point on a smaller cart like the VEVOR pick." },
-  { "q": "Is the Meteteel pick worth it over the same-priced POCHAR 30 Unit option?", "a": "Both match on price, capacity, and core lock security, so the choice mainly comes down to whether numbered slots for device tracking (Meteteel) or a detailed assembly video with direct support (POCHAR) matters more for your specific setup." },
-  { "q": "How do I know if my laptops will fit in a cart rated for 14-inch screens with 1.5-inch thickness?", "a": "Measure your laptop's actual screen diagonal and total thickness including any case, since a device that measures slightly over the stated thickness limit due to a protective case may not fit properly in the slot." },
-  { "q": "Do these carts need to be plugged into more than one wall outlet?", "a": "No, all four picks in this comparison use a single integrated power strip that distributes charging to all device slots from one standard wall outlet connection." },
-  { "q": "Can the POCHAR 20-Device cart's open-frame design still be secured at all, or is it completely unlocked?", "a": "It relies on locking casters to keep the cart itself in place rather than a locking cabinet door, so if device-level security matters more than cart-position security, one of the locking cabinet picks in this tier is the better choice." }
+  {
+    "q": "Can a locking cart like the Meteteel be used with 15 inch laptops?",
+    "a": "Not safely. The Meteteel and POCHAR 30 Unit are listed for screens up to 14 inches, so a 15.6 inch laptop will not seat properly in the slots. Choose the POCHAR 20-Device cart, which lists 15.6 inch support, and check your laptop width including any case."
+  },
+  {
+    "q": "What is the biggest mistake when buying a cart at this price?",
+    "a": "Counting bays without checking screen size. A 30-bay label means nothing if your machines are 15.6 inches and the slots stop at 14. Measure your largest laptop with its case and compare it to the listed slot width before ordering."
+  },
+  {
+    "q": "Is the Meteteel worth it over the POCHAR 30 Unit?",
+    "a": "They sit at the same price with the same 30-device capacity and double locks. Choose the Meteteel if numbered slots will help you track devices daily, and the POCHAR 30 Unit if the assembly video and manufacturer support matter more to your team."
+  },
+  {
+    "q": "How hard is it to assemble one of these carts?",
+    "a": "Most 30-device carts arrive flat and need an hour or more with a screwdriver and a second person. The Meteteel includes instructions and the POCHAR 30 Unit adds an assembly video, while the VEVOR is described as plug-and-play with almost no setup."
+  },
+  {
+    "q": "Does a cart with thirty chargers need its own wall outlet?",
+    "a": "Plan on one dedicated outlet. The 30-device carts use a built-in outlet strip with a circuit breaker, but daisy-chaining it through another power strip defeats the protection. Confirm your wall circuit can handle the combined adapter load."
+  },
+  {
+    "q": "Is the open-frame POCHAR 20-Device cart a security risk?",
+    "a": "It has no locking doors, so it relies on the room being secure. Its upside is airflow and faster swaps. If devices sit in an unlocked hallway overnight, choose a locking cabinet instead, or bolt the cart in a locked storage space."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

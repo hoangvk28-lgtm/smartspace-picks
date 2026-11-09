@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41TozfOUChL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B076JCYJKZ?tag=deskfinds0d-20",
-    "description": "The MF-2320M shares the 12V 20W carbon fiber platform with a stated far infrared wavelength of 8 to 15 micrometers, green and red LED level lights and a 2 hour auto-off. The cable and heating elements detach from the shoes.\n\nIt is the priciest pair at under $80 and sells by size, with the listing's Size M fitting feet up to size 41. Against the MF-2010N, you pay about $20 more for a size-based fit and detachable elements, not extra heat.\n\nChoose it if you need a sized fit or want elements you can remove. The caveat is cost, and the listing's health-range wording is marketing we did not weigh.",
+    "description": "The MF-2320M shares the 12V 20W carbon fiber platform with a stated far infrared wavelength of 8 to 15 micrometers, green and red LED level lights and a 2 hour auto-off. The cable and heating elements detach from the shoes.\n\nIt is the priciest pair at under $80 and sells by size, with the listing's Size M fitting feet up to size 41. Against the MF-2010N, you pay under $25 more for a size-based fit and detachable elements, not extra heat.\n\nChoose it if you need a sized fit or want elements you can remove. The caveat is cost, and the listing's health-range wording is marketing we did not weigh.",
     "specs": [
       "12V 2A, 20W",
       "8 to 15 micrometer infrared",
@@ -68,7 +68,7 @@ export const products: GuideProduct[] = [
       "Two-piece boots move easily"
     ],
     "cons": [
-      "About $20 more than MF-2010N",
+      "Under $25 more than MF-2010N",
       "Health claims in listing unreliable"
     ],
     "bestFor": "Buyers who want a sized, detachable pair"
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41lixtWpJ6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HMLLB3T2?tag=deskfinds0d-20",
-    "description": "FRJINIE has a built-in rechargeable battery, carbon fiber panels over the sole and the top of the foot, three heat levels on one button and an automatic shut-off. The knitted upper has a plush removable lining that can be washed.\n\nIt is the only cordless pair here and it costs about $1 more than LGCTION. The listing gives no capacity, runtime or temperature range, which weakens comparison with ObboMed.\n\nBest for walking around the house with some heat. The caveat is that missing battery data, so treat runtime as unknown, and confirm the auto-off time with the seller.",
+    "description": "FRJINIE has a built-in rechargeable battery, carbon fiber panels over the sole and the top of the foot, three heat levels on one button and an automatic shut-off. The knitted upper has a plush removable lining that can be washed.\n\nIt is the only cordless pair here and it costs under $10 more than LGCTION. The listing gives no capacity, runtime or temperature range, which weakens comparison with ObboMed.\n\nBest for walking around the house with some heat. The caveat is that missing battery data, so treat runtime as unknown, and confirm the auto-off time with the seller.",
     "specs": [
       "Built-in rechargeable battery",
       "3 heat levels, one button",
@@ -195,47 +195,47 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Voltage and power source",
-    "explanation": "A 12V adapter, a 5V USB source and a built-in battery each give different heat and mobility. The 12V ObboMed reaches 140F, the USB model only 109F. Match the source to where you sit, and note whether the adapter ships with the product."
+    "explanation": "A 12V adapter, a 5V USB source and a built-in battery each give different heat and mobility. The 12V ObboMed reaches 140F, the USB model only 109F. Match the source to where you sit, and note whether the adapter ships with the product. Do not plug a 5V USB product into a 12V supply, since the voltage mismatch can destroy the element."
   },
   {
     "criterion": "Temperature ceiling and warm-up",
-    "explanation": "Infrared elements often take minutes to feel warm, which surprises buyers expecting instant heat. ObboMed says 5 to 10 minutes and PWTEK says wait ten minutes. Check the stated ceiling in degrees and plan for a warm-up before sitting down."
+    "explanation": "Infrared elements often take minutes to feel warm, which surprises buyers expecting instant heat. ObboMed says 5 to 10 minutes and PWTEK says wait ten minutes. Check the stated ceiling in degrees and plan for a warm-up before sitting down. A ceiling of 140F is plenty for socks, while 109F is a gentle warmth that suits long sessions."
   },
   {
     "criterion": "Timer versus fixed cutoff",
-    "explanation": "A timer menu lets you match the heat to a work block, while a fixed cutoff does not. LGCTION offers 60, 90 or 120 minutes and PWTEK 30 to 240, while ObboMed stops at 2 hours. Find the stated numbers in the bullets."
+    "explanation": "A timer menu lets you match the heat to a work block, while a fixed cutoff does not. LGCTION offers 60, 90 or 120 minutes and PWTEK 30 to 240, while ObboMed stops at 2 hours. Find the stated numbers in the bullets. A fixed 2 hour cutoff works for a work block, but a 30 minute step is better if you doze at the desk."
   },
   {
     "criterion": "Wearable boots versus floor pads",
-    "explanation": "Boots keep heat on the foot as you move, while a pad like PWTEK needs you to sit still. Wearing a corded boot limits how far you can walk. Check whether the listing says two-piece boots and mobility, or describes a pad."
+    "explanation": "Boots keep heat on the foot as you move, while a pad like PWTEK needs you to sit still. Wearing a corded boot limits how far you can walk. Check whether the listing says two-piece boots and mobility, or describes a pad. A pad also loses heat to the floor when you rest your feet on it, so a mat with rubber backing helps."
   },
   {
     "criterion": "Washing and element removal",
-    "explanation": "The heating element must be taken out before washing any fabric. LGCTION and ObboMed describe removable pads or linings, while others are silent. Read the care bullet carefully before getting any controller wet."
+    "explanation": "The heating element must be taken out before washing any fabric. LGCTION and ObboMed describe removable pads or linings, while others are silent. Read the care bullet carefully before getting any controller wet. Look for the words removable lining or detachable element, since a sealed boot can only be spot cleaned."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Heat and power",
-    "description": "We compared voltage, wattage, temperature ceilings and warm-up times as stated in each listing."
+    "title": "Element type and stated wavelength",
+    "description": "Infrared is a broad label, so we looked for evidence behind it. ObboMed lists 8 to 15 micrometers for its carbon fiber boots, while others use the word only. A named element and a wavelength let you judge the claim, and benefit claims about circulation counted for nothing in our scoring."
   },
   {
-    "title": "Timer and shut-off",
-    "description": "Auto-off durations, timer menus and thermostat protection were weighed above wellness wording."
+    "title": "Power source against where you sit",
+    "description": "A 12V ObboMed reaches 140F, but its USB sibling tops out near 109F, and FRJINIE runs from a built-in battery. We matched each source to a real situation: a corded desk, a laptop port, a power bank or a cordless walk, and noted whether an adapter is actually included."
   },
   {
-    "title": "Form factor",
-    "description": "Boots, slippers and pads were compared for mobility, fit and sizing information."
+    "title": "Warm-up time and timer range",
+    "description": "Infrared elements often take 5 to 10 minutes to feel warm, which surprises buyers expecting instant heat. We checked stated warm-up and cutoffs, from ObboMed's fixed 2 hours to PWTEK's selectable 30 to 240 minutes, since an unattended heater with no timer is a poor fit."
   },
   {
-    "title": "Cleaning",
-    "description": "We noted removable linings and heating pads and any washing warnings."
+    "title": "Form factor and mobility",
+    "description": "Boots keep heat on the foot as you move, while a pad like PWTEK's 35 jade stone mat needs you to sit still. We also weighed corded boots against cordless FRJINIE, because a cable limits how far you can walk to a printer without unplugging."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $30 to $80 were compared against what each listing documents."
+    "title": "Cleaning and value",
+    "description": "The element must come out before washing, and LGCTION, FRJINIE and ObboMed describe removable pads or linings. Value was judged by what each listing documents, so the two sub-$30 slippers were credited for their timers and washing notes, not for any extra benefit."
   }
 ];
 
@@ -285,19 +285,19 @@ export const howToChoose: HowToChooseSection[] = [
           "PWTEK Natural Jade Infrared Heated Foot Warmer Pad"
         ],
         [
-          "About $28",
+          "Under $30",
           "LGCTION USB Far Infrared Electric Heated Slippers"
         ],
         [
-          "About $29",
+          "Under $30",
           "FRJINIE Cordless Carbon Fiber Heated Slippers"
         ],
         [
-          "About $60",
+          "Under $75",
           "ObboMed MF-2010N Far Infrared Heated Foot Warmer Boots"
         ],
         [
-          "About $80",
+          "Under $100",
           "ObboMed MF-2320M Far Infrared Carbon Fiber Heated Boots"
         ]
       ]
@@ -376,27 +376,27 @@ export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
     "q": "Is infrared heat better than regular heat for feet?",
-    "a": "Not in a way you can verify from a listing. Infrared is a radiant method, and the practical differences come from wattage, temperature and timers. Judge by the stated numbers."
+    "a": "It feels different, not proven superior. Infrared warms objects directly instead of the air, and almost any heating element gives off some of it, so the word alone is not a grade. We looked for named elements and wavelengths, such as ObboMed's 8 to 15 micrometers, and ignored health claims."
   },
   {
     "q": "Why does my infrared warmer take so long to feel warm?",
-    "a": "ObboMed states 5 to 10 minutes and PWTEK about ten, because the element builds heat gradually. Switch it on before you sit down."
+    "a": "Many elements need a few minutes. ObboMed describes a 5 to 10 minute warm-up and PWTEK suggests about ten, because the carbon fiber or stone has to heat up first. Switch it on before you sit down, and do not turn it to the highest setting just because the first minute feels mild."
   },
   {
     "q": "Can I run ObboMed boots from a car?",
-    "a": "The listing says there is no car lighter plug, and the adapter is for AC mains. Do not improvise a power source."
+    "a": "Check the model. The MF-2010N and MF-2320M are 12V products, which is the same nominal voltage as a car socket, but the listing must say a car adapter is supported before you try it. The USB MF-2305L is 5V and should not be wired into a 12V source."
   },
   {
     "q": "Are jade pads worth it over boots?",
-    "a": "Only for a floor pad with long timers. The jade wording is promotional, and boots like ObboMed stay on the foot as you move."
+    "a": "Only if you sit still. PWTEK's pad has 35 jade stones and a 30 to 240 minute timer, and it costs far less than the 12V ObboMed boots. But boots cover the foot and ankle, so for a drafty office with cold ankles, the ObboMed MF-2010N covers more."
   },
   {
     "q": "How should I wash an infrared slipper?",
-    "a": "Remove the heating pad or element first. LGCTION and ObboMed describe removable parts, and you should keep controllers and cables dry."
+    "a": "Remove the heating pad or lining first. LGCTION and FRJINIE describe a removable heating element, and ObboMed lists a hand washable fleece lining. Never soak the controller or cable, and dry everything flat before you reassemble and plug in, since moisture on the element is a safety problem."
   },
   {
     "q": "Can infrared warmers treat arthritis or poor circulation?",
-    "a": "No. These are comfort products and not medical devices. Listings that claim joint or circulation relief are making claims we do not rely on, and anyone with reduced sensation should ask a doctor first."
+    "a": "We make no medical claim, and none of the listings here should be treated as treatment. A warm foot can feel comfortable, but diabetes and nerve problems reduce your ability to feel burns. Keep to low settings, wear socks, and check with a doctor before regular use."
   }
 ];
 

@@ -191,47 +191,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Power source and amperage",
-    "explanation": "A USB port supplies a small, limited current, and a warmer that wants more than your port gives will run cooler than advertised. comfheat's listing recommends a 2A adapter or power bank. Check the amps on your adapter's label, and use a wall adapter if the listing names one."
+    "explanation": "A USB port supplies a small, limited current, and a warmer that wants more than your port gives will run cooler than advertised. comfheat's listing recommends a 2A adapter or power bank. Check the amps on your adapter's label, and use a wall adapter if the listing names one. Look for a stated amp figure on the listing, since an unlisted draw is a warning that a weak port may only produce lukewarm heat."
   },
   {
     "criterion": "Auto-off and manual limits",
-    "explanation": "Without a timer, a heater keeps running until you notice. Most picks here cut off at 45 minutes, Catalonia offers 15, 30 or 60, and PENINSULA LOVE has no auto-off at all. Look for a stated auto-off in the bullets, and if there is none, set your own reminder."
+    "explanation": "Without a timer, a heater keeps running until you notice. Most picks here cut off at 45 minutes, Catalonia offers 15, 30 or 60, and PENINSULA LOVE has no auto-off at all. Look for a stated auto-off in the bullets, and if there is none, set your own reminder. A fixed 45 minute shut-off suits office work, while a 60 minute option fits a long phone call, so match the limit to how often you sit still."
   },
   {
     "criterion": "Heat range you can verify",
-    "explanation": "A numeric range tells you what the warmer can do, while a mode name does not. comfheat lists 94, 122 and 135F, whereas some picks only show light colors. Look for temperatures in degrees before you buy."
+    "explanation": "A numeric range tells you what the warmer can do, while a mode name does not. comfheat lists 94, 122 and 135F, whereas some picks only show light colors. Look for temperatures in degrees before you buy. A figure like 94F to 135F lets you compare models, while the word warm tells you nothing, and the top of the range matters most for sensitive feet."
   },
   {
     "criterion": "Cord length and storage",
-    "explanation": "A USB cord must reach a port, which may be at the back of your PC. comfheat has 5.9 feet and MYDAYS includes a 1.5 meter extension. Measure from your port to the foot position."
+    "explanation": "A USB cord must reach a port, which may be at the back of your PC. comfheat has 5.9 feet and MYDAYS includes a 1.5 meter extension. Measure from your port to the foot position. At 5.9 feet like comfheat, a cord reaches a floor outlet from a desk, while a shorter built-in cord only reaches a laptop port."
   },
   {
     "criterion": "Washability and covers",
-    "explanation": "Foot pouches pick up sweat and dust. MYDAYS and PENINSULA LOVE have removable covers. Check whether the cord or controller must be unplugged before washing."
+    "explanation": "Foot pouches pick up sweat and dust. MYDAYS and PENINSULA LOVE have removable covers. Check whether the cord or controller must be unplugged before washing. A zip-off cover, as on PENINSULA LOVE, lets you wash sweat and dust, and stops the lining from holding odor after a few weeks of daily use."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Power requirements",
-    "description": "We noted what each listing says about USB adapters, power banks and amperage."
+    "title": "Power draw and port compatibility",
+    "description": "Most listings give little power detail, but comfheat says it needs a 2A source and PENINSULA LOVE lists 5V USB. We judged each pick on whether it states its draw, since a weak laptop port cannot run a heater and a 2A wall adapter or power bank usually can. A listing with no draw at all got no credit here."
   },
   {
-    "title": "Auto-off behavior",
-    "description": "Timer options and the presence of any cutoff were weighed heavily, since USB heaters are often left running."
+    "title": "Auto-off and manual limits",
+    "description": "Catalonia gives 15, 30 or 60 minute timers, while comfheat and both lomitech models fix a 45 minute cutoff. PENINSULA LOVE has no auto power-off and recommends using it for 30 minutes, so we counted that against it for a desk you leave. The longest cutoff is not the best when you leave the desk."
   },
   {
-    "title": "Documented heat range",
-    "description": "Listings with real temperatures were preferred over those with only mode names."
+    "title": "Heat range you can check",
+    "description": "Only comfheat (94F, 122F, 135F) and PENINSULA LOVE (104F to 122F) publish degrees. We favored them over the lomitech and Catalonia listings, which only say three levels, because a number tells you whether a foot warmer will feel gentle or hot. A foot warmer that tops at 122F is gentler than one reaching 135F."
   },
   {
-    "title": "Cord and portability",
-    "description": "Cord length, built-in storage and power bank pockets were compared."
+    "title": "Foot space and design",
+    "description": "Catalonia and lomitech Large list roomy pockets, MYDAYS converts to a 40 by 38 inch pad, and PENINSULA LOVE has an 11.4 by 11 inch pocket. We checked whether the shape fits under a real desk with room for a chair. Pocket shape also affects how easily a foot slides in and out."
   },
   {
-    "title": "Value for price",
-    "description": "Prices were weighed against what each listing documents."
+    "title": "Washability and cord handling",
+    "description": "Lomitech models store the cord inside the unit and comfheat offers a 5.9 foot cord, while PENINSULA LOVE has a zip-off cover. We rewarded designs that let you clean the fabric without wetting the heating parts. A cover you cannot remove was marked down."
   }
 ];
 
@@ -239,33 +239,39 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Power Source",
+    "intro": "The power source decides whether the heater actually gets warm.",
     "table": {
       "headers": [
-        "Your situation",
+        "Your setup",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Laptop port, short sessions",
-          "Catalonia USB Heated Foot Warmer"
+          "Wall adapter or 2A bank, stated draw",
+          "comfheat USB Heated Foot Warmer with Vibration lists a 2A source and real temperatures."
         ],
         [
-          "Using a power bank on the go",
-          "MYDAYS OUTDOOR 2-in-1 USB Foot Warmer and Seat Cushion"
+          "Power bank in a bag or pocket",
+          "MYDAYS OUTDOOR 2-in-1 has a pocket that holds a power bank and a 1.5 meter extension cord."
         ],
         [
-          "Have a 2A wall adapter free",
-          "comfheat USB Heated Foot Warmer with Vibration"
+          "Laptop USB port only",
+          "PENINSULA LOVE USB Heated Foot Cover lists 5V USB and a 104F to 122F range, the gentlest option."
         ],
         [
-          "Port is far from your feet",
-          "comfheat USB Heated Foot Warmer with Vibration"
+          "Built-in cord, no spare cable",
+          "lomitech USB Foot Warmer with Massage stores its cord inside the unit."
+        ],
+        [
+          "Family with kids",
+          "Catalonia USB Heated Foot Warmer comes in adult and kids sizes."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "The cheapest pick omits a timer, so cost shows up in control.",
     "table": {
       "headers": [
         "Price range",
@@ -273,65 +279,67 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $20",
-          "PENINSULA LOVE USB Heated Foot Cover"
+          "Under $20, cheapest",
+          "PENINSULA LOVE USB Heated Foot Cover, with no auto power-off."
         ],
         [
-          "$30 to $34",
-          "lomitech USB Large Foot Warmer"
+          "$30 to $34, roomy pocket",
+          "lomitech USB Large Foot Warmer, 3 heat modes and a 45 minute auto-off."
         ],
         [
-          "$33 to $34",
-          "lomitech USB Foot Warmer with Massage"
+          "$33 to $34, heat plus vibration",
+          "lomitech USB Foot Warmer with Massage."
         ],
         [
-          "$35 to $37",
-          "Catalonia USB Heated Foot Warmer"
+          "$35 to $37, flexible timer",
+          "Catalonia USB Heated Foot Warmer with 15, 30 or 60 minute choices."
         ],
         [
-          "Above $40",
-          "MYDAYS OUTDOOR 2-in-1 USB Foot Warmer and Seat Cushion"
+          "Above $40, doubles as seat pad",
+          "MYDAYS OUTDOOR 2-in-1 USB Foot Warmer and Seat Cushion."
         ]
       ]
     }
   },
   {
     "subheading": "Plain Heat vs Heat and Vibration",
+    "intro": "Vibration adds cost and a second power draw without making feet warmer.",
     "cards": [
       {
         "label": "Plain heat",
-        "text": "All of the power goes to warming, which suits a weak USB source. Picks: Catalonia USB Heated Foot Warmer, lomitech USB Large Foot Warmer and PENINSULA LOVE USB Heated Foot Cover."
+        "text": "Simpler and cheaper, with a lighter draw on a USB source. Catalonia, lomitech Large and PENINSULA LOVE all deliver heat only, and Catalonia adds the most flexible timer."
       },
       {
         "label": "Heat and vibration",
-        "text": "A small motor shares the power budget with the heater, which can run cooler on a weak port. Picks: comfheat USB Heated Foot Warmer with Vibration and lomitech USB Foot Warmer with Massage."
+        "text": "comfheat and lomitech Foot Warmer with Massage add vibration modes, which feels pleasant but needs a stronger 2A source per comfheat's listing and costs more."
       }
     ],
-    "note": "If you will use a laptop port, default to plain heat."
+    "note": "Most buyers should pick plain heat such as Catalonia unless they specifically want the massage."
   },
   {
     "subheading": "Cable Handling",
+    "intro": "A cord that does not reach is the most common returns reason for desk heaters.",
     "table": {
       "headers": [
-        "Your concern",
+        "Cable concern",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Lose cables often",
-          "lomitech USB Foot Warmer with Massage"
+          "Cord storage inside the unit",
+          "lomitech USB Foot Warmer with Massage and lomitech USB Large both store the cord."
         ],
         [
-          "Need extra cord length",
-          "MYDAYS OUTDOOR 2-in-1 USB Foot Warmer and Seat Cushion"
+          "Longest cord, 5.9 feet",
+          "comfheat USB Heated Foot Warmer with Vibration."
         ],
         [
-          "Want longest built cord",
-          "comfheat USB Heated Foot Warmer with Vibration"
+          "Extension cord included",
+          "MYDAYS OUTDOOR 2-in-1, with a 1.5 meter extension."
         ],
         [
-          "Want simple storage pocket",
-          "lomitech USB Large Foot Warmer"
+          "Short cord, laptop port only",
+          "PENINSULA LOVE USB Heated Foot Cover, best near a computer."
         ]
       ]
     }
@@ -341,11 +349,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Look for",
-        "text": "A clear auto-off, low or mid heat levels and a cord that reaches a port without straining the connector."
+        "text": "A stated 5V rating, a heat range that does not demand a wall adapter, and an auto-off so it stops when the laptop sleeps."
       },
       {
         "label": "In this comparison",
-        "text": "Catalonia USB Heated Foot Warmer offers 15, 30 and 60 minute timers, and comfheat USB Heated Foot Warmer with Vibration lists a 45 minute auto-off and a 5.9 foot cord."
+        "text": "PENINSULA LOVE USB Heated Foot Cover lists 5V and 104F to 122F, the mildest for a laptop port. comfheat needs a 2A source, so pair it with a wall adapter."
       }
     ]
   },
@@ -354,11 +362,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want timers, versatility or a power bank pocket. Catalonia USB Heated Foot Warmer and MYDAYS OUTDOOR 2-in-1 USB Foot Warmer and Seat Cushion justify the difference."
+        "text": "You want a flexible timer or a second use. Catalonia USB Heated Foot Warmer and MYDAYS 2-in-1 sit at the top of the $35 to $40 range."
       },
       {
         "label": "Save if",
-        "text": "You only need a short warm-up. PENINSULA LOVE USB Heated Foot Cover and lomitech USB Large Foot Warmer are enough."
+        "text": "You only need gentle warmth and will switch it off yourself. PENINSULA LOVE costs under $20 and warms to 122F."
       }
     ]
   }
@@ -367,28 +375,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can I plug a USB foot warmer into my laptop?",
-    "a": "Usually yes, but a laptop port supplies limited current, so the warmer may run cooler than from a wall adapter. Check the listing for the recommended adapter."
+    "q": "Can I power a USB foot warmer from my laptop?",
+    "a": "Maybe not reliably. comfheat's listing says it needs a 2A source, and many laptop ports supply less than that or stop at sleep. A wall adapter or a power bank rated for 2A is safer, and PENINSULA LOVE's 5V rating is the one to match to your source."
   },
   {
-    "q": "Which power bank should I use?",
-    "a": "Use one that can supply the output the listing recommends, such as the 2A mentioned for comfheat. The warmer will drain a small bank quickly."
+    "q": "Which foot warmer has the best timer?",
+    "a": "Catalonia, because you pick 15, 30 or 60 minutes. comfheat, lomitech Foot Warmer and lomitech Large cut off at a fixed 45 minutes, and PENINSULA LOVE has no auto-off at all. A flexible short timer suits a desk where you stand up often."
   },
   {
-    "q": "Is a USB warmer worth it over a plug-in pad?",
-    "a": "If you have no spare outlet or want portability, yes. If you want strong heat for a long shift, a plug-in model is better."
+    "q": "Is the vibration or massage mode worth paying for?",
+    "a": "Only if you want it. comfheat and lomitech Foot Warmer with Massage add vibration and cost more than the plain lomitech Large or Catalonia. Vibration does not warm your feet faster, so skip it if the goal is purely to beat a cold floor."
   },
   {
-    "q": "How do I stay safe with no auto-off?",
-    "a": "Use a timer on your phone and limit sessions, as PENINSULA LOVE's listing advises, and unplug when finished."
+    "q": "Can I wear socks inside a USB heated foot warmer?",
+    "a": "Yes, thin socks are fine, and they protect the lining. Avoid thick wool, because bunching the fabric against the heating panel can create a hot spot. If your feet are numb from poor circulation, keep the setting low and the sessions short."
   },
   {
-    "q": "Can I wash a USB foot warmer?",
-    "a": "Only the removable covers, such as MYDAYS and PENINSULA LOVE, and always unplug the cable first. Dry fully before powering it again."
+    "q": "How do I wash one without breaking the heater?",
+    "a": "Unplug it, remove any detachable cover and wipe the plush lining with a damp cloth. PENINSULA LOVE has a zip-off washable cover, while lomitech models bury the cord in a pocket. Never submerge the heating panel, and air dry fully before powering on."
   },
   {
-    "q": "Are these medical devices?",
-    "a": "No. They are comfort products. If you have reduced feeling in your feet, ask a doctor first."
+    "q": "Is MYDAYS worth choosing over a standard foot warmer?",
+    "a": "If you want a second use, yes. MYDAYS converts to a 40 by 38 inch seat or back pad with a 1.5 meter extension cord and a pocket for a power bank. The tradeoff is that it lists no heat levels or timer, so Catalonia or comfheat give more control."
   }
 ];
 

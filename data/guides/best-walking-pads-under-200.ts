@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Speed Range and Dual-Mode Design", "description": "Compared genuine walking-to-running dual-mode switching against single-mode designs." },
-  { "title": "Incline Flexibility", "description": "Compared incline percentage range and number of adjustable levels across the lineup." },
-  { "title": "App and Smart Features", "description": "Checked for app-based tracking, Bluetooth speakers, and RGB lighting across all four picks." },
-  { "title": "Ergonomic Design", "description": "Compared handlebar adjustability and belt surface size across the tier." },
-  { "title": "Weight Capacity and Motor Power", "description": "Compared stated HP and weight capacity ranging from 300 to 350 lbs." }
+  { "title": "Incline range and how it is changed", "description": "We compared the 18% maximum on the Bluetooth Speaker pad, the 15% across 4 levels on the Dual Display, the 12% on the UREVO Strol 2E Pro and the 3 levels on the TOPUTURE. Steeper is only useful if the setting is easy to change, so we noted which picks need a manual adjustment." },
+  { "title": "Motor strength and weight rating", "description": "The tier mixes 3.5HP motors rated to 350 lbs with a 2.5HP TOPUTURE at 300 lbs. We treated a 3.5HP motor with 350 lb capacity as meaningful headroom at this price, and we flagged that peak horsepower figures are manufacturer claims rather than sustained output." },
+  { "title": "Walk mode versus run mode", "description": "Several pads here claim a dual use, such as the UREVO's 0.6 to 4 mph folding walk mode and 6.2 mph running mode. We checked what actually changes between modes, because a handrail that folds away only helps if it locks securely at speed." },
+  { "title": "Belt size and body fit", "description": "The TOPUTURE offers a 40 x 16 inch belt and a 35 to 43 inch adjustable handlebar, while the others list shorter decks. Taller walkers should check belt length first, since a belt under about 40 inches makes a natural stride feel cramped." },
+  { "title": "Extras that earn their keep", "description": "We looked at the Bluetooth speaker and RGB lighting, the dual display, app reporting on the UREVO and the folding desktop on the TOPUTURE. Under $200 extras are common, so we asked whether each one improves daily use or just pads the spec sheet." }
 ];
 
 export interface HowToChooseSection {
@@ -102,13 +102,15 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "Under $200 the picks split between runners, climbers and desk workers, so match the pad to the way you will really use it.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
-        ["A genuine dual-mode walking-to-running pad", "Walking Pad Treadmill with 18% Incline and Handle, Bluetooth Speaker"],
-        ["Detailed app-based workout reports", "UREVO Strol 2E Pro Smart Walking Pad Treadmill"],
-        ["A dual-display setup with strong incline flexibility", "Walking Pad Treadmill with 15% Incline, Dual Display"],
-        ["An adjustable handlebar for multiple users", "TOPUTURE Walking Pad Treadmill with Adjustable Handle Bar"]
+        ["Walk and run in one pad with the steepest slope", "18% Incline with Bluetooth Speaker, the highest incline and 0.6 to 7.0 mph range"],
+        ["Progress tracking with detailed workout reports", "UREVO Strol 2E Pro, whose app logs long-term history"],
+        ["Four incline steps and easy readability", "15% Incline Dual Display, which shows more data at a glance"],
+        ["A taller walker who wants a long belt and adjustable bar", "TOPUTURE, with a 40 x 16 inch belt and a 35 to 43 inch handlebar"],
+        ["Beginners who want a simple handle for balance", "15% Incline Dual Display, since its handle bar is fixed and straightforward"]
       ],
     },
   },
@@ -117,43 +119,46 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $180", "18% Incline Bluetooth or 15% Incline Dual Display (both under $180)"],
-        ["Under $199", "TOPUTURE (under $200)"],
-        ["Under $198", "UREVO (under $200)"]
+        ["Under $200 for the strongest motor and highest incline", "18% Incline with Bluetooth Speaker"],
+        ["Under $200 for 4 levels and a dual display", "15% Incline Dual Display, which matches the 350 lb limit"],
+        ["Under $200 for the best app experience", "UREVO Strol 2E Pro, the priciest of the four"],
+        ["Under $200 for the largest belt and a work surface", "TOPUTURE, the pad with a folding desktop"],
+        ["Below $150, where incline pads shrink in capacity", "See the under $150 guide for the cheaper options"]
       ],
     },
   },
   {
-    subheading: "Genuine Dual-Mode vs Walking-Only Speed Range",
+    subheading: "Dual-Mode Pads vs Dedicated Desk Pads",
     cards: [
-      { label: "Genuine dual-mode (18% Incline Bluetooth, UREVO)", text: "Physically switches between a folded walking pad and a raised-handrail running treadmill capable of 6-7 MPH." },
-      { label: "Walking-focused range (15% Incline Dual Display, TOPUTURE)", text: "Offers a wider speed range but doesn't emphasize the same physical mode-switching mechanism, staying more walking-pad focused." }
+      { label: "Dual-mode (18% Incline Bluetooth Speaker, UREVO Strol 2E Pro, TOPUTURE)", text: "These reach 6.2 to 7.5 mph and fold or raise a handrail for running. The trade is more moving parts, and you must trust the locking mechanism when speed climbs." },
+      { label: "Fixed handle design (15% Incline Dual Display)", text: "A fixed handle bar means fewer moving parts, a stable hold, and a simpler setup. You give up the running mode, which most desk walkers never use anyway." }
     ],
-    note: "If you specifically want to jog or run at higher speeds in addition to walking during desk work, the dual-mode picks are worth prioritizing. If you're purely walking and just want incline variety, the other two picks serve that need well.",
+    note: "Most buyers should default to the simpler fixed-handle pad unless they have a specific plan to run indoors.",
   },
   {
-    subheading: "By Family or Multi-User Needs",
+    subheading: "By Preferred Extras",
     table: {
-      headers: ["Your household situation", "Recommended pick"],
+      headers: ["What you value", "Recommended pick"],
       rows: [
-        ["Multiple users of different heights", "TOPUTURE (adjustable handlebar)"],
-        ["Single primary user, entertainment focus", "18% Incline Bluetooth Speaker"],
-        ["Single primary user, data tracking focus", "UREVO"]
+        ["Music while you walk without extra gear", "18% Incline with Bluetooth Speaker, which also has RGB lighting"],
+        ["Never losing the remote", "UREVO Strol 2E Pro, with its magnetic remote back"],
+        ["Seeing speed, incline and time at once", "15% Incline Dual Display"],
+        ["Using the pad as a laptop workstation", "TOPUTURE, whose folding desktop doubles as a surface"]
       ],
     },
   },
   {
-    subheading: "For a Household With Both Walkers and Joggers Specifically",
+    subheading: "For a Home Office Setup Specifically",
     cards: [
-      { label: "Look for", text: "A genuine dual-mode design with a raised handrail option supporting running speeds up to 6-7 MPH, not just an extended walking speed range." },
-      { label: "In this comparison", text: "The 18% Incline Bluetooth Speaker pick's 5-in-1 mode range specifically accommodates both slow desk walking and full running speeds up to 7.0 MPH for different household members." }
+      { label: "Look for", text: "A quiet motor, a handle or desk surface that does not interfere with your keyboard height, and a belt long enough for a relaxed stride. Check whether the pad folds flat for storage." },
+      { label: "In this comparison", text: "The 18% Incline pad lists under 40 dB and the TOPUTURE offers a folding desktop and adjustable bar. The UREVO suits those who want to log desk steps in an app." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want detailed app-based workout reports and data tracking, where the UREVO pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want dual-mode walking-to-running functionality with entertainment features, where the 18% Incline Bluetooth Speaker pick covers that for about $18 less." }
+      { label: "Spend more if", text: "You want auto incline and clearer motor specs, which the under $300 guide begins to offer with 400 to 450 lb capacities. Also spend more if you walk daily above 3 mph." },
+      { label: "Save if", text: "You only need a flat or lightly inclined walk. The under $150 guide covers pads that cost noticeably less, and the 15% Incline Dual Display here is already a strong value for 350 lbs." }
     ],
   }
 ];
@@ -182,12 +187,12 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I use the dual-mode picks in walking mode without ever raising the handrail?", "a": "Yes, the folded walking mode functions as a complete standalone feature, so you can use the pad exclusively for desk walking at lower speeds without ever needing to raise the handrail for running mode." },
-  { "q": "What's the most common mistake buyers make when comparing incline percentages between the 15% and 18% picks?", "a": "Assuming the 3 percentage point difference between 15% and 18% incline represents a dramatically different workout intensity, when in practice both represent a significant incline challenge and the difference matters less than factors like your walking speed and session duration." },
-  { "q": "Is the UREVO pick worth it over the cheaper dual-mode Bluetooth speaker option?", "a": "If you specifically want detailed app-based workout reports and long-term progress tracking, yes, but if dual-mode walking-to-running functionality with entertainment features matters more, the Bluetooth speaker pick covers that for about $18 less." },
-  { "q": "How do I adjust the TOPUTURE's handlebar height for different family members?", "a": "The handlebar height adjusts within its 35 to 43 inch range through a manual adjustment mechanism, typically involving a locking pin or clamp, so checking the specific listing's instructions for the exact adjustment method is worth doing before first use." },
-  { "q": "Do any of these walking pads require a subscription for the app features?", "a": "The listings for the UREVO and dual-mode Bluetooth speaker picks don't specify a required subscription for their app tracking features, though checking the specific app's terms directly before purchase is worth doing to confirm ongoing access remains free." },
-  { "q": "Can the 350 lb capacity picks in this tier handle two people using them on the same day without issue?", "a": "Yes, the stated weight capacity applies per use rather than cumulatively, so multiple household members can use the same pad throughout the day as long as each individual user falls within the stated capacity limit." }
+  { "q": "Can these pads handle running or only walking?", "a": "The 18% Incline pad reaches 7.0 mph and the TOPUTURE reaches 7.5 mph, so both can handle light running. Even so, compact belts shorten your stride, so most buyers should treat running as an occasional extra rather than the main use." },
+  { "q": "What is the common mistake with 3.5HP claims?", "a": "Assuming 3.5HP describes steady power. Horsepower on walking pads is often a peak figure, so lean on the stated weight capacity and incline range. The 350 lb limit on the 18% Incline pad is a more reliable guide than the number alone." },
+  { "q": "Is the UREVO worth more than the TOPUTURE?", "a": "Choose the UREVO if app reports and a magnetic remote matter, and the TOPUTURE if you want a larger belt and a folding desktop. The UREVO is slightly pricier and the TOPUTURE has a lower 300 lb capacity, so check your own weight first." },
+  { "q": "How do I switch a dual-mode pad between walk and run?", "a": "Raise or lower the handrail and set the speed mode through the remote or app as the manual describes. Always stop the belt before changing the layout, and confirm that the handrail is locked before you raise the speed." },
+  { "q": "How should I store a pad with a handrail?", "a": "Fold the handrail down, stand the pad upright or slide it under a bed, and keep the cable coiled loosely so the plug is not bent. Avoid damp garages, because moisture can corrode the motor connections over time." },
+  { "q": "Does the Bluetooth speaker affect motor performance?", "a": "No, the speaker is separate from the motor system, but it does add a battery draw and potential for volume rattles. Keep volume moderate near a shared wall, and mute it when you take calls so footfall noise stays the only sound." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

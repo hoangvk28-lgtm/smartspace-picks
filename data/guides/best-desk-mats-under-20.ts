@@ -217,24 +217,24 @@ export const products: GuideProduct[] = [
 
 export const howWeEvaluated = [
   {
-    "title": "Size and coverage",
-    "description": "Each mat was compared on its listed dimensions and how much of a typical keyboard and mouse area it covers."
+    "title": "Surface size against real gear",
+    "description": "We compared dimensions, from the 31.5 x 15.7 inch CADONO to the 40 x 16 inch DAWNTREES, and asked whether a full keyboard and mouse fit. A mat that is too short forces the mouse onto the desk, so size mattered more than any cosmetic feature. The AFIING at 31.5 inches is the shortest here besides the CADONO; the DAWNTREES runs 40 inches."
   },
   {
-    "title": "Surface and material",
-    "description": "The top surface (cloth, PU leather, felt or cork) was weighed for writing, mouse use and cleaning."
+    "title": "Material and cleaning",
+    "description": "We checked surface material, from PU leather on the Wolaile and CADONO to felt on the DAWNTREES and cork on the RENMTURE. Waterproof surfaces wipe clean after a coffee spill, while felt can stain, so each material was judged against upkeep. The KOBWOPI and Wolaile are waterproof, while the DAWNTREES felt is not."
   },
   {
-    "title": "Grip and stability",
-    "description": "Backing material and the non-slip claims were compared."
+    "title": "Mouse glide and grip",
+    "description": "We compared surface feel, noting that smooth PU leather can feel slick for some users while felt and cork add texture. A mat should let the mouse glide without skipping, so we weighed texture claims against reviews. The Wolaile and YSAGi can smell mildly new, while the DAWNTREES felt avoids that."
   },
   {
-    "title": "Protection and care",
-    "description": "Waterproofing, edges and cleaning instructions were considered."
+    "title": "Non-slip base",
+    "description": "We looked at backings, such as the rubber base on the KOBWOPI, suede on the Wolaile and anti-slip felt on the DAWNTREES. A mat that slides while you type is a daily annoyance, so grip counted heavily at this price. The RENMTURE comes in four sizes up to 47 x 17 and includes a roll-up strap."
   },
   {
-    "title": "Value at this price",
-    "description": "Price was weighed against size and material, giving extra weight to what a low price leaves out such as thickness or a small footprint."
+    "title": "Thickness and edge finish",
+    "description": "We noted details like the 0.08 inch thickness of the RENMTURE and the stitched edges on the AFIING. Thin mats feel flat and clean but can curl at the corners, so edge finish and roll-up behavior mattered for durability. The RENMTURE is 0.08 inch thick, while the AFIING has stitched edges that resist fraying."
   }
 ];
 
@@ -390,27 +390,27 @@ export const buyingCriteria = [
 export const faq = [
   {
     "q": "What size desk mat do I need?",
-    "a": "Measure your keyboard and mouse area; 35 by 17 inches fits most."
+    "a": "Measure the space for your keyboard and mouse. For a compact keyboard and mouse, around 31 inches wide is enough, while a full-size keyboard with a number pad usually wants 35 inches or more. The AFIING at 31.5 x 17 is too small for a full setup."
   },
   {
-    "q": "Is PU leather real leather?",
-    "a": "No, it is synthetic polyurethane."
+    "q": "Is PU leather better than felt?",
+    "a": "PU leather wipes clean and resists spills, so it suits a desk with coffee. Felt feels soft and quiet, but it can stain and is not waterproof. The DAWNTREES felt mat suits a dry desk, while the Wolaile is easier to maintain."
   },
   {
-    "q": "Will it smell?",
-    "a": "A light smell can occur and fades."
+    "q": "Will a desk mat have a smell?",
+    "a": "Some PU leather mats have a mild smell when new, such as the Wolaile and YSAGi. Air it out for a day or two, and the smell usually fades. If it persists, a felt mat avoids the issue."
   },
   {
-    "q": "Do cloth mats stain?",
-    "a": "Yes if not waterproof."
+    "q": "Does a desk mat protect my desk?",
+    "a": "Yes. It guards against scratches, rings and heat from a mug, and a non-slip base keeps it from sliding. A waterproof mat also protects a wood desk from spills, which a felt mat will not do."
   },
   {
-    "q": "Will it slip?",
-    "a": "Look for a rubber or suede base."
+    "q": "How do I clean a desk mat?",
+    "a": "Wipe a PU leather or cork surface with a damp cloth and a drop of mild soap, then dry it. Avoid soaking it. For felt, blot spills fast and use a lint roller, since felt cannot be wiped as easily."
   },
   {
-    "q": "How do I clean it?",
-    "a": "Wipe leather, hand wash cloth."
+    "q": "Is a double-sided mat worth it?",
+    "a": "The RENMTURE and YSAGi use cork on one side and PU leather on the other, so you can switch surfaces. It is a bit more complex, but if you like both textures, it saves buying two."
   }
 ];
 

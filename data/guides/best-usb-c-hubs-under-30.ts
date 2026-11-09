@@ -217,24 +217,24 @@ export const products: GuideProduct[] = [
 
 export const howWeEvaluated = [
   {
-    "title": "Video and display support",
-    "description": "Each hub was compared on its HDMI or display outputs, listed refresh rate at 4K and any note about Mac or Windows limits."
+    "title": "HDMI refresh rate at 4K",
+    "description": "We read the exact refresh rate on each HDMI port, because 4K at 30Hz makes cursor movement feel laggy while 60Hz feels like a normal monitor. Under $30 several hubs still cap at 30Hz, like the Anker 5-in-1, so any hub listing 60Hz earned a clear advantage for daily monitor use."
   },
   {
-    "title": "Power pass-through",
-    "description": "Listed charging wattage and how much the hub reserves for itself were weighed against typical laptop chargers."
+    "title": "USB port speed mix",
+    "description": "We compared port speeds, from the four 10Gbps ports on the UGREEN Revodok Pro to the two slow USB 2.0 ports on the Anker 5-in-1 and the single 480Mbps USB-A on the Acer. A hub with a slow port is fine for a mouse, but it bottlenecks an external SSD, so we noted which ports suit which jobs."
   },
   {
-    "title": "Ports and speeds",
-    "description": "Port count, USB-A and USB-C mix and the listed data speeds were compared."
+    "title": "Pass-through charging wattage",
+    "description": "We checked pass-through ratings, such as 85W on the Anker 7-in-1 and UGREEN, 90W on the Anker 5-in-1 and 100W on the BENFEI. A hub rated below your laptop charger forces the laptop to charge slowly or drain under load, so we matched wattage to common 65W and 100W chargers."
   },
   {
-    "title": "Build and layout",
-    "description": "Materials, cable design and port spacing were considered as signs of daily-use quality."
+    "title": "Ports that match real desks",
+    "description": "We compared the mix of HDMI, USB-A, USB-C and card slots, noting the SD and microSD on the BENFEI and the video-free Sabrent. For a $10 to $30 budget, a hub with the right ports for your gear beats one with many ports you will never plug into."
   },
   {
-    "title": "Value at this price",
-    "description": "Price was weighed against video refresh rate, port speed and pass-through wattage, with extra weight on what a very low price leaves out."
+    "title": "Build, heat and warranty",
+    "description": "We noted shell material and warranty cover, such as aluminum on the UGREEN and intpw and 18 months on the Anker and BENFEI. Cheap hubs run warm under a 4K signal and a charging laptop, so metal bodies and stated warranties scored as practical signals."
   }
 ];
 
@@ -249,7 +249,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Use",
-    "intro": "Pick the job.",
+    "intro": "Start with what you plug in each day.",
     "table": {
       "headers": [
         "Your situation",
@@ -257,30 +257,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "All-round office",
-          "Anker 7-in-1 USB-C Hub"
+          "All-round office with one 4K monitor",
+          "Anker 7-in-1 USB-C Hub lists 4K@60Hz, two USB-A 3.0 and USB-C data."
         ],
         [
           "Fast SSD transfers",
-          "Acer 6-in-1 10Gbps Hub or UGREEN Revodok Pro 6-in-1"
+          "Acer 6-in-1 10Gbps Hub or UGREEN Revodok Pro 6-in-1 give 10Gbps ports."
         ],
         [
-          "Desk hub",
-          "intpw 9-in-1 Aluminum"
+          "Desk hub with many devices",
+          "intpw 9-in-1 Aluminum offers three USB 3.0 ports on an angled body."
         ],
         [
-          "Photographers",
-          "BENFEI 7-in-1"
+          "Photographers with SD cards",
+          "BENFEI 7-in-1 adds SD and microSD slots next to 4K@60Hz."
         ],
         [
-          "Ports only",
-          "Sabrent 5-in-1"
+          "Extra ports, no monitor",
+          "Sabrent 5-in-1 gives three USB 3.0 ports and a card reader."
         ]
       ]
-    }
+    },
+    "note": "If you need a screen, skip any hub without HDMI."
   },
   {
     "subheading": "By Budget",
+    "intro": "Prices here sit in three small buckets, so pick the features, not the number.",
     "table": {
       "headers": [
         "Budget",
@@ -289,18 +291,27 @@ export const howToChoose: HowToChooseSection[] = [
       "rows": [
         [
           "Under $15",
-          "BENFEI 7-in-1 or UGREEN Revodok Pro 6-in-1"
+          "BENFEI 7-in-1 or UGREEN Revodok Pro 6-in-1 for 60Hz video or 10Gbps ports."
         ],
         [
-          "$15 to $25",
-          "Anker 5-in-1, Sabrent 5-in-1, Anker 7-in-1 USB-C Hub or Acer 6-in-1 10Gbps Hub"
+          "$10 to $20",
+          "Anker 5-in-1, Sabrent 5-in-1 or BENFEI 7-in-1 for ports and basic video."
         ],
         [
-          "$25 to $30",
-          "intpw 9-in-1 Aluminum"
+          "$20 to $30, general",
+          "Anker 7-in-1 USB-C Hub with 85W pass-through and an 18-month warranty."
+        ],
+        [
+          "$20 to $30, fast data",
+          "Acer 6-in-1 10Gbps Hub for two USB-C and one USB-A at 10Gbps."
+        ],
+        [
+          "$20 to $30, big desk",
+          "intpw 9-in-1 Aluminum for nine ports and 100W PD."
         ]
       ]
-    }
+    },
+    "note": "Anything in the under $50 guide adds dual video and 10Gbps on every port."
   },
   {
     "subheading": "4K@60Hz vs 4K@30Hz",
@@ -319,6 +330,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     "subheading": "By Charging Need",
+    "intro": "A hub rated below your charger slows the laptop under load.",
     "table": {
       "headers": [
         "Charger",
@@ -327,11 +339,19 @@ export const howToChoose: HowToChooseSection[] = [
       "rows": [
         [
           "65W laptop",
-          "Anker 7-in-1 USB-C Hub"
+          "Anker 7-in-1 USB-C Hub with 85W pass-through."
+        ],
+        [
+          "90W laptop",
+          "Anker 5-in-1 lists 90W pass-through, though video is only 30Hz."
         ],
         [
           "100W laptop",
-          "Acer 6-in-1 10Gbps Hub or intpw 9-in-1 Aluminum"
+          "Acer 6-in-1 10Gbps Hub (up to 90W out) or intpw 9-in-1 Aluminum."
+        ],
+        [
+          "Phone and tablet only",
+          "Sabrent 5-in-1 has no charging, so keep a separate charger."
         ]
       ]
     }
@@ -354,11 +374,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You move big files: Acer 6-in-1 10Gbps Hub and UGREEN Revodok Pro 6-in-1 provide 10Gbps ports."
+        "text": "You move big files: Acer 6-in-1 10Gbps Hub and UGREEN Revodok Pro 6-in-1 provide 10Gbps ports. The under $50 guide adds dual displays."
       },
       {
         "label": "Save if",
-        "text": "You only need an extra port or two: Anker 5-in-1 costs less."
+        "text": "You only need an extra port or two: Anker 5-in-1 costs less, and Sabrent 5-in-1 suits data-only use."
       }
     ]
   }
@@ -389,28 +409,28 @@ export const buyingCriteria = [
 
 export const faq = [
   {
-    "q": "Why does my hub show no picture?",
-    "a": "Your laptop port may lack video output."
+    "q": "Why does my hub show no picture on the monitor?",
+    "a": "Most often the laptop's USB-C port lacks DisplayPort Alt Mode, so it cannot send video through any hub. Check your laptop's spec page for video output over USB-C. The Acer 6-in-1 also lists a DP Alt Mode requirement, so confirm yours before buying."
   },
   {
-    "q": "Will a hub charge my laptop?",
-    "a": "Yes within its wattage."
+    "q": "Is 4K at 30Hz really that bad?",
+    "a": "For slides and documents it is acceptable, but the mouse feels laggy and scrolling looks choppy because the screen refreshes only 30 times a second. The Anker 5-in-1 is limited to 30Hz, so choose the Anker 7-in-1 or BENFEI if you work on a 4K monitor all day."
   },
   {
-    "q": "Is 4K@30Hz bad?",
-    "a": "It is choppier."
+    "q": "Is the Acer 10Gbps worth it over the Anker 7-in-1?",
+    "a": "Yes if you move large files. The Acer 6-in-1 offers two USB-C and one USB-A at 10Gbps, which speeds up an external SSD, but it has one slow USB-A port. The Anker 7-in-1 has 5Gbps ports and more variety, so it suits general office use."
   },
   {
-    "q": "Do hubs get hot?",
-    "a": "They warm up."
+    "q": "Will one hub charge my 100W laptop at full speed?",
+    "a": "Only a few can. The Acer lists 100W input with up to 90W charging, and the BENFEI and intpw list 100W PD. The 85W Anker and UGREEN hubs may charge a 100W laptop slower under heavy load, so match the hub to your charger."
   },
   {
-    "q": "Are USB 2.0 ports slow?",
-    "a": "Yes."
+    "q": "How do I connect the hub and a monitor correctly?",
+    "a": "Plug the hub into your laptop's video-capable USB-C port first, then connect the HDMI cable to the monitor. Plug your charger into the hub's power port last. If the screen is blank, try a different laptop port or a shorter HDMI cable."
   },
   {
-    "q": "Do I need a card reader?",
-    "a": "Only if you use SD cards."
+    "q": "Do cheap hubs interfere with Wi-Fi or get hot?",
+    "a": "Some do. USB 3.0 hubs can create radio noise near 2.4GHz and may slow a Bluetooth mouse plugged nearby. Metal bodies like the UGREEN's spread heat better. Keep wireless receivers on a short extension, and let a warm hub breathe."
   }
 ];
 

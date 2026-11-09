@@ -189,24 +189,24 @@ export const products: GuideProduct[] = [
 
 export const howWeEvaluated = [
   {
-    "title": "Touch cabling",
-    "description": "We read each seller's wiring notes to see which port carries touch and what extra cable HDMI use demands."
+    "title": "Touch over the right cable",
+    "description": "We checked how touch reaches the computer. HDMI carries video only, so touch needs a USB-C or USB lead, and KOOFORWAY, UPERFECT and EVICIV spell that out. A screen that needs a separate cable for touch changes your desk wiring. Test the cable that comes in the box first."
   },
   {
-    "title": "Power behaviour",
-    "description": "Pass-through wattage, adapter advice and low-power port warnings were compared for each screen."
+    "title": "macOS and Windows touch support",
+    "description": "We read operating-system notes. IBW lists 10-point touch on Windows and single-point on macOS, KOOFORWAY says touch may not work on macOS, and several listings are silent. A Mac buyer should treat silence as unsupported. Check the Mac line item twice before buying."
   },
   {
-    "title": "Operating system fit",
-    "description": "We noted which listings name Windows, Android and macOS touch and which stay silent."
+    "title": "Power draw and pass-through",
+    "description": "We compared power behavior. ViewSonic's TD1655 lists up to 60W USB-C power pass-through, KOOFORWAY has a separate charging port, and others rely on the laptop's port. A weak port may need a PD adapter to run a bright screen. Check your own charger wattage against the figure."
   },
   {
-    "title": "Portability",
-    "description": "Listed weight, thickness and the included case or sleeve were weighed together."
+    "title": "Weight and thickness",
+    "description": "We compared portability, from UPERFECT's 0.23 inch and 1.4 lb to Acer's 2.73 lb. A lighter screen is easier to carry with a laptop and clips more safely onto a lid, and a heavier panel works better on a stand. A heavier panel on a lid can stress the hinge."
   },
   {
-    "title": "Ports and warranty",
-    "description": "Port count, VESA support and warranty length were scored against the price bucket."
+    "title": "Brightness, stand and mounting",
+    "description": "We weighed brightness and stands. EVICIV lists 350 nits, UPERFECT and EVICIV have 180 degree stands, and Acer, UPERFECT and EVICIV have VESA mounts. A bright screen suits a window, and VESA lets you put it on an arm. Check the sun-facing side of your desk too."
   }
 ];
 
@@ -220,125 +220,129 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Laptop Port Situation",
-    "intro": "Your laptop's video output decides the shortlist before any spec sheet does.",
+    "subheading": "By Laptop and Operating System",
+    "intro": "Touch support depends on your computer more than on the screen.",
     "table": {
       "headers": [
-        "Your laptop has",
-        "Pick from this guide"
+        "Your computer",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "One USB-C port, needs charging too",
-          "ViewSonic TD1655 with 60W pass-through"
+          "A Windows laptop with a USB-C port that supports video",
+          "KOOFORWAY 15.6\" Touchscreen Portable Monitor, with 10-point touch on Windows"
         ],
         [
-          "Two USB-C ports",
-          "Acer PM161QT with two Gen 1 ports"
+          "A MacBook where basic single-touch is acceptable",
+          "IBW 15.6\" Touchscreen Portable Monitor, which lists single-point macOS touch"
         ],
         [
-          "HDMI only, no USB-C video",
-          "IBW 15.6\" with HDMI plus USB-A lead"
+          "A Windows or Android device and an HDMI source",
+          "UPERFECT 15.6\" Touchscreen Portable Monitor, with Windows and Android touch"
         ],
         [
-          "A weak USB-C port under 3W",
-          "KOOFORWAY 15.6\" with a charging port"
-        ],
-        [
-          "Full USB-C DP Alt Mode",
-          "EVICIV 15.6\" over one cable"
+          "A laptop with a weak USB-C port that needs power help",
+          "ViewSonic TD1655 15.6\" Touch Monitor, with 60W power pass-through"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "The KOOFORWAY is cheapest, and the ViewSonic costs the most.",
     "table": {
       "headers": [
         "Budget",
-        "Pick from this guide"
+        "Recommended pick"
       ],
       "rows": [
         [
-          "$50 to $100",
-          "KOOFORWAY for Windows, IBW 15.6\" for Mac single-touch"
+          "The lowest cost in this roundup",
+          "KOOFORWAY 15.6\" Touchscreen Portable Monitor, with a case and cover stand"
         ],
         [
-          "$100 to $150",
-          "UPERFECT for weight, EVICIV for brightness, Acer for ports"
+          "A mid-range price for a bright screen and headphone jack",
+          "EVICIV 15.6\" Touchscreen Portable Monitor, at 350 nits"
         ],
         [
-          "$250 to $300",
-          "ViewSonic TD1655 for the 3-year warranty"
+          "A mid-range price for the lightest body",
+          "UPERFECT 15.6\" Touchscreen Portable Monitor, at 1.4 lb"
+        ],
+        [
+          "The top of the range for a 3-year warranty",
+          "ViewSonic TD1655 15.6\" Touch Monitor"
         ]
       ]
     }
   },
   {
-    "subheading": "Light Bag vs Hub Monitor",
-    "intro": "A thin screen travels better, but a heavier one often brings more ports.",
+    "subheading": "Light and Slim vs Port-Rich",
+    "intro": "Ports and weight pull in opposite directions on a portable screen.",
     "cards": [
       {
-        "label": "Light bag",
-        "text": "The UPERFECT at 1.4 lb and 0.23 inch thin and the EVICIV at 1.5 lb give you the smallest footprint in a backpack. Both rely on cables you supply or the included set rather than a built-in hub."
+        "label": "Light and slim (UPERFECT, EVICIV)",
+        "text": "0.23 inch thin at 1.4 to 1.5 lb, easy to carry, with a case or sleeve. Mini HDMI needs a power or USB lead for touch."
       },
       {
-        "label": "Hub monitor",
-        "text": "The Acer at 2.73 lb adds a USB hub, two data USB-C ports and an audio out, which cuts dongles on a fixed desk."
+        "label": "Port-rich (Acer PM161QT, IBW)",
+        "text": "Acer has two USB-C Gen 1 ports plus Mini HDMI at 2.73 lb, and IBW adds HDMI and USB-A, so more devices plug in at the cost of weight."
       }
     ],
-    "note": "Most buyers who move daily should default to the light bag unless a hub is already on the desk."
+    "note": "Default to light if you carry it daily, and port-rich if it lives on one desk."
   },
   {
-    "subheading": "By Operating System",
+    "subheading": "By Use",
+    "intro": "The way you use it decides which extras matter.",
     "table": {
       "headers": [
-        "You use",
-        "Pick from this guide"
+        "Your use",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Windows 11 touch",
-          "Acer PM161QT"
+          "A desk setup mounted on an arm",
+          "Acer PM161QT 15.6\" Touch Portable Monitor, with VESA 75 x 75"
         ],
         [
-          "Windows and Android",
-          "UPERFECT 15.6\" Touchscreen"
+          "Video calls with headphones",
+          "EVICIV 15.6\" Touchscreen Portable Monitor, with an audio jack"
         ],
         [
-          "Mac, single-point touch is fine",
-          "IBW 15.6\" Touchscreen"
+          "A drawing or note-taking tablet role in portrait mode",
+          "UPERFECT 15.6\" Touchscreen Portable Monitor, with a portrait and landscape stand"
         ],
         [
-          "Windows only, no Mac",
-          "KOOFORWAY 15.6\" Touchscreen"
+          "An office where warranty matters",
+          "ViewSonic TD1655 15.6\" Touch Monitor, with a 3-year warranty"
         ]
       ]
     }
   },
   {
-    "subheading": "For Hybrid Workers Specifically",
+    "subheading": "For Windows Laptop Users With One USB-C Port Specifically",
+    "intro": "One port has to carry video, touch and power.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A long warranty, 60W-class power pass-through so one cable charges the laptop, and a cover that doubles as a stand."
+        "text": "A full-function USB-C that carries video and touch together, plus pass-through power so the laptop does not drain."
       },
       {
         "label": "In this comparison",
-        "text": "The ViewSonic TD1655 lists up to 60W power, a built-in stand with cover and a 3-year warranty, covering all three needs."
+        "text": "ViewSonic TD1655 15.6\" Touch Monitor lists 60W pass-through, and KOOFORWAY separates full-function and charging USB-C ports."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "Extra money buys warranty and power pass-through.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want a long warranty and power pass-through: the ViewSonic TD1655 is the only pick that lists both."
+        "text": "You want a 3-year warranty and charging from one cable, where ViewSonic TD1655 15.6\" Touch Monitor delivers both."
       },
       {
         "label": "Save if",
-        "text": "You are on Windows and want the basics: the KOOFORWAY costs least here and states its limits clearly."
+        "text": "You use a Windows laptop and a short desk session, where KOOFORWAY 15.6\" Touchscreen Portable Monitor is the lowest cost."
       }
     ]
   }
@@ -370,11 +374,11 @@ export const buyingCriteria = [
 export const faq = [
   {
     "q": "Why does my 15.6 inch touch screen not respond to touch over HDMI?",
-    "a": "HDMI carries video only. Connect a USB-A to USB-C lead for the touch data, or use a full-function USB-C cable. KOOFORWAY, UPERFECT and EVICIV all describe this requirement."
+    "a": "HDMI carries video only, so the touch signal has no path back to the computer. Connect a USB-A to USB-C lead for the touch data, or use a full-function USB-C cable that carries both. KOOFORWAY, UPERFECT and EVICIV all describe this, and a loose lead is the most common reason touch stops."
   },
   {
     "q": "Does touch work on a MacBook?",
-    "a": "It depends on the model. The IBW lists single-point touch on macOS, the KOOFORWAY says touch may not work on macOS, and several other listings do not mention Mac touch at all."
+    "a": "It depends on the model. The IBW lists single-point touch on macOS, which means taps and drags but not multi-finger gestures, KOOFORWAY says touch may not work on macOS, and several other listings do not mention Macs at all. A MacBook owner should pick a listing that states it."
   },
   {
     "q": "Is 1080p enough on a 15.6 inch screen?",
@@ -382,15 +386,15 @@ export const faq = [
   },
   {
     "q": "Can one cable power the screen and charge my laptop?",
-    "a": "Only on models that pass power through. The ViewSonic TD1655 lists up to 60W, while most others only receive power."
+    "a": "Only on models that pass power through. The ViewSonic TD1655 lists up to 60W pass-through, so one cable can run the screen and charge a laptop, while most others only receive power. Check the wattage against your laptop charger, because a 60W pass-through will not fully power a bigger machine."
   },
   {
     "q": "Will a 15.6 inch extender fit beside a 15 inch laptop?",
-    "a": "Yes, it is similar in width, so plan for about twice the laptop width in desk space, or use the VESA mount on the Acer, UPERFECT or EVICIV on an arm."
+    "a": "Yes, a 15.6 inch screen is about as wide as a 15 inch laptop, so plan on twice the laptop width in desk space. If the desk is narrow, the Acer, UPERFECT and EVICIV have VESA mounts so the screen can sit on an arm above or beside the laptop."
   },
   {
     "q": "How do I clean a touch portable monitor?",
-    "a": "Switch it off, wipe with a dry or slightly damp microfibre cloth, and avoid spraying liquid near the ports. Do not use abrasive cleaners on tempered glass."
+    "a": "Switch it off, wipe with a dry or slightly damp microfibre cloth, and keep liquid away from the ports. Do not use abrasive cleaners on tempered glass, and clean smudges often, because oily fingerprints change how bright and sharp a touch screen looks."
   }
 ];
 

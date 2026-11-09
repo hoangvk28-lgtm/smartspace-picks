@@ -247,51 +247,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Temperature range and step size",
-    "explanation": "A temperature step is the smallest change you can set, and finer steps let you chase a specific brew temperature. Cocinare, INTASTING, HIYAKOI, YDDZZM and kwkwoice list 1F steps, while Bodum and ELTRIKO have none. Check the range as well, since green tea near 175F and pour-over near 195 to 205F should be inside it."
+    "explanation": "A kettle that jumps in coarse steps cannot hit the 195F to 205F window pour-over brewers aim for, while 1F steps can. The YDDZZM lists 104F to 212F in 1F steps and the Fellow Stagg EKG Pro lists to-the-degree control, but the Bodum and ELTRIKO have no temperature control at all. Look for the step size in the bullets, and ignore listings that only say variable temperature."
   },
   {
     "criterion": "Hold time and idle power",
-    "explanation": "A hold function keeps water at temperature, from INTASTING's 1 hour to HIYAKOI's 12 and YDDZZM's claimed 24. Long holds use power while idle and may be unattended. Pick a length that matches your routine, and unplug when away."
+    "explanation": "A hold function keeps water at temperature for a second cup, but a very long hold wastes electricity. The INTASTING and Cocinare list up to 60 minutes, the HIYAKOI lists 12 hours, and the YDDZZM and kwkwoice claim 24 hours, which is a bold figure for a small element. Pick a hold of about an hour for home brewing, and check whether the claim states a temperature."
   },
   {
     "criterion": "Brew timer and display",
-    "explanation": "A built-in timer lets you track bloom and total brew time without a separate clock. Fellow has a stopwatch, and Cocinare and HIYAKOI have brew timers. Look for the timer in the display description."
+    "explanation": "A built-in timer lets you time bloom and total pour without a phone, and the Cocinare and HIYAKOI list one. The Fellow adds a brew stopwatch and scheduling, while the budget models show only temperature on an LCD. If you pour by recipe, a stopwatch on the display saves a step, and you can check it in the feature list."
   },
   {
     "criterion": "Capacity versus pour-over needs",
-    "explanation": "Gooseneck kettles usually hold 0.8 to 1.0 liters, enough for one or two cups. ELTRIKO holds 1L while Bodum holds 0.8L. Check capacity in liters against cups per brew."
+    "explanation": "A single V60 cup needs about 300 to 350 ml of water, and a full kettle takes longer to heat than a half-filled one. The HIYAKOI is 0.8L, the Cocinare and INTASTING 0.9L, and the ELTRIKO 1L. For a one or two cup routine, 0.8 to 0.9L is enough, so read the liter figure and the minimum fill line."
   },
   {
-    "criterion": "Plastic-free water path",
-    "explanation": "A true plastic-free interior needs stainless on the lid underside and spout. HIYAKOI names its lid and spout as 304 stainless and Cocinare says no plastic touches water. Look for that detail, not just BPA-free."
-  },
-  {
-    "criterion": "Spout shape and handling",
-    "explanation": "A narrow, tapered spout gives a slow stream and a balanced handle makes pouring steady. INTASTING lists a 7 mm spout, Bodum a cork handle. Handle design matters most if you pour for minutes."
+    "criterion": "Plastic-free water path and spout",
+    "explanation": "Hot water touching plastic can pick up taste, so listings that claim 304 stainless steel on all water parts, like the INTASTING, Cocinare and ELTRIKO, matter for tea. A narrow spout, such as the INTASTING's 7 mm tapered spout, gives a thin controlled stream. Check the material claim and the spout width, not just the word gooseneck."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Temperature control",
-    "description": "We compared stated ranges, step sizes and the presence of a display."
+    "title": "Temperature precision",
+    "description": "For pour-over and tea, we looked at the step size and range. The YDDZZM and kwkwoice list 104F to 212F in 1F steps, the Fellow lists to-the-degree control, and the Bodum and ELTRIKO have none. We treated 1F steps as the practical floor for brewing, since coarse presets cannot target 200F reliably."
   },
   {
-    "title": "Hold and timer features",
-    "description": "Hold durations and brew timers were compared across the eight kettles."
+    "title": "Spout and pour control",
+    "description": "The spout shape decides whether you can pour a thin stream. The INTASTING lists a 7 mm tapered spout, which suits slow bloom pours, and we credited it. We also noted that a handle's balance matters, since a full 0.9L kettle is heavy at the wrist and an insulated handle prevents burns."
   },
   {
-    "title": "Materials",
-    "description": "Interior material, plastic-contact claims and lid and spout materials were compared."
+    "title": "Hold and brew timing features",
+    "description": "We compared the Fellow's brew stopwatch and scheduling, the Cocinare and HIYAKOI's built-in brew timers, and holds ranging from the INTASTING's 60 minutes to the HIYAKOI's 12 hours. Long hold claims earned less credit, since a 24 hour hold on a small element is hard to verify."
   },
   {
-    "title": "Pour design",
-    "description": "Spout shape, handle and base were considered."
+    "title": "Materials and plastic contact",
+    "description": "We looked for stainless steel on the water path. The Cocinare, INTASTING, HIYAKOI, YDDZZM and kwkwoice list 304 stainless, and the ELTRIKO claims a plastic-free cavity. The Bodum lists a stainless body, but hot water can still touch plastic parts, which is worth checking for tea drinkers."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $30 to $200 were compared with documented features."
+    "title": "Price against features",
+    "description": "The gap runs from under $30 for the ELTRIKO and kwkwoice to roughly $200 for the Fellow. We asked what each step up adds: temperature control at the kwkwoice, a brew timer at the Cocinare, scheduling and altitude at the Fellow, and we flagged where extra cost buys design more than function."
   }
 ];
 
@@ -341,7 +337,7 @@ export const howToChoose: HowToChooseSection[] = [
           "ELTRIKO 1L 1000W Gooseneck Electric Kettle"
         ],
         [
-          "About $33",
+          "Under $40",
           "kwkwoice 0.9L Gooseneck Electric Kettle with LCD"
         ],
         [
@@ -353,7 +349,7 @@ export const howToChoose: HowToChooseSection[] = [
           "HIYAKOI 1200W Gooseneck Kettle with 12 Hour Keep Warm"
         ],
         [
-          "About $200",
+          "Under $250",
           "Fellow Stagg EKG Pro Gooseneck Electric Kettle"
         ]
       ]
@@ -431,28 +427,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "What temperature should I use for pour-over?",
-    "a": "Pour-over coffee is commonly brewed around 195 to 205F, and green tea near 175F. Check that your kettle's range covers both."
+    "q": "Do I need temperature control in a gooseneck kettle?",
+    "a": "If you brew pour-over or green tea, yes. Coffee brews best near 195F to 205F and delicate tea at lower temperatures. The kwkwoice and YDDZZM list 1F steps, while the ELTRIKO and Bodum only boil, so you would wait for the water to cool."
   },
   {
-    "q": "Is a gooseneck worth it over a regular kettle?",
-    "a": "Only for pour-over and precise pouring. For tea and instant drinks, a standard kettle is simpler and often holds more."
+    "q": "Is a 24 hour keep warm claim realistic?",
+    "a": "Treat it skeptically. The YDDZZM and kwkwoice claim a 24 hour hold, and the HIYAKOI claims 12 hours, but keeping water hot that long uses power and may stop sooner. A 60 minute hold, like the Cocinare lists, is enough for a second cup."
   },
   {
-    "q": "Does 1F control mean the water is exactly that hot?",
-    "a": "Not necessarily. Step size is not accuracy, and water cools in the air. Treat it as a repeatable setting, not a lab reading."
+    "q": "Is the Fellow Stagg EKG Pro worth the price?",
+    "a": "It is for enthusiasts. The Fellow lists to-the-degree control, a brew stopwatch, scheduling and altitude settings, and it costs about three times the Cocinare. The Cocinare lists 1500W heating, 1F steps, and a 60 minute hold, so most home brewers will not miss the extras."
   },
   {
-    "q": "How do I descale a gooseneck?",
-    "a": "Boil a diluted white vinegar solution, then rinse well. The narrow spout needs extra rinsing."
+    "q": "What kettle size is right for one cup of coffee?",
+    "a": "A 0.8L to 0.9L kettle is plenty. A single V60 cup needs about 300 to 350 ml, and a full kettle heats slower than a half-filled one. The HIYAKOI is 0.8L and the Cocinare and INTASTING 0.9L, while the ELTRIKO's 1L suits a household making tea."
   },
   {
-    "q": "Is a long keep-warm safe to leave on?",
-    "a": "Use it only while you are nearby, and unplug before leaving. HIYAKOI claims 12 hours and YDDZZM 24, but unattended heating is a risk."
+    "q": "How do I descale a gooseneck kettle?",
+    "a": "Fill with equal parts water and white vinegar, heat it, and let it sit for 15 to 20 minutes, then rinse well. Do this every month in hard water. Narrow spouts clog with mineral deposits, so rinse the spout and wipe the 304 stainless interior."
   },
   {
-    "q": "Can I use a gooseneck for instant noodles?",
-    "a": "Yes, but the narrow spout pours slowly and the small volume suits one portion. A wide-mouth kettle is easier."
+    "q": "Can I pour directly after the kettle boils?",
+    "a": "Wait a moment for pour-over. Boiling water at 212F is hotter than the 195F to 205F target for coffee, so let it cool or set the temperature on a variable kettle. The INTASTING adjusts heating power to stay near target, which avoids overshoot."
   }
 ];
 

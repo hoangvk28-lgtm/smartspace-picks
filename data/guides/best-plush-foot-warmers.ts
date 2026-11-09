@@ -195,23 +195,23 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Lining and cleaning method",
-    "explanation": "A plush lining soaks up sweat over weeks of use, so it needs to come out for washing. Ausic lists a removable machine washable lining and RnemiTe-amo a washable outer cover. Look for a named wash method and an instruction to disconnect any battery or controller first."
+    "explanation": "A plush lining soaks up sweat over weeks of use, so it needs to come out for washing. Ausic lists a removable machine washable lining and RnemiTe-amo a washable outer cover. Look for a named wash method and an instruction to disconnect any battery or controller first. A removable lining that survives a gentle cold wash is worth more than a softer one you cannot clean."
   },
   {
     "criterion": "Runtime per heat setting",
-    "explanation": "Battery pairs drain faster at the top setting, so a single headline figure is misleading. RnemiTe-amo lists 4 hours at 140F against 8 hours at 104F. Look for per-setting figures before buying a cordless pair."
+    "explanation": "Battery pairs drain faster at the top setting, so a single headline figure is misleading. RnemiTe-amo lists 4 hours at 140F against 8 hours at 104F. Look for per-setting figures before buying a cordless pair. Treat any all-day claim with suspicion, since a 2500 mAh cell cannot sustain 140F for hours."
   },
   {
     "criterion": "Size and fit range",
-    "explanation": "Plush gets compressed and thick fabric affects fit, so a size chart matters more than for a flat pad. RnemiTe-amo offers Standard and Large while Eeyore offers one size. Check the size chart against inner shoe length rather than guessing."
+    "explanation": "Plush gets compressed and thick fabric affects fit, so a size chart matters more than for a flat pad. RnemiTe-amo offers Standard and Large while Eeyore offers one size. Check the size chart against inner shoe length rather than guessing. If you wear thick socks, size up, because stuffed insulation can push a toe against the heating element."
   },
   {
     "criterion": "Safety layers and cord length",
-    "explanation": "Corded fleece heaters should carry overheat or overcurrent protection and an auto shut-off. Ausic lists several protections and an 8 foot cord. Look for the protections by name, and measure the distance to the outlet."
+    "explanation": "Corded fleece heaters should carry overheat or overcurrent protection and an auto shut-off. Ausic lists several protections and an 8 foot cord. Look for the protections by name, and measure the distance to the outlet. A cord under 6 feet often cannot reach from an outlet to a chair leg, so measure before you buy."
   },
   {
     "criterion": "Walking safety and sole",
-    "explanation": "Some plush warmers have a rubber sole made for walking, while others, like SunnyBay, state they are not for walking. Wearing a pair on tile in socks can be slippery. Check for a non-slip sole when you plan to move around."
+    "explanation": "Some plush warmers have a rubber sole made for walking, while others, like SunnyBay, state they are not for walking. Wearing a pair on tile in socks can be slippery. Check for a non-slip sole when you plan to move around. If the listing never mentions a sole, assume it is for sitting only."
   }
 ];
 
@@ -219,23 +219,23 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     "title": "Heat source and output",
-    "description": "We compared how each pair makes heat and what temperatures or timers the listing gives."
+    "description": "We sorted the field by how each pair is actually heated: Ausic through an 8 foot cord, CYCYHEAT and Auccipal by battery, SunnyBay by microwave, and Get Trend not at all. The source decides runtime, mobility and whether a pair can safely be used while seated at a desk."
   },
   {
-    "title": "Lining and comfort",
-    "description": "Fleece, coral fleece and plush linings were compared along with heel coverage and fit options."
+    "title": "Runtime and temperature detail",
+    "description": "Battery pairs drain faster at higher heat, so a single headline number misleads. RnemiTe-amo lists 4 hours at 140F against 8 hours at 104F, and Auccipal uses 2500 mAh cells with 104F, 122F and 140F steps. We gave credit to per-setting figures and ignored vague all-day claims."
   },
   {
-    "title": "Safety and timers",
-    "description": "Overheat protection, auto shut-off and cord length were weighed ahead of marketing wellness claims."
+    "title": "Lining, comfort and fit",
+    "description": "Plush compresses and thick fabric changes fit, so we looked at size options: RnemiTe-amo offers Standard and Large, SunnyBay lists fits for men 8 to 14, and Eeyore covers US 2.5 to 14.5. A size chart on the listing counted more than soft-sounding material adjectives."
   },
   {
-    "title": "Cleaning",
-    "description": "We noted removable liners, washable covers and charging cautions."
+    "title": "Safety layers and walking soles",
+    "description": "Corded fleece heaters should name overheat or overcurrent protection and an auto shut-off, as Ausic does with an 8 foot cord. We also checked soles, since SunnyBay says not to walk in them and Auccipal lists a non-slip rubber sole made for moving about."
   },
   {
-    "title": "Value for price",
-    "description": "Prices were compared against the heat source and features the listing documents."
+    "title": "Cleaning and value",
+    "description": "A fleece lining collects sweat, so we weighed removable linings like Ausic's machine washable one against sealed pairs. Price tiers then mattered: the cheapest heated pick here does not use electricity, so we judged it as a warm cover, not a rival to the battery pairs."
   }
 ];
 
@@ -285,15 +285,15 @@ export const howToChoose: HowToChooseSection[] = [
           "Get Trend Disney Eeyore Plush Foot Warmer"
         ],
         [
-          "About $31",
+          "Under $40",
           "SunnyBay Microwavable Foot Warmer Slippers"
         ],
         [
-          "About $50",
+          "Under $60",
           "Auccipal Camel Lace Heated Slippers"
         ],
         [
-          "About $50, washable",
+          "Under $60, washable",
           "RnemiTe-amo Rechargeable Heated Slipper Boots"
         ],
         [
@@ -376,27 +376,27 @@ export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
     "q": "Can I wear plush heated slippers while walking?",
-    "a": "Cordless pairs like CYCYHEAT, RnemiTe-amo and Auccipal are made for walking, with soles listed as non-slip on Auccipal. SunnyBay states it is not for walking, and corded Ausic is limited by its 8 foot cord."
+    "a": "Only the ones that say so. Auccipal lists a non-slip rubber sole made for walking, while SunnyBay states it is not for walking and Ausic's corded boots are tethered by an 8 foot cord. If you plan to move around the house, pick a cordless pair with a rubber sole."
   },
   {
     "q": "Is a microwavable warmer safe?",
-    "a": "Follow the label's heating time exactly and check the temperature on your hand before slipping in. The SunnyBay listing gives no microwave timing, so use the manufacturer's care tag."
+    "a": "Generally, if you follow the heating time on the listing. SunnyBay uses moist heat from a filling that you warm in the microwave, which means there is no cord or battery. Overheating the filling or reheating when damp can scald, so heat in short bursts and test with your hand first."
   },
   {
     "q": "Are heated plush slippers worth it over a regular pad?",
-    "a": "They keep heat around the foot, so they feel warmer, but a flat mat is cheaper and easier to wipe clean. Choose slippers if you want to stand or walk."
+    "a": "For cold feet while walking around, yes. A pad like those in our infrared foot warmer guide works only while you sit still, while CYCYHEAT and Auccipal travel with you. For a fixed desk, a corded pair like Ausic gives longer, steadier heat than any battery."
   },
   {
     "q": "How do I wash fleece-lined heated slippers?",
-    "a": "Remove the battery or controller, then wash only the part the listing says is washable. Ausic has a removable liner and RnemiTe-amo a washable outer cover. Let them dry fully."
+    "a": "Remove the battery or disconnect the cable first. Ausic lists a removable machine washable lining, and RnemiTe-amo has a removable insole and washable outer cover. Never soak a unit with sealed wiring, and let every part dry fully before reconnecting the heating elements."
   },
   {
     "q": "Does a non-electric plush warmer do anything?",
-    "a": "It insulates, so it keeps the warmth your feet already make, but it does not add heat. The Eeyore pocket is in that category and suits mild chills only."
+    "a": "Very little beyond insulation. The Eeyore pocket has no heating element, so it traps the warmth your feet already produce. It suits a drafty floor, but it will not heat cold feet, so if you want actual warmth, move up to the microwavable SunnyBay or a battery pair."
   },
   {
     "q": "Can I wear a plush electric warmer in bed?",
-    "a": "Not recommended. Use a model with an auto shut-off, avoid sleeping in it, and if you have reduced foot sensation ask a doctor first. These are comfort products, not medical devices."
+    "a": "We would not. Corded and battery pairs are designed for sitting or standing awake, and sleeping with wiring against your skin raises burn risk, especially if you have reduced sensation. Ausic's timer goes up to 8 hours, but a timer is a backup, not an invitation to sleep in them."
   }
 ];
 

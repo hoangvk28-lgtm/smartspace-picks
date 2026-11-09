@@ -1,0 +1,101 @@
+stt,nhom,dong_san_pham,slug,muc_gia_usd,uu_tien,thin_score,hwe_avg_chars,faq_count,faq_avg_chars,htc_chars,criteria_avg_chars,van_de,url
+1,1,walking-pads,best-walking-pads-under-100,100,P3,23,72,6,237,2701,667,"HWE 72c/muc",https://www.deskfinds.com/guide/best-walking-pads-under-100
+2,1,walking-pads,best-walking-pads-under-150,150,P3,22,77,6,248,2700,638,"HWE 77c/muc",https://www.deskfinds.com/guide/best-walking-pads-under-150
+3,1,walking-pads,best-walking-pads-under-200,200,P3,21,79,6,243,2795,669,"HWE 79c/muc",https://www.deskfinds.com/guide/best-walking-pads-under-200
+4,1,walking-pads,best-walking-pads-under-300,300,P3,21,79,6,250,2802,683,"HWE 79c/muc",https://www.deskfinds.com/guide/best-walking-pads-under-300
+5,1,walking-pads,best-walking-pads-under-400,400,P1,45,51,5,97,2616,183,"HWE 51c/muc; FAQ 5x97c; Criteria 183c",https://www.deskfinds.com/guide/best-walking-pads-under-400
+6,1,walking-pads,best-walking-pads-under-500,500,P1,49,42,5,80,2799,161,"HWE 42c/muc; FAQ 5x80c; Criteria 161c",https://www.deskfinds.com/guide/best-walking-pads-under-500
+7,1,walking-pads,best-walking-pads-under-700,700,P1,49,43,5,86,2412,169,"HWE 43c/muc; FAQ 5x86c; Criteria 169c",https://www.deskfinds.com/guide/best-walking-pads-under-700
+8,1,walking-pads,best-walking-pads-for-apartments,,P2,29,86,5,157,2528,243,"HWE 86c/muc; Criteria 243c",https://www.deskfinds.com/guide/best-walking-pads-for-apartments
+9,1,walking-pads,best-walking-pads-for-heavy-people,,P2,34,69,5,150,2501,228,"HWE 69c/muc; Criteria 228c",https://www.deskfinds.com/guide/best-walking-pads-for-heavy-people
+10,1,walking-pads,best-walking-pads-for-office,,P1,46,44,5,102,2566,186,"HWE 44c/muc; FAQ 5x102c; Criteria 186c",https://www.deskfinds.com/guide/best-walking-pads-for-office
+11,1,walking-pads,best-walking-pads-for-running,,P1,43,49,5,119,2412,203,"HWE 49c/muc; Criteria 203c",https://www.deskfinds.com/guide/best-walking-pads-for-running
+12,1,walking-pads,best-walking-pads-for-tall-people,,P1,37,55,5,137,2556,238,"HWE 55c/muc; Criteria 238c",https://www.deskfinds.com/guide/best-walking-pads-for-tall-people
+13,1,walking-pads,best-walking-pads-with-app,,P1,40,61,5,114,2637,214,"HWE 61c/muc; Criteria 214c",https://www.deskfinds.com/guide/best-walking-pads-with-app
+14,1,walking-pads,best-walking-pads-with-handle,,P1,42,47,5,119,2619,198,"HWE 47c/muc; Criteria 198c",https://www.deskfinds.com/guide/best-walking-pads-with-handle
+15,2,desk-gifts,best-desk-gifts-under-10,10,P2,31,88,6,138,2740,222,"HWE 88c/muc; Criteria 222c",https://www.deskfinds.com/guide/best-desk-gifts-under-10
+16,2,desk-gifts,best-desk-gifts-under-15,15,P2,30,61,6,198,2390,265,"HWE 61c/muc; Criteria 265c",https://www.deskfinds.com/guide/best-desk-gifts-under-15
+17,2,desk-gifts,best-desk-gifts-under-25,25,P2,25,87,6,189,2880,210,"HWE 87c/muc; Criteria 210c",https://www.deskfinds.com/guide/best-desk-gifts-under-25
+18,2,desk-gifts,best-desk-gifts-under-50,50,P1,45,58,6,87,2768,174,"HWE 58c/muc; FAQ 6x87c; Criteria 174c",https://www.deskfinds.com/guide/best-desk-gifts-under-50
+19,2,desk-gifts,best-desk-gifts-under-100,100,P2,29,67,6,202,2874,187,"HWE 67c/muc; Criteria 187c",https://www.deskfinds.com/guide/best-desk-gifts-under-100
+20,2,desk-gifts,best-desk-gifts-for-dad,,P2,32,66,6,221,2551,152,"HWE 66c/muc; Criteria 152c",https://www.deskfinds.com/guide/best-desk-gifts-for-dad
+21,2,desk-gifts,best-desk-gifts-for-engineers,,P2,33,57,6,214,2771,147,"HWE 57c/muc; Criteria 147c",https://www.deskfinds.com/guide/best-desk-gifts-for-engineers
+22,2,desk-gifts,best-desk-gifts-for-gamers,,P2,34,47,6,210,2819,146,"HWE 47c/muc; Criteria 146c",https://www.deskfinds.com/guide/best-desk-gifts-for-gamers
+23,2,desk-gifts,best-desk-gifts-for-new-job,,P2,32,56,6,228,2808,154,"HWE 56c/muc; Criteria 154c",https://www.deskfinds.com/guide/best-desk-gifts-for-new-job
+24,2,desk-gifts,best-desk-gifts-for-remote-workers,,P2,32,62,6,216,2731,148,"HWE 62c/muc; Criteria 148c",https://www.deskfinds.com/guide/best-desk-gifts-for-remote-workers
+25,2,desk-gifts,best-desk-gifts-for-teachers,,P2,33,52,6,199,2756,155,"HWE 52c/muc; Criteria 155c",https://www.deskfinds.com/guide/best-desk-gifts-for-teachers
+26,3,ergonomic-mice,best-ergonomic-mice-under-25,25,P1,35,47,6,126,2731,277,"HWE 47c/muc; Criteria 277c",https://www.deskfinds.com/guide/best-ergonomic-mice-under-25
+27,3,ergonomic-mice,best-ergonomic-mice-under-50,50,P2,32,49,6,144,2793,276,"HWE 49c/muc; Criteria 276c",https://www.deskfinds.com/guide/best-ergonomic-mice-under-50
+28,3,ergonomic-mice,best-ergonomic-mice-under-75,75,P1,44,42,5,116,2504,203,"HWE 42c/muc; Criteria 203c",https://www.deskfinds.com/guide/best-ergonomic-mice-under-75
+29,3,ergonomic-mice,best-ergonomic-mice-under-100,100,P2,31,55,6,237,2629,225,"HWE 55c/muc; Criteria 225c",https://www.deskfinds.com/guide/best-ergonomic-mice-under-100
+30,3,ergonomic-mice,best-ergonomic-mice-for-gaming,,P1,41,58,6,87,2781,202,"HWE 58c/muc; FAQ 6x87c; Criteria 202c",https://www.deskfinds.com/guide/best-ergonomic-mice-for-gaming
+31,3,ergonomic-mice,best-ergonomic-mice-for-large-hands,,P2,34,62,6,117,3109,214,"HWE 62c/muc; Criteria 214c",https://www.deskfinds.com/guide/best-ergonomic-mice-for-large-hands
+32,3,ergonomic-mice,best-ergonomic-mice-for-macbook,,P1,35,53,6,154,2452,269,"HWE 53c/muc; Criteria 269c",https://www.deskfinds.com/guide/best-ergonomic-mice-for-macbook
+33,3,ergonomic-mice,best-ergonomic-mice-for-small-hands,,P2,33,60,6,126,2812,238,"HWE 60c/muc; Criteria 238c",https://www.deskfinds.com/guide/best-ergonomic-mice-for-small-hands
+34,3,ergonomic-mice,best-ergonomic-mice-for-thumb-pain,,P2,26,67,6,156,3051,266,"HWE 67c/muc; Criteria 266c",https://www.deskfinds.com/guide/best-ergonomic-mice-for-thumb-pain
+35,3,ergonomic-mice,best-ergonomic-mice-for-work,,P1,38,53,6,94,3006,249,"HWE 53c/muc; FAQ 6x94c; Criteria 249c",https://www.deskfinds.com/guide/best-ergonomic-mice-for-work
+36,3,ergonomic-mice,best-ergonomic-mice-with-programmable-buttons,,P2,29,64,6,145,2595,324,"HWE 64c/muc",https://www.deskfinds.com/guide/best-ergonomic-mice-with-programmable-buttons
+37,3,ergonomic-mice,best-ergonomic-mice-with-side-scroll,,P3,20,79,6,208,2965,310,"HWE 79c/muc",https://www.deskfinds.com/guide/best-ergonomic-mice-with-side-scroll
+38,3,ergonomic-mice,best-ergonomic-mice,,P3,20,69,6,194,3357,292,"HWE 69c/muc; Criteria 292c",https://www.deskfinds.com/guide/best-ergonomic-mice
+39,4,bed-frames,best-bed-frames-under-100,100,P3,21,81,6,234,2727,677,"HWE 81c/muc",https://www.deskfinds.com/guide/best-bed-frames-under-100
+40,4,bed-frames,best-bed-frames-under-150,150,P3,22,71,6,275,2814,671,"HWE 71c/muc",https://www.deskfinds.com/guide/best-bed-frames-under-150
+41,4,bed-frames,best-bed-frames-under-200,200,P3,22,73,6,249,2819,691,"HWE 73c/muc",https://www.deskfinds.com/guide/best-bed-frames-under-200
+42,4,bed-frames,best-bed-frames-under-300,300,P3,22,67,6,275,2905,762,"HWE 67c/muc",https://www.deskfinds.com/guide/best-bed-frames-under-300
+43,4,bed-frames,best-bed-frames-under-500,500,P3,20,79,6,262,2994,713,"HWE 79c/muc",https://www.deskfinds.com/guide/best-bed-frames-under-500
+44,5,projector-screens,best-projector-screens-under-30,30,P3,22,76,6,236,2750,647,"HWE 76c/muc",https://www.deskfinds.com/guide/best-projector-screens-under-30
+45,5,projector-screens,best-projector-screens-under-50,50,P3,21,79,6,254,2719,690,"HWE 79c/muc",https://www.deskfinds.com/guide/best-projector-screens-under-50
+46,5,projector-screens,best-projector-screens-under-75,75,P3,22,74,6,276,2766,717,"HWE 74c/muc",https://www.deskfinds.com/guide/best-projector-screens-under-75
+47,5,projector-screens,best-projector-screens-under-100,100,P3,21,76,6,230,2797,668,"HWE 76c/muc",https://www.deskfinds.com/guide/best-projector-screens-under-100
+48,5,projector-screens,best-projector-screens-under-150,150,P3,20,81,6,253,2814,717,"HWE 81c/muc",https://www.deskfinds.com/guide/best-projector-screens-under-150
+49,6,electric-kettles,best-electric-kettles-under-20,20,P2,30,60,6,203,2769,211,"HWE 60c/muc; Criteria 211c",https://www.deskfinds.com/guide/best-electric-kettles-under-20
+50,6,electric-kettles,best-electric-kettles-under-30,30,P2,31,86,6,129,2866,239,"HWE 86c/muc; Criteria 239c",https://www.deskfinds.com/guide/best-electric-kettles-under-30
+51,6,electric-kettles,best-electric-kettles-under-50,50,P2,26,88,6,207,2760,198,"HWE 88c/muc; Criteria 198c",https://www.deskfinds.com/guide/best-electric-kettles-under-50
+52,6,electric-kettles,best-electric-kettles-under-100,100,P2,33,48,6,210,2753,191,"HWE 48c/muc; Criteria 191c",https://www.deskfinds.com/guide/best-electric-kettles-under-100
+53,6,electric-kettles,best-electric-kettles-for-dorm,,P2,30,72,6,133,3129,201,"HWE 72c/muc; Criteria 201c",https://www.deskfinds.com/guide/best-electric-kettles-for-dorm
+54,6,electric-kettles,best-electric-kettles-for-office,,P2,30,77,6,123,3097,210,"HWE 77c/muc; Criteria 210c",https://www.deskfinds.com/guide/best-electric-kettles-for-office
+55,6,electric-kettles,best-electric-kettles-with-keep-warm,,P1,37,78,6,118,2768,183,"HWE 78c/muc; Criteria 183c",https://www.deskfinds.com/guide/best-electric-kettles-with-keep-warm
+56,6,electric-kettles,best-electric-kettles-with-tea-infuser,,P2,31,62,6,126,3240,217,"HWE 62c/muc; Criteria 217c",https://www.deskfinds.com/guide/best-electric-kettles-with-tea-infuser
+57,6,electric-kettles,best-electric-kettles-with-temperature-control,,P2,32,68,6,117,3166,210,"HWE 68c/muc; Criteria 210c",https://www.deskfinds.com/guide/best-electric-kettles-with-temperature-control
+58,7,ups-battery-backups,best-ups-battery-backups-under-75,75,P3,20,88,6,253,2617,701,"HWE 88c/muc",https://www.deskfinds.com/guide/best-ups-battery-backups-under-75
+59,7,ups-battery-backups,best-ups-battery-backups-under-100,100,P3,20,86,6,234,2711,652,"HWE 86c/muc",https://www.deskfinds.com/guide/best-ups-battery-backups-under-100
+60,7,ups-battery-backups,best-ups-battery-backups-under-150,150,P3,21,85,6,236,2578,657,"HWE 85c/muc",https://www.deskfinds.com/guide/best-ups-battery-backups-under-150
+61,7,ups-battery-backups,best-ups-battery-backups-under-200,200,P3,21,83,6,256,2645,703,"HWE 83c/muc",https://www.deskfinds.com/guide/best-ups-battery-backups-under-200
+62,7,ups-battery-backups,best-ups-battery-backups-under-300,300,P3,20,88,6,260,2693,739,"HWE 88c/muc",https://www.deskfinds.com/guide/best-ups-battery-backups-under-300
+63,8,mechanical-keyboards,best-mechanical-keyboards-under-30,30,P3,20,84,6,250,2770,716,"HWE 84c/muc",https://www.deskfinds.com/guide/best-mechanical-keyboards-under-30
+64,8,mechanical-keyboards,best-mechanical-keyboards-under-50,50,P3,21,81,6,229,2758,689,"HWE 81c/muc",https://www.deskfinds.com/guide/best-mechanical-keyboards-under-50
+65,8,mechanical-keyboards,best-mechanical-keyboards-under-75,75,P3,19,87,6,229,2833,737,"HWE 87c/muc",https://www.deskfinds.com/guide/best-mechanical-keyboards-under-75
+66,8,mechanical-keyboards,best-mechanical-keyboards-under-100,100,P3,20,85,6,238,2839,724,"HWE 85c/muc",https://www.deskfinds.com/guide/best-mechanical-keyboards-under-100
+67,8,mechanical-keyboards,best-mechanical-keyboards-under-150,150,P3,19,89,6,228,2835,726,"HWE 89c/muc",https://www.deskfinds.com/guide/best-mechanical-keyboards-under-150
+68,9,foot-rests,best-foot-rests-under-25,25,P1,39,36,6,182,2278,161,"HWE 36c/muc; Criteria 161c",https://www.deskfinds.com/guide/best-foot-rests-under-25
+69,9,foot-rests,best-foot-rests-under-50,50,P1,38,30,6,188,2311,210,"HWE 30c/muc; Criteria 210c",https://www.deskfinds.com/guide/best-foot-rests-under-50
+70,9,foot-rests,best-foot-rests-under-100,100,P1,46,48,5,105,2417,177,"HWE 48c/muc; FAQ 5x105c; Criteria 177c",https://www.deskfinds.com/guide/best-foot-rests-under-100
+71,9,foot-rests,best-foot-rests-for-back-pain,,P1,42,44,6,140,2304,179,"HWE 44c/muc; Criteria 179c",https://www.deskfinds.com/guide/best-foot-rests-for-back-pain
+72,9,foot-rests,best-foot-rests-for-circulation,,P1,40,26,6,213,2095,212,"HWE 26c/muc; Criteria 212c",https://www.deskfinds.com/guide/best-foot-rests-for-circulation
+73,9,foot-rests,best-foot-rests-for-office-chairs,,P1,42,44,6,136,2476,175,"HWE 44c/muc; Criteria 175c",https://www.deskfinds.com/guide/best-foot-rests-for-office-chairs
+74,9,foot-rests,best-foot-rests-for-pregnancy,,P1,40,21,6,223,2021,241,"HWE 21c/muc; Criteria 241c",https://www.deskfinds.com/guide/best-foot-rests-for-pregnancy
+75,9,foot-rests,best-foot-rests-with-massage-rollers,,P1,38,33,6,212,2335,176,"HWE 33c/muc; Criteria 176c",https://www.deskfinds.com/guide/best-foot-rests-with-massage-rollers
+76,9,foot-rests,best-foot-rests-with-storage,,P2,33,67,6,141,2734,245,"HWE 67c/muc; Criteria 245c",https://www.deskfinds.com/guide/best-foot-rests-with-storage
+77,10,trackball-mice,best-trackball-mice-under-50,50,P2,26,72,6,153,3070,250,"HWE 72c/muc; Criteria 250c",https://www.deskfinds.com/guide/best-trackball-mice-under-50
+78,10,trackball-mice,best-trackball-mice-under-75,75,P1,41,52,5,120,2415,222,"HWE 52c/muc; Criteria 222c",https://www.deskfinds.com/guide/best-trackball-mice-under-75
+79,10,trackball-mice,best-trackball-mice-under-100,100,P1,35,63,6,129,2732,170,"HWE 63c/muc; Criteria 170c",https://www.deskfinds.com/guide/best-trackball-mice-under-100
+80,10,trackball-mice,best-trackball-mice-for-gaming,,P1,37,65,6,107,2688,213,"HWE 65c/muc; FAQ 6x107c; Criteria 213c",https://www.deskfinds.com/guide/best-trackball-mice-for-gaming
+81,10,trackball-mice,best-trackball-mice-for-laptops,,P1,36,63,6,115,2743,208,"HWE 63c/muc; Criteria 208c",https://www.deskfinds.com/guide/best-trackball-mice-for-laptops
+82,10,trackball-mice,best-trackball-mice-for-mac,,P2,30,70,6,143,2807,236,"HWE 70c/muc; Criteria 236c",https://www.deskfinds.com/guide/best-trackball-mice-for-mac
+83,10,trackball-mice,best-trackball-mice-for-small-hands,,P1,45,48,6,86,2596,160,"HWE 48c/muc; FAQ 6x86c; Criteria 160c",https://www.deskfinds.com/guide/best-trackball-mice-for-small-hands
+84,11,usb-c-hubs,best-usb-c-hubs-under-30,30,P1,42,106,6,20,2265,342,"FAQ 6x20c",https://www.deskfinds.com/guide/best-usb-c-hubs-under-30
+85,11,usb-c-hubs,best-usb-c-hubs-under-50,50,P1,43,104,6,9,2316,318,"FAQ 6x9c",https://www.deskfinds.com/guide/best-usb-c-hubs-under-50
+86,12,tablet-stands,best-tablet-stands-under-10,10,P3,23,72,6,250,2647,711,"HWE 72c/muc",https://www.deskfinds.com/guide/best-tablet-stands-under-10
+87,12,tablet-stands,best-tablet-stands-under-15,15,P3,23,68,6,243,2818,737,"HWE 68c/muc",https://www.deskfinds.com/guide/best-tablet-stands-under-15
+88,12,tablet-stands,best-tablet-stands-under-20,20,P3,21,78,6,245,2792,721,"HWE 78c/muc",https://www.deskfinds.com/guide/best-tablet-stands-under-20
+89,12,tablet-stands,best-tablet-stands-under-30,30,P3,21,74,6,257,2895,753,"HWE 74c/muc",https://www.deskfinds.com/guide/best-tablet-stands-under-30
+90,13,xlr-audio-interfaces,best-xlr-audio-interfaces-under-100,100,P3,23,68,6,307,2802,761,"HWE 68c/muc",https://www.deskfinds.com/guide/best-xlr-audio-interfaces-under-100
+91,13,xlr-audio-interfaces,best-xlr-audio-interfaces-under-150,150,P3,22,71,6,272,2852,795,"HWE 71c/muc",https://www.deskfinds.com/guide/best-xlr-audio-interfaces-under-150
+92,13,xlr-audio-interfaces,best-xlr-audio-interfaces-under-200,200,P3,20,81,6,268,2835,769,"HWE 81c/muc",https://www.deskfinds.com/guide/best-xlr-audio-interfaces-under-200
+93,13,xlr-audio-interfaces,best-xlr-audio-interfaces-under-300,300,P3,22,68,6,301,2866,814,"HWE 68c/muc",https://www.deskfinds.com/guide/best-xlr-audio-interfaces-under-300
+94,14,4k-projectors,best-4k-projectors-under-200,200,P3,21,81,6,255,2798,755,"HWE 81c/muc",https://www.deskfinds.com/guide/best-4k-projectors-under-200
+95,14,4k-projectors,best-4k-projectors-under-300,300,P3,22,76,6,261,2678,725,"HWE 76c/muc",https://www.deskfinds.com/guide/best-4k-projectors-under-300
+96,14,4k-projectors,best-4k-projectors-under-500,500,P3,22,78,6,291,2712,753,"HWE 78c/muc",https://www.deskfinds.com/guide/best-4k-projectors-under-500
+97,14,4k-projectors,best-4k-projectors-under-1000,1000,P3,21,73,6,306,2893,803,"HWE 73c/muc",https://www.deskfinds.com/guide/best-4k-projectors-under-1000
+98,15,laptop-stands,best-laptop-stands-under-30,30,P1,36,103,6,41,2757,352,"FAQ 6x41c",https://www.deskfinds.com/guide/best-laptop-stands-under-30
+99,15,laptop-stands,best-laptop-stands-under-50,50,P1,40,102,6,25,2571,374,"FAQ 6x25c",https://www.deskfinds.com/guide/best-laptop-stands-under-50
+100,16,desk-mats,best-desk-mats-under-20,20,P1,40,92,6,36,2545,334,"FAQ 6x36c",https://www.deskfinds.com/guide/best-desk-mats-under-20

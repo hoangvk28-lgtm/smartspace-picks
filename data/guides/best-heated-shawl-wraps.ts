@@ -163,47 +163,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Power source and wattage",
-    "explanation": "A USB heated shawl draws from a 5V source, and the listings that state it give about 10W. A power bank must supply that current for hours or the shawl will run cool or cut out. Look for the wattage in the listing and check your bank's rated output before buying."
+    "explanation": "A USB heated shawl draws from a 5V source, and the listings that state it give about 10W. A power bank must supply that current for hours or the shawl will run cool or cut out. Look for the wattage in the listing and check your bank's rated output before buying. A bank rated 5V 2A or higher is the practical minimum, so read its output line, not only its mAh number."
   },
   {
     "criterion": "Real battery runtime",
-    "explanation": "Runtime is how long a battery can keep the heat on, and it depends on the heat level you use. Bedsure lists up to 6.5 hours from its 20,000mAh pack, but the highest setting will drain faster than a low one. Look for runtime stated per setting, not one headline number."
+    "explanation": "Runtime is how long a battery can keep the heat on, and it depends on the heat level you use. Bedsure lists up to 6.5 hours from its 20,000mAh pack, but the highest setting will drain faster than a low one. Look for runtime stated per setting, not one headline number. As a rough rule, a 10,000mAh bank gives about half the stated runtime of a 20,000mAh pack at the same heat level."
   },
   {
     "criterion": "Stated temperature settings",
-    "explanation": "Three heat settings sound the same, but two listings state 95F, 113F and 131F while others only say low, medium and high. Knowing the top temperature tells you if the shawl will feel mild or strong. Pick one with actual temperatures listed so you can compare."
+    "explanation": "Three heat settings sound the same, but two listings state 95F, 113F and 131F while others only say low, medium and high. Knowing the top temperature tells you if the shawl will feel mild or strong. Pick one with actual temperatures listed so you can compare. A top temperature near 131F is warm on bare skin through a thin shirt, so choose a lower ceiling if you plan to wear it directly against a blouse."
   },
   {
     "criterion": "Safety mark and auto-off",
-    "explanation": "Only the Bedsure listing here names ETL and FCC marks and a 1 to 4 hour timer, while the USB capes name neither. A wearable heater sits against your body for hours, so check the tag for a mark and be wary of pieces with no timer. Never sleep in one."
+    "explanation": "Only the Bedsure listing here names ETL and FCC marks and a 1 to 4 hour timer, while the USB capes name neither. A wearable heater sits against your body for hours, so check the tag for a mark and be wary of pieces with no timer. Never sleep in one. If the wrap has no timer at all, treat it as a daytime item you unplug yourself."
   },
   {
     "criterion": "Washing with electronics",
-    "explanation": "A heated garment contains a heating element and a connector, which makes washing riskier than for a plain blanket. Bedsure says to remove the cable and power bank and avoid bleach, dry cleaning and ironing. Check the care steps in the listing before you buy."
+    "explanation": "A heated garment contains a heating element and a connector, which makes washing riskier than for a plain blanket. Bedsure says to remove the cable and power bank and avoid bleach, dry cleaning and ironing. Check the care steps in the listing before you buy. A model that lets you detach the cable and controller can be washed regularly, while a sealed one should only be spot cleaned."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Power and runtime",
-    "description": "We compared listed power inputs, battery capacity and runtime claims, favouring clear numbers."
+    "title": "Power source and wattage",
+    "description": "A USB wrap draws from 5V, and the listings that state it say about 10W, which is roughly 2A. We checked whether each wrap names its input, because a 1A power bank will leave a 10W shawl lukewarm. Bedsure ships its own 20,000mAh pack, which removes that guesswork."
   },
   {
-    "title": "Heat settings",
-    "description": "Listed temperatures, number of settings and whether a timer exists were weighed together."
+    "title": "Runtime stated per setting",
+    "description": "Battery claims only help if they come with a heat level. Bedsure lists up to 6.5 hours, but the high setting drains a pack faster than the low one. We rewarded listings that publish a range, since runtime is what decides whether a cordless wrap survives a full workday away from an outlet."
   },
   {
-    "title": "Wearability",
-    "description": "Zip fronts, hoods, pockets and sleeve freedom matter for keyboard work, so each cut was compared."
+    "title": "Stated temperatures, not just labels",
+    "description": "Two wraps here publish actual temperatures, 95F, 113F and 131F on the Khaki and up to 131F on the cape, while others only say low, medium and high. Knowing the top figure lets you judge whether a wrap will feel mild or strong before you wear it against your body."
   },
   {
-    "title": "Safety and care",
-    "description": "Named certifications and washing instructions counted more than marketing words."
+    "title": "Wearability at a keyboard",
+    "description": "We looked at zip fronts, hoods, pockets and the cut around the sleeves, because a shawl that slides off your shoulders or traps your arms is useless at a desk. Zip fronts on the Khaki, Cotozic and KioraLee all keep the wrap in place while you type."
   },
   {
-    "title": "Price for documentation",
-    "description": "Cheaper capes were credited only for what their listings actually state."
+    "title": "Safety marks, auto-off and care",
+    "description": "Only Bedsure names ETL and FCC marks plus a 1 to 4 hour timer, so it earned the most credit here. Cheaper USB wraps were judged only on what their listings actually state, and washing steps that require removing the cable and power bank first counted in their favor."
   }
 ];
 
@@ -266,7 +266,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Cotozic Heated Shawl Wrap"
         ],
         [
-          "About $80",
+          "Under $100",
           "Bedsure Cordless Heated Blanket Hoodie"
         ]
       ]
@@ -345,27 +345,27 @@ export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
     "q": "Can I run a USB heated shawl from my laptop?",
-    "a": "Some listings say laptop USB ports are compatible, but a port may supply less current than a wall adapter and the shawl may run cooler. A 5V adapter or a power bank is the safer match."
+    "a": "Possibly, but check the numbers. The USB wraps here list 5V and about 10W, which is roughly 2A, and many laptop ports supply less than that or switch off when the lid closes. A wall adapter or a bank rated for 2A output is the dependable route, and the cape listing says it works with laptop USB."
   },
   {
     "q": "Will a power bank last all day?",
-    "a": "Not usually. Bedsure's included 20,000mAh pack lists up to 6.5 hours, and the USB capes do not list runtime at all, so expect a few hours at most from a typical bank."
+    "a": "Not on the high setting. Bedsure lists up to 6.5 hours from its included 20,000mAh pack, and a 10W wrap on a smaller 10,000mAh bank will usually run for a shorter stretch. For a full eight hour day, plan to charge, use low or medium most of the time, or plug into an outlet."
   },
   {
     "q": "Is a heated shawl worth it over a heated throw?",
-    "a": "If you type or move, yes, because the shawl stays on your shoulders. A throw covers more area and heats more strongly, so choose it for sofa use."
+    "a": "A shawl moves with you and leaves your hands free, which matters for typing, while a throw stays on your lap. If you sit still with a laptop, a throw like the ones in our heated throw guide covers more area. For walking to the printer or kitchen, the Khaki or cape wraps are the better fit."
   },
   {
     "q": "How do I wash one?",
-    "a": "Remove the USB lead and any power bank first, as Bedsure's listing says, and use a gentle cycle. Never wash with the battery attached, and let it dry completely before use."
+    "a": "Disconnect everything first. Bedsure says to remove the cable and power bank and avoid bleach, dry cleaning and ironing, and the cape lists machine washing. Use a gentle cycle in a laundry bag when allowed, and air-dry it flat, since a hot dryer can damage the wiring inside the panels."
   },
   {
     "q": "Can I wear one while sleeping?",
-    "a": "We would not. Powered clothing is best used awake, with a timer if available, and these USB capes have no timer listed."
+    "a": "No. These are made for sitting at a desk or on a sofa, and a wearable heater pressed against your body for hours is a different risk from a throw. Even Bedsure's 4 hour maximum timer is meant for awake use, so switch it off and unplug the bank before you doze off."
   },
   {
     "q": "Are these medical products?",
-    "a": "No. They are comfort products, and listing claims about wellness should not be relied on. If you have reduced sensation, ask a doctor first because you may not feel if it gets too warm."
+    "a": "No, and none of them should be treated that way. They are comfort items that warm your shoulders and upper back, and the listings here make no medical claims. If you have circulation problems, diabetes or numb skin, ask a doctor first and keep the setting low with clothing between you and the panels."
   }
 ];
 

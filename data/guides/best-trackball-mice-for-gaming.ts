@@ -190,52 +190,48 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Game genre fit",
-    "explanation": "Trackballs suit slower, deliberate games such as strategy, simulation and puzzle titles because the thumb or fingers make small, precise moves. Fast shooters need large flicks, which a ball handles poorly. Pick based on the genre you play most."
+    "criterion": "DPI range and stepped control",
+    "explanation": "DPI sets how far the pointer travels per roll, and trackballs usually feel best near 800 to 1200. A top figure of 1500 or 1600 is plenty. Look for several steps and a button to switch them, and pick one that lets you drop low for precise moves. The EX-G Pro offers 500, 1000 and 1500 DPI steps, and the Nulea picks go to 1600."
   },
   {
-    "criterion": "DPI range and steps",
-    "explanation": "DPI sets how far the cursor travels per roll, and most trackballs here top out at 1500 to 1600, which is low for gaming. A wider range with five steps helps match different monitors. Check the DPI list and the button that cycles it."
+    "criterion": "Programmable button count",
+    "explanation": "Strategy and MMO players bind abilities to thumb or side buttons, and a trackball with eight programmable buttons gives more room than one with five. Check how many buttons the listing calls programmable, and whether the software runs on your operating system. The EX-G Pro has 8 programmable buttons, the Nulea M506 fewer."
   },
   {
-    "criterion": "Wired versus wireless latency",
-    "explanation": "Wired links avoid sleep delays and pairing issues, while wireless adds freedom. None of these listings gives a polling rate. If response matters, choose wired or 2.4GHz."
+    "criterion": "Wired versus wireless for play",
+    "explanation": "A wired link avoids battery and reduces delay, while a 2.4GHz receiver is a good wireless choice. Bluetooth adds latency. Check the connection type named in the title, and measure the cable length if you choose a wired model such as the 1.8m PORLEI. The PORLEI 34mm is wired with a 1.8m cable; the EX-G Pro adds 2.4GHz and Bluetooth."
   },
   {
-    "criterion": "Programmable buttons",
-    "explanation": "More buttons let you map abilities and macros. The EX-G Pro lists eight. Check that the vendor software supports your OS."
+    "criterion": "Tilt and long-session comfort",
+    "explanation": "A tilt of 16 degrees or a 54 degree vertical body changes how your forearm sits, which matters in marathon sessions. A flat trackball can twist the forearm. Look for a stated angle and for a model that offers more than one setting. The Nulea M506 tilts 54 degrees and the TECKNET 16, with the JOMAA flat."
   },
   {
-    "criterion": "Ball material and bearings",
-    "explanation": "Ceramic balls and ruby bearings resist wear and keep rolling smooth, while plain plastic parts can feel gritty after dust builds up. In a game, a sticky ball makes slow aiming feel inconsistent. Look for the bearing or ball material named in the bullets."
-  },
-  {
-    "criterion": "Comfort over long sessions",
-    "explanation": "Vertical and tilted bodies reduce the palm-down forearm twist that builds up during long sessions. This matters most for strategy players who sit for hours without moving. Look for the degree figure, such as 16 or 54, and expect a short adjustment period."
+    "criterion": "Auto sleep and wake behavior",
+    "explanation": "Wireless trackballs sleep to save power, and the first movement after sleep can lag. The JOMAA lists a 30 second sleep. Check for sleep timing in the specs, and read reviews for wake-up delay, since a pause in a match can cost you. The JOMAA sleeps after 30 seconds, and the Nulea M506 claims only 21 days per charge."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Gaming-relevant specs",
-    "description": "We compared DPI range, step count and button count from each listing."
+    "title": "Sensor limits and DPI range",
+    "description": "We compared DPI ceilings, such as 1500 on the ELECOM EX-G Pro and 1600 on the Nulea picks, and treated them honestly. A trackball is rarely an aim tool, so we judged whether the range suits strategy and casual play rather than fast shooters. The EX-G Pro tops at 1500 DPI, so none of these is a competitive shooter mouse."
   },
   {
-    "title": "Connection",
-    "description": "Wired, 2.4GHz and Bluetooth modes were noted, with no polling rates assumed."
+    "title": "Programmable buttons",
+    "description": "We counted programmable buttons, like the 8 on the EX-G Pro, since strategy and MMO players use thumb shortcuts. A trackball with too few buttons loses its advantage for casual gaming, so layout and software support counted. The EX-G Pro lists 8 programmable buttons; the PORLEI lists none by name."
   },
   {
-    "title": "Ball and bearings",
-    "description": "Ball material and bearing claims were weighed."
+    "title": "Connection and latency",
+    "description": "We separated wired options, such as the PORLEI 34mm with a 1.8m cable, from 2.4GHz and Bluetooth models. For gaming, a wired or 2.4GHz link is the safer choice, so Bluetooth-only listings were treated with caution. The PORLEI's 1.8m cable is long enough for a tower under most desks."
   },
   {
-    "title": "Comfort",
-    "description": "Tilt, vertical shape and battery were scored."
+    "title": "Vertical and tilt choices",
+    "description": "We compared the 54 degree Nulea M506, the 16 degree TECKNET and flatter shells. A trackball for long sessions should keep the forearm comfortable, so tilt and hand posture mattered as much as sensor numbers. The Nulea M506 tilts 54 degrees and the TECKNET 16, so marathon comfort varies widely."
   },
   {
-    "title": "Value for price",
-    "description": "Pricing was read against listed hardware and common owner feedback, not brand reputation."
+    "title": "Honest value for gaming",
+    "description": "We weighed price against features, noting that RGB on the Nulea M508 and JOMAA adds nothing to play. A $27 wired PORLEI or a $65 EX-G Pro should earn its price from controls and comfort, not decoration. The Nulea M508 and JOMAA add RGB, which gives no gameplay value."
   }
 ];
 
@@ -367,28 +363,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can you play shooters with a trackball?",
-    "a": "Some people do, but flick aiming is harder. Strategy and slower games are a better fit. Keep a regular mouse for competitive play."
+    "q": "Can I play shooters with a trackball?",
+    "a": "Rarely well. A trackball is slower to aim for fast flicks, so competitive shooters usually prefer a regular mouse. They do suit strategy, simulation, puzzle and casual games, where precision matters less and comfort over long sessions matters more."
   },
   {
-    "q": "Is RGB useful?",
-    "a": "It is cosmetic. Pick a model for comfort and buttons first, then lighting."
+    "q": "Is the ELECOM EX-G Pro worth it over the Nulea M508?",
+    "a": "If you want many shortcuts, yes. The EX-G Pro has 8 programmable buttons and wired, 2.4GHz or Bluetooth modes, while the M508 is $20 cheaper with RGB and 3 devices. The EX-G Pro costs more for its controls and support."
   },
   {
-    "q": "Is wired better for gaming?",
-    "a": "Wired avoids sleep delays and battery issues, which is why it is safer. A 2.4GHz link is usually fine for casual play."
+    "q": "Does RGB help gameplay?",
+    "a": "No. The RGB on the Nulea M508 and JOMAA is cosmetic, and it can drain the battery. If you want it for desk style, fine, but do not pay extra for it. Look at the DPI, buttons and connection quality first."
   },
   {
-    "q": "What DPI should I use?",
-    "a": "Start with the middle setting and adjust per game. Most trackballs here top out around 1500 to 1600, so large monitors may feel slow."
+    "q": "Which connection is best for gaming?",
+    "a": "Wired or 2.4GHz is the safer pick, since Bluetooth can add delay. The PORLEI 34mm is wired with a 1.8m cable, and the EX-G Pro offers a wired mode. If you use wireless, keep the receiver near your computer."
   },
   {
-    "q": "Is the EX-G Pro worth it?",
-    "a": "It is worth it if you use many buttons. For casual games, a cheaper model covers the basics."
+    "q": "Does the JOMAA sleeping after 30 seconds matter?",
+    "a": "It can. The listing says it sleeps after 30 seconds, so the first move after a pause may lag as it wakes. For gaming, that pause can feel like a miss, so test it before relying on it in a match."
   },
   {
-    "q": "How do I clean a gaming trackball?",
-    "a": "Pop out the ball, wipe the rollers and ball, and let them dry. Ruby bearings help resist grit."
+    "q": "How should I tune the DPI?",
+    "a": "Start at the middle setting and adjust until a small thumb roll moves the cursor a sensible distance. Many trackball users prefer 800 to 1200. The EX-G Pro tops at 1500, so lower settings give more control in games."
   }
 ];
 

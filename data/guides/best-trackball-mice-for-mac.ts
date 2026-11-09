@@ -218,52 +218,48 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Bluetooth versus USB-A dongle on a Mac",
-    "explanation": "Current MacBooks use USB-C only, so a USB-A receiver needs an adapter and uses a port you may want for charging. Bluetooth avoids that and pairs in System Settings in seconds. Check that the listing says Bluetooth and not just 2.4GHz."
+    "criterion": "Named macOS support",
+    "explanation": "A listing that names macOS or Mac tells you the maker tested it. The Logitech M575S lists PC and Mac, and the SANWA wired model names macOS 10.12 to 12. Look for the name and version in the compatibility bullets, and be wary of listings that only say works on all systems. The Ergo M575S lists PC and Mac, and the SANWA wired names macOS 10.12 to 12. Read the first few reviews for any Mac complaints."
   },
   {
-    "criterion": "Named macOS versions",
-    "explanation": "Some listings state the exact macOS versions supported, and older products may stop at macOS 12 or 10.15. A newer macOS may still work, but it is not confirmed. Read the compatibility sentence for your version."
+    "criterion": "Side button drivers",
+    "explanation": "Back and forward buttons usually need a driver, and some budget brands ship Windows only software. On a Mac, they may do nothing. Check the final bullets and the Q and A for macOS notes, since the pointer can work while shortcuts do not. The ProtoArc EM02's back and forward fail on macOS per its own listing. Confirm that each shortcut works before the return window ends."
   },
   {
-    "criterion": "Mac button mapping caveats",
-    "explanation": "Back and forward buttons are often assigned to browser history, but one listing warns they do not work on macOS. That matters if you rely on those buttons while browsing. Check the listing for a note about Mac buttons."
+    "criterion": "USB-C only ports",
+    "explanation": "Many MacBooks have only USB-C ports, so a USB-A receiver needs an adapter. Bluetooth avoids that. Look for Bluetooth in the title, and check the listing's connection details, since some picks are receiver-only. The SANWA 2.4G is receiver only; the M575S and Nulea M501 offer Bluetooth. An adapter costs a few dollars if you need one."
   },
   {
-    "criterion": "Software and remapping",
-    "explanation": "Vendor apps such as Logi Options or Kensington Konnect exist for some models, while no-software models rely on firmware. Remapping on a Mac may be limited. Check whether the app lists macOS."
+    "criterion": "Tilt and wrist angle",
+    "explanation": "A tilt such as 19 or 21.7 degrees reduces forearm twist on a long day, while flat models keep the palm down. Look for a stated angle, and think about how much change you want from your current mouse. The Nulea stand tilts 21.7 degrees and the SANWA 2.4G 19 degrees. Pick the tilt your wrist already likes."
   },
   {
-    "criterion": "Device switching with Apple gear",
-    "explanation": "A three-device ball lets you flip between a MacBook, an iPad and a phone with one button press, which saves re-pairing each time. Tablet pointer support depends on the operating system version, so it is not guaranteed by the mouse alone. Look for a switch button on the underside and a stated device count in the listing."
-  },
-  {
-    "criterion": "Tilt, size and desk footprint",
-    "explanation": "A tilted body changes your forearm angle, and a small footprint leaves room beside a MacBook on a tight desk. A steep stand can add height that feels awkward at first. Look for listed degrees in the title or bullets and any stated dimensions."
+    "criterion": "Newer macOS versions",
+    "explanation": "A listing that names an old macOS version may not guarantee support for the latest one. Basic functions usually work through standard drivers, but extras may fail. Check the date of the last reviews, and choose a Bluetooth model if unsure. The SANWA wired model confirms macOS 12 at most, so newer systems are untested. Skip any pick whose reviewers report dead buttons."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Mac compatibility text",
-    "description": "We checked each listing for explicit Mac wording and the macOS versions named."
+    "title": "Named macOS support",
+    "description": "We looked for explicit Mac statements, such as the Logitech Ergo M575S listing PC and Mac, and the SANWA wired model naming macOS 10.12 to 12. A listing that names macOS earns trust, while a vague works with all systems line does not. The Ergo M575S names PC and Mac; the Nulea M501 lists neither version."
   },
   {
-    "title": "Bluetooth support",
-    "description": "Bluetooth and dongle options were compared since Macs often lack USB-A ports."
+    "title": "Button behavior on Mac",
+    "description": "We recorded known button caveats, such as the ProtoArc EM02 back and forward failing on macOS. A pointer that works while shortcuts fail is a daily annoyance, so a disclosed limitation cost a pick points even if it was honest. The ProtoArc EM02 warns its back and forward fail on macOS, while the Nulea 21.7 stand lists Mac."
   },
   {
-    "title": "Known Mac caveats",
-    "description": "Button warnings and driver notes in the listings were weighed."
+    "title": "Ports and pairing",
+    "description": "We checked Bluetooth against USB-A receivers, since a recent MacBook may offer only USB-C. The M575S includes a Logi Bolt USB-A receiver but also Bluetooth, while the SANWA 2.4G is receiver-only. Port-free pairing weighed heavily. The M575S offers Bluetooth or Logi Bolt, but the SANWA 2.4G has only a USB receiver."
   },
   {
-    "title": "Comfort features",
-    "description": "Tilt, ball size and battery type were scored."
+    "title": "Tilt and comfort",
+    "description": "We compared tilts, from the 21.7 degree Nulea stand to the 19 degree SANWA and flat Nulea M501. Comfort matters on a Mac desk where people work long hours, so a tilt option scored above a fixed flat shell. The Nulea stand tilts 21.7 degrees, the SANWA 19, and the M501 is flat."
   },
   {
-    "title": "Value for price",
-    "description": "Each price was judged against the spec sheet it buys, plus patterns in owner feedback."
+    "title": "Newer macOS uncertainty",
+    "description": "We noted that the SANWA wired model names macOS only up to version 12. Newer macOS versions may behave differently, so an unconfirmed version cost a pick points, while one with Bluetooth and generic HID behavior was safer. The wired SANWA names macOS 10.12 to 12 only, so newer releases are unconfirmed."
   }
 ];
 
@@ -395,28 +391,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Will a trackball work with macOS without drivers?",
-    "a": "Basic cursor movement works over Bluetooth with no driver. Extra button functions may need the vendor app. Check your listing."
+    "q": "Do trackballs work with macOS?",
+    "a": "Basic pointing and clicking work with most trackballs through standard drivers. Extra buttons may need a driver. The Logitech M575S names Mac support, while the ProtoArc EM02 warns of failing back and forward buttons. Check each listing before buying."
   },
   {
-    "q": "Do I need a USB-C adapter?",
-    "a": "Only if the ball uses a USB-A dongle and your Mac has USB-C ports. Bluetooth avoids that. Choose Bluetooth first."
+    "q": "Is the Logitech M575S the safest Mac pick?",
+    "a": "Probably. It lists Bluetooth or a Logi Bolt receiver and names PC and Mac compatibility, which is clearer than most rivals. The tradeoff is no tilt adjustment and a USB-A receiver, so use Bluetooth on a USB-C-only MacBook."
   },
   {
-    "q": "Why do some side buttons fail on Mac?",
-    "a": "Buttons may send commands that macOS does not map by default. One listing warns about this explicitly. Remapping software can help if it supports macOS."
+    "q": "Why do back and forward fail on some trackballs?",
+    "a": "Those buttons rely on drivers that some brands ship only for Windows. The ProtoArc EM02 listing warns about it. Look for macOS in the title or compatibility bullets, and read reviews from Mac owners before buying."
   },
   {
-    "q": "Does a trackball work with an iPad?",
-    "a": "Some listings include tablets, and Bluetooth pointer devices generally work with iPads, but exact support depends on the iPadOS version. Check your listing."
+    "q": "Is the SANWA wired model safe for a new Mac?",
+    "a": "It names macOS 10.12 to 12, so newer versions are unconfirmed. Basic pointing will probably still work, but extra functions may not. The USB-A plug also needs an adapter for MacBook ports."
   },
   {
-    "q": "Is the Logitech worth the extra over the Nulea M501?",
-    "a": "It adds a trusted brand and a battery in the box. If you want tilt, the Nulea tilt stand is more useful. For basic needs, the M501 is enough."
+    "q": "How do I pair Bluetooth on a Mac?",
+    "a": "Open System Settings, choose Bluetooth, and hold the trackball's pairing button until its light flashes. Select it in the list. For multi-device models like the Nulea M501, press the channel button first so each device keeps its own slot."
   },
   {
-    "q": "How do I pair over Bluetooth?",
-    "a": "Hold the pairing button until the light blinks, then choose the mouse in System Settings under Bluetooth. Switch channels with the underside button. Repeat per device."
+    "q": "Can I customize buttons on a Mac?",
+    "a": "Sometimes. Logitech's software runs on macOS, but many budget trackballs have no Mac software. Check the listing for supported operating systems before relying on custom buttons."
   }
 ];
 

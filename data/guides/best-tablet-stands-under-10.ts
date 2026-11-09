@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Device Thickness Compatibility", "description": "Compared stated maximum case thickness figures where disclosed across the lineup." },
-  { "title": "Construction Material", "description": "Compared metal versus ABS plastic construction and its durability implications." },
-  { "title": "Viewing Angle Range", "description": "Compared stated degree ranges for tilt and viewing angle adjustment." },
-  { "title": "Portability", "description": "Compared folded dimensions and weight for travel convenience." },
-  { "title": "Device Size Range", "description": "Compared the minimum and maximum device sizes each pick accommodates." }
+  { "title": "Case thickness allowance", "description": "We compared the maximum case thickness each listing states, from 0.75 inches on the Lamicall to 0.55 inches on the UGREEN. Measure the tablet with its case on, because a rugged case thicker than the cradle slot simply will not seat and the stand becomes unusable. The Tonmom and VOVIGGOL list no case-thickness figure." },
+  { "title": "Base weight and tip resistance", "description": "We read base descriptions, including the Lamicall's weighted metal base and the Tonmom's heavy-duty metal base. A light base tips forward once the arm is extended with a tablet attached, so at this price we treated a metal base as the dividing line from flimsy wire stands." },
+  { "title": "Stated device size range", "description": "We compared device ranges, from 4 to 11 inches on the UGREEN to 4 to 16 inches on the Tonmom. Listings often claim wide compatibility, so we looked at whether the build, such as dual rotating shafts, plausibly supports the largest size and not just the claim." },
+  { "title": "Folded size and carry weight", "description": "We compared packed sizes, such as the UGREEN's 4.7 by 4.2 inch fold, the Lamicall's 0.59 inch thickness, and the VOVIGGOL's 3.1 ounces. If the stand lives in a bag, packed size matters more than a few extra viewing angles." },
+  { "title": "Angle range and hinge feel", "description": "We compared adjustment ranges, from 15 to 100 degrees on the UGREEN to 0 to 180 degrees on the VOVIGGOL. A wider range helps typing and video, but joints that drift under tapping are worse than a smaller range that holds." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "With every pick under $10, the first decision is whether you need a desk-bound weighted base or a featherweight stand that travels in a bag.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "The four sit within under $10, so the budget table is less about saving money and more about which small sacrifice you accept.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Device Case Thickness",
+    intro: "Fit is the second decision, because an oversized case or tablet can disqualify an otherwise good stand.",
     table: {
       headers: ["Your device with case", "Recommended pick"],
       rows: [
@@ -154,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the widest case compatibility with genuine 360-degree rotation, where the Lamicall pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You just want a basic, widely adjustable stand at the lowest price, where the VOVIGGOL pick covers that for about $2 less." }
+      { label: "Save if", text: "You just want a basic, widely adjustable stand at the lowest price, where the VOVIGGOL pick covers that for under $10 less." }
     ],
   }
 ];
@@ -184,8 +187,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Will these budget tablet stands work with a thick, heavy-duty protective case on my tablet?", "a": "Check each pick's stated maximum device thickness carefully, since the Lamicall pick specifically accommodates cases up to 0.75 inches thick, the widest in this comparison, while others like the UGREEN pick have a tighter 0.55 inch limit that a bulky case might exceed." },
-  { "q": "What's the most common mistake buyers make when choosing a tablet stand under $10?", "a": "Not checking whether a stated device compatibility range includes or excludes a protective case, leading to a stand that looks like it should fit based on tablet size alone but doesn't actually accommodate the tablet once the case is factored in." },
-  { "q": "Is the Lamicall pick worth it over the cheaper VOVIGGOL option?", "a": "If you specifically want 360-degree rotation and the widest case compatibility, yes, but if you just want a basic stand with a wide tilt angle range at the lowest price, the VOVIGGOL pick covers that for about $2 less." },
+  { "q": "How can I check whether a cheap tablet stand will tip?", "a": "Measure the tablet with its case, then look for a metal or weighted base and give it a gentle tap on the screen once mounted. The Lamicall and Tonmom list weighted or heavy-duty metal bases, which resist tipping better than the 3.1 ounce VOVIGGOL, which is built for portability." },
+  { "q": "Is the Lamicall pick worth it over the cheaper VOVIGGOL option?", "a": "If you specifically want 360-degree rotation and the widest case compatibility, yes, but if you just want a basic stand with a wide tilt angle range at the lowest price, the VOVIGGOL pick covers that for under $10 less." },
   { "q": "How do I fix a tablet stand's hinge if it becomes too loose after months of use?", "a": "The Tonmom pick specifically includes an adjustment tool stored under its anti-slip base pad for this exact purpose, while other picks in this tier may require a small screwdriver or hex key if their hinges loosen over time without an included tool." },
   { "q": "Can these budget stands support a heavier tablet like an iPad Pro without tipping over?", "a": "Most picks in this tier are designed and tested for standard tablet weights, but checking each listing's specific compatible device list, which often includes iPad Pro models by name, is worth doing to confirm compatibility with heavier devices before assuming universal support." },
   { "q": "Do any of these stands work for devices other than tablets, like e-readers or smartphones?", "a": "Yes, all four picks in this comparison explicitly state compatibility with smartphones and e-readers in addition to tablets, since their adjustable hook design accommodates a range of device sizes and thicknesses within their stated limits." }

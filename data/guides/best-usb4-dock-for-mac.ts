@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Chip-Generation Display Support", "description": "Compared stated display limits across M1, M2, M3, and M4/M5 chip generations." },
-  { "title": "Built-In Storage Expansion", "description": "Compared docks offering integrated NVMe SSD enclosures against display-and-charging-only designs." },
-  { "title": "Charging Wattage and Certification", "description": "Compared stated charging wattage and any third-party safety testing certifications." },
-  { "title": "Port Count and Networking", "description": "Compared total port count and Ethernet speed across all four picks." },
-  { "title": "Mac mini vs MacBook Design", "description": "Compared docks built specifically for Mac mini against those designed for MacBook models." }
+  {
+    "title": "Per-chip display disclosure",
+    "description": "Mac display limits depend on the chip: base M1, M2 and M3 allow one external display, while Pro and Max chips allow more. We credited listings like Plugable's that disclose chip-specific compatibility, since a vague dual-display claim is a common source of returns. Plugable also lists the M4 and M5 generations by name, which older docks cannot claim."
+  },
+  {
+    "title": "macOS-specific limits like MST",
+    "description": "macOS does not support DisplayPort Multi-Stream Transport, so a basic dock can only mirror a second screen. We checked whether each pick is a Thunderbolt or USB4 design that avoids relying on MST, rather than a driver-dependent dock built for Windows. This matters most for MacBook Air owners who expect two monitors from any USB-C hub."
+  },
+  {
+    "title": "Mac mini form factor fit",
+    "description": "The Acer and Akkyajaure picks sit under a Mac mini and double as SSD enclosures. We checked the stated compatibility, since the Mac mini docks are tied to specific Mac mini generations and the footprint must match. A dock sized for the wrong Mac mini generation will not seat or may block the vents."
+  },
+  {
+    "title": "Storage and charging",
+    "description": "We compared 8TB M.2 enclosure support, UHS-II card readers, and 100W charging for a MacBook Pro. Storage speed claims were weighed against the 40Gbps USB4 or Thunderbolt link that limits them. A drive that bottlenecks at 10Gbps is still faster than most external hard drives."
+  },
+  {
+    "title": "Price against capability",
+    "description": "Prices run from under $65 to under $300. We asked what you give up at each step, such as the Acer trading MacBook-grade charging for an SSD bay, so each tier is tied to a real MacBook or Mac mini scenario. The Acer pairs a 4K 144Hz HDMI 2.1 output with an SSD bay, unusual at its price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Dual-display support with clear chip compatibility", "Plugable Thunderbolt 4 Dock for M4/M5 MacBook"],
-        ["The highest port count with certified charging safety", "Plugable 16-in-1 Thunderbolt 4 Dock"],
-        ["Mac mini storage expansion at the lowest price", "Acer Mac mini Dock with 8TB SSD Enclosure"],
-        ["The highest bandwidth Mac mini storage dock", "Akkyajaure 40Gbps USB4 Mac mini Dock"]
+    "subheading": "By Mac Model",
+    "intro": "Mac chips set the display count, so pick by model first.",
+    "table": {
+      "headers": [
+        "Your Mac",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "M4 or M5 MacBook Air or Pro",
+          "Plugable Thunderbolt 4 Dock for M4/M5 MacBook Air and Pro, with chip-specific compatibility disclosed"
+        ],
+        [
+          "MacBook Pro with Pro or Max chip and many peripherals",
+          "Plugable 16-in-1 Thunderbolt 4 Dock, with 16 ports and dual 4K 60Hz"
+        ],
+        [
+          "Mac mini with storage needs",
+          "Acer Mac mini Dock with 8TB SSD Enclosure, with up to 8TB expansion"
+        ],
+        [
+          "Mac mini on a tight budget",
+          "Akkyajaure 40Gbps USB4 Mac mini Dock, with M.2 NVMe enclosure and 40Gbps host link"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $60", "Acer Mac mini Dock (under $60)"],
-        ["Under $90", "Akkyajaure Mac mini Dock (under $90)"],
-        ["Under $200", "Plugable Thunderbolt 4 Dock for M4/M5 (under $200)"],
-        ["Under $290", "Plugable 16-in-1 Thunderbolt 4 Dock (under $300)"]
+    "subheading": "By Budget",
+    "intro": "The four docks run from under $65 to under $300, and the cheap two are Mac mini docks.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Under $65",
+          "Acer Mac mini Dock with 8TB SSD Enclosure, with 8TB expansion at the lowest cost"
+        ],
+        [
+          "$85 to $95",
+          "Akkyajaure 40Gbps USB4 Mac mini Dock, with an NVMe PCIe SSD enclosure"
+        ],
+        [
+          "$200 range",
+          "Plugable Thunderbolt 4 Dock for M4/M5, with dual 4K 60Hz HDMI and 100W charging"
+        ],
+        [
+          "Under $300",
+          "Plugable 16-in-1 Thunderbolt 4 Dock, with 2.5Gbps Ethernet and 16 ports"
+        ]
+      ]
+    }
   },
   {
-    subheading: "MacBook Display Dock vs Mac mini Storage Dock",
-    cards: [
-      { label: "MacBook display dock (both Plugable picks)", text: "Prioritizes display output and charging for a laptop that needs to connect to external monitors while docked at a desk." },
-      { label: "Mac mini storage dock (Acer, Akkyajaure)", text: "Prioritizes built-in NVMe storage expansion and cooling for a desktop Mac mini that has no built-in expandable storage of its own." }
+    "subheading": "Thunderbolt 4 Dock vs Mac mini SSD Dock",
+    "intro": "These are different products serving different Macs.",
+    "cards": [
+      {
+        "label": "Thunderbolt 4 docks",
+        "text": "Plugable's two docks suit MacBooks, with dual 4K 60Hz via HDMI or DisplayPort, 100W charging and UHS-II readers. They cost more because they carry display streams."
+      },
+      {
+        "label": "Mac mini SSD docks",
+        "text": "The Acer and Akkyajaure docks suit Mac mini, bundling an M.2 enclosure, a stand and extra USB. They are cheaper, but they lack the display bandwidth and 100W charging of Thunderbolt 4."
+      }
     ],
-    note: "If you use a MacBook that needs external displays, either Plugable pick fits. If you use a Mac mini and want more storage without an external drive cluttering your desk, the Acer or Akkyajaure picks solve that directly.",
+    "note": "MacBook owners should default to the Plugable docks; Mac mini owners wanting storage should choose between the Acer and the Akkyajaure."
   },
   {
-    subheading: "By Your Mac's Chip Generation",
-    table: {
-      headers: ["Your Mac chip", "Recommended pick"],
-      rows: [
-        ["M4/M5 or Pro/Max chips (dual display capable)", "Either Plugable dock delivers full dual 4K support"],
-        ["Base M1 or M2 (single display only)", "Plugable Thunderbolt 4 Dock still works, but expect only one external display"]
+    "subheading": "By Peripheral Needs",
+    "intro": "Match ports to what you plug in daily.",
+    "table": {
+      "headers": [
+        "You need",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "SD and microSD UHS-II readers for photos",
+          "Plugable Thunderbolt 4 Dock for M4/M5, with 13 ports and card readers"
+        ],
+        [
+          "2.5Gbps Ethernet and DisplayPort",
+          "Plugable 16-in-1 Thunderbolt 4 Dock, with dual 4K 60Hz via HDMI or DisplayPort"
+        ],
+        [
+          "4K 144Hz HDMI 2.1 with HDR",
+          "Acer Mac mini Dock, which lists 4K at 144Hz with HDR"
+        ],
+        [
+          "Plenty of USB 2.0 ports and audio jack",
+          "Akkyajaure 40Gbps USB4 Mac mini Dock, with 3x USB 2.0 and a 3.5mm jack"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Mac mini Video Editors Specifically",
-    cards: [
-      { label: "Look for", text: "A dock with both fast built-in SSD expansion and a high-refresh-rate HDMI output, so you can edit directly off fast local storage while working on a high-refresh-rate reference monitor." },
-      { label: "In this comparison", text: "The Acer pick specifically combines 8TB SSD expansion with 4K@144Hz HDMI 2.1 output supporting HDR." }
-    ],
+    "subheading": "For a MacBook Pro Editing Desk Specifically",
+    "intro": "Video and photo workflows need fast cards, stable displays and charging.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A Thunderbolt 4 dock with 100W charging, UHS-II card readers and clearly disclosed chip support, so your Pro or Max chip runs two displays."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Plugable Thunderbolt 4 Dock lists 100W charging, SD and microSD UHS-II readers and dual 4K 60Hz, and discloses the chip-specific display limits."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the highest port count with UL-certified charging safety for a permanent MacBook desk setup, where the Plugable 16-in-1 dock justifies its under $300 price." },
-      { label: "Save if", text: "You want Mac mini storage expansion at the lowest price, where the Acer pick delivers that for under $60, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Spend according to Mac type, not just features.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You use a MacBook Pro for daily multi-monitor work. The Plugable 16-in-1 under $300 adds 2.5Gbps Ethernet and a full port set; see the USB4 dock guide for dual monitors."
+      },
+      {
+        "label": "Save if",
+        "text": "You use a Mac mini and want storage. The Acer under $65 or the Akkyajaure under $90 deliver SSD expansion without the cost of a MacBook dock."
+      }
+    ]
   }
 ];
 
@@ -182,12 +268,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will the Plugable dock give my base M2 MacBook Air dual monitor support?", "a": "No, the listing specifically discloses that base M1 and M2 MacBooks are limited to a single external display regardless of the dock, since this is a limitation of the Mac's own chip architecture rather than the dock's capability." },
-  { "q": "What's the most common mistake buyers make when choosing a USB4 dock for their specific Mac?", "a": "Assuming any dock's advertised dual-display support will work on their exact Mac model without checking the dock's specific chip-generation compatibility notes, then discovering only a single display works after purchase due to their Mac's own chip limitations." },
-  { "q": "Is the Plugable 16-in-1 dock worth the extra $90 over the smaller Plugable pick if I only need dual monitors?", "a": "If dual-display support and 100W charging are your only real needs, the smaller Plugable dock covers that at a lower price, but if you want the highest port count, 2.5Gbps Ethernet, and UL-certified charging safety, the 16-in-1 pick's extra cost is justified." },
-  { "q": "Can I install any M.2 SSD into the Acer or Akkyajaure Mac mini dock enclosures?", "a": "Both docks specifically state compatibility with standard M.2 NVMe PCIe and NGFF SATA SSD sizes (2230/2242/2260/2280), so checking your specific SSD's form factor against these supported sizes before purchase is worth doing." },
-  { "q": "Do these docks require installing any drivers on macOS?", "a": "The Plugable picks specifically state driverless, plug-and-play operation on macOS, while the Mac mini storage docks similarly function without additional driver installation, though checking each specific listing's stated setup requirements is worth doing." },
-  { "q": "Can I use the Akkyajaure Mac mini dock's USB4 Host port with a MacBook instead of a Mac mini?", "a": "The dock is specifically designed and marketed for Mac mini models, so while the underlying USB4 connection could technically work with a MacBook, you would lose the dock's Mac mini-specific stand and cooling design benefits, making a MacBook-focused dock like the Plugable picks the better fit for that use case." }
+  {
+    "q": "Will these docks give my base M3 MacBook Air two external monitors?",
+    "a": "No. Base M1, M2 and M3 chips support one external display regardless of the dock. The Plugable Thunderbolt 4 dock discloses chip-specific results, so check its listing, and consider a Pro or Max machine if two monitors are essential."
+  },
+  {
+    "q": "Why can't I extend a second monitor on a basic USB-C dock?",
+    "a": "macOS does not support DisplayPort MST, so cheap docks that split one stream into two can only mirror on a Mac. Thunderbolt docks like the Plugable models carry separate display streams and avoid that limit."
+  },
+  {
+    "q": "Does the Acer Mac mini dock fit the new M4 Mac mini?",
+    "a": "Check the model carefully, since Mac mini docks are sized for specific generations and the footprint must match your unit. Confirm your Mac mini generation on the listing before ordering."
+  },
+  {
+    "q": "Is the Plugable 16-in-1 worth it over the 13-port Plugable dock?",
+    "a": "The 16-in-1 under $300 adds 2.5Gbps Ethernet and UL-tested 100W Power Delivery. The 13-port version under $200 has 100W charging and UHS-II card readers; pick the 16-in-1 only if you need the extra Ethernet and ports."
+  },
+  {
+    "q": "How do I use the SSD enclosure in a Mac mini dock?",
+    "a": "Open the enclosure, slide in an M.2 NVMe SSD up to the listed 8TB limit, secure it, and close the shell. Format it in Disk Utility, then check transfer speeds, which depend on the 40Gbps or 10Gbps link."
+  },
+  {
+    "q": "Will an SSD-equipped dock overheat my Mac mini?",
+    "a": "Heat is the main risk. Docks that raise the Mac mini, like the Qwiizlab-style 3.6cm riser, add airflow, but an enclosed SSD can still throttle under long copies. Keep vents clear and avoid stacking items on top."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

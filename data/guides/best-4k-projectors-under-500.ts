@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Brightness Verification", "description": "Checked for transparently verified ANSI claims versus unverified brightness marketing." },
-  { "title": "Motion Smoothing Technology", "description": "Compared MEMC and similar motion processing across the lineup for sports and gaming." },
-  { "title": "Cooling Noise Level", "description": "Compared stated decibel figures for cooling system noise across all four picks." },
-  { "title": "Warranty Coverage", "description": "Compared stated warranty length and money-back guarantee terms." },
-  { "title": "Streaming Platform Integration", "description": "Compared built-in Google TV and voice assistant integration across the tier." }
+  { "title": "Verified lumen claims", "description": "We favored the WiMiUS G2's verified 1100 ANSI against bigger numbers on the VISSPL at 3500 and HAPPRUN at 3000. A smaller verified figure beats a large unverified one, since brightness claims in this tier are often inflated. That gap means an honest 1100 can outperform an inflated 3500." },
+  { "title": "Daylight performance", "description": "We compared the Daytime Smart's 2000 ANSI against the dim-room units. For rooms with ambient light, a guide suggests about 2500 ANSI, so even the brightest pick here needs curtains for a sharp picture. The HAPPRUN 3000 lists Google TV and 4K HDR support instead." },
+  { "title": "Motion handling and gaming", "description": "We noted the WiMiUS G2's MEMC motion smoothing and the Daytime Smart's HDMI 2.1 at 60Hz. Budget projectors often show 30 to 50ms input lag, so none of these suit competitive gaming, but they handle movies well. The VISSPL and HAPPRUN picks list no motion processing." },
+  { "title": "Optical engine care", "description": "We read the Daytime Smart's sealed optical engine, which keeps dust off the lens path. Dust on the engine makes dark patches that no setting fixes, so a sealed design extends the life of the picture. The other three listings say nothing about dust protection." },
+  { "title": "Warranty strength", "description": "We compared the WiMiUS's 3-year repair warranty and 2-year money-back guarantee against standard terms. A longer warranty is a meaningful signal, because the lamp or LED in a budget projector is its most likely failure point. The other three listings give shorter or less specific support terms." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "This tier mixes bright daytime projectors with verified-lumen models, so the first table starts with whether you watch with lights on.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Prices cluster around the $500 mark, so each step maps to brightness, warranty, or a Google TV interface.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Noise Sensitivity",
+    intro: "A second axis is software, because Google TV on three of four picks changes how streaming feels.",
     table: {
       headers: ["Your noise sensitivity", "Recommended pick"],
       rows: [
@@ -153,7 +156,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want whisper-quiet operation combined with the highest stated brightness, where the VISSPL pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You want verified honest brightness with the longest warranty, where the WiMiUS G2 pick covers that for about $140 less." }
+      { label: "Save if", text: "You want verified honest brightness with the longest warranty, where the WiMiUS G2 pick covers that for under $150 less." }
     ],
   }
 ];
@@ -183,8 +186,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Does the WiMiUS G2's lower 1100 ANSI rating mean it's actually dimmer than competitors stating higher numbers?", "a": "Not necessarily, since the listing specifically claims its verified 1100 ANSI outperforms many competitors' unverified '3000 ANSI' claims, meaning the actual measurement methodology matters more than the raw number when comparing brightness across different manufacturers." },
-  { "q": "What's the most common mistake buyers make when comparing motion smoothing features at this tier?", "a": "Assuming all projectors handle fast motion content equally well without checking for specifically named technology like MEMC, when a projector without dedicated motion processing can show noticeably more blur during sports or gaming content regardless of its stated resolution or brightness." },
-  { "q": "Is the VISSPL pick worth it over the cheaper HAPPRUN option?", "a": "If you specifically want whisper-quiet 25 dB operation for bedroom or shared-space use, yes, but if 3000 ANSI brightness with built-in Google TV at a lower price matters more, the HAPPRUN pick covers that for about $40 less." },
+  { "q": "Is the WiMiUS G2 worth it over the VISSPL with 3500 ANSI?", "a": "If you watch in a dark room, yes. The G2's 1100 ANSI is described as verified, while 3500 ANSI on a unit priced like the VISSPL is hard to believe. The VISSPL is the pick for rooms with some light, but verify its real brightness first." },
+  { "q": "Is the VISSPL pick worth it over the cheaper HAPPRUN option?", "a": "If you specifically want whisper-quiet 25 dB operation for bedroom or shared-space use, yes, but if 3000 ANSI brightness with built-in Google TV at a lower price matters more, the HAPPRUN pick covers that for under $50 less." },
   { "q": "How do I know if the Daytime pick's sealed optical engine actually prevents dust issues long-term?", "a": "The listing specifically describes a fully sealed optical engine with advanced cooling as a dust-prevention design, though real-world long-term dust resistance depends on your specific usage environment, so checking buyer feedback for dust-related issues over extended use periods is worth doing if this is a priority concern." },
   { "q": "Can the WiMiUS G2's Kids Mode be customized for different children's age-appropriate content levels?", "a": "The listing describes multi-user profiles with PIN protection alongside Kids Mode content filtering, suggesting some customization capability, though checking the specific app's settings menu for granular age-based content controls is worth doing after setup to confirm the level of customization available." },
   { "q": "Do any of these projectors require professional calibration for optimal picture quality?", "a": "No, all four picks in this comparison feature AI auto focus, auto keystone correction, and automatic screen alignment designed for DIY setup without professional calibration, though manually fine-tuning settings like brightness or color temperature to your specific room and preferences can still improve the viewing experience." }

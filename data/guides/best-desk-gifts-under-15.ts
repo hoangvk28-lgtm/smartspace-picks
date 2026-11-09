@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41L9P8BYFtL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09V7XC4VV?tag=deskfinds0d-20",
-    "description": "Der Rose sells six mini artificial succulents, each set in decorative pebbles, so they look like potted plants without watering or sunlight. The listing describes palm-sized plants for desks, shelves, bathroom counters and windowsills.\n\nIt costs about $3 less than the candle and $2 less than the propagation station, and it spreads across the desk instead of crowding one corner. Unlike the propagation station, it needs no water or cuttings.\n\nPerfect for a windowless cubicle or a coworker who forgets to water plants. The caveat is that it is plastic and looks fake up close.",
+    "description": "Der Rose sells six mini artificial succulents, each set in decorative pebbles, so they look like potted plants without watering or sunlight. The listing describes palm-sized plants for desks, shelves, bathroom counters and windowsills.\n\nIt costs under $10 less than the candle and $2 less than the propagation station, and it spreads across the desk instead of crowding one corner. Unlike the propagation station, it needs no water or cuttings.\n\nPerfect for a windowless cubicle or a coworker who forgets to water plants. The caveat is that it is plastic and looks fake up close.",
     "specs": [
       "6 mini artificial succulents",
       "Set in decorative pebbles",
@@ -188,47 +188,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Workplace rules on scent and flame",
-    "explanation": "Many offices ban candles, wax warmers and anything with an open flame, and some also restrict plants because of allergies. A gift that cannot legally stay on the desk ends up in a drawer or a car. Ask the recipient or check the employee handbook before giving the candle, and prefer unscented items for shared spaces."
+    "explanation": "Many offices ban candles, wax warmers and anything with an open flame, and some also restrict plants because of allergies. A gift that cannot legally stay on the desk ends up in a drawer or a car. Ask the recipient or check the employee handbook before giving the candle, and prefer unscented items for shared spaces. Check the building's candle and scent rules before ordering the LEADO candle, because a banned gift goes straight in a drawer."
   },
   {
     "criterion": "Desk footprint",
-    "explanation": "Most cubicle desks leave only a few square inches free around a monitor and keyboard. A gift wider than about 5 inches will crowd the workspace and get moved. Compare the listed dimensions with the real desk, and favor items that stand upright over wide, flat ones."
+    "explanation": "Most cubicle desks leave only a few square inches free around a monitor and keyboard. A gift wider than about 5 inches will crowd the workspace and get moved. Compare the listed dimensions with the real desk, and favor items that stand upright over wide, flat ones. A tidy cubicle usually has two or three free inches around the keyboard, so measure that gap against the 5 x 5 inch plaque."
   },
   {
     "criterion": "Water and electronics",
-    "explanation": "A propagation vase holds real water, and a spill near a laptop or power strip can damage equipment. The fix is to place any water gift at the far end of the desk, away from cables. Check whether the stand is wide and stable in the listing photos."
+    "explanation": "A propagation vase holds real water, and a spill near a laptop or power strip can damage equipment. The fix is to place any water gift at the far end of the desk, away from cables. Check whether the stand is wide and stable in the listing photos. The XXXFLOWER station has real water, so recheck the listing photos to see how the vases attach, and keep the stand far from power strips."
   },
   {
     "criterion": "Material and fragility",
-    "explanation": "Glass bulbs can crack in a bag, wood can chip at the corners, and plastic composites scratch easily. Fragile gifts also fare badly when mailed to an office. Read the material named in the bullets and picture how the item will travel before choosing."
+    "explanation": "Glass bulbs can crack in a bag, wood can chip at the corners, and plastic composites scratch easily. Fragile gifts also fare badly when mailed to an office. Read the material named in the bullets and picture how the item will travel before choosing. A glass bulb vase can crack in transit, so check whether the listing mentions padding, and ask for the gift to be shipped home, not to an office mailroom."
   },
   {
     "criterion": "Sentiment versus utility",
-    "explanation": "A message sign carries feeling but does no work, while a pen holder or multitool earns its place daily. Giving a sentimental gift to a stranger can feel forced, and a purely practical gift to a close friend can feel cold. Match the item to how well you know the recipient."
+    "explanation": "A message sign carries feeling but does no work, while a pen holder or multitool earns its place daily. Giving a sentimental gift to a stranger can feel forced, and a purely practical gift to a close friend can feel cold. Match the item to how well you know the recipient. Sentimental items like the YanNook sign suit friends, while a pen like the Hongred multitool suits colleagues, so match the item to the closeness of the relationship."
   },
   {
     "criterion": "Audience labeling on listings",
-    "explanation": "Many listings label items as gifts for men or women, and the item itself may carry that wording. A product that suits anyone can still read awkwardly if the label is on the item. Look at the photos and the exact printed text before ordering."
+    "explanation": "Many listings label items as gifts for men or women, and the item itself may carry that wording. A product that suits anyone can still read awkwardly if the label is on the item. Look at the photos and the exact printed text before ordering. Phrases like for men or for women printed on a product can feel odd, so read the photos for lettering before ordering as a neutral gift."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Price under $15",
-    "description": "All six picks were priced at or below $15 when gathered."
+    "title": "Office rule exposure",
+    "description": "Candles and wax warmers are banned in many offices, so we flagged the LEADO lavender candle as a home or private office pick. The Der Rose succulents, Hongred multitool pen and YanNook sign carry no such risk, and we ranked them higher for shared workplaces where a flame or scent can cause complaints."
   },
   {
-    "title": "Desk fit",
-    "description": "Listed dimensions were compared to a normal office desk."
+    "title": "Spill and breakage risk",
+    "description": "We checked what can go wrong near electronics. The XXXFLOWER propagation station holds real water and two glass vases, so it belongs at a desk's far end, away from cables. The wooden sign at 0.24 inch thick and the pen tools have no such failure mode."
   },
   {
-    "title": "Material",
-    "description": "We looked at whether materials are glass, wood, plastic or wax, and what care each needs."
+    "title": "Daily usefulness",
+    "description": "A $10 to $15 gift earns its place only if it does work. We favoured the Hongred 6 in 1 pen with its 4 refills, level and ruler, and the MOKANI elephant holder that carries pens and a phone, over pure decoration like the YanNook plaque."
   },
   {
-    "title": "Occasion",
-    "description": "We matched each pick to a gifting situation."
+    "title": "Desk footprint",
+    "description": "Using the listed sizes, we treated about 5 inches on a side as the comfort limit for a cubicle. The 5 x 5 inch plaque sits right at that line, while the 6 pack of mini succulents spreads across the desk and can be split between several spots so no single area gets crowded."
   }
 ];
 
@@ -369,28 +369,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Are candles allowed on office desks?",
-    "a": "Many workplaces ban open flames, and some also ban wax warmers. Ask the recipient or check the handbook before giving one. If in doubt, give it to a remote worker or choose a non-scented item."
+    "q": "Can I give a candle as a desk gift?",
+    "a": "Only if you know the rules. The LEADO lavender candle has a 9 oz size and new job message, but many offices ban open flames and some restrict strong scents. Ask first or choose the Der Rose succulents, which need no flame and no water."
   },
   {
-    "q": "Can I propagate any plant in a glass vase?",
-    "a": "Many common houseplant cuttings, such as pothos, root in water, but not every plant does. Cut just below a node and change the water every week or so. A plant that stays soft or smells has probably started to rot."
+    "q": "Is the propagation station safe near a laptop?",
+    "a": "Place it at the far end of the desk. The XXXFLOWER station holds water in two glass vases on a wooden stand, so a knock could spill near cables. Pass on it for a recipient with a cramped desk and a laptop dock."
   },
   {
-    "q": "Are fake succulents worth it over a real one?",
-    "a": "In a windowless cubicle, yes, because a real succulent needs bright light and will slowly fail. Fake plants cost nothing to maintain and wipe clean with a damp cloth. A real plant is better only if the desk sits near a window."
+    "q": "Which pick is the most useful on a daily basis?",
+    "a": "The Hongred 6 in 1 multitool pen, because it combines a ballpoint with 4 refills, a level and a ruler. The MOKANI elephant also holds pens and a phone. Both are easier to justify than a sign alone."
   },
   {
-    "q": "How do I keep a wooden sign from warping?",
-    "a": "Keep it away from windows, radiators and damp areas, since thin wood can bow with moisture changes. Stand it on its base rather than leaning it against a hot surface. Dust with a dry cloth."
+    "q": "Are the Der Rose succulents real?",
+    "a": "They are artificial, so there is nothing to water and nothing to kill. They come as 6 minis set in decorative pebbles. That suits a windowless office or a forgetful recipient, though they do collect dust and need a wipe."
   },
   {
-    "q": "Is a multitool pen good for everyday writing?",
-    "a": "It writes, but the extra tools often make the barrel thicker and less comfortable over a long session. It is better as a quick-measure gadget than a primary pen. Keep a normal pen on the desk too."
+    "q": "How do I choose between a sign and a practical gift?",
+    "a": "Think about the relationship. A YanNook inspirational sign suits a friend who likes sentiment, while the Hongred pen or MOKANI holder works for a colleague you know less well. Practical gifts also avoid taste clashes."
   },
   {
-    "q": "How do I choose between a plant and a pen holder?",
-    "a": "Pick the plant for decor and a calm look, and the holder when the person has loose pens or a phone to prop. If you are unsure, a holder is the safer, more useful choice."
+    "q": "Do wooden desk gifts need special care?",
+    "a": "Wood can chip at corners and stain if wet. Wipe the YanNook plaque or XXXFLOWER stand with a barely damp cloth, and keep them away from mugs. A felt pad under the base helps protect both the item and the desk."
   }
 ];
 

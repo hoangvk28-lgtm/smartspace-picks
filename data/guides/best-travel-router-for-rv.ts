@@ -84,69 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Coverage Approach", "description": "Compared bundled eSIM data plans, unlocked carrier-flexible SIM support, and dedicated rooftop antenna systems." },
-  { "title": "Real-World Signal Strength", "description": "Compared antenna gain and stated coverage range for capturing weak signals at remote campsites." },
-  { "title": "Installation Type", "description": "Compared portable indoor/outdoor kits against permanently mounted rooftop systems." },
-  { "title": "Data Plan Flexibility", "description": "Compared prepaid no-contract data tiers against bring-your-own-SIM carrier flexibility." },
-  { "title": "Power Source Compatibility", "description": "Compared 12V DC vehicle power and standard 110V AC compatibility." }
+  {
+    "title": "Cellular source and plan flexibility",
+    "description": "We compared how each router gets online. The KUMA Connect PRO accepts any compatible unlocked SIM, the TravlFi routers use a built-in eSIM with plans from 2GB to unlimited, and the Winegard Connect 2.0 needs a SIM. Plan flexibility is usually the biggest long-term cost driver for an RV."
+  },
+  {
+    "title": "Antenna and signal capture",
+    "description": "We checked antenna design, since a roof or outdoor antenna reaches towers that a phone cannot. KUMA lists an outdoor 2x2 MIMO antenna with up to 150 Mbps on 4G, and Winegard is a sealed rooftop unit, so we separated them from the TravlFi boxes."
+  },
+  {
+    "title": "Campground WiFi and cellular backup",
+    "description": "We weighed whether a router can use park WiFi as well as cellular. Winegard combines campground WiFi access with LTE backup, which matters because park WiFi often delivers a steady 70 to 80 Mbps but drops at peak hours, so a fallback keeps remote work online."
+  },
+  {
+    "title": "Power and port options",
+    "description": "We looked at how each router powers and connects. KUMA runs from 12V DC or 110V AC with 4 LAN ports for wired devices, which suits an RV's 12V system, while others rely on adapters. Wired ports matter for a work laptop or camera."
+  },
+  {
+    "title": "Install type and portability",
+    "description": "We separated permanent rooftop hardware from portable boxes. Winegard's sealed design stays on one vehicle, while TravlFi can move between vehicles and storage. The XTR Pro adds 5G, but rural 5G coverage remains patchy, so we treated it as a bonus and not a reason."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Priority",
-    table: {
-      headers: ["What matters most", "Recommended pick"],
-      rows: [
-        ["Lowest price, carrier flexibility", "KUMA Connect PRO 4G LTE Cellular Router"],
-        ["No-SIM bundled data plan, flexible tiers", "TravlFi JourneyXTR LTE RV WiFi Router"],
-        ["Permanent weatherproof rooftop install", "Winegard Connect 2.0 4G WF2-435"],
-        ["Maximum 5G speed and reliability", "TravlFi XTR Pro 5G Router"]
+    "subheading": "By Travel Style",
+    "intro": "How you camp decides whether you need a roof unit or a portable box.",
+    "table": {
+      "headers": [
+        "Your travel style",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A full-time RV with one vehicle and a weatherproof roof install",
+          "Winegard Connect 2.0 4G WF2-435 Outdoor RV WiFi Router, sealed for rooftop exposure"
+        ],
+        [
+          "A weekend camper who pays for data only in months you travel",
+          "TravlFi JourneyXTR LTE RV WiFi Router, with a no-contract prepaid plan"
+        ],
+        [
+          "A rig that parks in remote areas with weak cell signal",
+          "KUMA Connect PRO 4G LTE Cellular Router & RV Mobile Hotspot Kit, with an outdoor antenna"
+        ],
+        [
+          "A frequent traveler who wants the broadest network access",
+          "TravlFi XTR Pro 5G Router, with multiple network access"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $180", "KUMA Connect PRO 4G LTE Cellular Router (under $180)"],
-        ["Under $245", "TravlFi JourneyXTR LTE RV WiFi Router (under $250)"],
-        ["Under $430", "Winegard Connect 2.0 4G WF2-435 (under $450)"],
-        ["Under $450", "TravlFi XTR Pro 5G Router (under $450)"]
+    "subheading": "By Budget",
+    "intro": "The KUMA kit costs less, and the others sit higher for eSIM or rooftop hardware.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup",
+          "KUMA Connect PRO 4G LTE Cellular Router & RV Mobile Hotspot Kit, with SIM and data plan sold separately"
+        ],
+        [
+          "A mid-range price for no SIM sourcing",
+          "TravlFi JourneyXTR LTE RV WiFi Router, with an eSIM"
+        ],
+        [
+          "A high price for permanent weatherproof hardware",
+          "Winegard Connect 2.0 4G WF2-435 Outdoor RV WiFi Router, with guided activation"
+        ],
+        [
+          "The top of the range for 5G",
+          "TravlFi XTR Pro 5G Router, at the highest price alongside Winegard"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Bring-Your-Own-SIM vs Bundled eSIM Data Plans",
-    cards: [
-      { label: "Bring-your-own-SIM (KUMA)", text: "Lets you choose the specific carrier with the best coverage in your typical travel areas and shop around for the best data plan rates independently." },
-      { label: "Bundled eSIM (both TravlFi picks)", text: "Removes the SIM research and sourcing step entirely, with flexible prepaid tiers matched to your actual travel schedule." }
+    "subheading": "eSIM Bundled Plan vs Open SIM Slot",
+    "intro": "Who controls the data plan changes both cost and flexibility.",
+    "cards": [
+      {
+        "label": "eSIM bundle (TravlFi JourneyXTR, XTR Pro)",
+        "text": "There is no SIM to source, and plans run from 2GB to unlimited without a contract. You are tied to TravlFi's own plans, not open carrier choice."
+      },
+      {
+        "label": "Open SIM (KUMA, Winegard)",
+        "text": "You choose any compatible carrier and plan, and you can switch when coverage changes. You must buy and activate the SIM yourself, and KUMA lists Verizon certification as pending."
+      }
     ],
-    note: "If you already know which carrier has the best coverage where you travel, bring-your-own-SIM offers more control; if you want simplicity without researching carrier options, the bundled eSIM systems remove that step.",
+    "note": "Default to the eSIM unit if you want the simplest setup, and the open SIM unit if you already have a carrier plan."
   },
   {
-    subheading: "By Installation Permanence",
-    table: {
-      headers: ["Your setup", "Recommended pick"],
-      rows: [
-        ["Portable, moves between vehicles", "KUMA Connect PRO or either TravlFi router"],
-        ["Permanent, one dedicated RV", "Winegard Connect 2.0 rooftop system"]
+    "subheading": "By Signal Environment",
+    "intro": "Where you camp decides which radio is worth paying for.",
+    "table": {
+      "headers": [
+        "Your location",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Mostly national parks and rural areas with weak LTE",
+          "KUMA Connect PRO 4G LTE Cellular Router & RV Mobile Hotspot Kit, built for signal a phone would miss"
+        ],
+        [
+          "Mostly RV parks with decent WiFi plus cellular fallback",
+          "Winegard Connect 2.0 4G WF2-435 Outdoor RV WiFi Router, with campground WiFi and LTE"
+        ],
+        [
+          "Mixed travel across the lower 48 with some 5G towns",
+          "TravlFi XTR Pro 5G Router, with multiple network access"
+        ],
+        [
+          "Short trips close to cities where LTE is dependable",
+          "TravlFi JourneyXTR LTE RV WiFi Router, with no contract"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Full-Time RV Living or Remote Work Specifically",
-    cards: [
-      { label: "Look for", text: "The highest available connection speed and multiple network access for redundancy, since a dropped connection during a work call or video meeting is a more serious problem for full-time remote workers than for occasional recreational campers." },
-      { label: "In this comparison", text: "The TravlFi XTR Pro specifically offers 5G speed and multiple network access, the most robust option in this comparison for demanding, consistent connectivity needs." }
-    ],
+    "subheading": "For Remote Workers on the Road Specifically",
+    "intro": "Video calls need stable upload more than headline speed.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A router with LAN ports for a wired laptop, a roof or outdoor antenna and a plan that does not throttle after a small cap."
+      },
+      {
+        "label": "In this comparison",
+        "text": "KUMA Connect PRO has 4 LAN ports and an outdoor antenna, while TravlFi plans reach unlimited data without a contract."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need permanent weatherproof rooftop installation or the fastest available 5G speed for full-time remote work, where the Winegard or TravlFi XTR Pro justify their higher price." },
-      { label: "Save if", text: "You want reliable connectivity with carrier flexibility for occasional RV trips, where the KUMA Connect PRO covers that need at the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Higher price here buys install quality or network reach.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You live on the road and want a permanent weatherproof unit, where Winegard Connect 2.0 4G WF2-435 gives a sealed roof install."
+      },
+      {
+        "label": "Save if",
+        "text": "You camp occasionally and already own a SIM, where KUMA Connect PRO is the lowest price in this roundup."
+      }
+    ]
   }
 ];
 
@@ -177,8 +263,8 @@ export const faq = [
   { "q": "Do I need a special router for RV internet, or can I use a regular travel router?", "a": "A regular travel router works fine if you have reliable campground WiFi or a phone with strong cellular signal to tether from, but a dedicated RV router with an external antenna performs significantly better in remote areas with weak cellular coverage." },
   { "q": "What's the difference between eSIM-based and SIM-card-based RV routers?", "a": "eSIM-based routers use built-in digital SIM technology with the manufacturer's own bundled data plans, while SIM-card-based routers are unlocked and accept a physical SIM card from any compatible carrier you choose separately." },
   { "q": "Is a rooftop-mounted RV router better than a portable one?", "a": "A rooftop system offers better weatherproofing and often stronger reception for permanent installation on one dedicated vehicle, while a portable unit offers flexibility to move between vehicles or storage when not traveling." },
-  { "q": "Do I need 5G for RV camping, or is 4G LTE sufficient?", "a": "4G LTE is sufficient for most camping needs and has more widespread coverage in rural and remote areas, while 5G offers faster speeds but remains less consistently available outside populated areas." },
-  { "q": "Can an RV router work without a data plan?", "a": "No, every router in this comparison requires either a bundled eSIM data plan or a separately purchased SIM card and data plan from a cellular carrier to actually access the internet." },
+  { "q": "Do I need 5G for RV camping, or is 4G LTE sufficient?", "a": "For most camping, 4G LTE is enough, because it covers more rural and remote areas than 5G does and still gives speeds such as KUMA's listed 150 Mbps. The TravlFi XTR Pro 5G is faster where 5G exists, but its own listing notes that rural coverage remains limited, so do not pay for it unless you travel through cities." },
+  { "q": "Can an RV router work without a data plan?", "a": "No, every router here needs a data source. TravlFi includes eSIM and sells plans from 2GB to unlimited, while KUMA's SIM and data plan are sold separately and Winegard needs a SIM with guided activation. The Winegard can also join campground WiFi, so it is the only one that offers a no-plan fallback." },
   { "q": "How far can an RV router's outdoor antenna reach in a remote area?", "a": "This varies by specific antenna design and local cell tower distance, but a high-gain outdoor antenna like the KUMA pick's design is specifically built to capture signal that a standard phone or basic hotspot device would miss entirely." }
 ];
 

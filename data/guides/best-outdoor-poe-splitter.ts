@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real IP Rating and Cable Protection", "description": "Compared IP67 ratings and whether waterproof protection extends to cable connection points specifically." },
-  { "title": "Operating Temperature Range", "description": "Compared documented temperature tolerance from standard outdoor to extreme industrial ratings." },
-  { "title": "Power Delivery for Outdoor Devices", "description": "Compared wattage output relevant to different outdoor camera and bridge power needs." },
-  { "title": "Compliance and Certification", "description": "Compared TAA compliance and other institutional procurement certifications." },
-  { "title": "Price Relative to Capability", "description": "Compared cost across the wide price range this outdoor category spans." }
+  {
+    "title": "Real IP rating and cable protection",
+    "description": "MokerLink lists IP67 metal housing with waterproof caps on all cable interfaces, while the IPOE-175S is IP67 and the cheap combiner only weatherproofs its receiver unit. We checked whether the cable ends are sealed, because water enters at the connectors first."
+  },
+  {
+    "title": "Operating temperature",
+    "description": "The IPOE-175S spans -40C to 75C, the REVODATA converter -20C to 60C. We compared these against typical climate ranges, because a splitter on a pole in a cold region needs a lower floor than one under a covered eave. Cold sites need that lower limit."
+  },
+  {
+    "title": "Power and output voltage",
+    "description": "MokerLink outputs DC 12V 5A up to 65W, the IPOE-175S 12V 5A at 70W full load, and the REVODATA gives 24V passive up to 25W. We matched each against device needs, since a wireless bridge often needs 24V while a camera wants 12V. Confirm your device voltage on its label before buying."
+  },
+  {
+    "title": "Compliance and certification",
+    "description": "The IPOE-175S is TAA compliant, and REVODATA lists 4KV surge resistance. We treated TAA as a procurement requirement for specific buyers and not a quality mark, and rewarded named surge figures. For a home install, TAA adds nothing, so we ignored it there."
+  },
+  {
+    "title": "Price relative to the job",
+    "description": "Prices run from under $9 for the combiner to well over $150 for the industrial unit, so we asked what each actually solves. A combiner shares one cable between two cameras, while the splitter converts PoE voltage, and those are different jobs. A combiner shares cable between two cameras, which is a different job from conversion."
+  }
 ];
 
 export const howToChoose = [

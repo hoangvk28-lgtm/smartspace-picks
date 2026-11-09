@@ -219,51 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Wattage and shared office circuits",
-    "explanation": "Wattage is the power a kettle pulls, and a typical office circuit is shared with other equipment. A 600W model like WTJMOV adds far less load than the 1100W Elite Gourmet. Check the rating label, and avoid plugging a kettle into a power strip with other heaters."
+    "explanation": "Wattage is the power a kettle pulls, and a typical office circuit is shared with other equipment. A 600W model like WTJMOV adds far less load than the 1100W Elite Gourmet. Check the rating label, and avoid plugging a kettle into a power strip with other heaters. A 1000W kettle on a shared strip with a monitor and charger can trip it, so choose a 600W model like the Tuehakny if the desk has no wall outlet."
   },
   {
     "criterion": "Capacity versus desk size",
-    "explanation": "Capacity is the usable water volume, and an oversize kettle takes desk space and heats water you do not need. RHD holds 0.5 liters while Cosori holds 1.7. Pick based on cups per refill and the footprint you can spare."
+    "explanation": "Capacity is the usable water volume, and an oversize kettle takes desk space and heats water you do not need. RHD holds 0.5 liters while Cosori holds 1.7. Pick based on cups per refill and the footprint you can spare. A 1.7L Cosori fills a pot but crowds a desk, so measure the shelf or filing cabinet before choosing."
   },
   {
     "criterion": "Plastic-free water path",
-    "explanation": "BPA-free does not mean plastic-free, and plastic often hides in the lid or spout. Cosori and RHD claim no plastic water contact, while Elite Gourmet says BPA-free. Look for plastic-free lid and stainless filter wording."
+    "explanation": "BPA-free does not mean plastic-free, and plastic often hides in the lid or spout. Cosori and RHD claim no plastic water contact, while Elite Gourmet says BPA-free. Look for plastic-free lid and stainless filter wording. BPA free does not mean plastic free, so look for a stated stainless water path like the Cosori or RHD in the bullets."
   },
   {
     "criterion": "Boil-dry and auto shut-off",
-    "explanation": "Boil-dry protection cuts power if the kettle is empty, and auto shut-off ends heating at boil. Both should be named in the listing. Treat any kettle missing either as a pass."
+    "explanation": "Boil-dry protection cuts power if the kettle is empty, and auto shut-off ends heating at boil. Both should be named in the listing. Treat any kettle missing either as a pass. Both boil-dry protection and auto shut-off matter in an unattended office, so confirm each in the Chefman or Elite Gourmet listing."
   },
   {
     "criterion": "Opening width and cleaning",
-    "explanation": "A narrow spout or small opening makes it hard to scrub scale away. RHD has a 4 inch opening and Cosori a wide mouth, while gooseneck models are harder to clean. Check the opening size."
+    "explanation": "A narrow spout or small opening makes it hard to scrub scale away. RHD has a 4 inch opening and Cosori a wide mouth, while gooseneck models are harder to clean. Check the opening size. A narrow spout traps scale, while a 4 inch opening like the RHD lets a sponge reach the base, so check the opening width."
   },
   {
     "criterion": "Cordless base and cord storage",
-    "explanation": "A cordless swivel base lets you lift the kettle from any angle, and a removable cord saves desk space. Elite Gourmet has a 360 degree base and RHD a removable cord. Check the base footprint and cord length."
+    "explanation": "A cordless swivel base lets you lift the kettle from any angle, and a removable cord saves desk space. Elite Gourmet has a 360 degree base and RHD a removable cord. Check the base footprint and cord length. A cordless swivel base lets you lift the kettle from any angle, and a detachable cord stores in a drawer, so check the base type in the listing."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Power and capacity",
-    "description": "We compared stated wattage, volume and listed boil claims, noting where they were unreliable."
+    "title": "Plastic free water path",
+    "description": "We checked what touches the water. The Cosori 1.7L lists no plastic water contact, the DmofwHi has a 304 stainless body and spout, and the RHD 0.5L is 304 stainless with no plastic contact. A plastic lid or spout can taint coffee, so we ranked fully stainless paths higher. Check the lid and spout photos, not just the product title."
   },
   {
-    "title": "Materials",
-    "description": "Interior material, plastic contact claims and double-wall design were compared."
+    "title": "Office circuit load",
+    "description": "A typical office circuit also feeds monitors and chargers. We compared the WTJMOV and Tuehakny at 600W with the Chefman and DmofwHi at 1000W and the Elite Gourmet at 1100W, and marked lower wattage models as less likely to trip a shared strip. Ask facilities about outlet limits before buying a 1100W model for a desk."
   },
   {
-    "title": "Safety features",
-    "description": "Boil-dry protection and auto shut-off were required, and their descriptions compared."
+    "title": "Capacity and desk space",
+    "description": "Capacity runs from 0.5L on the RHD to 1.7L on the Cosori. A 1.7L kettle takes a lot of desk or shelf space, so we judged whether each size suits one person, a pair of coworkers or a break room. Smaller kettles also boil faster, which matters at a morning coffee rush."
   },
   {
-    "title": "Ease of use",
-    "description": "Opening width, base design and pouring were compared."
+    "title": "Safety shut-off",
+    "description": "We checked for boil-dry protection and auto shut-off. The Chefman 0.8L has one touch with boil-dry protection and the Elite Gourmet glass shuts off at boil. We treated a kettle without both as unfit for an unattended office."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $20 to $40 were compared with the documented features."
+    "title": "Cleaning access",
+    "description": "A wide opening makes scrubbing scale easier. The RHD has a 4 inch opening and the Cosori a wide opening, while narrower spouts trap residue. Scale builds faster in shared kettles that are re boiled many times a day. A narrow mouth makes vinegar descaling more of a chore."
   }
 ];
 
@@ -313,11 +313,11 @@ export const howToChoose: HowToChooseSection[] = [
           "Elite Gourmet EKT1001 1.0L Glass Electric Kettle"
         ],
         [
-          "About $20",
+          "Under $25",
           "Tuehakny 0.8L 600W Small Electric Kettle"
         ],
         [
-          "About $24",
+          "Under $25",
           "WTJMOV 0.6L Double Wall Electric Tea Kettle"
         ],
         [
@@ -325,7 +325,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Cosori 1.7L Electric Kettle with No Plastic Water Contact"
         ],
         [
-          "About $39",
+          "Under $40",
           "DmofwHi 1.0L Stainless Gooseneck Electric Kettle"
         ]
       ]
@@ -394,7 +394,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You just need hot water for tea. Elite Gourmet EKT1001 1.0L Glass Electric Kettle and RHD 0.5L Portable Electric Kettle 600W cost about $19."
+        "text": "You just need hot water for tea. Elite Gourmet EKT1001 1.0L Glass Electric Kettle and RHD 0.5L Portable Electric Kettle 600W cost under $20."
       }
     ]
   }
@@ -403,28 +403,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can I use an electric kettle at my desk?",
-    "a": "Check your office policy, since some ban personal heating appliances. A 600W kettle is easier to justify than a 1500W one."
+    "q": "Can I plug a kettle into an office power strip?",
+    "a": "Avoid it if you can. A kettle draws 600W to 1100W in this list, and a power strip may be rated lower. Use a wall outlet, and check whether a shared circuit also feeds a microwave or space heater. The 600W RHD draws the least."
   },
   {
-    "q": "How do I keep scale out of a kettle?",
-    "a": "Descale regularly with a mild acid like diluted white vinegar, as the kettle manual advises, then rinse well. A wide opening makes this easier."
+    "q": "What is the best size for a shared office?",
+    "a": "The Cosori 1.7L suits a small break room because it holds several cups, while a single desk user needs only the RHD 0.5L or WTJMOV 0.6L. Larger kettles take more desk space and longer to boil."
   },
   {
-    "q": "Is a gooseneck worth it over a standard kettle?",
-    "a": "Only if you pour over coffee, since the narrow spout gives control. Otherwise a wide-mouth kettle is easier to fill and clean."
+    "q": "Is a plastic free kettle worth it for an office?",
+    "a": "Yes if you mind coffee taste. The Cosori and DmofwHi keep water on stainless, while many cheap kettles use a plastic lid or spout. Look for a stated 304 stainless water path, not just BPA free."
   },
   {
-    "q": "Is glass or stainless better for an office?",
-    "a": "Glass lets you see the water but is more fragile. Stainless is sturdier and, if named as 304, is a common food-grade choice."
+    "q": "How often should a shared office kettle be descaled?",
+    "a": "Monthly is a common manufacturer suggestion, and more often when many people refill it. Boil white vinegar and water, let it sit for a few minutes, then rinse well and boil clean water once. A wide opening like the Cosori's makes this easier."
   },
   {
-    "q": "Should I plug a kettle into a power strip?",
-    "a": "Plug it into the wall if you can, since a kettle is a high-draw appliance. Avoid daisy-chaining strips."
+    "q": "Does a gooseneck belong in an office?",
+    "a": "Only for pour over coffee. The Chefman 0.8L and DmofwHi gooseneck pour slowly, which is a poor fit for filling many mugs. A standard spout such as the Tuehakny fills faster for a shared pot."
   },
   {
-    "q": "Does BPA-free mean no plastic touches the water?",
-    "a": "No. BPA-free describes the plastic used, not whether plastic is present. Look for plastic-free lid and spout wording."
+    "q": "Do I need a cordless base?",
+    "a": "It helps. The Elite Gourmet glass has a 360 degree cordless base, so you lift the kettle from any angle without twisting the cord. A detachable base like the Tuehakny also simplifies storing the kettle in a drawer."
   }
 ];
 

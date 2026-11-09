@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/511eaQ3GdOL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08148BZLL?tag=deskfinds0d-20",
-    "description": "ErgoFoam is a 17.3 x 11.5 x 3.9 inch high-density foam footrest with a mesh cover that the listing says wicks moisture, and the brand states a lifetime warranty with photo-based replacement. The foam is marketed as firm rather than pure memory foam.\n\nIt costs about $6 less than the ErgoFoam teardrop and is wider than most cushion footrests at 17.3 inches. It is a fixed-height wedge, so it has no height steps like the Ciao Stilista.\n\nBest for a firm, wide rest with a warranty. The caveat is that the 3.9 inch height is low, so taller users may need something higher.",
+    "description": "ErgoFoam is a 17.3 x 11.5 x 3.9 inch high-density foam footrest with a mesh cover that the listing says wicks moisture, and the brand states a lifetime warranty with photo-based replacement. The foam is marketed as firm rather than pure memory foam.\n\nIt costs under $10 less than the ErgoFoam teardrop and is wider than most cushion footrests at 17.3 inches. It is a fixed-height wedge, so it has no height steps like the Ciao Stilista.\n\nBest for a firm, wide rest with a warranty. The caveat is that the 3.9 inch height is low, so taller users may need something higher.",
     "specs": [
       "17.3 x 11.5 x 3.9 inches",
       "High-density foam, mesh cover",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31q2jQGdOVL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09P8B8JHW?tag=deskfinds0d-20",
-    "description": "C Cushion Lab is a memory foam footrest with WaveMassage ridges and CloudSupport cushioning, designed to pair with the brand's seat and back cushions. It is a cushioned wedge rather than a hard platform, so it gives you less height range than the Ciao Stilista 6-Height Foot Rest Platform. The raised ridges are meant to add a little texture under the feet. This is a comfort product, not a medical device.\n\nAt $55 it is the most expensive pick here, about $13 above the ErgoFoam teardrop. It has no listed dimensions in the highlights.\n\nBest for people already using the brand's other cushions. The caveat is price and unlisted size and height.",
+    "description": "C Cushion Lab is a memory foam footrest with WaveMassage ridges and CloudSupport cushioning, designed to pair with the brand's seat and back cushions. It is a cushioned wedge rather than a hard platform, so it gives you less height range than the Ciao Stilista 6-Height Foot Rest Platform. The raised ridges are meant to add a little texture under the feet. This is a comfort product, not a medical device.\n\nAt $55 it is the most expensive pick here, under $15 above the ErgoFoam teardrop. It has no listed dimensions in the highlights.\n\nBest for people already using the brand's other cushions. The caveat is price and unlisted size and height.",
     "specs": [
       "Memory foam with wave ridges",
       "CloudSupport cushioning",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41lQLKKiiQL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FVDC2YQZ?tag=deskfinds0d-20",
-    "description": "TALSTILA offers two height options, 4 inches and 6 inches, by adding or removing layers, with a washable short plush cover and a carry handle. The foam springs back slowly.\n\nIt costs under $20, about $10 less than Atoping. Versus Ciao Stilista it is far lower and softer.\n\nBest for a cheap soft rest. The caveat is lower firmness than the high-density options.",
+    "description": "TALSTILA offers two height options, 4 inches and 6 inches, by adding or removing layers, with a washable short plush cover and a carry handle. The foam springs back slowly.\n\nIt costs under $20, under $15 less than Atoping. Versus Ciao Stilista it is far lower and softer.\n\nBest for a cheap soft rest. The caveat is lower firmness than the high-density options.",
     "specs": [
       "Two heights, 4 and 6 inches",
       "Washable plush cover",
@@ -218,213 +218,109 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Firmness and shape retention",
-    "explanation": "Soft foam feels nice at first but can flatten within weeks, leaving the feet unsupported. Firmer foam holds its height and gives a more stable base. Look for terms like high-density and compare listed foam types, and ignore marketing words like cloud."
+    "criterion": "Height range",
+    "explanation": "Your thighs should sit about parallel to the floor, and a rest at the wrong height strains the lower back. Ciao Stilista offers 7 to 12 inches, TALSTILA 4 and 6 inches. Check the listed range and compare it with the gap under your feet when seated. Sit with your hips against the backrest while testing. Do not rely on a marketing term like ergonomic."
   },
   {
-    "criterion": "Height versus your chair",
-    "explanation": "A footrest only helps if its height closes the gap between your feet and the floor. Too high pushes the knees above the hips, which can feel worse. Check both minimum and maximum, and set the chair height first."
-  },
-  {
-    "criterion": "Platform width",
-    "explanation": "A platform of 15 to 17 inches lets both feet rest side by side and shift. Narrow platforms force the feet together. Check dimensions in inches."
+    "criterion": "Surface firmness",
+    "explanation": "Firm foam or wood holds your feet steady, while plush memory foam eases pressure but can compress. ErgoFoam uses firm high-density foam and C CUSHION LAB plush memory foam. Look for the density or material in the listing and decide what suits long sessions. A soft rest feels good for ten minutes and may flatten in a month. Compare it against your actual chair, not an average one."
   },
   {
     "criterion": "Tilt or rocking",
-    "explanation": "A tilted or rocking footrest allows small ankle movement. Fixed flat models keep feet still. Look for tilt degrees such as 12.5, 23 or 34.5."
+    "explanation": "Small movements keep legs from locking and can ease stiffness. RSN offers 3 tilts and ErgoFoam Teardrop flips to rock. Look for the angle or mode in the listing and check whether it locks for stability. A rest that moves a little can help legs that tend to stiffen. Ask whether the rocking mode can be locked."
   },
   {
-    "criterion": "Warranty and build",
-    "explanation": "Moving parts and foam wear out, so a warranty helps. ErgoFoam lists a lifetime warranty. Look for a stated term."
+    "criterion": "Width",
+    "explanation": "Both feet need room so your hips stay level. ErgoFoam is 17.3 inches wide, RSN 14.37. Check the dimensions and ensure the rest is at least 15 inches wide, then consider your shoe size. A narrow rest twists the hips if one foot misses it. Check shoe-width fit."
   },
   {
-    "criterion": "Treat claims about pain with caution",
-    "explanation": "Many listings promise pain relief, but a footrest is a comfort product and not a treatment. Persistent pain, numbness or tingling deserves a visit to a doctor. Judge the footrest on measurable specs instead of promises."
+    "criterion": "Warranty and claims",
+    "explanation": "ErgoFoam lists a lifetime warranty, but many picks give none. Maker claims about posture are marketing, not medical. Look for the warranty term in the listing and be cautious about back pain claims. Be wary of any claim that a rest cures pain. Read the warranty terms before assuming coverage."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  {
-    "title": "Support firmness",
-    "description": "We compared foam types and shape retention claims."
-  },
-  {
-    "title": "Fit",
-    "description": "We compared height ranges and platform widths."
-  },
-  {
-    "title": "Movement",
-    "description": "We compared tilt and rocking features."
-  },
-  {
-    "title": "Value",
-    "description": "We weighed price, warranty and features."
-  }
+  { "title": "Height range for thigh-parallel posture", "description": "Ciao Stilista offers 6 heights from 7 to 12 inches, TALSTILA two heights at 4 and 6 inches, and others are fixed. Guidance says thighs should sit about parallel to the floor, so we weighted height range heavily, since a foot rest that sits wrong can add strain. Posture comes first, fancy foam second." },
+  { "title": "Surface firmness and support", "description": "ErgoFoam uses firm high-density foam, RSN a pine platform with soft EVA, and C CUSHION LAB plush memory foam. A firmer top holds your feet steady for hours, while a very soft one can let your feet sink and shift. A firm top matters on long days." },
+  { "title": "Tilt and movement for the lower back", "description": "The ErgoFoam Teardrop flips to a rocking mode, Atoping rocks gently and RSN offers 3 tilts of 12.5, 23 and 34.5 degrees. Small movements keep your legs from locking in place, so we noted which picks allow it. Small shifts are better than a locked pose." },
+  { "title": "Platform width and footing", "description": "ErgoFoam is 17.3 inches wide, RSN 14.37 and Ciao Stilista 15.7. Both feet need room so your hips do not twist, and we checked widths because a narrow rest can cause you to place one foot off it. Look at width before cushion thickness." },
+  { "title": "Warranty and stated claims", "description": "ErgoFoam lists a lifetime warranty, and others give none. Back comfort depends on long-term use, so we looked for warranty terms and treated maker claims about posture as marketing rather than medical evidence. Warranty is a proxy for hardware quality here." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Sitting Setup",
-    "intro": "Match setup.",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Primary Need",
+    intro: "A foot rest cannot treat back pain, but the right height and firmness can reduce strain from sitting posture. Read each recommendation as a comfort suggestion, not medical advice.",
+    table: {
+      headers: ["If you mainly need", "Recommended pick"],
+      rows: [
+        ["A wide, firm foam surface with a warranty", "ErgoFoam Mesh, at 17.3 inches wide with a lifetime warranty"],
+        ["A rest that flips for a rocking mode", "ErgoFoam Teardrop, a 2-in-1 cushion"],
+        ["Fixed tilt steps from 12.5 to 34.5 degrees", "RSN Pine Wood, with soft EVA"],
+        ["A tall range for a high chair or desk", "Ciao Stilista, with 6 heights up to 12 inches"],
+        ["Plush cushioning for sensitive feet", "C CUSHION LAB, a memory foam cushion"]
       ],
-      "rows": [
-        [
-          "Standard chair, wants wide and firm",
-          "ErgoFoam Mesh High-Density Foam Foot Rest"
-        ],
-        [
-          "Wants still and rocking modes",
-          "ErgoFoam Teardrop 2-in-1 Foot Rest"
-        ],
-        [
-          "Wants fixed tilt steps",
-          "RSN Pine Wood Foot Rest with 3 Angles"
-        ],
-        [
-          "Tall chair or desk",
-          "Ciao Stilista 6-Height Foot Rest Platform"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "By Budget",
-    "intro": "Real prices from this comparison.",
-    "table": {
-      "headers": [
-        "Price range",
-        "Recommended pick"
+    subheading: "By Budget",
+    table: {
+      headers: ["Price range", "Recommended pick"],
+      rows: [
+        ["Under $20", "TALSTILA, the lowest price"],
+        ["Around $27 to $30", "Atoping or RSN"],
+        ["Around $36 to $42", "ErgoFoam Mesh, Ciao Stilista or ErgoFoam Teardrop"],
+        ["Around $55", "C CUSHION LAB, the priciest"],
+        ["Under $25, where other types appear", "See the under $25 guide for cheaper options"]
       ],
-      "rows": [
-        [
-          "$16 to $17",
-          "TALSTILA Foam Foot Rest with Plush Cover"
-        ],
-        [
-          "$26 to $27",
-          "Atoping Wooden Foot Rest with Detachable Cushion"
-        ],
-        [
-          "$29 to $30",
-          "RSN Pine Wood Foot Rest with 3 Angles"
-        ],
-        [
-          "$35 to $36",
-          "ErgoFoam Mesh High-Density Foam Foot Rest"
-        ],
-        [
-          "$41 to $42",
-          "ErgoFoam Teardrop 2-in-1 Foot Rest"
-        ],
-        [
-          "$55",
-          "C CUSHION LAB Ergonomic Memory Foam Foot Cushion"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "Firm vs Plush",
-    "cards": [
-      {
-        "label": "Firm",
-        "text": "Holds its shape. ErgoFoam, RSN and Ciao Stilista fall here."
-      },
-      {
-        "label": "Plush",
-        "text": "Soft cushioning. C Cushion Lab and TALSTILA fall here."
-      }
+    subheading: "Firm vs Plush Support",
+    cards: [
+      { label: "Firm (ErgoFoam Mesh, RSN, Ciao Stilista)", text: "Dense foam or wood holds a stable angle and prevents your feet from sinking. It suits long sessions and a stable lumbar posture." },
+      { label: "Plush (C CUSHION LAB, TALSTILA)", text: "Soft foam feels cosy and eases pressure points, but it can compress and shift. It suits short sessions or sensitive feet." }
     ],
-    "note": "Choose firm for support and plush for softness."
+    note: "Most buyers with back discomfort should default to firm support, which keeps posture steady. Soft cushions are fine for a short session but rarely suit a full workday.",
   },
   {
-    "subheading": "By Movement",
-    "intro": "Movement.",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Chair Height",
+    table: {
+      headers: ["Your seat height", "Recommended pick"],
+      rows: [
+        ["A chair with the seat at a normal height", "ErgoFoam Mesh or Atoping"],
+        ["A tall chair or standing desk stool", "Ciao Stilista, with up to 12 inches"],
+        ["A low chair", "TALSTILA, at 4 inches"],
+        ["A chair where you shift tilt often", "RSN, with 3 tilts"]
       ],
-      "rows": [
-        [
-          "Rocking",
-          "Atoping Wooden Foot Rest with Detachable Cushion"
-        ],
-        [
-          "Fixed tilt",
-          "RSN Pine Wood Foot Rest with 3 Angles"
-        ],
-        [
-          "Flip for rocking",
-          "ErgoFoam Teardrop 2-in-1 Foot Rest"
-        ],
-        [
-          "Six heights",
-          "Ciao Stilista 6-Height Foot Rest Platform"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "For Long Desk Shifts Specifically",
-    "cards": [
-      {
-        "label": "Look for",
-        "text": "A firm base, the right height and room to shift."
-      },
-      {
-        "label": "In this comparison",
-        "text": "ErgoFoam Mesh High-Density Foam Foot Rest has a wide 17.3 inch surface and a lifetime warranty."
-      }
-    ]
+    subheading: "For Long Desk Days Specifically",
+    cards: [
+      { label: "Look for", text: "Firm support, a tilt or rocking option, and a width that fits both feet. Check that the height lets your knees sit near 90 degrees. Recheck it after you change your chair or desk height, because a setup that worked last month can drift." },
+      { label: "In this comparison", text: "ErgoFoam Mesh lists a lifetime warranty and a firm surface, and the Teardrop flips for movement. Ciao Stilista covers tall setups. Standing-desk stools or tall drafting chairs are where a 12 inch top height earns its place." }
+    ],
   },
   {
-    "subheading": "When to Spend More",
-    "cards": [
-      {
-        "label": "Spend more if",
-        "text": "You want plush cushioning and brand pairing (C CUSHION LAB Ergonomic Memory Foam Foot Cushion)."
-      },
-      {
-        "label": "Save if",
-        "text": "You only need a simple soft rest, where TALSTILA Foam Foot Rest with Plush Cover is enough."
-      }
-    ]
+    subheading: "When to Spend More",
+    cards: [
+      { label: "Spend more if", text: "You want a longer height range or plush foam. The under $50 guide adds Mount-It!'s pedal height adjustment." },
+      { label: "Save if", text: "You only need one steady height. TALSTILA and Atoping cost the least and cover that. Add a cushion only if your feet feel hard contact." }
+    ],
   }
 ];
 
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
-  {
-    "q": "Can a footrest help with back discomfort?",
-    "a": "A footrest can change leg position and make long sitting more comfortable, but it is not a treatment. If pain is persistent, see a doctor or ergonomist."
-  },
-  {
-    "q": "How high should it be?",
-    "a": "Set the chair first, then pick a footrest that closes the gap so your knees stay level with or just below your hips. A footrest that is too high can feel worse than none. Start at the lowest setting."
-  },
-  {
-    "q": "Is firm better than soft?",
-    "a": "Firm foam keeps its shape, soft feels cozier. Choose by preference."
-  },
-  {
-    "q": "How do I set up a tilt model?",
-    "a": "Start at the flattest angle and increase one step at a time over several days. The RSN lists 12.5, 23 and 34.5 degrees. If an angle feels uncomfortable, go back a step."
-  },
-  {
-    "q": "Can I use it standing?",
-    "a": "Check the listing. Ciao Stilista mentions a combined use."
-  },
-  {
-    "q": "How do I clean a footrest?",
-    "a": "Wipe wooden and plastic models with a damp cloth and dry them. Unzip and wash removable covers, like the TALSTILA plush cover, in the washing machine. Mesh covers such as ErgoFoam can be wiped clean."
-  }
+  { "q": "Can a foot rest relieve back pain?", "a": "It cannot treat it, but proper support can reduce strain from dangling feet and a tilted pelvis. Pick a height that places your thighs level, and see a clinician for persistent pain. Stop if you feel numbness." },
+  { "q": "Can a foot rest that is too high make back pain worse?", "a": "Raising the rest too high, which folds your legs and pushes your lower back into a slump. Set it so your thighs are about parallel to the floor, and revisit it whenever you change chairs. Test it for a week." },
+  { "q": "Is the ErgoFoam Teardrop worth more than the Mesh?", "a": "The Teardrop adds a flip mode and an arched shape for a few dollars more, while the Mesh offers a wider surface and a lifetime warranty. Choose the Teardrop if movement matters, the Mesh for stability. Choose the firmer option for work." },
+  { "q": "How do I find the right height?", "a": "Sit back in your chair with your hips against the backrest and rest your feet on the platform. If your thighs slope upward, lower it, and if your feet dangle, raise it. Retest after moving your chair." },
+  { "q": "How do I clean a mesh foam rest?", "a": "Wipe the mesh with a damp cloth and let it dry. ErgoFoam's mesh wicks moisture, but do not soak the foam, because trapped water can flatten it and cause odours. Wipe it weekly." },
+  { "q": "Should I use a foot rest all day?", "a": "Not constantly. Change position often and stand regularly, because a foot rest helps posture but does not replace movement. RSN's tilt steps and the Teardrop's rocking mode encourage small shifts. Mix standing with sitting." }
 ];
 
 export const relatedGuides = [

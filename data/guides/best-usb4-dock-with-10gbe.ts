@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "10GbE Port Count", "description": "Compared single versus dual 10 Gigabit Ethernet port configurations." },
-  { "title": "Thermal Management", "description": "Compared cooling designs for sustaining high-bandwidth network and data throughput." },
-  { "title": "Built-in Storage", "description": "Compared docks offering integrated NVMe SSD slots against pure connectivity-focused designs." },
-  { "title": "Host Platform Requirements", "description": "Compared cross-platform compatibility against Mac-exclusive engineering." },
-  { "title": "Total Interface Count", "description": "Compared overall port and connector count beyond just networking." }
+  {
+    "title": "Real 10GbE ports, not 2.5GbE",
+    "description": "We read each listing for the Ethernet speed in plain numbers, since 2.5GbE and 5GbE docks are routinely sold alongside 10Gbps USB ports. OWC lists two 10GbE plus one 2.5GbE, while the Sonnet Echo docks list a single 10Gb Ethernet port. A dock that buries this in marketing copy scored lower than one that prints the number in the title."
+  },
+  {
+    "title": "Thunderbolt 5 bandwidth",
+    "description": "Three docks here list 80Gbps data with 120Gbps display capability. We checked it against a Thunderbolt 4 host, where the dock falls back to 40Gbps and a 10GbE port still fits that ceiling comfortably. That fallback is why a Thunderbolt 4 laptop still gets full 10GbE out of these docks."
+  },
+  {
+    "title": "Cable and switch requirements",
+    "description": "10GbE only helps if the rest of the chain keeps pace. We noted Sonnet's Cat6 or Cat6A support and flagged that you also need a 10Gb switch or NAS, since a plain 1Gb router will cap speeds. Budget another $100 to $300 for the switch if your network is still gigabit, since that cost is outside the dock's price."
+  },
+  {
+    "title": "Storage and expansion",
+    "description": "The Sonnet Echo 21 includes an M.2 NVMe slot up to 8TB, while OWC and the iVANKY focus on ports. We compared expansion against the over $400 price range, where fast local storage is often the real reason to buy. Fast local storage beats a second network port for many editors, so we treated the SSD slot as a genuine differentiator."
+  },
+  {
+    "title": "Thermal and uptime design",
+    "description": "A dock pushing 10Gbps runs warm. We weighed the iVANKY's triple-layer thermal system for 24/7 use, and noted that its Mac-exclusive silicon limits it to Apple hosts even though it lists the most ports. Thermal headroom is the least advertised spec in this tier and the one that decides whether a dock survives a render night."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Dual 10GbE ports for two separate networks", "OWC Thunderbolt 5 Dual 10GbE Network Dock"],
-        ["Built-in NVMe storage combined with 10GbE", "Sonnet Echo 21 Thunderbolt 5 SuperDock"],
-        ["The same core capability at a lower price", "Sonnet Echo 20 Thunderbolt 5 SecureDock"],
-        ["Maximum display and RAID connectivity for Mac Pro Max", "iVANKY 26-in-1 FusionDock Ultra"]
+    "subheading": "By Network Need",
+    "intro": "Your network, not the dock, decides whether 10GbE helps.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Two separate 10Gb networks or link bonding",
+          "OWC Thunderbolt 5 Dual 10GbE Network Dock, with 2x 10GbE plus a 2.5GbE port"
+        ],
+        [
+          "A single 10Gb NAS link with local NVMe storage",
+          "Sonnet Echo 21 Thunderbolt 5 SuperDock, with 10Gb Ethernet and an M.2 NVMe slot"
+        ],
+        [
+          "Plain 10Gb Ethernet with Cat6A cabling",
+          "Sonnet Echo 20 Thunderbolt 5 SecureDock, with 20 interfaces and 140W charging"
+        ],
+        [
+          "Mac-based studio running 24/7",
+          "iVANKY 26-in-1 FusionDock Ultra, with a triple-layer thermal system and four downstream ports"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $450", "Sonnet Echo 20 SecureDock (under $450)"],
-        ["Under $500", "OWC Dual 10GbE Dock or Sonnet Echo 21 (both under $500)"],
-        ["Under $650", "iVANKY 26-in-1 FusionDock Ultra (under $650)"]
+    "subheading": "By Budget",
+    "intro": "All four docks sit above $400, so the choice is features, not savings.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Under $450",
+          "Sonnet Echo 20 Thunderbolt 5 SecureDock, the lowest cost 10GbE option here"
+        ],
+        [
+          "Under $500",
+          "OWC Thunderbolt 5 Dual 10GbE Network Dock, for two 10GbE ports"
+        ],
+        [
+          "Under $500, with storage",
+          "Sonnet Echo 21 SuperDock, adding an 8TB NVMe slot"
+        ],
+        [
+          "Under $650",
+          "iVANKY 26-in-1 FusionDock Ultra, with the most ports and Mac-only silicon"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Cross-Platform Dock vs Mac-Exclusive Dock",
-    cards: [
-      { label: "Cross-platform (OWC, Sonnet picks)", text: "Works across Mac, Windows, Chromebook, and iPad Pro, giving genuine flexibility if your workflow spans multiple platforms." },
-      { label: "Mac-exclusive (iVANKY FusionDock Ultra)", text: "Engineered specifically for Mac's dual-silicon architecture, delivering maximum throughput but only for MacBook Pro M-Series Max systems." }
+    "subheading": "One 10GbE Port vs Two",
+    "intro": "The second port is only worth it with a specific use.",
+    "cards": [
+      {
+        "label": "Single 10GbE",
+        "text": "Sonnet Echo 21 and Echo 20 give one 10Gb port, enough for a NAS or a fast switch. That fits most home studios and small offices."
+      },
+      {
+        "label": "Dual 10GbE",
+        "text": "OWC adds a second 10GbE for link bonding, a separate storage network or an isolated lab line, plus a 2.5GbE for management."
+      }
     ],
-    note: "If you work across Mac and Windows or use non-Mac devices, the OWC or Sonnet picks are the safer, more flexible choice. If you specifically own a MacBook Pro M-Series Max and want the absolute maximum Mac-optimized performance, the iVANKY pick delivers that.",
+    "note": "Most buyers should take the single-port Sonnet unless they already run two 10Gb networks."
   },
   {
-    subheading: "By Storage Need",
-    table: {
-      headers: ["Your storage need", "Recommended pick"],
-      rows: [
-        ["Built-in NVMe storage expansion", "Sonnet Echo 21 SuperDock"],
-        ["No built-in storage needed", "OWC Dual 10GbE Dock or Sonnet Echo 20"]
+    "subheading": "By Host Platform",
+    "intro": "Platform support is the hidden filter in this tier.",
+    "table": {
+      "headers": [
+        "Your host",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Apple Silicon Mac only",
+          "iVANKY 26-in-1 FusionDock Ultra, which is Mac-exclusive"
+        ],
+        [
+          "Windows or Mac Thunderbolt 5 laptop",
+          "Sonnet Echo 20 SecureDock, with 3x Thunderbolt 5 ports and 140W Power Delivery"
+        ],
+        [
+          "Mixed Windows and Mac workstations",
+          "OWC Thunderbolt 5 Dual 10GbE Network Dock, with three Thunderbolt 5 ports"
+        ],
+        [
+          "Thunderbolt 4 host with fast SSD needs",
+          "Sonnet Echo 21 SuperDock, whose M.2 slot adds storage"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For NAS-Connected Home or Studio Networks Specifically",
-    cards: [
-      { label: "Look for", text: "A dock specifically documented to work with standard Cat6 or Cat6A cabling, so you can connect to your existing NAS setup without needing specialized network hardware." },
-      { label: "In this comparison", text: "The Sonnet Echo 20 SecureDock specifically states its 10GbE is designed for ultra-fast NAS connections using standard Cat6 or Cat6A cabling." }
-    ],
+    "subheading": "For a Video Editing NAS Workflow Specifically",
+    "intro": "Large files from a NAS need sustained throughput.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A 10GbE port plus Cat6A cabling and a 10Gb switch, so large camera files move at real 10Gbps and not 1Gbps."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Sonnet Echo 21 pairs 10Gb Ethernet with an M.2 NVMe slot up to 8TB, so local cache and NAS traffic share one cable."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You specifically own a MacBook Pro M-Series Max and want maximum RAID array and display connectivity, where the iVANKY FusionDock Ultra justifies its under $650 price." },
-      { label: "Save if", text: "You want the same core 10GbE and display capability without a storage slot, where the Sonnet Echo 20 delivers that for under $450, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "These docks already sit in the over-$400 tier.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need 26 ports, Mac-only silicon and 24/7 thermals. The iVANKY, under $650, is the top tier; the 2.5GbE guide covers cheaper options."
+      },
+      {
+        "label": "Save if",
+        "text": "You need one 10GbE port. The Sonnet Echo 20 under $450 gives 10Gb and Thunderbolt 5 for the least money, and you can skip 8TB storage."
+      }
+    ]
   }
 ];
 
@@ -181,12 +268,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Do I need special networking equipment to use these docks' 10GbE ports?", "a": "The Sonnet Echo 20 specifically confirms compatibility with standard Cat6 or Cat6A cabling, so most existing network setups with reasonably modern cabling should support the full 10Gbps speed without needing specialized fiber infrastructure." },
-  { "q": "What's the most common mistake buyers make when choosing a USB4 dock with 10GbE?", "a": "Assuming any dock with an Ethernet port delivers 10Gbps speeds, when many docks in this general category actually include only standard Gigabit or 2.5Gbps Ethernet, with genuine 10GbE consistently appearing only at this comparison's premium price tier." },
-  { "q": "Is the iVANKY FusionDock Ultra worth its significant price premium if I use both Mac and Windows devices?", "a": "No, since the iVANKY pick is specifically engineered exclusively for the Mac ecosystem, buyers who need cross-platform compatibility should choose the OWC or either Sonnet pick instead, which all support Mac, Windows, Chromebook, and iPad Pro." },
-  { "q": "How do I decide between the OWC's dual 10GbE ports and the Sonnet Echo 21's built-in NVMe storage?", "a": "If your workflow genuinely requires two independent high-speed network connections simultaneously, the OWC's dual ports serve that specific need, but if local fast storage matters more than a second network connection, the Sonnet Echo 21's built-in NVMe slot is the better fit." },
-  { "q": "Will these docks work with older Thunderbolt 3 laptops, or do they require Thunderbolt 5?", "a": "The OWC pick specifically states Thunderbolt 3 support is available but Mac-only and requires a specific macOS version, so checking each pick's exact minimum host generation and OS version requirements for your specific device is worth doing before purchase." },
-  { "q": "Can I use the Sonnet Echo 21's built-in NVMe slot without buying a separate SSD?", "a": "No, the M.2 NVMe SSD slot requires you to purchase and install a compatible SSD separately, as the dock itself only provides the enclosure and connection infrastructure, not the storage drive itself." }
+  {
+    "q": "Do I need a 10Gb switch to use the 10GbE port?",
+    "a": "Yes. The dock only negotiates 10Gbps if the switch, router or NAS on the other end supports it. A standard gigabit router will cap you at 1Gbps. Cat6 or Cat6A cable also matters, which Sonnet's Echo 20 lists for 10GbE. Check your switch's port label before blaming the dock."
+  },
+  {
+    "q": "Is Thunderbolt 5 required for 10GbE speeds?",
+    "a": "No. A Thunderbolt 4 host at 40Gbps can carry a 10Gbps stream, so a TB5 dock still works at reduced total bandwidth. You mainly lose headroom for high-refresh displays and fast SSDs running at the same time."
+  },
+  {
+    "q": "Is the OWC dual 10GbE dock worth more than the Sonnet Echo 20?",
+    "a": "Only if you actually need two 10GbE links, such as bonding or two separate networks. The OWC lists 2x 10GbE plus a 2.5GbE port at about the same price tier as Sonnet's Echo 20, which has a single 10Gb port. Most home users only ever need one."
+  },
+  {
+    "q": "How do I confirm 10GbE is working after setup?",
+    "a": "Connect the dock to a 10Gb switch or NAS, then check the adapter's link speed in Windows Network Connections or macOS System Settings, which should show 10Gbps. Run a large file copy to confirm real throughput."
+  },
+  {
+    "q": "Does the iVANKY FusionDock work with Windows?",
+    "a": "The listing describes the dock as Mac-exclusive with dual 80/120Gbps silicon, so it is aimed at Apple hosts only. Windows buyers should consider the OWC or Sonnet docks instead, which are not limited to a single platform. Check the compatibility line first."
+  },
+  {
+    "q": "Will a 10GbE dock overheat during heavy transfers?",
+    "a": "Sustained 10Gbps traffic generates heat in the dock's network chip. The iVANKY lists a triple-layer thermal design for 24/7 operation, and the Sonnet docks use ventilated cases. Leave airflow around any 10GbE dock and avoid stacking items on top. Heat is a slow failure, so give it space."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

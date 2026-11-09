@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Printer Stand Width and Capacity", "description": "Compared top surface dimensions and weight capacity for functioning as a printer or equipment stand." },
-  { "title": "Caster and Mounting Flexibility", "description": "Checked for dual-mode caster and leveling foot systems versus fixed wheel or stationary designs." },
-  { "title": "Per-Drawer File Capacity", "description": "Compared stated file capacity per drawer where specified across the lineup." },
-  { "title": "Lock Mechanism", "description": "Compared single-lock, dual-key, and other lock security designs across the lineup." },
-  { "title": "Drawer Slide Quality", "description": "Compared noise level and smoothness claims for drawer slide mechanisms." }
+  {
+    "title": "Stated load and file capacity",
+    "description": "We compared numbers that actually predict use, from the VASAGLE's 110 lb total and 33 lb per drawer to the GYIIYUO's 120 lb and the Approgreent's 200 files per drawer. Two cabinets hold the same weight, but file count tells you how many folders fit. The BYNSOE and VASAGLE state no matching figure, so we noted the gap."
+  },
+  {
+    "title": "Lock quality",
+    "description": "We separated real locks from none, since the VASAGLE and GYIIYUO have no lock at all, the Approgreent uses a dual-key system and the BYNSOE secures both drawers with one lock and ships two keys. For paperwork like tax records a lock was nearly a requirement. The BYNSOE's business card holders also help with labeling."
+  },
+  {
+    "title": "Drawer slides and noise",
+    "description": "We read the slide descriptions, from the Approgreent's silent slides and 0.9mm steel to the BYNSOE's steel ball bearing full extension slides. Full extension means the back folder is reachable, and quiet glides matter in a shared apartment. That choice mattered most for the three 2-drawer steel units."
+  },
+  {
+    "title": "Top surface and footprint",
+    "description": "We checked the working top, because the GYIIYUO has a 24 inch wide top for a large printer or dual monitor arms and the VASAGLE's solid top works as a printer stand. A wider top is a feature only if your desk has room for it. The Approgreent lacks a stated total weight rating."
+  },
+  {
+    "title": "Floor and mobility options",
+    "description": "We noted the GYIIYUO's switch between casters and leveling feet in about 30 seconds, against the fixed Approgreent and BYNSOE without wheels. A cabinet that levels on a bad floor stays closed when a drawer is loaded. A 24 inch top also helps if your desk is narrow."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["A stylish design with documented per-drawer capacity", "VASAGLE File Cabinet, 2-Drawer"],
-        ["A wide printer stand with dual floor mounting", "GYIIYUO 2 Drawer File Cabinet, 24\" Wide"],
-        ["Maximum per-drawer capacity with lock security", "Approgreent 2 Drawer File Cabinet with Lock"],
-        ["A single-lock system with quiet drawer slides", "BYNSOE 2 Drawer File Cabinet with Lock"]
+    "subheading": "By Primary Need",
+    "intro": "Under $100 splits into locking steel cabinets and wide printer-stand cabinets.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A dual-key lock and the highest file count",
+          "Approgreent 2 Drawer File Cabinet with Lock, 200 files per drawer and 0.9mm steel"
+        ],
+        [
+          "A single lock securing both drawers at a lower price",
+          "BYNSOE 2 Drawer File Cabinet with Lock, with 2 keys and business card holders"
+        ],
+        [
+          "A stated per-drawer load and a farmhouse look",
+          "VASAGLE File Cabinet, 2-Drawer, with 33 lb per drawer and 90 to 130 files"
+        ],
+        [
+          "A wide top for a printer or monitor arms",
+          "GYIIYUO 2 Drawer File Cabinet, 24 inch wide with 120 lb capacity"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $55", "Approgreent (under $60)"],
-        ["Under $65", "BYNSOE (under $70)"],
-        ["Under $70", "GYIIYUO (under $70)"],
-        ["Under $80", "VASAGLE (under $80)"]
+    "subheading": "By Budget",
+    "intro": "The cabinets cluster near the top of the sub-$100 range.",
+    "table": {
+      "headers": [
+        "Budget position",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest price here with a lock",
+          "BYNSOE 2 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Low to mid for the highest stated capacity per drawer",
+          "Approgreent 2 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Mid to upper for a printer stand top",
+          "VASAGLE File Cabinet, 2-Drawer"
+        ],
+        [
+          "Top of the range for dual casters or feet",
+          "GYIIYUO 2 Drawer File Cabinet, 24 inches wide"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Lockable Steel vs Stylish Unlocked Design",
-    cards: [
-      { label: "Lockable steel (Approgreent, BYNSOE)", text: "Prioritizes document security with genuine key locks, better suited to sensitive files or shared spaces." },
-      { label: "Stylish unlocked (VASAGLE, GYIIYUO)", text: "Prioritizes aesthetic design and printer-stand functionality over lock security, better for general organization." }
+    "subheading": "Lock vs Printer Stand Top",
+    "intro": "Security and surface space come in different packages at this tier.",
+    "cards": [
+      {
+        "label": "Locking: Approgreent and BYNSOE",
+        "text": "Steel bodies and locks that protect documents. They have no wheels and offer less top surface, so they sit beside the desk."
+      },
+      {
+        "label": "Printer stand: VASAGLE and GYIIYUO",
+        "text": "Wider, solid tops and styling, with capacity stated clearly. Neither locks, so keep sensitive items elsewhere."
+      }
     ],
-    note: "If security matters more than styling, the Approgreent or BYNSOE's lock systems are worth prioritizing. If you want a cabinet that also enhances your office's visual design or holds a printer, the VASAGLE or GYIIYUO deliver that.",
+    "note": "Most buyers who store personal documents should pick a locking cabinet and put the printer elsewhere."
   },
   {
-    subheading: "By Printer or Equipment Support Needs",
-    table: {
-      headers: ["Your equipment size", "Recommended pick"],
-      rows: [
-        ["Large office printer or dual monitor arms", "GYIIYUO (24 in wide top, 120 lb capacity)"],
-        ["Standard printer or moderate equipment", "VASAGLE (solid top, 110 lb total capacity)"],
-        ["No equipment support needed", "Approgreent or BYNSOE"]
+    "subheading": "By Document Volume",
+    "intro": "Estimate how many folders you really keep.",
+    "table": {
+      "headers": [
+        "Volume",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A few dozen active folders",
+          "BYNSOE 2 Drawer File Cabinet, with business card holders for labeling"
+        ],
+        [
+          "Around 90 to 130 files per drawer",
+          "VASAGLE File Cabinet, with that range stated for each drawer"
+        ],
+        [
+          "Up to roughly 200 files per drawer",
+          "Approgreent 2 Drawer File Cabinet, with silent slides"
+        ],
+        [
+          "Mixed files, supplies and a printer",
+          "GYIIYUO 2 Drawer File Cabinet, with a side bag and an open shelf"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Home Office That Doubles as a Multi-Purpose Room Specifically",
-    cards: [
-      { label: "Look for", text: "A cabinet with dual-mode mounting that can roll for flexibility or lock in place for stability, plus a design that fits non-office decor." },
-      { label: "In this comparison", text: "The GYIIYUO pick's dual caster/leveling foot system and wood grain finish specifically suit a room serving multiple purposes." }
-    ],
+    "subheading": "For a Small Home Office Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A depth that fits next to the desk, a lock for documents, full-extension slides that reach the rear folders, and a top that carries what you place on it."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Approgreent pairs a dual-key lock with silent slides, and the GYIIYUO gives a 24 inch top with caster or foot options. The BYNSOE is the value lock choice."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need a wide printer stand surface with flexible floor mounting, where the GYIIYUO pick delivers a 24 inch top and dual caster system unmatched in this comparison." },
-      { label: "Save if", text: "You want maximum per-drawer file capacity with lock security, where the Approgreent pick delivers 200 files per drawer for the lowest price here." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $150 guide adds three or four drawers and tip-prevention hardware.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need three or more drawers, an anti-tip kit or an interlock system. See the under $150 guide for the VIYET, VASAGLE 3-drawer and Letaya picks."
+      },
+      {
+        "label": "Save if",
+        "text": "Two drawers cover your files, where the under $50 guide's SISESOL or Yoonkool is enough."
+      }
+    ]
   }
 ];
 
@@ -183,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the GYIIYUO pick's top surface really hold a large all-in-one printer safely?", "a": "Yes, its 24 inch wide top is specifically designed and rated for large office printers up to a combined 120 lb capacity, genuinely wider than the standard 15 inch tops found on many competing filing cabinets." },
-  { "q": "What's the most common mistake buyers make when comparing file capacity across cabinets?", "a": "Relying on external dimensions alone to estimate storage capacity, when a listing's specific stated per-drawer file count, like the VASAGLE's 90-130 files or Approgreent's 200 files, provides much more concrete and comparable information." },
-  { "q": "Is the VASAGLE pick worth it over the cheaper GYIIYUO option?", "a": "If a coordinated modern-farmhouse aesthetic and documented per-drawer file capacity matter most, yes, but if you specifically need the widest printer stand surface with dual floor-mounting flexibility, the GYIIYUO pick delivers that at a lower price." },
-  { "q": "Does the BYNSOE single-lock design mean I can't access one drawer without unlocking both?", "a": "Correct, its single lock secures both drawers simultaneously, so unlocking gives you access to both, meaning it's less suited if you specifically need to keep one drawer locked while leaving another freely accessible." },
-  { "q": "How do I know if the Approgreent pick's 200-files-per-drawer capacity is accurate for my specific documents?", "a": "This figure represents a general estimate based on standard file folder thickness, so your actual capacity may vary somewhat depending on whether your documents use thicker folders, binders, or other non-standard storage formats." },
-  { "q": "Can I switch the GYIIYUO cabinet between rolling and stationary modes after initial setup?", "a": "Yes, its dual-support design specifically allows switching between casters and leveling feet in about 30 seconds even after the cabinet is assembled and in use, letting you adapt to changing needs or room layouts over time." }
+  {
+    "q": "Is the Approgreent worth it over the BYNSOE?",
+    "a": "If you need more files, yes: 200 per drawer, a dual-key lock and 0.9mm steel. The BYNSOE is cheaper, secures both drawers with one lock and includes 2 keys, but it lists no weight capacity. The BYNSOE's price advantage is real, but so is the missing figure."
+  },
+  {
+    "q": "What mistake do buyers make with filing cabinets?",
+    "a": "Choosing by looks and skipping the lock. The VASAGLE and GYIIYUO are attractive and spacious but do not lock, so papers like leases and tax records are exposed. Check for a lock first. The Approgreent and BYNSOE both lock, which the VASAGLE does not."
+  },
+  {
+    "q": "What is the difference between letter and legal files?",
+    "a": "Letter files are about 15 inches wide in vertical cabinets and legal files about 18, and verticals are usually one size only. Confirm that a listing mentions legal support, because longer papers buckle under the front. Check the paper size on the listing, not only the drawer count."
+  },
+  {
+    "q": "How do I set up the GYIIYUO casters and leveling feet?",
+    "a": "It switches between wheels and feet in about 30 seconds. Use feet on uneven floors so drawers stay shut, and casters when you move it to clean. Load the bottom first. Use feet at home and casters only for occasional moves."
+  },
+  {
+    "q": "How do full-extension slides help?",
+    "a": "They let a drawer slide out far enough to reach the back folders. The BYNSOE uses steel ball bearing full extension slides, and the Approgreent has silent slides, so retrieval is easier. Reaching the back folder also saves your wrist."
+  },
+  {
+    "q": "Do I need to anchor a two-drawer cabinet?",
+    "a": "Not usually, but fill the bottom drawer first and open one at a time. The VASAGLE and GYIIYUO are stable at two drawers, while taller cabinets in the under $150 guide include anti-tip protection. Use the VASAGLE at its stated 33 lb per drawer."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

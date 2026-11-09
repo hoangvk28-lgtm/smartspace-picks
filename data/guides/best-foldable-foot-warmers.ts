@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ZUEJ2GZ3L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HD6WS57Y?tag=deskfinds0d-20",
-    "description": "Zyxtojr lists 5 heat levels from 113F to 149F, 7 timer presets from 0.5 to 8 hours, a default 4 hour auto shut-off if no timer is set, and 210W power. It folds from 39.57 by 20.08 inches to 20 by 15, has a detachable zippered cover, and lists five safety layers, including a 45 degree tip-over switch. The listing says it is UL 1278 tested.\n\nCompared with MIESTONE below, it draws less power and has more timer steps but a lower top temperature. It costs about $9 less than MIESTONE.\n\nBest for shared spaces where safety documentation matters. The caveat is that the UL 1278 wording is a seller claim you should confirm on the product label.",
+    "description": "Zyxtojr lists 5 heat levels from 113F to 149F, 7 timer presets from 0.5 to 8 hours, a default 4 hour auto shut-off if no timer is set, and 210W power. It folds from 39.57 by 20.08 inches to 20 by 15, has a detachable zippered cover, and lists five safety layers, including a 45 degree tip-over switch. The listing says it is UL 1278 tested.\n\nCompared with MIESTONE below, it draws less power and has more timer steps but a lower top temperature. It costs under $10 less than MIESTONE.\n\nBest for shared spaces where safety documentation matters. The caveat is that the UL 1278 wording is a seller claim you should confirm on the product label.",
     "specs": [
       "210W, 113F to 149F",
       "7 timers, 0.5 to 8 hours",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41vUmQ6ZQkL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HKM6W8LL?tag=deskfinds0d-20",
-    "description": "Verdurancd includes a remote, 5 heat levels, 7 timer options and tip-over shutoff. It folds flat, quietly, and measures roughly 20.08 by 6.3 by 6.3 inches in its compact form.\n\nIt costs about $1 less than the Generic leg warmer below and offers a remote, but lists no wattage or temperatures. Against Zyxtojr, it is half the price with far less documentation.\n\nBest for a low-cost heater you can control from your chair. The caveat is the thin spec sheet.",
+    "description": "Verdurancd includes a remote, 5 heat levels, 7 timer options and tip-over shutoff. It folds flat, quietly, and measures roughly 20.08 by 6.3 by 6.3 inches in its compact form.\n\nIt costs under $10 less than the Generic leg warmer below and offers a remote, but lists no wattage or temperatures. Against Zyxtojr, it is half the price with far less documentation.\n\nBest for a low-cost heater you can control from your chair. The caveat is the thin spec sheet.",
     "specs": [
       "5 heat levels, 7 timers",
       "Remote control included",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/518E7TeFAdL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G2M3WN4X?tag=deskfinds0d-20",
-    "description": "This unbranded warmer lists an oversized fold panel, 9 heat levels, a 1 to 9 hour timer, a digital display, a blanket and overheat protection.\n\nIt is the cheapest foldable at about $35, around $1 more than Verdurancd, and has more heat steps but no remote. It lists no wattage or tip-over details.\n\nBest for a low price with lots of heat steps. The caveat is that tip-over protection is not described, and the brand is generic.",
+    "description": "This unbranded warmer lists an oversized fold panel, 9 heat levels, a 1 to 9 hour timer, a digital display, a blanket and overheat protection.\n\nIt is the cheapest foldable at under $40, under $10 more than Verdurancd, and has more heat steps but no remote. It lists no wattage or tip-over details.\n\nBest for a low price with lots of heat steps. The caveat is that tip-over protection is not described, and the brand is generic.",
     "specs": [
       "9 heat levels",
       "1 to 9 hour timer",
@@ -219,51 +219,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Folded versus unfolded size",
-    "explanation": "Unfolded size decides whether it fits your legs, and folded size decides where it goes when you are done. Zyxtojr unfolds to 39.57 by 20.08 inches and folds to 20 by 15, while VEVOR folds to 15.75 by 20.08. Check both numbers against your desk and your closet."
+    "explanation": "A foldable panel is only handy if it fits when folded and when open. The Zyxtojr folds to 20 by 15 inches and the VEVOR to about 15.75 by 20.08 inches, but unfolded panels like the Handylit's 44 by 20 inch wrap are much larger. Measure the knee space and the storage spot before you buy."
   },
   {
     "criterion": "Wattage and power draw",
-    "explanation": "Panel heaters draw far more power than pads, and listings range from 210W for Zyxtojr to 285W for Handylit. On a shared dorm or office circuit that difference matters. Look for the watts on the listing, since some, like Verdurancd, leave it out."
+    "explanation": "Wattage tells you how fast it heats and how much it draws. The Zyxtojr lists 210W, the MIESTONE 250W, the VEVOR 280W, and the Handylit 285W, while the FAYKONCEN lists none. A 285W heater on a 15 amp outlet with a space heater will trip a breaker, so check the wattage on the listing."
   },
   {
     "criterion": "Tip-over shutoff",
-    "explanation": "A foldable panel stands on edge, so a knocked heater is a realistic hazard. Tilt shutoffs at 45 degrees are listed for MIESTONE, FAYKONCEN and Handylit. Check that the listing names the tilt angle, not just a vague safety feature."
+    "explanation": "A panel that leans against your legs can be knocked flat, so a tilt switch shuts power off when it falls. The FAYKONCEN stops heating at 45 degrees, the Handylit lists tilt shutoff, and the Verdurancd and VEVOR list tip-over shutoff, but the foldable leg warmer lists none. Look for the word tip-over or tilt in the bullets, and ask whether it resets automatically."
   },
   {
     "criterion": "Timer range and default",
-    "explanation": "Zyxtojr lists 7 presets and a default 4 hour cutoff if you forget to set one, while MIESTONE and FAYKONCEN offer up to 12 hours. A long maximum is convenient, but a default cutoff is the real safety net. Read what happens when no timer is set."
+    "explanation": "A timer prevents all-day heating, but a default matters if you forget to set it. The Zyxtojr defaults to a 4 hour cutoff, the MIESTONE offers a 12 hour timer, and the Handylit has a 4 hour timer. Read both the maximum and the default, since a 12 hour option is convenient but not a safety limit."
   },
   {
     "criterion": "Included blanket and warm-up time",
-    "explanation": "A blanket traps rising heat, which helps these panels feel warmer. MIESTONE says it takes 20 to 30 minutes to reach full heat. Check what is in the box and be patient on the first use."
-  },
-  {
-    "criterion": "Certification claims",
-    "explanation": "Zyxtojr says it is UL 1278 tested, a standard for portable space heaters. Treat any such statement as a seller claim and look for the mark on the label itself. Many listings name none."
+    "explanation": "A blanket traps heat, so a panel with one warms your legs faster. The MIESTONE and VEVOR include a blanket, but the MIESTONE takes 20 to 30 minutes to peak. If you want fast warmth, check the stated warm-up time, and remember that a blanket draped over a heater needs a rated design, so do not drape a household throw over it."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Folded and open size",
-    "description": "We compared the listed unfolded and folded dimensions."
+    "title": "Folded footprint and storage",
+    "description": "A foldable heater has to live in a closet or a drawer between uses. We compared the Zyxtojr's 20 by 15 inch fold and the VEVOR's 15.75 by 20.08 inch fold, and noted the Handylit's larger 44 by 20 inch wrap panel as a bigger storage commitment for anyone with a small closet or a shared flat."
   },
   {
-    "title": "Power and heat",
-    "description": "Wattage and listed temperature ranges were compared where given."
+    "title": "Wattage against outlet limits",
+    "description": "Wattage affects heat and breaker load. We compared the Zyxtojr's 210W, the MIESTONE's 250W, the VEVOR's 280W and the Handylit's 285W, and treated listings with no wattage, like the FAYKONCEN and Verdurancd, as a gap since a high-wattage heater shares an office circuit with a monitor, a PC, and sometimes a space heater."
   },
   {
-    "title": "Tilt and safety features",
-    "description": "Tilt shutoff angles, overheat protection and any named certification were weighed above marketing wording."
+    "title": "Tip-over protection",
+    "description": "A flat panel falling against your foot is the main hazard. We credited tilt switches that stop heat, such as the FAYKONCEN's 45 degree cutoff and the Handylit, Verdurancd and VEVOR shutoffs, and marked down the leg warmer with no tip-over mention, because a flat panel that falls against a shin keeps heating."
   },
   {
-    "title": "Timer behavior",
-    "description": "We looked at timer steps and what happens when no timer is set."
+    "title": "Timers and default behavior",
+    "description": "We compared timer range and default, such as the Zyxtojr's 7 presets from 0.5 to 8 hours with a 4 hour default, the MIESTONE's 12 hour timer, and the VEVOR's 9 hour. A sensible default counted more than a long maximum, because a heater left running by mistake is the scenario a timer exists for."
   },
   {
-    "title": "Value for price",
-    "description": "Prices were weighed against documented features."
+    "title": "Certification honesty",
+    "description": "Several listings claim safety without naming a lab. We noted that the Zyxtojr safety claim needs a label check and that the VEVOR names no certification, and recommend verifying the mark on the product itself before using any heater under a desk, since a claim with no lab name cannot be checked."
   }
 ];
 
@@ -390,7 +386,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "Your use is occasional. Foldable Under Desk Leg Warmer with Blanket and Verdurancd Foldable Under Desk Foot Warmer with Remote cost about $35 or less."
+        "text": "Your use is occasional. Foldable Under Desk Leg Warmer with Blanket and Verdurancd Foldable Under Desk Foot Warmer with Remote cost under $40 or less."
       }
     ]
   }
@@ -399,28 +395,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can I leave a foldable foot warmer folded while it runs?",
-    "a": "No. Run it open as designed, keep clear space around it and never cover it so heat cannot escape except with the supplied blanket over your legs."
+    "q": "Can a foldable foot warmer trip my breaker?",
+    "a": "It can on a shared circuit. Wattages run from 210W on the Zyxtojr to 285W on the Handylit, about 2 amps on a 120V line, which a small office rarely strains. Problems come from adding a space heater or kettle on the same breaker."
   },
   {
-    "q": "Do foldable heaters need a dedicated outlet?",
-    "a": "Plug directly into the wall instead of a crowded strip. At 210W to 285W they draw more than pads, so avoid sharing a circuit with other heaters."
+    "q": "Is a foldable heater safe against my legs?",
+    "a": "Keep it a few inches from fabric and legs, and use models with tip-over shutoff and a timer. The Handylit, VEVOR and Verdurancd list tilt or tip-over shutoff, and the FAYKONCEN stops at 45 degrees. Never cover it with a non-rated blanket."
   },
   {
-    "q": "Is a certified model worth the extra money?",
-    "a": "A named mark gives you something to verify. Zyxtojr claims UL 1278 testing, but check the label, and many cheaper models name nothing."
+    "q": "Is the MIESTONE worth more than the VEVOR?",
+    "a": "If you want higher heat and a long timer, yes. The MIESTONE lists up to 160F, an 8 level control and a 12 hour timer, while the VEVOR lists 280W, a compact fold and tip-over shutoff for less money. The MIESTONE takes 20 to 30 minutes to reach peak heat."
   },
   {
-    "q": "How do I set it up for the first time?",
-    "a": "Unfold it fully, stand it on a flat floor, secure any brackets, and set the shortest timer. MIESTONE says it needs 20 to 30 minutes to reach full heat."
+    "q": "How do I set it up under a desk?",
+    "a": "Place it on a flat floor where your feet reach the panel, extend the support frames, and plug it into a wall outlet, not a power strip. Check the cord length: the FAYKONCEN has 118 inches and the MIESTONE about 9.83 feet, which helps behind a desk."
   },
   {
-    "q": "How do I clean it?",
-    "a": "Zyxtojr has a detachable cover, while others wipe clean. Unplug first and let any cover dry fully."
+    "q": "Do I need the included blanket?",
+    "a": "It improves comfort because it traps heat around your legs. The MIESTONE and VEVOR include one, and the Handylit includes a soft blanket. Use only a blanket designed for the heater, and keep it from touching the panel directly if the manual says so."
   },
   {
-    "q": "Are these medical devices?",
-    "a": "No. They are comfort products, and anyone with reduced foot sensation should ask a doctor before use."
+    "q": "How do I clean the cover?",
+    "a": "Unplug the heater and let it cool, then remove the detachable cover if your model has one, as the Zyxtojr lists. Wipe the panel with a barely damp cloth. Do not soak the heating panel, and make sure everything is fully dry before plugging in."
   }
 ];
 

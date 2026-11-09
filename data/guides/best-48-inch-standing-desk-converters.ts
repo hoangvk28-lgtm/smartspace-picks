@@ -104,112 +104,158 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Required confirmed 48 inch platform width, not rounded nearby sizes", description: "We verified every pick here is genuinely 48 inches rather than including 46 or 47 inch models rounded up in marketing copy." },
-  { title: "Compared value across the premium and standard price tiers within this size", description: "We noted where the VariDesk premium pick's price reflects its precise fixed-setting mechanism against the more affordable continuous-adjustment VIVO alternatives." },
-  { title: "Compared multiple VIVO listings at the same confirmed size", description: "We flagged where VIVO sells this size across different listings at different prices, useful for buyers comparing current stock." },
-  { title: "Included a confirmed color-specific variant", description: "We noted the white finish 48 inch option specifically confirmed in the listing, distinct from color-unconfirmed alternatives." }
+  {
+    "title": "Deck room for triple or dual wide monitors",
+    "description": "A 48 inch deck is where three monitors or two ultrawides become possible. We read each listing for deck width and for dual-monitor wording, and favored picks that describe a full 48 inch surface over those that quote a width for the base only. A narrower deck that only fits two monitors comfortably belongs in the 42 inch guide, not this one."
+  },
+  {
+    "title": "Height settings and range",
+    "description": "The VariDesk Pro Plus 48 lists 11 height settings, which is a concrete number for positioning at different heights. We counted listed height steps, since a converter with only a few positions forces a compromise between a seated eye line and a standing elbow height."
+  },
+  {
+    "title": "Price spread from budget to premium brand",
+    "description": "Prices run from under $200 for the VIVO DESK-V048KB to under $550 for the Vari. At 48 inches the hardware is large, so the premium needs a reason. We checked whether the Vari's price buys a brand, a mechanism, or support. We also checked whether the listing offers a clear height range and warranty to justify a price that high."
+  },
+  {
+    "title": "Variant and finish overlap",
+    "description": "Three VIVO listings (black V048KB, black V048V, white V048VW) share a similar design. We separated them by what each lists, and told buyers that two of the VIVO listings are nearly the same product at a higher price. The price gap between near-identical listings was a red flag we passed on to buyers."
+  },
+  {
+    "title": "Stability and load at full width",
+    "description": "A 48 inch deck puts a lot of weight far from the arms. The listings in our data do not state a rating, so we told buyers to read the capacity on the product page and treat any wobble reports on a loaded deck as a reason to pass. Capacity figures on a 48 inch deck matter more than on narrower sizes, so a missing rating counted against a pick."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Platform Size",
+    "subheading": "By Monitor Setup",
+    "intro": "Wide decks fit more, but only if your monitors fit.",
     "table": {
       "headers": [
-        "Your monitor setup",
-        "Recommended pick in this comparison"
+        "Your setup",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Single monitor or laptop, small desk",
-          "Mount-It! Standing Desk Converter 48 Wide Sit Stand Extra Large Desk Riser"
+          "Two monitors with plenty of space on each side",
+          "DESK-V048KB VIVO Black 48 inch, at the lowest price"
         ],
         [
-          "Dual monitors",
-          "VIVO Black 48 in Standing Desk Converter"
+          "A premium setup with several height positions",
+          "VariDesk Pro Plus 48 Adjustable Desk Converter, with 11 height settings"
         ],
         [
-          "Triple monitors, need maximum surface area",
-          "VIVO Black 48 in Standing Desk Converter"
+          "An alternate black VIVO design with a different model number",
+          "DESK-V048V VIVO Black 48 inch, a second option from the same brand"
+        ],
+        [
+          "A white desk and a bright room",
+          "DESK-V048VW VIVO White 48 inch, with a confirmed white finish"
+        ],
+        [
+          "An extra-large riser for monitors plus a laptop and notes",
+          "Mount-It! Standing Desk Converter 48 Wide, an extra-large riser"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "A larger spread than any other size class.",
     "table": {
       "headers": [
-        "Price range",
+        "Price tier",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $198",
-          "VIVO Black 48 in Standing Desk Converter"
+          "Under $200",
+          "DESK-V048KB, the cheapest 48 inch pick"
         ],
         [
-          "No firm budget ceiling, prioritizing lift quality or brand",
-          "Vari VariDesk Pro Plus 48"
+          "Under $270",
+          "Mount-It!, an alternative with an extra-large deck"
+        ],
+        [
+          "Under $280",
+          "DESK-V048V, the second black VIVO"
+        ],
+        [
+          "Under $290",
+          "DESK-V048VW, the white VIVO"
+        ],
+        [
+          "Under $550",
+          "VariDesk Pro Plus 48, the premium Vari deck"
         ]
       ]
     }
   },
   {
-    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "subheading": "Budget VIVO vs Premium Vari",
+    "intro": "One pick costs nearly three times the cheapest, so the question is what the money buys.",
     "cards": [
       {
-        "label": "Manual (Gas-Spring)",
-        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO Black 48 in Standing Desk Converter, Vari VariDesk Pro Plus 48, VIVO Black 48 in Standing Desk Converter."
+        "label": "VIVO (DESK-V048KB, DESK-V048V, DESK-V048VW)",
+        "text": "A large deck at a much lower price, with black and white options. The cost savings are real, and the hardware is the standard VIVO design, so check reviews for wobble at full width."
       },
       {
-        "label": "Electric (Motorized)",
-        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: none in this specific roundup, since most picks here use a manual lift."
+        "label": "Vari (VariDesk Pro Plus 48)",
+        "text": "Eleven height settings and a well-known brand in standing-desk gear. It costs the most here, so it is worth it for daily use and for offices that want a recognized name."
       }
     ],
-    "note": "Every pick in this specific comparison uses a manual lift; check our broader converter roundup if you specifically want an electric option."
+    "note": "Most home buyers should start with the VIVO; the Vari makes sense for an office or heavy daily use."
   },
   {
-    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "subheading": "By Desk Size",
+    "intro": "A 48 inch deck needs a desk that can carry it.",
     "table": {
       "headers": [
-        "What you're weighing",
+        "Your desk",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Highest star rating",
-          "Vari VariDesk Pro Plus 48"
+          "A 60 inch or wider desk",
+          "DESK-V048KB, since it leaves plenty of room on each side"
         ],
         [
-          "Largest review base (more statistical confidence)",
-          "VIVO Black 48 in Standing Desk Converter"
+          "A 48 inch desk where the deck covers it entirely",
+          "Mount-It!, as an extra-large riser"
+        ],
+        [
+          "A desk near a wall",
+          "VariDesk Pro Plus 48, after confirming how far the deck travels forward"
         ]
       ]
     }
   },
   {
-    "subheading": "For a Dual-Monitor Setup Specifically",
+    "subheading": "For a Triple-Monitor or Ultrawide Setup Specifically",
+    "intro": "This is the size where three monitors are possible.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+        "text": "A listed deck width of at least 48 inches, a weight rating above the total of three monitors, and a stable base."
       },
       {
         "label": "In this comparison",
-        "text": "VIVO Black 48 in Standing Desk Converter fits this specifically: Largest review base of any confirmed 48 inch converter."
+        "text": "The DESK-V048KB offers the full 48 inch deck at the lowest cost, while the VariDesk Pro Plus 48 adds 11 height settings."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "The only premium step here is the Vari.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what Vari VariDesk Pro Plus 48 offers: Strong review base with precise, repeatable positioning. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "You stand and sit often with a heavy load. The VariDesk Pro Plus 48 is the only pick with a listed set of height settings, and the 42 inch standing desk converter guide is the next size down if you want a motor."
       },
       {
         "label": "Save if",
-        "text": "VIVO Black 48 in Standing Desk Converter already covers the essentials: Largest review base of any confirmed 48 inch converter. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+        "text": "You use a standard dual-monitor layout. The DESK-V048KB costs the least and the Mount-It! offers an extra-large deck for less than the other VIVO listings."
       }
     ]
   }
@@ -217,33 +263,52 @@ export const howToChoose: HowToChooseSection[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Measure your existing desk's height before ordering",
-    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all.\n\nThis matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand.\n\nBefore ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+    "criterion": "Desk width must exceed the deck",
+    "explanation": "A 48 inch deck on a 48 inch desk hangs over the edges and leaves no hand room. A desk at least 60 inches wide fits it comfortably. Measure the desk and the clearance behind it, and plan to confirm the deck sits within the desk edge.  Many 60 inch desks are 24 or 30 inches deep, so check depth as well."
   },
   {
-    "criterion": "Match platform size to your actual number of monitors",
-    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up.\n\nA platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge.\n\nCheck the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+    "criterion": "Sway at full width and height",
+    "explanation": "The farther weight sits from the lift arms, the more a wide deck moves when you type. A 48 inch deck is the size where wobble reports matter most. Read reviews for sway at the top setting, and keep heavy monitors near the center.  A stable base and a level floor reduce sway more than any accessory."
   },
   {
-    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
-    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price.\n\nIf you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying.\n\nCheck the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+    "criterion": "Number of height positions",
+    "explanation": "Some converters have only a few positions, while the VariDesk Pro Plus 48 lists 11 settings. More positions let you match your seated eye line and standing elbow height more closely. Check the listing's number of settings, and the range between the lowest and highest.  Look for a range wide enough to cover both seated and standing heights for you."
   },
   {
-    "criterion": "Check your desk's depth against the converter's base footprint",
-    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base.\n\nThis matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view.\n\nCheck the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+    "criterion": "Near-identical VIVO listings and the Vari premium",
+    "explanation": "Three VIVO 48 inch listings differ by model code and color, and the Vari costs far more. A price gap of that size needs a clear reason. Compare specs and reviews, and buy the cheapest listing of the design you want.  Shipping costs and return windows are also worth comparing for an item this large."
   },
   {
-    "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "criterion": "Moving and assembling a wide deck",
+    "explanation": "A 48 inch converter is bulky, and some arrive partly assembled. Carrying it alone risks the lift and your back. Open the box beside the desk, use a helper, and clear cables before loading the monitors.  Plan for a path through doorways, since a boxed 48 inch deck is long and awkward."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which 48 inch converter has the most reviews?", a: "The VIVO Black 48 in Standing Desk Converter, DESK-V048KB, sharing VIVO's massive K Series review pool of 15,583." },
-  { q: "What's the most premium 48 inch option?", a: "The Vari VariDesk Pro Plus 48, with 11 fixed height settings, at the highest price in this comparison." },
-  { q: "Is there a white 48 inch converter?", a: "Yes, the VIVO White 48 in Standing Desk Converter, DESK-V048VW." },
-  { q: "What's the cheapest confirmed 48 inch option?", a: "The VIVO Black 48 in Standing Desk Converter, DESK-V048KB, at under $200." },
-  { q: "Is 48 inches different from 47 inches?", a: "Yes, these are distinct sizes; we only included products with confirmed 48 inch dimensions rather than nearby sizes rounded up." }
+  {
+    "q": "Can a 48 inch converter hold three monitors?",
+    "a": "Often yes, if the stand footprints fit and the weight rating allows it. A 48 inch deck gives room for three small monitors or two ultrawides. Check the rating on the product page, and measure each monitor base first."
+  },
+  {
+    "q": "Is the Vari VariDesk Pro Plus 48 worth paying more than the VIVO?",
+    "a": "If you use it daily and want 11 height settings and a recognized brand, yes. The VIVO DESK-V048KB costs far less and offers a similar deck size, so a home user with a standard layout can save the difference. Premium brands also tend to have better support."
+  },
+  {
+    "q": "Why do the VIVO 48 inch listings cost different amounts?",
+    "a": "They are separate listings with different model codes, such as V048KB, V048V, and the white V048VW. The V048KB costs the least, while the others cost more, so compare reviews and shipping before paying the higher price."
+  },
+  {
+    "q": "How much desk do I need for a 48 inch converter?",
+    "a": "A 48 inch deck wants a desk at least that wide, and a 60 inch desk leaves room on both sides. A deck that is wider than the desk will hang over the edge, so measure the width and the wall clearance. Measure from the desk edge to the wall as well."
+  },
+  {
+    "q": "What should I do about wobble on a wide deck?",
+    "a": "Keep heavy monitors close to the center, avoid leaning on the deck, and check the base for level before you load it. A 48 inch deck is the size where wobble reports matter most, so read reviews before buying."
+  },
+  {
+    "q": "Do I need to assemble a 48 inch converter?",
+    "a": "Many ship mostly assembled, but check the listing. Moving a 48 inch deck is awkward, so open the box next to the desk, lift with a helper, and plan clearance for cables before loading the monitors. A second pair of hands makes the lift much easier."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

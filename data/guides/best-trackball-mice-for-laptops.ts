@@ -217,52 +217,48 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Bluetooth versus USB-A dongle",
-    "explanation": "Thin laptops often have only USB-C ports, and a USB-A dongle then needs an adapter or hub. Bluetooth avoids that and works on tablets too. Look for Bluetooth named in the title, and for whether the receiver stores in the body."
+    "criterion": "Bluetooth versus USB-A receiver",
+    "explanation": "Bluetooth pairs with a laptop directly and keeps ports free, while a USB-A receiver needs an adapter on thin laptops. The Kensington Orbit K64327F is wired USB-A. Look for Bluetooth in the title, and check what ports your laptop has before ordering. The Keychron Nape Pro adds USB-C wired mode besides 2.4GHz and Bluetooth. Weight matters too, since a light shell slides."
   },
   {
-    "criterion": "Battery behavior in a bag",
-    "explanation": "A mouse that sits unused for weeks should still work when you pull it out, which is why standby figures matter more than usage figures. A 90 day standby claim is a better sign than a vague long battery life phrase. Check for an on and off switch to prevent drain in a bag."
+    "criterion": "Footprint and bag space",
+    "explanation": "A laptop user carries gear, so a trackball that fits a bag matters. A compact 32mm ball is easier to carry than a bulky stand. Check the listed dimensions, and note whether the shell has a stand that adds height. The Nulea stand and the ProtoArc EM02 are bulkier than the 32mm Kensington Orbit. Cable pouches help with the wired model."
   },
   {
-    "criterion": "Size and packability",
-    "explanation": "Compact bodies with 32 to 34mm balls fit in a laptop sleeve, while 55mm finger balls do not. Tilt stands add height. Look for dimensions and consider the pocket you will actually use."
+    "criterion": "Keyboard-first designs",
+    "explanation": "A trackball placed below the spacebar, like the Keychron Nape Pro, keeps your hands on the keyboard. It needs a new workflow and a thumb that reaches the ball. Check the photos, and think about whether your typing style leaves room for it. The Nape Pro's 25mm ball is below the spacebar, so typists reach it without lifting a hand. Check how the trackball sits with your keyboard."
   },
   {
-    "criterion": "Noise in shared spaces",
-    "explanation": "Library, cafe and office rooms punish loud clicks. The ball is silent anyway, so look for silent or quiet-touch buttons. Check the scroll wheel too."
+    "criterion": "Stability on soft surfaces",
+    "explanation": "A trackball stays put while the ball moves, which helps on a lap, but a light shell can still slide. Rubber feet and a tilt stand help. Look for notes on grip or weight, and read reviews from lap users. The ProtoArc EM02 offers a flat or 15 degree tilt for better lap use. Reviews from commuters are useful here."
   },
   {
-    "criterion": "Keyboard-centric versus stand-alone",
-    "explanation": "A trackball below the spacebar keeps both hands on the keys, but it changes how you type. Stand-alone units need desk space. Consider which workflow fits your laptop use."
-  },
-  {
-    "criterion": "Operating system caveats",
-    "explanation": "Laptops run Windows, macOS and Chrome OS, and a mouse that works on one may lose features on another. One listing here warns that its forward and back buttons do not work on macOS. Check the compatibility sentence for your exact system before you buy."
+    "criterion": "macOS compatibility",
+    "explanation": "Basic pointing works on macOS, but extra buttons may need drivers that some mice lack. The ProtoArc warns that its side buttons fail on Mac. Read the final bullets and the Q and A for macOS notes before you order. The ProtoArc EM02 warns its side buttons fail on macOS. Check Mac notes for the pick you want."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Port compatibility",
-    "description": "We checked Bluetooth support and dongle types for USB-C laptops."
+    "title": "Portability and footprint",
+    "description": "We compared sizes, from the compact Keychron Nape Pro below the spacebar to the bulkier Nulea 21.7 degree stand and the 32mm Kensington Orbit. For laptops on cafe tables or lap desks, a trackball needs a small footprint, so size was our first cut. The Nulea tilt stand and ProtoArc are small, but the Kensington K64327F needs a USB-A port."
   },
   {
-    "title": "Portability",
-    "description": "Dimensions, ball size and tilt stands were weighed for bag use."
+    "title": "Port-free connection",
+    "description": "We checked Bluetooth support, since many laptops lack USB-A. The Nulea, TECKNET and seenda list Bluetooth, while the Kensington Orbit K64327F is wired USB-A only and needs an adapter. A trackball that eats your only port loses points. The Keychron Nape Pro lists a 25mm ball below the spacebar, which suits typists more than pointer users."
   },
   {
-    "title": "Battery and standby",
-    "description": "Charging style and standby claims were compared."
+    "title": "Fits a laptop workflow",
+    "description": "We considered how each design works with a laptop keyboard, noting that the Keychron Nape Pro sits below the spacebar and needs a keyboard-first workflow. A trackball that works with, not against, the keyboard saves hand travel. The ProtoArc offers a flat or 15 degree tilt for use on a lap desk."
   },
   {
-    "title": "Noise",
-    "description": "Silent-click claims were noted."
+    "title": "Stable use without a desk",
+    "description": "We looked at features that help on a couch or lap, such as the tilt options on the ProtoArc and a ball that stays put. A trackball can slide on a soft surface, so stability and a quiet touch were credited. The ProtoArc and Nulea list quiet or silent buttons, useful on trains and in cafes."
   },
   {
-    "title": "Value for price",
-    "description": "Price was weighed against what each listing actually includes, with recurring buyer comments as a tiebreaker."
+    "title": "Mac and macOS behavior",
+    "description": "We read macOS notes, such as the ProtoArc's side buttons failing on Mac. Many laptop buyers use MacBooks, so a stated limitation counted against a pick even when its pointer worked. The ProtoArc's side buttons fail on Mac, and the Kensington K64327F lists Windows, Mac and Chrome OS."
   }
 ];
 
@@ -394,28 +390,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can a trackball work on a plane tray table?",
-    "a": "Yes, because the body stays still and the ball does the tracking. Pick a compact model. Keep it quiet if seat neighbors are close."
+    "q": "Can I use a trackball on my lap?",
+    "a": "Yes, but it is easier with a model that stays put. A trackball does not need to slide, so a lap desk or a couch arm works better than a regular mouse. Pick a stable one such as the Nulea with a tilt stand."
   },
   {
-    "q": "Do I need a USB-A adapter?",
-    "a": "Only for dongle-based models on laptops with USB-C ports. Bluetooth models avoid that. Check your ports."
+    "q": "Is the Keychron Nape Pro worth it over a desk trackball?",
+    "a": "It suits a keyboard-first workflow, with a 25mm ball below the spacebar and a knob. At $90 it costs more than rivals and takes practice. If you want a standalone trackball, the Nulea or TECKNET offers the usual layout for less."
   },
   {
-    "q": "Is the Keychron Nape Pro a regular mouse?",
-    "a": "No, it sits below the spacebar and is meant to be used with a keyboard. It changes your workflow. It suits typists."
+    "q": "Will it work with a MacBook?",
+    "a": "Bluetooth models pair directly. The ProtoArc EM02 warns that its side buttons fail on Mac, so check each listing for a macOS note. The Keychron Nape Pro and Kensington Orbit list Bluetooth or driver-free operation."
   },
   {
-    "q": "Is a rechargeable mouse better for travel?",
-    "a": "It avoids spare batteries, but you need a cable. Models with long standby are better for occasional use. Check the listing."
+    "q": "Do I need a USB adapter?",
+    "a": "Only for wired or receiver-only models. The Kensington Orbit K64327F has a USB-A plug, which needs an adapter on a USB-C laptop. Bluetooth picks like the TECKNET and seenda avoid that, saving a port."
   },
   {
-    "q": "Is the Nulea worth more than the budget seenda?",
-    "a": "It adds a steep tilt and silent controls. For basic use the seenda is cheaper. Choose by comfort needs."
+    "q": "How do I carry a trackball?",
+    "a": "Choose a small one such as the Kensington Orbit, and pad it in a pouch. Remove the ball if you worry about it falling out, and keep the receiver in the mouse. Bulkier models like the Nulea tilt stand are better kept at one desk."
   },
   {
-    "q": "Does a trackball drain a laptop battery?",
-    "a": "Bluetooth mice use very little power, and a USB dongle draws a small amount. The effect on a laptop battery is minor."
+    "q": "Does a trackball work on any surface?",
+    "a": "Yes. Since the ball moves, not the mouse, you can use it on a bed, a lap or a rough table. That is a real advantage for a laptop user. Just keep the cavity clean."
   }
 ];
 

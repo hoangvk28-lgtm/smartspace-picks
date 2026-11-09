@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Joule Surge Protection Rating", "description": "Compared stated joule ratings across wall-tap and single-outlet designs at this price tier." },
-  { "title": "Outlet Count and Spacing", "description": "Compared total outlet count and spacing between outlets for accommodating bulky chargers." },
-  { "title": "Number of Protection Lines", "description": "Checked which picks protect multiple electrical lines versus a single line only." },
-  { "title": "Connected Equipment Warranty", "description": "Compared documented warranty coverage amounts backing each surge protector's claims." },
-  { "title": "Physical Footprint", "description": "Compared overall size and profile for fitting behind furniture or in tight spaces." }
+  {
+    "title": "Joule rating",
+    "description": "We compared listed energy absorption, from 560J on the GE Pro to 1080J on the SANUS. Joules measure how much surge a protector can absorb before wearing out, so at under $15 we treated anything below about 600J as a basic tier, and credited the picks that clear 900J."
+  },
+  {
+    "title": "Certification mark",
+    "description": "We checked whether each listing says UL or ETL listed, since wording like UL tested or meets UL does not mean the product was evaluated. The Philips is ETL certified, the SANUS and GE Pro are UL, so the TESSAN was the pick whose listing we read most closely."
+  },
+  {
+    "title": "Outlet spacing and blocking",
+    "description": "A wall tap lives on top of a wall outlet, so we checked whether chargers and bricks block neighboring outlets. The GE Pro lists wide spacing, while the Philips and SANUS use low-profile bodies, so we weighed spacing against how many bulky adapters a desk usually needs."
+  },
+  {
+    "title": "Protection warranty",
+    "description": "We read each listed equipment policy and warranty, such as the Philips $50,000 connected equipment policy. These policies are marketing promises with conditions, so we gave credit for a documented policy but did not treat the dollar value as a reason to pay more."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +112,135 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The highest joule rating with a documented warranty", "Philips 6-Outlet Extender Surge Protector"],
-        ["3 lines of protection and fireproof construction", "SANUS On-Wall Low Profile Fireproof Surge Protector"],
-        ["Wide outlet spacing for bulky chargers", "GE Pro 6-Outlet Extender, Spaced Wall Tap"],
-        ["Maximum protection in the smallest footprint", "TESSAN Single Outlet Wall Surge Protector"]
+    "subheading": "By Primary Need",
+    "intro": "A wall tap under $15 trades outlet count against joule rating, so decide what you plug in first.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The highest joule rating among six-outlet taps with a documented warranty",
+          "Philips 6-Outlet Extender Surge Protector, at 900J with an ETL mark"
+        ],
+        [
+          "Fireproof construction and a flat body that fits behind furniture",
+          "SANUS On-Wall Low Profile Fireproof Surge Protector, only 1.25 inches deep"
+        ],
+        [
+          "Wide outlet spacing for bulky power bricks",
+          "GE Pro 6-Outlet Extender, Spaced Wall Tap, with six wide-spaced outlets"
+        ],
+        [
+          "One protected outlet in the smallest, lightest package",
+          "TESSAN Single Outlet Single Outlet Wall Surge Protector, weighing under 3 ounces"
+        ],
+        [
+          "Three lines of protection with signal filtering",
+          "SANUS On-Wall, which lists 3 lines and 1080J"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $10", "TESSAN Single Outlet (under $10)"],
-        ["Under $12", "Philips (under $15) or SANUS (under $15)"],
-        ["Under $14", "GE Pro Spaced Wall Tap (under $15)"]
+    "subheading": "By Budget",
+    "intro": "The four picks cost between under $15 and $14, so the gap is small but meaningful.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $15, the lowest price",
+          "TESSAN Single Outlet, for one protected outlet"
+        ],
+        [
+          "Under $15",
+          "Philips 6-Outlet, the best joule rating among the multi-outlet taps at this price"
+        ],
+        [
+          "Under $15",
+          "SANUS On-Wall, the fireproof, low-profile option"
+        ],
+        [
+          "Under $15",
+          "GE Pro 6-Outlet, for spaced outlets that fit adapters"
+        ]
+      ]
+    }
   },
   {
-    subheading: "6-Outlet Wall Tap vs Single-Outlet Design",
-    cards: [
-      { label: "6-outlet wall tap (Philips, SANUS, GE Pro)", text: "Expands one outlet into six for multiple devices, ideal for a desk or entertainment center with several plugs." },
-      { label: "Single outlet (TESSAN)", text: "Protects just one device but in the smallest, most travel-friendly footprint with the highest joule rating in this comparison." }
+    "subheading": "Six-Outlet Wall Tap vs Single Outlet",
+    "intro": "Both are plug-in protectors, but they solve different problems.",
+    "cards": [
+      {
+        "label": "Six-outlet wall tap",
+        "text": "Turns one wall outlet into six, which suits a desk with a lamp, laptop and phone charger. This covers the Philips 6-Outlet, SANUS On-Wall and GE Pro 6-Outlet."
+      },
+      {
+        "label": "Single outlet",
+        "text": "Protects one device in a tiny body, useful for a TV, a router or travel. The TESSAN Single Outlet lists 1050J and a 1875W max rating."
+      }
     ],
-    note: "If you need to protect multiple devices from one outlet, a wall tap is the practical choice. If you're protecting one specific device or traveling, the compact single-outlet design offers more protection per cubic inch.",
+    "note": "For a desk with three or more plugs, take a wall tap. For one valuable device, the single outlet gives more joules per outlet."
   },
   {
-    subheading: "By Protection Depth",
-    table: {
-      headers: ["Your protection priority", "Recommended pick"],
-      rows: [
-        ["Multiple lines of protection", "SANUS (3 lines)"],
-        ["Highest joule rating for multi-outlet use", "Philips (900J)"],
-        ["Basic protection with wide spacing", "GE Pro (560J, wide spacing)"]
+    "subheading": "By Device Type",
+    "intro": "Different gear places different demands on a cheap protector.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A laptop plus a phone charger and a lamp",
+          "Philips 6-Outlet, with six outlets and 900J"
+        ],
+        [
+          "Large wall-wart adapters on the power strip",
+          "GE Pro 6-Outlet, since spaced outlets avoid blocking"
+        ],
+        [
+          "A router or modem in a tight spot",
+          "TESSAN Single Outlet, small enough to fit under a shelf"
+        ],
+        [
+          "A fireproof preference for a bedroom desk",
+          "SANUS On-Wall, with fireproof material"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Dorm Room or Small Apartment Specifically",
-    cards: [
-      { label: "Look for", text: "A low-profile wall tap that fits directly against the outlet without cord clutter, freeing up floor space entirely." },
-      { label: "In this comparison", text: "The SANUS pick's ultra-low 1.25 inch profile is specifically built for this kind of space-constrained setup." }
-    ],
+    "subheading": "For a Dorm Desk Specifically",
+    "intro": "Dorms often limit extension cords and require UL or ETL marks.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A wall tap with a UL or ETL listing, an outlet count of at least six and a 15A, 1875W limit. Avoid plugging heaters or hot plates into any wall tap."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SANUS On-Wall and Philips 6-Outlet both carry a listed mark and a low profile, so either fits behind a dorm bed. The GE Pro 6-Outlet is the pick if you own wide chargers."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want multiple lines of protection or the highest joule rating with a documented warranty, where the SANUS or Philips picks each deliver a genuine protection upgrade." },
-      { label: "Save if", text: "You just need to protect one device with maximum joule protection, where the TESSAN pick delivers 1050J for under $10." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The next tier adds a cord, more outlets and better ratings.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need eight or more outlets or USB ports. The under $20 guide includes a GE wall tap with 1140J and USB-C, which beats the GE Pro 6-Outlet at 560J."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need one protected outlet. The TESSAN Single Outlet costs the least and still lists 1050J."
+      }
+    ]
   }
 ];
 
@@ -182,12 +268,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I plug a power strip into one of these wall tap surge protectors to add more outlets?", "a": "This isn't recommended, since daisy-chaining surge protectors or plugging a power strip into another surge protector can overload the circuit and may void the warranty on either device; instead, choose a wall tap with enough outlets for your actual needs from the start." },
-  { "q": "What's the most common mistake buyers make when choosing a wall tap surge protector?", "a": "Assuming any 6-outlet wall tap lets you use all 6 outlets simultaneously, when tightly spaced outlets can block adjacent outlets once you plug in a few bulky chargers, effectively reducing the usable outlet count." },
-  { "q": "Is the SANUS pick worth it over the cheaper Philips wall tap?", "a": "If genuine 3-line protection and an ultra-low profile matter to you, yes, but if you want the highest joule rating with a larger documented connected equipment warranty, the Philips pick's $50,000 policy offers stronger financial backing." },
-  { "q": "How do I know if the TESSAN single-outlet protector will handle a large appliance like a refrigerator?", "a": "Its listing specifically states a 1875W maximum rating suitable for large appliances including refrigerators, though always check your specific appliance's wattage requirement against this maximum before plugging it in." },
-  { "q": "Does a higher joule rating always mean better protection regardless of the number of protection lines?", "a": "Not necessarily, since a high joule rating on a single-line protection design still leaves other electrical paths unprotected, so a lower-joule pick with multiple protection lines, like the SANUS, can offer more comprehensive protection in some scenarios." },
-  { "q": "Can these wall tap surge protectors be used with a standard 2-prong outlet, or do they require grounding?", "a": "All four picks in this comparison require a grounded, 3-prong outlet to function properly, since surge protection technology depends on that ground connection to safely redirect excess voltage." }
+  {
+    "q": "Are joules the most important number on a surge protector?",
+    "a": "They matter, but they are not the only number. A higher joule rating means a longer life, but the clamping voltage and a UL 1449 listing show how much of a surge reaches your gear. Use joules as a tiebreaker once the listing is confirmed."
+  },
+  {
+    "q": "Is a UL tested claim the same as UL listed?",
+    "a": "No. Phrases like UL tested or meets UL do not show that the product was evaluated, while UL listed does. The Philips lists an ETL mark and the SANUS and GE Pro list UL, so check the exact wording on the listing."
+  },
+  {
+    "q": "Is the SANUS worth it over the Philips?",
+    "a": "It depends on placement. The SANUS lists 1080J, three lines of protection and a 1.25 inch profile, while the Philips lists 900J and a $50,000 policy. If you want a flat unit behind furniture, take the SANUS."
+  },
+  {
+    "q": "Can I plug a space heater into a wall tap surge protector?",
+    "a": "No. These taps list 1875W at 15A, and heaters can draw that whole amount, so they should plug directly into a wall outlet. Follow the heater manual and do not run it through any strip. Always confirm the stated 1875W ceiling against what the heater lists on its nameplate."
+  },
+  {
+    "q": "How do I know when a surge protector has worn out?",
+    "a": "Check the protected indicator light. If it goes out, the protection has likely failed even if the outlets still deliver power. Many sources suggest replacing every few years, and sooner after a major surge."
+  },
+  {
+    "q": "Do cheap wall taps block the second outlet?",
+    "a": "Some do. A wall tap covers the outlet face and may crowd the neighboring outlet if the body is wide. The GE Pro and SANUS are designed to be low-profile or spaced, so check the listing photos. Photos of the product beside a standard outlet show the real overhang."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -84,69 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Waterproof Rating Specificity", "description": "Compared IP68 certified submersion protection against general heavy-duty ABS housings without a specific IP rating." },
-  { "title": "Real Power Delivery", "description": "Compared documented injector and splitter wattage across the picks." },
-  { "title": "Surge and ESD Protection", "description": "Compared specifically stated surge voltage and ESD discharge protection ratings." },
-  { "title": "Installation Convenience", "description": "Compared whether a kit integrates with the existing Starlink Mini cable or requires additional setup." },
-  { "title": "Operating Temperature Range", "description": "Compared documented temperature tolerance for outdoor and mobile deployments." }
+  {
+    "title": "Starlink Mini power requirement",
+    "description": "We checked each kit against the Starlink Mini's DC input, because it needs a step-up from the standard PoE voltage. The EDUP LOVE and SURVADV kits pair a 150W injector with a 100W isolated splitter, while XLTTYWL lists 150W and an external step-up converter. Confirm the step-up converter is included before you order."
+  },
+  {
+    "title": "Surge and ESD protection",
+    "description": "We compared stated protection. EDUP LOVE and SURVADV list plus or minus 8KV surge and plus or minus 15KV ESD Class A protection, which matters on a roof or pole where lightning and static reach the cable. Surge protection matters most on a high mounting point."
+  },
+  {
+    "title": "Weather and temperature rating",
+    "description": "We read ingress and temperature data. The IP68 splitter is rated for prolonged submersion, while the others list operating ranges from -20C or -25C up to 70C but no IP rating, so outdoor splices still need sealing. Seal every outdoor splice in the run, whatever the rating."
+  },
+  {
+    "title": "Cable run and Gigabit throughput",
+    "description": "We confirmed range and speed. The EDUP LOVE and XLTTYWL list 100m Gigabit range, which suffices for most mast mounts, and we noted where a longer cable run would require a different PoE design. Longer runs than 100m need a different plan."
+  },
+  {
+    "title": "Connector reliability",
+    "description": "We weighed connector design. The IP68 kit uses reinforced locking connectors that resist vibration, while XLTTYWL promotes a patented soldering-type RJ45, and both address the loose-plug problem that drops connections in vehicles and boats. A loose plug on a moving vehicle is a common cause of dropouts."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The most detailed electrical protection specifications", "EDUP LOVE Starlink Mini PoE Injector 150W & Isolated Splitter"],
-        ["Genuine IP68 submersion-level waterproofing", "IP68 Waterproof DC PoE Injector Splitter"],
-        ["Reliable power for streaming and gaming at a moderate price", "SURVADV 150W Starlink Mini PoE Splitter Adapter Set"],
-        ["Integration with your existing Starlink Mini cable", "XLTTYWL 150W GigE PoE Injector Splitter & Adapter"]
+    "subheading": "By Install Environment",
+    "intro": "Weather decides which kit you can leave outside year-round.",
+    "table": {
+      "headers": [
+        "Your environment",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A roof mount in a thunderstorm region",
+          "EDUP LOVE Starlink Mini PoE Injector 150W & Isolated PoE Splitter Kit, with +/-8KV surge protection"
+        ],
+        [
+          "A boat, RV or exposed mast where water reaches the connector",
+          "IP68 Waterproof DC PoE Injector Splitter for Starlink Gen 3 Mini, rated for prolonged submersion"
+        ],
+        [
+          "A heated garage or cabin with moderate weather",
+          "SURVADV 150W Starlink Mini PoE Splitter Adapter Set, listed for -25C to 70C"
+        ],
+        [
+          "An existing Starlink Mini cable you do not want to cut",
+          "XLTTYWL 150W GigE PoE Injector Splitter & Adapter, which works with the cable as is"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $37", "IP68 Waterproof DC PoE Injector Splitter (under $40)"],
-        ["Under $63", "SURVADV or XLTTYWL 150W Kit (both under $70)"],
-        ["Under $100", "EDUP LOVE 150W Injector & Isolated Splitter (under $100)"]
+    "subheading": "By Budget",
+    "intro": "The IP68 kit is the cheapest here, while the EDUP LOVE is the most expensive.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup, under $40",
+          "IP68 Waterproof DC PoE Injector Splitter for Starlink Gen 3 Mini"
+        ],
+        [
+          "A mid-range kit with the same 150W power",
+          "SURVADV 150W Starlink Mini PoE Splitter Adapter Set, which has strong surge protection for less than EDUP LOVE"
+        ],
+        [
+          "A value spend that skips splicing the cable",
+          "XLTTYWL 150W GigE PoE Injector Splitter & Adapter, which needs a separate step-up converter"
+        ],
+        [
+          "The top of the range, under $100",
+          "EDUP LOVE Starlink Mini PoE Injector 150W & Isolated PoE Splitter Kit, with the most detailed electrical specs"
+        ]
+      ]
+    }
   },
   {
-    subheading: "IP68 Waterproofing vs Detailed Electrical Protection",
-    cards: [
-      { label: "IP68 waterproofing (IP68 pick)", text: "Certified for prolonged water immersion, the strongest choice for genuine marine, RV, or heavy-rain exposure at the lowest price in this comparison." },
-      { label: "Detailed electrical protection (EDUP LOVE)", text: "Named surge and ESD protection ratings with the widest temperature range, prioritizing electrical safety over water submersion certification." }
+    "subheading": "Waterproof IP68 vs Surge-Protected Kit",
+    "intro": "Water and lightning are different threats, and the kits split them.",
+    "cards": [
+      {
+        "label": "IP68 (waterproof kit)",
+        "text": "The IP68 kit is rated for prolonged submersion and has reinforced locking connectors, but lists no surge voltage rating and offers lower total power than the 150W injector kits."
+      },
+      {
+        "label": "Surge-protected (EDUP LOVE, SURVADV)",
+        "text": "These list +/-8KV surge and +/-15KV ESD Class A protection, which guards against lightning and static on long outdoor cables, but neither lists an IP rating."
+      }
     ],
-    note: "If your Starlink Mini faces genuine water exposure like on a boat or in heavy rain, the IP68 pick's submersion rating is the priority. If lightning and electrical surge protection matter more for your location, the EDUP LOVE pick's detailed protection specs are worth the higher price.",
+    "note": "Choose IP68 where water is the main threat and the surge kits where lightning is."
   },
   {
-    subheading: "By Installation Type",
-    table: {
-      headers: ["Your setup", "Recommended pick"],
-      rows: [
-        ["RV, marine, or overlanding with water exposure", "IP68 Waterproof DC PoE Injector Splitter"],
-        ["Fixed outdoor installation with lightning risk", "EDUP LOVE 150W Injector & Isolated Splitter"],
-        ["Want to keep using the original Starlink Mini cable", "XLTTYWL 150W GigE PoE Injector Splitter & Adapter"]
+    "subheading": "By Power Needs",
+    "intro": "Starlink Mini draws less than a standard dish, but extra equipment adds load.",
+    "table": {
+      "headers": [
+        "Your setup",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Starlink Mini plus a router powered from the same line",
+          "EDUP LOVE Starlink Mini PoE Injector 150W & Isolated PoE Splitter Kit, with a 150W injector and 100W splitter"
+        ],
+        [
+          "Streaming and gaming where uptime matters most",
+          "SURVADV 150W Starlink Mini PoE Splitter Adapter Set, framed for streaming reliability"
+        ],
+        [
+          "A simple Mini-only install with the lowest budget",
+          "IP68 Waterproof DC PoE Injector Splitter for Starlink Gen 3 Mini, with 48V at 2.5A"
+        ],
+        [
+          "A setup where you already own a step-up converter",
+          "XLTTYWL 150W GigE PoE Injector Splitter & Adapter, which does not include one"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Roof-Mounted Vehicle Installation Specifically",
-    cards: [
-      { label: "Look for", text: "Reinforced locking connectors specifically designed to resist accidental disconnection from vehicle vibration or wind while driving, alongside genuine weatherproofing for constant outdoor exposure." },
-      { label: "In this comparison", text: "The IP68 pick specifically names reinforced locking connectors built to prevent disconnection from vehicle vibration or strong winds, ideal for a roof-mounted RV or vehicle setup." }
-    ],
+    "subheading": "For Vehicle and Boat Installs Specifically",
+    "intro": "Vibration and moisture loosen connectors long before electronics fail.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Locking connectors, an IP rating for the splitter end and a wide operating temperature range for a metal roof in summer."
+      },
+      {
+        "label": "In this comparison",
+        "text": "IP68 Waterproof DC PoE Injector Splitter for Starlink Gen 3 Mini has reinforced locking connectors and submersion rating, and is also the lowest price."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the most detailed surge and ESD protection specifications for a fixed outdoor installation with real lightning exposure risk, where the EDUP LOVE pick's under $100 price is justified by that protection level." },
-      { label: "Save if", text: "You need genuine waterproofing for a mobile RV or marine setup, where the IP68 pick delivers that for under $40, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "EDUP LOVE is the premium kit, and the question is whether you need it.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You mount on a high exposed roof where lightning is a real risk, where EDUP LOVE under $100 gives the clearest surge and temperature specs."
+      },
+      {
+        "label": "Save if",
+        "text": "The Mini sits under an eave or on a boat's cabin top, where the IP68 kit under $40 handles water for less."
+      }
+    ]
   }
 ];
 
@@ -178,7 +264,7 @@ export const faq = [
   { "q": "What's the most common mistake buyers make when choosing a PoE splitter for Starlink Mini?", "a": "Assuming a kit's headline injector wattage figure reflects the actual power reaching the dish, when the paired splitter component is often rated at a meaningfully lower wattage than the injector, as seen in both the EDUP LOVE and SURVADV picks." },
   { "q": "Is the IP68 waterproof pick worth it if I'm only using Starlink Mini in a fixed home installation?", "a": "For a sheltered home installation without genuine water exposure, the IP68 rating provides less practical benefit, and the EDUP LOVE pick's stronger surge protection specifications may be more relevant if lightning risk is a concern instead." },
   { "q": "Do I need a separate voltage step-up converter for these Starlink Mini PoE kits?", "a": "The SURVADV and XLTTYWL listings both specifically note that a voltage step-up converter is not included and required separately, so checking each kit's exact requirements before purchase is important to avoid an incomplete setup." },
-  { "q": "Will cutting my original Starlink Mini cable void my warranty?", "a": "Modifying the original Starlink cable could affect warranty coverage, which is why the XLTTYWL pick's design specifically avoids cutting or splicing by integrating with your existing cable instead." },
+  { "q": "Will cutting my original Starlink Mini cable void my warranty?", "a": "We could not confirm Starlink's warranty position from these listings, so check Starlink's own terms before cutting anything. XLTTYWL says its injector and splitter integrate with the existing Starlink Mini cable without cutting or splicing, which sidesteps the question, while other kits may need you to modify or replace the cable." },
   { "q": "How much power do these kits actually deliver to the Starlink Mini dish?", "a": "It varies by kit; the EDUP LOVE and SURVADV kits specifically state a 100W isolated splitter output despite a 150W injector rating, so checking the specific splitter wattage, not just the injector figure, tells you the real power delivered to the dish." }
 ];
 

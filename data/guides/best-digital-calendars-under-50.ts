@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Calendar Sync Platform Coverage", "description": "Compared which third-party calendar platforms each pick supports for syncing." },
-  { "title": "Chore Tracking Design", "description": "Compared reward systems and interactive chore chart features across the lineup." },
-  { "title": "Subscription Terms", "description": "Checked whether listings explicitly stated all features unlocked without hidden fees." },
-  { "title": "Setup Speed and Ease", "description": "Compared stated setup time and connectivity process across all four picks." },
-  { "title": "Photo Frame Functionality", "description": "Compared photo slideshow features and storage capabilities across the tier." }
+  {
+    "title": "Subscription and unlocked features",
+    "description": "We read each listing for what is locked behind a fee, since the Smart Electronic Wall Organizer states every feature is unlocked with zero hidden fees. Sources disagree about whether advanced features cost extra, so a clear no-fee statement at this budget carried real weight."
+  },
+  {
+    "title": "Calendar platform coverage",
+    "description": "We compared which services sync, from the Electronic Family Calendar Planner's Google, iCloud, Outlook, Cozi and Yahoo list to the generic third-party sync on the others. These displays pull updates over Wi-Fi, so the service you actually use decides whether the screen is useful."
+  },
+  {
+    "title": "Household capacity and color coding",
+    "description": "We checked how many people the display can track, noting the Smart WiFi Electronic Calendar's stated 20 family members with color-coding and its 178 degree IPS panel. A larger household needs a stated limit, and viewing angle helps when you read it from across a kitchen."
+  },
+  {
+    "title": "Chores, meals and photo frame extras",
+    "description": "We compared the add-ons, such as the chore list with rewards and meal manager on the Smart Electronic Wall Organizer and the photo slideshow on the Wall Plan Touch Screen. Extras only count if they work on the same screen without another purchase."
+  },
+  {
+    "title": "Setup and mounting",
+    "description": "We looked at the setup claims, including the WiFi calendar's 1-minute setup and the dual-band Wi-Fi on the Family Planner. A weak signal at the mounting spot stales the display, so we favored stands that switch between landscape and portrait."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Every feature unlocked without subscription gates", "Digital Calendar 10.1in Touchscreen, Smart Electronic Wall Organizer"],
-        ["The fastest setup with a stated 20-person capacity", "Digital Calendar 10.1in Smart WiFi Electronic Calendar"],
-        ["Strong photo-frame functionality alongside scheduling", "Digital Calendar 10.1 Inch Wall Plan Touch Screen WiFi"],
-        ["Cozi or Yahoo calendar sync alongside standard platforms", "Smart Digital Calendar 10.1 Inch, Electronic Family Calendar Planner"]
+    "subheading": "By Primary Need",
+    "intro": "All four are 10.1 inch touchscreens, so the choice comes down to sync and household features.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Every feature unlocked without a paid tier",
+          "Smart Electronic Wall Organizer, with chore rewards and a meal manager included"
+        ],
+        [
+          "A big household with color-coded members",
+          "Smart WiFi Electronic Calendar, which lists up to 20 family members"
+        ],
+        [
+          "A display that doubles as a photo memory board",
+          "Wall Plan Touch Screen WiFi, with photo slideshow via app and auto-sleep"
+        ],
+        [
+          "Cozi or Yahoo calendar sync",
+          "Electronic Family Calendar Planner, with Google, iCloud, Outlook, Cozi and Yahoo support"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $56", "Smart Electronic Wall Organizer (under $60)"],
-        ["Under $60", "Smart WiFi Electronic Calendar (under $60) or Wall Plan Touch Screen (under $60)"],
-        ["Under $68", "Electronic Family Calendar Planner (under $70)"]
+    "subheading": "By Budget",
+    "intro": "The four picks sit within a narrow band under $50.",
+    "table": {
+      "headers": [
+        "Budget position",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest cost with everything unlocked",
+          "Smart Electronic Wall Organizer"
+        ],
+        [
+          "Low to mid for a quick setup and portrait or landscape",
+          "Smart WiFi Electronic Calendar, claimed 1-minute setup"
+        ],
+        [
+          "Mid for the photo frame feature",
+          "Wall Plan Touch Screen WiFi, wall mountable"
+        ],
+        [
+          "Top of the range for the broadest sync",
+          "Electronic Family Calendar Planner, the most expensive here"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Fully Unlocked vs Platform-Specific Sync Depth",
-    cards: [
-      { label: "Fully unlocked (Smart Electronic Wall Organizer)", text: "Explicitly states every feature works with zero hidden fees, prioritizing complete access over platform breadth." },
-      { label: "Broad platform sync (Electronic Family Calendar Planner)", text: "Prioritizes supporting more calendar platforms including Cozi and Yahoo, useful if your household already uses one of those." }
+    "subheading": "Fully Unlocked vs Broad Platform Sync",
+    "intro": "Both are valid, and they solve different annoyances.",
+    "cards": [
+      {
+        "label": "Fully unlocked: Smart Electronic Wall Organizer",
+        "text": "States every feature works with no fees, so chores, meals and photo slides need no extra purchase. It syncs third-party calendars but does not list Cozi or Yahoo."
+      },
+      {
+        "label": "Broad sync: Electronic Family Calendar Planner",
+        "text": "Covers Google, iCloud, Outlook, Cozi and Yahoo with dual-band Wi-Fi for reliable updates. It costs a bit more and only pays off if you actually use Cozi or Yahoo."
+      }
     ],
-    note: "If you just want everything unlocked at the lowest price with standard Google, iCloud, and Outlook sync, the Smart Electronic Wall Organizer delivers that. If your family specifically relies on Cozi or Yahoo calendars, the broader-sync pick is worth the extra cost.",
+    "note": "Most families on Google or iCloud should take the unlocked option and save the difference."
   },
   {
-    subheading: "By Household Size",
-    table: {
-      headers: ["Your household size", "Recommended pick"],
-      rows: [
-        ["Standard family size", "Any of the four picks"],
-        ["Larger household needing explicit capacity confirmation", "Smart WiFi Electronic Calendar (stated 20-member support)"]
+    "subheading": "By Household Size",
+    "intro": "A stated limit matters when several calendars feed one screen.",
+    "table": {
+      "headers": [
+        "Household",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Two adults and a child or two",
+          "Smart Electronic Wall Organizer, with chore rewards that motivate kids"
+        ],
+        [
+          "Large family or roommates, 5 or more people",
+          "Smart WiFi Electronic Calendar, up to 20 members color-coded"
+        ],
+        [
+          "A couple who mostly want a photo display",
+          "Wall Plan Touch Screen WiFi, with photo slideshow and weather"
+        ],
+        [
+          "Mixed Cozi and Google users",
+          "Electronic Family Calendar Planner, covering both"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Family That Uses Cozi for Meal and Chore Planning Specifically",
-    cards: [
-      { label: "Look for", text: "Explicit Cozi calendar sync support in the listing, since not every digital calendar in this tier supports that specific platform alongside the more common Google, iCloud, and Outlook trio." },
-      { label: "In this comparison", text: "The Electronic Family Calendar Planner pick specifically syncs with Cozi and Yahoo in addition to the standard platforms, directly addressing households already using Cozi." }
-    ],
+    "subheading": "For a Family That Uses Cozi Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A listing that names Cozi among the sync services, dual-band Wi-Fi at the mounting spot, and a no-fee statement. Models that only list Google and iCloud will not import a Cozi feed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Electronic Family Calendar Planner is the one that names Cozi and Yahoo, and its dual-band Wi-Fi helps updates arrive reliably."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You specifically use Cozi or Yahoo calendars and want the broadest platform sync, where the Electronic Family Calendar Planner delivers that at the top of this tier." },
-      { label: "Save if", text: "You just want every feature unlocked with standard calendar sync, where the Smart Electronic Wall Organizer covers that for about $13 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $75 guide adds built-in storage and a 365-day warranty.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want 32GB storage, two-way Google and Outlook sync or a warranty longer than the basic term. See the under $75 guide."
+      },
+      {
+        "label": "Save if",
+        "text": "Standard Google, iCloud and Outlook sync is all you need, where the Smart Electronic Wall Organizer covers it for less."
+      }
+    ]
   }
 ];
 
@@ -181,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Do these digital calendars require an ongoing subscription to keep working after the first year?", "a": "The picks in this tier specifically market their core features as free forever with no subscription required, though checking the listing for any mention of optional paid advanced features, like AI-based tools some competitors mention, is worth doing before assuming absolutely everything remains free indefinitely." },
-  { "q": "What's the most common mistake buyers make when choosing a digital calendar for calendar sync?", "a": "Not verifying their household's actual calendar platform (Google, iCloud, Outlook, Cozi, or Yahoo) against a specific pick's stated sync support before buying, since not every digital calendar in this tier supports every platform equally." },
-  { "q": "Is the Electronic Family Calendar Planner worth it over the cheaper Smart Electronic Wall Organizer?", "a": "If you specifically use Cozi or Yahoo calendars, yes, but if your household uses standard Google, iCloud, or Outlook calendars and you want every feature unlocked at the lowest price, the Smart Electronic Wall Organizer covers that for about $13 less." },
-  { "q": "How do I know if the chore reward system will actually motivate my kids to participate?", "a": "Consider your children's age and what type of reward system has worked for them in the past, star-based versus point-based, since the specific gamification mechanic can meaningfully affect engagement even though the core concept is similar across these four picks." },
-  { "q": "Can these digital calendars be used without connecting to WiFi at all?", "a": "No, all four picks in this comparison rely on WiFi connectivity for calendar syncing and photo uploads, so a stable WiFi connection is necessary to access the core scheduling and photo-frame features." },
-  { "q": "Do any of these calendars support voice input for adding events?", "a": "The listings for these four specific picks don't prominently feature voice input for event creation, so if that's a priority, checking higher-tier picks or specifically searching for that feature before purchase is worth doing." }
+  {
+    "q": "Does a digital calendar need Wi-Fi all the time?",
+    "a": "Yes for Google, iCloud, Outlook and similar services, because the display pulls updates over Wi-Fi and goes stale without it. Test signal strength at the mounting spot first, and note the Family Planner's dual-band Wi-Fi. A router in another room is the usual culprit when events lag."
+  },
+  {
+    "q": "What is the biggest mistake when buying a budget digital calendar?",
+    "a": "Assuming every feature is free. Some listings gate advanced tools behind a paid tier. The Smart Electronic Wall Organizer states zero hidden fees, so compare that line before ordering. Only the Organizer makes that no-fee claim this clearly."
+  },
+  {
+    "q": "Is the Electronic Family Calendar Planner worth the extra over the Smart Electronic Wall Organizer?",
+    "a": "Only if you use Cozi or Yahoo calendars. It adds those services and dual-band Wi-Fi, while the Organizer is cheaper and unlocks chores, meals and photos. If you use only Google, that extra reach buys you nothing."
+  },
+  {
+    "q": "How do I set up a 10.1 inch calendar?",
+    "a": "Plug in the display, join your Wi-Fi, and link your calendar account in the companion app. The Smart WiFi Electronic Calendar claims a 1-minute setup, and its stand rotates between landscape and portrait. A phone app is still needed to link the account."
+  },
+  {
+    "q": "How many people can I add?",
+    "a": "The Smart WiFi Electronic Calendar lists up to 20 family members with color-coding. Others do not state a limit, so ask the seller if your household or friends group is large. Ask the seller if you plan more than a dozen people."
+  },
+  {
+    "q": "Will the screen get burn-in from displaying the same page?",
+    "a": "LCD panels can show image retention, which is why auto-sleep and photo slideshow modes matter. The Wall Plan Touch Screen has auto-sleep, and the Family Planner switches to a photo frame when idle. Brightness and sleep timers also reduce panel wear."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

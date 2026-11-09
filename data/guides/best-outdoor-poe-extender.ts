@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Exact IP Waterproof Rating", "description": "Compared IP66 versus IP67 ratings and what each actually certifies against water exposure." },
-  { "title": "Port Count and Power Output", "description": "Compared how many devices each extender can power and at what wattage per port." },
-  { "title": "Cascade Distance Support", "description": "Compared documented multi-unit cascade configurations and their total extended distance." },
-  { "title": "Warranty and Support Commitment", "description": "Compared warranty length and the specificity of ongoing technical support offered." },
-  { "title": "Electrical Surge Protection", "description": "Compared whether each listing explicitly discloses surge protection for outdoor electrical exposure." }
+  {
+    "title": "Waterproof rating and what it covers",
+    "description": "IP66 and IP67 are not the same. YuanLey lists IP66, which resists powerful jets, while LINOVISION and Cudy list IP67, which covers temporary immersion. We also checked whether the connectors are sealed, because Cudy states waterproof connectors on both ends and most failures start at the cable entry."
+  },
+  {
+    "title": "Ports and per-port output",
+    "description": "Tliffpaco offers one 60W port plus three 30W ports, YuanLey gives 1 in 3 out at up to 30W, and LINOVISION is a simpler single route. We matched this against PTZ cameras, which can draw more than a standard 30W port. Check that your device sits inside the port's rated output."
+  },
+  {
+    "title": "Cascade distance as a multi-unit figure",
+    "description": "YuanLey and Tliffpaco list 3-level cascades reaching 1312ft, LINOVISION 2 levels for 1300ft and Cudy up to 3 units for 1312ft. We treated those as chained totals, since each hop adds about 100m but also a failure point and a bandwidth cost. Plan for one extender per 100m hop and a power budget that shrinks along the chain."
+  },
+  {
+    "title": "Surge protection",
+    "description": "Cudy explicitly lists built-in surge protection while the cheaper picks do not disclose any. For an extender mounted on a pole or eave, a named protection spec counted more than a lower price. A pole-mounted unit takes the first hit from a nearby lightning strike or switching surge, which is why protection beats a lower price."
+  },
+  {
+    "title": "Warranty and support",
+    "description": "LINOVISION offers a 1-year warranty with lifetime 24/7 US and global support, Tliffpaco a one-year warranty, and Cudy a wide -25C to 55C range. We weighed these against how hard an outdoor unit is to reach once it is mounted. Support that answers in your timezone matters when the unit is on a roof."
+  }
 ];
 
 export const howToChoose = [

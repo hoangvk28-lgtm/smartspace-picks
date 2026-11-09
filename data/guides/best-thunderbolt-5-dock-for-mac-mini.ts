@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real vs Theoretical Transfer Speed", "description": "Compared disclosed actual transfer speeds against theoretical maximum Thunderbolt bandwidth ratings." },
-  { "title": "Storage Capacity and Configuration", "description": "Compared single-bay against dual-bay RAID-capable NVMe storage designs." },
-  { "title": "Cooling Design", "description": "Compared active fan cooling and disclosed maximum operating temperatures." },
-  { "title": "Physical Stand Integration", "description": "Compared precision-molded fit and convenience features like power button levers." },
-  { "title": "Price Relative to Storage Capacity", "description": "Compared price against maximum supported storage and port count." }
+  {
+    "title": "Mac mini port reality",
+    "description": "We began with the fact that the base M4 Mac mini ships with Thunderbolt 4, while only M4 Pro gets Thunderbolt 5. A TB5 dock on a TB4 Mac runs at 40Gbps, so we flagged which picks make that clear. Shared hardware also changed the angle: these four are hub-style stands. Buying the 80Gbps dock for a base Mac mini wastes half of what you pay for."
+  },
+  {
+    "title": "NVMe enclosure speed",
+    "description": "We compared the stated storage speeds, from Satechi and UGREEN at 10Gbps to Wokyis at 80Gbps requiring a PCIe 4.0 SSD. A fast enclosure is wasted on a slow SSD, so we rewarded listings that spell out the drive requirement. Check the drive's PCIe generation and heatsink height on the listing before ordering."
+  },
+  {
+    "title": "SSD fit and cooling",
+    "description": "Mac mini stands cover the machine's vents, so we checked airflow. Satechi keeps vents clear, ACASIS adds dual fans with a stated 60C maximum, and several picks exclude SSDs with heatsinks or double-sided chips. An enclosure that runs hot will throttle a drive, so published temperature limits mattered."
+  },
+  {
+    "title": "Capacity and data risk",
+    "description": "We compared maximum storage, from 4TB on Satechi to 16TB RAID 0 on ACASIS. RAID 0 doubles capacity but loses everything if one drive fails, so we noted it as a speed-over-safety choice. For most Mac mini owners a single large drive plus a backup beats a RAID 0 pair."
+  },
+  {
+    "title": "Front-port convenience",
+    "description": "We counted USB-C and USB-A ports that sit in front of the Mac mini, where its own ports are hard to reach. UGREEN's 11-in-1 layout and power button lever scored well for desk use. These ports matter most when the mini sits under a monitor riser or against a wall."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["A unique dock with a built-in display and transparent speed disclosure", "Wokyis M5 Retro Dock Station"],
-        ["Established build quality with a strong warranty", "Satechi Mac mini Hub & Stand"],
-        ["The highest storage capacity via dual-SSD RAID", "ACASIS Mac mini Dock, Dual-Bay"],
-        ["Comprehensive connectivity at the lowest price", "UGREEN Mac mini Dock & Stand"]
+    "subheading": "By Storage Need",
+    "intro": "The Mac mini ships with limited internal storage, so this is the main job of these stands.",
+    "table": {
+      "headers": [
+        "Your storage need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Maximum capacity and speed from two drives",
+          "ACASIS Mac mini Dock & Stand with Dual-Bay NVMe SSD Enclosure, up to 16TB in RAID 0"
+        ],
+        [
+          "A single large drive up to 8TB for the lowest price",
+          "UGREEN Mac mini Dock & Stand with NVMe SSD Enclosure, the cheapest pick here"
+        ],
+        [
+          "A drive up to 4TB with a design that protects the Mac mini's airflow",
+          "Satechi Mac mini Hub & Stand with NVMe SSD Enclosure, with vents that avoid the fan"
+        ],
+        [
+          "Top-end 80Gbps drive speed plus a status display for notifications",
+          "Wokyis M5 Retro Dock Station for Mac mini, which needs a PCIe 4.0 SSD for full speed"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $60", "UGREEN Mac mini Dock & Stand (under $60)"],
-        ["Under $95", "ACASIS Dual-Bay Dock (under $100)"],
-        ["Under $100", "Satechi Mac mini Hub & Stand (under $100)"],
-        ["Under $340", "Wokyis M5 Retro Dock Station (under $350)"]
+    "subheading": "By Budget",
+    "intro": "Prices spread widely, with Wokyis the most expensive pick by a clear margin.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup",
+          "UGREEN Mac mini Dock & Stand with NVMe SSD Enclosure, with 11 ports at 10Gbps"
+        ],
+        [
+          "Mid-range spend for a 2-year limited warranty",
+          "Satechi Mac mini Hub & Stand with NVMe SSD Enclosure, with 61% smaller packaging"
+        ],
+        [
+          "Higher spend for a dual-bay enclosure and active fans",
+          "ACASIS Mac mini Dock & Stand with Dual-Bay NVMe SSD Enclosure"
+        ],
+        [
+          "Premium spend for 80Gbps speed and a built-in 5-inch screen",
+          "Wokyis M5 Retro Dock Station for Mac mini, the most expensive by a significant margin"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Single-Bay Reliability vs Dual-Bay RAID Storage",
-    cards: [
-      { label: "Single-bay (Satechi, UGREEN)", text: "Simpler design with one SSD slot, avoiding RAID complexity and the lack of redundancy that comes with striped storage." },
-      { label: "Dual-bay RAID 0 (ACASIS)", text: "Doubles maximum storage capacity and combines drive speeds, but offers no data redundancy since a single drive failure loses all data on both drives." }
+    "subheading": "Single Drive vs Dual-Drive RAID 0",
+    "intro": "Dual drives double speed and capacity but change how failure behaves.",
+    "cards": [
+      {
+        "label": "Single drive (UGREEN, Satechi, Wokyis)",
+        "text": "One NVMe drive keeps data simple: a failure affects only that disk, and capacity reaches 4TB on Satechi, 8TB on UGREEN. Backups remain easy."
+      },
+      {
+        "label": "Dual-bay RAID 0 (ACASIS)",
+        "text": "Two drives stripe data for up to 16TB and higher throughput, but a single drive failure loses the whole array, so it needs a second backup."
+      }
     ],
-    note: "If simplicity and reliability matter most, a single-bay dock is the safer choice for critical data. If you need maximum storage capacity and understand RAID 0's redundancy tradeoff, the ACASIS dual-bay pick delivers that.",
+    "note": "Default to a single drive unless you edit multi-camera video; RAID 0 is the specialist route."
   },
   {
-    subheading: "By SSD You Already Own",
-    table: {
-      headers: ["Your SSD type", "Recommended pick"],
-      rows: [
-        ["SSD with a heatsink or double-sided design", "Avoid the Satechi pick, which explicitly excludes these"],
-        ["PCIe 4.0 x4 NVMe 1.4+ SSD for maximum speed", "Wokyis M5 Retro Dock Station"]
+    "subheading": "By Mac mini Model",
+    "intro": "The base M4 and M4 Pro behave differently on the host side.",
+    "table": {
+      "headers": [
+        "Your Mac",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Base M4 Mac mini with Thunderbolt 4 ports",
+          "UGREEN Mac mini Dock & Stand with NVMe SSD Enclosure, because 10Gbps matches what that Mac can use"
+        ],
+        [
+          "M4 Pro Mac mini with Thunderbolt 5 ports",
+          "Wokyis M5 Retro Dock Station for Mac mini, which claims 80Gbps and 8K at 60Hz"
+        ],
+        [
+          "A Mac mini under heavy sustained workloads",
+          "ACASIS Mac mini Dock & Stand with Dual-Bay NVMe SSD Enclosure, with dual auto-activating fans"
+        ],
+        [
+          "A Mac mini in a tidy desk setup that must stay cool",
+          "Satechi Mac mini Hub & Stand with NVMe SSD Enclosure, with vents positioned clear of the fan"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Buyers Who Want a Genuine Speed Boost, Not Just a Theoretical Rating",
-    cards: [
-      { label: "Look for", text: "A listing that specifically discloses the exact SSD type and cable needed to reach its advertised maximum speed, rather than just quoting the Thunderbolt generation's theoretical ceiling." },
-      { label: "In this comparison", text: "The Wokyis pick specifically states you need a PCIe 4.0 x4 NVMe 1.4 or higher SSD and the included Thunderbolt 5 certified cable to exceed 3000MB/s." }
-    ],
+    "subheading": "For Video Editors Specifically",
+    "intro": "Fast external scratch space matters more than port count.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "An enclosure that states its real speed and the SSD type it supports, so the drive you buy actually reaches the rated rate."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Wokyis M5 Retro Dock Station for Mac mini lists 80Gbps with a PCIe 4.0 SSD requirement, while ACASIS stripes two drives for 16TB if you accept the failure risk."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want a genuinely unique dock with a built-in display and transparent real-speed requirements, where the Wokyis M5 Retro Dock justifies its under $350 price." },
-      { label: "Save if", text: "You want comprehensive 11-in-1 connectivity and solid NVMe storage expansion, where the UGREEN pick delivers that for under $60, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "These docks are cheap enough that spending more should buy something specific.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have an M4 Pro Mac mini and a fast PCIe 4.0 SSD, where Wokyis M5 Retro Dock Station for Mac mini unlocks 80Gbps and 8K at 60Hz."
+      },
+      {
+        "label": "Save if",
+        "text": "You have a base M4 with Thunderbolt 4, where UGREEN's 10Gbps enclosure is as fast as the Mac allows at the lowest price."
+      }
+    ]
   }
 ];
 

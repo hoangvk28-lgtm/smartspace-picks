@@ -84,70 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real Per-Port Wattage vs Total Input", "description": "Compared documented per-port output against the shared 90W total input across all four picks." },
-  { "title": "2.5Gbps Speed Consistency", "description": "Compared adaptive 100/1000/2500Mbps speed support across all ports." },
-  { "title": "Outdoor Durability", "description": "Compared IP waterproof ratings for outdoor-capable versus indoor-only designs." },
-  { "title": "Mounting Flexibility", "description": "Compared DIN-rail, wall, and desktop mounting options." },
-  { "title": "VLAN and Security Features", "description": "Compared always-on versus optional dipswitch-controlled VLAN isolation." }
+  {
+    "title": "Multi-gig speed that holds",
+    "description": "We checked that each unit advertises adaptive 2.5Gbps and steps down to 1000 or 100Mbps, because a Wi-Fi 6 or 7 access point on a 2.5G port will cap its throughput at 1Gbps otherwise. All four picks listed 100/1000/2500 operation. A slower link wastes the access point's multi-gig port."
+  },
+  {
+    "title": "Input and output power budget",
+    "description": "We compared power. All four accept a 90W PoE++ input and send 30W PoE+ per port, but Ztyuav units share 30W across all ports combined, which means two cameras on one box can brown out. Add up every device on the box before choosing a shared budget."
+  },
+  {
+    "title": "Weather rating and mounting",
+    "description": "We read ingress and mounting data. YuanLey and the Ztyuav outdoor unit list IP55, while the two DIN-rail models have no outdoor rating, so they belong in cabinets. Mount options mattered for cabinet and pole installs. Cabinet-only units are fine indoors but fail outside."
+  },
+  {
+    "title": "Cascade and extended range",
+    "description": "We compared reach. YuanLey cascades 3 levels to 1312ft, and Ztyuav extends to 250m at only 10Mbps, so extended mode is for low-bandwidth devices. It is a trade between distance and speed. Extended mode suits sensors, not video-heavy devices."
+  },
+  {
+    "title": "VLAN isolation",
+    "description": "We looked at network isolation. YuanLey isolates all three outputs by VLAN, and Ztyuav offers a DIP switch to turn VLAN on when needed, which matters if untrusted devices share the cable with a main network. Leave VLAN off unless you need isolated ports."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Genuine outdoor waterproofing with always-on VLAN isolation", "YuanLey Outdoor 2.5 Gigabit PoE Extender"],
-        ["DIN-rail mounting for an indoor industrial installation", "YuanLey 4 Port 2.5G PoE Extender (Mini, DIN-Rail)"],
-        ["IP55 outdoor capability with optional VLAN at a lower price", "Ztyuav 4 Port Outdoor 2.5Gbps PoE Extender"],
-        ["The lowest price for an indoor 2.5GbE deployment", "Ztyuav 4 Port 2.5Gbps PoE Extender (DIN-Rail)"]
+    "subheading": "By Install Environment",
+    "intro": "2.5G extenders are expensive enough that you should pick the one rated for the spot.",
+    "table": {
+      "headers": [
+        "Your spot",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Outside on a pole or wall, with per-port 30W",
+          "YuanLey Outdoor 2.5 Gigabit PoE Extender, which is IP55 and the only outdoor pick with per-port output"
+        ],
+        [
+          "Outside on a tighter budget",
+          "Ztyuav 4 Port Outdoor 2.5Gbps PoE Extender, with IP55 at a lower price"
+        ],
+        [
+          "Inside an industrial cabinet with a compact footprint",
+          "YuanLey 4 Port 2.5G PoE Extender (Mini, DIN-Rail), at 3.2 by 2 by 1 inches"
+        ],
+        [
+          "A desktop, wall or DIN-rail install at the lowest price",
+          "Ztyuav 4 Port 2.5Gbps PoE Extender (DIN-Rail), with the broadest mount choices"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $35", "Ztyuav DIN-Rail pick (under $35)"],
-        ["Under $36", "Ztyuav Outdoor pick (under $40)"],
-        ["Under $40", "YuanLey Mini DIN-Rail pick (under $40)"],
-        ["Under $43", "YuanLey Outdoor pick (under $45)"]
+    "subheading": "By Budget",
+    "intro": "The DIN-rail Ztyuav is cheapest, and the outdoor YuanLey is the priciest.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup, under $35",
+          "Ztyuav 4 Port 2.5Gbps PoE Extender (DIN-Rail)"
+        ],
+        [
+          "A mid-range outdoor option",
+          "Ztyuav 4 Port Outdoor 2.5Gbps PoE Extender, priced below YuanLey"
+        ],
+        [
+          "A mid-range cabinet option with per-port power",
+          "YuanLey 4 Port 2.5G PoE Extender (Mini, DIN-Rail)"
+        ],
+        [
+          "The top of the range, under $45",
+          "YuanLey Outdoor 2.5 Gigabit PoE Extender, with the IP55 housing"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Outdoor Waterproofing vs Indoor DIN-Rail Flexibility",
-    cards: [
-      { label: "Outdoor waterproofing (both YuanLey and Ztyuav Outdoor picks)", text: "IP55-rated housings suit outdoor security cameras, wireless bridges, and exposed installations." },
-      { label: "Indoor DIN-rail flexibility (both DIN-Rail picks)", text: "No specific waterproof rating, but genuine DIN-rail mounting for control cabinets and industrial indoor deployments." }
+    "subheading": "Per-Port 30W vs Shared 30W",
+    "intro": "How the budget splits decides whether two cameras fit.",
+    "cards": [
+      {
+        "label": "Per-port 30W (YuanLey units)",
+        "text": "Each output has its own 30W ceiling from the 90W input, so two or three cameras and an access point can all run at once."
+      },
+      {
+        "label": "Shared 30W (Ztyuav units)",
+        "text": "The 30W total is split across all ports combined, which works for one access point or a few low-draw cameras but not for several 15W devices."
+      }
     ],
-    note: "If your installation faces real outdoor weather exposure, choose one of the IP55-rated picks. If you're mounting inside a control cabinet or indoor industrial enclosure, the DIN-rail picks deliver the same core performance at a lower price.",
+    "note": "Default to a YuanLey unit if more than one device draws over 10W."
   },
   {
-    subheading: "By VLAN Isolation Preference",
-    table: {
-      headers: ["Your VLAN preference", "Recommended pick"],
-      rows: [
-        ["Always-on VLAN isolation for maximum default security", "YuanLey Outdoor 2.5 Gigabit PoE Extender"],
-        ["Optional VLAN toggle to enable only when needed", "Either Ztyuav pick"],
-        ["No specific VLAN preference", "YuanLey Mini DIN-Rail pick (lowest indoor price with VLAN)"]
+    "subheading": "By Device Type",
+    "intro": "Wi-Fi 7 access points and cameras make different demands.",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A Wi-Fi 6 or 7 access point on a 2.5G uplink outdoors",
+          "YuanLey Outdoor 2.5 Gigabit PoE Extender, which keeps 2.5Gbps speed"
+        ],
+        [
+          "Cameras with a long run where 10Mbps is acceptable",
+          "Ztyuav 4 Port Outdoor 2.5Gbps PoE Extender, which extends to 250m at 10Mbps"
+        ],
+        [
+          "A control cabinet with VLAN isolation on all ports",
+          "YuanLey 4 Port 2.5G PoE Extender (Mini, DIN-Rail), with 3-level cascade"
+        ],
+        [
+          "A desk or wall with mixed 2.5G devices",
+          "Ztyuav 4 Port 2.5Gbps PoE Extender (DIN-Rail), with an optional VLAN switch"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a WiFi 6E or WiFi 7 Access Point Deployment Specifically",
-    cards: [
-      { label: "Look for", text: "A genuine 2.5Gbps-rated extender rather than a standard Gigabit unit, since modern WiFi 6E and WiFi 7 access points can exceed 1Gbps throughput under ideal conditions and benefit from the extra headroom." },
-      { label: "In this comparison", text: "All four picks specifically support 2.5Gbps adaptive speed, making any of them suitable for a multi-gig access point deployment, with the choice coming down to outdoor versus indoor mounting needs." }
-    ],
+    "subheading": "For Wi-Fi 7 Access Point Runs Specifically",
+    "intro": "A fast access point wastes its multi-gig port if the extender drops to Gigabit.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "2.5Gbps adaptive speed in every hop, a 90W input and a 30W output per port, and a cable that supports 2.5G over the run."
+      },
+      {
+        "label": "In this comparison",
+        "text": "YuanLey Outdoor 2.5 Gigabit PoE Extender passes 2.5Gbps with 30W per port, and the IP55 rating covers a pole-mounted access point."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need genuine outdoor waterproofing with always-on VLAN isolation as a default security posture, where the YuanLey Outdoor pick's under $45 price is justified by that combination." },
-      { label: "Save if", text: "Your deployment is indoor and you don't need a waterproof rating, where the Ztyuav DIN-Rail pick delivers the same core 2.5Gbps performance for under $35, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The most expensive pick buys weather rating and per-port power.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "The extender sits outside and runs several devices, where YuanLey Outdoor 2.5 Gigabit PoE Extender under $45 gives IP55 and per-port output."
+      },
+      {
+        "label": "Save if",
+        "text": "The box sits in a cabinet or on a desk, where Ztyuav 4 Port 2.5Gbps PoE Extender (DIN-Rail) under $35 has the same speed."
+      }
+    ]
   }
 ];
 

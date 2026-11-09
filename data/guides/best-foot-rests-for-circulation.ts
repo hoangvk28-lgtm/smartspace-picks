@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41-frbfptDL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H2FJ2FBG?tag=deskfinds0d-20",
-    "description": "HOMELYSTBO is a solid wood double-step footrest with a soft EVA surface and a stable base for wood, tile and carpet. The two steps let each foot rest at a different height, which gives you a simple way to alternate positions.\n\nAt under $40 it costs about $6 more than Drounphi and $7 more than RSN. It offers steps instead of tilt, so it is less about rocking and more about shifting from one foot position to another.\n\nBest for sitters who like to alternate positions without adjusting anything. The caveat is that the highlights give no dimensions, and the step heights are fixed.",
+    "description": "HOMELYSTBO is a solid wood double-step footrest with a soft EVA surface and a stable base for wood, tile and carpet. The two steps let each foot rest at a different height, which gives you a simple way to alternate positions.\n\nAt under $40 it costs under $10 more than Drounphi and $7 more than RSN. It offers steps instead of tilt, so it is less about rocking and more about shifting from one foot position to another.\n\nBest for sitters who like to alternate positions without adjusting anything. The caveat is that the highlights give no dimensions, and the step heights are fixed.",
     "specs": [
       "Solid wood double step",
       "Soft EVA surface",
@@ -218,209 +218,109 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Ability to change position",
-    "explanation": "A footrest that locks your feet in one place is no better than the floor for variety. Look for tilt, rocking or multiple height steps so you can alternate posture. Check the listing for tilt degrees or the count of positions."
+    "criterion": "Height range and variety",
+    "explanation": "A rest that offers several heights lets you change your posture through the day. Drounphi offers 6.3, 11.8 and 16 inch modes and ZLMHYYM six heights from 3.1 inches. Check the stated heights and how you change them, because a hard-to-adjust rest stays at one setting. Count the listed modes and check each one against your own desk gap before ordering."
   },
   {
-    "criterion": "Height range",
-    "explanation": "If a footrest is too high, it pushes your knees above your hips, and if it is too low, it does nothing for your gap. Listings here span from 3.1 inches on ZLMHYYM up to 18.1 inches on VECELO, which is a very different product. Measure the gap under your desk, then compare it with both the minimum and maximum in inches."
+    "criterion": "Desk clearance",
+    "explanation": "Many leg-raise designs are too tall to fit under a desk. VECELO stands 15 to 18.1 inches and Drounphi's tall modes suit a couch. Measure the gap under your desk and compare it with the highest setting you will use. Measure from the underside of the desk to the floor and keep at least two inches spare."
   },
   {
-    "criterion": "Surface and padding",
-    "explanation": "A cushioned surface is comfortable for socks while a hard platform with texture grips better. Foam density matters since soft foam can flatten. Look for density or material in the bullets."
+    "criterion": "Movement features",
+    "explanation": "Tilting, rocking and rollers invite small movements that keep legs from locking. RSN offers 3 tilts and ZLMHYYM four rollers. Check what moves and whether the movement is smooth, and avoid features that wobble. Look for tilts that move easily without locking your ankle in place."
   },
   {
-    "criterion": "Stability",
-    "explanation": "A rocking footrest should return to level and not tip. Non-slip pads keep it from creeping. Check for non-slip features."
+    "criterion": "Padding and surface",
+    "explanation": "A firm platform supports the foot, while foam cushions the calf and heel. Everlasting Comfort uses memory foam, and VECELO has 3.9 inch padding. Look for the material and thickness and consider how long the cushion will hold its shape. A pad thicker than about three inches can feel spongy if it lacks a firm core."
   },
   {
-    "criterion": "Platform size",
-    "explanation": "A wide platform lets your feet separate and shift, which makes position changes easier. Mind Reader lists 17 x 13 inches, RSN lists 14.37 x 9.84 inches and some listings give no size. Compare the numbers in the bullets and look for both width and depth."
-  },
-  {
-    "criterion": "Comfort not treatment",
-    "explanation": "Listings often mention circulation or swelling, but a footrest is a comfort accessory. See a doctor about swelling, pain or color changes. Choose on measurable specs."
+    "criterion": "Stability and non-slip base",
+    "explanation": "A rest that slides makes you adjust constantly. HOMELYSTBO claims stability on wood, tile and carpet, and others use non-slip pads. Check for rubber feet or a non-slip base and avoid very light designs. Ask yourself whether the base would slide when you stretch your legs."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  {
-    "title": "Movement",
-    "description": "We compared tilt, rocking and steps."
-  },
-  {
-    "title": "Height range",
-    "description": "We compared listed heights."
-  },
-  {
-    "title": "Padding",
-    "description": "We compared materials."
-  },
-  {
-    "title": "Value",
-    "description": "We weighed price."
-  }
+  { "title": "Range of positions and heights", "description": "Drounphi offers 6.3, 11.8 and 16 inch modes, ZLMHYYM six heights from 3.1 inches, and Mind Reader 3.25 to 6.25 inches. Changing foot position through the day matters more than any single setting, so we gave extra weight to picks that make it easy to vary height." },
+  { "title": "Elevation versus desk clearance", "description": "The VECELO rolls and stands 15 to 18.1 inches tall, while Drounphi's tallest modes suit a couch rather than a desk. We checked which heights actually fit under a work surface, because a leg rest that touches the desk underside gets used for five minutes and then abandoned." },
+  { "title": "Movement features", "description": "RSN tilts in 3 steps, HOMELYSTBO has a double step, Everlasting Comfort angles and ZLMHYYM has four rollers. Small shifts keep legs from staying locked in one posture, so we noted which designs invite movement rather than fixing the feet." },
+  { "title": "Surface pressure and padding", "description": "Everlasting Comfort uses memory foam, VECELO has 3.9 inch sponge padding and RSN a soft EVA top. Firm, wide surfaces avoid pressure points on the back of the heel and calf, so we compared padding and platform sizes rather than trusting comfort claims." },
+  { "title": "Build stability and price", "description": "The VECELO costs most and rolls, while ZLMHYYM and Mind Reader are plastic and cheap. Because elevation comfort depends on repeat use, we weighed stable bases and non-slip pads and avoided listings that implied medical benefits we could not back up." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Movement Style",
-    "intro": "Movement.",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Primary Need",
+    intro: "A foot rest can make sitting more comfortable for the legs, but it does not replace regular walking or standing breaks.",
+    table: {
+      headers: ["If you mainly need", "Recommended pick"],
+      rows: [
+        ["Several heights including a tall leg-raise mode", "Drounphi, with 6.3, 11.8 and 16 inch modes"],
+        ["Easy position changes through the day", "ZLMHYYM, with six heights and four rollers"],
+        ["Gentle angle variety on a firm base", "RSN Pine Wood, with 12.5, 23 and 34.5 degree tilts"],
+        ["A rolling rest that raises the legs while seated", "VECELO, with gas spring height"],
+        ["Two steps for different foot positions", "HOMELYSTBO, a solid wood double step"]
       ],
-      "rows": [
-        [
-          "Fixed tilt angles",
-          "RSN Pine Wood Foot Rest with 3 Tilt Angles"
-        ],
-        [
-          "Three heights and zippers",
-          "Drounphi 3-in-1 Adjustable Foot Rest"
-        ],
-        [
-          "Double step",
-          "HOMELYSTBO Solid Wood Double Step Foot Rest"
-        ],
-        [
-          "Soft rocker",
-          "Everlasting Comfort Memory Foam Foot Rest"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "By Budget",
-    "intro": "Real prices from this comparison.",
-    "table": {
-      "headers": [
-        "Price range",
-        "Recommended pick"
+    subheading: "By Budget",
+    table: {
+      headers: ["Price range", "Recommended pick"],
+      rows: [
+        ["Under $20", "ZLMHYYM, the lowest price"],
+        ["Around $27 to $30", "Mind Reader, RSN, Drounphi or Everlasting Comfort"],
+        ["Around $37", "HOMELYSTBO, solid wood"],
+        ["Around $70", "VECELO, the priciest"],
+        ["Under $25, where simpler options exist", "See the under $25 guide for basic rests"]
       ],
-      "rows": [
-        [
-          "$19 to $20",
-          "ZLMHYYM Six-Height Foot Rest"
-        ],
-        [
-          "$26 to $27",
-          "Mind Reader Height Adjustable Foot Rest"
-        ],
-        [
-          "$29 to $31",
-          "RSN Pine Wood Foot Rest with 3 Tilt Angles"
-        ],
-        [
-          "$36 to $37",
-          "HOMELYSTBO Solid Wood Double Step Foot Rest"
-        ],
-        [
-          "$69 to $70",
-          "VECELO Rolling Foot Rest with Gas Spring"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "Stool vs Rolling Ottoman",
-    "cards": [
-      {
-        "label": "Stool",
-        "text": "Sits under the desk. Most picks fall here."
-      },
-      {
-        "label": "Rolling ottoman",
-        "text": "Wheeled and tall. VECELO falls here."
-      }
+    subheading: "Foam Pillow vs Hard Platform",
+    cards: [
+      { label: "Foam (Drounphi, Everlasting Comfort, VECELO)", text: "Soft layers cushion the calves and heels and can raise the legs higher. Foam can compress over months and needs time to expand out of the box." },
+      { label: "Hard platform (RSN, HOMELYSTBO, Mind Reader, ZLMHYYM)", text: "Wood or plastic platforms hold a precise height and angle and support the feet firmly. They feel harder and may need a cushion for bare feet." }
     ],
-    "note": "Choose a stool for desks."
+    note: "Most buyers should default to a hard adjustable platform at a desk, and use a foam pillow for lounging.",
   },
   {
-    "subheading": "By Surface",
-    "intro": "Surface.",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Seating Situation",
+    table: {
+      headers: ["Where you sit", "Recommended pick"],
+      rows: [
+        ["At a desk with limited clearance", "Mind Reader, at 3.25 to 6.25 inches"],
+        ["On a couch or recliner", "Drounphi, in its 16 inch mode"],
+        ["At a tall workstation or counter", "VECELO, with up to 18.1 inches"],
+        ["Standing and sitting switchers", "ZLMHYYM, which is light and detachable"]
       ],
-      "rows": [
-        [
-          "Soft foam",
-          "Everlasting Comfort Memory Foam Foot Rest"
-        ],
-        [
-          "Textured plastic",
-          "Mind Reader Height Adjustable Foot Rest"
-        ],
-        [
-          "Wood with EVA",
-          "HOMELYSTBO Solid Wood Double Step Foot Rest"
-        ],
-        [
-          "Massage particles",
-          "ZLMHYYM Six-Height Foot Rest"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "For Desk Workers Who Fidget Specifically",
-    "cards": [
-      {
-        "label": "Look for",
-        "text": "Tilt, steps and a stable base."
-      },
-      {
-        "label": "In this comparison",
-        "text": "RSN Pine Wood Foot Rest with 3 Tilt Angles offers three tilts and non-slip pads."
-      }
-    ]
+    subheading: "For People Who Sit Eight Hours Specifically",
+    cards: [
+      { label: "Look for", text: "A rest that lets you change posture, a surface wide enough for both feet and a height that keeps knees near 90 degrees. Plan to stand and walk regularly regardless of the rest." },
+      { label: "In this comparison", text: "RSN, Drounphi and ZLMHYYM offer multiple positions. Mind Reader fits under most desks and VECELO suits a tall station." }
+    ],
   },
   {
-    "subheading": "When to Spend More",
-    "cards": [
-      {
-        "label": "Spend more if",
-        "text": "You want a rolling tall seat (VECELO Rolling Foot Rest with Gas Spring)."
-      },
-      {
-        "label": "Save if",
-        "text": "You want a simple stool, where ZLMHYYM Six-Height Foot Rest is enough."
-      }
-    ]
+    subheading: "When to Spend More",
+    cards: [
+      { label: "Spend more if", text: "You want a rolling gas-spring rest or a solid wood build. The VECELO and HOMELYSTBO add those, and the under $50 guide includes adjustable tilt options." },
+      { label: "Save if", text: "You want a basic adjustable height. ZLMHYYM costs less than every other pick here and still offers six heights." }
+    ],
   }
 ];
 
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
-  {
-    "q": "Can a footrest improve circulation?",
-    "a": "A footrest makes it easier to change leg position, but it is a comfort accessory and not a medical device. If you notice persistent swelling, pain or color changes in your legs, ask a doctor. Moving around and standing up regularly matters more than any accessory."
-  },
-  {
-    "q": "How high should the footrest be?",
-    "a": "Pick a height that keeps your knees near hip level with your feet supported. Set the chair first, then measure the gap to the floor. Models with several heights, like ZLMHYYM and Drounphi, let you adjust later."
-  },
-  {
-    "q": "Is a rocking or tilting footrest better than a fixed one?",
-    "a": "A tilting or rocking footrest encourages small movements through the day, which many people like. A fixed one is quieter and simpler. RSN offers three set angles and Everlasting Comfort can be angled."
-  },
-  {
-    "q": "How do I set up Drounphi?",
-    "a": "It arrives vacuum-sealed, so unpack it and let it expand for 24 hours before use. Then zip the layers together to the height you want and check that the dual zippers are closed. Use the lower configurations under a desk."
-  },
-  {
-    "q": "Can I use VECELO under a desk?",
-    "a": "Probably not, because its height adjusts from 15 to 18.1 inches, which is above most desk clearance. It works better beside a sofa or as a rolling ottoman. Pick one of the stool-style models for under a desk."
-  },
-  {
-    "q": "How do I clean a foam footrest?",
-    "a": "Unzip any removable cover and wash it as the listing says, keeping the foam dry. Wipe wooden and plastic models with a damp cloth. Mind Reader and ZLMHYYM can be wiped clean."
-  }
+  { "q": "Does a foot rest improve circulation?", "a": "It can help by taking pressure off the back of the thighs and letting your feet rest slightly raised, but it does not replace movement. Combine it with regular standing breaks, aim for a few inches of lift only, and talk to a clinician if you have swelling or pain." },
+  { "q": "What foot rest habit hurts circulation instead of helping it?", "a": "Raising the rest high and leaving the legs in one position for hours. Vary the height or angle during the day, which RSN, Drounphi and ZLMHYYM make easy, and avoid positions that press into the back of your knees or leave your feet dangling." },
+  { "q": "Is VECELO worth more than Mind Reader?", "a": "The VECELO rolls and offers a tall gas-spring height with thick padding, but it costs more than twice as much and is too tall to slide under many desks. Mind Reader is the practical pick for a standard desk, while VECELO suits a tall workstation or counter." },
+  { "q": "How do I set up a three-mode foam rest?", "a": "Unzip the pieces, let the foam expand for the time stated, then zip the layers into the mode you want. Place it on a flat floor, and avoid the tallest mode at a desk, because Drounphi's 16 inch setup is meant for a couch or recliner." },
+  { "q": "Why does foam need time to expand?", "a": "Compressed foam ships squeezed to save space, so Drounphi needs about 24 hours to reach full shape. Open it a day early, and fluff it by hand if it still seems flat. A rest that has not fully expanded will sit lower than its stated height." },
+  { "q": "How do I clean and maintain a rolling rest?", "a": "Wipe the vinyl or sponge with a damp cloth, vacuum around the casters and check that the wheels lock. Do not oil the gas spring and keep it away from heat, and check the lock on the base before each long session so it does not drift." }
 ];
 
 export const relatedGuides = [

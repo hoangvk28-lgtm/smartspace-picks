@@ -217,24 +217,24 @@ export const products: GuideProduct[] = [
 
 export const howWeEvaluated = [
   {
-    "title": "Height and adjustability",
-    "description": "Each stand was compared on its stated height range and angle options and how close it gets the screen to eye level."
+    "title": "Laptop size range",
+    "description": "We checked each listing's supported screen size, such as 10 to 17.3 inches on the Lamicall and 10 to 16 on the LOXP and Orlian. A stand that is too small lets a large laptop tip, so range was our first filter, and 17 inch owners had only one or two real options. The Lamicall fits up to 17.3 inch laptops, while the LOXP, Orlian and KYQEE stop at 16."
   },
   {
-    "title": "Stability and capacity",
-    "description": "Listed weight capacity, base design and hinge type were weighed for wobble under typing."
+    "title": "Adjustability of height and angle",
+    "description": "We compared adjustability, from the Gogoonike's six levels between 4.34 and 6.59 inches to the fixed 17 degree KYQEE. A stand that raises the screen to eye level, around 6 inches for many desks, helps the neck, so a model with only 2.5 inches of lift scored lower. The Gogoonike offers six levels between 4.34 and 6.59 inches; the KYQEE lifts only 2.5 inches."
   },
   {
-    "title": "Materials and airflow",
-    "description": "Aluminum, wood or plastic construction and the ventilation design were compared."
+    "title": "Weight capacity and stability",
+    "description": "We recorded load ratings, including 22 lb on the Nulaxy and 8.8 lb on the BESIGN, and judged them against laptop weights. A stand under $30 should hold a 15 inch laptop without a wobble, so hinge damping and non-slip pads counted as real signals. The Nulaxy holds up to 22 lb and the BESIGN 8.8 lb, so a 17 inch laptop needs the former."
   },
   {
-    "title": "Portability and extras",
-    "description": "Folded size, weight, rotation and any ports were weighed against how a typical user works."
+    "title": "Heat and airflow",
+    "description": "We noted ventilation, such as the perforated aluminum on the Orlian and Lamicall. A raised laptop breathes better, but a stand that blocks the bottom vents defeats the point, so open designs scored higher than solid plates. The Orlian and Lamicall are perforated aluminum, so air reaches the bottom vents."
   },
   {
-    "title": "Value at this price",
-    "description": "Price was weighed against height range and stability, with extra weight on what a low-priced riser leaves out such as rotation or a heavy base."
+    "title": "Portability and storage",
+    "description": "We compared fold size and weight, such as the 0.49 lb Gogoonike that folds to about 9.96 inches against the bulkier Nulaxy. A stand for a bag needs to fold flat, while a desk stand can be sturdier, so we judged each against its use. The Gogoonike weighs 0.49 lb and folds to about 9.96 inches, while the Nulaxy is bulkier."
   }
 ];
 
@@ -393,28 +393,28 @@ export const buyingCriteria = [
 
 export const faq = [
   {
-    "q": "Do I need an external keyboard?",
-    "a": "Yes, once the laptop is raised the built-in keyboard is too high."
+    "q": "Does a laptop stand really help my neck?",
+    "a": "Raising the screen toward eye level reduces the downward tilt of your head, which is the main strain from laptop use. You also need an external keyboard and mouse, because a raised laptop puts the keys too high to type on comfortably."
   },
   {
-    "q": "How high should a stand be?",
-    "a": "High enough that the top of the screen is near eye level."
+    "q": "Is the Lamicall worth it over a $10 stand?",
+    "a": "The Lamicall fits up to 17.3 inch laptops and offers adjustable height and angle in aluminum, so it suits bigger laptops and daily use. The $10 Orlian or KYQEE does the basics, but with a narrower size range and fewer settings."
   },
   {
-    "q": "Will it overheat my laptop?",
-    "a": "Open aluminum stands usually help airflow."
+    "q": "Will a rotating base wobble?",
+    "a": "A 360 degree base such as the LOXP or Nulaxy adds a pivot, which can feel less rigid than a fixed stand. They are handy for sharing a screen, but if you type on the laptop often, a fixed design is steadier."
   },
   {
-    "q": "Are folding stands stable?",
-    "a": "They are if the hinges lock."
+    "q": "What if I have a 17 inch laptop?",
+    "a": "Check the limits. The Lamicall lists up to 17.3 inches, while the LOXP, Orlian and KYQEE stop at 16 inches and the BESIGN is not for 17 inch models. Also check the weight, since a 17 inch laptop can pass 8 lb."
   },
   {
-    "q": "What size laptops fit?",
-    "a": "Most fit 10 to 16 inch."
+    "q": "How do I set the height correctly?",
+    "a": "Sit upright, and raise the top of the screen to eye level, with your elbows near 90 degrees on the external keyboard. On a stand that lifts only 2.5 inches, like the KYQEE, you may need a book under it to reach your eye line."
   },
   {
-    "q": "Can I use a stand with a docking station?",
-    "a": "Yes, any stand works with a dock."
+    "q": "Do laptop stands scratch laptops?",
+    "a": "They can if a hard edge touches the bottom. Look for silicone pads, which most listed picks use, and wipe off dust before placing the laptop. Check the pads occasionally, since loose or worn ones are the usual source of scratches."
   }
 ];
 

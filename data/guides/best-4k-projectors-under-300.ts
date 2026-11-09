@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Lamp Lifespan", "description": "Compared stated lamp hour ratings across the lineup, from standard to 100,000 hours." },
-  { "title": "Operating System Generation", "description": "Compared Android version and app ecosystem across all four picks." },
-  { "title": "Audio Certification", "description": "Checked for Dolby, DTS, or other certified audio standards versus generic speaker claims." },
-  { "title": "Connectivity Standards", "description": "Compared WiFi generation, Bluetooth version, and port selection across the tier." },
-  { "title": "Support and Warranty", "description": "Compared stated customer support location and warranty terms." }
+  { "title": "Verified brightness versus listed lumens", "description": "We compared 1200 ANSI on the Google TV unit, 1500 ANSI on the X7, and 2000 on the HAPPRUN. Many budget projectors inflate lumens, so we preferred ANSI figures that fit the price and the stated lamp or LED type. The KOGATA and X7 do not tell you how their lumens were measured." },
+  { "title": "Contrast claims", "description": "We noted the HAPPRUN's 20000:1 contrast figure. Contrast specs are often marketing numbers, and a native on/off contrast of about 5000:1 is more meaningful than a dynamic figure, so we treated 20000:1 as unverified. The X7 and KOGATA list no contrast figure to compare." },
+  { "title": "HDR on a budget projector", "description": "We looked at the KOGATA's HDR 10+ support. Budget projectors accept HDR signals but lack the peak brightness to make them look like a TV, so HDR here is a bonus rather than a reason to buy. The 1200 ANSI Google TV unit also decodes 4K and 8K signals." },
+  { "title": "Throw distance", "description": "We checked the X7's 1.08:1 short throw. A projector's throw ratio ties screen size to distance, so a 1.08 ratio makes a 100 inch image from under 10 feet, which suits a small room that a longer-throw model would not. A projector placed too close with a longer throw ratio cannot fill the wall." },
+  { "title": "Audio and support", "description": "We compared the dual 36W Dolby speakers on the Google TV pick and the Dolby and DTS audio on the KOGATA. Strong built-in sound saves a soundbar, and US-based lifetime technical support is a rare perk at this price. The HAPPRUN counts on an 8W speaker plus Bluetooth 5.2 output instead." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "With 1200 to 2000 ANSI on offer, the first table matches room light to brightness and not just resolution.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "The four sit in a tight band around the $300 mark, so the budget table pairs each cost step with brightness, audio, or support.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Support Location Preference",
+    intro: "Room length is the second axis, because the X7's short throw changes where the projector can sit.",
     table: {
       headers: ["Your support preference", "Recommended pick"],
       rows: [
@@ -154,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest brightness with the most complete connectivity options, where the HAPPRUN pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You want the longest lamp life with a short-throw design for small spaces, where the X7 pick covers that for about $75 less." }
+      { label: "Save if", text: "You want the longest lamp life with a short-throw design for small spaces, where the X7 pick covers that for under $100 less." }
     ],
   }
 ];
@@ -184,8 +187,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Does a 100,000-hour lamp life mean the X7 projector will physically last 100,000 hours before any issues arise?", "a": "The 100,000-hour figure specifically refers to the light source's expected lifespan before brightness degrades significantly, not a guarantee against all possible hardware issues, so other components could still require attention within that timeframe even if the lamp itself remains functional." },
-  { "q": "What's the most common mistake buyers make when comparing audio quality claims at this tier?", "a": "Assuming generic terms like 'HiFi audio' or 'immersive sound' represent the same quality level as formally certified audio like Dolby or DTS, when certified standards involve actual technical testing and approval that uncertified marketing language doesn't guarantee." },
-  { "q": "Is the KOGATA pick worth it over the cheaper X7 option?", "a": "If you specifically want dual Dolby and DTS audio certification with AI picture enhancement, yes, but if the longest lamp life and a short-throw design for small spaces matter more, the X7 pick covers that for about $25 less." },
+  { "q": "Is 2000 ANSI lumens enough for a living room with lights on?", "a": "Guides suggest roughly 2500 ANSI for rooms with ambient light, so the HAPPRUN's 2000 will look washed out with lamps on, and the 1200 and 1500 ANSI picks need a dark room. Closing curtains does more than adding lumens." },
+  { "q": "Is the KOGATA pick worth it over the cheaper X7 option?", "a": "If you specifically want dual Dolby and DTS audio certification with AI picture enhancement, yes, but if the longest lamp life and a short-throw design for small spaces matter more, the X7 pick covers that for under $30 less." },
   { "q": "How do I confirm the Google TV-Licensed pick's US-based support is actually reachable for my specific issue?", "a": "The listing states lifetime professional technical support based in the US, so checking the specific listing's contact methods and any stated response time commitments before purchase helps set accurate expectations for support responsiveness." },
   { "q": "Can the HAPPRUN pick's Bluetooth speaker function work independently of the projector's video display?", "a": "Yes, bidirectional Bluetooth lets you use the projector purely as a Bluetooth speaker for audio playback without needing the video projection active, though checking the specific listing for confirmation of this standalone speaker mode is worth doing before relying on it." },
   { "q": "Do these projectors require professional installation for ceiling mounting?", "a": "No, all four picks in this comparison support DIY ceiling mounting with standard mounting hardware, though following each specific product's ceiling installation instructions carefully, including any angle limitations for auto focus, is important for proper setup." }

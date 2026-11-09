@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41+3DZpO1WL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B01D1E9JW6?tag=deskfinds0d-20",
-    "description": "KINGFOM is a PU leather over MDF caddy with white stitching, three compartments and a small drawer for pens, pencils, scissors, remotes and a phone.\n\nIt costs about $18 and is the most practical pick for a $20 limit. Against GOOFBALLS below, it is useful rather than silly.\n\nBest for a coworker you know little about. The caveat is that it is a bit generic.",
+    "description": "KINGFOM is a PU leather over MDF caddy with white stitching, three compartments and a small drawer for pens, pencils, scissors, remotes and a phone.\n\nIt costs under $20 and is the most practical pick for a $20 limit. Against GOOFBALLS below, it is useful rather than silly.\n\nBest for a coworker you know little about. The caveat is that it is a bit generic.",
     "specs": [
       "PU leather over MDF",
       "3 compartments plus drawer",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51EPvbEoRfL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GCZL4YYL?tag=deskfinds0d-20",
-    "description": "Qunclay is a bulk set of 24 minimalist multicolor foldable phone stands, each about 4 by 3.5 by 0.8 inches, with a triangular base and multiple angles.\n\nAt about $25 for 24 it works out to roughly a dollar apiece, but you receive all 24 in one order. Against KINGFOM, it is for a team, not a single recipient.\n\nBest for a team exchange where everyone gets one. The caveat is that it is not a single gift.",
+    "description": "Qunclay is a bulk set of 24 minimalist multicolor foldable phone stands, each about 4 by 3.5 by 0.8 inches, with a triangular base and multiple angles.\n\nAt under $30 for 24 it works out to roughly a dollar apiece, but you receive all 24 in one order. Against KINGFOM, it is for a team, not a single recipient.\n\nBest for a team exchange where everyone gets one. The caveat is that it is not a single gift.",
     "specs": [
       "24 stands in one pack",
       "4 x 3.5 x 0.8 inches",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31KCH6GQqSL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FGDS1XCP?tag=deskfinds0d-20",
-    "description": "GOOFBALLS is a 3.5 inch soft plastic skeleton figurine with attitude, sold as funny office decor.\n\nIt costs about $13 and is the quirkiest here. Against KOPPIE below, it needs no name.\n\nBest for someone with dark humor. The caveat is that skeleton humor may not suit every office.",
+    "description": "GOOFBALLS is a 3.5 inch soft plastic skeleton figurine with attitude, sold as funny office decor.\n\nIt costs under $15 and is the quirkiest here. Against KOPPIE below, it needs no name.\n\nBest for someone with dark humor. The caveat is that skeleton humor may not suit every office.",
     "specs": [
       "3.5 inch figurine",
       "Soft durable plastic",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51IZkYqzJnL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D4M9MXRB?tag=deskfinds0d-20",
-    "description": "KOPPIE makes an acrylic name plate printed with UV HD technology in styles from floral to commercial, delivered in a flannel bag and box.\n\nIt costs about $10 and is the only personalized pick. Against GOOFBALLS, it needs a correct name.\n\nBest when you know the recipient's name and title. The caveat is that custom items take time and are hard to return.",
+    "description": "KOPPIE makes an acrylic name plate printed with UV HD technology in styles from floral to commercial, delivered in a flannel bag and box.\n\nIt costs under $15 and is the only personalized pick. Against GOOFBALLS, it needs a correct name.\n\nBest when you know the recipient's name and title. The caveat is that custom items take time and are hard to return.",
     "specs": [
       "Acrylic, UV HD printed",
       "Many style options",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Fe2gIJdCL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DTF28SCK?tag=deskfinds0d-20",
-    "description": "UYVQXA is a 4 by 4 inch acrylic plaque on a 4 by 1.6 by 0.6 inch wood stand with a software engineer joke printed on it.\n\nIt costs about $10 and only works for coders. Against KINGFOM, it is a narrow gift.\n\nBest for the programmer on the team. The caveat is that it falls flat for anyone else.",
+    "description": "UYVQXA is a 4 by 4 inch acrylic plaque on a 4 by 1.6 by 0.6 inch wood stand with a software engineer joke printed on it.\n\nIt costs under $15 and only works for coders. Against KINGFOM, it is a narrow gift.\n\nBest for the programmer on the team. The caveat is that it falls flat for anyone else.",
     "specs": [
       "4 x 4 inch acrylic sign",
       "Wood stand included",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51pLM0ePL4L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FP4JF7YG?tag=deskfinds0d-20",
-    "description": "WSEJK is a tin of over 550 magnetic pebbles for sculpting and one-handed fidgeting, pitched for adults and teens and as a stocking stuffer.\n\nIt costs about $8, and gives a tactile toy. Against the notepads below, it is a toy.\n\nBest for a creative or fidgety coworker. The caveat is small magnets, which are a hazard for children and pets.",
+    "description": "WSEJK is a tin of over 550 magnetic pebbles for sculpting and one-handed fidgeting, pitched for adults and teens and as a stocking stuffer.\n\nIt costs under $10, and gives a tactile toy. Against the notepads below, it is a toy.\n\nBest for a creative or fidgety coworker. The caveat is small magnets, which are a hazard for children and pets.",
     "specs": [
       "550 plus pebbles",
       "Metal storage tin",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41MbnEYPi0L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0B5GZX1NN?tag=deskfinds0d-20",
-    "description": "ZICOTO is a set of 4 funny sticky note pads in four designs with sarcastic office humor, made in the US.\n\nIt is the cheapest at about $6 and is useful. Against WSEJK, it is a paper product.\n\nBest for a low cap or as an add-on. The caveat is that humor is subjective.",
+    "description": "ZICOTO is a set of 4 funny sticky note pads in four designs with sarcastic office humor, made in the US.\n\nIt is the cheapest at under $10 and is useful. Against WSEJK, it is a paper product.\n\nBest for a low cap or as an add-on. The caveat is that humor is subjective.",
     "specs": [
       "4 sticky note pads",
       "4 designs",
@@ -219,47 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Spending cap and value",
-    "explanation": "Most exchanges set a cap, often $15 to $25. Spending near the cap looks fair, while far below can look cheap. Check the price on the day you buy."
+    "explanation": "Most exchanges set a cap, often $15 to $25. Spending near the cap looks fair, while far below can look cheap. Check the price on the day you buy.  Check the total including shipping and tax against the exchange cap, and if you cannot know it, aim a few dollars under the limit. Add a handwritten tag to make a small item feel personal."
   },
   {
     "criterion": "Broad appeal",
-    "explanation": "You may not know the recipient well, so choose something almost anyone could use. A storage item beats a niche hobby gift. Avoid strong scents and sarcasm unless you know them."
+    "explanation": "You may not know the recipient well, so choose something almost anyone could use. A storage item beats a niche hobby gift. Avoid strong scents and sarcasm unless you know them.  Choose items every coworker uses, like the KINGFOM desk caddy, and avoid anything that requires a hobby or a specific taste. Skip anything tied to a hobby you are unsure about."
   },
   {
     "criterion": "Personalization risk",
-    "explanation": "A name plate needs the right spelling and a long lead time. A mistake cannot be returned. Only personalize if you know the person's exact details."
+    "explanation": "A name plate needs the right spelling and a long lead time. A mistake cannot be returned. Only personalize if you know the person's exact details.  Confirm the spelling of the name or title with someone close to the recipient before ordering, and check the lead time, because custom plates take longer to ship. Ask a teammate to confirm the spelling first."
   },
   {
     "criterion": "Size and display",
-    "explanation": "A small gift fits a drawer, and large decor competes with their space. Choose items under 6 inches. Check listed dimensions."
+    "explanation": "A small gift fits a drawer, and large decor competes with their space. Choose items under 6 inches. Check listed dimensions.  Check the stated dimensions, since a 3.5 inch figurine or a 4 x 4 inch sign fits a cubicle but a bulk pack of 24 phone stands is overkill for one person. Compare the listed inches with a typical cubicle shelf."
   },
   {
     "criterion": "Small parts and magnets",
-    "explanation": "Magnetic stones and tiny pieces are hazards for kids and pets at home. Check any age warnings. Do not gift them for a recipient with children without thought."
+    "explanation": "Magnetic stones and tiny pieces are hazards for kids and pets at home. Check any age warnings. Do not gift them for a recipient with children without thought.  Read any age warning on magnetic items, and avoid a tin of small magnets if the recipient has kids or pets at home. Read the age line on the listing."
   },
   {
     "criterion": "Humor safety",
-    "explanation": "Sarcasm and skeletons land differently across offices. A funny gift should be gentle. When unsure, choose useful over funny."
+    "explanation": "Sarcasm and skeletons land differently across offices. A funny gift should be gentle. When unsure, choose useful over funny.  Pick humor that is about the work, not about the person, and skip anything involving appearance, age or politics. Test the joke on a friend first."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Broad appeal",
-    "description": "We favored gifts that most recipients could use or enjoy."
+    "title": "Price against typical exchange caps",
+    "description": "We compared each item to common $15 to $25 caps. Everything here sits under $25, and the cheapest options such as ZICOTO's sticky notepads cost less than $6, so we judged whether a low price still feels like a real gift. A cheap item paired with a small treat can feel more generous than a single expensive one."
   },
   {
-    "title": "Price fit",
-    "description": "Picks were compared with typical Secret Santa caps."
+    "title": "Broad appeal for an unknown recipient",
+    "description": "We favored items almost any coworker can use. KINGFOM's desk caddy and a name plate suit nearly every desk, while the programmer sign fits only coders, so universal items scored higher than niche jokes. The 24 pack of foldable phone stands also works as a shared team gift."
   },
   {
-    "title": "Risk factors",
-    "description": "Personalization, small parts and niche humor were flagged."
+    "title": "Personalization and return risk",
+    "description": "We looked at KOPPIE's custom acrylic name plate, which needs the exact spelling and cannot easily be returned. Custom gifts delight when right and fail when wrong, so we flagged them as a higher risk pick. Delivery time also matters for a custom order close to the exchange date."
   },
   {
-    "title": "Size",
-    "description": "Listed dimensions were compared for desk fit."
+    "title": "Safety and mess",
+    "description": "We checked WSEJK's 550 fidget stones for small magnet hazards and scatter, and noted that metal storage tin helps. We also weighed items that may annoy others, such as noisy fidgets, against quiet gifts. Pebbles that scatter are annoying on a shared desk, and the tin helps contain them."
+  },
+  {
+    "title": "Humor and workplace safety",
+    "description": "We read each joke item for tone. The skeleton figurine and the sticky notepads are gentle, while the programmer sign is niche, so we scored humor on how safely it lands across mixed teams. Gentle desk humor is safer than anything edgy."
   }
 ];
 
@@ -399,28 +403,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "How much should I spend on Secret Santa?",
-    "a": "Follow the cap set by the organizer. If none, $15 to $25 is common. The ZICOTO Funny Sticky Notepads Set of 4 and the UYVQXA Funny Programmer Acrylic Desk Sign fit comfortably."
+    "q": "How much should I spend on a Secret Santa desk gift?",
+    "a": "Follow the exchange cap, which is often $15 to $25. Everything in this guide stays under $25 and several cost less than $10, so you can add a small treat if you want to land near the limit without exceeding it."
   },
   {
-    "q": "Is a joke gift OK?",
-    "a": "If you know the recipient's humor. Otherwise, pick something useful like the KINGFOM PU Leather Desk Organizer Caddy. The UYVQXA sign works only for a programmer who will get the joke."
+    "q": "What is the biggest mistake in Secret Santa gifts?",
+    "a": "Choosing something too personal or too cheap. A gag gift without any use can feel thoughtless. A useful item like the KINGFOM caddy or a gently funny figurine works for almost anyone and avoids awkward guessing."
   },
   {
-    "q": "Can I personalize without knowing them?",
-    "a": "Avoid it. A wrong name or title cannot be returned. The KOPPIE Custom Acrylic Desk Name Plate is nice only when you are sure of the spelling."
+    "q": "Is the KINGFOM caddy better than the name plate?",
+    "a": "The KINGFOM caddy is practical and fits any desk, while the KOPPIE name plate is personal but needs the exact name and cannot easily be returned. Choose the caddy when you do not know the person well."
   },
   {
-    "q": "What if the gift is for a remote coworker?",
-    "a": "Choose light items and check shipping time before the exchange date. The GOOFBALLS Sassy Skeleton Miniature Desk Figurine is just 3.5 inches and ships easily."
+    "q": "Can I wrap these gifts easily?",
+    "a": "Yes. Most are small flat items. The KOPPIE plate ships with a gift bag and box, the caddy fits a standard gift bag, and the fidget stones come in a tin, so you mostly need tissue paper and a tag. A small gift bag is the easiest option for the tin."
   },
   {
-    "q": "Are magnetic toys safe?",
-    "a": "The WSEJK 550 Piece Magnetic Fidget Stones are for adults and teens. Keep away from young children and pets, and count the pebbles after use."
+    "q": "Are magnetic fidget stones safe?",
+    "a": "WSEJK's 550 piece set contains small magnets, which are a hazard if swallowed by children or pets. They suit adults who work at a desk, but avoid them for a recipient with young kids at home. Keep the tin closed whenever it is not in use."
   },
   {
-    "q": "What does the 24 pack do?",
-    "a": "The Qunclay 24 Pack Foldable Phone Stands gives one stand to each of 24 people. It does not work for a single recipient, so use it for a team gift."
+    "q": "Which gift works best for a coworker I barely know?",
+    "a": "Choose broadly useful items such as the KINGFOM desk caddy, the ZICOTO sticky notepads or the 24 pack phone stands to share. These fit any role and any taste, and they avoid size, name or humor risks."
   }
 ];
 

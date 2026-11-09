@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "VA/Wattage Capacity", "description": "Compared stated VA and wattage ratings across the lineup, from 550VA to 900VA." },
-  { "title": "LCD Panel and Status Reporting", "description": "Compared detailed LCD status panels against basic indicator lights and audible alerts." },
-  { "title": "ECO Mode and Energy Efficiency", "description": "Checked which picks include automatic energy-saving features for connected peripherals." },
-  { "title": "Battery Replaceability", "description": "Compared user-replaceable battery designs and availability of specific replacement battery models." },
-  { "title": "Connected Equipment Warranty", "description": "Compared documented warranty and insurance coverage amounts across the lineup." }
+  { "title": "Automatic voltage regulation", "description": "We noted which picks include AVR, such as the CyberPower AVRG900LCD. AVR corrects brownouts and sags without draining the battery, which matters in older buildings where lights dim when the AC kicks on, and prevents the UPS from cycling on every minor dip. The APC 650VA and 550VA picks have no AVR listed." },
+  { "title": "LCD status and alerts", "description": "We compared status displays, from the LCD panels on the 900VA and 850VA CyberPower models to the APC indicators with mutable audible alerts. Knowing remaining runtime and load on a screen helps avoid overloading a unit rated for only a few hundred watts. The APC 650VA and 550VA rely on indicator lights instead of a numeric readout." },
+  { "title": "Eco-controlled outlets", "description": "We looked at the EC850LCD's three ECO outlets, which can cut power to peripherals when the main device sleeps. That trims idle draw from printers and speakers, though it adds a setup step and does nothing for battery capacity. The other three picks leave every outlet powered all the time." },
+  { "title": "Wattage ceiling for a desk setup", "description": "We compared watt ratings, from 480W on the AVRG900LCD to 330W on the 550VA APC. A PC, monitor, and router together often sit between 200 and 350W, so the smaller APC can be overloaded quickly with a full workstation. The APC 650VA sits between them at 390W." },
+  { "title": "Network and phone line protection", "description": "We noted data-line coverage, including the telephone surge protection on the AVRG900LCD. A UPS only protects connected lines, so a unit that covers phone or coax guards modems and routers from the other path surges can use. The APC picks do not list that on this tier." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "Moving past $100 adds regulation, displays, and more outlets, so the primary question is whether your power is merely brief or actually unstable.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Two APC models and two CyberPowers fall within under $50 of each other, so the budget table assigns each to a particular desk.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By VA Capacity Needs",
+    intro: "Energy habits matter next, since the EC850LCD's controlled outlets suit a desk where peripherals sit idle most of the day.",
     table: {
       headers: ["Your equipment load", "Recommended pick"],
       rows: [
@@ -184,7 +187,7 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Does the CyberPower EC850LCD's ECO Mode work on all 12 of its outlets?", "a": "No, ECO Mode specifically applies to 3 of the 6 surge-only outlets, so only devices connected to those specific ECO-controlled outlets benefit from the automatic power-cutting feature when your computer is off or sleeping." },
-  { "q": "What's the most common mistake buyers make when comparing battery-backup outlet counts?", "a": "Focusing on total outlet count rather than the specific battery-backup outlet count, when a UPS with more total outlets but the same or fewer battery-backup outlets doesn't actually protect more critical devices during an outage." },
+  { "q": "Is AVR worth paying for on a home desk UPS?", "a": "It helps if your lights dim or flicker when large appliances start, since AVR corrects those sags without using the battery. The CyberPower AVRG900LCD includes it. In a stable building you may never notice, and the cheaper APC 550VA covers short outages just fine." },
   { "q": "Is the CyberPower AVRG900LCD worth the price premium over the CyberPower EC850LCD?", "a": "If you need the highest capacity, the most battery-backup outlets, and telephone line data protection, yes, but if genuine ECO Mode energy savings matter more to you at a lower price, the EC850LCD delivers that specific feature the AVRG900LCD doesn't emphasize." },
   { "q": "How do I know which specific replacement battery to buy when my APC UPS eventually needs one?", "a": "Check the specific model number stated in the product listing, such as APCRBC110 for the 650VA unit or RBC17 for the 550VA unit, and search for that exact replacement battery model rather than a generic UPS battery." },
   { "q": "Do I need data line telephone protection if I only use a cell phone and cable internet?", "a": "If you don't have a landline phone or DSL modem connection running through a telephone line, this specific protection feature won't provide any practical benefit, so a pick without it would serve your needs just as well." },

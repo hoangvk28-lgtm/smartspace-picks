@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Controller Chip and Speed", "description": "Compared controller chip models and tested real-world transfer speeds across the lineup." },
-  { "title": "Cooling Design", "description": "Distinguished active fan cooling from passive fin-based cooling across all four picks." },
-  { "title": "Cable and Accessory Inclusion", "description": "Compared included cable types and accessories in the box." },
-  { "title": "SSD Compatibility", "description": "Checked single-sided versus double-sided SSD support and size range compatibility." },
-  { "title": "Support and Warranty", "description": "Compared stated technical support duration across the tier." }
+  {
+    "title": "Controller chip and real link speed",
+    "description": "We noted the bridge chip each listing names, since the ASM2464PD on the Rosewill, MOKiN and ANYOYO is the controller most buyers' guides cite for true 40Gbps. A 40Gbps enclosure only reaches that speed on a Thunderbolt 4 or USB4 port, and drops to 10Gbps or less on ordinary USB-C."
+  },
+  {
+    "title": "Thermal design under sustained writes",
+    "description": "We compared active fan, triple-fin and temperature-controlled cooling. Sustained writes to a Gen4 drive can push it past 80C within minutes and trigger throttling, so at this price we credited the Rosewill fan and its stated 4 hours of full-speed operation, and treated passive fins as fine for short transfers."
+  },
+  {
+    "title": "SSD compatibility limits",
+    "description": "We read each listing for supported drive types and sizes. The Cable Matters notes single-sided SSDs only, and every pick here targets M.2 NVMe, so a SATA M.2 drive will not work. Under $50 we treated a clearly stated compatibility list as a requirement. We also noted that a mismatch between a double-sided SSD and a single-sided enclosure is a common return reason."
+  },
+  {
+    "title": "Cables, tools and support",
+    "description": "We checked included cables and support terms, such as the MOKiN USB-C and USB-A cables and the ANYOYO 50cm 40Gbps cable with 24-month support. A short certified cable matters at 40Gbps, since a cheap long cable can silently cut speed. A longer cable looks convenient but is where many 40Gbps setups lose speed, so shorter supplied cables scored higher."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["A stated sustained-operation endurance figure with cooling", "Rosewill 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan"],
-        ["Both USB-C and USB-A cables included", "MOKiN 40Gbps M.2 NVMe SSD Enclosure for M1 Pro/Max Mac"],
-        ["A foldable design with a clear speed-mode indicator", "Cable Matters 40Gbps USB4/Thunderbolt 4 SSD Enclosure"],
-        ["The lowest price with silent passive cooling", "ANYOYO NVMe M.2 SSD Enclosure, Triple Fins Heat Dissipation"]
+    "subheading": "By Cooling Need",
+    "intro": "Cooling decides whether a Gen4 NVMe stays fast during a long copy.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Copying hundreds of gigabytes in one go, such as a video archive",
+          "Rosewill 40Gbps Enclosure with Cooling Fan, listing 4 hours of full-speed operation"
+        ],
+        [
+          "Short transfers and quiet desk use with no moving parts",
+          "ANYOYO Triple Fins Heat Dissipation, passive cooling and a 50cm cable"
+        ],
+        [
+          "A fan that only spins when the SSD heats up",
+          "Cable Matters 40Gbps USB4/Thunderbolt 4 Enclosure, with a temperature-controlled fan"
+        ],
+        [
+          "Mac mini or M1 Pro and Max machines where TRIM and S.M.A.R.T matter",
+          "MOKiN 40Gbps Enclosure for M1 Pro/Max Mac, which lists TRIM and S.M.A.R.T support"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $30", "ANYOYO (under $30)"],
-        ["Under $46", "Cable Matters (under $50)"],
-        ["Under $50", "MOKiN (under $50)"],
-        ["Under $54", "Rosewill (under $60)"]
+    "subheading": "By Budget",
+    "intro": "The gap is under $25 from cheapest to dearest.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $40, the lowest price",
+          "ANYOYO, with passive fins and a 40Gbps cable"
+        ],
+        [
+          "Under $50",
+          "Cable Matters 40Gbps, with a temperature-controlled fan and a speed LED"
+        ],
+        [
+          "Under $60",
+          "MOKiN 40Gbps, with two cable types and TRIM support"
+        ],
+        [
+          "Under $60",
+          "Rosewill 40Gbps, the fan-cooled model with a transparent back plate"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Active Fan Cooling vs Passive Fin Cooling",
-    cards: [
-      { label: "Active fan cooling (Rosewill, Cable Matters)", text: "Actively moves air to maintain sustained speeds during heavy, prolonged transfers, at the cost of minor fan noise." },
-      { label: "Passive fin cooling (MOKiN, ANYOYO)", text: "Relies on aluminum fins and thermal pads for silent operation, suitable for typical use but potentially more prone to throttling under the most sustained heavy workloads." }
+    "subheading": "Fan vs Fanless Cooling",
+    "intro": "A fan keeps speeds up over long copies, but adds noise and a part that can fail.",
+    "cards": [
+      {
+        "label": "Active fan",
+        "text": "The Rosewill 40Gbps and Cable Matters 40Gbps use fans, which hold higher sustained write speeds on a hot Gen4 drive. The cost is some noise and a moving part."
+      },
+      {
+        "label": "Passive fins",
+        "text": "The ANYOYO uses triple fins and the MOKiN 40Gbps relies on its chassis. They are silent, but throttling can appear after a long sustained write."
+      }
     ],
-    note: "If you regularly transfer very large files for extended periods, like video editing workflows, active cooling helps maintain consistent speeds. If your use is lighter or intermittent, passive cooling's silence is a worthwhile tradeoff.",
+    "note": "Take a fan if you move large files regularly. Take passive cooling for occasional backups and a silent desk."
   },
   {
-    subheading: "By SSD Type Compatibility",
-    table: {
-      headers: ["Your SSD type", "Recommended pick"],
-      rows: [
-        ["Standard single-sided SSD", "Any of the four picks"],
-        ["Double-sided SSD (check compatibility list)", "MOKiN, Rosewill, or ANYOYO (avoid Cable Matters)"]
+    "subheading": "By Host Computer",
+    "intro": "The enclosure's speed ceiling is your computer's port.",
+    "table": {
+      "headers": [
+        "Your computer",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Thunderbolt 4 or USB4 laptop wanting full 40Gbps",
+          "Cable Matters 40Gbps, which lists PCI-E Gen 4x4 and 40Gbps"
+        ],
+        [
+          "Apple Silicon Mac with a Pro or Max chip",
+          "MOKiN 40Gbps, which names M1 Pro and Max compatibility"
+        ],
+        [
+          "A desktop with a USB-A port as well as USB-C",
+          "MOKiN 40Gbps, which ships USB-A and USB-C cables"
+        ],
+        [
+          "A PC with Thunderbolt 3",
+          "ANYOYO, with the supplied 50cm cable"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Video Editor Working With Large 4K/8K Files Specifically",
-    cards: [
-      { label: "Look for", text: "Active fan cooling with a stated sustained full-speed operation time, since large video file transfers can run long enough to trigger thermal throttling on passively cooled enclosures." },
-      { label: "In this comparison", text: "The Rosewill pick's stated 4-hour full-speed operation figure with active fan cooling specifically supports extended video editing workflows without speed degradation." }
-    ],
+    "subheading": "For Mac Mini and Laptop Users Specifically",
+    "intro": "Check the port, the drive format and the cable length together.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A Thunderbolt 4 or USB4 host port, an NVMe M-key SSD at 2280 length and a cable under about half a meter."
+      },
+      {
+        "label": "In this comparison",
+        "text": "ANYOYO ships a 50cm 40Gbps cable and MOKiN 40Gbps ships two cables, so either is ready to use. The Cable Matters 40Gbps lists foldable design, a good fit for a bag."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want a stated sustained-operation endurance figure with active cooling, where the Rosewill pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You just want reliable passive cooling at the lowest price, where the ANYOYO pick covers that for about $24 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The next tier adds a brand name, a longer warranty and an Intel controller.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a controller from a named brand and a multi-year warranty. The under $75 guide adds JHL7440 models, and the under $100 guide adds OWC and Lexar."
+      },
+      {
+        "label": "Save if",
+        "text": "Your copies are short and mostly under a few gigabytes. ANYOYO is the lowest price here and passive cooling handles occasional transfers."
+      }
+    ]
   }
 ];
 
@@ -182,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Do I need a Thunderbolt port specifically, or will these enclosures work with a standard USB-C port?", "a": "All four picks in this comparison work with both Thunderbolt 3/4 ports and standard USB4 or USB-C ports, though achieving the full 40Gbps speed specifically requires a Thunderbolt 4 or USB4 port and a compatible cable, while a standard USB-C port without USB4 support will still work but at reduced speeds." },
-  { "q": "What's the most common mistake buyers make when choosing between active and passive cooling enclosures at this tier?", "a": "Assuming passive cooling is always inferior, when for typical everyday use, like occasional file transfers or backups, passive cooling like the ANYOYO pick's design performs perfectly well and offers genuinely silent operation, with thermal throttling only becoming a concern during truly sustained, heavy workloads." },
-  { "q": "Is the Rosewill pick worth it over the cheaper ANYOYO option?", "a": "If you specifically want a stated sustained full-speed operation endurance figure with active cooling, yes, but if you just want reliable passive cooling and silent operation at the lowest price, the ANYOYO pick covers that for about $24 less." },
-  { "q": "How do I know if my specific SSD is double-sided and incompatible with the Cable Matters enclosure?", "a": "Check your SSD manufacturer's specification sheet for physical component layout details, or search for your exact SSD model number alongside 'double-sided' to confirm, since higher-capacity SSDs (typically 4TB and above) are more likely to use double-sided component placement that some enclosures can't accommodate." },
-  { "q": "Can these budget enclosures achieve their full 40Gbps speed with any NVMe SSD I put inside them?", "a": "No, achieving the full stated speed also depends on your specific SSD's own maximum read/write speed rating, so pairing a budget enclosure with a slower or older NVMe SSD will result in transfer speeds limited by the SSD itself, not the enclosure's Thunderbolt interface." },
-  { "q": "Do any of these enclosures require external power, or do they all run off the Thunderbolt/USB connection?", "a": "All four picks in this comparison are bus-powered, meaning they draw power directly from the Thunderbolt or USB connection without needing a separate power adapter, making them genuinely portable for use with laptops and other bus-powered devices." }
+  {
+    "q": "Will a 40Gbps enclosure run at full speed on any USB-C port?",
+    "a": "No. Full speed needs a Thunderbolt 4 or USB4 port. On a USB 3.2 Gen 2 port it drops to about 10Gbps, and on Gen 1 to 5Gbps. Look for the lightning bolt or USB4 mark next to the port before blaming the enclosure."
+  },
+  {
+    "q": "Which drives work in these enclosures?",
+    "a": "M.2 NVMe SSDs in the M-key format, usually 2280 length. SATA M.2 drives are generally not supported in NVMe-only enclosures. The Cable Matters also lists single-sided SSDs only, so check chip placement before buying a high-capacity double-sided drive."
+  },
+  {
+    "q": "Is the Rosewill fan model worth it over the ANYOYO passive one?",
+    "a": "If you copy large files often, yes. The Rosewill lists 4 hours of full-speed operation, while a passive enclosure may throttle once a Gen4 drive heats up. For occasional backups, the cheaper ANYOYO with triple fins is quieter."
+  },
+  {
+    "q": "Do I need to install a thermal pad?",
+    "a": "Most enclosures ship with one. Peel the film, lay the SSD so the controller and flash both touch the pad, and tighten the plate. Some buyers add a thicker pad for sustained writes, but check clearance first or the lid will not close."
+  },
+  {
+    "q": "Why does my drive show up at a slower speed than listed?",
+    "a": "Listed figures are best case. A long or non-certified cable, a USB-C port rather than Thunderbolt, or a hot drive can each cut speed. Use the short supplied cable and plug straight into the host rather than through a dock."
+  },
+  {
+    "q": "How do I safely remove the SSD?",
+    "a": "Eject the drive in the operating system, wait for the activity light to stop and then unplug. A hot SSD can burn fingers after a long copy, so let it cool for a few minutes before you open the case. Never pull the cable while the activity light is flashing, since that can corrupt the file system."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

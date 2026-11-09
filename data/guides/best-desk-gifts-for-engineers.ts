@@ -5,7 +5,7 @@ export const metaDescription = "Seven desk gifts for engineers, from two Stirlin
 export const mainKeyword = "desk gifts for engineers";
 export const introParagraphs = [
   "Engineers tend to enjoy objects that show how something works, which is why the best desk gifts for them are small mechanisms and in-jokes rather than generic accessories. A gift that spins, converts heat into motion or looks like a circuit board starts a conversation with every visitor.",
-  "We compared seven picks from about $7 to $40: two Stirling engine models, a V8 engine pen holder, circuit board coasters and three funny acrylic signs. Each is judged on what the listing states about mechanism, material and size, and we note where a gift is a real working model versus a joke."
+  "We compared seven picks from under $10 to $40: two Stirling engine models, a V8 engine pen holder, circuit board coasters and three funny acrylic signs. Each is judged on what the listing states about mechanism, material and size, and we note where a gift is a real working model versus a joke."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41kzAs1xunL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B008JOKO1O?tag=deskfinds0d-20",
-    "description": "Sunnytech is a low-temperature Stirling engine that runs when set on a hot cup of coffee, powered by the temperature difference between the cup and the air. The listing says it can run for 24 or more hours with a continuous heat supply.\n\nIt is the priciest pick at about $40 and the most demonstrative. Against PFCKE below, it costs a bit more and is pitched as an education model.\n\nBest for an engineer or student who wants a real thermodynamics toy. The caveat is that it stops when the coffee cools, so it is a demonstration, not a decoration that runs on its own.",
+    "description": "Sunnytech is a low-temperature Stirling engine that runs when set on a hot cup of coffee, powered by the temperature difference between the cup and the air. The listing says it can run for 24 or more hours with a continuous heat supply.\n\nIt is the priciest pick at under $50 and the most demonstrative. Against PFCKE below, it costs a bit more and is pitched as an education model.\n\nBest for an engineer or student who wants a real thermodynamics toy. The caveat is that it stops when the coffee cools, so it is a demonstration, not a decoration that runs on its own.",
     "specs": [
       "Low temperature Stirling engine",
       "Runs on a hot mug",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Stops when the mug cools",
-      "Costs about $40"
+      "Costs under $50"
     ],
     "bestFor": "Thermodynamics fans"
   },
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41IYLq7Sj3L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0B6T147ZL?tag=deskfinds0d-20",
-    "description": "PFCKE is a brass and aluminum alloy low-temperature Stirling engine that starts after about 20 seconds on a hot mug and a flywheel nudge.\n\nIt costs about $36, a few dollars under Sunnytech, and leans on looks. Against the V8 pen holder, it actually moves.\n\nBest for a desk display with a mechanical look. The caveat is that it needs a hot drink to work.",
+    "description": "PFCKE is a brass and aluminum alloy low-temperature Stirling engine that starts after about 20 seconds on a hot mug and a flywheel nudge.\n\nIt costs under $40, a few dollars under Sunnytech, and leans on looks. Against the V8 pen holder, it actually moves.\n\nBest for a desk display with a mechanical look. The caveat is that it needs a hot drink to work.",
     "specs": [
       "Low temperature Stirling",
       "Brass and aluminum look",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/613SbSmr1iL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BV2FSQD4?tag=deskfinds0d-20",
-    "description": "Nuenen is a set of 4 coasters made from real circuit boards, each about 3.54 inches square, with 16 non-slip dots.\n\nIt costs about $13 and suits electrical engineers. Against Tizee, it is functional on a coffee table.\n\nBest for an EE or tech lover. The caveat is that circuit board edges can be rough.",
+    "description": "Nuenen is a set of 4 coasters made from real circuit boards, each about 3.54 inches square, with 16 non-slip dots.\n\nIt costs under $15 and suits electrical engineers. Against Tizee, it is functional on a coffee table.\n\nBest for an EE or tech lover. The caveat is that circuit board edges can be rough.",
     "specs": [
       "4 coasters, 3.54 inches",
       "Real circuit boards",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41WnzkaDZLL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FNDPDDW9?tag=deskfinds0d-20",
-    "description": "JAXXERO is a 4 by 4 inch clear acrylic plaque on a 4 by 2 by 0.4 inch wooden base with a witty line about getting an engineer's attention.\n\nIt costs about $10 and is the most polished sign here. Against ORUPT below, it is cleaner with a wooden stand.\n\nBest for an engineer with a sense of humor. The caveat is that it is decor only.",
+    "description": "JAXXERO is a 4 by 4 inch clear acrylic plaque on a 4 by 2 by 0.4 inch wooden base with a witty line about getting an engineer's attention.\n\nIt costs under $15 and is the most polished sign here. Against ORUPT below, it is cleaner with a wooden stand.\n\nBest for an engineer with a sense of humor. The caveat is that it is decor only.",
     "specs": [
       "4 x 4 inch acrylic plaque",
       "Wooden stand",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Eu44Ky+0L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FRS4VC62?tag=deskfinds0d-20",
-    "description": "ORUPT is a roughly 4 by 4 inch transparent acrylic sign with a humorous message aimed at IT teams and tech guys.\n\nIt costs about $9 and is simpler than JAXXERO. Against Vivopisew, it is less engineering-specific.\n\nBest for an IT colleague or Secret Santa. The caveat is that the listing gives few details on the base.",
+    "description": "ORUPT is a roughly 4 by 4 inch transparent acrylic sign with a humorous message aimed at IT teams and tech guys.\n\nIt costs under $10 and is simpler than JAXXERO. Against Vivopisew, it is less engineering-specific.\n\nBest for an IT colleague or Secret Santa. The caveat is that the listing gives few details on the base.",
     "specs": [
       "About 4 x 4 inches",
       "Transparent acrylic",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41TiHItg0gL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CS5G255R?tag=deskfinds0d-20",
-    "description": "Vivopisew is a 4 by 4 inch acrylic plaque with a wooden stand showing a problem-solving flowchart gag.\n\nIt is the cheapest at about $7 and a classic engineering joke. Against ORUPT, it is more recognizable to engineers.\n\nBest for a low-budget joke. The caveat is that the flowchart joke is common.",
+    "description": "Vivopisew is a 4 by 4 inch acrylic plaque with a wooden stand showing a problem-solving flowchart gag.\n\nIt is the cheapest at under $10 and a classic engineering joke. Against ORUPT, it is more recognizable to engineers.\n\nBest for a low-budget joke. The caveat is that the flowchart joke is common.",
     "specs": [
       "4 x 4 inch acrylic",
       "Wooden stand",
@@ -219,47 +219,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Working model versus decor",
-    "explanation": "A working model, like a Stirling engine, does something, while decor only looks like engineering. Engineers often prefer to see a mechanism run. Check the listing for how it operates."
+    "explanation": "A working model, like a Stirling engine, does something, while decor only looks like engineering. Engineers often prefer to see a mechanism run. Check the listing for how it operates. A Stirling engine runs and a resin pen holder does not, so engineers often value the working mechanism more than the humor, and it doubles as a conversation piece on video calls."
   },
   {
     "criterion": "Heat source for Stirling engines",
-    "explanation": "Low-temperature Stirling engines run on a small temperature difference, such as a hot mug versus room air. They stop when the drink cools. Check how the listing says it starts and how long it runs."
+    "explanation": "Low-temperature Stirling engines run on a small temperature difference, such as a hot mug versus room air. They stop when the drink cools. Check how the listing says it starts and how long it runs. A low temperature Stirling engine needs a hot mug and a room temperature surface, so tell the recipient to bring a hot drink, not a flame."
   },
   {
     "criterion": "Engineering discipline match",
-    "explanation": "A V8 suits mechanical engineers and a circuit board suits electrical ones. A generic gift avoids a mismatch. Check what the recipient actually does."
+    "explanation": "A V8 suits mechanical engineers and a circuit board suits electrical ones. A generic gift avoids a mismatch. Check what the recipient actually does. A V8 shaped holder pleases a mechanical engineer more than an electrical one, and the circuit board coasters work the other way around."
   },
   {
     "criterion": "Material and build",
-    "explanation": "Brass and aluminum models feel more solid than resin. Acrylic signs can scratch. Check the materials in the listing."
+    "explanation": "Brass and aluminum models feel more solid than resin. Acrylic signs can scratch. Check the materials in the listing. Brass and aluminum look kits feel heavier than resin, so check the material line in the bullets for the Tizee or Stirling models rather than trusting a metal looking photo."
   },
   {
     "criterion": "Desk size",
-    "explanation": "A Stirling engine and a pen holder both take desk space. Signs are about 4 inches square. Check the dimensions."
+    "explanation": "A Stirling engine and a pen holder both take desk space. Signs are about 4 inches square. Check the dimensions. The 4 x 4 inch acrylic signs fit anywhere, but the Stirling engines need a stable flat area, so measure the free corner of the desk."
   },
   {
     "criterion": "Humor longevity",
-    "explanation": "Flowchart jokes are old, and an engineer may have seen them. A model has more lasting appeal. Pair a joke with a useful item."
+    "explanation": "Flowchart jokes are old, and an engineer may have seen them. A model has more lasting appeal. Pair a joke with a useful item. Flowchart jokes are old and an engineer may have seen them, so pair the Vivopisew sign with a working gift like the PFCKE engine, which keeps the joke from being the whole present."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Mechanism",
-    "description": "We compared whether each gift works, moves or only looks mechanical."
+    "title": "Working model versus decor",
+    "description": "We split picks into things that function and things that only look technical. The Sunnytech and PFCKE Stirling engines actually run, the Tizee V8 pen holder is decor, and the circuit board coasters are real boards. Engineers tend to appreciate a working mechanism over a printed slogan."
   },
   {
-    "title": "Discipline fit",
-    "description": "Picks were matched to mechanical, electrical and general engineers."
+    "title": "Heat source for Stirling engines",
+    "description": "Low temperature Stirling engines run off a gap between a warm and a cool surface, such as a hot mug. The PFCKE model starts in about 20 seconds, and the Sunnytech listing claims a 24 plus hour runtime. We told buyers to expect a mug, not a candle, as the power source."
   },
   {
-    "title": "Materials",
-    "description": "Stated materials and sizes were compared."
+    "title": "Discipline match",
+    "description": "We matched picks to different engineering fields. The V8 pen holder suits mechanical engineers, the Nuenen circuit board coasters suit electrical engineers, and the flowchart and attention plaques suit anyone in the field. A mismatch is the most common reason a technical gift flops."
   },
   {
-    "title": "Price",
-    "description": "Cost was compared across working models and signs."
+    "title": "Material and build",
+    "description": "Metal looking models feel more solid than resin, so we noted the brass and aluminum finish on the Stirling kits against the resin Tizee holder. The acrylic signs at about 4 x 4 inches are light and can scratch, so we ranked them as supporting gifts."
   }
 ];
 

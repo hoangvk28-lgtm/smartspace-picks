@@ -84,70 +84,156 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Maximum PoE Standard Supported", "description": "Compared standard PoE/PoE+ versus higher-wattage PoE++ device compatibility." },
-  { "title": "Daisy-Chain and Cascade Distance", "description": "Compared documented multi-unit configurations and their total achievable distance." },
-  { "title": "Outdoor and Industrial Durability", "description": "Compared IP ratings, surge protection, and operating temperature ranges." },
-  { "title": "Warranty and Compliance", "description": "Compared warranty length and any government procurement compliance certifications." },
-  { "title": "Automatic Protection Features", "description": "Compared auto-detection, auto-reset, and damage protection functions." }
+  {
+    "title": "Gigabit throughput under load",
+    "description": "Every pick here advertises 1000Mbps, so we looked at what protects that speed: PoE passthrough chipsets, surge protection, and how many hops stay at full rate. We favored units that keep Gigabit through a cascade, since a camera or AP uplink is where a 100Mbps cap actually hurts."
+  },
+  {
+    "title": "Power class per device",
+    "description": "We matched each listing's power class to common loads. The TRENDnet reaches 60W per device with PoE++, the MokerLink takes up to 120W in for 90W out, and the Revotech tops out at 15.4W per output. A 2-port extender is only useful if its budget covers the loads it will carry."
+  },
+  {
+    "title": "Cascade depth and total reach",
+    "description": "We compared stated chain limits: 4 units and 1640ft for the TRENDnet, 6 units and 700m for the Revotech. Since power drops at each hop, deeper claims earned credit only when the input power class could plausibly carry them, and a 6-unit claim on 30W input was treated skeptically."
+  },
+  {
+    "title": "Enclosure and environment",
+    "description": "We read the IP rating and temperature range. The MokerLink is IP67 with waterproof caps, while the LINOVISION is IP53 metal rated from -22F to 149F with DIN-rail mounting. Matching case to location matters more than the headline wattage, because an IP53 box left on an open wall will fail long before its electronics do."
+  },
+  {
+    "title": "Warranty and compliance",
+    "description": "The TRENDnet lists a 3-year warranty and NDAA/TAA compliance, the second of which matters in government or school installs. We treated long coverage as a real advantage for hardware that is hard to reach once it is mounted, and we also credited the compliance label for any buyer working under a procurement rule."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["To power PoE++ devices up to 60W", "TRENDnet 2-Port Gigabit PoE++ Extender (TPE-BE200)"],
-        ["Genuine IP67 outdoor durability with high wattage", "MokerLink IP67 Outdoor 2 Port Gigabit PoE Extender"],
-        ["Surge protection and wide temperature tolerance", "LINOVISION 2 Ports Gigabit PoE Passthrough Switch"],
-        ["The lowest price with the longest cascade distance", "Revotech Gigabit 2 Port POE Extender"]
+    "subheading": "By Power Class",
+    "intro": "The right pick depends on how many watts your far-end devices actually pull, not on the port count.",
+    "table": {
+      "headers": [
+        "Far-end device",
+        "Recommended pick"
       ],
+      "rows": [
+        [
+          "PTZ cameras or APs that draw up to 60W",
+          "TRENDnet Gigabit PoE++ Extender (TPE-BE200), which delivers up to 60W per device"
+        ],
+        [
+          "A single heavy 802.3bt load alongside a smaller device",
+          "MokerLink IP67 Outdoor, with 90W output from a 120W input"
+        ],
+        [
+          "Standard 802.3af or at cameras and small APs",
+          "LINOVISION 2 Ports Gigabit PoE Passthrough Switch, with 802.3af/at support and a metal case"
+        ],
+        [
+          "Two modest 15W devices at the lowest cost",
+          "Revotech Gigabit 2 Port, at 15.4W per output from a 30W input"
+        ]
+      ]
     },
+    "note": "Power class matters more than speed: all four are Gigabit, but only some can feed a PoE++ device."
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $24", "Revotech Gigabit 2 Port (under $25)"],
-        ["Under $30", "LINOVISION 2 Ports Passthrough (under $30)"],
-        ["Under $50", "MokerLink IP67 Outdoor (under $50)"],
-        ["Under $58", "TRENDnet TPE-BE200 (under $60)"]
+    "subheading": "By Budget",
+    "intro": "Prices climb from budget Gigabit to PoE++ gear, topping out under $60.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $25, basic Gigabit at 30W",
+          "Revotech Gigabit 2 Port, the cheapest way to get 1000Mbps on both outputs"
+        ],
+        [
+          "Under $30, an industrial case",
+          "LINOVISION 2 Ports Passthrough Switch, with DIN-rail mounting and 4kV surge protection"
+        ],
+        [
+          "Under $50, outdoor rated at high wattage",
+          "MokerLink IP67 Outdoor, IP67 with a 90W output budget"
+        ],
+        [
+          "Under $60, PoE++ with a long warranty",
+          "TRENDnet TPE-BE200, with a 3-year warranty and NDAA/TAA compliance"
+        ]
+      ]
+    }
   },
   {
-    subheading: "PoE++ High-Wattage Support vs Standard PoE+ Value",
-    cards: [
-      { label: "PoE++ high-wattage (TRENDnet, MokerLink)", text: "Both extend up to 60W or 90W per output, necessary for higher-power devices like PTZ cameras with heaters or advanced access points that standard PoE+ can't adequately power." },
-      { label: "Standard PoE+ value (LINOVISION, Revotech)", text: "Both cover typical PoE+ devices at 15.4W to 30W at a meaningfully lower price, sufficient for standard cameras, phones, and access points." }
+    "subheading": "Passthrough Switch vs Simple Extender",
+    "intro": "Some units are really tiny PoE switches, and some are repeaters with no switching logic.",
+    "cards": [
+      {
+        "label": "Switch-style (LINOVISION 2 Ports, MokerLink IP67)",
+        "text": "These behave like small powered switches. They negotiate PoE per port, report faults, and often add features like auto-reset. Choose these when the extender sits at a hub with two devices on different standards."
+      },
+      {
+        "label": "Plain extender (Revotech Gigabit, TRENDnet)",
+        "text": "They simply relay data and power with minimal configuration. That is less to go wrong and quicker to install, though you get fewer diagnostics and no per-port control."
+      }
     ],
-    note: "If any of your devices specifically require PoE++ power (check the device's own power specification), the TRENDnet or MokerLink picks are necessary. If your devices are standard PoE or PoE+ equipment, the LINOVISION or Revotech picks deliver full Gigabit performance at a lower cost.",
+    "note": "Most buyers should default to a plain extender, and pick the switch-style units only when they need DIN-rail mounting or auto-reset."
   },
   {
-    subheading: "By Installation Environment",
-    table: {
-      headers: ["Your installation", "Recommended pick"],
-      rows: [
-        ["Genuinely outdoor with high-wattage devices", "MokerLink IP67 Outdoor 2 Port Gigabit PoE Extender"],
-        ["Harsh industrial with surge risk, standard wattage", "LINOVISION 2 Ports Gigabit PoE Passthrough Switch"],
-        ["Standard indoor installation", "TRENDnet TPE-BE200 or Revotech Gigabit 2 Port"]
+    "subheading": "By Install Location",
+    "intro": "The enclosure should follow where the extender will live, not the other way round.",
+    "table": {
+      "headers": [
+        "Where it will sit",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Fully exposed outdoor wall or pole",
+          "MokerLink IP67 IP67 unit with waterproof cable caps"
+        ],
+        [
+          "Inside a rack, cabinet, or DIN-rail enclosure",
+          "LINOVISION 2 Ports Passthrough Switch, built for rail mounting in metal"
+        ],
+        [
+          "A conditioned office ceiling or closet",
+          "TRENDnet TPE-BE200, with a compact body and long warranty"
+        ],
+        [
+          "A dry porch under cover",
+          "Revotech Gigabit 2 Port, as the lightest-duty option here"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Heated PTZ Camera Requiring PoE++ Specifically",
-    cards: [
-      { label: "Look for", text: "An extender explicitly rated for PoE++ (IEEE 802.3bt) support at 60W or higher, since a heated outdoor PTZ camera often exceeds the 30W ceiling of standard PoE+." },
-      { label: "In this comparison", text: "Both the TRENDnet and MokerLink picks specifically support PoE++ at 60W and 90W respectively, making either suitable for a heated PTZ camera's higher power draw." }
-    ],
+    "subheading": "For a Small Business Camera Run Specifically",
+    "intro": "A four-camera shop usually needs one far hop and a pair of far-end devices.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated chain limit, a power class above your highest single load, and a warranty long enough to cover the install."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The TRENDnet gives 60W per device with a 4-unit chain, while the MokerLink IP67 suits a camera cluster on an outside wall with its IP67 case."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need to power PoE++ devices up to 60W with the longest warranty and daisy-chain distance, where the TRENDnet pick's under $60 price is justified by that combination." },
-      { label: "Save if", text: "Your devices only need standard PoE+ power, where the Revotech pick delivers full Gigabit speed for under $25, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "These sit well above the passthrough category in capability.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You run PoE++ devices or need government-grade compliance. The TRENDnet and MokerLink IP67 are the only picks here with output above 30W; see the 2-port guide at a lower tier for lighter loads."
+      },
+      {
+        "label": "Save if",
+        "text": "Your loads stay under 15W each. The Revotech Gigabit and LINOVISION 2 Ports already deliver Gigabit and surge protection for far less."
+      }
+    ]
   }
 ];
 
@@ -175,12 +261,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Do I need PoE++ support for a standard security camera, or is PoE+ enough?", "a": "Most standard IP cameras work fine with PoE+ at up to 30W, and PoE++ is specifically needed only for higher-power devices like heated outdoor PTZ cameras or advanced access points, so checking your exact device's power requirement before paying extra for PoE++ support is worth doing." },
-  { "q": "What's the most common mistake buyers make when choosing a 2-port Gigabit PoE extender?", "a": "Assuming any Gigabit-rated extender automatically supports the highest PoE wattage tier, when Gigabit speed and PoE++ high-wattage support are independent features that don't always come together on the same device." },
-  { "q": "Is the TRENDnet extender worth the higher price over the Revotech pick?", "a": "If you specifically need to power PoE++ devices up to 60W and want the longest warranty, the TRENDnet's higher price is justified, but for standard PoE+ devices, the Revotech pick's much lower price and longer cascade support deliver strong value instead." },
-  { "q": "How do I properly install the MokerLink outdoor extender to maintain its IP67 rating?", "a": "The listing specifically instructs passing the network cable through the waterproof cap before making the RJ45 connection, so following that exact installation sequence is necessary to actually achieve the unit's rated waterproof protection." },
-  { "q": "Can I cascade multiple 2-port Gigabit extenders together to reach a greater distance?", "a": "Yes, several picks in this comparison support cascading, with the Revotech pick specifically documenting up to 6 units for 700 meters total, though following each product's specific cascade wiring instructions is necessary to achieve the documented maximum distance." },
-  { "q": "Does NDAA and TAA compliance matter for a home or small business installation?", "a": "No, NDAA and TAA compliance are specifically federal procurement requirements relevant to government and some institutional buyers, with no practical relevance for a typical home or small business network installation." }
+  {
+    "q": "Does a Gigabit 2-port extender slow down after cascading units?",
+    "a": "A well-built chain can keep 1000Mbps, but each unit consumes some power. The Revotech lists up to 6 units over 700m, and the TRENDnet 4 units over 1640ft, so check the power class at the far end, since a 15W device may stop working before the data fails."
+  },
+  {
+    "q": "What is the biggest mistake when buying a PoE++ extender?",
+    "a": "Using a source that cannot supply the power. The MokerLink needs a 120W input to give 90W out, so a plain 802.3af switch port cannot feed it fully. Match the input power class to your highest output load before ordering."
+  },
+  {
+    "q": "Is the TRENDnet worth paying more than the Revotech?",
+    "a": "If you need 60W per device, a 4-unit chain, or a 3-year warranty with NDAA/TAA compliance, yes. For two modest cameras, the Revotech gives 15.4W per output and Gigabit speed at a fraction of the cost."
+  },
+  {
+    "q": "How do I mount the LINOVISION on a DIN rail?",
+    "a": "The listing specifies a metal IP53 body with DIN-rail support, so snap it onto a standard 35mm rail inside a cabinet and keep the cable ends below the unit. Leave airflow room because the case relies on passive cooling across its stated temperature range."
+  },
+  {
+    "q": "Can these extenders power a 24V passive camera?",
+    "a": "Check each listing, since these are all designed around active 802.3af/at/bt. Feeding passive 24V gear needs an injector or splitter with matching voltage. Using the wrong one can damage a device, so verify the camera label and the extender's stated standard."
+  },
+  {
+    "q": "How often should I check an outdoor extender such as the MokerLink?",
+    "a": "Look at the waterproof caps and cable entries once or twice a year. Rubber seals dry out in sun and cold, and the IP67 rating only holds if the caps stay seated. Wipe condensation from the housing before reopening it."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

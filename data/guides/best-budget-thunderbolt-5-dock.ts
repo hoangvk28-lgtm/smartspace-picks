@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Price Relative to Thunderbolt 5 Premium", "description": "Compared price against genuine Intel-certified Thunderbolt 5 performance in the $200-320 tier." },
-  { "title": "Per-Chip Mac Display Documentation", "description": "Compared theoretical versus real-world tested display limits by exact Mac chip." },
-  { "title": "Port Count and Variety", "description": "Compared total port count including Ethernet, card readers, and audio jacks." },
-  { "title": "Warranty and Sustainability", "description": "Compared warranty length and disclosed sustainable material sourcing." },
-  { "title": "Expansion Flexibility", "description": "Compared daisy-chain support and independent device chain management." }
+  {
+    "title": "Thunderbolt 5 bandwidth",
+    "description": "Thunderbolt 5 carries 80Gbps each way and can boost to 120Gbps in one direction for displays. The WAVLINK EVO lists a 120Gbps boost mode, and we checked whether each listing says so. A dock that only advertises 'TB5' without a boost claim might not drive the highest refresh rates."
+  },
+  {
+    "title": "Display capability by platform",
+    "description": "We compared stated display limits: dual 6K@60Hz on most Mac chips for the Kensington, single 8K@144Hz or dual 8K@60Hz for the WAVLINK EVO, and up to three 8K displays for the OWC. Mac and Windows differ, and the 12-in-1 WAVLINK lists dual display on macOS only."
+  },
+  {
+    "title": "Charging power",
+    "description": "Three docks list 140W Power Delivery, which covers 16-inch laptops. We checked that this is the wattage to the laptop and not just the adapter's size, since TB5 can scale higher in the spec but docks seldom deliver all of it. A 16-inch laptop under heavy load needs the full 140W, while thinner laptops sit well below it, so headroom was the test, not peak figures."
+  },
+  {
+    "title": "Ports and Ethernet",
+    "description": "The WAVLINK 12-in-1 lists 4 Thunderbolt 5 ports, 4 USB-A, SD 4.0, and 2.5G Ethernet. We weighed port count against the real need, since a dock with ports you never use costs the same as one you do. A bus-powered chain keeps working when the dock is not on AC, which counted in the OWC's favor for travel studios."
+  },
+  {
+    "title": "Warranty and certification",
+    "description": "The Kensington lists a 3-year warranty, and both WAVLINK docks list Intel certification. At this tier, a certification and a long warranty counted for more than an extra USB port. Those two items outlast any single port count, because the dock stays on a desk for years while laptops change."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,127 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Transparently tested Mac display limits with sustainable materials", "Kensington SD5000T5 Thunderbolt 5 Docking Station"],
-        ["The absolute lowest price for Intel EVO-certified TB5", "WAVLINK Intel EVO Certified Thunderbolt 5 Dock"],
-        ["The most comprehensive port count at a budget price", "WAVLINK Thunderbolt 5 Dock, 12-in-1"],
-        ["Flexible independent daisy-chaining with quiet operation", "OWC Thunderbolt 5 Dock, 11-Port"]
+    "subheading": "By Display Setup",
+    "intro": "TB5 docks differ most in display limits, and those limits depend on your computer.",
+    "table": {
+      "headers": [
+        "Your monitors",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Two 6K displays on a Mac",
+          "Kensington SD5000T5 Thunderbolt 5 Docking Station, with dual 6K@60Hz on most Mac chips"
+        ],
+        [
+          "One 8K or a very high refresh rate display",
+          "WAVLINK Intel EVO Certified Thunderbolt 5 Dock, with single 8K@144Hz and 120Gbps boost"
+        ],
+        [
+          "Three 4K@144Hz displays on Windows",
+          "WAVLINK Thunderbolt 5 Dock, Intel Certified, 12-in-1, with triple 4K@144Hz on Windows"
+        ],
+        [
+          "Three 8K displays or a daisy chained studio",
+          "OWC Thunderbolt 5 Dock 11-Port Connectivity Solution, with three independent daisy chains"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $200", "WAVLINK Intel EVO Certified Dock (under $200)"],
-        ["Under $220", "WAVLINK 12-in-1 (under $250)"],
-        ["Under $227", "Kensington SD5000T5 (under $250)"],
-        ["Under $320", "OWC Thunderbolt 5 Dock, 11-Port (under $350)"]
+    "subheading": "By Budget",
+    "intro": "TB5 docks start well above older Thunderbolt 4 prices.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $200, the cheapest TB5 dock here",
+          "WAVLINK Intel EVO Certified, with 120Gbps boost"
+        ],
+        [
+          "Under $220, more ports",
+          "WAVLINK Thunderbolt 5 Dock, Intel Certified, 12-in-1, with 12-in-1 connectivity"
+        ],
+        [
+          "Under $230, long warranty",
+          "Kensington SD5000T5, with 3 years and recycled aluminum"
+        ],
+        [
+          "Under $320, studio class",
+          "OWC Thunderbolt 5 Dock, with three daisy chains"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Lowest Price vs Longest Warranty",
-    cards: [
-      { label: "Lowest price (WAVLINK EVO)", text: "Delivers genuine Intel EVO-certified Thunderbolt 5 performance at the lowest cost in this comparison, backed by a standard 2-year warranty." },
-      { label: "Longest warranty (Kensington)", text: "Costs slightly more but includes a 3-year manufacturer warranty with lifetime technical support, a meaningfully longer coverage period." }
+    "subheading": "Thunderbolt 5 vs Thunderbolt 4 Dock",
+    "intro": "The key question is whether your laptop has TB5 at all.",
+    "cards": [
+      {
+        "label": "Thunderbolt 5 dock",
+        "text": "Offers 80Gbps bidirectional with a 120Gbps display boost, but only a TB5 laptop gets that. A TB4 laptop runs the dock at 40Gbps, so it is a future-proofing purchase."
+      },
+      {
+        "label": "Thunderbolt 4 dock",
+        "text": "Costs less and covers one or two monitors, USB peripherals, and laptop charging on a single cable. If your laptop is TB4 and you have one display, it often saves money."
+      }
     ],
-    note: "If minimizing upfront cost is your priority, the WAVLINK EVO pick delivers real Thunderbolt 5 performance for less. If long-term warranty peace of mind matters more, the Kensington's extra year of coverage is worth the modest price difference.",
+    "note": "Buy TB5 only if your laptop supports it or you plan to upgrade within a couple of years."
   },
   {
-    subheading: "By Networking Need",
-    table: {
-      headers: ["Your networking priority", "Recommended pick"],
-      rows: [
-        ["Standard 2.5G Ethernet for general use", "Either WAVLINK pick or Kensington SD5000T5"],
-        ["Maximum flexible daisy-chain expansion", "OWC Thunderbolt 5 Dock, 11-Port"]
+    "subheading": "By Power Need",
+    "intro": "Charging wattage decides which dock fits a performance laptop.",
+    "table": {
+      "headers": [
+        "Your laptop",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A 16-inch MacBook Pro or similar at up to 140W",
+          "Kensington SD5000T5, WAVLINK Intel EVO Certified, and WAVLINK Thunderbolt 5 Dock, Intel Certified, 12-in-1 all list 140W"
+        ],
+        [
+          "A bus-powered setup with several chained devices",
+          "OWC Thunderbolt 5 Dock, which supports bus-powered daisy chains"
+        ],
+        [
+          "A thin laptop at 65W to 100W",
+          "WAVLINK Thunderbolt 5 Dock, Intel Certified, 12-in-1, since the extra wattage is just headroom"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Buyers Who Prioritize Sustainable Materials Specifically",
-    cards: [
-      { label: "Look for", text: "A dock that specifically discloses recycled material content and certified sustainable packaging, not just generic 'eco-friendly' marketing language." },
-      { label: "In this comparison", text: "The Kensington SD5000T5 specifically states its casing is composed of 100% post-consumer recycled aluminum, delivered in FSC-certified packaging." }
-    ],
+    "subheading": "For a Mac Studio Setup Specifically",
+    "intro": "A Mac with a Pro or Max chip often drives two high-resolution displays.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A listing that says Mac-tested dual 6K@60Hz, a 140W adapter, and a long warranty."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Kensington SD5000T5 lists dual 6K@60Hz on most Mac chips, and the OWC Thunderbolt 5 Dock offers daisy chains for Thunderbolt displays."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want flexible independent daisy-chaining with quiet fanless operation, where the OWC pick justifies its under $350 price within this budget tier." },
-      { label: "Save if", text: "You want the absolute lowest price for genuine Intel EVO-certified Thunderbolt 5 performance, where the WAVLINK EVO pick delivers that for under $200." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Even the lowest-priced pick is more expensive than a TB4 dock.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You run three or more high-end displays. The OWC Thunderbolt 5 Dock costs the most and supports up to three 8K displays."
+      },
+      {
+        "label": "Save if",
+        "text": "You need one monitor and fast storage. The WAVLINK Intel EVO Certified costs the least and still offers 120Gbps boost."
+      }
+    ]
   }
 ];
 
@@ -182,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Are these truly budget docks, or just cheaper than premium Thunderbolt 5 options?", "a": "These are budget-tier specifically within the Thunderbolt 5 category, priced roughly $200-320 compared to $400-650+ for premium enterprise-focused docks, but still meaningfully pricier than standard non-Thunderbolt USB-C hubs due to genuine Thunderbolt 5 component and certification costs." },
-  { "q": "What's the most common mistake buyers make when choosing a budget Thunderbolt 5 dock?", "a": "Assuming the lowest-priced option within this tier delivers identical warranty coverage and real-world tested display performance as pricier alternatives, when details like warranty length and manufacturer-disclosed testing results vary meaningfully even among similarly priced budget-tier docks." },
-  { "q": "Is the Kensington SD5000T5 worth the extra cost over the WAVLINK EVO dock for a home office setup?", "a": "If a longer warranty and transparently disclosed real-world tested Mac display limits matter to you, the Kensington's modest price premium is justified, but if minimizing upfront cost is your priority and you're comfortable with standard 2-year warranty coverage, the WAVLINK EVO pick delivers strong value." },
-  { "q": "Will I get triple display support on my MacBook with any of these budget docks?", "a": "No, all picks in this comparison that disclose platform-specific display limits state that triple display support requires Windows 11 with a Thunderbolt 5 port, while macOS is limited to dual external displays regardless of which of these budget docks you choose." },
-  { "q": "How do I know if my laptop's USB-C port actually supports Thunderbolt 5?", "a": "Checking your laptop manufacturer's exact specification sheet for your specific model is the most reliable way to confirm genuine Thunderbolt 5 support, since a USB-C port alone doesn't guarantee Thunderbolt compatibility at any generation." },
-  { "q": "Do these budget Thunderbolt 5 docks include the cables needed to connect my monitors?", "a": "Most picks in this comparison specifically note that USB-C to HDMI/DP cables are not included, so budgeting for separately purchased display cables compatible with your specific monitors is worth doing before assuming a complete out-of-box setup." }
+  {
+    "q": "Do I need a Thunderbolt 5 laptop for these docks?",
+    "a": "For full speed, yes. A TB4 or USB4 laptop will run the dock at the lower 40Gbps. The docks still work, but features such as 120Gbps boost and the top display modes need a Thunderbolt 5 or USB4 v2 host. Check the laptop's port label for the Thunderbolt logo."
+  },
+  {
+    "q": "Does 120Gbps mean faster file transfers?",
+    "a": "Not usually. Thunderbolt 5 offers 80Gbps in each direction, and 120Gbps is a one-way boost used for displays. File speeds are limited by the drives and ports, so check the listed port speeds. Disk speeds depend on the drive and port, not the 120Gbps figure."
+  },
+  {
+    "q": "Is the Kensington worth paying more than the WAVLINK EVO?",
+    "a": "If you want a 3-year warranty, recycled aluminum, and Mac-tested dual 6K. The WAVLINK EVO costs less and lists 120Gbps boost with single 8K@144Hz, so it wins for a single fast display. Check the display needs first."
+  },
+  {
+    "q": "Will the 12-in-1 WAVLINK run three monitors on a Mac?",
+    "a": "The listing says triple 4K@144Hz on Windows but dual display on macOS. macOS limits are often tied to the chip, so confirm your Mac's display count before assuming three monitors. Look up the chip's display limit in Apple's tech specs."
+  },
+  {
+    "q": "How should I set up daisy chains on the OWC dock?",
+    "a": "The OWC lists three independent daisy chains that can work even when bus-powered. Connect devices to separate ports to avoid sharing bandwidth, and use Thunderbolt-rated cables, since a plain USB-C cable can limit the link."
+  },
+  {
+    "q": "Do these docks need a Thunderbolt 5 cable?",
+    "a": "Yes for full speed. Use the cable that came with the dock or a certified Thunderbolt 5 cable. An older Thunderbolt 4 or USB-C cable limits the link to lower speeds or drops displays. Keep the cable under about 1 meter for the highest speed."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

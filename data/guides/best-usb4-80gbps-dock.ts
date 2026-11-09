@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real Bandwidth Allocation", "description": "Compared stated Gbps figures for data versus dynamically allocated display bandwidth." },
-  { "title": "Built-in Storage or GPU Support", "description": "Compared docks offering integrated NVMe slots or GPU enclosures against pure connectivity hubs." },
-  { "title": "OS-Specific Limitations", "description": "Compared explicitly disclosed macOS and Windows compatibility exceptions." },
-  { "title": "Cooling Design", "description": "Compared fanless designs against active-cooled enclosures for GPU workloads." },
-  { "title": "Use Case Fit", "description": "Compared eGPU gaming, video creation, and Mac mini storage expansion positioning." }
+  {
+    "title": "Host requirement for 80Gbps",
+    "description": "All four picks need a Thunderbolt 5 or USB4 v2 host to reach 80Gbps, and a Thunderbolt 4 laptop gets 40Gbps. The 80Gbps Mac mini Dock lists 80Gbps only on the Mac mini M4 Pro and 40Gbps on the base M4, so we noted each host limit. The cable matters too, since only a cable rated for 80Gbps keeps the full link."
+  },
+  {
+    "title": "Display bandwidth and outputs",
+    "description": "OWC lists up to 120Gb/s display bandwidth, and WAVLINK lists single 8K at 144Hz, dual 8K at 60Hz or triple 4K at 144Hz. We recorded that WAVLINK's triple display needs Windows 11 and macOS is limited to dual. We compared claimed display modes with the maximum each dock can sustain at once."
+  },
+  {
+    "title": "Storage and expansion",
+    "description": "WAVLINK has a PCIe Gen 4 x4 M.2 slot at up to 64Gbps, and the Mac mini dock has two M.2 2280 slots up to 16TB total. OWC has no NVMe slot, so we compared what storage you have to buy elsewhere. An internal M.2 slot removes the need for a separate external drive and its cable."
+  },
+  {
+    "title": "Power and cooling",
+    "description": "OWC lists 140W charging in a fanless aluminum enclosure, TREBLEET a built-in 600W SFX PSU with up to 450W to the GPU and 140W laptop charging. We checked how each handles heat and noise. A fanless case is quieter but can limit sustained load, and a built-in PSU avoids a large external brick."
+  },
+  {
+    "title": "Platform limits and price",
+    "description": "TREBLEET's macOS support is limited to Intel Macs with specific AMD GPUs, not NVIDIA, and the Mac mini dock is built around that one machine. We scored breadth of compatibility against price. A narrow platform list is fine if it matches your machine and a drawback if it does not."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,129 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Broad Thunderbolt compatibility with quiet operation", "OWC Thunderbolt 5 Hub 5-Port"],
-        ["Built-in SSD caching for video editing", "WAVLINK Thunderbolt 5 Dock, 13-in-1 with NVMe M.2"],
-        ["A dedicated eGPU enclosure for gaming or rendering", "TREBLEET 80Gbps eGPU Enclosure"],
-        ["The lowest price with genuine 80Gbps and dual-SSD storage", "80Gbps Thunderbolt 5 Mac mini Dock & Stand"]
+    "subheading": "By Primary Need",
+    "intro": "Pick the job the dock must do.",
+    "table": {
+      "headers": [
+        "If you want",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Broad compatibility with quiet running",
+          "OWC Thunderbolt 5 Hub 5-Port, fanless with 140W charging."
+        ],
+        [
+          "Built-in SSD caching for video",
+          "WAVLINK Thunderbolt 5 Dock, 13-in-1 with an NVMe M.2 slot."
+        ],
+        [
+          "Lowest price with real 80Gbps and dual SSDs",
+          "80Gbps Thunderbolt 5 Mac mini Dock & Stand."
+        ],
+        [
+          "Desktop GPU outside the laptop",
+          "TREBLEET 80Gbps eGPU Enclosure, with a built-in 600W PSU."
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $180", "OWC Thunderbolt 5 Hub (under $180)"],
-        ["Under $245", "WAVLINK Thunderbolt 5 Dock (under $250)"],
-        ["Under $135", "80Gbps Mac mini Dock & Stand (under $140)"],
-        ["Under $360", "TREBLEET 80Gbps eGPU Enclosure (under $400)"]
+    "subheading": "By Budget",
+    "intro": "Prices span a wide range, depending on what you want inside.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $140, cheapest",
+          "80Gbps Thunderbolt 5 Mac mini Dock & Stand."
+        ],
+        [
+          "Under $180, general hub",
+          "OWC Thunderbolt 5 Hub 5-Port."
+        ],
+        [
+          "Under $250, SSD slot and Ethernet",
+          "WAVLINK Thunderbolt 5 Dock, with 2.5G Ethernet."
+        ],
+        [
+          "Under $400, eGPU",
+          "TREBLEET 80Gbps eGPU Enclosure."
+        ]
+      ]
+    }
   },
   {
-    subheading: "General Connectivity Hub vs Dedicated eGPU Enclosure",
-    cards: [
-      { label: "General connectivity hub (OWC, WAVLINK, Mac mini Dock)", text: "Provides broad port expansion, displays, and optional storage for everyday productivity and creative work." },
-      { label: "Dedicated eGPU enclosure (TREBLEET)", text: "Specifically houses a full desktop graphics card with its own power supply, purpose-built for gaming and GPU-accelerated rendering." }
+    "subheading": "General Hub vs eGPU Enclosure",
+    "intro": "Two products share a bandwidth number but do different jobs.",
+    "cards": [
+      {
+        "label": "General hub",
+        "text": "OWC and WAVLINK expand ports, drive displays and charge the laptop. They suit most desks."
+      },
+      {
+        "label": "eGPU enclosure",
+        "text": "TREBLEET hosts a desktop graphics card with up to 450W of power, but macOS support is limited to Intel Macs with some AMD GPUs."
+      }
     ],
-    note: "If you need general connectivity, displays, and storage, the OWC or WAVLINK picks cover that well. If you specifically want to run a desktop-class GPU externally, the TREBLEET enclosure is purpose-built for that.",
+    "note": "Choose a hub like OWC unless you specifically want a desktop GPU attached."
   },
   {
-    subheading: "By GPU Platform",
-    table: {
-      headers: ["Your GPU and platform", "Recommended pick"],
-      rows: [
-        ["Windows with NVIDIA or AMD GPU", "TREBLEET 80Gbps eGPU Enclosure"],
-        ["Intel Mac with specific AMD GPU", "TREBLEET 80Gbps eGPU Enclosure (AMD only, per manufacturer note)"]
+    "subheading": "By Host Platform",
+    "intro": "The host machine decides what 80Gbps means for you.",
+    "table": {
+      "headers": [
+        "Host",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Mac mini M4 Pro",
+          "80Gbps Thunderbolt 5 Mac mini Dock & Stand."
+        ],
+        [
+          "Windows 11 PC, triple 4K at 144Hz",
+          "WAVLINK Thunderbolt 5 Dock."
+        ],
+        [
+          "Thunderbolt 3, 4 or 5 laptop",
+          "OWC Thunderbolt 5 Hub, compatible across Thunderbolt 3, 4 and 5 and USB4."
+        ],
+        [
+          "Windows laptop with a desktop GPU",
+          "TREBLEET 80Gbps eGPU Enclosure."
+        ]
+      ]
+    }
   },
   {
-    subheading: "For RAW Video Footage Caching Specifically",
-    cards: [
-      { label: "Look for", text: "A dock with a built-in high-speed PCIe M.2 SSD slot rated for at least 40-60Gbps, so you can store and edit high-bitrate RAW footage directly without an external drive enclosure." },
-      { label: "In this comparison", text: "The WAVLINK Thunderbolt 5 Dock specifically markets its PCIe Gen 4 x4 M.2 SSD slot at up to 64Gbps for exactly this RAW footage caching use case." }
-    ],
+    "subheading": "For RAW Video Footage Caching Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A PCIe Gen 4 SSD slot or two M.2 slots, so footage can be cached locally off the laptop."
+      },
+      {
+        "label": "In this comparison",
+        "text": "WAVLINK lists a PCIe Gen 4 x4 M.2 slot at up to 64Gbps, and the Mac mini dock offers two M.2 2280 slots up to 16TB total."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You specifically want a dedicated eGPU enclosure with built-in high-wattage power supply for gaming or rendering, where the TREBLEET pick justifies its under $400 price." },
-      { label: "Save if", text: "You specifically own a Mac mini M4 Pro and want genuine 80Gbps bandwidth with dual-SSD expansion, where the Mac mini Dock & Stand delivers that for under $140, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want an NVMe slot with triple display. WAVLINK Thunderbolt 5 Dock sits in the under-$250 tier."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need ports. OWC under $180 or the Mac mini dock under $140 cover the basics."
+      }
+    ]
   }
 ];
 
@@ -182,12 +266,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will I get 80Gbps bandwidth if my laptop only has Thunderbolt 4?", "a": "No, all four picks in this comparison specifically require a Thunderbolt 5 or USB4 v2 host connection to unlock the full 80Gbps bandwidth, so a Thunderbolt 4 laptop will see reduced performance despite the dock's own capability." },
-  { "q": "What's the most common mistake buyers make when choosing an 80Gbps USB4 dock?", "a": "Buying based purely on the headline 80Gbps figure without confirming their own laptop has a genuine Thunderbolt 5 or USB4 v2 port, then being disappointed when the dock performs at a lower, Thunderbolt 4-equivalent speed instead." },
-  { "q": "Can I use the TREBLEET eGPU enclosure with an NVIDIA graphics card on my MacBook?", "a": "No, the listing explicitly states that on macOS, it only supports Intel-based Macs with specific AMD GPU models and does not support NVIDIA GPUs, so Mac users with NVIDIA cards should look elsewhere, though Windows users can use either NVIDIA or AMD GPUs." },
-  { "q": "Is the WAVLINK dock's built-in SSD slot worth it if I don't do video editing?", "a": "If you don't have a specific need for local high-speed storage caching, the OWC Hub's lower price and pure connectivity focus may better suit your needs, while the WAVLINK's SSD slot delivers real value specifically for video editing, large file caching, or similar storage-intensive workflows." },
-  { "q": "Will the Mac mini Dock & Stand give me 80Gbps if I own the base Mac mini M4 instead of the M4 Pro?", "a": "No, the listing specifically states the base Mac mini M4 gets 40Gbps transfer speeds, while the full 80Gbps figure is specifically reserved for the Mac mini M4 Pro chip tier." },
-  { "q": "Do these docks require a separate power adapter, or is one included?", "a": "The OWC and TREBLEET picks specifically include their power supply built into the unit or in the box, while checking each specific listing's included accessories is worth doing since the WAVLINK pick's listing notes that cables and the security lock are not included." }
+  {
+    "q": "Will I get 80Gbps if my laptop only has Thunderbolt 4?",
+    "a": "No. All four picks need a Thunderbolt 5 or USB4 v2 host for 80Gbps, and a Thunderbolt 4 laptop caps the link at 40Gbps. The dock still works, but you pay for headroom your laptop cannot use, so check the port label first."
+  },
+  {
+    "q": "What mistake do buyers make with 80Gbps docks?",
+    "a": "Buying for the headline 80Gbps without checking their own host. A Thunderbolt 5 or USB4 v2 port is required, and a cable that is not rated for 80Gbps can also throttle the link. Confirm both the port and the cable before you order."
+  },
+  {
+    "q": "Can TREBLEET's eGPU enclosure run an NVIDIA card on a MacBook?",
+    "a": "No. The listing says macOS support is limited to Intel-based Macs with specific AMD GPUs, so an NVIDIA card will not run on a MacBook. NVIDIA cards work with Windows hosts, so a MacBook buyer should look at a general dock like OWC instead."
+  },
+  {
+    "q": "Is WAVLINK's built-in SSD slot worth it if I do not edit video?",
+    "a": "Probably not. The PCIe Gen 4 x4 slot at up to 64Gbps suits RAW footage caching, but a general user can get the same ports from OWC's cheaper hub. WAVLINK also needs Windows 11 for triple displays."
+  },
+  {
+    "q": "Will the Mac mini dock give 80Gbps on a base M4?",
+    "a": "No. The listing says the base Mac mini M4 runs at 40Gbps and only the M4 Pro reaches 80Gbps. The dock still adds two M.2 2280 slots up to 16TB total, so it is useful on either chip, but check which one you own before expecting 80Gbps."
+  },
+  {
+    "q": "Do these docks include a power supply?",
+    "a": "OWC and TREBLEET integrate their power, with TREBLEET carrying a built-in 600W SFX PSU for the GPU, while WAVLINK and the Mac mini dock need checking per listing. A missing power brick can add a separate cost, so confirm it before comparing prices."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

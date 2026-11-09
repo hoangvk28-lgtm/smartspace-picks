@@ -84,69 +84,151 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real Price Per Port", "description": "Compared total price against how many devices each extender actually powers." },
-  { "title": "Cascade and Daisy-Chain Distance", "description": "Compared documented multi-unit configurations and total achievable distance at this price tier." },
-  { "title": "PoE Standard Compatibility", "description": "Compared active versus passive PoE source compatibility." },
-  { "title": "Speed Consistency", "description": "Compared Gigabit versus Fast Ethernet speeds across the budget tier." },
-  { "title": "Installation Simplicity", "description": "Compared plug-and-play design and automatic protection features." }
+  {
+    "title": "Cost per usable port",
+    "description": "We compared the price against the number of powered outputs. The CENTROPOWER has one port and the Revotech has two at 15W each, while the MokerLink delivers three outputs. At this level, paying for a port you cannot power is the main way to waste money. We also looked at how clearly each page admits its limits."
+  },
+  {
+    "title": "Speed caps at low prices",
+    "description": "Cheaper units often cap at 100Mbps. The Revotech and CENTROPOWER are 10/100, while DSLRKIT is Gigabit. We treated 100Mbps as fine for 1080p cameras but a real limit for APs, and marked it in each pick. If an old network is Fast Ethernet end to end, this limit barely matters, but a Gigabit switch upstream makes it the weak link in the chain."
+  },
+  {
+    "title": "Source compatibility",
+    "description": "The DSLRKIT accepts active 802.3af/at or 48-57V passive sources, which is rare at this tier. We credited flexible input, since many buyers have a mix of old injectors and switches. A cheap switch that accepts both source types spares you from replacing a drawer of injectors you already own."
+  },
+  {
+    "title": "Cascade claims",
+    "description": "The Revotech lists 6 units for 700m and the CENTROPOWER lists 4 units for 400m. These are the maximum, not the typical, so we discounted them when the power per unit was low. Hop count alone says nothing about the voltage left at the end of the run, so we discounted cascade claims on low-wattage inputs."
+  },
+  {
+    "title": "Protection and support",
+    "description": "We checked for auto-detection and protection features. The CENTROPOWER lists installation protection with automatic detection, and the DSLRKIT has an outdoor-rated case. These features reduce the chance of damage from a wrong connection. We treated those as small but real insurance on gear that will be cabled by a beginner."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Broad compatibility with active and passive PoE sources", "DSLRKIT 2-Port Outdoor Gigabit PoE Passthrough Switch"],
-        ["The longest cascade distance from a budget extender", "Revotech 2 Port POE Extender (POE5003)"],
-        ["A simple single-device extender", "CENTROPOWER PoE Extender Ethernet Repeater, 1 Port"],
-        ["To power three devices at the lowest cost per device", "MokerLink 4 Port PoE Extender"]
+    "subheading": "By What You Actually Need",
+    "intro": "On a tight budget, you choose between speed, port count, and weatherproofing.",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Gigabit speed and outdoor housing",
+          "DSLRKIT 2-Port Outdoor Gigabit Passthrough Switch, at 1000Mbps"
+        ],
+        [
+          "Two cameras at modest cost",
+          "Revotech 2 Port (POE5003), at 15W per output"
+        ],
+        [
+          "The simplest one-camera hop to 100m",
+          "CENTROPOWER 1 Port Ethernet Repeater, at 100Mbps"
+        ],
+        [
+          "Three devices from one 30W input",
+          "MokerLink 4 Port Extender, at an 8W average per port"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $14", "DSLRKIT 2-Port (under $15)"],
-        ["Under $15", "CENTROPOWER 1-Port (under $15)"],
-        ["Under $17", "Revotech 2 Port (under $20) or MokerLink 4 Port (under $20)"]
+    "subheading": "By Budget",
+    "intro": "All four sit under $20, so each tier is a small difference.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $15, Gigabit",
+          "DSLRKIT, the cheapest gigabit pick"
+        ],
+        [
+          "Under $15, single port",
+          "CENTROPOWER, for one camera"
+        ],
+        [
+          "Under $20, two outputs",
+          "Revotech, with 6-unit cascade support"
+        ],
+        [
+          "Under $20, three outputs",
+          "MokerLink 4 Port, for a trio of low-draw devices"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Single-Device Simplicity vs Multi-Device Value",
-    cards: [
-      { label: "Single-device simplicity (DSLRKIT, CENTROPOWER)", text: "Both keep installation straightforward with 1-2 ports, ideal if you only need to extend one or two nearby devices." },
-      { label: "Multi-device value (MokerLink)", text: "Powers three separate devices from one unit at a similar price to the single-port picks, delivering better per-device value for multi-camera setups." }
+    "subheading": "Gigabit vs 100Mbps at the Low End",
+    "intro": "Under $20, you rarely get both speed and ports.",
+    "cards": [
+      {
+        "label": "Gigabit (DSLRKIT)",
+        "text": "Only the DSLRKIT here reaches 1000Mbps. It keeps headroom for a 4K camera or AP."
+      },
+      {
+        "label": "100Mbps (Revotech, CENTROPOWER, MokerLink 4 Port)",
+        "text": "Enough for 1080p cameras, and sometimes even four of them. Not enough if the device later gets upgraded."
+      }
     ],
-    note: "If you only have one or two devices to extend, the simpler single or dual-port picks keep things straightforward. If you have three or more nearby devices, the MokerLink pick's per-device cost is meaningfully lower.",
+    "note": "If the device is a camera, 100Mbps is fine; for an AP, buy the DSLRKIT."
   },
   {
-    subheading: "By Cascade Distance Need",
-    table: {
-      headers: ["Your distance need", "Recommended pick"],
-      rows: [
-        ["Standard 100m single-hop distance", "DSLRKIT 2-Port Outdoor Gigabit PoE Passthrough Switch"],
-        ["Extended distance via daisy-chain (400m)", "CENTROPOWER PoE Extender Ethernet Repeater"],
-        ["Maximum distance via daisy-chain (2296ft/700m)", "Revotech 2 Port POE Extender"]
+    "subheading": "By Source You Already Own",
+    "intro": "An extender is only as good as the source feeding it.",
+    "table": {
+      "headers": [
+        "Your source",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A passive 48 to 57V injector",
+          "DSLRKIT, as it accepts passive sources"
+        ],
+        [
+          "A standard 802.3af switch",
+          "CENTROPOWER, which is built for 802.3af"
+        ],
+        [
+          "An 802.3at switch with 30W available",
+          "Revotech, which splits 30W into two 15W outputs"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a First-Time PoE Extender Buyer Specifically",
-    cards: [
-      { label: "Look for", text: "Automatic device detection and installation protection features, which prevent damage from incorrect wiring or an unsupported device type, especially valuable if you're new to PoE installations." },
-      { label: "In this comparison", text: "The Revotech and CENTROPOWER picks both specifically state automatic detection and protection features that guard against installation mistakes." }
-    ],
+    "subheading": "For a Rental Apartment Camera Specifically",
+    "intro": "Renters want small, quick installs with no holes.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A single compact unit, a safe fallback if the source is unsuitable, and a clear power rating."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The CENTROPOWER installs in minutes for a single hallway camera, while the MokerLink 4 Port handles three devices."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need to power three separate devices from one extender, where the MokerLink pick's under $20 price delivers better per-device value than buying multiple single-port units." },
-      { label: "Save if", text: "You only need to extend one or two devices with broad PoE source compatibility, where the DSLRKIT pick delivers that for under $15, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Since every pick is under $20, spending more means leaving this guide.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need 4 or more cameras or higher power. See the 30W and 2-port gigabit guides for better units."
+      },
+      {
+        "label": "Save if",
+        "text": "Your devices are basic. The CENTROPOWER and DSLRKIT cover most one or two device installs."
+      }
+    ]
   }
 ];
 
@@ -174,12 +256,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Is the cheapest PoE extender always the best value?", "a": "Not necessarily; the MokerLink pick's slightly higher price powers three devices from one unit, working out to a lower true cost per device than a cheaper single or dual-port extender, so calculating price per device is worth doing before assuming the lowest sticker price is the best deal." },
-  { "q": "What's the most common mistake buyers make when choosing a budget PoE extender?", "a": "Comparing extenders only by their headline price without accounting for how many devices each one actually powers, when a slightly pricier multi-port extender can deliver meaningfully better value per device than the cheapest single-port option." },
-  { "q": "Can I use a budget PoE extender with a passive PoE source instead of a standard PoE switch?", "a": "Only the DSLRKIT pick in this comparison specifically states compatibility with passive DC48V-57V PoE sources in addition to standard active PoE, so checking a listing's stated PoE source compatibility is important if your existing setup uses passive PoE." },
-  { "q": "How far can I really extend my PoE network with a budget extender?", "a": "It depends on cascading multiple units together; the Revotech pick specifically documents up to 2296ft using 6 cascaded units, so the real achievable distance and total cost depend on how many units you actually need to reach your specific installation distance." },
-  { "q": "Are budget PoE extenders reliable for a long-term installation?", "a": "The Revotech and CENTROPOWER picks in this comparison both specifically include automatic detection and installation protection features that help ensure reliable operation, though as with any budget hardware, checking specific compatibility with your devices before relying on it long-term is worth doing." },
-  { "q": "Do I need Gigabit speed for a basic budget PoE extender setup?", "a": "Only the DSLRKIT pick in this comparison offers Gigabit speed; the other budget picks operate at 10/100Mbps, which is adequate for standard IP cameras and basic devices but may bottleneck higher-bandwidth equipment." }
+  {
+    "q": "Can a budget PoE extender fry my camera?",
+    "a": "Rarely, but a mismatch can. The DSLRKIT accepts both active and passive sources, so check the voltage. A 48V to 57V passive source into a 24V device is the usual cause of damage, so verify your camera's label. A wrong source voltage is the one mistake that can be expensive."
+  },
+  {
+    "q": "What is the main mistake on a budget extender?",
+    "a": "Counting ports instead of watts. The Revotech splits 30W into two 15W outputs, and the MokerLink averages 8W per port, so a camera with IR can exceed those limits. Check your camera's peak draw. Leave at least 20 percent of the budget spare."
+  },
+  {
+    "q": "Is the DSLRKIT worth paying more than the CENTROPOWER?",
+    "a": "Yes if you need Gigabit or outdoor use. The CENTROPOWER is 100Mbps with one port, so for a basic camera it is perfectly fine and saves a little money. Read the label on the camera or its power brick first."
+  },
+  {
+    "q": "How do I cascade the Revotech?",
+    "a": "Connect the second unit to the first's output. The listing supports 6 units to 700m, but each hop reduces the available power. Use a 30W source and test the last device at night with infrared on. Label each hop and its power so you can troubleshoot later."
+  },
+  {
+    "q": "Do these extenders work with 24V passive PoE cameras?",
+    "a": "Not by default. The listed standards are 802.3af/at, and the DSLRKIT's passive support is 48V to 57V. A 24V camera needs its own injector. Check the voltage before connecting anything. Check the connector wiring too."
+  },
+  {
+    "q": "How should I weatherproof a budget extender?",
+    "a": "If it is not rated, place it in a sealed weather box, add a drip loop, and use dielectric grease on connectors. The DSLRKIT lists an outdoor housing, but caps and drip loops are still worth adding. Recheck seals once a season."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

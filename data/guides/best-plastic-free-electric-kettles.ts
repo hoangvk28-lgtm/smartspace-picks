@@ -40,7 +40,7 @@ export const products: GuideProduct[] = [
       "Independent leaching test cited"
     ],
     "cons": [
-      "Costs about $170",
+      "Costs under $200",
       "Test result is a seller claim"
     ],
     "bestFor": "Buyers avoiding plastic and silicone"
@@ -219,47 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "BPA-free versus plastic-free",
-    "explanation": "BPA-free means one chemical is absent from a plastic, while plastic-free means no plastic touches the water. This matters because hot water and steam leave plastic lids and spouts hot for years. Look for wording that names the lid, spout and interior, not only the body."
+    "explanation": "BPA-free means one chemical is absent from a plastic, while plastic-free means no plastic touches the water. This matters because hot water and steam leave plastic lids and spouts hot for years. Look for wording that names the lid, spout and interior, not only the body. Check the photos too, since a hidden plastic fill window or button can contradict a plastic-free headline."
   },
   {
     "criterion": "Lids, seals and silicone",
-    "explanation": "Even steel kettles use a gasket under the lid, and some use silicone there. KEINVE discloses an LFGB silicone seal while Saki claims no silicone contact. Decide whether silicone matters to you, then look for the word in the listing."
+    "explanation": "Even steel kettles use a gasket under the lid, and some use silicone there. KEINVE discloses an LFGB silicone seal while Saki claims no silicone contact. Decide whether silicone matters to you, then look for the word in the listing. Check photos of the lid underside, where a plastic liner or a silicone ring is usually visible."
   },
   {
     "criterion": "Steel grade 304 versus 316",
-    "explanation": "304 is the common food-grade stainless, and 316 adds molybdenum for corrosion resistance. For a kettle either is acceptable, so do not pay extra for 316 alone. Check that the grade is stated rather than just 'stainless'."
+    "explanation": "304 is the common food-grade stainless, and 316 adds molybdenum for corrosion resistance. For a kettle either is acceptable, so do not pay extra for 316 alone. Check that the grade is stated rather than just 'stainless'. MEISON, Damsun and Mecity name their grade, while some others list only stainless steel."
   },
   {
     "criterion": "Presets and keep-warm duration",
-    "explanation": "Presets set the water to a target temperature, and keep-warm holds it for a time. The listings range from 30 minutes on KEINVE to 120 on Saki. Check both numbers against how long you sip."
+    "explanation": "Presets set the water to a target temperature, and keep-warm holds it for a time. The listings range from 30 minutes on KEINVE to 120 on Saki. Check both numbers against how long you sip. A 30 minute keep-warm is enough for a single cup, while a 120 minute hold suits sipping through a morning. A 175 degree F preset suits green tea and 200 degree F suits coffee, so presets beat a single boil switch for variety."
   },
   {
     "criterion": "Cleaning and limescale",
-    "explanation": "Seamless interiors and wide mouths let you wipe scale without tools. Hard water leaves deposits quickly. Look for 'wide mouth' and a descaling instruction."
+    "explanation": "Seamless interiors and wide mouths let you wipe scale without tools. Hard water leaves deposits quickly. Look for 'wide mouth' and a descaling instruction. Hard water leaves scale quickly, so a wide mouth and a monthly vinegar descale save the heating element. A descale every month with equal parts vinegar and water keeps the base clean and the water tasting neutral."
   },
   {
     "criterion": "Independent test claims",
-    "explanation": "Some sellers cite lab tests, as Saki does, which are the seller's own statements. They are more useful if they name the lab or standard. Treat unnamed tests as marketing."
+    "explanation": "Some sellers cite lab tests, as Saki does, which are the seller's own statements. They are more useful if they name the lab or standard. Treat unnamed tests as marketing. Look for the lab or standard named in the listing, or treat the claim as marketing."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Water path claims",
-    "description": "We compared how many surfaces each listing names as stainless steel: interior, lid, spout and heating plate."
+    "title": "Water-path claims",
+    "description": "We checked whether each listing names the lid, spout and interior in steel, not just the body. Saki says no plastic or silicone contact, Damsun lists a 304 spout, lid and interior, and MEISON names pot, lid, spout and rim, which is much more specific than a vague plastic-free label."
   },
   {
-    "title": "Seals and exceptions",
-    "description": "Listings that disclosed silicone or other non-steel parts scored higher for honesty."
+    "title": "Seals and disclosed exceptions",
+    "description": "KEINVE openly discloses a silicone seal and Saki claims none. We rewarded honest disclosure over blanket claims, because almost every kettle uses a gasket somewhere and a listing that admits it is more trustworthy than one that stays silent."
   },
   {
-    "title": "Controls and capacity",
-    "description": "Presets, keep-warm length and listed capacity were compared."
+    "title": "Controls, presets and capacity",
+    "description": "Saki has seven presets and a 120 minute keep-warm, Cosori five presets, KEINVE six with 30 minutes of keep-warm, and the 1.7L models hold about 8 cups. We matched presets to tea, coffee and baby formula use instead of treating more presets as better."
   },
   {
-    "title": "Price against claims",
-    "description": "We weighed price against how specific the plastic-free claim is."
+    "title": "Steel grade and build",
+    "description": "Mecity names 316 and 304 stainless and Damsun and MEISON name 304. We looked for a stated grade, since stainless steel is a family of alloys, and favored double-wall bodies that stay cool to the touch around a hot interior."
+  },
+  {
+    "title": "Price against the claims",
+    "description": "Prices run from under $25 for MEISON to far above $100 for Saki. We asked whether the premium buys a verifiable difference, such as Saki's cited leaching test, or only presets and looks, and credited cheaper kettles for the specifics their listings actually state."
   }
 ];
 
@@ -396,27 +400,27 @@ export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
     "q": "Is BPA-free the same as plastic-free?",
-    "a": "No. BPA-free only says one compound is missing, and the plastic can still touch your water. Look for listings that name steel on the lid, spout and interior."
+    "a": "No. BPA-free means one chemical is absent from a plastic, while plastic-free means no plastic touches the water. A kettle can be BPA-free and still have a plastic lid, spout and fill window, so look for wording that names the lid, spout and interior."
   },
   {
     "q": "Does a silicone seal count as plastic?",
-    "a": "Silicone is a different material from plastic, but some buyers avoid both. KEINVE discloses a silicone seal, and Saki says none touches water."
+    "a": "Silicone is a polymer, not a conventional plastic, but many buyers who want no plastic also want no silicone. KEINVE discloses an LFGB silicone seal, while Saki claims no plastic or silicone contact, so decide how strict you are before choosing."
   },
   {
-    "q": "Is a $170 kettle worth it over a $30 one?",
-    "a": "Only if avoiding silicone or the tested leaching claim matters to you. For most people, a steel interior like Cosori's lower-priced kettle is enough."
+    "q": "Is a premium kettle like Saki worth it over a budget steel one?",
+    "a": "Only if you want the strictest claim. Saki cites steel on every water-contact part and an independent test, but kettles like MEISON and Damsun name 304 steel parts at a fraction of the cost. Pay more for presets and keep-warm, not for the steel."
   },
   {
     "q": "How do I check the lid for plastic?",
-    "a": "Open the lid in the product photos and look at the underside. Steel looks metallic, while plastic is usually black or white."
+    "a": "Read the bullets for the lid and spout by name, then check photos for a black or grey underside. Mecity and MEISON list steel lids and spouts, but many kettles use a plastic lid liner. If the listing never mentions the lid, assume it contains plastic."
   },
   {
     "q": "How do I clean and descale?",
-    "a": "Boil a mix of water and lemon juice or citric acid, let it sit and rinse. KEINVE's listing suggests 3 tbsp of lemon juice in 500 ml."
+    "a": "Fill with equal parts water and white vinegar, boil, let it sit 15 minutes, then rinse and boil clean water twice. Wide-mouth kettles like Cosori make scrubbing easier, and hard water scales faster, so descale about monthly if you boil daily."
   },
   {
     "q": "Why does a new kettle smell?",
-    "a": "New kettles often carry factory residue. Boil and discard one or two full batches before drinking."
+    "a": "Residue from manufacturing and protective coatings can leave a faint smell. Boil full kettles of water two or three times and discard each batch, adding a little lemon juice or vinegar for the first run. If a strong chemical smell persists after several boils, return it."
   }
 ];
 

@@ -56,93 +56,154 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Full available selection confirmed at this rare size", description: "Verified these two products represent the complete genuinely 16 inch selection found in current research, rather than padding with smaller mislabeled screens." },
-  { title: "Per-unit value calculated for the 2-pack option", description: "Compared the 2-pack's per-screen cost against the single-unit option to help buyers assess genuine value at this size." },
-  { title: "Included accessories weighed for household use", description: "Considered included pens and their usefulness for a shared board where multiple people might write." },
-  { title: "Styling assessed for gift versus general household use", description: "Compared plain black styling against the more playful rainbow and yellow design for different buying intents." }
+  {
+    "title": "True 16 inch size",
+    "description": "We checked whether the listing states a genuine 16 inch screen instead of rounding up from a smaller size. Only two products in this guide give that size explicitly, so we treated that extra writing room as the reason to buy at this size, since smaller tablets are far more common."
+  },
+  {
+    "title": "Erase and save behavior",
+    "description": "We read for whether content can be saved. Both listings say the writing disappears when erased and neither adds storage, so we scored these as disposable boards for lists and sketches rather than as notebooks. That makes a quick phone photo before erasing the only way to keep a note."
+  },
+  {
+    "title": "Included accessories",
+    "description": "We compared what is in the box: the 2-pack includes two screens, while the other includes two pens and a rainbow ink display. A board that ships with pens is ready to use, while one without may need a stylus, so we weighed it. Pen quality is hard to judge from a listing, so we only credited what is stated."
+  },
+  {
+    "title": "Portability and desk space",
+    "description": "We considered footprint. At 16 inches the board is a stationary desk or wall item, not a bag item, so we gauged whether it fits on a small desk without blocking a keyboard. Because the board is large, we treated a clear corner of the desk or a wall as a requirement, not a bonus, and noted that it will not fit in a typical bag."
+  },
+  {
+    "title": "Value per screen",
+    "description": "We divided cost across what you get. The 2-pack gives two large screens for a single price, which is the best per screen value, while the single unit costs more per screen but includes pens and color. We did not credit the single board for features the listing does not state."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "subheading": "By Use Case",
+    "intro": "With only two true 16 inch options, the choice comes down to what you will write.",
     "table": {
       "headers": [
-        "What you're weighing",
-        "Recommended pick in this comparison"
+        "If you mainly",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Highest star rating",
+          "Need a second board for a kitchen or kids room",
+          "16 Inch LCD Writing Tablet 2 Pack, which gives two screens"
+        ],
+        [
+          "Want color and included pens for kids doodling",
+          "Large 16 Inch Screen LCD Writing Tablet with 2 Pens, with rainbow ink"
+        ],
+        [
+          "Plan to leave one on a home office desk for lists",
           "16 Inch LCD Writing Tablet 2 Pack"
         ],
         [
-          "Largest review base (more statistical confidence)",
-          "16 Inch LCD Writing Tablet 2 Pack"
+          "Want one board that is ready to use out of the box",
+          "Large 16 Inch Screen LCD Writing Tablet with 2 Pens"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "The price gap is small, so value per screen decides.",
     "table": {
       "headers": [
-        "Price range",
+        "Price bucket",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $18",
+          "Under $20 for two large screens",
           "16 Inch LCD Writing Tablet 2 Pack"
+        ],
+        [
+          "A single board with pens, priced on the listing",
+          "Large 16 Inch Screen LCD Writing Tablet with 2 Pens"
+        ],
+        [
+          "Per screen, the cheapest option",
+          "16 Inch LCD Writing Tablet 2 Pack"
+        ],
+        [
+          "For a gift where color matters more than price",
+          "Large 16 Inch Screen LCD Writing Tablet with 2 Pens"
         ]
       ]
     }
   },
   {
-    "subheading": "Kids-Marketed vs Adult-Marketed",
+    "subheading": "2-Pack vs Single With Pens",
+    "intro": "The two picks make different bets.",
     "cards": [
       {
-        "label": "Kids-Marketed",
-        "text": "Bright colors and character branding, often the same core technology as adult versions at a similar or lower price. In this comparison: check each listing's marketing angle directly."
+        "label": "2-pack (16 Inch LCD Writing Tablet 2 Pack)",
+        "text": "You get two large boards, so one can stay in the kitchen and one in the office. The listing gives a plain black finish and no color options."
       },
       {
-        "label": "Adult-Marketed",
-        "text": "Neutral styling suited to an office desk, sometimes at a price premium for the plainer look alone. In this comparison: Large 16 Inch Screen LCD Writing Tablet with 2 Pens."
+        "label": "Single with 2 pens (Large 16 Inch Screen)",
+        "text": "One board with rainbow ink and two pens, and a yellow frame. It suits shared use but gives only one screen."
       }
     ],
-    "note": "Compare the actual specs, not just the marketing angle, since the underlying writing technology is often identical between the two."
+    "note": "Choose the 2-pack for value and multiple rooms; choose the single with pens for kids or color."
   },
   {
-    "subheading": "With Memory Lock vs Basic Erase",
+    "subheading": "By Who Will Use It",
+    "intro": "Match the style to the user.",
     "table": {
       "headers": [
-        "Your priority",
+        "Your user",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Simplest single-button design",
+          "A child who wants color and pens",
+          "Large 16 Inch Screen LCD Writing Tablet with 2 Pens"
+        ],
+        [
+          "An adult who wants a memo board",
           "16 Inch LCD Writing Tablet 2 Pack"
+        ],
+        [
+          "A teacher or parent needing a spare board",
+          "16 Inch LCD Writing Tablet 2 Pack"
+        ],
+        [
+          "Anyone who will share the board",
+          "Large 16 Inch Screen with 2 Pens, since pens are included"
         ]
       ]
     }
   },
   {
-    "subheading": "For Gift-Giving Specifically",
+    "subheading": "For Gift Giving Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "Clear age-range marketing if buying for a specific child, genuine screen size (not just overall unit size), and a replaceable coin-cell battery for the longest useful life."
+        "text": "A genuine stated 16 inch size, included pens, and a clear note that content is erased, so the recipient knows it is not a notebook."
       },
       {
         "label": "In this comparison",
-        "text": "16 Inch LCD Writing Tablet 2 Pack fits this specifically: Two genuine 16 inch screens for one price."
+        "text": "The Large 16 Inch Screen with 2 Pens is the more gift ready pick, while the 2-pack suits a family that wants a board in every room."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
-    "note": "Every pick in this specific comparison sits in a similar price range, so the decision here comes down to styling and included features rather than a budget-versus-premium tradeoff. Check the pros and cons above for what actually differs between them."
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want pens, color and a single polished gift, where the single unit is worth the higher cost per screen."
+      },
+      {
+        "label": "Save if",
+        "text": "You need more than one board, in which case the 2-pack costs less per screen than any single option."
+      }
+    ]
   }
 ];
 
@@ -170,10 +231,30 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Are there many 16 inch LCD writing tablet options?", a: "No, this is a genuinely rare size tier. Current research found only two products explicitly listed at 16 inches." },
-  { q: "Is a 16 inch LCD writing tablet portable?", a: "Not really, it's designed as a stationary desk or wall board rather than something you'd carry around daily." },
-  { q: "What is the best value 16 inch option?", a: "The 2-pack offers the best per-unit value if you need two large screens for different rooms." },
-  { q: "Do 16 inch LCD writing tablets come with pens?", a: "One of the two available options includes two pens, useful for shared household use where more than one person might write." }
+  {
+    "q": "Is a 16 inch LCD writing tablet too big for a small desk?",
+    "a": "It is a stationary board, closer to a placemat than a notepad. It fits a clear corner or a wall rather than a crowded keyboard area. Measure free desk space before buying, and check it will not block your trackpad."
+  },
+  {
+    "q": "Can I save what I write?",
+    "a": "The listings state that content is erased and not kept, so use it for lists, sketches or kids art. If you need to keep notes, take a phone photo before you erase, or choose a smart pad with storage instead."
+  },
+  {
+    "q": "Is the 2-pack worth it over the single board with pens?",
+    "a": "If you want two large screens, the 2-pack gives them for a low price, though it has a plain black finish and no pens listed. The single board adds two pens and rainbow ink, so choose it for kids and color."
+  },
+  {
+    "q": "How do I set up the tablet?",
+    "a": "There is no computer needed, since the listings describe standalone tablets. Write with the pen or a stylus, then press the erase button to clear the screen. Check the listing for battery information before you order."
+  },
+  {
+    "q": "Is it portable enough to carry?",
+    "a": "Not really. At 16 inches it is meant as a stationary desk or wall board, so it suits a home or classroom rather than a bag. For carrying, a smaller size makes more sense. A smaller tablet suits that job far better than this one, and the stationary design is what makes the large writing area possible."
+  },
+  {
+    "q": "Are 16 inch LCD tablets common?",
+    "a": "No. Current research found only two products explicitly listed at 16 inches, so choices are limited. Compare these two on size, pens and number of screens, and verify the stated size in the listing. A larger board should not be bought blind, so read the size carefully."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

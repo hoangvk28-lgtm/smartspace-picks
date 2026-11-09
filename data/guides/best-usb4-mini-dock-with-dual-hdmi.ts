@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "MST Support and Platform Limitations", "description": "Compared Multi-Stream Transport availability and its explicit macOS/Chrome OS limitations." },
-  { "title": "Native vs Compressed Video", "description": "Compared direct GPU video output against MST-based display splitting." },
-  { "title": "Maximum Resolution", "description": "Compared 4K display support against 1080p resolution caps." },
-  { "title": "Portability", "description": "Compared genuinely compact mini dock designs across all four picks." },
-  { "title": "Total Port Count and Price", "description": "Compared additional peripheral ports against price across the tier." }
+  {
+    "title": "Independent screens vs mirrored output",
+    "description": "j5create lists dual 4K at 60Hz through MST, but macOS does not support MST, so a Mac gets mirrored screens. StarTech uses a native path from the GPU, which is why we ranked it above j5create for Mac and Windows buyers. MST is a Windows feature, and macOS ignores it, which is why a Mac sees mirrored screens."
+  },
+  {
+    "title": "Maximum resolution per screen",
+    "description": "Anker caps dual-screen extension at 1080p at 60Hz, UGREEN lists a dual HDMI 10-in-1 design with no per-screen figure, and StarTech and j5create reach 4K at 60Hz. We compared claims to the monitor you own. Check whether the claimed resolution is per screen or the combined limit across both."
+  },
+  {
+    "title": "Power pass-through and the charger",
+    "description": "j5create lists 100W PD pass-through, and Anker lists 100W in and 85W out but ships no wall charger, so the buyer needs to supply one. We counted a missing charger as a real cost in the budget tier. A missing charger is easy to overlook when comparing a sub-$40 dock with a bundled one."
+  },
+  {
+    "title": "Ports beyond video",
+    "description": "j5create has 3x USB 5Gbps ports, StarTech Gigabit Ethernet with PXE boot and Wake-on-LAN, and Anker a 10Gbps data port. We judged whether the dock replaces a hub or just two HDMI plugs. StarTech's Wake-on-LAN and PXE boot matter for managed laptops and little for home use."
+  },
+  {
+    "title": "Cable and physical fit",
+    "description": "StarTech has an extra-long 11 inch attached cable and a mini dock body. We favored a mini form factor that sits beside a laptop, and noted that a very short cable limits placement. A short attached cable limits where the dock can sit relative to the laptop."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,129 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Independent dual 4K@60Hz via MST on Windows", "j5create USB-C Hub 4K@60Hz Dual HDMI"],
-        ["Native uncompressed dual 4K with enterprise IT features", "StarTech Driverless Thunderbolt 3 Mini Dock"],
-        ["Dual HDMI with more total ports at a low price", "UGREEN 10-in-1 Docking Station"],
-        ["The lowest possible price for basic dual-screen extension", "Anker 7-in-1 USB-C Hub"]
+    "subheading": "By Primary Need",
+    "intro": "Pick by the host and monitors you have.",
+    "table": {
+      "headers": [
+        "If you want",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Native dual 4K with IT features",
+          "StarTech Driverless Thunderbolt 3 Dual 4K HDMI Mini Dock."
+        ],
+        [
+          "Dual 4K on Windows with 100W pass-through",
+          "j5create USB-C Hub 4K@60Hz Dual HDMI."
+        ],
+        [
+          "Cheap dual HDMI with many ports",
+          "UGREEN USB C Docking Station, 10-in-1 with 2 HDMI."
+        ],
+        [
+          "1080p dual screen at the lowest price",
+          "Anker 7-in-1 USB-C Hub, Dual Monitor."
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $32", "Anker 7-in-1 (under $35)"],
-        ["Under $38", "UGREEN 10-in-1 (under $40)"],
-        ["Under $77", "StarTech Driverless Mini Dock (under $80)"],
-        ["Under $90", "j5create Dual HDMI Hub (under $90)"]
+    "subheading": "By Budget",
+    "intro": "Spend more for native video and 4K.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $35, lowest",
+          "Anker 7-in-1 USB-C Hub."
+        ],
+        [
+          "Under $40, 10 ports",
+          "UGREEN 10-in-1 with 2 HDMI."
+        ],
+        [
+          "Under $80, native video",
+          "StarTech Driverless Mini Dock."
+        ],
+        [
+          "Under $90, 4K MST",
+          "j5create Dual HDMI Hub."
+        ]
+      ]
+    }
   },
   {
-    subheading: "MST-Based vs Native GPU Video Output",
-    cards: [
-      { label: "MST-based (j5create)", text: "Uses Multi-Stream Transport to split one video output into two independent displays on Windows, but mirrors content on macOS and Chrome OS." },
-      { label: "Native GPU output (StarTech)", text: "Uses direct GPU performance with no compression or MST dependency, delivering more consistent cross-platform dual-display behavior." }
+    "subheading": "MST vs Native GPU Output",
+    "intro": "The method decides whether a Mac works at all.",
+    "cards": [
+      {
+        "label": "MST",
+        "text": "Multi-Stream Transport splits one DisplayPort link into two. It works on Windows but macOS does not support it, so j5create gives a Mac mirrored screens only."
+      },
+      {
+        "label": "Native GPU output",
+        "text": "StarTech sends uncompressed dual 4K at 60Hz straight from the GPU, so it works on both Mac and Windows."
+      }
     ],
-    note: "If you're exclusively on Windows, the j5create's MST-based approach works well and costs slightly more. If you need reliable dual-display behavior across Mac and Windows, the StarTech's native GPU output is the safer choice.",
+    "note": "Choose StarTech if you use a Mac, and j5create or Anker only for a Windows laptop."
   },
   {
-    subheading: "By Resolution Needed",
-    table: {
-      headers: ["Your display resolution need", "Recommended pick"],
-      rows: [
-        ["Standard 1080p dual-screen extension", "Anker 7-in-1 USB-C Hub"],
-        ["Full 4K dual-display support", "j5create, StarTech, or UGREEN picks"]
+    "subheading": "By Resolution Needed",
+    "intro": "Match the dock to your monitors.",
+    "table": {
+      "headers": [
+        "Monitors",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Two 1080p screens",
+          "Anker 7-in-1 at 1080p, 60Hz."
+        ],
+        [
+          "Two 4K screens on Windows",
+          "j5create USB-C Hub, with 100W pass-through."
+        ],
+        [
+          "Two 4K screens on any platform",
+          "StarTech Driverless Mini Dock."
+        ],
+        [
+          "A 144Hz gaming screen",
+          "j5create, listed up to Full HD at 144Hz."
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Mac Users Specifically",
-    cards: [
-      { label: "Look for", text: "A dock using native GPU video output rather than MST, since MST-based dual-display splitting explicitly does not work independently on macOS." },
-      { label: "In this comparison", text: "The StarTech pick specifically documents genuine dual-display support by exact Mac chip generation using native GPU output, not MST." }
-    ],
+    "subheading": "For Mac Users Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A native video path and a per-chip compatibility note, since MST docks only mirror on macOS."
+      },
+      {
+        "label": "In this comparison",
+        "text": "StarTech is the native pick, and j5create and Anker both state mirrored-only behavior on macOS."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want native uncompressed dual 4K video with enterprise IT deployment features, where the StarTech pick justifies its under $80 price." },
-      { label: "Save if", text: "You just need basic 1080p dual-screen extension at the lowest cost, where the Anker pick delivers that for under $35." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need independent 4K screens on a Mac. StarTech sits in the under-$80 tier."
+      },
+      {
+        "label": "Save if",
+        "text": "1080p is enough. Anker stays under $35."
+      }
+    ]
   }
 ];
 
@@ -182,12 +266,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will the j5create dock give me independent dual displays on my MacBook?", "a": "No, the listing specifically states MST is not currently supported by macOS, so on a MacBook both connected monitors would mirror identical content rather than extend your workspace independently." },
-  { "q": "What's the most common mistake buyers make when choosing a mini dual HDMI dock?", "a": "Assuming any dock with two HDMI ports delivers independent extended displays regardless of platform, when MST-based docks specifically don't support independent extension on macOS or Chrome OS, only mirroring." },
-  { "q": "Is the StarTech pick worth the extra cost over the UGREEN 10-in-1 for a Mac user?", "a": "If you're on a Mac and want genuine dual-display support with detailed per-chip compatibility documentation, the StarTech's native GPU video output is the more reliable choice, while the UGREEN pick's lower price is better suited to Windows-only use." },
-  { "q": "Does the Anker 7-in-1 hub include a power adapter for its 100W charging?", "a": "No, the listing specifically states the wall charger is not included, so you'll need a separately purchased or already-owned 100W-capable USB-C charger to achieve the stated charging performance." },
-  { "q": "Can I use these mini docks with a gaming laptop for higher refresh rate gaming?", "a": "The j5create pick specifically supports Full HD at 144Hz and QHD at 120Hz for gaming-oriented refresh rates, while checking each other specific listing's stated refresh rate options is worth doing if high-refresh gaming is your priority." },
-  { "q": "How compact are these mini docks compared to a full-size desk dock?", "a": "All four picks in this comparison are specifically marketed as compact mini docks designed to fit easily in a bag, though checking each listing's exact dimensions is worth doing if you have specific space constraints for your travel bag or desk setup." }
+  {
+    "q": "Will j5create give independent dual displays on my MacBook?",
+    "a": "No. The listing says macOS does not currently support MST, so a MacBook gets mirrored screens, not extended ones. Windows laptops get two independent 4K at 60Hz, so a Mac user should choose StarTech."
+  },
+  {
+    "q": "What is the most common mistake with a dual HDMI mini dock?",
+    "a": "Assuming two HDMI ports always give two independent screens. Many use MST, which Windows supports and macOS does not, so a Mac sees two copies of the same image. Check the host platform before buying."
+  },
+  {
+    "q": "Is StarTech worth the extra cost over UGREEN for a Mac user?",
+    "a": "Yes, if you want true dual displays. StarTech sends video natively from the GPU with detailed Mac-chip notes, plus Gigabit Ethernet with PXE boot. UGREEN has 10-in-1 ports and dual HDMI, but less platform detail."
+  },
+  {
+    "q": "Does Anker's 7-in-1 hub include a power adapter?",
+    "a": "No. The listing says the wall charger is not included, so you need your own 100W-class charger to get 85W to the laptop. Budget the charger or reuse the one you already own."
+  },
+  {
+    "q": "Can I use a mini dock for high refresh gaming?",
+    "a": "j5create lists Full HD at 144Hz and QHD at 120Hz, so it can drive a gaming monitor. Anker caps at 1080p at 60Hz, and MST docks limit bandwidth when two screens run together, so one screen at a time is best."
+  },
+  {
+    "q": "How compact are these docks?",
+    "a": "All four are mini docks that sit beside a laptop. StarTech adds a long 11 inch attached cable, and Anker is a 7-in-1 hub for the lowest price. Measure your desk gap if you want a dock that tucks behind a laptop."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

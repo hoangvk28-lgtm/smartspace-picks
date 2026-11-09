@@ -5,7 +5,7 @@ export const metaDescription = "Seven desk gifts for people who work from home, 
 export const mainKeyword = "desk gifts for remote workers";
 export const introParagraphs = [
   "Remote workers have the opposite problem from office workers: nobody else sees the desk, so a gift has to earn its place by making the day at home easier. The best ones deal with the home-office specifics, such as a stiff neck after hours at a laptop, family walking in on a call or the lack of a clear boundary at the end of the day.",
-  "We picked seven gifts that fit that setting and sorted them by how they help: comfort, focus, boundaries, mood and planning. Listings were read for what they actually claim, and we mark which ones are novelties rather than tools. Prices run from about $7 to $25, so you can bundle two without much of a stretch."
+  "We picked seven gifts that fit that setting and sorted them by how they help: comfort, focus, boundaries, mood and planning. Listings were read for what they actually claim, and we mark which ones are novelties rather than tools. Prices run from under $10 to $25, so you can bundle two without much of a stretch."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51Cn3FYWW8L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07WJSY2G8?tag=deskfinds0d-20",
-    "description": "Mirakel is a neck and shoulder massage pillow with bi-directional rotating kneading heads, a built-in heating function and a linen-style cover. It is meant for the stiffness that builds up after long hours at a laptop.\n\nIt is the priciest gift here at about $25, and the only one that touches the body. Against the candle warmer lamp below, it is practical rather than ambient.\n\nBest for a recipient who sits most of the day. The caveat is that it heats, so it should not be used to treat any condition, and anyone with reduced skin sensation should check with a doctor first.",
+    "description": "Mirakel is a neck and shoulder massage pillow with bi-directional rotating kneading heads, a built-in heating function and a linen-style cover. It is meant for the stiffness that builds up after long hours at a laptop.\n\nIt is the priciest gift here at under $30, and the only one that touches the body. Against the candle warmer lamp below, it is practical rather than ambient.\n\nBest for a recipient who sits most of the day. The caveat is that it heats, so it should not be used to treat any condition, and anyone with reduced skin sensation should check with a doctor first.",
     "specs": [
       "Rotating kneading heads",
       "Built-in heat function",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51cReOxyhfL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GY4HRQ5W?tag=deskfinds0d-20",
-    "description": "TRCENDE is a humorous Do Not Disturb sign for a desk or cubicle, pitched at remote workers who want fewer interruptions.\n\nIt costs about $13 and does one job. Against the MAMAGIFTREE sign below, it is more direct about focus than attitude.\n\nBest for someone sharing a home with family or roommates. The caveat is that a sign only works if people respect it.",
+    "description": "TRCENDE is a humorous Do Not Disturb sign for a desk or cubicle, pitched at remote workers who want fewer interruptions.\n\nIt costs under $15 and does one job. Against the MAMAGIFTREE sign below, it is more direct about focus than attitude.\n\nBest for someone sharing a home with family or roommates. The caveat is that a sign only works if people respect it.",
     "specs": [
       "Desk sign",
       "Do not disturb message",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41xfDDljOnL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GX1GZCFM?tag=deskfinds0d-20",
-    "description": "UENOW is a lavender scented candle made from 100 percent soy wax with a cotton wick, with a sarcastic office-themed label that the seller pitches for coworkers and remote workers.\n\nIt costs about $10, and is a candle, which means it uses a flame. Against the GODONLIF lamp, it is cheaper but needs matches.\n\nBest for a joke gift that also smells nice. The caveat is that candles are banned in most dorms and some offices, so confirm where it will burn.",
+    "description": "UENOW is a lavender scented candle made from 100 percent soy wax with a cotton wick, with a sarcastic office-themed label that the seller pitches for coworkers and remote workers.\n\nIt costs under $15, and is a candle, which means it uses a flame. Against the GODONLIF lamp, it is cheaper but needs matches.\n\nBest for a joke gift that also smells nice. The caveat is that candles are banned in most dorms and some offices, so confirm where it will burn.",
     "specs": [
       "100 percent soy wax",
       "Cotton wick",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41rM8Dv7T+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H3KMWS4G?tag=deskfinds0d-20",
-    "description": "Ponditni is a 3.7 inch hand-crocheted owl holding a coffee cup, on a solid wood base, with an encouragement card and a gift-ready set.\n\nIt costs about $10 and is purely decorative, unlike the planner. Against the desk signs, it is warm rather than funny.\n\nBest for a morale boost. The caveat is that it has no practical use.",
+    "description": "Ponditni is a 3.7 inch hand-crocheted owl holding a coffee cup, on a solid wood base, with an encouragement card and a gift-ready set.\n\nIt costs under $15 and is purely decorative, unlike the planner. Against the desk signs, it is warm rather than funny.\n\nBest for a morale boost. The caveat is that it has no practical use.",
     "specs": [
       "3.7 inch crochet owl",
       "Solid wood base",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ZyOYSD-AL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C1GW4GD4?tag=deskfinds0d-20",
-    "description": "Taja is an undated daily planner notepad with multiple sections, a transparent PP cover and motivational touches.\n\nAt about $7 it is the cheapest useful gift, and it works for someone who prefers paper. Against the owl, it is practical.\n\nBest for a person who loses track of tasks at home. The caveat is that it is simple and may not suit someone who plans digitally.",
+    "description": "Taja is an undated daily planner notepad with multiple sections, a transparent PP cover and motivational touches.\n\nAt under $10 it is the cheapest useful gift, and it works for someone who prefers paper. Against the owl, it is practical.\n\nBest for a person who loses track of tasks at home. The caveat is that it is simple and may not suit someone who plans digitally.",
     "specs": [
       "Undated daily pages",
       "Multiple sections",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31qEKfUfsQL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F2FZDTN9?tag=deskfinds0d-20",
-    "description": "MAMAGIFTREE makes a mini caution-sign desk accessory in bold yellow with a sarcastic message about people, aimed at introverts and home office workers.\n\nIt costs about $7 and is the lightest gift here. Against the TRCENDE sign, it is more of a joke.\n\nBest for a coworker or friend with a sense of humor. The caveat is that humor is personal.",
+    "description": "MAMAGIFTREE makes a mini caution-sign desk accessory in bold yellow with a sarcastic message about people, aimed at introverts and home office workers.\n\nIt costs under $10 and is the lightest gift here. Against the TRCENDE sign, it is more of a joke.\n\nBest for a coworker or friend with a sense of humor. The caveat is that humor is personal.",
     "specs": [
       "Mini caution sign shape",
       "Bold yellow design",
@@ -219,47 +219,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Home office use cases",
-    "explanation": "Remote workers face their own pain points: a stiff neck, interruptions and blurred boundaries. A gift that addresses one will be used. Match the gift to a complaint you have actually heard."
+    "explanation": "Remote workers face their own pain points: a stiff neck, interruptions and blurred boundaries. A gift that addresses one will be used. Match the gift to a complaint you have actually heard. A massager helps a stiff neck, the TRCENDE sign sets boundaries, and the Taja notepad organizes tasks, so ask which of these the recipient struggles with."
   },
   {
     "criterion": "Heating and plug safety",
-    "explanation": "Gifts that heat, like a neck massager or candle warmer, need to be used correctly. Look for an auto shutoff or timer in the listing. Check the plug type and cord length."
+    "explanation": "Gifts that heat, like a neck massager or candle warmer, need to be used correctly. Look for an auto shutoff or timer in the listing. Check the plug type and cord length. The Mirakel massager has heat, so check for an auto shutoff or time guidance in the listing and use it for short sessions only, since heat on a neck for too long can irritate skin."
   },
   {
     "criterion": "Flame and dorm rules",
-    "explanation": "Open-flame candles and warmers are banned in many dorms and shared housing. A flameless alternative avoids that. Confirm where it will be used."
+    "explanation": "Open-flame candles and warmers are banned in many dorms and shared housing. A flameless alternative avoids that. Confirm where it will be used. Open flame candles are banned in many rentals and dorms, so choose the GODONLIF flameless warmer when you are unsure of the rules, since it melts the wax with a lamp and no flame at all."
   },
   {
     "criterion": "Desk footprint",
-    "explanation": "A home desk may share space with a laptop, monitor and notebook. A lamp with a tall pole needs room. Check dimensions."
+    "explanation": "A home desk may share space with a laptop, monitor and notebook. A lamp with a tall pole needs room. Check dimensions. A tall pole lamp needs a clear corner, so measure the free area beside the laptop before gifting the GODONLIF warmer."
   },
   {
     "criterion": "Humor versus utility",
-    "explanation": "Funny gifts land only if they match the person. Practical items last longer. If unsure, pair a cheap joke with a useful item."
+    "explanation": "Funny gifts land only if they match the person. Practical items last longer. If unsure, pair a cheap joke with a useful item. Funny gifts like the MAMAGIFTREE caution sign land only when they match the person, so pair one with a useful item like the Taja notepad."
   },
   {
     "criterion": "Not a medical product",
-    "explanation": "Massagers and heat are comfort items and not treatments. Do not frame them as medical help. Anyone with a health condition should ask a doctor."
+    "explanation": "Massagers and heat are comfort items and not treatments. Do not frame them as medical help. Anyone with a health condition should ask a doctor. Comfort items are not treatments, so avoid framing the Mirakel massager as therapy, and suggest anyone with a health condition ask a doctor first."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Home-office fit",
-    "description": "We compared how well each gift addresses a work-from-home pain point."
+    "title": "Home office pain points",
+    "description": "We tied each pick to a remote work problem. The Mirakel shiatsu neck massager with heat addresses a stiff neck, the TRCENDE sign sets a boundary during calls, and the Taja notepad organizes the day. Gifts that solve a problem outlast purely funny ones."
   },
   {
-    "title": "Safety and rules",
-    "description": "Heating, flame and dorm restrictions were checked in listings."
+    "title": "Heat and plug safety",
+    "description": "The Mirakel massager and GODONLIF candle warmer both involve heat. We looked for a timer, noting the warmer's 24 hour timer and dimmable lamp, and recommend using the massager only for short sessions. Neither should be left running unattended."
   },
   {
-    "title": "Size and cost",
-    "description": "Dimensions and price were weighed for typical home desks."
+    "title": "Flame and housing rules",
+    "description": "Open flame candles are banned in many dorms and shared houses, so we flagged the UENOW soy candle accordingly. The GODONLIF warmer has no open flame, which makes it a safer pairing for the same scented wax and a better gift for a rental."
   },
   {
-    "title": "Gift appeal",
-    "description": "We considered packaging, humor and how personal each feels."
+    "title": "Desk space at home",
+    "description": "A home desk already holds a laptop, monitor and notebook. We compared sizes: the 3.7 inch Ponditni crochet owl and the mini caution sign take little room, while the warmer lamp with an adjustable pole needs a clear corner. Scores dropped for items that crowd a small workspace."
   }
 ];
 
@@ -390,7 +390,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "It is a casual gift. Taja Undated Daily To Do List Notepad and MAMAGIFTREE Sarcastic Caution-Sign Desk Decor cost about $7."
+        "text": "It is a casual gift. Taja Undated Daily To Do List Notepad and MAMAGIFTREE Sarcastic Caution-Sign Desk Decor cost under $10."
       }
     ]
   }

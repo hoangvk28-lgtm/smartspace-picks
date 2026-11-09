@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "VA/Wattage Rating", "description": "Compared stated VA and wattage capacity across the desktop AC-outlet units in this comparison." },
-  { "title": "Battery-Backup vs Surge-Only Outlet Split", "description": "Compared how many outlets provide genuine battery backup versus surge protection alone." },
-  { "title": "Sine Wave Output Type", "description": "Distinguished genuine sine wave from simulated sine wave output for sensitive electronics compatibility." },
-  { "title": "Connected Equipment Warranty", "description": "Compared documented warranty and insurance coverage amounts across the lineup." },
-  { "title": "Physical Footprint and Mounting", "description": "Compared compact, wall-mountable designs against standard desktop form factors." }
+  { "title": "Watt rating versus VA label", "description": "We sized each unit by its watt figure, not the VA number on the box. The CyberPower ST425 lists 425VA but only 260W, and the APC BE425M lists 255W. A modem plus router often draws well under 100W, so at this size the watt rating shows what you can safely plug in." },
+  { "title": "Battery-backed outlet count", "description": "We counted how many outlets actually get battery power versus surge-only. The Eaton Tripp Lite BC350 has 3 of 6, the APC BE425M 4 of 6, and the CyberPower ST425 4 of 8. Plugging a router into a surge-only socket means it dies with the lights, which is the classic mistake in this tier." },
+  { "title": "Stated runtime data", "description": "We looked for any published runtime figure. The APC BE425M lists 15 minutes at a 100W load, a useful anchor since runtime falls steeply as load rises. A pick with no runtime figure, at a size this small, needs you to assume only a few minutes." },
+  { "title": "Output waveform", "description": "We noted waveform claims, such as the simulated sine wave on the CyberPower ST425 and the PWM sine wave on the Eaton BC350. Simulated output is generally fine for routers and modems, but sensitive PC power supplies behave better on pure sine, which none of these small units offer." },
+  { "title": "Warranty and equipment coverage", "description": "We compared the 3-year warranties and connected-equipment guarantees, from $75,000 on the APC and CyberPower picks to $100,000 on the Eaton. These guarantees do not replace a battery, but they show the maker stands behind the surge side of the unit." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "At this size a UPS keeps a router, modem, or small PC alive for minutes rather than hours, so scenarios start with what you plan to plug in.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "All four fall into a narrow range under $75, so the budget table is really a choice between outlet count, battery type, and DC output.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Sine Wave Output Type",
+    intro: "The TalentCell stands apart because it powers 12V and 9V devices from a lithium pack instead of a lead-acid battery, which matters if your gear runs from DC adapters.",
     table: {
       headers: ["Your electronics sensitivity", "Recommended pick"],
       rows: [
@@ -153,7 +156,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want genuine sine wave output for sensitive electronics and the highest documented warranty, where the Eaton Tripp Lite BC350 delivers both at the top of this tier." },
-      { label: "Save if", text: "You want the most total outlets without needing genuine sine wave output, where the CyberPower ST425 covers that for about $13 less." }
+      { label: "Save if", text: "You want the most total outlets without needing genuine sine wave output, where the CyberPower ST425 covers that for under $15 less." }
     ],
   }
 ];
@@ -183,7 +186,7 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Does simulated sine wave output on the CyberPower or APC picks actually cause problems for most electronics?", "a": "For most standard electronics like routers, lamps, and basic computers, simulated sine wave output works fine, and the distinction mainly matters for specific sensitive equipment where the manufacturer explicitly recommends genuine sine wave power." },
-  { "q": "What's the most common mistake buyers make when setting up a new UPS battery backup?", "a": "Plugging critical devices like a router or modem into the surge-only outlets by mistake, when only the battery-backup outlets actually keep those devices powered during an actual outage, not just protected from surges." },
+  { "q": "Why does the VA number mislead on a small UPS?", "a": "VA is the apparent power, while watts are what the equipment really draws, and the watt figure is lower. The CyberPower ST425 is a 425VA unit but only 260W, so a 300W desktop would overload it. Always add up your device wattage before comparing VA labels." },
   { "q": "Is the Eaton Tripp Lite BC350 worth the price premium over the CyberPower ST425?", "a": "If genuine sine wave output and the highest documented $100,000 connected equipment insurance matter to you, yes, but if you want the most total outlets at a lower price without needing genuine sine wave power, the CyberPower ST425 offers strong value instead." },
   { "q": "Can the TalentCell portable battery pack replace a desktop UPS for my computer setup?", "a": "No, it lacks AC outlets entirely and can't continuously power devices exceeding 37W, making it unsuitable for a desktop computer; it's specifically designed for lower-power DC devices like routers, cameras, and LED strips." },
   { "q": "How do I calculate how long my specific device will run on a UPS's battery?", "a": "Check your device's actual wattage draw (often listed on its power adapter or in its specifications) and compare it against the UPS's stated runtime at a reference load, understanding that a lower-wattage device will run longer than the stated figure and a higher-wattage device will run shorter." },

@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41KfBCExRHL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C8V7C8BM?tag=deskfinds0d-20",
-    "description": "CAMECO's plug-in pair uses a boot design with magic tape fastening, a 86F to 158F range and a 10 to 90 minute timer. The listing says the shoes fit men's up to size 12 or women's up to 13.5, and not feet wider than 8cm or with a high instep.\n\nIt matches Aoteda's range and timer but costs about $7 less and lists a tighter fit. Against JOBYNA below, it has a clearly stated timer.\n\nBest for a moderate budget and average-width feet. The caveat is the fit note, which excludes wider feet, and the same 158F ceiling.",
+    "description": "CAMECO's plug-in pair uses a boot design with magic tape fastening, a 86F to 158F range and a 10 to 90 minute timer. The listing says the shoes fit men's up to size 12 or women's up to 13.5, and not feet wider than 8cm or with a high instep.\n\nIt matches Aoteda's range and timer but costs under $10 less and lists a tighter fit. Against JOBYNA below, it has a clearly stated timer.\n\nBest for a moderate budget and average-width feet. The caveat is the fit note, which excludes wider feet, and the same 158F ceiling.",
     "specs": [
       "86F to 158F range",
       "10 to 90 minute timer",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/314BcveF-sL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FFT11VR1?tag=deskfinds0d-20",
-    "description": "The cordless CAMECO uses a 5000mAh rechargeable battery, a 104F to 140F heat range, 3 vibration levels, a detachable remote with an LED display and 30, 45 or 60 minute timers with auto shut-off.\n\nIts top heat is lower than the plug-in pairs, which is an advantage for sensitive feet, but it also starts at 104F. It costs about $20 to $30 more than the corded models for the battery and vibration.\n\nBest for someone who wants a lower ceiling and no cord. The caveat is price, and that vibration may not suit every user.",
+    "description": "The cordless CAMECO uses a 5000mAh rechargeable battery, a 104F to 140F heat range, 3 vibration levels, a detachable remote with an LED display and 30, 45 or 60 minute timers with auto shut-off.\n\nIts top heat is lower than the plug-in pairs, which is an advantage for sensitive feet, but it also starts at 104F. It costs under $25 to $30 more than the corded models for the battery and vibration.\n\nBest for someone who wants a lower ceiling and no cord. The caveat is price, and that vibration may not suit every user.",
     "specs": [
       "104F to 140F range",
       "5000mAh battery",
@@ -219,174 +219,184 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Lowest setting, not highest",
-    "explanation": "With reduced foot sensation, the setting you will actually use is the lowest one, and a warmer that starts hot gives you no safe option. Aoteda, CAMECO plug-in and JOBYNA start at 86F, while CAMECO cordless starts at 104F and Nekteck sits at about 113F. Read the first number in the range, and ignore the maximum."
+    "explanation": "With reduced foot sensation, the setting you will actually use is the lowest one, and a warmer that starts hot gives you no safe option. Aoteda, CAMECO plug-in and JOBYNA start at 86F, while CAMECO cordless starts at 104F and Nekteck sits at about 113F. Read the first number in the range, and ignore the maximum.  A cooler range with a clear minimum is worth more than a wide range with a high maximum."
   },
   {
     "criterion": "Auto shut-off you can set short",
-    "explanation": "A timer protects you if you stop noticing the warmth. Aoteda and CAMECO plug-in run from 10 to 90 minutes, and Nekteck stops at 15. Prefer a timer of 30 minutes or less for a first session."
+    "explanation": "A timer protects you if you stop noticing the warmth. Aoteda and CAMECO plug-in run from 10 to 90 minutes, and Nekteck stops at 15. Prefer a timer of 30 minutes or less for a first session.  Ten minutes is a useful first-session length for someone testing tolerance, so choose a timer with short steps."
   },
   {
     "criterion": "Burn risk and skin checks",
-    "explanation": "Reduced sensation means you may not feel a burn forming. These are comfort products, not medical devices, so ask a doctor before using one. Check your skin after every session, and start on the lowest level."
+    "explanation": "Reduced sensation means you may not feel a burn forming. These are comfort products, not medical devices, so ask a doctor before using one. Check your skin after every session, and start on the lowest level.  Ask your clinician about heat before using any device, and treat the timer as a backup, not a substitute for checking."
   },
   {
     "criterion": "Fit and pressure points",
-    "explanation": "A boot that is too tight can press on the skin, and numb feet may not report it. CAMECO excludes wide feet or a high instep, while JOBYNA fits to men's size 13. Check size limits and avoid forcing a fit."
+    "explanation": "A boot that is too tight can press on the skin, and numb feet may not report it. CAMECO excludes wide feet or a high instep, while JOBYNA fits to men's size 13. Check size limits and avoid forcing a fit.  If your foot is wider than the stated limit, consider a pad that does not enclose the foot."
   },
   {
     "criterion": "Cord versus battery",
-    "explanation": "A cord can trip you if your balance is affected, while a battery can run out or run warm at full charge. Aoteda has a 7.2 foot cord and CAMECO cordless has a 5000mAh battery. Think about where you will sit and whether you will walk in them."
+    "explanation": "A cord can trip you if your balance is affected, while a battery can run out or run warm at full charge. Aoteda has a 7.2 foot cord and CAMECO cordless has a 5000mAh battery. Think about where you will sit and whether you will walk in them.  A pair of pads sold as two-packs suits two feet at once, but check that both have separate controls."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Lowest heat setting",
-    "description": "We gave the most weight to how low each unit starts, since that is the safe operating point."
+    "title": "Lowest starting temperature",
+    "description": "We read the first number in each heat range, because with reduced foot sensation the setting you actually use is the lowest. Aoteda, CAMECO plug-in and JOBYNA start at 86F, CAMECO cordless at 104F and Nekteck sits near 113F fixed, so we favored pads with a genuinely cool starting point. We ignored maximum temperatures entirely."
   },
   {
-    "title": "Timer and shut-off",
-    "description": "We compared timer range and any stated auto shut-off."
+    "title": "Short, settable timers",
+    "description": "Numb feet may not report that heat has gone on too long, so we compared timers. Aoteda and CAMECO plug-in run 10 to 90 minutes, CAMECO cordless offers 30, 45 or 60, and Nekteck stops at 15 minutes. JOBYNA lists auto shut-off with no timer length. A timer is a backup for attention, not a replacement for checking your skin."
   },
   {
-    "title": "Fit limits",
-    "description": "Listed size limits and fit warnings were noted."
+    "title": "Fit and pressure points",
+    "description": "A boot that is too tight can press on skin that cannot complain. CAMECO plug-in fits up to men's size 12, JOBYNA up to size 13, and Snailax lists a size 13 fit, so we credited stated size limits and marked down vague fit. Size limits matter because a boot that squeezes can injure numb skin."
   },
   {
-    "title": "Power type",
-    "description": "Corded and battery models were compared for trip risk and run time."
+    "title": "Cord versus battery",
+    "description": "A cord can trip someone with balance issues, while a battery runs out. Aoteda lists a 7.2 foot cord, CAMECO cordless a 5000mAh battery and Auccipal 2500mAh with up to 4 hours on low. We weighed which suits sitting versus walking. A weak battery that dies mid-session is safer than one that stays on, but runtime still affects usefulness."
   },
   {
-    "title": "Value for price",
-    "description": "Prices were weighed against documented features, not health claims."
+    "title": "Medical caution built in",
+    "description": "These are comfort products and not medical devices, so we only recommended features that reduce risk and said plainly that anyone with neuropathy should ask a doctor first. Checking skin after each session was treated as part of the product advice. Every verdict in this guide repeats that caution on purpose."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Heat Control",
+    "subheading": "By Lowest Safe Setting",
+    "intro": "A cool starting point is the most important safety feature here.",
     "table": {
       "headers": [
-        "Your situation",
-        "Recommended pick"
+        "Your priority",
+        "Best pick here"
       ],
       "rows": [
         [
-          "Want the lowest starting heat and timer",
-          "Aoteda Wired Electric Foot Warmer 2 Pack"
+          "The lowest starting range from a pair of pads",
+          "Aoteda Wired Electric Foot Warmer 2 Pack, starting at 86F with a 10 to 90 minute timer"
         ],
         [
-          "Want a lower ceiling than 158F",
-          "CAMECO Cordless Heated Foot Massager Booties"
+          "A plug-in pair that fits up to men's size 12",
+          "CAMECO Plug-In Foot Heating Pad Pair, 86F to 158F with a 10 to 90 minute timer"
         ],
         [
-          "Want one fixed mild heat",
-          "Nekteck Foot Massager with Heat and Roller"
+          "Ankle and foot coverage up to size 13",
+          "JOBYNA Electric Ankle and Foot Heating Pad 2 Pack, starting at 86F"
         ],
         [
-          "Want clear temperature bands",
-          "Auccipal Rechargeable Heated Slippers"
+          "A low fixed heat with no hot setting",
+          "Nekteck Foot Massager with Heat and Roller, at about 113F"
+        ],
+        [
+          "Low, slipper-style warmth for walking around",
+          "Auccipal Rechargeable Heated Slippers, with low at 113F to 122F"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Prices run from under $40 to under $90.",
     "table": {
       "headers": [
-        "Price range",
-        "Recommended pick"
+        "Budget",
+        "Best pick here"
       ],
       "rows": [
         [
           "Under $40",
-          "Nekteck Foot Massager with Heat and Roller"
+          "Nekteck Foot Massager with Heat and Roller, with a 15 minute auto stop"
         ],
         [
-          "$40 to $55",
-          "Auccipal Rechargeable Heated Slippers"
+          "Under $45",
+          "Auccipal Rechargeable Heated Slippers, with 2500mAh and up to 4 hours on low"
         ],
         [
-          "$55 to $65",
-          "JOBYNA Electric Ankle and Foot Heating Pad 2 Pack"
+          "Under $60",
+          "JOBYNA Electric Ankle and Foot Heating Pad 2 Pack, with up to size 13 fit"
         ],
         [
-          "$60 to $70",
-          "CAMECO Plug-In Foot Heating Pad Pair"
+          "Under $65",
+          "CAMECO Plug-In Foot Heating Pad Pair, with a 10 to 90 minute timer"
         ],
         [
-          "$70 to $90",
-          "Aoteda Wired Electric Foot Warmer 2 Pack"
+          "Under $90",
+          "CAMECO Cordless Heated Foot Massager Booties, with 30, 45 or 60 minute timers"
         ]
       ]
     }
   },
   {
     "subheading": "Corded vs Cordless",
+    "intro": "The power source affects tripping risk and runtime.",
     "cards": [
       {
         "label": "Corded",
-        "text": "Steady power with no battery to run down, but a cord to trip on. Picks: Aoteda Wired Electric Foot Warmer 2 Pack, CAMECO Plug-In Foot Heating Pad Pair, JOBYNA Electric Ankle and Foot Heating Pad 2 Pack, Nekteck and Snailax."
+        "text": "Aoteda's 7.2 foot cord and CAMECO plug-in give steady heat without a battery, but the cord is a trip risk if balance is affected."
       },
       {
         "label": "Cordless",
-        "text": "No cord, so you can sit anywhere, but the battery limits run time. Picks: CAMECO Cordless Heated Foot Massager Booties and Auccipal Rechargeable Heated Slippers."
+        "text": "CAMECO cordless has a 5000mAh pack and Auccipal 2500mAh, which allow walking but run out and add battery heat concerns."
       }
     ],
-    "note": "Most users should default to corded and stay seated, because walking on numb feet in heated footwear adds risk."
+    "note": "If you sit while using it, take a corded pad and keep the cord away from walkways."
   },
   {
-    "subheading": "Boot vs Massager",
+    "subheading": "By Foot Size",
+    "intro": "Too tight is a risk when feet are numb.",
     "table": {
       "headers": [
-        "Your concern",
-        "Recommended pick"
+        "Your foot",
+        "Best pick here"
       ],
       "rows": [
         [
-          "Want heat only, hands free",
-          "Aoteda Wired Electric Foot Warmer 2 Pack"
+          "Up to men's size 13",
+          "JOBYNA Electric Ankle and Foot Heating Pad 2 Pack, which lists fit up to men's size 13"
         ],
         [
-          "Want heat plus gentle rolling",
-          "Nekteck Foot Massager with Heat and Roller"
+          "Size 13 with a remote",
+          "Snailax Shiatsu Foot Massager with Heat and Remote, with a size 13 fit"
         ],
         [
-          "Want heat plus remote massage",
-          "Snailax Shiatsu Foot Massager with Heat and Remote"
+          "Up to men's size 12",
+          "CAMECO Plug-In Foot Heating Pad Pair, fits to men's size 12"
         ],
         [
-          "Want heat with vibration",
-          "CAMECO Cordless Heated Foot Massager Booties"
+          "Wide feet or a high instep",
+          "Aoteda Wired Electric Foot Warmer 2 Pack, a flat pad rather than a boot"
         ]
       ]
     }
   },
   {
-    "subheading": "For Reduced Sensation Specifically",
+    "subheading": "For People Who Cannot Feel Heat Well Specifically",
+    "intro": "This is the highest-risk group for heat products.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A starting temperature under 100F, a short timer, a stated overheat protection and a fit that does not squeeze. Ask your doctor before starting."
+        "text": "A starting temperature at or near 86F, a short auto shut-off such as 15 to 30 minutes and a pad you can remove quickly."
       },
       {
         "label": "In this comparison",
-        "text": "Aoteda Wired Electric Foot Warmer 2 Pack starts at 86F with a 10 to 90 minute timer and overheat protection, and Nekteck Foot Massager with Heat and Roller stops after 15 minutes."
+        "text": "Aoteda and JOBYNA start at 86F, CAMECO cordless offers a 30 minute timer, and Nekteck stops at 15 minutes."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "Cost does not buy safety here, features do.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want a pair, a lower ceiling or no cord. Aoteda Wired Electric Foot Warmer 2 Pack and CAMECO Cordless Heated Foot Massager Booties offer those."
+        "text": "You want a cordless boot with a 30 minute timer. The CAMECO cordless under $90 provides it; see the best foot warmers with auto shut-off guide for timer-focused picks."
       },
       {
         "label": "Save if",
-        "text": "You only need a short, mild session. Nekteck Foot Massager with Heat and Roller costs under $40 and has a fixed mild temperature."
+        "text": "You will sit with a pad on the floor. The Nekteck under $40 or JOBYNA under $60 cost less and include auto shut-off."
       }
     ]
   }
@@ -395,28 +405,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Is a heated foot warmer safe with reduced sensation?",
-    "a": "It carries a burn risk because you may not feel heat. These are comfort products, so ask your doctor first, use the lowest setting and a short timer, and check your skin afterward."
+    "q": "Is it safe to use a heated foot warmer with neuropathy?",
+    "a": "Ask your doctor first. Reduced sensation means you may not feel heat building, so these are comfort products, not medical devices. Choose a low start such as 86F on Aoteda or JOBYNA, a short timer, and check your skin after every use."
   },
   {
-    "q": "Which setting should I start on?",
-    "a": "Start on the lowest, and do not step up unless your doctor agrees. Aoteda and CAMECO plug-in start at 86F, which is gentler than units starting at 104F."
+    "q": "What mistake do people with numb feet make with heated pads?",
+    "a": "Starting on a high setting. A pad that starts hot leaves no safe option, so read the first number in the range, not the maximum. Aoteda, CAMECO plug-in and JOBYNA start at 86F, which is the safer end."
   },
   {
-    "q": "Is a massager worth it over a plain warmer?",
-    "a": "A plain warmer gives you simpler, more predictable heat. A massager like Nekteck adds pressure, which can be too strong for sensitive feet."
+    "q": "Is the CAMECO cordless worth more than the plug-in pair?",
+    "a": "If you need to move around, yes: the cordless booties use a 5000mAh battery with 30, 45 or 60 minute timers. The plug-in pair costs less and runs 10 to 90 minutes at 86F to 158F, but ties you to an outlet."
   },
   {
-    "q": "Can I sleep with one on?",
-    "a": "No. Use a timer and remove it before sleep, since you may not notice if heat builds up."
+    "q": "How do I set up a foot warmer safely?",
+    "a": "Sit down before turning it on, start at the lowest setting, set the shortest timer, and check the foot after five minutes. Keep cords out of walking paths, and unplug after use. Do not sleep wearing or using a heated pad."
   },
   {
-    "q": "What if my foot is wide or the instep is high?",
-    "a": "CAMECO says its boots do not suit feet 8cm wide or more or a high instep. Check fit notes and avoid forcing a tight fit."
+    "q": "Can I wash these heated foot warmers?",
+    "a": "Check the label. Snailax lists a washable foot cover, while plug-in pads generally should not be submerged. Unplug first, remove any controller or battery, and dry fully before use. Damaged wires or a frayed cord mean the product should be retired."
   },
   {
-    "q": "Are these medical devices?",
-    "a": "No. Listings may mention pain relief, but we do not rely on those claims."
+    "q": "Does the Nekteck's fixed heat make it safer or less flexible?",
+    "a": "It runs at about 113F with a 15 minute auto stop, so there is no hot option, which some prefer. It also adds a roller massage and is a 3.3 pound plug-in unit, so it is less portable than a pad."
   }
 ];
 

@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "VA/Wattage Capacity", "description": "Compared stated VA and wattage ratings across the lineup, from 900VA to 1500VA." },
-  { "title": "PFC Sine Wave Compatibility", "description": "Checked which picks specifically support active PFC power supplies common in modern computers." },
-  { "title": "Data Line Protection Breadth", "description": "Compared telephone-only protection against built-in coaxial and Ethernet surge protection." },
-  { "title": "Energy Efficiency Certification", "description": "Checked for Energy Star certification and stated efficiency percentages." },
-  { "title": "Connected Equipment Warranty", "description": "Compared documented warranty and insurance coverage amounts across the lineup." }
+  { "title": "Pure sine wave on the output", "description": "We checked which picks produce a PFC sine wave, such as the CyberPower CP1000PFCLCD. Computers with active PFC supplies can fail to recognize simulated sine wave output during an outage, so a pure or PFC sine unit is the safer pick for a modern PC. The APC Pro 1000VA lists Active PFC compatibility instead, which is a lower bar." },
+  { "title": "Capacity versus 1500VA temptation", "description": "We compared 1000VA and 1500VA units, like the APC Pro 1000VA and CyberPower CP1500AVRLCD3. A 1500VA label means more battery and 900W, but a standard desktop rarely needs it, and runtime is set by load, not the VA number. The 900VA AVRG900LCD fills the gap between them at 480W." },
+  { "title": "Fast-charge USB and ports", "description": "We noted the Type-A and Type-C charging ports on the CyberPower models. A UPS that charges a phone and a laptop from one place reduces the cable clutter on a small desk, and Type-C matters for current laptops. The APC Pro lists coax and Ethernet protection rather than Type-C charging." },
+  { "title": "Efficiency and idle draw", "description": "We looked for efficiency claims, including the APC Pro's Energy Star 92% plus rating. A UPS runs all day, so a more efficient unit wastes less electricity and runs cooler, which also helps battery life. Efficiency is one place the APC Pro spec sheet is more explicit than its rivals." },
+  { "title": "Coverage terms", "description": "We compared guarantees, from $350,000 on the CP1000PFCLCD to $500,000 on the CP1500AVRLCD3, all with 3-year warranties. We treat these as supporting evidence of surge protection quality, not a promise of coverage. The AVRG900LCD sits at $200,000, a smaller limit than the larger CyberPower units." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "By $200 you reach pure sine models, so the first table splits desks by whether the PC power supply needs clean output.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "The four picks sit between the $150 and $200 tiers, so the budget table matches each to a use case rather than ranking by cost alone.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Data Line Protection Needs",
+    intro: "A second axis is how many devices will actually draw from the battery, because a larger unit is wasted on a router-only desk.",
     table: {
       headers: ["Your connection type", "Recommended pick"],
       rows: [
@@ -184,7 +187,7 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Do I need a PFC sine wave UPS if I have a modern gaming PC?", "a": "If your power supply specifically uses active PFC, checking its own specifications for this detail, then yes, a PFC sine wave UPS like the CP1000PFCLCD or APC BX1000M avoids potential compatibility issues that can occur with simulated sine wave UPS units during an actual power outage." },
-  { "q": "What's the most common mistake buyers make when comparing runtime figures across UPS units at this tier?", "a": "Assuming the stated runtime applies to their exact setup, when the figure is specific to a reference load wattage, so a heavier combined equipment load will result in proportionally shorter actual runtime than the stated figure suggests." },
+  { "q": "Do I need a pure sine wave UPS at this price?", "a": "If your desktop has an active PFC power supply, a PFC sine wave unit like the CyberPower CP1000PFCLCD is the safer choice, since simulated sine wave output can confuse it during an outage. For a router and monitor, the cheaper AVRG900LCD with simulated output is generally fine." },
   { "q": "Is the APC BX1000M worth it over the CyberPower CP1500AVRLCD3 despite lower capacity?", "a": "If built-in coax and Ethernet protection plus Energy Star-certified efficiency matter to your setup, yes, but if maximum raw capacity and the highest documented warranty are your priority, the CP1500AVRLCD3's 1500VA and $500,000 guarantee lead this comparison instead." },
   { "q": "Does Energy Star certification actually save meaningful money over time?", "a": "For a UPS kept plugged in and running continuously for years, even a few percentage points of efficiency difference compounds into real electricity cost savings, making Energy Star certification a genuine long-term value consideration, not just a marketing label." },
   { "q": "Can I use the CyberPower AVRG900LCD with a modern gaming PC even though it's not PFC sine wave?", "a": "It can work, but some active PFC power supplies may behave erratically on simulated sine wave power during an actual outage, so if you specifically have this type of power supply, a PFC-compatible pick like the CP1000PFCLCD would be the safer choice." },

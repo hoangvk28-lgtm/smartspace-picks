@@ -190,24 +190,24 @@ export const buyingCriteria: BuyingCriterion[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Remapping method",
-    "description": "We compared how customization is done: software, onboard screen or presets."
+    "title": "Button count and layout",
+    "description": "We counted programmable controls, from the 11 on the wired Attoe to the single thumb button on the Herize, and checked where they sit. More buttons help only if the thumb can reach them without stretching, so layout counted as much as the raw number. The Attoe's 5-direction thumb rocker is a stretch for small hands, while the Herize's single button is easy to reach."
   },
   {
-    "title": "Button count",
-    "description": "We counted only buttons the listing says are programmable."
+    "title": "Remapping depth and software",
+    "description": "We looked at how each mouse is remapped, noting that the Attoe needs software and that the NYIEFADA lists a knob with 10 presets but unclear depth. A button you cannot bind to your own shortcut is only decoration, so documented software support earned credit. The Attoe, NYIEFADA and Ergodriven list software or knobs, but only the Attoe says remapping needs software."
   },
   {
-    "title": "Ergonomic shape",
-    "description": "We compared vertical and palm-style designs and the stated hand sizes."
+    "title": "Ergonomic shape underneath",
+    "description": "We checked that the shell is still comfortable, since most picks are vertical, like the Ergodriven Om, while the Logitech M510 is a flat full-size design. A mouse with many buttons but a cramped shape defeats its own purpose for long sessions. The Ergodriven Om has an onboard screen, and the Logitech M510 is a flat full-size mouse."
   },
   {
-    "title": "Connectivity and power",
-    "description": "We looked at wired versus wireless and listed battery claims."
+    "title": "Wired versus wireless choice",
+    "description": "We separated the wired Attoe from Bluetooth and 2.4GHz models and noted charging such as USB-C fast charging on the Herize. A wired mouse has no battery gap mid-task, but a cable can limit placement, so we weighed both. The Attoe is wired up to 10000 DPI; the Herize charges over USB-C."
   },
   {
-    "title": "Value for price",
-    "description": "We weighed features against price, from about $26 to $40."
+    "title": "Shortcut value for the price",
+    "description": "We asked what real shortcuts each mouse enables, such as page back and forward on the M510 and a 5-direction thumb rocker on the Attoe. At $25 to $40, a mouse that saves clicks daily earns its place, so we valued concrete macro use. The M510 claims up to two years of battery and binds back and forward, which covers most needs."
   }
 ];
 
@@ -339,28 +339,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do I need software to program the buttons?",
-    "a": "It depends. Ergodriven says no, while Attoe and Logitech need their apps. Check the listing for the method before buying."
+    "q": "Do I need software to use the programmable buttons?",
+    "a": "Usually yes. The Attoe lists software for mapping its 11 buttons, and the NYIEFADA knob and Ergodriven Om settings also rely on the maker's tools. Without the software, the buttons fall back to defaults such as page forward and back."
   },
   {
-    "q": "Is a wired vertical mouse okay for ergonomics?",
-    "a": "The angle matters more than the cable, and a wired model avoids charging. The cable can limit positioning on small desks."
+    "q": "Is the Attoe worth it over the Logitech M510?",
+    "a": "If you want many shortcuts, yes. The Attoe offers 11 programmable buttons and a 5-direction rocker in a vertical shell, while the M510 gives page back and forward, a tilt wheel and a long battery in a flat design. The Attoe is wired, so cable drag matters."
   },
   {
-    "q": "Is a vertical mouse worth it over the M510?",
-    "a": "If you feel forearm strain, vertical may feel more relaxed, but the M510 is easier to adopt. See a doctor or ergonomist if pain persists."
+    "q": "Which shortcuts are worth binding?",
+    "a": "Copy, paste, undo, window switching and page navigation save the most time. Bind them to thumb buttons you can reach without lifting your hand. Avoid mapping destructive actions, such as delete, to a button you might press by accident."
   },
   {
-    "q": "How do I assign a shortcut to a thumb button?",
-    "a": "Open the maker software or onboard menu, select the button and choose the action. Save the profile and test in your main app."
+    "q": "Can I take my button profiles to another computer?",
+    "a": "Often not. Mapping lives in the maker's software, and a second computer without it falls back to defaults. Some mice store a profile on the device, such as an onboard memory, but the listing rarely says. Check before you rely on them."
   },
   {
-    "q": "Will programmable buttons work on a Mac?",
-    "a": "Hardware buttons usually work, but some remapping software is Windows-first. Check the macOS compatibility line."
+    "q": "Do these mice work on a Mac?",
+    "a": "Basic pointing works, but extra-button mapping depends on whether the software supports macOS. Read the listing and the Q and A for a Mac note, and check whether the software installs on your version before ordering."
   },
   {
-    "q": "How do I clean a mouse with many buttons?",
-    "a": "Switch the mouse off or unplug it, then wipe the shell and gaps with a slightly damp microfiber cloth. Use a short blast of compressed air around the buttons and wheel to clear dust. Avoid spraying liquid directly onto a wired model such as the Attoe."
+    "q": "How many buttons do I really need?",
+    "a": "Most people use two or three extra controls. The single thumb button on the Herize may be enough if you only need back, while the 11-button Attoe suits coding or editing with many shortcuts. More buttons add accidental presses and cost, so count real habits."
   }
 ];
 

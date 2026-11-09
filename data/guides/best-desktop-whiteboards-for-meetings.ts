@@ -104,10 +104,26 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Webcam visibility and typical framing", description: "We favored keyboard-adjacent products that naturally sit within standard webcam framing during a video call." },
-  { title: "Glass surface for reduced glare and ghosting on camera", description: "We prioritized glass boards, which show less glare under ring lights and resist ghosting better than melamine over repeated meetings." },
-  { title: "Writing area for diagram-heavy use", description: "We noted where a board offers meaningfully more room for sketching process flows or diagrams during calls." },
-  { title: "Review volume as reliability evidence", description: "We weighted established review history for confidence in each pick's long-term durability under frequent meeting use." }
+  {
+    "title": "Camera-visible writing area",
+    "description": "In video meetings a board must read on camera. We checked sizes, such as the 16 x 12 inch Tankee against the 8 x 6 inch TSJ, and favored larger writing areas for diagrams. Smaller boards suit reminders only. Larger beats smaller for diagrams and agendas."
+  },
+  {
+    "title": "Glass versus melamine",
+    "description": "Glass resists glare and ghosting better than melamine, which can stain after repeated use. TSJ, the unnamed-brand glass board and Varhomax name glass, while Tankee names a dry erase surface. We credited glass for meetings with daily erasing. Reflections show up on camera."
+  },
+  {
+    "title": "Keyboard-adjacent placement",
+    "description": "Several picks sit by a keyboard, which keeps notes next to your screen. The TSJ keyboard-stand board and the generic glass board are designed for that, while Tankee uses a stand. We compared how each keeps your hands free. Placement keeps your hands free."
+  },
+  {
+    "title": "Magnetic and double-sided",
+    "description": "Tankee is magnetic and double-sided at 16 x 12 inches, which doubles writing space for back-to-back meetings. Plain glass boards are not magnetic, so we weighed that for people who pin agendas. Pinned agendas need a magnetic surface."
+  },
+  {
+    "title": "Organizer and desk clutter",
+    "description": "Meetings produce pens, cards and sticky notes. Varhomax combines a glass board with storage, which saves desk space but adds footprint. We asked whether the organizer is needed or adds clutter. Clutter-free desks look better on camera and in shared calls."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,20 +238,53 @@ export const howToChoose: HowToChooseSection[] = [
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check camera visibility with your actual webcam setup", explanation: "Test a candidate board's position against your webcam framing before committing, since desk and camera angles vary." },
-  { criterion: "Favor glass for reduced glare and ghosting on camera", explanation: "Glass surfaces show less glare under typical office lighting and resist ghosting better than melamine over repeated meetings." },
-  { criterion: "Match writing area to how you actually use it in meetings", explanation: "Quick reminders need less space than sketched diagrams - pick size accordingly." },
-  { criterion: "Consider an organizer if meeting materials clutter your desk", explanation: "The Varhomax option combines whiteboard and storage for meeting-related items." },
-  { criterion: "Weigh review volume for confidence in long-term durability", explanation: "Frequent meeting use means more erase cycles - an established review base is useful evidence of durability." }
+  {
+    "criterion": "Camera visibility with your setup",
+    "explanation": "Test a board's position against your webcam framing before committing, since desk and camera angles vary. A 16 x 12 inch board reads on camera at arm's length, while an 8 x 6 inch board only shows short notes. Look at listing photos and compare the size to your keyboard. Check the dimensions in the listing photos and compare them with your keyboard, since a few inches change what reads clearly on a call."
+  },
+  {
+    "criterion": "Glass for glare and ghosting",
+    "explanation": "Glass resists ghosting better than melamine, which can stain after 1 to 3 years of daily use, and a glossy glass surface may reflect lights on camera. TSJ and Varhomax name glass in their listings. Place the board away from direct windows. Check the dimensions in the listing photos and compare them with your keyboard, since a few inches change what reads clearly on a call."
+  },
+  {
+    "criterion": "Writing area for your meeting style",
+    "explanation": "Quick reminders need less space than sketched diagrams. Tankee gives 16 x 12 inches on two sides, while the 8 x 6 inch TSJ is for short notes. Decide whether you diagram or list, then match the size. Check the dimensions in the listing photos and compare them with your keyboard, since a few inches change what reads clearly on a call."
+  },
+  {
+    "criterion": "Magnetic versus plain glass",
+    "explanation": "Plain glass boards are not magnetic, so agendas and cards will not stick. Tankee lists a magnetic surface. Look for the word magnetic in the listing, and if it is a glass board assume it is not unless stated. Check the dimensions in the listing photos and compare them with your keyboard, since a few inches change what reads clearly on a call."
+  },
+  {
+    "criterion": "Organizer or pure board",
+    "explanation": "Varhomax combines a glass board with storage for pens and cards, while the TSJ boards are pure whiteboards. An organizer helps a cluttered desk but adds footprint. Check whether markers and an eraser are included. Check the dimensions in the listing photos and compare them with your keyboard, since a few inches change what reads clearly on a call."
+  }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Will a small whiteboard actually show up on a video call?", a: "Keyboard-adjacent products like the top picks here are positioned to sit within typical webcam framing, but test your specific setup before relying on it." },
-  { q: "Should I get glass or a magnetic board?", a: "Glass shows less glare and ghosting on camera. Magnetic boards add the ability to hold notes, useful if you reference printed materials during calls." },
-  { q: "What's the best option for sketching diagrams during calls?", a: "The Tankee Dry Erase Board at 16x12 inches, the largest writing area in this comparison." },
-  { q: "Is there an option with storage for meeting materials?", a: "Yes, the Varhomax Glass Desk Whiteboard with Storage." },
-  { q: "What's the cheapest meeting-friendly option?", a: "The TSJ OFFICE 8x6 glass board at under $20." },
-  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the highest-rated keyboard-adjacent option for meetings." }
+  {
+    "q": "What size whiteboard works for video meetings?",
+    "a": "A 16 x 12 inch board such as Tankee gives enough space for diagrams that stay legible on camera. An 8 x 6 inch board like the small TSJ suits action items and reminders. Test it at your webcam distance. Always test the framing first."
+  },
+  {
+    "q": "What mistake do people make with meeting whiteboards?",
+    "a": "Placing the board where it blocks the webcam or reflects light. Glass boards can show glare under bright windows, so angle them away. Try your board at the actual camera angle before the first call."
+  },
+  {
+    "q": "Is glass worth more than the cheaper Tankee for meetings?",
+    "a": "If you erase often, yes. Glass resists ghosting and glare, while Tankee's dry erase surface and magnetic double-sided design cost slightly less. Tankee suits agendas that stay up, and glass suits repeated notes."
+  },
+  {
+    "q": "How do I keep notes visible during a call?",
+    "a": "Place the board beside your keyboard or camera, write large with a dark marker, and keep it clean. The TSJ keyboard stand design keeps the notes at eye level. Avoid light colors, which wash out on camera."
+  },
+  {
+    "q": "Can I stick magnets on these boards?",
+    "a": "Tankee is listed as magnetic, so yes. Plain glass boards are not magnetic unless backed with steel. If you pin agendas, choose Tankee or check for a magnetic version."
+  },
+  {
+    "q": "How should I clean a glass whiteboard between meetings?",
+    "a": "Wipe with a dry microfiber cloth, then use whiteboard cleaner or isopropyl alcohol for stains. Do not use abrasive pads on glass. Clean weekly if you write daily so ghosting never builds up."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

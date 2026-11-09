@@ -218,52 +218,48 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Thumb rest shape and position",
-    "explanation": "A sculpted thumb rest gives the thumb a place to sit instead of dragging along the desk or gripping the shell. It matters because a thumb that holds still uses less effort than one that keeps correcting. Look for thumb rest wording in the bullets, and check if it adjusts."
+    "criterion": "Thumb rest type",
+    "explanation": "A thumb rest is a shelf or groove that supports the thumb so it does not clamp the mouse. Fixed rests suit average thumbs, while sliding or rotating ones adapt to different lengths. Look for the words adjustable or sliding in the bullets, and check photos to see where your thumb would rest. The Unimouse's rest slides and rotates, so it matches different thumb lengths."
   },
   {
-    "criterion": "Grip angle",
-    "explanation": "A vertical or tilted shell turns the hand toward a handshake position, which some people find lets the thumb relax. A steeper angle is not always better, and fit depends on hand size. Look for the stated degree figure."
+    "criterion": "Vertical angle range",
+    "explanation": "A vertical angle of 52 to 58 degrees turns the hand to a handshake posture and often reduces the pinch grip. Some mice, like the Unimouse, let you set 35 to 70 degrees. Look for the degree figure in the listing and expect a week or two of adaptation. The seenda tilts 52 degrees and the POJTK 58, so the angle ladder gives room to adapt."
   },
   {
-    "criterion": "Button reach",
-    "explanation": "Back and forward buttons near the thumb save you from stretching, but too many buttons within reach can add accidental presses that make the thumb work harder. A tidy layout with two side buttons is usually enough for office use. Check where the buttons sit in the photos and the count in the listing."
+    "criterion": "Click force and button feel",
+    "explanation": "A light click needs less force from the thumb and fingers, while stiff switches force repeated pressure. Quiet buttons often feel lighter. Look for silent or quiet in the title, and read reviews that describe the click feel, since the specs rarely give grams of force. The J-Tech and TECKNET list no click-force figure, so reviews are your only gauge."
   },
   {
-    "criterion": "Click effort and noise",
-    "explanation": "Click force is rarely listed, yet it decides how much work your thumb or fingers do across thousands of clicks. Quiet switches usually click lighter, though that is a general pattern, not a rule. Look for silent click wording."
+    "criterion": "Weight and wiring",
+    "explanation": "A heavier mouse needs more thumb pressure to move, and extra weight from batteries adds up. The wired Unimouse has no cell, while AAA models like the Anker add mass. Check the weight in grams in the specs, and consider whether a cable or a battery bothers you less. The Anker needs AAA batteries that are not in the box, and the wired Unimouse needs none."
   },
   {
-    "criterion": "Mouse size against hand",
-    "explanation": "If the mouse is too small, the thumb curls to hold it, and if it is too large, the thumb stretches to reach the buttons. Either way the thumb ends up working harder. Compare the listed length with your own measurement from wrist crease to middle fingertip, and note any small or large hand wording."
-  },
-  {
-    "criterion": "Persistent symptoms",
-    "explanation": "Tingling, numbness or ongoing pain is a reason to see a doctor or ergonomist, not to keep buying mice. No listing here claims to treat anything, and a mouse alone will not fix a setup problem. Stop using any device that makes things worse, and check the return policy before you buy."
+    "criterion": "Return window and trial period",
+    "explanation": "Thumb comfort is personal, and you cannot judge it from a listing. A generous return window lets you test the shell for a week or two. Check the seller's return policy before ordering, and avoid buying several shapes at once without checking whether you can send them back. Check the return window, because the seenda and Unimouse sit at very different prices."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Thumb support",
-    "description": "We compared listed thumb rests, palm rests and how adjustable they are."
+    "title": "Thumb support design",
+    "description": "We looked for a defined thumb rest, such as the sliding and rotating rest on the Contour Unimouse and the silicone rest on the seenda. A good rest keeps the thumb from gripping, so we judged how each pick supports the thumb. The Unimouse's rest slides and rotates, while the seenda's silicone rest is fixed, so only one adapts."
   },
   {
-    "title": "Grip angle",
-    "description": "Stated degrees and vertical shapes were noted."
+    "title": "Grip tension reduction",
+    "description": "We compared shells that lower grip effort, like vertical designs at 52 to 58 degrees. A handshake posture often relieves the thumb's pinch, but only if the shell fits, so we weighed angle against hand size guidance. The Lekvey lists page back and forward buttons, so it adds thumb clicks that the Unimouse and seenda avoid."
   },
   {
-    "title": "Button placement",
-    "description": "Back and forward buttons and button counts were weighed."
+    "title": "Number of thumb-reaching buttons",
+    "description": "We checked buttons that need thumb presses, since repeated back and forward clicks strain an already sore thumb. Models with a quiet, light action and few thumb-heavy controls scored better for this audience. The Unimouse is wired with six buttons, and the seenda keeps a fixed 52 degree angle."
   },
   {
-    "title": "Click noise",
-    "description": "Silent click and decibel claims were noted as manufacturer statements."
+    "title": "Adjustability",
+    "description": "We rewarded adjustment, including the Contour Unimouse's 35 to 70 degree hinge and the J-Tech's removable palm rest. A sore thumb often needs a different setting each week, so fixed designs lost points. The Unimouse costs several times the seenda, so the seenda is the cheap trial."
   },
   {
-    "title": "Value for price",
-    "description": "We set each price beside its listed features and the complaints or praise owners repeat most."
+    "title": "Cost of trying one",
+    "description": "We weighed the price of experimenting. Between $17 and $90 here, a cheap vertical like the seenda lets you test the posture before spending on the Unimouse, so we scored entry cost alongside comfort. Nothing here is a medical device, and the Unimouse pairs an adjustable angle with a hinge for gradual change."
   }
 ];
 
@@ -317,7 +313,7 @@ export const howToChoose: HowToChooseSection[] = [
           "J-Tech Digital V638 Ergonomic Wireless Mouse"
         ],
         [
-          "About $89",
+          "Under $100",
           "Contour Unimouse Wired Vertical Ergonomic Mouse"
         ]
       ]
@@ -395,28 +391,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Will a vertical mouse fix thumb pain?",
-    "a": "No mouse is a treatment, and listings here do not claim one. A vertical shape and thumb rest can make long sessions feel more comfortable for some people. See a doctor if pain persists."
+    "q": "Can a mouse fix thumb pain?",
+    "a": "It may reduce strain, but it is not a medical treatment. A vertical shell or a thumb rest can lower the pinch grip that irritates the thumb. If pain persists or spreads, see a doctor or a hand therapist."
   },
   {
-    "q": "Why did I leave trackballs out?",
-    "a": "Thumb trackballs make the thumb roll the ball all day. If the thumb is your problem, that adds work to it. A finger trackball is a different design, but ask an ergonomist."
+    "q": "Which has the best thumb rest here?",
+    "a": "The Contour Unimouse lists a thumb rest that slides and rotates, the most adjustable here. The seenda has a fixed silicone rest. If you want to tune the position to your thumb length, the Unimouse is the most flexible option."
   },
   {
-    "q": "How long should I try a new mouse?",
-    "a": "Give a vertical or tilted mouse a week or two to adjust, and keep a return window of 30 days in mind. Stop sooner if you feel tingling or numbness."
+    "q": "Is the Contour Unimouse worth it over the $17 seenda?",
+    "a": "If you have persistent pain, the Unimouse's 35 to 70 degree tilt and sliding thumb rest let you tailor the fit. The seenda is a cheap trial of a 52 degree vertical shell, but it fits small to medium right hands only."
   },
   {
-    "q": "Is the Contour Unimouse worth the price?",
-    "a": "It is worth considering if you want to adjust the thumb rest and angle yourself. The price is high compared with others, so try a cheaper vertical first if you are unsure."
+    "q": "How long before thumb pain improves?",
+    "a": "There is no fixed timeline. Many people need one to two weeks to adapt to a vertical shell, and it may feel worse at first. Rest your hand, take breaks, and stop using the mouse if the pain grows."
   },
   {
-    "q": "Does a quieter click mean an easier click?",
-    "a": "Often quiet switches click lighter, but listings rarely give force figures. Check the return policy and test it."
+    "q": "Does a wired mouse help?",
+    "a": "The Unimouse here is wired over USB-C, so there is no battery weight. Wireless mice add a little mass, and the Anker needs AAA batteries that are not included. For a sore thumb, weight is secondary to shape, but lighter is usually easier."
   },
   {
-    "q": "What else helps besides the mouse?",
-    "a": "Keep the mouse close to the keyboard, set the desk height so your elbow is near 90 degrees and take short breaks. If pain persists, see a professional."
+    "q": "What else should I change besides the mouse?",
+    "a": "Lower the grip force, relax the shoulder, and keep the mouse close to the keyboard. Use keyboard shortcuts to cut clicking, and take short breaks every half hour. A mouse helps, but posture and habits matter at least as much."
   }
 ];
 

@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Companion App Depth", "description": "Compared free versus paid feature structures across each pick's companion app." },
-  { "title": "Built-In Storage Capacity", "description": "Compared stated on-device memory for photo and video storage across the lineup." },
-  { "title": "Warranty Coverage", "description": "Checked stated warranty length and gift-recipient support policies across all four picks." },
-  { "title": "Weather and Smart Features", "description": "Compared location-based weather integration and automatic sleep scheduling." },
-  { "title": "Sync Method Reliability", "description": "Compared direct integration versus URL-based sync for less common calendar platforms." }
+  {
+    "title": "Sync method and depth",
+    "description": "We compared how calendars connect, since the Linkdaze offers two-way Google and Outlook sync but uses a URL link for iCloud, Cozi and Yahoo. Direct two-way sync lets you add an event on the wall and see it on your phone, which URL imports usually do not. The Linkdaze is the only pick that offers it for both services."
+  },
+  {
+    "title": "Built-in storage and firmware",
+    "description": "We checked storage and upkeep, including the Linkdaze's 32GB memory and 1280x800 IPS panel and its firmware update step needed for best results. A photo-heavy display fills memory, and an update step is worth knowing about before you wall mount. A full photo library fills 32GB faster than events ever will."
+  },
+  {
+    "title": "Subscription and app model",
+    "description": "We read what is free versus paid, noting the Dragon Touch lists free core features with optional paid advanced tools, while the Electronic Calendar for Family Schedules lists no monthly fees. Honest disclosure of the paywall was worth more than a long feature list. That clarity helped the Dragon Touch despite its paid tier."
+  },
+  {
+    "title": "Warranty and gift suitability",
+    "description": "We compared support, from the Electronic Calendar for Family Schedules's explicit 365-day warranty to the shorter claims elsewhere. A display often becomes a gift or goes to a parent, so a stated warranty meant something. Gift buyers in particular tend to value that guarantee."
+  },
+  {
+    "title": "Power and sleep behavior",
+    "description": "We noted the Smart Family Digital Wall Planner's included US-style plug, location-based weather and auto sleep and wake scheduling. A plug that fits and a screen that dims at night make the display practical in a bedroom or hallway. Hallway placement benefits most from that scheduling."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Comprehensive weather integration with included plug", "Digital Calendar, 10.1-inch Smart Family Digital Wall Planner"],
-        ["The largest built-in photo storage capacity", "Linkdaze Digital Calendar 10.1in Smart Calendar"],
-        ["A transparently documented app feature structure", "Dragon Touch 10.1 inch Digital Calendar Chore Chart"],
-        ["The lowest price with a stated warranty for gifting", "Digital Calendar, 10.1 Inch Electronic Calendar for Family Schedules"]
+    "subheading": "By Primary Need",
+    "intro": "Four 10.1 inch displays, each with one clear strength.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A plug-and-play display with location weather and auto sleep",
+          "Smart Family Digital Wall Planner, with a US-style plug included"
+        ],
+        [
+          "Two-way Google and Outlook sync with extra storage",
+          "Linkdaze Digital Calendar 10.1in, with 32GB memory"
+        ],
+        [
+          "Multiple authorized devices and a recognized app ecosystem",
+          "Dragon Touch 10.1 inch Digital Calendar Chore Chart, with photo frame mode"
+        ],
+        [
+          "A stated warranty and no monthly fees at the lowest price",
+          "10.1 Inch Electronic Calendar for Family Schedules, with a 365-day warranty"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $68", "Electronic Calendar for Family Schedules (under $70)"],
-        ["Under $80", "Linkdaze (under $80) or Dragon Touch (under $80)"],
-        ["Under $90", "Smart Family Digital Wall Planner (under $90)"]
+    "subheading": "By Budget",
+    "intro": "The tier is tight, but the cheapest pick is also the warranty pick.",
+    "table": {
+      "headers": [
+        "Budget position",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest price with a full feature set",
+          "10.1 Inch Electronic Calendar for Family Schedules, with a wood grain finish"
+        ],
+        [
+          "Mid for storage and two-way sync",
+          "Linkdaze Digital Calendar 10.1in"
+        ],
+        [
+          "Mid for a recognized app ecosystem",
+          "Dragon Touch 10.1 inch, priced the same as the Linkdaze per the listing"
+        ],
+        [
+          "Upper range for weather and scheduling",
+          "Smart Family Digital Wall Planner, slightly over the tier's midpoint"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Fully Free App vs Free-Plus-Paid App Structure",
-    cards: [
-      { label: "Fully free core features (Smart Family Digital Wall Planner, Electronic Calendar for Family Schedules)", text: "All standard scheduling, chore, and photo features work without any paid upgrade path mentioned." },
-      { label: "Free core plus optional paid tools (Dragon Touch)", text: "Core features are free, but advanced tools like Magic Import require a paid upgrade for specific specialized needs." }
+    "subheading": "Direct Two-Way Sync vs URL Import",
+    "intro": "How calendars get onto the screen changes how you use it.",
+    "cards": [
+      {
+        "label": "Two-way: Linkdaze with Google and Outlook",
+        "text": "Edits made on the wall appear on your phone. The Linkdaze needs a firmware update step for best results."
+      },
+      {
+        "label": "URL import: iCloud, Cozi and Yahoo on the Linkdaze",
+        "text": "Pulls events through a link, which is read-only in many setups. Fine for viewing, less so if you want to add events at the wall."
+      }
     ],
-    note: "If you want confidence that you'll never hit a paywall for a feature you expect to be free, the fully-free picks are the safer choice. If you might need specialized advanced tools later, the Dragon Touch's transparent free-versus-paid structure at least tells you upfront what costs extra.",
+    "note": "Households on Google or Outlook should lean on the Linkdaze, while iCloud users should check how the import behaves first."
   },
   {
-    subheading: "By Storage Needs",
-    table: {
-      headers: ["Your photo storage needs", "Recommended pick"],
-      rows: [
-        ["Rely primarily on cloud-synced photos", "Smart Family Digital Wall Planner or Dragon Touch"],
-        ["Want substantial built-in local storage", "Linkdaze (32GB built-in)"]
+    "subheading": "By Free vs Paid Features",
+    "intro": "Read the paywall before you plan around a feature.",
+    "table": {
+      "headers": [
+        "Concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "No monthly fees at all",
+          "10.1 Inch Electronic Calendar for Family Schedules, which states none"
+        ],
+        [
+          "Transparent free core with optional advanced tools",
+          "Dragon Touch 10.1 inch, which documents what is free and what is paid"
+        ],
+        [
+          "Large photo library stored on the device",
+          "Linkdaze Digital Calendar, with 32GB built in"
+        ],
+        [
+          "A simple screen for a parent or teen",
+          "Smart Family Digital Wall Planner, with weather and auto sleep"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Gift Purchase Specifically",
-    cards: [
-      { label: "Look for", text: "An explicitly stated warranty period and gift-recipient support policy, so the person receiving the calendar can get help directly if issues arise, not just the original purchaser." },
-      { label: "In this comparison", text: "The Electronic Calendar for Family Schedules pick specifically states its 365-day warranty extends to gift recipients, who can reach out directly for after-sales support." }
-    ],
+    "subheading": "For a Shared Kitchen or Hallway Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A plug that fits your outlet, an auto sleep schedule so the screen is off at night, and a display angle readable from across the room."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Smart Family Digital Wall Planner includes a US plug and auto sleep and wake, and the Linkdaze's 1280x800 IPS panel is crisp from a distance."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want comprehensive weather integration with included plug compatibility, where the Smart Family Digital Wall Planner delivers that at the top of this tier." },
-      { label: "Save if", text: "You want the full core feature set at the lowest price with an explicit warranty, where the Electronic Calendar for Family Schedules pick covers that for about $22 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $150 guide steps up to 15.6 inch screens.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a larger screen, voice event creation or a 2-year warranty. Those appear in the under $150 guide."
+      },
+      {
+        "label": "Save if",
+        "text": "A 10.1 inch display is big enough, where the 365-day warranty pick has the full core feature set."
+      }
+    ]
   }
 ];
 
@@ -181,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Does the Dragon Touch's Magic Import paid feature significantly limit the device's usefulness if I don't pay for it?", "a": "No, the core features, photo frame, chore chart, dinner plan, and grocery list, are all included free, and Magic Import is specifically described as an advanced tool for special needs users, so most households won't need it for standard daily use." },
-  { "q": "What's the most common mistake buyers make when comparing built-in storage between these picks?", "a": "Assuming built-in storage is the only way to display photos, when three of the four picks in this tier rely primarily on cloud sync through their companion apps, which works fine for most households with stable internet, making the Linkdaze's 32GB storage a nice-to-have rather than a necessity for everyone." },
-  { "q": "Is the Linkdaze pick worth it over the cheaper Electronic Calendar for Family Schedules option?", "a": "If you specifically want the largest built-in photo storage capacity, yes, but if you want the full core feature set with an explicitly stated gift-friendly warranty at a lower price, the Electronic Calendar for Family Schedules pick covers that for about $13 less." },
-  { "q": "How do I complete the firmware update the Linkdaze recommends after first setup?", "a": "The listing directs you to check Settings, then About, then Firmware version on the device itself, and the update can also happen automatically during periods of inactivity, though performing it manually right after startup is the recommended best practice." },
-  { "q": "Can I give any of these digital calendars as a gift without worrying about warranty complications?", "a": "The Electronic Calendar for Family Schedules pick specifically addresses this by stating its warranty and support extend directly to gift recipients, making it the most straightforward choice if warranty simplicity for a gift recipient is a priority." },
-  { "q": "Do these calendars support real-time collaborative editing if multiple family members update schedules simultaneously?", "a": "The Dragon Touch pick specifically mentions authorizing multiple devices for family-wide access, and other picks in this tier support multi-device sync as well, though checking each specific app's real-time collaborative editing behavior is worth doing if simultaneous multi-user editing is a priority." }
+  {
+    "q": "Is the Linkdaze worth it over the Dragon Touch?",
+    "a": "If you use Google or Outlook, yes: two-way sync and 32GB storage. The Dragon Touch lists free core features with optional paid tools and multi-device authorization, which suits families who share access from several phones. The Dragon Touch lets several phones link to one display."
+  },
+  {
+    "q": "What mistake do buyers make with these displays?",
+    "a": "Skipping the paywall. Some apps charge for advanced import tools. Read the Dragon Touch's free-versus-paid list, and note that the 365-day warranty pick lists no monthly fees. Dragon Touch also documents which tools cost extra."
+  },
+  {
+    "q": "Does the 365-day warranty matter?",
+    "a": "It helps for gifts and for a first-generation device. The listing states 365 days explicitly, so keep the receipt and register the product after setup. Register it after setup and keep the order receipt."
+  },
+  {
+    "q": "How do I add an iCloud calendar to the Linkdaze?",
+    "a": "iCloud, Cozi and Yahoo use a URL-based sync rather than direct login. Copy the shared calendar link into the app, and expect a short delay before events appear. The link should be the shared or public calendar address."
+  },
+  {
+    "q": "How do I update firmware on the Linkdaze?",
+    "a": "The listing recommends a manual firmware update step for best results, so connect to Wi-Fi and install any update before mounting the display on the wall. Skipping the update can leave bugs you will blame on Wi-Fi."
+  },
+  {
+    "q": "Can the screen turn off at night?",
+    "a": "The Smart Family Digital Wall Planner lists auto sleep and wake scheduling, which also prevents image retention. Set it to match when the room is empty. A timer also saves the panel from showing one page all night."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

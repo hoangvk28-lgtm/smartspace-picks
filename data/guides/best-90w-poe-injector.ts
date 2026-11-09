@@ -84,70 +84,151 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "802.3bt Standard Compliance", "description": "Confirmed each listing explicitly states 802.3bt compliance for genuine 90W delivery, not just a wattage headline." },
-  { "title": "Port Speed", "description": "Compared Gigabit versus multi-gigabit (up to 10Gbps) port speeds at the 90W tier." },
-  { "title": "Industrial Protection Ratings", "description": "Compared stated surge and ESD protection kV ratings where listings provided specific numbers." },
-  { "title": "Compliance and Certification", "description": "Compared NDAA compliance and UL certification across listings." },
-  { "title": "Backward Compatibility Range", "description": "Compared how far down each listing's stated compatibility extends to lower PoE standards." }
+  {
+    "title": "802.3bt type 4 handling",
+    "description": "Only 802.3bt type 4 delivers up to 90W at the device, so we read which standards each listing names. The Cudy, Omada, and BV-Tech all state af/at/bt compatibility, and the YuanLey claims backward compatibility with 60W, 30W, and 15.4W. Clear class negotiation was the first filter for any 90W buyer."
+  },
+  {
+    "title": "Data rate",
+    "description": "The Omada supports 10, 5, 2.5, and 1 Gbps plus 100 and 10 Mbps, while the other three are Gigabit. A 90W device is often a multi-gig Wi-Fi 7 AP or a high-end PTZ camera, so we gave real credit to a multi-gig injector where the device has a multi-gig port. The gap between 1G and 10G injectors is the main reason prices differ."
+  },
+  {
+    "title": "Protection and certification",
+    "description": "The Cudy lists 4kV surge and 8kV ESD protection in a metal housing, the Omada lists UL certification, and the BV-Tech lists NDAA and Level VI energy compliance. At 90W, a certification is more than a badge, because a bad injector carries far more heat and current."
+  },
+  {
+    "title": "Operating range",
+    "description": "The Cudy and YuanLey list -10 to 40C operation. That range is a limit worth noting, since a 90W unit in an attic or closed cabinet will see higher temperatures, so we marked every unit with an explicit rating and discounted those without. Those are the limits we noted, because heat is what shortens injector life at this wattage."
+  },
+  {
+    "title": "Power visibility",
+    "description": "The Cudy shows real-time wattage on an LED display. At 90W a quick readout reveals whether a PTZ camera is drawing its heater load, which helps avoid guesswork when a camera resets in cold weather. Seeing the live draw also helps you size the next device before you outgrow the injector."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Network Speed Requirement",
-    table: {
-      headers: ["Your network backbone", "Recommended pick"],
-      rows: [
-        ["Gigabit, industrial-grade protection priority", "Cudy 90W Gigabit PoE++ Injector"],
-        ["10Gbps backbone", "Omada 10G PoE++ Injector"],
-        ["Gigabit, NDAA compliance needed", "BV-Tech 90W PoE++ Injector"],
-        ["Gigabit, budget priority", "YuanLey Gigabit PoE Injector 90W"]
+    "subheading": "By Device Type",
+    "intro": "90W devices are rare and demanding, so match the injector to the exact load.",
+    "table": {
+      "headers": [
+        "Your 90W device",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A Wi-Fi 7 access point with a 10G or 5G port",
+          "Omada 10G 10G PoE++ Injector (POE380S), with multi-gig ports and UL certification"
+        ],
+        [
+          "A PTZ camera with a heater that needs 90W and surge protection",
+          "Cudy 90W Gigabit PoE++ Injector (POE400), with 4kV surge and 8kV ESD protection"
+        ],
+        [
+          "A device in a public or school install that needs NDAA compliance",
+          "BV-Tech 90W PoE++ Injector, which lists NDAA compliance"
+        ],
+        [
+          "A mixed set of 15W, 30W, 60W, and 90W devices",
+          "YuanLey Gigabit PoE Injector 90W, which lists backward compatibility down to 15.4W"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $40", "YuanLey Gigabit PoE Injector 90W (under $40)"],
-        ["Under $45", "BV-Tech 90W PoE++ Injector (under $45)"],
-        ["Under $70", "Cudy 90W Gigabit PoE++ Injector (under $70)"],
-        ["Under $85", "Omada 10G PoE++ Injector (under $90)"]
+    "subheading": "By Budget",
+    "intro": "Prices span almost double, mostly for multi-gig.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $40, the cheapest 90W unit",
+          "YuanLey, with Gigabit and a metal housing"
+        ],
+        [
+          "Under $45, NDAA compliant",
+          "BV-Tech 90W, with Level VI energy compliance"
+        ],
+        [
+          "Under $70, with LED readout and surge protection",
+          "Cudy 90W, the best protected Gigabit pick"
+        ],
+        [
+          "Under $85, multi-gig",
+          "Omada 10G, for 10G devices"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Gigabit vs 10Gbps at the 90W Tier",
-    cards: [
-      { label: "Gigabit (Cudy, BV-Tech, YuanLey)", text: "Sufficient for the vast majority of 90W-class devices like PTZ cameras and digital signage, which don't generate enough data traffic to need multi-gigabit speed." },
-      { label: "10Gbps (Omada)", text: "Necessary only if the injector sits on a genuine 10Gbps network backbone; otherwise the extra speed capability goes unused." }
+    "subheading": "Gigabit vs Multi-Gig at 90W",
+    "intro": "Many 90W devices now carry 2.5G or 10G ports, and the injector is part of the data path.",
+    "cards": [
+      {
+        "label": "Gigabit (Cudy 90W, BV-Tech 90W, YuanLey)",
+        "text": "Fine for PTZ cameras and most APs, since the streams rarely exceed 1Gbps. The injector is the cheapest part of the path, and the extra power is the main reason to buy."
+      },
+      {
+        "label": "Multi-gig (Omada 10G)",
+        "text": "Required when the device and switch both run 2.5G or faster, or the injector becomes the bottleneck for a Wi-Fi 7 AP. It costs more but removes the speed ceiling."
+      }
     ],
-    note: "Most buyers should default to a Gigabit 90W injector unless their specific network infrastructure is already built around 10Gbps switching.",
+    "note": "Buy Gigabit unless your device or switch has a multi-gig port."
   },
   {
-    subheading: "By Certification Priority",
-    table: {
-      headers: ["What you want confirmed", "Recommended pick"],
-      rows: [
-        ["Documented surge/ESD kV ratings", "Cudy 90W Gigabit PoE++ Injector"],
-        ["NDAA compliance", "BV-Tech 90W PoE++ Injector"],
-        ["UL certification with 10Gbps", "Omada 10G PoE++ Injector"]
+    "subheading": "By Safety Priority",
+    "intro": "90W carries real heat and current, so the safety record matters.",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Third-party safety certification",
+          "Omada 10G, which lists UL certification"
+        ],
+        [
+          "Surge and ESD protection on a long outdoor run",
+          "Cudy 90W, with 4kV surge and 8kV ESD"
+        ],
+        [
+          "Government or institutional compliance",
+          "BV-Tech 90W, with NDAA and Level VI"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a PTZ Camera With a Heater Specifically",
-    cards: [
-      { label: "Look for", text: "Full 802.3bt compliance rated at the true 90W tier, since a PTZ camera's heater element alone can draw significant power on top of the camera's base operation, and an underpowered injector will fail intermittently in cold weather." },
-      { label: "In this comparison", text: "The Cudy pick specifically names PTZ cameras with heaters in its stated use cases, backed by its documented sustained 90W load capability." }
-    ],
+    "subheading": "For a Wi-Fi 7 Access Point Specifically",
+    "intro": "Wi-Fi 7 APs commonly need around 90W for full radio performance.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "An 802.3bt type 4 label, a multi-gig port if the AP has one, and a UL mark."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Omada 10G matches a multi-gig AP and offers UL certification, while the Cudy 90W gives a Gigabit link with surge protection."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "Your network runs on a 10Gbps backbone or you want documented industrial surge protection, where the Omada or Cudy picks justify their higher prices." },
-      { label: "Save if", text: "You need reliable 90W 802.3bt delivery for a Gigabit network without NDAA compliance, where the YuanLey pick delivers that at the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "At 90W the premium buys data speed and certification.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your AP has a multi-gig port. The Omada 10G costs the most here, and the 60W injector guide covers cheaper units if your device draws less."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need power. The YuanLey and BV-Tech 90W cost the least and carry the 90W label."
+      }
+    ]
   }
 ];
 
@@ -175,12 +256,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "What devices actually need a 90W PoE++ injector?", "a": "PTZ cameras with built-in heaters, large digital signage displays, industrial IoT gateways, and some multi-radio access points typically draw enough power to require the full 90W 802.3bt tier rather than the lower 30W or 15.4W standards." },
-  { "q": "Do I need a 10Gbps injector if my devices only need 90W of power?", "a": "No, power delivery and data speed are separate specs; a Gigabit-capped 90W injector delivers the full 90W just as reliably as a 10Gbps one, and the extra speed only matters if your network backbone actually supports 10Gbps traffic." },
-  { "q": "Is a 90W injector backward compatible with my existing 30W devices?", "a": "Most 90W 802.3bt injectors, including several in this comparison, explicitly state backward compatibility with 802.3at (30W) and 802.3af (15.4W) devices via auto-sensing technology." },
-  { "q": "Why is the Omada 10G injector so much more expensive than the others?", "a": "Its multi-gigabit port speed up to 10Gbps requires more sophisticated internal components than a Gigabit-capped injector, which accounts for the price premium over the other 90W picks in this comparison." },
-  { "q": "What's the maximum cable distance for a 90W PoE++ injector?", "a": "Like other PoE standards, 802.3bt injectors are rated for up to 100 meters (328 feet) over standard Ethernet cable, the same distance limit as lower-power PoE standards." },
-  { "q": "Does NDAA compliance affect a 90W injector's actual performance?", "a": "No, NDAA compliance is a sourcing and procurement restriction unrelated to the injector's electrical performance; a compliant and non-compliant unit can deliver identical power and speed specs." }
+  {
+    "q": "Does a 90W injector always send 90W to my device?",
+    "a": "No. An active 802.3bt injector sends only what the device requests, so a 15W camera draws 15W. The 90W figure is the ceiling, and the YuanLey lists backward compatibility with lower classes so mixed devices work safely. Mixed rooms are the reason to want that backward compatibility."
+  },
+  {
+    "q": "What is the main mistake when buying a 90W injector?",
+    "a": "Assuming a 90W label means 802.3bt type 4. The 90W figure only matters if the device negotiates type 4, so check the device's manual. A 60W-class device will not use the extra power, and an af/at device will not either."
+  },
+  {
+    "q": "Is the Omada 10G worth paying more than the Cudy?",
+    "a": "Only if your AP or switch runs 2.5G or faster. For a Gigabit device the Cudy gives 90W, a metal body, and surge protection for less. The Omada's extra cost buys the data rate and UL listing. Ask which tier you actually need before paying."
+  },
+  {
+    "q": "How do I wire a 90W injector between a switch and an AP?",
+    "a": "Connect the switch to the injector's data port, then the injector's PoE port to the AP. Use solid copper Cat6, and keep the total length under 100m, because 90W through a long thin cable loses noticeable voltage."
+  },
+  {
+    "q": "Can I run a 90W injector in a hot attic?",
+    "a": "The Cudy and YuanLey list -10 to 40C operation, so a hot attic can exceed that. Heat shortens life, so mount the injector in a cooler, ventilated spot and leave space around the case. Heat is the main enemy of power electronics."
+  },
+  {
+    "q": "Do I need special cable for 90W PoE?",
+    "a": "Solid copper Cat6 or better is best, since 90W uses all four pairs. Copper-clad aluminum cable heats up and loses voltage, so it can shut a device off. Avoid bundling many 90W cables tightly together. Check the cable jacket for a copper marking."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Adjustable Width Range", "description": "Compared the minimum and maximum device width each bracket's sliding arms can accommodate." },
-  { "title": "Mounting Scenario Versatility", "description": "Compared how many distinct mounting locations, wall, VESA, under desk, or pole clamp, each pick supports." },
-  { "title": "Weight Capacity", "description": "Compared stated maximum supported weight across the lineup where available." },
-  { "title": "Extra Features", "description": "Noted bonus features like pen holders, power adapter straps, and cable management ties." },
-  { "title": "Warranty and Support", "description": "Compared stated warranty length and manufacturer support commitments." }
+  {
+    "title": "Mounting methods per bracket",
+    "description": "We counted attachment options, because the VIVO offers pole clamp, VESA or under desk, and the pen-holder bracket adds a fourth. A bracket that supports a VESA monitor mount is handy for hiding the PC behind a display, so flexibility mattered. Measure your PC before ordering."
+  },
+  {
+    "title": "Weight capacity stated",
+    "description": "We compared published limits, with the VIVO at 5 kg and the pen-holder bracket at 12 lbs, while the 6-level steel bracket lists none. A mini PC plus its brick can weigh several pounds, so a missing figure earned a cautious note. Check the 5 kg limit against your PC plus its brick."
+  },
+  {
+    "title": "Width and depth range",
+    "description": "We checked adjustable ranges, such as the VIVO's 1.8 to 7.1 cm and the pen-holder bracket's 0.63 to 2.8 inches. A mini PC with a thick chassis or protruding ports needs a bracket whose width actually covers the unit. Match the model name first."
+  },
+  {
+    "title": "Device-specific fit",
+    "description": "We rated the Freejia for Lenovo ThinkCentre Tiny separately, since it is purpose-built with 75x75mm and 100x100mm VESA holes but fits only listed models. A tailored bracket is tidier, but a universal one survives a future upgrade. Leave a gap beside the vents."
+  },
+  {
+    "title": "Airflow and port access",
+    "description": "We noted open-frame designs that leave vents and ports uncovered, a point raised by the pen-holder bracket and the VIVO. Mounting a PC against a solid desk underside can trap exhaust heat, so open sides count. Rear ports should stay reachable."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Maximum mounting flexibility and a longer warranty", "VIVO Adjustable Thin Client Mini PC Mount Bracket"],
-        ["Built-in cable and desk organization", "Adjustable Thin Client Mini PC Mount with Pen Holder"],
-        ["Hardware matched exactly to a Lenovo ThinkCentre Tiny", "Freejia Mini PC Mount for Lenovo ThinkCentre Tiny"],
-        ["The lowest price with fine height adjustment", "Upgraded Adjustable Under Desk Mini PC Bracket"]
+    "subheading": "By Your PC Type",
+    "intro": "Which bracket fits depends on whether you own a generic mini PC or a specific model.",
+    "table": {
+      "headers": [
+        "Your computer",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Generic thin client, NUC or fanless mini PC",
+          "VIVO Adjustable Thin Client Mini PC Mount Bracket, adjustable 1.8 to 7.1 cm with 3 mounting options"
+        ],
+        [
+          "Mini PC plus a desk where pens and tools clutter",
+          "Adjustable Thin Client Mini PC Mount with Pen Holder, up to 12 lbs and 4 mounting options"
+        ],
+        [
+          "Lenovo ThinkCentre Tiny",
+          "Freejia Mini PC Mount for Lenovo ThinkCentre Tiny, with VESA 75x75 and 100x100 holes"
+        ],
+        [
+          "Mac Mini, NUC or Xbox that needs a tall chassis",
+          "Upgraded Adjustable Under Desk Mini PC Bracket, 1.8 to 3.3 inch range with 6 height levels"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $17", "Upgraded Adjustable Bracket (under $20)"],
-        ["Under $20", "VIVO (under $20), Pen Holder pick (under $20), or Freejia (under $20)"]
+    "subheading": "By Budget",
+    "intro": "Everything is under $20, so the difference is features.",
+    "table": {
+      "headers": [
+        "Spend level",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest spend and you just need to hold it",
+          "Upgraded Adjustable Under Desk Mini PC Bracket, steel with 6 height levels"
+        ],
+        [
+          "Low to mid with brand-specific fit",
+          "Freejia Mini PC Mount for Lenovo ThinkCentre Tiny, if you own that exact family"
+        ],
+        [
+          "Mid spend for the highest weight limit",
+          "Adjustable Thin Client Mini PC Mount with Pen Holder, 12 lbs"
+        ],
+        [
+          "Upper spend for the longest warranty",
+          "VIVO Adjustable Thin Client Mini PC Mount Bracket, with 3 years included"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Universal Adjustable vs Brand-Specific Fit",
-    cards: [
-      { label: "Universal adjustable (VIVO, Pen Holder pick, budget bracket)", text: "Sliding side arms fit a range of device widths, useful if you might switch mini PCs later or aren't certain of exact compatibility." },
-      { label: "Brand-specific (Freejia for Lenovo)", text: "Hardware matched exactly to a listed ThinkCentre Tiny model, a more precise but less flexible fit for that specific device." }
+    "subheading": "Universal Bracket vs Model-Specific Mount",
+    "intro": "One bracket for many devices or one tailored for yours.",
+    "cards": [
+      {
+        "label": "Universal: VIVO, pen-holder bracket, 6-level bracket",
+        "text": "Adapts if you replace your mini PC next year. Fit is less exact, and weight ratings or power button positions can clash, as the VIVO notes for NUCs."
+      },
+      {
+        "label": "Model-specific: Freejia ThinkCentre",
+        "text": "Matches the chassis and includes Velcro straps for the power adapter and zip ties. It only works for listed models and is dead weight if you switch brands."
+      }
     ],
-    note: "If you own one of the specifically listed Lenovo ThinkCentre Tiny models, the Freejia's exact-match hardware is worth choosing over a generic adjustable bracket.",
+    "note": "Buy universal if you might change PCs, and model-specific only when you have confirmed the exact model on the listing."
   },
   {
-    subheading: "By Mounting Location Needs",
-    table: {
-      headers: ["Where you need to mount", "Recommended pick"],
-      rows: [
-        ["Clamped to a monitor arm pole", "VIVO Adjustable Thin Client Mount Bracket"],
-        ["Wall, VESA, or under desk with cable ties", "Freejia for Lenovo ThinkCentre Tiny"],
-        ["Under desk only, simple and budget-friendly", "Upgraded Adjustable Under Desk Bracket"]
+    "subheading": "By Mounting Location",
+    "intro": "Where the mini PC goes changes which bracket works.",
+    "table": {
+      "headers": [
+        "Location",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Behind a monitor on a VESA mount",
+          "Freejia ThinkCentre mount, with 75x75 and 100x100 VESA hole patterns"
+        ],
+        [
+          "Under the desk and out of sight",
+          "VIVO bracket, adjustable and flexible for thin clients"
+        ],
+        [
+          "Desk edge or pole near the display",
+          "Adjustable Thin Client Mini PC Mount with Pen Holder, with four mounting methods"
+        ],
+        [
+          "Under a desk where height clearance varies",
+          "Upgraded Adjustable Under Desk Mini PC Bracket, 6 height levels"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Compact Desk With Limited Surface Space Specifically",
-    cards: [
-      { label: "Look for", text: "A mount that also organizes small desk items like pens, reducing the number of separate accessories cluttering the desktop." },
-      { label: "In this comparison", text: "The pen-holder pick's built-in organizer addresses this need directly while still mounting the mini PC out of the way." }
-    ],
+    "subheading": "For Under-Desk Mounting Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Open sides for ventilation, a weight limit above your PC plus brick, and screws that fit the thickness of your desktop. Check which sides have vents before mounting."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The VIVO's open frame leaves vents uncovered, and its 3-year warranty gives some reassurance. The pen-holder bracket's 12 lb rating gives the most headroom."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want a longer warranty and the widest mounting flexibility, where the VIVO pick's 3-year warranty and pole-clamp option add real value over the budget bracket." },
-      { label: "Save if", text: "You just need basic under-desk mounting with height adjustment, where the Upgraded Adjustable Bracket covers that for about $3 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The next tiers add model-specific fits and heavy-duty clamps.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You own a Dell OptiPlex Micro or GMKtec mini PC, or need a swivel for port access. See the under $30 and under $50 guides."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need a basic cradle for a lightweight NUC, where the VIVO already covers it."
+      }
+    ]
   }
 ];
 
@@ -181,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the VIVO mount be clamped directly to a monitor arm pole instead of mounted under a desk?", "a": "Yes, it specifically supports pole-clamp mounting for poles between 3cm and 4.1cm in diameter, in addition to VESA and under-desk mounting options." },
-  { "q": "What's the most common mistake buyers make when choosing an adjustable mount at this price?", "a": "Assuming any adjustable bracket will fit their device without checking the specific width range against their mini PC's actual dimensions, which can result in a loose, insecure fit if the device sits at the edge of the bracket's range." },
-  { "q": "Is the Freejia Lenovo-specific mount worth it over a universal adjustable bracket?", "a": "If your ThinkCentre Tiny model is on its specific compatibility list, yes, the exact-match hardware fits more precisely than a generic adjustable bracket, though it won't work if you switch to a different brand's mini PC later." },
-  { "q": "How do I decide if I need the pen-holder mount's extra weight capacity?", "a": "If you're mounting just a standard mini PC, any pick in this comparison handles that weight easily, but if you're adding a docking station or other accessory to the same mount, the pen-holder pick's stated 12 lb capacity gives more assurance." },
-  { "q": "Do any of these mounts work without drilling holes in my desk?", "a": "The VIVO pick's pole-clamp and VESA mounting options avoid drilling entirely, while its under-desk option and the other picks in this comparison do require screwing into the desk's underside." },
-  { "q": "Can I move these mounts to a different desk or location later without buying new hardware?", "a": "Yes, all four picks include their own mounting screws and hardware, so relocating typically just requires drilling new holes at the new location with the same included hardware kit." }
+  {
+    "q": "Will a mini PC mounted under my desk overheat?",
+    "a": "It can if vents are blocked. Hot air rises and a solid desk underside can trap exhaust, so choose open-frame brackets like the VIVO and check which sides have intake and exhaust vents. Compare temperatures on an open surface if the room warms."
+  },
+  {
+    "q": "What weight can these mounts hold?",
+    "a": "The VIVO lists 5 kg and the pen-holder bracket lists 12 lbs, while the 6-level steel bracket states none. Add the PC and its power brick before choosing, since a heavy unit can sag a lightweight bracket."
+  },
+  {
+    "q": "Is the Freejia worth it over a universal bracket?",
+    "a": "Only if you own a ThinkCentre Tiny. It matches the chassis and ships with Velcro straps and zip ties, but fits only listed models. A universal bracket like the VIVO survives a future PC change."
+  },
+  {
+    "q": "How do I mount a mini PC behind a monitor?",
+    "a": "Check your monitor's VESA holes, usually 75x75 or 100x100, attach the bracket to the display, then slide the PC into the cradle. Make sure the monitor arm or stand can handle the extra weight."
+  },
+  {
+    "q": "Can a bracket fit a Mac Mini or Xbox?",
+    "a": "The 6-level steel bracket is width-adjustable for a Mac Mini, NUC and Xbox within 1.8 to 3.3 inches of height. Measure your device first, because a deep console may exceed the range."
+  },
+  {
+    "q": "Does the NUC power button position matter?",
+    "a": "Yes. The VIVO's listing notes NUC compatibility requires the power button on the side, so a bracket that blocks a top button makes the PC awkward to turn on. Confirm the layout before you mount it."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

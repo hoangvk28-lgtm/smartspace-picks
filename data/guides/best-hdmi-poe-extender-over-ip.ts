@@ -84,69 +84,154 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "True PoE vs PoC Power Scheme", "description": "Compared whether each listing draws power from a genuine PoE switch or uses PoC's proprietary single-cable power sharing." },
-  { "title": "Resolution and Video Quality", "description": "Compared 1080p versus 4K support and HDR format compatibility." },
-  { "title": "Range Over Ethernet Cable", "description": "Compared maximum documented distance over Cat5e/Cat6/Cat7 cabling." },
-  { "title": "Multi-Display Distribution", "description": "Compared point-to-point versus one-to-many broadcast capability." },
-  { "title": "Additional Features", "description": "Compared KVM control, loop-out ports, and EDID handling across the picks." }
+  {
+    "title": "True PoE versus PoC",
+    "description": "Most HDMI-over-IP extenders called PoE actually use PoC, power over cable, a proprietary scheme. The PWAY PW-DT273P is described as true PoE switch compatible, while the OREI and Steetek use PoC. We separated the two, since PoC will not work with ordinary PoE switches."
+  },
+  {
+    "title": "Resolution and signal features",
+    "description": "We compared resolution: the PWAY picks and the Steetek list 1080p@60Hz, and the OREI lists 4K@60Hz with HDCP 2.2, HDR10 and Dolby Vision. A 4K display needs the OREI, but it comes with shorter range, so we weighed what the display actually needs, since paying for 4K to feed a 1080p panel wastes the benefit."
+  },
+  {
+    "title": "Range",
+    "description": "We compared reach: the PWAY 500ft lists 500ft, the PW-DT273P 400ft, the OREI 230ft, and the Steetek 164ft (50m) over Cat5e/Cat6/Cat7. A longer range matters in classrooms and warehouses, and we treated each figure as a maximum under good cable, since a poor Cat5e run or a loose termination shortens the real reach."
+  },
+  {
+    "title": "One-to-many distribution",
+    "description": "Signage and classrooms need one source feeding many screens. The two PWAY units list one-to-many output through a network switch, while the OREI and Steetek are point-to-point, so we compared flexibility with the added switch cost, because a one-to-many system needs a managed gigabit switch for stable video."
+  },
+  {
+    "title": "Extras and setup",
+    "description": "We credited the OREI's USB KVM extension for remote keyboard and mouse, the PWAY 500ft's HDMI loop-out for checking the signal, and the Steetek's built-in EDID copy for matching resolution, since these cut setup time and help find a failed link without walking to the remote display."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["True PoE switch compatibility for existing infrastructure", "PWAY 400ft HDMI Extender Over Ethernet (PW-DT273P)"],
-        ["4K resolution with remote KVM control", "OREI KVM 4K HDMI Over Ethernet Extender Balun"],
-        ["The lowest price for a simple point-to-point extension", "Steetek HDMI Extender Over Ethernet (HT202P)"],
-        ["The longest range with multi-display distribution", "PWAY HDMI Extender 500ft (Gigabit One-to-Many)"]
+    "subheading": "By Resolution and Display",
+    "intro": "Resolution decides which extender you can even consider.",
+    "table": {
+      "headers": [
+        "Your display",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A 4K screen or a PC with HDR content",
+          "OREI KVM 4K HDMI Over Ethernet Extender, with 4K@60Hz and Dolby Vision"
+        ],
+        [
+          "A 1080p display fed through a PoE switch",
+          "PWAY 400ft HDMI Extender (PW-DT273P), with true PoE switch compatibility"
+        ],
+        [
+          "A 1080p display far from the source",
+          "PWAY HDMI Extender 500ft, with the longest range"
+        ],
+        [
+          "A single 1080p display over a short run",
+          "Steetek HDMI Extender Over Ethernet (PoC, HT202P), at 164ft"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $24", "Steetek HDMI Extender (under $25)"],
-        ["Under $75", "Either PWAY pick (under $80)"],
-        ["Under $99", "OREI KVM 4K Extender (under $100)"]
+    "subheading": "By Budget",
+    "intro": "Prices span under $25 to under $100.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $25",
+          "Steetek, the cheapest pick, with one power adapter"
+        ],
+        [
+          "Under $75, PoE switch",
+          "PWAY PW-DT273P, for existing PoE infrastructure"
+        ],
+        [
+          "Under $75, longest run",
+          "PWAY 500ft, with HDMI loop-out"
+        ],
+        [
+          "Under $100, 4K",
+          "OREI KVM 4K, the only 4K option here"
+        ]
+      ]
+    }
   },
   {
-    subheading: "True PoE Switch Power vs PoC Single-Cable Power",
-    cards: [
-      { label: "True PoE switch power (PWAY 400ft)", text: "Draws power from an existing PoE switch on your network, reducing separate adapters if you already have PoE infrastructure deployed." },
-      { label: "PoC single-cable power (OREI, Steetek, PWAY 500ft)", text: "Sends power from transmitter to receiver over the same cable using a proprietary scheme, requiring only one power adapter but not connecting to your network's actual PoE switch." }
-    ],
-    note: "If you already have a PoE switch deployed and want to draw power from it directly, the PWAY 400ft pick is the only one in this comparison that genuinely supports that. If you just want reduced cable clutter with one power adapter, any PoC-based pick accomplishes that equally well.",
+    "subheading": "True PoE vs PoC",
+    "intro": "This is the most misunderstood spec in the category.",
+    "cards": [
+      {
+        "label": "True PoE (PWAY PW-DT273P)",
+        "text": "Works with standard PoE switches, so you power the extender over the same Ethernet cable and avoid extra adapters. It needs a switch that supports it."
+      },
+      {
+        "label": "PoC (OREI, Steetek)",
+        "text": "Power over cable uses a proprietary scheme, often a single adapter at one end. It is simple for a point-to-point link but will not work through a standard PoE switch."
+      }
+    ]
   },
   {
-    subheading: "By Resolution Need",
-    table: {
-      headers: ["Your display resolution", "Recommended pick"],
-      rows: [
-        ["4K@60Hz with HDR support", "OREI KVM 4K HDMI Over Ethernet Extender Balun"],
-        ["1080p for standard displays or projectors", "Steetek, either PWAY pick"],
-        ["1080p with remote PC control", "OREI pick's KVM feature works at reduced resolution too"]
+    "subheading": "By Network Layout",
+    "intro": "One-to-one and one-to-many designs need different gear.",
+    "table": {
+      "headers": [
+        "Your layout",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "One source feeding many screens through a gigabit switch",
+          "PWAY 500ft, with one-to-many distribution"
+        ],
+        [
+          "One source to one remote screen with remote control",
+          "OREI KVM, with a USB KVM extension"
+        ],
+        [
+          "Mixed sources and an existing PoE switch",
+          "PWAY PW-DT273P, which works with conventional and PoE switches"
+        ],
+        [
+          "A single link and nothing else",
+          "Steetek, with a built-in EDID copy"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Digital Signage or Classroom Deployment Specifically",
-    cards: [
-      { label: "Look for", text: "One-to-many broadcast capability over a standard network switch, letting a single HDMI source feed multiple displays without running separate HDMI cables to each screen." },
-      { label: "In this comparison", text: "Both PWAY picks specifically support one-to-many distribution, making either a strong fit for signage, classroom, or conference room deployments." }
-    ],
+    "subheading": "For a Classroom or Digital Signage Install Specifically",
+    "intro": "One source and many screens is the common pattern.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "One-to-many support, switch compatibility, and a range that reaches the far wall."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The PWAY 400ft and 500ft units list one-to-many output, and the 500ft adds an HDMI loop-out to verify the signal."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need 4K resolution with remote KVM control for a workstation or server room application, where the OREI pick's under $100 price is justified by that combination of features." },
-      { label: "Save if", text: "You need a simple point-to-point 1080p extension without extra features, where the Steetek pick delivers that for under $25, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The upgrade is mostly resolution.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need 4K or remote keyboard control. The OREI KVM costs the most and lists 4K@60Hz, HDR10 and USB KVM extension."
+      },
+      {
+        "label": "Save if",
+        "text": "You run 1080p. The Steetek is the cheapest at 164ft, and the PWAY picks cost less than the OREI."
+      }
+    ]
   }
 ];
 

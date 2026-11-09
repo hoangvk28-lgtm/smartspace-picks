@@ -163,47 +163,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Wattage and boil time",
-    "explanation": "Wattage is how much power the kettle draws, and it sets how quickly water boils. A 600 watt kettle boils about 0.5 to 0.8 liters in around five minutes, while a 1000 watt model boils one liter faster. Look for the watts in the title or specs, not just the word fast."
+    "explanation": "Wattage is how much power the kettle draws, and it sets how quickly water boils. A 600 watt kettle boils about 0.5 to 0.8 liters in around five minutes, while a 1000 watt model boils one liter faster. Look for the watts in the title or specs, not just the word fast. A 600W mini kettle can take close to double the time of a 1000W model for the same water, so check the wattage in the title before judging speed."
   },
   {
     "criterion": "Auto shut-off and boil-dry protection",
-    "explanation": "Auto shut-off turns the kettle off when it reaches a boil, and boil-dry protection cuts power if it runs empty. Both are important for a kettle left in a dorm or office. Look for both phrases in the bullets, since some listings name only one."
+    "explanation": "Auto shut-off turns the kettle off when it reaches a boil, and boil-dry protection cuts power if it runs empty. Both are important for a kettle left in a dorm or office. Look for both phrases in the bullets, since some listings name only one. Auto shut-off stops at the boil, and boil-dry protection cuts power when the kettle is empty, so read for both terms, since the Proctor Silex lists both."
   },
   {
     "criterion": "What touches the water",
-    "explanation": "BPA-free means no BPA but not no plastic. A kettle with a stainless inner and no plastic lid or spout underside keeps flavors cleaner. Read for words such as 304 stainless steel and look closely at the lid in the photos."
+    "explanation": "BPA-free means no BPA but not no plastic. A kettle with a stainless inner and no plastic lid or spout underside keeps flavors cleaner. Read for words such as 304 stainless steel and look closely at the lid in the photos. A stainless inner like the Wdcme 304 steel body keeps water clean, while a plastic body such as the Elite Gourmet can leave a taste for the first few boils."
   },
   {
     "criterion": "Dorm and office rules",
-    "explanation": "Many schools allow only certain heating appliances and some ban kettles outright, while others cap wattage. A low wattage 600 watt kettle may be easier to justify than 1500 watts. Check your housing list before buying."
+    "explanation": "Many schools allow only certain heating appliances and some ban kettles outright, while others cap wattage. A low wattage 600 watt kettle may be easier to justify than 1500 watts. Check your housing list before buying. Housing offices can restrict heating appliances, so ask before bringing the 1.7L Elite Gourmet, and choose a 0.5L Tanannbay when space is tight."
   },
   {
     "criterion": "Capacity versus use",
-    "explanation": "A 0.5 liter kettle holds about two mugs, while 1.7 liters serves a family. Overfilling a mini kettle risks boil-over. Match capacity to how many cups you make at once."
+    "explanation": "A 0.5 liter kettle holds about two mugs, while 1.7 liters serves a family. Overfilling a mini kettle risks boil-over. Match capacity to how many cups you make at once. A 0.5L kettle fills about two mugs, and refilling it six times a day speeds up scale, so match size to how many cups you pour at once."
   },
   {
     "criterion": "Cord and base design",
-    "explanation": "A 360 degree swivel base and a detachable cord both make serving easier. A short cord limits where you can put it. Look for the base type in the bullets."
+    "explanation": "A 360 degree swivel base and a detachable cord both make serving easier. A short cord limits where you can put it. Look for the base type in the bullets. A 360 degree swivel base like the Elite Gourmet one lets you set the kettle down at any angle, and a short cord makes it hard to place next to an outlet."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Safety features",
-    "description": "Auto shut-off and boil-dry protection were weighed first."
+    "title": "Safety shut-off at the lowest price",
+    "description": "We checked every listing for auto shut-off and boil-dry protection, because a kettle left on by accident is the main hazard at this price. The Proctor Silex 1L, Tanannbay 0.5L and resgitiati travel kettle all name protections, and a pick with neither was marked down hard."
   },
   {
-    "title": "Water contact materials",
-    "description": "We compared stainless, silicone and plastic mentions in each listing."
+    "title": "Power versus boil speed",
+    "description": "Wattage sets boil time, so we compared 1000W on the Proctor Silex against 600W on the Wdcme and Tanannbay minis. A 600W kettle needs noticeably longer to boil the same water, which only matters if you use it several times a day. We scored speed against typical dorm and desk habits."
   },
   {
-    "title": "Wattage and capacity",
-    "description": "Listed watts and liters were compared against typical dorm and office use."
+    "title": "What touches the water",
+    "description": "BPA-free is not the same as plastic-free, so we noted the 304 stainless inner on the Wdcme, Tanannbay and resgitiati base, and the BPA-free plastic body of the Elite Gourmet EKT5051 with a mesh filter. Stainless contact tastes cleaner after months of use."
   },
   {
-    "title": "Price",
-    "description": "Every pick is $20 or less when gathered."
+    "title": "Capacity against desk space",
+    "description": "Capacity runs from 0.5L on the Tanannbay to 1.7L on the Elite Gourmet. A 0.5L kettle holds about two mugs, and the foldable resgitiati stores flat for a drawer. We weighed whether each size suits one person, a roommate pair or a travel bag."
   }
 ];
 

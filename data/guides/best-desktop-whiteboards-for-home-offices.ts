@@ -104,10 +104,26 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Writing area relative to home-office desk footprint", description: "We weighted usable writing area against realistic home-office desk size, which tends to be smaller than a corporate workstation." },
-  { title: "Organizer features for dual-purpose desks", description: "We noted where a board includes storage, since a home-office desk often needs to serve multiple functions in less space." },
-  { title: "Price against home-office budgets", description: "We covered a wide price range, from at a budget-friendly price to premium since home-office spending varies more than corporate procurement." },
-  { title: "Review volume as reliability evidence", description: "We weighted established review history for confidence in each pick's build quality and durability." }
+  {
+    "title": "Surface type and ghosting",
+    "description": "We checked whether each listing names its surface, because glass resists ghosting best while melamine ink can stain over time. TSJ OFFICE and Varhomax name glass, while AMUSIGHT and the 10 x 10 board name dry erase surfaces, so a named surface earned credit. Prefer a surface that is named."
+  },
+  {
+    "title": "Size against desk space",
+    "description": "Home-office desks are tight, so we compared listed sizes. AMUSIGHT is 16 x 12 inches, the small board is 10 x 10 inches and the TSJ keyboard stand design sits beside your keyboard. We weighed writing area against the space it takes up. Check the stand once assembled."
+  },
+  {
+    "title": "Stand and positioning",
+    "description": "A board that tips over is useless. AMUSIGHT and the 10 x 10 board list a stand, TSJ is built to sit by a keyboard, and Varhomax adds an organizer. We checked how each position keeps the board visible without blocking the screen. Magnetic backing needs steel."
+  },
+  {
+    "title": "Magnetic and double-sided use",
+    "description": "Glass boards are not magnetic unless they have a steel backing, while AMUSIGHT and the 10 x 10 board list magnetic surfaces. AMUSIGHT is also double-sided, which doubles the usable area without a bigger footprint. A smaller board that stays in view is better than one that stays in a drawer."
+  },
+  {
+    "title": "Storage and extras",
+    "description": "Varhomax and Amazon Basics combine a board with an organizer, which saves desk space overall, while TSJ is a pure board. We asked whether the organizer replaces something you already own or adds clutter. An organizer replaces clutter only if you need one."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,20 +238,53 @@ export const howToChoose: HowToChooseSection[] = [
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Weigh writing area against your actual home-office desk size", explanation: "Home-office desks tend to be smaller than corporate workstations - measure your available space before choosing a larger board." },
-  { criterion: "Consider a combined organizer if desk space is tight", explanation: "The Varhomax and Amazon Basics options combine whiteboard and storage, saving overall desk footprint." },
-  { criterion: "Match price to your setup budget", explanation: "Options here range from under $10 to nearly $30 - pick based on what fits your overall home-office budget, not just the board alone." },
-  { criterion: "Check glass vs. magnetic surface for your needs", explanation: "Glass resists ghosting best; magnetic surfaces add note-holding functionality if you reference printed materials." },
-  { criterion: "Use review volume for build-quality confidence", explanation: "An established review base is useful evidence a board holds up to regular home-office use." }
+  {
+    "criterion": "Glass versus other writing surfaces",
+    "explanation": "Glass resists ghosting best and wipes clean for years, while porous surfaces such as melamine are more likely to hold marker ink and stain after 1 to 3 years of daily use. TSJ and Varhomax name glass in their listings, so look for the surface in the title or bullets, not just the words dry erase. Check this against the listing photos and the dimensions in the title before ordering, since small boards vary by a few inches and that changes how usable they are."
+  },
+  {
+    "criterion": "Board size against your desk",
+    "explanation": "Home-office desks have room for a board beside the monitor, not in front of it. A 16 x 12 inch board such as AMUSIGHT gives more writing space, while a 10 x 10 inch board takes less room. Measure the free width on your desk and subtract the keyboard and mouse. Check this against the listing photos and the dimensions in the title before ordering, since small boards vary by a few inches and that changes how usable they are."
+  },
+  {
+    "criterion": "Magnetic or not",
+    "explanation": "Standard glass boards are not magnetic, so notes and magnets will not hold unless the board has a steel backing. AMUSIGHT and the 10 x 10 board list magnetic surfaces, which lets you pin reminders. Look for the word magnetic in the listing before you rely on it. Check this against the listing photos and the dimensions in the title before ordering, since small boards vary by a few inches and that changes how usable they are."
+  },
+  {
+    "criterion": "Stand design and stability",
+    "explanation": "A desktop board needs a stand that holds under pressure from a marker. Check whether the listing shows a stand, a fixed base or an organizer, and watch for light bases that slide. Look at the product photos to see how the board sits beside a keyboard. Check this against the listing photos and the dimensions in the title before ordering, since small boards vary by a few inches and that changes how usable they are."
+  },
+  {
+    "criterion": "Organizer value",
+    "explanation": "A board with a pen cup or tray can replace a separate organizer, as with Varhomax and Amazon Basics. This helps only if you need the storage. Check what the organizer holds and whether markers and an eraser are included. Check this against the listing photos and the dimensions in the title before ordering, since small boards vary by a few inches and that changes how usable they are."
+  }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "What's the best board for a small home-office desk?", a: "The TSJ OFFICE Small Desktop Whiteboard, compact and keyboard-adjacent with the largest review base in this comparison." },
-  { q: "Is there an option that saves desk space by combining storage?", a: "Yes, the Varhomax Glass Desk Whiteboard with Storage combines writing surface and organizer in one footprint." },
-  { q: "What's the cheapest option?", a: "The Small Dry Erase Board 10x10 at under $9." },
-  { q: "Which has the most writing area for a bigger home-office desk?", a: "The AMUSIGHT Double-Sided Magnetic White Board at 16x12 inches." },
-  { q: "Is there a budget option with an organizer?", a: "Yes, the Amazon Basics Desktop Dry Erase Whiteboard at under $20." },
-  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the most proven compact board for a small home-office desk." }
+  {
+    "q": "Is a glass or plastic desktop whiteboard better for a home office?",
+    "a": "Glass resists ghosting and stains best and looks better, but costs more. Melamine or plastic is cheaper but can stain after 1 to 3 years of daily use. TSJ and Varhomax name glass, so they suit daily notes."
+  },
+  {
+    "q": "What mistake do buyers make with desktop whiteboards?",
+    "a": "Buying for the surface and ignoring the footprint. A 16 x 12 inch board like AMUSIGHT can crowd a narrow desk, while a 10 x 10 inch board is easy to place but limits notes. Measure the free space beside your monitor."
+  },
+  {
+    "q": "Is the Varhomax worth more than the Amazon Basics organizer board?",
+    "a": "If you prefer a glass surface and a built-in organizer, yes. Varhomax is under $30, while Amazon Basics is under $20 with a dry erase surface and accessories. The cheaper one suits lighter use."
+  },
+  {
+    "q": "Are the magnetic boards compatible with magnets?",
+    "a": "Magnetic listings like AMUSIGHT and the 10 x 10 board accept magnets, while plain glass boards like TSJ do not unless they have a steel backing. If you want to pin notes, take a magnetic model."
+  },
+  {
+    "q": "How do I stop ghosting on a whiteboard?",
+    "a": "Wipe notes off promptly, use fresh markers, and clean with whiteboard spray every few weeks. Glass is the most ghost-resistant, while porous melamine stains more easily. Avoid leaving writing for weeks."
+  },
+  {
+    "q": "Where should I put a desktop whiteboard at a home desk?",
+    "a": "Beside your keyboard or to one side of your monitor so you can write without turning. The TSJ keyboard stand design sits by your keyboard. Keep it out of direct glare, which makes writing harder to read."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

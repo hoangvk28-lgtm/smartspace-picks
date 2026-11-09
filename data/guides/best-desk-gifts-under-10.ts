@@ -190,47 +190,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Occasion fit",
-    "explanation": "A gift under ten dollars works best when it matches a clear occasion: a new job, a birthday, a boss thank you. A mismatched message, such as a boss sign for a peer, feels awkward. Read the exact wording on the product image and the listing, not just the title."
+    "explanation": "A gift under ten dollars works best when it matches a clear occasion: a new job, a birthday, a boss thank you. A mismatched message, such as a boss sign for a peer, feels awkward. Read the exact wording on the product image and the listing, not just the title. A birthday item like the YOOJEE flower pot looks wrong as a job gift, so match the wording first."
   },
   {
     "criterion": "Footprint on a desk",
-    "explanation": "Most desks have less than a foot of free space, so a gift that is 8 inches wide may not fit. Compare the listed dimensions to your recipient's desk. Prefer items under about 5 inches on a side, or something that mounts on a wall."
+    "explanation": "Most desks have less than a foot of free space, so a gift that is 8 inches wide may not fit. Compare the listed dimensions to your recipient's desk. Prefer items under about 5 inches on a side, or something that mounts on a wall. A 2 x 8 inch name plate and a 7.1 inch toy are both common sizes, so check the listed size in inches before assuming it fits a crowded desk."
   },
   {
     "criterion": "Material and durability",
-    "explanation": "Crochet, acrylic, wood and steel plated toys age differently. Acrylic scratches, wood can chip and steel plated finishes can flake. Look for the material named in the bullets and for any notes on cleaning or wear."
+    "explanation": "Crochet, acrylic, wood and steel plated toys age differently. Acrylic scratches, wood can chip and steel plated finishes can flake. Look for the material named in the bullets and for any notes on cleaning or wear. Steel plating on a toy like the Maydahui weightlifter can chip at the corners, so check whether the bullets name the plating or just call it metal."
   },
   {
     "criterion": "Personalization risk",
-    "explanation": "Custom items such as name plates cannot be returned easily if a name is spelled wrong. Check the spelling twice and confirm the order options before paying. Items with a fixed message avoid that risk but narrow the audience."
+    "explanation": "Custom items such as name plates cannot be returned easily if a name is spelled wrong. Check the spelling twice and confirm the order options before paying. Items with a fixed message avoid that risk but narrow the audience. Name plates offer around 14 colour options, so confirm both the text and the colour before you submit, because proofs are rarely offered."
   },
   {
     "criterion": "Workplace appropriateness",
-    "explanation": "Some gifts such as candles or noisy toys can bother coworkers or break office rules. Silent, non-scented items fit a shared space best. Think about whether a gift makes noise, has a scent or needs power."
+    "explanation": "Some gifts such as candles or noisy toys can bother coworkers or break office rules. Silent, non-scented items fit a shared space best. Think about whether a gift makes noise, has a scent or needs power. Wax, strong scents and loud toys are the usual offenders, so ask whether the workplace has a no scent or quiet rule before choosing the woodpecker."
   },
   {
     "criterion": "Price versus presentation",
-    "explanation": "Under ten dollars, packaging and a message card often matter as much as the item. Items with included cards, like the toast or flower, look more thoughtful. Look for a message card or shell in the bullets."
+    "explanation": "Under ten dollars, packaging and a message card often matter as much as the item. Items with included cards, like the toast or flower, look more thoughtful. Look for a message card or shell in the bullets. A shell, card or box can be worth more than the item, so check the bullets for an included message card before you buy a separate card."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Price ceiling",
-    "description": "Every pick was priced below $10 when we gathered the data, and we noted prices move often."
+    "title": "Occasion match",
+    "description": "We read each listing's printed wording, because a gift under $10 only works if the message fits the moment. The ExcelMark name plate suits a new hire, the Glydein crochet toast a new job, and the GTGIC Boss Lady sign only a boss. A mismatched message is the main way a cheap gift feels careless."
   },
   {
-    "title": "Occasion fit",
-    "description": "We compared how many situations each gift suits, favoring flexible gifts over single-occasion ones."
+    "title": "Footprint on a shared desk",
+    "description": "We compared listed dimensions against a typical cubicle, where only a few inches stay free beside a keyboard. The 4 x 4 inch GTGIC sign and the 2 x 8 inch ExcelMark plate fit easily, while the 7.1 inch Maydahui weightlifter toy needs a spot at the desk's far edge."
   },
   {
-    "title": "Desk footprint",
-    "description": "Listed dimensions were compared so each pick fits a typical shared desk."
+    "title": "Handmade versus mass made",
+    "description": "Two picks are handmade crochet, and we weighed that against factory items like the Schylling Woodpecker. Crochet reads as personal and includes a card or message shell, but it snags on rough surfaces. Wood, acrylic and steel plated toys survive daily handling better and cost about the same."
   },
   {
-    "title": "Material and presentation",
-    "description": "We looked at the materials, included cards and how finished each gift looks out of the box."
+    "title": "Noise and workplace rules",
+    "description": "We checked whether a gift makes sound, smells or needs power. The Maydahui toy swings for 2 to 3 minutes and the woodpecker taps, so both suit a private desk more than an open plan floor. Silent picks like the name plate and the flower pot carry no such risk."
   }
 ];
 
@@ -289,7 +289,7 @@ export const howToChoose: HowToChooseSection[] = [
           "ExcelMark Custom Desk Name Plate"
         ],
         [
-          "About $10",
+          "Under $15",
           "YOOJEE Crochet Forget Me Not Flower Pot"
         ]
       ]
@@ -341,7 +341,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Look for",
-        "text": "A gift that suits anyone, is silent and does not carry a strong personal message. A cap of about $10 keeps it fair."
+        "text": "A gift that suits anyone, is silent and does not carry a strong personal message. A cap of under $15 keeps it fair."
       },
       {
         "label": "In this comparison",
@@ -367,28 +367,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Is a custom name plate a good gift for a new hire?",
-    "a": "Yes, because it is useful immediately and helps colleagues learn names. Confirm the spelling and holder type before ordering, since custom items usually cannot be returned."
+    "q": "Which pick from this list suits a new hire best?",
+    "a": "The ExcelMark Custom Desk Name Plate is the most useful because it is used from day one and helps coworkers learn a name. Glydein's crochet toast is the warmer choice, though it is decoration only. Proof the spelling before submitting."
   },
   {
-    "q": "Can I give a boss a gift under $10?",
-    "a": "Yes, and a small desk sign is often appropriate because it avoids implying a favor. Keep the message general and check your company's gift policy."
+    "q": "What mistake do buyers make with name plates?",
+    "a": "They skip the proof step. A 2 x 8 inch plate with a misspelled name or the wrong colour cannot usually be returned, and there are 14 colours to pick from. Check the spelling twice and match the colour to the desk before ordering."
   },
   {
-    "q": "How do I keep gift prices under the limit?",
-    "a": "Prices on Amazon change often, so recheck on the day you buy. Skip add-ons like gift wrap upgrades that push the total over."
+    "q": "Is the YOOJEE crochet pot or the Glydein toast better?",
+    "a": "The YOOJEE flower pot is a birthday gift because it ships with a message shell and never wilts. Glydein's toast is built around a new job theme with a card. Pick by occasion, since both are handmade cotton yarn and about the same size."
   },
   {
-    "q": "Are crochet gifts fragile?",
-    "a": "They are soft and durable in daily use but can snag on rough surfaces. Keep them away from pens and printers and spot clean gently."
+    "q": "Do the swinging and tapping toys work in an office?",
+    "a": "They work best at a private desk. The Schylling Woodpecker taps as it slides down its pole and the Maydahui weightlifter swings for 2 to 3 minutes, which is audible in a quiet room. Open plan offices suit silent gifts better."
   },
   {
-    "q": "Will a desk toy annoy coworkers?",
-    "a": "Toys that tap or click can be heard in a quiet office. Pick a silent item for open plans, and keep louder toys for a private desk."
+    "q": "How should I keep a gift under $10 once it arrives?",
+    "a": "Prices on Amazon move often, so recheck on the day you buy and skip optional add-ons that push the total over. A short handwritten note costs nothing and makes any pick in this list feel chosen rather than grabbed."
   },
   {
-    "q": "Do small gifts need a card?",
-    "a": "A short handwritten note makes a cheap gift feel thoughtful. Some listed items include a message card, which you can add to."
+    "q": "Can crochet gifts be cleaned?",
+    "a": "Spot clean gently with a damp cloth and let them air dry. Crochet snags on rough surfaces, so keep the flower pot or toast away from printers and pen cups. Do not machine wash a piece with a stitched message card attached."
   }
 ];
 

@@ -5,7 +5,7 @@ export const metaDescription = "Seven desk gifts for teachers, from a 21 piece p
 export const mainKeyword = "desk gifts for teachers";
 export const introParagraphs = [
   "A teacher's desk does double duty as a grading station, a supply closet and a place to eat lunch, and many teachers buy their own supplies. That makes a practical gift worth more than a sentimental knickknack, as long as it does not add clutter to a small desk.",
-  "We picked seven gifts from about $7 to $32 that fit classroom life: a boxed organizer set, a grading tool, a notebook and a few small keepsakes. We looked at what each listing says about contents, size and day-to-day use. Many school districts limit gift values, so check your own school's guidance before choosing."
+  "We picked seven gifts from under $10 to $32 that fit classroom life: a boxed organizer set, a grading tool, a notebook and a few small keepsakes. We looked at what each listing says about contents, size and day-to-day use. Many school districts limit gift values, so check your own school's guidance before choosing."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51fAsJNfujL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F228XCZD?tag=deskfinds0d-20",
-    "description": "LXEVIHK is a 21-piece pink office kit that includes a mesh desk organizer, a 360 degree rotating pen holder and a PU leather storage bag, and it arrives in a gift box.\n\nIt costs about $32, the most of the group, and outfits a whole desk, unlike the single-purpose items below. Against SKYDUE, it adds style and quantity for roughly three times the price.\n\nBest for a teacher who likes color and needs a starter kit. The caveat is that the pink theme will not suit everyone, and a school gift limit may cap the price.",
+    "description": "LXEVIHK is a 21-piece pink office kit that includes a mesh desk organizer, a 360 degree rotating pen holder and a PU leather storage bag, and it arrives in a gift box.\n\nIt costs under $40, the most of the group, and outfits a whole desk, unlike the single-purpose items below. Against SKYDUE, it adds style and quantity for roughly three times the price.\n\nBest for a teacher who likes color and needs a starter kit. The caveat is that the pink theme will not suit everyone, and a school gift limit may cap the price.",
     "specs": [
       "21 piece set",
       "Mesh organizer, rotating holder",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51l+Vg9V-5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08M34PFRQ?tag=deskfinds0d-20",
-    "description": "Bertiveny is a set of self-inking pre-inked teacher stamps in 8 patterns and colors for grading and encouragement, described as mess-free and reusable.\n\nIt costs about $13 and is the only pick that saves grading time. Against the notebook below, it is a tool rather than a keepsake.\n\nBest for an elementary teacher who grades by hand. The caveat is that middle and high school teachers may not use stamps.",
+    "description": "Bertiveny is a set of self-inking pre-inked teacher stamps in 8 patterns and colors for grading and encouragement, described as mess-free and reusable.\n\nIt costs under $15 and is the only pick that saves grading time. Against the notebook below, it is a tool rather than a keepsake.\n\nBest for an elementary teacher who grades by hand. The caveat is that middle and high school teachers may not use stamps.",
     "specs": [
       "8 stamp patterns",
       "Self-inking, pre-inked",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41GuePbT1wL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FSC72KWB?tag=deskfinds0d-20",
-    "description": "Afterprints is an engraved PU leather journal for collecting things students say, with thick paper and a refillable design in lined and unlined pages.\n\nAt about $12 it costs a dollar less than Slohif and gets used daily. Against SKYDUE, it is more personal.\n\nBest for a teacher with a sense of humor. The caveat is that students should not be identifiable in anything written down.",
+    "description": "Afterprints is an engraved PU leather journal for collecting things students say, with thick paper and a refillable design in lined and unlined pages.\n\nAt under $15 it costs a dollar less than Slohif and gets used daily. Against SKYDUE, it is more personal.\n\nBest for a teacher with a sense of humor. The caveat is that students should not be identifiable in anything written down.",
     "specs": [
       "PU leather journal",
       "Refillable, lined and unlined",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51fAzwcjx1L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GMP6VD77?tag=deskfinds0d-20",
-    "description": "Slohif is a set of handmade crochet coasters with a sunflower, an apple and a pencil theme, sold for Teacher Appreciation Day and absorbent enough to protect furniture.\n\nIt costs about $14 and is the most decorative functional gift here. Against Amyhill below, it is useful for a mug.\n\nBest for a teacher who drinks coffee at the desk. The caveat is that crochet coasters need washing and can stain.",
+    "description": "Slohif is a set of handmade crochet coasters with a sunflower, an apple and a pencil theme, sold for Teacher Appreciation Day and absorbent enough to protect furniture.\n\nIt costs under $15 and is the most decorative functional gift here. Against Amyhill below, it is useful for a mug.\n\nBest for a teacher who drinks coffee at the desk. The caveat is that crochet coasters need washing and can stain.",
     "specs": [
       "Crochet coaster set",
       "Sunflower, apple, pencil designs",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41z8wC7mPVL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C9ZHWC9K?tag=deskfinds0d-20",
-    "description": "SKYDUE is a plastic 360 degree rotating desk organizer with 5 compartments, meant for pens, art supplies or even kitchen items.\n\nAt about $10 it is useful and unassuming, and costs a third of LXEVIHK. Against Fenmay, it holds pens instead of providing them.\n\nBest for a crowded teacher desk. The caveat is that it is plastic and plain.",
+    "description": "SKYDUE is a plastic 360 degree rotating desk organizer with 5 compartments, meant for pens, art supplies or even kitchen items.\n\nAt under $15 it is useful and unassuming, and costs a third of LXEVIHK. Against Fenmay, it holds pens instead of providing them.\n\nBest for a crowded teacher desk. The caveat is that it is plastic and plain.",
     "specs": [
       "5 compartments",
       "360 degree rotation",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51PgOgbEg-L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09T9XX7NW?tag=deskfinds0d-20",
-    "description": "Amyhill is a pack of 4 wooden thank-you table decorations with inspirational words, each 1.57 inches wide and from 5.5 to 7.87 inches long, with separate bases and plaques.\n\nIt costs about $9 and gives four pieces, which suits sharing or rotating on the desk. Against Slohif, it has no use beyond decor.\n\nBest for a group gift or a large classroom of parents. The caveat is that wood decorations can feel generic.",
+    "description": "Amyhill is a pack of 4 wooden thank-you table decorations with inspirational words, each 1.57 inches wide and from 5.5 to 7.87 inches long, with separate bases and plaques.\n\nIt costs under $10 and gives four pieces, which suits sharing or rotating on the desk. Against Slohif, it has no use beyond decor.\n\nBest for a group gift or a large classroom of parents. The caveat is that wood decorations can feel generic.",
     "specs": [
       "4 wooden decorations",
       "5.5 to 7.87 inches long",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/418aLeUJp1L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DGTDHNYB?tag=deskfinds0d-20",
-    "description": "Fenmay is a 12-pack of 0.5mm fine point gel pens with a double ball tip, quick-drying ink, a non-slip grip and a clip.\n\nIt costs about $7 and is the cheapest practical gift. Against SKYDUE, it supplies what the organizer holds.\n\nBest for a teacher who writes comments on papers. The caveat is that teachers have strong pen preferences.",
+    "description": "Fenmay is a 12-pack of 0.5mm fine point gel pens with a double ball tip, quick-drying ink, a non-slip grip and a clip.\n\nIt costs under $10 and is the cheapest practical gift. Against SKYDUE, it supplies what the organizer holds.\n\nBest for a teacher who writes comments on papers. The caveat is that teachers have strong pen preferences.",
     "specs": [
       "12 pens, 0.5mm",
       "Quick-dry ink",
@@ -219,47 +219,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "School gift value limits",
-    "explanation": "Many districts cap the value of gifts a teacher can accept, often at a low amount, and some forbid cash or gift cards. A gift above the cap may be declined. Check the school or district policy before buying."
+    "explanation": "Many districts cap the value of gifts a teacher can accept, often at a low amount, and some forbid cash or gift cards. A gift above the cap may be declined. Check the school or district policy before buying. Check the district's gift limit and cash rules before you buy, because a gift that breaks policy gets handed back and can embarrass the teacher."
   },
   {
     "criterion": "Useful versus sentimental",
-    "explanation": "Teachers receive many mugs and ornaments, and practical items like pens or organizers get used. Sentimental pieces work best when personal. Choose based on what you know of them."
+    "explanation": "Teachers receive many mugs and ornaments, and practical items like pens or organizers get used. Sentimental pieces work best when personal. Choose based on what you know of them. Teachers receive many mugs and ornaments, so choose a used item like the SKYDUE organizer or Fenmay pens over the Amyhill decorations."
   },
   {
     "criterion": "Grade level",
-    "explanation": "Stamps and stickers suit elementary classrooms, while high school teachers favor pens and notebooks. A mismatch wastes the gift. Check the grade they teach."
+    "explanation": "Stamps and stickers suit elementary classrooms, while high school teachers favor pens and notebooks. A mismatch wastes the gift. Check the grade they teach. Stamps and stickers suit elementary rooms, while pens and journals suit older grades, so confirm the grade before buying the Bertiveny stamps, since an older class may find the cartoon patterns childish."
   },
   {
     "criterion": "Desk space",
-    "explanation": "Teacher desks are small and busy. Prefer items under 6 inches wide or ones that replace clutter. Check listed dimensions."
+    "explanation": "Teacher desks are small and busy. Prefer items under 6 inches wide or ones that replace clutter. Check listed dimensions. Teacher desks are crowded, so choose items under about 6 inches like the Slohif coasters, and skip the larger Amyhill set unless there is a shelf."
   },
   {
     "criterion": "Ink and refill quality",
-    "explanation": "Pens and stamps run out, and refills may not exist. Gel pens should be quick-drying to avoid smudges. Look for stated ink type."
+    "explanation": "Pens and stamps run out, and refills may not exist. Gel pens should be quick-drying to avoid smudges. Look for stated ink type. Pens and stamps run out, so check the listing for refills or ink type, such as the quick dry ink on the Fenmay gel pens, before ordering."
   },
   {
     "criterion": "Group versus individual",
-    "explanation": "A class gift from parents is better as one larger item or a multi-pack. Individual gifts can be small. Count how many people are chipping in."
+    "explanation": "A class gift from parents is better as one larger item or a multi-pack. Individual gifts can be small. Count how many people are chipping in. Parents pooling funds should count the contributors and pick the LXEVIHK set or a multi pack, while a single child should give one small item."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Classroom usefulness",
-    "description": "We favored gifts a teacher would use daily over decor."
+    "title": "School gift limits",
+    "description": "Many districts cap the value of gifts a teacher may accept, and some bar cash and gift cards, so we kept to small, practical items. The Fenmay 12 pack of gel pens and the Slohif crochet coasters sit comfortably below typical caps, while the LXEVIHK 21 piece set is the largest gift here."
   },
   {
-    "title": "Price vs school limits",
-    "description": "Prices were kept modest to fit common gift-value caps."
+    "title": "Grade level fit",
+    "description": "We matched picks to classroom age. The Bertiveny self inking grading stamps with 8 patterns suit elementary teachers, while the Fenmay 0.5mm quick dry gel pens and the Afterprints journal suit middle and high school teachers. A mismatch wastes the gift."
   },
   {
-    "title": "Size",
-    "description": "Listed dimensions were checked against small desks."
+    "title": "Useful versus sentimental",
+    "description": "Teachers receive many mugs and ornaments, so we favoured items that get used. The SKYDUE 360 rotating pen organizer holds 5 compartments and clears clutter, and the grading stamps speed up marking. The Amyhill thank you decorations are sentimental and sit on a shelf."
   },
   {
-    "title": "Grade fit",
-    "description": "We noted which gifts suit younger or older grades."
+    "title": "Desk space and group gifts",
+    "description": "Teacher desks are small and busy, so we compared sizes. The Amyhill set has 4 decorations of 5.5 to 7.87 inches, which is a lot of shelf, while pens and coasters fit anywhere. For a class gift, a multi pack or the LXEVIHK set splits better than a single trinket."
   }
 ];
 
@@ -399,28 +399,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "How much should I spend on a teacher gift?",
-    "a": "Follow school policy, since some districts cap the value. Small, thoughtful items are usually enough, like the Fenmay 12 Pack 0.5mm Gel Pens or the Slohif Crochet Coasters Set. A bigger bundle such as the LXEVIHK 21 Piece set suits a group gift."
+    "q": "Can a teacher accept a gift from a student?",
+    "a": "It depends on the district. Many set a small value cap and some forbid cash or gift cards. Small practical items such as the Fenmay gel pens or Slohif coasters are the safest. Check the school's handbook before giving anything."
   },
   {
-    "q": "Are gift cards allowed?",
-    "a": "Policies vary and some schools forbid them, so check before you buy. A physical item like the Amyhill 4 Piece Wooden Teacher Thank You Decorations avoids the question entirely."
+    "q": "Which pick suits an elementary teacher best?",
+    "a": "The Bertiveny self inking grading stamps, because they come with 8 patterns and are pre inked, which speeds up marking. They fit lower grades where stickers and stamps are used daily. High school teachers usually prefer pens or a journal."
   },
   {
-    "q": "Do teachers use grading stamps?",
-    "a": "Mostly in elementary grades. The Bertiveny Self-Inking Teacher Grading Stamps offer 8 patterns, pre-inked, but older-grade teachers may prefer the gel pens or the Afterprints Funny Things My Students Said Journal."
+    "q": "Are the Fenmay gel pens good for grading?",
+    "a": "They are a 12 pack of 0.5mm pens with quick dry ink, a clip and a grip. Quick dry ink limits smudges on student work. Pens run out, so treat them as a consumable gift and add a note rather than expecting long use."
   },
   {
-    "q": "Is a handmade gift better?",
-    "a": "It feels personal, like the Slohif crochet coasters in sunflower, apple and pencil designs, but useful items are often appreciated more. A desk organizer like the SKYDUE 360 Rotating 5 Slot Pen Organizer gets daily use."
+    "q": "Is the LXEVIHK 21 piece set too much?",
+    "a": "It includes a mesh organizer, rotating holder and gift box, so it is the biggest gift in this list. It suits a group of parents pooling funds. For an individual gift, the Slohif coasters or SKYDUE organizer are easier to justify."
   },
   {
-    "q": "Can I give a class gift?",
-    "a": "Yes, a single larger gift avoids duplication and keeps the cost low per family. The LXEVIHK 21 Piece Pink Desk Accessories Set comes in a gift box, which works well for a group present. Coordinate with other parents."
+    "q": "Are the Slohif crochet coasters practical?",
+    "a": "They are absorbent and come in sunflower, apple and pencil designs, so they protect a desk from mugs. Hand wash gently and air dry to keep the stitching. They suit a teacher who drinks coffee at a desk through the day."
   },
   {
-    "q": "How do I care for crochet coasters?",
-    "a": "Hand wash gently and let them dry flat so the yarn keeps its shape. They are absorbent, so wash them before a stain sets in."
+    "q": "Does the Afterprints journal work as a desk gift?",
+    "a": "It has a refillable PU leather cover with lined and unlined pages and an engraved cover, so it doubles as a keepsake for the teacher. It is not a classroom tool, so pair it with a pen for a complete gift."
   }
 ];
 

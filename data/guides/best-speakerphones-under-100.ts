@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Microphone Array Size", "description": "Compared mic count and pickup pattern across the lineup, from single-mic to 6-mic arrays." },
-  { "title": "Corded vs Wireless Design", "description": "Distinguished always-connected corded designs from battery-powered Bluetooth options." },
-  { "title": "Battery Life and Charging", "description": "Compared stated battery capacity, call time, and any device-charging capabilities." },
-  { "title": "Brand Reputation and Certification", "description": "Checked for established brand names and formal platform certifications like Zoom or Teams." },
-  { "title": "Unique Functional Features", "description": "Compared standout features like built-in USB hubs or device charging not found on every pick." }
+  {
+    "title": "Microphone coverage",
+    "description": "We compared the Anker 6-mic array with 360 degree pickup against the 360 degree mic on the Jabra Speak 410 and the 3 meter radius on the Q95mini. More mics generally help distant voices but cannot fix a noisy room. The Anker lists a 360 degree pickup, which is the standard spec for a table-center unit."
+  },
+  {
+    "title": "Platform certification",
+    "description": "We checked the Anker Zoom certification, the Jabra Speak 510 compatibility with Teams and other platforms and the Speak 410 optimization for Skype for Business. Certification brings platform-specific controls, so we compared it with how you actually meet. A Zoom certified unit still works on other platforms as plain USB audio, so we did not penalize cross-platform use."
+  },
+  {
+    "title": "Battery and power",
+    "description": "We noted the Anker 5,200mAh battery with 24 hour call time and PowerIQ device charging, against the wired Jabra Speak 410 and the Q95mini with a 9.8 foot USB cable. Wired units never run out mid-meeting, so we weighed battery freedom against that. A battery also adds weight, so we checked how that trades against a plug-in unit that never needs charging."
+  },
+  {
+    "title": "Extras and design",
+    "description": "We looked at the Q95mini built-in USB hub, the Jabra Speak 410 integrated cable and carry case, and the Jabra Speak 510 travel focus. Extra ports add convenience, while portable cases matter for people who move between rooms. The Jabra Speak 410 and Q95mini both use wired USB, which is also the lowest-latency way to connect."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,62 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The largest mic array and longest battery life", "Anker PowerConf Speakerphone, Zoom Certified with 6 Mics"],
-        ["A lightweight, fast-setup travel speakerphone", "Jabra Speak 510 (2025 Edition) Portable USB or Bluetooth"],
-        ["Zero battery or pairing concerns with wired reliability", "Jabra Speak 410 Corded Speakerphone"],
-        ["Built-in USB hub functionality for limited ports", "Q95mini Conference Speaker with Built-in USB Hub"]
+    "subheading": "By Platform",
+    "intro": "Meeting software and device compatibility guide the choice.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A Zoom-based team that wants certified controls",
+          "Anker PowerConf Speakerphone, Zoom certified with 6 mics"
+        ],
+        [
+          "A mix of laptop and phone use with Bluetooth",
+          "Jabra Speak 510 (2025 Edition), with USB or Bluetooth"
+        ],
+        [
+          "A wired desk setup for Skype for Business or Teams",
+          "Jabra Speak 410 Corded Speakerphone, with an integrated USB cable"
+        ],
+        [
+          "A desk that needs extra USB ports",
+          "Q95mini Conference Speaker, with a built-in USB hub"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $89", "Jabra Speak 510 (under $90)"],
-        ["Under $90", "Jabra Speak 410 (under $90)"],
-        ["Under $96", "Q95mini (under $100)"],
-        ["Under $100", "Anker PowerConf (under $100)"]
+    "subheading": "By Budget",
+    "intro": "All four sit near $89 to $100.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $100",
+          "Jabra Speak 510, for Bluetooth and USB flexibility"
+        ],
+        [
+          "Under $100",
+          "Jabra Speak 410, for a simple wired unit"
+        ],
+        [
+          "Under $100",
+          "Q95mini, for a USB hub and long cable"
+        ],
+        [
+          "Under $125",
+          "Anker PowerConf Speakerphone, for the largest battery and Zoom certification"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Corded vs Battery-Powered Wireless Design",
-    cards: [
-      { label: "Corded (Jabra Speak 410, Q95mini)", text: "Removes battery and pairing concerns entirely, staying reliably connected as long as a USB port is available, ideal for a fixed desk setup." },
-      { label: "Battery-powered wireless (Anker PowerConf, Jabra Speak 510)", text: "Adds portability and freedom from cables, better for a speakerphone that moves between rooms or travels with you." }
+    "subheading": "Wired vs Battery",
+    "intro": "Wired units never die mid-call, but battery units move freely.",
+    "cards": [
+      {
+        "label": "Wired",
+        "text": "The Jabra Speak 410 and Q95mini draw power over USB and use cables of up to 9.8 feet, so there is no battery to charge."
+      },
+      {
+        "label": "Battery",
+        "text": "The Anker PowerConf Speakerphone lists a 5,200mAh battery and 24 hours of call time, and the Jabra Speak 510 supports USB or Bluetooth, which frees the desk."
+      }
     ],
-    note: "If your speakerphone lives permanently at one desk, a corded pick removes any charging maintenance entirely. If you move between meeting rooms or travel, the wireless picks are worth the tradeoff.",
+    "note": "For a fixed desk, wired is simplest. For moving between rooms, battery wins."
   },
   {
-    subheading: "By Room and Meeting Type",
-    table: {
-      headers: ["Your meeting scenario", "Recommended pick"],
-      rows: [
-        ["Larger room needing maximum mic coverage", "Anker PowerConf (6-mic array)"],
-        ["Frequent travel between locations", "Jabra Speak 510"],
-        ["Fixed desk with Skype for Business use", "Jabra Speak 410"],
-        ["Desk setup low on available USB ports", "Q95mini"]
+    "subheading": "By Room",
+    "intro": "Small desks and shared tables differ.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A shared table for 6 or more people",
+          "Anker PowerConf Speakerphone, with a 6-mic array"
+        ],
+        [
+          "A small home desk",
+          "Jabra Speak 410, with a slim design"
+        ],
+        [
+          "Traveling with the unit",
+          "Jabra Speak 510, with a portable design"
+        ],
+        [
+          "A desk that needs a USB hub for peripherals",
+          "Q95mini"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Desk With Limited USB Ports Specifically",
-    cards: [
-      { label: "Look for", text: "A speakerphone with a built-in USB hub, letting it double as a port expander rather than consuming one of your limited available ports." },
-      { label: "In this comparison", text: "The Q95mini pick's built-in USB hub specifically solves the limited-port problem by letting you connect additional peripherals through the speakerphone itself." }
-    ],
+    "subheading": "For Frequent Travelers Specifically",
+    "intro": "A traveler needs light weight and a carry case.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A slim body, a carrying case and both USB and Bluetooth connection."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Jabra Speak 510 lists a portable, travel-focused design with USB or Bluetooth, and Jabra Speak 410 lists a carrying case."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need the largest mic array, longest battery life, and the ability to charge other devices, where the Anker PowerConf delivers all three at the top of this tier." },
-      { label: "Save if", text: "You just need reliable wired connectivity without wireless features, where the Jabra Speak 410 covers that for about $10 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $150 guide adds larger rooms and more battery.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need 8 to 12 person coverage or daisy chaining. The under $150 guide includes the Yealink SP96."
+      },
+      {
+        "label": "Save if",
+        "text": "You need one desk unit. Jabra Speak 410 is simple and wired."
+      }
+    ]
   }
 ];
 
@@ -184,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the Anker PowerConf's device-charging feature charge a laptop, or just smaller devices like a phone?", "a": "The PowerIQ charging technology is generally optimized for smaller devices like phones rather than laptops, which typically require higher power delivery than a speakerphone's charging port can provide." },
-  { "q": "What's the most common mistake buyers make when choosing between corded and wireless speakerphones at this tier?", "a": "Paying extra for battery-powered wireless portability on a speakerphone that will realistically never leave one desk, when a corded pick like the Jabra Speak 410 delivers the same call quality for a similar or lower price without any charging maintenance." },
-  { "q": "Is the Anker PowerConf worth it over the cheaper Jabra Speak 510?", "a": "If you specifically need the largest mic array, longest battery life, or device-charging capability, yes, but if lightweight portability and fast setup matter more, the Jabra Speak 510 covers that for about $11 less." },
-  { "q": "Does the Q95mini's built-in USB hub slow down data transfer to connected devices?", "a": "For typical peripherals like a mouse or keyboard, no noticeable slowdown occurs, though checking the hub's specific USB version in the listing is worth doing if you plan to transfer large files through a connected drive." },
-  { "q": "Can the Jabra Speak 410's corded design still be used while traveling?", "a": "Yes, its slim design with integrated cable management and included carrying case supports travel use, though it still requires an available USB port at your destination since it has no battery-powered standalone mode." },
-  { "q": "Do any of these picks support connecting to more than one device at the same time?", "a": "The Anker PowerConf and Jabra Speak 510 support Bluetooth pairing alongside their wired options, giving more multi-device flexibility than the fully corded Jabra Speak 410 or Q95mini, which are limited to their single wired connection." }
+  {
+    "q": "Is Zoom certification worth it?",
+    "a": "If your team uses Zoom, certified devices give integrated call controls and tested audio behavior. The Anker PowerConf lists Zoom certification, but any USB speakerphone still works as a standard audio device. The Jabra Speak 510 lists USB or Bluetooth and works with Teams and other platforms."
+  },
+  {
+    "q": "Is the Jabra Speak 510 worth it over the 410?",
+    "a": "If you want Bluetooth as well as USB and a portable design, yes. The Speak 410 is a wired unit with an integrated cable and carrying case, so it is simpler and has no battery to charge. The Speak 510 costs a little less at last check, so price is not the deciding factor."
+  },
+  {
+    "q": "What does PowerIQ do on the Anker?",
+    "a": "It is Anker's charging technology for devices, and the listing says the speakerphone can charge a phone. Charging a phone drains the battery, so keep it plugged in for a long meeting. The charging draws on the same battery, so plan for shorter call time if you charge a phone."
+  },
+  {
+    "q": "How long is the Q95mini cable?",
+    "a": "The listing gives 9.8 feet, which is enough to reach across a desk. The built-in USB hub adds ports for other devices, but check the hub's speed before attaching a drive. A hub also shares the bus with the speaker, so avoid attaching heavy devices during calls."
+  },
+  {
+    "q": "Does a 6-mic array fix a noisy room?",
+    "a": "No. More microphones help pick up distant voices but cannot remove room noise. A quiet space and sound-absorbing furniture work better than extra mics. If you need coverage for a larger table, daisy chaining or a bigger unit is the better path."
+  },
+  {
+    "q": "How do I pair a Bluetooth speakerphone?",
+    "a": "Put it into pairing mode, select it in the computer's Bluetooth settings and confirm the connection. For calls, USB is steadier, so use Bluetooth only when you need the wireless link. If the connection drops, remove the pairing and set it up again."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

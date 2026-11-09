@@ -5,7 +5,7 @@ export const metaDescription = "Seven desk gifts for gamers, from a pixel art di
 export const mainKeyword = "desk gifts for gamers";
 export const introParagraphs = [
   "A gamer's desk usually has the opposite problem from an office desk: too many peripherals and not enough places to put them. A headset on the monitor, a controller on the keyboard tray and cables everywhere is the default, so a gift that gives each thing a home usually lands better than another piece of RGB.",
-  "We picked seven gifts from about $8 to $51: three headset and controller stands, a licensed collectible holder, a pixel display, a night light and a decision coin. Each is judged on what the listing says about compatibility, material and power. We note which ones need a USB port or an app, since a gift that cannot be set up is a bad gift."
+  "We picked seven gifts from under $10 to $51: three headset and controller stands, a licensed collectible holder, a pixel display, a night light and a decision coin. Each is judged on what the listing says about compatibility, material and power. We note which ones need a USB port or an app, since a gift that cannot be set up is a bad gift."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41VWjht3ASL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09YQZHW3L?tag=deskfinds0d-20",
-    "description": "Divoom Pixoo is a 16 by 16 pixel LED panel controlled through an app, with a drawing board, a gallery and music sync, in a retro style for gaming rooms.\n\nIt is the most expensive pick at about $51 and the only one that is a display. Against the wood stand below, it is more decor than storage.\n\nBest for a gamer who likes pixel art and tinkering. The caveat is that it is app-driven and needs power.",
+    "description": "Divoom Pixoo is a 16 by 16 pixel LED panel controlled through an app, with a drawing board, a gallery and music sync, in a retro style for gaming rooms.\n\nIt is the most expensive pick at under $60 and the only one that is a display. Against the wood stand below, it is more decor than storage.\n\nBest for a gamer who likes pixel art and tinkering. The caveat is that it is app-driven and needs power.",
     "specs": [
       "16 x 16 pixel panel",
       "App control, drawing board",
@@ -40,7 +40,7 @@ export const products: GuideProduct[] = [
       "Great gaming room decor"
     ],
     "cons": [
-      "Costs about $51",
+      "Costs under $60",
       "Needs app and power"
     ],
     "bestFor": "Pixel art and tinkering fans"
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41SXpaeSUUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FPBJ85NV?tag=deskfinds0d-20",
-    "description": "UPERGO is a solid walnut stand with a weighted anti-slip base, a dual holder for a headset and a controller, and a hidden storage tray in the hollow base.\n\nIt costs about $36 and is a nicer-looking alternative to the KDD stands below, with no lights or cables. Against Divoom, it is storage instead of decor.\n\nBest for a gamer with a wooden or minimal desk. The caveat is that it holds one controller and one headset.",
+    "description": "UPERGO is a solid walnut stand with a weighted anti-slip base, a dual holder for a headset and a controller, and a hidden storage tray in the hollow base.\n\nIt costs under $40 and is a nicer-looking alternative to the KDD stands below, with no lights or cables. Against Divoom, it is storage instead of decor.\n\nBest for a gamer with a wooden or minimal desk. The caveat is that it holds one controller and one headset.",
     "specs": [
       "Solid walnut wood",
       "Weighted anti-slip base",
@@ -68,7 +68,7 @@ export const products: GuideProduct[] = [
       "No power needed"
     ],
     "cons": [
-      "Costs about $36",
+      "Costs under $40",
       "Holds one controller only"
     ],
     "bestFor": "A minimal or wooden desk"
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/416F7ODP6YL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FB3QN882?tag=deskfinds0d-20",
-    "description": "KDD RGB holds one headset and two controllers, with 9 light modes and a memory mode, a stable anti-slip base and plug-and-play USB power with no driver.\n\nIt costs about $26 and gives lighting that UPERGO lacks. Against the aluminum KDD below, it adds RGB and costs $7 more.\n\nBest for a gamer who wants RGB and more controller slots. The caveat is that it needs a USB port and the lights may be too much for a quiet desk.",
+    "description": "KDD RGB holds one headset and two controllers, with 9 light modes and a memory mode, a stable anti-slip base and plug-and-play USB power with no driver.\n\nIt costs under $30 and gives lighting that UPERGO lacks. Against the aluminum KDD below, it adds RGB and costs $7 more.\n\nBest for a gamer who wants RGB and more controller slots. The caveat is that it needs a USB port and the lights may be too much for a quiet desk.",
     "specs": [
       "9 RGB light modes",
       "1 headset, 2 controllers",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31Qw7OdU3QL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08KJJFFY8?tag=deskfinds0d-20",
-    "description": "Exquisite Gaming makes an officially licensed Call of Duty Monkeybomb figure that holds a controller or a phone, with a heavy-duty PVC build and a sturdy base. It is listed as grabbing the PS5 DualSense and Xbox Series controllers.\n\nIt costs about $23 and is the fan-service gift. Against KDD Drawer, it is more novelty than organization.\n\nBest for a Call of Duty fan. The caveat is that it only suits that fan.",
+    "description": "Exquisite Gaming makes an officially licensed Call of Duty Monkeybomb figure that holds a controller or a phone, with a heavy-duty PVC build and a sturdy base. It is listed as grabbing the PS5 DualSense and Xbox Series controllers.\n\nIt costs under $25 and is the fan-service gift. Against KDD Drawer, it is more novelty than organization.\n\nBest for a Call of Duty fan. The caveat is that it only suits that fan.",
     "specs": [
       "Licensed Call of Duty figure",
       "Holds controller or phone",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41H9lcFZyUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DCN9QPCV?tag=deskfinds0d-20",
-    "description": "This KDD stand is an aluminum alloy headset and controller holder with a drawer for extra storage, cable organizers and room for two game controllers.\n\nIt costs about $19 and handles clutter better than the RGB version. Against UPERGO, it is cheaper and metal.\n\nBest for a gamer with a cluttered desk. The caveat is that the drawer is small.",
+    "description": "This KDD stand is an aluminum alloy headset and controller holder with a drawer for extra storage, cable organizers and room for two game controllers.\n\nIt costs under $20 and handles clutter better than the RGB version. Against UPERGO, it is cheaper and metal.\n\nBest for a gamer with a cluttered desk. The caveat is that the drawer is small.",
     "specs": [
       "Aluminum alloy structure",
       "Drawer for storage",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51QfJTMtzrL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08X6DVF2V?tag=deskfinds0d-20",
-    "description": "YuanDian is a 3D illusion lamp that shows a headset graphic when lit, with remote and touch control, 16 colors and either USB or 3 AAA batteries for power.\n\nIt costs about $15 and is a novelty lamp. Against KDD RGB, it is decor rather than storage.\n\nBest for a gamer who likes light-up decor. The caveat is that the batteries are not included.",
+    "description": "YuanDian is a 3D illusion lamp that shows a headset graphic when lit, with remote and touch control, 16 colors and either USB or 3 AAA batteries for power.\n\nIt costs under $20 and is a novelty lamp. Against KDD RGB, it is decor rather than storage.\n\nBest for a gamer who likes light-up decor. The caveat is that the batteries are not included.",
     "specs": [
       "3D illusion headset lamp",
       "16 colors, remote and touch",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51WlfLHTgTL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FS19JYB8?tag=deskfinds0d-20",
-    "description": "JEWGLO is a double-sided decision coin with jokes on both sides, aimed at settling the one more game or go to bed argument.\n\nIt costs about $8, the least here, and is purely a gag. Against YuanDian, it is cheaper and smaller.\n\nBest for a joke or a stocking stuffer. The caveat is that it has no practical use.",
+    "description": "JEWGLO is a double-sided decision coin with jokes on both sides, aimed at settling the one more game or go to bed argument.\n\nIt costs under $10, the least here, and is purely a gag. Against YuanDian, it is cheaper and smaller.\n\nBest for a joke or a stocking stuffer. The caveat is that it has no practical use.",
     "specs": [
       "Double-sided coin",
       "Gamer humor",
@@ -219,47 +219,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Platform compatibility",
-    "explanation": "Controllers differ in shape, and a stand that fits a PS5 DualSense may not suit an Xbox or Switch Pro. Gifts that name specific controllers avoid the mismatch. Check the listing's compatibility list."
+    "explanation": "Controllers differ in shape, and a stand that fits a PS5 DualSense may not suit an Xbox or Switch Pro. Gifts that name specific controllers avoid the mismatch. Check the listing's compatibility list. A stand that lists the PS5, Xbox and Switch, like the UPERGO walnut model, is safer than one that only says controller, since pads differ in shape."
   },
   {
     "criterion": "Headset size clearance",
-    "explanation": "Large gaming headsets with thick bands need a wide stand. A narrow one can tip over. Check the listed clearance or wide arc."
+    "explanation": "Large gaming headsets with thick bands need a wide stand. A narrow one can tip over. Check the listed clearance or wide arc. Wide headsets need a wide cradle, so look for the clearance in the listing, and check that the aluminum KDD stand has a drawer without losing the base weight."
   },
   {
     "criterion": "USB and power needs",
-    "explanation": "RGB stands and displays need a USB port or outlet, and desks often run out. A passive wood stand needs nothing. Check how the gift is powered."
+    "explanation": "RGB stands and displays need a USB port or outlet, and desks often run out. A passive wood stand needs nothing. Check how the gift is powered. The KDD RGB stand and Pixoo panel need a USB port or outlet, so count the free ports on his desk before ordering a lit gift."
   },
   {
     "criterion": "Light and noise at night",
-    "explanation": "RGB lights can annoy a roommate or spouse, and flashing modes distract. A gift with a memory mode or off setting helps. Check lighting controls."
+    "explanation": "RGB lights can annoy a roommate or spouse, and flashing modes distract. A gift with a memory mode or off setting helps. Check lighting controls. Nine light modes can annoy a roommate at night, so check for an off or memory mode in the KDD listing before buying it for a shared room."
   },
   {
     "criterion": "Stability",
-    "explanation": "A stand that tips under a heavy headset is worse than none. Weighted bases and anti-slip pads help. Check base description in the listing."
+    "explanation": "A stand that tips under a heavy headset is worse than none. Weighted bases and anti-slip pads help. Check base description in the listing. A weighted anti slip base keeps a stand upright under a heavy headset, so check the base description in the UPERGO or KDD listing, and skip any stand whose photos show a bare lightweight plate."
   },
   {
     "criterion": "App dependence",
-    "explanation": "App-controlled gifts need a phone and may lose features later. A simple gift works forever. Check app requirements before buying."
+    "explanation": "App-controlled gifts need a phone and may lose features later. A simple gift works forever. Check app requirements before buying. The Divoom Pixoo display needs a phone app, and features can change over time, so choose the simple UPERGO stand when you want a gift with no accounts, no updates and nothing that can stop working."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Compatibility",
-    "description": "We compared which controllers and headsets each listing names."
+    "title": "Console and controller fit",
+    "description": "We checked which platforms each stand names. The UPERGO walnut stand lists PS5, Xbox and Switch controllers, and the KDD RGB stand holds one headset and two controllers. Controllers differ in shape, so a stand that names the platform beats one that only says gaming controller."
   },
   {
-    "title": "Build and stability",
-    "description": "Materials and base design were weighed."
+    "title": "Headset clearance and stability",
+    "description": "Large headsets with thick bands tip narrow stands, so we looked for a weighted anti-slip base, as on the UPERGO walnut model, and for the aluminum alloy structure of the KDD headset stand with drawer. A stand that tips under a heavy headset is worse than none."
   },
   {
-    "title": "Power and setup",
-    "description": "USB, battery and app needs were noted."
+    "title": "Power, light and app needs",
+    "description": "The Divoom Pixoo display needs an app and a power source, the KDD RGB stand has 9 light modes over USB, and the YuanDian night light runs on USB or 3 AAA batteries. We scored passive wood stands higher for reliability, since they need no ports or phone."
   },
   {
-    "title": "Price",
-    "description": "Cost was compared across storage and decor gifts."
+    "title": "Night use and roommates",
+    "description": "RGB and flashing modes can bother a roommate or partner. We noted the KDD stand's 9 modes and the YuanDian lamp's 16 colours with remote and touch control, and favoured items with a clear off setting. A quiet wood stand is the safe choice for a shared bedroom."
   }
 ];
 

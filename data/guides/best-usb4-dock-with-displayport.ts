@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Native vs DisplayLink Video", "description": "Compared uncompressed native GPU video against DisplayLink software-compressed video paths." },
-  { "title": "Gaming and Protected Content Support", "description": "Compared docks explicitly supporting gaming versus those explicitly excluding it." },
-  { "title": "Host Charging", "description": "Compared docks that charge the host laptop against those that don't." },
-  { "title": "Deployment Scenario Fit", "description": "Compared BYOD/enterprise deployment features against home office productivity focus." },
-  { "title": "Price and Cable Design", "description": "Compared integrated versus detachable cable designs and overall price." }
+  {
+    "title": "Native DisplayPort outputs",
+    "description": "We separated docks with real DisplayPort ports from those that convert through DisplayLink. The Lenovo lists HDMI 2.1 plus DisplayPort 1.4, StarTech lists two native uncompressed DisplayPort outputs, and Plugable's DisplayPort and HDMI ports use DisplayLink. Plain DisplayPort cables are cheaper and more available than the adapters other docks need."
+  },
+  {
+    "title": "Driverless vs DisplayLink",
+    "description": "DisplayLink docks need software and compress the signal, which can add latency. We marked the Plugable down for that reason, though it still earns credit as a dock that works across hosts. On a laptop with a strong GPU, native video is the cleaner path; DisplayLink suits weak or older hosts."
+  },
+  {
+    "title": "Operating system limits",
+    "description": "The StarTech BYOD dock is Windows-only, and the TB3 mini dock supports Windows, macOS and Ubuntu. We weighted compatibility because a dual DisplayPort dock that fails on your OS has no value. A dock that fails your OS is not a bargain at any price, so this was the first filter."
+  },
+  {
+    "title": "Host charging",
+    "description": "The Plugable explicitly does not charge the host computer, per its listing. The Lenovo lists 100W Power Delivery. For a laptop that needs a charger on the desk, we gave charging priority. Buyers who forget this end up carrying two power bricks to the desk."
+  },
+  {
+    "title": "Cable design",
+    "description": "The StarTech mini dock uses an extra-long 11-inch attached cable, while the Lenovo has an integrated USB4 cable. We weighed cable reach because it decides where on the desk the dock can sit. A short cable limits where the dock sits, which affects tidy desk layouts."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["An integrated cable with both HDMI 2.1 and DisplayPort 1.4", "Lenovo USB4 Smart Dock 5500"],
-        ["Native uncompressed video for BYOD deployments", "StarTech Driverless USB-C Dual DisplayPort Dock"],
-        ["Native uncompressed video at the lowest price", "StarTech Driverless Thunderbolt 3 Mini Dock"],
-        ["Office productivity displays with honest DisplayLink disclosure", "Plugable Dual DisplayPort & HDMI Docking Station"]
+    "subheading": "By Operating System",
+    "intro": "Compatibility is the first filter for DisplayPort docks.",
+    "table": {
+      "headers": [
+        "Your OS",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Windows, macOS or Ubuntu",
+          "StarTech Driverless Thunderbolt 3 Dual DisplayPort Mini Dock, listed for all three"
+        ],
+        [
+          "Windows only with BYOD flexibility",
+          "StarTech Driverless USB-C Dual DisplayPort Dock, BYOD, Windows only"
+        ],
+        [
+          "USB4 laptop needing charging",
+          "Lenovo USB4 Smart Dock 5500, with an integrated USB4 cable and 100W PD"
+        ],
+        [
+          "Any host needing many USB ports",
+          "Plugable Dual DisplayPort & HDMI Docking Station, with 6x USB 3.0"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $32", "StarTech Thunderbolt 3 Mini Dock (under $35)"],
-        ["Under $110", "StarTech BYOD Dock (under $110)"],
-        ["Under $160", "Plugable Dual DisplayPort & HDMI (under $160)"],
-        ["Under $260", "Lenovo USB4 Smart Dock 5500 (under $300)"]
+    "subheading": "By Budget",
+    "intro": "The picks run from under $50 to over $250.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Under $50",
+          "StarTech Driverless Thunderbolt 3 Dual DisplayPort Mini Dock, cheapest dual DisplayPort"
+        ],
+        [
+          "Under $125",
+          "StarTech Driverless USB-C Dual DisplayPort Dock, BYOD, with lock slots and Surface mounting"
+        ],
+        [
+          "Under $175",
+          "Plugable Dual DisplayPort & HDMI Docking Station, with DisplayLink and 6 USB ports"
+        ],
+        [
+          "Under $300",
+          "Lenovo USB4 Smart Dock 5500, with USB4, HDMI 2.1 and 100W charging"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Native GPU Video vs DisplayLink Compression",
-    cards: [
-      { label: "Native GPU video (both StarTech picks)", text: "Delivers uncompressed video with full gaming and protected content support, since it's powered directly by your laptop's own graphics hardware." },
-      { label: "DisplayLink compression (Plugable)", text: "Explicitly does not support gaming or protected content playback like Netflix or Hulu, since the video is processed in software rather than passed through natively." }
+    "subheading": "Native Video vs DisplayLink",
+    "intro": "The mechanism changes latency and driver needs.",
+    "cards": [
+      {
+        "label": "Native video",
+        "text": "StarTech's docks and the Lenovo carry uncompressed signals through the host's graphics, with no driver software."
+      },
+      {
+        "label": "DisplayLink",
+        "text": "Plugable compresses video through a driver. It works on hosts with weak display outputs, but may add lag."
+      }
     ],
-    note: "If you need to game or stream protected video content through your external monitors, choose a native-video dock like either StarTech pick. If you only need displays for office productivity and web browsing, the Plugable DisplayLink dock's tradeoffs won't matter.",
+    "note": "Choose native DisplayPort unless your laptop only has basic USB output."
   },
   {
-    subheading: "By Deployment Scenario",
-    table: {
-      headers: ["Your setup context", "Recommended pick"],
-      rows: [
-        ["Corporate BYOD or shared workspace deployment", "StarTech Driverless USB-C Dual DisplayPort Dock"],
-        ["Single home office desk", "Lenovo USB4 Smart Dock 5500 or StarTech Mini Dock"]
+    "subheading": "By Charging Need",
+    "intro": "Not every dock powers the laptop.",
+    "table": {
+      "headers": [
+        "You need",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "100W charging through one cable",
+          "Lenovo USB4 Smart Dock 5500, with 100W USB PD"
+        ],
+        [
+          "A dock that also locks to the desk",
+          "StarTech BYOD dock, with lock slots"
+        ],
+        [
+          "A portable dock with an attached cable",
+          "StarTech TB3 Mini Dock, with an 11-inch cable"
+        ],
+        [
+          "Extra ports and a separate charger is fine",
+          "Plugable Dual DisplayPort & HDMI Docking Station, which does not charge the host"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Gaming or Streaming Protected Video Specifically",
-    cards: [
-      { label: "Look for", text: "A dock explicitly stating native, uncompressed video output rather than DisplayLink technology, since DisplayLink-based docks specifically cannot handle gaming or HDCP-protected content like Netflix." },
-      { label: "In this comparison", text: "Both StarTech picks specifically state native GPU-powered video with no software compression, directly supporting gaming and protected content playback." }
-    ],
+    "subheading": "For a Windows Office Desk Specifically",
+    "intro": "Corporate desks usually run Windows with two DisplayPort monitors.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Two native DisplayPort outputs, driverless operation and lock slots, so IT does not manage extra software."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The StarTech BYOD dock lists dual 4K 60Hz native DisplayPort, driverless operation, lock slots and Surface or VESA mounting."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want an integrated cable design with both HDMI 2.1 and DisplayPort 1.4 outputs in one dock, where the Lenovo pick justifies its under $300 price." },
-      { label: "Save if", text: "You want native uncompressed dual DisplayPort output at the lowest possible price, where the StarTech Mini Dock delivers that for under $35." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The Lenovo is the only USB4 pick here.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want USB4, HDMI 2.1 and 100W charging in one cable. The Lenovo over $250 is the premium pick; see the dual-monitor USB4 guide for alternatives."
+      },
+      {
+        "label": "Save if",
+        "text": "You run two 4K 60Hz monitors on Windows. The StarTech BYOD under $125 or the TB3 mini under $50 handle it."
+      }
+    ]
   }
 ];
 
@@ -182,12 +268,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I stream Netflix through the Plugable DisplayLink dock?", "a": "No, the listing explicitly states this dock does not support protected content playback such as Netflix or Hulu due to DisplayLink's technology limitations, so choose one of the native-video StarTech picks instead if streaming protected content is important to you." },
-  { "q": "What's the most common mistake buyers make when choosing a USB4 dock with DisplayPort?", "a": "Assuming any dock with DisplayPort output supports the same gaming and streaming capabilities, without checking whether the dock uses native GPU video output or DisplayLink compression technology, which have fundamentally different capabilities for gaming and protected content." },
-  { "q": "Is the Lenovo USB4 Smart Dock 5500 worth the price premium over the StarTech mini dock for basic office use?", "a": "If you specifically want both HDMI 2.1 and DisplayPort outputs with an integrated cable in one dock, the Lenovo's premium is justified, but for basic dual-DisplayPort display needs, the StarTech mini dock delivers the same native video quality at a dramatically lower price." },
-  { "q": "Does the StarTech BYOD dock work with my MacBook?", "a": "No, the listing explicitly states this specific dock is not compatible with macOS or ChromeOS, designed specifically for Windows-based BYOD and shared workspace deployments, so Mac users should choose the StarTech mini dock or Lenovo pick instead." },
-  { "q": "Do I need to keep my laptop's original charger plugged in if I use the Plugable dock?", "a": "Yes, the listing specifically states this docking station does not charge the host computer, so you'll need to keep your laptop's own charger connected separately even while using the dock for displays and peripherals." },
-  { "q": "Can I mount these docks to the back of a monitor or under a desk?", "a": "The StarTech BYOD dock specifically supports Surface or VESA mounting with separately sold mounting accessories, while checking each other specific listing's stated mounting compatibility is worth doing if a mounted, out-of-sight setup is a priority for your desk." }
+  {
+    "q": "Is a native DisplayPort dock better than DisplayLink?",
+    "a": "Usually, for video. Native DisplayPort carries uncompressed video with low latency, as the StarTech docks list. DisplayLink, used by Plugable, compresses video through a driver, which can add lag in fast motion. Fast motion like scrolling or games is where the difference shows."
+  },
+  {
+    "q": "Does the Plugable dock charge my laptop?",
+    "a": "No. The listing states that it does not charge the host computer, so you need your own charger. If a single cable must power the laptop and drive two monitors, pick the Lenovo with 100W Power Delivery. That is a common surprise for buyers."
+  },
+  {
+    "q": "Is the Lenovo Smart Dock worth it over the StarTech BYOD dock?",
+    "a": "If you need USB4, 100W charging and HDMI 2.1 plus DisplayPort, yes, and it costs over $250. The StarTech under $125 handles dual 4K 60Hz DisplayPort on Windows only."
+  },
+  {
+    "q": "Will the StarTech BYOD dock work on a Mac?",
+    "a": "No. It is listed as Windows-only, not macOS or ChromeOS. Mac buyers should consider the TB3 mini dock, which lists Windows, macOS and Ubuntu support. Mac owners should skip it."
+  },
+  {
+    "q": "How do I connect two DisplayPort monitors to the StarTech mini dock?",
+    "a": "Plug each monitor's DisplayPort cable into the two outputs, connect the attached cable to your laptop, then use Display Settings to extend. Set both monitors to 60Hz at 4K for stable video."
+  },
+  {
+    "q": "Can an older Thunderbolt 3 dock still be a good buy?",
+    "a": "Yes, if your laptop has Thunderbolt 3. The StarTech TB3 mini dock under $50 gives dual 4K 60Hz DisplayPort across three operating systems, but it is not USB4 and lacks 100W charging. It is a solid fit for an older laptop."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41s8ZvSbxoL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HCB3X7XN?tag=deskfinds0d-20",
-    "description": "Kikihouse is a 22 liter beauty fridge measuring 11.23 by 11.02 by 17.8 inches, tall enough for toner and setting spray bottles according to its listing. It has 5 compartments, a stated cooling range of 44F to 50F, fan assisted anti-condensation design, a magnetic seal, a door-activated LED and a stated 25 dB noise level.\n\nCompared with TABU below, it has nearly double the capacity for about $5 more, and states a noise figure and an honest temperature range. It dwarfs the 4L cubes, which hold only six cans.\n\nBest for a large collection of skincare with taller bottles. The caveat is the footprint, which is closer to a small appliance than a desk accessory, and the 44F floor.",
+    "description": "Kikihouse is a 22 liter beauty fridge measuring 11.23 by 11.02 by 17.8 inches, tall enough for toner and setting spray bottles according to its listing. It has 5 compartments, a stated cooling range of 44F to 50F, fan assisted anti-condensation design, a magnetic seal, a door-activated LED and a stated 25 dB noise level.\n\nCompared with TABU below, it has nearly double the capacity for under $10 more, and states a noise figure and an honest temperature range. It dwarfs the 4L cubes, which hold only six cans.\n\nBest for a large collection of skincare with taller bottles. The caveat is the footprint, which is closer to a small appliance than a desk accessory, and the 44F floor.",
     "specs": [
       "22L, 5 compartments",
       "44F to 50F range, 25 dB",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/316DEDDUvIL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H7X56GGW?tag=deskfinds0d-20",
-    "description": "TABU is a 12 liter thermoelectric skincare fridge with a beige exterior, an LED panel that shows temperature and settings, a soft interior light and an adjustable shelf. The listing says it is designed for bedrooms, bathrooms and vanities.\n\nIt is smaller than Kikihouse, but about $5 cheaper and with a clear temperature display. The listing gives no noise figure and no specific cooling gap, which keeps it second.\n\nBest for a vanity or bathroom counter where a neutral look and a display matter. The caveat is that the listing leaves out numbers on noise and cooling.",
+    "description": "TABU is a 12 liter thermoelectric skincare fridge with a beige exterior, an LED panel that shows temperature and settings, a soft interior light and an adjustable shelf. The listing says it is designed for bedrooms, bathrooms and vanities.\n\nIt is smaller than Kikihouse, but under $10 cheaper and with a clear temperature display. The listing gives no noise figure and no specific cooling gap, which keeps it second.\n\nBest for a vanity or bathroom counter where a neutral look and a display matter. The caveat is that the listing leaves out numbers on noise and cooling.",
     "specs": [
       "12L, beige finish",
       "LED temperature display",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41CIPMjw06L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HML2V9C2?tag=deskfinds0d-20",
-    "description": "Lispin is a 4 liter beauty fridge with an oversized lighted mirror, removable shelves, a door pocket and a 25 dB brushless fan, running on 110V AC or 12V DC. The bullets do not state a cooling gap or a warming mode.\n\nIt is nearly the same as COYCYQI but about $1 cheaper and without the stated cool and warm detail. That makes it a pick for people who want the mirror and nothing else.\n\nBest for a mirror equipped skincare fridge at the lowest mirror price. The caveat is that cooling performance is not described.",
+    "description": "Lispin is a 4 liter beauty fridge with an oversized lighted mirror, removable shelves, a door pocket and a 25 dB brushless fan, running on 110V AC or 12V DC. The bullets do not state a cooling gap or a warming mode.\n\nIt is nearly the same as COYCYQI but under $10 cheaper and without the stated cool and warm detail. That makes it a pick for people who want the mirror and nothing else.\n\nBest for a mirror equipped skincare fridge at the lowest mirror price. The caveat is that cooling performance is not described.",
     "specs": [
       "4L with lighted mirror",
       "25 dB brushless fan",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41XZwZ8mF+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GS5PBS4K?tag=deskfinds0d-20",
-    "description": "Reemix is a 4 liter fridge with a three-level LED makeup mirror, a removable middle shelf and a door basket for cotton pads and lip balms. The listing states 35 dB operation and 120V AC or 12V DC, with a six can capacity.\n\nIt is a hair louder than COYCYQI and Lispin at 35 dB versus 25, but has a door basket and a clearer storage layout, at about $10 less than COYCYQI.\n\nBest for someone who wants organization for small items. The caveat is the higher noise and no stated cooling gap.",
+    "description": "Reemix is a 4 liter fridge with a three-level LED makeup mirror, a removable middle shelf and a door basket for cotton pads and lip balms. The listing states 35 dB operation and 120V AC or 12V DC, with a six can capacity.\n\nIt is a hair louder than COYCYQI and Lispin at 35 dB versus 25, but has a door basket and a clearer storage layout, at under $15 less than COYCYQI.\n\nBest for someone who wants organization for small items. The caveat is the higher noise and no stated cooling gap.",
     "specs": [
       "4L, six can capacity",
       "35 dB listed",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/21Lt+3dYf7L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FTGGX9KX?tag=deskfinds0d-20",
-    "description": "Frigidaire's retro cooler holds six 12 oz cans in a 4 liter body measuring 10 by 7 by 10.5 inches, with a cooling can holder on top, a flush-back design, a 3 pound weight and wall plus car cords. It is thermoelectric and the listing mentions lunch, drinks and baby bottles.\n\nIt costs about $2 more than Electactic and has the top mounted can holder, but it does not describe skincare use beyond the title, and no noise or cooling gap is given.\n\nBest for someone who wants a cute cooler for both drinks and a few products. The caveat is that the listing has the least skincare specific detail.",
+    "description": "Frigidaire's retro cooler holds six 12 oz cans in a 4 liter body measuring 10 by 7 by 10.5 inches, with a cooling can holder on top, a flush-back design, a 3 pound weight and wall plus car cords. It is thermoelectric and the listing mentions lunch, drinks and baby bottles.\n\nIt costs under $10 more than Electactic and has the top mounted can holder, but it does not describe skincare use beyond the title, and no noise or cooling gap is given.\n\nBest for someone who wants a cute cooler for both drinks and a few products. The caveat is that the listing has the least skincare specific detail.",
     "specs": [
       "4L, six cans",
       "Active can holder on top",
@@ -246,60 +246,52 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Bottle height versus interior",
-    "explanation": "Toners, mists and some serums are taller than a soda can, and a 4L cube has an interior height of only about 8 inches. A bottle that does not stand upright ends up lying down or left out. Look at the listed interior dimensions, and note that Kikihouse is built about 17.8 inches tall to fit taller bottles."
+    "criterion": "The right temperature for skincare",
+    "explanation": "Most skincare products are happiest around 35 to 50F, and anything near freezing can ruin an emulsion or separate a serum. Thermoelectric fridges cool about 30 to 32F below the room, so in a 70F bathroom they land near 40F. Check the listed range, and avoid fridges that claim sub-freezing temperatures for cosmetics, since freezing damage is permanent and cannot be reversed by warming the bottle."
   },
   {
-    "criterion": "What temperature range is realistic",
-    "explanation": "Skincare fridges are thermoelectric, so they cool a limited number of degrees below the room, not to a fixed number. Electactic's own chart shows 50F at a 65F room. Check the stated range, and follow whatever storage instructions the product label gives."
+    "criterion": "Room temperature limits",
+    "explanation": "Thermoelectric cooling depends on the room, so a unit listed at 30F to 32F below ambient will not reach 40F in a hot bedroom. Keeping the room under about 78F gives a reliable result. Check whether the listing states cooling relative to ambient or an absolute floor, and read the manual note on the room temperature the unit assumes."
   },
   {
-    "criterion": "Condensation and moisture",
-    "explanation": "Cooling a sealed box in a humid bathroom can create condensation, which can drip on labels or paper packaging. Some units, like Kikihouse, advertise fan assisted drying. Check for any mention of condensation and wipe the interior regularly."
+    "criterion": "Capacity and bottle height",
+    "explanation": "A 4 liter cube has an interior of roughly 5.5 by 5.3 by 7.9 inches, as the Electactic lists, which fits serums and sheet masks but not a tall toner bottle. The 22L Kikihouse and 12L TABU hold full routines. Measure your tallest bottle and compare it with the listed interior height."
   },
   {
-    "criterion": "Mirror and light features",
-    "explanation": "A lid mirror with lighting saves counter space if the fridge is also your vanity. Mirrors add cost and a bit of bulk, and bright lights can annoy in a bedroom. Choose based on where it sits: COYCYQI, Lispin and Reemix include them."
+    "criterion": "Noise next to the bed",
+    "explanation": "A fridge on a nightstand needs a quiet fan. Four of these picks list 25 dB, while the Reemix lists 35 dB, a real difference in a silent room. Check the dB figure and read whether buyers mention a hum at night."
   },
   {
-    "criterion": "Noise at the bedside",
-    "explanation": "Thermoelectric units use a fan that runs constantly. A stated 25 dB suggests a faint hum, while Reemix lists 35 dB. In a silent bedroom the difference is audible. Look for a stated figure and treat missing numbers as unknown."
-  },
-  {
-    "criterion": "Not a food fridge",
-    "explanation": "Some listings, like the Essential Cooler elsewhere in this category, state they are not approved for food. Even those that mention drinks cool only a few degrees below the room. Use these for products, not leftovers or dairy."
+    "criterion": "Warming mode and extras",
+    "explanation": "Cubes like the COYCYQI and CUTIEWORLD heat up to about 149F, which warms towels or lip balm but is not a food warmer. A mirror or LED display adds convenience but not cooling. Check what extras you really use and the AC or DC power options, since a warming mode you never touch only adds cost."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Interior size and bottle fit",
-    "description": "We compared stated capacity and dimensions, with extra weight on units that fit tall bottles."
+    "title": "Temperature behavior",
+    "description": "We read each listed range, such as 44F to 50F on the Kikihouse and cool-to-ambient figures of 30F to 32F on the 4 liter cubes. For cosmetics the question is not how cold but how stable, so we favored units that stay in a gentle band and noted that cubes depend on room temperature, which we treated as a limit to flag rather than hide."
   },
   {
-    "title": "Cooling honesty",
-    "description": "Listings that explain the ambient dependence of thermoelectric cooling ranked higher than those that quote a flat figure."
+    "title": "Capacity fit",
+    "description": "We compared 4L, 12L and 22L interiors with typical bottle sizes, using listed dimensions like 5.5 by 5.3 by 7.9 inches. A large routine fits only in the Kikihouse or TABU, so capacity was weighed against footprint and the desk space available."
   },
   {
-    "title": "Noise and moisture",
-    "description": "Stated decibels and any condensation notes were compared."
+    "title": "Noise",
+    "description": "We recorded the 25 dB listings on the Kikihouse, COYCYQI, Lispin and CUTIEWORLD and the 35 dB listing on the Reemix. For a fridge by a bed, a 10 dB gap is audible, so noise carried real weight, and a fan that is louder than 30 dB was a mark against any nightstand pick."
   },
   {
-    "title": "Beauty features",
-    "description": "Mirrors, lighting, door pockets and warming modes were noted."
-  },
-  {
-    "title": "Price for the claims made",
-    "description": "Prices were compared against what each listing documents."
+    "title": "Features and finish",
+    "description": "We looked at lit mirrors, LED displays, warming modes, shelf options and finish, such as the beige TABU and retro Electactic. These are what make a skincare fridge feel designed rather than a basic cooler, so we weighed them against price and against how easily the unit cleans, since serum spills are common."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Collection Size",
-    "intro": "How much you own decides the capacity.",
+    "subheading": "By Routine Size",
+    "intro": "Skincare fridges range from a cube to a tall cabinet, so match size to routine.",
     "table": {
       "headers": [
         "Your situation",
@@ -307,30 +299,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Large routine with tall bottles",
-          "Kikihouse 22L Tall Skincare Fridge"
+          "A full routine with serums, creams and masks",
+          "Kikihouse 22L Tall Skincare Fridge, with five compartments"
         ],
         [
-          "Medium vanity collection",
-          "TABU 12L Beige Skincare Fridge with LED Display"
+          "A mid-size collection on a vanity",
+          "TABU 12L Beige Skincare Fridge with LED Display, 12L"
         ],
         [
-          "A few serums and masks, mirror wanted",
-          "COYCYQI 4L Skincare Fridge with Mirror and Warmer"
+          "A small routine with a mirror",
+          "Lispin 4L Skincare Fridge with Mirror"
         ],
         [
-          "Lots of small items to organize",
-          "Reemix 4L Skincare Fridge with Makeup Mirror"
+          "Warm and cool in one cube",
+          "CUTIEWORLD 4L Cooler and Warmer or COYCYQI 4L with Mirror and Warmer"
         ],
         [
-          "Skincare plus a drink",
-          "Frigidaire Retro 6 Can Personal Fridge"
+          "Skincare and a few cans",
+          "Frigidaire Retro 6 Can Personal Fridge, with the can holder on top"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Cubes cost under $50 and larger fridges are about three times that.",
     "table": {
       "headers": [
         "Price range",
@@ -338,44 +331,46 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $36",
-          "CUTIEWORLD 4L Cooler and Warmer Skincare Fridge"
+          "Around $35 to $37",
+          "Reemix 4L, CUTIEWORLD 4L or Electactic 4L Retro, the lowest-cost 4L options"
         ],
         [
-          "$36 to $40",
-          "Electactic 4L Retro Skincare Fridge"
+          "Around $39",
+          "Frigidaire Retro 6 Can Personal Fridge, a retro six can design"
         ],
         [
-          "$40 to $48",
-          "Lispin 4L Skincare Fridge with Mirror"
+          "Around $46 to $47",
+          "Lispin 4L or COYCYQI 4L, both with a lit mirror"
         ],
         [
-          "$130 to $135",
-          "TABU 12L Beige Skincare Fridge with LED Display"
+          "Around $135",
+          "TABU 12L, the 12L display model"
         ],
         [
-          "$135 to $140",
-          "Kikihouse 22L Tall Skincare Fridge"
+          "Around $140",
+          "Kikihouse 22L, the 22L cabinet for a full routine"
         ]
       ]
     }
   },
   {
-    "subheading": "Large Beauty Fridge vs 4L Cube",
+    "subheading": "Cube vs Cabinet",
+    "intro": "A 4L cube is cheap and portable, but a larger fridge handles more products.",
     "cards": [
       {
-        "label": "Large beauty fridge",
-        "text": "Holds tall bottles and sorts items into zones, but is bigger and costs under $140 to $140. Picks: Kikihouse and TABU."
+        "label": "4 liter cube",
+        "text": "The COYCYQI 4L, Lispin 4L, Reemix 4L, Electactic 4L Retro, CUTIEWORLD 4L and Frigidaire Retro 6 Can fit on a vanity and cost under $50, but hold only a few items."
       },
       {
-        "label": "4L cube",
-        "text": "Fits a nightstand and costs under $50, but only holds a few small items. Picks: COYCYQI, Lispin, Reemix, Electactic, CUTIEWORLD and Frigidaire."
+        "label": "12L to 22L cabinet",
+        "text": "The TABU 12L and Kikihouse 22L hold a full routine and use an adjustable shelf or compartments, but need more counter space and cost more."
       }
     ],
-    "note": "Most people with a short routine should choose a 4L cube, and step up only for tall bottles."
+    "note": "If your routine is under ten products, a cube is enough. Otherwise step up to the 12L."
   },
   {
-    "subheading": "Extra Features",
+    "subheading": "By Features",
+    "intro": "Skincare fridges differ in extras, and these decide daily use.",
     "table": {
       "headers": [
         "Your concern",
@@ -383,47 +378,49 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Lighted mirror and warmer",
-          "COYCYQI 4L Skincare Fridge with Mirror and Warmer"
+          "A lit mirror on the lid",
+          "COYCYQI 4L or Lispin 4L"
         ],
         [
-          "Door basket for small items",
-          "Reemix 4L Skincare Fridge with Makeup Mirror"
+          "Warming for towels or masks",
+          "CUTIEWORLD 4L, which lists cooling to 35.6F and heating to 149F"
         ],
         [
-          "Warming mode, no mirror",
-          "CUTIEWORLD 4L Cooler and Warmer Skincare Fridge"
+          "Quietest listing for a nightstand",
+          "Kikihouse 22L at 25 dB"
         ],
         [
           "Temperature display",
-          "TABU 12L Beige Skincare Fridge with LED Display"
+          "TABU 12L with its LED display"
         ]
       ]
     }
   },
   {
-    "subheading": "For Humid Bathrooms Specifically",
+    "subheading": "For Small Vanity Spaces Specifically",
+    "intro": "Vanity counters are tight, so footprint matters.",
     "cards": [
       {
         "label": "Look for",
-        "text": "Anti-condensation design, a tight seal, and a spot away from the shower to limit moisture on labels."
+        "text": "An interior near 5.5 by 5.3 by 7.9 inches, a quiet fan and a lid that opens without hitting a mirror."
       },
       {
         "label": "In this comparison",
-        "text": "Kikihouse 22L Tall Skincare Fridge lists fan assisted drying and a magnetic seal, which is the most documented answer."
+        "text": "Electactic 4L Retro lists a 5.5 by 5.3 by 7.9 inch interior, and Frigidaire Retro 6 Can is about 10 by 7 by 10.5 inches outside, so both fit a vanity."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "The bigger fridges cost more but fit a real routine.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You own tall bottles or a big collection. Kikihouse 22L Tall Skincare Fridge and TABU 12L Beige Skincare Fridge with LED Display have the space."
+        "text": "You own more than ten products. Kikihouse 22L gives five compartments and a 44F to 50F range."
       },
       {
         "label": "Save if",
-        "text": "A few small products fit in a cube. Reemix 4L Skincare Fridge with Makeup Mirror and CUTIEWORLD 4L Cooler and Warmer Skincare Fridge both cost under $36."
+        "text": "You only chill a few items. Reemix 4L is one of the cheapest 4L cubes here."
       }
     ]
   }
@@ -432,28 +429,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do skincare products need a fridge?",
-    "a": "Most do not. Follow the label on each product, and use a skincare fridge only for items that call for cool storage. Fridge cold is not a general upgrade for serums or creams."
+    "q": "Do skincare products really need a fridge?",
+    "a": "Not all of them. Vitamin C serums, some retinoids, eye creams and sheet masks benefit from cooler storage, while most products are fine at room temperature. A fridge is optional, but it can extend shelf life of active ingredients and make masks feel refreshing."
+  },
+  {
+    "q": "How cold should a skincare fridge be?",
+    "a": "Aim for about 35 to 50F. Anything near freezing can separate emulsions or crystallize ingredients. The Kikihouse lists 44F to 50F, which is gentle, while 4L cubes depend on room temperature, so check the manual for an ambient limit."
   },
   {
     "q": "Can I store food in a skincare fridge?",
-    "a": "Only drinks and light snacks in the cubes that mention them, and not perishables. These are thermoelectric, so they cool a set amount below room temperature, such as the COYCYQI at 30F to 32F below ambient."
+    "a": "A drink or two, yes, but not perishables. Thermoelectric cubes may not keep food under 40F in a warm room, and skincare fridges are not meant for meat or dairy. The Frigidaire Retro holds six cans, so it is the one that suits drinks best."
   },
   {
-    "q": "Is a 22L beauty fridge worth it over a 4L cube?",
-    "a": "If you own tall bottles, yes. The Kikihouse 22L fits them upright with 5 compartments, while 4L cubes like the Electactic have an interior only about 5.5 x 5.3 x 7.9 inches, which suits small jars and sheet masks."
+    "q": "Is the 22L Kikihouse worth it over a 4L cube?",
+    "a": "If you have a long routine, yes. It lists five compartments, a 44F to 50F range and 25 dB, but it costs about four times a 4L cube. For a handful of products, the cheaper 4L cubes work fine."
   },
   {
-    "q": "How do I stop condensation?",
-    "a": "Wipe the interior often, avoid crowding, and keep the unit away from steamy showers. Good airflow around the fan side helps, and the quiet 25 dB Lispin and Kikihouse fans do best with open space around them."
+    "q": "How do I keep a thermoelectric fridge from getting warm?",
+    "a": "Keep it out of direct sun, leave airflow behind the vent and avoid opening it often. Place it in a room under about 78F. If it feels warm inside, check that the lid is closed and the fan is clean."
   },
   {
-    "q": "Can I warm products too?",
-    "a": "The COYCYQI, CUTIEWORLD and Electactic list heating modes up to about 149F. Never warm anything the label says to keep cool or away from heat, and test with a thermometer before use."
-  },
-  {
-    "q": "Will it fit in my car?",
-    "a": "Most 4L models list a 12V DC cord, such as the Lispin and Electactic, but do not leave one running with the engine off, since it can drain the battery."
+    "q": "How should I clean a skincare fridge?",
+    "a": "Unplug it, wipe the interior with a damp cloth and mild soap, and dry it fully. Remove spilled serums quickly since they can leave residue. Cleaning every month or two keeps odors down."
   }
 ];
 

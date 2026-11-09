@@ -104,105 +104,143 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Writing area relative to footprint", description: "We ranked by how much usable writing area a board offers for its actual desk footprint, not just by overall smallness." },
-  { title: "Glass vs. melamine surface material", description: "We noted where a board uses genuine glass, which resists ghosting better over time than cheaper melamine surfaces." },
-  { title: "Double-sided value", description: "We flagged double-sided boards as effectively doubling usable writing area within the same footprint." },
-  { title: "Review volume and rating together", description: "We weighted both the size of the review base and the rating, since a small sample with a perfect score is less reliable than a large sample with a strong one." }
+  {
+    "title": "Writing area against footprint",
+    "description": "We compared 5x7, 8 x 6, 10 x 10 and 16 x 12 inch formats. A compact board should offer the most writing room for the desk space it takes, so AMUSIGHT's 16 x 12 inch face scored highly while TSJ OFFICE's 8 x 6 inch glass was judged as a notes only surface."
+  },
+  {
+    "title": "Glass vs melamine durability",
+    "description": "We weighed glass on two picks against coated boards. Glass resists ghosting better than melamine and cleans cleanly, but it is heavier, so we separated the durability gain from the portability cost for each buyer. A chipped corner is the main risk, so keep glass away from desk edges."
+  },
+  {
+    "title": "Double sided and magnetic features",
+    "description": "We noted which boards give two faces: AMUSIGHT and Lumspax are double sided, and AMUSIGHT adds a magnetic surface. Extra faces matter more on a small board, where one side fills quickly. Magnets also hold a calendar or card to the board."
+  },
+  {
+    "title": "Upright board vs notepad",
+    "description": "We separated stand mounted boards from Scribbledo's flat 5x7 notepad. They solve different problems, because a notepad lies in front of you while a stand keeps notes visible, so we compared them on use instead of price. A notepad is for scratch work, and an upright board is for notes you need to keep in view."
+  },
+  {
+    "title": "Price and daily usability",
+    "description": "We compared each board's price tier, from Scribbledo's under $9 two pack to the glass options under $17. Cheap boards wear out sooner, but an expensive one must also be small enough to be kept on a crowded desk, so value weighed heavily."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most writing area in a compact board", "AMUSIGHT Double-Sided Magnetic White Board 16x12"],
-        ["Glass surface, compact size", "Small Glass Desktop Whiteboard, Mini Pure Glass"],
-        ["Smallest true glass footprint", "TSJ OFFICE Glass Dry Erase Board 8x6"],
-        ["Cheapest board", "Lumspax Small Desktop White Board 10x10"],
-        ["Smallest footprint, memo notepad format", "Scribbledo Mini Dry Erase Notepad 5x7"]
+    "subheading": "By Desk Space",
+    "intro": "Compact is relative, so start with how much free surface you really have.",
+    "table": {
+      "headers": [
+        "Free desk space",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Almost none, and a flat notepad will do",
+          "Scribbledo Mini Dry Erase Notepad 5x7, which lies flat in a drawer"
+        ],
+        [
+          "A narrow gap beside the monitor",
+          "TSJ OFFICE Small Desktop Whiteboard, 8 x 6 inch glass"
+        ],
+        [
+          "A moderate area behind the keyboard",
+          "Lumspax Small Desktop White Board with Stand, 10 x 10 double sided"
+        ],
+        [
+          "A full width area for a larger board",
+          "AMUSIGHT Double-Sided Magnetic White Board with Stand, 16 x 12"
+        ]
+      ]
+    }
   },
   {
     "subheading": "By Budget",
+    "intro": "All five stay under $20, so the choice is about surface and size.",
     "table": {
       "headers": [
-        "Price range",
+        "Price bucket",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $9",
+          "Under $9 for a two pack of notepads",
           "Scribbledo Mini Dry Erase Notepad 5x7"
         ],
         [
-          "Under $10",
+          "Under $10 for a double sided stand board",
           "Lumspax Small Desktop White Board with Stand"
         ],
         [
-          "Under $15",
-          "Small Glass Desktop Whiteboard Dry-Erase"
+          "Under $15 for glass at a modest size",
+          "Small Glass Desktop Whiteboard Dry-Erase, Mini Pure Glass"
         ],
         [
-          "Under $17",
-          "TSJ OFFICE Small Desktop Whiteboard"
+          "Under $17 for the smallest glass board",
+          "TSJ OFFICE Small Desktop Whiteboard, 8 x 6 inches"
         ],
         [
-          "Under $19",
+          "Under $19 for the largest area here",
           "AMUSIGHT Double-Sided Magnetic White Board with Stand"
         ]
       ]
     }
   },
   {
-    "subheading": "Scribbledo Mini Dry Erase Notepad 5x7 vs AMUSIGHT Double-Sided Magnetic White Board with Stand",
+    "subheading": "Glass vs Coated Surface",
+    "intro": "Surface material changes how the board ages.",
     "cards": [
       {
-        "label": "Scribbledo Mini Dry Erase Notepad 5x7",
-        "text": "Buyers who want the smallest, cheapest option for quick memo notes rather than an upright display board. At under $9, it's the lowest-cost pick in this comparison."
+        "label": "Glass (Small Glass Desktop Whiteboard, TSJ OFFICE 8 x 6)",
+        "text": "Resists ghosting and streaking, so ink wipes off completely even after weeks, but it is heavier and can chip if knocked off a desk. The writing areas are smaller."
       },
       {
-        "label": "AMUSIGHT Double-Sided Magnetic White Board with Stand",
-        "text": "Buyers who want the most writing area a genuinely compact board can offer. At under $20, it sits at the higher end of this comparison's price range."
+        "label": "Coated or paper surface (AMUSIGHT, Lumspax, Scribbledo)",
+        "text": "Lighter and cheaper with more writing area per dollar, but ghosting builds over time if you leave ink on. AMUSIGHT adds magnets and two faces for flexible use."
       }
     ],
-    "note": "Most buyers should default to Scribbledo Mini Dry Erase Notepad 5x7 unless best overall specifically applies to your situation."
+    "note": "Choose glass if you use the board daily and want it to stay clean; choose coated if you want maximum area for the least money."
   },
   {
-    "subheading": "By Stated Review Confidence",
+    "subheading": "By Workflow",
+    "intro": "Think about what you will actually write.",
     "table": {
       "headers": [
-        "What you want",
+        "If you mostly",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Best Overall",
-          "AMUSIGHT Double-Sided Magnetic White Board with Stand"
+          "Jot meeting notes and wipe them",
+          "Lumspax 10 x 10, with its two faces"
         ],
         [
-          "Best Glass Option",
-          "Small Glass Desktop Whiteboard Dry-Erase"
+          "Pin reference notes with magnets",
+          "AMUSIGHT 16 x 12, the magnetic pick"
         ],
         [
-          "Smallest True Glass Option",
-          "TSJ OFFICE Small Desktop Whiteboard"
+          "Keep a small daily checklist on a tidy desk",
+          "TSJ OFFICE 8 x 6 glass board"
+        ],
+        [
+          "Doodle during calls and discard it",
+          "Scribbledo 5x7 notepad, cheapest to replace"
         ]
       ]
     }
   },
   {
-    "subheading": "For The tightest desk space Specifically",
+    "subheading": "For a Shared Cubicle or Dorm Desk Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "A board whose stated size and features genuinely match the tightest desk space rather than a generic all-purpose listing."
+        "text": "A footprint that fits in a small space, a stable stand, a surface that wipes clean and a size that will not block the monitor."
       },
       {
         "label": "In this comparison",
-        "text": "AMUSIGHT Double-Sided Magnetic White Board with Stand is the strongest match for most buyers in this category, based on its stated review base and feature set."
+        "text": "Lumspax and the glass options sit at low angles, and the AMUSIGHT gives the most area when you can spare the depth."
       }
     ]
   },
@@ -211,31 +249,49 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Buyers who want the most writing area a genuinely compact board can offer."
+        "text": "You want a durable surface, because the glass picks cost only a few dollars more than the coated boards and keep their finish. For a larger upright board, see the freestanding desktop whiteboards guide."
       },
       {
         "label": "Save if",
-        "text": "Buyers who want the smallest, cheapest option for quick memo notes rather than an upright display board."
+        "text": "Your use is occasional, so the Scribbledo notepad or the Lumspax covers it for under $10."
       }
     ]
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Weigh writing area against footprint, not just overall size", explanation: "A truly compact board should give you a good writing-area-to-footprint ratio, not just be small in every dimension." },
-  { criterion: "Consider glass over melamine if ghosting matters to you", explanation: "Glass surfaces resist marker ghosting better over repeated use than cheaper melamine boards." },
-  { criterion: "Check if double-sided fits your workflow", explanation: "A double-sided board effectively doubles usable writing area within the same desk footprint." },
-  { criterion: "Decide between an upright board and a memo notepad format", explanation: "Notepad-format products like the Scribbledo work differently than stand-mounted boards - pick based on your actual use case." },
-  { criterion: "Weigh review volume alongside rating", explanation: "A large, well-established review base is more reliable evidence than a small sample with a similarly high rating." }
+  { criterion: "Weigh writing area against footprint, not just overall size", explanation: "A truly compact board should give you a good writing-area-to-footprint ratio, not just be small in every dimension.  Compare the writing area with the footprint in the listing, and note that the AMUSIGHT gives 16 x 12 inches while the TSJ OFFICE is only 8 x 6, so the second offers far less space per inch of desk. Measure your free space in inches and compare with the listing." },
+  { criterion: "Consider glass over melamine if ghosting matters to you", explanation: "Glass surfaces resist marker ghosting better over repeated use than cheaper melamine boards.  Glass holds up better because melamine ghosts quickly under heavy use. Check the title for the word glass, and be aware glass is heavier and can chip if knocked off a desk. Glass is worth it only if you write on the board most days." },
+  { criterion: "Check if double-sided fits your workflow", explanation: "A double-sided board effectively doubles usable writing area within the same desk footprint.  Count faces in the title. Double sided boards like AMUSIGHT and Lumspax give two writing faces, so you can keep a reference list on one and a scratch area on the other. Flip the board when one side is full instead of erasing a list you still need." },
+  { criterion: "Decide between an upright board and a memo notepad format", explanation: "Notepad-format products like the Scribbledo work differently than stand-mounted boards - pick based on your actual use case.  Scribbledo is a 5x7 notepad, not an upright board. If you need to see notes at a glance from a distance, choose an upright stand instead of a pad. The two formats do different jobs, so you may want both." },
+  { criterion: "Weigh review volume alongside rating", explanation: "A large, well-established review base is more reliable evidence than a small sample with a similarly high rating.  Read the spec line for dimensions and surface material, and prefer the board whose written details match your use over one whose reputation is unclear. Use it as one clue next to the stated size and material." }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "What's the smallest compact whiteboard here?", a: "The Scribbledo Mini Dry Erase Notepad at 5x7 inches, though it's a notepad format rather than an upright stand-mounted board." },
-  { q: "Which has the most usable writing area for its size?", a: "The AMUSIGHT Double-Sided Magnetic White Board at 16x12 inches, the largest writing area in this comparison." },
-  { q: "Should I get glass or melamine?", a: "Glass resists ghosting better over repeated use. The TSJ OFFICE and Mini Pure Glass picks are both genuine glass surfaces." },
-  { q: "What's the cheapest option?", a: "The Scribbledo Mini Dry Erase Notepad 2-pack at under $9." },
-  { q: "Does double-sided actually help?", a: "Yes - it effectively doubles your usable writing area within the same desk footprint, useful if you erase and reuse the board frequently." },
-  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the most writing area a genuinely compact board can offer." }
+  {
+    "q": "How small is too small for a desktop whiteboard?",
+    "a": "Under about 8 x 6 inches you fit only a few short lines before erasing. The TSJ OFFICE and Scribbledo 5x7 suit single notes, while the Lumspax 10 x 10 and AMUSIGHT 16 x 12 give room for a short list. Fit your usual list length before choosing a size."
+  },
+  {
+    "q": "What is the most common mistake with compact boards?",
+    "a": "Judging by the board size alone instead of writing area per footprint. A thick frame wastes space. Check the actual writing dimensions, and consider a double sided board when desk space is tight. A board that is big on paper can still be tiny where you write."
+  },
+  {
+    "q": "Is the AMUSIGHT worth it over the Lumspax?",
+    "a": "The AMUSIGHT gives 16 x 12 inches double sided with a magnetic surface for under $19, while Lumspax gives 10 x 10 double sided for under $10. Choose the AMUSIGHT if you have the depth and want magnets, otherwise the Lumspax."
+  },
+  {
+    "q": "How do I set up a compact whiteboard?",
+    "a": "Open the stand, set it on a flat spot and test with a marker. Keep it clear of the keyboard and monitor stand, and use a felt pad under it if it slips on a glossy desk. Keep the stand clear of the cables behind the monitor."
+  },
+  {
+    "q": "How do I stop shadows on the board?",
+    "a": "Erase soon after writing, and wipe with a microfiber cloth. Glass resists ghosting best. If shadows build up on a coated board, a drop of whiteboard cleaner helps lift them. Switching to a fresh marker also helps, because dry markers leave more residue."
+  },
+  {
+    "q": "Can I use a Scribbledo notepad as a desk board?",
+    "a": "Yes for quick notes, but it lies flat instead of standing, so it is no substitute for an upright board. It suits a drawer or a pocket, and it costs less than a pack of markers. Keep a marker on hand so you do not hunt for one mid note."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

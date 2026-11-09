@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Room Coverage and Attendee Capacity", "description": "Compared stated pickup radius and recommended attendee counts across the lineup." },
-  { "title": "Daisy Chain Expansion", "description": "Checked which picks support linking multiple units and how much coverage that adds." },
-  { "title": "Battery Life", "description": "Compared stated battery capacity and continuous call time across all four picks." },
-  { "title": "Platform Certification", "description": "Checked for formal Teams, Zoom, or platform-recognized status versus general compatibility." },
-  { "title": "Durability and Portability", "description": "Compared ingress protection ratings and portable design features for travel use." }
+  {
+    "title": "Room size and coverage",
+    "description": "We compared the Yealink SP96 16.4 foot radius and 6-mic array for 8 to 12 people with the EMEET M3 15 foot range for up to 20 attendees and the 4 beamforming mics of the Jabra. Over-specced coverage in a small room adds echo, so we matched ranges to real room sizes. A 20 attendee claim is a ceiling, not a typical room, so we looked at the 8 to 12 person ranges first."
+  },
+  {
+    "title": "Expandability",
+    "description": "We noted the Yealink daisy chain that doubles coverage and the EMEET M3 daisy chain compatibility. Guides suggest daisy chaining for larger spaces, but support is model-specific, so we read each listing. The Yealink daisy chain doubles coverage, but you need a second compatible unit, which adds cost."
+  },
+  {
+    "title": "Certification and software",
+    "description": "We checked the Jabra Teams certification, the EMEET Zoom recognized status and the Poly programmable button. Certification brings platform buttons and tuned audio, so we weighed it for teams that stay on one platform. Programmable buttons and a light bar, as on the Poly, add convenience but not audio quality."
+  },
+  {
+    "title": "Battery and durability",
+    "description": "We compared batteries of 26 hours on the Yealink, 20 on the Poly, 18+ on the EMEET and 12 on the Jabra, plus the Poly IP64 dust and water resistance. A longer battery matters for a conference room unit that sits unplugged. The Jabra lists 12 hours, the shortest battery here, but its 30 meter Bluetooth range is the most flexible."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Genuine 8-12 person room coverage with expansion", "Yealink Bluetooth Speakerphone SP96 with Daisy-Chain"],
-        ["Teams certification with travel portability", "Jabra Speak2 55 Wireless Bluetooth Speakerphone"],
-        ["Durability and value with all-day battery", "Poly Sync 20 USB-C Personal Portable Smart Speakerphone"],
-        ["Support for large 15-20 person meetings", "EMEET M3 Bluetooth Conference Speaker, Zoom Certified"]
+    "subheading": "By Room Size",
+    "intro": "This tier covers real meeting rooms.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A meeting room of 8 to 12 people",
+          "Yealink Bluetooth Speakerphone SP96 with Daisy-Chain, with a 16.4 foot radius"
+        ],
+        [
+          "A large room of up to 20 people using daisy chain",
+          "EMEET M3 Bluetooth Conference Speaker, with a 15 foot pickup range"
+        ],
+        [
+          "A hybrid worker who moves between desks and meeting rooms",
+          "Jabra Speak2 55 Wireless Bluetooth Speakerphone, with 4 beamforming mics"
+        ],
+        [
+          "A dusty workshop or a shared desk with spills",
+          "Poly Sync 20 USB-C Personal Portable Smart Speakerphone, IP64 rated"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $139", "Poly Sync 20 (under $140)"],
-        ["Under $156", "Yealink SP96 (under $160)"],
-        ["Under $161", "Jabra Speak2 55 (under $170)"],
-        ["Under $170", "EMEET M3 (under $170)"]
+    "subheading": "By Budget",
+    "intro": "Prices range from under $150 to $170.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $150",
+          "Poly Sync 20, the lowest price and the most durable"
+        ],
+        [
+          "Under $200",
+          "Yealink Bluetooth Speakerphone SP96, for the largest room coverage"
+        ],
+        [
+          "Under $200",
+          "Jabra Speak2 55, for Teams certification"
+        ],
+        [
+          "Under $200",
+          "EMEET M3, for the largest attendee count"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Fixed Conference Room vs Personal Portable Design",
-    cards: [
-      { label: "Fixed conference room (Yealink SP96, EMEET M3)", text: "Prioritizes large-room mic coverage and daisy chain scaling over portability, ideal for a dedicated meeting space." },
-      { label: "Personal portable (Jabra Speak2 55, Poly Sync 20)", text: "Prioritizes battery life, durability, and travel-friendly size over maximum room scaling, ideal for someone moving between locations." }
+    "subheading": "Personal vs Room Speakerphone",
+    "intro": "The unit's size defines how many people it can serve.",
+    "cards": [
+      {
+        "label": "Personal",
+        "text": "The Jabra Speak2 55 and Poly Sync 20 are portable units with 4 mics or a light bar, suited to a desk and a small group."
+      },
+      {
+        "label": "Room",
+        "text": "The Yealink Bluetooth Speakerphone SP96 and EMEET M3 cover rooms of 8 to 20 people, with daisy chain options for larger tables."
+      }
     ],
-    note: "If you're outfitting a dedicated conference room that regularly hosts 8 or more people, the Yealink SP96 or EMEET M3 are built for that scale. If you're a frequent traveler needing one reliable unit that goes wherever you do, the Jabra or Poly picks are the better fit.",
+    "note": "If you meet alone or with one or two colleagues, take a personal unit. Otherwise take a room unit."
   },
   {
-    subheading: "By Attendee Count",
-    table: {
-      headers: ["Your typical attendee count", "Recommended pick"],
-      rows: [
-        ["Up to 6 people", "Poly Sync 20 or Jabra Speak2 55"],
-        ["8-12 people", "Yealink SP96"],
-        ["Up to 20 people", "EMEET M3 with daisy chain"]
+    "subheading": "By Platform",
+    "intro": "Certification helps your meeting software.",
+    "table": {
+      "headers": [
+        "Your platform",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Microsoft Teams",
+          "Jabra Speak2 55, listed as Teams certified"
+        ],
+        [
+          "Zoom",
+          "EMEET M3, listed as Zoom recognized"
+        ],
+        [
+          "Any platform with a programmable button",
+          "Poly Sync 20, with a light bar for status"
+        ],
+        [
+          "A status display on the unit itself",
+          "Yealink Bluetooth Speakerphone SP96, with an LCD display"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Shared Office With Water or Dust Exposure Specifically",
-    cards: [
-      { label: "Look for", text: "An explicit ingress protection rating like IP64, indicating tested resistance to dust and water splashes, rather than assuming any speakerphone handles incidental spills." },
-      { label: "In this comparison", text: "The Poly Sync 20 pick's stated IP64 rating specifically confirms tested dust and water resistance that the other three picks don't claim." }
-    ],
+    "subheading": "For a Hybrid Office Specifically",
+    "intro": "Hybrid teams need a unit that works in several rooms.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A battery of 18 hours or more, Bluetooth range of 30 meters and certification for your meeting platform."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Jabra Speak2 55 lists a 30 meter Bluetooth range and Teams certification, and Yealink Bluetooth Speakerphone SP96 lists a 26 hour battery and an LCD, so both suit hybrid use."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You regularly host large 15-20 person meetings and want a Zoom-recognized unit with daisy chain scaling, where the EMEET M3 delivers that at the top of this tier." },
-      { label: "Save if", text: "You want strong all-day battery life and durability without needing large-room scaling, where the Poly Sync 20 covers that for about $32 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Above $150 you reach video bars and dedicated conference systems.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need a camera and speaker in one unit."
+      },
+      {
+        "label": "Save if",
+        "text": "You have a small room. Poly Sync 20 is the lowest price here and durable."
+      }
+    ]
   }
 ];
 
@@ -183,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the Yealink SP96's daisy chain feature connect to a different brand's speakerphone?", "a": "No, daisy chain compatibility in this tier is manufacturer-specific, so the Yealink SP96 only links with other compatible Yealink units, and similarly the EMEET M3 only links with other EMEET daisy chain compatible models." },
-  { "q": "What's the most common mistake buyers make when choosing a speakerphone for a large conference room at this tier?", "a": "Assuming a single unit's stated attendee capacity holds true regardless of room shape or acoustics, when a genuinely large or acoustically challenging room may need daisy chaining even below the stated single-unit maximum to maintain reliable pickup for everyone." },
-  { "q": "Is the Yealink SP96 worth it over the cheaper Poly Sync 20?", "a": "If you specifically need 8-12 person conference room coverage with daisy chain expansion, yes, but if you want strong battery life and durability for personal portable use, the Poly Sync 20 covers that for about $18 less." },
-  { "q": "Does the Jabra Speak2 55's Teams certification limit it from working with other platforms like Zoom?", "a": "No, it works with Zoom and Google Meet in addition to its formal Microsoft Teams certification, so certification for one platform doesn't restrict compatibility with others." },
-  { "q": "How does the Poly Sync 20's IP64 rating hold up against a full spill, not just splashes?", "a": "IP64 specifically covers protection against dust ingress and water splashed from any direction, but it's not rated for submersion or a direct pour, so treating it as spill-resistant rather than fully waterproof is the accurate expectation." },
-  { "q": "Can the EMEET M3 be used for a small 2-3 person call, or is it overkill for that?", "a": "It works fine for smaller calls too, since its automatic volume balancing and noise reduction still apply, though you're paying for large-room capacity you won't be using if your calls are consistently small." }
+  {
+    "q": "Is daisy chaining worth it?",
+    "a": "It extends coverage for a large table. The Yealink SP96 lists daisy chain that doubles coverage, and the EMEET M3 lists compatibility with EMEET daisy chaining. Support is model-specific, so check the compatible partner unit. A second unit adds cost, so decide first whether your table is bigger than a single unit covers."
+  },
+  {
+    "q": "Is the Yealink SP96 worth it over the Poly Sync 20?",
+    "a": "If you have a room of 8 to 12 people, yes. The Yealink lists a 16.4 foot radius, a 6-mic array and a 26 hour battery. The Poly is personal, IP64 rated and costs less. Both are USB and Bluetooth capable, so the deciding factor is room size, not connection."
+  },
+  {
+    "q": "What does IP64 mean on the Poly?",
+    "a": "The listing says IP64 dust and water resistance, meaning protected against dust and splashes. It is useful for a shared desk but not for submersion. Do not assume it is fully waterproof. Dust and splash resistance does not protect against drops, so use the carry case."
+  },
+  {
+    "q": "How long does the EMEET take to charge?",
+    "a": "The listing says a 4 hour charge time for 18+ hours of battery. Charge it before a long day of meetings, and keep a cable handy. If you charge overnight, the unit is ready for the next day."
+  },
+  {
+    "q": "Does the Jabra work without Teams?",
+    "a": "Yes. Certification adds Teams integration, but it still works as a standard Bluetooth or USB speakerphone with other platforms. Some Zoom call-control features need the USB receiver. Check which call controls work over Bluetooth before an important meeting."
+  },
+  {
+    "q": "Where should I place a room speakerphone?",
+    "a": "Place it in the center of the table, away from walls and screens. Over-specced radius in a small room can add echo, so match it to the room. Cleaning is a quick wipe of the mesh with a dry cloth, never a wet one, so dust does not clog the speaker grille."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

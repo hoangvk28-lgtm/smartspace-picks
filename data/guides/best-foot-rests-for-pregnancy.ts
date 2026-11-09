@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/518odfXdfML._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CJNFSM7W?tag=deskfinds0d-20",
-    "description": "BlissfulNest uses high-density memory foam in a curved, height-adjustable pillow with a cooling breathable cover that can be removed and washed. It is compact and portable.\n\nIt is under $30, about $2 cheaper than Ganondorf. Versus RSN 3-tier it has fewer tiers.\n\nBest for warm rooms. The caveat is limited dimension detail.",
+    "description": "BlissfulNest uses high-density memory foam in a curved, height-adjustable pillow with a cooling breathable cover that can be removed and washed. It is compact and portable.\n\nIt is under $30, under $10 cheaper than Ganondorf. Versus RSN 3-tier it has fewer tiers.\n\nBest for warm rooms. The caveat is limited dimension detail.",
     "specs": [
       "High-density memory foam",
       "Height adjustable",
@@ -162,209 +162,109 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Platform width and foot room",
-    "explanation": "A wide platform lets your feet rest apart, which is helpful when posture is changing and you need room to shift. OpyTikar and Opuvidity both list 15.7 x 15.7 x 9.8 inches, while others give no dimensions at all. Check the width and depth in inches, and be wary of listings that only say large."
+    "criterion": "Height tiers",
+    "explanation": "A rest with tiers lets you raise your feet moderately and change position through the day. OpyTikar and RSN offer three tiers, and BlissfulNest is adjustable. Check the stated heights and that the layers are secure, and keep the lift modest unless your clinician advises otherwise. Keep a note of the exact heights in the listing."
   },
   {
-    "criterion": "Foam softness and firmness",
-    "explanation": "Very soft foam can feel pleasant but may compress and make it harder to push off from. Memory foam conforms but recovers slowly, while firmer high-density foam keeps its shape. Look for the foam type and density in the bullets, and think about whether you want to stand up easily afterward."
+    "criterion": "Surface support",
+    "explanation": "High-density sponge, memory foam and wedge foam feel different under the foot. A very soft surface can collapse under a heavy foot and leave your heel unsupported. Look for the foam type in the listing and press it with your hand to judge how quickly it rebounds. Press down on the foam with your hand in the store or compare reviews of the rebound."
   },
   {
-    "criterion": "Height tiers and easy changes",
-    "explanation": "Stackable tiers let you change height without bending far down. OpyTikar and RSN list three tiers, while BlissfulNest is height adjustable. Look for the tier count and consider how easy the layers are to rearrange while seated."
+    "criterion": "Cover care",
+    "explanation": "OpyTikar and Opuvidity have washable covers, BlissfulNest a cooling cover and RSN a breathable fabric. A cover that cannot be washed holds sweat, and warmth can be higher during pregnancy. Check how the cover is removed and washed before buying. Pick a cover you can wash without special instructions."
   },
   {
-    "criterion": "Stable non-slip base",
-    "explanation": "When bending and balance are harder, a footrest that slides is more than an annoyance. A non-slip bottom keeps the foam in place on hardwood and tile. Check each listing for a non-slip base, and consider whether you have rugs underneath."
+    "criterion": "Footprint and storage",
+    "explanation": "OpyTikar and Opuvidity measure 15.7 x 15.7 x 9.8 inches, which is large and takes space. A big footprint is comfortable but awkward to store. Measure where you plan to use it, and note any expansion time stated on the listing. Check the dimensions against the space beside your sofa."
   },
   {
-    "criterion": "Washable cover",
-    "explanation": "A removable, machine washable cover keeps a footrest fresh. OpyTikar and Opuvidity list zip-off covers, and BlissfulNest describes a cooling cover that comes off. Look for the zip and a wash instruction."
-  },
-  {
-    "criterion": "Compressed packaging and expansion time",
-    "explanation": "Several foam footrests ship compressed and need time to expand. OpyTikar and Opuvidity ask for 48 to 72 hours before use. Plan for the wait so you are not caught without a footrest when you need it."
+    "criterion": "Base stability",
+    "explanation": "A non-slip base prevents sliding, and all five list one. Balance can change during pregnancy, so a stool that shifts is a hazard. Check that the base grips your floor type, that the stool is not too tall and that you can reach it without bending. Look for rubber feet and avoid stools that are very light."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  {
-    "title": "Size",
-    "description": "We compared platform size."
-  },
-  {
-    "title": "Foam",
-    "description": "We compared foam types."
-  },
-  {
-    "title": "Height",
-    "description": "We compared tiers."
-  },
-  {
-    "title": "Price",
-    "description": "We compared price."
-  }
+  { "title": "Height tiers and leg elevation", "description": "OpyTikar and RSN offer three tiers, BlissfulNest is height adjustable and Ganondorf is a wedge. Swelling comfort depends on raising feet by a few inches and changing position, so we gave weight to adjustable tiers over a single fixed height. A single fixed height was ranked lower than a tiered stool for that reason." },
+  { "title": "Surface softness and support", "description": "OpyTikar uses high-density sponge, BlissfulNest and RSN memory foam, and Ganondorf a wedge with quick rebound. We balanced soft cushioning against support, because a very soft stool that collapses under a heavy foot is not useful. Support mattered more than plushness." },
+  { "title": "Cover care and breathability", "description": "OpyTikar and Opuvidity have washable covers, BlissfulNest a cooling cover and RSN a breathable fabric. Pregnancy can mean warmer legs and more cleaning, so we noted washable and breathable fabrics. Listings that did not mention washable covers lost points." },
+  { "title": "Size and storage", "description": "OpyTikar and Opuvidity measure 15.7 x 15.7 x 9.8 inches and need 48 to 72 hours to expand, while BlissfulNest is compact. We checked footprint and how a stool fits under a desk or beside a couch. We favoured a smaller footprint where space was tight." },
+  { "title": "Stability and non-slip base", "description": "OpyTikar, Opuvidity, Ganondorf, BlissfulNest and RSN all list a non-slip bottom. Balance can change in pregnancy, so we weighed stable bases and low heights, and we do not claim medical benefits. None of this is medical advice, so we avoided health claims." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Space Available",
-    "intro": "Space.",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Primary Need",
+    intro: "Comfort needs vary through pregnancy, and none of these items is medical advice, so talk to your clinician about swelling.",
+    table: {
+      headers: ["If you mainly need", "Recommended pick"],
+      rows: [
+        ["A large, multi-tier stool with a washable cover", "OpyTikar, at 15.7 x 15.7 x 9.8 inches"],
+        ["A tilted surface for resting the feet", "Opuvidity, a double-sided curved design"],
+        ["A wedge for feet, legs or back", "Ganondorf, a multi-use foam wedge"],
+        ["A cooling cover and adjustable height", "BlissfulNest, a compact memory foam rest"],
+        ["The cheapest 3-tier option", "RSN, with memory foam and a non-slip base"]
       ],
-      "rows": [
-        [
-          "Lots of room",
-          "OpyTikar Extra Large 3-Tier Foot Stool"
-        ],
-        [
-          "Tilted surface",
-          "Opuvidity Tilted Double-Sided Foot Rest"
-        ],
-        [
-          "One cushion for several uses",
-          "Ganondorf Wedge Foot Rest Pillow"
-        ],
-        [
-          "Warm room",
-          "BlissfulNest Memory Foam Foot Rest Pillow"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "By Budget",
-    "intro": "Real prices from this comparison.",
-    "table": {
-      "headers": [
-        "Price range",
-        "Recommended pick"
+    subheading: "By Budget",
+    table: {
+      headers: ["Price range", "Recommended pick"],
+      rows: [
+        ["Around $23", "RSN, the lowest price"],
+        ["Around $28", "BlissfulNest"],
+        ["Around $30", "Ganondorf"],
+        ["Around $35", "Opuvidity"],
+        ["Around $40", "OpyTikar, the priciest"]
       ],
-      "rows": [
-        [
-          "$22 to $23",
-          "RSN 3-Tier Memory Foam Foot Stool"
-        ],
-        [
-          "$27 to $28",
-          "BlissfulNest Memory Foam Foot Rest Pillow"
-        ],
-        [
-          "$29 to $30",
-          "Ganondorf Wedge Foot Rest Pillow"
-        ],
-        [
-          "$34 to $35",
-          "Opuvidity Tilted Double-Sided Foot Rest"
-        ],
-        [
-          "$39 to $40",
-          "OpyTikar Extra Large 3-Tier Foot Stool"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "Tiered Stool vs Wedge Pillow",
-    "cards": [
-      {
-        "label": "Tiered",
-        "text": "Stacks into steps. OpyTikar and RSN fall here."
-      },
-      {
-        "label": "Wedge",
-        "text": "One slope. Ganondorf falls here."
-      }
+    subheading: "Tiered Stool vs Wedge or Tilted Pillow",
+    cards: [
+      { label: "Tiered stool (OpyTikar, RSN, BlissfulNest)", text: "Layers let you adjust height and use it at a desk or couch. They are higher and can be firm." },
+      { label: "Wedge or tilt (Ganondorf, Opuvidity)", text: "An angled surface lifts the feet gently and works on a couch or in bed. It is less adjustable and may be too soft for a desk." }
     ],
-    "note": "Choose tiers for height."
+    note: "Most buyers should default to a tiered stool for desk work, and a wedge for lounging. Whichever you choose, keep the lift modest and move often.",
   },
   {
-    "subheading": "By Cover",
-    "intro": "Cover.",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Where You Sit",
+    table: {
+      headers: ["Your seat", "Recommended pick"],
+      rows: [
+        ["A work desk", "RSN or BlissfulNest, which are lower and compact"],
+        ["A couch or recliner", "OpyTikar, with a large footprint"],
+        ["Bed or sofa rest", "Ganondorf, a multi-use wedge"],
+        ["A bedside chair", "Opuvidity, with a tilted double-sided design"]
       ],
-      "rows": [
-        [
-          "Cooling cover",
-          "BlissfulNest Memory Foam Foot Rest Pillow"
-        ],
-        [
-          "Washable cover",
-          "Opuvidity Tilted Double-Sided Foot Rest"
-        ],
-        [
-          "Anti-slip base",
-          "Ganondorf Wedge Foot Rest Pillow"
-        ],
-        [
-          "Breathable fabric",
-          "RSN 3-Tier Memory Foam Foot Stool"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "For Desk Sitting Specifically",
-    "cards": [
-      {
-        "label": "Look for",
-        "text": "Wide, stable and soft."
-      },
-      {
-        "label": "In this comparison",
-        "text": "OpyTikar Extra Large 3-Tier Foot Stool is the roomiest."
-      }
-    ]
+    subheading: "For Third-Trimester Comfort Specifically",
+    cards: [
+      { label: "Look for", text: "A wide stable base, height steps and a washable cover. Check that you can place and move it without bending. Rising from a chair is harder in late pregnancy, so choose a stool you can nudge with your foot." },
+      { label: "In this comparison", text: "OpyTikar offers three tiers and a washable cover, and Opuvidity has a tilted surface. Both need time to expand after unpacking. Plan to open the box a couple of days before you need them. Fluff the foam by hand if it still looks flat." }
+    ],
   },
   {
-    "subheading": "When to Spend More",
-    "cards": [
-      {
-        "label": "Spend more if",
-        "text": "You want the biggest footprint (OpyTikar Extra Large 3-Tier Foot Stool)."
-      },
-      {
-        "label": "Save if",
-        "text": "You want the lowest price, where RSN 3-Tier Memory Foam Foot Stool is enough."
-      }
-    ]
+    subheading: "When to Spend More",
+    cards: [
+      { label: "Spend more if", text: "You want a larger washable stool with more tiers, as OpyTikar offers. The under $50 guide lists adjustable platforms. Those suit a desk better than a couch." },
+      { label: "Save if", text: "You want a basic foam rest. RSN costs the least and offers three heights. It is a sensible pick if you are unsure how much use you will get." }
+    ],
   }
 ];
 
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
-  {
-    "q": "Is it okay to use a footrest during pregnancy?",
-    "a": "None of these listings mention pregnancy, and these are comfort products rather than medical devices. Ask your doctor or midwife what is right for you, especially if you notice swelling or discomfort. Choose a footrest that is stable and easy to get in and out of."
-  },
-  {
-    "q": "How high should the footrest be?",
-    "a": "Set your chair at a comfortable height first, then choose a footrest that keeps your knees level with or slightly below your hips. A footrest that is too high can feel awkward. Tiered models like OpyTikar let you change height later."
-  },
-  {
-    "q": "Are tiered footrests useful?",
-    "a": "Tiers let you adjust height without buying a new footrest, which can be handy as your comfort needs change. OpyTikar and RSN list three tiers. Make sure the layers stay stable when you rest your feet."
-  },
-  {
-    "q": "How do I set up a compressed foam footrest?",
-    "a": "Open the packaging and let the foam expand. OpyTikar and Opuvidity ask for 48 to 72 hours, and OpyTikar suggests gently massaging the cover to help it regain shape. Do not use it until it has fully expanded."
-  },
-  {
-    "q": "Can I wash these footrests?",
-    "a": "Several have covers you can unzip and machine wash, including OpyTikar, Opuvidity, Ganondorf and BlissfulNest. Do not wash the foam core unless the listing says so. Let the cover dry completely before putting it back."
-  },
-  {
-    "q": "Is memory foam better than regular foam?",
-    "a": "Memory foam conforms to your feet and recovers slowly, which many people like. High-density regular foam is often firmer and springs back faster. Pick by how soft you want the surface, and look for density details."
-  }
+  { "q": "Can a foot rest help with swollen feet?", "a": "It can make sitting more comfortable by letting your feet rest slightly raised, but swelling should be discussed with your clinician. Use it alongside walking breaks, and do not treat it as a medical device or a substitute for professional advice." },
+  { "q": "How high should a foot rest be during pregnancy?", "a": "Raising the feet too high, which can fold the legs and press behind the knees. Use a moderate height and change position often, and ask your clinician promptly if swelling is sudden or severe rather than trying a taller rest." },
+  { "q": "Is OpyTikar worth more than RSN?", "a": "OpyTikar offers a bigger footprint and a washable zip cover for around $17 more, while RSN is cheaper and more compact. If you want a couch footrest with space to shift, choose OpyTikar, and for a desk choose RSN with its lower profile." },
+  { "q": "How long does foam take to expand?", "a": "OpyTikar and Opuvidity need 48 to 72 hours to reach full shape after unpacking. Open them early so you are not left waiting, and fluff the foam by hand if it still feels flat once the time has passed." },
+  { "q": "How do I clean a foot stool cover?", "a": "Zip off the cover and machine wash it as directed, then air dry it fully before putting it back. Spot clean the foam itself and avoid soaking it, since trapped moisture can leave a musty smell and flatten the cells." },
+  { "q": "Will a stool fit under my desk?", "a": "A 9.8 inch stool may be too tall under some desks. Compare the height with the gap under your desk, and consider RSN or BlissfulNest for a lower profile. For a couch the larger OpyTikar or Opuvidity is easier to use." }
 ];
 
 export const relatedGuides = [

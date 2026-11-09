@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Preamp Quality", "description": "Compared Class-A preamp technology and stated gain figures across the lineup." },
-  { "title": "Bundled Software Value", "description": "Compared included recording software suites and their stated dollar value." },
-  { "title": "Channel Count and Connectivity", "description": "Compared single versus dual XLR input configurations across all four picks." },
-  { "title": "Technical Specifications", "description": "Compared stated dynamic range, noise floor, and sample rate figures." },
-  { "title": "Warranty Coverage", "description": "Compared stated warranty length across the tier." }
+  { "title": "Mic preamp count and gain", "description": "We counted real XLR preamps and noted stated gain, such as the MAONO P2's two XLR inputs with 56dB gain. A dynamic mic like a podcast model often needs 55 to 60dB or more, so a preamp that tops out near 56dB leaves little headroom for quiet speakers. The PreSonus lists two Class-A preamps without a gain figure." },
+  { "title": "Driver support on Windows", "description": "We checked for ASIO mention, which the MAONO P2 lists. On Windows the generic audio driver adds enough delay to make live monitoring awkward, so a manufacturer ASIO driver is the usual fix, and we favored picks that name driver support." },
+  { "title": "Direct monitoring", "description": "We looked for the PreSonus AudioBox 96's zero-latency mixer control and the BlueAVS's four monitoring modes. Direct monitoring sends the mic signal to your headphones before it reaches the computer, which removes the lag you would otherwise hear while recording." },
+  { "title": "Phantom power and pad switches", "description": "We noted +48V and pad support, with the BlueAVS listing dedicated PAD switches. Phantom power is only needed for condenser mics, and a pad reduces a loud input to avoid distortion, so both matter if you sing or record loud sources." },
+  { "title": "Bus power stability", "description": "We considered that these interfaces draw from USB, so a shared hub can cause dropouts when phantom power and headphones are both active. A direct port, or a powered hub, helps avoid the brownout that looks like a dead interface. Powered hubs fix most of these cases." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "With one or two XLR inputs in this tier, the first table starts with the mic you own, since dynamic and condenser mics demand different things.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Budget differences here are small, so we mapped each cost step to a feature such as a second XLR input, a hardware mixer, or bundled software.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -133,6 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Software Bundle Value",
+    intro: "Driver ecosystem is the second axis, because a Windows user needs ASIO while a Mac user is largely free of that concern.",
     table: {
       headers: ["Your software needs", "Recommended pick"],
       rows: [
@@ -153,7 +156,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want an established brand with substantial bundled software and the longest warranty, where the Focusrite Scarlett Solo delivers that at the top of this tier." },
-      { label: "Save if", text: "You want the most substantial software value with solid Class-A preamps, where the PreSonus AudioBox 96 covers that for about $25 less." }
+      { label: "Save if", text: "You want the most substantial software value with solid Class-A preamps, where the PreSonus AudioBox 96 covers that for under $30 less." }
     ],
   }
 ];
@@ -183,8 +186,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Can I use the Focusrite Scarlett Solo's single input for recording a guitar and microphone at the same time?", "a": "No, the Scarlett Solo has one mic preamp and one instrument input, meaning you can connect either a microphone or an instrument to each respective input simultaneously, but it can't record two microphones or two instruments through the same single mic preamp channel." },
-  { "q": "What's the most common mistake buyers make when comparing bundled software value across these interfaces?", "a": "Assuming all bundled software offers equivalent long-term value, when checking whether you already have compatible recording software, or whether a bundle includes industry-standard titles like Pro Tools versus newer proprietary software, meaningfully affects how much real value that bundle actually adds to your purchase." },
-  { "q": "Is the Focusrite Scarlett Solo worth it over the cheaper PreSonus AudioBox 96 option?", "a": "If you specifically want the 3-year warranty and prefer the specific software titles included (Pro Tools Intro+, Ableton Live Lite, Cubase LE), yes, but if maximum stated bundled software dollar value at a lower price matters more, the PreSonus pick covers that for about $25 less." },
+  { "q": "Do I need phantom power for my microphone?", "a": "Only for condenser mics. Dynamic mics do not need it, and sending 48V to a ribbon mic can damage it. Every pick here offers +48V, and the BlueAVS and PreSonus AudioBox 96 pair it with dual XLR inputs. Turn volume down before switching phantom power on." },
+  { "q": "Is the Focusrite Scarlett Solo worth it over the cheaper PreSonus AudioBox 96 option?", "a": "If you specifically want the 3-year warranty and prefer the specific software titles included (Pro Tools Intro+, Ableton Live Lite, Cubase LE), yes, but if maximum stated bundled software dollar value at a lower price matters more, the PreSonus pick covers that for under $30 less." },
   { "q": "How do I know if the MAONO P2's dual USB connectivity will actually work with my specific phone model?", "a": "The listing specifically states MFi-certified connectivity, meaning it's certified for use with Apple devices specifically, so checking whether your phone is an MFi-certified iOS device or confirming Android compatibility through the listing's specific device compatibility details is worth doing before assuming universal phone support." },
   { "q": "Do these budget XLR interfaces require external power, or can they run off USB alone?", "a": "The PreSonus AudioBox 96 specifically confirms USB bus-power with no additional power supply needed, while the other three picks in this comparison are also designed for USB-powered operation, making all four genuinely portable without needing a separate power adapter." },
   { "q": "Can I upgrade from one of these budget interfaces to a more advanced one later without losing my bundled software?", "a": "Bundled software licenses are typically tied to the specific hardware purchase and registration, so if you upgrade to a different interface later, checking each software title's specific license terms for transferability is worth doing, though most bundled titles remain usable once registered to your account regardless of which interface you're currently using." }

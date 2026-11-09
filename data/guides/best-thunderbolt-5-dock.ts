@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real Bandwidth and Display Allocation", "description": "Compared stated Gbps figures for data versus dynamically allocated display bandwidth via Bandwidth Boost." },
-  { "title": "Per-Chip Apple Silicon Documentation", "description": "Compared how specifically each listing documents display support by exact Mac chip tier." },
-  { "title": "Warranty and Safety Coverage", "description": "Compared warranty length, monetary protection figures, and disclosed electrical safety systems." },
-  { "title": "Total Port Count", "description": "Compared comprehensive connectivity beyond just Thunderbolt ports." },
-  { "title": "Cross-Platform Reliability", "description": "Compared driverless deployment and testing scope across monitors and laptop brands." }
+  {
+    "title": "Host chip and port match",
+    "description": "We checked whether each dock states what it needs from the laptop, because a Thunderbolt 4 host runs any of these at 40Gbps instead of the 80Gbps headline. For a general-purpose dock in this roundup we gave extra credit to listings that name PD 3.1 hosts for the full 140W charge, since older laptops cap at 100W."
+  },
+  {
+    "title": "Bandwidth Boost honesty",
+    "description": "We compared how each listing explains the 80Gbps base rate versus the 120Gbps display boost. The boost only applies to display data, so a dock that implies 120Gbps for file copies misleads buyers; we favored pages that separate the two clearly."
+  },
+  {
+    "title": "Display limits by Mac chip and Windows",
+    "description": "We read the display tables for each pick, since the same dock drives different monitor counts on an M-series Mac than on a Windows laptop. StarTech's per-chip breakdown scored highest here because it lets a buyer check their exact chip before ordering."
+  },
+  {
+    "title": "Port mix and power budget",
+    "description": "We counted usable ports and the sustained wattage behind them, for example the CalDigit's 240W supply against the 140W it sends upstream. A dock with many ports but a small brick forces the laptop charge and the peripherals to compete under load."
+  },
+  {
+    "title": "Warranty and safety disclosure",
+    "description": "We weighed written warranty terms and named protection systems, such as Belkin's 3-year term and 6-point safety system. At this price tier a dock should be a multi-year desk fixture, so coverage length mattered more than a bonus port or two."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The most comprehensive port count with sustained full power", "CalDigit TS5 Thunderbolt 5 Dock"],
-        ["The strongest disclosed warranty with electrical safety protection", "Belkin 140W Thunderbolt 5 Dock"],
-        ["The most detailed per-chip Apple Silicon display documentation", "StarTech Thunderbolt 5 Universal Docking Station"],
-        ["A concrete, relatable large-file transfer speed benchmark", "Anker Prime TB5 Docking Station"]
+    "subheading": "By Primary Need",
+    "intro": "Thunderbolt 5 docks look alike on the box, so start with the one job you cannot compromise on.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The largest port count with a power supply big enough to run every port at once",
+          "CalDigit TS5 Thunderbolt 5 Dock, with 15 ports and a 240W supply behind them"
+        ],
+        [
+          "Written warranty and electrical protection you can point to if something fails",
+          "Belkin 140W Thunderbolt 5 Dock, with 3-year coverage and a 6-point safety system"
+        ],
+        [
+          "Clear per-chip display numbers before you commit on an M-series Mac",
+          "StarTech Thunderbolt 5 Universal Docking Station, which documents limits by exact Mac chip"
+        ],
+        [
+          "Fast bulk copies for video or backup work, plus active cooling under load",
+          "Anker Prime TB5 Docking Station, which states a 150GB copy in 25 seconds"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $350", "Belkin 140W Thunderbolt 5 Dock (under $350)"],
-        ["Under $352", "StarTech Universal Docking Station (under $400)"],
-        ["Under $400", "CalDigit TS5 or Anker Prime TB5 (both around $400)"]
+    "subheading": "By Budget",
+    "intro": "These four sit within a narrow price band, so the real question is what the extra money buys.",
+    "table": {
+      "headers": [
+        "Budget situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "You want the lowest entry price in this roundup and still need 140W charging",
+          "Belkin 140W Thunderbolt 5 Dock, the cheapest of the four at under $350"
+        ],
+        [
+          "You can spend a little more and want Mac and Windows to behave the same way",
+          "StarTech Thunderbolt 5 Universal Docking Station, priced under $400"
+        ],
+        [
+          "You will pay the top of the range for the most ports and the biggest power supply",
+          "CalDigit TS5 Thunderbolt 5 Dock, priced under $400"
+        ],
+        [
+          "You move large files daily and would rather pay for cooling than extra ports",
+          "Anker Prime TB5 Docking Station, priced under $400 with fewer ports than CalDigit"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Maximum Port Count vs Strongest Warranty Protection",
-    cards: [
-      { label: "Maximum port count (CalDigit TS5)", text: "Delivers 15 total ports and sustained full-power delivery, ideal for a permanent, fully-loaded workstation setup." },
-      { label: "Strongest warranty protection (Belkin)", text: "Backs its 14-in-1 dock with 3-year coverage up to $2,500 in connected device protection, a concrete assurance figure." }
+    "subheading": "Port Count vs Written Protection",
+    "intro": "Both ideas are reasonable, but they pull in different directions once the desk is set up.",
+    "cards": [
+      {
+        "label": "More ports (CalDigit TS5)",
+        "text": "Fifteen ports and a 240W supply mean a keyboard, drives, capture card and monitors can all stay plugged in without hitting a power ceiling. Choose this if the dock never leaves the desk."
+      },
+      {
+        "label": "More protection (Belkin 140W)",
+        "text": "The Belkin gives up one port against CalDigit but adds 3-year coverage and a named 6-point safety system. Choose this if expensive monitors and drives sit downstream and you want the paper trail."
+      }
     ],
-    note: "If you're building a maximally connected permanent desk setup, the CalDigit TS5's port count and sustained power delivery are worth the investment. If long-term protection assurance matters more, the Belkin's concrete warranty terms stand out.",
+    "note": "Most buyers should default to the CalDigit unless a documented warranty is a hard requirement, in which case Belkin wins."
   },
   {
-    subheading: "By Mac Chip Tier",
-    table: {
-      headers: ["Your Mac chip", "Recommended pick"],
-      rows: [
-        ["M5 Max (quad display via daisy-chain)", "StarTech Thunderbolt 5 Universal Docking Station"],
-        ["M3/M4/M5 Pro or Max (dual/triple display)", "Any of the four picks support this tier well"]
+    "subheading": "By Mac Chip Tier",
+    "intro": "Display ceilings are set by the Mac chip first and the dock second.",
+    "table": {
+      "headers": [
+        "Your Mac",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "M5 Max where you want four 4K displays",
+          "StarTech Thunderbolt 5 Universal Docking Station, since its listing explains the daisy-chain step that Mac needs for quad 4K"
+        ],
+        [
+          "M3, M4 or M5 Pro driving two high-resolution monitors",
+          "CalDigit TS5 Thunderbolt 5 Dock, which lists dual 8K at 60Hz and has headroom for storage on the other ports"
+        ],
+        [
+          "A Windows laptop with a Thunderbolt 5 port and two 8K panels",
+          "Anker Prime TB5 Docking Station, which lists dual 8K at 60Hz for Thunderbolt 5 Windows hosts"
+        ],
+        [
+          "Base M-series Mac with only one external display allowed",
+          "Belkin 140W Thunderbolt 5 Dock, because the cheapest pick is enough when the chip caps displays anyway"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For IT-Managed Shared Workspaces Specifically",
-    cards: [
-      { label: "Look for", text: "A dock with driverless plug-and-play operation across both macOS and Windows, plus physical security lock slots, to minimize setup friction and theft risk in shared or hot-desking environments." },
-      { label: "In this comparison", text: "The StarTech pick specifically emphasizes driverless cross-platform consistency and includes both K-slot and Nano lock slots for secured deployment." }
-    ],
+    "subheading": "For IT-Managed Shared Desks Specifically",
+    "intro": "Hot-desking punishes any dock that needs drivers or invites theft.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Driverless operation on both macOS and Windows, plus a physical lock slot so a dock does not walk away from a shared desk."
+      },
+      {
+        "label": "In this comparison",
+        "text": "StarTech Thunderbolt 5 Universal Docking Station matches both: it runs driverless across platforms and carries K-slot and Nano lock slots, and the listing says it was checked against 100+ monitors."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the most comprehensive port count with sustained full power delivery across every connected device, where the CalDigit TS5 justifies its under $400 price." },
-      { label: "Save if", text: "You want strong Thunderbolt 5 performance with the best disclosed warranty terms, where the Belkin pick delivers that for under $350, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The three cheaper-feeling decisions here are really about ports, power and protection.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You run several drives, a capture card and two monitors off one cable, where the CalDigit TS5 and its 240W supply keep the laptop charging at 140W while everything else runs."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need the laptop charged and one or two monitors, where Belkin's under $350 price and 3-year coverage cover the basics without paying for ports you will leave empty."
+      }
+    ]
   }
 ];
 

@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51ds4MShYUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CLB6VBXV?tag=deskfinds0d-20",
-    "description": "The Dad Joke 3000 is a button gadget that delivers 75 or more family-friendly cheesy dad jokes. The seller pitches it for new dads, old dads and granddads, and as a stocking stuffer or white elephant item.\n\nIt costs about $20, the most of the group, and brings noise rather than decor. Against the calendars below, it is instant gratification instead of a daily ritual.\n\nBest for a dad who loves puns. The caveat is that the jokes repeat in a household, and it makes sound, so it is not for a quiet office.",
+    "description": "The Dad Joke 3000 is a button gadget that delivers 75 or more family-friendly cheesy dad jokes. The seller pitches it for new dads, old dads and granddads, and as a stocking stuffer or white elephant item.\n\nIt costs under $25, the most of the group, and brings noise rather than decor. Against the calendars below, it is instant gratification instead of a daily ritual.\n\nBest for a dad who loves puns. The caveat is that the jokes repeat in a household, and it makes sound, so it is not for a quiet office.",
     "specs": [
       "75 plus dad jokes",
       "Push button",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Biv9mpb+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GZSYVF5K?tag=deskfinds0d-20",
-    "description": "Eterna Goods is a perpetual desk calendar with 365 unusual facts from history, science and nature. It measures 5.75 by 5.25 inches, has an easel stand and is reusable year after year.\n\nIt costs about $16 and rewards curiosity, which differs from the humor of That's So Dad below. Against the Dad Joke 3000, it is silent.\n\nBest for a dad who likes trivia. The caveat is that it is another thing on a small desk.",
+    "description": "Eterna Goods is a perpetual desk calendar with 365 unusual facts from history, science and nature. It measures 5.75 by 5.25 inches, has an easel stand and is reusable year after year.\n\nIt costs under $20 and rewards curiosity, which differs from the humor of That's So Dad below. Against the Dad Joke 3000, it is silent.\n\nBest for a dad who likes trivia. The caveat is that it is another thing on a small desk.",
     "specs": [
       "365 unusual facts",
       "5.75 x 5.25 inch easel",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/510+sUUYwTL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DXRDZPQX?tag=deskfinds0d-20",
-    "description": "That's So Dad is a perpetual calendar with 365 dad jokes, each with a full-color illustration, on a 5.75 by 5.25 inch easel that can also hang on a wall.\n\nIt costs about $15 and is a dollar cheaper than the facts calendar. Against The Dad Joke 3000, it is quiet and lasts a full year.\n\nBest for a dad who likes cringe jokes at a desk or in the kitchen. The caveat is that humor is subjective.",
+    "description": "That's So Dad is a perpetual calendar with 365 dad jokes, each with a full-color illustration, on a 5.75 by 5.25 inch easel that can also hang on a wall.\n\nIt costs under $20 and is a dollar cheaper than the facts calendar. Against The Dad Joke 3000, it is quiet and lasts a full year.\n\nBest for a dad who likes cringe jokes at a desk or in the kitchen. The caveat is that humor is subjective.",
     "specs": [
       "365 jokes, color art",
       "5.75 x 5.25 inch easel",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41+Kw93FHZL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07D7TB8FJ?tag=deskfinds0d-20",
-    "description": "MONMOB is a set of 2 plastic tire-shaped holders, each 9 by 8.5 by 9 cm, that serve as pen holders, succulent pots or small organizers.\n\nAt about $12 it is a decor gift for a car fan. Against the golf pens, it is more general.\n\nBest for a dad who loves cars. The caveat is that it is plastic and small.",
+    "description": "MONMOB is a set of 2 plastic tire-shaped holders, each 9 by 8.5 by 9 cm, that serve as pen holders, succulent pots or small organizers.\n\nAt under $15 it is a decor gift for a car fan. Against the golf pens, it is more general.\n\nBest for a dad who loves cars. The caveat is that it is plastic and small.",
     "specs": [
       "2 tire holders",
       "9 x 8.5 x 9 cm each",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41F5VlaiwOL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CCTPNZD4?tag=deskfinds0d-20",
-    "description": "Lesipee is an electric mug warmer made of ABS and aluminum measuring 4 by 5 by 0.7 inches, with a 3.5 inch heating area that fits most mugs and a water-resistant, easy-clean surface.\n\nIt costs about $10 and solves a daily problem: coffee going cold. Against the golf pens, it is practical.\n\nBest for a dad who nurses a mug. The caveat is that it heats, so he should not leave it on unattended.",
+    "description": "Lesipee is an electric mug warmer made of ABS and aluminum measuring 4 by 5 by 0.7 inches, with a 3.5 inch heating area that fits most mugs and a water-resistant, easy-clean surface.\n\nIt costs under $15 and solves a daily problem: coffee going cold. Against the golf pens, it is practical.\n\nBest for a dad who nurses a mug. The caveat is that it heats, so he should not leave it on unattended.",
     "specs": [
       "4 x 5 x 0.7 inches",
       "3.5 inch heating area",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51unz0NND8L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B078XCDVVR?tag=deskfinds0d-20",
-    "description": "NALAKUVARA is a golf desk set with 3 golf club pens, 2 tiny golf balls, a miniature flagstick and a putting green, pitched for golfers and coworkers.\n\nIt costs about $10 and is a game, so it entertains on a lunch break. Against the tire holders, it fits a specific hobby.\n\nBest for a dad who loves golf. The caveat is that it appeals only to golfers.",
+    "description": "NALAKUVARA is a golf desk set with 3 golf club pens, 2 tiny golf balls, a miniature flagstick and a putting green, pitched for golfers and coworkers.\n\nIt costs under $15 and is a game, so it entertains on a lunch break. Against the tire holders, it fits a specific hobby.\n\nBest for a dad who loves golf. The caveat is that it appeals only to golfers.",
     "specs": [
       "3 golf club pens",
       "Mini putting green",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31fHz6JEsJL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09MCK179J?tag=deskfinds0d-20",
-    "description": "Lamicall is a white phone stand that tilts and extends up to 3.2 inches in height, fits phones in cases up to 0.71 inches thick, folds flat and has a weighted metal base.\n\nIt is the cheapest at about $9 and the most practical here. Against the mug warmer, it needs no power.\n\nBest for a dad on video calls. The caveat is that it is a plain item.",
+    "description": "Lamicall is a white phone stand that tilts and extends up to 3.2 inches in height, fits phones in cases up to 0.71 inches thick, folds flat and has a weighted metal base.\n\nIt is the cheapest at under $10 and the most practical here. Against the mug warmer, it needs no power.\n\nBest for a dad on video calls. The caveat is that it is a plain item.",
     "specs": [
       "Height up to 3.2 inches",
       "Fits cases to 0.71 inches",
@@ -219,47 +219,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Matching his actual habits",
-    "explanation": "The best dad gifts match something he already does, whether coffee, golf, cars or calls. A generic gift gets less use. Think about what he does at the desk daily."
+    "explanation": "The best dad gifts match something he already does, whether coffee, golf, cars or calls. A generic gift gets less use. Think about what he does at the desk daily. Ask what dad does at his desk every day, whether coffee, golf or calls, because the Lesipee warmer and the Lamicall stand each fit a clear habit."
   },
   {
     "criterion": "Humor versus utility",
-    "explanation": "Joke gifts get a laugh once, and a useful item gets used for years. A calendar splits the difference with daily content. Consider pairing one joke gift with one useful one."
+    "explanation": "Joke gifts get a laugh once, and a useful item gets used for years. A calendar splits the difference with daily content. Consider pairing one joke gift with one useful one. A joke gift like the Dad Joke 3000 gives one laugh and a calendar changes daily, so consider pairing one gag with one useful item."
   },
   {
     "criterion": "Noise and shared spaces",
-    "explanation": "A button gadget that repeats jokes can annoy others in an open office. A silent gift fits a shared space. Check whether the gift makes sound."
+    "explanation": "A button gadget that repeats jokes can annoy others in an open office. A silent gift fits a shared space. Check whether the gift makes sound. A button that repeats jokes in an open office annoys neighbours, so keep the Dad Joke 3000 for a home desk or a private office."
   },
   {
     "criterion": "Heating and power safety",
-    "explanation": "Heated items like a mug warmer should be unplugged when unattended. Look for a surface that is safe to touch and a stable base. Check the listing for any auto-off feature."
+    "explanation": "Heated items like a mug warmer should be unplugged when unattended. Look for a surface that is safe to touch and a stable base. Check the listing for any auto-off feature. A mug warmer such as the Lesipee has a 3.5 inch heating plate, so look for an auto off feature or plan to unplug it when he leaves, because a plate left on all day wastes power and can scorch a paper pile."
   },
   {
     "criterion": "Desk footprint",
-    "explanation": "Desks fill up fast, and a calendar or a stand takes space. Choose items under 6 inches wide if he has a small desk. Check the dimensions in the listing."
+    "explanation": "Desks fill up fast, and a calendar or a stand takes space. Choose items under 6 inches wide if he has a small desk. Check the dimensions in the listing. A 5.75 x 5.25 inch calendar easel takes a corner of the desk, so check the dimensions if his desk is small."
   },
   {
     "criterion": "Age and hobby fit",
-    "explanation": "A golf gift only works for a golfer. A broader gift suits dads with unknown interests. When unsure, pick utility."
+    "explanation": "A golf gift only works for a golfer. A broader gift suits dads with unknown interests. When unsure, pick utility. A golf gift only suits a golfer, while the Lamicall stand at 3.2 inches height works for any dad, so pick utility when his hobbies are unknown, and ask a family member if he has a favourite team or sport."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Fit for dads",
-    "description": "We matched each pick to a dad type: joker, trivia fan, driver, golfer or coffee drinker."
+    "title": "Match to what dad does",
+    "description": "We sorted picks by hobby: golf for the NALAKUVARA pen putting set, coffee for the Lesipee mug warmer, cars for the MONMOB tire planter, and humor for the joke machine and calendars. A gift tied to a habit gets used, while a generic gift tends to end up in a drawer."
   },
   {
-    "title": "Usefulness",
-    "description": "Gifts that solve a daily annoyance ranked above novelties."
+    "title": "Humor shelf life",
+    "description": "We separated gifts that give one laugh from ones that stay fresh. The Dad Joke 3000 has 75 plus jokes on a push button, while the Eterna Goods calendar offers 365 unusual facts that change daily. Daily content lasts longer than a single gag, and the That's So Dad Joke calendar adds colour art you can hang on a wall."
   },
   {
-    "title": "Size and noise",
-    "description": "Listed dimensions and sound were noted for shared desks."
+    "title": "Noise in shared spaces",
+    "description": "A button gadget that repeats jokes can annoy coworkers in an open office. We marked the Dad Joke 3000 as a home office gift, and rated the silent calendars, the Lamicall phone stand and the mug warmer as safer for shared workplaces, with the warmer needing a nearby outlet."
   },
   {
-    "title": "Price",
-    "description": "We weighted price for a typical holiday or Father's Day budget."
+    "title": "Heat and power safety",
+    "description": "The Lesipee mug warmer has a 3.5 inch heating area on an aluminum surface, so we checked for safe use. We recommend unplugging it when unattended and keeping it away from papers. The Lamicall stand with its weighted metal base adds no such concern."
   }
 ];
 
@@ -386,7 +386,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "He is a joke lover and you want a fun centerpiece. The Dad Joke 3000 Button Joke Machine is the priciest here at about $20."
+        "text": "He is a joke lover and you want a fun centerpiece. The Dad Joke 3000 Button Joke Machine is the priciest here at under $25."
       },
       {
         "label": "Save if",

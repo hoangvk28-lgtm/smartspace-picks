@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41kMtwYk2vL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F8J25N2V?tag=deskfinds0d-20",
-    "description": "Homleke's rolling cart has a wooden top for the microwave, two metal mesh shelves, four casters with two lockable and 6 S hooks. The listing calls it suitable for small kitchens, apartments or dorms.\n\nCompared with HERJOY above, it moves, but the listing gives no weight rating, so it is harder to judge for heavy units. Against SUPERJARE below, it has no outlets but is cheaper by about $10.\n\nBest for a renter who wants a cart that can roll aside when cleaning. The caveat is no stated load capacity, so check your microwave's weight against the cart before buying.",
+    "description": "Homleke's rolling cart has a wooden top for the microwave, two metal mesh shelves, four casters with two lockable and 6 S hooks. The listing calls it suitable for small kitchens, apartments or dorms.\n\nCompared with HERJOY above, it moves, but the listing gives no weight rating, so it is harder to judge for heavy units. Against SUPERJARE below, it has no outlets but is cheaper by under $15.\n\nBest for a renter who wants a cart that can roll aside when cleaning. The caveat is no stated load capacity, so check your microwave's weight against the cart before buying.",
     "specs": [
       "3 tiers, 4 casters",
       "2 lockable wheels",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41A-1rFWPVL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09PFY63JQ?tag=deskfinds0d-20",
-    "description": "SUPERJARE's four-tier bakers rack has 2 built-in power outlets with an air switch button, a removable shelf that can be repositioned to fit taller mini fridges, 6 S hooks and a steel frame with P2 particleboard.\n\nThe outlets are the unique part, meaning fewer cords across the counter. Compared with Homleke above, it costs about $10 more and has more shelves, but is not mobile. Against YASONIC below, it is smaller and cheaper.\n\nBest for a coffee and microwave corner. The caveat is that built-in outlets do not raise your circuit's limit, so avoid running several heating appliances at once.",
+    "description": "SUPERJARE's four-tier bakers rack has 2 built-in power outlets with an air switch button, a removable shelf that can be repositioned to fit taller mini fridges, 6 S hooks and a steel frame with P2 particleboard.\n\nThe outlets are the unique part, meaning fewer cords across the counter. Compared with Homleke above, it costs under $15 more and has more shelves, but is not mobile. Against YASONIC below, it is smaller and cheaper.\n\nBest for a coffee and microwave corner. The caveat is that built-in outlets do not raise your circuit's limit, so avoid running several heating appliances at once.",
     "specs": [
       "2 outlets with air switch",
       "4 tiers, removable shelf",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51qTLWe9QhL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BV6M3LCV?tag=deskfinds0d-20",
-    "description": "NETEL is a two-tier carbon steel counter shelf with an anti-rust coating that extends from 15.74 to 25.2 inches in length and adjusts in height. It is designed to sit on a countertop and lift the microwave above the work surface.\n\nCompared with YOWAA below, it costs about $8 more with a similar expandable range and no stated weight limit. Against HERJOY, it is shorter and lighter in capacity but takes far less room.\n\nBest for freeing counter area under the microwave. The caveat is the listing gives no weight rating.",
+    "description": "NETEL is a two-tier carbon steel counter shelf with an anti-rust coating that extends from 15.74 to 25.2 inches in length and adjusts in height. It is designed to sit on a countertop and lift the microwave above the work surface.\n\nCompared with YOWAA below, it costs under $10 more with a similar expandable range and no stated weight limit. Against HERJOY, it is shorter and lighter in capacity but takes far less room.\n\nBest for freeing counter area under the microwave. The caveat is the listing gives no weight rating.",
     "specs": [
       "15.74 to 25.2 inch length",
       "2 tiers, height adjustable",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ym8luS3gL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FPLY3FGV?tag=deskfinds0d-20",
-    "description": "YOWAA is the cheapest stand here at about $26. It extends from 15.75 to 25.2 inches, holds up to 50 lbs according to the listing, comes with 6 hooks, adjusts height with three leg holes and needs no drilling.\n\nIt carries the lowest stated weight limit in the guide, 50 lbs, so it suits compact microwaves only. Compared with NETEL above, it is cheaper but gives a clear weight figure.\n\nBest for a light, compact microwave. The caveat is the 50 lb cap, which is a poor match for a heavier convection unit.",
+    "description": "YOWAA is the cheapest stand here at under $30. It extends from 15.75 to 25.2 inches, holds up to 50 lbs according to the listing, comes with 6 hooks, adjusts height with three leg holes and needs no drilling.\n\nIt carries the lowest stated weight limit in the guide, 50 lbs, so it suits compact microwaves only. Compared with NETEL above, it is cheaper but gives a clear weight figure.\n\nBest for a light, compact microwave. The caveat is the 50 lb cap, which is a poor match for a heavier convection unit.",
     "specs": [
       "15.75 to 25.2 inch length",
       "50 lb capacity",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41JDCi9M3AL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GLGX8BXR?tag=deskfinds0d-20",
-    "description": "YASONIC is a large five-shelf rack measuring 64.1 by 25.6 by 16.5 inches, with 12 S hooks, a paper towel holder, a steel frame and P2 grade particleboard, plus diagonal back bars for stability.\n\nIt is the biggest and most expensive stand here, at about $60. Compared with SUPERJARE, it offers more storage but no outlets, and is a poor fit if space is truly tight.\n\nBest for a long wall with room for storage. The caveat is that 64 inches of width contradicts small-space goals.",
+    "description": "YASONIC is a large five-shelf rack measuring 64.1 by 25.6 by 16.5 inches, with 12 S hooks, a paper towel holder, a steel frame and P2 grade particleboard, plus diagonal back bars for stability.\n\nIt is the biggest and most expensive stand here, at under $75. Compared with SUPERJARE, it offers more storage but no outlets, and is a poor fit if space is truly tight.\n\nBest for a long wall with room for storage. The caveat is that 64 inches of width contradicts small-space goals.",
     "specs": [
       "64.1 x 25.6 x 16.5 inches",
       "5 shelves, 12 S hooks",
@@ -255,15 +255,15 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Wheels and lockable casters",
-    "explanation": "A cart on wheels moves, but only two casters locking on the Homleke means a push can still shift it. This matters when the microwave door opens with force. Look for the number of lockable wheels, and prefer adjustable feet if the stand never moves."
+    "explanation": "A cart on wheels moves, but only two casters locking on the Homleke means a push can still shift it. This matters when the microwave door opens with force. Look for the number of lockable wheels, and prefer adjustable feet if the stand never moves. Casters with a lock on every wheel give far more stability than two locks on four wheels."
   },
   {
     "criterion": "Built-in outlets and circuit limits",
-    "explanation": "Built-in outlets, like SUPERJARE's, reduce cord clutter, but they do not increase the capacity of the wall circuit. A microwave plus a kettle or toaster can overload it. Check the outlet's rated amps if listed, and plug appliances with heating elements directly into the wall."
+    "explanation": "Built-in outlets, like SUPERJARE's, reduce cord clutter, but they do not increase the capacity of the wall circuit. A microwave plus a kettle or toaster can overload it. Check the outlet's rated amps if listed, and plug appliances with heating elements directly into the wall. A 15 amp circuit supports about 1800W, and a microwave alone may draw 1000W or more, so do not add a toaster oven on the same strip."
   },
   {
     "criterion": "Ventilation around the microwave",
-    "explanation": "A microwave needs clear space above and behind for heat to escape, so a shelf that traps it against a wall is a problem. Open-frame stands like OGEMXU help airflow. Follow the clearance in the microwave's manual."
+    "explanation": "A microwave needs clear space above and behind for heat to escape, so a shelf that traps it against a wall is a problem. Open-frame stands like OGEMXU help airflow. Follow the clearance in the microwave's manual. Leave roughly 3 to 4 inches above and behind unless the manual states more, and never cover the top vents."
   },
   {
     "criterion": "Material and assembly",
@@ -274,24 +274,24 @@ export const buyingCriteria: BuyingCriterion[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Stability",
-    "description": "We compared listed load ratings, adjustable feet, back bars and caster locks, since a microwave is heavy and top-heavy."
+    "title": "Stated load capacity",
+    "description": "HERJOY lists 200 lb, YOWAA states a clear 50 lb limit, and several others give no number. We treated a missing capacity as light duty, because a countertop microwave alone can weigh 25 to 45 lb before adding a rack of dishes beneath it. A 1000W unit is heavier than most people expect."
   },
   {
-    "title": "Footprint",
-    "description": "Listed dimensions and expandable ranges were compared against small spaces."
+    "title": "Footprint, fixed or expandable",
+    "description": "HERJOY expands 17.4 to 27.4 inches, NETEL 15.74 to 25.2 and YOWAA 15.75 to 25.2, while OGEMXU is a fixed 23.6 by 15.7 by 26.2 inches. We compared expandable widths against microwave sizes, since a stand narrower than the appliance is a hazard. We added an inch each side for airflow."
   },
   {
-    "title": "Convenience features",
-    "description": "Outlets, hooks, holders and adjustable shelves were noted where listed."
+    "title": "Mobility and floor stability",
+    "description": "Homleke's cart rolls on four casters but only two lock, while HERJOY has four adjustable feet. We weighed rolling convenience against stability, since a cart that shifts when you pull the microwave door open is a spill risk. A rolling cart suits renters; a leveled stand suits a fixed corner."
   },
   {
-    "title": "Materials",
-    "description": "Steel, MDF and particleboard builds were compared, along with rust protection claims."
+    "title": "Outlets and ventilation",
+    "description": "SUPERJARE adds two outlets with an air switch, which cuts cord clutter but does not raise the circuit's capacity. We also checked open-frame designs such as OGEMXU, because a microwave needs clear space above and behind it to shed heat. Open frames let heat escape sideways."
   },
   {
-    "title": "Value",
-    "description": "Prices from about $26 to $60 were weighed against documented capacity and features."
+    "title": "Material, shelf space and price",
+    "description": "Particleboard or MDF tops, such as OGEMXU's metal and MDF build, fear steamy kitchens, while NETEL has anti-rust coated steel. Prices run from under $26 for YOWAA to near $60 for the 5-tier YASONIC, so we asked what each tier adds. Steel frames cost more but outlast particleboard."
   }
 ];
 
@@ -432,7 +432,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is a rolling cart better than a fixed stand?",
-    "a": "Only if you need to move it. The Homleke 3-Tier Rolling Cart has 4 casters with 2 lockable wheels, but fixed stands with adjustable feet, like the HERJOY, are generally steadier under a heavy microwave."
+    "a": "Depends on whether you move it. A cart like Homleke rolls and locks two wheels, which suits renters who rearrange, but a fixed stand with adjustable feet like HERJOY is steadier. If the stand never moves, choose adjustable feet and skip casters."
   },
   {
     "q": "How do I measure for an expandable stand?",
@@ -440,11 +440,11 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Do I need to leave space around the microwave?",
-    "a": "Yes. Follow the manual's clearance for the top, back and sides so heat can escape. A tall 4-tier stand like the OGEMXU has 3 height positions, which helps you leave headroom."
+    "a": "Yes. A microwave vents heat from the back and top, so a shelf that pushes it against a wall or a cabinet underside can overheat the unit. Follow the clearance in the microwave's manual, and prefer open-frame stands like OGEMXU or a rack with space above the oven."
   },
   {
     "q": "Will a particleboard top hold up in a kitchen?",
-    "a": "It can swell if it stays wet, so wipe spills quickly. Steel stands like the NETEL's anti-rust coated frame resist moisture better, and the OGEMXU combines metal and MDF, so keep its MDF dry."
+    "a": "Short term yes, long term it can swell. Steam, spills and humidity damage MDF edges first, as on the OGEMXU's MDF shelf, while NETEL's anti-rust coated steel resists moisture better. Wipe spills quickly and keep the stand away from sinks and dishwashers if the top is wood-based."
   }
 ];
 

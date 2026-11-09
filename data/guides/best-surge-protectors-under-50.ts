@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Data Line Protection Breadth", "description": "Compared which picks protect Ethernet, phone, and coaxial cable lines alongside standard AC outlets." },
-  { "title": "Outlet Design and Count", "description": "Compared total outlet count and whether outlets are fixed or independently rotating." },
-  { "title": "Joule Surge Protection Rating", "description": "Compared stated joule ratings across the lineup." },
-  { "title": "Connected Equipment Warranty", "description": "Compared documented warranty and insurance coverage amounts across the lineup." },
-  { "title": "Flat Plug and Space Efficiency", "description": "Checked which picks use flat plug designs for furniture placed flush against walls." }
+  {
+    "title": "Connected-line protection",
+    "description": "We checked which picks protect more than power, such as RJ45 ethernet, RJ11 phone and coax on the Tripp Lite TLP118DBNET and phone and coax on the Belkin. A surge can enter through a cable line, so a modem or router needs this extra coverage. A modem on a long cable run is a common surge path, which is why this matters at the top of the price range."
+  },
+  {
+    "title": "Joule and outlet count",
+    "description": "We compared 4200J and 11 outlets on the Tripp Lite, 4320J and 12 outlets on the Belkin and the 1440J and 3420J eight-outlet units. Joules indicate lifespan, so the first two lead, but extra outlets also encourage overloading. Both strips list more than 4000J, so the real difference is outlet design and data line protection rather than energy absorption."
+  },
+  {
+    "title": "Outlet layout",
+    "description": "The Belkin lists 8 rotating and 4 standard outlets, which handle wide plugs, while the ECHOGEAR lists wide spacing. We credited layouts that fit adapters without covering neighbors. The Belkin rotating outlets also let two wide adapters coexist, which saves outlets on a crowded desk."
+  },
+  {
+    "title": "Certification and warranty",
+    "description": "We read UL 1363 and 1449 on the TLP118DBNET and the Belkin $300,000 connected equipment policy. These are marketing promises with conditions, so we credited them lightly and gave more weight to the safety listing. A headline policy value is not a measure of protection, so we weighted the listing mark first."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Comprehensive AC, Ethernet, phone, and coax protection", "Eaton Tripp Lite TLP118DBNET Home Theater Surge Protector"],
-        ["Rotating outlets with the highest documented warranty", "Belkin Surge Protector, 8 Rotating & 4 Standard Outlets"],
-        ["A flat plug design without data line protection", "Eaton Tripp Lite TLP808B Flat Plug Surge Protector"],
-        ["The highest joule rating at the lowest price", "ECHOGEAR ShockBlocker 8 Outlet Surge Protector"]
+    "subheading": "By Primary Need",
+    "intro": "At the top of the price range the picks differ by cable protection and layout.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Ethernet, phone and coax protection for a home office",
+          "Tripp Lite TLP118DBNET Home Theater Surge Protector, with RJ45, RJ11 and coax"
+        ],
+        [
+          "Rotating outlets for bulky plugs",
+          "Belkin Surge Protector, with 8 rotating and 4 standard outlets"
+        ],
+        [
+          "A flat plug at a lower price",
+          "Tripp Lite TLP808B Flat Plug Surge Protector"
+        ],
+        [
+          "A slim body and a long warranty",
+          "ECHOGEAR ShockBlocker 8 Outlet Surge Protector"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $30", "ECHOGEAR ShockBlocker (under $30)"],
-        ["Under $35", "TLP808B (under $35)"],
-        ["Under $45", "Belkin Rotating Outlets (under $45)"],
-        ["Under $47", "TLP118DBNET Home Theater (under $50)"]
+    "subheading": "By Budget",
+    "intro": "The four picks cost under $40 to $47.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $40",
+          "ECHOGEAR ShockBlocker, for a slim design and 3420J"
+        ],
+        [
+          "Under $40",
+          "Tripp Lite TLP808B, for the flat plug and 8 foot cord"
+        ],
+        [
+          "Under $50",
+          "Belkin Surge Protector, for 4320J and rotating outlets"
+        ],
+        [
+          "Under $50",
+          "Tripp Lite TLP118DBNET, for 11 outlets and network lines"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Comprehensive Data Line Protection vs AC-Only Protection",
-    cards: [
-      { label: "Comprehensive (TLP118DBNET, Belkin)", text: "Protects Ethernet, phone, and/or coax lines alongside AC outlets, essential if these connections carry your internet, TV, or phone service." },
-      { label: "AC-only (TLP808B, ECHOGEAR)", text: "Focuses purely on AC outlet protection, sufficient if your setup doesn't rely on wired phone, cable, or Ethernet connections." }
+    "subheading": "Surge Only vs Data Line Protection",
+    "intro": "A power-only protector leaves cable lines exposed.",
+    "cards": [
+      {
+        "label": "Power only",
+        "text": "The Tripp Lite TLP808B and ECHOGEAR ShockBlocker protect the AC lines, which is enough for a PC and lamp."
+      },
+      {
+        "label": "Power and data",
+        "text": "The Tripp Lite TLP118DBNET and Belkin Surge Protector add coax and phone or ethernet ports, which protect a modem, router or cable box."
+      }
     ],
-    note: "If your home theater or office relies on a wired internet, cable, or phone connection, the added data line protection on the TLP118DBNET or Belkin picks genuinely matters. If you're wireless-only, AC protection alone may be sufficient.",
+    "note": "If you have a modem or set-top box, take a data-line model."
   },
   {
-    subheading: "By Data Line Type",
-    table: {
-      headers: ["Your connection type", "Recommended pick"],
-      rows: [
-        ["Ethernet, phone, and coax all present", "Eaton Tripp Lite TLP118DBNET"],
-        ["Phone and coax, no Ethernet needed", "Belkin Surge Protector"],
-        ["No wired data lines, AC only", "TLP808B or ECHOGEAR"]
+    "subheading": "By Gear Type",
+    "intro": "Match the strip to the equipment.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A router and modem on the same strip",
+          "Tripp Lite TLP118DBNET, which lists RJ45 and coax"
+        ],
+        [
+          "Large power bricks and rotating plugs",
+          "Belkin Surge Protector"
+        ],
+        [
+          "A gaming PC and monitors",
+          "ECHOGEAR ShockBlocker, with 3420J"
+        ],
+        [
+          "A desk against the wall",
+          "Tripp Lite TLP808B, with a flat plug"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Full Home Theater Setup with Wired Internet Specifically",
-    cards: [
-      { label: "Look for", text: "A surge protector that specifically protects Ethernet, phone, and coax lines together, not just AC outlets alone." },
-      { label: "In this comparison", text: "The Eaton Tripp Lite TLP118DBNET is the only pick here protecting all three data line types alongside AC outlets." }
-    ],
+    "subheading": "For a Home Office With a Modem Specifically",
+    "intro": "A modem is a common path for surges, so a data line port matters.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "RJ45, coax or phone ports labeled as protected and a UL 1449 listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Tripp Lite TLP118DBNET lists RJ45, RJ11 and coax, and Belkin Surge Protector lists phone and coax, so both cover a modem."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You have a wired home theater setup relying on Ethernet, phone, and coax connections, where the TLP118DBNET's comprehensive line protection justifies its price at the top of this tier." },
-      { label: "Save if", text: "You want a high joule rating without data line protection, where the ECHOGEAR pick delivers 3420J for about $17 less than the TLP118DBNET." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Beyond $50, you reach UPS units with battery backup.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need battery backup. A surge protector like Tripp Lite TLP118DBNET does not keep a PC running in an outage."
+      },
+      {
+        "label": "Save if",
+        "text": "Your gear has no cable lines. ECHOGEAR ShockBlocker covers a PC desk for less."
+      }
+    ]
   }
 ];
 
@@ -183,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Do I need Ethernet surge protection if my internet connection is entirely WiFi-based?", "a": "If your router connects to your internet service via a physical Ethernet or coaxial cable, that connection point is still vulnerable to surges even if your other devices connect wirelessly, so Ethernet or coax protection still matters for the router itself." },
-  { "q": "What's the most common mistake buyers make when comparing warranty amounts across surge protectors?", "a": "Assuming any stated warranty amount provides equal real-world value, when the actual usefulness depends on matching the warranty amount against what you're protecting, since a $300,000 warranty like Belkin's matters more for expensive home theater equipment than for basic lamps and chargers." },
-  { "q": "Is the TLP118DBNET worth it over the Belkin pick if I don't have a coaxial cable connection?", "a": "If you specifically need Ethernet protection and don't need coax, the TLP118DBNET still covers that, but if you have coax and phone lines without needing Ethernet protection, the Belkin pick's rotating outlets and higher documented warranty may be the better overall value." },
-  { "q": "Will routing my gigabit internet connection through the TLP118DBNET's Ethernet port slow down my speed?", "a": "Yes, since its Ethernet port is rated for pass-through speeds up to 100 Mbps, routing a gigabit connection through it would cap your actual speed well below what a gigabit plan provides, so check your internet plan's speed against this limitation first." },
-  { "q": "Can I use the ECHOGEAR pick for a home theater setup even though it lacks data line protection?", "a": "Yes, it will protect your AC-powered home theater components effectively with its high 3420J rating, but any phone, cable, or Ethernet lines connected to your setup would remain unprotected against surges traveling through those specific paths." },
-  { "q": "How do I decide if rotating outlets are worth paying more for on the Belkin pick?", "a": "If you regularly connect several bulky power adapters or transformers simultaneously and have experienced outlets blocking each other on a fixed-outlet strip before, rotating outlets solve that specific problem directly and are likely worth the price difference for your use case." }
+  {
+    "q": "Do I need ethernet surge protection?",
+    "a": "If your router or modem connects to a long outside line, a surge can travel through the cable. The Tripp Lite TLP118DBNET lists RJ45, RJ11 and coax protection. For a laptop on Wi-Fi, power protection alone is usually enough."
+  },
+  {
+    "q": "Is the Belkin worth it over Tripp Lite?",
+    "a": "It lists 4320J, 12 outlets and rotating outlets, which suit bulky plugs. The Tripp Lite lists 4200J and ethernet protection plus UL 1363 and 1449. Choose the Belkin for plug layout and the Tripp Lite for network lines."
+  },
+  {
+    "q": "Does a surge protector protect against a blackout?",
+    "a": "No. It protects from short spikes. A blackout or brownout needs a UPS with a battery. These four picks are not UPS units. A small UPS adds battery runtime, so if blackouts matter, look at a battery backup in a different price range."
+  },
+  {
+    "q": "What does the connected equipment policy mean?",
+    "a": "The Belkin lists a $300,000 policy and the Tripp Lite TLP808B lists $75,000. These are promises with conditions, so read the terms. Do not count on a payout. Policies may also require registration and proof of purchase."
+  },
+  {
+    "q": "Can I use a surge protector with a laser printer?",
+    "a": "Many manufacturers advise plugging laser printers directly into a wall outlet because of high power draw. Check the printer manual. A 15A, 1875W strip can handle a laptop and monitor but not a printer plus heater."
+  },
+  {
+    "q": "How often should I replace these?",
+    "a": "Common guidance is every 3 to 5 years, and sooner after a big surge. Replace if the protected light goes out or if the plastic is scorched. Write the date on the back. Visible scorch marks or a warm plug mean replace it now."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

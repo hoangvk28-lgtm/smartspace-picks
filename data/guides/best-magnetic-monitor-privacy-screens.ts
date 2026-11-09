@@ -120,35 +120,65 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Distinguished magnetic mount subtypes directly", description: "We noted where a magnetic design is a standard hanging strip versus a hidden design specifically built for frameless monitors, since these serve different needs." },
-  { title: "Flagged frameless compatibility explicitly", description: "Only one pick in this comparison is specifically designed for frameless monitors, and we called this out directly rather than assuming all magnetic filters work the same way." },
-  { title: "Compared single-unit and matched 2-pack pricing for the same design", description: "Where a brand sells both formats, we noted the per-unit price difference to help buyers choose the right format for their setup." },
-  { title: "Weighed rating against review volume across smaller sample sizes", description: "Several magnetic picks have review counts under 200; we compared both rating and sample size rather than the star rating alone." }
+  {
+    "title": "Exact size and aspect ratio",
+    "description": "Five of six picks are 24 inch 16:9 and one is 27 inch, so we checked sizes against common monitors. A 16:10 or ultrawide screen needs a different filter, and a diagonal match alone is not enough, because the active width and height decide whether edges are covered."
+  },
+  {
+    "title": "Magnetic, hanging or hidden attachment",
+    "description": "JEAPKA, JEEETINTX and GUDTEKE list magnetic hanging mounts, the hidden-design JEAPKA is frameless-compatible, and the last pick is a hanging mount that is not specifically magnetic. We separated these by how well each grips a thin or bezel-less monitor edge."
+  },
+  {
+    "title": "Viewing angle and what it blocks",
+    "description": "Common listings describe a 60 degree cone, with the screen dark outside it. We looked for any stated angle, because a filter that does not state one cannot be judged, and a narrower angle gives more privacy but a smaller comfortable sitting position."
+  },
+  {
+    "title": "Anti-glare and blue-light claims",
+    "description": "JEAPKA and GUDTEKE bundle anti-glare and blue-light filtering. Claims vary widely between brands, so we treated percentages as marketing figures unless a test is named, and gave little credit to coating language that lists no number."
+  },
+  {
+    "title": "Pack size and price",
+    "description": "Three of six come as 2-packs, which suits two monitors. We priced each pick per screen: a single GUDTEKE unit costs less than a 2-pack for one monitor, while the 2-pack makes sense for dual-screen desks. The frameless-compatible pick was the cheapest at its size."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "Identify Your Exact Device Type First",
+    "subheading": "By Monitor Size and Setup",
+    "intro": "Match the filter's size and attachment style to the screen before comparing price or coatings.",
     "table": {
       "headers": [
-        "Your device",
-        "Recommended pick in this comparison"
+        "Your situation",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Desktop monitor",
-          "JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter for Monitor"
+          "One or two 24 inch 16:9 monitors with a standard bezel",
+          "JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter, bundled anti-glare and blue-light filtering"
         ],
         [
-          "Laptop screen",
-          "JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter for Monitor"
+          "A single 27 inch monitor",
+          "JEEETINTX Magnetic Computer Privacy Screen Filter 27 Inch, the only large-format pick here"
+        ],
+        [
+          "A frameless or thin-bezel 24 inch monitor",
+          "JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen, the only frameless-compatible pick"
+        ],
+        [
+          "One 24 inch monitor and no need for a second filter",
+          "GUDTEKE Magnetic 24 Inch Privacy Screen for Computer Monitor (Single), cheaper than the 2-pack"
+        ],
+        [
+          "A bezel where a magnet will not hold",
+          "24 Inch Privacy Screen for Computer Monitor, Hanging Removable, a tool-free hanging mount"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Prices sit in a narrow band, so the real saving is in buying one filter or two.",
     "table": {
       "headers": [
         "Price range",
@@ -156,62 +186,76 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $50",
-          "JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen"
+          "Under $40 for two filters",
+          "JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen, the cheapest pick and frameless ready"
         ],
         [
-          "Mid-range",
-          "JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter for Monitor"
+          "Under $50 for one filter",
+          "GUDTEKE Magnetic 24 Inch Privacy Screen for Computer Monitor (Single), a lower cost for one screen"
         ],
         [
-          "No firm budget ceiling, prioritizing extra coatings",
-          "GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor"
+          "Under $65 for a 2-pack",
+          "24 Inch Privacy Screen for Computer Monitor, Hanging Removable, tool-free hanging mount"
+        ],
+        [
+          "Under $70, brand-matched coatings or 27 inch",
+          "JEAPKA 2 Pack Magnetic 24 Inch or JEEETINTX 27 Inch, with anti-glare and blue-light layers"
         ]
       ]
     }
   },
   {
-    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "subheading": "Magnetic Strip vs Hanging Mount",
     "cards": [
       {
-        "label": "Adhesive Tabs",
-        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen."
+        "label": "Magnetic strip or hidden magnet",
+        "text": "The JEAPKA, JEEETINTX and GUDTEKE filters stay on through magnets and come off in seconds for video calls. The hidden-design JEAPKA keeps the magnets out of view for frameless panels."
       },
       {
-        "label": "Slide-On or Frame Mount",
-        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter for Monitor, JEEETINTX Magnetic Computer Privacy Screen Filter 27 Inch, GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor."
+        "label": "Hanging removable mount",
+        "text": "The 24 inch hanging pick hooks over the top edge without tools, which suits bezels where magnets do not grip, but it can sit a little less flush at the sides."
       }
-    ]
+    ],
+    "note": "Most buyers with a normal bezel should default to a magnetic pick, and choose the hanging mount only if the magnets fail to hold."
   },
   {
-    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "subheading": "By Coating and Screen Feel",
+    "intro": "Anti-glare and blue-light layers are easy to advertise, so we treated them as extras and not as proof of quality.",
     "table": {
       "headers": [
-        "What you're weighing",
+        "Your situation",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Highest star rating",
-          "[2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+          "Bright office with overhead glare",
+          "JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter, which bundles anti-glare filtering"
         ],
         [
-          "Largest review base (more statistical confidence)",
-          "GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor"
+          "Long hours and eye strain concerns",
+          "GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen, which lists blue-light protection"
+        ],
+        [
+          "Dual monitors of the same size",
+          "GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen, one filter per screen"
+        ],
+        [
+          "A single sharp-looking 27 inch panel",
+          "JEEETINTX Magnetic Computer Privacy Screen Filter 27 Inch, the only large-size option"
         ]
       ]
     }
   },
   {
-    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "subheading": "For Open-Plan Offices and Shared Desks Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+        "text": "A stated viewing angle near 60 degrees, a filter you can remove in seconds, and a size that exactly matches your active screen area so no edge leaks light to a neighbor."
       },
       {
         "label": "In this comparison",
-        "text": "JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter for Monitor fits this specifically: Highest rating among confirmed magnetic filters."
+        "text": "The JEAPKA 2 Pack Magnetic 24 Inch and GUDTEKE 2Pack Magnetic 24 Inch give you matching filters for two screens, and the magnetic design lets you pull them off for screen sharing."
       }
     ]
   },
@@ -220,11 +264,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor offers: Highest rating among confirmed magnetic filters. That's a real functional upgrade over the basic picks here, not just a brand markup."
+        "text": "You have two screens and want matching, bundled coatings, or a 27 inch panel. The JEAPKA and GUDTEKE 2-packs and the JEEETINTX 27 inch are the picks that offer those, at under $70 each."
       },
       {
         "label": "Save if",
-        "text": "JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen already covers the essentials: The only frameless-compatible pick in this comparison. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+        "text": "You have one frameless 24 inch monitor or a single standard one. The JEAPKA Hidden Design costs less than $40 for two, and the GUDTEKE single costs less than the 2-pack for one screen."
       }
     ]
   }
@@ -248,17 +292,36 @@ export const buyingCriteria: BuyingCriterion[] = [
     "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter.\n\nWhether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself.\n\nCheck the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
   },
   {
-    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "criterion": "Check how the filter attaches and how it comes off",
+    "explanation": "A magnetic filter should clamp to the bezel with a firm strip, and you should be able to remove it in seconds for screen sharing. Hanging mounts lean on the bezel's top lip, so a very thin bezel can let the filter slide or tilt. Look for the words magnetic strip, hanging or frameless in the listing, and read any note about bezel width before you order."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Do magnetic privacy filters work on any monitor?", a: "Most need a metal bezel or an included magnetic strip to attach; verify your monitor's bezel material before assuming compatibility." },
-  { q: "Which magnetic filter has the highest rating?", a: "The JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter at 4.6." },
-  { q: "Is there a magnetic option for frameless monitors?", a: "Yes, the JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen is specifically built for frameless monitors." },
-  { q: "What's the cheapest magnetic option?", a: "The JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen at under $40, also the frameless-specific pick." },
-  { q: "Is there a magnetic option for 27 inch monitors?", a: "Yes, the JEEETINTX Magnetic Computer Privacy Screen Filter 27 Inch, with the largest review base at this size tier." }
+  {
+    "q": "Do magnetic privacy filters work on any monitor?",
+    "a": "Not always. Most need a metal bezel or an included magnetic strip that sticks to the frame, so a thin plastic bezel or a frameless panel can leave the filter loose. Check your bezel material and width, and consider the hidden-design JEAPKA, which is made for frameless monitors."
+  },
+  {
+    "q": "Which magnetic filter suits two monitors?",
+    "a": "A 2-pack is cheaper per screen. The JEAPKA 2 Pack Magnetic 24 Inch and GUDTEKE 2Pack Magnetic 24 Inch both cover two 24 inch 16:9 displays, while the GUDTEKE single unit suits a lone monitor. Make sure both screens are the same size, since sizes are not interchangeable."
+  },
+  {
+    "q": "Is there a magnetic option for frameless monitors?",
+    "a": "Yes. The JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen is built for frameless displays with a hidden magnetic arrangement that does not rely on a bezel to hold it. Match the 24 inch 16:9 size first, because edge fit is the main failure point."
+  },
+  {
+    "q": "What is the cheapest magnetic option?",
+    "a": "The JEAPKA 2 Pack Hidden Design is the lowest-priced pick here, at under $40 for two filters, and it is also the frameless-specific model. The GUDTEKE single unit is the cheapest option for one standard-bezel monitor if you only need a single screen."
+  },
+  {
+    "q": "Is there a magnetic option for 27 inch monitors?",
+    "a": "Yes, the JEEETINTX Magnetic Computer Privacy Screen Filter 27 Inch, sold as a single unit. Most other picks are 24 inch, so measure your active screen area and check the aspect ratio before ordering, since a 27 inch label does not guarantee a fit for every 27 inch panel."
+  },
+  {
+    "q": "Do privacy filters make the screen look dimmer?",
+    "a": "Usually yes. Even head-on, a privacy filter blocks some light, so you may need to raise brightness. Matte options reduce glare, while glossy ones keep more clarity. Because the filter attaches magnetically, you can pull it off for video calls or screen sharing, which is the main advantage over adhesive sheets."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

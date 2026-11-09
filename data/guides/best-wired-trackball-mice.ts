@@ -219,51 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Plug type: USB-A, USB-C or both",
-    "explanation": "Many new laptops have only USB-C, so a USB-A cable needs an adapter, while dual-plug models need none. This matters because adapters get lost. Look for Type-C in the title or bullets."
+    "explanation": "Many new laptops have only USB-C, so a USB-A cable needs an adapter, while dual-plug models need none. This matters because adapters get lost. Look for Type-C in the title or bullets. Dual-plug designs such as the Nulea save an adapter, while single-plug models are cheaper."
   },
   {
     "criterion": "Cable length",
-    "explanation": "A 1.8 meter cable reaches a tower under a desk, while a short one only suits a laptop. Cable length is often missing from listings. Check the bullets."
+    "explanation": "A 1.8 meter cable reaches a tower under a desk, while a short one only suits a laptop. Cable length is often missing from listings. Check the bullets. If your tower sits on the floor, a 1.5m or longer cable is the difference between tidy and tight."
   },
   {
     "criterion": "Ball size and style",
-    "explanation": "Thumb balls are around 34mm and finger balls range 44 to 55mm. A bigger ball offers more finesse but needs space. Check the millimeter figure."
+    "explanation": "Thumb balls are around 34mm and finger balls range 44 to 55mm. A bigger ball offers more finesse but needs space. Check the millimeter figure. A bigger ball moves farther per sweep, so check your desk space and hand size before choosing."
   },
   {
     "criterion": "Button count and software",
-    "explanation": "More buttons let you map shortcuts, such as copy and paste, to your thumb or fingers. Remapping often needs vendor software, and that software may not support every operating system. Look at the button count in the title and read the OS support note before you rely on custom shortcuts."
+    "explanation": "More buttons let you map shortcuts, such as copy and paste, to your thumb or fingers. Remapping often needs vendor software, and that software may not support every operating system. Look at the button count in the title and read the OS support note before you rely on custom shortcuts. Thumb versus finger layout is the key choice, so confirm which digit moves the ball."
   },
   {
     "criterion": "Sensor type",
-    "explanation": "A trackball reads the ball, not the desk, so the sensor type matters less than on a mouse. Laser sensors still track a ball surface with slightly finer detail, which the SlimBlade lists. Look for the sensor type, such as optical or laser, in the bullets."
+    "explanation": "A trackball reads the ball, not the desk, so the sensor type matters less than on a mouse. Laser sensors still track a ball surface with slightly finer detail, which the SlimBlade lists. Look for the sensor type, such as optical or laser, in the bullets. Ruby bearings, like those on the ELECOM HUGE, can feel smoother than plastic supports."
   },
   {
     "criterion": "Settings that reset",
-    "explanation": "Some wired trackballs do not store the DPI setting in memory and drop back to the default whenever you reconnect them. That is an annoyance if you prefer a slow or fast pointer speed. Look for a note such as does not store settings in the bullets, as the JOMAA listing states."
+    "explanation": "Some wired trackballs do not store the DPI setting in memory and drop back to the default whenever you reconnect them. That is an annoyance if you prefer a slow or fast pointer speed. Look for a note such as does not store settings in the bullets, as the JOMAA listing states. A small side button that you cannot rebind is a common complaint, so read the button list."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Plug and cable",
-    "description": "We compared plug types and cable lengths."
+    "title": "Plug type and compatibility",
+    "description": "We read connector details, because many laptops have only USB-C. Nulea M509 lists dual Type-A and Type-C plugs, while ELECOM, JOMAA and Perixx use USB-A only. A wired trackball that needs an adapter adds a part you can lose. Adapters add cost and clutter."
   },
   {
-    "title": "Ball and sensor",
-    "description": "Ball size and sensor notes were weighed."
+    "title": "Ball size and grip style",
+    "description": "Thumb balls such as ELECOM EX-G and Nulea M509 suit a mouse-like grip, while finger balls like the 44mm model, ELECOM HUGE and Kensington SlimBlade use index or middle fingers. We compared ball sizes from the Perixx 1.34 inch ball to the SlimBlade's 55mm ball. Hand size also decides which style fits."
   },
   {
-    "title": "Buttons",
-    "description": "Button counts and settings behavior were compared."
+    "title": "Cable length",
+    "description": "Cable reach decides where the trackball sits. The Nulea and 44mm picks list 1.8m cables, which reaches a tower under a desk. Others do not state cable length, so we counted that as a gap in the listing. Short cables force the trackball next to the PC."
   },
   {
-    "title": "Comfort",
-    "description": "Body size and palm rests were noted."
+    "title": "Button count and software",
+    "description": "More buttons let you map shortcuts. ELECOM HUGE lists 8 buttons, Perixx 7 and Nulea 6, but remapping often needs vendor software that may not support every system. We credited drivers-free picks like the 44mm model that work out of the box. Software-free operation is safer for locked work laptops."
   },
   {
-    "title": "Value for price",
-    "description": "Price was weighed against what each listing actually includes, with recurring buyer comments as a tiebreaker."
+    "title": "Settings memory",
+    "description": "A trackball that forgets its DPI when unplugged is a daily annoyance. The JOMAA listing notes that, and ELECOM HUGE offers 500 to 1500 DPI. We favored listings that state their DPI steps and whether they are stored. Stated DPI steps beat vague speed claims."
   }
 ];
 
@@ -395,28 +395,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do wired trackballs have less lag?",
-    "a": "A cable avoids pairing delays. Most office work cannot feel a difference."
+    "q": "Do wired trackballs have lag?",
+    "a": "Wired models avoid battery and pairing delays, and a 1.8m USB cable gives a stable connection. JOMAA lists a 250Hz polling rate, which suits office work. Gamers should look for higher polling and a stated DPI range."
   },
   {
-    "q": "Do I need drivers?",
-    "a": "Most listed here are plug and play. Software may be needed for buttons."
+    "q": "What is the most common trackball buying mistake?",
+    "a": "Choosing thumb versus finger style by price. A thumb ball like the ELECOM EX-G is easier for mouse users, while finger styles like the HUGE or SlimBlade suit people with wrist strain. A learning period of days to two weeks is normal."
   },
   {
-    "q": "What if I only have USB-C ports?",
-    "a": "Pick a dual-plug model or use an adapter."
+    "q": "Is the Kensington SlimBlade worth more than the ELECOM HUGE?",
+    "a": "If you want a 55mm ball, twist scroll and an ambidextrous low profile, yes, though it costs over $90. The ELECOM HUGE under $55 has 8 buttons, a palm rest and 500 to 1500 DPI."
   },
   {
-    "q": "How long should the cable be?",
-    "a": "1.8 meters reaches under most desks. Check the listing."
+    "q": "How do I set up a wired trackball?",
+    "a": "Plug it into a USB port, wait for the driver, and test the ball on your screen. Adjust pointer speed in system settings or press the DPI button. Remapping buttons on ELECOM models uses vendor software."
   },
   {
-    "q": "Is the SlimBlade worth the price?",
-    "a": "It is worth it for precision on a fixed desk. For basics, cheaper models suffice."
+    "q": "Does the JOMAA remember my DPI setting?",
+    "a": "The listing states that settings are not stored, so it returns to default after reconnecting. If you use a custom speed, choose a trackball that keeps its DPI, or reapply it with the CPI button each time."
   },
   {
-    "q": "How do I clean the ball?",
-    "a": "Push the ball out, wipe the rollers, and let dry."
+    "q": "How do I clean a trackball?",
+    "a": "Remove the ball, wipe it with a soft cloth, and clean the sensor cavity with a cotton swab and a little alcohol. ELECOM and Kensington use bearings that collect dust. Clean every few weeks."
   }
 ];
 

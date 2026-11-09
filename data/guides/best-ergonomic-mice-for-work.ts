@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31SOhvFNTCL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GGXJ3LZP?tag=deskfinds0d-20",
-    "description": "The MiniLuxis has an infinite scroll wheel and a side scroll, a PixArt PAW3220 sensor with DPI up to 8000 at 1000Hz polling, and an OLED screen that shows battery level, DPI and connection status. It is rechargeable and lists quiet clicks and multi-device switching.\n\nThe display is what separates it from the CITLLA Ergonomic Bluetooth Mouse with Flying Scroll, and it costs about $6 less. Compared with the TECKNET Wireless Mouse with Side Scroll Wheel, it adds the screen and a higher DPI ceiling.\n\nA fit for a detail-oriented desk. The caveat is that the listing is not specific about the shell angle.",
+    "description": "The MiniLuxis has an infinite scroll wheel and a side scroll, a PixArt PAW3220 sensor with DPI up to 8000 at 1000Hz polling, and an OLED screen that shows battery level, DPI and connection status. It is rechargeable and lists quiet clicks and multi-device switching.\n\nThe display is what separates it from the CITLLA Ergonomic Bluetooth Mouse with Flying Scroll, and it costs under $10 less. Compared with the TECKNET Wireless Mouse with Side Scroll Wheel, it adds the screen and a higher DPI ceiling.\n\nA fit for a detail-oriented desk. The caveat is that the listing is not specific about the shell angle.",
     "specs": [
       "Infinite and side scroll",
       "PixArt PAW3220, up to 8000 DPI",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/311km3WB6PL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CCXJB1JG?tag=deskfinds0d-20",
-    "description": "The Lekvey is a vertical ergonomic mouse with a handshake angle, a 600mAh USB-C battery and page back and forward buttons, measuring 5.0 by 3.0 by 2.5 inches and weighing 95 grams. It connects through 2.4GHz.\n\nIt is the only vertical in the group, and compared with the TECKNET Wireless Mouse with Side Scroll Wheel it changes your wrist position more but has no side wheel. It is cheaper than the CITLLA Ergonomic Bluetooth Mouse with Flying Scroll by about $21.\n\nA fit for people who want the vertical shape for long office days. The caveat is 2.4GHz only, with no Bluetooth listed.",
+    "description": "The Lekvey is a vertical ergonomic mouse with a handshake angle, a 600mAh USB-C battery and page back and forward buttons, measuring 5.0 by 3.0 by 2.5 inches and weighing 95 grams. It connects through 2.4GHz.\n\nIt is the only vertical in the group, and compared with the TECKNET Wireless Mouse with Side Scroll Wheel it changes your wrist position more but has no side wheel. It is cheaper than the CITLLA Ergonomic Bluetooth Mouse with Flying Scroll by under $25.\n\nA fit for people who want the vertical shape for long office days. The caveat is 2.4GHz only, with no Bluetooth listed.",
     "specs": [
       "Vertical handshake shape",
       "5.0 x 3.0 x 2.5 inches, 95 grams",
@@ -190,52 +190,48 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Side scroll wheel",
-    "explanation": "A thumb or side wheel scrolls horizontally without dragging the mouse, which helps on wide spreadsheets, timelines and code files. Without it you hold a modifier key or drag a scroll bar. Look for horizontal scroll, tilt wheel or side wheel in the feature list."
+    "criterion": "Scroll wheel hardware for office tasks",
+    "explanation": "A scroll wheel with a metal rim and a thumb or side wheel lets you move through long documents and wide spreadsheets without dragging a scroll bar. Plastic wheels wear and can stick over months of daily use. Look for the words metal wheel and side scroll in the listing, and check that the horizontal wheel sits where your thumb rests."
   },
   {
-    "criterion": "Fast or infinite scroll wheel",
-    "explanation": "A metal flying or infinite wheel coasts through long documents with one flick, while a standard wheel clicks step by step. It matters when you scroll through hundreds of pages. Look for free-spin or infinite scroll wording."
+    "criterion": "Vertical shell or labeled ergonomic",
+    "explanation": "Many mice call themselves ergonomic while offering only a flat contour, and the difference matters if your forearm twists all day. A true vertical shell lists an angle, such as a handshake tilt. Look for a degree figure or vertical in the title, and treat a vague ergonomic label as only a modest grip improvement."
   },
   {
-    "criterion": "Click noise in shared offices",
-    "explanation": "Quiet switches avoid distracting colleagues on calls, although no listing here publishes a decibel measurement. The scroll wheel can still tick, so a quiet button is only part of the picture. Look for silent or quiet wording in the bullets and confirm there is a return window to test it in your own room."
+    "criterion": "Pairing between work and personal devices",
+    "explanation": "Dual Bluetooth plus 2.4GHz lets one mouse serve a work laptop and a personal computer, switching with a button. That saves you from re-pairing at each handover. Check the listing says 3 devices, and confirm that your office allows USB receivers, since some employers block them on company machines."
   },
   {
-    "criterion": "Multi-device pairing",
-    "explanation": "Pairing with three devices lets one mouse serve a work laptop, a personal machine and a tablet with one button press, saving you from unplugging dongles. Some listings count the 2.4GHz receiver as one of the three. Check the stated device count and whether it includes two Bluetooth channels."
+    "criterion": "Quiet buttons for shared spaces",
+    "explanation": "Quiet clicks use dampened switches that reduce the snap, which helps in open offices and meetings. They are rarely silent, and the scroll wheel can still tick. Look for the words silent or quiet in the title, and read reviews from other office users for a real sense of loudness."
   },
   {
-    "criterion": "Battery and charging",
-    "explanation": "A rechargeable cell is convenient, and a replaceable cell lasts months. Maker claims such as 24 months are best cases. Check the battery type."
-  },
-  {
-    "criterion": "Shell size and angle",
-    "explanation": "A vertical shell turns the hand to a handshake position, while a flat compact shell stays familiar and travels easily. Size matters because a mouse that is too small makes the hand clamp. Check the listed dimensions, any hand size note and the stated angle in degrees."
+    "criterion": "Battery and charge routine",
+    "explanation": "Rechargeable mice need a charge routine, and one that dies mid-meeting is a real cost. An on-device display, such as the OLED on the MiniLuxis, shows the level at a glance. Check whether the mouse works while charging, and look for auto sleep, which stretches the charge between sessions."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Scroll features",
-    "description": "We compared scroll wheels and side scroll options."
+    "title": "Scrolling for documents and sheets",
+    "description": "We checked scroll hardware, such as the metal fast scroll plus thumb wheel on the CITLLA and the infinite and side scroll on the MiniLuxis, because office work leans on long documents and wide spreadsheets. Horizontal scrolling only counted when the listing described a real second wheel."
   },
   {
-    "title": "Noise",
-    "description": "Quiet-click claims were noted."
+    "title": "Posture benefit over an 8-hour day",
+    "description": "We separated true vertical shells like the Lekvey from flat mice with an ergonomic label, since only a tilted shell rotates the forearm. For a full workday, a mouse that never states its shape or angle received less credit than one that does, however good its other specs."
   },
   {
-    "title": "Connection",
-    "description": "Bluetooth, receivers and device counts were compared."
+    "title": "Switching between work machines",
+    "description": "We compared pairing options, from dual Bluetooth plus 2.4GHz on the CITLLA and TECKNET to receiver-only models like the MangoEra, since many people carry a company laptop and use a desktop. Three-device pairing earned extra points because it removes re-pairing at a shared desk."
   },
   {
-    "title": "Comfort",
-    "description": "Shell shape and size were weighed."
+    "title": "Noise in shared offices",
+    "description": "We gave credit to quiet clicks, such as the near-silent CITLLA and the quiet buttons on the MangoEra, because an open office punishes a loud mouse. A noise claim is the maker's statement, so it lifted a pick modestly but did not outrank a well-fitting shell."
   },
   {
-    "title": "Value for price",
-    "description": "Cost only counted as justified when the listing showed a concrete feature the cheaper picks lack."
+    "title": "Cost per workday of comfort",
+    "description": "We weighed price against use, from two $10 mice to the roughly $46 CITLLA. A mouse used eight hours a day costs pennies per hour, so we judged whether each extra step up bought a visible gain, like the OLED display on the MiniLuxis, or just branding."
   }
 ];
 
@@ -289,7 +285,7 @@ export const howToChoose: HowToChooseSection[] = [
           "MiniLuxis Ergonomic Wireless Mouse with OLED Display"
         ],
         [
-          "About $46",
+          "Under $50",
           "CITLLA Ergonomic Bluetooth Mouse with Flying Scroll"
         ]
       ]
@@ -367,28 +363,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do I need a side scroll wheel?",
-    "a": "It helps if you work in wide spreadsheets. Otherwise you can hold a key while scrolling. It is a convenience."
+    "q": "Do I need a vertical mouse for office work?",
+    "a": "Not necessarily. A vertical shell like the Lekvey helps if your forearm twists or your wrist aches, but plenty of people work comfortably with a good flat mouse. If you feel no strain, a well-fitting TECKNET side scroll model may be enough and costs less."
   },
   {
-    "q": "Is Bluetooth or a dongle better at the office?",
-    "a": "A dongle usually pairs reliably, while Bluetooth saves a port. Models that offer both are flexible."
+    "q": "Is the CITLLA worth the extra over a $10 TECKNET?",
+    "a": "If you switch between a laptop and desktop, yes. The CITLLA offers dual Bluetooth plus 2.4GHz, a metal fast scroll wheel and a thumb wheel, while the $10 TECKNET is receiver-only and basic. For one machine and light use, the cheaper mouse is enough."
   },
   {
-    "q": "Are quiet clicks reliable?",
-    "a": "Listings do not give decibel figures here. Test in your office with the return window."
+    "q": "What does the OLED display on the MiniLuxis do?",
+    "a": "It shows battery level and DPI, so you can see charge before a meeting and confirm your sensitivity. That is useful if you forget to charge, but it adds nothing to comfort. Its listing does not state the shell angle, so test it against your hand."
   },
   {
-    "q": "Is the CITLLA worth the extra?",
-    "a": "It is worth it for a fast wheel and a thumb wheel. A budget mouse covers basics."
+    "q": "Can I use these with a company laptop that restricts USB?",
+    "a": "Some workplaces block USB receivers. Bluetooth models like the CITLLA, MiniLuxis and TECKNET side scroll avoid that, but receiver-only mice like the MangoEra may be blocked. Ask your IT team first, and keep your own Bluetooth option available as a fallback."
   },
   {
-    "q": "Do vertical mice suit work?",
-    "a": "They suit people with wrist strain, but take a week or two. If you have persistent pain, see a professional."
+    "q": "How should I set up my desk with an ergonomic mouse?",
+    "a": "Keep the mouse at the same height as the keyboard and close to it, with your elbow near a right angle. Let the forearm, not the wrist, move the mouse. Take short breaks every hour, and give a new shell a week to feel natural."
   },
   {
-    "q": "How do I switch devices?",
-    "a": "Press the device button to cycle between saved channels. Pair each device once."
+    "q": "Do I need a wrist rest with these mice?",
+    "a": "Usually not. A wrist rest only helps if it keeps your wrist neutral, and many people rest the palm on the mouse instead. If your wrist drags on the desk, try a soft pad, but do not let it anchor the wrist so you move from the fingers."
   }
 ];
 

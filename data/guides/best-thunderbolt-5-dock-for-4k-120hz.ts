@@ -84,69 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Refresh Rate Documentation Per Display Count", "description": "Compared how specifically each listing states its refresh rate ceiling as display count increases." },
-  { "title": "Platform-Specific Display Limits", "description": "Compared Windows versus macOS display and refresh rate differences on the same dock." },
-  { "title": "Power Delivery Under Full Display Load", "description": "Compared sustained charging wattage while driving multiple high-refresh displays simultaneously." },
-  { "title": "Build and Form Factor", "description": "Compared vertical, modular, and standard flat dock designs for desk footprint." },
-  { "title": "Real Bandwidth Allocation", "description": "Compared stated dynamic bandwidth shifting between data throughput and display needs." }
+  {
+    "title": "Refresh rate per display count",
+    "description": "We read each listing for the exact refresh rate at each monitor count, because a dock that advertises 4K at 240Hz often drops to 144Hz or 120Hz when a second or third screen is added. Lenovo's tiered breakdown gave the clearest per-count answers. Cheaper docks that skip this table are the ones that surprise buyers later."
+  },
+  {
+    "title": "Windows versus Mac ceilings",
+    "description": "We checked whether the page separates platforms. CalDigit's E5 lists three 4K at 144Hz on Windows but dual 4K at 240Hz on Mac, a split that changes the right purchase for anyone with a high-refresh gaming or editing monitor. A buyer with a 240Hz monitor should treat that Mac and Windows split as the deciding spec."
+  },
+  {
+    "title": "Bandwidth Boost dependence",
+    "description": "High refresh at 4K needs the 120Gbps display boost, so we favored docks that state it. At 80Gbps base, two 4K 240Hz streams do not fit, which is why TB4 laptops disappoint on this exact feature. That is why a Thunderbolt 5 host is a hard requirement for this specific use case."
+  },
+  {
+    "title": "Power delivery under refresh load",
+    "description": "We compared upstream wattage, from 90W on the CalDigit E5 up to 180W on Lenovo and Dell, since a laptop driving several fast displays draws more power and slow charging shows up as a battery that falls during gaming. Dell and Lenovo's 180W adapters left the most room for a hungry laptop."
+  },
+  {
+    "title": "Chip-dependent display disclosure",
+    "description": "We gave credit to Brydge for admitting its triple 4K at 144Hz or dual 8K at 60Hz depends on the exact MacBook chip. At a 120Hz-and-up target, vague claims cost buyers a return. Brydge's honesty earned it a spot despite being limited to 16-inch MacBook Pro owners."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Display Count and Refresh Rate Need",
-    table: {
-      headers: ["Your display need", "Recommended pick"],
-      rows: [
-        ["Four displays with mixed 4K@240Hz and 4K@120Hz", "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500"],
-        ["Triple 4K@144Hz on Windows or dual 4K@240Hz on Mac", "CalDigit E5 Thunderbolt 5 Element 5 Hub"],
-        ["Triple 4K@144Hz specifically on MacBook Pro", "Brydge ProDock Trio TB5 MacBook Docking Station"],
-        ["General 4K multi-display without a specific refresh spec", "Dell SD25TB5 Pro Thunderbolt 5 Smart Dock"]
+    "subheading": "By Refresh Rate Target",
+    "intro": "Refresh rate drops as you add monitors, so match the number to your real screen count.",
+    "table": {
+      "headers": [
+        "Your target",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Four displays including two 4K at 240Hz and two at 120Hz",
+          "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500, the only listing here with that breakdown"
+        ],
+        [
+          "Dual 4K at 240Hz on a Mac with a high-refresh display",
+          "CalDigit E5 Thunderbolt 5 Element 5 Hub, which documents dual 4K at 240Hz on Mac"
+        ],
+        [
+          "Three 4K at 144Hz on a Windows laptop",
+          "CalDigit E5 Thunderbolt 5 Element 5 Hub, since Windows is where its triple display claim applies"
+        ],
+        [
+          "One or two 4K panels at 120Hz on a 16-inch MacBook Pro",
+          "Brydge ProDock Trio TB5, which lists triple 4K at 144Hz depending on chip"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $250", "CalDigit E5 Thunderbolt 5 Element 5 Hub (under $250)"],
-        ["Under $400", "Lenovo ThinkPad Smart Dock 7500 (under $400) or Brydge ProDock Trio (under $400)"],
-        ["Under $450", "Dell SD25TB5 Pro (under $450)"]
+    "subheading": "By Budget",
+    "intro": "Price here tracks charging wattage and platform support more than refresh rate itself.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup, under $250",
+          "CalDigit E5 Thunderbolt 5 Element 5 Hub, which still reaches 144Hz across three 4K screens on Windows"
+        ],
+        [
+          "Mid-tier spend for a MacBook-only desk",
+          "Brydge ProDock Trio TB5, with a sleeve and vertical stand included"
+        ],
+        [
+          "Premium spend for a modular dock that can be upgraded later",
+          "Dell SD25TB5 Pro Thunderbolt 5 Smart Dock, the top of the range at under $450"
+        ],
+        [
+          "Enterprise-level spend for the most granular refresh table",
+          "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500, which costs more than the CalDigit E5"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Windows High-Refresh vs Mac High-Refresh",
-    cards: [
-      { label: "Windows high-refresh (Lenovo, CalDigit)", text: "Windows Thunderbolt 5 hosts on the Lenovo and CalDigit picks can reach triple 4K displays at 144Hz or higher, a configuration not available on macOS through the same docks." },
-      { label: "Mac high-refresh (Brydge, CalDigit)", text: "macOS is generally limited to fewer simultaneous high-refresh displays than Windows on the same hardware, with the Brydge and CalDigit picks both explicitly capping Mac display count below their Windows-side maximums." }
+    "subheading": "Windows Triple Display vs Mac Dual 240Hz",
+    "intro": "The same hardware lets you choose width or speed depending on the platform.",
+    "cards": [
+      {
+        "label": "Windows host (CalDigit E5)",
+        "text": "Three 4K displays at 144Hz suit a trading or coding desk where screen count beats raw refresh. Windows lets the dock spread display streams across more outputs."
+      },
+      {
+        "label": "Mac host (CalDigit E5)",
+        "text": "Two 4K displays at up to 240Hz suit a gaming Mac or video editor where motion smoothness matters. The third output is not available on macOS, and base M1 to M3 Macs cannot drive two displays at all."
+      }
     ],
-    note: "If you're on Windows and want the most simultaneous high-refresh displays, the Lenovo or CalDigit picks give you that headroom. If you're on a MacBook Pro specifically, the Brydge pick's honest per-chip disclosure helps you know exactly what to expect before buying.",
+    "note": "Default to the CalDigit E5 for either path unless you need four screens, in which case Lenovo is the only fit."
   },
   {
-    subheading: "By Power Delivery Need",
-    table: {
-      headers: ["Your charging need", "Recommended pick"],
-      rows: [
-        ["Maximum 180W charging for a demanding workstation laptop", "Lenovo ThinkPad Smart Dock 7500 or Dell SD25TB5 Pro"],
-        ["140W charging for a MacBook Pro", "Brydge ProDock Trio TB5"],
-        ["Charging even when the dock isn't connected to a host", "CalDigit E5 (Offline Charging feature)"]
+    "subheading": "By Power Needs",
+    "intro": "Higher refresh and bigger panels pull more from the laptop, so charging wattage matters.",
+    "table": {
+      "headers": [
+        "Laptop charger",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A 180W workstation laptop that throttles when under-charged",
+          "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500, which delivers 180W over PD 3.1"
+        ],
+        [
+          "A 140W laptop such as a 16-inch MacBook Pro",
+          "Brydge ProDock Trio TB5, which supplies 140W PD"
+        ],
+        [
+          "A thin 65W to 90W laptop",
+          "CalDigit E5 Thunderbolt 5 Element 5 Hub, whose 90W sustained across nine ports is enough"
+        ],
+        [
+          "A mixed Dell fleet where a swappable dock future-proofs ports",
+          "Dell SD25TB5 Pro Thunderbolt 5 Smart Dock, with a 180W adapter and modular ports"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For IT-Managed Office Fleets Specifically",
-    cards: [
-      { label: "Look for", text: "Remote fleet management capability that lets IT administrators configure, update, and diagnose docks across an organization without physically visiting each desk." },
-      { label: "In this comparison", text: "The Lenovo ThinkPad Smart Dock 7500 specifically includes Lenovo Accessories Fleet Manager, a cloud-based AWS-powered tool built for exactly this use case." }
-    ],
+    "subheading": "For Competitive Gamers Specifically",
+    "intro": "Refresh rate is only useful if the laptop's GPU can feed it.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A listing that says Windows, names the refresh rate per display count, and does not rely on a Thunderbolt 4 host. Anything that omits the 240Hz condition is likely to fall to 144Hz."
+      },
+      {
+        "label": "In this comparison",
+        "text": "CalDigit E5 Thunderbolt 5 Element 5 Hub gives the clearest Windows numbers for high refresh at the lowest price, while Lenovo's 7500 covers a bigger four-screen rig."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need the most granular four-display refresh rate breakdown and enterprise fleet management, where the Lenovo pick's under $400 price is justified by its IT-management features." },
-      { label: "Save if", text: "You mainly need dual or triple high-refresh displays without enterprise features, where the CalDigit E5 delivers that for under $250, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Refresh rate pushes you up in price only when you add screens or fleet needs.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want two 4K at 240Hz plus two more screens at 120Hz from one cable, which only Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500 documents."
+      },
+      {
+        "label": "Save if",
+        "text": "Your desk uses one or two monitors, where CalDigit E5 Thunderbolt 5 Element 5 Hub under $250 reaches the same 4K at 144Hz or 240Hz and saves the premium."
+      }
+    ]
   }
 ];
 

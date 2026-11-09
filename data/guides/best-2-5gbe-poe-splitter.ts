@@ -84,69 +84,151 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Connector Type Match", "description": "Compared DC barrel, USB-A, and USB-C connectors against common non-PoE device charging ports." },
-  { "title": "Real Voltage and Amperage", "description": "Compared documented output voltage and current across 12V, 24V, and 5V options." },
-  { "title": "2.5Gbps Speed Consistency", "description": "Compared whether full 2.5Gbps speed holds across all four picks." },
-  { "title": "PoE Source Requirements", "description": "Compared whether full power output requires a specific PoE standard or source type." },
-  { "title": "Electrical Protection", "description": "Compared isolation, short-circuit, and overvoltage protection disclosures." }
+  {
+    "title": "Output voltage match",
+    "description": "A splitter is only safe when its output voltage equals what the device expects. We separated the picks by their stated outputs: 12V/2A and 24V/1A barrel types, a 5V/4A USB-C model for the Raspberry Pi 4B, and a 5V USB-A model. A wrong voltage is the only way these cheap boxes destroy hardware, so this axis came first."
+  },
+  {
+    "title": "True 2.5G data path",
+    "description": "Every listing says 2.5Gbps, so we asked what must also be 2.5G to benefit: the PoE switch or injector, the cable, and the device's own port. A 2.5G splitter between 1G ends still works but only runs at 1G, so we noted where a buyer pays extra for speed they cannot reach."
+  },
+  {
+    "title": "Power class delivered",
+    "description": "We compared wattage: 24W for the two barrel types, 20W for the USB-C unit, and 12W under af or 20W under at for the DSLRKIT. A 2.5G access point or mini PC can pull more than a camera, so a low ceiling counts against a pick. Mini PCs and 2.5G access points can pull close to 20W under load, so the ceiling mattered."
+  },
+  {
+    "title": "Protection features",
+    "description": "The REVODATA units list isolation, short-circuit, and overvoltage protection, which matter because the splitter sits in front of an expensive device. We gave weight to isolation, because a voltage fault on the PoE side should never reach the device's data port."
+  },
+  {
+    "title": "Source requirements",
+    "description": "The DSLRKIT states it needs a PoE switch, midspan, or 48-52V injector. We treated unclear source requirements as a risk, since a passive 24V injector feeding an active splitter can destroy the splitter. That matters because a passive 24V injector on an active-only splitter is the classic way these boxes die."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Connector Type and Voltage",
-    table: {
-      headers: ["Your device's port and voltage", "Recommended pick"],
-      rows: [
-        ["Standard 12V DC (most IP cameras)", "REVODATA 2.5G PoE Splitter 12V/2A"],
-        ["24V DC (wireless bridges, access points)", "REVODATA 2.5G PoE Splitter 24V/1A"],
-        ["USB-C 5V (Raspberry Pi 4B/4B+)", "REVODATA 2.5G Type C PoE Splitter 5V/4A"],
-        ["USB-A 5V (tablets, standard USB devices)", "DSLRKIT 2.5G Gigabit Active PoE Splitter, USB Type A"]
+    "subheading": "By Device Power Input",
+    "intro": "The splitter's output plug must match your device, so start by reading its power label.",
+    "table": {
+      "headers": [
+        "Your device needs",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "12V DC at up to 2A, such as a router or small switch",
+          "REVODATA 2.5G PoE Splitter 12V/2A, with 24W and dual DC plug compatibility"
+        ],
+        [
+          "24V DC at up to 1A, such as some radios or media gear",
+          "REVODATA 2.5G PoE Splitter 24V/1A, with a 5.5x2.1mm DC plug"
+        ],
+        [
+          "A Raspberry Pi 4B or 4B+ that runs on USB-C 5V",
+          "REVODATA 2.5G Type C Splitter 5V/4A, built for the Pi 4B and 4B+"
+        ],
+        [
+          "A USB-A powered device that draws up to 20W",
+          "DSLRKIT 2.5G Gigabit Active PoE Splitter, with a USB Type A female output"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $14", "REVODATA 12V/2A or 24V/1A (both under $15)"],
-        ["Under $16", "REVODATA 2.5G Type C 5V/4A (under $20)"],
-        ["Under $17", "DSLRKIT USB Type A (under $20)"]
+    "subheading": "By Budget",
+    "intro": "All four sit in a narrow band, all under $17, so ports and plugs matter more than price.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $15, 12V barrel",
+          "REVODATA 2.5G PoE Splitter 12V/2A, the cheapest way to power a 12V device"
+        ],
+        [
+          "Under $15, 24V barrel",
+          "REVODATA 2.5G PoE Splitter 24V/1A, at the same cost for 24V gear"
+        ],
+        [
+          "Under $16, USB-C for a Pi",
+          "REVODATA 2.5G Type C, the lowest-cost Pi 4 option"
+        ],
+        [
+          "Under $17, USB-A output",
+          "DSLRKIT 2.5G, the only pick with a USB-A female output"
+        ]
+      ]
+    }
   },
   {
-    subheading: "DC Voltage Splitters vs USB Connector Splitters",
-    cards: [
-      { label: "DC voltage splitters (12V, 24V)", text: "Both use a standard DC barrel connector for cameras, bridges, and access points, the most common non-PoE device category." },
-      { label: "USB connector splitters (USB-C, USB-A)", text: "Both charge modern USB-powered devices like a Raspberry Pi or tablet, a genuinely different device category than DC-barrel cameras." }
+    "subheading": "Fixed Voltage vs Adjustable Voltage",
+    "intro": "Some splitters have a DIP switch for 5V, 9V, or 12V, but the 2.5G picks here are fixed. This is the key tradeoff to understand.",
+    "cards": [
+      {
+        "label": "Fixed (all four here)",
+        "text": "You buy the voltage that matches the device. That removes the chance of a wrong switch setting, and the model name carries the spec on the box. The price is that moving the splitter to another device may not work."
+      },
+      {
+        "label": "Adjustable (not in this group)",
+        "text": "Adjustable units can serve several devices but a wrong switch position can send 12V into a 5V port. If you only have one device and it has a stable voltage, fixed is safer."
+      }
     ],
-    note: "If you're converting a camera or access point, the DC voltage picks match that device category directly. If you're powering a Raspberry Pi or tablet, the USB-C or USB-A picks match those devices' actual charging ports.",
+    "note": "Most buyers should buy the fixed splitter that matches the device and label it."
   },
   {
-    subheading: "By PoE Source Type",
-    table: {
-      headers: ["Your PoE source", "Recommended pick"],
-      rows: [
-        ["Standard 802.3af/at PoE switch", "Any pick in this comparison works with standard sources"],
-        ["Non-standard 48-52V passive PoE", "DSLRKIT USB Type A (specifically supports this at full 20W)"],
-        ["Unsure of exact PoE standard", "REVODATA picks work at their rated output on either af or at"]
+    "subheading": "By Source Switch",
+    "intro": "The splitter needs a compatible upstream source at 2.5G.",
+    "table": {
+      "headers": [
+        "Your source",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "An 802.3at 2.5G PoE switch",
+          "REVODATA 2.5G PoE Splitter 12V/2A or REVODATA 2.5G PoE Splitter 24V/1A, both rated up to 24W"
+        ],
+        [
+          "An 802.3af port with a 12W limit",
+          "DSLRKIT 2.5G, whose listing explicitly states 12W under af"
+        ],
+        [
+          "A 48-52V injector",
+          "DSLRKIT 2.5G, which lists that input range"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Multi-Device Smart Home Setup Specifically",
-    cards: [
-      { label: "Look for", text: "The exact connector type and voltage matching each specific device you're converting, since a smart home setup often includes a genuine mix of DC-barrel cameras, USB-C smart devices, and USB-A gadgets that each need different splitters." },
-      { label: "In this comparison", text: "The four picks together cover the four most common non-PoE device connector types, letting you match each device to its correct splitter." }
-    ],
+    "subheading": "For a 2.5G Wi-Fi Access Point Specifically",
+    "intro": "2.5G ports on APs exist because the Wi-Fi 6 or 7 radio can exceed 1Gbps.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A matching DC output voltage, at least 15W of headroom, and a splitter that stays 2.5G on the data line."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The REVODATA 2.5G PoE Splitter 12V/2A supplies 24W at 12V for an AP, while the REVODATA 2.5G PoE Splitter 24V/1A fits 24V APs; check the AP's input label."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You're powering a Raspberry Pi 4B/4B+ and need both 2.5Gbps speed and higher 4A amperage, where the REVODATA Type C pick's under $20 price is justified by that specific combination." },
-      { label: "Save if", text: "You just need standard 12V or 24V DC output for a camera or bridge, where the REVODATA DC picks deliver that for under $15, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The whole group costs about the same, so the real choice is between these and other classes.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need 60W or above. A splitter in this group tops out at 24W; look to the budget splitter guide for 802.3af models or an injector for higher power."
+      },
+      {
+        "label": "Save if",
+        "text": "Your device is 12V or 5V. The REVODATA 2.5G PoE Splitter 12V/2A and REVODATA 2.5G Type C cost the least."
+      }
+    ]
   }
 ];
 
@@ -174,12 +256,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Do I need a 2.5GbE splitter for a standard IP camera, or is Gigabit enough?", "a": "Standard 1080p or basic 4K cameras work fine with a Gigabit splitter, so a 2.5GbE splitter is specifically worth the investment only if your camera or network infrastructure can actually utilize bandwidth beyond standard Gigabit speeds." },
-  { "q": "What's the most common mistake buyers make when choosing a 2.5GbE PoE splitter?", "a": "Choosing based on speed rating alone without checking connector type and voltage compatibility, when all four picks in this comparison share the identical 2.5Gbps speed and differ only in their actual DC or USB connector and voltage output." },
-  { "q": "Can I use the USB-C splitter's port to also transfer data to my Raspberry Pi?", "a": "No, the REVODATA Type-C pick specifically states its USB-C port is for power/charging only, not data transfer, so your Raspberry Pi still needs its own Ethernet connection or the splitter's own RJ45 pass-through for network data." },
-  { "q": "Will I get the full 20W from the DSLRKIT USB-A splitter on any PoE switch?", "a": "No, the DSLRKIT pick specifically states only 12W on a standard 802.3af source, with the full 20W requiring either an 802.3at switch or the manufacturer's specific non-standard 48-52V passive PoE source, so checking your exact PoE infrastructure is important." },
-  { "q": "How do I know if my device needs 12V or 24V output from a 2.5GbE splitter?", "a": "Checking your specific device's power specification label or documentation for its exact voltage requirement is the reliable way to confirm which output you need before choosing between the 12V and 24V REVODATA picks." },
-  { "q": "Is the REVODATA Type-C splitter compatible with a Raspberry Pi 3 or only the Pi 4?", "a": "The listing specifically names Raspberry Pi 4B/4B+ compatibility since those models use USB-C for power, while earlier Pi models like the Pi 3 use Micro USB instead and would need a Micro USB splitter rather than this USB-C model." }
+  {
+    "q": "Do I need Cat6 for a 2.5G PoE splitter?",
+    "a": "Cat5e is rated for 2.5G at up to 100m, but a poor cable can drop to 1G. Cat6 is a safer choice for runs near the limit. The splitter, switch, and device all need to support 2.5G, or the link falls back."
+  },
+  {
+    "q": "What happens if I use the wrong voltage splitter?",
+    "a": "It can destroy the device. A 12V splitter on a 5V device sends more than twice the voltage. Always match the output voltage on the device's label to the splitter's stated 12V, 24V, or 5V output. The 12V, 24V, and 5V labels in each product name tell you which socket it fits."
+  },
+  {
+    "q": "Is the DSLRKIT USB-A splitter better than the REVODATA 12V model?",
+    "a": "Only if you need USB-A power. The REVODATA 12V gives 24W, while the DSLRKIT gives 12W under af or 20W under at. For a barrel-plug 12V device, the REVODATA is the right fit. Both get 2.5G, so choose by the plug and the wattage, not the speed claim."
+  },
+  {
+    "q": "How do I connect a Raspberry Pi 4 with the Type C splitter?",
+    "a": "Plug the Cat cable into the PoE switch and the splitter's data port. Then connect its USB-C output to the Pi's power port and the splitter's Ethernet to the Pi. The listing names the Pi 4B and 4B+. Plug the splitter in first and check that the Pi powers up before closing any enclosure."
+  },
+  {
+    "q": "Can these splitters power something from a passive 24V injector?",
+    "a": "No. They need active PoE, as the DSLRKIT states: a PoE switch, midspan, or 48-52V injector. A passive 24V injector will not negotiate, so the splitter will not turn on or may be damaged. Check the injector's label for its output voltage first."
+  },
+  {
+    "q": "Does a 2.5G splitter run hot?",
+    "a": "Conversion wastes some power as heat, so it can feel warm, especially near its rated 24W. Leave airflow around it, and keep it out of closed boxes. A hot splitter usually means the load is near the limit."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -137,7 +137,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51w65gKvT3L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GVDV9LBB?tag=deskfinds0d-20",
-    "description": "ACGASK's coaster set has five flower-shaped crocheted pieces made from soft acrylic yarn. They protect a desk from condensation and look cute.\n\nAt about $10, it is the cheapest decorative item beside the pocket hug, and it adds to a bigger gift like the tumbler. It is less personal than the macrame display but more useful.\n\nA fine small gift for a student with a desk and a drink. The caveat is that crochet absorbs only light condensation, so it is not for hot mugs or spills.",
+    "description": "ACGASK's coaster set has five flower-shaped crocheted pieces made from soft acrylic yarn. They protect a desk from condensation and look cute.\n\nAt under $15, it is the cheapest decorative item beside the pocket hug, and it adds to a bigger gift like the tumbler. It is less personal than the macrame display but more useful.\n\nA fine small gift for a student with a desk and a drink. The caveat is that crochet absorbs only light condensation, so it is not for hot mugs or spills.",
     "specs": [
       "Set of 5 coasters",
       "Soft acrylic yarn"
@@ -187,47 +187,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "School rules on heat and flame",
-    "explanation": "Many colleges ban candles, including decorative unburned ones, and some ban wickless warmers. A gift that breaks a rule can be confiscated. Read the school's prohibited items list before buying anything that heats or burns."
+    "explanation": "Many residence halls ban open flames, candles, and sometimes heated appliances, so a gift that breaks a rule can be confiscated before the semester ends. A flameless candle warmer lamp like the Hong-in avoids a flame but still heats, so some halls count it as a heating appliance. Check the school's housing prohibited items list or ask the student before gifting anything with a bulb, coil, or string lights."
   },
   {
     "criterion": "Size and storage",
-    "explanation": "A dorm closet and bed storage are very limited, so a gift that is 70 inches wide takes space. Compare the listed dimensions to the bed size, which is usually a Twin XL at about 39 by 80 inches. Large soft gifts are best if they double as bedding."
+    "explanation": "A dorm room often means a single desk, a bed, and a closet shared with a roommate, so a 70 by 60 inch wearable blanket stores bulkier than a tumbler or a set of coasters. Fold size matters as much as use. Look for the stated dimensions in the title or bullets and ask whether the item folds into a stocking-sized space."
   },
   {
     "criterion": "Dishwasher and cleaning care",
-    "explanation": "Gifts used daily need to be easy to clean in a shared bathroom or kitchenette. Stainless steel wipes clean and crochet needs hand washing. Look for care instructions in the bullets."
+    "explanation": "Dorms rarely have dishwashers, so a stainless tumbler that needs hand washing is fine, while a sweat-proof lid with many crevices is harder to clean in a communal sink. Crochet coasters and blankets should be machine washable at the laundry room. Read the care instructions in the listing, because 'hand wash only' is common on gifted textiles."
   },
   {
     "criterion": "Power and outlets",
-    "explanation": "Outlets near a dorm bed are scarce, so plug in gifts compete with phone chargers. Battery or no-power gifts avoid the issue. Check whether the item needs a wall outlet and what timer it has."
+    "explanation": "Dorm outlets are scarce and often shared with a fridge and a laptop. A candle warmer lamp needs a wall outlet with a 2, 4 or 8 hour timer, while string lights on a photo display may be battery powered. Check the plug type and cord length in the listing, and consider a gift that needs no outlet at all for a student already short on sockets."
   },
   {
-    "criterion": "Gift age fit",
-    "explanation": "Many listings are labeled for teen girls or women, but the product may suit anyone. Neutral designs avoid awkward gifting. Read the listing for any gendered language on the product itself."
-  },
-  {
-    "criterion": "Shipping and timing",
-    "explanation": "Holiday shipping slows down and prices rise. A gift that arrives after the student leaves for break may not be seen. Confirm delivery estimates and ship to the family address if the dorm closes."
+    "criterion": "Gift age fit and shipping timing",
+    "explanation": "A first-year student values practical comfort, like a wearable blanket for late study sessions, while an upperclassman may prefer decor. For a card-sized gift such as the pocket hug, shipping is simple. For an oversized blanket, order a couple of weeks before the holiday and confirm the delivery estimate, since December shipping slows."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Fit for a dorm room",
-    "description": "We compared sizes and power needs to match small shared rooms."
+    "title": "Hall rule friendliness",
+    "description": "Dorm policies shape what is safe to gift. We marked down items that rely on heat or light near fabric, such as the Hong-in flameless candle warmer and the KLOGTSIND macrame string lights, and credited the Hong-in's 2, 4 or 8 hour timer, which is the kind of safeguard a housing office looks for."
   },
   {
-    "title": "Rule risk",
-    "description": "Items that heat, burn or glow were weighed against common prohibited item lists."
+    "title": "Daily usefulness for a student",
+    "description": "A gift that gets used beats a gift that gets shelved. The Super Blanky 70 by 60 inch wearable with sleeves keeps hands free while studying, and the DOEARTE 18/8 stainless tumbler holds drinks without sweat, so we ranked everyday items above purely sentimental ones like the Aeonovs pocket hug."
   },
   {
-    "title": "Everyday use",
-    "description": "We favored gifts likely to be used all semester rather than one night."
+    "title": "Footprint in a shared room",
+    "description": "Tiny rooms reward small things. We compared each pick's size against a shared desk and closet, noting that the ACGASK five-coaster set and the pocket hug take almost no space while the wearable blanket is bulky to store. Stated dimensions counted for more than a vague description."
   },
   {
-    "title": "Price range",
-    "description": "Picks span under $7 to about $39 so you can choose a main gift and add-ons."
+    "title": "Care and durability",
+    "description": "Students wash things in shared machines or sinks. We checked for washable or sweat-proof construction, such as the tumbler's BPA-free stainless steel and the blanket's machine-washable use, and flagged the crochet coasters' light condensation limit so you do not gift them for hot mugs."
+  },
+  {
+    "title": "Gift value across budgets",
+    "description": "Prices run from under $10 to under $40. We matched a pick to each tier, from the Aeonovs token and ACGASK coasters to the Super Blanky, and asked whether a lower price meant less usefulness. A very cheap sentimental gift is fine as an add-on, not as the main present."
   }
 ];
 
@@ -278,7 +278,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Aeonovs Pocket Hug College Gift"
         ],
         [
-          "About $10",
+          "Under $15",
           "ACGASK Crochet Flower Coasters Set of 5"
         ],
         [
@@ -368,28 +368,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Are candle warmers allowed in dorms?",
-    "a": "Rules vary. Some schools allow wickless warmers, while others ban them with candles. Check the prohibited item list before gifting the Hong-in Flameless Candle Warmer Lamp, which has 2, 4 or 8 hour timers and 4 level dimming."
+    "q": "Are flameless candle warmers allowed in dorms?",
+    "a": "It depends on the school. The Hong-in uses a bulb instead of an open flame, but some housing offices ban any heat appliance or lamp that warms a wax jar. Check the prohibited items list first, and keep a timer on it, since the Hong-in offers 2, 4 and 8 hour settings."
   },
   {
-    "q": "Can I ship a gift directly to a dorm?",
-    "a": "Many schools accept packages at a mail center, but holiday timing is tight. Shipping to a family address is safer, and you can hand it over at the break."
+    "q": "What is the best Christmas gift for a freshman on a tight budget?",
+    "a": "A small, practical item. The DOEARTE stainless tumbler or the ACGASK crochet coasters cost little, and the Aeonovs pocket hug is the cheapest. Pair a tumbler with a few coasters for a gift under $30 that gets used daily on a dorm desk."
   },
   {
-    "q": "How big should a blanket be for a dorm bed?",
-    "a": "Most dorm beds are Twin XL at roughly 39 by 80 inches. The Super Blanky Wearable Blanket with Sleeves is 70 x 60 inches, so it works as a throw on top of bedding, not as a full cover."
+    "q": "Will a wearable blanket fit a dorm bed?",
+    "a": "Yes, it is designed for a chair or a bed. The Super Blanky is 70 by 60 inches with sleeves, so it covers a twin XL bed edge, but you need storage space for it. It works as a throw on a desk chair, which makes it better than a plain blanket for studying."
   },
   {
-    "q": "Is a tumbler better than a mug as a gift?",
-    "a": "A tumbler fits a backpack and keeps drinks from spilling, so the DOEARTE Stainless College Student Tumbler suits students walking to class more than a mug. It is 18/8 stainless steel and sweat proof."
+    "q": "Is the Super Blanky worth the extra cost over small gifts?",
+    "a": "If your student studies in a cold room, yes. It is the highest priced pick and the only one that keeps hands free with sleeves, while the coasters or tumbler cost far less. For a student with a warm room, the cheaper picks may serve better."
   },
   {
-    "q": "How do I hang a photo display without damage?",
-    "a": "Use removable adhesive hooks and keep the string lights low heat. The KLOGTSIND Macrame Photo Display has 50 photo clips, so confirm weight limits and wall rules with housing first."
+    "q": "How do I make photo displays safe for walls?",
+    "a": "Use removable adhesive hooks, not nails, because dorms charge for wall damage. The KLOGTSIND macrame display holds 50 photo clips with string lights, and a lightweight cotton rope hangs well on small hooks. Check the lights are battery powered or low voltage before you hang them."
   },
   {
-    "q": "What if the student already has these items?",
-    "a": "Include a gift receipt and add small items that rarely duplicate, such as the ACGASK Crochet Flower Coasters Set of 5 or the Aeonovs Pocket Hug token. A short note keeps it personal."
+    "q": "When should I order a dorm gift to arrive on time?",
+    "a": "Order about two weeks before the holiday and confirm a delivery estimate, since shipping slows in December. If the student lives on campus, check the mailroom rules on packages. For a card, the pocket hug ships flat, so it works as a last-minute add-on."
   }
 ];
 

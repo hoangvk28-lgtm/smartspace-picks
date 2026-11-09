@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Official vs Third-Party Compatibility", "description": "Compared Microsoft's own docks against third-party docks engineered specifically for Surface hardware." },
-  { "title": "Charging Speed", "description": "Compared stated charging time and wattage for Surface laptop models." },
-  { "title": "Display Count", "description": "Compared maximum simultaneous external display support across dual and triple configurations." },
-  { "title": "Port Variety", "description": "Compared legacy VGA support, card readers, and data transfer speeds." },
-  { "title": "Warranty Coverage", "description": "Compared stated warranty length between third-party Surface dock options." }
+  {
+    "title": "Surface host fit",
+    "description": "We checked whether each dock is built around Surface Thunderbolt 4 or USB4 ports, since Surface Pro and Laptop models vary in which standard they carry. The Microsoft docks list genuine Thunderbolt 4 or USB4 hosts, while third-party 12-in-1 and 13-in-1 docks needed clear Surface compatibility language to earn credit. A mismatch here means paying for ports your Surface cannot feed."
+  },
+  {
+    "title": "Display count and connector mix",
+    "description": "Surface laptops often run two or three monitors on a desk, so we compared outputs: dual 4K on the Microsoft Thunderbolt 4 dock, triple 4K via two HDMI plus DisplayPort on the 13-in-1, and a dual HDMI plus VGA mix on the 12-in-1 for older monitors."
+  },
+  {
+    "title": "Charging and rapid charge",
+    "description": "A Surface needs a dock that charges quickly while driving displays. We compared the Microsoft dock's 2.5 hour rapid charge claim and the 100W pass-through on the third-party picks, and noted which listings state the wattage rather than hiding it."
+  },
+  {
+    "title": "Wired network speed",
+    "description": "We compared 2.5G Ethernet on the Thunderbolt 4 Microsoft dock with Gigabit on the USB4 Business dock and the 12-in-1. For a desk with a fast office line, 2.5G is the difference that justifies the higher tier."
+  },
+  {
+    "title": "Warranty and support signals",
+    "description": "We weighed the 24-month warranty on the third-party 13-in-1 against the manufacturer's support on Microsoft's own docks. A dock that fails in month 14 is a real cost, so a stated warranty length counted toward the verdict."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Official Microsoft reliability with rapid charging", "Microsoft Surface Thunderbolt 4 Docking Station"],
-        ["An official but lower-priced USB4 option", "Microsoft Surface USB4 Dock for Business"],
-        ["Triple-display support with fast card reading", "Surface Thunderbolt 4 Dock 13-in-1"],
-        ["Legacy VGA compatibility at the lowest price", "12-in-1 Thunderbolt 4 Dock, Dual HDMI + VGA"]
+    "subheading": "By Surface Model",
+    "intro": "Your Surface's port standard decides how much of the dock works.",
+    "table": {
+      "headers": [
+        "Your Surface",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Surface Laptop or Pro with Thunderbolt 4",
+          "Microsoft Surface Thunderbolt 4 Docking Station, the genuine Thunderbolt 4 option with dual 4K support"
+        ],
+        [
+          "Surface business models with USB4 hosts",
+          "Microsoft Surface USB4 Dock for Business, with a USB4 host interface and Power Delivery pass-through"
+        ],
+        [
+          "Surface with triple-monitor desk",
+          "Surface Thunderbolt 4 Dock 13-in-1, with dual HDMI plus DisplayPort for triple 4K"
+        ],
+        [
+          "Surface with legacy VGA display",
+          "12-in-1 Thunderbolt 4 Dock, Dual HDMI + VGA, covering older monitors and projectors"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $135", "12-in-1 Dual HDMI + VGA (under $140)"],
-        ["Under $140", "Surface Thunderbolt 4 Dock 13-in-1 (under $140)"],
-        ["Under $170", "Microsoft Surface USB4 Dock for Business (under $170)"],
-        ["Under $220", "Microsoft Surface Thunderbolt 4 Docking Station (under $250)"]
+    "subheading": "By Budget",
+    "intro": "The four docks run from under $150 to over $200.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Under $140",
+          "12-in-1 Thunderbolt 4 Dock, with dual HDMI, VGA and 100W DC charging"
+        ],
+        [
+          "Under $150",
+          "Surface Thunderbolt 4 Dock 13-in-1, with 100W charging and a 24-month warranty"
+        ],
+        [
+          "Under $170",
+          "Microsoft Surface USB4 Dock for Business, with USB4 and Gigabit Ethernet"
+        ],
+        [
+          "Under $220",
+          "Microsoft Surface Thunderbolt 4 Docking Station, with 2.5G Ethernet and rapid charging"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Official Microsoft Dock vs Third-Party Surface-Optimized Dock",
-    cards: [
-      { label: "Official Microsoft (both Microsoft-branded picks)", text: "Backed by first-party support and engineering specifically validated against Surface hardware, at a price premium over third-party alternatives." },
-      { label: "Third-party Surface-optimized (13-in-1 and 12-in-1 picks)", text: "Offers more ports and displays for less money, precision-engineered for Surface compatibility but without Microsoft's direct support backing." }
+    "subheading": "Microsoft-Branded vs Third-Party Docks",
+    "intro": "Branding changes both the compatibility story and the price.",
+    "cards": [
+      {
+        "label": "Microsoft-branded",
+        "text": "The Thunderbolt 4 and USB4 Business docks are designed around Surface, with clear support and rapid charging. You pay for that certainty."
+      },
+      {
+        "label": "Third-party",
+        "text": "The 13-in-1 and 12-in-1 give more ports, triple or mixed-display outputs and 100W charging for less, but compatibility depends on your exact Surface model."
+      }
     ],
-    note: "If official support and proven reliability matter most, either Microsoft-branded pick is the safer choice. If maximizing ports and displays per dollar matters more, the third-party picks deliver more for less.",
+    "note": "Choose Microsoft-branded if the Surface is a business machine or you want one support path; choose third-party for value."
   },
   {
-    subheading: "By Display Configuration Needed",
-    table: {
-      headers: ["Your display setup", "Recommended pick"],
-      rows: [
-        ["Dual 4K monitors", "Microsoft Surface Thunderbolt 4 Docking Station"],
-        ["Triple displays including a legacy VGA screen", "12-in-1 Thunderbolt 4 Dock, Dual HDMI + VGA"]
+    "subheading": "By Display Mix",
+    "intro": "Monitor connectors vary, so match the dock's outputs.",
+    "table": {
+      "headers": [
+        "Your monitors",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Two 4K monitors on modern inputs",
+          "Microsoft Surface Thunderbolt 4 Docking Station, dual 4K support"
+        ],
+        [
+          "Three monitors with HDMI and DisplayPort",
+          "Surface Thunderbolt 4 Dock 13-in-1, with triple display support"
+        ],
+        [
+          "One HDMI monitor plus a VGA projector",
+          "12-in-1 Thunderbolt 4 Dock, with dual 4K HDMI and VGA"
+        ],
+        [
+          "One HDMI screen with basic needs",
+          "Microsoft Surface USB4 Dock for Business, with a single HDMI port and Gigabit Ethernet"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Photographers and Videographers Specifically",
-    cards: [
-      { label: "Look for", text: "Fast integrated SD/TF card slots rated for high-speed offloading, so transferring photos and video from a camera's memory card doesn't bottleneck your workflow." },
-      { label: "In this comparison", text: "The Surface Thunderbolt 4 Dock 13-in-1 specifically states SD/TF card slots rated up to 104MB/s, directly supporting fast media offloading." }
-    ],
+    "subheading": "For a Hybrid Office Desk Specifically",
+    "intro": "A shared hot-desk or hybrid desk needs fast plug-in and reliable power.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A single-cable connection with 100W charging, Ethernet and enough USB-A for a keyboard and mouse, so you can sit down and work in seconds."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Microsoft USB4 Dock for Business adds Power Delivery pass-through and Gigabit Ethernet, and the 13-in-1 gives 100W charging with a 24-month warranty."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want official Microsoft reliability with the fastest stated charging time, where the Microsoft Surface Thunderbolt 4 Docking Station justifies its under $250 price." },
-      { label: "Save if", text: "You want triple-display support and fast card reading without official Microsoft branding, where the 13-in-1 pick delivers that for under $140." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Pay for Microsoft's dock only when its extras matter.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need 2.5G Ethernet and the simplest Surface support path. The Microsoft Thunderbolt 4 dock, above $200, brings both plus rapid charging."
+      },
+      {
+        "label": "Save if",
+        "text": "You want triple display or VGA. The 13-in-1 under $150 or the 12-in-1 under $140 cover more outputs; see the best USB4 dock guide for broader picks."
+      }
+    ]
   }
 ];
 
@@ -182,12 +268,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will the official Microsoft Surface USB4 Dock for Business work with older Surface Pro models?", "a": "Checking Microsoft's specifically stated compatibility list for your exact Surface Pro generation before purchase is worth doing, since USB4 and Surface Connect compatibility can vary between older and newer Surface Pro models." },
-  { "q": "What's the most common mistake buyers make when choosing between official and third-party Surface docks?", "a": "Assuming a third-party dock's higher port count and lower price make it the clear better choice without confirming it specifically lists your exact Surface model in its stated compatibility, since not every third-party dock supports every Surface generation equally well." },
-  { "q": "Is the official Microsoft Thunderbolt 4 dock worth the price premium over the third-party 13-in-1 pick?", "a": "If official Microsoft support and the fastest stated charging speed matter most to you, yes, but if you specifically want triple-display support and fast card reading at a lower price, the third-party 13-in-1 pick delivers more features for less money." },
-  { "q": "How do I know if my Surface device supports triple external displays through one of these docks?", "a": "Checking your specific Surface model's official display output specifications against the dock's stated display support is worth doing, since some Surface models are limited to fewer simultaneous external displays regardless of how many the dock itself supports." },
-  { "q": "Do these Surface docks require installing special drivers before use?", "a": "The third-party picks in this comparison specifically state plug-and-play compatibility with no drivers needed, while the official Microsoft docks are also designed for driverless operation, though checking for the latest Surface firmware updates is worth doing for the smoothest initial setup." },
-  { "q": "Can I use the VGA port on the 12-in-1 dock and the dual HDMI ports at the same time for three displays?", "a": "Yes, the 12-in-1 pick specifically supports triple display output using its dual HDMI and single VGA ports simultaneously in extend or mirror mode, though your specific Surface model's own display output limits still apply." }
+  {
+    "q": "Will a Surface Pro with a USB4 port work with a Thunderbolt 4 dock?",
+    "a": "Yes, Thunderbolt 4 docks are backward compatible with USB4 hosts at up to 40Gbps, so the Microsoft Thunderbolt 4 dock still works. You may not get every feature, such as the guaranteed dual 4K output, so check your model's display limits."
+  },
+  {
+    "q": "What do buyers most often get wrong with Surface docks?",
+    "a": "They assume a USB-C port equals a Thunderbolt port. Many Surface models have only USB-C data ports or only USB4, which limits the number of displays and charging speed. Check the port icon and the Surface model's tech specs before buying."
+  },
+  {
+    "q": "Is the Microsoft Thunderbolt 4 dock worth over the 13-in-1 third-party dock?",
+    "a": "If you need 2.5G Ethernet and the lowest compatibility risk, yes, though it costs over $200. The 13-in-1 around the $140 bucket gives triple 4K display output, 100W charging and a 24-month warranty for much less."
+  },
+  {
+    "q": "Why is my Surface charging slowly on a dock?",
+    "a": "Pass-through charging depends on the dock's wattage and the Surface's charger needs. The 12-in-1 provides 100W DC charging, but a Surface Laptop Studio draws more under load. Using the original charger on the dock's power input avoids the shortfall."
+  },
+  {
+    "q": "How do I connect a VGA projector with the 12-in-1 dock?",
+    "a": "Plug the projector's VGA cable into the dock's VGA port, then press Windows plus P and choose Extend or Duplicate. VGA carries analog video up to 1080p, so for a sharp image use HDMI or DisplayPort where available."
+  },
+  {
+    "q": "Can I use two docks to add more ports to a Surface?",
+    "a": "Rarely useful. A Surface has limited USB4 or Thunderbolt ports, and daisy-chaining splits the 40Gbps between the dock and any second device. Pick one dock with the ports you need, like the 13-in-1's three USB-A and card slots."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

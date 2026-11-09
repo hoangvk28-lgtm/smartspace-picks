@@ -84,70 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real Wattage Output", "description": "Compared documented power delivery in watts across IEEE 802.3af/at compliant designs." },
-  { "title": "Cascade Distance and Configuration", "description": "Compared multi-unit daisy-chain support and total achievable distance." },
-  { "title": "Speed vs Distance Tradeoffs", "description": "Compared Gigabit versus Fast Ethernet speeds and any switchable distance modes." },
-  { "title": "Outdoor and Electrical Durability", "description": "Compared IP ratings, housing materials, and surge/ESD protection specifications." },
-  { "title": "Build Quality for the Installation Context", "description": "Compared indoor versus outdoor-oriented casing design and connector shielding." }
+  {
+    "title": "Power ceiling at the output",
+    "description": "We compared the wattage each unit can pass on, from Revotech's 15.4W af ceiling to Gigabit extender's 30W and Intellinet's 25W. A camera with a heater or pan-tilt motor can draw more than 15W, so the number sets which devices are safe. Check your camera's rated wattage first."
+  },
+  {
+    "title": "Distance mode and daisy chain",
+    "description": "We read the distance claims. Cudy offers 100m Gigabit or 250m at 10Mbps by DIP switch, Revotech reaches 700m across 6 units, and Intellinet reaches 1640ft in 4 units. We weighted claims that state the speed trade-off. Pick the distance mode before wiring a long run."
+  },
+  {
+    "title": "Weather and temperature rating",
+    "description": "We checked housing ratings. The Gigabit outdoor unit lists IP66 and -20C to 60C, Intellinet's IP65 metal housing covers -40F to 167F, and Cudy is rated 0C to 40C indoors only, so they suit different mounts. A wall under an eave needs a different rating than a bare pole."
+  },
+  {
+    "title": "Surge and ESD protection",
+    "description": "We compared the protection listed, such as Cudy's IEC Level 3 ESD and 2kV surge or the outdoor unit's 2KV surge. An extender on a long exterior run takes the hits that the switch indoors does not. Outdoor cable runs invite lightning-induced surges."
+  },
+  {
+    "title": "Speed and compatibility limits",
+    "description": "We noted the gaps. Revotech is 10/100Mbps only, and the Gigabit outdoor unit excludes 24V passive PoE and non-PoE output devices, so a buyer with passive cameras or a plain Ethernet device would need a different unit. Passive 24V cameras will not work on the outdoor unit."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Full Gigabit speed with 30W power at the lowest price", "Gigabit PoE Extender Outdoor Waterproof, 1-Port"],
-        ["The absolute lowest price without needing Gigabit", "Revotech 1 Port POE Extender (POE5002)"],
-        ["A switchable speed-versus-distance mode", "Cudy Gigabit PoE+ Extender (POE10)"],
-        ["A metal housing for electrically noisy environments", "Intellinet Outdoor Gigabit PoE+ Extender, IP65"]
+    "subheading": "By Distance Mode",
+    "intro": "Gigabit and long reach trade against each other on some units.",
+    "table": {
+      "headers": [
+        "Your run",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A run under 100m with Gigabit and a second hop",
+          "Gigabit PoE Extender Outdoor Waterproof, 1-Port PoE+, which cascades to 1640ft"
+        ],
+        [
+          "A run you can stretch to 250m at 10Mbps for a basic camera",
+          "Cudy Gigabit PoE+ Extender (POE10), with a DIP switch Long-Range mode"
+        ],
+        [
+          "A very long chain of up to 6 units for 700m",
+          "Revotech 1 Port POE Extender (POE5002), at 10/100Mbps"
+        ],
+        [
+          "A run of up to 1640ft in four units for a gate or barn",
+          "Intellinet Outdoor Gigabit PoE+ Extender, IP65"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $16", "Revotech 1 Port POE Extender (under $20)"],
-        ["Under $19", "Gigabit PoE Extender Outdoor Waterproof (under $20)"],
-        ["Under $40", "Cudy Gigabit PoE+ Extender (under $40)"],
-        ["Under $93", "Intellinet Outdoor Gigabit PoE+ Extender (under $100)"]
+    "subheading": "By Budget",
+    "intro": "Both low-cost units cost under $20, while Intellinet sits at the top.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup, under $20",
+          "Gigabit PoE Extender Outdoor Waterproof, 1-Port PoE+, with 30W Gigabit"
+        ],
+        [
+          "A similarly low price for a 15.4W camera",
+          "Revotech 1 Port POE Extender (POE5002), at 10/100Mbps"
+        ],
+        [
+          "A step up for a switchable long-range mode indoors",
+          "Cudy Gigabit PoE+ Extender (POE10), higher than the other picks"
+        ],
+        [
+          "The top of the range for a metal housing and shielded RJ45",
+          "Intellinet Outdoor Gigabit PoE+ Extender, IP65"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Gigabit Speed vs Fast Ethernet Value",
-    cards: [
-      { label: "Gigabit speed (Gigabit pick, Cudy, Intellinet)", text: "These three maintain full 1000Mbps throughput, better suited to bandwidth-hungry devices like modern 4K cameras that benefit from more than 100Mbps." },
-      { label: "Fast Ethernet value (Revotech)", text: "Delivers 10/100Mbps at the lowest price in this comparison, a reasonable tradeoff if your single connected device doesn't need Gigabit bandwidth." }
+    "subheading": "Long-Range 10Mbps vs Gigabit",
+    "intro": "Cudy's DIP switch is the clearest example of a trade you must choose.",
+    "cards": [
+      {
+        "label": "Gigabit mode (100m)",
+        "text": "Gigabit at 100m per hop suits 4K cameras and access points, with a 3-unit chain reaching 300m in this mode."
+      },
+      {
+        "label": "Long-Range mode (250m)",
+        "text": "The 10Mbps mode reaches 250m per hop and 750m over three units, which suits a low-bitrate camera or sensor but not video-heavy devices."
+      }
     ],
-    note: "If your device is a modern high-resolution camera or access point, the Gigabit-rated picks are worth the modest price difference. If you're powering a basic IP phone or older camera, the Revotech's lower price delivers adequate performance.",
+    "note": "Default to Gigabit mode unless the distance is the only blocker."
   },
   {
-    subheading: "By Installation Environment",
-    table: {
-      headers: ["Your installation", "Recommended pick"],
-      rows: [
-        ["Genuinely outdoor, wall or pole mounted", "Gigabit PoE Extender Outdoor Waterproof or Intellinet"],
-        ["Indoor wall mount, compact space", "Cudy Gigabit PoE+ Extender (POE10)"],
-        ["Electrically noisy industrial or commercial setting", "Intellinet Outdoor Gigabit PoE+ Extender, IP65"]
+    "subheading": "By Mounting Location",
+    "intro": "Weather rating is the sharpest divider among these four.",
+    "table": {
+      "headers": [
+        "Install spot",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Outside on a post or wall",
+          "Gigabit PoE Extender Outdoor Waterproof, 1-Port PoE+, with IP66"
+        ],
+        [
+          "Outside in extreme cold or heat",
+          "Intellinet Outdoor Gigabit PoE+ Extender, with -40F to 167F"
+        ],
+        [
+          "Indoors on a wall, such as an attic",
+          "Cudy Gigabit PoE+ Extender (POE10), compact and lightweight"
+        ],
+        [
+          "A mild indoor garage run for a basic camera",
+          "Revotech 1 Port POE Extender (POE5002), with automatic installation protection"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Long-Distance Single-Camera Run Specifically",
-    cards: [
-      { label: "Look for", text: "A cascade configuration that reaches your specific required distance, checking whether the maximum distance requires multiple units or is achievable from a single extender alone." },
-      { label: "In this comparison", text: "The Revotech pick's 6-unit cascade reaching 700m and the Cudy pick's 750m Long-Range mode both offer genuinely long-distance options for a single remote camera." }
-    ],
+    "subheading": "For Single-Camera Garage Runs Specifically",
+    "intro": "A single camera far from the router is the classic extender job.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A power ceiling above your camera's rated draw, a matching PoE standard, and outputs that connect only to PoE devices."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Gigabit PoE Extender Outdoor Waterproof, 1-Port PoE+ gives 30W at Gigabit for under $20, but it needs 48V to 57V standard PoE, not 24V passive."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You're installing in an electrically noisy industrial setting and want a metal housing with shielded connectors, where the Intellinet's under $100 price is justified by that build quality." },
-      { label: "Save if", text: "You want full Gigabit speed with solid outdoor durability, where the Gigabit PoE Extender Outdoor Waterproof delivers that for under $20, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Higher price buys housing quality, not extra distance.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "The unit sees snow or direct sun, where Intellinet Outdoor Gigabit PoE+ Extender offers a metal body and a wide temperature range."
+      },
+      {
+        "label": "Save if",
+        "text": "The camera is a modest 1080p model, where Revotech 1 Port POE Extender (POE5002) under $20 handles 15.4W."
+      }
+    ]
   }
 ];
 

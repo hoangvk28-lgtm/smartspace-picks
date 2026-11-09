@@ -84,70 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real Speed Impact of Extend Mode", "description": "Compared documented bandwidth reduction when each switch's extended-range mode is enabled." },
-  { "title": "Total PoE Power Budget", "description": "Compared combined wattage available across all 8 ports for demanding devices." },
-  { "title": "Outdoor Durability", "description": "Compared IP ratings and lightning protection for outdoor camera deployments." },
-  { "title": "Management Capability", "description": "Compared unmanaged plug-and-play versus remotely manageable configurations." },
-  { "title": "Automatic Recovery Features", "description": "Compared auto-reboot and watchdog functions for unattended 24/7 deployments." }
+  {
+    "title": "Total PoE budget across eight ports",
+    "description": "Eight ports rarely get full power. We read the listed budgets: 65W for the TP-Link LS108GP, 78W for the outdoor unit, and 120W for both the STEAMEMO and SICSOLINK. Dividing by eight shows roughly 8 to 15W per port, so budget was our first filter. That arithmetic filtered out switches whose headline port count outran their power."
+  },
+  {
+    "title": "Extend mode reach and its cost",
+    "description": "Several of these switches include a long-range mode. The TP-Link and SICSOLINK list 250m in Extend Mode, and the outdoor unit also lists 250m. We noted that the extended range drops speed sharply, and gave credit only when the listing admitted the tradeoff."
+  },
+  {
+    "title": "Management and monitoring",
+    "description": "We compared whether the switch is unmanaged or managed. The STEAMEMO lists web, desktop, and mobile app management, VLAN, QoS, and DHCP snooping. For a small business camera network those features helped isolate traffic, so they scored above a plain plug and play."
+  },
+  {
+    "title": "Auto-recovery for frozen devices",
+    "description": "We checked watchdog features. The TP-Link has PoE Auto Recovery and the SICSOLINK lists AI watchdog auto-reboot for offline devices. Remote cameras freeze, and a switch that reboots a port saves a ladder trip. A frozen camera at 2am on an unreachable pole is the failure we scored against, and an automatic port reboot is the cheapest fix."
+  },
+  {
+    "title": "Housing and environment",
+    "description": "We checked fan noise and enclosure. The TP-Link and SICSOLINK use fanless metal bodies, and the outdoor unit adds an IP65 rating with 4KV lightning protection. We only credited weatherproofing when it matched the stated temperature range. A fan also adds noise and dust intake in a closet."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Full Gigabit speed with an extend mode option", "TP-Link LS108GP 8 Port PoE Gigabit Switch"],
-        ["Genuine IP65 outdoor durability with lightning protection", "Outdoor Waterproof 8-Port PoE Switch"],
-        ["Remote management via web, app, or desktop software", "STEAMEMO 8 Port Managed PoE+ Switch"],
-        ["The lowest price with automatic device recovery", "SICSOLINK 8-Port PoE+ Switch"]
+    "subheading": "By Camera Load",
+    "intro": "At eight ports, the sum of power draws outweighs everything else.",
+    "table": {
+      "headers": [
+        "Your eight devices",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Eight 1080p cameras at around 6W each",
+          "TP-Link LS108GP Gigabit Switch, as its 65W budget covers that load with room to spare"
+        ],
+        [
+          "A mix of cameras and APs needing about 10 to 12W each",
+          "SICSOLINK 8-Port PoE+ Switch, with a 120W budget"
+        ],
+        [
+          "Mixed gear that needs VLAN separation and monitoring",
+          "STEAMEMO Managed PoE+ Switch, with a 120W budget and web management"
+        ],
+        [
+          "Cameras on an outdoor mast or a long run",
+          "Outdoor Waterproof 8-Port PoE Switch with Extender Function, with IP65 and a 78W budget"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $27", "SICSOLINK 8-Port PoE+ Switch (under $30)"],
-        ["Under $33", "STEAMEMO 8 Port Managed Switch (under $35)"],
-        ["Under $54", "Outdoor Waterproof 8-Port Switch (under $60)"],
-        ["Under $58", "TP-Link LS108GP (under $60)"]
+    "subheading": "By Budget",
+    "intro": "Switches in this group span a wide spread for the same port count.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $30, the basic eight-port",
+          "SICSOLINK 8-Port PoE+ Switch, with a 120W budget"
+        ],
+        [
+          "Under $35, managed features",
+          "STEAMEMO Managed PoE+ Switch, adding VLAN and QoS"
+        ],
+        [
+          "Under $55, outdoor rated",
+          "Outdoor Waterproof 8-Port unit, with IP65 and 4KV lightning protection"
+        ],
+        [
+          "Under $60, a known brand",
+          "TP-Link LS108GP LS108GP, with PoE Auto Recovery and a fanless body"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Full Gigabit Speed vs Extended Range Mode",
-    cards: [
-      { label: "Full Gigabit speed (TP-Link)", text: "Maintains Gigabit ports when Extend Mode is off, better suited to devices needing full bandwidth within the standard 328ft range." },
-      { label: "Extended range with reduced speed (Outdoor pick, SICSOLINK)", text: "Both specifically trade speed down to 10Mbps or a lower ceiling when their extend mode is enabled, in exchange for reaching 250m or more." }
+    "subheading": "Managed vs Unmanaged",
+    "intro": "Managed switches cost more in time than in money, and many installs never need them.",
+    "cards": [
+      {
+        "label": "Managed (STEAMEMO)",
+        "text": "VLANs, QoS and DHCP snooping let you isolate cameras from an office network and prioritize video. Useful with 8 or more cameras and a network you actually administer."
+      },
+      {
+        "label": "Unmanaged (TP-Link LS108GP, SICSOLINK)",
+        "text": "These plug in and work, with a watchdog or auto recovery for stuck ports. Simpler, quieter, and the better pick for a small shop or home install."
+      }
     ],
-    note: "If your cameras or devices sit within standard cable range and need full bandwidth, the TP-Link's Gigabit ports are the better fit. If you need to reach genuinely far-flung devices and can accept reduced speed for those specific ports, the extend-mode switches deliver that reach.",
+    "note": "Most buyers should default to unmanaged and move to managed only if they need VLANs."
   },
   {
-    subheading: "By Deployment Scale",
-    table: {
-      headers: ["Your deployment", "Recommended pick"],
-      rows: [
-        ["A managed, growing network needing remote visibility", "STEAMEMO 8 Port Managed PoE+ Switch"],
-        ["A simple plug-and-play outdoor camera system", "Outdoor Waterproof 8-Port PoE Switch"],
-        ["A straightforward indoor multi-camera setup on a budget", "SICSOLINK 8-Port PoE+ Switch"]
+    "subheading": "By Distance and Environment",
+    "intro": "Eight-port switches double as extenders, but each mode comes with trade-offs.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Everything within 100m of the switch",
+          "TP-Link LS108GP LS108GP in normal mode"
+        ],
+        [
+          "A long outbuilding run beyond 100m",
+          "SICSOLINK 8-Port, in its 250m Extend Mode"
+        ],
+        [
+          "A camera mast or outdoor wall",
+          "Outdoor Waterproof 8-Port Switch, as it carries an IP65 rating"
+        ],
+        [
+          "A closet with lots of cabling",
+          "STEAMEMO Managed, which keeps a metal fanless body"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For an Unattended 24/7 Surveillance System Specifically",
-    cards: [
-      { label: "Look for", text: "An automatic device recovery feature that detects and restarts an offline PoE port without requiring a technician to visit the site, reducing downtime and maintenance costs for unattended systems." },
-      { label: "In this comparison", text: "The SICSOLINK pick's AI watchdog and the TP-Link's PoE Auto Recovery both specifically address this need for unattended 24/7 monitoring deployments." }
-    ],
+    "subheading": "For a Small Shop With Eight Cameras Specifically",
+    "intro": "This is the typical use case for an 8-port unit.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A budget of at least 80W, a watchdog for frozen cameras, and room to grow beyond eight devices."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The SICSOLINK and STEAMEMO both list 120W and a watchdog, while the TP-Link LS108GP is the budget-limited pick at 65W."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want full Gigabit speed alongside an extend mode option and automatic device recovery, where the TP-Link's under $60 price is justified by that combination." },
-      { label: "Save if", text: "You want a straightforward 8-port switch with automatic recovery and long extend-mode range, where the SICSOLINK delivers that for under $30, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The extra money is for management, outdoor use, and brand support.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a polished brand or outdoor use. The TP-Link LS108GP and Outdoor Waterproof 8-Port cost the most here; the 4-port guide covers smaller layouts."
+      },
+      {
+        "label": "Save if",
+        "text": "You need power and a watchdog. The SICSOLINK costs the least and offers 120W."
+      }
+    ]
   }
 ];
 
@@ -175,12 +260,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Is an 8-port PoE extender the same thing as a PoE switch?", "a": "Effectively yes; every real product matching an '8-port PoE extender' search is actually a PoE+ switch with a built-in Extend Mode feature, since achieving 8 ports requires the switching architecture of a genuine switch rather than a simple passive repeater." },
-  { "q": "What's the most common mistake buyers make when choosing an 8-port PoE extender?", "a": "Assuming Extend Mode only affects the specific far-away device needing extended range, when several switches specifically apply the bandwidth reduction across all 8 ports simultaneously once that mode is enabled." },
-  { "q": "Is the TP-Link switch worth the higher price over the SICSOLINK pick?", "a": "If you specifically need full Gigabit ports when not using Extend Mode, the TP-Link's higher price is justified, but for a straightforward camera deployment where automatic recovery and long extend-mode range matter more, the SICSOLINK offers strong value at a lower price." },
-  { "q": "Do I need a managed switch for a simple home security camera setup?", "a": "For a simple, static camera deployment, an unmanaged switch like the TP-Link, Outdoor Waterproof, or SICSOLINK picks is generally sufficient, while the STEAMEMO's managed features are more valuable for a growing or more complex network needing remote visibility." },
-  { "q": "Will enabling Extend Mode on my 8-port switch slow down all my cameras, or just the far-away one?", "a": "On several switches in this comparison, including the Outdoor Waterproof pick, Extend Mode specifically applies its bandwidth reduction across all ports at once, so checking whether your specific switch supports per-port extend configuration is worth doing before enabling it for just one device." },
-  { "q": "Can these 8-port switches handle high-power devices like PTZ cameras?", "a": "The STEAMEMO and SICSOLINK picks both offer a 120W total PoE budget with up to 30W per port, generally sufficient for PTZ cameras, though you should confirm the combined wattage of all your connected high-power devices stays within the switch's total budget." }
+  {
+    "q": "Why do 8-port PoE switches offer so little power per port?",
+    "a": "A shared budget caps each port. The TP-Link lists 65W total, which spreads to under 9W per port if all eight are used. For eight cameras that draw under 8W each it works, but a PTZ camera at 25W leaves only a handful of other ports."
+  },
+  {
+    "q": "What is the biggest mistake with Extend Mode?",
+    "a": "Leaving it on for all ports. The listings note that Extend Mode reaches 250m but drops speed and, on some units, the per-port power. Use it only on the far run, and keep short runs on normal mode so speed stays high."
+  },
+  {
+    "q": "Is the STEAMEMO worth paying more than the SICSOLINK?",
+    "a": "If you need web or app management, VLANs, or QoS, yes. Both list a 120W budget and 250m extend options, so on raw power the SICSOLINK matches it and costs less. Unmanaged needs fewer settings. Unmanaged is fine for most."
+  },
+  {
+    "q": "How do I set up the TP-Link LS108GP's Extend Mode?",
+    "a": "Use the listed Extend Mode on the specific ports you want to stretch to 820ft, and keep the others at normal speed. Test each long run with a laptop before mounting the camera, since the slower speed can hide a bad cable."
+  },
+  {
+    "q": "Can these switches run outdoors?",
+    "a": "Only the outdoor unit lists IP65 with a -10C to 55C range. The others are indoor boxes. Putting an indoor switch in a weather box adds heat, so even a fanless model needs ventilation. Confirm the temperature range matches your climate before mounting."
+  },
+  {
+    "q": "How do I keep a frozen camera from taking the whole system down?",
+    "a": "Choose a switch with a watchdog or auto recovery, as the TP-Link and SICSOLINK list. These reboot the port when a device stops responding, so a camera recovers without anyone climbing to unplug it. Test the recovery by unplugging one camera in the first week."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

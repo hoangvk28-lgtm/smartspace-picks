@@ -84,70 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Per-Port Wattage vs Total Input Budget", "description": "Compared how each listing's total input power is divided across its 4 output ports." },
-  { "title": "Industrial and Outdoor Durability", "description": "Compared enclosure ratings and operating temperature ranges for harsh environments." },
-  { "title": "Electrical Surge Protection", "description": "Compared whether each listing explicitly discloses a surge protection rating." },
-  { "title": "Speed Consistency", "description": "Compared Gigabit versus Fast Ethernet speeds across all 4 ports." },
-  { "title": "Support and Warranty Commitment", "description": "Compared warranty length and stated ongoing technical support." }
+  {
+    "title": "Total PoE budget vs port count",
+    "description": "Four ports share one input, so we divided each listing's budget by its outputs. The LINOVISION offers an 80W output budget from a 90W input and the Industrial unit allows 30W per port, while the MokerLink averages 8W per port. A four-camera install fails when the sum of the draws exceeds the budget, so this axis led."
+  },
+  {
+    "title": "Link speed at the far end",
+    "description": "We checked whether each unit keeps Gigabit or caps at 100Mbps. The MokerLink is listed at 100Mbps, which is acceptable for four 1080p cameras but a bottleneck for 4K cameras or APs. The VIMIN and LINOVISION hold 1000Mbps, so they scored higher for modern gear."
+  },
+  {
+    "title": "Surge protection and housing",
+    "description": "Outdoor and industrial installs get hit by lightning-induced surges, so we compared protection ratings: 6KV on both the LINOVISION and the Industrial unit, and IP65 on the VIMIN. We weighted a stated surge figure above a generic 'protected' claim. A bare number was not enough, so we read how each listing describes the voltage withstand."
+  },
+  {
+    "title": "PoE standard handling",
+    "description": "We looked at whether the box detects the upstream source. The LINOVISION uses a hardware 802.3af/at/bt chipset with PD detection, which means it negotiates power rather than assuming it. We treated a negotiating chipset as safer than a passive relay for expensive cameras."
+  },
+  {
+    "title": "Cascade depth",
+    "description": "The Industrial and MokerLink list 3-level cascading. Each extra level lowers the available budget, so we gave extra credit to units that state the power left at the far end rather than just a distance. That matters at four ports, where a hop that looks fine for one camera can starve the fourth device on a long run."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Hardware PoE safety with surge protection and lifetime support", "LINOVISION 4 Ports Gigabit PoE Passthrough Switch"],
-        ["Genuine industrial-grade temperature tolerance", "PoE Extender Industrial 4 Port Gigabit Ethernet"],
-        ["Outdoor waterproofing with Gigabit speed at a low price", "VIMIN 4-Port Outdoor PoE Gigabit Extender"],
-        ["The lowest possible price for basic indoor use", "MokerLink 4 Port PoE Extender"]
+    "subheading": "By Camera Count and Type",
+    "intro": "Four outputs invite four cameras, but the budget decides whether that works.",
+    "table": {
+      "headers": [
+        "What you plan to run",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Four standard 1080p cameras at 8W or less each",
+          "MokerLink 4 Port Extender, with an average of 8W per port at 100Mbps"
+        ],
+        [
+          "Four mixed cameras and one AP that need Gigabit",
+          "VIMIN 4-Port Outdoor, in a 1-in-3-out layout with Gigabit and VLAN support"
+        ],
+        [
+          "Four heavier cameras drawing up to 30W each with a high input",
+          "PoE Extender Industrial 4 Port Gigabit Ethernet, with up to 30W per port from a 90W BT input"
+        ],
+        [
+          "A hub for four devices that must negotiate PoE correctly",
+          "LINOVISION 4 Ports Gigabit PoE Passthrough Switch, with PD detection and an 80W output budget"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $17", "MokerLink 4 Port PoE Extender (under $20)"],
-        ["Under $22", "VIMIN 4-Port Outdoor Gigabit Extender (under $25)"],
-        ["Under $49", "PoE Extender Industrial 4 Port (under $50)"],
-        ["Under $60", "LINOVISION 4 Ports Passthrough Switch (under $60)"]
+    "subheading": "By Budget",
+    "intro": "From a basic repeater to a surge-protected industrial box.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $20, the cheapest four-device hub",
+          "MokerLink 4 Port Extender, at 100Mbps"
+        ],
+        [
+          "Under $25, outdoor Gigabit",
+          "VIMIN 4-Port Outdoor, as IP65 with 1000Mbps"
+        ],
+        [
+          "Under $50, an industrial case",
+          "PoE Extender Industrial 4 Port unit, rated IP40 with 6KV surge protection"
+        ],
+        [
+          "Under $60, the full budget and chipset",
+          "LINOVISION 4 Ports Passthrough Switch, with 90W input and PD detection"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Industrial Durability vs Budget Simplicity",
-    cards: [
-      { label: "Industrial durability (LINOVISION, Industrial pick)", text: "Both offer 6KV surge protection and, for the Industrial pick, a wide -40F to 167F temperature range, suited for genuinely harsh or unstable electrical environments." },
-      { label: "Budget simplicity (VIMIN, MokerLink)", text: "Both deliver core PoE extension functionality at a much lower price without surge protection or extreme temperature tolerance, suited for a standard indoor or moderately protected outdoor installation." }
+    "subheading": "100Mbps Budget vs Full Gigabit",
+    "intro": "This is the practical split among 4-port extenders, and it is mostly about the camera, not the extender.",
+    "cards": [
+      {
+        "label": "100Mbps units (MokerLink 4 Port)",
+        "text": "Fast Ethernet moves at most 100Mbps in total across the link. Four 1080p cameras at a few Mbps each fit easily, so you save money without feeling it. The limit only shows up when a camera or AP wants more."
+      },
+      {
+        "label": "Gigabit units (VIMIN 4-Port, LINOVISION 4 Ports, PoE Extender Industrial 4 Port)",
+        "text": "Gigabit leaves headroom for 4K cameras, a Wi-Fi 6 AP, or later upgrades. It matters most when all four ports share one uplink, since four sharing the pipe adds up fast."
+      }
     ],
-    note: "If your installation faces real electrical surge risk or temperature extremes, the LINOVISION or Industrial picks are worth their higher price. For a standard home or office installation, the VIMIN or MokerLink picks deliver solid core functionality at a much lower cost.",
+    "note": "For four basic cameras, 100Mbps is fine; for anything with an AP or 4K, buy Gigabit."
   },
   {
-    subheading: "By Total Power Budget Needed",
-    table: {
-      headers: ["Your total power need", "Recommended pick"],
-      rows: [
-        ["Up to 80W total across 4 devices", "LINOVISION 4 Ports Gigabit PoE Passthrough Switch"],
-        ["Standard 30W per port, 4 devices", "PoE Extender Industrial 4 Port or VIMIN Outdoor"],
-        ["Modest 8W average per port, basic devices", "MokerLink 4 Port PoE Extender"]
+    "subheading": "By Install Environment",
+    "intro": "A 4-port extender is a larger box, so where it mounts matters.",
+    "table": {
+      "headers": [
+        "Where it mounts",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A wall outdoors with rain exposure",
+          "VIMIN 4-Port Outdoor, rated IP65"
+        ],
+        [
+          "A DIN rail in a cabinet or utility closet",
+          "PoE Extender Industrial 4 Port, listed for wall and rail mounting and a -40F to 167F range"
+        ],
+        [
+          "A dry rack or shelf with lots of cable",
+          "LINOVISION 4 Ports, with 6KV surge protection"
+        ],
+        [
+          "Wall or rail mount in a mixed-use space",
+          "MokerLink 4 Port, which supports both mounting types"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Small Business Network Closet Specifically",
-    cards: [
-      { label: "Look for", text: "A 4-port extender with genuine surge protection if your building's electrical infrastructure has a history of power fluctuations, alongside enough total wattage budget for your specific mix of connected devices." },
-      { label: "In this comparison", text: "The LINOVISION pick's combination of 6KV surge protection and 80W total output budget makes it the strongest fit for a small business network closet with real power stability concerns." }
-    ],
+    "subheading": "For a Four-Camera Warehouse Run Specifically",
+    "intro": "Warehouse cameras sit on a long run and share one budget.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Per-port power above your heaviest camera, a stated cascade limit, and surge protection rated above 4KV because of long metal runs."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The PoE Extender Industrial 4 Port gives 30W per port with 6KV protection, and the LINOVISION 4 Ports adds PD detection at a 90W input; the 8-port and 3-port extender guides cover other layouts."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want hardware-based PoE chip safety with surge protection and lifetime technical support, where the LINOVISION pick's under $60 price is justified by that comprehensive package." },
-      { label: "Save if", text: "You need a basic indoor 4-port extension without surge protection or outdoor requirements, where the MokerLink pick delivers that for under $20, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The spread is wide here, so extra money buys power and protection.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You run PTZ cameras or APs. The LINOVISION 4 Ports and PoE Extender Industrial 4 Port are the only picks here with per-port power above 10W, so they justify their higher prices."
+      },
+      {
+        "label": "Save if",
+        "text": "You run basic cameras. The MokerLink 4 Port and VIMIN 4-Port cost the least and handle four low-draw devices without trouble."
+      }
+    ]
   }
 ];
 
@@ -175,12 +260,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I power four devices at their maximum wattage simultaneously on a 4-port PoE extender?", "a": "Not necessarily; the total power budget is typically shared across all ports, so the LINOVISION pick's 80W total budget across 4 ports means the combined draw of all connected devices must stay within that shared limit, not each device drawing its individual maximum simultaneously." },
-  { "q": "What's the most common mistake buyers make when choosing a 4-port PoE extender?", "a": "Assuming each port's individual maximum wattage rating is available simultaneously and independently, when the total power budget is typically shared across all ports on the same extender unit." },
-  { "q": "Is the LINOVISION extender worth the higher price over the MokerLink pick?", "a": "If you need hardware-based PoE chip safety, surge protection, and lifetime technical support, the LINOVISION's higher price is justified, but for a basic indoor installation without those specific needs, the MokerLink pick's much lower price delivers solid core functionality." },
-  { "q": "Is an IP40 rating good enough for an outdoor 4-port PoE extender installation?", "a": "IP40 provides no specific water resistance rating, so for a genuinely outdoor or moisture-exposed installation, an IP65 or higher rated extender like the VIMIN pick is a better fit than an IP40-rated industrial unit despite its rugged marketing." },
-  { "q": "Do I need surge protection for a 4-port PoE extender in a typical home network closet?", "a": "Surge protection matters more if your area experiences frequent storms or unstable power, or if you're protecting valuable connected equipment; for a typical stable home setup, it's a valuable but not strictly necessary feature." },
-  { "q": "Can I cascade multiple 4-port PoE extenders together to cover a larger installation?", "a": "Yes, several picks in this comparison, including the Industrial and MokerLink extenders, specifically support 3-level cascading, letting you chain multiple units together to extend coverage across a larger installation area." }
+  {
+    "q": "Can a 4-port PoE extender really run four cameras?",
+    "a": "Only if their total draw fits the input budget. The LINOVISION gives an 80W output from a 90W input, but the MokerLink averages 8W per port. Add up each camera's peak draw, including infrared, and leave about 20 percent spare."
+  },
+  {
+    "q": "What do buyers get wrong about 3-level cascading?",
+    "a": "They assume each level adds equal reach. Every level consumes power, so the far unit has less for its ports. The Industrial and MokerLink list 3-level chains, but you should confirm the power left at the final unit under peak load."
+  },
+  {
+    "q": "Is the LINOVISION worth paying more than the VIMIN?",
+    "a": "If you need a 90W input, PD detection, or 6KV surge protection, yes. The VIMIN is a 1-in-3-out unit capped at 30W, so for three cameras on a short run it costs far less and keeps full Gigabit speed. Check the camera's peak draw first."
+  },
+  {
+    "q": "How do I connect the 4-port Industrial extender to a 90W source?",
+    "a": "Use a 90W 802.3bt source for the input, then Cat5e or better to each camera. The listing states up to 30W per port, so confirm the source can supply the total before attaching the fourth device, or the last camera may fail."
+  },
+  {
+    "q": "Does a 100Mbps 4-port extender hurt 4K cameras?",
+    "a": "It can. A 4K stream may run well above 10Mbps, and four of them share one 100Mbps link. The MokerLink fits 1080p cameras; for 4K or AP use, the Gigabit models avoid the bottleneck. Test with all four streaming before mounting anything."
+  },
+  {
+    "q": "How should I protect a 4-port extender from lightning?",
+    "a": "Choose a unit with a stated surge rating such as the 6KV on the LINOVISION or Industrial model, ground the enclosure if the case allows, and keep outdoor cable runs short. Surge ratings reduce damage risk but never eliminate it."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

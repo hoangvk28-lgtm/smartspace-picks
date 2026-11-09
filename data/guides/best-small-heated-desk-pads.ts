@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/418afiD2n-L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FS87B972?tag=deskfinds0d-20",
-    "description": "Heetz is the narrowest pad here at 27.6 by 7.9 inches, a slim strip with 3 temperature settings, an automatic shut-off and an hourly reminder light that prompts movement breaks. The leather surface is intended for keyboard and mouse work.\n\nAt 7.9 inches deep it warms only the front edge of the desk, unlike the GYSYZJDH pad's deeper 14.2 inches. It also costs about $13 more than the GYSYZJDH, the most among the small picks, and lists no temperatures.\n\nBest for desks where depth is the constraint, such as a narrow shelf or a standing desk tray. The caveat is the price premium and the missing temperature and timer figures in the listing.",
+    "description": "Heetz is the narrowest pad here at 27.6 by 7.9 inches, a slim strip with 3 temperature settings, an automatic shut-off and an hourly reminder light that prompts movement breaks. The leather surface is intended for keyboard and mouse work.\n\nAt 7.9 inches deep it warms only the front edge of the desk, unlike the GYSYZJDH pad's deeper 14.2 inches. It also costs under $15 more than the GYSYZJDH, the most among the small picks, and lists no temperatures.\n\nBest for desks where depth is the constraint, such as a narrow shelf or a standing desk tray. The caveat is the price premium and the missing temperature and timer figures in the listing.",
     "specs": [
       "27.6 x 7.9 inches",
       "3 temperature settings",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41DGQhWDvPL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DQ7X2LZ3?tag=deskfinds0d-20",
-    "description": "This pad has 3 temperatures of 40C, 45C and 50C (104F, 113F, 122F) and 3 timed auto shut-off options of 1, 2 or 3 hours. It measures 31.5 by 13 inches with a waterproof PU top, a rubber base and a watercolor flower print.\n\nIt is the only pick here where you choose the shutoff length, in contrast to tulpock's fixed 4 hours. It is also pricier than tulpock by about $3.\n\nBest for shared or occasional desks where you want it to stop sooner. The caveat is that the listing warns against putting laptops or batteries on the pad, since they are not heat resistant.",
+    "description": "This pad has 3 temperatures of 40C, 45C and 50C (104F, 113F, 122F) and 3 timed auto shut-off options of 1, 2 or 3 hours. It measures 31.5 by 13 inches with a waterproof PU top, a rubber base and a watercolor flower print.\n\nIt is the only pick here where you choose the shutoff length, in contrast to tulpock's fixed 4 hours. It is also pricier than tulpock by under $10.\n\nBest for shared or occasional desks where you want it to stop sooner. The caveat is that the listing warns against putting laptops or batteries on the pad, since they are not heat resistant.",
     "specs": [
       "31.5 x 13 inches",
       "40C, 45C, 50C levels",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/314dU5A5eBL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FM291149?tag=deskfinds0d-20",
-    "description": "ONLYTOP offers 3 settings, a 4 hour auto shut-off and overheat protection on a 31.5 by 13 by 0.08 inch pad with a waterproof top and a non-slip base. It runs on standard US voltage only.\n\nIt is simpler than Giambwa, with fewer steps, and lists no temperatures. Compared with tulpock it has no certification claim, but it costs about $6 less.\n\nBest for someone who wants a plain, thin pad with few controls. The caveat is the missing degrees, so you cannot tell how warm the top setting gets.",
+    "description": "ONLYTOP offers 3 settings, a 4 hour auto shut-off and overheat protection on a 31.5 by 13 by 0.08 inch pad with a waterproof top and a non-slip base. It runs on standard US voltage only.\n\nIt is simpler than Giambwa, with fewer steps, and lists no temperatures. Compared with tulpock it has no certification claim, but it costs under $10 less.\n\nBest for someone who wants a plain, thin pad with few controls. The caveat is the missing degrees, so you cannot tell how warm the top setting gets.",
     "specs": [
       "31.5 x 13 x 0.08 inches",
       "3 heat settings",
@@ -218,24 +218,24 @@ export const buyingCriteria: BuyingCriterion[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Listed dimensions",
-    "description": "We compared stated length and depth to see which pads truly shrink the footprint and which only claim to."
+    "title": "Real dimensions against the word small",
+    "description": "We read the stated length and width on every pad and compared them with a standard keyboard and mouse. Heetz at 27.6 by 7.9 inches is the slimmest and GYSYZJDH at 23.6 by 14.2 is the squarest, while four others run 31.5 by 13 inches, which is a full-size mat, not a compact one. That gap decides whether a keyboard overhangs."
   },
   {
-    "title": "Heat steps",
-    "description": "Temperature ranges, step count and unit of measure were compared across listings."
+    "title": "Heat levels in degrees, not just low and high",
+    "description": "A pad that lists 104F, 113F and 122F lets you judge how warm your forearms will get, and one that only says three levels does not. GYSYZJDH, tulpock and GFRGTFHYT publish numbers, so they ranked above Heetz and ONLYTOP, which give none. A stated step is also what you can compare between brands."
   },
   {
-    "title": "Timers and safety",
-    "description": "Auto shut-off options, reminders and named certifications were weighed, treating claims as unverified."
+    "title": "Cutoff timers and break reminders",
+    "description": "Auto shut-off protects a pad left on when you leave the desk. We favored GFRGTFHYT's choice of 1, 2 or 3 hours, tulpock and ONLYTOP at 4 hours, and Heetz for its hourly reminder light that prompts a stretch. At a shared desk, a 1 to 4 hour limit beats none."
   },
   {
-    "title": "Surface and build",
-    "description": "PU or leather top, base grip and edge stitching were noted for everyday durability."
+    "title": "Safety claims you can actually verify",
+    "description": "Tulpock cites UL and FCC in its listing, ONLYTOP names overheat protection and GYSYZJDH lists a waterproof PU top. We counted a mark only when the listing names it, and gave no credit for generic safe materials wording. Unnamed claims stayed at neutral."
   },
   {
-    "title": "Value for price",
-    "description": "Price was compared against documented features and warranty coverage."
+    "title": "Value against warranty and controls",
+    "description": "Giambwa is the lowest-priced pick and lists a 2 year warranty with five steps from 35C to 55C and a touch controller. We weighed that against compact pads that cost more, asking what the extra money really buys in size and sensors. Size, not heat, was the main extra."
   }
 ];
 
@@ -243,37 +243,39 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Desk Size",
+    "intro": "The pad should match how much of the desk you actually want warmed.",
     "table": {
       "headers": [
-        "Your situation",
+        "Desk situation",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Corner desk, mouse plus compact keyboard",
-          "GYSYZJDH Compact Heated Desk Pad 23.6 x 14.2"
+          "Corner desk or tight workspace",
+          "GYSYZJDH Compact Heated Desk Pad at 23.6 by 14.2 inches rolls up and fits small corners."
         ],
         [
-          "Narrow shelf or standing desk tray",
-          "Heetz Small Heated Desk Pad"
+          "Narrow shelf-style desk, forearms only",
+          "Heetz Small Heated Desk Pad at 27.6 by 7.9 inches is the slimmest in the guide."
         ],
         [
-          "Standard desk, want safety claims",
-          "tulpock Heated Desk Pad with 3 Levels"
+          "Standard desk, laptop and mouse",
+          "tulpock Heated Desk Pad with 3 Levels at 31.5 by 13 inches also works as a plain mat when off."
         ],
         [
-          "Standard desk, want to cut it off sooner",
-          "GFRGTFHYT Heated Mouse Pad with Timer Choices"
+          "Mouse pad area with a laptop nearby",
+          "GFRGTFHYT Heated Mouse Pad with Timer Choices, but keep the laptop off it."
         ],
         [
-          "Standard desk, plainest thin pad",
-          "ONLYTOP Heated Desk Pad in Gray"
+          "Large keyboard and mouse together",
+          "Giambwa Heated Desk Mat has a full-size surface with five steps from 35C to 55C."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Under $20 is a real tier here, and the compact pads sit above it.",
     "table": {
       "headers": [
         "Price range",
@@ -281,69 +283,71 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $20",
-          "Giambwa Heated Desk Mat with 2 Year Warranty"
+          "Under $20, cheapest",
+          "Giambwa Heated Desk Mat with a 2 year warranty and a touch controller."
         ],
         [
-          "$20 to $22",
-          "ONLYTOP Heated Desk Pad in Gray"
+          "$20 to $22, thin and simple",
+          "ONLYTOP Heated Desk Pad, with a 0.08 inch profile and a 4 hour auto shut-off."
         ],
         [
-          "$26 to $27",
-          "GYSYZJDH Compact Heated Desk Pad 23.6 x 14.2"
+          "$26 to $27, compact and clear temperatures",
+          "GYSYZJDH Compact Heated Desk Pad, listing 104F, 113F and 122F."
         ],
         [
-          "About $27",
-          "tulpock Heated Desk Pad with 3 Levels"
+          "Under $30, UL and FCC claims",
+          "tulpock Heated Desk Pad, a standard size with color-coded levels."
         ],
         [
-          "$30 to $31",
-          "GFRGTFHYT Heated Mouse Pad with Timer Choices"
+          "$30 to $31, timer choice",
+          "GFRGTFHYT Heated Mouse Pad with a 1, 2 or 3 hour timer."
         ],
         [
-          "Around $40",
-          "Heetz Small Heated Desk Pad"
+          "Under $45, narrowest footprint",
+          "Heetz Small Heated Desk Pad, which also adds an hourly reminder light."
         ]
       ]
     }
   },
   {
     "subheading": "Compact Pad vs Standard Mat",
+    "intro": "Both warm your hands, but they differ in coverage and cost.",
     "cards": [
       {
         "label": "Compact pad",
-        "text": "Under about 28 inches long, it saves desk room and warms only the hand zone, but keyboards may overhang. That covers GYSYZJDH Compact Heated Desk Pad 23.6 x 14.2 and Heetz Small Heated Desk Pad."
+        "text": "A pad around 24 inches wide fits a small desk, keeps cable runs short and rolls up to carry. GYSYZJDH and Heetz are the two here, and both cost more than the full-size mats, so you pay for the smaller footprint."
       },
       {
         "label": "Standard mat",
-        "text": "At 31.5 by 13 inches, it covers a keyboard and mouse fully and costs less, but uses more desk. That covers tulpock Heated Desk Pad with 3 Levels, GFRGTFHYT Heated Mouse Pad with Timer Choices, Giambwa Heated Desk Mat with 2 Year Warranty and ONLYTOP Heated Desk Pad in Gray."
+        "text": "A 31.5 by 13 inch mat holds a full keyboard and mouse and doubles as a desk mat. tulpock, GFRGTFHYT, ONLYTOP and Giambwa fit here, at the cost of using more of a small desk."
       }
     ],
-    "note": "If your desk is under about 40 inches wide, start with a compact pad, otherwise a standard mat is cheaper per inch."
+    "note": "Choose a compact pad such as GYSYZJDH if your desk is under about 40 inches wide, and a standard mat like tulpock otherwise."
   },
   {
     "subheading": "By Control Preference",
+    "intro": "Pick the control style that you will actually use during a work day.",
     "table": {
       "headers": [
-        "Your concern",
+        "Preference",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Want an hourly break reminder",
-          "Heetz Small Heated Desk Pad"
+          "Most heat steps",
+          "Giambwa Heated Desk Mat, with five levels from 35C to 55C."
         ],
         [
-          "Want five temperature steps",
-          "Giambwa Heated Desk Mat with 2 Year Warranty"
+          "Choose your own shut-off time",
+          "GFRGTFHYT Heated Mouse Pad, with 1, 2 or 3 hour choices."
         ],
         [
-          "Want color coded levels",
-          "tulpock Heated Desk Pad with 3 Levels"
+          "Break reminders",
+          "Heetz Small Heated Desk Pad, with an hourly reminder light."
         ],
         [
-          "Want to pick the timer length",
-          "GFRGTFHYT Heated Mouse Pad with Timer Choices"
+          "Simple three-level control",
+          "tulpock Heated Desk Pad or ONLYTOP Heated Desk Pad, both with 4 hour shut-off."
         ]
       ]
     }
@@ -353,11 +357,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Look for",
-        "text": "A small footprint, low wattage plug-in power and a clear auto shut-off, plus a surface that wipes clean after spills. Check your school's appliance rules before plugging in anything that heats."
+        "text": "A small footprint, a non-slip base, a plug that reaches the outlet and a timer that shuts the pad off when you leave for class."
       },
       {
         "label": "In this comparison",
-        "text": "GYSYZJDH Compact Heated Desk Pad 23.6 x 14.2 combines the small size with a 3 hour cutoff, and Heetz Small Heated Desk Pad adds a reminder light for a narrow shelf."
+        "text": "GYSYZJDH Compact Heated Desk Pad has a non-slip base, a 3 hour shut-off and a roll-up body. tulpock suits a larger shared desk, with UL and FCC claims in the listing."
       }
     ]
   },
@@ -366,11 +370,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Your desk depth is the constraint or you want a reminder light. Heetz Small Heated Desk Pad and GYSYZJDH Compact Heated Desk Pad 23.6 x 14.2 solve a space problem that cheaper mats cannot."
+        "text": "You want a very small footprint or a reminder light. Heetz Small Heated Desk Pad and GYSYZJDH Compact Heated Desk Pad cost more than the under-$22 group for size, not for extra heat."
       },
       {
         "label": "Save if",
-        "text": "Your desk fits a 31.5 inch mat. Giambwa Heated Desk Mat with 2 Year Warranty and ONLYTOP Heated Desk Pad in Gray cost under $21 and cover more area."
+        "text": "You have a standard desk. Giambwa Heated Desk Mat, under $20 with a 2 year warranty, and ONLYTOP at $20 to $22 cover basic warmth."
       }
     ]
   }
@@ -379,28 +383,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "How small can a heated desk pad be?",
-    "a": "The smallest here is 23.6 by 14.2 inches, with a slimmer 27.6 by 7.9 inch strip also available. Smaller than that and the pad would not cover a mouse and wrist rest together."
+    "q": "Will a small heated desk pad fit my keyboard and mouse?",
+    "a": "Only if you check the depth. GYSYZJDH at 23.6 by 14.2 inches covers a mouse and the front of a compact keyboard, while Heetz at 27.6 by 7.9 inches is a narrow strip for forearms and hands. A full-size keyboard on a 7.9 inch pad will hang over the edge."
   },
   {
-    "q": "Will my keyboard overhang a compact pad?",
-    "a": "A full-size keyboard with a number pad probably will on a 23.6 inch pad. That is fine for warming your palms, but your wrists may rest partly on cold desk."
+    "q": "Is it safe to leave a heated desk pad on all day?",
+    "a": "Not unattended. Tulpock and ONLYTOP shut off after 4 hours and GFRGTFHYT after 1, 2 or 3, but a timer is a backup, not permission to leave heat on under a pile of papers. Switch it off at lunch and keep the cable clear of chair casters."
   },
   {
-    "q": "Is a standard mat worth it over a compact one?",
-    "a": "If your desk can spare the room, yes. Mats like Giambwa and ONLYTOP cover the whole keyboard area for less money than a premium compact strip like Heetz."
+    "q": "Can I put a laptop on a heated desk pad?",
+    "a": "Check the listing first. GFRGTFHYT specifically warns against placing laptops on it, and a pad under a laptop's vents traps heat that the laptop needs to shed. Use the pad for forearms and mouse, and keep the laptop on a stand or a bare patch of desk."
   },
   {
-    "q": "Why does my new pad not heat right away?",
-    "a": "Some pads, such as Giambwa, run a circuit check when first plugged in and do not heat during the check. Follow the listing's start steps, and if it does not heat after that, contact the seller."
+    "q": "Is Giambwa worth choosing over the pricier compact pads?",
+    "a": "For most desks, yes. Giambwa is the lowest-priced pick here with a 2 year warranty and five temperature steps, but it is a standard size at 35C to 55C. Choose GYSYZJDH or Heetz only if desk space is the real constraint and the extra cost buys you that footprint."
   },
   {
-    "q": "Can I put a laptop on a heated pad?",
-    "a": "The GFRGTFHYT listing warns against placing laptops, batteries or other items not resistant to heat on the pad. Keep devices on the bare desk."
+    "q": "How do I clean a heated desk pad?",
+    "a": "Unplug it and wipe the surface with a damp cloth. GYSYZJDH, GFRGTFHYT and ONLYTOP list waterproof or wipe-clean PU tops, so crumbs and spills wipe off. Never submerge the pad or fold it sharply, since creasing damages the heating element inside."
   },
   {
-    "q": "Can a small pad be rolled for travel?",
-    "a": "The GYSYZJDH listing describes flexible PU that can be rolled. Unplug and let it cool first, and avoid creasing any heating wires with sharp folds."
+    "q": "Do heated desk pads work with a bare wood desk?",
+    "a": "Yes, and the pad also protects the surface from the cold of the desk. GYSYZJDH has a non-slip base and GFRGTFHYT a rubber base that stays put on smooth wood. On a glass top, check for slip, and avoid leaving a hot pad resting on a varnished finish for days."
   }
 ];
 

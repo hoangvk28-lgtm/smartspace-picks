@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41wLhtCITgL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B081LQMXKP?tag=deskfinds0d-20",
-    "description": "Cosori is a 0.8 liter gooseneck kettle with 5 temperature presets, a 60 minute keep-warm function and 1200 watts. The listing says the housing, lid and spout are stainless steel, it uses a British STRIX thermostat, and it has boil-dry protection.\n\nIt costs about $2 more than Aiheal and lists a longer keep-warm time than the Ninja's 30 minutes. It has presets but not the one-degree adjustment that Aiheal offers.\n\nChoose it for pour-over coffee and tea at a small desk. The caveat is that 0.8 liters is a small amount for a shared office.",
+    "description": "Cosori is a 0.8 liter gooseneck kettle with 5 temperature presets, a 60 minute keep-warm function and 1200 watts. The listing says the housing, lid and spout are stainless steel, it uses a British STRIX thermostat, and it has boil-dry protection.\n\nIt costs under $10 more than Aiheal and lists a longer keep-warm time than the Ninja's 30 minutes. It has presets but not the one-degree adjustment that Aiheal offers.\n\nChoose it for pour-over coffee and tea at a small desk. The caveat is that 0.8 liters is a small amount for a shared office.",
     "specs": [
       "0.8L, 1200W",
       "5 presets, 60 minute keep warm",
@@ -191,47 +191,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Temperature presets",
-    "explanation": "A preset is a button that heats water to a set temperature for a drink. Green tea is commonly brewed near 175 degrees and coffee near 195 to 205, and water at a full boil scalds delicate tea. Look for the exact temperatures, not just the word preset."
+    "explanation": "A preset is a button that heats water to a set temperature for a drink. Green tea is commonly brewed near 175 degrees and coffee near 195 to 205, and water at a full boil scalds delicate tea. Look for the exact temperatures, not just the word preset. Pick a kettle with a preset near 175F for green tea and 200F for coffee, since a 5 preset model like the Cosori can still miss one of them."
   },
   {
     "criterion": "Keep-warm duration",
-    "explanation": "Keep warm holds the water at temperature after heating. The listings here run from 30 to 60 minutes, which matters if you brew several cups. Look for the number of minutes, since many kettles do not list it."
+    "explanation": "Keep warm holds the water at temperature after heating. The listings here run from 30 to 60 minutes, which matters if you brew several cups. Look for the number of minutes, since many kettles do not list it. Keep warm runs from 30 minutes on the Ninja to 60 on the Cosori, so match the hold time to how long you linger over a pot."
   },
   {
     "criterion": "Gooseneck versus standard spout",
-    "explanation": "A gooseneck gives slow, controlled flow for pour-over coffee but holds less water. A standard spout pours faster for mugs. Pick based on how you drink."
+    "explanation": "A gooseneck gives slow, controlled flow for pour-over coffee but holds less water. A standard spout pours faster for mugs. Pick based on how you drink. A gooseneck like the Aiheal with a stopwatch gives slow flow for pour over, but it holds little water and takes longer to fill a bottle."
   },
   {
     "criterion": "Interior and lid materials",
-    "explanation": "Stainless interiors and lids keep flavors clean while plastic parts may add taste. Some listings say stainless inside but plastic on the lid. Read the bullets and check the photos."
+    "explanation": "Stainless interiors and lids keep flavors clean while plastic parts may add taste. Some listings say stainless inside but plastic on the lid. Read the bullets and check the photos. Stainless interiors and lids avoid plastic flavors, so check whether the water window on the Breville is glass or plastic before ordering."
   },
   {
     "criterion": "Wattage and dorm caps",
-    "explanation": "A 1500 watt kettle boils fast but may exceed a school's appliance limit, while a 1200 watt one draws less. Some schools cap appliances at 1000 to 1200 watts, though caps differ by school. Check your housing list and the listed watts before buying."
+    "explanation": "A 1500 watt kettle boils fast but may exceed a school's appliance limit, while a 1200 watt one draws less. Some schools cap appliances at 1000 to 1200 watts, though caps differ by school. Check your housing list and the listed watts before buying. A 1500W model like the PARIS RHONE can exceed a school appliance cap, so confirm local rules or pick a 1200W model like the Cosori."
   },
   {
     "criterion": "Capacity versus footprint",
-    "explanation": "A 1.7 liter jug serves several cups but takes a larger base. A 0.8 liter fits a desk. Check the listed capacity."
+    "explanation": "A 1.7 liter jug serves several cups but takes a larger base. A 0.8 liter fits a desk. Check the listed capacity. A 1.7L jug takes a larger base and more cupboard space, so measure the spot beside the outlet before choosing it over the 0.8L Cosori."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Temperature control",
-    "description": "We compared presets, adjustment steps and keep-warm times."
+    "title": "Preset accuracy",
+    "description": "We looked at how finely temperature is controlled: the Aiheal runs 100 to 212F in 1 degree steps, the INTASTING lists plus or minus 1F, and the Ninja Precision has 7 one touch presets. Fine control matters for green tea near 175F and for pour over coffee. The Cosori offers 5 presets and the PARIS RHONE 6, so range matters as much as step size."
   },
   {
-    "title": "Materials",
-    "description": "We looked at stainless versus plastic contact surfaces."
+    "title": "Keep warm duration",
+    "description": "The Cosori holds for 60 minutes and the Ninja Precision up to 30, while the PARIS RHONE offers a keep warm setting. We noted that a longer hold wastes energy, and judged each on whether the length matches a morning brew. A hold beyond an hour mostly wastes electricity once the pot is cool enough to drink."
   },
   {
-    "title": "Capacity and wattage",
-    "description": "Liters and watts were compared as listed."
+    "title": "Spout and capacity",
+    "description": "Gooseneck designs from Cosori, Aiheal and INTASTING hold 0.8 to 0.9L, suiting one or two cups, while the PARIS RHONE holds 1.7L and the Breville BKE700 57 oz. We weighed pour control against volume. At 0.8 liters a gooseneck needs two fills for a four cup pot."
   },
   {
-    "title": "Price",
-    "description": "Every pick is under $100 when gathered."
+    "title": "Interior materials",
+    "description": "Stainless interiors keep flavors clean. The Aiheal and PARIS RHONE list 304 stainless interiors, and the Cosori is steel on the body, lid and spout. We noted that the Breville uses a soft opening lid and dual windows, which add moving parts. A fully steel interior makes cleaning with vinegar safer than mixed parts."
+  },
+  {
+    "title": "Wattage and household limits",
+    "description": "The PARIS RHONE draws 1500W, the Cosori and Aiheal 1200W. A 1500W kettle may exceed a school appliance limit, so we marked the 1200W models as more flexible for dorm or office use. Lower wattage also means slower boils when you fill a full jug."
   }
 ];
 
@@ -290,11 +294,11 @@ export const howToChoose: HowToChooseSection[] = [
           "Cosori Gooseneck Electric Kettle 0.8L"
         ],
         [
-          "About $98",
+          "Under $100",
           "Breville BKE700 Soft Top Pure Kettle"
         ],
         [
-          "About $100",
+          "Under $125",
           "Ninja Precision 7-Cup Electric Kettle KT200"
         ]
       ]
@@ -363,7 +367,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You want basic quality at a lower price. INTASTING 0.9L Gooseneck Kettle is about $59 and offers one degree control."
+        "text": "You want basic quality at a lower price. INTASTING 0.9L Gooseneck Kettle is under $60 and offers one degree control."
       }
     ]
   }

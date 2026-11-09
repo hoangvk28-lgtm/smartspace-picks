@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Sound Dampening Design", "description": "Checked for genuine gasket-mount construction with foam layers versus standard non-dampened cases." },
-  { "title": "Connectivity Options", "description": "Compared wired-only versus tri-mode wireless connectivity across the lineup." },
-  { "title": "Hot-Swap Support", "description": "Checked which picks allow tool-free switch replacement versus fixed switches." },
-  { "title": "Switch Durability Claims", "description": "Compared stated keystroke lifespan ratings where manufacturers specified them." },
-  { "title": "Cross-Platform Compatibility", "description": "Checked explicit Mac and Windows support including included alternate keycaps." }
+  { "title": "Wireless modes for the price", "description": "We compared connectivity, with the Kisnt KN85 offering USB-C, 2.4GHz, and Bluetooth. Bluetooth is convenient for tablets but is generally a poor fit for fast games, so a 2.4GHz receiver or cable matters more than the number of connection modes. The Keychron C2 and Redragon K552 are wired only." },
+  { "title": "Gasket mount and foam claims", "description": "We looked at the Kisnt KN85 and HUO JI E-Yooso, both with gasket structures and sound-absorbing foam, with the E-Yooso listing 40 percent noise reduction. Gasket marketing can be overstated, so we weighed it as a modest feel upgrade rather than a game changer. The Keychron C2 and K552 list no gasket structure in their specs." },
+  { "title": "Switch feel and pre-lube", "description": "We compared pre-lubed linear switches on the two gasket boards with the brown tactile switches on the Keychron C2 and the red linears on the Redragon K552. Tactile browns suit typing, while linear reds suit gaming and quiet bottoming. Pre-lubed switches also reduce scratchy sounds out of the box." },
+  { "title": "Hot-swap availability", "description": "We noted that the Kisnt and E-Yooso are hot-swappable while the Keychron C2 and K552 are not. Hot-swap sockets let you change a disappointing switch later, which makes the two newer boards a safer bet if you have never typed on a mechanical board. The Keychron C2 does include extra keycaps instead." },
+  { "title": "Layout size", "description": "We compared a 75% layout, a 96% layout, a 104-key full-size board, and an 87-key TKL layout. The E-Yooso's 99 keys keep the numpad in a compact body, while the K552 drops it entirely, so we tied layout to your daily number entry habits. A TKL keeps the arrows and drops only the number keys." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "By $50 you get hot-swap and wireless on some boards, so the first table matches your daily use, typing or gaming, to a switch and layout.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "The four sit between a metal-plated wired Redragon and a wireless gasket board, so each budget step buys something concrete.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Connectivity Needs",
+    intro: "Wired or wireless is the second axis, since the Kisnt adds Bluetooth and 2.4GHz while the other three plug in.",
     table: {
       headers: ["Your connectivity needs", "Recommended pick"],
       rows: [
@@ -154,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want genuine gasket-mount sound quality combined with true wireless flexibility, where the Kisnt KN85 delivers both at the top of this tier." },
-      { label: "Save if", text: "You just want reliable wired mechanical typing with software remapping, where the Redragon K552 covers that for about $13 less." }
+      { label: "Save if", text: "You just want reliable wired mechanical typing with software remapping, where the Redragon K552 covers that for under $15 less." }
     ],
   }
 ];
@@ -184,8 +187,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Does gasket-mount construction make a real audible difference, or is it mostly marketing?", "a": "It makes a genuine, noticeable difference in both sound and feel since the internal plate is physically decoupled from the rigid case by foam and silicone layers, producing a measurably deeper and quieter sound than a standard screwed-in plate design." },
-  { "q": "What's the most common mistake buyers make when choosing a wireless mechanical keyboard at this tier?", "a": "Assuming all 'wireless' keyboards support the same multi-device switching convenience, when some only support a single Bluetooth pairing at a time, so checking for tri-mode or multi-channel support like on the Kisnt KN85 matters if you switch between devices often." },
-  { "q": "Is the Kisnt KN85 worth it over the cheaper HUO JI E-Yooso option?", "a": "If you specifically need true wireless connectivity across multiple devices, yes, but if you're fine with a wired connection and want the same gasket-mount sound quality for less, the HUO JI pick covers that for about $5 less." },
+  { "q": "Is a gasket-mount board worth it at under $50?", "a": "It can soften the typing feel and reduce hollow noise, and both the Kisnt KN85 and HUO JI E-Yooso use it with foam. But the effect depends on the implementation, and a gasket does not forgive bottoming out hard, so treat it as a bonus." },
+  { "q": "Is the Kisnt KN85 worth it over the cheaper HUO JI E-Yooso option?", "a": "If you specifically need true wireless connectivity across multiple devices, yes, but if you're fine with a wired connection and want the same gasket-mount sound quality for less, the HUO JI pick covers that for under $10 less." },
   { "q": "Can I use the Keychron C2's Mac-optimized layout on a Windows PC without issues?", "a": "Yes, it's designed to be compatible with Windows despite its Mac-optimized layout, and it includes extra keycaps for Windows so you can swap the Mac-specific keys like the Siri key to their Windows equivalents." },
   { "q": "Do the hot-swappable keyboards in this comparison require any special tools to change switches?", "a": "No, both the Kisnt and HUO JI picks are designed for tool-free switch replacement, using their hot-swap PCB design to let you pull and replace switches by hand without soldering." },
   { "q": "How long does the Kisnt KN85's battery actually last on wireless mode with RGB lighting on?", "a": "Using animated RGB effects drains the battery faster than static lighting, so the listing specifically recommends static effects or dimming the lights during long sessions if you want to maximize battery life between the roughly 7-8 hour charges." }

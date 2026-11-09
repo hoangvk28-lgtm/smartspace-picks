@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31EwlWLi0KL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D2ZVB8DJ?tag=deskfinds0d-20",
-    "description": "The P1 folds completely in half, which the listing says cuts its footprint by 50% when stored flat. It has an aluminum unibody frame, a 16.5 inch wide walking belt and three control options.\n\nIt is the most expensive pad at under $350, about $69 more than the Lastforever, but it is the only one built around a true fold-in-half deck with a premium aluminum finish. Its listing is lighter on motor and capacity figures than the ShineMaos or Lastforever.\n\nChoose it if you want a deck that disappears flat under a bed or sofa and a wider belt. The caveat is price and the thin horsepower detail.",
+    "description": "The P1 folds completely in half, which the listing says cuts its footprint by 50% when stored flat. It has an aluminum unibody frame, a 16.5 inch wide walking belt and three control options.\n\nIt is the most expensive pad at under $350, under $75 more than the Lastforever, but it is the only one built around a true fold-in-half deck with a premium aluminum finish. Its listing is lighter on motor and capacity figures than the ShineMaos or Lastforever.\n\nChoose it if you want a deck that disappears flat under a bed or sofa and a wider belt. The caveat is price and the thin horsepower detail.",
     "specs": [
       "Folds in half, 50% smaller",
       "16.5 inch wide belt",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Oyglo+sTL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H3V9RWC5?tag=deskfinds0d-20",
-    "description": "Vyrqenoxi folds to 40.5 by 18 by 4.7 inches, has a 35 by 14.4 inch belt, a 0.6 to 6.2 mph range, a safety handlebar and an LCD with 12 programs and three countdown modes. It is the most jogging-ready pad in the folding group below $200.\n\nIt is about $105 less than Lastforever and reaches 6.2 mph where Lastforever stops at 4, but its folded footprint is longer and its belt is shorter. Compared with the ShineMaos, it runs faster but lists no weight limit in the bullets.\n\nBest for a lighter, shorter walker who wants jogging speeds. The caveat is the 35 inch belt, which can feel short for taller users.",
+    "description": "Vyrqenoxi folds to 40.5 by 18 by 4.7 inches, has a 35 by 14.4 inch belt, a 0.6 to 6.2 mph range, a safety handlebar and an LCD with 12 programs and three countdown modes. It is the most jogging-ready pad in the folding group below $200.\n\nIt is under $125 less than Lastforever and reaches 6.2 mph where Lastforever stops at 4, but its folded footprint is longer and its belt is shorter. Compared with the ShineMaos, it runs faster but lists no weight limit in the bullets.\n\nBest for a lighter, shorter walker who wants jogging speeds. The caveat is the 35 inch belt, which can feel short for taller users.",
     "specs": [
       "Folds to 40.5 x 18 x 4.7 in",
       "0.6 to 6.2 mph",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/412CArZCvZL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HFRNBHND?tag=deskfinds0d-20",
-    "description": "NEWBULIG lists a fully folding frame with a sturdy handle bar, a 1.75 horsepower motor, a 0.6 to 3.0 mph range, a remote and an LED display with count modes. The listing says it folds fully for storage.\n\nIt is the cheapest pad here at about $90, and compared with Lastforever it costs $190 less but offers a smaller motor and lower top speed. Against ShineMaos, it saves $50 but drops incline and weight detail.\n\nBest for a first-time buyer who wants a handle and a fold at a low price. The caveat is that 3 mph is a stroll, not a brisk walk.",
+    "description": "NEWBULIG lists a fully folding frame with a sturdy handle bar, a 1.75 horsepower motor, a 0.6 to 3.0 mph range, a remote and an LED display with count modes. The listing says it folds fully for storage.\n\nIt is the cheapest pad here at under $100, and compared with Lastforever it costs $190 less but offers a smaller motor and lower top speed. Against ShineMaos, it saves $50 but drops incline and weight detail.\n\nBest for a first-time buyer who wants a handle and a fold at a low price. The caveat is that 3 mph is a stroll, not a brisk walk.",
     "specs": [
       "1.75hp, 0.6 to 3.0 mph",
       "Handle bar, fully folds",
@@ -191,51 +191,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "What actually folds",
-    "explanation": "Some pads fold the deck in half, some fold only the handle and others only tilt it upright. Only a deck fold reduces floor footprint significantly, as with the P1's 50% claim. Look for words like fold in half and a folded dimensions line in the listing."
+    "explanation": "Some pads fold the deck in half, some fold only the handle and others only tilt it upright. Only a deck fold reduces floor footprint significantly, as with the P1's 50% claim. Look for words like fold in half and a folded dimensions line in the listing.  Look for a spec line stating the fold style and stored dimensions, because WalkingPad's fold in half is a very different shape from an upright tilt."
   },
   {
     "criterion": "Folded dimensions and height",
-    "explanation": "Under a sofa or bed you need clearance, and many sofas leave only 5 to 6 inches. Folded dimensions such as 29.55 by 21.28 by 6.5 inches tell you where it will fit. Measure the gap first and compare with the listed folded height."
+    "explanation": "Under a sofa or bed you need clearance, and many sofas leave only 5 to 6 inches. Folded dimensions such as 29.55 by 21.28 by 6.5 inches tell you where it will fit. Measure the gap first and compare with the listed folded height.  Measure the gap under your sofa or bed, and compare it with Vyrqenoxi's 4.7 inch folded height or Lastforever's 6.5 inches before ordering."
   },
   {
     "criterion": "Running belt size",
-    "explanation": "Folding designs often shorten the belt to save space. Belts around 35 inches shorten stride, while 39 to 40 inches are comfortable for most. Check the belt length and width separately from the deck."
+    "explanation": "Folding designs often shorten the belt to save space. Belts around 35 inches shorten stride, while 39 to 40 inches are comfortable for most. Check the belt length and width separately from the deck.  Taller walkers should look for a belt near 40 inches such as Lastforever's 39.7 inches or Pcrignbm's 39, and note that Vyrqenoxi's 35 inch belt is short."
   },
   {
     "criterion": "Continuous versus peak power",
-    "explanation": "A peak rating is a short burst, while continuous output is what the motor holds. Pcrignbm lists 2.5HP peak and 0.75HP continuous, which is an unusually clear disclosure. Look for the continuous number or CHP in the spec text."
+    "explanation": "A peak rating is a short burst, while continuous output is what the motor holds. Pcrignbm lists 2.5HP peak and 0.75HP continuous, which is an unusually clear disclosure. Look for the continuous number or CHP in the spec text.  Read the motor line for continuous horsepower, as Pcrignbm lists 0.75 continuous, and treat a lone peak figure as incomplete."
   },
   {
     "criterion": "Hinge strength and wobble",
-    "explanation": "A fold adds a joint, and joints are where wobble starts. Metal frames and stated capacity give clues. Read buyer feedback on stability and check for a locking mechanism."
+    "explanation": "A fold adds a joint, and joints are where wobble starts. Metal frames and stated capacity give clues. Read buyer feedback on stability and check for a locking mechanism.  Check the listed weight capacity, such as ShineMaos's 350 lb versus Pcrignbm's 220 lb, since sustained use near the limit wears motors faster."
   },
   {
     "criterion": "Moving weight and wheels",
-    "explanation": "A foldable pad is only convenient if you can move it. Built-in transport wheels turn a 40 lb carry into a roll. Check whether wheels are listed and where the handle sits."
+    "explanation": "A foldable pad is only convenient if you can move it. Built-in transport wheels turn a 40 lb carry into a roll. Check whether wheels are listed and where the handle sits.  Check whether the listing mentions transport wheels, and weigh the pad if you will carry it, since sources put folding models at 35 to 60 lb."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Fold design",
-    "description": "We compared whether the deck, the handle or both fold, and the stated folded size."
+    "title": "Fold type and stored size",
+    "description": "We compared how each pad folds and how thin it gets, from WalkingPad's fold in half to Vyrqenoxi's 4.7 inch folded height and Lastforever's 29.55 x 21.28 x 6.5 inch fold. Under a sofa you need clearance, so we scored the thinnest folds highest for tight apartments."
   },
   {
-    "title": "Belt size",
-    "description": "We compared belt length and width."
+    "title": "Belt length and width",
+    "description": "We checked running surfaces such as Lastforever's 39.7 x 15.76 inches, Pcrignbm's 39 x 15 inches and the 16.5 inch width on WalkingPad. Sources suggest at least 40 inches long for tall users, so Vyrqenoxi's 35 inch belt cost it points for anyone above average height."
   },
   {
-    "title": "Motor",
-    "description": "We compared stated horsepower and noted peak versus continuous."
+    "title": "Motor honesty and top speed",
+    "description": "We compared stated horsepower, noting that Pcrignbm separates 2.5HP peak from 0.75 continuous, and top speeds from 3 mph on NEWBULIG to 6.2 mph on Vyrqenoxi and Pcrignbm. A walker needs steady output, so continuous figures mattered more than peak. A pad that tops out at 3 mph suits walking calls but not a brisk pace."
   },
   {
-    "title": "Capacity and stability",
-    "description": "We noted weight limits, frame materials and handle designs."
+    "title": "Capacity and noise claims",
+    "description": "We looked at weight limits such as ShineMaos's 350 lb and Pcrignbm's 220 lb, and noise claims of 45 dB maximum versus 70 dB or less. No pad is truly silent, so we favored stated figures and noted the ones that give none. Heavier users should leave at least 50 lb of headroom below the stated limit."
   },
   {
-    "title": "Price",
-    "description": "We compared price across tiers."
+    "title": "Handlebar, incline and control",
+    "description": "We compared handle bars, incline and controls. ShineMaos adds an 8 percent incline, several carry a handle bar for balance and NEWBULIG offers a remote and LED display. Extras help, but we only credited ones the listing confirms. A handle bar also helps first time users find their balance."
   }
 ];
 
@@ -371,24 +371,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do all foldable pads fold the deck?",
-    "a": "No. Many only fold the handle or tilt it upright. Look for fold in half wording and a folded-dimensions line."
+    "q": "Can I use a foldable walking pad under my desk?",
+    "a": "Only if the deck and your desk leave room for your legs. Belts here run 35 to 40 inches long, and handle bars on some models would block a desk. Check the listing for a handleless or foldable handle design and measure floor clearance."
   },
   {
-    "q": "Will a foldable pad wobble?",
-    "a": "A hinge can be a weak point, so check frame material and buyer feedback. Metal frames and locking mechanisms help."
+    "q": "What is the biggest mistake with foldable walking pads?",
+    "a": "Buying a pad with a belt too short for your stride. Vyrqenoxi's 35 inch belt feels cramped for tall users, while Lastforever's 39.7 inches suits most people. Check belt length, not just the deck size, before ordering."
   },
   {
-    "q": "Is the P1 worth the premium?",
-    "a": "If you want a true flat fold, a wider belt and an aluminum frame, yes. If you just need something that stores under a sofa, Lastforever or ShineMaos cost much less."
+    "q": "Is the WalkingPad P1 worth it over the Lastforever?",
+    "a": "The WalkingPad P1 folds in half with a 16.5 inch belt width and an aluminum frame, but costs more and its motor and capacity are not detailed. Lastforever lists 3HP and a 39.7 inch belt at a lower price, so it suits most buyers."
   },
   {
-    "q": "How do I fold it safely?",
-    "a": "Unplug it, lower the handle if there is one, and follow the manual's fold sequence. Lift with your legs."
+    "q": "How do I set up and store a foldable walking pad?",
+    "a": "Unfold it, level the feet and plug in. To store, fold fully and stand or slide it under a bed, checking the folded height first. Vyrqenoxi folds to 4.7 inches high, so it clears most low furniture. Keep the power cord clear of the fold line."
   },
   {
-    "q": "Can I leave it folded all the time?",
-    "a": "Yes, but keep the belt dry and away from dust. A folded pad stored vertically can collect dust on the belt."
+    "q": "How loud are these pads?",
+    "a": "Claims vary. ShineMaos lists 45 dB at maximum, Pcrignbm says 70 dB or less, and others give no figure. Sources note no pad is silent, and a rubber mat reduces vibration through hard floors into the room below."
+  },
+  {
+    "q": "Do I need to lubricate the belt?",
+    "a": "Many walking pads need periodic belt lubrication or a wipe, and the manual will state it. Check each listing for care instructions, keep the deck clean and avoid wearing street shoes. Ignoring it wears the belt faster."
   }
 ];
 

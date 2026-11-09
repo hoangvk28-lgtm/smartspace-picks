@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41sZURdmO6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CG4QXXQ6?tag=deskfinds0d-20",
-    "description": "EUHOMY measures 16.9 inches deep, 17.5 wide and 19.1 tall, a size the listing says is meant for countertops or under desks. It splits the space into a 1.5 cu ft fridge and a 0.2 cu ft compartment, with a knob for 32F to 50F and a compressor rated at about 0.55 kWh per day.\n\nCompared with Feelfunn above, it has complete outside dimensions and a one-year support promise, but a smaller freezer-style compartment. Against Electactic below, it is about $25 cheaper and slightly taller by a fraction of an inch.\n\nBest for a desk or counter with a measured height limit. The caveat is that the 0.2 cu ft compartment is tiny, so treat it as a chilling spot for produce.",
+    "description": "EUHOMY measures 16.9 inches deep, 17.5 wide and 19.1 tall, a size the listing says is meant for countertops or under desks. It splits the space into a 1.5 cu ft fridge and a 0.2 cu ft compartment, with a knob for 32F to 50F and a compressor rated at about 0.55 kWh per day.\n\nCompared with Feelfunn above, it has complete outside dimensions and a one-year support promise, but a smaller freezer-style compartment. Against Electactic below, it is under $30 cheaper and slightly taller by a fraction of an inch.\n\nBest for a desk or counter with a measured height limit. The caveat is that the 0.2 cu ft compartment is tiny, so treat it as a chilling spot for produce.",
     "specs": [
       "16.9 x 17.5 x 19.1 inches",
       "1.5 cu ft fridge, 0.2 cu ft compartment",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51YxITkiaYL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HCP3GJ5Y?tag=deskfinds0d-20",
-    "description": "Electactic measures 17.52 by 17.13 by 18.70 inches, the shortest in this guide, with a rotary thermostat of 7 settings across 32F to 50F and a stated 38 dB noise level. The listing says it is not meant for freezing, and it has a reversible hinge.\n\nCompared with EUHOMY above, it is 0.4 inch shorter but costs about $25 more and has no freezer compartment at all. Against Igloo below, it is more expensive and has less shelf variety.\n\nBest for a space where every inch of height counts. The caveat is the price premium for what is essentially a plain fridge box.",
+    "description": "Electactic measures 17.52 by 17.13 by 18.70 inches, the shortest in this guide, with a rotary thermostat of 7 settings across 32F to 50F and a stated 38 dB noise level. The listing says it is not meant for freezing, and it has a reversible hinge.\n\nCompared with EUHOMY above, it is 0.4 inch shorter but costs under $30 more and has no freezer compartment at all. Against Igloo below, it is more expensive and has less shelf variety.\n\nBest for a space where every inch of height counts. The caveat is the price premium for what is essentially a plain fridge box.",
     "specs": [
       "17.52 x 17.13 x 18.70 inches",
       "7 settings, 32F to 50F",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/313Qnq14uEL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B003UV4IXG?tag=deskfinds0d-20",
-    "description": "Koolatron lists 1.7 cu ft (48 L) and runs on either 12V DC or 110V AC, so it works in a truck or RV as well as a room. It uses a heat pump unit with thermoelectric heat pipe technology, has a stainless and black finish, door storage, a reversible door and a removable wire shelf.\n\nIt is the most expensive pick by a wide margin at under $350, about $190 more than the compressor models. In return you get the travel power options and a recessed handle with enclosed coils for a flush fit. Its cooling method is different from the compressor models above, so it follows a different performance profile.\n\nBest for a trucker, camper or anyone who needs both car and wall power. The caveat is the price, and for a plain dorm room the cheaper picks do the same job.",
+    "description": "Koolatron lists 1.7 cu ft (48 L) and runs on either 12V DC or 110V AC, so it works in a truck or RV as well as a room. It uses a heat pump unit with thermoelectric heat pipe technology, has a stainless and black finish, door storage, a reversible door and a removable wire shelf.\n\nIt is the most expensive pick by a wide margin at under $350, under $200 more than the compressor models. In return you get the travel power options and a recessed handle with enclosed coils for a flush fit. Its cooling method is different from the compressor models above, so it follows a different performance profile.\n\nBest for a trucker, camper or anyone who needs both car and wall power. The caveat is the price, and for a plain dorm room the cheaper picks do the same job.",
     "specs": [
       "1.7 cu ft, 48 liters",
       "12V DC and 110V AC power",
@@ -270,24 +270,24 @@ export const buyingCriteria: BuyingCriterion[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Size filter",
-    "description": "Only listings stating a capacity between 1.55 and 1.7 cu ft were kept, so the guide stays true to its title."
+    "title": "Noise rating in decibels",
+    "description": "We compared listed noise levels, from Frigidaire's under 37 dB and Frestec's 37 dB to the 38 dB figures on Feelfunn, Electactic and DOGHLY. A compressor mini fridge cycles on and off, so a bedroom or dorm buyer should care about the number and the click that averages do not capture."
   },
   {
-    "title": "Fit under a desk",
-    "description": "Listed height, width and depth were compared, favoring models near 19 inches tall."
+    "title": "Under-desk dimensions",
+    "description": "We read the outside dimensions where listed. EUHOMY is 16.9 by 17.5 by 19.1 inches, Electactic is 18.7 inches tall, and Frestec is 19.8 inches tall, while several others list no size at all. Measure your own knee clearance, because listed height decided fit."
   },
   {
-    "title": "Freezer and shelving",
-    "description": "We compared freezer compartments, shelf types and door storage for each layout."
+    "title": "Freezer reality",
+    "description": "We checked what the freezer section really is. EUHOMY has a 0.2 cu ft compartment, Electactic has no freezer, and the freezer boxes here are small and share the cooling plate with the fridge, so they hold a tray of ice or a pint, not groceries."
   },
   {
-    "title": "Noise, energy and defrost",
-    "description": "Decibel levels, kWh claims and defrost method were compared as manufacturer statements."
+    "title": "Cooling type and energy use",
+    "description": "We separated compressor models from Koolatron's heat pump with heat pipe, and checked energy figures where listed. Feelfunn and EUHOMY state about 0.55 kWh per day. Thermoelectric-style cooling is louder and weaker, so we flagged any non-compressor design."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $70 to $350 were weighed against documented specs."
+    "title": "Door, shelves and defrost",
+    "description": "We looked at daily-use details. Frestec has a one-touch defrost button and a drip tray, Igloo has slide-out and glass shelves with a can dispenser, and most models have a reversible door so it can open toward the wall in tight rooms."
   }
 ];
 
@@ -295,131 +295,128 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Where It Will Sit",
-    "intro": "The location decides the winner in this size class.",
+    "intro": "A 1.7 cu ft fridge sits in a few common spots, and each has a different limit.",
     "table": {
       "headers": [
-        "Your situation",
+        "Your spot",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under a desk with strict height limit",
-          "Electactic 1.6 Cu Ft Compact Mini Fridge"
+          "Under a standard desk where height is the limit",
+          "EUHOMY 1.7 Cu Ft Compact Mini Fridge, at 16.9 by 17.5 by 19.1 inches"
         ],
         [
-          "Under a desk with clear measurements",
-          "EUHOMY 1.7 Cu Ft Compact Mini Fridge"
+          "A low shelf or cabinet where height matters most",
+          "Electactic 1.6 Cu Ft Compact Mini Fridge, the shortest at 18.7 inches"
         ],
         [
-          "Countertop in a dorm room",
-          "Feelfunn 1.7 Cu Ft Mini Fridge with Freezer"
+          "A bedside or dorm corner where noise matters",
+          "Frigidaire 1.55 Cu Ft Onyx Mini Fridge, with the lowest stated noise level"
         ],
         [
-          "Next to a bed, need quiet",
-          "Frigidaire 1.55 Cu Ft Onyx Mini Fridge"
-        ],
-        [
-          "In an RV or truck cab",
-          "Koolatron 1.7 Cu Ft Portable Compact Fridge"
+          "A car, boat or camper as well as a room",
+          "Koolatron 1.7 Cu Ft Portable Compact Fridge, which runs on 12V DC and 110V AC"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "The DOGHLY and Frestec are the cheaper compressor fridges, and Koolatron costs far more.",
     "table": {
       "headers": [
-        "Price range",
+        "Budget",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $75",
-          "DOGHLY 1.7 Cu Ft Top Freezer Mini Fridge"
+          "The cheapest compressor model with a freezer",
+          "DOGHLY 1.7 Cu Ft Top Freezer Mini Fridge, with a top freezer"
         ],
         [
-          "$75 to $100",
-          "Frestec 1.7 Cu Ft Mini Fridge with Defrost Button"
+          "The lowest price among compressor 1.7s with easy defrost",
+          "Frestec 1.7 Cu Ft Mini Fridge with Defrost Button, at 37 dB"
         ],
         [
-          "$100 to $120",
-          "Frigidaire 1.55 Cu Ft Onyx Mini Fridge"
+          "A mid-range price with a clear spec sheet",
+          "Feelfunn 1.7 Cu Ft Mini Fridge with Freezer, with noise and energy figures"
         ],
         [
-          "About $120",
-          "Feelfunn 1.7 Cu Ft Mini Fridge with Freezer"
-        ],
-        [
-          "Above $140",
-          "Electactic 1.6 Cu Ft Compact Mini Fridge"
+          "The top of the range for a portable heat pump unit",
+          "Koolatron 1.7 Cu Ft Portable Compact Fridge, the most expensive by far"
         ]
       ]
     }
   },
   {
-    "subheading": "Freezer Box vs No Freezer",
+    "subheading": "Compressor vs Heat Pump Cooling",
+    "intro": "The cooling method decides noise, strength and where the fridge can live.",
     "cards": [
       {
-        "label": "With a freezer box",
-        "text": "A small compartment at the top lets you store ice or a few frozen items, but it shares cooling with the fridge. Picks here: Feelfunn, DOGHLY, Igloo and Frigidaire 1.55 Cu Ft Onyx Mini Fridge."
+        "label": "Compressor (Feelfunn, EUHOMY, Frestec, DOGHLY, Electactic, Igloo, Frigidaire)",
+        "text": "A compressor cools strongly and cycles on and off, with listed noise around 37 to 38 dB. It is the right choice for a room and cheaper to buy."
       },
       {
-        "label": "Fridge only",
-        "text": "All of the volume is chilled, so produce and drinks fit better and the layout is simpler. Picks here: Electactic 1.6 Cu Ft Compact Mini Fridge and EUHOMY 1.7 Cu Ft Compact Mini Fridge, which has only a tiny 0.2 cu ft compartment."
+        "label": "Heat pump with heat pipe (Koolatron)",
+        "text": "Koolatron's design runs from 12V DC or 110V AC, and is described as whisper quiet, but it cools differently and costs the most."
       }
     ],
-    "note": "Choose a freezer box only if you really need ice or frozen items, and otherwise pick the plain fridge."
+    "note": "Default to a compressor for a bedroom, and Koolatron only if it must run off a car socket."
   },
   {
-    "subheading": "Maintenance Preferences",
+    "subheading": "By What You Store",
+    "intro": "The freezer section is small on every model, so decide what you need cold.",
     "table": {
       "headers": [
-        "Your concern",
+        "Your use",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Do not want to defrost by hand",
-          "Frestec 1.7 Cu Ft Mini Fridge with Defrost Button"
+          "Drinks, snacks and a small tray of ice cubes",
+          "Feelfunn 1.7 Cu Ft Mini Fridge with Freezer, with a freezer compartment"
         ],
         [
-          "Want slide out shelves for cleaning",
-          "Igloo 1.6 Cu Ft Mini Fridge with Freezer"
+          "Ice cream or a frozen meal that must stay hard",
+          "DOGHLY 1.7 Cu Ft Top Freezer Mini Fridge, with a top freezer"
         ],
         [
-          "Want spill proof shelves",
-          "Frigidaire 1.55 Cu Ft Onyx Mini Fridge"
+          "Drinks only, where the whole box is fridge space",
+          "Electactic 1.6 Cu Ft Compact Mini Fridge, with no freezer at all"
         ],
         [
-          "Want one year support listed",
-          "EUHOMY 1.7 Cu Ft Compact Mini Fridge"
+          "Cans and bottles on organized shelves",
+          "Igloo 1.6 Cu Ft Mini Fridge with Freezer, with a can dispenser and a bottle rack"
         ]
       ]
     }
   },
   {
-    "subheading": "For Dorm Size Caps Specifically",
+    "subheading": "For Dorm Rooms Specifically",
+    "intro": "Dorm rules and a roommate make noise and defrosting matter more than size.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A fridge that stays well under your school's cubic foot cap, with a reversible door and leveling feet. Check the cap before ordering, since rules vary between schools."
+        "text": "A listed noise level near 37 or 38 dB, a reversible door for a tight room and a simple defrost method."
       },
       {
         "label": "In this comparison",
-        "text": "Every pick here is 1.7 cu ft or less, so all fit most caps. Feelfunn 1.7 Cu Ft Mini Fridge with Freezer has leveling feet and a reversible door, and Frigidaire 1.55 Cu Ft Onyx Mini Fridge is the smallest at 1.55."
+        "text": "Frigidaire's under 37 dB is the quietest listed, and Frestec adds a defrost button with a detachable drip tray."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "Higher prices here mostly buy brand names or portability.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You need travel power or tight measurements. Koolatron 1.7 Cu Ft Portable Compact Fridge adds 12V power, and Electactic 1.6 Cu Ft Compact Mini Fridge offers the lowest height."
+        "text": "You need power from a car socket, where Koolatron 1.7 Cu Ft Portable Compact Fridge supports 12V DC."
       },
       {
         "label": "Save if",
-        "text": "A standard room is all you need. DOGHLY 1.7 Cu Ft Top Freezer Mini Fridge and Frestec 1.7 Cu Ft Mini Fridge with Defrost Button cost $90 or less."
+        "text": "The fridge will live in a room, where DOGHLY 1.7 Cu Ft Top Freezer Mini Fridge is the cheapest compressor model."
       }
     ]
   }
@@ -429,27 +426,27 @@ export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
     "q": "Will a 1.7 cu ft fridge fit under my desk?",
-    "a": "Most are 18.7 to 19.8 inches tall, which clears a standard desk, but measure the width, depth and the space behind for ventilation. EUHOMY, Electactic and Frestec all list dimensions."
+    "a": "Most are 18.7 to 19.8 inches tall, which clears a standard desk, but measure the width, the depth and the space behind for ventilation. EUHOMY, Electactic and Frestec list full dimensions, while Igloo, Frigidaire and DOGHLY do not, so verify before ordering."
   },
   {
     "q": "What is the difference between 1.6 and 1.7 cu ft?",
-    "a": "Only a small amount of volume, and often just rounding. Compare the listed outside dimensions instead of the number."
+    "a": "It is only a small amount of volume, and often rounding between listings. The Igloo at 1.6 and Frigidaire at 1.55 hold slightly less than the 1.7 models, but the outside dimensions tell you more about fit than the cubic foot number does."
   },
   {
     "q": "Is a model with a freezer worth it over a plain fridge?",
-    "a": "Only if you need ice or a few frozen items. The freezer boxes here are small and share the cooling plate, and Electactic's listing says it is not for freezing."
+    "a": "Only if you need ice or a few frozen items. The freezer boxes here are small, EUHOMY lists a 0.2 cu ft compartment, and they share the cooling plate with the fridge. Electactic has none, and a freezerless unit cannot freeze ice at all."
   },
   {
     "q": "How do I defrost a mini fridge?",
-    "a": "Unplug it, empty it and let ice melt into a towel or tray. Frestec has a one-touch defrost button and a detachable drip tray, which makes this easier."
+    "a": "Unplug it, empty the food and let the ice melt into a towel or tray, then dry it before restarting. Frestec has a one-touch defrost button and a detachable drip tray, which makes this easier, and it is worth doing before ice crowds the small freezer."
   },
   {
-    "q": "Why is Koolatron so much more expensive?",
-    "a": "It runs on both 12V DC and 110V AC and uses a heat pump unit with heat pipe technology. That suits travel, but for a room the compressor models are cheaper."
+    "q": "Why is the Koolatron so much more expensive?",
+    "a": "It runs on both 12V DC and 110V AC and uses a heat pump unit with heat pipe cooling instead of a compressor. That suits cars, boats and campers, but for a bedroom or dorm the compressor models cost much less and cool more strongly."
   },
   {
-    "q": "Which is quietest?",
-    "a": "Frigidaire lists under 37 dB and Frestec 37 dB. The others state 38 dB, and compressor click is not captured in any of these averages."
+    "q": "Which of these 1.7 cu ft mini fridges is the quietest?",
+    "a": "Frigidaire lists under 37 dB and Frestec lists 37 dB, while Feelfunn, Electactic and DOGHLY state 38 dB or less. These are averages, and the click of a compressor starting is not captured, so a light sleeper should plan the fridge's position away from the bed."
   }
 ];
 

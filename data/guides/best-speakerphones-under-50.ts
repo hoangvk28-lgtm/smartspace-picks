@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Microphone Array and Pickup Range", "description": "Compared mic count, pickup radius, and stated attendee capacity across the lineup." },
-  { "title": "Connectivity Flexibility", "description": "Checked whether Bluetooth and USB work simultaneously or require manual switching." },
-  { "title": "Noise Cancellation Technology", "description": "Compared stated echo cancellation figures and noise reduction algorithm claims." },
-  { "title": "Expandability", "description": "Checked which picks support daisy chain expansion for larger meeting scenarios." },
-  { "title": "Battery Life and Portability", "description": "Compared stated battery life, Bluetooth range, and physical portability features." }
+  {
+    "title": "Pickup range against room size",
+    "description": "We compared listed ranges, 3 meters on the Cyber Acoustics, 6 feet on the AIRHUG for 4 to 6 people and a 4-mic array on the EMEET M0 Plus. Buyer guides warn that an oversensitive mic in a small room picks up room noise, so at under $50 we matched range to a desk or small huddle."
+  },
+  {
+    "title": "Echo handling and duplex",
+    "description": "We checked for full duplex audio, as on the CofunKool, and echo cancellation, as on the AIRHUG with a 400ms length. Full duplex lets both sides speak at once, which is the core job of a speakerphone, and a missing or vague spec was a red flag."
+  },
+  {
+    "title": "Connection type",
+    "description": "We separated USB plug and play from Bluetooth. The AIRHUG lists simultaneous Bluetooth and USB-C, the Cyber Acoustics lists Bluetooth 5.0 with 66 foot range, and the CofunKool needs no drivers. USB is generally steadier for calls, since Bluetooth can stutter near Wi-Fi."
+  },
+  {
+    "title": "Battery and expandability",
+    "description": "We noted the 12 hour battery on the Cyber Acoustics and the 10+ hour battery on the EMEET M0 Plus, which also lists daisy chain expansion to 16 attendees. Battery and expansion are model-specific, so we read each listing rather than assume."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,62 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Daisy chain expandability and longest battery life", "EMEET M0 Plus Conference Speaker and Microphone"],
-        ["Simple touch-based call management", "CofunKool Conference Speaker and Microphone"],
-        ["Simultaneous Bluetooth and USB connectivity", "AIRHUG Conference Speaker and Microphone"],
-        ["The lowest price with reliable dual-mode connectivity", "Cyber Acoustics SP-2000 USB Bluetooth Speakerphone"]
+    "subheading": "By Meeting Size",
+    "intro": "Match the unit to the headcount.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A solo desk or a pair of people on a call",
+          "CofunKool Conference Speaker, with 360 degree pickup and full duplex"
+        ],
+        [
+          "A huddle of 4 to 6 people around a small table",
+          "AIRHUG Conference Speaker, with a 6 foot pickup range"
+        ],
+        [
+          "A team room that may grow beyond one unit",
+          "EMEET M0 Plus Conference Speaker, which lists daisy chain expansion to 16 attendees"
+        ],
+        [
+          "A traveler who needs Bluetooth range and battery life",
+          "Cyber Acoustics SP-2000 USB Bluetooth Speakerphone, with 12 hours of playtime"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $35", "Cyber Acoustics (under $35)"],
-        ["Under $44", "AIRHUG (under $45)"],
-        ["Under $46", "CofunKool (under $50)"],
-        ["Under $50", "EMEET M0 Plus (under $50)"]
+    "subheading": "By Budget",
+    "intro": "Prices run from under $40 to $50.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $40",
+          "Cyber Acoustics SP-2000, the lowest price with Bluetooth 5.0"
+        ],
+        [
+          "Under $50",
+          "AIRHUG, with BT plus USB-C at once"
+        ],
+        [
+          "Under $50",
+          "CofunKool, with touch controls and plug and play"
+        ],
+        [
+          "Under $60",
+          "EMEET M0 Plus, with a 4-mic array and daisy chain"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Daisy Chain Expandable vs Single-Unit Only",
-    cards: [
-      { label: "Daisy chain expandable (EMEET M0 Plus)", text: "Lets you connect a second unit later to scale from a small huddle room to a 16-person meeting without buying an entirely new system." },
-      { label: "Single-unit only (CofunKool, AIRHUG, Cyber Acoustics)", text: "Covers smaller, fixed-size meeting scenarios without a built-in growth path, generally at a lower price." }
+    "subheading": "USB Wired vs Bluetooth",
+    "intro": "The connection decides reliability.",
+    "cards": [
+      {
+        "label": "USB",
+        "text": "The CofunKool and EMEET M0 Plus plug in with no drivers, which gives the lowest latency and steady audio for a meeting."
+      },
+      {
+        "label": "Bluetooth",
+        "text": "The Cyber Acoustics SP-2000 and AIRHUG add Bluetooth for phones, but Bluetooth can drop near Wi-Fi."
+      }
     ],
-    note: "If your meeting sizes might grow over time, the EMEET M0 Plus's daisy chain option is worth the premium. If you only ever host small 1-on-1 or small group calls, any of the other three picks work fine.",
+    "note": "For daily work meetings, use USB. Keep Bluetooth for phone calls and music."
   },
   {
-    subheading: "By Connection Style",
-    table: {
-      headers: ["Your connection preference", "Recommended pick"],
-      rows: [
-        ["Simultaneous Bluetooth and USB", "AIRHUG (both active at once)"],
-        ["Switch between PC and phone with one button", "Cyber Acoustics"],
-        ["USB-C with Bluetooth 5.0 dual mode", "EMEET M0 Plus"],
-        ["Simple USB plug and play only", "CofunKool"]
+    "subheading": "By Features",
+    "intro": "Small differences matter in daily use.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Touch controls for mute and volume",
+          "CofunKool"
+        ],
+        [
+          "A long echo cancellation window",
+          "AIRHUG, with 400ms"
+        ],
+        [
+          "Wireless phone calls at up to 66 feet",
+          "Cyber Acoustics SP-2000"
+        ],
+        [
+          "Linking two units for a longer table",
+          "EMEET M0 Plus, with daisy chain"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Home Office With Occasional Phone Calls Specifically",
-    cards: [
-      { label: "Look for", text: "A speakerphone that keeps both a Bluetooth phone connection and a USB computer connection active without requiring you to switch modes mid-call." },
-      { label: "In this comparison", text: "The AIRHUG pick's simultaneous Bluetooth and USB-C connection specifically avoids the need to switch modes between a phone call and a computer call." }
-    ],
+    "subheading": "For a Home Office Specifically",
+    "intro": "A home office needs a clear voice and a quiet unit.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Full duplex audio, 360 degree pickup, plug and play USB and a range matched to a desk."
+      },
+      {
+        "label": "In this comparison",
+        "text": "CofunKool lists full duplex and 360 degree pickup, and Cyber Acoustics SP-2000 lists a 3 meter range, so both suit a home office."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want daisy chain expansion and the longest battery life for growing meeting needs, where the EMEET M0 Plus delivers both at the top of this tier." },
-      { label: "Save if", text: "You just need reliable dual-mode connectivity for small calls, where the Cyber Acoustics pick covers that for about $15 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $75 guide adds certified models.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need Teams or Zoom certification or a larger room. The under $75 guide adds the Yealink SP92 with Teams certification."
+      },
+      {
+        "label": "Save if",
+        "text": "You use one desk and a laptop. Cyber Acoustics SP-2000 costs the least here."
+      }
+    ]
   }
 ];
 
@@ -184,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I daisy chain the EMEET M0 Plus with a different brand's speakerphone?", "a": "No, daisy chain functionality is brand-specific and requires an EMEET daisy chain cable connecting to compatible EMEET models like the M3 or Meeting Capsule, so mixing brands won't work." },
-  { "q": "What's the most common mistake buyers make when choosing a speakerphone under $50?", "a": "Assuming a stated attendee capacity, like '4-6 people' or 'up to 16 attendees', works reliably at the far edge of that range in a real room, when actual performance depends heavily on room acoustics and seating distance from the unit." },
-  { "q": "Is the EMEET M0 Plus worth it over the cheaper Cyber Acoustics option?", "a": "If you want daisy chain expansion and the longest battery life, yes, but if you just need reliable dual-mode connectivity for small calls without growth plans, the Cyber Acoustics pick covers that for about $15 less." },
-  { "q": "How do I know if the AIRHUG pick's simultaneous Bluetooth and USB connection will work with my specific laptop and phone?", "a": "It's designed to be broadly compatible with major operating systems and most conferencing platforms, but checking your specific laptop's USB-C support and phone's Bluetooth version against the listing's compatibility notes is worth doing before assuming universal compatibility." },
-  { "q": "Do any of these speakerphones work without being plugged into power at all?", "a": "The EMEET M0 Plus, AIRHUG, and Cyber Acoustics picks all include rechargeable batteries for cordless Bluetooth use, while the CofunKool pick's listing doesn't specify a standalone battery, suggesting it may rely on USB power." },
-  { "q": "Can these budget speakerphones handle a full 8-hour workday of back-to-back calls?", "a": "The EMEET M0 Plus's over 10 hour battery life comes closest to covering a full workday cordlessly, though keeping any of these picks plugged in via USB during extended heavy use avoids battery concerns entirely." }
+  {
+    "q": "Is a bigger pickup range always better?",
+    "a": "No. Buying guides warn that an overly sensitive mic in a small room picks up room noise and echo. The AIRHUG lists a 6 foot range for 4 to 6 people, which is a better match for a desk than a 13 foot radius."
+  },
+  {
+    "q": "What does full duplex mean?",
+    "a": "It means both sides of a call can speak at once without one cutting out. The CofunKool lists full duplex audio, which helps conversations feel natural. Half duplex speakerphones allow only one direction at a time."
+  },
+  {
+    "q": "Is the EMEET M0 Plus worth it over the Cyber Acoustics?",
+    "a": "If you want a 4-mic array and daisy chain expansion, yes. The Cyber Acoustics lists a 3 meter range, 12 hour battery and Bluetooth 5.0 at a lower price, so choose it for simple travel use."
+  },
+  {
+    "q": "Can I connect over Bluetooth and USB at once?",
+    "a": "The AIRHUG lists simultaneous Bluetooth and USB-C connection. That lets you take a phone call over Bluetooth while the laptop stays plugged in. Check how the speaker switches between sources. A listing that gives a rated figure and the units is more trustworthy than one that only says quiet."
+  },
+  {
+    "q": "How do I reduce echo on a call?",
+    "a": "Place the speakerphone in the middle of the table, away from walls and screens. Lower the volume if you hear echo, and make sure only one device on the call is using a speaker. Soft furnishings help reduce room echo."
+  },
+  {
+    "q": "How should I charge the battery?",
+    "a": "Use the supplied cable and charge before a long meeting. Battery life, such as 10+ hours on the EMEET M0 Plus, drops with volume. Keep the unit out of heat."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Swivel Range", "description": "Compared rotation range, from no swivel through 135-degree and full 360-degree designs." },
-  { "title": "Adjustable Frame Size", "description": "Compared the width and height range each mount's adjustable frame can accommodate." },
-  { "title": "Weight Capacity", "description": "Compared stated maximum supported weight across the heavier-duty picks in this tier." },
-  { "title": "Multi-Pack Value", "description": "Compared per-unit cost for the listing offering two mounts in a single purchase." },
-  { "title": "Installation Requirements", "description": "Checked specific desk clearance or overhang requirements each mount depends on for proper installation." }
+  {
+    "title": "Swivel range and port access",
+    "description": "We compared rotation, from the Mount-It!'s full 360 degrees to the VIVO's 135 degrees, since a swivel lets you reach rear ports without unscrewing the bracket. Rear access matters when a PC sits beneath a desk with no room to reach behind. Rear ports decide this."
+  },
+  {
+    "title": "Capacity and size range",
+    "description": "We looked at the 22 lb rating on the Mount-It! (fits 3.5 to 8 inch width) and the VIVO swivel mount, against the 11 lb on the suptek pair. A mini tower or small desktop needs the higher rating, while a thin client does not. A heavy case needs the higher rating."
+  },
+  {
+    "title": "Desk overhang requirement",
+    "description": "We noted that the VIVO mount needs adequate desk overhang and that wall or under-desk installation both work on the Mount-It!. A frame desk with a steel rail beneath can make an under-desk clamp impossible, so we flagged clearance. Measure the overhang."
+  },
+  {
+    "title": "Coating, padding and corrosion",
+    "description": "We compared the rust-proof coating on the suptek brackets and the EVA scratch pads on the Mount-It!. A mount that scratches the chassis or corrodes in humid rooms is a long-term annoyance, so protective padding counted. Scratches add up on a glossy case."
+  },
+  {
+    "title": "Value per mount",
+    "description": "We priced the suptek 2 Pack at the lowest per-unit cost, with 24/7 technical support, against single-bracket picks. Two brackets is a real saving if you run a dual mini PC or Raspberry Pi setup. Two brackets can also serve a router."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Full 360-degree rear access without unmounting", "Mount-It! CPU Under Desk Mount Bracket, 360 Degree Swivel"],
-        ["Two mounts at the best combined value", "suptek Thin Client Mount Bracket, 2 Pack"],
-        ["Solid swivel and heavy-duty capacity at a lower price", "VIVO Black Under Desk and Wall Office PC Mount"],
-        ["A precisely matched fit for a genuine OptiPlex Micro", "HumanCentric Mount for Dell OptiPlex Micro"]
+    "subheading": "By PC Size",
+    "intro": "At up to $50 the choice covers thin clients through small desktops.",
+    "table": {
+      "headers": [
+        "Device size",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Small desktop case 11.8 to 21 inches tall",
+          "Mount-It! CPU Under Desk Mount Bracket, 360 Degree Swivel, up to 22 lbs"
+        ],
+        [
+          "Medium case 11.5 to 20.5 inches tall",
+          "VIVO Black Under Desk and Wall Office PC Mount, 135-degree swivel and 22 lbs"
+        ],
+        [
+          "Thin client or mini PC under 2.7 inches wide",
+          "suptek Thin Client Mount Bracket, 2 Pack, 0.6 to 2.7 inches each"
+        ],
+        [
+          "Dell OptiPlex Micro MFF",
+          "HumanCentric Mount for Dell OptiPlex Micro, cross-referenced against Dell part numbers"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $35", "VIVO (under $35) or HumanCentric Dell OptiPlex (under $35)"],
-        ["Under $38", "suptek 2 Pack (under $40)"],
-        ["Under $46", "Mount-It! 360 Swivel (under $50)"]
+    "subheading": "By Budget",
+    "intro": "The range under $50 buys either a swivel or two cheap brackets.",
+    "table": {
+      "headers": [
+        "Budget bracket",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest per-unit cost, two PCs",
+          "suptek Thin Client Mount Bracket, 2 Pack"
+        ],
+        [
+          "Mid range for a precise Dell fit",
+          "HumanCentric Mount for Dell OptiPlex Micro"
+        ],
+        [
+          "Upper mid for 135-degree swivel",
+          "VIVO Black Under Desk and Wall Office PC Mount, matching the 22 lb capacity of pricier mounts"
+        ],
+        [
+          "Top of the range for full swivel",
+          "Mount-It! CPU Under Desk Mount Bracket, 360-degree rotation"
+        ]
+      ]
+    }
   },
   {
-    subheading: "360-Degree Swivel vs 135-Degree Swivel",
-    cards: [
-      { label: "360-degree swivel (Mount-It!)", text: "Full rotation reaches any angle for rear port access, worth the price premium if you frequently swap cables or peripherals." },
-      { label: "135-degree swivel (VIVO)", text: "Still provides genuinely easy backside access for most cable and port needs, at a lower price than the full-rotation pick." }
+    "subheading": "Full 360 Swivel vs 135 Degree Swivel",
+    "intro": "More rotation costs more and needs more room.",
+    "cards": [
+      {
+        "label": "360 degrees: Mount-It!",
+        "text": "Spin the PC to reach any port and swing it out of the way. It needs a larger footprint and is the priciest pick here."
+      },
+      {
+        "label": "135 degrees: VIVO",
+        "text": "Enough to reach front and side ports at a lower price. It cannot rotate all the way round, so rear ports may still need an angle."
+      }
     ],
-    note: "If you rarely need to reach rear ports after initial setup, the VIVO's 135-degree swivel and lower price make more sense than paying for full rotation you'll use infrequently.",
+    "note": "Most home offices will be happy with 135 degrees, unless the PC has rear ports you use daily."
   },
   {
-    subheading: "By PC Case Size",
-    table: {
-      headers: ["Your device size", "Recommended pick"],
-      rows: [
-        ["Genuinely tiny OptiPlex Micro or thin client", "HumanCentric Dell OptiPlex Mount or suptek 2 Pack"],
-        ["Larger small form factor PC case", "Mount-It! 360 Swivel or VIVO Black Mount"]
+    "subheading": "By Mounting Surface",
+    "intro": "Mounts work differently on wood, metal or walls.",
+    "table": {
+      "headers": [
+        "Surface",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Desk with generous overhang",
+          "VIVO Black Under Desk and Wall Office PC Mount, requires adequate overhang"
+        ],
+        [
+          "Wall behind a desk",
+          "Mount-It! CPU Under Desk Mount Bracket, with wall or under-desk installation"
+        ],
+        [
+          "Monitor pole or arm",
+          "suptek Thin Client Mount Bracket, with pole clip and VESA options"
+        ],
+        [
+          "Under a desk for an OptiPlex Micro",
+          "HumanCentric Mount for Dell OptiPlex Micro, with Velcro straps for the power adapter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Frequently Reconfigured Workstation Specifically",
-    cards: [
-      { label: "Look for", text: "Full swivel range so you can access rear ports and cables repeatedly without unmounting the device each time." },
-      { label: "In this comparison", text: "The Mount-It! pick's full 360-degree swivel suits a workstation where cables or peripherals change often." }
-    ],
+    "subheading": "For a Full-Size Mini Tower Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A 20 lb or higher rating, width adjustability above 7 inches, and top-and-bottom clamping so the unit does not shift."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Mount-It! and VIVO both support 22 lbs, and the Mount-It! has the widest device range at 3.5 to 8 inches."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need full 360-degree rotation and the widest device size range, where the Mount-It! pick delivers both at the top of this tier's price range." },
-      { label: "Save if", text: "You have a genuinely compact OptiPlex Micro or just need two standard mounts, where the HumanCentric or suptek picks cover that need for about $11 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Above this tier you are buying a locking drawer or rack.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need a lockable cage or a dual-PC rack. That goes beyond the under $50 guide."
+      },
+      {
+        "label": "Save if",
+        "text": "A thin client under 11 lbs is all you mount, where the under $30 guide's Mount-It! or suptek pair suffices."
+      }
+    ]
   }
 ];
 
@@ -181,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "How do I know if my desk has enough overhang for the VIVO mount's installation requirement?", "a": "Measure the distance from your desk's frame supports (the legs or braces underneath) to the desk's outer edge, and confirm that distance is greater than or equal to your PC case's width before purchasing." },
-  { "q": "What's the most common mistake buyers make when choosing between 360-degree and 135-degree swivel mounts?", "a": "Paying extra for full 360-degree rotation without considering how often they'll actually need to access rear ports after initial setup, when a 135-degree swivel or even a fixed mount often serves the same practical purpose for a rarely-reconfigured workstation." },
-  { "q": "Is the Mount-It! 360-degree swivel mount worth it over the VIVO 135-degree pick?", "a": "If you frequently swap cables or peripherals and need to reach any angle behind the device, yes, but if occasional rear access is enough, the VIVO's 135-degree swivel accomplishes that at roughly $11 less." },
-  { "q": "Can the heavy-duty 22 lb capacity mounts in this comparison also work for a lightweight thin client?", "a": "Yes, both the Mount-It! and VIVO picks can mount a lighter device just fine, though you'd be paying for weight capacity headroom you won't use if your actual device is a lightweight thin client rather than a larger PC case." },
-  { "q": "Does the suptek 2-pack offer the same swivel functionality as the Mount-It! or VIVO picks?", "a": "No, the suptek 2-pack brackets don't include a swivel mechanism, so if rear rotation access matters to you, choose the Mount-It! or VIVO pick instead, even if it means paying more per mount." },
-  { "q": "How do I choose between the HumanCentric Dell OptiPlex Mount and a universal heavy-duty mount at this price?", "a": "If you have a genuinely compact OptiPlex Micro form factor device, the HumanCentric mount's precisely matched fit and documented part-number compatibility are worth choosing over a universal heavy-duty mount sized for larger cases you don't actually own." }
+  {
+    "q": "Is the Mount-It! swivel worth over the VIVO 135 degree?",
+    "a": "If you touch the rear ports, yes. The Mount-It! rotates 360 degrees and fits 3.5 to 8 inch widths, while the VIVO covers 135 degrees at a lower price with the same 22 lb capacity. Rear ports decide this, so check which ones you reach daily."
+  },
+  {
+    "q": "What mistake do people make with CPU under-desk mounts?",
+    "a": "Ignoring desk overhang and clearance. The VIVO notes it needs adequate overhang, and a desk frame can block the clamp. Measure the space and the PC height before ordering. Measure first, since overhang varies by desk style."
+  },
+  {
+    "q": "Can the suptek 2-pack hold a mini PC and a router?",
+    "a": "Yes, each bracket holds up to 11 lbs and fits 0.6 to 2.7 inches wide. Check that the two devices have the right dimensions, and keep vents clear for each one. Check the width before stacking anything beside it."
+  },
+  {
+    "q": "How do I confirm my Dell OptiPlex Micro fits the HumanCentric mount?",
+    "a": "Look at the listed Dell part numbers and match your model, since the mount is built for the OptiPlex Micro MFF form factor. Its Velcro straps then secure the power adapter. Part numbers are printed on the Dell label."
+  },
+  {
+    "q": "What do I do about heat when mounting under a desk?",
+    "a": "Leave side vents open and avoid pressing exhaust against the desk underside. Compare temperatures on an open surface, and consider a mount with open frames such as the suptek or Mount-It!. Look at the fan side to decide the orientation."
+  },
+  {
+    "q": "How do I install a 22 lb PC mount safely?",
+    "a": "Screw into solid wood or studs rather than thin particleboard, use all supplied screws, and keep weight centered. The VIVO and Mount-It! hold 22 lbs, but a loose screw is the usual failure. Check the screw length too, thin tops split."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

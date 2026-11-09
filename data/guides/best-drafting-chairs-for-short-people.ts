@@ -190,23 +190,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Minimum seat height",
-    "description": "We read the lowest stated seat height first, because it decides whether a short user's feet reach the floor."
+    "description": "For a short user the first test is the bottom of the range. The Simple Deluxe starts at 17.3 inches, the HOOBRO at 18.1, the KKTONER at 18.8, and the WKWKER at 19.6, while the Flumpent starts at 21.3. We weighted a low floor above a high ceiling, since a stool you cannot sit on is no use."
   },
   {
-    "title": "Footrest ring range",
-    "description": "The footrest ring's lowest and highest positions were compared, since short users rely on it at tall surfaces."
+    "title": "Maximum seat height and the desk it matches",
+    "description": "The usual rule is to subtract about 10 to 12 inches from the work surface to find a seat height. We compared each ceiling with a standard 29 to 30 inch desk and a 36 inch counter, noting that the WKWKER reaches 26.1 inches and the Flumpent 29.5, while the Simple Deluxe tops out at 21.3."
   },
   {
-    "title": "Seat and back support",
-    "description": "Cushion size, backrest height and adjustability were weighed for smaller bodies."
+    "title": "Footring range and usefulness",
+    "description": "A footring is essential on a tall chair, and we credited an adjustable one. The Flumpent lists 8.26 to 15.8 inches and the Take Ur Seat about 3 to 12 inches, while the WKWKER lists a ring but no range. We treated an unstated range as a real gap for a short user."
   },
   {
-    "title": "Stability and rating",
-    "description": "Base design, casters and listed weight ratings were compared."
+    "title": "Cushion and backrest ergonomics",
+    "description": "Seat comfort for small frames comes from seat depth and backrest height. We compared the Take Ur Seat's adjustable lumbar and seat depth, the WKWKER's 17 by 16 inch cushion, and the KKTONER's 13 inch round seat and 6.3 inch back, since a one-size seat suits only some short users."
   },
   {
-    "title": "Value",
-    "description": "The features gained were measured against the price bucket."
+    "title": "Weight rating and certifications",
+    "description": "Ratings matter on a tall base. We looked at the 300 lb listed for the WKWKER and Flumpent, 350 lb for the Simple Deluxe, and 250 lb for the KKTONER. The Flumpent lists a BIFMA and SGS certified gas lift and the Take Ur Seat meets ANSI and BIFMA standards, and we noted the HOOBRO shows no rating."
   }
 ];
 
@@ -347,50 +347,50 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Lowest seat height",
-    "explanation": "Short users need the seat low enough that feet rest flat with knees near 90 degrees. Some retailer guides suggest a minimum around 22 inches for people under 5 feet 4 inches at a counter, but a standard desk needs much lower. Read the minimum number on the listing rather than the marketing height."
+    "explanation": "Drafting chairs are built tall, and many start near 22 inches, which is too high for someone under about 5 foot 3. The Simple Deluxe lists 17.3 inches and the HOOBRO 18.1 inches at the bottom, while the Flumpent starts at 21.3. Your feet should rest flat with your knees near 90 degrees, so compare your own floor to knee height with the listed minimum seat height."
   },
   {
     "criterion": "Footrest ring height range",
-    "explanation": "On a tall seat your feet need the ring. Rings that start 7 to 9 inches off the floor suit shorter users, while rings that start higher are out of reach. Look for the lowest and highest ring positions, such as 8.26 inches in one pick here."
+    "explanation": "A tall chair without a footrest leaves your legs dangling, which cuts circulation at the thigh. The Flumpent lists a ring that adjusts from 8.26 to 15.8 inches and the Take Ur Seat about 3 to 12 inches above the base. A ring that starts low gives a short user a foot platform at several seat heights. Look for the adjustment range, not just that a ring exists."
   },
   {
     "criterion": "Seat depth and cushion size",
-    "explanation": "A deep seat presses on the back of the knees if your legs are short. Cushions around 16 inches deep tend to fit shorter users better. Check the cushion size in inches and consider seat-depth adjustment on higher-end chairs."
+    "explanation": "A deep seat pushes a short person's back off the backrest, because the seat edge hits the calves before the back touches support. Cushions here run from a 13 inch round on the KKTONER to 17 by 16 inches on the WKWKER. A shorter user should favor the smaller seat or an adjustable seat depth like the Take Ur Seat. Check the listed seat dimensions."
   },
   {
     "criterion": "Backrest height and removability",
-    "explanation": "A tall backrest can push shoulders forward on a small frame, while a low one stops at the lumbar. A detachable backrest lets you use the seat as a stool. Check whether the back is described as low or removable."
+    "explanation": "A low back supports the lumbar region, but a very tall backrest can dig into a short user's shoulders. The WKWKER has a detachable backrest so it can be a stool, the KKTONER has a 6.3 inch low back, and the Simple Deluxe has a low back. Decide whether you want the option to remove it, and check the backrest height in inches."
   },
   {
     "criterion": "Stability on a tall base",
-    "explanation": "Higher seats raise the center of gravity, so a wide, five-star base matters. Look for weight ratings and base diameter, and avoid models with narrow bases. One pick here lists a wide non-slip base and BIFMA certified gas lift."
+    "explanation": "A tall seat on a narrow base tips more easily when you lean to reach something. The Flumpent lists a wide non-slip base, and five-wheel designs like the HOOBRO add stability on hard floors. Look for the weight rating, the wheel count, and a base footprint wide enough for your height, and check that the gas lift is certified."
   }
 ];
 
 export const faq = [
   {
-    "q": "What seat height does a short person need?",
-    "a": "It depends on the work surface. A common rule puts the seat 10 to 12 inches below it, so a 36 inch counter calls for about 24 to 26 inches, while a standard desk needs a much lower seat."
+    "q": "What seat height should a short person look for?",
+    "a": "Pick a chair whose range covers your needed height with feet on the floor or a footring. Most standard drafting chairs start near 22 inches, so look for models like the Simple Deluxe at 17.3 inches or the HOOBRO at 18.1 inches if your floor to knee measurement is under about 18 inches."
   },
   {
-    "q": "Can I use a drafting chair at a regular desk?",
-    "a": "Only if the minimum height is low enough. Many drafting chairs start at 22 inches or more, too high for a standard desk, so check the lowest setting."
+    "q": "Do I really need a footring?",
+    "a": "Yes, once the seat is above about 24 inches, because dangling legs reduce circulation. The Flumpent lists an 8.26 to 15.8 inch adjustable ring and the Take Ur Seat about 3 to 12 inches. A ring that starts low lets a short person rest feet at a natural angle."
   },
   {
-    "q": "Do I need a footrest ring?",
-    "a": "At a tall surface, yes: without one your feet dangle. At a standard desk with the seat low, you may not need it."
+    "q": "Is the Simple Deluxe too low for a standard desk?",
+    "a": "Yes for a 29 inch desk, since it adjusts from 17.3 to 21.3 inches. It suits a low craft table or a drawing board near 28 inches only if your legs are short. For a taller work surface, step up to the WKWKER or the Flumpent."
   },
   {
-    "q": "How do I measure my chair height?",
-    "a": "Sit with your feet flat and knees about 90 degrees, measure from the floor to the back of your knee, and compare it with the seat height range."
+    "q": "Is the Take Ur Seat worth more than the cheaper picks?",
+    "a": "If you sit long hours and need fit, yes. It lists adjustable lumbar, seat depth, a 10 inch seat height range, and ANSI and BIFMA standards. The HOOBRO and KKTONER cost much less but have fixed seats and lower or unlisted weight ratings."
   },
   {
-    "q": "Are stools without backs better for short people?",
-    "a": "They can be easier to move in and out, but support is lower. A chair with a detachable back lets you choose."
+    "q": "How do I check the chair is stable on a hard floor?",
+    "a": "Look for five wheels and a wide base, like the HOOBRO's five-wheel design or the Flumpent's wide non-slip base. Test by leaning to reach a shelf with feet on the ring, and make sure the wheels do not roll when you sit. Hard floors may need locking casters."
   },
   {
-    "q": "How do I keep a tall chair stable?",
-    "a": "Use a wide five-star base, keep the seat as low as works, and avoid leaning back on the front legs. Check the weight rating."
+    "q": "How do I maintain the gas lift?",
+    "a": "Avoid exceeding the listed weight, like the 300 lb on the WKWKER, and do not drag the chair by the seat. If it sinks slowly, the cylinder is wearing out and should be replaced. Wipe PU or fabric seats with a damp cloth, and tighten the base screws every few months."
   }
 ];
 

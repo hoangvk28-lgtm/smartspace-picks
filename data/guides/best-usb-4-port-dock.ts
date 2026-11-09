@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Per-Port Bandwidth", "description": "Compared stated Gb/s figures per individual Thunderbolt/USB4 port across all four docks." },
-  { "title": "Total Port Count", "description": "Compared additional peripheral ports beyond the headline 4 Thunderbolt/USB4 connections." },
-  { "title": "Sustained Power Delivery", "description": "Compared power delivery consistency across all connected devices simultaneously." },
-  { "title": "Portability", "description": "Compared compact travel-friendly designs against larger desk-anchored hubs." },
-  { "title": "Included Accessories", "description": "Compared bundled chargers and cables against docks requiring separate purchases." }
+  {
+    "title": "Per-port bandwidth, not the port count",
+    "description": "Four ports share one host link, so we looked at what each port can deliver. CalDigit E5 lists 4 Thunderbolt 5 or USB4 v2 ports at 80Gb/s with 120Gb/s Bandwidth Boost, and up to 6,200MB/s for fast SSDs, while the other three are Thunderbolt 4 at 40Gbps."
+  },
+  {
+    "title": "Power delivery and sustained charging",
+    "description": "CalDigit lists 90W sustained power across 9 ports, UGREEN 85W from a 140W GaN charger, Amazon Basics 96W dynamic PD with overload protection. We compared that with laptop needs, because a 100W laptop will not charge fully on an 85W dock under load. A 100W laptop on an 85W dock will charge slowly or not at all during heavy work."
+  },
+  {
+    "title": "Extra ports beyond Thunderbolt",
+    "description": "OWC is a simple 4 Thunderbolt 4 ports plus 1 USB-A hub with no Ethernet or card reader, while UGREEN adds Gigabit Ethernet in an 8-in-1 layout and CalDigit adds more ports. We checked what you must buy separately to match the same desk. A dock with Ethernet and a card reader replaces two small adapters that otherwise cost extra."
+  },
+  {
+    "title": "Host and platform restrictions",
+    "description": "Amazon Basics states it is not compatible with M1 or M2 MacBooks or Chrome OS and Linux laptops, and UGREEN excludes the 2018 Intel Mac mini. We counted explicit incompatibility lists as a mark against a pick for broad use. A listed exclusion is more useful than a compatibility claim with no named hosts."
+  },
+  {
+    "title": "Portability and thermal note",
+    "description": "Amazon Basics is compact for travel but its listing warns the dock may reach 122F, while the others are desk docks with larger power supplies. We weighed this for buyers who carry a dock between a desk and a bag. Heat matters most for a dock sitting beside a laptop in a closed bag."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,129 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The highest per-port bandwidth with sustained power", "CalDigit E5 Thunderbolt 5 Element 5 Hub"],
-        ["A simple 4-port hub without extra peripheral ports", "OWC Thunderbolt Hub 5-Port"],
-        ["A travel-friendly, compact 4-port dock", "Amazon Basics Thunderbolt 4 Pro Docking Station"],
-        ["A complete 8-in-1 solution with a bundled charger", "UGREEN 8-in-1 Thunderbolt 4 Docking Station"]
+    "subheading": "By Primary Need",
+    "intro": "Match the dock to the work you do at the desk.",
+    "table": {
+      "headers": [
+        "If you want",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest per-port bandwidth and sustained power",
+          "CalDigit E5 Thunderbolt 5 Element 5 Hub, 4 ports at 80Gb/s."
+        ],
+        [
+          "A simple hub with four Thunderbolt 4 ports",
+          "OWC Thunderbolt Hub 5-Port, with 4 Thunderbolt 4 plus 1 USB-A."
+        ],
+        [
+          "Compact travel dock with 2 Thunderbolt 4 ports",
+          "Amazon Basics Thunderbolt 4 Pro Docking Station, 96W dynamic PD."
+        ],
+        [
+          "Everything in one box with a charger",
+          "UGREEN 8-in-1 Thunderbolt 4 Docking Station, with Gigabit Ethernet and a 140W GaN charger."
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $130", "OWC Thunderbolt Hub 5-Port (under $130)"],
-        ["Under $180", "UGREEN 8-in-1 (under $180)"],
-        ["Under $215", "Amazon Basics Thunderbolt 4 Pro (under $250)"],
-        ["Under $250", "CalDigit E5 (under $250)"]
+    "subheading": "By Budget",
+    "intro": "The OWC is far cheaper, and the CalDigit is the premium choice.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $130, plain hub",
+          "OWC Thunderbolt Hub 5-Port."
+        ],
+        [
+          "Under $180, full-featured",
+          "UGREEN 8-in-1 Thunderbolt 4 Docking Station."
+        ],
+        [
+          "Under $215, travel",
+          "Amazon Basics Thunderbolt 4 Pro Docking Station."
+        ],
+        [
+          "Under $250, fastest",
+          "CalDigit E5 Thunderbolt 5 Element 5 Hub."
+        ]
+      ]
+    }
   },
   {
-    subheading: "Simple 4-Port Hub vs Full-Featured Multi-Peripheral Dock",
-    cards: [
-      { label: "Simple 4-port hub (OWC)", text: "Focuses purely on the core Thunderbolt/USB4 expansion without extra peripheral ports, at a lower price." },
-      { label: "Full-featured dock (CalDigit E5, UGREEN 8-in-1)", text: "Adds Ethernet, card readers, and additional USB-A ports alongside the 4 Thunderbolt/USB4 connections for a more complete desk setup." }
+    "subheading": "Simple Hub vs Full-Featured Dock",
+    "intro": "Both give four fast ports, but only one gives you a desk setup.",
+    "cards": [
+      {
+        "label": "Simple hub",
+        "text": "OWC adds ports only, with no Ethernet, card reader or HDMI. It costs less and leaves the cable plan to you."
+      },
+      {
+        "label": "Full-featured dock",
+        "text": "CalDigit E5 and UGREEN add Ethernet, card readers and extra USB ports, so one dock replaces a pile of adapters."
+      }
     ],
-    note: "If you specifically need only Thunderbolt/USB4 expansion for SSDs and displays, the OWC hub's focused design saves money. If you want one dock to cover networking and additional peripherals too, the CalDigit or UGREEN picks are more complete.",
+    "note": "Choose OWC if you already own Ethernet and card adapters, and UGREEN if you want one box."
   },
   {
-    subheading: "By Portability Needed",
-    table: {
-      headers: ["Your usage pattern", "Recommended pick"],
-      rows: [
-        ["Permanent desk setup with maximum bandwidth", "CalDigit E5"],
-        ["Travel between locations regularly", "Amazon Basics Thunderbolt 4 Pro Docking Station"]
+    "subheading": "By Portability",
+    "intro": "Where the dock lives decides what you should buy.",
+    "table": {
+      "headers": [
+        "Setup",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Permanent desk, maximum bandwidth",
+          "CalDigit E5, with 90W sustained across 9 ports."
+        ],
+        [
+          "Carried between locations",
+          "Amazon Basics Thunderbolt 4 Pro, but note it excludes M1 and M2 MacBooks."
+        ],
+        [
+          "Desk with Gigabit Ethernet",
+          "UGREEN 8-in-1, with an included 140W GaN charger."
+        ],
+        [
+          "Light desk, drives only",
+          "OWC Thunderbolt Hub 5-Port."
+        ]
+      ]
+    }
   },
   {
-    subheading: "For SSD-Heavy Storage Workflows Specifically",
-    cards: [
-      { label: "Look for", text: "The highest stated per-port PCIe bandwidth figure, since connecting multiple Thunderbolt SSDs simultaneously benefits directly from each port's individual maximum throughput." },
-      { label: "In this comparison", text: "The CalDigit E5 specifically states each of its 4 Thunderbolt 5 ports supports up to 6,200MB/s performance for ultra-fast Thunderbolt SSDs." }
-    ],
+    "subheading": "For SSD-Heavy Storage Workflows Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The highest per-port bandwidth number and a stated sustained power figure, since drives and a laptop draw at the same time."
+      },
+      {
+        "label": "In this comparison",
+        "text": "CalDigit E5 lists up to 6,200MB/s per port with 80Gb/s Thunderbolt 5 links, which is the only pick that tracks Thunderbolt 5 SSDs."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the highest per-port bandwidth with sustained power across every connected device, where the CalDigit E5 justifies its under $250 price." },
-      { label: "Save if", text: "You just need a straightforward 4-port Thunderbolt hub without extra features, where the OWC pick delivers that for under $130." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need the fastest SSD ports and sustained charging. CalDigit E5 sits in the under-$250 tier, nearly double OWC."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need four Thunderbolt ports. OWC under $130 delivers that, with 4 Thunderbolt 4 and 1 USB-A."
+      }
+    ]
   }
 ];
 
@@ -182,12 +266,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I connect 4 Thunderbolt SSDs to the CalDigit E5 and get full speed on all of them simultaneously?", "a": "You can connect 4 SSDs simultaneously, but since Thunderbolt bandwidth is shared across the dock's total capacity rather than being independently allocated per port, running all 4 at their absolute maximum speed simultaneously may see some bandwidth sharing depending on your host system's own capabilities." },
-  { "q": "What's the most common mistake buyers make when choosing a 4-port USB4 or Thunderbolt dock?", "a": "Assuming 4 ports means 4 times the bandwidth of a single-port connection, when Thunderbolt and USB4 bandwidth is actually a shared total pool that gets dynamically allocated based on which devices are connected and what they demand." },
-  { "q": "Is the CalDigit E5 worth the extra cost over the OWC 5-port hub if I only need basic Thunderbolt expansion?", "a": "If you only need straightforward Thunderbolt port expansion without networking or card readers, the OWC hub's simpler design and lower price cover that well, but if you want the highest bandwidth, sustained multi-device power, and offline charging, the CalDigit E5's extra cost is justified." },
-  { "q": "Will the Amazon Basics dock work with my M1 MacBook Pro?", "a": "No, the listing specifically states this dock is not compatible with M1/M2 chip MacBooks, so M1 or M2 Mac owners should choose a different pick from this comparison, such as the CalDigit E5 or UGREEN pick." },
-  { "q": "How do I avoid the resolution downgrade issue mentioned in the Amazon Basics dock's setup instructions?", "a": "The manufacturer specifically recommends connecting your Thunderbolt 4 or USB-C monitor connection before the HDMI port, since connecting HDMI first can trigger a bandwidth allocation that downgrades the resolution of subsequently connected displays." },
-  { "q": "Do these 4-port docks require a separate power adapter, or is one included?", "a": "This varies by pick: the UGREEN dock specifically includes a bundled 140W GaN charger, while checking each other specific listing's included accessories is worth doing, since not every dock in this comparison includes a power adapter in the box." }
+  {
+    "q": "Do four SSDs on CalDigit E5 all run at full speed together?",
+    "a": "They will connect, but the total is shared. CalDigit lists up to 6,200MB/s per port and 80Gb/s bandwidth with 120Gb/s boost, so a single drive can run near maximum, while four drives copying at once split the host link between them."
+  },
+  {
+    "q": "Does four ports mean four times the bandwidth?",
+    "a": "No. All ports sit behind one host connection, so a Thunderbolt 4 hub like OWC or UGREEN splits a single 40Gbps link. A fourth port adds convenience, not speed, and the full benefit arrives only when most devices are idle."
+  },
+  {
+    "q": "Is CalDigit E5 worth it over OWC's 5-port hub?",
+    "a": "Only if you have fast Thunderbolt 5 devices and a Thunderbolt 5 host. CalDigit lists 80Gb/s and sustained power, but costs roughly double. OWC is a plain 4 Thunderbolt 4 plus 1 USB-A hub for far less, and has no Ethernet or card reader."
+  },
+  {
+    "q": "Will the Amazon Basics dock work with my M1 MacBook Pro?",
+    "a": "No. The listing states it is not compatible with M1 or M2 MacBooks, nor with Chrome OS and Linux laptops. If you have an Apple silicon laptop that old, UGREEN's 8-in-1 lists no such restriction apart from the 2018 Intel Mac mini."
+  },
+  {
+    "q": "How do I avoid the resolution drop reported on the Amazon Basics dock?",
+    "a": "The setup note advises connecting a Thunderbolt 4 or USB-C monitor to the dock's ports before other displays, so the dock negotiates the high resolution first. Re-seat cables and update the laptop's firmware if the picture falls to a lower mode."
+  },
+  {
+    "q": "Do these docks include a power adapter?",
+    "a": "It varies. UGREEN ships a 140W GaN charger with 85W to the laptop, and Amazon Basics lists 96W dynamic PD with its supply, while CalDigit and OWC need checking per listing. A dock without a bundled brick can add another cost."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

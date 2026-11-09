@@ -5,7 +5,7 @@ export const metaDescription = "Five memory foam under desk foot rests compared 
 export const mainKeyword = "memory foam foot rest";
 export const introParagraphs = [
   "Hard plastic footrests are firm and stable, but they can feel unforgiving under bare feet. A memory foam footrest trades some rigidity for a surface that gives under pressure, which is the whole appeal for anyone who kicks off their shoes at the desk.",
-  "We limited this list to listings that explicitly say memory foam. Prices run from about $14 to $50, and the shapes range from a simple drop-shaped cushion to a twin-contour design and layered pillows. We lined the listings up on foam density claims, number of layers or heights, cover washability and base grip. Foam compresses over time, so the quality of the core matters more than the size."
+  "We limited this list to listings that explicitly say memory foam. Prices run from under $15 to $50, and the shapes range from a simple drop-shaped cushion to a twin-contour design and layered pillows. We lined the listings up on foam density claims, number of layers or heights, cover washability and base grip. Foam compresses over time, so the quality of the core matters more than the size."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41FYkujDSUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H8GLLL19?tag=deskfinds0d-20",
-    "description": "COZYDOU is a memory foam footrest with a twin-contour top that gives each foot its own cradle, instead of one flat surface. The foam is high-density, and the listing says you can use it upright as a cushioned rest or tilted for rocking, with a breathable zip-off cover that machine washes and a non-slip bottom.\n\nAt under $50 it is the most expensive pick here, about $16 above ComfyInLove. That money buys the twin cradles and the rocking option, but it has no stackable layers, so you cannot change its height like ComfyInLove or LURZ.\n\nBest for long desk hours when you want foam that holds each foot separately. The caveat is the price, and the highlights give no dimensions or height, so check the product page against your gap.",
+    "description": "COZYDOU is a memory foam footrest with a twin-contour top that gives each foot its own cradle, instead of one flat surface. The foam is high-density, and the listing says you can use it upright as a cushioned rest or tilted for rocking, with a breathable zip-off cover that machine washes and a non-slip bottom.\n\nAt under $50 it is the most expensive pick here, under $20 above ComfyInLove. That money buys the twin cradles and the rocking option, but it has no stackable layers, so you cannot change its height like ComfyInLove or LURZ.\n\nBest for long desk hours when you want foam that holds each foot separately. The caveat is the price, and the highlights give no dimensions or height, so check the product page against your gap.",
     "specs": [
       "Twin-contour memory foam",
       "Washable zip-off cover",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41QyQ94oMSL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FM7PT5DS?tag=deskfinds0d-20",
-    "description": "ComfyInLove is a memory foam footrest that stacks into three heights, with a gently curved top that follows the natural curve of the feet. The listing mentions resilient high-density foam that stays soft yet supportive and a non-slip bottom that grips wood and carpet.\n\nIt costs under $35, about $16 less than COZYDOU, and gives you more height choices than Comfelicify or LURZ, which offer two. The trade-off is that you manage layers that can shift, and the highlights do not describe cover care.\n\nBest for people who are not sure what height they need or who share the footrest. The caveat is that stackable layers can move if you push hard, so a firmer single-piece model may feel steadier.",
+    "description": "ComfyInLove is a memory foam footrest that stacks into three heights, with a gently curved top that follows the natural curve of the feet. The listing mentions resilient high-density foam that stays soft yet supportive and a non-slip bottom that grips wood and carpet.\n\nIt costs under $35, under $20 less than COZYDOU, and gives you more height choices than Comfelicify or LURZ, which offer two. The trade-off is that you manage layers that can shift, and the highlights do not describe cover care.\n\nBest for people who are not sure what height they need or who share the footrest. The caveat is that stackable layers can move if you push hard, so a firmer single-piece model may feel steadier.",
     "specs": [
       "3 adjustable heights",
       "Curved memory foam top",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41zq3qxeDLL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FGHX3TLT?tag=deskfinds0d-20",
-    "description": "Comfelicify is made of 100% memory foam and focuses on heel support, with a curved shape the listing says supports the heels that otherwise droop in the air. It comes in two heights, with a 4.0 inch thick bottom layer for heel rest.\n\nAt under $30 it costs about $5 less than ComfyInLove and about $9 more than LURZ. Compared with ComfyInLove it has two heights instead of three, and compared with LURZ it is pure memory foam but has no mesh cover.\n\nBest for people whose heels float in the air while sitting and who want a simple foam stool. The caveat is that only two heights are available and the shape is basic.",
+    "description": "Comfelicify is made of 100% memory foam and focuses on heel support, with a curved shape the listing says supports the heels that otherwise droop in the air. It comes in two heights, with a 4.0 inch thick bottom layer for heel rest.\n\nAt under $30 it costs under $10 less than ComfyInLove and under $10 more than LURZ. Compared with ComfyInLove it has two heights instead of three, and compared with LURZ it is pure memory foam but has no mesh cover.\n\nBest for people whose heels float in the air while sitting and who want a simple foam stool. The caveat is that only two heights are available and the shape is basic.",
     "specs": [
       "100% memory foam",
       "Two heights, 4.0 inch base",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41VICjX3KAL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FDGF4MT2?tag=deskfinds0d-20",
-    "description": "LURZ uses 40 density memory foam that the listing says molds to your feet, with two height options and a breathable mesh cover meant to keep feet cool. It is light and easy to move between a desk and a gaming setup.\n\nAt under $20 it is about $9 cheaper than Comfelicify and has a mesh cover that CloudBliss and Comfelicify do not. Versus CloudBliss it adds adjustable height, for $6 more.\n\nBest for warm offices or people who want foam with a breathable cover at a low price. The caveat is that cover washing and dimensions are not described in the highlights.",
+    "description": "LURZ uses 40 density memory foam that the listing says molds to your feet, with two height options and a breathable mesh cover meant to keep feet cool. It is light and easy to move between a desk and a gaming setup.\n\nAt under $20 it is under $10 cheaper than Comfelicify and has a mesh cover that CloudBliss and Comfelicify do not. Versus CloudBliss it adds adjustable height, for $6 more.\n\nBest for warm offices or people who want foam with a breathable cover at a low price. The caveat is that cover washing and dimensions are not described in the highlights.",
     "specs": [
       "40 density memory foam",
       "Two height options",
@@ -163,47 +163,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Foam density claims",
-    "explanation": "Density describes how much foam is packed into a given volume. Higher density usually means the foam resists flattening. Look for figures like 40 density and be wary of vague terms."
+    "explanation": "Density describes how much foam is packed into a given volume. Higher density usually means the foam resists flattening. Look for figures like 40 density and be wary of vague terms.  Look for a number, since a vague phrase like 'high quality' tells you nothing about how the foam holds up."
   },
   {
     "criterion": "Layers and height options",
-    "explanation": "Stackable layers let you change height. A two layer design gives two heights. Check the thickness of each layer in inches."
+    "explanation": "Stackable layers let you change height. A two layer design gives two heights. Check the thickness of each layer in inches.  Two layers can be stacked to raise a short desk, so check the layer thickness in inches before ordering. A rest that forces you to guess its thickness is a rest you will return."
   },
   {
     "criterion": "Cover removal and washing",
-    "explanation": "Memory foam cannot go in a washer without being damaged, but a zip-off cover usually can. A footrest that spends its life under bare or sock feet collects sweat and dust, so a cover you can remove is worth real money. Look for the phrase machine washable cover and follow any instruction not to wash the foam itself."
+    "explanation": "Memory foam cannot go in a washer without being damaged, but a zip-off cover usually can. A footrest that spends its life under bare or sock feet collects sweat and dust, so a cover you can remove is worth real money. Look for the phrase machine washable cover and follow any instruction not to wash the foam itself.  The cover also protects the foam from sweat, which is the most common cause of odors in a foot rest."
   },
   {
     "criterion": "Shape and contour",
-    "explanation": "A twin-contour shape cradles each foot, while a drop shape supports the arch. A flat top allows more shifting. Choose the shape that fits how you sit."
+    "explanation": "A twin-contour shape cradles each foot, while a drop shape supports the arch. A flat top allows more shifting. Choose the shape that fits how you sit.  A footrest shape that fits your feet matters more than the foam type, so check width and depth."
   },
   {
     "criterion": "Base grip",
-    "explanation": "Foam is light, so a footrest without a grippy base slides away when you shift your feet. That forces you to keep pulling it back, which defeats the point of resting. Look for the phrase non-slip bottom in the listing, and think about whether your floor is carpet or tile."
+    "explanation": "Foam is light, so a footrest without a grippy base slides away when you shift your feet. That forces you to keep pulling it back, which defeats the point of resting. Look for the phrase non-slip bottom in the listing, and think about whether your floor is carpet or tile.  Carpets grip foam better than tile, so a non-slip base matters more on hard floors. Check the return window, since grip is hard to judge from photos."
   },
   {
     "criterion": "Compression over time",
-    "explanation": "Foam softens with use. Heavier users should favor higher density and thicker layers. Look for specific numbers."
+    "explanation": "Foam softens with use. Heavier users should favor higher density and thicker layers. Look for specific numbers. Heavier users should favor thicker layers, because foam that feels firm in a store can soften within months and a stated density is the best evidence you can get online."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Foam quality",
-    "description": "We read density and material claims."
+    "title": "Foam density and firmness claims",
+    "description": "We read density claims, because foam that flattens within months defeats a footrest. LURZ states 40 density foam, Comfelicify lists 100% memory foam, and others only say memory foam. Heavier users should favor a stated density and thicker layers. A listing that gives no figure at all is the weakest evidence, so we ranked those lower."
   },
   {
-    "title": "Adjustability",
-    "description": "We compared layers and heights."
+    "title": "Height options",
+    "description": "Layered or stackable designs let you change height. ComfyInLove offers 3 heights, LURZ and Comfelicify offer two, and COZYDOU and CloudBliss are fixed shapes. We credited more height settings for desks and chairs that vary in size. More heights also help if you share the desk or change chairs, which fixed shapes cannot do."
   },
   {
-    "title": "Care",
-    "description": "We compared cover removal and wash instructions."
+    "title": "Cover and cleaning",
+    "description": "Memory foam should not go in a washer, but a cover often can. COZYDOU and CloudBliss list zip covers and LURZ a breathable mesh cover, so we marked down any that did not describe a removable one. A cover is also the first part to wear out, so washable ones last longer in daily use."
   },
   {
-    "title": "Value",
-    "description": "We weighed price against features."
+    "title": "Shape and support",
+    "description": "COZYDOU uses twin contours, CloudBliss a drop shape that fits the arch, and Comfelicify a heel curve. A flat top allows more shifting, so we weighed contour against flexibility. Shape matters more than people expect, since the wrong contour can push your ankles inward."
+  },
+  {
+    "title": "Base grip",
+    "description": "Foam is light and slides on hard floors. COZYDOU, ComfyInLove and others list non-slip bases. We checked this and noted that carpet and tile behave differently under a lightweight block. A rest that slides forces you to keep adjusting it, which defeats the point."
   }
 ];
 
@@ -211,129 +215,136 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Foot Support Need",
-    "intro": "Match shape to need.",
+    "intro": "What your feet need most decides the shape.",
     "table": {
       "headers": [
-        "Your situation",
-        "Recommended pick"
+        "You need",
+        "Best pick here"
       ],
       "rows": [
         [
-          "Twin cradle for each foot",
-          "COZYDOU Twin-Contour Memory Foam Foot Rest"
+          "Separate cradles for each foot",
+          "COZYDOU Twin-Contour Memory Foam Foot Rest, with a washable zip-off cover"
         ],
         [
-          "Three heights",
-          "ComfyInLove 3-Height Memory Foam Foot Rest"
+          "Three height settings to match your desk",
+          "ComfyInLove 3-Height Memory Foam Foot Rest, with a curved top"
         ],
         [
-          "Heel support",
-          "Comfelicify Memory Foam Heel Foot Rest"
+          "Heel support and a stable base",
+          "Comfelicify Memory Foam Heel Foot Rest, with a 4.0 inch base and two heights"
         ],
         [
-          "Breathable mesh",
-          "LURZ Adjustable Memory Foam Foot Rest"
+          "Firm, dense foam on a budget",
+          "LURZ Adjustable Memory Foam Foot Rest, with 40 density foam"
+        ],
+        [
+          "Arch support in a compact size",
+          "CloudBliss Drop-Shaped Memory Foam Foot Rest, at 16.14 x 10.24 x 4.72 inches"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
-    "intro": "Real prices from this comparison.",
+    "intro": "Prices range from under $15 to under $50.",
     "table": {
       "headers": [
-        "Price range",
-        "Recommended pick"
+        "Budget",
+        "Best pick here"
       ],
       "rows": [
         [
-          "$13 to $15",
-          "CloudBliss Drop-Shaped Memory Foam Foot Rest"
+          "Under $15",
+          "CloudBliss Drop-Shaped Memory Foam Foot Rest, with a removable zip cover"
         ],
         [
-          "$19 to $20",
-          "LURZ Adjustable Memory Foam Foot Rest"
+          "Under $25",
+          "LURZ Adjustable Memory Foam Foot Rest, with a breathable mesh cover"
         ],
         [
-          "$29 to $30",
-          "Comfelicify Memory Foam Heel Foot Rest"
+          "Under $30",
+          "Comfelicify Memory Foam Heel Foot Rest, with 100% memory foam"
         ],
         [
-          "$33 to $34",
-          "ComfyInLove 3-Height Memory Foam Foot Rest"
+          "Under $35",
+          "ComfyInLove 3-Height Memory Foam Foot Rest, with 3 heights"
         ],
         [
-          "$49 to $50",
-          "COZYDOU Twin-Contour Memory Foam Foot Rest"
+          "Under $50",
+          "COZYDOU Twin-Contour Memory Foam Foot Rest, with twin contours"
         ]
       ]
     }
   },
   {
     "subheading": "Fixed Shape vs Layered Heights",
+    "intro": "Shape or adjustment is the main choice.",
     "cards": [
       {
         "label": "Fixed shape",
-        "text": "One height, simple. CloudBliss falls here."
+        "text": "COZYDOU and CloudBliss use a fixed contour, and you set height with your seat, so there is nothing to adjust."
       },
       {
-        "label": "Layered",
-        "text": "Stack to adjust. ComfyInLove, Comfelicify and LURZ fall here."
+        "label": "Layered heights",
+        "text": "ComfyInLove, LURZ and Comfelicify give 2 or 3 heights, so you can tune the angle for different chairs."
       }
     ],
-    "note": "Choose layered if unsure of height."
+    "note": "Choose layered if you share a desk or change chairs, and fixed for a single set-up."
   },
   {
     "subheading": "By Comfort Priority",
-    "intro": "Priority.",
+    "intro": "Comfort means different things.",
     "table": {
       "headers": [
-        "Your situation",
-        "Recommended pick"
+        "Priority",
+        "Best pick here"
       ],
       "rows": [
         [
-          "Cooling cover",
-          "LURZ Adjustable Memory Foam Foot Rest"
+          "Cooling in a warm room",
+          "LURZ Adjustable Memory Foam Foot Rest, with a breathable mesh cover"
         ],
         [
-          "Rocking",
-          "COZYDOU Twin-Contour Memory Foam Foot Rest"
+          "Easy cleaning",
+          "COZYDOU Twin-Contour Memory Foam Foot Rest, with a washable zip cover"
         ],
         [
-          "Cheapest",
-          "CloudBliss Drop-Shaped Memory Foam Foot Rest"
+          "Heel relief",
+          "Comfelicify Memory Foam Heel Foot Rest, with a heel support curve"
         ],
         [
-          "Heel curve",
-          "Comfelicify Memory Foam Heel Foot Rest"
+          "Short legs and low chairs",
+          "CloudBliss Drop-Shaped, with a 4.72 inch height"
         ]
       ]
     }
   },
   {
     "subheading": "For a Bare-Foot Desk Specifically",
+    "intro": "Bare feet need a soft surface that handles sweat.",
     "cards": [
       {
         "label": "Look for",
-        "text": "Soft foam, a washable cover and a non-slip base."
+        "text": "A removable cover, a non-slip base, and foam stated at a density figure rather than just 'memory foam'."
       },
       {
         "label": "In this comparison",
-        "text": "COZYDOU Twin-Contour Memory Foam Foot Rest has all three."
+        "text": "LURZ has a breathable mesh cover with 40 density foam, and COZYDOU has a washable zip-off cover and twin contours."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "The top pick here is still under $50.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want the best contouring (COZYDOU Twin-Contour Memory Foam Foot Rest)."
+        "text": "You want twin contours and a washable cover. COZYDOU under $50 adds both; see the best large foot rests guide for wider platforms."
       },
       {
         "label": "Save if",
-        "text": "You want basic cushion, where CloudBliss Drop-Shaped Memory Foam Foot Rest is enough."
+        "text": "A simple shape is enough. CloudBliss under $15 or LURZ under $25 are enough."
       }
     ]
   }
@@ -342,28 +353,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Does memory foam flatten?",
-    "a": "It can over time. Higher density helps."
+    "q": "How firm should a memory foam foot rest be?",
+    "a": "Firm enough to hold its shape under your weight. LURZ lists 40 density foam, which is a stated figure. Soft foam can sink and tilt your ankle, so if a listing gives no density, choose a thicker layer. Firmer is better for heavier users, and a thicker layer adds margin."
   },
   {
-    "q": "Can I wash the foam?",
-    "a": "Usually only the cover. CloudBliss says not to wash the foam."
+    "q": "What is the most common mistake with memory foam foot rests?",
+    "a": "Ignoring height. A rest that is too tall pushes your knees above your hips, and one that is too low does nothing. ComfyInLove's 3 heights or the two-height LURZ let you adjust."
   },
   {
-    "q": "Is memory foam worth it over plastic?",
-    "a": "Foam is softer, plastic is firmer. Pick by surface preference."
+    "q": "Is the COZYDOU worth more than the cheap CloudBliss?",
+    "a": "If you want twin contours, a washable zip-off cover and a non-slip base, yes. COZYDOU is under $50, while CloudBliss is under $15 with a drop shape and removable zip cover but fewer adjustments."
   },
   {
-    "q": "How do I choose a height?",
-    "a": "Set your chair first, then measure the gap between your feet and the floor. Pick a layer or setting that closes that gap while keeping your knees near hip level. Stackable models like ComfyInLove let you change it later."
+    "q": "How do I set up a foot rest at my desk?",
+    "a": "Place it under the desk so your feet rest naturally with knees at about 90 degrees. Set the height so your thighs are level, then check the base grips on your floor. Adjust as you change chairs."
   },
   {
-    "q": "Will foam slide on my floor?",
-    "a": "Foam is light, so a non-slip base matters. ComfyInLove and CloudBliss list non-slip bottoms. On very smooth tile you may still need a mat under it."
+    "q": "Can I wash the foam itself?",
+    "a": "No, wash only the cover. Memory foam can be damaged by water and machines. Remove the zip-off cover from COZYDOU or CloudBliss, wash as directed, and air dry the foam by wiping with a damp cloth."
   },
   {
-    "q": "How do I clean a memory foam footrest?",
-    "a": "Unzip and remove the cover and wash it as the listing instructs. CloudBliss warns not to wash the memory foam itself. Let the foam air dry and spot clean with a damp cloth."
+    "q": "Why does my foam rest slide around on a hard floor?",
+    "a": "Lightweight foam can slide on tile or wood. A non-slip bottom helps, as listed on COZYDOU and ComfyInLove. On a hard floor, add a thin rubber mat underneath, or choose a base with grip."
   }
 ];
 

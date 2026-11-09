@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31Oczbb4kkL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G1CPTN1F?tag=deskfinds0d-20",
-    "description": "Corsair's Ironclaw Wireless SE has an asymmetric shape built for larger hands and right-handed palm-grip players, ten programmable buttons, a 26K DPI Marksman sensor and a battery claim of up to 285 hours on 2.4GHz and 532 hours on Bluetooth. That makes it the pick for bigger hands that want a wireless palm-grip shape rather than a compact, symmetrical body. The software remapping through iCUE is where the ten buttons earn their keep.\n\nIt is a bigger shell than the ASUS ROG Gladius III Wireless AimPoint, and compared with the Razer Basilisk V3 X HyperSpeed Wireless Gaming Mouse it is aimed squarely at larger hands. It also costs about $20 more than the Razer.\n\nA fit for large hands that like a full palm grip. The caveat is that smaller hands may find it oversized.",
+    "description": "Corsair's Ironclaw Wireless SE has an asymmetric shape built for larger hands and right-handed palm-grip players, ten programmable buttons, a 26K DPI Marksman sensor and a battery claim of up to 285 hours on 2.4GHz and 532 hours on Bluetooth. That makes it the pick for bigger hands that want a wireless palm-grip shape rather than a compact, symmetrical body. The software remapping through iCUE is where the ten buttons earn their keep.\n\nIt is a bigger shell than the ASUS ROG Gladius III Wireless AimPoint, and compared with the Razer Basilisk V3 X HyperSpeed Wireless Gaming Mouse it is aimed squarely at larger hands. It also costs under $25 more than the Razer.\n\nA fit for large hands that like a full palm grip. The caveat is that smaller hands may find it oversized.",
     "specs": [
       "10 programmable buttons",
       "26K DPI Marksman sensor",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31N1BZUZLwL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09C13PZX7?tag=deskfinds0d-20",
-    "description": "The wired Basilisk V3 has a thumb rest, 11 programmable buttons, a HyperScroll tilt wheel that free-spins or clicks, 11 Chroma lighting zones and second-generation optical switches with a 0.2 ms actuation figure. The thumb rest and extra buttons make it the more feature-rich of the two Basilisk models in this list. It is aimed at players who like to remap controls for push-to-talk or pings.\n\nIt has more buttons than the Razer Basilisk V3 X HyperSpeed Wireless Gaming Mouse and costs about $5 less, with no battery to charge. Against the Logitech G502 HERO Wired Gaming Mouse, it has a more refined thumb rest but no adjustable weights.\n\nA fit for a wired desktop player. The caveat is the cable and the RGB that adds little for comfort.",
+    "description": "The wired Basilisk V3 has a thumb rest, 11 programmable buttons, a HyperScroll tilt wheel that free-spins or clicks, 11 Chroma lighting zones and second-generation optical switches with a 0.2 ms actuation figure. The thumb rest and extra buttons make it the more feature-rich of the two Basilisk models in this list. It is aimed at players who like to remap controls for push-to-talk or pings.\n\nIt has more buttons than the Razer Basilisk V3 X HyperSpeed Wireless Gaming Mouse and costs under $10 less, with no battery to charge. Against the Logitech G502 HERO Wired Gaming Mouse, it has a more refined thumb rest but no adjustable weights.\n\nA fit for a wired desktop player. The caveat is the cable and the RGB that adds little for comfort.",
     "specs": [
       "11 programmable buttons, thumb rest",
       "HyperScroll tilt wheel",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/4189N8RLVYL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07GBZ4Q68?tag=deskfinds0d-20",
-    "description": "The G502 Hero has a 25,600 DPI sensor, 11 programmable buttons, a dual-mode hyper-fast scroll wheel and up to five 3.6 gram weights for balance. Metal spring tensioning on the buttons is part of the design.\n\nThe adjustable weights are the main thing that sets it apart from the Razer Basilisk V3 Wired Ergonomic Gaming Mouse, and it costs about $7 less. Compared with the Redragon Wireless Gaming Mouse, Ergonomic 16000 DPI, it is wired and has a longer pedigree.\n\nA good match for players who like to tune the feel. The caveat is that it is heavier with all weights and wired only.",
+    "description": "The G502 Hero has a 25,600 DPI sensor, 11 programmable buttons, a dual-mode hyper-fast scroll wheel and up to five 3.6 gram weights for balance. Metal spring tensioning on the buttons is part of the design.\n\nThe adjustable weights are the main thing that sets it apart from the Razer Basilisk V3 Wired Ergonomic Gaming Mouse, and it costs under $10 less. Compared with the Redragon Wireless Gaming Mouse, Ergonomic 16000 DPI, it is wired and has a longer pedigree.\n\nA good match for players who like to tune the feel. The caveat is that it is heavier with all weights and wired only.",
     "specs": [
       "25,600 DPI HERO sensor",
       "11 buttons, up to five 3.6g weights",
@@ -246,52 +246,48 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Shell shape for your grip",
-    "explanation": "Palm grip needs a longer, taller shell, claw grip a medium shell and fingertip grip a short, light one, which is why an ergonomic shape for one grip can feel wrong for another. Pick your grip first, then the shape. Check the shape description in the listing."
+    "criterion": "Grip style and shell shape",
+    "explanation": "Grip style is how your hand sits on the mouse, either palm, claw or fingertip, and each wants a different shell. A palm grip likes a tall sculpted body like the Basilisk, while a claw grip prefers a shorter arch. Match your grip to the shell, then look for photos of the profile in the listing gallery before buying. The Basilisk V3 and ROG Gladius III differ by about 20 grams of shell, so check the photos too."
   },
   {
-    "criterion": "Weight in grams",
-    "explanation": "Lighter mice such as the 59 and 79 gram models ease fatigue during long sessions, while a heavier mouse with weights offers balance tuning. Weight with the battery is what you actually move. Check the listed grams."
+    "criterion": "Weight and balance",
+    "explanation": "Weight is the mouse's mass in grams, and it changes how fast your wrist fatigues and how stable a flick feels. A 59 g mouse moves easily, while one near 100 g needs more effort. Look for the listed weight in the specs, and see whether weights are removable if you want to adjust it. The Gladius III lists up to 119 hours on 2.4GHz, well below the IRONCLAW's 285 claim."
   },
   {
-    "criterion": "Thumb rest",
-    "explanation": "A thumb rest keeps the thumb off the desk and reduces dragging. It matters more as sessions lengthen. Look for thumb rest wording."
+    "criterion": "Wired or wireless latency",
+    "explanation": "Wired mice send input over a cable with no battery, while wireless ones add a radio link whose delay depends on the protocol. HyperSpeed and 2.4GHz links are built for gaming, but Bluetooth is slower. Check the listing for the connection name and a battery figure such as 285 hours before choosing a wireless model. The wired G502 and Basilisk V3 skip the battery question entirely."
   },
   {
-    "criterion": "Wired versus wireless",
-    "explanation": "Wired avoids battery concerns, while wireless gives freedom and claims of 119 to 285 hours. Battery numbers are makers' claims. Check the connection list."
+    "criterion": "Sensor DPI versus usable DPI",
+    "explanation": "DPI measures how far the pointer travels per inch of motion, and most players run between 400 and 3200. A 36K figure is a ceiling that is rarely used, so a higher number does not mean better aim. Look for stepped DPI buttons and for a sensor name you can look up on a review site. The DeathAdder Essential tops at 6,400 DPI and the TUF M3 at 8000, both plenty for play."
   },
   {
-    "criterion": "Programmable buttons",
-    "explanation": "More side buttons let you map abilities, macros and push-to-talk without reaching for the keyboard, though too many can cause accidental presses. Strategy and MMO players benefit most, while shooters often need only a few. Check the button count in the title and bullets, and confirm the software supports your operating system."
-  },
-  {
-    "criterion": "Switch durability",
-    "explanation": "A rating such as 10 million clicks tells you about switch life. Optical switches avoid some degradation. Look for the switch type."
+    "criterion": "Programmable thumb buttons",
+    "explanation": "Thumb buttons bind shortcuts or abilities to a press, which helps in MMOs and strategy games. Too many sit where a resting thumb can hit them accidentally. Check the number of buttons, count the ones on the left side, and find out whether the setup needs the maker's software on your operating system. The G502 has 11 buttons and the DeathAdder Essential 5, so match the count to your game genre."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Shape and grip",
-    "description": "We compared asymmetric shapes, thumb rests and hand-size notes."
+    "title": "Grip fit and shell shape",
+    "description": "We compared shell shapes against the three main grips, palm, claw and fingertip, using each listing's description. The right-handed ROG Gladius III and the sculpted Razer Basilisk V3 suit palm and claw grips, so we asked which shell rests the thumb without forcing a stretch."
   },
   {
-    "title": "Weight",
-    "description": "Listed weights were noted."
+    "title": "Weight in grams",
+    "description": "We recorded stated weights, from the 59 gram ASUS TUF M3 Gen II and 79 gram Gladius III to the heavier G502 that carries up to five 3.6 g weights. Lighter mice reduce fatigue in long sessions, so we favored picks that either stay light or let you tune the weight."
   },
   {
-    "title": "Connection and battery",
-    "description": "Wired, wireless and battery claims were compared."
+    "title": "Sensor and DPI range",
+    "description": "We compared sensors, such as the 26K Marksman on the IRONCLAW and 36K on the Gladius III, but treated DPI as a ceiling rather than a score. Most players sit between 800 and 3200, so we cared more about adjustable steps and consistent tracking claims."
   },
   {
-    "title": "Buttons and sensor",
-    "description": "Button counts and DPI claims were weighed."
+    "title": "Wired against wireless latency",
+    "description": "We separated wired models from HyperSpeed and 2.4GHz wireless picks, and noted battery claims such as 285 hours on the Basilisk V3 X. Wired avoids charging mid-match, so wireless picks needed a stated battery run and a dongle that fits your port."
   },
   {
-    "title": "Value for price",
-    "description": "Price was weighed against what each listing actually includes, with recurring buyer comments as a tiebreaker."
+    "title": "Thumb controls and button count",
+    "description": "We counted programmable buttons, from 5 on the DeathAdder Essential to 11 on the G502, and checked thumb placement. More buttons help in MMOs and strategy games, but too many accidental thumb presses make a shell uncomfortable for shooters."
   }
 ];
 
@@ -427,28 +423,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Is an ergonomic gaming mouse the same as a vertical mouse?",
-    "a": "No. It is a right-handed shaped mouse with a hump and thumb rest. A vertical mouse is a different design."
-  },
-  {
-    "q": "Does weight matter for comfort?",
-    "a": "A lighter mouse eases lifting and flicking, but some like a heavier mouse. Check grams."
+    "q": "Is an ergonomic gaming mouse different from a regular gaming mouse?",
+    "a": "Usually it means a sculpted right-hand shell with a thumb rest, like the Razer Basilisk V3 or DeathAdder Essential. It reduces gripping strain but does not tilt the forearm like a vertical mouse. Pick it for comfort during long sessions, not as a medical aid."
   },
   {
     "q": "Is wireless fast enough for competitive play?",
-    "a": "Modern 2.4GHz wireless is widely used, but listings give maker claims. If unsure, use a wired model."
+    "a": "Modern 2.4GHz and HyperSpeed links, such as those on the Basilisk V3 X and IRONCLAW, are designed for gaming latency. Bluetooth is slower and should be kept for office use. If you want zero charging worries, the wired G502 and Basilisk V3 stay safe choices."
   },
   {
-    "q": "Do I need all those buttons?",
-    "a": "Not for most games. Extra buttons help in MMOs and strategy games."
+    "q": "What weight should I look for?",
+    "a": "Lighter mice around 60 to 80 g, such as the ASUS TUF M3 and ROG Gladius III, suit fast aim and long sessions. The G502 starts heavier and adds weights, so you can tune it. If your wrist tires, remove weights before concluding the mouse is wrong."
   },
   {
-    "q": "Is the ROG worth the price over the TUF?",
-    "a": "It adds wireless and a longer battery. The TUF is lighter and far cheaper."
+    "q": "Do high DPI numbers make me play better?",
+    "a": "Not by themselves. Most players use 400 to 3200 DPI, so 25,600 on the G502 or 36K on the Gladius III is headroom, not a benefit. Pick a mouse with stepped DPI you can switch quickly, and tune it to your in-game sensitivity."
   },
   {
-    "q": "Will an ergonomic gaming mouse prevent pain?",
-    "a": "No device is a guarantee. Keep a good setup and take breaks. See a professional for pain."
+    "q": "Are these mice suitable for small hands?",
+    "a": "Mostly not. The IRONCLAW lists a size that is too big for small hands, and the Basilisk and G502 are large right-handed shells. The ASUS TUF M3 Gen II at 59 g is the lighter, smaller option here, but all of these are right-hand only."
+  },
+  {
+    "q": "Is the Redragon wireless worth it over the $20 DeathAdder Essential?",
+    "a": "The Redragon adds 2.4GHz wireless, 9 programmable buttons and a 16000 DPI sensor, but its battery claim is the maker's and brand support is thinner. The DeathAdder Essential is wired and basic, yet a well-known shell, so it suits buyers who only want a comfortable core."
   }
 ];
 

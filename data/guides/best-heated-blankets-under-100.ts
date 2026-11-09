@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41xi15ObPcL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FF5222S8?tag=deskfinds0d-20",
-    "description": "Vikua is a 50 by 70 inch wearable blanket with oversized sleeves, a deep foot pocket and a detachable hood. It lists eight heat levels from 86 to 122 degrees, a 1 to 12 hour timer and UL and FCC certification, plus a Quick Heat mode that defaults to two hours.\n\nIt has the widest timer range of any wearable here, wider than the 2 to 10 hours offered by Westinghouse and Sealy, and the only UL mark in the group. It costs about $12 less than Westinghouse.\n\nBest for a desk worker or reader who wants head to toe warmth with flexible timing. The caveat is that the hood and sleeves make it bulkier to store than a plain throw.",
+    "description": "Vikua is a 50 by 70 inch wearable blanket with oversized sleeves, a deep foot pocket and a detachable hood. It lists eight heat levels from 86 to 122 degrees, a 1 to 12 hour timer and UL and FCC certification, plus a Quick Heat mode that defaults to two hours.\n\nIt has the widest timer range of any wearable here, wider than the 2 to 10 hours offered by Westinghouse and Sealy, and the only UL mark in the group. It costs under $15 less than Westinghouse.\n\nBest for a desk worker or reader who wants head to toe warmth with flexible timing. The caveat is that the hood and sleeves make it bulkier to store than a plain throw.",
     "specs": [
       "8 levels, 86 to 122F",
       "1 to 12 hour timer",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41-IParDZAL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09K6Z82HY?tag=deskfinds0d-20",
-    "description": "Westinghouse is a 70 by 50 inch wearable blanket with sleeves and an 18 inch foot pocket in flannel and sherpa. It has six heat levels, a 2 to 10 hour timer and ETL and FCC listing, and a two part cord of 32 plus 72 inches.\n\nCompared with Vikua above it, it has a narrower timer range but a similar listing, and the long cord gives you freedom on a couch. It costs about $12 more than Vikua and $10 less than Sealy.\n\nGood for a couch or home office where the outlet is a few feet away. The caveat is that the 72 inch cord segment is still a tether, so a cordless model suits roaming better.",
+    "description": "Westinghouse is a 70 by 50 inch wearable blanket with sleeves and an 18 inch foot pocket in flannel and sherpa. It has six heat levels, a 2 to 10 hour timer and ETL and FCC listing, and a two part cord of 32 plus 72 inches.\n\nCompared with Vikua above it, it has a narrower timer range but a similar listing, and the long cord gives you freedom on a couch. It costs under $15 more than Vikua and $10 less than Sealy.\n\nGood for a couch or home office where the outlet is a few feet away. The caveat is that the 72 inch cord segment is still a tether, so a cordless model suits roaming better.",
     "specs": [
       "6 levels, 2 to 10 hour timer",
       "ETL and FCC listed",
@@ -219,183 +219,179 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Timer range",
-    "explanation": "The auto shut-off decides how long a blanket can run unattended. In this group it spans 2 to 10 hours on some models and 1 to 12 on others. Look for both the minimum and maximum, because a short minimum is useful for naps."
+    "explanation": "The auto shut-off decides how long a blanket can run unattended. In this group it spans 2 to 10 hours on some models and 1 to 12 on others. Look for both the minimum and maximum, because a short minimum is useful for naps. Check the minimum hours too, because a 2 hour floor is useful for naps while a short maximum can end a long work session."
   },
   {
     "criterion": "Safety listing mark",
-    "explanation": "A UL or ETL mark means a lab tested the blanket to a recognized standard, and UL 964 covers electrically heated bedding. Vikua lists UL and several others list ETL, but some listings state none. Look for the mark in the photos, not just the title."
+    "explanation": "A UL or ETL mark means a lab tested the blanket to a recognized standard, and UL 964 covers electrically heated bedding. Vikua lists UL and several others list ETL, but some listings state none. Look for the mark in the photos, not just the title. Look for the lab name on the product or controller in the photos, and be cautious when only fabric or electronics certifications appear."
   },
   {
     "criterion": "Wearable versus bed blanket",
-    "explanation": "A wearable blanket has sleeves and a foot pocket and stays put when you move. A bed blanket covers a mattress but cannot be worn. Decide before you buy, because the two are not interchangeable."
+    "explanation": "A wearable blanket has sleeves and a foot pocket and stays put when you move. A bed blanket covers a mattress but cannot be worn. Decide before you buy, because the two are not interchangeable. Read the item dimensions as well, since sleeve length and total length determine whether it fits you."
   },
   {
     "criterion": "Cord versus battery",
-    "explanation": "Plug-in blankets give steady heat but tether you, while battery models are portable and weaker. A 20,000 mAh battery gives a limited runtime at higher heat. Check whether the battery is included, and read any runtime per setting."
+    "explanation": "Plug-in blankets give steady heat but tether you, while battery models are portable and weaker. A 20,000 mAh battery gives a limited runtime at higher heat. Check whether the battery is included, and read any runtime per setting. Check whether the battery is included, and treat unstated runtime as a warning sign."
   },
   {
     "criterion": "Heat range",
-    "explanation": "A top setting of 110 degrees feels very mild in a cold room, while 122 degrees is noticeably warmer. Compare minimum and maximum temperatures in degrees. A low floor matters for gentle warmth."
+    "explanation": "A top setting of 110 degrees feels very mild in a cold room, while 122 degrees is noticeably warmer. Compare minimum and maximum temperatures in degrees. A low floor matters for gentle warmth. Compare both ends of the range, since a high ceiling with a mild floor offers the most flexibility."
   },
   {
     "criterion": "Care and washing",
-    "explanation": "A detachable controller or plug lets you machine wash. Wash instructions vary, from slow agitation to cold gentle cycles. Read the care notes before buying."
+    "explanation": "A detachable controller or plug lets you machine wash. Wash instructions vary, from slow agitation to cold gentle cycles. Read the care notes before buying. Look at the wash line before buying, and keep the controller away from water at every step."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Safety and timer",
-    "description": "We compared safety listings, overheat protection and timer ranges first."
+    "title": "Timer range and defaults",
+    "description": "We compared timers, from the Vikua's 1 to 12 hours with a 2 hour Quick Heat default to the 2 to 10 hour range on the Westinghouse and Sealy. A short minimum helps a nap, while a long maximum suits a full workday, so wider ranges earned more credit. The Hansleep lists no timer at all, which we counted against it."
   },
   {
-    "title": "Shape and size",
-    "description": "We separated wearable, bed and cordless blankets and compared dimensions."
+    "title": "Safety marks named",
+    "description": "We recorded the marks each listing names, such as UL and FCC on the Vikua and ETL and FCC on the Westinghouse and Sealy. Heated bedding is usually checked against UL 964, and the U.Seizeyes, which lists overheat protection but no lab mark, lost points. The HychYAYA states no lab mark, so we treated it as unverified."
   },
   {
-    "title": "Heat range",
-    "description": "We checked listed heat levels and temperatures."
+    "title": "Wearable, bed-size or cordless format",
+    "description": "We split the seven picks by format: wearable with sleeves, the 84 x 90 inch Hansleep for a queen bed, and the cordless HychYAYA and CYCYHEAT. A wearable blanket and a bed blanket are not interchangeable, so each was judged against its own job. The Hansleep is the only queen-size option in the group."
   },
   {
-    "title": "Price",
-    "description": "Every pick is under $100 when gathered."
+    "title": "Heat range and warm-up",
+    "description": "We compared temperature spans, from the Vikua's 86 to 122F to the Sealy's 95 to 113F, and the Hansleep's claim of heating in under 10 minutes. A higher ceiling helps in cold rooms, and a stated warm-up time was a plus. Both battery models state only 3 settings, which limits fine tuning."
+  },
+  {
+    "title": "Cord, battery and washing",
+    "description": "We checked the Westinghouse's 32 plus 72 inch two-part cord against the 20,000 mAh packs on the cordless pair, and washing rules like Sealy's slow cycle. A battery pack's runtime matters, and several listings do not state one. The CYCYHEAT's runtime also goes unstated."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Blanket Shape",
-    "intro": "Pick the shape first.",
+    "subheading": "By Format",
+    "intro": "Under $100 you can buy a wearable, a bed blanket or a cordless model, and each solves a different problem.",
     "table": {
       "headers": [
-        "Your situation",
+        "Your need",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Wearable with a foot pocket",
-          "Vikua Wearable Heated Blanket with Hood"
+          "Wearable with a hood and the widest timer",
+          "Vikua Wearable Heated Blanket with Hood, 1 to 12 hours and 8 levels"
         ],
         [
-          "Wearable with long cord for couch",
-          "Westinghouse Wearable Heated Blanket with Foot Pocket"
+          "Wearable with a long cord and a deep foot pocket",
+          "Westinghouse Wearable Heated Blanket with Foot Pocket, 32 plus 72 inch cord and 18 inch pocket"
         ],
         [
-          "Bed size, queen mattress",
-          "Hansleep Queen Heated Blanket 84x90"
+          "A queen bed warmed without a thermostat change",
+          "Hansleep Queen Heated Blanket 84x90, 9 levels and OEKO-TEX fabric"
         ],
         [
-          "Heated foot pockets",
-          "U.Seizeyes Wearable Heated Blanket with Heated Foot Pocket"
-        ],
-        [
-          "Cordless poncho",
-          "CYCYHEAT Cordless Heated Blanket Poncho"
+          "No cord to trip over",
+          "HychYAYA Cordless Battery Heated Blanket, 20,000 mAh battery included"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "The seven picks run from the bottom of the range to near $100.",
     "table": {
       "headers": [
-        "Price range",
+        "Spend position",
         "Recommended pick"
       ],
       "rows": [
         [
-          "$50 to $55",
-          "HychYAYA Cordless Battery Heated Blanket"
+          "Lowest price, cordless",
+          "HychYAYA Cordless Battery Heated Blanket, 3 levels with 9 heating zones"
         ],
         [
-          "$59 to $63",
-          "Hansleep Queen Heated Blanket 84x90"
+          "Low to mid, wearable with hood",
+          "Vikua Wearable Heated Blanket, cheaper than the Westinghouse per its listing"
         ],
         [
-          "$62 to $63",
-          "Vikua Wearable Heated Blanket with Hood"
-        ],
-        [
-          "$74 to $75",
+          "Mid for certification and a long cord",
           "Westinghouse Wearable Heated Blanket with Foot Pocket"
         ],
         [
-          "$84 to $85",
-          "Sealy Wearable Electric Blanket with Foot Pocket"
-        ],
-        [
-          "$89 to $90",
-          "U.Seizeyes Wearable Heated Blanket with Heated Foot Pocket"
+          "Upper for heated feet",
+          "U.Seizeyes Wearable Heated Blanket with Heated Foot Pocket, the highest priced corded model"
         ]
       ]
     }
   },
   {
-    "subheading": "Corded vs Cordless",
+    "subheading": "Plug-In vs Battery Powered",
+    "intro": "Cordless blankets trade heat for freedom.",
     "cards": [
       {
-        "label": "Corded",
-        "text": "Plug into the wall for steady, stronger heat but stay tethered. That is Vikua Wearable Heated Blanket with Hood, Westinghouse Wearable Heated Blanket with Foot Pocket, Sealy Wearable Electric Blanket with Foot Pocket, U.Seizeyes Wearable Heated Blanket with Heated Foot Pocket and Hansleep Queen Heated Blanket 84x90."
+        "label": "Plug-in: Vikua, Westinghouse, Sealy, Hansleep, U.Seizeyes",
+        "text": "Steady, higher heat with timers up to 12 hours. The cost is being tied to an outlet, which a two-part cord like the Westinghouse's softens."
       },
       {
-        "label": "Cordless",
-        "text": "Run on a battery for portability with weaker heat and limited runtime. That is HychYAYA Cordless Battery Heated Blanket and CYCYHEAT Cordless Heated Blanket Poncho."
+        "label": "Battery: HychYAYA and CYCYHEAT",
+        "text": "Portable and cordless, with 20,000 mAh packs and 3 settings. Heat is lower than plug-in models and runtime is not stated on the HychYAYA."
       }
     ],
-    "note": "Most people should buy a corded blanket and add a cordless one only if they have no outlet."
+    "note": "Most buyers should choose plug-in unless they truly need to move around, in which case the CYCYHEAT poncho focuses heat on neck and back."
   },
   {
-    "subheading": "Timer Needs",
+    "subheading": "By Body Warmth Goal",
+    "intro": "Where you feel the cold decides what you need.",
     "table": {
       "headers": [
-        "Your concern",
+        "Where you feel cold",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Want a 12 hour option",
-          "Vikua Wearable Heated Blanket with Hood"
+          "Feet on a cold office floor",
+          "U.Seizeyes Wearable Heated Blanket, with heated foot pockets instead of just a pocket"
         ],
         [
-          "Want 2 to 10 hour timer",
-          "Westinghouse Wearable Heated Blanket with Foot Pocket"
+          "Neck and back during long desk sessions",
+          "CYCYHEAT Cordless Heated Blanket Poncho, with carbon fiber panels focused there"
         ],
         [
-          "Want a queen bed with auto shut-off",
-          "Hansleep Queen Heated Blanket 84x90"
+          "Arms and shoulders",
+          "Sealy Wearable Electric Blanket, with 25.5 inch sleeves and temperature sensing"
         ],
         [
-          "Short timers for naps",
-          "Sealy Wearable Electric Blanket with Foot Pocket"
+          "The whole bed at night",
+          "Hansleep Queen Heated Blanket, 84 x 90 inches"
         ]
       ]
     }
   },
   {
-    "subheading": "For Work From Home Specifically",
+    "subheading": "For a Chilly Home Office Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "A wearable shape, a timer long enough for a work block and a safety mark."
+        "text": "A wearable with sleeves, a foot pocket and a cord that reaches the wall from your chair, plus a timer that lasts a full work block."
       },
       {
         "label": "In this comparison",
-        "text": "Vikua Wearable Heated Blanket with Hood has UL and a 12 hour timer, and Westinghouse Wearable Heated Blanket with Foot Pocket lists ETL with a 104 inch total cord."
+        "text": "The Westinghouse's 32 plus 72 inch cord and 18 inch foot pocket suit a desk, and the Vikua's 1 to 12 hour timer covers long sessions. The Sealy adds machine-washable fabric."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "The cheapest picks here are decent, but sizes and certifications improve at the top.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want a safety mark and flexible timer. Vikua Wearable Heated Blanket with Hood and Westinghouse Wearable Heated Blanket with Foot Pocket are the strongest on listed specs."
+        "text": "You want heated foot pockets, a recognized lab mark and a long timer. The U.Seizeyes and Westinghouse picks each add part of that."
       },
       {
         "label": "Save if",
-        "text": "You only need a cordless fix. HychYAYA Cordless Battery Heated Blanket is under $60 with the battery included."
+        "text": "You just want warmth without sleeves, where the under $30 guide's EHEYCIGA or Mlivrom covers it for much less."
       }
     ]
   }
@@ -404,28 +400,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can I sleep in a wearable heated blanket?",
-    "a": "No. Wearable and cordless models are made for sitting, and experts advise against sleeping under any powered blanket. Use a timer and unplug before bed."
+    "q": "Is the Vikua worth it over the Westinghouse wearable?",
+    "a": "If you want a wider 1 to 12 hour timer, a hood, and a lower price, yes. The Westinghouse adds a two-part 32 plus 72 inch cord and an 18 inch foot pocket, so choose it if outlet distance is the problem."
   },
   {
-    "q": "What is the difference between UL and ETL?",
-    "a": "Both are independent lab marks that test products against safety standards. Either is a reasonable sign, but the mark should appear on the product itself."
+    "q": "What mistake do buyers make with wearable heated blankets?",
+    "a": "Buying the wrong format. A wearable keeps arms warm but is bulky to store, while a bed blanket cannot be worn. Match the product to where you sit, and check dimensions like the Sealy's 25.5 inch sleeves."
   },
   {
-    "q": "How long does a 20,000 mAh battery run a blanket?",
-    "a": "It depends on heat level, and the listings we reviewed do not state hours. Expect shorter runtime on high heat."
+    "q": "Are cordless heated blankets as warm as plug-in ones?",
+    "a": "No. The HychYAYA offers 3 levels on a 20,000 mAh battery, and listings rarely state runtime or exact temperatures. Expect gentler heat that lasts a few hours, and charge the pack before a long session."
   },
   {
-    "q": "Is a queen heated blanket good for a couch?",
-    "a": "It works, but it is large and heavy. A throw or wearable blanket is easier to handle."
+    "q": "How do I wash a wearable heated blanket?",
+    "a": "Unplug it and remove the controller, then follow the care label. Sealy suggests a slow cycle, and others require cold water. Dry it completely before the next use to keep the wiring safe."
   },
   {
-    "q": "Can I wash a wearable heated blanket?",
-    "a": "Many can be machine washed after unplugging the controller. Follow the temperature and spin instructions on the listing."
+    "q": "What if my heated blanket was recalled?",
+    "a": "Stop using it. Federal recalls of Amazon-sold heated blankets have cited overheating elements and cords that detach, so check your brand and model number against the CPSC list and ask for the refund process."
   },
   {
-    "q": "Is a $60 wearable worth it over a $25 throw?",
-    "a": "A wearable keeps arms and feet warm and stays on when you move, which a plain throw cannot. If you just need a lap blanket, a cheap throw is fine."
+    "q": "Is a heated foot pocket worth it?",
+    "a": "It matters on cold floors. The U.Seizeyes heats the pocket, while the Westinghouse and Sealy only provide a deep 18 inch pocket. If cold feet are your main issue, the heated option is the one to pay for."
   }
 ];
 

@@ -59,9 +59,9 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51bfybtw2uL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CC1ZGMKV?tag=deskfinds0d-20",
-    description: "This mat's 48 by 60 inch dimensions prioritize width over the extra length of the 46x72 BesWin pick above, better suited to a centered desk position where side-to-side chair movement matters more than front-to-back reach. It shares the same 2.2mm thick, studded PVC construction as the rest of the BesWin lineup.\n\nCompared to the 46x72 pick, this one costs about $7 less while offering a wider footprint, a worthwhile tradeoff if your desk setup doesn't extend particularly far in either direction. The transparent design continues to let your carpet's appearance show through despite the added grip layer underneath.\n\nBest for buyers who want a wide, centered coverage area at a lower price than the extended-length pick.",
+    description: "This mat's 48 by 60 inch dimensions prioritize width over the extra length of the 46x72 BesWin pick above, better suited to a centered desk position where side-to-side chair movement matters more than front-to-back reach. It shares the same 2.2mm thick, studded PVC construction as the rest of the BesWin lineup.\n\nCompared to the 46x72 pick, this one costs under $10 less while offering a wider footprint, a worthwhile tradeoff if your desk setup doesn't extend particularly far in either direction. The transparent design continues to let your carpet's appearance show through despite the added grip layer underneath.\n\nBest for buyers who want a wide, centered coverage area at a lower price than the extended-length pick.",
     specs: ["48in x 60in, 2.2mm thick", "3mm studded underside for carpet grip", "Designed for low and flat pile carpet"],
-    pros: ["Wider footprint than the 46in wide extended-length pick", "About $7 cheaper than the 46x72 BesWin pick", "Same proven studded grip design as the BesWin lineup"],
+    pros: ["Wider footprint than the 46in wide extended-length pick", "Under $10 cheaper than the 46x72 BesWin pick", "Same proven studded grip design as the BesWin lineup"],
     cons: ["Shorter length than the 46x72 pick in this tier", "Not usable on hard floors"],
     bestFor: "buyers who want wide, centered coverage at a lower price",
   },
@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Material Composition", "description": "Distinguished polycarbonate construction from standard PVC across the lineup and its durability implications." },
-  { "title": "Coverage Dimensions", "description": "Compared width versus length priorities across the largest mats in this price range." },
-  { "title": "Floor Type Compatibility", "description": "Checked carpet-only versus hard-floor-only compatibility for each pick." },
-  { "title": "Flattening and Setup", "description": "Compared how quickly each material returns to flat after shipping rolled." },
-  { "title": "Value at Maximum Size", "description": "Weighed price against coverage area to identify the best value at this tier's largest sizes." }
+  {
+    "title": "Floor type match",
+    "description": "We started with floor type, because a hard floor mat on carpet slides and a carpet mat on hardwood scuffs it. Marvelux is polycarbonate for hard floors only, while both BesWin mats and the WASJOYE are for low pile carpet only, so each pick was judged only against its own floor. Check your carpet pile before ordering."
+  },
+  {
+    "title": "Thickness and grip underside",
+    "description": "We compared the stated thickness and the underside. BesWin lists 2.2mm with a 3mm studded underside, and WASJOYE lists a 3mm rivet design. Thinner than about 2mm tends to crack or curl, and the studs matter because a smooth underside slides on carpet. Measure pile height, not just carpet softness."
+  },
+  {
+    "title": "Material behavior over time",
+    "description": "We weighed polycarbonate against PVC. Marvelux's polycarbonate has higher impact strength and flattens almost instantly after unrolling, while PVC mats can stay curled for days, and WASJOYE's listing notes slight dents from normal use, which we counted against it. A slow-flattening mat is a trip hazard for the first week."
+  },
+  {
+    "title": "Size against chair movement",
+    "description": "We compared footprints, from the 46 by 72 inch BesWin to the 48 by 60 inch Marvelux, BesWin and WASJOYE. A mat should cover the whole arc of your chair and still fit the room, since too short a mat leaves a wheel path on bare carpet. Measure the roll area, not just the desk."
+  },
+  {
+    "title": "Safety and material disclosure",
+    "description": "We looked at material statements. WASJOYE says its PVC is non-toxic and free of BPA and phthalates, and the others are silent, which matters for a small home office where the mat sits in a closed room all day."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Genuine polycarbonate durability on hard floors", "Marvelux Durable Polycarbonate Office Chair Mat, 48x60"],
-        ["Extended coverage for a long or L-shaped desk", "BesWin Office Chair Mat for Low Pile Carpets, 46x72"],
-        ["Wide, centered carpet coverage", "BesWin Office Chair Mat for Carpet, 48x60"],
-        ["Maximum carpet coverage at the lowest price", "WASJOYE Office Chair Mat for Carpet, 48x60"]
+    "subheading": "By Floor Type",
+    "intro": "Floor type is the first filter, and these four are not interchangeable.",
+    "table": {
+      "headers": [
+        "Your floor",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Hardwood, tile or laminate",
+          "Marvelux Durable Polycarbonate Office Chair Mat, 48x60, hard floors only"
+        ],
+        [
+          "Low pile carpet and a desk that needs a long mat",
+          "BesWin Office Chair Mat for Low Pile Carpets, 46x72, with 3mm studs"
+        ],
+        [
+          "Low pile carpet and a wider mat for a corner desk",
+          "BesWin Office Chair Mat for Carpet, 48x60, with 2.2mm thickness"
+        ],
+        [
+          "Low pile carpet and a tight budget",
+          "WASJOYE Office Chair Mat for Carpet, 48x60, with a 3mm rivet design"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $60", "WASJOYE (under $60)"],
-        ["Under $63", "BesWin 48x60 (under $70)"],
-        ["Under $70", "Marvelux (under $70) or BesWin 46x72 (under $70)"]
+    "subheading": "By Budget",
+    "intro": "All four are under $75, with the carpet mats sitting below the polycarbonate one.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The cheapest 48x60 coverage in this tier",
+          "WASJOYE Office Chair Mat for Carpet, 48x60"
+        ],
+        [
+          "A step up for a wider BesWin footprint",
+          "BesWin Office Chair Mat for Carpet, 48x60, cheaper than the long BesWin"
+        ],
+        [
+          "More money for the longest carpet mat",
+          "BesWin Office Chair Mat for Low Pile Carpets, 46x72"
+        ],
+        [
+          "The top of this tier for polycarbonate on a hard floor",
+          "Marvelux Durable Polycarbonate Office Chair Mat, 48x60"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Polycarbonate vs PVC Construction",
-    cards: [
-      { label: "Polycarbonate (Marvelux)", text: "Offers higher impact strength, near-instant flattening, and long-term resistance to dipping or cupping, a genuine material upgrade for hard floors." },
-      { label: "PVC (BesWin picks, WASJOYE)", text: "Costs less while still offering solid durability for carpet use, though it flattens more slowly and can develop minor surface dents over time." }
+    "subheading": "Polycarbonate vs PVC",
+    "intro": "The material difference shows up in how fast the mat lies flat and how long it keeps its shape.",
+    "cards": [
+      {
+        "label": "Polycarbonate (Marvelux)",
+        "text": "Higher impact strength than PVC, flattens almost instantly after unrolling, and resists dipping or cupping over time. It suits hard floors only."
+      },
+      {
+        "label": "PVC (BesWin, WASJOYE)",
+        "text": "PVC mats cost less and carry studs or rivets for carpet grip, but they can curl at first and WASJOYE's listing notes slight dents from normal use."
+      }
     ],
-    note: "If your floor is hardwood or tile and durability is the priority, the Marvelux polycarbonate pick is worth the material upgrade. If you're on carpet, the PVC-based picks deliver proven grip at a lower cost.",
+    "note": "Default to polycarbonate on a hard floor, and a studded PVC mat on low pile carpet."
   },
   {
-    subheading: "By Coverage Shape",
-    table: {
-      headers: ["Your desk layout", "Recommended pick"],
-      rows: [
-        ["Long or L-shaped desk needing extra length", "BesWin 46x72"],
-        ["Standard centered desk needing width", "BesWin 48x60 or WASJOYE 48x60"],
-        ["Hard floor desk of any standard layout", "Marvelux 48x60"]
+    "subheading": "By Desk Layout",
+    "intro": "The shape of the desk decides whether you need length or width.",
+    "table": {
+      "headers": [
+        "Your layout",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A long straight desk where you roll side to side",
+          "BesWin Office Chair Mat for Low Pile Carpets, 46x72, with the longest coverage"
+        ],
+        [
+          "A corner or L-shaped desk",
+          "BesWin Office Chair Mat for Carpet, 48x60, with a wider footprint"
+        ],
+        [
+          "A small room where 60 inches is the limit",
+          "WASJOYE Office Chair Mat for Carpet, 48x60, at the same size for less"
+        ],
+        [
+          "A hard floor room where the chair rolls and spins",
+          "Marvelux Durable Polycarbonate Office Chair Mat, 48x60, with a rigid surface"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For an L-Shaped Desk Setup Specifically",
-    cards: [
-      { label: "Look for", text: "A mat with extended length rather than just width, since an L-shaped desk typically requires more front-to-back or side-spanning coverage as you roll between sections." },
-      { label: "In this comparison", text: "The BesWin 46x72 pick's extended 72 inch length specifically accommodates the wider rolling range an L-shaped desk setup requires." }
-    ],
+    "subheading": "For Renters Protecting Carpet Specifically",
+    "intro": "Chair casters crush pile, and a deposit can depend on it.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A studded or rivet underside that grips low pile carpet and a thickness near 2mm to 3mm so the edge does not crack."
+      },
+      {
+        "label": "In this comparison",
+        "text": "BesWin Office Chair Mat for Carpet, 48x60 lists 2.2mm with a 3mm studded underside, and WASJOYE offers a 3mm rivet design for less."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You're on a hard floor and want genuine polycarbonate durability with near-instant flattening, where the Marvelux pick delivers a real material upgrade over PVC." },
-      { label: "Save if", text: "You're on carpet and just need maximum coverage at 48x60, where the WASJOYE pick matches the pricier BesWin pick's size for under $4 to $10 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Only a few reasons justify paying more at this tier.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a hard floor and use the chair all day, where Marvelux Durable Polycarbonate Office Chair Mat resists dipping and cupping."
+      },
+      {
+        "label": "Save if",
+        "text": "You have low pile carpet and a standard desk, where WASJOYE Office Chair Mat for Carpet, 48x60 is the cheapest at matching coverage."
+      }
+    ]
   }
 ];
 
@@ -184,9 +270,9 @@ export const buyingCriteria = [
 export const faq = [
   { "q": "Can the Marvelux polycarbonate mat be used on carpet as well as hard floors?", "a": "No, it's specifically designed and marketed for hard floors like vinyl, hardwood, laminate, stone, tile, and concrete, so a carpet-specific studded mat like the BesWin or WASJOYE picks is the better choice for carpeted floors." },
   { "q": "What's the most common mistake buyers make when choosing between the two BesWin sizes in this tier?", "a": "Not measuring their actual desk layout's length versus width needs first, since the 46x72 pick favors a long desk run while the 48x60 pick favors a wider, more centered setup, and picking based on price alone can leave you with the wrong shape for your space." },
-  { "q": "Is the Marvelux polycarbonate pick worth it over the cheaper WASJOYE carpet option?", "a": "If you're on a hard floor and want a genuine material upgrade with near-instant flattening, yes, but if you're on carpet, the WASJOYE pick is the better fit and costs about $10 less for similar coverage." },
+  { "q": "Is the Marvelux polycarbonate pick worth it over the cheaper WASJOYE carpet option?", "a": "If you're on a hard floor and want a genuine material upgrade with near-instant flattening, yes, but if you're on carpet, the WASJOYE pick is the better fit and costs less for similar coverage." },
   { "q": "How long do these larger mats typically take to lay flat after shipping?", "a": "The polycarbonate Marvelux pick flattens almost instantly, while the PVC-based BesWin and WASJOYE picks can take several hours to a couple of days, with heavy objects placed on the corners overnight speeding up the process." },
-  { "q": "Do the WASJOYE and BesWin low pile carpet mats work on medium or high pile carpet?", "a": "No, both are explicitly designed for low pile carpet only, and using them on medium or high pile carpet may prevent the studded underside from anchoring properly, leading to sliding or instability." },
+  { "q": "Do the WASJOYE and BesWin low pile carpet mats work on medium or high pile carpet?", "a": "No. Both are designed for low pile carpet only, and on medium or high pile the studded underside may not anchor, so the mat can slide or tilt. Measure how deep your carpet is before ordering, and if the pile is thick, look for a mat that lists medium or high pile instead of forcing this one." },
   { "q": "Can I trim any of these mats down to fit a smaller space?", "a": "Trimming isn't recommended for any of the four picks in this comparison, since it can compromise the edge integrity, the studded grip pattern, or the material's structural consistency, so measuring your space accurately before ordering is the better approach." }
 ];
 

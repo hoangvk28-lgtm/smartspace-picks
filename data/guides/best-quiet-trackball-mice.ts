@@ -219,161 +219,169 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Silent versus quiet-click claims",
-    "explanation": "Silent means the mechanism is damped enough that clicks are barely audible, while quiet-click models reduce but do not eliminate sound. Neither usually comes with a decibel figure. Check the exact wording and look for a stated percentage or dB number."
+    "explanation": "Silent means the mechanism is damped enough that clicks are barely audible, while quiet-click models reduce but do not eliminate sound. Neither usually comes with a decibel figure. Check the exact wording and look for a stated percentage or dB number. Look for the word silent in the listing text for each button, and for the scroll wheel too, rather than relying on a quiet-click badge in the title."
   },
   {
     "criterion": "Scroll wheel noise",
-    "explanation": "A ratcheting scroll wheel ticks audibly even with silent buttons. A free-spinning or infinite scroll wheel is quieter. Check whether the listing describes the wheel."
+    "explanation": "A ratcheting scroll wheel ticks audibly even with silent buttons. A free-spinning or infinite scroll wheel is quieter. Check whether the listing describes the wheel. Check whether the listing names a scroll wheel type; a free spinning or infinite wheel such as the one on Nulea is quieter than a ratcheting wheel that ticks at each step."
   },
   {
     "criterion": "Vendor percentage claims",
-    "explanation": "A claim like 80 percent quieter compares a model against the previous version of the same product, not against every mouse. It tells you a direction, not a level. Read the footnote to see the comparison."
+    "explanation": "A claim like 80 percent quieter compares a model against the previous version of the same product, not against every mouse. It tells you a direction, not a level. Read the footnote to see the comparison. Ask the seller or read comments for a test method, because a percent figure measured against an older model tells you nothing about how loud the unit is in a quiet room."
   },
   {
     "criterion": "Ball noise",
-    "explanation": "The ball itself is nearly silent, but a gritty ball can rasp. Ruby or smooth bearings help. Look for bearing details."
+    "explanation": "The ball itself is nearly silent, but a gritty ball can rasp. Ruby or smooth bearings help. Look for bearing details. Read buyer comments for words like rasp or grit, and prefer models with a smooth bearing system that you can lift the ball out of and wipe clean."
   },
   {
     "criterion": "Wired versus wireless noise",
-    "explanation": "Neither connection type makes noise on its own, but wireless units can add a power switch snap or a wake delay that makes you click twice. That matters in a quiet room where repeated clicks are the loudest event. Check whether the listing mentions a power switch and how fast the mouse wakes from sleep."
+    "explanation": "Neither connection type makes noise on its own, but wireless units can add a power switch snap or a wake delay that makes you click twice. That matters in a quiet room where repeated clicks are the loudest event. Check whether the listing mentions a power switch and how fast the mouse wakes from sleep. Check whether the wireless unit has a clicking power switch or a click in the receiver, and note that wired SANWA avoids battery and switch noise entirely."
   },
   {
     "criterion": "Return window for noise testing",
-    "explanation": "Sound is subjective, and a click that seems silent in a store can seem loud in a silent bedroom at midnight. Your own room is the only real test. Check the return policy on the product page and favor sellers with a 30 day window."
+    "explanation": "Sound is subjective, and a click that seems silent in a store can seem loud in a silent bedroom at midnight. Your own room is the only real test. Check the return policy on the product page and favor sellers with a 30 day window. Buy from a seller with an easy return window, and test the buttons in a quiet room at night before the window closes, since sound is subjective."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Noise claims",
-    "description": "We compared the silent and quiet-click wording in each listing and noted relative claims."
+    "title": "Click noise and the evidence for it",
+    "description": "We compared claims across the field, from Nulea's silent buttons, wheel and ball to quiet-click wording on Logitech and silent click on SANWA. None give a decibel figure, so we favored listings that say silent for every part and discounted percent claims that compare only to an older model."
   },
   {
-    "title": "Scroll wheel",
-    "description": "Wheel noise descriptions were weighed."
+    "title": "Scroll wheel and ball noise",
+    "description": "We looked beyond the buttons, since a ratcheting wheel ticks audibly even with muted clicks. Nulea explicitly lists a silent wheel and ball, while others say nothing about the scroll wheel, so those scored lower for a quiet office."
   },
   {
-    "title": "Connection and power",
-    "description": "Wired, Bluetooth and receivers were compared."
+    "title": "Thumb or finger layout",
+    "description": "We separated thumb balls such as Logitech M575S and Nulea from finger models, because ball position changes the learning curve. Thumb layouts keep a mouse like click arrangement, and one source estimates three to five days to feel competent, versus longer for finger designs."
   },
   {
-    "title": "Comfort",
-    "description": "Tilt and vertical shape were scored."
+    "title": "Connection and battery behavior",
+    "description": "We compared Bluetooth, 2.4 GHz receivers, wired USB-A or USB-C, and power types from AA to rechargeable. Wired SANWA has no battery or switch noise, while Yadkbo uses AAA batteries that are not included, which affects the real cost on day one."
   },
   {
-    "title": "Value for price",
-    "description": "We set each price beside its listed features and the complaints or praise owners repeat most."
+    "title": "Ergonomic angle and price",
+    "description": "We weighed the 65 degree vertical body on Nulea, the 20 degree tilt on Logitech MX Ergo S and the 15 degree tilt on ProtoArc against price. A tilt reduces wrist twist, but the MX Ergo S asks the most, so we judged whether its quiet click upgrade earns the premium."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Noise Priority",
+    "subheading": "By Hand and Grip Style",
+    "intro": "Trackballs reward fit more than most mice, so start with how your hand rests.",
     "table": {
       "headers": [
-        "Your situation",
+        "Your hand and habit",
         "Recommended pick"
       ],
       "rows": [
         [
-          "You want the whole device, wheel included, silent",
-          "Nulea Vertical Wireless Thumb Trackball (65 Degree)"
+          "A vertical, handshake grip that relieves forearm twist",
+          "Nulea Vertical Wireless Thumb Trackball, with a 65 degree body"
         ],
         [
-          "You want a quieter flagship",
+          "A classic thumb ball with quiet clicks and Bluetooth",
+          "Logitech Ergo M575S Wireless Trackball, with an AA battery included"
+        ],
+        [
+          "Adjustable tilt and rechargeable use",
+          "ProtoArc EM02 Wireless Trackball Mouse, with a 15 degree tilt option"
+        ],
+        [
+          "The best build and a 20 degree tilt for long hours",
           "Logitech MX Ergo S Advanced Wireless Trackball"
-        ],
-        [
-          "You want a quiet familiar ball",
-          "Logitech Ergo M575S Wireless Trackball (Black and Blue)"
-        ],
-        [
-          "You want a silent wired ball",
-          "SANWA Wired Trackball Mouse, Silent Click (USB-C or A)"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "All seven are under $100, and the cheaper ones are the quietest per dollar.",
     "table": {
       "headers": [
-        "Budget",
+        "Price bucket",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $30",
+          "Under $28 with replaceable AAA batteries",
           "Yadkbo Ergonomic Wireless Trackball Mouse"
         ],
         [
-          "$29 to $30",
+          "Under $30 and no batteries or pairing",
+          "SANWA Wired Trackball Mouse, Silent Click"
+        ],
+        [
+          "Under $30 with a USB-A or USB-C receiver",
           "SANWA 2.4G Wireless Trackball Mouse, Silent Click"
         ],
         [
-          "$36 to $44",
-          "ProtoArc EM02 Wireless Trackball Mouse"
+          "Under $40 for a trusted classic",
+          "Logitech Ergo M575S"
         ],
         [
-          "Around $100",
-          "Logitech MX Ergo S Advanced Wireless Trackball"
+          "Under $100 for the premium tilt model",
+          "Logitech MX Ergo S"
         ]
       ]
     }
   },
   {
-    "subheading": "Silent vs Quiet-Click",
+    "subheading": "Silent Buttons vs Quiet-Click Buttons",
+    "intro": "The wording on the box is not the same, and it changes how quiet your desk will be.",
     "cards": [
       {
-        "label": "Silent",
-        "text": "Listings that say silent or noiseless describe damped buttons. The Nulea Vertical Wireless Thumb Trackball (65 Degree), SANWA 2.4G Wireless Trackball Mouse, Silent Click, SANWA Wired Trackball Mouse, Silent Click (USB-C or A) and Yadkbo Ergonomic Wireless Trackball Mouse use that wording."
+        "label": "Silent (Nulea, SANWA, Yadkbo)",
+        "text": "The listing claims the mechanism is damped enough that clicks are barely audible. Nulea adds a silent wheel and ball, but none of these publish a decibel figure, so the claim is relative."
       },
       {
-        "label": "Quiet-click",
-        "text": "Quiet-click models reduce click noise. The Logitech MX Ergo S Advanced Wireless Trackball, Logitech Ergo M575S Wireless Trackball (Black and Blue) and ProtoArc EM02 Wireless Trackball Mouse use that wording."
+        "label": "Quiet-click (Logitech M575S, MX Ergo S, ProtoArc)",
+        "text": "Quieter than prior models but still audible, according to the claims. The MX Ergo S markets a quiet click upgrade over the previous model, and the M575S lists quiet clicks without a number."
       }
     ],
-    "note": "Most buyers should pick silent wording if the room is truly quiet."
+    "note": "For a shared room or a call heavy job, pick a silent model; for general office use, a quiet-click Logitech is enough."
   },
   {
-    "subheading": "Connection and Power",
+    "subheading": "By Connectivity and Power",
+    "intro": "Power and pairing decide how often you touch the mouse for non click reasons.",
     "table": {
       "headers": [
-        "Your situation",
+        "You want",
         "Recommended pick"
       ],
       "rows": [
         [
-          "You want no batteries ever",
-          "SANWA Wired Trackball Mouse, Silent Click (USB-C or A)"
+          "Three device pairing on Bluetooth",
+          "Nulea Vertical Wireless Thumb Trackball"
         ],
         [
-          "You want a rechargeable wireless ball",
-          "ProtoArc EM02 Wireless Trackball Mouse"
+          "Bluetooth and a receiver with a battery included",
+          "Logitech Ergo M575S"
         ],
         [
-          "You want replaceable cells",
-          "Yadkbo Ergonomic Wireless Trackball Mouse"
+          "A cable that never needs charging",
+          "SANWA Wired Trackball Mouse, no batteries"
         ],
         [
-          "You want fast USB-C charging",
-          "Logitech MX Ergo S Advanced Wireless Trackball"
+          "USB-C charging with long standby",
+          "ProtoArc EM02, with 90 day standby"
         ]
       ]
     }
   },
   {
-    "subheading": "For Shared Bedrooms and Libraries Specifically",
+    "subheading": "For an Open Office or Shared Space Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "Silent buttons, a quiet wheel and a power switch."
+        "text": "Silent wording on the buttons and the scroll wheel, a wired or a rechargeable option, and a quick return policy so you can hear the clicks yourself."
       },
       {
         "label": "In this comparison",
-        "text": "The Nulea Vertical Wireless Thumb Trackball (65 Degree) lists a silent wheel and the SANWA Wired Trackball Mouse, Silent Click (USB-C or A) lists noiseless buttons."
+        "text": "Nulea lists a silent wheel and ball, SANWA Wired removes battery noise, and ProtoArc lists quiet-touch buttons with a rechargeable battery."
       }
     ]
   },
@@ -382,11 +390,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want refinement and tilt, as on the Logitech MX Ergo S Advanced Wireless Trackball."
+        "text": "You use the trackball all day and want the 20 degree tilt, six buttons and USB-C of the Logitech MX Ergo S, accepting that its noise claim is relative."
       },
       {
         "label": "Save if",
-        "text": "You only need quiet buttons, where the Yadkbo Ergonomic Wireless Trackball Mouse or SANWA 2.4G Wireless Trackball Mouse, Silent Click suffices."
+        "text": "You want a silent click without a premium, because SANWA and Nulea cost far less, or the Logitech M575S for a trusted classic."
       }
     ]
   }
@@ -395,28 +403,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Are trackballs quieter than mice?",
-    "a": "The body does not move, so there is no scrape. Click noise remains. Look for silent buttons."
+    "q": "Are silent trackball mice truly silent?",
+    "a": "No. None of these listings give a decibel figure, so silent is a relative claim. A damped button is much quieter than a standard click, but the scroll wheel and ball can still make noise. Test one in a quiet room before keeping it."
   },
   {
-    "q": "Is 80 percent quieter an absolute number?",
-    "a": "No, it is a relative claim against the previous model. It indicates a direction rather than a level."
+    "q": "What is the common mistake when buying a quiet trackball?",
+    "a": "Believing percent claims. Wording like 80 percent quieter usually compares one model to its predecessor rather than to other mice. Read for silent on every part, including the wheel, and rely on a return window to confirm."
   },
   {
-    "q": "Does the scroll wheel make noise?",
-    "a": "Ratcheting wheels tick. Infinite or free-spin wheels are quieter. Check the listing."
+    "q": "Is the Logitech MX Ergo S worth it over the M575S?",
+    "a": "The MX Ergo S adds a 20 degree tilt, six buttons and USB-C charging with a quiet-click upgrade, but costs much more. The M575S keeps quiet clicks, Bluetooth, an included AA battery and a low price. Most buyers will be fine with the M575S."
   },
   {
-    "q": "Are silent clicks less satisfying?",
-    "a": "Some people miss the tactile click. Try one with a return window."
+    "q": "How long does it take to get used to a trackball?",
+    "a": "Sources estimate three to five days for a thumb trackball and one to two weeks for a finger design, though those figures are rough. Start with a thumb model like the M575S or Nulea if you are switching from a regular mouse."
   },
   {
-    "q": "Is the Logitech MX Ergo S worth the price for quiet?",
-    "a": "Only if you want its tilt and charging too. Cheaper models offer silent buttons."
+    "q": "How do I clean a trackball?",
+    "a": "Pop the ball out, wipe the sensor and bearing area with a dry cloth or cotton swab, and wipe the ball with a slightly damp cloth. Grit causes a rasping sound, so clean every few weeks if the cursor gets rough."
   },
   {
-    "q": "Do wireless mice click on wake?",
-    "a": "Some have a power switch snap. Look for details."
+    "q": "Can I use a trackball left handed?",
+    "a": "Thumb models are usually shaped for one hand, and reversing button assignments does not change the sculpted body. Check the listing for ambidextrous support before buying, and test the return policy if you are left handed."
   }
 ];
 

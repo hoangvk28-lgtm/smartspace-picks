@@ -219,47 +219,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Water-contact materials at low price",
-    "explanation": "Cheap kettles often use plastic for the lid, spout or whole body, and BPA-free only means a specific chemical is absent. It matters because hot water sits against that surface every day. Look for 304 stainless steel named for the interior and lid, and read the photos of the open lid."
+    "explanation": "Cheap kettles often use plastic for the lid, spout or whole body, and BPA-free only means a specific chemical is absent. It matters because hot water sits against that surface every day. Look for 304 stainless steel named for the interior and lid, and read the photos of the open lid. Check the lid and spout in the photos as well as the interior, since a steel body with a plastic spout can still leave a taste."
   },
   {
     "criterion": "Wattage against dorm rules",
-    "explanation": "A 1500W kettle boils fast but may break a residence hall cap, while 600W units are slower yet safer to bring. Rules differ by school and some ban kettles. Find the wattage in the title or bullets, and check your housing list before ordering."
+    "explanation": "A 1500W kettle boils fast but may break a residence hall cap, while 600W units are slower yet safer to bring. Rules differ by school and some ban kettles. Find the wattage in the title or bullets, and check your housing list before ordering. A 1500W kettle like the Comfee boils quickly but can strain a shared circuit, while 600W models like the Wdcme take longer but draw less."
   },
   {
     "criterion": "Capacity for how you drink",
-    "explanation": "Capacity is how much water fits, and it ranges from about 16 oz travel mugs to 1.7L. Too small and you refill constantly, too large and you heat more than you need. Match liters to cups: roughly 0.25L per mug."
+    "explanation": "Capacity is how much water fits, and it ranges from about 16 oz travel mugs to 1.7L. Too small and you refill constantly, too large and you heat more than you need. Match liters to cups: roughly 0.25L per mug. Capacity ranges from 16 oz to 1.7L, so decide whether you pour one mug or a pot before choosing the JEKABA or the Comfee."
   },
   {
     "criterion": "Boil-dry protection",
-    "explanation": "Boil-dry protection cuts power when there is no water, which is separate from auto shut-off at boil. At this price it is where some listings cut corners, and a forgotten empty switch-on can ruin the unit. Look for both terms named explicitly."
+    "explanation": "Boil-dry protection cuts power when there is no water, which is separate from auto shut-off at boil. At this price it is where some listings cut corners, and a forgotten empty switch-on can ruin the unit. Look for both terms named explicitly. Boil-dry protection is separate from auto shut-off, so look for both phrases, and test it only by following the manual since running a kettle empty is risky."
   },
   {
     "criterion": "Concealed element and cleaning",
-    "explanation": "A concealed element is a flat plate under the water instead of an exposed coil, which is easier to clean and often required in dorms. Exposed coils collect scale that is harder to remove. Check the listing for the phrase or a flat stainless base."
+    "explanation": "A concealed element is a flat plate under the water instead of an exposed coil, which is easier to clean and often required in dorms. Exposed coils collect scale that is harder to remove. Check the listing for the phrase or a flat stainless base. A concealed element sits under a flat plate, so the Comfee is simpler to wipe than an exposed coil, and scale shows up less."
   },
   {
     "criterion": "Return and warranty terms",
-    "explanation": "Budget kettles come from many small brands, so the warranty is the real quality signal. A clear return window protects you from leaks or early failure. Read the listing for a stated period and who handles claims."
+    "explanation": "Budget kettles come from many small brands, so the warranty is the real quality signal. A clear return window protects you from leaks or early failure. Read the listing for a stated period and who handles claims. Budget brands often ship with thin warranties, so check the return window in the Amazon listing and save the receipt for the first month."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Price ceiling",
-    "description": "Every pick had to list at under $30 or less at the time of our research, so no tier-stretching."
+    "title": "Water contact materials",
+    "description": "Cheap kettles hide plastic in the lid, spout or whole body, so we looked at what touches the water. The Tuehakny and Wdcme use 304 stainless interiors, the Comfee has a concealed element, and the Aigostar has a BPA-free plastic body. Steel inside scored higher. Plastic that heats up is the likeliest source of an off taste in a new kettle."
   },
   {
-    "title": "Materials and safety",
-    "description": "We compared stainless steel contact surfaces and the shutoff protections named in each listing."
+    "title": "Wattage against housing rules",
+    "description": "We compared the Comfee 1500W with the Aigostar 1100W, Tuehakny 1000W and Wdcme 600W. Some residence halls limit appliance wattage and a shared circuit can trip, so we marked the lower wattage picks as safer for dorms and the 1500W Comfee as the fastest for a kitchen."
   },
   {
-    "title": "Capacity and wattage",
-    "description": "Listed liters and watts were weighed against realistic dorm, desk and office use."
+    "title": "Capacity and format",
+    "description": "Sizes run from a 16 oz JEKABA mug to a 1.7L Comfee jug. We split picks into jug kettles and travel formats: the DCIGNA folds to 1.9 inches thick at 0.94 lb, and the resgitiati collapses, so they suit a suitcase more than a family kitchen. A 16 oz mug sized kettle forces repeat refills for more than one drink."
   },
   {
-    "title": "Portability",
-    "description": "Dimensions, folding designs and voltage support mattered for travel picks."
+    "title": "Temperature features at a low price",
+    "description": "The JEKABA offers 4 temperature presets with a live LCD, which is rare below $30. We scored it on whether a 16 oz capacity is enough, since presets help green tea but a mug sized kettle makes refills frequent."
   }
 ];
 
@@ -395,28 +395,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Are cheap electric kettles safe?",
-    "a": "They can be, if they have auto shut-off and boil-dry protection named in the listing. Choose a seller with a clear return policy and never run one empty."
+    "q": "Is a 1500W kettle allowed in a dorm?",
+    "a": "Not always. Some housing offices cap appliance wattage or restrict heating items to common kitchens, and a 1500W kettle can trip a shared circuit. Confirm your building's rule before buying the Comfee. The 1000W Tuehakny or 600W Wdcme are safer choices."
   },
   {
-    "q": "Is a $30 kettle worth it over a $50 one?",
-    "a": "For plain boiling, yes. The extra money buys temperature control, keep-warm or a better build, which only matter if you brew green tea or pour-over."
+    "q": "What should I check before buying a kettle under $30?",
+    "a": "Check what touches the water. Cheap models can hide plastic in the lid or spout, so look for a stated 304 stainless interior, as on the Tuehakny and Wdcme. Also confirm auto shut-off and boil-dry protection in the listing."
   },
   {
-    "q": "Can I use a 1500W kettle in a dorm?",
-    "a": "Only if your school allows it. Many residence halls cap appliances lower or ban kettles, so check first. Comfee 1.7L is 1500W."
+    "q": "Is the JEKABA with 4 presets worth it over a plain kettle?",
+    "a": "Only if you brew green or white tea, which prefer cooler water than a rolling boil. The JEKABA shows live temperature, but its 16 oz capacity is small. A plain Tuehakny or Comfee fits a coffee or noodle routine."
   },
   {
-    "q": "How do I clean a budget kettle?",
-    "a": "Boil water with white vinegar or citric acid, let it sit, rinse and boil fresh water once. Do not submerge the base."
+    "q": "How do I use a foldable travel kettle?",
+    "a": "Fill it to the marked line, plug it in, and let it shut off at boil. The DCIGNA folds to 1.9 inches and is dual voltage, so it works abroad with a plug adapter. Rinse and dry it before folding to prevent odors."
   },
   {
-    "q": "Does a plastic kettle affect taste?",
-    "a": "It can, especially when new. Rinse and boil a first batch to discard. Steel interiors avoid the problem."
+    "q": "How often do I descale a kettle?",
+    "a": "A manufacturer rule of thumb is about monthly, and sooner in hard water or heavy use. Boil equal parts water and white vinegar, let it sit, rinse well. A concealed element like the Comfee wipes clean faster than an exposed coil."
   },
   {
-    "q": "Are collapsible kettles durable?",
-    "a": "They suit occasional travel, but silicone bodies wear faster than steel. For everyday use, a rigid kettle is the better buy."
+    "q": "Does a double or triple wall body matter?",
+    "a": "Yes, for comfort. The Tuehakny triple wall shell and Wdcme double layer body keep the outside cooler, which helps in a shared room. They do not boil faster, so wattage still sets the speed."
   }
 ];
 

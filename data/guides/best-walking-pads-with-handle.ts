@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41bS8cSjFzL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FXXHGGZT?tag=deskfinds0d-20",
-    "description": "Acezoe has a handlebar with five height levels from 38.5 to 48.5 inches, a manual incline in three steps at 1%, 6% and 12%, a LED display and app control. The adjustable bar is designed to fit different heights and reduce leaning forward.\n\nIt is the most expensive pick at about $209 and the only one in this list that sets handle height in steps, where the THERUN simply folds or raises. Its incline steps are also more granular than the single settings on MEE GOO or Viamotion.\n\nBest for tall or shorter walkers who need the bar at a specific height. The caveat is price, and the listing does not name a weight limit in the bullets we saw.",
+    "description": "Acezoe has a handlebar with five height levels from 38.5 to 48.5 inches, a manual incline in three steps at 1%, 6% and 12%, a LED display and app control. The adjustable bar is designed to fit different heights and reduce leaning forward.\n\nIt is the most expensive pick at under $250 and the only one in this list that sets handle height in steps, where the THERUN simply folds or raises. Its incline steps are also more granular than the single settings on MEE GOO or Viamotion.\n\nBest for tall or shorter walkers who need the bar at a specific height. The caveat is price, and the listing does not name a weight limit in the bullets we saw.",
     "specs": [
       "Handlebar 38.5 to 48.5 in",
       "1%, 6%, 12% manual incline",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41+vhH6tOZL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DL58H3GL?tag=deskfinds0d-20",
-    "description": "THERUN lists a 2.5HP motor, a 16 inch widened belt, a remote and a 2-in-1 handle: fold it down for walking at 0.6 to 3.8 mph, raise it for speeds up to 6.2 mph. A safety lock must be secured or the pad shows an E07 error and will not run.\n\nIt costs about $60 less than Acezoe and loses the adjustable height and incline, but it gives you a wider belt than most pads and the mode switch is quick. Compared with the cheaper Viamotion, it adds a larger motor and the dual-mode speed cap.\n\nChoose it if you want a pad that changes from desk walker to jogger without extras. The caveat is that raising the handle changes the machine's footprint under the desk.",
+    "description": "THERUN lists a 2.5HP motor, a 16 inch widened belt, a remote and a 2-in-1 handle: fold it down for walking at 0.6 to 3.8 mph, raise it for speeds up to 6.2 mph. A safety lock must be secured or the pad shows an E07 error and will not run.\n\nIt costs under $75 less than Acezoe and loses the adjustable height and incline, but it gives you a wider belt than most pads and the mode switch is quick. Compared with the cheaper Viamotion, it adds a larger motor and the dual-mode speed cap.\n\nChoose it if you want a pad that changes from desk walker to jogger without extras. The caveat is that raising the handle changes the machine's footprint under the desk.",
     "specs": [
       "2.5HP, up to 6.2 mph",
       "16 inch wide belt",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41kqav17nfL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HGB57PVQ?tag=deskfinds0d-20",
-    "description": "MEE GOO lists a 330 lb capacity, a 12% manual incline, a 0.6 to 7.5 mph speed range, a remote and an LED display, with a handle you can fold down or raise for support. Its listing says the same machine covers light walking up to running.\n\nAt about $130 it costs $20 less than THERUN and gives a higher weight limit and top speed, but the incline is manual. Against Lacuffy, it adds 30 lb of capacity and faster speeds.\n\nBest for a heavier or faster user who wants support on demand. The caveat is that a 12% manual incline means stopping to adjust.",
+    "description": "MEE GOO lists a 330 lb capacity, a 12% manual incline, a 0.6 to 7.5 mph speed range, a remote and an LED display, with a handle you can fold down or raise for support. Its listing says the same machine covers light walking up to running.\n\nAt under $150 it costs $20 less than THERUN and gives a higher weight limit and top speed, but the incline is manual. Against Lacuffy, it adds 30 lb of capacity and faster speeds.\n\nBest for a heavier or faster user who wants support on demand. The caveat is that a 12% manual incline means stopping to adjust.",
     "specs": [
       "330 lb capacity",
       "12% manual incline",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41iLgSbwJEL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HFRLLS44?tag=deskfinds0d-20",
-    "description": "Lacuffy has dual side handlebars that detach completely, a 6% manual incline, a 300 lb capacity, an app and a remote. The listing frames the handles as an emergency grip for seniors, beginners and faster walkers.\n\nIt costs about $20 less than MEE GOO and swaps the fold-down bar for detachable ones, which leaves a cleaner profile when you remove them. Against Viamotion, it lists capacity and an app but a lower incline.\n\nBest for someone who wants handles during cardio but a slim pad for desk use. The caveat is that you have to store the detached bars somewhere.",
+    "description": "Lacuffy has dual side handlebars that detach completely, a 6% manual incline, a 300 lb capacity, an app and a remote. The listing frames the handles as an emergency grip for seniors, beginners and faster walkers.\n\nIt costs under $25 less than MEE GOO and swaps the fold-down bar for detachable ones, which leaves a cleaner profile when you remove them. Against Viamotion, it lists capacity and an app but a lower incline.\n\nBest for someone who wants handles during cardio but a slim pad for desk use. The caveat is that you have to store the detached bars somewhere.",
     "specs": [
       "Detachable side handlebars",
       "6% manual incline",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41jxCgjZICL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07ZRSBP5S?tag=deskfinds0d-20",
-    "description": "Goplus lists a 2.25HP motor, a steel frame, app control, a remote, a Bluetooth speaker and an LED display. With the handrail raised it runs at 1 to 12 km/h, and with the riser folded it works as an under desk pad.\n\nIt costs about $4 more than Lacuffy and gives a speaker that the others lack, though its motor is the smallest here. Compared with Viamotion, it adds the speaker and app but has no listed incline.\n\nBest for someone who wants music and tracking from the machine. The caveat is the smaller motor, so check the weight limit before buying.",
+    "description": "Goplus lists a 2.25HP motor, a steel frame, app control, a remote, a Bluetooth speaker and an LED display. With the handrail raised it runs at 1 to 12 km/h, and with the riser folded it works as an under desk pad.\n\nIt costs under $10 more than Lacuffy and gives a speaker that the others lack, though its motor is the smallest here. Compared with Viamotion, it adds the speaker and app but has no listed incline.\n\nBest for someone who wants music and tracking from the machine. The caveat is the smaller motor, so check the weight limit before buying.",
     "specs": [
       "2.25HP, 1 to 12 km/h",
       "Bluetooth speaker, app",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/4134Khf-y4L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HMCJ3WSL?tag=deskfinds0d-20",
-    "description": "Viamotion lists foldable handles, an 8% incline, an LED screen and a remote, in a portable quiet design for a home office. The bullets focus on display and remote features more than motor specs.\n\nAt about $100 it is the cheapest pad in the list and has more incline than Lacuffy while costing $10 less. It gives up the motor size, capacity and speed detail that THERUN or MEE GOO list.\n\nBest for a first-time buyer who wants a handle and some incline for the lowest price. The caveat is the thin listing, so confirm weight limit and motor on the live page.",
+    "description": "Viamotion lists foldable handles, an 8% incline, an LED screen and a remote, in a portable quiet design for a home office. The bullets focus on display and remote features more than motor specs.\n\nAt under $125 it is the cheapest pad in the list and has more incline than Lacuffy while costing $10 less. It gives up the motor size, capacity and speed detail that THERUN or MEE GOO list.\n\nBest for a first-time buyer who wants a handle and some incline for the lowest price. The caveat is the thin listing, so confirm weight limit and motor on the live page.",
     "specs": [
       "Foldable handles",
       "8% incline",
@@ -190,202 +190,109 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "How the handle moves",
-    "explanation": "Handles can fold down with the deck, rise to fixed positions, detach, or adjust in steps. This decides whether the pad slides under a desk when you want it to. Check the listing for fold, adjustable or detachable wording."
+    "criterion": "Handle adjustability",
+    "explanation": "A handle that adjusts fits more people, and Acezoe offers five heights from 38.5 to 48.5 inches. A fixed bar suits only some builds and can force hunching. Look for height range in the listing and compare it with your own elbow height when standing. Stand beside the pad and note where your hands rest naturally."
   },
   {
-    "criterion": "Handle height range",
-    "explanation": "A bar that is too low makes you lean forward and strain your back. Acezoe lists 38.5 to 48.5 inches in five steps, which suits different heights. Look for a stated height range and compare it with your hip height."
+    "criterion": "Folding or detachable design",
+    "explanation": "THERUN and Viamotion fold their handles and Lacuffy's detach, which lets a pad switch between support and desk mode. The trade is an extra joint that can loosen. Check how the bar locks and whether tools are required to attach or fold it. Pull on the bar with your weight before stepping on, and retighten after moving the pad."
   },
   {
-    "criterion": "Safety key and emergency stop",
-    "explanation": "A handle gives balance, but a safety clip stops the belt if you fall or step off. THERUN will not run without its lock secured. Check that a key or clip is included and that the pad needs it to start."
+    "criterion": "Safety lock and emergency grip",
+    "explanation": "THERUN lists a safety lock and Lacuffy an emergency grip, and both protect you if you slip. A pad that lacks a stop mechanism or safety key makes a handle less reassuring. Look for a key tether and a firm grip surface. Make sure the safety key clips to your clothing rather than hanging loose."
   },
   {
-    "criterion": "Weight limit with handle load",
-    "explanation": "Leaning on a handle adds load beyond body weight, so the limit matters more. A 300 lb pad is fine for most, but heavier users should look at 330 lb or higher. Check the stated capacity in the bullets."
+    "criterion": "Capacity and frame",
+    "explanation": "MEE GOO lists 330 lbs and Lacuffy 300, while Acezoe and Viamotion list none. A handle bar loads the frame when you lean on it. Look for a capacity at least 50 lbs above your weight and a steel frame. If a listing is thin, assume the frame is basic and keep a larger margin."
   },
   {
-    "criterion": "Speed range by mode",
-    "explanation": "Many 2-in-1 pads cap speed at 3.8 mph with the handle folded and allow 6.2 mph or more when raised. That means you may not be able to jog in desk mode. Check the speed range for each position."
-  },
-  {
-    "criterion": "Incline: manual or none",
-    "explanation": "Incline adds intensity but manual stands need you to stop. Steps like 1%, 6%, 12% are easy to set. Check whether the incline is manual and at what percentages."
+    "criterion": "Incline and speed range",
+    "explanation": "Incline runs from 6% on Lacuffy to 12% on MEE GOO and Acezoe, and speeds reach 7.5 mph on MEE GOO. These are secondary to handle quality. Check ranges and consider whether manual slope changes fit your routine. Remember that a steeper slope also raises the load on the handle. If the manual is not online, ask before you buy."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  {
-    "title": "Handle design",
-    "description": "We compared fold, adjustable and detachable designs."
-  },
-  {
-    "title": "Safety features",
-    "description": "We noted safety keys, locks and grip positions."
-  },
-  {
-    "title": "Motor and capacity",
-    "description": "We compared motor, weight limit and speed ranges."
-  },
-  {
-    "title": "Incline",
-    "description": "We compared incline levels and manual versus fixed."
-  },
-  {
-    "title": "Price",
-    "description": "We weighed features against price."
-  }
+  { "title": "Handle design and adjustability", "description": "Acezoe offers five handlebar heights from 38.5 to 48.5 inches, THERUN's handle folds for desk mode, Lacuffy's bars detach, and Viamotion's fold. We checked whether the handle fits tall and short users, because a fixed bar that is too low or high forces an awkward posture. A handle that suits one body can be useless for another." },
+  { "title": "Stability and grip", "description": "MEE GOO lists a handle bar with a 330 lb capacity, and Lacuffy includes an emergency grip for balance. We weighed grip purpose, whether for balance when stepping on, jogging support or leaning, since each use demands different bar height and sturdiness." },
+  { "title": "Locking and safety", "description": "THERUN lists a safety lock, Goplus a steel frame and Lacuffy detachable bars. A folding or detaching bar adds a joint that can loosen, so we checked for locking mechanisms and noted listings that say little about how the bar attaches." },
+  { "title": "Capacity and motor detail", "description": "MEE GOO lists 330 lbs, Lacuffy 300, THERUN 2.5HP, Goplus 2.25HP, and Acezoe and Viamotion give little. A handle is only reassuring if the frame under it is strong, so we noted weight limits and flagged thin listings. Thin listings were scored down for that reason." },
+  { "title": "Incline and speed extras", "description": "Incline ranges from 6% on Lacuffy to 12% on MEE GOO and Acezoe's 1%, 6% and 12%, while MEE GOO reaches 7.5 mph. We considered these secondary to handle quality, since extras do not offset a wobbly or poorly placed bar. Extras alone never earned a recommendation." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Handle Type",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Primary Need",
+    intro: "A handle can mean balance support, jogging stability or a desk-friendly folding bar, so start with why you want one.",
+    table: {
+      headers: ["If you mainly need", "Recommended pick"],
+      rows: [
+        ["A handlebar that adjusts to your height", "Acezoe, with five heights from 38.5 to 48.5 inches"],
+        ["A handle that folds for desk mode and a wide belt", "THERUN, with a 16 inch belt and safety lock"],
+        ["High capacity with a fast speed ceiling", "MEE GOO, at 330 lbs and 7.5 mph"],
+        ["Bars that detach completely", "Lacuffy, with an emergency grip"],
+        ["A cheap pad with foldable handles", "Viamotion, the lowest-priced pick"]
       ],
-      "rows": [
-        [
-          "You need an exact handle height",
-          "Acezoe 5-in-1 Walking Pad with Adjustable Handlebar"
-        ],
-        [
-          "You want the handle to fold away easily",
-          "THERUN 2.5HP 2-in-1 Walking Pad with Handle"
-        ],
-        [
-          "You want to remove the handles entirely",
-          "Lacuffy Walking Pad with Detachable Handlebars"
-        ],
-        [
-          "You want the handle for fast walking or jogging",
-          "MEE GOO 330 lb Walking Pad with Handle Bar"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "By Budget",
-    "table": {
-      "headers": [
-        "Price range",
-        "Recommended pick"
+    subheading: "By Budget",
+    table: {
+      headers: ["Price range", "Recommended pick"],
+      rows: [
+        ["Around $100", "Viamotion, with 8% incline and foldable handles"],
+        ["Around $110", "Lacuffy or Goplus"],
+        ["Around $130", "MEE GOO, with 330 lb capacity"],
+        ["Around $150", "THERUN, with a folding handle"],
+        ["Around $210", "Acezoe, the priciest and the most adjustable"]
       ],
-      "rows": [
-        [
-          "Under $110",
-          "Viamotion Walking Pad with Incline and Handle"
-        ],
-        [
-          "$110 to $130",
-          "Goplus 2-in-1 Folding Treadmill with Speaker"
-        ],
-        [
-          "$130 to $150",
-          "THERUN 2.5HP 2-in-1 Walking Pad with Handle"
-        ],
-        [
-          "$150 and up",
-          "Acezoe 5-in-1 Walking Pad with Adjustable Handlebar"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "Fold-Down vs Detachable Handles",
-    "cards": [
-      {
-        "label": "Fold-down",
-        "text": "The bar tips down with the frame. THERUN 2.5HP 2-in-1 Walking Pad with Handle, MEE GOO 330 lb Walking Pad with Handle Bar and Viamotion Walking Pad with Incline and Handle are like this."
-      },
-      {
-        "label": "Detachable",
-        "text": "You remove the bars entirely. Lacuffy Walking Pad with Detachable Handlebars is the only pick that detaches both sides."
-      }
+    subheading: "Fixed Handle vs Folding or Detachable",
+    cards: [
+      { label: "Foldable or detachable (Acezoe, THERUN, Lacuffy, Goplus, Viamotion)", text: "These handles fold or detach for desk mode and storage, making the pad flexible. They add a joint, so check the locking and tighten before use." },
+      { label: "Fixed handle bar (MEE GOO)", text: "A bar that stays in place is sturdier and simpler, but it stays in your way when you want to walk at a desk or store the pad." }
     ],
-    "note": "Most buyers will prefer a fold-down bar unless storage space is tight."
+    note: "Most buyers should default to a folding handle because desk walking and storage both benefit, unless they plan to jog regularly.",
   },
   {
-    "subheading": "By Extra Features",
-    "table": {
-      "headers": [
-        "You want",
-        "Recommended pick"
+    subheading: "By Support Needs",
+    table: {
+      headers: ["Your situation", "Recommended pick"],
+      rows: [
+        ["Tall or short walkers sharing a pad", "Acezoe, because the bar adjusts to your height"],
+        ["Balance concerns or recovering from injury", "Lacuffy, with an emergency grip"],
+        ["Light jogging with support", "MEE GOO, with 7.5 mph and a handle bar"],
+        ["Desk walking with occasional support", "THERUN, whose handle folds away"]
       ],
-      "rows": [
-        [
-          "Built-in music",
-          "Goplus 2-in-1 Folding Treadmill with Speaker"
-        ],
-        [
-          "Adjustable incline steps",
-          "Acezoe 5-in-1 Walking Pad with Adjustable Handlebar"
-        ],
-        [
-          "Highest top speed",
-          "MEE GOO 330 lb Walking Pad with Handle Bar"
-        ],
-        [
-          "A 16 inch belt",
-          "THERUN 2.5HP 2-in-1 Walking Pad with Handle"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "For Seniors and Beginners Specifically",
-    "cards": [
-      {
-        "label": "Look for",
-        "text": "Dual-side handlebars, a safety key and slow speeds that start under 1 mph."
-      },
-      {
-        "label": "In this comparison",
-        "text": "Lacuffy Walking Pad with Detachable Handlebars markets its side handles as an emergency grip, and THERUN 2.5HP 2-in-1 Walking Pad with Handle requires a safety lock to run."
-      }
-    ]
+    subheading: "For Seniors and Balance Needs Specifically",
+    cards: [
+      { label: "Look for", text: "A handle at about hip height, a secure lock, a low minimum speed such as 0.6 mph and a safety key. Avoid pads with no stated capacity or locking." },
+      { label: "In this comparison", text: "Lacuffy's emergency grip and Acezoe's adjustable bar are the best suited, and THERUN's safety lock adds protection." }
+    ],
   },
   {
-    "subheading": "When to Spend More",
-    "cards": [
-      {
-        "label": "Spend more if",
-        "text": "You want an adjustable handle height and incline steps, as with Acezoe 5-in-1 Walking Pad with Adjustable Handlebar."
-      },
-      {
-        "label": "Save if",
-        "text": "You want a handle for casual walking, where Viamotion Walking Pad with Incline and Handle is enough."
-      }
-    ]
+    subheading: "When to Spend More",
+    cards: [
+      { label: "Spend more if", text: "You want a height-adjustable bar like Acezoe's, or a sturdier frame. The under $300 guide lists pads with bigger capacities and longer warranties." },
+      { label: "Save if", text: "You want a basic bar for occasional balance. Viamotion and Goplus cost the least and still include foldable handles or a steel frame." }
+    ],
   }
 ];
 
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
-  {
-    "q": "Can I fold the handle away?",
-    "a": "On most 2-in-1 pads, yes, though the pad then tops out at a lower speed. THERUN lists 3.8 mph with the handle folded and 6.2 mph with it raised."
-  },
-  {
-    "q": "Does a handle make a pad safer?",
-    "a": "A handle gives you something to grab if you lose balance. A safety key that stops the belt is still the main safeguard."
-  },
-  {
-    "q": "Is the Acezoe worth over the THERUN?",
-    "a": "Only if the five handle heights and three incline steps matter to you. Otherwise the THERUN costs about $60 less."
-  },
-  {
-    "q": "Do handles raise the weight limit?",
-    "a": "Not automatically. Leaning on a bar adds load, so look at the stated capacity, like 330 lb on MEE GOO."
-  },
-  {
-    "q": "Can I use it without the handle?",
-    "a": "On pads that detach or fold, yes. Check the speed cap in desk mode, since some limit speed when the handle is down."
-  }
+  { "q": "Which handle type is best for desk walking?", "a": "A folding handle is best because it gets out of your way when typing. THERUN's handle folds for desk mode and Goplus switches to a desk mode, while a fixed bar like MEE GOO's is better for jogging." },
+  { "q": "What is the most common mistake with handle pads?", "a": "Assuming any handle gives support. A wobbly or poorly placed bar can feel unstable. Check the locking mechanism, bar height and whether the pad lists a weight limit, and test the handle with your weight before walking." },
+  { "q": "Is the Acezoe worth more than THERUN?", "a": "The Acezoe offers five handlebar heights and three incline steps, and it costs more. THERUN folds its handle and has a wider belt for less. Pay for the Acezoe if several people of different heights share the pad." },
+  { "q": "How do I adjust the handlebar height?", "a": "Loosen the locking knob, slide the bar to the height where your elbows sit near 90 degrees, then tighten firmly. Test it by pulling gently before stepping on, and repeat after any transport." },
+  { "q": "How do I care for folding handles?", "a": "Check the hinges and knobs monthly for looseness, wipe the joints and avoid forcing the bar if it sticks. Keep detachable bars in a clean place so the connectors do not collect dust." },
+  { "q": "Can I jog with a handle on these pads?", "a": "MEE GOO reaches 7.5 mph with a handle bar and THERUN reaches 6.2 mph, so both can support light jogging. Use the handle for balance, not to lean on, and lock it fully before raising speed. A rattling bar at 6 mph means stop and retighten." }
 ];
 
 export const relatedGuides = [

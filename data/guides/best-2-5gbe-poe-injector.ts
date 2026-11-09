@@ -84,69 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Port Speed Verification", "description": "Confirmed each listing explicitly supports full 2.5Gbps speed, not just a Gigabit port with a 2.5GbE label." },
-  { "title": "Surge and ESD Protection", "description": "Compared specific stated kV ratings for surge and ESD protection where listings provided them." },
-  { "title": "Certification and Warranty", "description": "Compared NDAA compliance and stated manufacturer warranty length across listings." },
-  { "title": "Brand Sourcing", "description": "Compared first-party brand-specific injectors against generic third-party alternatives." },
-  { "title": "Price-to-Speed Value", "description": "Compared each listing's price against its confirmed 2.5Gbps speed capability." }
+  {
+    "title": "Cabling over Cat5e",
+    "description": "We checked whether each injector says it runs 2.5Gbps over existing cable. TRENDnet lists 2.5Gbps over Cat5e or better, which matters because many buildings already hold Cat5e and re-pulling cable can cost more than the injector itself. Test the negotiated speed after installing."
+  },
+  {
+    "title": "Power class and device draw",
+    "description": "We compared output, 30W on all four, against 802.3at devices. A Wi-Fi 6E or 7 access point may need more than 30W when its radios run hot, so we marked 30W as enough for most and not for bt-class devices. Check the AP's rated draw before choosing a 30W unit."
+  },
+  {
+    "title": "Protection ratings",
+    "description": "We read protection details. Cudy lists 4kV surge and 8kV ESD with Japanese-grade capacitors, Ubiquiti lists surge and clamping protection without a kV figure, and TRENDnet and Farsiglink state none, so we credited the documented ones. A surge rating matters most on exterior runs."
+  },
+  {
+    "title": "Warranty and compliance",
+    "description": "We weighed paperwork. TRENDnet offers a 3-year warranty with NDAA and TAA compliance for institutional buyers, while Cudy, Ubiquiti and Farsiglink lack a stated compliance or a clear warranty length. Schools and agencies often cannot buy without compliance paperwork."
+  },
+  {
+    "title": "Input range and temperature",
+    "description": "We compared practical limits. Ubiquiti takes 100-240V AC for regional compatibility, Farsiglink supports 100m at 2.5Gbps, and Cudy is rated for -10 to 40C, which limits it to indoor closets rather than hot attics. Hot attics are outside the Cudy's rated range."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Priority",
-    table: {
-      headers: ["What matters most", "Recommended pick"],
-      rows: [
-        ["NDAA compliance, longest warranty", "TRENDnet 2.5G PoE+ Injector TPE-215GI"],
-        ["Documented surge/ESD protection", "Cudy 30W 2.5GbE PoE+ Injector POE200H"],
-        ["First-party Ubiquiti sourcing", "Ubiquiti Networks 2.5GbE 30W PoE+ Adapter"],
-        ["Lowest price", "Farsiglink 2.5Gbps PoE+ Injector"]
+    "subheading": "By Device Ecosystem",
+    "intro": "Every injector passes 2.5Gbps, but ecosystem fit changes setup.",
+    "table": {
+      "headers": [
+        "Your equipment",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A UniFi access point that you want in first-party hardware",
+          "Ubiquiti Networks 2.5GbE 30W PoE+ Adapter, with UniFi branding"
+        ],
+        [
+          "A school or government network with procurement rules",
+          "TRENDnet 2.5G PoE+ Injector, TPE-215GI, which is NDAA and TAA compliant"
+        ],
+        [
+          "An access point on a long unprotected cable run",
+          "Cudy 30W 2.5GbE PoE+ Injector (POE200H), with 4kV surge protection"
+        ],
+        [
+          "A home access point on a tight budget",
+          "Farsiglink 2.5Gbps PoE+ Injector 30W, the lowest price by a wide margin"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $18", "Farsiglink 2.5Gbps PoE+ Injector (under $20)"],
-        ["Under $25", "Cudy 30W 2.5GbE PoE+ Injector (under $25)"],
-        ["Under $30", "Ubiquiti Networks 2.5GbE 30W PoE+ Adapter (under $30)"],
-        ["Under $41", "TRENDnet 2.5G PoE+ Injector (under $45)"]
+    "subheading": "By Budget",
+    "intro": "The Farsiglink is far cheaper than the rest, and TRENDnet is the most expensive.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup",
+          "Farsiglink 2.5Gbps PoE+ Injector 30W"
+        ],
+        [
+          "A mid-range spend for documented surge protection",
+          "Cudy 30W 2.5GbE PoE+ Injector (POE200H), which costs less than TRENDnet"
+        ],
+        [
+          "A mid-range spend for a first-party brand",
+          "Ubiquiti Networks 2.5GbE 30W PoE+ Adapter"
+        ],
+        [
+          "The top of the range for a 3-year warranty and compliance",
+          "TRENDnet 2.5G PoE+ Injector, TPE-215GI"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Documented Certifications vs Budget Priority",
-    cards: [
-      { label: "Documented certifications (TRENDnet, Cudy)", text: "Worth the added cost for a business installation where compliance requirements or long-term reliability documentation matter to a purchasing decision." },
-      { label: "Budget priority (Farsiglink)", text: "A reasonable choice for a home network upgrade where the core 2.5Gbps speed and power delivery matter more than documented certification specifics." }
+    "subheading": "Documented Protection vs Warranty",
+    "intro": "Two of the picks stand out for different forms of insurance.",
+    "cards": [
+      {
+        "label": "Documented protection (Cudy)",
+        "text": "4kV surge and 8kV ESD ratings plus rated capacitors protect against the surge that hits cable runs, but no NDAA mark or long warranty is stated."
+      },
+      {
+        "label": "Written warranty (TRENDnet)",
+        "text": "A 3-year warranty and NDAA and TAA compliance back the hardware on paper, but TRENDnet states no surge kV rating."
+      }
     ],
-    note: "Most home users should default to the budget-tier pick unless a specific certification or extended warranty is a genuine requirement for the installation.",
+    "note": "Default to Cudy for a surge-exposed run and TRENDnet when procurement or warranty matters."
   },
   {
-    subheading: "By Brand Ecosystem",
-    table: {
-      headers: ["Your existing network gear", "Recommended pick"],
-      rows: [
-        ["UniFi ecosystem", "Ubiquiti Networks 2.5GbE 30W PoE+ Adapter"],
-        ["No specific brand preference", "TRENDnet, Cudy, or Farsiglink based on budget"]
+    "subheading": "By Cabling and Distance",
+    "intro": "2.5Gbps stays reliable only if the cable and distance allow it.",
+    "table": {
+      "headers": [
+        "Your cabling",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Existing Cat5e throughout the building",
+          "TRENDnet 2.5G PoE+ Injector, TPE-215GI, which states 2.5Gbps over Cat5e or better"
+        ],
+        [
+          "A run close to the 100m limit",
+          "Farsiglink 2.5Gbps PoE+ Injector 30W, which lists up to 100m (328ft)"
+        ],
+        [
+          "A short run where 802.3bz passthrough is the key",
+          "Cudy 30W 2.5GbE PoE+ Injector (POE200H), with 2.5GbE full passthrough"
+        ],
+        [
+          "Mixed regions where the power supply must work worldwide",
+          "Ubiquiti Networks 2.5GbE 30W PoE+ Adapter, with 100-240V AC input"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Wi-Fi 6E or Wi-Fi 7 Access Point Upgrade Specifically",
-    cards: [
-      { label: "Look for", text: "Confirmed 2.5Gbps port speed rather than a Gigabit-only injector, since these newer access point generations can genuinely exceed 1Gbps of aggregate throughput under multi-client load." },
-      { label: "In this comparison", text: "All four picks confirm full 2.5Gbps speed, so the deciding factor becomes certification, protection documentation, and price rather than speed capability." }
-    ],
+    "subheading": "For Home Wi-Fi 6E Access Points Specifically",
+    "intro": "Home installs need quiet, small and cheap injectors more than rugged ones.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "2.5Gbps speed, 30W output and a PoE standard that matches the access point, in a body small enough to hide behind a TV cabinet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Farsiglink 2.5Gbps PoE+ Injector 30W costs far less than the others and runs 802.3af and at, while Ubiquiti suits UniFi owners."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need NDAA compliance or want the most detailed documented surge protection, where the TRENDnet or Cudy picks justify their price with specific certifications and ratings." },
-      { label: "Save if", text: "You just need reliable 2.5Gbps PoE+ power for a home network upgrade, where the Farsiglink pick delivers that at roughly half the cost of the certified alternatives." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Price rises here are for warranty and protection documentation.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You are buying for an institution or a long outdoor cable, where TRENDnet 2.5G PoE+ Injector, TPE-215GI or Cudy 30W adds documented compliance or surge ratings."
+      },
+      {
+        "label": "Save if",
+        "text": "You are powering one home access point on a short indoor run, where Farsiglink 2.5Gbps PoE+ Injector 30W costs far less."
+      }
+    ]
   }
 ];
 
@@ -175,11 +261,11 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Do I need a 2.5GbE PoE injector for a standard Wi-Fi 6 access point?", "a": "Most standard Wi-Fi 6 access points work fine on Gigabit speed, but Wi-Fi 6E and Wi-Fi 7 models under heavy multi-client load can genuinely exceed 1Gbps, making a 2.5GbE injector worth the upgrade for those newer models specifically." },
-  { "q": "Will a 2.5GbE PoE injector work over my existing Cat5e cable?", "a": "Yes, the 2.5GbE standard was specifically designed to run over existing Cat5e or better cabling up to 100 meters, so a cable upgrade typically isn't necessary." },
+  { "q": "Will a 2.5GbE PoE injector work over my existing Cat5e cable?", "a": "Often yes, since TRENDnet's listing states 2.5Gbps over Cat5e or better cabling and the Farsiglink lists up to 100m (328ft). Old or damaged Cat5e can still fall back to 1Gbps, so check the negotiated link speed after installing and replace any run that refuses to hold 2.5G before you close up the wall." },
   { "q": "Is a first-party Ubiquiti 2.5GbE adapter necessary for a UniFi access point?", "a": "No, any compliant third-party 2.5GbE 802.3at injector should work with UniFi hardware, but a first-party adapter offers ecosystem consistency and direct brand validation if that matters to your setup." },
-  { "q": "What's the real benefit of documented surge protection kV ratings over a generic overvoltage claim?", "a": "A specific stated number lets you objectively compare protection levels between listings, while a generic claim gives no way to verify how much protection is actually provided." },
+  { "q": "What's the real benefit of documented surge protection kV ratings over a generic overvoltage claim?", "a": "A stated rating like Cudy's 4kV surge and 8kV ESD tells you how much of a spike the injector is built to absorb, while a generic overvoltage claim gives no number to compare. On a long outdoor cable run that attracts lightning-induced surges, the documented figure is the one worth paying a little extra for." },
   { "q": "Can I use a budget 2.5GbE injector for a business network installation?", "a": "You can, but for a business setting where compliance or extended warranty coverage matters to a purchasing decision, a certified option with NDAA compliance or a longer stated warranty is often worth the extra cost." },
-  { "q": "Does 2.5GbE speed require a special network switch too?", "a": "Yes, to get the full speed benefit end-to-end, both your switch and the connected access point or device need to support 2.5GbE; otherwise the connection negotiates down to the lowest common speed." }
+  { "q": "Does 2.5GbE speed require a special network switch too?", "a": "Yes, to get the full 2.5Gbps end to end, the switch port feeding the injector and the access point or device on the far end must both support 2.5GbE. If either side is Gigabit, the link negotiates down to 1Gbps, and the injector then only provides the 30W of power rather than extra speed." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

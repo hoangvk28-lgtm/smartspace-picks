@@ -84,69 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Genuine No-Local-Power Operation", "description": "Compared whether each unit draws 100% of its power from the upstream PoE source with no local outlet needed." },
-  { "title": "Per-Port Wattage and Standard Support", "description": "Compared IEEE 802.3af/at/bt support and per-port wattage for different device power needs." },
-  { "title": "VLAN and Network Security Features", "description": "Compared VLAN isolation availability across output ports." },
-  { "title": "Physical Build for Installation Flexibility", "description": "Compared enclosure material, size, and mounting options for different installation environments." },
-  { "title": "Speed and Cascade Support", "description": "Compared Gigabit versus Fast Ethernet speeds and multi-unit cascading distance." }
+  {
+    "title": "Truly no local power",
+    "description": "We checked that each unit takes everything from the upstream PoE port and needs no wall adapter at the far end, since a local outlet defeats the purpose of an extender. All four picks state no local power requirement, so we compared what else separates them. Confirm your upstream switch has the spare budget."
+  },
+  {
+    "title": "Output budget per port",
+    "description": "We compared port budgets, such as the PoE Passthrough Switch 1 in 4 Out with one 60W and three 30W ports on a 90W input, against the Gigabit 1 in 3 Out unit's average 8W per port. A camera that needs 12W will not run on the 8W unit. Check the camera's wattage against that figure."
+  },
+  {
+    "title": "Speed and port count",
+    "description": "We weighed link speed and layout. YuanLey and the Gigabit 1 in 3 Out keep 1000Mbps, while the 1 in 4 Out is 100Mbps, which is fine for 1080p cameras but limits faster devices. LINOVISION splits to only 2 outputs. Verify the downstream speed requirement for 4K cameras."
+  },
+  {
+    "title": "Harsh environment protection",
+    "description": "We compared protection and temperature. LINOVISION offers an IP53 metal enclosure with 4kV surge protection and -22F to 149F operation with DIN-rail mounting, which suits cabinets and outdoor boxes that the others do not. Cabinets and outdoor boxes are where this matters."
+  },
+  {
+    "title": "Passive PoE and cascade limits",
+    "description": "We noted what each does not support. Both passthrough switches exclude 24V passive PoE devices, and all cascade only to 3 levels, which sets how far a no-power chain can extend before the upstream budget runs out. Passive 24V cameras need a different product."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["To power three devices with VLAN isolation, no local power", "YuanLey 4 Port PoE Extender Gigabit"],
-        ["No local power in a genuinely harsh, industrial setting", "LINOVISION 2 Ports Gigabit PoE Passthrough Switch"],
-        ["The lowest price with a dedicated high-power port", "PoE Passthrough Switch, 1 in 4 Out Extender"],
-        ["Gigabit speed with zero local power anywhere in the chain", "Gigabit PoE Passthrough Switch, 1 in 3 Out Extender"]
+    "subheading": "By Device Power Need",
+    "intro": "Without a wall adapter, the upstream switch must carry every watt.",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Three small cameras from one upstream port",
+          "YuanLey 4 Port PoE Extender Gigabit, with 1 in 3 out"
+        ],
+        [
+          "One high-power access point plus three low-power cameras",
+          "PoE Passthrough Switch, 1 in 4 Out Extender, with a 60W port and three 30W ports"
+        ],
+        [
+          "Three Gigabit cameras with modest power draw",
+          "Gigabit PoE Passthrough Switch, 1 in 3 Out Extender, which averages 8W per port"
+        ],
+        [
+          "Two devices in a harsh junction box",
+          "LINOVISION 2 Ports Gigabit PoE Passthrough Switch, with an IP53 metal enclosure"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $20", "PoE Passthrough Switch, 1 in 4 Out (under $20)"],
-        ["Under $27", "YuanLey 4 Port PoE Extender (under $30)"],
-        ["Under $30", "LINOVISION 2 Ports Passthrough (under $30) or Gigabit Passthrough Switch (under $30)"]
+    "subheading": "By Budget",
+    "intro": "The cheapest unit here is under $20, and the most rugged costs more.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup, under $20",
+          "PoE Passthrough Switch, 1 in 4 Out Extender, at 100Mbps"
+        ],
+        [
+          "Mid-range for Gigabit and LED status lights",
+          "Gigabit PoE Passthrough Switch, 1 in 3 Out Extender"
+        ],
+        [
+          "A step up for VLAN isolation across three outputs",
+          "YuanLey 4 Port PoE Extender Gigabit, the best overall"
+        ],
+        [
+          "A higher spend for surge protection and DIN-rail mounting",
+          "LINOVISION 2 Ports Gigabit PoE Passthrough Switch, priced above the 4-port unit"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Gigabit Speed vs Dedicated High-Power Port",
-    cards: [
-      { label: "Gigabit speed (YuanLey, Gigabit Passthrough Switch)", text: "Both maintain full 1000Mbps throughput, better suited to bandwidth-hungry devices like 4K IP cameras, though neither has a dedicated port above standard 30W." },
-      { label: "Dedicated high-power port (100Mbps Passthrough Switch)", text: "Trades Gigabit speed for a dedicated 60W output port, better suited to a single higher-wattage device like a PTZ camera alongside standard ones." }
+    "subheading": "100Mbps vs Gigabit Passthrough",
+    "intro": "Speed matters only if the downstream device streams more than 100Mbps.",
+    "cards": [
+      {
+        "label": "100Mbps (1 in 4 Out)",
+        "text": "A 1080p or 2K camera fits within 100Mbps, and this unit gives a 60W port for a high-power device at the lowest price."
+      },
+      {
+        "label": "Gigabit (YuanLey, 1 in 3 Out, LINOVISION)",
+        "text": "These keep 1000Mbps, which suits 4K cameras and access points, but the 1 in 3 Out delivers only 8W on average per port."
+      }
     ],
-    note: "If your devices need high bandwidth more than high wattage, the Gigabit-rated picks are the better fit. If you specifically need to power one higher-wattage device without local power, the 100Mbps pick's dedicated 60W port is worth the speed tradeoff.",
+    "note": "Default to 100Mbps for plain 1080p camera runs and Gigabit for anything newer."
   },
   {
-    subheading: "By Installation Environment",
-    table: {
-      headers: ["Your installation", "Recommended pick"],
-      rows: [
-        ["Indoor office or home network closet", "YuanLey 4 Port PoE Extender or PoE Passthrough Switch"],
-        ["Harsh industrial or outdoor enclosure", "LINOVISION 2 Ports Gigabit PoE Passthrough Switch"],
-        ["DIN-rail mounted network cabinet", "Any of the four picks support DIN-rail mounting"]
+    "subheading": "By Environment",
+    "intro": "The right enclosure depends on where the box sits.",
+    "table": {
+      "headers": [
+        "Install spot",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A dry shelf or ceiling space",
+          "YuanLey 4 Port PoE Extender Gigabit, with a compact body"
+        ],
+        [
+          "A DIN rail in a cabinet with surge risk",
+          "LINOVISION 2 Ports Gigabit PoE Passthrough Switch, with 4kV surge protection"
+        ],
+        [
+          "A wall mount or DIN rail with LED port status for debugging",
+          "Gigabit PoE Passthrough Switch, 1 in 3 Out Extender, which mounts either way"
+        ],
+        [
+          "A mixed rack with one 60W device",
+          "PoE Passthrough Switch, 1 in 4 Out Extender, with a dedicated 60W output"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Location With No Nearby Electrical Outlet Specifically",
-    cards: [
-      { label: "Look for", text: "An extender explicitly described as passthrough or requiring no AC power supply, confirming it draws 100% of its operating power from the upstream PoE cable rather than needing a separate local outlet." },
-      { label: "In this comparison", text: "All four picks specifically confirm no local power requirement, making any of them suitable for a location with no nearby electrical outlet." }
-    ],
+    "subheading": "For Detached Garage and Shed Installs Specifically",
+    "intro": "A shed rarely has a switch, and you still need to power a camera there.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "No local power, an upstream budget that covers the load and an output split that matches the number of devices."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Gigabit PoE Passthrough Switch, 1 in 3 Out Extender is labeled for outdoor no-power installs, and LINOVISION adds the IP53 metal enclosure."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You're installing in a genuinely harsh industrial environment and need surge protection and a wide temperature range, where the LINOVISION pick's under $30 price is justified by its industrial-grade build." },
-      { label: "Save if", text: "You want a dedicated high-power port with zero local power requirement, where the PoE Passthrough Switch delivers that for under $20, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Spending more here buys protection or per-port power.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "The box lives in a damp or surge-prone location, where LINOVISION 2 Ports Gigabit PoE Passthrough Switch adds 4kV surge protection."
+      },
+      {
+        "label": "Save if",
+        "text": "You are powering 1080p cameras indoors, where PoE Passthrough Switch, 1 in 4 Out Extender under $20 handles it."
+      }
+    ]
   }
 ];
 

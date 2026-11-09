@@ -104,91 +104,142 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Required genuine hanging-folder rail support or real compartments", description: "We only included products with confirmed slide rails or genuine organizer compartments, not plain stationary archive cartons." },
-  { title: "Required a real carrying handle", description: "We verified each product has an actual carrying handle described in the listing, not just a lid you'd have to grip awkwardly." },
-  { title: "Corrected a data error transparently", description: "One original candidate ASIN turned out to be a digital notebook, not a file box, we disclosed this correction directly rather than silently omitting it." },
-  { title: "Per-unit price comparison for multi-packs", description: "We calculated the effective per-box cost of the Sterilite 8-pack against single-unit alternatives." }
+  {
+    "title": "Folder size and rail fit",
+    "description": "DSDCDJ lists a 15.5 x 12.3 x 10.5 inch body that fits both letter and legal hanging folders on slide rails. We checked the inside dimensions against folder size, because a letter-only box cannot hold a legal folder, and a box without rails leaves folders flopping together."
+  },
+  {
+    "title": "Handle, latch and lock",
+    "description": "DSDCDJ has a lock and a soft-wrapped handle, while the Sterilite 8-pack has latching lids and the black box has a comfort-grip handle and durable latch. We weighed how a loaded box feels to carry, since file paper is heavy and a thin handle digs in quickly."
+  },
+  {
+    "title": "Visibility and compartments",
+    "description": "Lemical's transparent body shows contents at a glance, and the black box adds organizer compartments in the lid for small supplies. We considered whether you retrieve files often or need space for pens and clips, since either design suits a different workflow."
+  },
+  {
+    "title": "Pack size and cost per box",
+    "description": "Sterilite sells an 8-pack, which works out to under $15 per box. We compared that per-unit figure against single boxes from DSDCDJ and Lemical, since a classroom or office overhaul needs multiples while a home filing task needs only one."
+  },
+  {
+    "title": "Stated specs and data quality",
+    "description": "One original candidate turned out to be a notebook and was excluded. We counted how clearly each remaining listing states dimensions, folder type and capacity, because vague listings made some boxes impossible to compare and we preferred ones that publish measurements."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "subheading": "By Folder Size and Use",
+    "intro": "Start with the folders you own, then decide whether you need rails, a lock or just a tidy bin.",
     "table": {
       "headers": [
-        "Your priority",
+        "Your situation",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Highest average rating",
-          "Rocketbook Fusion Hybrid Reusable Planner Notebook"
+          "Hanging folders in both letter and legal sizes",
+          "DSDCDJ File Box with Lock, with slide rails for letter and legal and a lock"
         ],
         [
-          "Largest review base, strongest reliability signal",
-          "Rocketbook Fusion Hybrid Reusable Planner Notebook"
+          "Loose A4 or letter papers you want to see at a glance",
+          "Lemical Portable Plastic Transparent File Boxes, a transparent body with a handle"
+        ],
+        [
+          "A classroom or office needing many identical boxes",
+          "Sterilite Portable File Box 8-Pack, with latching lids for stacking and storage"
+        ],
+        [
+          "Folders plus pens, clips and small supplies",
+          "Black Portable File Box, Letter-Size, with organizer compartments in the lid"
+        ],
+        [
+          "Working files you carry between home and office",
+          "DSDCDJ File Box with Lock, with a soft-wrapped handle for loaded carrying"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "These boxes cost little, so the real saving is in the pack size.",
     "table": {
       "headers": [
-        "Budget",
+        "Price range",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $19",
-          "Lemical Portable Plastic Transparent File Boxes with Handle A4 Large Capacity"
+          "Under $20, a single plain box",
+          "Lemical Portable Plastic Transparent File Boxes, the cheapest single-box pick"
         ],
         [
-          "Up to $NaN",
-          "Black Portable File Box, Letter"
+          "Under $25, a locking hanging-file box",
+          "DSDCDJ File Box with Lock, which adds rails and a lock for slightly more"
+        ],
+        [
+          "Under $15 per box in bulk",
+          "Sterilite Portable File Box 8-Pack, which only makes sense if you need several"
+        ],
+        [
+          "Price not confirmed, check the listing",
+          "Black Portable File Box, Letter-Size, worth comparing against the DSDCDJ for compartments"
         ]
       ]
     }
   },
   {
-    "subheading": "Lemical Portable Plastic Transparent File Boxes with Handle A4 Large Capacity vs Black Portable File Box, Letter",
+    "subheading": "Hanging Rails vs Plain Bin",
     "cards": [
       {
-        "label": "Lemical Portable Plastic Transparent File Boxes with Handle A4 Large Capacity",
-        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+        "label": "Rails for hanging folders",
+        "text": "DSDCDJ's slide rails hold folders upright so you can flip through them like a drawer. That suits ongoing filing, but you need compatible hanging folders and the box must match their width."
       },
       {
-        "label": "Black Portable File Box, Letter",
-        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+        "label": "Plain bin or lidded box",
+        "text": "Lemical, Sterilite and the black box store loose folders or stacks. They are simpler and cheaper, but files lean together and take longer to search."
       }
     ],
-    "note": "Default to Lemical Portable Plastic Transparent File Boxes with Handle A4 Large Capacity unless your specific need genuinely calls for the pricier pick's extra headroom."
+    "note": "If you file by category and retrieve often, choose rails; for archive or move-day storage, a plain lidded bin is enough."
   },
   {
-    "subheading": "By Review Base Confidence",
+    "subheading": "By Security and Carrying Needs",
+    "intro": "A lock and a good handle matter only if the box actually leaves your desk.",
     "table": {
       "headers": [
-        "Your priority",
+        "Your situation",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Largest, most-established review base",
-          "Rocketbook Fusion Hybrid Reusable Planner Notebook"
+          "You want a lock to deter casual opening",
+          "DSDCDJ File Box with Lock, the only locking box in this comparison"
+        ],
+        [
+          "You carry files between sites",
+          "DSDCDJ File Box with Lock or Black Portable File Box, both with comfort handles"
+        ],
+        [
+          "You stack boxes in a closet",
+          "Sterilite Portable File Box 8-Pack, with latching lids designed to hold"
+        ],
+        [
+          "You want to see contents without opening",
+          "Lemical Portable Plastic Transparent File Boxes, with a clear body"
         ]
       ]
     }
   },
   {
-    "subheading": "For a First-Time Buyer Specifically",
+    "subheading": "For a Home Office Filing Setup Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+        "text": "Rails or folder bars that match your folder width, inside dimensions of roughly 14 inches wide for letter folders, and a lid that clips shut. A latch that survives carrying matters more than extra colors."
       },
       {
         "label": "In this comparison",
-        "text": "Rocketbook Fusion Hybrid Reusable Planner Notebook is worth checking against its listed specs before buying, given its strong review base."
+        "text": "DSDCDJ File Box with Lock fits letter and legal hanging folders and locks, so it covers most home filing, while the black box adds a lid tray for pens, clips and sticky notes."
       }
     ]
   },
@@ -197,11 +248,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You need real durability and feature depth for regular use, where Black Portable File Box, Letter's build gives real headroom over the cheaper picks."
+        "text": "You carry sensitive files or file with hanging folders daily. DSDCDJ's lock and rails justify a few more dollars, and the Sterilite 8-pack pays off only if you will use all eight boxes."
       },
       {
         "label": "Save if",
-        "text": "You only need this for light or occasional use, where Lemical Portable Plastic Transparent File Boxes with Handle A4 Large Capacity covers the same job at a lower price."
+        "text": "You need a cover for light, occasional storage. Lemical's transparent box under $20 holds loose files for the least money, and you can add a divider if folders sag."
       }
     ]
   }
@@ -221,8 +272,8 @@ export const buyingCriteria: BuyingCriterion[] = [
     "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this portable file organizer box over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    "criterion": "Weigh review count alongside rating, not rating alone",
-    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any portable file organizer box you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+    "criterion": "Check the lid, latch and handle for the way you carry",
+    "explanation": "Look at how the lid closes and how the handle attaches, since a loaded file box can weigh 15 to 25 pounds and a thin handle or a flimsy latch is the first part to fail. DSDCDJ lists a soft-wrapped handle and a lock, Sterilite lists latching lids and the black box lists a comfort-grip handle. Photos showing the handle mounting points tell you more than adjectives do."
   },
   {
     "criterion": "Check compatibility and fit with your existing setup before ordering",
@@ -231,11 +282,30 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which has genuine hanging-folder support?", a: "The DSDCDJ File Box with Lock, with confirmed slide rails supporting both letter and legal size folders." },
-  { q: "What's the cheapest option?", a: "The Lemical Portable Plastic Transparent File Box at under $20." },
-  { q: "Is there a multi-pack option?", a: "Yes, the Sterilite 8-Pack, which works out to under $15 per box." },
-  { q: "Was there an error in the original research for this article?", a: "Yes, one original candidate ASIN was actually a digital notebook, not a file box. We corrected this and excluded it from our recommendations." },
-  { q: "Is there an option with internal compartments for small supplies?", a: "Yes, the Black Portable File Box includes organizer compartments built into the lid." }
+  {
+    "q": "Which box actually supports hanging folders?",
+    "a": "The DSDCDJ File Box with Lock lists slide rails that hold both letter and legal size hanging folders. The other boxes are plain bins or lid-compartment designs, so check the listing for rails or a folder bar if you want folders to hang upright instead of lying flat."
+  },
+  {
+    "q": "Do I need a letter or legal size box?",
+    "a": "Match the folders you already own. Letter folders suit standard paper and legal folders suit longer documents, and a box with rails sized for legal can usually hold letter folders but not the reverse. DSDCDJ covers both, while Lemical lists A4 or letter capacity."
+  },
+  {
+    "q": "Is the Sterilite 8-pack worth it for one person?",
+    "a": "Probably not. Eight latching boxes suits a classroom, an office move or a long-term archive, and works out to under $15 per box. For one home office, a single DSDCDJ or Lemical box costs less overall and takes less storage space."
+  },
+  {
+    "q": "Is a plastic file box secure for important documents?",
+    "a": "Only mildly. DSDCDJ includes a lock, which stops casual opening, but plastic boxes do not provide fire or water protection. For passports, deeds and tax records, keep a duplicate in a dedicated fireproof safe and use portable boxes for working files."
+  },
+  {
+    "q": "Which box has space for small supplies?",
+    "a": "The Black Portable File Box has organizer compartments built into the lid, which hold pens, clips and sticky notes while the main bin holds folders. If you do not need that, the plain Lemical box has more clear space for files and shows contents through the sides."
+  },
+  {
+    "q": "How do I stop folders from sagging in the box?",
+    "a": "Use hanging folders on rails and fill the box to near capacity, since half-empty folders lean. If you use DSDCDJ's rails, space folders evenly and slide a divider at the end. Without rails, use stiff manila folders and a slim file divider to keep them upright."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

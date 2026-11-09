@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Connectivity Type", "description": "Compared genuine Bluetooth support against 2.4G-only wireless connections across the lineup." },
-  { "title": "Hand-Size Fit Guidance", "description": "Checked which picks provide specific hand-size recommendations versus generic ergonomic claims." },
-  { "title": "Rechargeable Battery Efficiency", "description": "Compared battery capacity, charge time, and runtime per charge across the lineup." },
-  { "title": "DPI Range", "description": "Compared adjustable DPI levels and their upper range across the lineup." },
-  { "title": "Warranty and Support Length", "description": "Compared stated warranty duration and manufacturer support commitments." }
+  {
+    "title": "Hand-size fit",
+    "description": "We sorted picks by the hand size each listing targets, because the Lekvey and J-Tech aim at medium to large hands while the ProtoArc EM11 NL fits hands under 7.5 inches and the TECKNET is tuned for small to medium. A wrong size leaves the thumb hovering or the pinky dragging, which defeats the point of paying for ergonomics."
+  },
+  {
+    "title": "Tilt angle and grip",
+    "description": "We noted stated angles such as the TECKNET's 52 degrees, which sits at the gentler end of the commonly cited 55 to 60 degree sweet spot. A shallower tilt is easier to adapt to but relieves less forearm twist, so we weighed it against what each buyer is moving away from."
+  },
+  {
+    "title": "Battery and charging",
+    "description": "We compared runtime claims, from the Lekvey's 150+ hours per charge to the TECKNET's roughly 2 months from a 1.5 hour charge, plus USB-C on the ProtoArc and J-Tech. Under $30 a rechargeable cell removes the AAA treadmill, so a weak battery spec cost a pick real points."
+  },
+  {
+    "title": "Connection options",
+    "description": "We checked whether each mouse offers Bluetooth, a 2.4G receiver, or both, since the Lekvey is receiver-only while the ProtoArc EM11 NL pairs three devices. For laptop users who skip USB-A dongles, Bluetooth was treated as nearly a requirement."
+  },
+  {
+    "title": "Warranty and click durability",
+    "description": "We compared support terms (36 months on both the Lekvey and the TECKNET, plus a 6 million click rating on the TECKNET). A longer warranty mattered more here than at the sub-$20 tier because these mice cost enough to expect two or three years of use."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The longest battery life and warranty", "Lekvey Ergonomic Rechargeable Vertical Mouse"],
-        ["A precise fit for small to medium hands", "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse"],
-        ["A precise fit for medium-large hands with a palm rest", "J-Tech Digital Wireless Vertical Mouse"],
-        ["The lowest price for genuine Bluetooth connectivity", "TECKNET Ergonomic Mouse, Bluetooth 5.0/3.0"]
+    "subheading": "By Hand Size",
+    "intro": "Hand fit decides whether a vertical mouse helps or annoys, and these four split the range cleanly.",
+    "table": {
+      "headers": [
+        "Your hand",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Small to medium, under about 7.5 inches",
+          "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, sized to that range in its own listing"
+        ],
+        [
+          "Small to medium and you want the gentlest tilt",
+          "TECKNET Ergonomic Mouse, whose 52-degree angle is tuned for S/M hands"
+        ],
+        [
+          "Medium to large and you want the longest runtime",
+          "Lekvey Ergonomic Rechargeable Vertical Mouse, with 150+ hours per charge"
+        ],
+        [
+          "Medium to large with a sweaty palm or drag on the desk",
+          "J-Tech Digital Wireless Vertical Mouse, thanks to its removable anti-sweat palm rest"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $25", "TECKNET (under $25)"],
-        ["Under $26", "ProtoArc EM11 NL (under $30)"],
-        ["Under $30", "J-Tech Digital (under $30) or Lekvey (under $30)"]
+    "subheading": "By Budget",
+    "intro": "Everything is under $30, but the gap between the cheapest and the priciest pick buys specific features.",
+    "table": {
+      "headers": [
+        "Spend level",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest spend with real Bluetooth",
+          "TECKNET Ergonomic Mouse, Bluetooth 5.0/3.0 plus a USB-A receiver at the bottom of the range"
+        ],
+        [
+          "Mid-range with multi-device switching",
+          "ProtoArc EM11 NL, which pairs three devices over Bluetooth and 2.4G"
+        ],
+        [
+          "Upper range for the best warranty and battery",
+          "Lekvey Ergonomic Rechargeable Vertical Mouse, with 36 months and 150+ hours"
+        ],
+        [
+          "Upper range for the widest DPI and a shortcut key",
+          "J-Tech Digital, up to 3200 DPI and a Back to Desktop button"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Hand Size",
-    table: {
-      headers: ["Your hand size", "Recommended pick"],
-      rows: [
-        ["Small to medium (under 7.5 in)", "ProtoArc EM11 NL or TECKNET"],
-        ["Medium to large", "J-Tech Digital or Lekvey"]
+    "subheading": "2.4G Receiver vs Bluetooth",
+    "intro": "The connection style changes how the mouse fits a laptop-and-desktop life.",
+    "cards": [
+      {
+        "label": "Receiver only: Lekvey",
+        "text": "A nano USB receiver plugs in and works with no pairing menu, and it stays stable on a desktop. You lose Bluetooth, so a USB-C only laptop needs a dongle adapter."
+      },
+      {
+        "label": "Bluetooth plus 2.4G: ProtoArc, J-Tech, TECKNET",
+        "text": "Dual-mode lets you pair a laptop and tablet without using a port. The ProtoArc EM11 NL goes further with three device slots, the best fit if you jump between machines."
+      }
+    ],
+    "note": "Choose Bluetooth dual-mode unless your only computer is a USB-A desktop, in which case the Lekvey's simplicity and battery life win."
+  },
+  {
+    "subheading": "By Typical Workday",
+    "intro": "How you use the mouse matters more than its feature count.",
+    "table": {
+      "headers": [
+        "Daily pattern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Spreadsheets and long editing sessions",
+          "J-Tech Digital, since the removable palm rest eases drag over hours"
+        ],
+        [
+          "Switching between a work laptop and a personal tablet",
+          "ProtoArc EM11 NL, with three Bluetooth and 2.4G device slots"
+        ],
+        [
+          "Quiet open office or library use",
+          "TECKNET Ergonomic Mouse, with its stated 99% quieter clicks"
+        ],
+        [
+          "Set-and-forget desktop with minimal charging",
+          "Lekvey, because 150+ hours means charging roughly once every few weeks"
+        ]
+      ]
+    }
   },
   {
-    subheading: "2.4G-Only vs Genuine Bluetooth Connectivity",
-    cards: [
-      { label: "2.4G-only (Lekvey)", text: "Simple, reliable connection via USB receiver, no pairing process, but limited to devices with a free USB port." },
-      { label: "Bluetooth (ProtoArc, J-Tech Digital, TECKNET)", text: "Connects to tablets or laptops without a spare USB port, and often supports switching between multiple paired devices." }
-    ],
-    note: "If you need to connect to a tablet or a laptop without a free USB port, or want to switch between multiple devices, a Bluetooth-capable pick is worth prioritizing over a 2.4G-only design.",
+    "subheading": "For Small-Handed Buyers Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A listing that states the hand length it fits, a tilt gentle enough to learn quickly, and a body that does not make the thumb stretch for the side buttons."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The ProtoArc EM11 NL is explicitly sized for hands under 7.5 inches, and the TECKNET's 52-degree angle targets S/M hands. Skip the Lekvey and J-Tech, which are sized larger."
+      }
+    ]
   },
   {
-    subheading: "For Buyers Who Switch Between Multiple Devices Throughout the Day Specifically",
-    cards: [
-      { label: "Look for", text: "Genuine multi-device Bluetooth switching, not just Bluetooth pairing to a single device at a time." },
-      { label: "In this comparison", text: "The ProtoArc EM11 NL specifically supports connecting up to 3 devices simultaneously via Bluetooth and 2.4G." }
-    ],
-  },
-  {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the longest battery life and warranty coverage, where the Lekvey pick's 150+ hour runtime and 36-month warranty lead this comparison." },
-      { label: "Save if", text: "You want genuine Bluetooth connectivity at the lowest price, where the TECKNET pick delivers that for under $25." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $75 guide is where certified designs and large-hand sizes appear.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have large hands, want an ergonomist-certified shape like the Logitech Lift, or need programmable buttons for daily work. Those are covered in the under $75 guide."
+      },
+      {
+        "label": "Save if",
+        "text": "Your hand size matches one of these four and you only need dependable wireless, where the Lekvey's 36 months or the TECKNET's Bluetooth cover it for under $30."
+      }
+    ]
   }
 ];
 
@@ -181,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "How do I know if a vertical mouse is sized correctly for my hand?", "a": "Check for specific hand-size guidance in the product listing, like the ProtoArc EM11 NL's stated fit for hands under 7.5 inches, and measure your own hand length from the base of your palm to the tip of your middle finger to compare against that guidance." },
-  { "q": "What's the most common mistake buyers make when choosing between Bluetooth and 2.4G wireless vertical mice?", "a": "Assuming all wireless connections work the same way, when 2.4G wireless requires a dedicated USB receiver occupying a port, while Bluetooth pairs directly without needing a spare USB port, an important distinction for devices with limited ports." },
-  { "q": "Is the Lekvey pick worth it over the cheaper TECKNET option?", "a": "If the longest battery life per charge and the longest 36-month warranty matter most to you, yes, but if genuine Bluetooth connectivity at the lowest price is your priority, the TECKNET pick delivers that for about $5 less." },
-  { "q": "Do I need a removable palm rest on a vertical mouse?", "a": "If you specifically experience discomfort from palm contact with the desk surface during extended use, a palm rest like the one included with the J-Tech Digital pick provides real additional comfort, though it's not essential if you don't experience this specific discomfort." },
-  { "q": "How long does the battery actually last on these rechargeable vertical mice before needing a recharge?", "a": "This varies significantly by pick, from the Lekvey's 150+ hours per charge to the TECKNET's roughly 2 months from a 1.5-hour charge, so check the specific stated runtime and charge time together rather than assuming similar battery capacities perform identically." },
-  { "q": "Can I use these vertical mice across multiple devices, like switching between a laptop and a tablet?", "a": "The ProtoArc EM11 NL and J-Tech Digital picks both support Bluetooth pairing that can switch between devices, while the Lekvey pick's 2.4G-only connection is tied to whichever device has its specific USB receiver plugged in." }
+  {
+    "q": "Which of these fits small hands best?",
+    "a": "The ProtoArc EM11 NL lists a fit for hands under 7.5 inches, and the TECKNET is tuned for small to medium hands at a 52-degree angle. The Lekvey and J-Tech are built for medium to large hands and feel oversized on smaller ones."
+  },
+  {
+    "q": "What angle should a vertical mouse have?",
+    "a": "Guides commonly cite 55 to 60 degrees as the sweet spot, with many designs around 57. Shallower tilts like the TECKNET's 52 degrees are easier to adopt but ease forearm twist a bit less, so pick by how drastically you want to change posture."
+  },
+  {
+    "q": "Is the Lekvey's 150 hour battery worth giving up Bluetooth?",
+    "a": "If you use one desktop, yes: 150+ hours per charge and a 36-month warranty beat the others. If you move between a laptop and tablet, the ProtoArc EM11 NL's three-device switching is worth more than runtime."
+  },
+  {
+    "q": "How do I set up a mouse with a USB-C charging port?",
+    "a": "Plug it in for a first charge, then flip the power switch and press the connection button for Bluetooth, or insert the receiver for 2.4G. The ProtoArc and J-Tech charge over USB-C, so the cable you already own for a phone works."
+  },
+  {
+    "q": "How do I clean a vertical mouse with a palm rest?",
+    "a": "Power it off, wipe the shell with a slightly damp cloth, and pop off the J-Tech's removable palm rest to clear skin oils from the gap. Never soak the sensor window, and avoid alcohol on matte coatings that can wear thin."
+  },
+  {
+    "q": "Will a vertical mouse still be fine for light gaming?",
+    "a": "For casual play yes, but start at a lower DPI such as 800 because arm-driven aim feels twitchy at high settings. The J-Tech's 3200 and TECKNET's 4800 ceilings are plenty, but wireless polling is lower than a dedicated gaming mouse."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

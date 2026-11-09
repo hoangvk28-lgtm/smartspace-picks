@@ -219,51 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Wattage trade-off at small sizes",
-    "explanation": "Wattage is the heating power, and it sets how fast a small kettle boils and how much load it adds. Yoochu and RHD run at 1000W, TOPWIT at 800W and Wdcme at 600W. Pick a lower number for a shared circuit, and treat listed boil times as best case."
+    "explanation": "Wattage is the heating power, and it sets how fast a small kettle boils and how much load it adds. Yoochu and RHD run at 1000W, TOPWIT at 800W and Wdcme at 600W. Pick a lower number for a shared circuit, and treat listed boil times as best case. A 15 amp circuit supports roughly 1800W continuous, so a 1000W kettle leaves room for little else."
   },
   {
     "criterion": "Opening width and descaling",
-    "explanation": "Scale builds in a small kettle quickly because water is boiled often, and a narrow opening makes it hard to remove. RHD lists a 4.2 inch opening while others give none. Check the opening size, since you should be able to reach every wall."
+    "explanation": "Scale builds in a small kettle quickly because water is boiled often, and a narrow opening makes it hard to remove. RHD lists a 4.2 inch opening while others give none. Check the opening size, since you should be able to reach every wall. A hand-width opening of about 4 inches lets you wipe scale off the walls, while a narrow neck forces vinegar soaks every few weeks."
   },
   {
     "criterion": "Double wall and handling",
-    "explanation": "A double wall keeps the exterior cooler and the water hot longer. Yoochu and Wdcme describe it, while TOPWIT does not. Check for cool-touch wording before buying."
+    "explanation": "A double wall keeps the exterior cooler and the water hot longer. Yoochu and Wdcme describe it, while TOPWIT does not. Check for cool-touch wording before buying. With a single wall, the body can reach scalding temperature, so a shared dorm kitchen or a child nearby makes the cool-touch spec worth paying for."
   },
   {
     "criterion": "Concealed element",
-    "explanation": "A concealed element sits beneath a flat base instead of a coil in the water. Hamilton Beach names it, which can matter for dorm or hotel rules. Look for the phrase in the listing."
+    "explanation": "A concealed element sits beneath a flat base instead of a coil in the water. Hamilton Beach names it, which can matter for dorm or hotel rules. Look for the phrase in the listing. A flat, concealed base is easier to wipe than an exposed coil and holds less scale, though it usually costs more, as the Hamilton Beach shows."
   },
   {
     "criterion": "Cord and base style",
-    "explanation": "A retractable or removable cord and a 360 degree base save desk space and make pouring easier. WTJMOV has a retractable cord and RHD a removable one. Check the base footprint and cord length."
+    "explanation": "A retractable or removable cord and a 360 degree base save desk space and make pouring easier. WTJMOV has a retractable cord and RHD a removable one. Check the base footprint and cord length. A cord under about 2.5 feet may not reach a dorm outlet behind a desk, so compare the listed cord length with your actual distance."
   },
   {
     "criterion": "Interior materials",
-    "explanation": "A true plastic-free interior needs stainless on the lid underside, spout and filter. Yoochu names the liner, inner lid, spout and rim. Look for that detail rather than BPA-free alone."
+    "explanation": "A true plastic-free interior needs stainless on the lid underside, spout and filter. Yoochu names the liner, inner lid, spout and rim. Look for that detail rather than BPA-free alone. Grade 304 stainless is the common food-contact standard, so look for that number and for a note about the lid underside as well as the body."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Power and capacity",
-    "description": "We compared stated wattage and volume, treating boil-time claims cautiously."
+    "title": "Capacity against real use",
+    "description": "A 0.5L kettle fills barely a mug and a half, while 0.8L covers two or three mugs. We split this guide on that line, with Tanannbay and the Hamilton Beach HKE050 at 0.5L and the other five at 0.8L, and judged each on whether it suits one desk or a shared dorm. That split matters because a half liter heats quickly even at 600W."
   },
   {
-    "title": "Materials",
-    "description": "Interior materials, double wall construction and plastic-contact claims were compared."
+    "title": "Wattage and circuit load",
+    "description": "The listings run from 600W to 1000W. Yoochu and RHD at 1000W boil fastest, while WTJMOV, Wdcme and Tanannbay at 600W take longer but suit a shared outlet. We treated 800W on TOPWIT as the balance point and noted the tradeoff each time. A 15 amp dorm circuit leaves little headroom beyond one 1000W appliance."
   },
   {
-    "title": "Safety",
-    "description": "Auto shut-off, boil-dry protection and element style were weighed ahead of marketing wording."
+    "title": "Cleaning access and opening width",
+    "description": "A narrow neck is hard to scrub and scale builds up fast in small kettles. RHD lists a 4.2 inch opening a hand can enter, and Tanannbay and Yoochu note large openings, so these scored above kettles that give no opening dimension. Small kettles are boiled more often per liter, so scale appears sooner."
   },
   {
-    "title": "Cleaning and handling",
-    "description": "Opening width, lid design and cord style were compared."
+    "title": "Footprint and cord handling",
+    "description": "Counter space is the point of buying small. WTJMOV is a 7.4 by 3.9 inch body with a retractable cord, TOPWIT stores its cord and RHD has a removable cord and base, so we credited each for how it packs away between uses. Pack-away features count more in a dorm than raw capacity."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $20 to $45 were compared with documented features."
+    "title": "Safety and materials at a low price",
+    "description": "We checked for 304 stainless water contact, auto shut-off and boil-dry protection. Most listings state them, but the Hamilton Beach adds a concealed element and hospitality rating, which we weighed against its place as the costliest pick. All seven listings were compared on these same safeguards."
   }
 ];
 
@@ -271,37 +271,39 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Priority",
+    "intro": "Small kettles trade speed, cleaning access and footprint, so pick the priority first.",
     "table": {
       "headers": [
-        "Your situation",
+        "What matters most",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Fast and cool-touch",
-          "Yoochu 0.8L 1000W Double Wall Electric Kettle"
+          "Fast boil with a cool outer shell",
+          "Yoochu 0.8L 1000W Double Wall has 1000W heating, a double wall and 304 stainless on every water surface."
         ],
         [
-          "Easiest to clean",
-          "RHD 0.8L 1000W Small Electric Kettle"
+          "Easiest to scrub and descale",
+          "RHD 0.8L 1000W lists a 4.2 inch opening, a removable cord and a removable base."
         ],
         [
-          "Balanced power",
-          "TOPWIT 0.8L 800W Small Electric Kettle"
+          "Balanced speed and circuit load",
+          "TOPWIT 0.8L 800W sits between 600W and 1000W and stores its cord."
         ],
         [
-          "Narrow shelf",
-          "WTJMOV 0.8L 600W Portable Small Kettle"
+          "Narrow shelf or tight counter",
+          "WTJMOV 0.8L 600W is a 7.4 by 3.9 inch body with a retractable cord."
         ],
         [
-          "Hotel or hospitality use",
-          "Hamilton Beach Commercial 0.5L Hospitality Kettle HKE050"
+          "Guest room or hospitality use",
+          "Hamilton Beach Commercial 0.5L HKE050 has a concealed element and a 3 foot cord on its base."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "The cheapest options give up speed, while the priciest buy construction.",
     "table": {
       "headers": [
         "Price range",
@@ -309,65 +311,67 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $20",
-          "Tanannbay 0.5L 600W Mini Electric Kettle"
+          "Under $20, absolute minimum",
+          "Tanannbay 0.5L 600W is the cheapest here, with 304 stainless and a large opening."
         ],
         [
-          "About $20",
-          "Wdcme 0.8L 600W Double Wall Travel Kettle"
+          "Under $25, 0.8L with a double wall",
+          "Wdcme 0.8L 600W Double Wall gives double-wall construction at a low price, but heats slowly."
         ],
         [
-          "$24 to $25",
-          "TOPWIT 0.8L 800W Small Electric Kettle"
+          "$24 to $25, middle power",
+          "TOPWIT 0.8L 800W balances speed and load with boil-dry protection listed."
         ],
         [
-          "$28 to $30",
-          "Yoochu 0.8L 1000W Double Wall Electric Kettle"
+          "$28 to $30, fastest boil",
+          "Yoochu 0.8L 1000W Double Wall is the quickest and the coolest to touch in this guide."
         ],
         [
-          "About $45",
-          "Hamilton Beach Commercial 0.5L Hospitality Kettle HKE050"
+          "$45 and up, commercial build",
+          "Hamilton Beach Commercial 0.5L HKE050 is the costliest and the only one with a concealed element."
         ]
       ]
     }
   },
   {
     "subheading": "0.5L vs 0.8L",
+    "intro": "Capacity is the one decision that changes everything else in this category.",
     "cards": [
       {
         "label": "0.5 liter",
-        "text": "A half liter fits a dorm shelf and a travel bag but only fills a mug and a half. That covers Tanannbay 0.5L 600W Mini Electric Kettle and Hamilton Beach Commercial 0.5L Hospitality Kettle HKE050."
+        "text": "Fills about a mug and a half, packs into a bag and boils quickly even at 600W. Tanannbay 0.5L and Hamilton Beach HKE050 sit here. The catch is repeated refills for a second cup."
       },
       {
         "label": "0.8 liter",
-        "text": "About two to three mugs per fill, with more weight and a larger footprint. That covers Yoochu 0.8L 1000W Double Wall Electric Kettle, RHD 0.8L 1000W Small Electric Kettle, TOPWIT 0.8L 800W Small Electric Kettle, WTJMOV 0.8L 600W Portable Small Kettle and Wdcme 0.8L 600W Double Wall Travel Kettle."
+        "text": "Serves two or three mugs per fill with a larger footprint and more weight. Yoochu, RHD, TOPWIT, WTJMOV and Wdcme all fit, with power from 600W to 1000W."
       }
     ],
-    "note": "Most people do better with 0.8 liters unless space or travel is the main concern."
+    "note": "Most people should buy 0.8L such as TOPWIT unless counter space or a travel bag is the main limit."
   },
   {
     "subheading": "By Power Preference",
+    "intro": "Wattage decides boil time and how much load you put on a shared circuit.",
     "table": {
       "headers": [
-        "Your concern",
+        "Preference",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Fastest boil",
-          "Yoochu 0.8L 1000W Double Wall Electric Kettle"
+          "Fastest possible boil",
+          "Yoochu 0.8L 1000W Double Wall."
         ],
         [
-          "Lowest load on a shared circuit",
-          "Wdcme 0.8L 600W Double Wall Travel Kettle"
+          "Fast boil with the easiest cleaning",
+          "RHD 0.8L 1000W, with its 4.2 inch opening."
         ],
         [
-          "Middle 800W",
-          "TOPWIT 0.8L 800W Small Electric Kettle"
+          "Middle ground, 800W",
+          "TOPWIT 0.8L 800W, lower load than 1000W models but quicker than 600W."
         ],
         [
-          "Fast with a wide opening",
-          "RHD 0.8L 1000W Small Electric Kettle"
+          "Lowest load on a shared dorm circuit",
+          "Wdcme 0.8L 600W Double Wall or WTJMOV 0.8L 600W, both a 600W draw."
         ]
       ]
     }
@@ -377,11 +381,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Look for",
-        "text": "A small footprint, a retractable or removable cord and a cool-touch body for a crowded counter."
+        "text": "A footprint under about 8 inches, a retractable or removable cord, and a body that stays cool beside a wall or cabinet."
       },
       {
         "label": "In this comparison",
-        "text": "WTJMOV 0.8L 600W Portable Small Kettle has a retractable cord in a 7.4 by 3.9 inch body, and Tanannbay 0.5L 600W Mini Electric Kettle is the smallest overall."
+        "text": "WTJMOV 0.8L 600W has a retractable cord inside a 7.4 by 3.9 inch body, and Tanannbay 0.5L 600W is the smallest overall. Wdcme adds a double wall at a similar size."
       }
     ]
   },
@@ -390,11 +394,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want a concealed element or a commercial build. Hamilton Beach Commercial 0.5L Hospitality Kettle HKE050 and Yoochu 0.8L 1000W Double Wall Electric Kettle are the stronger builds."
+        "text": "You want a concealed element or hospitality build. Hamilton Beach HKE050 and Yoochu 0.8L 1000W are the stronger builds, and sit above the under-$25 group."
       },
       {
         "label": "Save if",
-        "text": "You just need hot water for tea. Tanannbay 0.5L 600W Mini Electric Kettle and Wdcme 0.8L 600W Double Wall Travel Kettle cost about $19 to $20."
+        "text": "You only need hot water for tea or instant food. Tanannbay 0.5L 600W and Wdcme 0.8L 600W cost under $25 or less and cover that job."
       }
     ]
   }
@@ -403,28 +407,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "How long does a small kettle take to boil?",
-    "a": "Listings claim about 5 minutes for 0.8 liters at 600W to 1000W, but those are best-case numbers. Boil only the water you need to save time."
+    "q": "Is a 600W kettle too slow to be useful?",
+    "a": "It works, but patience helps. A 600W unit like WTJMOV, Wdcme or Tanannbay heats at well under two-thirds the power of a 1000W Yoochu, so a full 0.8L takes noticeably longer. If you boil once or twice a day, the lower draw on a shared dorm circuit is a fair trade."
   },
   {
-    "q": "Does 600W work as well as 1000W?",
-    "a": "It boils more slowly, but loads a shared circuit less. For one or two cups, the difference is a minute or two."
+    "q": "How much water does a 0.5L kettle really give me?",
+    "a": "About one large mug and a little extra. Tanannbay and the Hamilton Beach HKE050 are both 0.5L, so they suit a single tea or instant noodle. For two people or repeated refills, the 0.8L Yoochu, RHD or TOPWIT is much less frustrating."
   },
   {
-    "q": "Is a small kettle worth it over a regular one?",
-    "a": "For one or two people, yes: less water to heat, less desk space. For a group, a larger kettle is more practical."
+    "q": "Is the Hamilton Beach worth the premium over Tanannbay?",
+    "a": "Only if you need hospitality-grade construction. The HKE050 has a concealed element, boil-dry protection and a 3 foot cord on its base, and suits a guest room or office. Tanannbay is the cheapest pick here with a large opening and 304 stainless, and holds the same 0.5L."
   },
   {
-    "q": "How do I descale a small kettle?",
-    "a": "Boil a diluted white vinegar solution, then rinse well. A wide opening, like RHD's, makes it easier to scrub."
+    "q": "Can I leave water in a small kettle overnight?",
+    "a": "It is better not to. Standing water in stainless picks up a metallic taste and scale films faster in a small volume, and a 304 stainless interior such as RHD's or TOPWIT's only slows that. Empty it, rinse and leave the lid open so it dries."
   },
   {
-    "q": "Do I need a concealed element?",
-    "a": "Only where rules require it, such as some dorms and hotels. Hamilton Beach names one, but most small kettles state no element type."
+    "q": "Will a small kettle fit under a dorm shelf?",
+    "a": "Check height with the lid raised, not just the body. WTJMOV lists a 7.4 by 3.9 inch body, which suits narrow shelves, while wider 1000W models like Yoochu need more clearance. Measure from the shelf to the base, and add an inch for the handle."
   },
   {
-    "q": "Does BPA-free mean no plastic?",
-    "a": "No. Look for stainless on the lid underside, spout and filter, as Yoochu describes."
+    "q": "How often should I descale a small kettle?",
+    "a": "Monthly with hard water, every two or three months otherwise. Boil equal parts water and white vinegar, soak 15 minutes and rinse twice. RHD's 4.2 inch opening lets you wipe the walls by hand, which narrower Tanannbay and Wdcme openings make harder."
   }
 ];
 

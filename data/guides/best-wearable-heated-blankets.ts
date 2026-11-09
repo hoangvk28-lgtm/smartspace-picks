@@ -219,51 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Robe versus cape coverage",
-    "explanation": "A robe with sleeves and foot pockets covers more of you, while a cape sits on the shoulders. Sealy and Dueelala offer foot pockets, and the Sealy shawl and the USB wrap do not. Decide how much of your body is actually cold."
+    "explanation": "A robe with sleeves and foot pockets covers more of you, while a cape sits on the shoulders. Sealy and Dueelala offer foot pockets, and the Sealy shawl and the USB wrap do not. Decide how much of your body is actually cold. A robe reaches your feet and arms, so it uses more power and costs more, while a cape keeps your hands free to type."
   },
   {
     "criterion": "Heat range and floor level",
-    "explanation": "The lowest setting matters as much as the highest, because a blanket that starts too hot is useless in a mild room. MAXEVE starts at 82F while JOLLYVOGUE starts at 90F and Sealy at 95F. Look for a stated range in degrees."
+    "explanation": "The lowest setting matters as much as the highest, because a blanket that starts too hot is useless in a mild room. MAXEVE starts at 82F while JOLLYVOGUE starts at 90F and Sealy at 95F. Look for a stated range in degrees. A floor in the low 80s, like MAXEVE's 82F, is gentle in a warm room, while a floor near 95F starts already warm."
   },
   {
     "criterion": "Timer and auto-off style",
-    "explanation": "A timer menu lets you choose, while a fixed auto-off decides for you. MAXEVE lists 1 to 12 hours and JOLLYVOGUE stops at 4. Find the stated hours, and choose short ones for unattended use."
+    "explanation": "A timer menu lets you choose, while a fixed auto-off decides for you. MAXEVE lists 1 to 12 hours and JOLLYVOGUE stops at 4. Find the stated hours, and choose short ones for unattended use. A timer you can set from 2 to 10 hours suits a day at a desk, while a fixed 4 hours simply guards against forgetting."
   },
   {
     "criterion": "Certification and electrical protection",
-    "explanation": "A named lab mark such as ETL means the product itself was assessed. Sealy, Westinghouse and JOLLYVOGUE cite ETL, while Dueelala and MAXEVE cite protection features only. Look for the mark on the product tag."
+    "explanation": "A named lab mark such as ETL means the product itself was assessed. Sealy, Westinghouse and JOLLYVOGUE cite ETL, while Dueelala and MAXEVE cite protection features only. Look for the mark on the product tag. Search the listing for ETL or UL by name, since a vague safe wiring claim on its own proves nothing."
   },
   {
     "criterion": "Sleeve, pocket and length dimensions",
-    "explanation": "A robe that is too short or too narrow leaves gaps where cold air gets in. Sealy lists 25.5 inch sleeves and an 18 inch foot pocket. Check the size against your height."
+    "explanation": "A robe that is too short or too narrow leaves gaps where cold air gets in. Sealy lists 25.5 inch sleeves and an 18 inch foot pocket. Check the size against your height. A foot pocket of 18 inches fits an adult foot, and a body length around 70 inches covers a seated person from shoulders to ankles."
   },
   {
     "criterion": "Washing and controller removal",
-    "explanation": "Every wearable needs the controller disconnected before washing, and some forbid dry cleaning and bleach. Sealy and JOLLYVOGUE give specific cycle guidance. Read the care line and dry fully before reuse."
+    "explanation": "Every wearable needs the controller disconnected before washing, and some forbid dry cleaning and bleach. Sealy and JOLLYVOGUE give specific cycle guidance. Read the care line and dry fully before reuse. Remove the controller and cable before washing, and dry the connector fully, since moisture at the plug is the usual cause of failure."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Heat range",
-    "description": "We compared stated temperature spans and the number of levels in each listing."
+    "title": "Robe or cape coverage",
+    "description": "A robe with sleeves and foot pockets covers more than a cape. Sealy, Westinghouse, Dueelala and MAXEVE are full wearables with sleeves and foot pockets, while the two shawls cover the shoulders only, so we compared them on how much of the body each warms. The more body a garment covers, the more power it needs."
   },
   {
-    "title": "Timer and safety",
-    "description": "Timer ranges, auto-off times, protection features and cited certifications were weighed above marketing claims."
+    "title": "Heat range and the lowest setting",
+    "description": "The floor matters as much as the ceiling at a desk. MAXEVE starts at 82F and Dueelala at 86F, while Sealy's top is 113F, so we looked at both ends of each stated range and not just the number of levels. A low floor lets you use it in a warm room too."
   },
   {
-    "title": "Coverage and fit",
-    "description": "Sleeves, hoods, foot pockets and stated dimensions were compared."
+    "title": "Timer and auto-off style",
+    "description": "Westinghouse and Sealy Shawl offer 2 to 10 hours, MAXEVE 1 to 12 hours and Dueelala 1 to 10 hours, while JOLLYVOGUE has a fixed 4 hour shut-off. We judged flexible timers as better for a desk day, and a fixed cut-off as a safer default. A button that holds heat on can defeat the point of a cut-off."
   },
   {
-    "title": "Fabric and care",
-    "description": "Fabric weight and washing instructions were noted."
+    "title": "Named safety marks",
+    "description": "Sealy cites ETL and FCC, Westinghouse and JOLLYVOGUE do too, while Dueelala names overload and leakage protection and MAXEVE names no mark. We gave the most credit for a named lab mark and noted when it was absent. A mark we could not find was recorded as absent."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $40 to $100 were compared with documented features."
+    "title": "Wearing and washing",
+    "description": "Foot pocket depth, sleeve length and a machine-washable cover all matter. Sealy lists an 18 inch foot pocket and a 50 by 70 inch body, and most can be machine washed after the controller is removed. We also checked sleeve length against a seated reach."
   }
 ];
 
@@ -271,37 +271,39 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Coverage Needed",
+    "intro": "Match the garment to how much of you needs warmth.",
     "table": {
       "headers": [
-        "Your situation",
+        "Situation",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Documented sleeve and pocket sizes",
-          "Sealy Wearable Electric Blanket with Foot Pocket"
+          "Full-body robe with hood and foot pockets",
+          "Dueelala Wearable Heated Robe, with eight settings and a hood."
         ],
         [
-          "Head to toe with a hood",
-          "Dueelala Wearable Heated Robe with Hood and Foot Pocket"
+          "Sleeves and foot pocket, 70 inch body",
+          "Sealy Wearable Electric Blanket with Foot Pocket, with 18 inch foot pocket."
         ],
         [
-          "Shoulders only, wall powered",
-          "Sealy Heated Throw Wearable Shawl Wrap with Pockets"
+          "Sleeves, long timer",
+          "MAXEVE Heated Wearable Blanket, with 1 to 12 hours."
         ],
         [
-          "Shoulders only, portable",
-          "USB Wearable Heated Shawl Wrap in Khaki"
+          "Shoulders and back, hands free",
+          "Sealy Heated Throw Wearable Shawl, with buckles and pockets."
         ],
         [
-          "Robe with a timer menu",
-          "Westinghouse Wearable Heated Snuggle Blanket with Foot Pocket"
+          "Light, portable cape",
+          "USB Wearable Heated Shawl Wrap in Khaki, 5V and 10W."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Price tracks sleeves, foot pockets and timers.",
     "table": {
       "headers": [
         "Price range",
@@ -309,65 +311,67 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $40",
-          "USB Wearable Heated Shawl Wrap in Khaki"
+          "Under $40, USB cape",
+          "USB Wearable Heated Shawl Wrap in Khaki."
         ],
         [
-          "About $50",
-          "Sealy Heated Throw Wearable Shawl Wrap with Pockets"
+          "Under $55, plug-in shawl",
+          "Sealy Heated Throw Wearable Shawl Wrap."
         ],
         [
-          "About $60",
-          "JOLLYVOGUE Heated Wearable Blanket with Sleeves"
+          "Under $65, sleeves, gentle heat",
+          "JOLLYVOGUE Heated Wearable Blanket, up to 108F."
         ],
         [
-          "$67 to $75",
-          "MAXEVE Heated Wearable Blanket with Sleeves and Foot Pocket"
+          "$67 to $75, long timer",
+          "MAXEVE Heated Wearable Blanket."
         ],
         [
-          "$85 to $100",
-          "Dueelala Wearable Heated Robe with Hood and Foot Pocket"
+          "$85 to $100, full robe",
+          "Dueelala Wearable Heated Robe."
         ]
       ]
     }
   },
   {
     "subheading": "Wall Plug vs USB",
+    "intro": "How it is powered decides where you can use it.",
     "cards": [
       {
         "label": "Wall plug",
-        "text": "A mains wearable runs stronger and longer, but ties you to an outlet. That covers Sealy Wearable Electric Blanket with Foot Pocket, Westinghouse Wearable Heated Snuggle Blanket with Foot Pocket, Dueelala Wearable Heated Robe with Hood and Foot Pocket, MAXEVE Heated Wearable Blanket with Sleeves and Foot Pocket, JOLLYVOGUE Heated Wearable Blanket with Sleeves and Sealy Heated Throw Wearable Shawl Wrap with Pockets."
+        "text": "Warmer and more powerful, with 6 to 8 settings and long timers. Sealy, Westinghouse, Dueelala, MAXEVE and JOLLYVOGUE fit here, and all tether you to an outlet."
       },
       {
         "label": "USB",
-        "text": "USB frees you from an outlet but delivers gentler heat. In this guide that is USB Wearable Heated Shawl Wrap in Khaki."
+        "text": "Runs from a power bank and goes anywhere. The khaki USB shawl is the only one here, at 5V and 10W, with no timer listed and less coverage."
       }
     ],
-    "note": "Choose mains power for a robe and USB only for a light cape."
+    "note": "Pick a wall-plug wearable such as MAXEVE for a fixed desk, and USB only if you must move."
   },
   {
     "subheading": "By Heat Preference",
+    "intro": "Pick by the range of temperatures you want to use.",
     "table": {
       "headers": [
-        "Your concern",
+        "Preference",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Gentle top temperature",
-          "JOLLYVOGUE Heated Wearable Blanket with Sleeves"
+          "Widest range, 86F to 122F",
+          "Dueelala, with 8 settings."
         ],
         [
-          "Very low starting level",
-          "MAXEVE Heated Wearable Blanket with Sleeves and Foot Pocket"
+          "Gentle top end, 108F",
+          "JOLLYVOGUE, with 7 levels."
         ],
         [
-          "Eight steps of control",
-          "Dueelala Wearable Heated Robe with Hood and Foot Pocket"
+          "Lowest starting level, 82F",
+          "MAXEVE, with 6 levels to 115F."
         ],
         [
-          "Temperature sensing",
-          "Sealy Wearable Electric Blanket with Foot Pocket"
+          "Highest published ceiling, 131F",
+          "USB Wearable Heated Shawl Wrap in Khaki."
         ]
       ]
     }
@@ -377,11 +381,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Look for",
-        "text": "Sleeves that leave your hands free, a timer that matches your workday and a size that will not drag in your chair."
+        "text": "A timer, a shape that does not snag on a chair, and a controller you can reach at the desk."
       },
       {
         "label": "In this comparison",
-        "text": "Westinghouse Wearable Heated Snuggle Blanket with Foot Pocket lists a 2 to 10 hour timer, and Sealy Heated Throw Wearable Shawl Wrap with Pockets uses buckles to stay on your shoulders."
+        "text": "Sealy Shawl has buckles to stay on, and Westinghouse lists a 2 to 10 hour timer and ETL and FCC marks."
       }
     ]
   },
@@ -390,11 +394,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want full coverage and finer heat control. Dueelala Wearable Heated Robe with Hood and Foot Pocket and Sealy Wearable Electric Blanket with Foot Pocket give the most documented specs."
+        "text": "You want full coverage. Dueelala and MAXEVE cost more than the shawls and add sleeves and foot pockets."
       },
       {
         "label": "Save if",
-        "text": "A shoulder wrap is enough. USB Wearable Heated Shawl Wrap in Khaki and Sealy Heated Throw Wearable Shawl Wrap with Pockets cost under $50."
+        "text": "A shawl is enough. The USB khaki wrap under $40 and Sealy Shawl under $55 cover shoulders."
       }
     ]
   }
@@ -403,28 +407,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can I wear a heated blanket while walking around?",
-    "a": "The mains robes are tethered by a cord, so you must unplug to move far. Only the USB shawl works with a power bank for a short walk."
+    "q": "Is a wearable heated blanket warm enough for a cold office?",
+    "a": "Usually yes, but check the top setting. Sealy tops out at 113F and JOLLYVOGUE at 108F, which some buyers find mild, while Dueelala reaches 122F and MAXEVE 115F. If you run cold, pick a higher ceiling."
   },
   {
-    "q": "Are wearable heated blankets safe to sleep in?",
-    "a": "No. Some listings mention sleep, but heated textiles should not be used while sleeping. Use a timer and unplug the controller when finished."
+    "q": "Can I use a wearable heated blanket at a desk with a chair?",
+    "a": "Yes, if the cut allows it. Full robes with foot pockets can bunch behind the chair back, while the Sealy shawl with buckles stays put and the USB cape in khaki zips at the front. Sit with it before deciding."
   },
   {
-    "q": "Is a robe worth it over a shawl?",
-    "a": "If your legs and feet are cold, yes. A shawl is lighter and easier to type in, but covers only your upper body."
+    "q": "What does a 12 hour timer actually do?",
+    "a": "It lets the blanket stay on far longer than most people want, which is a convenience and a risk. MAXEVE offers 1 to 12 hours and a button that keeps it on, while JOLLYVOGUE's fixed 4 hours cuts off even if you forget."
+  },
+  {
+    "q": "Is the USB wearable shawl a good alternative to the wall-plug models?",
+    "a": "For portability, yes. The khaki shawl runs from a power bank at 5V and 10W, costs far less and folds small, but it has no timer and covers less than a robe. For a desk day, a plug-in robe is warmer."
   },
   {
     "q": "How do I wash a wearable heated blanket?",
-    "a": "Disconnect the controller and cable first. Sealy asks for slow agitation and low spin, and says not to dry clean or bleach. Dry fully before use."
+    "a": "Detach the controller first, then use a gentle cycle in cool water and air dry or tumble dry low per the listing. JOLLYVOGUE lists machine washable on gentle, and MAXEVE is machine washable too. Never wash with the controller attached."
   },
   {
-    "q": "Will a robe fit a tall person?",
-    "a": "Check the listed length and sleeve size. Sealy lists 25.5 inch sleeves and an 18 inch foot pocket. Others give no figures, so ask or compare."
-  },
-  {
-    "q": "Do heated robes help with pain or circulation?",
-    "a": "We do not rely on those claims. These are comfort products and not medical devices, and anyone with reduced sensation should ask a doctor first."
+    "q": "Are wearable heated blankets safe for people with reduced sensation?",
+    "a": "Use extra caution. If you have diabetes, neuropathy or reduced feeling, you may not notice overheating. Pick a low floor like MAXEVE's 82F, keep clothing between you and the blanket, and ask a doctor before regular use."
   }
 ];
 

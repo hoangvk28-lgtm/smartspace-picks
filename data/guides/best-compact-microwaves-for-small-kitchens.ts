@@ -5,7 +5,7 @@ export const metaDescription = "Seven 0.9 cu ft, 900W compact microwaves for sma
 export const mainKeyword = "compact microwave for small kitchen";
 export const introParagraphs = [
   "In a small kitchen, a microwave competes with the kettle, the toaster and your only prep surface. The 0.7 cubic foot models save inches but run at 700W, which stretches every ready meal, while the 1.1 cubic foot boxes take over the counter. The middle size, 0.9 cubic feet at 900W, is where most compact kitchens find the best balance.",
-  "All seven picks sit in that middle tier. We compared them on listed output watts, the dimensions and turntable diameters the listings give, the preset menus, and extras like mute, memory and a dishwasher-safe or removable turntable. The spread in price is small, around $35 from cheapest to dearest, so the details below decide which unit earns its footprint."
+  "All seven picks sit in that middle tier. We compared them on listed output watts, the dimensions and turntable diameters the listings give, the preset menus, and extras like mute, memory and a dishwasher-safe or removable turntable. The spread in price is small, under $40 from cheapest to dearest, so the details below decide which unit earns its footprint."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31S7vndphIL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DNMSCLGX?tag=deskfinds0d-20",
-    "description": "Toshiba lists 900W output and 1300W input in an 18.7 by 13.3 by 10.7 inch body with a 10.6 inch glass turntable. It has 6 preset menus, 11 power levels, defrost by weight or time, a mute function, memory function and a two-step child lock.\n\nIt has the fullest listing here: exact dimensions, both wattage figures and mute. Compared with Sharp just below, it costs about $2 less, and adds mute and memory features that the Sharp listing does not mention.\n\nBest for a small kitchen where you want strong power and a shelf-friendly size. The caveat is the 1300W input draw, which is worth checking if you share a circuit with a kettle.",
+    "description": "Toshiba lists 900W output and 1300W input in an 18.7 by 13.3 by 10.7 inch body with a 10.6 inch glass turntable. It has 6 preset menus, 11 power levels, defrost by weight or time, a mute function, memory function and a two-step child lock.\n\nIt has the fullest listing here: exact dimensions, both wattage figures and mute. Compared with Sharp just below, it costs under $10 less, and adds mute and memory features that the Sharp listing does not mention.\n\nBest for a small kitchen where you want strong power and a shelf-friendly size. The caveat is the 1300W input draw, which is worth checking if you share a circuit with a kettle.",
     "specs": [
       "0.9 cu ft, 900W output",
       "18.7 x 13.3 x 10.7 inches",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31vlCW2lSzL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GVMKD7X7?tag=deskfinds0d-20",
-    "description": "BLACK+DECKER lists 900W, 10 power levels, six one-touch presets, express cooking shortcuts and a child safety lock activated by holding Cancel for 5 seconds. It measures 18.6 by 13.6 by 10.7 inches and has a fingerprint-resistant black finish.\n\nVersus Toshiba, the size is almost identical, but there is no mute listed and it costs about $10 less. Compared with Farberware below, it gives dimensions where Farberware gives none.\n\nBest for a shelf measurement check. The caveat is that no mute, memory or turntable diameter is listed.",
+    "description": "BLACK+DECKER lists 900W, 10 power levels, six one-touch presets, express cooking shortcuts and a child safety lock activated by holding Cancel for 5 seconds. It measures 18.6 by 13.6 by 10.7 inches and has a fingerprint-resistant black finish.\n\nVersus Toshiba, the size is almost identical, but there is no mute listed and it costs under $15 less. Compared with Farberware below, it gives dimensions where Farberware gives none.\n\nBest for a shelf measurement check. The caveat is that no mute, memory or turntable diameter is listed.",
     "specs": [
       "18.6 x 13.6 x 10.7 inches",
       "900W, 10 power levels",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31cZjYz01tL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FQ7VCD7N?tag=deskfinds0d-20",
-    "description": "Farberware's black 0.9 cu ft microwave lists 900W, ten power levels, time and weight defrost and eight auto-cook menus: popcorn, pizza, potato, frozen vegetables, fresh vegetables, beverages, meat and bread. It also has express cook and a +30 sec button.\n\nThat is the most menus in the group, two more than BLACK+DECKER above, at about $5 more. Compared with the white version below, the only difference in the listing is color and about $10 in price.\n\nBest for cooks who like one-touch shortcuts for fresh food as well as frozen. The caveat is that there are no dimensions, turntable size or mute listed.",
+    "description": "Farberware's black 0.9 cu ft microwave lists 900W, ten power levels, time and weight defrost and eight auto-cook menus: popcorn, pizza, potato, frozen vegetables, fresh vegetables, beverages, meat and bread. It also has express cook and a +30 sec button.\n\nThat is the most menus in the group, two more than BLACK+DECKER above, at under $10 more. Compared with the white version below, the only difference in the listing is color and under $15 in price.\n\nBest for cooks who like one-touch shortcuts for fresh food as well as frozen. The caveat is that there are no dimensions, turntable size or mute listed.",
     "specs": [
       "0.9 cu ft, 900W",
       "8 auto-cook menus",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31hJHGfHPoL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FQ8173PJ?tag=deskfinds0d-20",
-    "description": "The white Farberware has the same listing as the black one: 0.9 cu ft, 900W, ten power levels, eight auto-cook settings, time and weight defrost, express cook and a +30 sec button.\n\nIt costs about $10 less than the black version, which makes it the better value of the pair if color does not matter. Against the Frigidaire white below, it offers eight auto menus instead of six, at about $5 more.\n\nBest for a light kitchen palette. The caveat is the same thin documentation as the black Farberware.",
+    "description": "The white Farberware has the same listing as the black one: 0.9 cu ft, 900W, ten power levels, eight auto-cook settings, time and weight defrost, express cook and a +30 sec button.\n\nIt costs under $15 less than the black version, which makes it the better value of the pair if color does not matter. Against the Frigidaire white below, it offers eight auto menus instead of six, at under $10 more.\n\nBest for a light kitchen palette. The caveat is the same thin documentation as the black Farberware.",
     "specs": [
       "0.9 cu ft, 900W",
       "8 auto-cook menus",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/317mZjpTzQL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B00D02AFQE?tag=deskfinds0d-20",
-    "description": "Frigidaire's white 0.9 cu ft model lists 900W, 10 power levels, an auto-defrost by weight, six one-touch functions, an interior light, a child lock and a soft-touch control panel with clock and timer. It has a curved handle.\n\nIt is the second cheapest pick, roughly $20 under Toshiba. Compared with Smad below, it costs about $15 more and offers a well-known brand.\n\nBest for a low-cost branded white unit. The caveat is that mute, dimensions and turntable size are not listed.",
+    "description": "Frigidaire's white 0.9 cu ft model lists 900W, 10 power levels, an auto-defrost by weight, six one-touch functions, an interior light, a child lock and a soft-touch control panel with clock and timer. It has a curved handle.\n\nIt is the second cheapest pick, roughly $20 under Toshiba. Compared with Smad below, it costs under $20 more and offers a well-known brand.\n\nBest for a low-cost branded white unit. The caveat is that mute, dimensions and turntable size are not listed.",
     "specs": [
       "0.9 cu ft, 900W",
       "10 levels, 6 one-touch menus",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41UZWlCCi+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H21P5K6T?tag=deskfinds0d-20",
-    "description": "Smad lists 0.9 cu ft, 900W, ten power levels with multi-stage cooking, six presets, a memory function, LED lighting and a 10.6 inch glass turntable with an easy-clean interior.\n\nIt is the cheapest in the guide, about $35 under Sharp, and still lists a memory function and a documented turntable. Compared with Frigidaire above, you give up the brand name but keep the specs.\n\nBest for a tight budget. The caveat is that the brand is less established and no dimensions or mute are listed.",
+    "description": "Smad lists 0.9 cu ft, 900W, ten power levels with multi-stage cooking, six presets, a memory function, LED lighting and a 10.6 inch glass turntable with an easy-clean interior.\n\nIt is the cheapest in the guide, under $40 under Sharp, and still lists a memory function and a documented turntable. Compared with Frigidaire above, you give up the brand name but keep the specs.\n\nBest for a tight budget. The caveat is that the brand is less established and no dimensions or mute are listed.",
     "specs": [
       "0.9 cu ft, 900W",
       "10.6 inch turntable",
@@ -219,178 +219,180 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Why 0.9 cu ft is a sweet spot",
-    "explanation": "Cubic feet is the interior volume, and 0.9 sits between the 0.7 unit that fits a shelf and the 1.1 unit that dominates a counter. It usually pairs with 900W, which is closer to what package directions assume. Compare listed capacity and output watts together, not capacity alone."
+    "explanation": "Cubic feet measures the inside cavity, and 0.9 cu ft is roughly the point where a standard 10 to 11 inch dinner plate still turns freely while the outer shell stays near 18 to 19 inches wide. Go smaller and a dinner plate or a large mug with a handle can catch the cavity wall; go bigger and the box stops fitting a shelf. Look for the cu ft figure in the title, then compare it with the listed outside dimensions."
   },
   {
     "criterion": "Counter depth and door swing",
-    "explanation": "Depth matters as much as width in a narrow kitchen, because the door swings open and needs space to clear the wall. Many 0.9 units run about 13 inches deep, as the Toshiba and BLACK+DECKER do. Measure from the wall to the counter edge, and add room for the door and cord."
+    "explanation": "A microwave needs its listed depth plus a few inches behind it for the power cord and about an inch on each side for airflow, and the door usually swings open to the left, so the left side needs clear room. Most of the 0.9 cu ft models here are about 10.7 inches tall and 13 to 14 inches deep, which suits a shelf under a cabinet. Measure the shelf height, depth, and clearance before you click buy."
   },
   {
     "criterion": "Turntable diameter",
-    "explanation": "A 10.6 inch turntable, as listed for Toshiba, Sharp and Smad, handles a standard dinner plate, while smaller ones may not. If the listing leaves it out, check the manual. This avoids buying a unit where a plate cannot spin."
+    "explanation": "The turntable, not the cavity, decides what dish fits, and a 10.6 inch carousel limits a 9 by 13 inch baking dish whose diagonal is longer than that. If you reheat leftovers in a square container, check the turntable diameter in the specs, because only some listings state it. When it is missing, use the interior width and assume a few inches less for a spinning plate."
   },
   {
     "criterion": "Input draw on a shared circuit",
-    "explanation": "A 900W microwave pulls more from the wall, around 1300W for Toshiba, and a kitchen circuit shared with a kettle or toaster can trip. Running two heating appliances at once is the common cause. Find the rated input on the label and avoid starting both together."
+    "explanation": "A 900W microwave can pull about 1300W from the wall, so a kettle or toaster on the same dorm or apartment circuit can trip a standard 15 amp breaker. The TOSHIBA listing is one of the few that states the 1300W input, which is the number that matters for circuits. Check the input watts or amps on the rating sticker photos, not just the 900W output headline."
   },
   {
     "criterion": "Preset menus that match your food",
-    "explanation": "Presets are timed shortcuts, so they only help if they cover what you cook. Farberware's eight menus include fresh vegetables, meat and bread, while others stop at six frozen-food basics. Read the preset list against your habits."
-  },
-  {
-    "criterion": "Cleaning and removable parts",
-    "explanation": "In a small kitchen the microwave is used daily, so splatter builds up. A removable glass turntable, as on Sharp and Toshiba, can be washed in the sink. Look for easy-clean interior language and a removable plate."
+    "explanation": "Preset buttons only help if they match what you actually heat. Six presets for popcorn, pizza, and beverages cover most dorm reheating, while eight auto-cook menus add fresh vegetables and bread. Time defrost versus weight defrost also differs: weight defrost needs you to enter ounces and is more accurate for chicken or ground meat. Read the menu list before choosing."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Capacity and power match",
-    "description": "All seven were required to list 0.9 cu ft and 900W, then compared on the details around that."
+    "title": "Cavity size against outside footprint",
+    "description": "We compared the 0.9 cu ft cavity claim with the listed outside size, since the real small-kitchen test is how much interior fits in how little counter. The TOSHIBA and BLACK+DECKER list about 18.7 by 13.4 by 10.7 inches, and we scored picks with no stated dimensions lower for planning confidence."
   },
   {
-    "title": "Footprint transparency",
-    "description": "Listings that publish exact width, depth and height earned more credit for small kitchens."
+    "title": "Wattage and what the input draw means",
+    "description": "Every pick here is a 900W output design, so we looked at input draw and power levels instead. The TOSHIBA lists a 1300W input and 11 power levels, which matters on a shared dorm or studio circuit where a toaster or kettle may already be running. Picks that state neither figure got less credit."
   },
   {
-    "title": "Controls",
-    "description": "Presets, power levels, mute, memory and child lock designs were compared."
+    "title": "Turntable and loading practicality",
+    "description": "A cavity number says little about whether a plate turns, so we checked for a stated turntable size, such as the Sharp's 10.6 inch carousel and the Smad's 10.6 inch turntable. Listings silent on diameter were treated as unknown, and we noted that for a compact buyer the dish you own decides the fit."
   },
   {
-    "title": "Cleaning",
-    "description": "Removable turntables and easy-clean interior claims were noted."
+    "title": "Controls and presets worth having",
+    "description": "We weighed useful controls over a long button list: mute, memory, a 5 second child lock, and two-stage cooking. The Farberware pair lists eight auto-cook menus with weight and time defrost, which suits meal-prep reheating, while the Sharp's two-stage cooking helps defrost then cook."
   },
   {
-    "title": "Price spread",
-    "description": "With only about $35 between picks, we judged whether the extra dollars bought documented features."
+    "title": "Price relative to a known brand",
+    "description": "At under $100 for every pick, the question is what a few extra dollars buys. The Smad is the cheapest and the Frigidaire is the lowest-priced known brand, so we asked whether the extra spend on the TOSHIBA or Sharp added documentation, mute, or lighting, not just a nameplate."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Counter Constraint",
+    "subheading": "By Counter Space",
+    "intro": "Counter room is the first filter, because a microwave that does not fit the shelf is returned regardless of features.",
     "table": {
       "headers": [
-        "Your situation",
+        "Your counter situation",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Need exact numbers before buying",
-          "BLACK+DECKER 0.9 Cu Ft Black Microwave"
+          "You must plan around exact dimensions on a tight shelf",
+          "TOSHIBA microwave, because it lists 18.7 by 13.3 by 10.7 inches"
         ],
         [
-          "Need exact numbers plus mute",
-          "TOSHIBA 0.9 Cu Ft Black Stainless Microwave"
+          "A shelf under a cabinet with a measured 11 inch gap",
+          "BLACK+DECKER microwave, which lists 10.7 inch height and 18.6 by 13.6 inch footprint"
         ],
         [
-          "Light-colored kitchen",
-          "Farberware 0.9 Cu Ft White Microwave"
+          "You want a stated turntable size so a 10 inch plate fits",
+          "Sharp SMC0962KS microwave, with its listed 10.6 inch carousel turntable"
         ],
         [
-          "Budget is the main limit",
-          "Smad 0.9 Cu Ft 900W Microwave"
+          "A pantry shelf where size is less critical and price leads",
+          "Smad microwave, which still lists its 10.6 inch turntable"
+        ],
+        [
+          "A tiny kitchen where you will measure the box yourself",
+          "Frigidaire microwave, which skips dimensions but is the lowest-priced known brand"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Every pick here is under $100, so the tiers are narrow and the differences are documentation and controls.",
     "table": {
       "headers": [
-        "Price range",
+        "Price tier",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $65",
-          "Smad 0.9 Cu Ft 900W Microwave"
+          "Under $60, lowest price here",
+          "Smad, with memory and multi-stage cooking"
         ],
         [
-          "$65 to $80",
-          "Frigidaire 0.9 Cu Ft White Microwave"
+          "$60 to $80, a known brand at low cost",
+          "Frigidaire or the Farberware 0.9 Cu Ft White, with auto defrost and eight auto menus"
         ],
         [
-          "$80 to $90",
-          "BLACK+DECKER 0.9 Cu Ft Black Microwave"
+          "$80 to $90, black finish with dimensions listed",
+          "BLACK+DECKER, with fingerprint resistant finish and a 5 second lock"
         ],
         [
-          "$90 to $95",
-          "TOSHIBA 0.9 Cu Ft Black Stainless Microwave"
-        ],
-        [
-          "Around $97",
-          "Sharp SMC0962KS 0.9 Cu Ft Microwave"
+          "$90 to $100, most documentation",
+          "TOSHIBA or Sharp SMC0962KS, with mute, memory and two-stage cooking"
         ]
       ]
     }
   },
   {
-    "subheading": "Few Presets vs Many Presets",
+    "subheading": "Simple Dial-Free Presets vs Manual Power Levels",
+    "intro": "The cheaper microwaves split into two cooking styles.",
     "cards": [
       {
-        "label": "Six presets",
-        "text": "Simple menus for frozen basics and beverages. Picks: TOSHIBA, BLACK+DECKER, Frigidaire and Smad."
+        "label": "Preset-led (Farberware 0.9 Cu Ft Black, Farberware 0.9 Cu Ft White, Frigidaire)",
+        "text": "One-touch menus for popcorn, pizza, vegetables, and defrost suit a shared kitchen where several people press one button and walk away. The tradeoff is that presets assume standard portions, so a small bowl can overcook."
       },
       {
-        "label": "Eight presets",
-        "text": "Adds fresh vegetables, meat and bread shortcuts. Picks: Farberware 0.9 Cu Ft Black Microwave and Farberware 0.9 Cu Ft White Microwave."
+        "label": "Power-level control (TOSHIBA, Sharp SMC0962KS, BLACK+DECKER)",
+        "text": "Ten or eleven power levels plus two-stage cooking let you defrost at low power, then cook, which is better for dense leftovers or melting butter. It takes a little learning but gives more control."
       }
     ],
-    "note": "Most small-kitchen cooks will be fine with six presets plus the express button."
+    "note": "Most small-kitchen buyers who mainly reheat and make popcorn should default to a preset-led model, and move to the TOSHIBA or Sharp only if they cook from frozen."
   },
   {
-    "subheading": "Finish and Style",
+    "subheading": "By Kitchen Type",
+    "intro": "A dorm, a studio, and an office break room each care about different things.",
     "table": {
       "headers": [
-        "Your preference",
+        "Where it will live",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Fingerprint resistant black",
-          "BLACK+DECKER 0.9 Cu Ft Black Microwave"
+          "A dorm room on a shared hall circuit",
+          "TOSHIBA, which states the 1300W input draw you must plan around"
         ],
         [
-          "Black stainless",
-          "TOSHIBA 0.9 Cu Ft Black Stainless Microwave"
+          "A studio apartment where the microwave sits next to the sink",
+          "BLACK+DECKER, whose fingerprint resistant black finish wipes clean"
         ],
         [
-          "Stainless look, Sharp brand",
-          "Sharp SMC0962KS 0.9 Cu Ft Microwave"
+          "An office desk area with several users",
+          "Farberware 0.9 Cu Ft Black, with eight auto-cook menus anyone can press"
         ],
         [
-          "Bright white",
-          "Frigidaire 0.9 Cu Ft White Microwave"
+          "A guest room or secondary kitchen with light use",
+          "Farberware 0.9 Cu Ft White, the white finish that blends into a light kitchen"
         ]
       ]
     }
   },
   {
     "subheading": "For Apartment Renters Specifically",
+    "intro": "Renters often cannot mount anything and may share a circuit.",
     "cards": [
       {
         "label": "Look for",
-        "text": "Listed dimensions, a mute function for thin walls, and a power draw that will not trip a shared circuit."
+        "text": "A freestanding model with stated width and depth so it fits your counter, a mute function for shared walls, and stated input watts if you share a circuit."
       },
       {
         "label": "In this comparison",
-        "text": "TOSHIBA 0.9 Cu Ft Black Stainless Microwave lists size, mute and both wattage figures in one place."
+        "text": "The TOSHIBA lists dimensions, mute and a 1300W input, and the BLACK+DECKER lists dimensions and a 5 second lock, so these two let you plan placement before the box arrives."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "The spread is narrow at this tier, but it is not zero.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want mute and full specs. TOSHIBA 0.9 Cu Ft Black Stainless Microwave and Sharp SMC0962KS 0.9 Cu Ft Microwave are the two with the most documented controls."
+        "text": "You want mute, memory and clear specs. The TOSHIBA and Sharp SMC0962KS cost the most here, and the TOSHIBA is the one that documents its 11 power levels and input draw."
       },
       {
         "label": "Save if",
-        "text": "You just need 900W. Smad 0.9 Cu Ft 900W Microwave and Frigidaire 0.9 Cu Ft White Microwave offer the same size for far less."
+        "text": "You mainly reheat coffee and leftovers. The Smad is cheapest and the Frigidaire is the cheapest known brand, and both still deliver 900W in a 0.9 cu ft cavity."
       }
     ]
   }
@@ -399,28 +401,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Is 0.9 cu ft big enough for a dinner plate?",
-    "a": "Usually yes, if the turntable is about 10.6 inches, which is what the Sharp SMC0962KS, TOSHIBA and Smad list. A full-size dinner plate can clip the walls or stall rotation, so measure your plate first. If a listing omits the turntable diameter, assume a smaller one and check before buying."
+    "q": "Is 900 watts enough for a small kitchen microwave?",
+    "a": "Yes. Compact models commonly run 600 to 1050 watts, and 900W heats a bowl of soup or a frozen entree in standard time without long waits. All seven picks here are 900W output, so wattage is not what separates them; control layout and listed dimensions do."
   },
   {
-    "q": "Can I put a compact microwave on a shelf above the stove?",
-    "a": "Only if the manual explicitly allows it and there is clearance for heat and steam. A countertop model is not built to sit over a cooktop, and blocked vents can overheat it. For tight kitchens, a countertop spot near an outlet with open space on top is the safer choice."
+    "q": "Will a 0.9 cu ft microwave fit a 9 by 13 baking dish?",
+    "a": "Usually not. A 10.6 inch turntable, like the Sharp or Smad lists, cannot spin a 9 by 13 inch dish, because its diagonal exceeds the turntable diameter. A square 8 inch dish or a round 9 inch pie plate turns freely. Check the turntable size, not just the cavity."
   },
   {
-    "q": "Is 900W worth it over 700W?",
-    "a": "For frozen meals and soup, yes, since 900W gets closer to package cook times and heats more evenly. For drinks and simple leftovers, 700W is fine. Every pick here, from the Frigidaire 0.9 Cu Ft White Microwave to the BLACK+DECKER, is 900W, so the choice comes down to controls and size."
+    "q": "Can a 900W microwave trip a dorm breaker?",
+    "a": "It can. The TOSHIBA lists a 1300W input, which is about 11 amps on a 120V line. If a kettle, fridge, or space heater shares the same 15 amp circuit, running them together may trip it. Run the microwave alone, or ask facilities which outlets share a breaker."
   },
   {
-    "q": "Does the black Farberware differ from the white?",
-    "a": "Per the listings, both Farberware 0.9 cu ft models share 900W and 8 auto-cook menus, so only color and price differ. Choose by which finish matches your counter and whichever is cheaper that day."
+    "q": "Is the Sharp worth more than the Smad?",
+    "a": "If you want two-stage cooking and LED lighting, yes. The Sharp lists 10 power levels, two-stage cooking, and Express Cook up to 6 minutes, while the Smad lists memory and multi-stage cooking at the lowest price here. Both list a 10.6 inch turntable, so cooking space is the same."
   },
   {
-    "q": "How do I stop the microwave tripping my breaker?",
-    "a": "Avoid running a kettle, toaster or space heater on the same circuit while the microwave is on, and plug it straight into a wall outlet instead of a power strip. A 900W unit draws a lot at startup, so shared circuits in older apartments are the usual cause."
+    "q": "How much clearance does a microwave need?",
+    "a": "Leave about an inch on each side and a few inches at the back for the power cord, and keep the top vents clear. At around 10.7 inches tall, these models fit under most cabinets, but measure your shelf. Never cover the vents, because heat buildup shortens the life."
   },
   {
-    "q": "How much space should I leave around it?",
-    "a": "Follow the manual's clearance for the top, back and sides, since pushing the unit flat against a wall traps heat. Measure against the listed footprint, such as the BLACK+DECKER at 18.6 x 13.6 x 10.7 inches, plus room for the door to open."
+    "q": "How do I clean a microwave with no removable parts?",
+    "a": "Heat a bowl of water with lemon slices for three to five minutes, let it sit with the door closed for five more, then wipe the walls. The turntable and ring lift out and can be washed in warm soapy water. Black fingerprint-resistant finishes still need a damp cloth."
   }
 ];
 

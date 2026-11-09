@@ -84,70 +84,153 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real Amperage Output", "description": "Compared documented current from 2.4A to 4A and whether 802.3at PoE+ is required to reach the full rating." },
-  { "title": "PoE Standard Requirements", "description": "Compared standard 802.3af versus higher-power 802.3at PoE+ source requirements." },
-  { "title": "Gigabit Speed Support", "description": "Compared full Gigabit versus standard 100Mbps data transmission." },
-  { "title": "Electrical Protection", "description": "Compared isolation voltage and surge protection specifications." },
-  { "title": "Documented Range", "description": "Compared stated maximum distance from the PoE power source." }
+  {
+    "title": "Output amperage against the device",
+    "description": "A Raspberry Pi 4 with peripherals can pull more than the official PoE HAT's 2.5A. UCTRONICS 4A lists 5V at 4A, the 3.5A pick lists 3.5A, and the other two give 2.4A. We matched each against the typical load before judging price. The Pi 4 draw figure is for the board plus its attached drive or camera, not the board alone."
+  },
+  {
+    "title": "Real output on a standard 802.3af switch",
+    "description": "The 3.5A splitter is limited to 2.4A on 802.3af, and UCTRONICS 4A needs 802.3at PoE+ for full output. We recorded the source requirement per listing, since a high rating means nothing on a lower-power switch. A 5V 3.5A rating is 17.5W, which exceeds what a standard 802.3af port supplies to the device."
+  },
+  {
+    "title": "Protection and isolation",
+    "description": "The 3.5A pick lists 2.5KV isolation with short-circuit and surge protection, and TYPEC0502G lists isolation with short-circuit and overvoltage protection. We favored listed protections over a bare amperage claim. A named isolation figure is a safety feature, not just a datasheet number."
+  },
+  {
+    "title": "Ethernet speed and range",
+    "description": "All four list Gigabit Ethernet, and the 2.4A UCTRONICS lists up to 300 feet of range from the power source. We compared the data speed and reach since USB-C splitters are often used with cameras at a distance. Gigabit on all four means the data path is not the differentiator here."
+  },
+  {
+    "title": "What it cannot do",
+    "description": "No pick supports PD or QC fast charging, and each outputs a fixed 5V. We counted that clearly stated limit as a plus, and noted that none is built for charging a laptop. Fixed 5V means a USB-C splitter cannot power a laptop or fast-charge a phone."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Maximum amperage exceeding the official Pi PoE HAT", "UCTRONICS USB-C PoE Splitter Gigabit, 5V/4A"],
-        ["High amperage at a lower price", "Gigabit PoE Splitter USB C 5V 3.5A"],
-        ["Standard 2.4A on existing 802.3af infrastructure", "UCTRONICS PoE Splitter USB-C 5V"],
-        ["The lowest price for standard 2.4A output", "Gigabit Type C PoE Splitter 5V 2.4A"]
+    "subheading": "By Primary Need",
+    "intro": "Match the splitter to the device's real draw.",
+    "table": {
+      "headers": [
+        "If you want",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Maximum amperage for power-hungry Pis",
+          "UCTRONICS USB-C PoE Splitter Gigabit, 5V/4A."
+        ],
+        [
+          "High amperage plus isolation and surge protection",
+          "Gigabit PoE Splitter USB C 5V 3.5A."
+        ],
+        [
+          "Standard 2.4A on any 802.3af switch, long range",
+          "UCTRONICS PoE Splitter USB-C 5V, 300ft range."
+        ],
+        [
+          "Lowest price at 2.4A",
+          "Gigabit Type C PoE Splitter 5V 2.4A (TYPEC0502G)."
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $12", "Gigabit Type C PoE Splitter (under $15)"],
-        ["Under $14", "Gigabit PoE Splitter USB C 3.5A (under $15)"],
-        ["Under $15", "UCTRONICS PoE Splitter USB-C 5V (under $15)"],
-        ["Under $25", "UCTRONICS USB-C PoE Splitter Gigabit 4A (under $25)"]
+    "subheading": "By Budget",
+    "intro": "Prices are close, so the amperage matters more.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $12, cheapest",
+          "Gigabit Type C PoE Splitter (TYPEC0502G)."
+        ],
+        [
+          "Under $14, 3.5A",
+          "Gigabit PoE Splitter USB C 3.5A."
+        ],
+        [
+          "Under $15, 2.4A with range",
+          "UCTRONICS PoE Splitter USB-C 5V."
+        ],
+        [
+          "Under $25, 4A",
+          "UCTRONICS USB-C PoE Splitter Gigabit 4A."
+        ]
+      ]
+    }
   },
   {
-    subheading: "Maximum Amperage vs Standard 802.3af Compatibility",
-    cards: [
-      { label: "Maximum amperage (UCTRONICS 4A, Gigabit 3.5A)", text: "Both require an 802.3at PoE+ source to unlock their full amperage, delivering more power for demanding Raspberry Pi 4/5 or Jetson Nano applications." },
-      { label: "Standard 802.3af compatibility (UCTRONICS 2.4A, Gigabit 2.4A)", text: "Both work fully on standard, more common 802.3af PoE infrastructure without needing an upgrade to PoE+." }
+    "subheading": "Maximum Amperage vs Standard 802.3af Compatibility",
+    "intro": "Higher amperage needs a stronger switch.",
+    "cards": [
+      {
+        "label": "Maximum amperage",
+        "text": "UCTRONICS 4A and the 3.5A pick give higher output but need 802.3at PoE+ for their full rating."
+      },
+      {
+        "label": "Standard 802.3af",
+        "text": "The 2.4A splitters work on a basic switch and cover most Pi 4 use."
+      }
     ],
-    note: "If you already have or plan to install an 802.3at PoE+ switch and run power-hungry devices, the higher-amperage picks are worth it. If your PoE infrastructure is standard 802.3af, the 2.4A picks deliver their full rated performance without any upgrade.",
+    "note": "If your switch is 802.3af, choose a 2.4A model and do not pay for amperage you cannot reach."
   },
   {
-    subheading: "By PoE Infrastructure",
-    table: {
-      headers: ["Your PoE switch/injector", "Recommended pick"],
-      rows: [
-        ["802.3at PoE+ (higher power budget)", "UCTRONICS 4A or Gigabit 3.5A pick"],
-        ["Standard 802.3af PoE", "UCTRONICS 2.4A or Gigabit 2.4A pick"],
-        ["Unsure of PoE standard", "Either 2.4A pick works safely on both standards"]
+    "subheading": "By PoE Infrastructure",
+    "intro": "Know your switch first.",
+    "table": {
+      "headers": [
+        "Your switch",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "802.3af, low-cost",
+          "UCTRONICS PoE Splitter USB-C 5V, or the 2.4A Gigabit pick."
+        ],
+        [
+          "802.3at PoE+, Pi with drive",
+          "UCTRONICS USB-C PoE Splitter 4A."
+        ],
+        [
+          "802.3at, wants isolation",
+          "Gigabit PoE Splitter USB C 3.5A."
+        ],
+        [
+          "Camera far from the switch",
+          "UCTRONICS PoE Splitter USB-C 5V, with up to 300ft range."
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Multi-Raspberry Pi Deployment Specifically",
-    cards: [
-      { label: "Look for", text: "A USB-C splitter with amperage that meets or exceeds your Pi model's actual power draw under full load, especially if running attached peripherals like drives or HATs that increase total power consumption." },
-      { label: "In this comparison", text: "The UCTRONICS 4A pick specifically markets itself around eliminating wall-charger clutter for multiple simultaneously running Pi units." }
-    ],
+    "subheading": "For a Multi-Raspberry Pi Deployment Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "An amperage at or above the Pi's worst-case draw with attached peripherals, and a switch that can power all the splitters."
+      },
+      {
+        "label": "In this comparison",
+        "text": "UCTRONICS 4A exceeds the official PoE HAT's 2.5A, and the 3.5A pick lists isolation and surge protection."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You're running a power-hungry Raspberry Pi 4 setup that needs more than the official PoE HAT's 2.5A, where the UCTRONICS 4A pick's under $25 price is justified by that higher ceiling." },
-      { label: "Save if", text: "Your device works fine within the standard 2.4A ceiling, where the Gigabit Type C pick delivers that for under $15, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You run a Pi 4 with peripherals. UCTRONICS 4A sits under $25, above the under-$15 picks."
+      },
+      {
+        "label": "Save if",
+        "text": "Your device is fine at 2.4A. Gigabit Type C 2.4A stays under $12."
+      }
+    ]
   }
 ];
 
@@ -175,12 +258,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will I get the full advertised amperage from any USB-C PoE splitter on my existing PoE switch?", "a": "Not necessarily; the higher-amperage picks in this comparison specifically require an 802.3at PoE+ switch or injector to reach their full rating, dropping to a lower output like 2.4A on a standard 802.3af switch, so checking your PoE infrastructure's exact standard is important." },
-  { "q": "What's the most common mistake buyers make when choosing a USB-C PoE splitter?", "a": "Assuming a high-amperage splitter will deliver its full advertised output regardless of the PoE source, when several splitters specifically cap their output on standard 802.3af switches and only reach their maximum rating on 802.3at PoE+ infrastructure." },
-  { "q": "Is the UCTRONICS 4A splitter worth the higher price over the 3.5A Gigabit pick?", "a": "If you need the absolute maximum amperage for a genuinely power-hungry multi-Pi setup, the UCTRONICS 4A pick's higher price is justified, but the Gigabit 3.5A pick delivers nearly as much power at roughly half the cost for most demanding use cases." },
-  { "q": "Can I use a USB-C PoE splitter to fast-charge my phone?", "a": "No, these splitters specifically don't support PD or QC fast charging protocols, delivering only fixed 5V power, so they're suited for devices like a Raspberry Pi that need stable 5V rather than phones expecting fast-charge negotiation." },
-  { "q": "Do I need the highest-amperage splitter for a basic Raspberry Pi 4 setup?", "a": "Not necessarily; a standard Raspberry Pi 4 running typical workloads is usually fine with a 2.4A splitter, and the higher-amperage picks are specifically worth it only if you're running demanding applications or multiple attached peripherals that increase power draw." },
-  { "q": "How do I know if my PoE switch is 802.3af or 802.3at?", "a": "Checking your PoE switch or injector's product documentation or specification label for its exact IEEE standard compliance is the reliable way to confirm whether you have standard 802.3af or higher-power 802.3at PoE+ before choosing a USB-C splitter." }
+  {
+    "q": "Will I get the full amperage on my existing PoE switch?",
+    "a": "Only if the switch supports the standard the splitter needs. The higher-amperage UCTRONICS 4A and the 3.5A pick need 802.3at PoE+ for their full rating, and on a standard 802.3af switch the 3.5A pick drops to 2.4A."
+  },
+  {
+    "q": "What is the most common mistake with a USB-C PoE splitter?",
+    "a": "Assuming a high amperage rating is delivered on any switch. The splitter can only deliver what the PoE source offers, so check your switch's 802.3af or 802.3at label before choosing 3.5A or 4A. A 5V 4A load is about 20W, which is more than a standard 802.3af port supplies."
+  },
+  {
+    "q": "Is UCTRONICS 4A worth over the 3.5A Gigabit pick?",
+    "a": "Only for a power-hungry multi-Pi setup. UCTRONICS 4A exceeds the official PoE HAT's 2.5A, but costs more and needs PoE+. The 3.5A pick is cheaper, with isolation and surge protection listed."
+  },
+  {
+    "q": "Can I fast-charge a phone with a USB-C PoE splitter?",
+    "a": "No. These splitters output a fixed 5V and do not support PD or QC fast-charging protocols, so a phone charges at normal speed. Use a PD wall charger for fast charging, and keep the splitter for a Pi, camera or small device that wants steady 5V from the network cable."
+  },
+  {
+    "q": "Do I need the highest amperage for a basic Raspberry Pi 4?",
+    "a": "No. A Pi 4 doing normal work is usually fine on 2.4A, so Gigabit Type C 2.4A (TYPEC0502G) and the 2.4A UCTRONICS cover it. Step up to UCTRONICS 4A only if you add a drive, a camera or a HAT that pushes the board past that ceiling."
+  },
+  {
+    "q": "How do I tell if my PoE switch is 802.3af or 802.3at?",
+    "a": "Check the switch's label or datasheet for the standard and per-port wattage. 802.3af delivers about 15W per port and 802.3at about 30W, so a 5V 4A splitter that needs around 20W requires the latter. If the label is missing, look up the switch model."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

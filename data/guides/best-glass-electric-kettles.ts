@@ -163,169 +163,169 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "What the water actually touches",
-    "explanation": "A glass body does not guarantee a plastic-free water path, since lids, spouts and filters are often plastic. Cosori claims no plastic contact, Plaman has a glass inner and a plastic outer shell, and Elite Gourmet says BPA-free parts. Look for plastic-free lid and stainless spout wording."
+    "explanation": "A glass body does not guarantee a plastic-free water path, since lids, spouts and filters are often plastic. Cosori claims no plastic contact, Plaman has a glass inner and a plastic outer shell, and Elite Gourmet says BPA-free parts. Look for plastic-free lid and stainless spout wording. Read the bullets for lid, spout and filter materials, and check whether a listing says no plastic contact or only says glass body."
   },
   {
     "criterion": "Borosilicate glass named",
-    "explanation": "Borosilicate is the glass type designed to take heat shock, and a listing that only says glass says less. Cosori, Elite Gourmet, Plaman and Mueller name it. Look for the exact word, and handle glass carefully."
+    "explanation": "Borosilicate is the glass type designed to take heat shock, and a listing that only says glass says less. Cosori, Elite Gourmet, Plaman and Mueller name it. Look for the exact word, and handle glass carefully. Search the listing for the word borosilicate; a vague glass label does not tell you the material can handle repeated heating and cooling."
   },
   {
     "criterion": "Wattage and circuit load",
-    "explanation": "A 1500W kettle boils faster but loads a circuit heavily, while Elite Gourmet's 1100W is gentler. This matters in dorms and offices. Check the rating and avoid sharing the circuit with a heater."
+    "explanation": "A 1500W kettle boils faster but loads a circuit heavily, while Elite Gourmet's 1100W is gentler. This matters in dorms and offices. Check the rating and avoid sharing the circuit with a heater. Check the wattage line and your kitchen circuit, because Cosori and Mueller at 1500W draw more than Elite Gourmet at 1100W, so avoid running them next to a toaster."
   },
   {
     "criterion": "Double wall and exterior temperature",
-    "explanation": "A double wall keeps the outside cool, but the cooler shell is often plastic. Plaman states the outer shell stays under 140F and Elite Gourmet has a dual wall. Check whether the shell is plastic or stainless."
+    "explanation": "A double wall keeps the outside cool, but the cooler shell is often plastic. Plaman states the outer shell stays under 140F and Elite Gourmet has a dual wall. Check whether the shell is plastic or stainless. Read whether the outer shell is plastic or glass, since Plaman states the outer shell stays under 140F but it is plastic, so the cool touch comes with a material compromise."
   },
   {
     "criterion": "Presets and keep-warm",
-    "explanation": "Presets help for tea and coffee, and keep-warm saves reboiling. Plaman gives 6 presets and a 4 hour hold, Elite Gourmet a 2 hour hold. Pick based on whether you reheat often."
+    "explanation": "Presets help for tea and coffee, and keep-warm saves reboiling. Plaman gives 6 presets and a 4 hour hold, Elite Gourmet a 2 hour hold. Pick based on whether you reheat often. Count the presets in the listing and compare the keep-warm time, such as Plaman's 4 hours and Elite Gourmet's 2 hours, so you buy only what you will use."
   },
   {
     "criterion": "Lid and opening for descaling",
-    "explanation": "Glass shows scale fast in hard water, so being able to reach the interior matters. Mueller has a fully removable lid and Cosori a wide mouth. Check the lid type before buying."
+    "explanation": "Glass shows scale fast in hard water, so being able to reach the interior matters. Mueller has a fully removable lid and Cosori a wide mouth. Check the lid type before buying. Check the opening width and removable lid details, and look at whether the filter is stainless steel, because mineral scale is easy to see in glass but hard to reach in a narrow neck."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Materials",
-    "description": "We compared borosilicate claims, plastic contact and outer shell materials."
+    "title": "Water contact materials",
+    "description": "We read each listing for lid, spout, filter and base materials, because a glass body can still send water over plastic. Cosori claims no plastic water contact, Mueller uses a stainless spout with a filter, and Elite Gourmet has a 304 stainless interior, so each earned credit for what it actually states."
   },
   {
-    "title": "Power",
-    "description": "Wattage and capacity were compared across the five kettles."
+    "title": "Borosilicate glass and heat shock",
+    "description": "We checked which listings name borosilicate. Cosori and Mueller do, while others say glass carafe or glass inner. The glass type decides how well the body handles rapid temperature swings, so a named material earned more trust than an unnamed one. Heat shock is what cracks cheaper glass over time."
   },
   {
-    "title": "Features",
-    "description": "Presets, keep-warm and display features were compared."
+    "title": "Wattage and boil time tradeoff",
+    "description": "We compared 1500W kettles with Elite Gourmet's 1100W. Higher wattage boils faster but loads the circuit more, so we noted the speed and circuit tradeoff rather than treating the higher number as automatically better. On a shared dorm or office circuit, that distinction can decide whether the breaker holds."
   },
   {
-    "title": "Cleaning",
-    "description": "Lid type and opening width were compared for scale removal."
+    "title": "Presets, keep-warm and controls",
+    "description": "We compared Plaman's six presets and four hour keep-warm, Elite Gourmet's touchscreen with a two hour hold and the plain boil of Cosori, Amazon Basics and Mueller. Presets matter for green tea and coffee, but add cost and menus. We counted presets only when the listing states them."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $30 to $60 were compared with documented features."
+    "title": "Cleaning access and size",
+    "description": "We looked at mouth width and lid design. Mueller's fully removable lid and Cosori's wide mouth make scale easy to reach, and Mueller's 1.8L is the largest here, so we weighed practical cleaning access above looks. Glass shows scale quickly, so reaching it matters."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Priority",
+    "subheading": "By Use",
+    "intro": "The best glass kettle depends more on what you boil water for than on brand.",
     "table": {
       "headers": [
-        "Your situation",
+        "Your main use",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Cleanest water path",
-          "Cosori 1.7L Borosilicate Glass Electric Kettle 1500W"
+          "Everyday boiling with minimal plastic and a wide mouth for cleaning",
+          "Cosori 1.7L Borosilicate Glass Electric Kettle, which claims no plastic water contact"
         ],
         [
-          "Presets and long hold",
-          "Plaman Cool Touch Glass Electric Kettle with 6 Presets"
+          "Green tea, coffee and baby formula at specific temperatures",
+          "Plaman Cool Touch Glass Electric Kettle with 6 Presets, with a 4 hour keep warm"
         ],
         [
-          "Lower wattage with presets",
+          "A bigger kettle for a shared kitchen at a low price",
+          "Mueller Rapid Boil Glass Electric Kettle 1.8L, with a removable lid"
+        ],
+        [
+          "A modern look with touch presets and a cool outer wall",
           "Elite Gourmet 1.7L Dual-Wall Glass Kettle with Touchscreen"
-        ],
-        [
-          "Easy cleaning of a big kettle",
-          "Mueller Rapid Boil Glass Electric Kettle 1.8L"
-        ],
-        [
-          "Plain kettle, named thermostat",
-          "Amazon Basics 1.7L Glass Carafe Electric Kettle 1500W"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "All five stay in a narrow band, so the choice comes down to features per dollar.",
     "table": {
       "headers": [
-        "Price range",
+        "Price bucket",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $27",
-          "Mueller Rapid Boil Glass Electric Kettle 1.8L"
+          "Under $27 for the largest capacity",
+          "Mueller Rapid Boil 1.8L"
         ],
         [
-          "About $30",
-          "Cosori 1.7L Borosilicate Glass Electric Kettle 1500W"
+          "Under $30 for a plastic-free-water claim",
+          "Cosori 1.7L Borosilicate"
         ],
         [
-          "About $31",
-          "Amazon Basics 1.7L Glass Carafe Electric Kettle 1500W"
+          "Under $32 with a named Strix thermostat",
+          "Amazon Basics 1.7L Glass Carafe Electric Kettle"
         ],
         [
-          "About $35",
-          "Elite Gourmet 1.7L Dual-Wall Glass Kettle with Touchscreen"
+          "Under $35 with presets on a touchscreen",
+          "Elite Gourmet 1.7L Dual-Wall"
         ],
         [
-          "About $51",
-          "Plaman Cool Touch Glass Electric Kettle with 6 Presets"
+          "Under $51 for six presets and a longer hold",
+          "Plaman Cool Touch Glass Electric Kettle"
         ]
       ]
     }
   },
   {
     "subheading": "Single Wall vs Dual Wall",
+    "intro": "Glass keeps heat poorly on its own, so a dual wall changes the feel and the material mix.",
     "cards": [
       {
-        "label": "Single wall glass",
-        "text": "A single glass wall lets you see the water best and costs less, but the body gets hot. That covers Cosori 1.7L Borosilicate Glass Electric Kettle 1500W, Amazon Basics 1.7L Glass Carafe Electric Kettle 1500W and Mueller Rapid Boil Glass Electric Kettle 1.8L."
+        "label": "Single wall (Cosori, Amazon Basics, Mueller)",
+        "text": "Clear glass lets you watch the boil and spot scale, but the outside gets hot, so handle only by the grip. These suit buyers who want the simplest cleaning."
       },
       {
-        "label": "Dual wall",
-        "text": "A dual wall keeps the outside cooler and holds heat better but is bulkier and may add a plastic shell. That covers Elite Gourmet 1.7L Dual-Wall Glass Kettle with Touchscreen and Plaman Cool Touch Glass Electric Kettle with 6 Presets."
+        "label": "Dual wall (Elite Gourmet, Plaman)",
+        "text": "An outer shell stays cooler to the touch, and Plaman states under 140F. The shell is plastic on Plaman, and Elite Gourmet lists BPA-free parts, so you trade a cooler exterior for more plastic."
       }
     ],
-    "note": "Choose single wall for the cleanest look, and dual wall if kids or small spaces make hot exteriors a risk."
+    "note": "If you boil water many times a day, choose single wall for cleaning and purity; pick dual wall if kids might brush the kettle."
   },
   {
-    "subheading": "By Drink Preference",
+    "subheading": "By Temperature Control",
+    "intro": "Do you boil water or heat it to a target?",
     "table": {
       "headers": [
-        "Your concern",
+        "You want",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Tea at different temperatures",
-          "Plaman Cool Touch Glass Electric Kettle with 6 Presets"
+          "Plain boil only",
+          "Cosori, Amazon Basics or Mueller"
         ],
         [
-          "Keep warm for 2 hours",
-          "Elite Gourmet 1.7L Dual-Wall Glass Kettle with Touchscreen"
+          "Presets plus keep warm for tea",
+          "Plaman, which has six presets and a 4 hour hold"
         ],
         [
-          "Just boiling water",
-          "Mueller Rapid Boil Glass Electric Kettle 1.8L"
+          "A two hour hold on a touchscreen",
+          "Elite Gourmet, though 1100W boils more slowly"
         ],
         [
-          "Pure taste, no plastic contact",
-          "Cosori 1.7L Borosilicate Glass Electric Kettle 1500W"
+          "Visible blue light while boiling",
+          "Amazon Basics, with a blue LED and a level indicator"
         ]
       ]
     }
   },
   {
-    "subheading": "For Hard Water Homes Specifically",
+    "subheading": "For a Dorm or Small Kitchen Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "A removable lid or wide mouth, a smooth glass interior and an easy-to-reach filter. Descale on a schedule."
+        "text": "A 1.7 liter size or smaller, an automatic shutoff, a wattage that suits a shared circuit and a cord that reaches your outlet."
       },
       {
         "label": "In this comparison",
-        "text": "Mueller Rapid Boil Glass Electric Kettle 1.8L has a fully removable lid, and Cosori 1.7L Borosilicate Glass Electric Kettle 1500W has a wide mouth and large-angle lid."
+        "text": "Elite Gourmet runs at 1100W, which is gentler on shared outlets, while Cosori lists boil-dry protection and a compact 1.7L body."
       }
     ]
   },
@@ -334,11 +334,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want presets and a 4 hour hold. Plaman Cool Touch Glass Electric Kettle with 6 Presets and Elite Gourmet 1.7L Dual-Wall Glass Kettle with Touchscreen offer those."
+        "text": "You regularly make green tea or pour over coffee, where Plaman's six presets and 4 hour keep-warm save reboiling."
       },
       {
         "label": "Save if",
-        "text": "You only need boiling water. Mueller Rapid Boil Glass Electric Kettle 1.8L and Cosori 1.7L Borosilicate Glass Electric Kettle 1500W cost about $27 to $30."
+        "text": "You only need boiled water, so Mueller's low price and large capacity or Cosori's plain borosilicate body cover it."
       }
     ]
   }
@@ -347,28 +347,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Is glass safer than stainless for kettles?",
-    "a": "Glass avoids a metallic taste, but all five here use some other material in the water path or shell. Stainless is sturdier. Check lid and spout materials either way."
+    "q": "Is glass really safer than stainless steel for boiling water?",
+    "a": "Glass does not rust or add metal taste, but a glass kettle can still have plastic lids and spouts. Check that the listing names borosilicate and describes the water path, and note that glass is more fragile than steel."
   },
   {
-    "q": "How do I descale a glass kettle?",
-    "a": "Boil diluted white vinegar, let it sit, and rinse well. Glass shows scale quickly, so do this regularly in hard water."
+    "q": "What is the most common mistake with glass kettles?",
+    "a": "Assuming a glass body means no plastic. Lids, spouts and filters are often plastic. Cosori claims no plastic water contact and Mueller lists a stainless spout, while the Plaman's outer shell is plastic."
   },
   {
-    "q": "Is a glass kettle worth it over stainless?",
-    "a": "If you like seeing the water and want cleanliness, yes. For durability or a busy house, stainless is more forgiving."
+    "q": "Is the Plaman worth more than the Cosori?",
+    "a": "The Plaman adds six presets, a 4 hour keep-warm and a cool outer shell, but costs more and its shell is plastic. The Cosori is plain boil with a wide mouth. Choose Plaman for tea variety, Cosori for simplicity."
   },
   {
-    "q": "Can glass break from boiling?",
-    "a": "Borosilicate is designed for heat shock, but still avoid knocks and cold water on a hot kettle. Handle gently."
+    "q": "Do I need to boil and discard water first?",
+    "a": "Mueller's listing notes a first-use boil-and-discard step. Do this with any new kettle by boiling a full tank and pouring it out, which clears factory residue. Repeat once if you notice a taste."
   },
   {
-    "q": "Do I need to boil water before first use?",
-    "a": "Mueller recommends a couple of boil-and-discard cycles. It is a good habit for any new kettle."
+    "q": "How do I remove limescale from a glass kettle?",
+    "a": "Fill with a mix of water and white vinegar, boil, let it sit, then rinse well. Glass lets you see scale forming, so clean when you notice white buildup. A wide mouth like Cosori's or a removable lid like Mueller's makes it easier."
   },
   {
-    "q": "Does BPA-free mean no plastic?",
-    "a": "No. Look for plastic-free lid and stainless spout wording, which Cosori claims."
+    "q": "Is a 1500W kettle too much for a dorm outlet?",
+    "a": "It can be if other appliances share the circuit. Cosori, Plaman, Amazon Basics and Mueller are 1500W, while Elite Gourmet is 1100W. Avoid running them with a microwave or space heater on the same circuit."
   }
 ];
 

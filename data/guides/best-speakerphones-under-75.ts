@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Platform Certification", "description": "Checked for formal Microsoft Teams, Zoom, or other platform certifications versus general compatibility claims." },
-  { "title": "Pickup Range and Room Size", "description": "Compared stated pickup radius and recommended attendee count across the lineup." },
-  { "title": "Connectivity Options", "description": "Compared Bluetooth, USB-C, and dongle connectivity across each pick." },
-  { "title": "Audio Hardware Quality", "description": "Checked for dedicated speaker driver specs and bass-enhancement hardware beyond basic mic arrays." },
-  { "title": "Battery Life and Portability", "description": "Compared stated battery life and physical portability features for on-the-go use." }
+  {
+    "title": "Room size and pickup",
+    "description": "We compared the Yealink 13 foot radius for 4 to 8 people with the 3 meter radius of the Anker and RayBit. Guides place small rooms at up to about 6 people, so a 13 foot radius suits a small meeting room, while a 3 meter radius suits a desk and a few colleagues. We also noted that a bigger radius in a small room can add echo, so a wide pickup is not automatically better."
+  },
+  {
+    "title": "Platform certification",
+    "description": "We checked certification. The Yealink SP92 lists Teams certification, and certified units get platform-specific buttons, LED call status and tuned firmware that uncertified units may lack. For an office on Teams, certification is a requirement. Certification does not make a device sound better, so we credited it only where it matched a stated platform."
+  },
+  {
+    "title": "Connectivity",
+    "description": "We read the Yealink Bluetooth 5.3 with a dongle, the Anker USB-C only and the EMEET USB-C to USB-A wired. USB is more reliable for calls, while Bluetooth adds flexibility, so we compared which ports suit your laptop. The EMEET M1A lists a wired USB-C to USB-A connection, so it needs no pairing and no battery."
+  },
+  {
+    "title": "Audio hardware",
+    "description": "We noted the Anker 4 microphones and 1.75 inch driver with 2 passive bass radiators, the EMEET 2 omnidirectional mics and 9 volume levels, and the RayBit echo cancellation and noise reduction. More mics help in a bigger room, but they cannot fix a noisy one. The RayBit lists echo cancellation and a noise reduction algorithm, but no daisy chain, so it is a one-unit solution."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +112,127 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Formal Teams certification and the longest battery life", "Yealink SP92 Conference Speaker with Bluetooth Dongle"],
-        ["Richer audio quality for calls and music", "Anker PowerConf S330 USB Speakerphone"],
-        ["Broad platform compatibility at a lower price", "EMEET M1A USB Conference Speaker and Microphone"],
-        ["The lowest price without cutting core features", "RayBit USB Speakerphone"]
+    "subheading": "By Room Size",
+    "intro": "Rooms vary from a desk to a small meeting room.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A small meeting room of 4 to 8 people",
+          "Yealink SP92 Conference Speaker with Bluetooth Dongle, with a 13 foot radius"
+        ],
+        [
+          "A home office or small desk with music as well as calls",
+          "Anker PowerConf S330 USB Speakerphone, with a 1.75 inch driver and passive bass radiators"
+        ],
+        [
+          "A simple wired setup for one or two people",
+          "EMEET M1A USB Conference Speaker and Microphone"
+        ],
+        [
+          "A portable unit with cable management",
+          "RayBit USB Speakerphone, with a 3 meter radius"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $60", "RayBit (under $60)"],
-        ["Under $63", "EMEET M1A (under $70)"],
-        ["Under $80", "Yealink SP92 or Anker PowerConf S330 (both under $80)"]
+    "subheading": "By Budget",
+    "intro": "Two units sit near $80 and two near $60.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $75",
+          "RayBit, the lowest price"
+        ],
+        [
+          "Under $75",
+          "EMEET M1A, with 360 degree pickup"
+        ],
+        [
+          "Under $100",
+          "Anker PowerConf S330 or Yealink SP92, depending on whether you need certification"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Wireless Bluetooth vs Wired USB-Only Connection",
-    cards: [
-      { label: "Bluetooth-capable (Yealink SP92)", text: "Adds wireless flexibility to pair with a phone or laptop without a cable, useful if you move between devices frequently." },
-      { label: "Wired USB-only (Anker, EMEET M1A, RayBit)", text: "Trades wireless flexibility for a simpler, more stable connection that avoids pairing steps and potential Bluetooth interference." }
+    "subheading": "Certified vs Uncertified",
+    "intro": "Certification adds platform integration.",
+    "cards": [
+      {
+        "label": "Certified",
+        "text": "The Yealink SP92 lists Teams certification, which means call buttons and status integration with the platform and tested audio behavior."
+      },
+      {
+        "label": "Uncertified",
+        "text": "The Anker PowerConf S330, EMEET M1A and RayBit work as standard USB audio devices, which is enough for basic calls on any platform."
+      }
     ],
-    note: "If you frequently switch between a laptop and a phone for calls, the Yealink SP92's Bluetooth option adds real convenience. If you mostly stay at one desk connected to one computer, a wired USB-only pick works just as reliably for less.",
+    "note": "If your company runs on Teams, choose the certified unit. Otherwise a USB audio device is fine."
   },
   {
-    subheading: "By Room Size",
-    table: {
-      headers: ["Your typical meeting size", "Recommended pick"],
-      rows: [
-        ["4-8 person conference room", "Yealink SP92 (13ft radius)"],
-        ["Small group, 3m radius", "Anker PowerConf S330 or RayBit"],
-        ["Small to medium group with 360 degree coverage", "EMEET M1A"]
+    "subheading": "By Connection",
+    "intro": "Match the port on your laptop.",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A laptop with USB-C only",
+          "Anker PowerConf S330, which uses USB-C"
+        ],
+        [
+          "A desktop with USB-A ports",
+          "EMEET M1A, which includes USB-C to USB-A"
+        ],
+        [
+          "Bluetooth for a phone plus a dongle for a PC",
+          "Yealink SP92, with Bluetooth 5.3 and a dongle"
+        ],
+        [
+          "A flexible portable unit",
+          "RayBit"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Small Business Requiring IT-Approved Hardware Specifically",
-    cards: [
-      { label: "Look for", text: "Formal platform certification, like Microsoft Teams certified status, rather than general 'compatible with' language, since IT departments often require certified hardware for approved use." },
-      { label: "In this comparison", text: "The Yealink SP92 pick's Microsoft Teams certification specifically satisfies IT approval requirements that general compatibility claims on the other picks may not." }
-    ],
+    "subheading": "For a Small Meeting Room Specifically",
+    "intro": "A small room needs a unit that covers every seat.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A radius of at least 3 meters, full duplex audio and a stated participant range."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Yealink SP92 lists a 13 foot radius and a 4 to 8 person range with a 20 hour battery, which fits a small room."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need formal Teams certification, the longest battery life, and multiple connectivity options, where the Yealink SP92 delivers all three at the top of this tier." },
-      { label: "Save if", text: "You just need reliable wired call quality without certification requirements, where the RayBit pick covers that for about $20 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $100 guide adds Zoom certified and Jabra models.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need a bigger battery or Zoom certification. The under $100 guide includes Anker PowerConf with 6 mics."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need a desk unit. RayBit is the lowest price here."
+      }
+    ]
   }
 ];
 
@@ -182,12 +260,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Does Microsoft Teams certification mean a speakerphone won't work with Zoom or Google Meet?", "a": "No, the Yealink SP92 pick's Teams certification is an additional formal approval on top of its general compatibility, and it still works with Zoom, Google Meet, Cisco Webex, and other major platforms without issue." },
-  { "q": "What's the most common mistake buyers make when choosing between a Bluetooth-capable and USB-only speakerphone?", "a": "Assuming Bluetooth is always the better choice, when a stable wired USB connection like on the Anker or RayBit picks actually avoids potential Bluetooth interference and pairing hassles for a fixed desk setup that never needs to move." },
-  { "q": "Is the Yealink SP92 worth it over the cheaper RayBit option?", "a": "If you specifically need formal Teams certification, the longest battery life, or multiple connectivity options, yes, but if you just need reliable wired call quality without certification requirements, the RayBit pick covers that for about $20 less." },
-  { "q": "How do I know if the Anker PowerConf S330's bass-radiator speakers will improve my meeting audio noticeably?", "a": "The improvement is most noticeable when playing music or listening to richer audio content rather than during typical speech-focused conference calls, where the difference from a standard speaker is less pronounced but still present." },
-  { "q": "Can the EMEET M1A be used without installing any special software?", "a": "Yes, it connects via USB-C to USB-A plug and play with no drivers required, and it works across major conferencing platforms without needing dedicated software installation." },
-  { "q": "Do these speakerphones require a wall outlet to work, or can they run on battery alone?", "a": "The Yealink SP92 specifically includes a 20-hour rechargeable battery for cordless use, while the Anker, EMEET M1A, and RayBit picks in this tier don't specify standalone battery power, suggesting they primarily rely on USB connection for power." }
+  {
+    "q": "Is Teams certification worth it?",
+    "a": "If you use Teams daily, yes. Certified devices get platform buttons, LED call status and firmware tuned to the platform. The Yealink SP92 lists Teams certification. Other platforms still work with the device as plain USB audio. Without certification the device still works as a standard USB audio device."
+  },
+  {
+    "q": "How many people can a 13 foot radius cover?",
+    "a": "The Yealink lists 4 to 8 people. Guides suggest small rooms hold up to about 6 people, so a 13 foot radius is generous. Bigger rooms need more mics or daisy chaining. Pick the unit by the number of people who sit in the room, not by the maximum radius."
+  },
+  {
+    "q": "Is the Anker better than the EMEET for music?",
+    "a": "The Anker lists a 1.75 inch driver with 2 passive bass radiators, which is built for fuller sound. The EMEET lists 9 volume levels and a wired connection, which is simpler. Choose by whether music matters. The Anker is USB-C only, so check that your laptop has a free USB-C port."
+  },
+  {
+    "q": "Do I need Bluetooth on a conference speaker?",
+    "a": "Not for meetings. USB is steadier and has lower latency. Bluetooth is useful for phone calls and music, and the Yealink includes both Bluetooth 5.3 and a dongle. If you want music, pair it with a phone for a few minutes and judge the sound."
+  },
+  {
+    "q": "How do I set the speakerphone as default on my computer?",
+    "a": "Plug it in, then choose it as the input and output device in your computer's sound settings and in the meeting app. Some apps keep a separate setting, so check both. Test it in the app's audio settings before a meeting starts."
+  },
+  {
+    "q": "How should I place a speakerphone?",
+    "a": "Put it in the center of the table, away from screens and walls. Keep it clear of papers and avoid placing it on a hollow surface. Soft furnishings reduce echo. Cleaning is a quick wipe of the mesh with a dry cloth, never a wet one, so dust does not clog the speaker grille."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

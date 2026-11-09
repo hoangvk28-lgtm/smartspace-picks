@@ -217,24 +217,24 @@ export const products: GuideProduct[] = [
 
 export const howWeEvaluated = [
   {
-    "title": "Height and tilt range",
-    "description": "Each footrest was compared on its stated height settings and tilt range, since fit to the user's legs is the core job."
+    "title": "Height range against a real chair",
+    "description": "We compared stated heights, from Mind Reader's 3.5 to 6.75 inches to the HUANUO's 3.9, 5 and 6 inch steps. A footrest should close the gap between your feet and the floor without lifting your knees above your hips, so range at both ends counted more than the maximum alone."
   },
   {
-    "title": "Platform and desk fit",
-    "description": "Listed platform dimensions and base design were weighed against typical desk clearance."
+    "title": "Tilt behavior",
+    "description": "We separated fixed presets, rockers and rollers. HUANUO rocks each foot independently, ErGear tilts plus or minus 30 degrees, and Staples gives three fixed positions. Movement helps circulation, but a platform that wobbles under both feet can feel tiring, so we noted which pick suits steady typing."
   },
   {
-    "title": "Materials and stability",
-    "description": "Frame material, non-slip pads or wheels and weight ratings were considered as signs of stability."
+    "title": "Platform size and foot room",
+    "description": "We looked at platform sizes from Scalebeard's 15 x 11 inches to Mind Reader's 18 x 13 inches. Under about 15 inches wide, feet crowd together, while wider decks let both feet shift. Larger platforms also need more depth under shallow desks."
   },
   {
-    "title": "Comfort features",
-    "description": "Cushions, massage texture and heat or vibration were counted only when they change daily use."
+    "title": "Surface feel and cushioning",
+    "description": "We weighed massage textures and rollers against bamboo and memory foam. Textures grip feet but can feel harsh through thin socks, while the BlissfulNest foam cradles heels but compresses over time, so we judged comfort against how long the surface stays supportive."
   },
   {
-    "title": "Value at this price",
-    "description": "Price was weighed against height range, tilt and grip, with extra weight on what a model leaves out, such as a lower maximum height or a small platform."
+    "title": "Build and long term value",
+    "description": "We considered plastic, bamboo and foam builds in this price range. Bulado's bamboo and sliding rail feel more substantial than the lightweight plastic of several rivals, though heavier, so we weighed how each material holds up against the low price."
   }
 ];
 
@@ -393,28 +393,28 @@ export const buyingCriteria = [
 
 export const faq = [
   {
-    "q": "How high should an under-desk footrest be?",
-    "a": "Enough that your thighs are level and your knees at or just below hip height. A gap of 4 to 6 inches is common for chairs set for typing."
+    "q": "Will an under desk footrest fit a shallow desk?",
+    "a": "It depends on platform depth and your knee clearance. Platforms here range from Scalebeard's 15 x 11 inches to 18 x 13 inches on Mind Reader. Measure the floor space under your desk first, since larger decks can crowd your legs."
   },
   {
-    "q": "Is a massage texture good for you?",
-    "a": "It feels pleasant for some but it is not a medical treatment. Take breaks and stand regularly."
+    "q": "What is the biggest mistake with budget footrests?",
+    "a": "Choosing for the massage texture instead of the height. If the footrest is too tall it lifts your knees above your hips, and too low it does nothing. Measure your floor to seat gap, then pick one whose range covers it."
   },
   {
-    "q": "Will it slide on hardwood?",
-    "a": "Some do. Look for rubber pads or strips and consider a thin rug underneath."
+    "q": "Is the ErGear worth more than the Staples?",
+    "a": "They are close in size, but ErGear tilts plus or minus 30 degrees with three heights while Staples gives fixed presets with a non-skid base and no massage texture. Pick ErGear for movement, Staples for steady typing in socks or shoes."
   },
   {
-    "q": "Does a footrest help short people?",
-    "a": "Yes, it supports the feet when the chair cannot be lowered to the desk."
+    "q": "How do I set the right footrest height?",
+    "a": "Sit with your back against the chair and let your thighs rest roughly level. Choose the height step that lets your feet rest flat without lifting your thighs off the seat. The HUANUO and ErGear give three clear steps to try."
   },
   {
-    "q": "Do I need one with a standing desk?",
-    "a": "Not usually, but a light footrest helps when you sit part of the day."
+    "q": "Can I use a footrest with bare feet?",
+    "a": "Yes, but textured and roller surfaces can feel sharp barefoot, so the BlissfulNest foam or Bulado cushioned pad are gentler. Hard plastic with massage beads is better with socks. Try a few days before deciding if you like it."
   },
   {
-    "q": "How do I clean one?",
-    "a": "Wipe plastic and wood with a damp cloth, wash removable covers, and let foam dry fully."
+    "q": "Do footrests wear out?",
+    "a": "The foam type compresses over time, as the listing for the BlissfulNest warns, and plastic platforms can crack if you stand on them. Wooden or bamboo models like Bulado last longer. Wipe surfaces periodically, and replace foam once it stays flat."
   }
 ];
 

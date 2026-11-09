@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51H1OHxiP-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07F82YK6P?tag=deskfinds0d-20",
-    description: "This kit's listing specifically states 5 complete injector and splitter pairs (10 pieces total) with a 5.5mm x 2.1mm DC connector, supporting any DC voltage up to 60V, making it a genuinely cost-effective bulk purchase for an installer setting up multiple cameras at once. Its per-pair cost works out to about $2 each, a fraction of a single standard injector's price.\n\nCompared to the single-unit picks above, this one is built for volume, an installer or homeowner setting up 5 cameras at once, rather than a one-off single-camera purchase.\n\nBest for installers or homeowners setting up multiple cameras at once who want the lowest per-unit cost.",
+    description: "This kit's listing specifically states 5 complete injector and splitter pairs (10 pieces total) with a 5.5mm x 2.1mm DC connector, supporting any DC voltage up to 60V, making it a genuinely cost-effective bulk purchase for an installer setting up multiple cameras at once. Its per-pair cost works out to under $10 each, a fraction of a single standard injector's price.\n\nCompared to the single-unit picks above, this one is built for volume, an installer or homeowner setting up 5 cameras at once, rather than a one-off single-camera purchase.\n\nBest for installers or homeowners setting up multiple cameras at once who want the lowest per-unit cost.",
     specs: ["5 injector/splitter pairs (10 pieces total)", "Any DC voltage up to 60V, 10Mbps only", "5.5x2.1mm DC connector"],
     pros: ["Lowest per-unit cost in this comparison by a wide margin", "Bulk quantity suits a multi-camera installation project", "Works with any DC voltage up to 60V"],
     cons: ["10Mbps only, not suitable for high-resolution cameras", "Passive only, no standard 802.3af/at negotiation"],
@@ -84,69 +84,156 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Installation Scenario Match", "description": "Compared single-camera, multi-camera-combiner, and bulk-installer use cases separately rather than by wattage alone." },
-  { "title": "Camera Brand Compatibility", "description": "Compared first-party brand-specific injectors against generic multi-brand compatibility." },
-  { "title": "Port Speed", "description": "Compared Gigabit versus 10/100Mbps port speeds relative to typical camera resolution needs." },
-  { "title": "Cost Per Camera", "description": "Compared real per-unit cost for bulk kits against standard single-unit injector pricing." },
-  { "title": "Weatherproofing for Outdoor Cameras", "description": "Compared stated IP ratings for outdoor-exposed components." }
+  {
+    "title": "Match to the installation scenario",
+    "description": "We sorted the picks by real jobs: a single Reolink camera, two cameras on one cable, a multi-camera bulk install, and a single budget camera. REOLINK, IPCamPower, the 5-pair kit and PoE Texas each fit a different one, so we avoided ranking them on one scale."
+  },
+  {
+    "title": "Camera brand compatibility",
+    "description": "REOLINK names compatibility with Reolink cameras and doorbells, delivering up to 30W PoE+ or 15.4W PoE. A first-party injector removes pairing doubt, while generic kits depend on you matching voltage and pin mode yourself. Always confirm the camera's PoE type against the listing before purchase."
+  },
+  {
+    "title": "Port speed against camera bitrate",
+    "description": "REOLINK and PoE Texas are Gigabit, while the 5-pair kit is 10Mbps only. A 4K camera can exceed 10Mbps easily, so we counted the 10Mbps kit as suitable only for low-bitrate cameras. A 4K camera can need more than 10Mbps, so the bulk kit does not suit it."
+  },
+  {
+    "title": "Cost per camera",
+    "description": "The 5-pair kit costs under $10 for five injector and splitter pairs, which is the lowest per-camera cost, while a REOLINK injector costs more for a single camera. We compared per-camera cost across scenarios and not sticker price. We divided each kit price by the number of cameras it can power."
+  },
+  {
+    "title": "Weatherproofing where it counts",
+    "description": "IPCamPower lists an IP68-rated receiver unit for full outdoor exposure, but not the injector end. We noted which part of each kit is rated, since an IP rating on only one component does not make the whole kit outdoor safe. Keep the injector end indoors regardless of what the receiver is rated for."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Installation Scenario",
-    table: {
-      headers: ["Your installation", "Recommended pick"],
-      rows: [
-        ["Single Reolink camera or device", "REOLINK Gigabit Injector"],
-        ["Two cameras installed near each other", "IPCamPower POE Combiner Splitter"],
-        ["5+ cameras, bulk installer job", "5 Pairs Passive PoE Injector Kit"],
-        ["Single camera, budget priority", "PoE Texas Single-Port Mode B Injector"]
+    "subheading": "By Installation Scenario",
+    "intro": "Camera injectors solve different problems, so pick by the physical layout before looking at price.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "One Reolink camera or video doorbell",
+          "REOLINK Gigabit Injector, which names Reolink compatibility and delivers up to 30W PoE+"
+        ],
+        [
+          "Two cameras near each other on one cable",
+          "IPCamPower POE Combiner Splitter Adapter, with an IP68 receiver unit to share one run"
+        ],
+        [
+          "Five or more low-bitrate cameras on a job",
+          "5 Pairs Passive PoE Injector and Splitter Kit, the lowest cost per camera"
+        ],
+        [
+          "One generic camera, Gigabit, tight budget",
+          "PoE Texas Single-Port Mode B Passive PoE Injector, with Gigabit speed and a one-year warranty"
+        ],
+        [
+          "A camera that expects standard 802.3af or at power",
+          "REOLINK Gigabit Injector, since standards-based negotiation protects the camera"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $10 (per 5-pack)", "5 Pairs Passive PoE Injector Kit (under $10)"],
-        ["Under $10 (single unit)", "PoE Texas Single-Port Mode B Injector (under $10)"],
-        ["Under $20", "IPCamPower POE Combiner Splitter (under $20)"],
-        ["Under $25", "REOLINK Gigabit Injector (under $25)"]
+    "subheading": "By Budget",
+    "intro": "Every pick here is cheap, so the question is what each dollar buys you.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $10 for five pairs",
+          "5 Pairs Passive PoE Injector and Splitter Kit, best for a multi-camera install on low bitrates"
+        ],
+        [
+          "Under $10 for one unit",
+          "PoE Texas Single-Port Mode B Passive PoE Injector, Gigabit and one-year warranty"
+        ],
+        [
+          "Under $20, shared cable run",
+          "IPCamPower POE Combiner Splitter Adapter, for two nearby cameras and weather exposure"
+        ],
+        [
+          "Under $25, brand-matched",
+          "REOLINK Gigabit Injector, the simplest choice for Reolink owners"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Single-Camera Injector vs Two-Camera Combiner Kit",
-    cards: [
-      { label: "Single-camera injector (REOLINK, PoE Texas)", text: "The standard choice when you have one camera per cable run back to your switch or NVR." },
-      { label: "Two-camera combiner (IPCamPower)", text: "Saves a full separate cable run when two cameras are physically near each other, combining their signal and power onto one shared cable back to the switch." }
+    "subheading": "Single-Camera Injector vs Two-Camera Combiner Kit",
+    "cards": [
+      {
+        "label": "Single-camera injector",
+        "text": "The REOLINK and PoE Texas units give each camera its own cable back to the switch or NVR. It is the standard choice and keeps one failure from taking down two cameras."
+      },
+      {
+        "label": "Two-camera combiner",
+        "text": "IPCamPower merges two cameras onto one shared cable, which saves a full cable run when they are close together. The tradeoff is that both cameras share one link and its bandwidth."
+      }
     ],
-    note: "The combiner kit only makes sense when two cameras are genuinely close together; for cameras in different locations, standard single injectors per camera remain the simpler choice.",
+    "note": "Use the combiner only when two cameras are physically close, such as on one corner of a house; otherwise single injectors are simpler."
   },
   {
-    subheading: "By Camera Resolution",
-    table: {
-      headers: ["Your camera's resolution", "Recommended pick"],
-      rows: [
-        ["4K or high-resolution", "REOLINK Gigabit Injector or PoE Texas (both Gigabit)"],
-        ["Standard-definition, bulk install", "5 Pairs Passive PoE Injector Kit (10Mbps)"]
+    "subheading": "By Camera Resolution",
+    "intro": "Resolution decides whether 10Mbps is acceptable, and 10Mbps is the limit of the bulk kit.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "4K or 5MP cameras with high bitrates",
+          "REOLINK Gigabit Injector or PoE Texas Single-Port, both full Gigabit"
+        ],
+        [
+          "1080p cameras at low bitrate, many of them",
+          "5 Pairs Passive PoE Injector and Splitter Kit, since 10Mbps covers modest streams"
+        ],
+        [
+          "Two 2K cameras on one corner",
+          "IPCamPower POE Combiner Splitter Adapter, checking that shared bandwidth is enough"
+        ],
+        [
+          "One 4K camera and a tight budget",
+          "PoE Texas Single-Port Mode B Passive PoE Injector, at Gigabit under $10"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For an Outdoor Camera Installation Specifically",
-    cards: [
-      { label: "Look for", text: "An IP-rated component wherever the hardware will actually be exposed to weather, not just a generic waterproof claim covering the whole kit." },
-      { label: "In this comparison", text: "The IPCamPower kit specifically states its receiver splitter unit is IP68-rated for full exposure to rain, sleet, snow, and sun." }
-    ],
+    "subheading": "For an Outdoor Camera Installation Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "An IP rating on the component that sits outdoors, such as the receiver or splitter end, plus weatherproof boots on every RJ45. A waterproof claim for the whole kit usually refers to just one piece."
+      },
+      {
+        "label": "In this comparison",
+        "text": "IPCamPower states an IP68 receiver unit for rain, sleet, snow and sun, which suits the camera end. The injector ends of every pick here, including the REOLINK, belong indoors in a dry enclosure."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You have a Reolink camera or two cameras near each other needing a combiner, where the REOLINK or IPCamPower picks solve those specific scenarios that a basic injector can't." },
-      { label: "Save if", text: "You're installing several standard-definition cameras at once, where the bulk 5-pair kit's roughly $2 per-unit cost beats buying individual injectors." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You own Reolink hardware, run 4K cameras, or need two cameras on one cable. The REOLINK injector gives named compatibility and PoE+ at 30W, and IPCamPower solves a routing problem a plain injector cannot."
+      },
+      {
+        "label": "Save if",
+        "text": "You are installing several standard-definition cameras at once. The 5-pair kit costs under $10 in total, far less than five separate branded injectors, as long as 10Mbps is enough for the streams."
+      }
+    ]
   }
 ];
 
@@ -174,12 +261,12 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Do I need a brand-specific PoE injector for my security camera?", "a": "Not necessarily; most IP cameras work with any standard 802.3af/at PoE injector, but a first-party injector from your camera's manufacturer removes any small compatibility uncertainty a generic unit might introduce." },
-  { "q": "When does a two-camera combiner kit make sense over two separate injectors?", "a": "Specifically when two cameras are installed near each other and you want to avoid running two separate long cables back to your switch or NVR, saving real cabling cost and installation time." },
-  { "q": "Is a bulk passive injector kit good enough for a 4K security camera?", "a": "No, bulk passive kits are typically limited to 10Mbps speed, which will bottleneck a high-resolution 4K camera; use a Gigabit-rated injector for higher-resolution cameras instead." },
-  { "q": "What's the most common mistake when installing a PoE injector for a camera?", "a": "Assuming a passive PoE injector's voltage automatically matches your camera's requirement, when in fact you must separately confirm and supply a compatible power adapter at the correct voltage for a passive setup." },
-  { "q": "Can I use a two-camera combiner kit outdoors?", "a": "Check which specific component is IP-rated; typically only the receiver splitter unit near the cameras is weatherproof, while the sender combiner unit near your switch should stay indoors." },
-  { "q": "How much does a bulk multi-camera injector kit typically save compared to individual injectors?", "a": "A 5-pair bulk kit can cost roughly $2 per pair compared to $10-25 for a single standard injector, a significant saving for an installer working on multiple standard-definition cameras at once." }
+  { "q": "Do I need a brand-specific PoE injector for my security camera?", "a": "Not always, but it helps. A REOLINK RLA-PI1 is built for Reolink cameras and lists up to 30W PoE+, so pairing is certain. Other cameras usually work with any 802.3af or at injector, but passive kits need you to confirm voltage, Mode A or B, and the camera's wattage first." },
+  { "q": "When does a two-camera combiner kit make sense over two separate injectors?", "a": "Use it when two cameras sit within a short distance of each other and a second cable run would be costly. IPCamPower combines both onto one cable and lists an IP68 receiver unit. If the cameras are far apart, two single injectors are simpler and avoid a shared failure point." },
+  { "q": "Is a bulk passive injector kit good enough for a 4K security camera?", "a": "Usually not. The 5-pair kit is 10Mbps only, which is below what a 4K stream can need, so it suits low-bitrate cameras. For 4K or 5MP, choose a Gigabit option like the REOLINK or PoE Texas single-port injector, even though it costs more per unit." },
+  { "q": "What's the most common mistake when installing a PoE injector for a camera?", "a": "The most common mistake is connecting a passive injector to a camera that expects a different voltage, which can damage it. Before plugging in, read the camera's input voltage, check Mode A or B, and confirm the injector's output matches, since the 5-pair kit and PoE Texas unit are passive." },
+  { "q": "Can I use a two-camera combiner kit outdoors?", "a": "Only the receiver end. IPCamPower states an IP68 splitter unit for rain, sleet, snow and sun, but the injector end that sits near your switch is not rated outdoors. Keep that end inside a dry enclosure, and seal the RJ45 connections with a weatherproof boot." },
+  { "q": "How much does a bulk multi-camera injector kit typically save compared to individual injectors?", "a": "The savings are large per unit, but the kit also gives up Gigabit speed and standards-based negotiation. The 5-pair kit costs under $10 for five pairs, versus a single REOLINK injector at under $25, so a five-camera install costs a fraction of five branded injectors." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Device Capacity", "description": "Compared stated device counts ranging from 32 to 36 units across the lineup." },
-  { "title": "Maximum Screen Size Compatibility", "description": "Compared stated maximum laptop or tablet screen sizes each cart supports." },
-  { "title": "Lock and Access Design", "description": "Checked front-only versus front-and-back locking access across all four picks." },
-  { "title": "Electrical Safety Certification", "description": "Compared UL approval, surge protection, and circuit safety features across the lineup." },
-  { "title": "Build Quality", "description": "Compared steel construction, anti-rust treatment, and padded shelf design for device protection." }
+  {
+    "title": "Capacity ceiling at the top of the range",
+    "description": "We compared bay counts from 30 to 36 devices, because buying a cart a few slots short forces a second purchase later. In this under $500 tier we treated 32 bays as the floor for a full class set and gave the 36-device OFLILAK and 36-device budget cart extra room credit."
+  },
+  {
+    "title": "Maximum laptop size stated",
+    "description": "We checked the biggest screen each cart claims. The budget 36-device cart lists 16.3 inches, the ALT Technology and similar carts stop near 14 inches, and the Pearington lists 13 inches, which changes whether a mixed fleet fits at all. Check it against your widest laptop with its case on, since a case can add half an inch."
+  },
+  {
+    "title": "Electrical safety documentation",
+    "description": "We favored carts that name their protection. The ALT Technology lists UL-approved power strips, OFLILAK and Pearington list surge protection, and the budget 4-position strip cart gives no surge claim, which cost it points even though capacity is high."
+  },
+  {
+    "title": "Steel build and lock coverage",
+    "description": "We looked at frame material, anti-rust treatment and whether front and back doors both lock. All-steel construction with dual key locks, as on the OFLILAK, resists years of classroom wheeling better than thin panels with a single latch. A cart that locks only on one side leaves the other open whenever it sits against a wall."
+  },
+  {
+    "title": "Price per bay against the ceiling",
+    "description": "We divided the cart price by bay count and flagged carts above this tier ceiling. The Pearington runs slightly over, while the budget 36-device cart is the cheapest per bay, so value was scored against what each cart actually documents. We did not reward the lowest cost per bay when the listing skipped safety details."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +116,129 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The highest capacity with dual-access locking", "Pearington 32 Device Mobile Charging and Storage Cart"],
-        ["The highest device count at a lower price", "OFLILAK 36-Device Mobile Charging Cart"],
-        ["Precise slot dimensions and certified UL safety", "ALT Technology 30-Bay Mobile School Charging Cart"],
-        ["The lowest price for 36-device capacity with larger laptops", "36 Device Charging Cart with 4-Position Power Strip"]
+    "subheading": "By Fleet Size",
+    "intro": "Larger carts here run 30 to 36 bays, so match your headcount first and leave a few spare slots.",
+    "table": {
+      "headers": [
+        "Your fleet",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A class set of 36 devices and a need for the most bays in this tier",
+          "OFLILAK 36-Device Mobile Charging Cart, which adds an extra storage shelf on top"
+        ],
+        [
+          "32 devices with front and back access so students can load from either side",
+          "Pearington 32 Device Mobile Charging and Storage Cart, with locks at both access points"
+        ],
+        [
+          "30 to 32 devices where slot dimensions need to be known before buying",
+          "ALT Technology 30-Bay Mobile School Charging Cart, which publishes precise slot sizing"
+        ],
+        [
+          "36 devices on the tightest budget in this group",
+          "36 Device Charging Cart with 4-Position Power Strip, the cheapest per bay here"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $350", "4-Position Power Strip Cart (under $350)"],
-        ["Under $360", "OFLILAK (under $400)"],
-        ["Under $380", "ALT Technology (under $400)"],
-        ["Around $547", "Pearington (under $550)"]
+    "subheading": "By Budget",
+    "intro": "The extra spend inside this tier buys documented safety rather than more bays.",
+    "table": {
+      "headers": [
+        "Price bucket",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $350 and capacity matters most",
+          "36 Device Charging Cart with 4-Position Power Strip"
+        ],
+        [
+          "Under $360 with steel construction and a surge-protected strip",
+          "OFLILAK 36-Device cart, which pairs all-steel frame with surge protection"
+        ],
+        [
+          "Under $400 with UL-approved strips for an institutional safety review",
+          "ALT Technology 30-Bay cart, whose UL-approved strips ease facilities sign-off"
+        ],
+        [
+          "Just over $500 for 32 bays and the strongest access design",
+          "Pearington 32 Device cart, the only pick above this tier ceiling"
+        ]
+      ]
+    }
   },
   {
-    subheading: "UL-Certified Power Strips vs General Surge Protection",
-    cards: [
-      { label: "UL-approved power strips (ALT Technology)", text: "Provides a specific, independently tested electrical safety certification, valuable where purchasing policies require certified equipment." },
-      { label: "General surge protection (Pearington, OFLILAK)", text: "Guards against voltage spikes without a specifically named third-party certification on the power strip component itself." }
+    "subheading": "Steel Shell vs Padded Dividers",
+    "intro": "The slot interior changes how laptops survive daily use, and the picks fall into two groups.",
+    "cards": [
+      {
+        "label": "Steel shell with rigid bays (OFLILAK, 36 Device budget cart)",
+        "text": "Strong and rust-treated, they handle heavy rolling and loading, but bare metal can scratch lids if a laptop is dropped in carelessly. They suit rugged classroom use with larger machines."
+      },
+      {
+        "label": "Rubber coated or padded dividers (ALT Technology, Pearington)",
+        "text": "Softer slot surfaces protect lids and finishes, and ALT publishes slot dimensions so fit is predictable. They fit smaller 13 to 14 inch devices, so they are the better pick for thin Chromebooks."
+      }
     ],
-    note: "If your organization's procurement policy specifically requires UL-certified electrical equipment, the ALT Technology pick's explicit UL approval satisfies that requirement directly. If general surge protection is sufficient, the Pearington or OFLILAK picks cover that need.",
+    "note": "If your devices are thin Chromebooks that scratch easily, lean padded; if the cart gets heavy daily traffic, steel wins."
   },
   {
-    subheading: "By Maximum Laptop Size",
-    table: {
-      headers: ["Your laptop size", "Recommended pick"],
-      rows: [
-        ["Up to 13 inches", "Pearington"],
-        ["Up to 14 inches", "ALT Technology"],
-        ["Up to 16.3 inches", "4-Position Power Strip Cart"]
+    "subheading": "By Screen Size",
+    "intro": "This tier has the widest spread in screen limits of any cart group.",
+    "table": {
+      "headers": [
+        "Largest laptop in your fleet",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "16 inch laptops, which most carts here cannot take",
+          "36 Device Charging Cart with 4-Position Power Strip, listed up to 16.3 inches"
+        ],
+        [
+          "15 to 15.6 inch laptops with no stated limit on the listing",
+          "OFLILAK 36-Device cart, which gives no figure so measure first"
+        ],
+        [
+          "14 inch Chromebooks in standard cases",
+          "ALT Technology 30-Bay cart, rated to 14 inches with published slot sizes"
+        ],
+        [
+          "13 inch devices only",
+          "Pearington 32 Device cart, limited to 13 inch screens"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a School District Standardizing Cart Purchases Specifically",
-    cards: [
-      { label: "Look for", text: "Precise, documented slot dimensions in the listing, so procurement staff can confirm fit against the district's specific device model before bulk ordering." },
-      { label: "In this comparison", text: "The ALT Technology pick's specific slot dimension figures (1in width x 14in depth x 10.5in height) specifically support confident bulk procurement decisions." }
-    ],
+    "subheading": "For a School District Safety Review Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "UL-approved or clearly documented surge-protected power strips, front and rear locks, and a metal frame. District facilities teams often ask for these before approving a purchase."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The ALT Technology 30-Bay lists UL-approved strips, and the OFLILAK pairs surge protectors with an all-steel anti-rust frame. The budget 36-device cart does not state surge protection, so ask before buying."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the highest device capacity with front-and-back locking access and surge protection, where the Pearington pick delivers all three at the top of this tier." },
-      { label: "Save if", text: "You need 36-device capacity for larger laptops without surge protection, where the 4-Position Power Strip cart covers that for about $197 less." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want the Pearington 32 Device cart, which sits slightly over this tier ceiling but adds locks at both access points and surge protection. Moving up to the under $300 guide is not needed unless you only need 20 to 30 bays."
+      },
+      {
+        "label": "Save if",
+        "text": "Capacity and big-laptop fit matter more than documentation. The budget 36-device cart gives the most bays per dollar and the largest screen limit, as long as you add your own surge protection."
+      }
+    ]
   }
 ];
 
@@ -183,12 +266,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Does the Pearington cart's higher price over $500 mean it's not a fair comparison in this tier?", "a": "It's included because its device capacity, dual-door access, and surge protection combination represents the strongest overall feature set researched for this comparison, even though its price runs slightly above a round $500 figure." },
-  { "q": "What's the most common mistake buyers make when choosing between UL-certified and general surge-protected carts?", "a": "Assuming general surge protection language is equivalent to a specific UL certification, when institutional purchasing policies often require the named UL standard specifically, making the ALT Technology pick's explicit approval more relevant for those buyers." },
-  { "q": "Is the Pearington pick worth it over the cheaper OFLILAK option?", "a": "If you specifically need front-and-back dual-door access alongside surge protection, yes, but if maximum device count at a lower price matters more, the OFLILAK pick covers 36 devices for about $187 less." },
-  { "q": "How do I confirm my school's specific Chromebook model fits the ALT Technology cart's slot dimensions?", "a": "Measure your Chromebook's width, depth, and height including its case against the listing's stated 1 inch by 14 inch by 10.5 inch slot dimensions before placing a bulk order." },
-  { "q": "Can the 4-Position Power Strip cart handle 36 devices charging simultaneously without tripping a circuit?", "a": "The 4-position power strip design distributes the charging load across multiple points, but checking your facility's circuit capacity against the cart's total stated power draw is worth doing before deploying it at full 36-device capacity." },
-  { "q": "Do any of these carts include a warranty beyond the standard Amazon return window?", "a": "Warranty terms vary by manufacturer and aren't consistently detailed across all four listings, so checking each specific product page's warranty section before purchase is worth doing if extended coverage matters for your budget planning." }
+  {
+    "q": "Do these carts fit 16 inch laptops?",
+    "a": "Only one does by its listing. The budget 36-device cart states up to 16.3 inches, while the ALT Technology and Pearington carts stop near 14 and 13 inches. The OFLILAK gives no figure, so measure your laptop width with its case before ordering."
+  },
+  {
+    "q": "Is it a problem that the budget 36-device cart lists no surge protection?",
+    "a": "It is worth taking seriously. The listing shows a 4-position power strip but no surge claim, so add a separate UL listed surge protector between the wall and the cart, or choose the OFLILAK or ALT Technology where protection is named."
+  },
+  {
+    "q": "Should I pay more for the Pearington over the OFLILAK?",
+    "a": "Only if 32 bays with front and back locking access fit your needs. The OFLILAK holds more devices, has an all-steel frame and costs less, while the Pearington is slightly over this tier and limits screens to 13 inches."
+  },
+  {
+    "q": "How do I check my laptops will fit the ALT Technology bays?",
+    "a": "The ALT listing publishes slot dimensions and a 14 inch limit. Measure your laptop width, depth and thickness with its case and compare to the slot size. If you are within a quarter inch, order a single laptop test fit first."
+  },
+  {
+    "q": "Do carts with 36 devices overload a wall outlet?",
+    "a": "They can if every charger draws full power at once. Check the cart's stated outlet count and breaker, plug it directly into a wall outlet instead of an extension cord, and consider staggering charging if your building has older circuits."
+  },
+  {
+    "q": "Are UL-approved power strips worth looking for?",
+    "a": "Yes for institutional use. UL approval means the strip was evaluated to a safety standard, which facilities teams often require. The ALT Technology lists it, while other carts here name surge protection without naming a certification, so request paperwork if your district asks."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Simultaneous Channel Count", "description": "Compared total simultaneous mic and line inputs across all four picks." },
-  { "title": "Converter Quality", "description": "Compared stated dynamic range and converter chipset specifications." },
-  { "title": "Expandability", "description": "Compared ADAT optical expansion versus fixed maximum channel counts." },
-  { "title": "Streaming Features", "description": "Compared built-in loopback capability for combined stream mixing." },
-  { "title": "Monitoring Outputs", "description": "Compared independent headphone output count for multi-person sessions." }
+  { "title": "Converter dynamic range", "description": "We compared the MOTU M4's 120dB dynamic range and ESS Sabre32 Ultra converters against the others. Dynamic range specs depend on how they are measured, so we treated them as a rough indicator, not a promise of audible difference. The Scarlett and Volt listings emphasize features over converter numbers." },
+  { "title": "Expandability", "description": "We noted the Audient iD14 MKII's ADAT expansion, which can add eight more channels. Few home setups need that many inputs, but it is the one pick here that grows with a larger studio. The MOTU M4 and Scarlett 4i4 specs show no expansion port." },
+  { "title": "Loopback for streaming", "description": "We checked built-in loopback on the MOTU M4 and Scarlett 4i4, which routes computer audio back into your recording. Streamers and podcasters use it to mix a guest on a call with their own mic without extra software. Confirm it on the listing before assuming a pick has it." },
+  { "title": "Headphone outputs", "description": "We compared the MOTU M4's two independent headphone outputs against single-output rivals. Two performers can monitor separately, though high-impedance studio headphones may still strain bus-powered interfaces. Check how many independent headphone feeds the others list." },
+  { "title": "Mic preamp versus line inputs", "description": "We separated true mic preamps from line-only inputs, such as the Volt 276's two mic plus two line setup and the 4i4's same arrangement. Many four-input units have only two XLR preamps, so check how many mic inputs you actually get. That distinction decides whether two microphones plus a guitar fit." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "At this ceiling the interfaces offer four inputs, so the first table asks how many of them are real mic preamps.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "All four sit right at the $300 ceiling, so the budget table maps differences in loopback, expansion, and monitoring.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -133,6 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Signal Character Preference",
+    intro: "Studio growth is the second axis, since only one pick can expand through ADAT.",
     table: {
       headers: ["Your tonal preference", "Recommended pick"],
       rows: [
@@ -182,7 +185,7 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Can the Audient iD14 MKII's ADAT expansion work with any brand of preamp expander, or only Audient's own?", "a": "ADAT is an industry-standard optical protocol, so the iD14 MKII can generally work with ADAT-equipped preamp expanders from other brands, though checking specific sample-rate compatibility between the two devices is worth doing since some ADAT connections have channel-count limitations at higher sample rates." },
-  { "q": "What's the most common mistake buyers make when comparing fixed-channel and ADAT-expandable interfaces at this price?", "a": "Assuming a higher immediate built-in channel count (like the MOTU M4's 4 preamps) is always better than an expandable design with fewer built-in channels (like the Audient iD14 MKII's 2), when your actual long-term growth plans should determine which tradeoff makes more sense for your specific situation." },
+  { "q": "Does a 4x4 interface mean four microphone inputs?", "a": "Not usually. The Volt 276 and Scarlett 4i4 give two mic preamps plus two line inputs, while the MOTU M4 lists four inputs in total. Check the listing for the number of XLR preamps, because line inputs cannot supply phantom power or the gain a mic needs." },
   { "q": "Is the Universal Audio Volt 276 worth it over the Focusrite Scarlett 4i4 if I mainly record podcasts?", "a": "If you want warm vintage coloration on voices, the Volt 276 delivers that, but most podcast production benefits from a clean, transparent signal path you can shape in post-production, making the Scarlett 4i4's Auto Gain and clean preamps generally the better fit for spoken-word content." },
   { "q": "How do I set up the MOTU M4's built-in Loopback feature for a livestream?", "a": "Loopback channels appear as selectable inputs within your streaming or recording software's audio settings, and once selected, computer playback audio automatically mixes with your live microphone input without needing any separate virtual audio routing software installed." },
   { "q": "Do any of these interfaces support recording at higher sample rates like 192kHz, or are they limited to 96kHz?", "a": "Support varies by model, so checking each interface's specifically stated maximum sample rate in the listing is worth doing if very high-resolution recording matters for your specific production workflow, rather than assuming all four picks in this tier support identical maximum rates." },

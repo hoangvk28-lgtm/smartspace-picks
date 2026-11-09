@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/319ZMpKzUsL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FNQ2WXJ2?tag=deskfinds0d-20",
-    "description": "RitPin is a complete 13-piece set with a desk pad, a two-tier letter tray, a phone stand and a pen holder, finished in PU leather with fine stitching that the listing calls waterproof and scratch-resistant.\n\nIt is by far the most expensive pick, at about $230, and the only one that outfits an entire desk. Against LADSTAG below, it focuses on volume and presentation, while LADSTAG adds charging.\n\nBest for a manager or a graduation gift where the whole desk matters. The caveat is cost and sheer size, which needs a large desk.",
+    "description": "RitPin is a complete 13-piece set with a desk pad, a two-tier letter tray, a phone stand and a pen holder, finished in PU leather with fine stitching that the listing calls waterproof and scratch-resistant.\n\nIt is by far the most expensive pick, at under $250, and the only one that outfits an entire desk. Against LADSTAG below, it focuses on volume and presentation, while LADSTAG adds charging.\n\nBest for a manager or a graduation gift where the whole desk matters. The caveat is cost and sheer size, which needs a large desk.",
     "specs": [
       "13 piece set",
       "PU leather, stitched",
@@ -40,7 +40,7 @@ export const products: GuideProduct[] = [
       "Great gift presentation"
     ],
     "cons": [
-      "About $230",
+      "Under $250",
       "Needs a large desk"
     ],
     "bestFor": "Managers and graduation gifts"
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/412OXHowZ-L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DSW5RXBR?tag=deskfinds0d-20",
-    "description": "LADSTAG is a leather desk or nightstand organizer with a wireless charger built in, pitched at men as a Father's Day or Valentine's gift.\n\nAt about $67 it sits well below RitPin and adds a function the set lacks. Against the KINGFOM organizers below, it costs more but charges a phone.\n\nBest for a tech-minded recipient who likes clean lines. The caveat is that the listing gives few details on dimensions or materials.",
+    "description": "LADSTAG is a leather desk or nightstand organizer with a wireless charger built in, pitched at men as a Father's Day or Valentine's gift.\n\nAt under $75 it sits well below RitPin and adds a function the set lacks. Against the KINGFOM organizers below, it costs more but charges a phone.\n\nBest for a tech-minded recipient who likes clean lines. The caveat is that the listing gives few details on dimensions or materials.",
     "specs": [
       "Leather organizer",
       "Wireless charging station",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/416TsBjqgzL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D9QSGMDC?tag=deskfinds0d-20",
-    "description": "Bond and Regent makes a rollerball with 24 karat gold trim over a rich lacquer, supplied with two Schmidt 888 cartridges, one pre-installed. The seller says it is registered with a fine crafts directory, which we cannot verify.\n\nIt is the best small gift here, at about $35, and costs far less than the sets. Against Shadow Breeze below, it is a single item rather than a gift set.\n\nBest for a signature piece. The caveat is that gold trim is trim, not solid gold.",
+    "description": "Bond and Regent makes a rollerball with 24 karat gold trim over a rich lacquer, supplied with two Schmidt 888 cartridges, one pre-installed. The seller says it is registered with a fine crafts directory, which we cannot verify.\n\nIt is the best small gift here, at under $40, and costs far less than the sets. Against Shadow Breeze below, it is a single item rather than a gift set.\n\nBest for a signature piece. The caveat is that gold trim is trim, not solid gold.",
     "specs": [
       "24 karat gold trim",
       "Rollerball, two cartridges",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41V6Zom6p2L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DD5H7MP2?tag=deskfinds0d-20",
-    "description": "Shadow Breeze bundles an A5 PU leather journal of 172 pages, a vacuum-insulated stainless steel thermos and a metal executive pen in a gift box.\n\nIt costs about $33 and gives three useful items, versus one with Bond and Regent. Against KINGFOM below, it is lighter on desk storage but better for meetings.\n\nBest for a new hire or a teacher thank you. The caveat is that the pen and journal are everyday quality, not luxury.",
+    "description": "Shadow Breeze bundles an A5 PU leather journal of 172 pages, a vacuum-insulated stainless steel thermos and a metal executive pen in a gift box.\n\nIt costs under $40 and gives three useful items, versus one with Bond and Regent. Against KINGFOM below, it is lighter on desk storage but better for meetings.\n\nBest for a new hire or a teacher thank you. The caveat is that the pen and journal are everyday quality, not luxury.",
     "specs": [
       "A5 journal, 172 pages",
       "Insulated steel thermos",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/417J6kjL7yL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H19X994M?tag=deskfinds0d-20",
-    "description": "This KINGFOM organizer has 4 compartments, an MDF structure wrapped in faux leather and neutral colors of cream, beige and black.\n\nAt about $26 it is the most affordable multi-compartment organizer here, and it costs about $4 more than the other KINGFOM. Against LADSTAG, it does not charge.\n\nBest for a minimalist desk. The caveat is that it holds small items only.",
+    "description": "This KINGFOM organizer has 4 compartments, an MDF structure wrapped in faux leather and neutral colors of cream, beige and black.\n\nAt under $30 it is the most affordable multi-compartment organizer here, and it costs under $10 more than the other KINGFOM. Against LADSTAG, it does not charge.\n\nBest for a minimalist desk. The caveat is that it holds small items only.",
     "specs": [
       "4 compartments",
       "Faux leather over MDF",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41DdgMbmnZL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H25FCY2J?tag=deskfinds0d-20",
-    "description": "This KINGFOM is a dual-compartment PU leather organizer with gold trim for pens, scissors, markers and remotes, with reinforced structure and stitched edges.\n\nIt is the cheapest pick at about $22, and has fewer compartments than the other KINGFOM.\n\nBest for a modest gift that still looks upscale. The caveat is that it holds little.",
+    "description": "This KINGFOM is a dual-compartment PU leather organizer with gold trim for pens, scissors, markers and remotes, with reinforced structure and stitched edges.\n\nIt is the cheapest pick at under $25, and has fewer compartments than the other KINGFOM.\n\nBest for a modest gift that still looks upscale. The caveat is that it holds little.",
     "specs": [
       "2 compartments",
       "Gold trim PU leather",
@@ -191,47 +191,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "PU leather versus real leather",
-    "explanation": "PU leather is a coated synthetic that imitates leather, and it is cheaper and easier to wipe. Real leather lasts longer but costs more and needs care. Read the listing for 'genuine leather' versus 'PU', and expect PU at these prices."
+    "explanation": "PU leather is a coated synthetic that imitates leather, and it is cheaper and easier to wipe. Real leather lasts longer but costs more and needs care. Read the listing for 'genuine leather' versus 'PU', and expect PU at these prices. Real leather is a defensible upgrade for a senior recipient, while PU is a sensible choice for a first job. Ask the seller about care, since coated finishes need gentle cleaning."
   },
   {
     "criterion": "Trim and plating claims",
-    "explanation": "Gold trim or plating is a thin finish over a base metal, not a solid gold part. It can wear off with use. Check whether the listing says plated or trim, and avoid 'solid gold' claims at low prices."
+    "explanation": "Gold trim or plating is a thin finish over a base metal, not a solid gold part. It can wear off with use. Check whether the listing says plated or trim, and avoid 'solid gold' claims at low prices. A 'solid gold' claim at these prices is a red flag, and plating or trim is what to expect. Check the listing for words like plated, trim or finish."
   },
   {
     "criterion": "Piece count versus usefulness",
-    "explanation": "A 13-piece set looks generous, but only some pieces get used. Choose a set sized to the recipient's desk. Check the piece list for items they will use."
+    "explanation": "A 13-piece set looks generous, but only some pieces get used. Choose a set sized to the recipient's desk. Check the piece list for items they will use. A smaller set that fits the desk is a better gift than a large one that has to be stored. Count how many pieces the recipient will actually use."
   },
   {
     "criterion": "Presentation and packaging",
-    "explanation": "A good gift arrives ready to give. A box matters for a pen or set. Check that the listing mentions a gift box."
+    "explanation": "A good gift arrives ready to give. A box matters for a pen or set. Check that the listing mentions a gift box. Presentation also affects how a gift feels, and a plain brown box makes even a fine pen feel ordinary. Look for a gift box or sleeve in the product photos."
   },
   {
     "criterion": "Desk footprint",
-    "explanation": "A luxury set can overwhelm a small desk. Compare dimensions against the recipient's space. A desk pad and trays need 24 inches of depth."
+    "explanation": "A luxury set can overwhelm a small desk. Compare dimensions against the recipient's space. A desk pad and trays need 24 inches of depth. Measure the recipient's desk depth before buying a set with a desk pad and tray. Compare the set depth to the recipient desk."
   },
   {
     "criterion": "Unverified claims",
-    "explanation": "Seller claims about registries, grades or certifications are not independent. Treat them as marketing. Rely on materials and dimensions instead."
+    "explanation": "Seller claims about registries, grades or certifications are not independent. Treat them as marketing. Rely on materials and dimensions instead. Look for materials and dimensions in the bullets, and be cautious about unverified claims like 'premium grade' or 'certified'. Prefer measurable facts over vague premium wording."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Finish and materials",
-    "description": "We compared stated materials and finish, noting where leather is PU or faux."
+    "title": "Material honesty: PU versus leather",
+    "description": "We read every listing for the material, because several picks are PU leather, a coated synthetic that imitates leather and wipes clean, while real leather lasts longer and costs more. RitPin's 13 piece set and LADSTAG both read as leather-look desk sets, so we judged them as premium-looking, not heirloom goods."
   },
   {
-    "title": "Usefulness",
-    "description": "Picks had to do a job on a desk, not just look expensive."
+    "title": "Trim and plating claims",
+    "description": "Gold trim on a pen or organizer is a thin finish over a base material, not a solid gold part. Bond & Regent lists 24 karat gold trim and KINGFOM gold trim on PU leather, so we treated these as decorative accents that can wear and avoided any wording that implies solid gold."
   },
   {
-    "title": "Presentation",
-    "description": "Gift boxes and set contents were considered."
+    "title": "Gift-readiness and piece count",
+    "description": "A luxury gift should arrive ready to give. We compared the 13 piece RitPin set, the Shadow Breeze notebook, thermos and pen bundle and single-piece KINGFOM organizers, and asked whether a recipient will use every piece or leave half of them in a drawer."
   },
   {
-    "title": "Honest price",
-    "description": "Price was weighed against materials, not brand claims."
+    "title": "Desk footprint and use",
+    "description": "A large desk set can overwhelm a small desk. The RitPin set includes a desk pad and letter tray, so it needs roughly 24 inches of depth, while the 2 compartment KINGFOM pen organizer fits almost anywhere. We matched each pick to a realistic desk size."
+  },
+  {
+    "title": "Function that justifies the price",
+    "description": "A gift gets used when it solves something. LADSTAG adds a wireless charging station, Shadow Breeze includes a 172 page A5 journal and an insulated steel thermos, and Bond & Regent is just a pen. We asked what each adds beyond looking expensive."
   }
 ];
 
@@ -371,28 +375,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Is PU leather luxury?",
-    "a": "It imitates the look of leather and is easy to wipe, but it is not genuine leather. At these prices, expect PU or faux leather."
+    "q": "Is PU leather acceptable for a luxury desk gift?",
+    "a": "It looks polished and wipes clean, which suits office use, but it is a coated synthetic that wears at edges over years. RitPin and LADSTAG use leather-look surfaces, so frame them as stylish desk sets, not heirloom leather goods."
   },
   {
-    "q": "Is a $230 desk set worth it?",
-    "a": "For a full executive desk and a big occasion, it can be. For a small desk, a pen or single organizer is more sensible."
+    "q": "What mistake do people make when buying a luxury desk gift?",
+    "a": "Buying on piece count instead of use. A 13 piece RitPin set looks generous but some pieces may sit unused on a small desk. Think about the recipient's actual desk size, and choose fewer, more useful items if space is tight."
   },
   {
-    "q": "Will gold trim wear off?",
-    "a": "Trim and plating can wear with handling. Treat it as decorative."
+    "q": "Is the RitPin set worth more than the KINGFOM organizers?",
+    "a": "If the recipient has a large desk and wants a matched set, yes: RitPin includes a desk pad and letter tray in a 13 piece stitched set, but it costs over $200. KINGFOM's 4 compartment organizer is under $30 and covers pens and notes."
   },
   {
-    "q": "Is the pen registry claim trustworthy?",
-    "a": "It is a seller claim we cannot verify. Judge the pen by its materials and refills."
+    "q": "How do I make a pen or organizer feel like a real gift?",
+    "a": "Add a handwritten note and keep the packaging. Bond & Regent's lacquer finish and two included cartridges suit a gift box, and RitPin's set arrives as a matched suite. Check that the listing mentions a gift box before ordering if presentation matters."
   },
   {
-    "q": "How do I clean PU leather?",
-    "a": "Wipe with a damp soft cloth. Avoid harsh cleaners."
+    "q": "Does gold trim wear off?",
+    "a": "Gold trim is a thin finish and can rub off with heavy handling. Bond & Regent's 24 karat gold trim and KINGFOM's gold trim PU leather are best treated as accents. Store the pen in its case and avoid abrasive cleaners."
   },
   {
-    "q": "Do I need a gift box?",
-    "a": "It helps presentation. Check the listing for packaging."
+    "q": "How do I care for a leather-look desk organizer?",
+    "a": "Wipe with a soft, slightly damp cloth, avoid soaking the stitched edges, and keep it away from direct sun and heaters. PU leather can crack over time, so avoid folding or heavy pressure on the surface."
   }
 ];
 

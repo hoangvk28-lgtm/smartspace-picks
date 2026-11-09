@@ -162,52 +162,48 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Finger ball versus thumb ball at this price",
-    "explanation": "Under $50 you can get either style from lesser-known brands, and each loads a different part of the hand. Thumb balls feel closest to a regular mouse, while finger balls spread work across the index and middle fingers. Look for thumb or finger wording in the title, and test it in the return window."
+    "criterion": "Thumb versus index-finger ball",
+    "explanation": "A thumb trackball sits under your thumb and moves the pointer while the palm stays still, whereas an index-finger model puts the ball under your fingers. The difference decides which digit does the work, and which tires first. Look for the words thumb or finger in the title, and think about which digit feels stronger. Maker guidance says hands under about 17 cm suit smaller balls, which suits the SABLUTE thumb ball."
   },
   {
-    "criterion": "Battery claims",
-    "explanation": "Listings quote 60 days, 120 days or 21 days, but those are manufacturer claims measured in light use. Heavy daily use drains faster, and a sealed cell eventually fades. Look for the cell size and the exact claim wording, and treat any number as a best case."
+    "criterion": "Ball diameter",
+    "explanation": "The ball diameter, such as 44mm, affects control: a larger ball moves with a smaller finger motion and feels smoother, but needs more hand space. A small ball suits compact desks and small hands. Look for the millimeter figure in the specs, and compare it with how large your fingertip or thumb pad is. The Nulea and Porlei both use a 44mm ball, so they feel alike in size."
   },
   {
-    "criterion": "Vertical versus flat shells",
-    "explanation": "A 54 degree vertical shell puts your hand in a handshake position, which reduces palm-down forearm twist. It takes a week or two to feel natural, and not every hand fits. Look for a stated degree and a hand size note such as medium hands."
+    "criterion": "Tilt angle and wrist posture",
+    "explanation": "Tilt changes how much your forearm rotates, with options such as a flat base or an 18 degree lift. A trackball spares wrist travel, but a flat shell can leave the forearm twisted. Look for a stated angle, and for a tilt choice if you want to adjust it over time. The SABLUTE lists a 0 or 18 degree tilt and the SANWA a 54 degree body."
   },
   {
-    "criterion": "Number of device slots",
-    "explanation": "Some models pair three devices while others pair two, and a few are receiver only. That matters if you switch between a laptop and a tablet. Check the device count and whether the receiver counts as one."
+    "criterion": "Battery type and charging habits",
+    "explanation": "A rechargeable trackball needs charging every few weeks or months, and run-time figures such as 60 or 120 days are best cases. A model with AAA cells is easier to swap on the spot. Check the battery type, whether cells are included, and whether the mouse works while it charges. The YUMQUA includes one AAA battery; the Nulea and Porlei charge."
   },
   {
-    "criterion": "Software remapping",
-    "explanation": "Button remapping lets you assign shortcuts such as back, copy or a DPI change to the extra buttons. Some models need vendor software for this, and a few use a web tool instead, so the feature can vanish on an unsupported system. Check whether the listing names a Windows or Mac app before you rely on custom shortcuts."
-  },
-  {
-    "criterion": "Brand support and warranty",
-    "explanation": "At this price you meet brands with thin support records. A stated warranty or return window is your safety net. Check the listing for warranty text and the marketplace return policy."
+    "criterion": "Learning curve and DPI",
+    "explanation": "DPI sets how far the pointer moves per ball roll, and trackballs usually feel best between 800 and 1600. Too high a setting makes small thumb moves jumpy. Look for several DPI steps and a button to switch them, then start low while you learn. The SABLUTE spans 800 to 4800 DPI, the YUMQUA only 400 to 1200."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Ball size and style",
-    "description": "We compared finger and thumb designs and listed ball diameters."
+    "title": "Thumb versus finger operation",
+    "description": "We separated thumb-ball designs like the SABLUTE MAM1 Pro from index-finger models like the Nulea M505A and Porlei at 44mm. A thumb ball moves only the thumb while the hand stays still, but a finger ball suits people who prefer to roll with the index finger, so each was judged on its own scheme. The SABLUTE, Nulea and Porlei state ball size or angle; the YUMQUA gives only a 1200 DPI cap."
   },
   {
-    "title": "Angle and shell shape",
-    "description": "Tilt options and vertical shells were noted from the listing text."
+    "title": "Ball size in millimeters",
+    "description": "We recorded listed ball sizes, since a 44mm finger ball gives finer control than a small ball but needs a larger hand. Under $50, buyers pay for a sensibly sized ball, so we favored models that state the size instead of hiding it. The SABLUTE offers a 0 or 18 degree tilt, and the SANWA is fixed at 54."
   },
   {
-    "title": "Battery and connection",
-    "description": "Charge claims, device counts and Bluetooth support were compared."
+    "title": "Tilt and wrist angle",
+    "description": "We compared tilt, such as the 0 or 18 degree choice on the SABLUTE and the 54 degree body on the SANWA. A trackball cuts wrist travel, but a flat shell can still keep the forearm twisted, so we credited designs that rotate it toward neutral. The Nulea claims 60 days and the Porlei 120, both makers' figures."
   },
   {
-    "title": "Listing clarity",
-    "description": "We noted how clearly each listing states its specs, since brand support varies."
+    "title": "Battery claims and charging",
+    "description": "We noted run times such as 60 days on the Nulea and 120 days on the Porlei, and flagged that both are maker claims. A trackball tends to sit on a desk all day, so charging routines and AAA convenience mattered more than a peak figure. The Porlei is aimed at large hands, and hands over about 18 cm suit standard or larger balls."
   },
   {
-    "title": "Value for price",
-    "description": "Pricing was read against listed hardware and common owner feedback, not brand reputation."
+    "title": "What $50 buys versus $30",
+    "description": "We asked what the $45 to $50 picks add over the $33 YUMQUA handheld. Rechargeable cells, three-device pairing and a defined ball size separate them, while a handheld with a 1200 DPI ceiling is a gentler, less precise way to try the idea. The $33 YUMQUA uses an AAA battery and a receiver, a cheap way to test the idea."
   }
 ];
 
@@ -347,28 +343,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Is a 44mm ball better than a 34mm thumb ball?",
-    "a": "A larger ball usually gives smoother, finer cursor control but needs a wider body and more finger reach. A 34mm thumb ball is easier to learn. Pick based on hand size and comfort."
+    "q": "Is a trackball better than a regular mouse?",
+    "a": "It depends on the problem. A trackball keeps your hand still and moves only the thumb or finger, which spares the wrist and shoulder and works in tight spaces. It takes a few days to learn, and precise work like fine drawing may feel slower."
   },
   {
-    "q": "Are 60 or 120 day battery claims realistic?",
-    "a": "They are manufacturer claims, typically measured with light use. Expect less if you use the mouse for many hours daily. Treat them as a best case."
+    "q": "Thumb or finger trackball under $50?",
+    "a": "The SABLUTE MAM1 Pro is the thumb pick, while the Nulea M505A and Porlei use an index-finger ball. Thumb balls suit people who like a resting hand, but they can tire the thumb. Finger balls spread the work across a stronger digit, which some find easier."
   },
   {
-    "q": "Can I use these with a tablet?",
-    "a": "Models with Bluetooth, such as the SABLUTE, Nulea and Porlei, can pair with tablets that accept Bluetooth mice. Receiver-only models need a USB port. Check the listing."
+    "q": "Is the Nulea M505A worth it over the Porlei?",
+    "a": "Both use a 44mm finger ball with 5 DPI modes. The Nulea costs a little more and claims 60 days per charge, while the Porlei claims 120 days and targets large hands. If your hand is large, the Porlei fits and saves a few dollars."
   },
   {
-    "q": "Is a vertical trackball worth trying?",
-    "a": "It can ease forearm twist, but it feels odd at first. SANWA's version is aimed at medium right hands. Use the return window to test."
+    "q": "How long does it take to get used to a trackball?",
+    "a": "Most people need one to two weeks of regular use to feel accurate. Start with browsing and documents, and avoid precision tasks at first. Lower the DPI while you learn, then raise it as your thumb or finger gains control."
   },
   {
-    "q": "Is the SABLUTE worth the top of the price band?",
-    "a": "It is worth it if you want a tilt choice and a wide DPI range. If you prefer a finger ball, the Nulea or Porlei costs a little less. Compare variants of the same model."
+    "q": "How do I clean a trackball?",
+    "a": "Pop the ball out, wipe the sensor cavity and the support bearings with a dry cotton swab, and clean the ball with a lint-free cloth. Do this every few weeks, since skin oil and dust build up and make the pointer skip."
   },
   {
-    "q": "How do I clean a finger trackball?",
-    "a": "Pop the ball out through the hole on the underside and wipe the ball and rollers. Do it every few weeks. Use a lint-free cloth."
+    "q": "Can the YUMQUA handheld replace a desk trackball?",
+    "a": "For presentations or couch use, yes. It is handheld with a 2.4GHz receiver and a 1200 DPI ceiling, and the listing includes one AAA battery. For daily desk work, a larger ball and Bluetooth, like the SABLUTE, are easier to live with."
   }
 ];
 

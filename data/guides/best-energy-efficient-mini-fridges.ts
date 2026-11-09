@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31Gwarm6qdL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G445JQ42?tag=deskfinds0d-20",
-    "description": "Midea is a 2.7 cu ft Energy Star certified fridge with a listed 255 kWh per year, a 33.8F to 50F temperature range, a door shelf that holds a 2 liter bottle and a rack for 6 cans. It is described as low noise for offices.\n\nIt is the only pick here that pairs the Energy Star label with a stated annual kWh, which makes it easy to compare. Against BLACK+DECKER below, it holds more but costs about $20 more.\n\nBest for a bedroom or office where it runs all year. The caveat is that the listing does not mention a freezer.",
+    "description": "Midea is a 2.7 cu ft Energy Star certified fridge with a listed 255 kWh per year, a 33.8F to 50F temperature range, a door shelf that holds a 2 liter bottle and a rack for 6 cans. It is described as low noise for offices.\n\nIt is the only pick here that pairs the Energy Star label with a stated annual kWh, which makes it easy to compare. Against BLACK+DECKER below, it holds more but costs under $25 more.\n\nBest for a bedroom or office where it runs all year. The caveat is that the listing does not mention a freezer.",
     "specs": [
       "2.7 cu ft, Energy Star",
       "255 kWh per year",
@@ -40,7 +40,7 @@ export const products: GuideProduct[] = [
       "Wide temperature range"
     ],
     "cons": [
-      "Costs about $170",
+      "Costs under $200",
       "No freezer compartment"
     ],
     "bestFor": "Year-round bedroom or office use"
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51aJI8yc+EL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FPX6N2MW?tag=deskfinds0d-20",
-    "description": "Frostorm is a 3.2 cu ft single-door fridge with a 0.35 cu ft freezer compartment, a reversible door and adjustable shelves, claiming about 0.6 kWh per day.\n\nCompared with Frestec above, it costs about $27 more with a slightly higher kWh claim. Against Electactic below, it is a far lower price and a simpler layout.\n\nBest for flexible placement. The caveat is that its 0.35 cu ft freezer is small.",
+    "description": "Frostorm is a 3.2 cu ft single-door fridge with a 0.35 cu ft freezer compartment, a reversible door and adjustable shelves, claiming about 0.6 kWh per day.\n\nCompared with Frestec above, it costs under $30 more with a slightly higher kWh claim. Against Electactic below, it is a far lower price and a simpler layout.\n\nBest for flexible placement. The caveat is that its 0.35 cu ft freezer is small.",
     "specs": [
       "3.2 cu ft, 0.35 cu ft freezer",
       "0.6 kWh per day claimed",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31ZvwxlwglL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GZDKBQ7G?tag=deskfinds0d-20",
-    "description": "Electactic is a two-door unit with a 3.64 cu ft refrigerator and a separate freezer, three temperature settings, removable glass shelves and a clear crisper. The listing describes a high-efficiency, low-energy compressor but gives no kWh figure.\n\nIt is the largest and most expensive pick by far, at about $270. Compared with Frostorm, it has a real separate freezer.\n\nBest for a shared room needing real freezer space. The caveat is that without a stated kWh we cannot say it is efficient.",
+    "description": "Electactic is a two-door unit with a 3.64 cu ft refrigerator and a separate freezer, three temperature settings, removable glass shelves and a clear crisper. The listing describes a high-efficiency, low-energy compressor but gives no kWh figure.\n\nIt is the largest and most expensive pick by far, at under $300. Compared with Frostorm, it has a real separate freezer.\n\nBest for a shared room needing real freezer space. The caveat is that without a stated kWh we cannot say it is efficient.",
     "specs": [
       "3.64 cu ft fridge, separate freezer",
       "3 temperature settings",
@@ -191,51 +191,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Energy Star versus claimed kWh",
-    "explanation": "Energy Star is a government-backed label for compact fridges, while a claimed kWh per day is the seller's own figure. Only the label has outside checking. Look for the logo or the EnergyGuide yearly kWh label, and treat bare 'energy saving' as marketing."
+    "explanation": "Energy Star is a certification with a published annual kWh figure, while a claimed daily kWh is a number the seller supplies. The Midea lists Energy Star and 255 kWh per year, whereas the Upstreman claims 0.5 kWh a day, which works out to roughly 183 kWh a year if accurate. Compare annual figures on the same basis, and check whether the listing shows the yellow Energy Guide label."
   },
   {
     "criterion": "Compressor versus thermoelectric",
-    "explanation": "Compressor fridges hold a set temperature in any room, while thermoelectric ones only cool a limited number of degrees below room temperature. In a warm dorm that can leave food above safe temperatures. Look for the word compressor and a temperature range that reaches 40F or lower."
+    "explanation": "A compressor fridge cools to a set temperature regardless of the room and costs more to buy but less to run per cubic foot, while a thermoelectric cooler only cools relative to the room and runs constantly. Every pick here is compressor based. Check that the listing states compressor or a freezer compartment, which signals a real refrigeration cycle rather than a cooler."
   },
   {
     "criterion": "Capacity versus usable space",
-    "explanation": "Cubic feet is the whole interior, but door bins and the freezer box reduce room. A 3.2 cu ft model may hold less than it sounds. Check that a 2 liter bottle fits upright."
+    "explanation": "A 3.2 cu ft model with a freezer loses space to the freezer box, so the Frostorm's 0.35 cu ft freezer leaves less fridge volume. A bigger fridge costs more to run, so choose the size you will fill. Look for the cu ft number and the freezer size, then picture whether your groceries fit on the shelves."
   },
   {
     "criterion": "Dorm size caps",
-    "explanation": "Schools set their own limits, and a 4.5 cu ft fridge may exceed them. A fridge that is too big may be refused at move-in. Check the listed cubic feet against your handbook before buying, and keep the box dimensions handy."
+    "explanation": "Many dorms cap fridges at about 4.0 cu ft and a set wattage, so a 4.5 cu ft model like the Electactic may be banned. The 1.7 and 2.7 cu ft models here are safe in most halls. Check your housing rules for a size or an outlet draw limit before buying a larger model."
   },
   {
-    "criterion": "Noise level",
-    "explanation": "A compressor cycles on and off, and a listed 38 dB is quiet but not silent. This matters in a bedroom. Look for a stated dB figure."
-  },
-  {
-    "criterion": "Placement and ventilation",
-    "explanation": "Fridges need clearance behind and at the sides to shed heat. Cramming one in a cabinet raises power use. Check the manual for clearance and plug directly into a wall outlet."
+    "criterion": "Noise level and placement",
+    "explanation": "A compressor cycles on and off, and a bedroom fridge at 38 dB, as the Upstreman lists, is similar to a quiet library, while others list no number. Place it with a few inches of space behind and at the sides so heat can leave, and keep it level, since a tilt makes it louder. Look for a stated dB value."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Efficiency evidence",
-    "description": "We weighted Energy Star status and stated kWh above unsupported 'energy saving' language."
+    "title": "Verified versus claimed energy use",
+    "description": "We separated certified numbers from seller claims. The Midea lists Energy Star and 255 kWh per year, the BLACK+DECKER lists Energy Star with no kWh, and the Upstreman, Frestec and Frostorm claim 0.5, 0.55 and 0.6 kWh per day, which we treated as unverified without a label, because a seller figure measured under unknown conditions cannot be compared with a certified annual number."
   },
   {
-    "title": "Cooling type",
-    "description": "Only compressor models were included, so temperature holds in warm rooms."
+    "title": "Energy per cubic foot",
+    "description": "A small fridge can look efficient and still waste energy per cubic foot of storage. We compared daily claims against capacity, noting that the Frestec's 3.2 cu ft at 0.55 kWh per day is more efficient per cubic foot than the Upstreman's 1.7 cu ft at 0.5, which matters because small fridges lose proportionally more heat through their walls."
   },
   {
-    "title": "Capacity and fit",
-    "description": "Listed cubic feet and dimensions were compared with dorm and desk placement."
+    "title": "Temperature range and control",
+    "description": "We looked at how cold and how steady each fridge can run. The Midea lists 33.8F to 50F and the Upstreman 33.8F to 46.4F, while the Frestec lists six settings. A narrower range with a lower floor gives safer storage for dairy and leftovers, while a range that tops out near 50F suits drinks only."
   },
   {
-    "title": "Noise and features",
-    "description": "Stated dB, defrost and door design were compared."
+    "title": "Dorm and desk fit",
+    "description": "Many halls cap fridges by size, so we checked footprints, such as the Upstreman's 19.3 inch height that fits under a desk, and noted the Electactic's 4.5 cu ft may exceed a cap. Reversible doors on the BLACK+DECKER and Frostorm also helped fit corners."
   },
   {
-    "title": "Price",
-    "description": "Price was compared against capacity and efficiency evidence."
+    "title": "Noise and daily annoyance",
+    "description": "A fridge that hums all night is a poor bedroom roommate. We credited the Upstreman's listed 38 dB and the Midea's low-noise positioning, and noted that most picks name no decibel figure, which is a gap in a category sold on being quiet, so a stated 38 dB earned real credit for a bedroom buyer."
   }
 ];
 
@@ -371,28 +367,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do mini fridges use a lot of electricity?",
-    "a": "Listings here claim about 0.5 to 0.6 kWh per day, and the Midea 2.7 Cu Ft Energy Star lists 255 kWh per year. Real use varies with room temperature, how often you open the door, and how full it is."
+    "q": "Is an Energy Star mini fridge really cheaper to run?",
+    "a": "Usually yes, since Energy Star models must beat the federal standard by a stated margin. The Midea lists 255 kWh per year, which at typical rates costs roughly $40 to $60 a year. A non-certified model may cost more, so compare the yearly kWh on the Energy Guide label."
   },
   {
-    "q": "Is Energy Star worth paying more for?",
-    "a": "It adds outside proof of efficiency, and savings accrue over the whole year. The Midea and BLACK+DECKER 1.7 Cu Ft are both Energy Star listed. If the price gap is small, it is an easy yes."
+    "q": "Are those daily kWh claims reliable?",
+    "a": "Treat them cautiously. The Upstreman claims 0.5 kWh per day, the Frestec 0.55, and the Frostorm 0.6, but none shows an Energy Star label in the listing. A seller figure is not a lab figure, so compare it only with other seller claims and be skeptical of very low numbers."
   },
   {
-    "q": "Where should I put it to save energy?",
-    "a": "Leave space around it so heat can escape, keep it away from sunlight and radiators, and plug it into the wall. A fridge crammed into a hot corner runs longer to hold the same temperature."
+    "q": "Is the Midea worth the premium over the Frestec?",
+    "a": "If you want a verified number, yes. The Midea lists Energy Star and 255 kWh per year in 2.7 cu ft, while the Frestec lists 3.2 cu ft with a freezer and a claimed 0.55 kWh per day for much less money. The Frestec is bigger for the price, but unverified."
   },
   {
-    "q": "Why does my mini fridge freezer not freeze?",
-    "a": "Small freezer boxes in single-door fridges are often not true freezers. The Upstreman 1.7 Cu Ft says not to store ice cream, so check the freezer rating. The Electactic 4.5 Cu Ft has a separate freezer compartment."
+    "q": "Can I put a 4.5 cu ft fridge in a dorm?",
+    "a": "Check your rules. Many halls cap size near 4 cu ft, and the Electactic lists 3.64 cu ft of fridge plus a freezer, totalling 4.5. A 1.7 cu ft model like the BLACK+DECKER or Upstreman is safe almost everywhere and uses less power."
   },
   {
-    "q": "How do I defrost it?",
-    "a": "Unplug it, empty it, and let the ice melt on towels, then dry the interior. The Frestec 3.2 Cu Ft has a one-touch defrost, which makes the job simpler than scraping ice."
+    "q": "How much space does a mini fridge need behind it?",
+    "a": "Leave a few inches at the back and sides so warm air can escape, and do not push it flush into a closet. Poor airflow makes the compressor work harder and increases both noise and the yearly kWh. Keep it out of direct sun, and level on a flat floor."
   },
   {
-    "q": "Can I stuff it full?",
-    "a": "Leave gaps so air circulates, otherwise it works harder and cools unevenly. The Frostorm 3.2 Cu Ft has a reversible door and small freezer, so organize contents to keep vents clear."
+    "q": "How do I defrost a fridge with a small freezer?",
+    "a": "Unplug it, remove the food, and let the ice melt into a towel or tray. The Frestec lists one-touch defrost, which simplifies the job. Do not chip ice with a knife, because a punctured evaporator ruins the unit. Wipe dry before restarting."
   }
 ];
 

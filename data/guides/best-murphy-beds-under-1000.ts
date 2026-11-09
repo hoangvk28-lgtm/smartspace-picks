@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Mattress Inclusion", "description": "Checked which picks bundle a matched mattress versus requiring a separate mattress purchase." },
-  { "title": "Weight Capacity", "description": "Compared engineered weight ratings ranging from 1000 to 2000 lbs across the lineup." },
-  { "title": "Storage and Charging Integration", "description": "Compared drawer, cabinet, and charging port features across all four picks." },
-  { "title": "Mounting Requirements", "description": "Checked wall-mounted versus freestanding installation across the tier." },
-  { "title": "Assembly and Package Complexity", "description": "Compared stated assembly time and multi-package shipping across the lineup." }
+  {
+    "title": "Mattress bundle versus bring your own",
+    "description": "We separated beds that include a mattress, the CECER and PUREMIND, from the Hlivelood and Wilding Wallbeds kits that do not. A matched mattress removes thickness and weight guesswork, but it also locks you into the mattress that ships. The PUREMIND's three-fold design is the only one that folds in thirds."
+  },
+  {
+    "title": "Mounting and renter suitability",
+    "description": "We noted that the PUREMIND is freestanding with no drilling, while the Wilding kit mounts in a closet or on a wall and the Hlivelood is a permanent installation. Whether you can drill decides which of these is realistic for a renter. The CECER's bundle works well where the wall can be drilled."
+  },
+  {
+    "title": "Weight capacity and hardware class",
+    "description": "We compared the 1000 lb capacities on the Hlivelood, CECER and PUREMIND with the Wilding hardware kit's engineered 1,500 to 2,000 lbs, a tubular steel frame and a European slat system. A heavier rating adds margin for the mattress and sleepers. The Wilding kit also has a locking safety mechanism."
+  },
+  {
+    "title": "Power and storage extras",
+    "description": "We looked at the CECER's 2 USB ports and 2 AC outlets, the Hlivelood's charging station, LED lights and dual cabinets, and the PUREMIND's dual-drawer storage. Charging next to a bed is a daily convenience, not a gimmick. Charging also matters when the guest has a phone and tablet."
+  },
+  {
+    "title": "Delivery, assembly and support",
+    "description": "We noted the Hlivelood arrives in 4 packages, the CECER also in 4, the PUREMIND takes 2 to 3 hours with 2 people, and the Wilding kit claims 90 minutes. A 365-day support policy on the PUREMIND mattered for a bundle bought online. The Wilding kit's setup estimate is the shortest here."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Maximum flanking storage with integrated charging", "Hlivelood Queen Size Murphy Bed with 2 Storage Cabinets and LED Lights"],
-        ["The highest weight capacity and flexible installation", "Wilding Wallbeds Murphy Bed Frame Queen DIY Hardware Kit"],
-        ["A complete mattress-included bundle with in-bed charging", "CECER Queen Murphy Bed with Mattress, Storage and Charging Station"],
-        ["A mattress-included, drilling-free option at the lowest price", "PUREMIND Murphy Bed Queen with Mattress Included"]
+    "subheading": "By Primary Need",
+    "intro": "Under $1000 the choices split into storage-heavy, hardware, and mattress bundles.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Maximum flanking storage with LED lights and charging",
+          "Hlivelood Queen Size Murphy Bed with 2 Storage Cabinets and LED Lights"
+        ],
+        [
+          "The highest engineered weight capacity and DIY flexibility",
+          "Wilding Wallbeds Murphy Bed Frame Queen DIY Hardware Kit, 1,500 to 2,000 lb"
+        ],
+        [
+          "A mattress included and outlets next to the pillow",
+          "CECER Queen Murphy Bed with Mattress, Storage and Charging Station"
+        ],
+        [
+          "No drilling and a three-fold mattress included",
+          "PUREMIND Murphy Bed Queen with Mattress Included"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $700", "PUREMIND (under $700)"],
-        ["Under $730", "CECER (under $750)"],
-        ["Under $880", "Wilding Wallbeds (under $900)"],
-        ["Under $1000", "Hlivelood (under $1,000)"]
+    "subheading": "By Budget",
+    "intro": "The four picks run from the hardware kit to near the $1000 ceiling.",
+    "table": {
+      "headers": [
+        "Budget position",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Cheapest, if you will build a cabinet",
+          "Wilding Wallbeds Murphy Bed Frame Queen DIY Hardware Kit, hardware only"
+        ],
+        [
+          "Low to mid for a mattress bundle with outlets",
+          "CECER Queen Murphy Bed with Mattress"
+        ],
+        [
+          "Mid for a freestanding bundle",
+          "PUREMIND Murphy Bed Queen with Mattress Included"
+        ],
+        [
+          "Top of the range for dual cabinets and LED lights",
+          "Hlivelood Queen Size Murphy Bed with 2 Storage Cabinets"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Mattress-Included Bundle vs Hardware-Only or Bring-Your-Own Mattress",
-    cards: [
-      { label: "Mattress included (CECER, PUREMIND)", text: "Removes the guesswork of finding a mattress that folds properly, with the frame and mattress engineered together as a matched set." },
-      { label: "Bring your own mattress (Hlivelood, Wilding Wallbeds)", text: "Offers more flexibility to use a mattress you already own or prefer, but requires careful checking of thickness and weight compatibility." }
+    "subheading": "Mattress Included vs Bring Your Own",
+    "intro": "A bundled mattress changes the compatibility question.",
+    "cards": [
+      {
+        "label": "Included: CECER and PUREMIND",
+        "text": "The frame and mattress are matched, so thickness and weight are solved. You cannot reuse a mattress you already love."
+      },
+      {
+        "label": "Bring your own: Hlivelood and Wilding Wallbeds",
+        "text": "Flexibility to use any mattress that fits the thickness and weight limits. You must check those limits first, and mattress thicker than the spec will block the bed from closing."
+      }
     ],
-    note: "If you don't already own a compatible mattress or want to avoid the compatibility guesswork entirely, the CECER or PUREMIND's included mattress is genuinely convenient. If you have a specific mattress you already love, the Hlivelood or Wilding Wallbeds let you use it, provided it fits the stated specs.",
+    "note": "Buyers without a suitable mattress should take a bundle, and those who already own one should check limits and take the Hlivelood or Wilding kit."
   },
   {
-    subheading: "By Mounting Requirement",
-    table: {
-      headers: ["Your installation situation", "Recommended pick"],
-      rows: [
-        ["Renting, no drilling allowed", "PUREMIND (freestanding)"],
-        ["Own home, flexible closet or wall install", "Wilding Wallbeds"],
-        ["Own home, permanent wall mount with storage", "Hlivelood or CECER"]
+    "subheading": "By Installation",
+    "intro": "How and where it mounts decides the shortlist.",
+    "table": {
+      "headers": [
+        "Installation situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Renting with no drilling allowed",
+          "PUREMIND Murphy Bed Queen, freestanding"
+        ],
+        [
+          "Inside a closet or on a stud wall, DIY",
+          "Wilding Wallbeds Murphy Bed Frame, 90-minute setup listed"
+        ],
+        [
+          "Permanent wall mount with storage",
+          "Hlivelood Queen Size Murphy Bed"
+        ],
+        [
+          "Permanent mount with a mattress ready to use",
+          "CECER Queen Murphy Bed with Mattress"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Guest Bedroom That Doubles as a Home Office Specifically",
-    cards: [
-      { label: "Look for", text: "Built-in charging ports positioned conveniently for both bed use and desk-adjacent device charging, plus ample storage to keep guest bedding out of sight during workdays." },
-      { label: "In this comparison", text: "The CECER pick's 2 USB ports and 2 AC outlets alongside its storage drawer specifically support a dual-purpose guest room and home office setup." }
-    ],
+    "subheading": "For a Guest Room That Doubles as a Home Office Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Charging ports near the bed and desk, storage to hide bedding on workdays, and a cabinet front that reads as furniture."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The CECER offers 2 USB ports, 2 AC outlets and a storage drawer, and the Hlivelood adds a charging station and flanking cabinets."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want maximum flanking storage cabinets with integrated charging and LED lighting, where the Hlivelood pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want a complete mattress-included bundle without needing extensive storage, where the PUREMIND pick covers that for about $301 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Above this tier you reach custom cabinetry.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a built-in look with flanking cabinets and LED lights, which the Hlivelood delivers at the top of this tier."
+      },
+      {
+        "label": "Save if",
+        "text": "You want a bundle without extensive storage, where the PUREMIND costs noticeably less."
+      }
+    ]
   }
 ];
 
@@ -185,7 +269,7 @@ export const buyingCriteria = [
 export const faq = [
   { "q": "Does the included mattress on the CECER or PUREMIND picks work with standard queen bedding and sheets?", "a": "Yes, despite being engineered specifically for the fold mechanism, both mattresses are designed to fit standard queen dimensions, so regular queen sheets and bedding should work normally." },
   { "q": "What's the most common mistake buyers make when comparing weight ratings between hardware kits and complete beds?", "a": "Assuming a hardware kit's much higher rating, like the Wilding Wallbeds' 2,000 lb slat system rating, means it's proportionally 'twice as strong' as a complete bed rated for 1000 lbs, when these figures actually measure different things, bare hardware versus a fully assembled cabinet structure." },
-  { "q": "Is the Hlivelood pick worth it over the cheaper CECER option?", "a": "If you specifically want maximum flanking storage cabinets with LED lighting, yes, but if a complete mattress-included bundle with practical in-bed charging matters more, the CECER pick covers that for about $270 less." },
+  { "q": "Is the Hlivelood pick worth it over the cheaper CECER option?", "a": "If you specifically want maximum flanking storage cabinets with LED lighting, yes, but if a complete mattress-included bundle with practical in-bed charging matters more, the CECER pick covers that for under $300 less." },
   { "q": "How do I confirm the Wilding Wallbeds kit will actually fit inside my existing closet as advertised?", "a": "Measure your closet's interior width, depth, and height against the kit's stated queen mattress dimensions plus mechanism clearance space before ordering, since closet dimensions vary significantly between homes." },
   { "q": "Can the PUREMIND's freestanding design be moved to a different room later without issues?", "a": "Yes, since it doesn't require wall anchoring, it can be relocated more easily than a wall-mounted design, though its substantial size and weight still make it a two-person job to move safely." },
   { "q": "Do any of these murphy beds at this tier require an electrician for the built-in charging or LED features?", "a": "No, both the Hlivelood's LED lights and the CECER's USB and AC charging ports are designed to plug into a standard wall outlet, requiring no electrical work or professional installation for those specific features." }

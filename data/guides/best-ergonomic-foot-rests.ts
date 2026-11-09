@@ -5,7 +5,7 @@ export const metaDescription = "Seven ergonomic under desk foot rests compared b
 export const mainKeyword = "ergonomic foot rest";
 export const introParagraphs = [
   "A footrest earns its place when your chair is high enough that your feet dangle or press on the front of the seat edge, and it is wasted when your feet already rest flat on the floor. The sensible order is to set the chair height first, then add a footrest only to close whatever gap remains.",
-  "The seven picks below cover the main ergonomic styles: a steel platform, a foam stepped stool, a plastic massage-texture platform, a rocking wooden board and a six-height ABS stool. Sorting these picks came down to height range, angle options, platform size, material and weight limit where given. Prices run from about $17 to $50, and the cheapest options are not always the least adjustable."
+  "The seven picks below cover the main ergonomic styles: a steel platform, a foam stepped stool, a plastic massage-texture platform, a rocking wooden board and a six-height ABS stool. Sorting these picks came down to height range, angle options, platform size, material and weight limit where given. Prices run from under $20 to $50, and the cheapest options are not always the least adjustable."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41eXRlOZzcL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GH67LS98?tag=deskfinds0d-20",
-    "description": "YEASHEIN gives you 4 height settings and 3 angle settings, which the listing counts as 7 adjustable positions, on a carbon steel frame that lifts the memory foam off the floor. The foam is high-density and the foam top can be removed for other uses.\n\nCompared with the VIVO below, it offers angle control as well as height and costs about $10 less, but it lists no weight limit. Versus Everlasting Comfort it has more positions and a metal frame.\n\nChoose it if you want to tune both height and tilt. The caveat is that the listing does not give the actual inch range, so check the product page against the gap under your desk.",
+    "description": "YEASHEIN gives you 4 height settings and 3 angle settings, which the listing counts as 7 adjustable positions, on a carbon steel frame that lifts the memory foam off the floor. The foam is high-density and the foam top can be removed for other uses.\n\nCompared with the VIVO below, it offers angle control as well as height and costs under $15 less, but it lists no weight limit. Versus Everlasting Comfort it has more positions and a metal frame.\n\nChoose it if you want to tune both height and tilt. The caveat is that the listing does not give the actual inch range, so check the product page against the gap under your desk.",
     "specs": [
       "4 heights plus 3 angles",
       "High-density memory foam top",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/415izTjo28L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0763RMV58?tag=deskfinds0d-20",
-    "description": "VIVO is a steel-frame platform measuring 9.8 by 15.7 inches with multiple height adjustment points and a textured, anti-slip top. The listing states the frame holds up to 55 lbs, and it needs minimal assembly.\n\nIt is the priciest pick here, about $10 more than YEASHEIN, and it gives you a firm platform instead of a cushion. Versus the plastic Mind Reader it has a metal frame, but the platform is narrower.\n\nBest for people who want a firm, stable surface and plan to use it for years. The caveat is the price, and the 9.8 inch depth is small if you shift your feet a lot.",
+    "description": "VIVO is a steel-frame platform measuring 9.8 by 15.7 inches with multiple height adjustment points and a textured, anti-slip top. The listing states the frame holds up to 55 lbs, and it needs minimal assembly.\n\nIt is the priciest pick here, under $15 more than YEASHEIN, and it gives you a firm platform instead of a cushion. Versus the plastic Mind Reader it has a metal frame, but the platform is narrower.\n\nBest for people who want a firm, stable surface and plan to use it for years. The caveat is the price, and the 9.8 inch depth is small if you shift your feet a lot.",
     "specs": [
       "9.8 x 15.7 inch platform",
       "Steel frame, 55 lb limit",
@@ -219,47 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Measure your floor to seat gap",
-    "explanation": "A footrest should close the gap between your feet and the floor after the chair is set to the right height. Measure from the floor to the underside of the desk and from the floor to the back of your knees seated. Pick a model whose range covers that gap, and do not buy one if your feet already rest flat."
+    "explanation": "A footrest should close the gap between your feet and the floor after the chair is set to the right height. Measure from the floor to the underside of the desk and from the floor to the back of your knees seated. Pick a model whose range covers that gap, and do not buy one if your feet already rest flat. Compare this gap with each listing's range before ordering, and measure again after any chair height change."
   },
   {
     "criterion": "Minimum height setting",
-    "explanation": "Listings brag about maximum height, but the minimum matters just as much. A footrest that starts too high pushes your knees above your hips. Check the lowest setting, such as 3.1 or 3.25 inches, and not just the top."
+    "explanation": "Listings brag about maximum height, but the minimum matters just as much. A footrest that starts too high pushes your knees above your hips. Check the lowest setting, such as 3.1 or 3.25 inches, and not just the top. A range that starts higher than your gap will leave your knees raised for the whole day."
   },
   {
     "criterion": "Number of height and angle positions",
-    "explanation": "Fixed stools force one posture, while 4 to 6 steps let you match your chair. Angle options let your ankles move through a range. Look for the exact counts in the title, such as 7 positions."
+    "explanation": "Fixed stools force one posture, while 4 to 6 steps let you match your chair. Angle options let your ankles move through a range. Look for the exact counts in the title, such as 7 positions. More steps means finer fitting, so count them in the listing and ignore vague claims like fully adjustable."
   },
   {
     "criterion": "Platform width and depth",
-    "explanation": "A narrow platform makes your feet crowd together. A width of about 15 to 17 inches lets you shift. Check both numbers in the listing, since some say only length."
+    "explanation": "A narrow platform makes your feet crowd together. A width of about 15 to 17 inches lets you shift. Check both numbers in the listing, since some say only length. Measure your shoe length and compare it to the platform; a width under 15 inches usually feels cramped."
   },
   {
     "criterion": "Material and load limit",
-    "explanation": "Steel, ABS plastic, solid wood and foam behave differently under weight. Some listings state a limit, like 55 lbs for VIVO. Look for the number, and note that foam compresses over time."
+    "explanation": "Steel, ABS plastic, solid wood and foam behave differently under weight. Some listings state a limit, like 55 lbs for VIVO. Look for the number, and note that foam compresses over time. Shop by the number in the listing, and for a seated adult look for a stated limit above your leg weight."
   },
   {
     "criterion": "Surface and base grip",
-    "explanation": "A textured top stops your shoes sliding off the platform, and a non-slip bottom keeps the stool from creeping across tile or hardwood as you shift. Without both, you end up nudging the footrest back into place all day. Look for the words textured or anti-slip surface and non-slip feet or pads in the bullets."
+    "explanation": "A textured top stops your shoes sliding off the platform, and a non-slip bottom keeps the stool from creeping across tile or hardwood as you shift. Without both, you end up nudging the footrest back into place all day. Look for the words textured or anti-slip surface and non-slip feet or pads in the bullets. Wipe textured tops now and then, since dust and grit reduce grip and can scratch the surface over a few months."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Adjustability",
-    "description": "We compared height steps, angle settings and listed ranges."
+    "title": "Minimum height vs your floor gap",
+    "description": "We checked the lowest setting on every pick, such as ZLMHYYM's 3.1 inch start and Mind Reader's 3.25 inches. A footrest that starts too high raises your knees above your hips, so we scored the minimum as seriously as the maximum for a regular office chair."
   },
   {
-    "title": "Platform size",
-    "description": "We compared widths and depths."
+    "title": "Number of height and angle positions",
+    "description": "We counted stated adjustments. YEASHEIN lists four heights and three angles, ZLMHYYM six heights, and PEGZONE only two heights. More steps help you tune the fit as your chair changes, while only two steps can feel like guessing."
   },
   {
-    "title": "Build",
-    "description": "We compared steel, wood, plastic and foam, and stated weight limits."
+    "title": "Platform dimensions and foot room",
+    "description": "We compared platform size, from Atoping's 14.18 x 10.24 inches to Mind Reader's 17 x 13 inches, and VIVO's 9.8 inch depth. A narrow or shallow deck forces your feet together, so we gave credit to wider platforms and noted those that do not list both numbers."
   },
   {
-    "title": "Value",
-    "description": "We weighed features against price from about $17 to $50."
+    "title": "Material, frame and load",
+    "description": "We looked at carbon steel on YEASHEIN, the steel frame and 55 lb limit on VIVO, and foam or plastic on the cheaper picks. Steel resists flex under sustained pushing, while foam adds comfort but compresses over time, so we weighed build against price."
+  },
+  {
+    "title": "Surface comfort and grip",
+    "description": "We checked textured, massage and foam tops against non-slip bases. A textured top stops your shoes sliding, and a rubber base keeps the unit in place on carpet or tile. Surfaces that look comfortable but slide scored lower than a plainer deck that stays put."
   }
 ];
 
@@ -398,28 +402,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "How high should my footrest be?",
-    "a": "Aim for feet flat and knees near hip level or slightly lower. Pick a model whose range covers your gap. If unsure, start at the lowest setting."
+    "q": "Does an ergonomic footrest need to be adjustable?",
+    "a": "Yes if your chair or desk height ever changes. A fixed stool such as Atoping's rocking wood model sits at one low height, while YEASHEIN lists four heights and three angles. Adjustability lets you set your knees near a right angle as you grow or change chairs."
   },
   {
-    "q": "Do I need a footrest if my feet reach the floor?",
-    "a": "Probably not. A footrest is for closing a gap, so if your feet rest flat the chair setting is already enough."
+    "q": "What is the biggest mistake when buying one?",
+    "a": "Looking only at maximum height. If the lowest setting is above your floor to seat gap, your knees rise above your hips. Check minimums such as 3.1 inches on ZLMHYYM or 3.25 inches on Mind Reader before ordering."
   },
   {
-    "q": "Is steel worth it over plastic?",
-    "a": "Steel is firmer and states a weight limit on VIVO. Plastic is lighter and cheaper. For most home use either works."
+    "q": "Is the YEASHEIN worth it over the VIVO?",
+    "a": "YEASHEIN gives seven positions with a memory foam top and a carbon steel frame at a lower price, though it lists no weight limit. VIVO uses a steel frame with a stated 55 lb limit but only a 9.8 inch deep platform and costs more."
   },
   {
-    "q": "How do I set up an adjustable footrest?",
-    "a": "Set your chair height first so your thighs are level. Then place the footrest under the desk, start at the lowest setting and raise it step by step until your feet rest comfortably without pushing your knees above your hips. Re-check after a few days, as your preference may shift."
+    "q": "How do I set up a footrest correctly?",
+    "a": "Sit with your back supported and your knees near a right angle, then choose the height that lets your feet rest flat without lifting your thighs. Try an angled setting only if your ankles feel stiff. Re-check after changing chairs."
   },
   {
-    "q": "Can I use it with socks or bare feet?",
-    "a": "Textured surfaces grip bare feet, but massage nubs can feel intense. Try shoes off briefly first."
+    "q": "How often should I replace a foam footrest?",
+    "a": "Foam compresses over time, as listings for Everlasting Comfort note. If the top stays flattened after you stand up, or the base slides, replace it. Plastic and steel frames last longer than foam, but check them for cracks."
   },
   {
-    "q": "How do I clean a foam footrest?",
-    "a": "Wipe the surface with a damp cloth. Follow the listing for removable covers."
+    "q": "Do footrests really help posture?",
+    "a": "They can help when your feet do not reach the floor, because they take pressure off the back of your thighs. They are no fix for a chair set too high, so adjust the seat first and use the footrest to fill the remaining gap."
   }
 ];
 

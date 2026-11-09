@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Native vs Compressed Video", "description": "Compared uncompressed native GPU video against DisplayLink-style compressed video paths." },
-  { "title": "macOS Behavior Disclosure", "description": "Compared how transparently each listing discloses macOS mirror or single-display limitations." },
-  { "title": "Maximum Resolution and Refresh Rate", "description": "Compared 4K@60Hz against higher 4K@120Hz output per HDMI port." },
-  { "title": "Total Charging Capacity", "description": "Compared total wattage and simultaneous device charging support." },
-  { "title": "Price and Completeness", "description": "Compared price against included accessories like cables and power adapters." }
+  {
+    "title": "Refresh rate per HDMI port",
+    "description": "We read whether both HDMI ports hold their rate together. The StarTech lists dual 4K at 120Hz native, while Plugable and UGREEN list dual 4K 60Hz, and the MOKiN uses HDMI plus DisplayPort in MacBook dual mode. Both ports at 120Hz needs a host that can drive two fast streams, which is why the Windows requirement matters."
+  },
+  {
+    "title": "Host-dependent caveats",
+    "description": "Plugable marks its dual 4K 60Hz as host-dependent, and UGREEN specifies Windows extended display. For Macs, base chips limit you to one external display, so we flagged each listing's honesty about this. Cheap docks often hide this caveat in a footnote, so we read the small print."
+  },
+  {
+    "title": "Operating system support",
+    "description": "The StarTech dock is Windows and ChromeOS only, not macOS. A dual HDMI dock that ignores Mac limits is a common source of returns, so we weighed this heavily. That limitation catches many MacBook Air buyers, so we gave plain disclosure extra credit."
+  },
+  {
+    "title": "Charging budget",
+    "description": "MOKiN lists 160W total output, Plugable ships a 110W adapter, and UGREEN lists PD 100W. We checked whether the figure covers a laptop plus monitors. A laptop plus two monitors can sink a weak charger, so the stated wattage matters more than the port count."
+  },
+  {
+    "title": "Build and security",
+    "description": "Plugable includes a K-Lock slot and lifetime support, a rare combination at this tier. We weighed these because a dock on a shared desk benefits from both. Shared desks and hot-desking offices use these features daily, which is why they decided the Plugable's rank."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Native uncompressed dual 4K 120Hz for Windows", "StarTech Driverless USB4 Dock"],
-        ["A complete, well-documented Windows desk setup", "Plugable USB-C Docking Station"],
-        ["Dual HDMI at the lowest possible price", "UGREEN USB C Docking Station, 7-in-1"],
-        ["Dual-display support that actually works with MacBook", "MOKiN Laptop Docking Station, Dual Monitor"]
+    "subheading": "By Refresh Rate",
+    "intro": "Refresh rate decides the tier, because only one of these docks reaches dual 4K at 120Hz.",
+    "table": {
+      "headers": [
+        "You want",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Two 4K monitors at 120Hz for smoother motion",
+          "StarTech Driverless USB4 Dock, Dual 4K 120Hz HDMI"
+        ],
+        [
+          "Two 4K monitors at 60Hz plus a security lock slot for a shared desk",
+          "Plugable USB-C Docking Station, Dual 4K 60Hz HDMI, with a K-Lock slot"
+        ],
+        [
+          "Two 4K monitors at 60Hz at the lowest cost",
+          "UGREEN USB C Docking Station, 7-in-1 with 2xHDMI"
+        ],
+        [
+          "Two displays from a MacBook using HDMI plus DisplayPort",
+          "MOKiN Laptop Docking Station, with a MacBook dual-display mode"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $30", "UGREEN 7-in-1 (under $30)"],
-        ["Under $115", "MOKiN Dual Monitor Dock (under $120)"],
-        ["Under $120", "Plugable USB-C Docking Station (under $120)"],
-        ["Under $200", "StarTech Driverless USB4 Dock (under $200)"]
+    "subheading": "By Budget",
+    "intro": "From under $50 to over $150, price tracks refresh rate, bundled charger and network features.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Under $50 for dual HDMI and 100W charging",
+          "UGREEN 7-in-1 Docking Station, with PD 100W"
+        ],
+        [
+          "Under $125 for a bundled 110W adapter and lifetime support",
+          "Plugable USB-C Docking Station, with dual 4K 60Hz HDMI"
+        ],
+        [
+          "Under $125 for 160W total output across many devices",
+          "MOKiN Laptop Docking Station, with MacBook dual-display mode"
+        ],
+        [
+          "Under $200 for 120Hz displays, 2.5GbE and Wake-on-LAN",
+          "StarTech Driverless USB4 Dock, with PXE boot"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Windows-Only Native Video vs Mac-Compatible Dual Display",
-    cards: [
-      { label: "Windows-only, native uncompressed (StarTech, Plugable)", text: "Delivers the highest fidelity dual-display output but explicitly excludes macOS or limits it to a single monitor." },
-      { label: "Mac-compatible dual display (MOKiN)", text: "Specifically supports MacBook dual-display mode, at the tradeoff of a bulkier vertical form factor." }
+    "subheading": "Windows Extended Mode vs MacBook Dual Mode",
+    "intro": "The operating system decides how two monitors behave when you plug them into the same dock.",
+    "cards": [
+      {
+        "label": "Windows extended",
+        "text": "StarTech, Plugable and UGREEN list dual extended HDMI on Windows, with the StarTech limited to Windows and ChromeOS."
+      },
+      {
+        "label": "MacBook mode",
+        "text": "MOKiN lists a MacBook dual-display mode using HDMI plus DisplayPort, but base M-series Macs still cap at one external display."
+      }
     ],
-    note: "If you're on Windows and want the best possible dual-HDMI fidelity, the StarTech or Plugable picks deliver that. If you specifically need dual monitors on a MacBook, the MOKiN pick is the only one in this comparison that directly supports it.",
+    "note": "Mac buyers should check their chip first and choose MOKiN only if their Mac supports two external displays."
   },
   {
-    subheading: "By Refresh Rate Needed",
-    table: {
-      headers: ["Your display need", "Recommended pick"],
-      rows: [
-        ["Standard 4K@60Hz dual display", "Plugable or UGREEN picks"],
-        ["Higher-refresh 4K@120Hz dual display", "StarTech Driverless USB4 Dock"]
+    "subheading": "By Charging Need",
+    "intro": "Different laptops draw different power, so match the dock's wattage to your charger.",
+    "table": {
+      "headers": [
+        "You need",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "160W of total output across the laptop and several devices",
+          "MOKiN Laptop Docking Station, which suits a busy desk"
+        ],
+        [
+          "100W laptop charging from a basic dock at the lowest cost",
+          "UGREEN 7-in-1 Docking Station, with PD 100W"
+        ],
+        [
+          "A bundled power brick so no extra charger is needed",
+          "Plugable USB-C Docking Station, with a 110W adapter and cable included"
+        ],
+        [
+          "Network management features for an IT-managed desk",
+          "StarTech Driverless USB4 Dock, with 2.5GbE and PXE boot"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Shared or Corporate Desk Deployments Specifically",
-    cards: [
-      { label: "Look for", text: "Driverless plug-and-play operation, physical lock slots, and IT management features like PXE Boot and Wake-on-LAN for scalable deployment across many desks." },
-      { label: "In this comparison", text: "The StarTech pick specifically includes lock slots, VESA mounting compatibility, and PXE Boot/Wake-on-LAN support for IT-managed rollouts." }
-    ],
+    "subheading": "For a Windows Dual-Monitor Office Specifically",
+    "intro": "A standard office desk needs two HDMI screens, stable charging and a way to stop the dock walking away.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Two HDMI outputs at 4K 60Hz, a charger bundled in the box and a security lock slot for shared desks."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Plugable USB-C dock lists dual 4K 60Hz HDMI, a K-Lock slot, a 110W adapter and lifetime support."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want native uncompressed 4K 120Hz dual HDMI with IT deployment features, where the StarTech pick justifies its under $200 price." },
-      { label: "Save if", text: "You want basic dual 4K@60Hz HDMI on Windows at the lowest cost, where the UGREEN pick delivers that for under $30." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The StarTech is the only 120Hz pick, so the extra spending has one clear justification.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You use 120Hz monitors. The StarTech under $200 delivers dual 4K 120Hz and 2.5GbE, and the 4K 120Hz guide covers Thunderbolt 5 options."
+      },
+      {
+        "label": "Save if",
+        "text": "You use 60Hz monitors. The UGREEN under $50 or the Plugable under $125 cover standard dual-display work."
+      }
+    ]
   }
 ];
 
@@ -182,12 +268,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will the StarTech dock work with my MacBook for dual HDMI displays?", "a": "No, the listing explicitly states this dock is not compatible with macOS, so Mac users specifically needing dual HDMI should choose the MOKiN pick instead, which specifically states MacBook dual-display mode support." },
-  { "q": "What's the most common mistake buyers make when choosing a dual HDMI USB4 dock?", "a": "Assuming any dock with two HDMI ports will deliver independent extended displays on a Mac, when most docks in this category either limit macOS to mirror mode or a single external display due to platform-level limitations, not dock hardware quality." },
-  { "q": "Is the StarTech dock worth the extra cost over the Plugable pick if I only need standard 4K 60Hz?", "a": "If your monitors and use case only need standard 4K@60Hz, the Plugable pick's lower price already covers that need well, but if you specifically want the higher 4K@120Hz refresh rate and IT deployment features, the StarTech's higher price is justified." },
-  { "q": "How do I know if my laptop supports the DisplayPort Alt Mode with MST needed for dual HDMI extension?", "a": "Checking your specific laptop manufacturer's documentation for confirmed USB-C DisplayPort Alt Mode with Multi-Stream Transport (MST) support is worth doing before purchase, since not every USB-C port on every laptop supports this specific combination." },
-  { "q": "Can I use the UGREEN dock's USB-C ports for charging my phone while docked?", "a": "No, the listing specifically states the 10Gbps USB A and C data ports do not support charging, so a separate charging port or cable would be needed for phone charging while the dock is connected." },
-  { "q": "Does the MOKiN dock's vertical design make it harder to reach the ports?", "a": "The vertical design specifically includes a built-in LCD screen showing per-port connection status to help with monitoring, and most ports are positioned for accessibility despite the upright orientation, though checking the specific port placement in product images before purchase can help confirm it suits your desk arrangement." }
+  {
+    "q": "Do both HDMI ports give 4K 120Hz on the StarTech dock?",
+    "a": "The listing says dual 4K at 120Hz native uncompressed video, so yes on a Windows or ChromeOS host that supports it. Your monitors and HDMI cables also need to handle 4K 120Hz. Your cables must also be certified for 4K 120Hz."
+  },
+  {
+    "q": "Why can my Mac only use one HDMI monitor?",
+    "a": "Base Apple chips limit external displays, and macOS has no MST. A dual HDMI dock cannot override that, so Mac buyers need a Pro or Max chip and a design like the MOKiN's MacBook mode. Check your chip before ordering."
+  },
+  {
+    "q": "Is the StarTech worth more than the Plugable for two HDMI monitors?",
+    "a": "Only for 120Hz. The StarTech over $150 lists dual 4K 120Hz, while the Plugable under $125 offers dual 4K 60Hz, a K-Lock slot and lifetime support."
+  },
+  {
+    "q": "Is the UGREEN 7-in-1 good enough as a budget dock?",
+    "a": "For two 4K 60Hz Windows monitors, yes. It costs under $50 and lists PD 100W. It has fewer ports than the Plugable, and it lacks a security lock slot. It has no security slot, which matters on a shared desk."
+  },
+  {
+    "q": "How do I get both monitors working after connecting the dock?",
+    "a": "Plug each HDMI cable into a separate port, connect the dock to your laptop, then open Display Settings and choose Extend. If one screen stays blank, reseat the dock cable and try a different port."
+  },
+  {
+    "q": "Can the MOKiN dock power my laptop and phone together?",
+    "a": "It lists 160W total output and charges four devices at once, though the laptop's share depends on the other loads. Plug in only the devices you need if the laptop charges slowly. Plug in only what you need if it slows."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

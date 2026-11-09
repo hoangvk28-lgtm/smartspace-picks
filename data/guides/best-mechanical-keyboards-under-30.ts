@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Genuine Switch Verification", "description": "Confirmed each pick uses named genuine mechanical switches rather than vague 'mechanical feeling' marketing language." },
-  { "title": "Layout Size and Key Count", "description": "Compared full-size, TKL, and 60% layouts against desk space tradeoffs." },
-  { "title": "Anti-Ghosting and Rollover", "description": "Checked N-key rollover and anti-ghosting support across all four picks." },
-  { "title": "Hot-Swap Capability", "description": "Checked which picks allow switch replacement without soldering versus fixed switches." },
-  { "title": "Build Quality and Extras", "description": "Compared metal frames, drainage holes, and warranty length across the lineup." }
+  { "title": "Switch color against your room", "description": "We recorded each pick's switch type, since red is a light linear press, while blue is the loud, clicky kind. Both the RisoPhy and the 60% board use blue switches, which can annoy anyone sharing a dorm or desk, so noise tolerance counted as much as feel. The red-switch MageGee and Redragon are the quiet pair." },
+  { "title": "Hot-swap sockets at the floor price", "description": "We checked which listings promise hot-swappable switches, as the Redragon does with its red switches. At this ceiling that feature is rare, and it means a wrong switch choice can be fixed later by pulling the switch instead of buying a new board. The other three picks have soldered switches." },
+  { "title": "Layout and desk footprint", "description": "We compared layouts from the 61-key 60% board to the 104-key RisoPhy. A full-size board takes the widest footprint, while a 60% layout frees room for the mouse, but it drops the arrow keys and function row that many people use daily. The MageGee's 87-key layout sits between them." },
+  { "title": "Anti-ghosting and rollover", "description": "We looked for N-key rollover or full anti-ghosting claims, which the MageGee and RisoPhy list. Cheap boards without them miss simultaneous key presses, which matters for gaming combos and fast typists who overlap keystrokes." },
+  { "title": "Spill and build details", "description": "We noted practical build features, including the RisoPhy's four hydrophobic drainage holes, the MageGee's metal panel, and the 60% board's detachable Type-C cable. A removable cable is easier to replace than a fixed one that frays. None of the four lists a spill-proof rating beyond drainage holes." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "Under $30 the first split is the switch itself, since a loud blue switch and a quiet red one feel and sound completely different.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "The four sit within under $10, so the budget table is mostly about which extra, hot-swap, drainage, or compact size, you want.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -133,6 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Layout Size",
+    intro: "Layout is the second decision, because a 60% board saves desk width at the cost of dedicated arrow keys.",
     table: {
       headers: ["Your space needs", "Recommended pick"],
       rows: [
@@ -153,7 +156,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want hot-swappable switch customization to experiment with different feels over time, where the Redragon pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You just want the smallest possible footprint with genuine mechanical switches, where the 60% Wired pick covers that for about $7 less." }
+      { label: "Save if", text: "You just want the smallest possible footprint with genuine mechanical switches, where the 60% Wired pick covers that for under $10 less." }
     ],
   }
 ];
@@ -183,8 +186,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "How do I know if a cheap keyboard listing is using real mechanical switches or just marketing language?", "a": "Look for a specific named switch type like 'red switch', 'blue switch', or a recognized brand name in the listing, and be cautious of listings that only say 'mechanical feeling' or 'mechanical feel' without naming an actual switch type, since that phrasing typically indicates a membrane keyboard." },
-  { "q": "What's the most common mistake buyers make when choosing between linear and clicky switches at this price?", "a": "Choosing a clicky blue switch for a shared office or dorm environment without considering the noise level, since the audible click on every keystroke can be genuinely disruptive to people nearby, making a quieter linear red switch the better choice for shared spaces." },
-  { "q": "Is the Redragon pick worth it over the cheaper 60% Wired option?", "a": "If you want hot-swappable switch customization and a full-size layout, yes, but if you just want the smallest footprint with genuine mechanical switches at the lowest price, the 60% Wired pick covers that for about $7 less." },
+  { "q": "Is a blue switch keyboard a bad choice for a shared room?", "a": "Blue switches are the clicky type and are noticeably louder, so they can irritate roommates and coworkers. The RisoPhy and the 60% board use them. If noise matters, the red-switch MageGee or Redragon is quieter, and the Redragon's hot-swap sockets let you change switches later." },
+  { "q": "Is the Redragon pick worth it over the cheaper 60% Wired option?", "a": "If you want hot-swappable switch customization and a full-size layout, yes, but if you just want the smallest footprint with genuine mechanical switches at the lowest price, the 60% Wired pick covers that for under $10 less." },
   { "q": "Can I replace the switches on the MageGee or RisoPhy keyboards if they're not hot-swappable?", "a": "Not without soldering, since only the Redragon pick in this comparison explicitly supports tool-free hot-swapping, so if switch customization matters to you, that's the pick to choose from this tier." },
   { "q": "Do any of these budget mechanical keyboards work without installing software?", "a": "Yes, all four picks in this comparison are plug-and-play with no required drivers or software for basic function, though the Redragon pick's macro editing feature does require its included software to access that specific customization." },
   { "q": "How long do genuine mechanical switches typically last compared to membrane keys at this price point?", "a": "Genuine mechanical switches, like the ones confirmed on all four picks here, are generally rated for tens of millions of keystrokes, meaningfully longer than typical membrane keyboard lifespans, which is part of why confirming a real switch type matters even at a budget price." }

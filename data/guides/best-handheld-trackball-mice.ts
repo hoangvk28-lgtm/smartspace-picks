@@ -191,51 +191,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Real size and weight",
-    "explanation": "Handheld trackballs run from about 3 inches long and 3.5 ounces up to bulkier trigger-style bodies. A tiny shell is easy to carry but harder to hold for long. Look for dimensions in inches and a listed weight, and compare them to your hand."
+    "explanation": "A handheld trackball is small by design, and size decides whether it feels cramped. The Mobestech is about 3.14 by 2.04 by 1.96 inches and 3.53 ounces, while the OATIPHO is about 4.33 by 2.36 by 1.97 inches. Large hands can cramp on the smallest ones, so compare the listed dimensions with your palm width."
   },
   {
     "criterion": "Thumb versus ring operation",
-    "explanation": "Most handhelds are rolled with the thumb, while ring designs sit on a finger and are moved with the thumb of the same hand. Rings fit different finger sizes only if the holder adjusts. Look for an adjustable holder in the listing."
+    "explanation": "On a thumb trackball you move the ball with your thumb, and on a finger or ring design you use the index or middle finger. Thumb balls are usually the easier switch from a mouse, while finger designs suit people with thumb joint soreness. The Dual-Mode Ring lists an adjustable finger holder, so check how the ball is operated before you order."
   },
   {
     "criterion": "Wired or wireless",
-    "explanation": "A wired model never runs out but limits how far you can sit. A wireless unit gives freedom for couch or presentation use. Look for 2.4GHz range or Bluetooth in the title, and see whether the receiver is included."
+    "explanation": "A wired USB mouse needs no batteries but ties you to the port, while a wireless one frees you to present from across a room. The Dual-Mode Ring lists Bluetooth 5.0 and a 2.4GHz receiver with a rechargeable battery, and the welspo lists AAA batteries. Pick wired for a desk, wireless for a presenter, and check the battery type."
   },
   {
     "criterion": "Presenter features",
-    "explanation": "A laser pointer or a slide-advance mode can replace a separate clicker. Laser pointers should be used responsibly. Look for a stated presentation mode compatible with your software."
+    "explanation": "A built-in laser pointer or slide remote turns a trackball into a presentation tool. The welspo lists a laser pointer with a USB receiver, and the Dual-Mode Ring doubles as a slide remote. Laser pointers need care around eyes, so confirm the power class on the listing, and check that the remote buttons match your software."
   },
   {
     "criterion": "Button layout and scroll",
-    "explanation": "A 3-button layout with 4D scrolling is common, where 4D means vertical and horizontal scrolling with the thumb. Small bodies make the buttons tiny, so a click can land on the wrong one. Check the photos to see that the click buttons are reachable with the finger you will actually use."
-  },
-  {
-    "criterion": "Precision expectations",
-    "explanation": "These are less precise than a desk mouse or a big trackball, because the ball is small. Treat them as convenience tools. Check the return window if you plan to use one for detailed work."
+    "explanation": "Handheld trackballs often have three buttons and a 4D scroll, but a small body means buttons are close together. The YUMQUA and OATIPHO list 3 buttons and 4D scrolling, and works in either hand. Check the button count, whether scrolling is on the ball or a wheel, and whether you need an accidental click guard."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Size and weight",
-    "description": "We compared listed dimensions and weights, since portability is the point of a handheld."
+    "title": "Hand fit and size",
+    "description": "The first test for a handheld trackball is whether it fits your hand without cramping. We compared the Mobestech's 3.14 inch body and 3.53 ounce weight and the OATIPHO's 4.33 inch body, and marked small, cramped designs down for large hands because a trackball you cannot grip comfortably defeats its purpose."
   },
   {
-    "title": "Connection",
-    "description": "Wired and wireless setups, receivers and battery types were checked in each listing."
+    "title": "Connection options",
+    "description": "We compared wired and wireless choices: the YUMQUA, OATIPHO, Mobestech and mini YUMQUA are wired USB 2.0 with no drivers, while the welspo uses a USB receiver and AAA batteries, and the Dual-Mode Ring offers Bluetooth 5.0 plus 2.4GHz. Flexibility counted at a higher price."
   },
   {
-    "title": "Presenter features",
-    "description": "Laser pointer and presentation remote features were noted."
+    "title": "Presenter and carry usefulness",
+    "description": "These are used standing and walking, not just at a desk. We credited the welspo's laser pointer and carry bag and the Dual-Mode Ring's presentation remote, and noted that the wired models limit range to the cable length."
   },
   {
-    "title": "Operating system support",
-    "description": "We checked the listed compatibility with Windows, macOS, Linux and Chrome OS."
+    "title": "Platform compatibility",
+    "description": "We checked system support. The YUMQUA lists Windows, Mac and Linux with no drivers, and the Mobestech lists legacy Windows support. We noted that a no-driver design avoids installation problems on locked-down work or school computers."
   },
   {
-    "title": "Value for price",
-    "description": "Each price was judged against the spec sheet it buys, plus patterns in owner feedback."
+    "title": "Precision expectations",
+    "description": "A small ball cannot match a full desktop trackball for accuracy. We set expectations honestly, noting the YUMQUA's smaller size means less precision, and judged each pick for navigation and slides, not detailed design work."
   }
 ];
 
@@ -289,7 +285,7 @@ export const howToChoose: HowToChooseSection[] = [
           "welspo Wireless Handheld Trackball Mouse with Laser Pointer"
         ],
         [
-          "Around $80",
+          "Under $100",
           "Dual-Mode Ring Trackball Mouse with Presentation Remote"
         ]
       ]
@@ -367,28 +363,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can a handheld trackball replace a regular mouse?",
-    "a": "For browsing and presentations, yes. For detailed work like photo editing, the small ball is less precise. Keep a regular mouse around."
+    "q": "Is a handheld trackball good for wrist pain?",
+    "a": "It can reduce wrist movement because the hand stays still, but it is not a medical device. A thumb or finger ball may strain a different joint. Try it for short sessions first, and talk to a doctor if you have ongoing pain or numbness."
   },
   {
-    "q": "Will it work with my Mac or Chromebook?",
-    "a": "Several listings mention Windows, macOS, Linux and Chrome OS support, but check yours. Wired USB models are usually plug and play. Some features may need software."
+    "q": "Do I need drivers for these trackballs?",
+    "a": "Usually not. The YUMQUA and OATIPHO list wired USB 2.0 with no drivers, and they list Windows, Mac and Linux support. The Dual-Mode Ring pairs by Bluetooth or a 2.4GHz receiver. Check the listing for your operating system before ordering."
   },
   {
-    "q": "Is a laser pointer on a mouse safe?",
-    "a": "Laser pointers should never be aimed at eyes or at people. Use a model with a pointer responsibly in a meeting room. Skip it in shared spaces if in doubt."
+    "q": "Is the Dual-Mode Ring worth more than the wired ones?",
+    "a": "If you present often, yes. It lists Bluetooth 5.0, 2.4GHz, an adjustable finger holder, a rechargeable battery, and a presentation remote function, while the wired mice cost far less and need no charging. For desk use, a wired YUMQUA is enough."
   },
   {
-    "q": "Are handheld trackballs worth over a desk trackball?",
-    "a": "They suit portability and off-table use, while a desk trackball gives better precision. If you only need a pointer for slides, a handheld is enough. Many people keep one of each."
+    "q": "How long does it take to get used to a trackball?",
+    "a": "A few days for a thumb ball and up to a couple of weeks for a finger design, because the movement is different from a mouse. Start with simple tasks like browsing, and keep a regular mouse nearby for detailed work."
   },
   {
-    "q": "How do I use a handheld trackball comfortably?",
-    "a": "Hold it loosely and roll the ball with your thumb or the finger the design intends. Avoid gripping hard. Take breaks if your hand tires, and see a professional if you have pain."
+    "q": "How do I clean the ball?",
+    "a": "Pop the ball out if the model allows, wipe the ball and the sensor cavity with a lint-free cloth and some isopropyl alcohol, and let it dry. Dirt and skin oil make the cursor jump. Clean every few weeks, especially in a bag-carried model."
   },
   {
-    "q": "Do I need drivers?",
-    "a": "Most listed here are plug and play with no drivers. Wireless ones need a receiver or Bluetooth pairing. Check the listing for software for button remapping."
+    "q": "Can I use a handheld trackball on my knees or the couch?",
+    "a": "Yes, that is the main benefit, since it needs no flat surface. The Mobestech and OATIPHO are small enough to hold, but a wired cable limits range. Keep the cable slack, and use the wireless welspo or the Dual-Mode Ring for a sofa across the room."
   }
 ];
 

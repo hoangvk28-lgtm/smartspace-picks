@@ -219,182 +219,184 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Silicone water contact",
-    "explanation": "A collapsible body is silicone, so unlike a steel kettle, hot water touches it. This can add a faint odor at first, and silicone ages with repeated boiling. Look for food-grade and high-temperature-resistant wording, and rinse before first use."
+    "explanation": "A collapsible body is silicone, so unlike a steel kettle, hot water touches it. This can add a faint odor at first, and silicone ages with repeated boiling. Look for food-grade and high-temperature-resistant wording, and rinse before first use.  Smell the kettle after the first boil, and discard the first batch of water, since new silicone gives off a faint odor.  Smell the kettle after the first boil, and discard the first batch of water, since new silicone gives off a faint odor."
   },
   {
     "criterion": "Voltage handling and the switch trap",
-    "explanation": "Collapsible kettles often have a manual 110V and 220V switch, and a wrong setting can ruin the kettle or trip a fuse. LOUTYTUO and T-magitic use a base switch, while AUCOO detects automatically. Check the switch position before plugging in."
+    "explanation": "Collapsible kettles often have a manual 110V and 220V switch, and a wrong setting can ruin the kettle or trip a fuse. LOUTYTUO and T-magitic use a base switch, while AUCOO detects automatically. Check the switch position before plugging in.  Check the listing for the phrase automatic voltage or a physical base switch before ordering, since the title alone rarely says.  Check the listing for the phrase automatic voltage or a physical base switch before ordering, since the title alone rarely says."
   },
   {
     "criterion": "Folded size and weight",
-    "explanation": "The reason to buy a collapsible is packing, so the folded dimensions matter. DOFQQG folds to 1.9 inches thick and 0.94 pounds, while UpdateClassic is 3.8 inches thick. Compare the folded size with your bag."
+    "explanation": "The reason to buy a collapsible is packing, so the folded dimensions matter. DOFQQG folds to 1.9 inches thick and 0.94 pounds, while UpdateClassic is 3.8 inches thick. Compare the folded size with your bag.  Compare the folded thickness with the gap in your suitcase, and weigh the kettle with its cord and base, since the base is the heavy part.  Compare the folded thickness with the gap in your suitcase, and weigh the kettle with its cord and base, since the base is the heavy part."
   },
   {
     "criterion": "Wattage and capacity balance",
-    "explanation": "Higher wattage boils faster, but a small collapsible body limits capacity. AUCOO and Xfbaozxy run 850W for 700 ml, UpdateClassic 600W for 0.6 liter. Choose based on how many cups you boil."
+    "explanation": "Higher wattage boils faster, but a small collapsible body limits capacity. AUCOO and Xfbaozxy run 850W for 700 ml, UpdateClassic 600W for 0.6 liter. Choose based on how many cups you boil.  A 700 ml kettle gives about two cups, so plan on two boils if you want a larger pot of tea.  A 700 ml kettle gives about two cups, so plan on two boils if you want a larger pot of tea."
   },
   {
     "criterion": "Heating plate and shut-off",
-    "explanation": "The stainless steel plate heats the water, and a good kettle shuts off when empty or boiled. AUCOO and Xfbaozxy name triple automatic shut-off. Look for boil-dry or auto shut-off in the listing."
+    "explanation": "The stainless steel plate heats the water, and a good kettle shuts off when empty or boiled. AUCOO and Xfbaozxy name triple automatic shut-off. Look for boil-dry or auto shut-off in the listing.  Reviews note that some travel kettles do not shut off reliably, so treat the feature as a backup, not a replacement for watching the kettle.  Reviews note that some travel kettles do not shut off reliably, so treat the feature as a backup, not a replacement for watching the kettle."
   },
   {
     "criterion": "Cleaning and storage",
-    "explanation": "Silicone folds can trap water, and a damp kettle should not be packed away. Detachable parts help, as on LOUTYTUO. Dry fully before folding."
+    "explanation": "Silicone folds can trap water, and a damp kettle should not be packed away. Detachable parts help, as on LOUTYTUO. Dry fully before folding.  Look for detachable parts, wide openings, and a listing that says the folds can be wiped dry.  Look for detachable parts, wide openings, and a listing that says the folds can be wiped dry."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Packing size",
-    "description": "We compared folded dimensions and weight where given."
+    "title": "Voltage handling",
+    "description": "A collapsible kettle is bought for travel, so voltage is the first risk. The AUCOO lists automatic 110 to 220V detection, while the T-magitic and LOUTYTUO use a manual 110V or 220V switch, and the Xfbaozxy is 110V only. A wrong manual setting can trip a fuse or damage the kettle, so automatic detection was credited."
   },
   {
-    "title": "Power and voltage",
-    "description": "Wattage, capacity and voltage handling were compared, noting where details were missing."
+    "title": "Folded size and weight",
+    "description": "We compared folded dimensions and weights: the DOFQQG folds to 5.9 by 5.5 by 1.9 inches at 0.94 lb, the T-magitic to 6.5 by 6.3 by 2.1 inches at 1.42 lb, and the Brentwood weighs 1.5 lb. In a carry-on, a pound and an inch of thickness decide whether a kettle gets packed at all."
   },
   {
-    "title": "Temperature control",
-    "description": "Preset counts and keep-warm functions were compared."
+    "title": "Capacity and wattage",
+    "description": "Collapsible bodies hold 0.55 to 0.85 quart, and wattage runs from 600W for the UpdateClassic to 850W for the AUCOO and Xfbaozxy. We weighed boil speed against cup count, since a 600W kettle takes longer to boil the same water, which matters when you want tea before a morning meeting."
   },
   {
-    "title": "Safety",
-    "description": "Automatic shut-off, boil-dry protection and element style were weighed ahead of marketing wording."
+    "title": "Heating base and silicone contact",
+    "description": "Every pick has a silicone body, and we checked what heats the water. The DOFQQG lists a steel plate, the UpdateClassic a 304 steel base, and the Brentwood a concealed element. Water that touches only steel at the base keeps the taste cleaner than a kettle that heats through plastic."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $15 to $50 were compared with documented features."
+    "title": "Safety shut-offs and controls",
+    "description": "The Xfbaozxy lists triple automatic power-off, and the AUCOO offers 11 temperature settings from 108F to 212F with an LCD. Reviews of travel kettles often say not to rely on boil-dry protection alone, so we treated listed shut-offs as a plus but still told buyers to stay near the kettle."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Travel Style",
+    "subheading": "By Where You Travel",
+    "intro": "Outlets and voltage differ between countries, so match the kettle to the trip.",
     "table": {
       "headers": [
-        "Your situation",
+        "Your trip",
         "Recommended pick"
       ],
       "rows": [
         [
-          "International, automatic voltage",
-          "AUCOO 700mL Collapsible Travel Kettle with LCD"
+          "International trips across 110V and 220V countries without a switch",
+          "AUCOO 700mL Collapsible Travel Kettle, with automatic voltage detection"
         ],
         [
-          "Ultralight packing",
-          "DOFQQG Collapsible Travel Electric Kettle"
+          "Trips where you do not mind setting a switch and want a small body",
+          "T-magitic Foldable Silicone Electric Kettle, with a 110V or 220V switch"
         ],
         [
-          "Camping with a bag and removable parts",
-          "LOUTYTUO 0.55L Collapsible Silicone Travel Kettle"
+          "Carry-on travel where every ounce counts",
+          "DOFQQG Collapsible Travel Electric Kettle, at 0.94 lb"
         ],
         [
-          "North America only, strong power",
-          "Xfbaozxy 700ml 850W Foldable Travel Kettle"
-        ],
-        [
-          "Dorm with concealed-element rule",
-          "Brentwood KT-1508BK Collapsible Dual Voltage Kettle"
+          "Domestic trips and dorm rooms on 110V",
+          "Xfbaozxy 700ml 850W Foldable Kettle, at 110V with keep-warm"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Prices run from budget to a premium small kettle.",
     "table": {
       "headers": [
-        "Price range",
+        "Price tier",
         "Recommended pick"
       ],
       "rows": [
         [
           "Under $15",
-          "UpdateClassic 0.6L Foldable Electric Kettle 600W"
+          "UpdateClassic 0.6L Foldable Electric Kettle, the cheapest"
         ],
         [
-          "About $22",
-          "Xfbaozxy 700ml 850W Foldable Travel Kettle"
+          "Under $25",
+          "Xfbaozxy, with triple power-off"
         ],
         [
-          "$29 to $30",
-          "T-magitic Foldable Silicone Electric Kettle Dual Voltage"
+          "Under $30",
+          "DOFQQG, the lightest pick"
         ],
         [
-          "About $32 to $36",
-          "AUCOO 700mL Collapsible Travel Kettle with LCD"
+          "Under $32",
+          "Brentwood KT-1508BK, a dual-voltage kettle from a known appliance brand"
         ],
         [
-          "About $48",
-          "LOUTYTUO 0.55L Collapsible Silicone Travel Kettle"
+          "Under $36",
+          "AUCOO, with 11 temperature settings"
+        ],
+        [
+          "Under $50",
+          "LOUTYTUO 0.55L Collapsible Silicone Travel Kettle, with a detachable cord"
         ]
       ]
     }
   },
   {
     "subheading": "Automatic Voltage vs Manual Switch",
+    "intro": "For international use this is a safety question as much as a convenience one.",
     "cards": [
       {
-        "label": "Automatic or fixed",
-        "text": "An automatic or single-voltage kettle removes the risk of a wrong switch. That covers AUCOO 700mL Collapsible Travel Kettle with LCD, with Xfbaozxy 700ml 850W Foldable Travel Kettle fixed at 110V."
+        "label": "Automatic (AUCOO)",
+        "text": "The kettle senses the supply and adjusts, so a tired traveler cannot plug it in wrong. It removes the most common way these kettles break."
       },
       {
-        "label": "Manual switch",
-        "text": "A base switch gives worldwide use but demands care each time you travel. That covers T-magitic Foldable Silicone Electric Kettle Dual Voltage and LOUTYTUO 0.55L Collapsible Silicone Travel Kettle."
+        "label": "Manual switch (T-magitic, LOUTYTUO)",
+        "text": "A base switch selects 110V or 220V. It is a common design and works fine if you set it before plugging in, but the mistake destroys the kettle."
       }
     ],
-    "note": "Pick automatic detection if you often forget to check switches."
+    "note": "For frequent overseas travel, default to automatic detection."
   },
   {
-    "subheading": "Temperature and Keep-Warm",
+    "subheading": "By Packing Space",
+    "intro": "Folded size and weight decide whether it fits your bag.",
     "table": {
       "headers": [
-        "Your concern",
+        "Your bag",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Most temperature settings",
-          "AUCOO 700mL Collapsible Travel Kettle with LCD"
+          "A small backpack or carry-on",
+          "DOFQQG, at 5.9 by 5.5 by 1.9 inches"
         ],
         [
-          "Five modes with milk and tea",
-          "Xfbaozxy 700ml 850W Foldable Travel Kettle"
+          "A larger bag with room for a flat kettle",
+          "T-magitic, at 6.5 by 6.3 by 2.1 inches"
         ],
         [
-          "Keep warm below 75 degrees",
-          "T-magitic Foldable Silicone Electric Kettle Dual Voltage"
-        ],
-        [
-          "Just boiling water",
-          "UpdateClassic 0.6L Foldable Electric Kettle 600W"
+          "A tight suitcase gap, not a flat layer",
+          "LOUTYTUO, at 170 by 139 by 132 mm"
         ]
       ]
     }
   },
   {
-    "subheading": "For Camping and RV Use Specifically",
+    "subheading": "For a Hotel Room or Dorm Specifically",
+    "intro": "The most common use is tea or instant noodles at a desk.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A compact folded size, a detachable cord, a stated wattage and a dry-storage routine. You also need a mains outlet or generator."
+        "text": "A listed capacity above 0.5 liter, shut-off protection, and a stable base on a small table."
       },
       {
         "label": "In this comparison",
-        "text": "LOUTYTUO 0.55L Collapsible Silicone Travel Kettle has a detachable cord and handle, and DOFQQG Collapsible Travel Electric Kettle is the lightest at 0.94 pounds."
+        "text": "The Xfbaozxy lists keep-warm and triple power-off, and the Brentwood has a concealed heating element for easy wiping."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "Temperature control and detachable parts cost more.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want automatic voltage and fine temperature control. AUCOO 700mL Collapsible Travel Kettle with LCD and LOUTYTUO 0.55L Collapsible Silicone Travel Kettle offer more features."
+        "text": "You want temperature settings or a detachable cord. The AUCOO offers 11 settings, and the LOUTYTUO detaches its cord and handle."
       },
       {
         "label": "Save if",
-        "text": "You just boil water for noodles and tea. UpdateClassic 0.6L Foldable Electric Kettle 600W and Xfbaozxy 700ml 850W Foldable Travel Kettle cost under $23."
+        "text": "You only boil water. The UpdateClassic and Xfbaozxy cost the least."
       }
     ]
   }
@@ -403,28 +405,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do collapsible kettles work without electricity?",
-    "a": "No. They plug into mains power, so camping use needs a site outlet or a suitable generator."
+    "q": "Is a collapsible silicone kettle safe for boiling water?",
+    "a": "Food-grade silicone tolerates boiling temperature, and several picks use a stainless steel base so water contacts steel at the heater. Rinse it before first use and watch for odors, which fade with a few boils. Replace it if the silicone cracks or smells persistently. Replace it if the silicone cracks or smells persistently."
   },
   {
-    "q": "Is silicone safe for boiling water?",
-    "a": "Food-grade, high-temperature silicone is designed for it, and the listings say BPA-free. Rinse before first use, and avoid overheating or dry heating."
+    "q": "Can I take a dual-voltage kettle to Europe?",
+    "a": "Yes, if the listing says 110V to 220V. The AUCOO detects voltage automatically, while the T-magitic and LOUTYTUO use a manual switch. You still need a plug adapter, because voltage handling does not change the plug shape."
   },
   {
-    "q": "Is a collapsible kettle worth it over a rigid travel kettle?",
-    "a": "Only for packing space. A rigid steel kettle avoids silicone contact and is easier to clean, while a collapsible one folds to about two inches."
+    "q": "Is the AUCOO worth paying more than the Xfbaozxy?",
+    "a": "If you travel overseas or want temperature settings. The AUCOO has 11 settings and automatic voltage detection, while the Xfbaozxy is 110V only but has keep-warm and triple power-off for less money. The AUCOO's temperature range of 108F to 212F also suits green tea and baby formula. The AUCOO's temperature range of 108F to 212F also suits green tea and other drinks that dislike boiling water."
   },
   {
-    "q": "How do I set the voltage switch?",
-    "a": "Check the base before every use. T-magitic and LOUTYTUO use 110V or 220V switches, and the wrong setting can damage the kettle."
+    "q": "How do I use the boil-dry protection safely?",
+    "a": "Do not rely on it. Some owners report that it did not trigger, so fill the kettle to the minimum line, stay near it, and unplug after use. Never use a keep-warm mode unattended. Fill past the minimum mark and unplug it as soon as the water boils. Fill past the minimum mark and unplug it as soon as the water boils."
   },
   {
-    "q": "How do I dry it before folding?",
-    "a": "Empty, wipe the interior and let it air dry unfolded. Folding it damp can trap moisture and odor."
+    "q": "How do I clean a collapsible kettle?",
+    "a": "Rinse with warm water, use a vinegar and water boil for limescale, and let it dry fully before folding. Silicone folds trap water, so a wet kettle packed away can smell or grow mold. Descale monthly if your water is hard. Descale monthly if your water is hard."
   },
   {
-    "q": "Can I leave it with water in it?",
-    "a": "No, empty it after use. Keep-warm modes are for short periods, not storage."
+    "q": "Can I use a collapsible kettle on a hotel table?",
+    "a": "Yes, on a stable, heat-safe surface. Keep it away from the edge and any papers, and make sure the cord does not hang where it can be pulled. Hot steam rises from the spout, so keep your hand clear. Silicone near a flame or a hot stove top can melt. Silicone near a flame or a hot stove top can melt."
   }
 ];
 

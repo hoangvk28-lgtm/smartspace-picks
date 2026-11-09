@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/3199nggYwOL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GVN8HB5L?tag=deskfinds0d-20",
-    "description": "Kensington's TB675 has a 60 degree vertical shell, a 34mm thumb-operated ball, a high-precision optical sensor and four DPI steps from 400 to 1600. It connects through a 2.4GHz dongle, dual Bluetooth or a wired USB-C cable, and a selector switches among up to four devices.\n\nAt about $60 it costs $15 more than the Nulea 65 degree model and is the only pick listing a wired USB-C option and four-device pairing. The listing says the shape suits average-sized hands, so it is a poor match for very large or small hands.\n\nChoose it if you split time across a laptop, desktop and tablet. The caveat is the price, which is the highest here, for a smaller ball than the finger models.",
+    "description": "Kensington's TB675 has a 60 degree vertical shell, a 34mm thumb-operated ball, a high-precision optical sensor and four DPI steps from 400 to 1600. It connects through a 2.4GHz dongle, dual Bluetooth or a wired USB-C cable, and a selector switches among up to four devices.\n\nAt under $75 it costs $15 more than the Nulea 65 degree model and is the only pick listing a wired USB-C option and four-device pairing. The listing says the shape suits average-sized hands, so it is a poor match for very large or small hands.\n\nChoose it if you split time across a laptop, desktop and tablet. The caveat is the price, which is the highest here, for a smaller ball than the finger models.",
     "specs": [
       "60 degree tilt, 34mm thumb ball",
       "4 devices: dongle, Bluetooth, USB-C",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31MSC3d+YKL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GJZ86D3J?tag=deskfinds0d-20",
-    "description": "This Nulea has a 65 degree vertical angle, a wave-textured palm shape, a thumb-controlled trackball, quiet clicks and a rechargeable battery. Its infinite scroll wheel switches between precise and fast modes based on how quickly you spin it, with 4-way scrolling.\n\nAt $45 it is about $15 cheaper than the Kensington and has a steeper tilt, but no wired mode or multi-device selector is mentioned. Compared with the JOMAA, it costs about $8 more and adds the scroll behavior and quiet clicks.\n\nBest for a thumb-trackball newcomer who wants a steep vertical angle for less. The caveat is that 65 degrees is a big posture change that may take time to feel natural.",
+    "description": "This Nulea has a 65 degree vertical angle, a wave-textured palm shape, a thumb-controlled trackball, quiet clicks and a rechargeable battery. Its infinite scroll wheel switches between precise and fast modes based on how quickly you spin it, with 4-way scrolling.\n\nAt $45 it is under $20 cheaper than the Kensington and has a steeper tilt, but no wired mode or multi-device selector is mentioned. Compared with the JOMAA, it costs under $10 more and adds the scroll behavior and quiet clicks.\n\nBest for a thumb-trackball newcomer who wants a steep vertical angle for less. The caveat is that 65 degrees is a big posture change that may take time to feel natural.",
     "specs": [
       "65 degree vertical tilt",
       "Thumb ball, quiet clicks",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31Kv9opGtQL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H428KJK4?tag=deskfinds0d-20",
-    "description": "PORLEI uses a 44mm index finger trackball with five DPI levels, aimed at larger hands and small-desk setups. The listing says the ball stays in place, so the mouse needs no desk sweep.\n\nAt about $44 it costs $1 less than the Nulea 65 degree and moves control to the finger, which spreads strain to different muscles than a thumb ball. Against the Adesso it has a larger ball but fewer buttons.\n\nBest for a large-handed user who wants finger control. The caveat is that the listing is short on battery and connectivity detail.",
+    "description": "PORLEI uses a 44mm index finger trackball with five DPI levels, aimed at larger hands and small-desk setups. The listing says the ball stays in place, so the mouse needs no desk sweep.\n\nAt under $50 it costs $1 less than the Nulea 65 degree and moves control to the finger, which spreads strain to different muscles than a thumb ball. Against the Adesso it has a larger ball but fewer buttons.\n\nBest for a large-handed user who wants finger control. The caveat is that the listing is short on battery and connectivity detail.",
     "specs": [
       "44mm index finger ball",
       "5 DPI levels",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ryUZytcIL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G7RTJFHB?tag=deskfinds0d-20",
-    "description": "This Nulea has a 55mm oversized trackball, four DPI levels from 400 to 1600, an ambidextrous design and Bluetooth, aimed at design, editing and everyday work. The oversized ball is the headline feature.\n\nAt about $40 it is $2 cheaper than the Adesso and has the largest ball in the list. A thumb model like the Kensington will feel more like a normal mouse, whereas this one rewards finger control and left-handers.\n\nBest for left-handed users or anyone who wants a big ball. The caveat is the ball size, which may feel stretched for small hands.",
+    "description": "This Nulea has a 55mm oversized trackball, four DPI levels from 400 to 1600, an ambidextrous design and Bluetooth, aimed at design, editing and everyday work. The oversized ball is the headline feature.\n\nAt under $50 it is $2 cheaper than the Adesso and has the largest ball in the list. A thumb model like the Kensington will feel more like a normal mouse, whereas this one rewards finger control and left-handers.\n\nBest for left-handed users or anyone who wants a big ball. The caveat is the ball size, which may feel stretched for small hands.",
     "specs": [
       "55mm trackball, ambidextrous",
       "4 DPI levels, 400 to 1600",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/412Pkz+b0-L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GG9CQFJQ?tag=deskfinds0d-20",
-    "description": "JOMAA is a vertical thumb-control trackball with 2.4GHz and Bluetooth dual modes, five buttons plus a scroll wheel, three CPI levels from 800 to 1600, quiet clicks and a built-in 500mAh battery. The shell is tilted to bring the hand toward a handshake position.\n\nAt about $37 it is the cheapest pick and $8 under the Nulea 65 degree. It gives up the Nulea's scroll mode and has fewer DPI steps.\n\nBest for trying a thumb trackball at the lowest price. The caveat is that the listing says less about tilt angle than the others.",
+    "description": "JOMAA is a vertical thumb-control trackball with 2.4GHz and Bluetooth dual modes, five buttons plus a scroll wheel, three CPI levels from 800 to 1600, quiet clicks and a built-in 500mAh battery. The shell is tilted to bring the hand toward a handshake position.\n\nAt under $40 it is the cheapest pick and $8 under the Nulea 65 degree. It gives up the Nulea's scroll mode and has fewer DPI steps.\n\nBest for trying a thumb trackball at the lowest price. The caveat is that the listing says less about tilt angle than the others.",
     "specs": [
       "Vertical thumb ball",
       "2.4GHz and Bluetooth",
@@ -190,52 +190,48 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Thumb ball versus finger ball",
-    "explanation": "A thumb ball sits at the side and is rolled by your thumb, so it feels closest to a regular mouse. A finger ball sits in the center and uses your index and middle fingers, spreading load to different muscles. Check whether the listing says thumb-operated or finger-operated, because the two feel very different."
+    "criterion": "Tilt degree and handshake angle",
+    "explanation": "A trackball's tilt, such as 60 or 65 degrees, controls how much the forearm turns toward a handshake. Higher angles can relieve twist but take more time to master, and a flat base is easier at first. Look for the degree figure in the listing, and avoid assuming vertical means comfortable without checking your hand size. The TB675 is 60 degrees and the Nulea 65, both steep compared with a flat Adesso."
   },
   {
-    "criterion": "Ball size",
-    "explanation": "A bigger ball gives finer cursor control at the cost of reach. Thumb balls are around 34mm, while finger balls run 44 to 55mm. Check the ball diameter in millimeters in the spec list."
+    "criterion": "Ball size and hand fit",
+    "explanation": "The ball diameter, from 34mm on the TB675 to 55mm on the Nulea ambidextrous, changes both control and the space your hand needs. A larger ball is smoother, but a small hand may stretch. Look for the millimeter size and the stated hand range, and compare them with your own hand. A 34mm ball on the TB675 suits smaller thumbs; the Nulea 55mm needs a bigger hand."
   },
   {
-    "criterion": "Vertical tilt angle",
-    "explanation": "A steeper tilt of 60 to 65 degrees turns the forearm toward a handshake position. It is a big change from a flat mouse. Look for a stated degree and expect an adjustment period of a week or two."
+    "criterion": "Number of connected devices",
+    "explanation": "Multi-device pairing lets one trackball serve a laptop and a desktop. The TB675 lists four devices through a dongle, Bluetooth and USB-C, while receiver-only models serve one. Check the device count, and confirm the dongle is in the box if you plan to use 2.4GHz. The TB675 lists four devices, the Nulea 55mm one Bluetooth link, the Adesso a nano receiver."
   },
   {
-    "criterion": "Hand size and handedness",
-    "explanation": "Thumb models are usually right-handed and shaped for average hands. Finger balls like the 55mm Nulea suit left-handers. Check for the word ambidextrous in the title and compare the listing's size note with your hand."
+    "criterion": "Removable ball and cleaning",
+    "explanation": "A removable ball lets you clean the cavity, where dust and skin oil collect and make the pointer skip. The Adesso lists a removable ball. Look for words like removable or pop-out in the listing, and check the manual or photos for how easy it is to take out. The Adesso lists a removable ball; the others give no cleaning detail."
   },
   {
-    "criterion": "Connectivity and battery",
-    "explanation": "Bluetooth plus a USB receiver gives you fallback options, and a rechargeable cell avoids AA swaps. The Kensington adds a wired USB-C mode and four-device pairing. Check the number of devices and battery type."
-  },
-  {
-    "criterion": "Cleaning and bearings",
-    "explanation": "Dust and skin oils collect under the ball, and a sticky ball is the top complaint with trackballs. A ball you can push out without tools makes cleaning easy. Check for a removable ball and a push-out hole on the underside."
+    "criterion": "Scroll method and extra buttons",
+    "explanation": "A trackball needs a different way to scroll, such as an infinite wheel, a ring or a tilt wheel. Extra buttons, like the 7 on the Adesso, can run shortcuts. Check where each sits relative to your thumb, and confirm that the settings software runs on your operating system. The Adesso lists 7 buttons; the Nulea 65 degree adds an infinite scroll wheel."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Ball and control type",
-    "description": "We compared thumb and finger designs and ball diameters."
+    "title": "Vertical tilt and forearm rotation",
+    "description": "We compared tilt, from the 60 degree Kensington TB675 and 65 degree Nulea to flat designs like the Adesso. A steep tilt rotates the forearm toward a handshake, but a steeper tilt needs more adaptation, so we gave extra weight to a stated angle and sensible comfort claims. The Adesso's removable ball makes cleaning simple; the other picks do not mention it."
   },
   {
-    "title": "Tilt and fit",
-    "description": "We compared tilt angles and hand-size notes."
+    "title": "Ball size and control feel",
+    "description": "We checked ball sizes, such as the 34mm thumb ball on the TB675 versus the 1.5 inch finger ball on the Adesso and the 55mm ambidextrous Nulea. A bigger ball offers fine control but takes room, so we judged size against the hand fit stated in each listing. The TB675 and Nulea state 60 and 65 degrees; the Adesso, Porlei and Nulea 55mm are flatter."
   },
   {
-    "title": "Connectivity",
-    "description": "We compared Bluetooth, receivers, wired options and device counts."
+    "title": "Multi-device flexibility",
+    "description": "We compared connection options, such as four devices through dongle, Bluetooth and USB-C on the TB675, versus the receiver-only Adesso. For $60 to $75, a person who moves between a laptop and desktop should not need a pair of mice, so channel count scored. The Adesso lists 7 buttons; the Nulea 65 degree adds an infinite scroll wheel."
   },
   {
-    "title": "Cleaning",
-    "description": "We noted removable balls and button layouts."
+    "title": "Ambidextrous and handedness",
+    "description": "We noted which picks suit either hand, such as the 55mm Nulea, and which are right-hand shells. Trackball users often switch hands to share the load, so an ambidextrous design earned credit while a right-only shell got less. Kensington backs the TB675 with its own support, which counts at this price."
   },
   {
-    "title": "Price",
-    "description": "We compared price across the six, all under $60."
+    "title": "Value against the $75 ceiling",
+    "description": "We weighed what extra the $45 to $60 range buys over the sub-$50 tier. A removable ball, an infinite scroll wheel and 7 buttons are concrete gains, but a branded price on a smaller ball is not, so we rewarded real additions. The $60 TB675 uses a smaller 34mm ball, so it is not automatically better than the $42 Adesso."
   }
 ];
 
@@ -367,24 +363,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do I need to learn a trackball?",
-    "a": "Expect a week or two to feel natural, and precision for fast games is lower than with a mouse. Check the return window before buying."
+    "q": "Is a vertical trackball better than a flat one?",
+    "a": "If your forearm twists, a vertical design like the Kensington TB675 or the 65 degree Nulea can help by turning the hand toward a handshake. A flat trackball, like the Adesso, is easier to learn but leaves the palm down. Pick based on where you feel strain."
   },
   {
-    "q": "Is a left-hand trackball available?",
-    "a": "Finger models such as the Nulea 55mm are ambidextrous. Thumb models are usually right-hand only."
+    "q": "Is the Kensington TB675 worth it over the Nulea 65 degree?",
+    "a": "The TB675 costs under $20 more, and it adds four-device pairing, a 60 degree tilt and Kensington's support. The Nulea's 65 degree angle is steeper and cheaper, with quiet clicks and an infinite scroll wheel, but lists no wired mode."
   },
   {
-    "q": "Is the Kensington worth $15 more than the Nulea?",
-    "a": "If you use several devices or want a wired USB-C mode, yes. For one computer, the Nulea 65 degree is the better value."
+    "q": "Which trackball suits either hand?",
+    "a": "The Nulea 55mm Ambidextrous is designed for both hands. The others in this list are mostly right-hand shells. If you plan to swap hands to share the load, choose the ambidextrous one and test the layout with your off hand."
   },
   {
-    "q": "How do I clean it?",
-    "a": "Push the ball out from underneath and wipe the rollers every few weeks. The Adesso is built for this."
+    "q": "Why does a steep tilt take longer to learn?",
+    "a": "A steep tilt changes how your thumb reaches the ball and how the forearm sits, which feels odd at first. Give a 60 or 65 degree design one to two weeks. If your thumb tires, lower the DPI and take breaks instead of pushing through."
   },
   {
-    "q": "Will it help wrist pain?",
-    "a": "A trackball reduces wrist movement and may feel more comfortable, but it is a comfort product, not a medical device. See a doctor for persistent pain."
+    "q": "How often should I clean a trackball?",
+    "a": "Every few weeks for normal use. The Adesso has a removable ball, so cleaning is simple. Take out the ball, clean the cavity with a dry swab, and wipe the ball with a cloth. Dust and skin oil are the usual causes of a jumpy pointer."
+  },
+  {
+    "q": "Can I use these with a MacBook?",
+    "a": "Bluetooth models like the Kensington TB675, Nulea 55mm and JOMAA pair directly with a MacBook. Receiver-only options like the Adesso T40 need a USB-A port or an adapter. Check each listing for macOS notes, since extra buttons may need drivers."
   }
 ];
 

@@ -84,68 +84,151 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Connector Type Match", "description": "Compared Micro USB, USB-A, and their fit with common 5V devices like Raspberry Pi and streaming sticks." },
-  { "title": "Real Amperage and Wattage", "description": "Compared documented current output from 2.4A to 3A across the picks." },
-  { "title": "Speed for Network-Intensive Devices", "description": "Compared Gigabit versus 100Mbps speed relevant to Raspberry Pi 4 and similar boards." },
-  { "title": "Pack Size and Per-Unit Value", "description": "Compared single-unit versus 4-pack pricing." },
-  { "title": "Warranty and Support", "description": "Compared stated warranty length across the picks." }
+  {
+    "title": "Connector type",
+    "description": "The first mistake with 5V splitters is the plug. We sorted the picks into Micro USB (the 5V 3A model, UCTRONICS, ANVISION) and USB-A female output. Micro USB suits older Raspberry Pi boards and cameras, while the USB-A unit works with a separate cable."
+  },
+  {
+    "title": "Amperage at 5V",
+    "description": "We compared 5V current: 3A (15W) for the Gigabit unit and 2.4A (12W) for the rest. A device with a power-hungry radio or USB peripherals may need the higher current to avoid brownouts. We took that as a practical rule: a long run helps only when the wire gauge is decent, so we checked each page for cable guidance."
+  },
+  {
+    "title": "Data speed",
+    "description": "The first model is Gigabit while ANVISION is listed at 100Mbps. A splitter in the data path becomes the speed ceiling, so we scored 100Mbps as acceptable for a camera and a limit for a Pi used as a server. At 100Mbps the splitter limits any device that also needs to move big files, so we noted it for each pick."
+  },
+  {
+    "title": "Isolation and protection",
+    "description": "The first pick lists 1500V isolation with short-circuit and overvoltage protection, and the UCTRONICS lists overvoltage protection. We favored isolation because it protects the device when the PoE side has a surge. The wording matters, since a device that survives a nearby lightning strike is worth more than a marketing mention."
+  },
+  {
+    "title": "Range and warranty",
+    "description": "UCTRONICS lists up to 492ft (150m) and the USB-A model lists 100m with an 18-month warranty. We treated the longer range as a bonus only where the 802.3af standard still holds at that length. An 18-month warranty on the USB-A unit counted for something, and range claims were treated as upper bounds, not promises."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Connector Type",
-    table: {
-      headers: ["Your device's charging port", "Recommended pick"],
-      rows: [
-        ["Micro USB (Raspberry Pi 2/3, older tablets)", "UCTRONICS Micro USB Active PoE Splitter or Gigabit pick"],
-        ["USB-A (Fire TV Stick, Roku, Echo Dot)", "Active PoE Splitter USB A 5V 2.4A"],
-        ["Multiple Micro USB devices at once", "ANVISION 4-Pack Active PoE Splitter"]
+    "subheading": "By Device Plug",
+    "intro": "Plug type decides which of these four works at all.",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A Raspberry Pi 3 or a camera with Micro USB power",
+          "Gigabit Micro USB PoE Splitter 5V 3A (USB0503G), with 5V at 3A"
+        ],
+        [
+          "A Micro USB device on a very long cable run",
+          "UCTRONICS 802.3af Micro USB Active PoE Splitter, listed to 492ft"
+        ],
+        [
+          "Four cameras or boards that each need Micro USB",
+          "ANVISION 4-Pack Active 5V 2.4A PoE Splitter Adapter, as a pack of four"
+        ],
+        [
+          "A device with a standard USB-A cable such as a USB camera",
+          "Active PoE Splitter USB A 5V 2.4A, with a USB-A female output"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $10", "Active PoE Splitter USB A (under $10)"],
-        ["Under $11", "UCTRONICS Micro USB Splitter (under $15)"],
-        ["Under $14", "Gigabit Micro USB PoE Splitter (under $15)"],
-        ["Under $29", "ANVISION 4-Pack (under $30, ~under $8 per unit)"]
+    "subheading": "By Budget",
+    "intro": "The group spans under $10 to under $30, but per-unit cost is similar.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $10, one USB-A unit",
+          "Active PoE Splitter USB A 5V 2.4A, the cheapest single splitter"
+        ],
+        [
+          "Under $11, one Micro USB unit",
+          "UCTRONICS, for single Micro USB devices"
+        ],
+        [
+          "Under $14, Gigabit and 3A",
+          "Gigabit Micro USB PoE Splitter 5V 3A, with the highest amperage here"
+        ],
+        [
+          "Under $30, four units",
+          "ANVISION 4-Pack, which is about the cost of one per device"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Gigabit Speed vs Standard 100Mbps for Raspberry Pi",
-    cards: [
-      { label: "Gigabit speed (Gigabit Micro USB pick)", text: "Delivers full 1000Mbps data alongside 3A power, the better fit for a Raspberry Pi 4 running network-intensive applications." },
-      { label: "Standard 100Mbps (UCTRONICS, ANVISION)", text: "Adequate for a Raspberry Pi 2/3 or basic streaming device that doesn't need Gigabit throughput." }
+    "subheading": "Gigabit vs 100Mbps Splitters",
+    "intro": "This is a more important choice than it looks, since the splitter sits in the data path.",
+    "cards": [
+      {
+        "label": "Gigabit (Gigabit Micro USB PoE Splitter 5V 3A)",
+        "text": "Choose this when the device is a mini server, NAS, or a Pi that moves files. The cable run and 3A current come with the same box."
+      },
+      {
+        "label": "100Mbps (ANVISION 4-Pack, UCTRONICS, Active PoE Splitter USB A)",
+        "text": "Perfectly fine for a camera or sensor. The lower speed rarely matters for video that streams at a few Mbps."
+      }
     ],
-    note: "If you're powering a Raspberry Pi 4 or a device running demanding network applications, the Gigabit pick's extra bandwidth and amperage are worth the modest price increase. For older Pi models or simple devices, the standard-speed picks perform just as well for less.",
+    "note": "Default to 100Mbps for cameras and only buy Gigabit for devices that move big files."
   },
   {
-    subheading: "By Device Count",
-    table: {
-      headers: ["Number of devices to power", "Recommended pick"],
-      rows: [
-        ["Just one device", "UCTRONICS, Gigabit pick, or USB-A pick depending on connector"],
-        ["Multiple Micro USB devices", "ANVISION 4-Pack Active PoE Splitter"]
+    "subheading": "By Amperage Need",
+    "intro": "Many 5V devices peak above what they idle at.",
+    "table": {
+      "headers": [
+        "Your load",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A Pi 3 with a camera module and no USB drives",
+          "UCTRONICS, at 2.4A"
+        ],
+        [
+          "A device with USB peripherals that can spike",
+          "Gigabit Micro USB PoE Splitter 5V 3A, at 3A"
+        ],
+        [
+          "Low-power sensors in bulk",
+          "ANVISION 4-Pack, at 2.4A each and 12W max per splitter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Smart Home Device Cluster Specifically",
-    cards: [
-      { label: "Look for", text: "The correct connector type for your specific smart home devices, since USB-A and Micro USB are not interchangeable, and confirm the splitter's amperage matches or exceeds your device's actual power draw." },
-      { label: "In this comparison", text: "The USB-A pick specifically names Fire TV Stick, Roku, and Echo Dot compatibility, common devices in a typical smart home entertainment setup." }
-    ],
+    "subheading": "For a Pi Zero or Raspberry Pi Camera Specifically",
+    "intro": "Small boards are the main reason people buy 5V splitters.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A Micro USB plug, at least 2.4A, and clean isolation so a surge on the cable does not hit the board."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Gigabit Micro USB PoE Splitter 5V 3A offers 1500V isolation at 3A, while the UCTRONICS suits a longer cable run."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You're powering a Raspberry Pi 4 or another device that benefits from Gigabit speed and higher amperage, where the Gigabit Micro USB pick's under $15 price is justified by that performance." },
-      { label: "Save if", text: "You're powering a single basic USB-A device like a streaming stick, where the USB-A pick delivers that for under $10, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Differences here are small in cost.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need Gigabit or 3A. The Gigabit Micro USB PoE Splitter 5V 3A costs a little more than the others, and the budget splitter guide covers units with adjustable voltage."
+      },
+      {
+        "label": "Save if",
+        "text": "You are powering a basic camera. The Active PoE Splitter USB A and UCTRONICS cost the least."
+      }
+    ]
   }
 ];
 
@@ -173,12 +256,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I use a Micro USB PoE splitter with a device that has a USB-A charging port?", "a": "No, Micro USB and USB-A are physically different connectors, so you need a splitter specifically matching your device's exact port type, like the USB-A pick in this comparison for Fire TV Stick, Roku, or Echo Dot devices." },
-  { "q": "What's the most common mistake buyers make when choosing a 5V USB PoE splitter?", "a": "Assuming any 5V splitter works with any 5V device regardless of connector type, when Micro USB and USB-A splitters are physically incompatible with devices using the other connector type." },
-  { "q": "Is the Gigabit Micro USB splitter worth the price over the basic UCTRONICS pick?", "a": "If you're powering a Raspberry Pi 4 or another device that benefits from Gigabit speed and higher 3A amperage, the Gigabit pick's price is justified, but for a Raspberry Pi 2/3 or basic tablet, the standard UCTRONICS pick delivers adequate performance for less." },
-  { "q": "Can I use a PoE splitter's USB port to transfer data to a peripheral like a keyboard?", "a": "No, the USB-A pick specifically clarifies its port is power-only, not suitable for devices requiring USB data transfer like a mouse or keyboard, so these splitters should only be used for power delivery to devices that already have their own network connection." },
-  { "q": "How far can I place my device from the PoE source using a 5V USB splitter?", "a": "Most splitters in this comparison support the standard 328ft (100m) PoE limit, though the UCTRONICS pick specifically documents an extended range up to 492ft (150m) for installations needing that extra reach." },
-  { "q": "Is the ANVISION 4-pack worth it if I only need one splitter right now?", "a": "If you only need one splitter currently, a single-unit pick like the UCTRONICS or Gigabit splitter avoids paying for three units you won't use immediately, though the ANVISION 4-pack is worth considering if you anticipate needing more splitters for future devices." }
+  {
+    "q": "Can a 5V PoE splitter power a Raspberry Pi 4?",
+    "a": "The Pi 4 uses USB-C and wants up to 3A, while these four use Micro USB or USB-A at 2.4A to 3A. A Micro USB splitter will not fit without an adapter, so buy a USB-C unit instead. Check the board's power port before ordering."
+  },
+  {
+    "q": "What mistake do buyers make with a 5V splitter?",
+    "a": "Buying on amperage alone. A 2.4A splitter powers a camera, but a Pi with a USB drive can exceed 12W. Check the device's maximum draw, including peripherals, before choosing between 2.4A and 3A. Add up the board, camera module, and any USB drive draw."
+  },
+  {
+    "q": "Is the Gigabit 5V 3A splitter worth paying more than the UCTRONICS?",
+    "a": "If the device moves large files or needs 3A, yes. For a basic camera at 100Mbps and 2.4A, the UCTRONICS covers the job and offers a stated range of 492ft. Keep the 3A model for devices with peripherals."
+  },
+  {
+    "q": "How do I connect one of these to a PoE switch?",
+    "a": "Plug the Ethernet cable from the PoE switch into the splitter's input, then connect the Micro USB or USB-A output to the device and its Ethernet to the device. Use a standard 802.3af port. The connection order does not matter as long as the cables are solid."
+  },
+  {
+    "q": "Can I run a 5V splitter on a passive PoE injector?",
+    "a": "Only if the injector outputs 44 to 57V, the range listed on these units. A 24V passive injector is below that input range and will not power the splitter, so use an 802.3af-compatible source. Check the injector's label for its output voltage."
+  },
+  {
+    "q": "Why does my device reboot with a 2.4A splitter?",
+    "a": "A burst draw above 2.4A drops the voltage, and the device resets. Disconnect peripherals, use the 3A model, or shorten the cable. A short, thick cable also reduces voltage loss at the connector. A 12V brick left on the wrong port is never the answer."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

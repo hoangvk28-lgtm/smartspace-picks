@@ -5,7 +5,7 @@ export const metaDescription = "Six under desk foot rests priced at $25 or less 
 export const mainKeyword = "foot rest under $25";
 export const introParagraphs = [
   "A twenty-five dollar footrest can be perfectly useful, but you are choosing between very different shapes: a foam wedge, a plastic rocker, a wooden stool, a pillow and a fabric hammock that hangs from the desk. The right one depends on how big your gap is and whether you want to rest your feet or move them.",
-  "Every pick lists a price at or under $25. We lined the listings up on dimensions, height options, surface, material and how each is cleaned. Prices run from about $15 to $25, and at this price the biggest risk is a thin listing, so we favored picks with concrete measurements and flagged where details are missing."
+  "Every pick lists a price at or under $25. We lined the listings up on dimensions, height options, surface, material and how each is cleaned. Prices run from under $20 to $25, and at this price the biggest risk is a thin listing, so we favored picks with concrete measurements and flagged where details are missing."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41No3MrO46L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09QKW7V55?tag=deskfinds0d-20",
-    "description": "Scalebeard has a 15 x 11 inch surface with textured massage areas and rollers, thick PP plastic frames with ribs underneath and a stated 120 lb capacity. The listing says it suits shorter people whose feet do not reach the floor, and assembly takes two legs with no tools.\n\nAt under $25 it costs about $3 less than TUOBITUO and gives you a bigger, fixed platform. Versus LURZ it is rigid plastic where LURZ is soft foam, so it feels firmer under the feet.\n\nBest for shorter users who want a roomy, stable platform on a small budget. The caveat is that the height is fixed and the platform does not tilt, so you cannot fine-tune it.",
+    "description": "Scalebeard has a 15 x 11 inch surface with textured massage areas and rollers, thick PP plastic frames with ribs underneath and a stated 120 lb capacity. The listing says it suits shorter people whose feet do not reach the floor, and assembly takes two legs with no tools.\n\nAt under $25 it costs under $10 less than TUOBITUO and gives you a bigger, fixed platform. Versus LURZ it is rigid plastic where LURZ is soft foam, so it feels firmer under the feet.\n\nBest for shorter users who want a roomy, stable platform on a small budget. The caveat is that the height is fixed and the platform does not tilt, so you cannot fine-tune it.",
     "specs": [
       "15 x 11 inch surface",
       "Massage texture and rollers",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41VICjX3KAL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FDGF4MT2?tag=deskfinds0d-20",
-    "description": "LURZ uses 40 density memory foam with two height options and a breathable mesh cover that keeps feet cool. It is light and easy to move between spots.\n\nAt under $20 it costs about $2 less than Scalebeard and is the only foam model with adjustable height at this price. Versus StepLively it adds height options.\n\nBest for people who want a soft foam rest at a low price. The caveat is that cover washing and dimensions are not in the highlights.",
+    "description": "LURZ uses 40 density memory foam with two height options and a breathable mesh cover that keeps feet cool. It is light and easy to move between spots.\n\nAt under $20 it costs under $10 less than Scalebeard and is the only foam model with adjustable height at this price. Versus StepLively it adds height options.\n\nBest for people who want a soft foam rest at a low price. The caveat is that cover washing and dimensions are not in the highlights.",
     "specs": [
       "40 density memory foam",
       "Two height options",
@@ -190,209 +190,109 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Height versus your gap",
-    "explanation": "At this price many footrests have one fixed height. A fixed 3.82 inch rest suits a small gap, while a 6.3 inch rest suits a bigger one. Measure the gap before ordering and check the stated height."
+    "criterion": "Platform width and depth",
+    "explanation": "A foot rest needs room for both feet side by side, roughly 15 inches wide. Scalebeard lists 15 x 11 inches while TUOBITUO is 11.4 x 7.9 inches, and a small platform means one foot at a time. Look for the dimensions in the listing and compare them with your shoe size. Hold a ruler against your shoe if the listing gives no width."
   },
   {
-    "criterion": "Platform size",
-    "explanation": "A bigger platform lets your feet rest and shift. Scalebeard lists 15 x 11 inches, while TUOBITUO is 11.4 x 7.9. Compare the numbers instead of trusting photos."
+    "criterion": "Height and adjustability",
+    "explanation": "A rest should leave your thighs about parallel to the floor, which a fixed height may not do. LURZ offers two heights while Scalebeard, TUOBITUO and Atoping are fixed. Check the stated height in inches and compare it with the gap between your feet and the floor. Sit and measure from floor to the underside of your knee to find your target height."
   },
   {
-    "criterion": "Foam, plastic or wood",
-    "explanation": "Foam is soft but compresses, plastic is light but can flex and wood is sturdy and often rocks. Choose by feel. Look for the material name in the first bullets."
+    "criterion": "Surface material",
+    "explanation": "Memory foam, wood and plastic with rollers each feel different. Foam is soft but compresses, wood is firm and stable, and rollers can move your feet. Look for the material in the title and consider whether you work in shoes or barefoot. Check whether the listing shows the cover material and whether it comes off."
   },
   {
-    "criterion": "Rollers and textures",
-    "explanation": "Massage rollers keep feet busy, but they can feel annoying under socks. A fixed bump is cheap and quiet, while a spinning roller gives more movement. Check whether the roller spins or is fixed, and whether the texture is a surface pattern or raised bumps."
+    "criterion": "Stability and non-slip base",
+    "explanation": "A moving rest can slide on hard floors and make you push back. TUOBITUO and Atoping rock deliberately, so their bases matter. Check for anti-slip pads or coatings and the weight of the rest, because a very light rest creeps. A light rest creeps on tile, so look for rubber feet or a non-slip coating."
   },
   {
-    "criterion": "Capacity and build",
-    "explanation": "Budget plastic can crack under load. Scalebeard lists 120 lbs. Look for a stated capacity."
-  },
-  {
-    "criterion": "Cleaning and cover",
-    "explanation": "A removable cover helps with sweat and dust. LURZ and StepLively list covers. Check whether the cover washes."
+    "criterion": "Capacity and cleaning",
+    "explanation": "Scalebeard states 120 lbs and iMissiu 80 kg, while other listings omit it. Look for a limit and for a removable or wipeable cover, because a rest used for hours collects sweat and dust and a washable cover extends its life. Skip listings that give no weight or cleaning information."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  {
-    "title": "Fit",
-    "description": "We compared heights and dimensions."
-  },
-  {
-    "title": "Materials",
-    "description": "We compared foam, plastic and wood."
-  },
-  {
-    "title": "Features",
-    "description": "We compared rollers, rocking and covers."
-  },
-  {
-    "title": "Price",
-    "description": "We kept every pick at $25 or below."
-  }
+  { "title": "Platform size at the cheapest tier", "description": "We compared listed surfaces such as the 15 x 11 inch Scalebeard against the 11.4 x 7.9 inch TUOBITUO and the 14.18 x 10.24 inch Atoping. Both feet need roughly 15 inches of width to rest side by side, so under $25 we flagged any small platform as a one-foot-at-a-time compromise." },
+  { "title": "Height options versus fixed height", "description": "LURZ offers two heights while Scalebeard, TUOBITUO and Atoping are fixed at roughly 4 to 6 inches. Ergonomics guidance says thighs should sit roughly parallel to the floor, so we noted that a fixed rest only suits one body and chair combination, which matters most in a budget tier." },
+  { "title": "Surface material and grip", "description": "We checked memory foam on LURZ, solid wood on Atoping and massage texture on Scalebeard. A soft surface can feel pleasant but compress over time, while a hard wooden top stays stable, so we weighed which feel a buyer would still like after months of use." },
+  { "title": "Rocking versus static design", "description": "TUOBITUO rocks through 360 degrees and Atoping rocks gently on a curved base, while LURZ and StepLively stay still. Movement helps circulation for some people but can wobble under a heavy foot, so we looked at base stability and non-slip finishes." },
+  { "title": "Capacity and cleaning", "description": "Scalebeard lists 120 lbs and iMissiu 80 kg, while others state no limit. A foot rest holds the weight of your legs, not your body, but we still noted missing figures and washable covers, since a cheap rest used daily collects dust and sweat quickly." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Gap Height",
-    "intro": "Match the stated height.",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Primary Need",
+    intro: "Under $25 each pad suits a different habit, so start with how you like to move your feet.",
+    table: {
+      headers: ["If you mainly need", "Recommended pick"],
+      rows: [
+        ["A roomy platform with massage texture", "Scalebeard, at 15 x 11 inches with 120 lb capacity"],
+        ["Constant gentle movement while you work", "TUOBITUO, which rocks in every direction with rollers"],
+        ["Soft cushioning with a choice of heights", "LURZ, with 2 height options and a mesh cover"],
+        ["A solid-wood rest at a very low price", "Atoping, with a curved rocking base"],
+        ["Floor space freed under a narrow desk", "iMissiu, a hammock that hangs from the desk"]
       ],
-      "rows": [
-        [
-          "Needs a roomy fixed platform",
-          "Scalebeard Foot Rest with Massage Rollers"
-        ],
-        [
-          "Wants a 6.3 inch rocker",
-          "TUOBITUO 360 Degree Rocking Foot Rest with Rollers"
-        ],
-        [
-          "Wants foam with two heights",
-          "LURZ Adjustable Memory Foam Foot Rest"
-        ],
-        [
-          "Small gap, low rocker",
-          "Atoping Wooden Rocking Foot Rest"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "By Budget",
-    "intro": "Real prices from this comparison.",
-    "table": {
-      "headers": [
-        "Price range",
-        "Recommended pick"
+    subheading: "By Budget",
+    table: {
+      headers: ["Price range", "Recommended pick"],
+      rows: [
+        ["Around $15", "StepLively, the cheapest foam rest"],
+        ["Around $17", "Atoping or iMissiu"],
+        ["Around $20", "LURZ, with adjustable height"],
+        ["Around $22 to $25", "Scalebeard or TUOBITUO, the two priciest picks"],
+        ["Above $25, where the under $50 guide offers adjustable tilt", "Step up to the next guide"]
       ],
-      "rows": [
-        [
-          "$14 to $15",
-          "StepLively Drop-Shaped Foot Rest Pillow"
-        ],
-        [
-          "$16 to $17",
-          "Atoping Wooden Rocking Foot Rest"
-        ],
-        [
-          "$19 to $20",
-          "LURZ Adjustable Memory Foam Foot Rest"
-        ],
-        [
-          "$21 to $22",
-          "Scalebeard Foot Rest with Massage Rollers"
-        ],
-        [
-          "$24 to $25",
-          "TUOBITUO 360 Degree Rocking Foot Rest with Rollers"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "Rigid Platform vs Soft Foam",
-    "cards": [
-      {
-        "label": "Rigid platform",
-        "text": "Plastic or wood that holds shape. Scalebeard, TUOBITUO and Atoping fall here."
-      },
-      {
-        "label": "Soft foam",
-        "text": "Cushioned and quieter. LURZ and StepLively fall here."
-      }
+    subheading: "Foam Cushion vs Hard Platform",
+    cards: [
+      { label: "Foam cushion (LURZ, StepLively)", text: "Soft memory foam or a zip-off pillow gives a plush feel and washable covers. Foam can compress over months and has less stability for a foot that wants to push." },
+      { label: "Hard platform (Scalebeard, TUOBITUO, Atoping)", text: "A plastic or wood platform holds its height and shape and allows rolling or rocking. It feels firmer and may need a cushion if you wear no shoes." }
     ],
-    "note": "Choose rigid for stability, foam for comfort."
+    note: "Most buyers should default to the hard platform for stability, unless they specifically want a soft surface for bare feet.",
   },
   {
-    "subheading": "By Movement",
-    "intro": "Movement.",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Desk and Chair Setup",
+    table: {
+      headers: ["Your setup", "Recommended pick"],
+      rows: [
+        ["A chair that sits slightly high", "LURZ, whose second height gives you a few extra inches"],
+        ["A short person with feet that dangle", "Scalebeard, a roomy platform at a fixed height"],
+        ["A cramped footwell with limited floor", "iMissiu, which hangs under the desk"],
+        ["A desk with a wide leg area", "Atoping or TUOBITUO, both on the floor"]
       ],
-      "rows": [
-        [
-          "360 degree rocking",
-          "TUOBITUO 360 Degree Rocking Foot Rest with Rollers"
-        ],
-        [
-          "Back and forth rocking",
-          "Atoping Wooden Rocking Foot Rest"
-        ],
-        [
-          "Hangs and swings",
-          "iMissiu Under Desk Foot Hammock"
-        ],
-        [
-          "Still with rollers",
-          "Scalebeard Foot Rest with Massage Rollers"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "For Dorm Desks Specifically",
-    "cards": [
-      {
-        "label": "Look for",
-        "text": "Small footprint, light weight and easy cleaning."
-      },
-      {
-        "label": "In this comparison",
-        "text": "LURZ Adjustable Memory Foam Foot Rest has a mesh cover and two heights."
-      }
-    ]
+    subheading: "For Short Users Specifically",
+    cards: [
+      { label: "Look for", text: "A height of 4 to 6 inches, a platform at least 14 inches wide and a non-slip surface. Check that your thighs sit about parallel to the floor with the rest in place." },
+      { label: "In this comparison", text: "Scalebeard and Atoping offer fixed low heights, and LURZ gives two choices. TUOBITUO's 6.3 inch height can be too tall for some." }
+    ],
   },
   {
-    "subheading": "When to Spend More",
-    "cards": [
-      {
-        "label": "Spend more if",
-        "text": "You want a larger platform and stated capacity (Scalebeard Foot Rest with Massage Rollers)."
-      },
-      {
-        "label": "Save if",
-        "text": "You just want a soft pillow, where StepLively Drop-Shaped Foot Rest Pillow is enough."
-      }
-    ]
+    subheading: "When to Spend More",
+    cards: [
+      { label: "Spend more if", text: "You want adjustable tilt or a steel frame. The under $50 guide includes Mount-It!, HOOBRO and HUANUO with 3 angles or heights." },
+      { label: "Save if", text: "You simply need your feet raised a few inches. Atoping and StepLively cost the least and cover that need." }
+    ],
   }
 ];
 
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
-  {
-    "q": "Is a cheap footrest worth it?",
-    "a": "If your feet dangle, a budget footrest can help. Pick one that matches your gap, because a footrest that is too high or too low is no help. Many of these are under $20."
-  },
-  {
-    "q": "How do I choose the height?",
-    "a": "Set the chair first, then measure from the floor to your heel with your knees level. Pick a footrest that closes that gap, such as the 6.3 inch TUOBITUO or the adjustable LURZ. A fixed footrest only helps if it matches your gap."
-  },
-  {
-    "q": "Which material lasts longest?",
-    "a": "Solid wood and thick plastic last longer than thin foam, which compresses. Atoping is solid wood and Scalebeard is thick PP plastic with a stated 120 lb capacity. Foam is softer but wears sooner."
-  },
-  {
-    "q": "How do I set up a foot hammock?",
-    "a": "Clip it to the desk edge and adjust the rope so your feet land where you want. iMissiu lists rope from 300 to 600 mm and a desk thickness limit under 2.4 inches. Check your desk edge before ordering."
-  },
-  {
-    "q": "Can I use it with shoes?",
-    "a": "Rigid platforms like Scalebeard and Atoping work with shoes. Foam footrests like LURZ and StepLively can mark or wear faster with shoes. Check the surface description."
-  },
-  {
-    "q": "How do I clean a cheap footrest?",
-    "a": "Wipe plastic and wood with a damp cloth. LURZ and StepLively have covers that unzip, and StepLively's is machine washable. Keep foam dry."
-  }
+  { "q": "Can a cheap foot rest cause problems?", "a": "A rest that is too tall can fold your legs awkwardly, and a flat fixed height fits only some users. Pick a height that keeps your thighs about parallel to the floor, which makes Atoping or LURZ safer than an oversized option. Check the height first." },
+  { "q": "What is the common mistake at this price?", "a": "Buying one for a desk or chair that is the real problem. A foot rest cannot fix a chair that is too high or a desk set wrongly. Adjust the chair first, then add the rest only if your feet still dangle." },
+  { "q": "Is the Scalebeard worth more than the Atoping?", "a": "The Scalebeard adds a bigger 15 x 11 inch surface, rollers and 120 lbs stated capacity for a few dollars more. The Atoping's solid wood and rocking base suit buyers who want a quieter feel." },
+  { "q": "How do I set up a foot rest?", "a": "Place it so your knees sit around 90 degrees and your feet rest flat. Slide it far enough forward that you do not stretch your legs, and check that the non-slip base grips the floor." },
+  { "q": "How do I clean a foam rest?", "a": "Zip off the cover on StepLively, or wipe the mesh on LURZ with a damp cloth. Keep foam out of direct sun and avoid soaking it, because water can leave it musty and flatten the cells." },
+  { "q": "Is a foot hammock a good idea?", "a": "The iMissiu frees floor space and lets your feet swing, but it has no firm surface. It suits people who like to shift position, though desk limits apply and you must check the rope length against your desk height." }
 ];
 
 export const relatedGuides = [

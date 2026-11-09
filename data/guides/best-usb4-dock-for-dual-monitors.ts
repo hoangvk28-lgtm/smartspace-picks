@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Native Video Bandwidth", "description": "Compared Thunderbolt 4 versus Thunderbolt 5 bandwidth for display output." },
-  { "title": "Per-Chip Display Disclosure", "description": "Compared how transparently each listing discloses Mac chip-specific display limits." },
-  { "title": "Display Combination Support", "description": "Compared dual versus triple display configurations and maximum refresh rates." },
-  { "title": "Included Accessories", "description": "Compared bundled cables and power adapters across all four picks." },
-  { "title": "Charging Capacity", "description": "Compared total charging wattage and simultaneous device charging support." }
+  {
+    "title": "Simultaneous dual-display support",
+    "description": "We read each listing for how two monitors are actually driven, not just the headline count. Docks with dedicated DisplayPort or HDMI outputs scored above ones that route everything through Thunderbolt ports, because the second leaves buyers needing extra adapter cables to connect ordinary monitors."
+  },
+  {
+    "title": "Mac chip disclosure",
+    "description": "Base M1, M2 and M3 MacBooks are limited to one external display through any dock, so we credited listings that say this plainly. The Dell WD22TB4 names which chips support two 4K 60Hz displays, which saves a Mac buyer from an avoidable return."
+  },
+  {
+    "title": "Resolution and refresh ceiling",
+    "description": "We compared dual 4K 60Hz against triple 4K 144Hz, since two 4K 60Hz screens fit in 40Gbps while 144Hz does not. In this under-$300 tier, we gave extra weight to docks that state which refresh rate holds with both monitors active."
+  },
+  {
+    "title": "Muxed and unsupported outputs",
+    "description": "Some docks share ports, so HDMI and a USB-C DisplayPort cannot run together, and the Anker Prime explicitly excludes 5120x1440 ultrawide. We marked down listings where the dual-monitor claim hides a shared port or an excluded resolution."
+  },
+  {
+    "title": "Cables and charging in the box",
+    "description": "We checked bundled cables and charging budget, since a dual-monitor desk needs display cables, power, and a laptop charge. The Dell WD22TB4 ships a full cable bundle, and the Anker Prime lists 160W total output across four charging devices."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Transparent per-chip display disclosures with a full cable bundle", "Dell WD22TB4 Thunderbolt 4 Dock"],
-        ["The highest bandwidth for triple 4K@144Hz", "UGREEN Maxidok Thunderbolt 5 Docking Station"],
-        ["Solid dual 4K support at a lower price", "UGREEN 13-in-1 Thunderbolt 4 Docking Station"],
-        ["Maximum simultaneous device charging with dual monitors", "Anker Prime Docking Station, 14-in-1"]
+    "subheading": "By Monitor Setup",
+    "intro": "Match the dock to the displays on your desk, not to its port count.",
+    "table": {
+      "headers": [
+        "Your monitors",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Two 4K 60Hz monitors with standard HDMI and DisplayPort cables",
+          "Dell WD22TB4 Thunderbolt 4 Dock, with two DisplayPort 1.4 plus HDMI 2.0 outputs"
+        ],
+        [
+          "Two monitors where bundled cables matter",
+          "Dell WD22TB4, which ships a complete cable bundle so no extra purchase is needed"
+        ],
+        [
+          "Triple 4K at 144Hz or dual 6K at 60Hz",
+          "UGREEN Maxidok Thunderbolt 5 Docking Station, whose 120Gbps link feeds triple 4K 144Hz"
+        ],
+        [
+          "Two HDMI monitors plus several chargers",
+          "Anker Prime Docking Station 14-in-1, with dual HDMI and 160W total output"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $230", "UGREEN 13-in-1 Thunderbolt 4 (under $250)"],
-        ["Under $245", "Dell WD22TB4 (under $250)"],
-        ["Under $270", "Anker Prime 14-in-1 (under $300)"],
-        ["Under $300", "UGREEN Maxidok Thunderbolt 5 (under $300)"]
+    "subheading": "By Budget",
+    "intro": "These four docks fall into roughly the $230 to $300 range, so each step up buys something specific.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Under $250",
+          "UGREEN 13-in-1 Thunderbolt 4 Docking Station, with dual 4K 60Hz and 3 Thunderbolt 4 ports at the lowest cost"
+        ],
+        [
+          "Under $250, with cables included",
+          "Dell WD22TB4, which lands in this bracket and adds the full cable bundle"
+        ],
+        [
+          "Under $275",
+          "Anker Prime 14-in-1, for buyers who also want to charge four devices at once"
+        ],
+        [
+          "Under $300",
+          "UGREEN Maxidok Thunderbolt 5, the only pick here with 120Gbps for triple 4K 144Hz"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Dual Display vs Triple Display Docks",
-    cards: [
-      { label: "Dual display (UGREEN 13-in-1, Anker Prime)", text: "Covers the most common desk setup need at a lower price, sufficient for the vast majority of dual-monitor workflows." },
-      { label: "Triple display (Dell WD22TB4, UGREEN Maxidok)", text: "Adds a third monitor for buyers who genuinely use three screens simultaneously, at a meaningful price premium." }
+    "subheading": "Dual Display vs Triple Display Docks",
+    "intro": "Triple output costs money and only matters if you actually use a third screen.",
+    "cards": [
+      {
+        "label": "Dual display",
+        "text": "UGREEN 13-in-1 and Anker Prime support two monitors, which covers most desk workflows. The Anker's second output drops to 1080p on DP 1.2 hosts, so check your host first."
+      },
+      {
+        "label": "Triple display",
+        "text": "Dell WD22TB4 supports dual or triple monitors and UGREEN Maxidok adds triple 4K 144Hz. Your laptop's own chip may cap you below the dock's maximum anyway."
+      }
     ],
-    note: "Confirm your actual monitor count needs before paying extra for triple-display capability you may not fully use, since your laptop's own chip may cap you below the dock's maximum anyway.",
+    "note": "Default to a dual-display dock unless you already own three monitors and a host that can drive them."
   },
   {
-    subheading: "By Host Laptop Type",
-    table: {
-      headers: ["Your laptop/Mac type", "Recommended pick"],
-      rows: [
-        ["Base M1/M2/M3 MacBook (single display limit)", "Any pick works, but expect only one external display regardless"],
-        ["M1 Pro/Max or newer Thunderbolt 4/5 laptop", "Dell WD22TB4 or UGREEN Maxidok for full dual/triple support"]
+    "subheading": "By Host Laptop",
+    "intro": "The same dock behaves differently on different hosts.",
+    "table": {
+      "headers": [
+        "Your laptop",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Base M1, M2 or M3 MacBook",
+          "Any pick, but expect one external display only; the UGREEN 13-in-1 is the cheapest sensible option"
+        ],
+        [
+          "M1 Pro, M1 Max or newer MacBook Pro",
+          "Dell WD22TB4, which documents per-chip dual 4K 60Hz support"
+        ],
+        [
+          "Thunderbolt 5 Windows laptop",
+          "UGREEN Maxidok, to use the full 120Gbps bandwidth"
+        ],
+        [
+          "Dell Latitude or XPS business laptop",
+          "Dell WD22TB4, with 130W power delivery to Dell laptops"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Permanent Multi-Monitor Desk Setup Specifically",
-    cards: [
-      { label: "Look for", text: "A dock that includes a complete cable bundle (HDMI, DisplayPort, USB-C, Ethernet) so you're not making separate purchases to complete the setup." },
-      { label: "In this comparison", text: "The Dell WD22TB4 specifically includes a full cable bundle plus a microfiber cleaning cloth, reducing additional purchases for a new desk setup." }
-    ],
+    "subheading": "For a Permanent Multi-Monitor Desk Specifically",
+    "intro": "A fixed desk benefits from a dock that avoids extra adapters.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A complete cable bundle and enough native video outputs that no adapters are needed, plus a charging budget that covers the laptop."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Dell WD22TB4 includes HDMI, DisplayPort, USB-C and Ethernet cables, so a new desk setup needs no extra purchases."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the highest bandwidth and refresh rates for a demanding triple-monitor setup, where the UGREEN Maxidok's 120Gbps Thunderbolt 5 justifies its under $300 price." },
-      { label: "Save if", text: "You want solid dual 4K display support without triple-display bandwidth you may not need, where the UGREEN 13-in-1 delivers that for under $250." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The Maxidok sits at the top of this guide's price range, so spend with a clear reason.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You own a Thunderbolt 5 laptop and want triple 4K 144Hz. The UGREEN Maxidok under $300 uses the 120Gbps link, which the 40Gbps picks cannot match."
+      },
+      {
+        "label": "Save if",
+        "text": "You run two 4K 60Hz screens. The UGREEN 13-in-1 under $250 covers it, and the best USB4 dock guide offers other mid-range options."
+      }
+    ]
   }
 ];
 
@@ -182,12 +268,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will any of these docks give my base M2 MacBook Air true dual monitor support?", "a": "No, the Dell WD22TB4 listing specifically confirms base M1, M2, and M3 MacBooks are limited to one external display through any dock due to Apple's own chip-level system limitation, not a dock capability issue." },
-  { "q": "What's the most common mistake buyers make when shopping for a dual-monitor USB4 dock?", "a": "Choosing a dock based purely on its advertised maximum display count without first confirming their own laptop's chip generation and port type, then discovering their specific hardware caps them at fewer displays than the dock supports." },
-  { "q": "Is the UGREEN Maxidok's Thunderbolt 5 speed worth the extra cost over the UGREEN 13-in-1 for dual monitors?", "a": "If you only need dual displays and don't have a Thunderbolt 5 laptop, the 13-in-1's Thunderbolt 4 bandwidth is already sufficient and costs less, but if you specifically want triple 4K@144Hz and own a Thunderbolt 5 laptop, the Maxidok's extra bandwidth is worth the premium." },
-  { "q": "How do I connect a standard HDMI monitor to the UGREEN Maxidok since it has no built-in HDMI port?", "a": "You'll need a separate USB-C to HDMI or DisplayPort adapter cable, or a Thunderbolt-to-HDMI adapter, since the Maxidok routes all display output through its Thunderbolt ports rather than including dedicated video connectors." },
-  { "q": "Can I use the Anker Prime dock with a 5120x1440 ultrawide monitor?", "a": "No, the manufacturer's own listing specifically states this dock does not support 5120x1440 ultrawide monitors, so an ultrawide display owner should choose a different pick from this comparison." },
-  { "q": "Do these docks require separate driver installation for dual monitor support?", "a": "The Thunderbolt-native docks in this comparison (Dell, UGREEN picks) generally support dual monitors through native DisplayPort Alt Mode without requiring separate drivers, though checking each specific listing's stated driver requirements for your exact operating system is worth doing." }
+  {
+    "q": "Will a base M2 MacBook Air run two monitors through these docks?",
+    "a": "No. Base M1, M2 and M3 MacBooks support one external display through any dock because of Apple's chip limit, as the Dell WD22TB4 listing notes. Pro and Max chips support two 4K 60Hz displays, so check your chip before picking a dual-monitor dock."
+  },
+  {
+    "q": "What mistake do buyers make most often with dual-monitor docks?",
+    "a": "They trust the dock's maximum display count without checking their laptop. A Thunderbolt 4 dock cannot exceed what the host chip and port allow, so confirm your laptop's external display limit first, then the dock's output types, then cable needs."
+  },
+  {
+    "q": "Is the UGREEN Maxidok worth it over the UGREEN 13-in-1 for two monitors?",
+    "a": "Only with a Thunderbolt 5 laptop and a need for triple 4K 144Hz or dual 6K. For two 4K 60Hz screens the 13-in-1's 40Gbps Thunderbolt 4 is enough, and it costs less, under $250 against the Maxidok at under $300."
+  },
+  {
+    "q": "How do I connect HDMI monitors to the UGREEN Maxidok?",
+    "a": "The Maxidok has no built-in HDMI or DisplayPort, so you need USB-C to HDMI or DisplayPort adapter cables, or Thunderbolt-native monitors. Budget a couple of adapters in addition to the dock price, and use cables rated for your resolution and refresh."
+  },
+  {
+    "q": "Can I use the Anker Prime dock with an ultrawide monitor?",
+    "a": "Not a 5120x1440 ultrawide. The Anker listing states that resolution is not supported, though standard 3440x1440 ultrawides are not named. If a 5120x1440 panel is in your plan, take the Dell WD22TB4 or the UGREEN Maxidok instead."
+  },
+  {
+    "q": "Why does one of my two monitors go blank on the Dell dock?",
+    "a": "The Dell WD22TB4's HDMI and USB-C DisplayPort Alt Mode outputs are muxed, so only one can be live at once. Use the two DisplayPort 1.4 outputs for your dual setup and keep HDMI for a third display only if your host supports it."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

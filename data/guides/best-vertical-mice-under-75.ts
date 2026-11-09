@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Ergonomic Certification", "description": "Checked for documented ergonomist testing and certification versus general ergonomic marketing claims." },
-  { "title": "Hand-Size Specialization", "description": "Compared specific hand-size recommendations, from small-medium to large hand sizing." },
-  { "title": "Connectivity Mode Count", "description": "Compared dual-mode versus triple-mode connectivity spanning Bluetooth, 2.4GHz, and wired USB." },
-  { "title": "Battery Life and OS Compatibility", "description": "Compared stated battery life duration and operating system compatibility breadth." },
-  { "title": "Button Programmability", "description": "Checked which picks offer fully customizable buttons versus fixed preset functions." }
+  {
+    "title": "Ergonomic credibility",
+    "description": "We looked for evidence that the tilt is deliberate, such as the Logitech Lift's ergonomist-certified 57-degree angle, and compared it against picks with no stated certification. At up to $75 you are paying for a shape that has been thought through, so unsupported claims were marked down."
+  },
+  {
+    "title": "Hand-size coverage",
+    "description": "We checked sizing, because the Lift suits small to medium hands, the ProtoArc EM11 Pro fits 7.5 to 8.5 inch hands, and the J-Tech targets medium to large. The market gap for large hands is real, and a pick that names its range earns more than one that says universal."
+  },
+  {
+    "title": "Connectivity breadth",
+    "description": "We counted connection modes, from the AOC's Bluetooth 5.4, 2.4GHz and wired triple-mode to the Logitech's Bluetooth LE plus Logi Bolt. Switching between a work laptop, a personal machine and a tablet is a common setup problem, so more modes scored higher."
+  },
+  {
+    "title": "Customization and DPI",
+    "description": "We compared DPI ceilings (up to 7200 on the ProtoArc EM11 Pro) and whether buttons are programmable, as on the AOC. At this price people expect to remap shortcuts, so a closed button layout costs points against pricier peers."
+  },
+  {
+    "title": "Battery claims and charging",
+    "description": "We compared battery figures, including the Logitech's up to 2 years versus rechargeable cells on the ProtoArc and AOC at 800mAh. Long runtime counts, but a USB-C rechargeable cell that survives a work week was also treated as a legitimate trade."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Documented ergonomist certification from a recognized brand", "Logitech Lift Vertical Ergonomic Wireless Mouse"],
-        ["The highest DPI ceiling for large hands", "ProtoArc EM11 Pro Ergonomic Mouse for Large Hands"],
-        ["Maximum connectivity flexibility with programmable buttons", "AOC Ergonomic Mouse, 2.4GHz Wireless Bluetooth Vertical"],
-        ["Dual-mode connectivity and a palm rest at the lowest price", "J-Tech Digital Wireless Vertical Mouse"]
+    "subheading": "By Hand Size",
+    "intro": "Large and small hands are served by different picks, so check the listing range before the feature list.",
+    "table": {
+      "headers": [
+        "Hand profile",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Small to medium hands, 57-degree certified shape",
+          "Logitech Lift Vertical Ergonomic Wireless Mouse, sized specifically for small to medium hands"
+        ],
+        [
+          "Large hands between 7.5 and 8.5 inches",
+          "ProtoArc EM11 Pro Ergonomic Mouse for Large Hands, the only pick sized for that range"
+        ],
+        [
+          "Medium to large hands, tight budget",
+          "J-Tech Digital Wireless Vertical Mouse, the cheapest here with a removable palm rest"
+        ],
+        [
+          "Average hands but many shortcuts to program",
+          "AOC Ergonomic Mouse, fully programmable and flagged as not for large hands"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $30", "J-Tech Digital (under $30)"],
-        ["Under $40", "AOC (under $40)"],
-        ["Under $53", "ProtoArc EM11 Pro (under $60)"],
-        ["Under $65", "Logitech Lift (under $70)"]
+    "subheading": "By Budget",
+    "intro": "Between the lowest and highest tiers here, the J-Tech and Logitech differ by a wide margin.",
+    "table": {
+      "headers": [
+        "Budget within the $75 ceiling",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Bottom of the range, wants dual Bluetooth and 2.4G",
+          "J-Tech Digital Wireless Vertical Mouse, which adds a palm rest and a shortcut key"
+        ],
+        [
+          "Lower-mid range with the most connection modes",
+          "AOC Ergonomic Mouse, triple-mode with Bluetooth 5.4, 2.4GHz and wired"
+        ],
+        [
+          "Mid range for large hands and top DPI",
+          "ProtoArc EM11 Pro, up to 7200 DPI and a horizontal scroll wheel"
+        ],
+        [
+          "Top of the range for certified ergonomics",
+          "Logitech Lift, backed by an established brand and about 2 years of battery"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Established Brand Certification vs Feature-Rich Value",
-    cards: [
-      { label: "Established brand (Logitech Lift)", text: "Documented ergonomist certification and exceptional 2-year battery life from a recognized name in computer peripherals." },
-      { label: "Feature-rich value (AOC, ProtoArc, J-Tech Digital)", text: "Often includes more connectivity modes, higher DPI ceilings, or specialized hand-size fit at a lower price than the established brand pick." }
+    "subheading": "Brand Certified Shape vs Feature-Packed Value",
+    "intro": "The two philosophies in this roundup give different returns.",
+    "cards": [
+      {
+        "label": "Certified and polished: Logitech Lift",
+        "text": "Ergonomist-certified 57-degree design, SmartWheel scrolling and up to 2 years on a battery. The DPI ceiling is lower than rivals, and it only fits small to medium hands."
+      },
+      {
+        "label": "Spec-heavy value: ProtoArc EM11 Pro, AOC, J-Tech",
+        "text": "More DPI headroom, extra connection modes, programmable keys and larger sizes for less money. The tradeoff is no formal certification and shorter battery claims than the Lift."
+      }
     ],
-    note: "If documented ergonomist testing and brand reputation matter most, the Logitech Lift is the clear choice. If you want specific features like triple-mode connectivity or large-hand sizing at a lower price, the other picks each deliver a targeted advantage.",
+    "note": "If one pick has to be your daily driver and your hand fits, the Lift is the safest default; large hands should choose the ProtoArc EM11 Pro instead."
   },
   {
-    subheading: "By Hand Size",
-    table: {
-      headers: ["Your hand size", "Recommended pick"],
-      rows: [
-        ["Small to medium", "Logitech Lift or AOC"],
-        ["Medium to large", "J-Tech Digital"],
-        ["Large (7.5-8.5 in)", "ProtoArc EM11 Pro"]
+    "subheading": "By Operating Habit",
+    "intro": "What you do all day tells you which feature will actually be used.",
+    "table": {
+      "headers": [
+        "Habit",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Scrolling wide spreadsheets and timelines",
+          "ProtoArc EM11 Pro, whose horizontal scroll wheel saves keyboard shift-scroll"
+        ],
+        [
+          "Rotating between a laptop, a desktop and a tablet",
+          "AOC Ergonomic Mouse, because three connection modes avoid dongle swaps"
+        ],
+        [
+          "Wanting to jump to the desktop during calls",
+          "J-Tech Digital, with its Back to Desktop shortcut button"
+        ],
+        [
+          "Replacing a worn mouse and never wanting to think about batteries",
+          "Logitech Lift, with up to 2 years on a single battery"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Cross-Platform Work Environment Specifically",
-    cards: [
-      { label: "Look for", text: "The widest documented operating system compatibility, not just Windows and Mac, but iPadOS and Chrome OS as well." },
-      { label: "In this comparison", text: "The Logitech Lift's compatibility spans Windows, macOS, iPadOS, Chrome OS, and Linux, the broadest range here." }
-    ],
+    "subheading": "For a Hybrid Home and Office Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Multiple connection modes so one mouse serves a work laptop and a home machine, an OS-friendly profile, and quiet clicks for shared spaces."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The AOC offers Bluetooth 5.4, 2.4GHz and wired with under 35dB clicks. The Logitech Lift covers Bluetooth LE and Logi Bolt with the widest OS compatibility if you want a recognizable brand."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want a documented ergonomist-certified design with exceptional battery life and OS compatibility, where the Logitech Lift leads this comparison across all three." },
-      { label: "Save if", text: "You want dual-mode connectivity and a comfortable palm rest without needing certification or multi-year battery claims, where the J-Tech Digital pick covers that at the lowest price here." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The top of this list already reaches premium vertical mice, so spending more is rarely the answer.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a certified angle and a recognized support network, where the Logitech Lift is the right ceiling. Going beyond would mainly buy trackball or sculpted-shell designs."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need decent sizing and dual-mode wireless, in which case the under $30 guide's Lekvey or TECKNET gives similar daily comfort."
+      }
+    ]
   }
 ];
 
@@ -183,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Does the Logitech Lift's 2-year battery life claim apply to typical daily use, or only under specific conditions?", "a": "The stated up to 2-year figure represents typical usage conditions, though actual battery life can vary based on usage intensity, connection type chosen, and environmental factors, so treat it as a reasonable estimate rather than an exact guarantee for every use pattern." },
-  { "q": "What's the most common mistake buyers make when comparing DPI ceilings across these vertical mice?", "a": "Assuming a higher DPI ceiling like the ProtoArc EM11 Pro's 7200 is automatically better, when most office and general computing tasks don't require anywhere near that level of sensitivity, making it more relevant for specific precision-demanding work than everyday use." },
-  { "q": "Is the Logitech Lift worth the price premium over the ProtoArc EM11 Pro despite its lower DPI ceiling?", "a": "If documented ergonomist certification, exceptional battery life, and the widest OS compatibility matter most to you, yes, but if you have large hands and want the highest available DPI ceiling with horizontal scrolling, the ProtoArc EM11 Pro delivers that at a lower price." },
-  { "q": "How do I decide between the AOC's triple-mode connectivity and a simpler dual-mode mouse?", "a": "If you've experienced wireless connectivity issues before or regularly switch between many different devices and connection types, the AOC's triple-mode flexibility provides real backup options, but if your wireless setup has always been stable, a dual-mode pick like the J-Tech Digital serves most needs just as well." },
-  { "q": "Can I use the ProtoArc EM11 Pro's horizontal scroll wheel on Mac and Windows equally well?", "a": "Yes, the horizontal scrolling function works across both Windows 8/10 or higher and Mac OS X 10.12 or higher, along with Android 4.3 or higher, though always confirm your specific OS version meets these minimum requirements." },
-  { "q": "Does spending more on the Logitech Lift guarantee a more comfortable fit than the cheaper J-Tech Digital pick?", "a": "Comfort depends heavily on matching the mouse's specific hand-size design to your actual hand, so a well-fitted J-Tech Digital pick for medium-large hands could be more comfortable for a specific user than a Logitech Lift designed for smaller hands, regardless of price difference." }
+  {
+    "q": "Is the Logitech Lift worth the extra over the ProtoArc EM11 Pro?",
+    "a": "If your hand is small to medium, yes: certified 57-degree geometry and up to 2 years of battery justify it. The ProtoArc EM11 Pro is a better buy for 7.5 to 8.5 inch hands, because the Lift is not sized for them."
+  },
+  {
+    "q": "What is the biggest mistake when buying a vertical mouse for large hands?",
+    "a": "Buying a small-to-medium shape and hoping to adapt. A mouse that is too short leaves the pinky dragging on the desk. The ProtoArc EM11 Pro states a 7.5 to 8.5 inch range, so measure from wrist crease to fingertip first."
+  },
+  {
+    "q": "Do I need the programmable buttons on the AOC?",
+    "a": "Only if you have repetitive shortcuts like copy, paste, or window snaps. Bind them through the companion app, but remember the app is another thing to install, and the listing flags the mouse as unsuitable for large hands."
+  },
+  {
+    "q": "How do I connect a triple-mode mouse to two computers?",
+    "a": "Pair one machine over Bluetooth 5.4, plug the 2.4GHz receiver into the second, and use the cable for a third. The AOC lets you switch by button, though each Bluetooth pairing must be done once before the switch works."
+  },
+  {
+    "q": "How often should I clean a vertical mouse with a palm rest?",
+    "a": "Wipe the shell weekly with a dry or slightly damp cloth, and detach the J-Tech's palm rest every month or two to clear skin oils. A dirty sensor window causes jitter, so a quick blow or swab fixes most tracking glitches."
+  },
+  {
+    "q": "Does a longer battery claim mean a heavier mouse?",
+    "a": "Not directly. The Logitech Lift's up to 2 years comes from low-drain Bluetooth LE, while 800mAh on the AOC means shorter runtime but a lighter charging routine through USB-C and an LED status display."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

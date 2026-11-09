@@ -88,39 +88,61 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Confirmed current model availability before ranking", description: "We only included VariDesk converters we could verify as currently sold, rather than repeating reviews of discontinued models that remain indexed elsewhere." },
-  { title: "Distinguished the two-tier Essential design from single-platform Pro Plus models", description: "These represent genuinely different ergonomic approaches within the same brand, and we did not treat them as interchangeable." },
-  
-  { title: "Compared price against the specific mechanism and platform size", description: "VariDesk pricing spans from an unconfirmed Essential price competitively for the largest Pro Plus, and we compared value within that context." }
+  {
+    "title": "Height settings and repeatability",
+    "description": "Pro Plus 36 and Pro Plus 48 list 11 distinct height settings, a stepped mechanism rather than a continuous gas-spring range. We judged whether discrete steps help a user return to the same standing and sitting heights each day, and noted the tradeoff against finer adjustment."
+  },
+  {
+    "title": "Platform width against the work surface",
+    "description": "Pro Plus 36 and Essential 36 offer 36 inches, Pro Plus 48 gives 48 inches and Pro Plus 36 Electric 36 inches. We compared each with a dual-monitor setup, and noted that the wider Pro Plus 48 costs the most in this comparison. The 48 inch width only pays off with two monitors."
+  },
+  {
+    "title": "Single platform vs two-tier layout",
+    "description": "Essential 36 separates the monitor platform from the keyboard tray, a different ergonomic design from the single-platform Pro Plus models. We checked whether the two heights allow a monitor at eye level while the keyboard sits at elbow height. A tray below the monitor can also free desk space for papers."
+  },
+  {
+    "title": "Manual vs electric lift",
+    "description": "Pro Plus 36 Electric is the only motorized VariDesk here and is listed below the manual Pro Plus 36. We weighed push-button convenience against the need for an outlet and a newer model with a short track record."
+  },
+  {
+    "title": "Price tier and listing clarity",
+    "description": "This is a premium-priced brand, with Pro Plus 48 the highest priced of the four. Essential 36 shows no confirmed price, so we marked it for verification on the listing, and treated price against the stated height settings and platform size."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Platform Size",
+    "intro": "The four picks come in two widths and two layouts.",
     "table": {
       "headers": [
-        "Your monitor setup",
-        "Recommended pick in this comparison"
+        "Your setup",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Single monitor or laptop, small desk",
-          "Vari Pro Plus 36 Electric"
+          "One monitor and a laptop, repeatable heights",
+          "Vari VariDesk Pro Plus 36, with 11 height settings."
         ],
         [
-          "Dual monitors",
-          "Vari VariDesk Pro Plus 36"
+          "Two monitors and a keyboard",
+          "Vari VariDesk Pro Plus 48, the largest platform at 48 inches."
         ],
         [
-          "Triple monitors, need maximum surface area",
-          "Vari VariDesk Pro Plus 48"
+          "Monitor at eye level, keyboard lower",
+          "Vari VariDesk Essential 36 Two-Tier, with separate monitor and keyboard levels."
+        ],
+        [
+          "Push-button lift on 36 inches",
+          "Vari Pro Plus 36 Electric, the only motorized VariDesk here."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "These are premium-priced, with one price still to confirm.",
     "table": {
       "headers": [
         "Price range",
@@ -128,49 +150,63 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $299",
-          "Vari Pro Plus 36 Electric"
+          "Under $300, electric",
+          "Vari Pro Plus 36 Electric."
         ],
         [
-          "Mid-range",
-          "Vari VariDesk Pro Plus 36"
+          "Under $350, manual 36 inch",
+          "Vari VariDesk Pro Plus 36 Adjustable Desk Converter."
         ],
         [
-          "No firm budget ceiling, prioritizing lift quality or brand",
-          "Vari VariDesk Pro Plus 48"
+          "Under $550, widest platform",
+          "Vari VariDesk Pro Plus 48."
+        ],
+        [
+          "Price not confirmed, check the listing",
+          "Vari VariDesk Essential 36 Two-Tier."
         ]
       ]
     }
   },
   {
-    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "subheading": "Manual vs Electric Lift",
+    "intro": "The electric model costs less than the manual 36 here, which reverses the usual order.",
     "cards": [
       {
-        "label": "Manual (Gas-Spring)",
-        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: Vari VariDesk Pro Plus 36, Vari VariDesk Pro Plus 48, Vari VariDesk Essential 36."
+        "label": "Manual, 11 stepped positions",
+        "text": "Vari VariDesk Pro Plus 36 and 48 offer 11 distinct heights, repeatable but not continuous, and need no power."
       },
       {
-        "label": "Electric (Motorized)",
-        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: Vari Pro Plus 36 Electric."
+        "label": "Electric",
+        "text": "Vari Pro Plus 36 Electric gives push-button lift, needs an outlet and has a shorter track record."
       }
     ],
-    "note": "Most buyers should default to a manual pick like Vari Pro Plus 36 Electric unless you'll adjust height multiple times a day, in which case Vari Pro Plus 36 Electric's push-button lift is worth the premium."
+    "note": "Choose the manual Pro Plus 36 for dependable repeatable positions, and the electric if you change position often."
   },
   {
-    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "subheading": "By Ergonomic Layout",
+    "intro": "Single platform and two-tier layouts suit different bodies.",
     "table": {
       "headers": [
-        "What you're weighing",
+        "Need",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Highest star rating",
-          "Vari VariDesk Pro Plus 36"
+          "One flat surface for monitor and keyboard",
+          "Vari VariDesk Pro Plus 36 or Pro Plus 48."
         ],
         [
-          "Largest review base (more statistical confidence)",
-          "Vari VariDesk Pro Plus 36"
+          "Monitor at eye height, keyboard lower",
+          "Vari VariDesk Essential 36 Two-Tier."
+        ],
+        [
+          "Tall user who needs the keyboard low",
+          "Vari VariDesk Essential 36, as the tray separates from the monitor."
+        ],
+        [
+          "Frequent switching with less effort",
+          "Vari Pro Plus 36 Electric."
         ]
       ]
     }
@@ -180,11 +216,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Look for",
-        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+        "text": "A platform at least 42 inches wide, a stated weight limit and a base that fits your desk depth."
       },
       {
         "label": "In this comparison",
-        "text": "Vari VariDesk Pro Plus 36 fits this specifically: Highest rating in this comparison."
+        "text": "Vari VariDesk Pro Plus 48 is the one wide enough for two monitors, and the 36 inch models suit a monitor with a laptop."
       }
     ]
   },
@@ -193,11 +229,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what Vari VariDesk Pro Plus 48 offers: Largest current VariDesk platform we confirmed. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "You need the 48 inch width. Pro Plus 48 sits in the under-$550 tier, well above the under-$350 Pro Plus 36."
       },
       {
         "label": "Save if",
-        "text": "Vari Pro Plus 36 Electric already covers the essentials: Only confirmed current electric VariDesk model. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+        "text": "One monitor is enough. Vari Pro Plus 36 Electric stays under $300 and adds a motor."
       }
     ]
   }
@@ -205,33 +241,52 @@ export const howToChoose: HowToChooseSection[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Measure your existing desk's height before ordering",
-    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all.\n\nThis matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand.\n\nBefore ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+    "criterion": "Add the base height to your desk height",
+    "explanation": "A VariDesk rests on the desk and raises from there, so even the lowest of its 11 settings sits above the desktop. Take the lowest platform height on the listing, add your desk height, and confirm the keyboard still lands at elbow level when you sit. Stepped heights also mean the lowest position cannot be fine-tuned, so confirm it suits you before buying."
   },
   {
-    "criterion": "Match platform size to your actual number of monitors",
-    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up.\n\nA platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge.\n\nCheck the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+    "criterion": "Choose between 36 and 48 inch widths",
+    "explanation": "Three listings here are 36 inches and one is 48 inches. A 36 inch platform suits a monitor with a laptop, while the 48 inch is for two monitors and a keyboard, and the wider Pro Plus 48 carries the highest price of the four. If you will add a second monitor next year, buying the width once avoids a second purchase."
   },
   {
-    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
-    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price.\n\nIf you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying.\n\nCheck the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+    "criterion": "Decide whether a motor is worth the premium",
+    "explanation": "The manual Pro Plus models use 11 stepped positions, while Vari Pro Plus 36 Electric adds push-button lift for a lower price than the manual 36. The trade is an outlet, a short track record, and fewer detailed specs on the listing. A motor also adds a power cord that has to reach an outlet near the desk, which can mean a visible cable."
   },
   {
-    "criterion": "Check your desk's depth against the converter's base footprint",
-    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base.\n\nThis matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view.\n\nCheck the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+    "criterion": "Consider the two-tier Essential for keyboard height",
+    "explanation": "Essential 36 puts the monitor and the keyboard on separate levels, which can keep a monitor at eye height while the keyboard sits lower. If your desk is shallow, the two-tier layout may also need more depth than a single platform. Check that the tray depth leaves room for a wrist rest, since a shallow tray forces the mouse onto the desk."
   },
   {
-    "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "criterion": "Verify the price and weight limit before ordering",
+    "explanation": "Essential 36 shows no confirmed price in this comparison, and none of the four lists a weight capacity in the data we reviewed. Open the listing and find the capacity in pounds before adding two monitors. A load of two 27 inch monitors can be heavy, so keep the weight capacity above the combined monitor and arm weight."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Is the VariDesk Pro Plus 36 still sold?", a: "Yes, we confirmed it as currently available, and it has the highest rating in this comparison." },
-  { q: "Does VariDesk make an electric model?", a: "Yes, the Vari Pro Plus 36 Electric, though it has a much smaller review base (27) than the manual models." },
-  { q: "What's the largest current VariDesk?", a: "The Vari VariDesk Pro Plus 48, at 48 inches, also the most expensive in this comparison." },
-  { q: "Is there a two-tier VariDesk option?", a: "Yes, the Vari VariDesk Essential 36 separates the monitor platform from the keyboard tray for independent height adjustment." },
-  { q: "Are all VariDesk products still available?", a: "No. Vari has discontinued some legacy models over time; we only included converters we could confirm as currently sold." }
+  {
+    "q": "Does VariDesk Pro Plus 36 have a continuous height range?",
+    "a": "No. It lists 11 distinct height settings, so it moves in steps instead of sliding to any height. That helps you return to a repeatable position, but you cannot pick a height between two settings."
+  },
+  {
+    "q": "Is Pro Plus 48 worth more than Pro Plus 36?",
+    "a": "Only if you need the width. Pro Plus 48 has the same 11-setting mechanism on a 48 inch platform and costs more than the 36 inch model. Two monitors and a keyboard justify it, while one monitor and a laptop do not."
+  },
+  {
+    "q": "What is different about VariDesk Essential 36?",
+    "a": "Essential 36 is a two-tier design that separates the monitor platform from the keyboard tray. That lets the monitor stay at eye height while the keyboard sits lower, and its price is not confirmed in this listing, so check it before ordering."
+  },
+  {
+    "q": "Should I pay for the electric Pro Plus 36?",
+    "a": "If you change positions often. Vari Pro Plus 36 Electric is listed below the manual Pro Plus 36, and gives push-button lift. The model has a shorter track record, so confirm the warranty and the outlet distance."
+  },
+  {
+    "q": "Will a VariDesk fit on a shallow desk?",
+    "a": "Check the base depth. A converter's base is deeper than its platform, so a shallow desk may leave the back edge hanging. Measure from front lip to wall and compare it with the footprint on the listing."
+  },
+  {
+    "q": "How do I set up an 11-setting VariDesk the first time?",
+    "a": "Place it on a flat desk, center it, and test the lift with nothing on it. Then add monitors and recheck the settings, because a loaded platform can feel different. Choose the sitting and standing steps that put your elbows at 90 degrees."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

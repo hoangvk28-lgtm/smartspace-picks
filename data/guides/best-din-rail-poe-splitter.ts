@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Output Flexibility", "description": "Compared fixed-voltage, switchable, and simultaneous dual-output DC designs." },
-  { "title": "Real Wattage Delivery", "description": "Compared total output wattage from 30W to 90W across the picks." },
-  { "title": "DIN-Rail Mounting Design", "description": "Compared mounting orientation options and physical footprint for control cabinet installations." },
-  { "title": "Industrial Durability", "description": "Compared IP ratings, operating temperature, and surge/ESD protection specifications." },
-  { "title": "PoE Standard Requirements", "description": "Compared 802.3bt requirements and compatibility warnings against passive BT injectors." }
+  {
+    "title": "Input standard and compatibility",
+    "description": "The 60W and 90W splitters need a genuine IEEE 802.3bt source, and the listings say they are not compatible with passive PoE. We scored a clear statement of the accepted input standard highly, since a mismatch gives no power and no obvious error to troubleshoot in a cabinet."
+  },
+  {
+    "title": "Output flexibility",
+    "description": "We compared how each splitter delivers DC. The LINOVISION 90W lists simultaneous 24V and an adjustable 3 to 36V output, the ThePoEstore 90W lists switchable 5V, 9V, 12V and 24V for 72W total, and the Industrial 60W is fixed 12V at 51W, so we judged flexibility against what a cabinet really contains."
+  },
+  {
+    "title": "Real wattage at the output",
+    "description": "A 90W input does not mean 90W out. The ThePoEstore lists 72W total output and the Industrial 60W lists 51W, so we compared the usable DC watts against typical loads like a PTZ camera or an access controller, and noted that the 30W LINOVISION only fits light loads."
+  },
+  {
+    "title": "Environment and protection",
+    "description": "DIN-rail gear sits in cabinets with heat and noise. We checked the listed operating range, -40F to 167F on the Industrial 60W, the LINOVISION's 6kV surge and 8kV ESD protection, and the ThePoEstore's 90 percent humidity tolerance, and treated a metal shell as a durability plus."
+  },
+  {
+    "title": "Mounting and wiring",
+    "description": "We looked at how it fits a cabinet: the LINOVISION lists dual-sided DIN-rail mounting, the 30W unit adds wall mount, and the Industrial 60W lists both a DC jack and a terminal connector. In a crowded panel we favored the picks with clear connector and mounting options."
+  }
 ];
 
 export const howToChoose = [

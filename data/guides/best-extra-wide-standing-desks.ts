@@ -189,24 +189,24 @@ export const products: GuideProduct[] = [
 
 export const howWeEvaluated = [
   {
-    "title": "Width verified from the listing",
-    "description": "Each desk's printed width in inches was confirmed against the title and bullet text, and only desks of 78 inches or more were kept."
+    "title": "Frame stability at full length",
+    "description": "Width magnifies wobble, so we looked for dual motors, three-stage legs, and stated frame strength. The Desktronic, FlexiSpot, FitStand and OffiGo list dual motors, the VIVO is single motor at 82.7 inches, and we scored it lower for sway at standing height, since a wide single-motor desk is where a monitor shake shows first."
   },
   {
-    "title": "Depth and usable surface",
-    "description": "Depth was compared, since a wide but shallow top limits monitor distance."
+    "title": "Weight rating clarity",
+    "description": "We compared stated capacity: 352.7 lbs for the Desktronic, 220 lbs for the VIVO, and a figure given two ways for the FlexiSpot. The SANODESK and FitStand state no capacity in their listing text, which we treated as unverified, since an unstated rating on an 80 inch desk is a gap, and a heavy dual monitor setup can easily consume 60 to 80 lbs of any rating."
   },
   {
-    "title": "Motor and frame",
-    "description": "Motor type, leg design and crossbars were compared for stability at long widths."
+    "title": "Surface width and depth",
+    "description": "A wide desk with a shallow top is half a desk. We compared 82.7 by 29.5 inches on the VIVO, 80 by 30 on the Desktronic, 79 by 32 on the SANODESK, and the OffiGo's 79 by 27.6, and credited depth over 30 inches for monitor distance, since a 27.6 inch top leaves little room between your eyes and a large screen."
   },
   {
-    "title": "Stated capacity",
-    "description": "Printed weight ratings were compared, with a flag where a listing gives two figures or none."
+    "title": "Height range and presets",
+    "description": "A tall frame that cannot go low is no use seated. We compared the Desktronic's 25.4 to 51.2 inches, the FitStand's 28.3 to 47.6, and the SANODESK's 28.9 to 46.5, and noted memory presets on all, with a touchscreen on the Desktronic, and we favored a low minimum for anyone who also sits for part of the day."
   },
   {
-    "title": "Price band and warranty",
-    "description": "Buckets and warranty text were compared across the group."
+    "title": "Top material and warranty",
+    "description": "We weighed the one-piece Desktronic top, the FlexiSpot's solid bamboo and its 10-year frame and motor guarantee, and the FitStand's FSC-certified wood. A longer guarantee on a big frame counted for more than a fancy surface finish, because the motor and frame are the parts that fail on a heavy wide desk."
   }
 ];
 
@@ -349,54 +349,50 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Real width, not a rounded size",
-    "explanation": "Listings round freely, and a desk sold as 72 inches may be 71, while a 78 inch desk may carry a 31 inch return. The size in the title is usually the top, but legs and handles can add to the footprint. Read the dimensions in the bullet list and compare them with your wall."
+    "explanation": "A 79 inch desk may be listed as a 72 inch class in search, and the usable surface may be shorter once the frame, the splice, and the cable tray are counted. The VIVO measures 82.7 by 29.5 inches, the OffiGo 79 by 27.6, and the SANODESK 79 by 32. Measure the wall, then compare it with the listed width so the desk clears a door or a window."
   },
   {
     "criterion": "Width versus depth trade-off",
-    "explanation": "A wider top is not always more usable if it is shallow. A 79 inch desk that is 27.6 inches deep suits two monitors in a row, while 32 inches suits big monitors set back. Decide whether your constraint is width or distance from the screen."
+    "explanation": "Extra width does not mean a bigger workspace if depth is 27.6 inches, since a monitor at arm's length needs 30 inches or more. The OffiGo's 27.6 inch depth is the shallowest here, while the SANODESK reaches 32. If you use a large monitor or a drawing setup, depth gives more comfort than width, so check both numbers."
   },
   {
     "criterion": "Motor type at length",
-    "explanation": "A long top puts more leverage on the legs, and single-motor desks can lift slowly or tilt at standing height with a heavy load. Dual motors drive each leg separately and are smoother at 78 inches and up. Look for the motor count, and check whether the frame has a crossbar."
+    "explanation": "A desk this wide spans more frame, and a single motor must lift the whole load, which shows up as wobble at standing height. The VIVO uses a single motor at 83 inches, while the Desktronic, FlexiSpot, FitStand and OffiGo list dual motors. Look for dual motor and three-stage legs in the title, which spread lift and reduce shake."
   },
   {
     "criterion": "Weight capacity and which figure",
-    "explanation": "Capacity is printed on the listing, but some state two numbers, such as 352 in the title and 330 in a bullet. The usable figure is the lower one. Add your monitors, towers and accessories and keep a 20 percent margin for a wide top."
+    "explanation": "A weight rating usually includes monitors, arms, a tower, and speakers, and a heavy setup can reach 60 to 80 lbs. The Desktronic lists 352.7 lbs, the VIVO 220 lbs, and the FlexiSpot's listing states capacity in two ways. Confirm whether the figure is for the frame or the full desk, and subtract your gear."
   },
   {
-    "criterion": "Top construction",
-    "explanation": "A 3-piece top is joined with splice boards, which makes shipping easier but leaves seams, while a one-piece top is stronger and costs more. Thickness also matters: a 1 inch to 1.38 inch top is stiffer than a thin one. Check for the word splice or one-piece."
-  },
-  {
-    "criterion": "Delivery and assembly",
-    "explanation": "A 79 inch top is long, and listings note two packages that may not arrive together. Measure doors and stairs, plan for two people and expect about an hour or two. A desk that arrives in pieces over several days can sit unfinished."
+    "criterion": "Top construction and delivery",
+    "explanation": "A desktop split into three pieces has seams where plates meet, and a two-piece box can arrive in two packages that need assembly. The Desktronic is a one-piece top, the VIVO uses three pieces, and the SANODESK ships in two packages. Check the piece count, the thickness, such as the OffiGo's 1.38 inches, and the delivery boxes."
   }
 ];
 
 export const faq = [
   {
-    "q": "What counts as an extra wide standing desk?",
-    "a": "There is no formal definition, but most standing desks are 48 to 60 inches wide. A desk of 63 inches is large, and 72 to 80 inches or more is generally what shoppers mean by extra wide."
+    "q": "Do I need a dual motor desk at 80 inches?",
+    "a": "In most cases, yes. Longer desks spread the lift load across more frame, and a single motor like the VIVO's can sway at standing height. The Desktronic, FlexiSpot, FitStand and OffiGo list dual motors, which keep both legs rising at the same speed."
   },
   {
-    "q": "How wide a desk do I need for three monitors?",
-    "a": "Three 24 inch monitors are about 66 inches wide before bezels, so plan on at least 72 inches. The 78 to 83 inch desks here give room for arms and a keyboard."
+    "q": "How much weight can an extra wide desk hold?",
+    "a": "It depends on the model. The Desktronic lists 352.7 lbs and the VIVO 220 lbs. Add up monitors, arms, a PC, and accessories, and a dual monitor setup can reach 60 to 80 lbs, so even 220 lbs gives plenty of margin for most home offices."
   },
   {
-    "q": "Do extra wide standing desks wobble?",
-    "a": "They can at standing height, especially with a single motor and heavy gear. Dual motors, a crossbar and a thick top reduce it."
+    "q": "Is the FlexiSpot worth more than the FitStand?",
+    "a": "If you want a bamboo top and a long guarantee, yes. The FlexiSpot E6 MAX lists a 10-year frame and motor guarantee with a three-stage dual motor, while the FitStand lists dual motors and FSC-certified wood at a much lower price but states no capacity."
   },
   {
-    "q": "Can two people use an 80 inch standing desk?",
-    "a": "Yes, with about 40 inches each. Shared-desk guides suggest 48 to 60 inches per person, so 80 inches is a tight but workable fit."
+    "q": "Can two people carry the delivery boxes?",
+    "a": "Usually yes for the frame, but the desktop on 79 to 83 inch models is long and heavy. The SANODESK and FitStand may arrive in two packages, which are easier to move but need to be assembled. Measure your doorways and stairs before you order."
   },
   {
-    "q": "Will an 80 inch desk fit through a door?",
-    "a": "The packaged top is longer than the desk, often 80 inches or more in a box, so measure doors, hallways and stairs. Some ship in two parts."
+    "q": "How do I reduce wobble on a long desk?",
+    "a": "Tighten all frame bolts after a week, level the feet, and avoid raising the desk to full height when it is not necessary. Keep heavy items near the legs, and use the crossbar the frame ships with. A thicker top like the OffiGo's 1.38 inches also damps vibration."
   },
   {
-    "q": "Is a wide standing desk heavier to move?",
-    "a": "Yes. The frame and top can weigh over 100 pounds together, so plan help for assembly and avoid moving it assembled."
+    "q": "Where should a desk this wide go?",
+    "a": "Leave about 2 feet behind for a chair and keep cables slack so the desk can move through its range. Measure from wall to wall and check that outlets, vents, and window sills do not hit the top. A 83 inch desk needs a big room."
   }
 ];
 

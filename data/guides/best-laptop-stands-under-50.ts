@@ -217,24 +217,24 @@ export const products: GuideProduct[] = [
 
 export const howWeEvaluated = [
   {
-    "title": "Height and adjustability",
-    "description": "Each stand was compared on its stated height range and angle options and how close it gets the screen to eye level."
+    "title": "Lift height reached",
+    "description": "We compared how high each stand raises the screen, from the Rain Design mStand's 5.9 inches and the AFOOYO's 5.5 inches to the JOYEKY's reach of 11.81 inches. Around eye level for a seated user is the goal, so a bigger lift range earned credit for taller or standing setups. The JOYEKY lifts up to 11.81 inches, while the mStand raises 5.9 and the AFOOYO 5.5."
   },
   {
-    "title": "Stability and capacity",
-    "description": "Listed weight capacity, base design and hinge type were weighed for wobble under typing."
+    "title": "Stand versus dock combination",
+    "description": "We separated pure stands from the BENFEI, Umaniy and Mukiya dock stands, which add ports. A dock stand saves desk space but adds a video-capable USB-C requirement, and the Umaniy is limited to 4K at 30Hz, so we weighed convenience against those limits. Dock stands need a video-capable USB-C port, and the Umaniy runs 4K only at 30Hz."
   },
   {
-    "title": "Materials and airflow",
-    "description": "Aluminum, wood or plastic construction and the ventilation design were compared."
+    "title": "Build material and capacity",
+    "description": "We checked builds, such as the single-piece aluminum of the mStand against the MDF AFOOYO that supports up to 66 lb. Under $50, metal feels better and stays steadier, but a wood stand with a drawer adds storage, so each was judged on its purpose. The AFOOYO supports up to 66 lb, while the Mukiya is aluminum with a 9-level height."
   },
   {
-    "title": "Portability and extras",
-    "description": "Folded size, weight, rotation and any ports were weighed against how a typical user works."
+    "title": "Cable and depth fit",
+    "description": "We read dimensions like the mStand's 2 inch cable hole and its 10.4 inch depth limit. A laptop deeper than the limit overhangs, so fit data matters, and a stand with a cable pass-through keeps a wired setup tidy. The mStand lists a 2 inch cable hole and a depth under 10.4 inches."
   },
   {
-    "title": "Value at this price",
-    "description": "Price was weighed against build and extras, with extra weight on whether a dock stand's ports are a real benefit for the laptop in use."
+    "title": "Rotation and desk sharing",
+    "description": "We noted 360 degree bases on the JOYEKY and Lamicall, which turn a laptop toward a colleague. A pivot can add wobble when typing, so rotation counted as a bonus for sharing rather than a fixed advantage. The JOYEKY and Lamicall rotate 360 degrees, but the mStand is a fixed single piece of aluminum."
   }
 ];
 
@@ -389,28 +389,28 @@ export const buyingCriteria = [
 
 export const faq = [
   {
-    "q": "Is 4K@30Hz good enough?",
-    "a": "For documents yes, for video it can feel sluggish."
+    "q": "Is a $45 stand worth it over a $20 one?",
+    "a": "If you want a stronger build or extra functions, yes. The Rain Design mStand uses single-piece aluminum, and the dock stands add ports and charging. The cheaper stand from the under $30 guide holds a laptop but with less polish."
   },
   {
-    "q": "Will a dock stand charge my laptop?",
-    "a": "Yes up to its listed wattage."
+    "q": "What does a dock stand add?",
+    "a": "The BENFEI, Umaniy and Mukiya combine a stand with ports like HDMI, USB and PD charging, so one cable can run your desk. Your laptop's USB-C port must support video for HDMI, and the Umaniy limits 4K to 30Hz."
   },
   {
-    "q": "Does a stand need a keyboard?",
-    "a": "Yes."
+    "q": "Will the mStand fit my laptop?",
+    "a": "Its depth limit is under 10.4 inches, so large laptops overhang. It suits 13 to 15 inch models well, and its 2 inch cable hole helps with wires. Measure the depth of your laptop before ordering."
   },
   {
-    "q": "What is MDF?",
-    "a": "A pressed wood board."
+    "q": "Is the AFOOYO drawer useful?",
+    "a": "It holds small items such as cables and notepads, so it helps on a tight desk. The MDF body supports up to 66 lb, which is far beyond a laptop. It has a wider footprint, so measure your desk space first."
   },
   {
-    "q": "Can I use one with a 17 inch laptop?",
-    "a": "Yes if the listing says so."
+    "q": "Do rotating stands feel stable?",
+    "a": "The JOYEKY and Lamicall use 360 degree bases, which add a pivot. For typing, a fixed stand is steadier. If you present to colleagues often, the rotation is handy, and a heavy laptop is best kept near the base."
   },
   {
-    "q": "Do stands scratch laptops?",
-    "a": "Silicone pads help."
+    "q": "Is a dock stand hot or noisy?",
+    "a": "Dock stands can run warm because the hub chips sit under the laptop, and some have no fan. The aluminum Mukiya spreads heat better than plastic. Keep vents clear, and avoid enclosed shelves."
   }
 ];
 

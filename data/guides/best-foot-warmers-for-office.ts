@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41LF6YSKhaL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H8SHMC86?tag=deskfinds0d-20",
-    "description": "Diweez is a double-layer flannel pad with 9 levels from 104F to 149F, three timers, an anti-slip sole and an extended cord. The cover comes off through a rear zipper and machine washes.\n\nCompared with Snailax, it focuses on heat rather than posture, and it costs about $9 less. Against DenGraph below, it has far more heat steps but no listed graphene layer.\n\nBest for a desk under which a flat pad fits. The caveat is that 104F is the lowest setting, and the listing does not give the timer lengths.",
+    "description": "Diweez is a double-layer flannel pad with 9 levels from 104F to 149F, three timers, an anti-slip sole and an extended cord. The cover comes off through a rear zipper and machine washes.\n\nCompared with Snailax, it focuses on heat rather than posture, and it costs under $10 less. Against DenGraph below, it has far more heat steps but no listed graphene layer.\n\nBest for a desk under which a flat pad fits. The caveat is that 104F is the lowest setting, and the listing does not give the timer lengths.",
     "specs": [
       "9 levels, 104F to 149F",
       "3 timer settings",
@@ -219,182 +219,188 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Wattage on a shared circuit",
-    "explanation": "Wattage is the power a heater draws, and offices often put several desks on one circuit. A 150W panel like UEMUSI is a modest addition, but if a listing does not state wattage, you cannot judge it. Look for the watts on the listing or label, and plug directly into the wall."
+    "explanation": "Wattage is the power a heater draws, and offices often put several desks on one circuit. A 150W panel like UEMUSI is a modest addition, but if a listing does not state wattage, you cannot judge it. Look for the watts on the listing or label, and plug directly into the wall.  Never use a power strip for any heater, since plugging in directly avoids overload at the strip."
   },
   {
     "criterion": "Tip-over protection in open floors",
-    "explanation": "In a cubicle, a knocked panel is a real risk. Tilt sensors cut power when a heater leans, as YZNVCG describes. Check that the listing names a tilt or anti-tip feature, and not just a stable base."
+    "explanation": "In a cubicle, a knocked panel is a real risk. Tilt sensors cut power when a heater leans, as YZNVCG describes. Check that the listing names a tilt or anti-tip feature, and not just a stable base.  A tilt cut-off only works if the sensor is part of the design, so look for the word tilt or anti-tip."
   },
   {
     "criterion": "Timer behavior when you leave",
-    "explanation": "Office days are broken up by meetings. A heater with a 4 hour minimum timer keeps running while your desk is empty. Look for short options like 2 hours, and note what happens if no timer is set, as with YZNVCG's 4 hour default."
+    "explanation": "Office days are broken up by meetings. A heater with a 4 hour minimum timer keeps running while your desk is empty. Look for short options like 2 hours, and note what happens if no timer is set, as with YZNVCG's 4 hour default.  A 4 hour minimum on an empty desk wastes power and adds risk, so a short option is worth paying for."
   },
   {
     "criterion": "Noise and glare",
-    "explanation": "A fan whirr or bright indicator lights carry across an open office. Fan-free graphene or film heaters stay quiet, but some units add ambient lights. Check for fan-free wording, and whether lights can be switched off."
+    "explanation": "A fan whirr or bright indicator lights carry across an open office. Fan-free graphene or film heaters stay quiet, but some units add ambient lights. Check for fan-free wording, and whether lights can be switched off.  Silent heating also means no air movement, so these suit warming feet rather than a whole space."
   },
   {
     "criterion": "Folding and storage",
-    "explanation": "Many offices require clearing floor space at the end of the day. UEMUSI folds to 20 by 5 inches with a bag, and Kevirice rolls up. Check the folded size and whether a bag or strap is included."
+    "explanation": "Many offices require clearing floor space at the end of the day. UEMUSI folds to 20 by 5 inches with a bag, and Kevirice rolls up. Check the folded size and whether a bag or strap is included.  A small folded size also makes it easier to take the heater home when facilities does a walk-through."
   },
   {
     "criterion": "Facilities rules",
-    "explanation": "Some workplaces ban personal heaters outright or require approved devices. A named UL or ETL mark can help, but rules vary by employer. Ask facilities before you buy, and keep the receipt."
+    "explanation": "Some workplaces ban personal heaters outright or require approved devices. A named UL or ETL mark can help, but rules vary by employer. Ask facilities before you buy, and keep the receipt. Keep the receipt and the model number in case facilities asks you to remove it."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Wattage and heat range",
-    "description": "We compared listed wattage and temperature range, noting where listings leave out wattage."
+    "title": "Wattage and shared circuits",
+    "description": "Offices often share a circuit across several desks, so we read the wattage on each listing. UEMUSI lists 150W graphene heating, a modest draw, and where wattage was not stated we marked the listing down, because you cannot judge circuit load without it. A heater's wattage also matters to your landlord or facilities team."
   },
   {
-    "title": "Safety behavior",
-    "description": "Tilt cutoffs, overheat protection and flame-retardant claims were weighed above marketing wording."
+    "title": "Tip-over protection",
+    "description": "In a cubicle a knocked panel is a real hazard. YZNVCG describes tilt-sensing power cut, and YANWEI lists V-0 flame-retardant material. We credited named protection over a stable base alone, and checked each listing's wording. A tilt sensor is cheap to add, so its absence from a listing is a real signal."
   },
   {
-    "title": "Timer practicality",
-    "description": "We looked at whether timers suit a day interrupted by meetings."
+    "title": "Timer behavior when you leave",
+    "description": "Meetings leave desks empty, so we compared timers. YZNVCG has a 4 hour default and a 12 hour maximum, Kevirice 4 to 9 hours, Diweez 1, 4 or 8 hours and DenGraph 2, 4, 8 hours or on, which we marked down because always-on defeats the purpose. Always-on modes are the biggest safety gap we found in this group."
   },
   {
-    "title": "Noise and storage",
-    "description": "Fan-free designs, indicator lights and folded size were compared for open offices."
+    "title": "Fold and storage",
+    "description": "Many workplaces clear floors nightly. UEMUSI folds to 20 x 5 inches, Kevirice rolls up with a hook and loop closure and YZNVCG folds as a panel. We compared which store out of the way quickly. A heater you cannot stow in 30 seconds tends to stay out and get kicked."
   },
   {
-    "title": "Value for price",
-    "description": "Prices were weighed against the specs each listing actually documents."
+    "title": "Quiet and glare",
+    "description": "Fan whirr and bright lights carry in an open office. We favored fan-free graphene and film heaters, and noted that YANWEI and others vary in indicator lights, so we marked down units where the listing did not say. A heater with a visible light that cannot be dimmed bothers neighbors, which is easy to miss before buying."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Office Type",
+    "subheading": "By Desk Layout",
+    "intro": "Office desks vary in depth and leg room.",
     "table": {
       "headers": [
-        "Your situation",
-        "Recommended pick"
+        "Your desk",
+        "Best pick here"
       ],
       "rows": [
         [
-          "Shared cubicle, pack down daily",
-          "UEMUSI Cylindrical Under Desk Heater"
+          "A shared cubicle where you fold up daily",
+          "UEMUSI Cylindrical Under Desk Heater, which folds to 20 x 5 inches"
         ],
         [
-          "Outlet is far away",
-          "YZNVCG Foldable Panel Foot Warmer"
+          "A desk with a floor mat for sock feet",
+          "YANWEI Under Desk Heater with Floor Mat, with 5 levels from 90F to 160F"
         ],
         [
-          "Freezing corner office",
-          "YANWEI Under Desk Heater with Floor Mat"
+          "A flat panel you can lay by the wall",
+          "YZNVCG Foldable Panel Foot Warmer, with 8 levels and a 10 foot cord"
         ],
         [
-          "Small desk with a drawer in the way",
-          "DenGraph Heated Floor Mat"
+          "A roll-up you tuck away at night",
+          "Kevirice Roll-Up Under Desk Heater, with 6 levels from 113F to 158F"
         ],
         [
-          "Want a footrest too",
-          "Snailax Heated Footrest with Vibration"
+          "A footrest and warmer in one",
+          "Snailax Heated Footrest with Vibration, with memory foam and a washable cover"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "From under $25 to under $70.",
     "table": {
       "headers": [
-        "Price range",
-        "Recommended pick"
+        "Budget",
+        "Best pick here"
       ],
       "rows": [
         [
-          "Under $30",
-          "DenGraph Heated Floor Mat"
+          "Under $25",
+          "DenGraph Heated Floor Mat, a 15.94 x 19.88 inch mat from 86F to 118F"
         ],
         [
-          "$35 to $40",
-          "Diweez Double Sided Heated Foot Warmer"
+          "Under $40",
+          "Diweez Double Sided Heated Foot Warmer, with 9 levels and washable cover"
         ],
         [
-          "$45 to $50",
-          "Snailax Heated Footrest with Vibration"
+          "Under $50",
+          "Snailax Heated Footrest with Vibration, with 3 heat levels"
         ],
         [
-          "$55 to $65",
-          "Kevirice Roll-Up Under Desk Heater"
+          "Under $60",
+          "Kevirice Roll-Up Under Desk Heater, with 4 to 9 hour timers"
         ],
         [
-          "$65 and up",
-          "UEMUSI Cylindrical Under Desk Heater"
+          "Under $70",
+          "UEMUSI Cylindrical Under Desk Heater, with 150W graphene heating"
         ]
       ]
     }
   },
   {
-    "subheading": "Panel Heater vs Flat Mat",
+    "subheading": "Mat or Pad vs Standing Panel",
+    "intro": "Footprint and heat direction differ.",
     "cards": [
       {
-        "label": "Panel heater",
-        "text": "Surrounds legs and feet so the warmth reaches your shins, but it takes more room and power. Picks: UEMUSI, YZNVCG, YANWEI and Kevirice."
+        "label": "Mat or pad",
+        "text": "DenGraph, Diweez and Kevirice lie on the floor and warm feet from beneath."
       },
       {
-        "label": "Flat mat or pad",
-        "text": "Heats the soles only, uses less space and is easy to move. Picks: Diweez Double Sided Heated Foot Warmer, DenGraph Heated Floor Mat and Snailax Heated Footrest with Vibration."
+        "label": "Standing panel",
+        "text": "UEMUSI, YZNVCG and YANWEI heat legs and feet from the side and use more depth."
       }
     ],
-    "note": "If your legs are cold, take a panel; if only your feet are, a mat is enough."
+    "note": "Pick a mat in a tight cubicle, and a panel when you have leg room."
   },
   {
-    "subheading": "Meetings and Timers",
+    "subheading": "By Safety Priority",
+    "intro": "Different protections suit different offices.",
     "table": {
       "headers": [
-        "Your concern",
-        "Recommended pick"
+        "You worry about",
+        "Best pick here"
       ],
       "rows": [
         [
-          "Frequent short meetings",
-          "UEMUSI Cylindrical Under Desk Heater"
+          "Fire resistance of materials",
+          "YANWEI Under Desk Heater, with V-0 flame-retardant material"
         ],
         [
-          "Want a 2 hour option on a mat",
-          "DenGraph Heated Floor Mat"
+          "Tipping in an open plan",
+          "YZNVCG Foldable Panel Foot Warmer, which describes tilt power cut"
         ],
         [
-          "Works long unbroken shifts",
-          "Kevirice Roll-Up Under Desk Heater"
+          "Forgetting it is on",
+          "Diweez Double Sided Heated Foot Warmer, with 1, 4 or 8 hour timers"
         ],
         [
-          "Want a default cutoff if unset",
-          "YZNVCG Foldable Panel Foot Warmer"
+          "Wattage on a shared circuit",
+          "UEMUSI Cylindrical Under Desk Heater, with stated 150W"
         ]
       ]
     }
   },
   {
-    "subheading": "For Open Floor Plans Specifically",
+    "subheading": "For Open-Plan Offices Specifically",
+    "intro": "Open plan means noise, light and rules.",
     "cards": [
       {
         "label": "Look for",
-        "text": "Fan-free heating, no bright lights, and a tilt shutoff to survive knocks from neighbors and chairs."
+        "text": "Fan-free heating, a short timer, tilt protection, and a folded size that fits under a desk."
       },
       {
         "label": "In this comparison",
-        "text": "UEMUSI Cylindrical Under Desk Heater lists anti-tip protection and a quiet design, and Kevirice Roll-Up Under Desk Heater lists a fan-free design."
+        "text": "UEMUSI uses graphene heating with 4 timers, and YZNVCG lists tilt-cut protection with a 12 hour timer."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "UEMUSI sits at the top of this price range.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want leg warmth, safety features and tidy storage. UEMUSI Cylindrical Under Desk Heater and YANWEI Under Desk Heater with Floor Mat offer these."
+        "text": "You need a folding panel with a stated 150W. See the best foot warmers with auto shut-off guide for timer-focused picks."
       },
       {
         "label": "Save if",
-        "text": "Your feet alone are cold. DenGraph Heated Floor Mat and Diweez Double Sided Heated Foot Warmer cover that for under $40."
+        "text": "You only need a floor mat. DenGraph under $25 or Diweez under $40 cover it."
       }
     ]
   }
@@ -403,28 +409,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Will my office allow a personal foot warmer?",
-    "a": "Policies vary. Some employers ban personal heaters, while many allow low-wattage devices. Ask facilities first, and mention the wattage."
+    "q": "Can I use a personal heater in my office?",
+    "a": "Many workplaces ban or restrict personal heaters. A named UL or ETL mark helps, but rules vary, so ask facilities first. Keep the receipt in case you need to return a unit that is not approved."
   },
   {
-    "q": "Can a foot warmer share a power strip with my computer?",
-    "a": "Prefer a wall outlet when you can. A panel heater plus monitors and chargers can load a strip, and long extension chains are a poor match for heaters."
+    "q": "What mistake do office workers make with under-desk heaters?",
+    "a": "Plugging them into a power strip. Heaters should go straight into the wall because strips are not rated for sustained heater loads. UEMUSI lists 150W, which is modest but still best on a wall outlet."
   },
   {
-    "q": "Is a panel heater worth it over a mat?",
-    "a": "If your calves and knees are cold, a panel like UEMUSI warms more of you than DenGraph. If only your feet are cold, a mat is cheaper and simpler."
+    "q": "Is the UEMUSI worth more than the cheaper Diweez pad?",
+    "a": "If you want a folding 150W graphene panel with 4 timers, yes. UEMUSI is above $60, while Diweez is under $40 with 9 levels and an anti-slip sole. The Diweez suits socked or shoeless feet."
   },
   {
-    "q": "How do I stop it running while I'm in a meeting?",
-    "a": "Pick a model with a short timer, such as UEMUSI's 2 hour option, and switch it off when you leave. Do not rely on always-on modes."
+    "q": "How do I set up an under-desk heater in a cubicle?",
+    "a": "Place it on the floor facing your legs with clearance on all sides, plug it directly into a wall outlet, and set a short timer. Route the cord away from your chair's wheels. Check that a tilt sensor is listed."
   },
   {
-    "q": "How do I keep a heater from tipping?",
-    "a": "Use any brackets included, like UEMUSI's three fixed brackets, and position the heater away from your chair's swing."
+    "q": "Do panel heaters need cleaning?",
+    "a": "Wipe with a dry or lightly damp cloth while unplugged and let it dry. Dust collects on mats and panels, and Snailax and Diweez list washable covers. Never submerge any heater, and retire any with frayed cords."
   },
   {
-    "q": "Are these medical devices?",
-    "a": "No, they are comfort products. If you have reduced feeling in your feet, ask a doctor first, since you may not notice overheating."
+    "q": "Why does my heater shut off while I am in a meeting?",
+    "a": "Auto-off timers cut power after a set time, such as YZNVCG's 4 hour default. That is a safety feature. If it cuts off too early, choose a unit with a longer selectable timer like Kevirice's 4 to 9 hours."
   }
 ];
 

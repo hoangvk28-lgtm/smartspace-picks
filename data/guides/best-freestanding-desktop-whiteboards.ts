@@ -104,10 +104,26 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Required a genuine self-supporting stand", description: "We excluded flat pads and anything needing a wall mount, keeping this comparison to boards that stand on their own." },
-  { title: "Base stability under writing pressure", description: "We favored well-reviewed products where base movement under normal writing pressure isn't a common complaint in the review data." },
-  { title: "Writing area against footprint", description: "We compared compact and larger freestanding options separately, since both serve genuinely different desk-space needs." },
-  { title: "Review volume as reliability evidence", description: "We weighted established review history for confidence in each specific stand's stability over time." }
+  {
+    "title": "Self supporting stand",
+    "description": "We checked that each board stands on its own base without a wall mount or leaning. A board that tips under a firm marker stroke defeats the purpose, so listings that describe a self supporting stand or a stable keyboard stand scored higher."
+  },
+  {
+    "title": "Writing area vs footprint",
+    "description": "We compared the 16 x 12 inch Tankee and AMUSIGHT against the 8 x 6 inch TSJ OFFICE and the two glass keyboard stand boards. A bigger face gives more room but takes more desk depth, so we scored area per inch of desk used. The smallest board suits a single line list, and the 16 x 12 boards suit a short plan."
+  },
+  {
+    "title": "Surface material and ghosting",
+    "description": "We looked at glass versus coated boards. Glass resists ghosting and streaking, but is heavier and breakable, while the magnetic double sided boards add a second face and pin notes with magnets, so each type earned credit for different strengths."
+  },
+  {
+    "title": "Magnetic and double sided features",
+    "description": "We noted that Tankee and AMUSIGHT are both magnetic and double sided, which lets you stick reference notes and flip to a clean face. Glass boards here do not list magnetic use, so we treated it as a real difference. Magnetic use adds value only if you actually pin notes."
+  },
+  {
+    "title": "Value inside the group",
+    "description": "We compared prices from the AMUSIGHT under $20 to the first glass board, and checked what each price buys, since the cheapest large board gives the same 16 x 12 size as the Tankee. We therefore tied value to the real differences, such as glass or magnets, rather than price alone."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -214,12 +230,30 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  { q: "What makes a board \"freestanding\"?", a: "It stands upright on its own base without needing a wall mount, unlike flat pads or wall-hung boards." },
-  { q: "Which has the most writing area?", a: "The Tankee Dry Erase Board at 16x12 inches, double-sided and magnetic." },
-  { q: "Which is the most compact freestanding option?", a: "The TSJ OFFICE 8x6 glass board, with a real self-supporting stand at a small footprint." },
-  
-  { q: "What's the cheapest large freestanding option?", a: "The AMUSIGHT Double-Sided Magnetic White Board at under $20." },
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Small Desktop Glass Whiteboard Dry-Erase-Board is aimed at Buyers who want the most proven compact freestanding board." }
+  {
+    "q": "Does a freestanding board block my monitor?",
+    "a": "It can if it stands directly in front. Keep it beside the monitor or in front of the keyboard where the stand is low. The small 8 x 6 inch board uses the least space, while the 16 x 12 inch pair rises higher."
+  },
+  {
+    "q": "What is the common mistake with these boards?",
+    "a": "Buying on size without checking the stand. A tall board with a light base can tip when you press hard. Look for the words self supporting stand and check whether the board stands at an angle or upright."
+  },
+  {
+    "q": "Is the Tankee worth it over the AMUSIGHT?",
+    "a": "They share the 16 x 12 inch size, double sided and magnetic design. AMUSIGHT is the cheaper of the two, under $20, while Tankee costs slightly more. Choose the AMUSIGHT unless you have a reason to prefer the Tankee."
+  },
+  {
+    "q": "How do I set up a freestanding whiteboard?",
+    "a": "Unfold the stand or slot the board into the base, place it on a flat desk and test with a marker. Keep it away from the edge, and put a sheet of felt underneath if it slides on glossy desks. Check the stand locks before you press hard with a marker."
+  },
+  {
+    "q": "Glass or magnetic, which should I choose?",
+    "a": "Glass resists ghosting and cleans in a wipe, but it is heavy and breakable. Magnetic boards pin notes and flip to a second face, so they suit planning. Choose glass for daily clean writing and magnetic for flexible notes."
+  },
+  {
+    "q": "How do I keep a whiteboard from ghosting?",
+    "a": "Erase each session, use a low odor marker and wipe with a microfiber cloth. Glass resists ghosting best. If shadows form on a coated board, a drop of whiteboard cleaner usually lifts them. Capping markers after use also keeps ink from drying on the face."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Weight Capacity", "description": "Compared stated weight capacity figures across hardware kits and complete cabinet beds." },
-  { "title": "Storage and Charging Features", "description": "Checked which picks include built-in storage drawers, shelves, or charging stations." },
-  { "title": "Complete vs Hardware-Only Design", "description": "Distinguished fully assembled cabinet beds from bare hardware requiring separate construction." },
-  { "title": "Bedding and Mattress Retention", "description": "Checked how each cabinet design keeps bedding in place during the fold-up process." },
-  { "title": "Mechanism Type and Safety", "description": "Compared spring versus piston lift systems and their stated locking safety features." }
+  {
+    "title": "Weight capacity stated",
+    "description": "We read the stated loads, from the SOFTSEA twin's 800 lb to the Wilding Wallbeds kit's 2,000 lbs, and noted the Harper & Bright listing gives none. A stated number is the only planning figure you get for a bed that holds a person and a mattress overhead. The Harper & Bright's missing figure is the main gap."
+  },
+  {
+    "title": "Complete bed versus hardware only",
+    "description": "We separated finished beds from the Wilding Wallbeds kit, which is hardware only and needs a separately built cabinet. At under $500 the kit looks cheapest but adds lumber, tools and build hours, so we weighed the full cost of ownership."
+  },
+  {
+    "title": "Size and horizontal versus vertical",
+    "description": "We compared sizes, from a twin horizontal on the SOFTSEA and a full horizontal on the Harper & Bright to the AMERLIFE queen. A horizontal bed needs far less ceiling height, which the buying guides place around 66 inches for a queen against 86 to 91 inches for a vertical one."
+  },
+  {
+    "title": "Safety and mechanism",
+    "description": "We looked at mechanisms, such as the AMERLIFE's anti-tipping device, the SOFTSEA's dual piston system and the Wilding kit's spring mechanism with locking safety. A bed that folds into a wall must close and stay closed, so these details mattered. A kit's lifetime warranty only matters if the cabinet is built to spec."
+  },
+  {
+    "title": "Setup effort",
+    "description": "We noted the AMERLIFE's 2 to 3 hour setup with two people and the SOFTSEA arriving in 2 packages. A murphy bed is heavy and awkward, so honest assembly estimates were part of the value. The Harper & Bright lists no setup time at all."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,62 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Queen size with built-in storage and charging", "AMERLIFE Queen Murphy Bed with Storage and Charging Station"],
-        ["A stated weight capacity with sideboard-style looks", "SOFTSEA Twin Size Horizontal Murphy Bed"],
-        ["Full size at the lowest price with organized bedding", "Harper & Bright Designs Full Size Horizontal Murphy Bed Frame"],
-        ["The highest weight capacity and universal size fit", "Wilding Wallbeds Murphy Bed Kit, All Sizes"]
+    "subheading": "By Room Size",
+    "intro": "At under $500 the main question is how much height and floor space you have.",
+    "table": {
+      "headers": [
+        "Your room",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Low ceiling or an awkward alcove",
+          "SOFTSEA Twin Size Horizontal Murphy Bed, a horizontal fold that needs less height"
+        ],
+        [
+          "A guest room with a full-size horizontal fold",
+          "Harper & Bright Designs Full Size Horizontal Murphy Bed Frame, with a bedding-retention cabinet"
+        ],
+        [
+          "A tall room that fits a queen with storage and charging",
+          "AMERLIFE Queen Murphy Bed with Storage and Charging Station"
+        ],
+        [
+          "A DIY builder who will make the cabinet",
+          "Wilding Wallbeds Murphy Bed Kit, All Sizes, hardware only"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $350", "Wilding Wallbeds (under $350)"],
-        ["Under $380", "Harper & Bright (under $400)"],
-        ["Under $430", "SOFTSEA Twin (under $450)"],
-        ["Under $500", "AMERLIFE (under $500)"]
+    "subheading": "By Budget",
+    "intro": "Even the cheapest pick has a catch at this price.",
+    "table": {
+      "headers": [
+        "Budget position",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest total cost if you can build a cabinet",
+          "Wilding Wallbeds Murphy Bed Kit, cheapest here but adds materials"
+        ],
+        [
+          "Low for a finished full size bed",
+          "Harper & Bright Designs Full Size Horizontal Murphy Bed Frame"
+        ],
+        [
+          "Mid for a twin with a stated weight capacity",
+          "SOFTSEA Twin Size Horizontal Murphy Bed, 800 lb stated"
+        ],
+        [
+          "Top of the range for a queen with extras",
+          "AMERLIFE Queen Murphy Bed with Storage and Charging Station"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Complete Cabinet Bed vs Hardware-Only Kit",
-    cards: [
-      { label: "Complete cabinet bed (AMERLIFE, SOFTSEA, Harper & Bright)", text: "Arrives ready to assemble as a finished piece, no separate lumber sourcing or cutting required." },
-      { label: "Hardware-only kit (Wilding Wallbeds)", text: "Offers the highest weight capacity and universal size flexibility, but requires you to build or source your own cabinet structure." }
+    "subheading": "Complete Bed vs Hardware Kit",
+    "intro": "A kit costs less on paper but not on a weekend.",
+    "cards": [
+      {
+        "label": "Complete bed: AMERLIFE, SOFTSEA, Harper & Bright",
+        "text": "Ships with a cabinet or frame, so assembly is the only task. The AMERLIFE takes 2 to 3 hours with 2 people, and the SOFTSEA ships in 2 packages."
+      },
+      {
+        "label": "Hardware kit: Wilding Wallbeds",
+        "text": "Commercial-grade steel, 2,000 lb capacity and a lifetime warranty, but you build the cabinet. A real saving only if you already own the tools and lumber."
+      }
     ],
-    note: "If you want a straightforward assembly without a construction project, any of the three complete cabinet beds work well. If maximum weight capacity and size flexibility matter more than convenience, the Wilding Wallbeds kit is worth the added build effort.",
+    "note": "Most buyers should take a complete bed unless woodworking is something you already do."
   },
   {
-    subheading: "By Storage Needs",
-    table: {
-      headers: ["Your storage priority", "Recommended pick"],
-      rows: [
-        ["Built-in drawer and charging station", "AMERLIFE"],
-        ["Bedding stays organized during storage", "Harper & Bright"],
-        ["Sideboard-style closed appearance", "SOFTSEA Twin"],
-        ["No storage needed, just the mechanism", "Wilding Wallbeds"]
+    "subheading": "By Mounting and Rental Concerns",
+    "intro": "A bed that mounts to the wall needs studs and landlord approval.",
+    "table": {
+      "headers": [
+        "Constraint",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Need to know the load limit before mounting",
+          "SOFTSEA Twin Size Horizontal Murphy Bed, with 800 lb stated"
+        ],
+        [
+          "Want the strongest mechanism",
+          "Wilding Wallbeds Murphy Bed Kit, with spring mechanism and locking safety"
+        ],
+        [
+          "Want an anti-tipping safeguard",
+          "AMERLIFE Queen Murphy Bed, with universal wheels and an anti-tipping device"
+        ],
+        [
+          "Need a horizontal bed that sits low on the wall",
+          "Harper & Bright Designs Full Size Horizontal, a cabinet design"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Guest Room Used Only a Few Times a Year Specifically",
-    cards: [
-      { label: "Look for", text: "Built-in storage for spare bedding and pillows, so the guest room doesn't need dedicated closet space for infrequently used linens." },
-      { label: "In this comparison", text: "The AMERLIFE pick's dedicated drawer for pillows and built-in storage specifically addresses the need to keep guest bedding accessible but out of sight between uses." }
-    ],
+    "subheading": "For a Small Studio Apartment Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A horizontal fold so the bed does not need ceiling height, a stated weight limit, and a cabinet front that reads as furniture. Measure the floor space when the bed is down."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The SOFTSEA twin closes into a cabinet that doubles as a sideboard, and the Harper & Bright keeps bedding inside the cabinet."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want queen size with genuine built-in storage and charging in one complete piece, where the AMERLIFE pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want the highest weight capacity and don't mind building your own cabinet, where the Wilding Wallbeds kit covers that for about $151 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $800 guide adds queen storage and freestanding options.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a queen with lighting or shelves, a renter-friendly freestanding bed, or a headboard. See the under $800 guide."
+      },
+      {
+        "label": "Save if",
+        "text": "A twin or full horizontal does the job, where the SOFTSEA or Harper & Bright is enough."
+      }
+    ]
   }
 ];
 
@@ -184,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the AMERLIFE's charging station handle charging a laptop, or just phones?", "a": "The listing specifically describes it as a device charging station without detailing wattage output for larger devices, so checking the specific port specifications against your laptop's charging requirements is worth doing before relying on it for anything beyond phones or small devices." },
-  { "q": "What's the most common mistake buyers make when comparing weight capacity between hardware kits and complete cabinet beds?", "a": "Assuming a hardware kit's much higher stated capacity, like the Wilding Wallbeds' 2,000 lbs, directly translates to a finished complete bed, when that figure typically reflects the bare mechanism and frame rather than a fully built cabinet structure with doors and panels." },
-  { "q": "Is the AMERLIFE pick worth it over the cheaper Harper & Bright option?", "a": "If you specifically want built-in storage and a charging station in queen size, yes, but if full size at a lower price with organized bedding retention is your priority, the Harper & Bright pick covers that for about $124 less." },
-  { "q": "How do I know if the Wilding Wallbeds kit will fit my existing closet or wall space?", "a": "The listing states it can be set up inside an existing closet or directly onto a wall, so measuring your available space against the kit's mattress size dimensions plus mechanism clearance is worth doing before ordering." },
-  { "q": "Do any of these murphy beds require professional installation?", "a": "None of the four picks in this tier explicitly require professional installation, though the AMERLIFE pick's 2-3 hour, 2-person assembly time suggests having help available is important regardless of which pick you choose." },
-  { "q": "Can the SOFTSEA Twin's closed cabinet actually hold items like a real sideboard would?", "a": "The listing describes it functioning as a sideboard aesthetically when closed, but checking whether it includes actual shelving or storage space inside versus just a flat closed front is worth confirming if functional storage matters to you beyond the visual appearance." }
+  {
+    "q": "How much ceiling height does a murphy bed need?",
+    "a": "Vertical queen beds usually need around 86 to 91 inches, while horizontal ones can work from about 66 inches for a queen. The SOFTSEA and Harper & Bright are horizontal, so they suit lower rooms. Measure from the finished floor, not the subfloor, for accuracy."
+  },
+  {
+    "q": "What is the most common murphy bed buying mistake?",
+    "a": "Buying a mattress that is too thick or heavy. Mechanisms tolerate limited thickness, typically around 11 to 12 inches, so check the listing before choosing a mattress. A foam mattress is also lighter on the springs and pistons."
+  },
+  {
+    "q": "Is the Wilding Wallbeds kit worth it over a complete bed?",
+    "a": "Only if you can build a cabinet. It lists 2,000 lbs capacity, commercial steel and a lifetime warranty, while the AMERLIFE and SOFTSEA arrive as finished beds. A kit also needs cabinet lumber, so total cost climbs."
+  },
+  {
+    "q": "How many studs do I need to mount a murphy bed?",
+    "a": "Manufacturer instructions commonly call for 3 studs on a full or queen and 2 on a twin. Use lag bolts into studs, not drywall anchors, and follow the model's template exactly. Lag bolts into studs are the standard, never toggle bolts."
+  },
+  {
+    "q": "Can two people assemble a murphy bed?",
+    "a": "Yes, and two are needed. The AMERLIFE lists a 2 to 3 hour setup requiring 2 people, so clear the floor and check that all hardware arrived. A clear floor and a helper make the heavy lift safer."
+  },
+  {
+    "q": "Can I mount one to metal studs?",
+    "a": "Metal studs need different hardware or a professional. Confirm wood framing with a stud finder before you buy, and check your lease before drilling. Hire a handyman if the wall turns out not to be wood framing."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

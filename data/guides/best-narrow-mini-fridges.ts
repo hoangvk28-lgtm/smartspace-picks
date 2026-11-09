@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31tVzL0gm4L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09DTGZC2Z?tag=deskfinds0d-20",
-    "description": "Whynter is a 12 inch built-in undercounter beverage fridge for 75 cans, with 3 slide-out wire shelves, a locking reversible double-pane glass door, a 34F to 54F digital range and auto defrost.\n\nIt is built for an undercounter slot, so it is the most polished pick, but also costs about $50 less than Vushine. Against Manastin below, it holds three times as many cans.\n\nBest for a built-in look in a kitchen or home bar. The caveat is price, and it is a drink fridge, not a food fridge.",
+    "description": "Whynter is a 12 inch built-in undercounter beverage fridge for 75 cans, with 3 slide-out wire shelves, a locking reversible double-pane glass door, a 34F to 54F digital range and auto defrost.\n\nIt is built for an undercounter slot, so it is the most polished pick, but also costs under $60 less than Vushine. Against Manastin below, it holds three times as many cans.\n\nBest for a built-in look in a kitchen or home bar. The caveat is price, and it is a drink fridge, not a food fridge.",
     "specs": [
       "12 inch wide, 75 cans",
       "34F to 54F, auto defrost",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41sUx9p2NcL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FKB88MMT?tag=deskfinds0d-20",
-    "description": "Vushine is a 12 inch, 2 cu ft beverage fridge for 60 cans that can sit built-in or freestanding, with a fan-circulated compressor system and UV-blocking double-pane glass doors. The listing pitches it for cubicle under-desk or under-counter use.\n\nIt holds fewer cans than Whynter above and costs about $50 more, so it is the priciest pick. Against Manastin below, it is much bigger.\n\nBest for a premium slim unit under a desk. The caveat is price at about $380.",
+    "description": "Vushine is a 12 inch, 2 cu ft beverage fridge for 60 cans that can sit built-in or freestanding, with a fan-circulated compressor system and UV-blocking double-pane glass doors. The listing pitches it for cubicle under-desk or under-counter use.\n\nIt holds fewer cans than Whynter above and costs under $60 more, so it is the priciest pick. Against Manastin below, it is much bigger.\n\nBest for a premium slim unit under a desk. The caveat is price at under $400.",
     "specs": [
       "12 inch wide, 60 cans",
       "2 cu ft compressor",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41uVhQrqH0L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GSFQFFQ4?tag=deskfinds0d-20",
-    "description": "Manastin is a 0.6 cu ft (18L) beverage fridge for 24 cans with a glass door, LED light, 40F to 61F digital control and a slide-out wire shelf. The listing gives a footprint beginning with 11.02 inches.\n\nIt is far cheaper than the 12 inch units, at about $106, and holds less. Against Tehanld below, it is similar in size with a stated width.\n\nBest for a bedroom or desk corner. The caveat is a small 24 can capacity.",
+    "description": "Manastin is a 0.6 cu ft (18L) beverage fridge for 24 cans with a glass door, LED light, 40F to 61F digital control and a slide-out wire shelf. The listing gives a footprint beginning with 11.02 inches.\n\nIt is far cheaper than the 12 inch units, at under $125, and holds less. Against Tehanld below, it is similar in size with a stated width.\n\nBest for a bedroom or desk corner. The caveat is a small 24 can capacity.",
     "specs": [
       "24 cans, 0.6 cu ft",
       "11.02 inch listed width",
@@ -163,7 +163,7 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Stated width and clearance",
-    "explanation": "Width is the outside measurement across the front, and a 12 inch unit is not the same as a 12 inch gap. You also need vent space. Look for a listed width in inches and read the manual clearance."
+    "explanation": "Width is the outside measurement across the front, and a 12 inch unit is not the same as a 12 inch gap. You also need vent space. Look for a listed width in inches and read the manual clearance. Allow about a half inch on each side and a few inches behind the unit unless the manual says otherwise. A tape measure at the top, middle and bottom of the gap will catch a bowed cabinet."
   },
   {
     "criterion": "Built-in versus freestanding",
@@ -171,11 +171,11 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Beverage fridge limits",
-    "explanation": "Many slim drink fridges run at 34F to 41F at the coldest and up to 61F or 64F, which may not be cold enough for raw food. Treat them as drink coolers. Check the range."
+    "explanation": "Many slim drink fridges run at 34F to 41F at the coldest and up to 61F or 64F, which may not be cold enough for raw food. Treat them as drink coolers. Check the range. Whynter's 34F low end is the only one here cold enough to approach food storage, and even that depends on the setting. If you need food storage, a unit whose range reaches the low 30s F is the only safe option."
   },
   {
     "criterion": "Capacity per width",
-    "explanation": "Narrow means tall, so capacity depends on height and shelf layout. A 12 inch unit may hold 60 to 75 cans, while an 11 inch countertop one holds 24. Check the can count, not just cubic feet."
+    "explanation": "Narrow means tall, so capacity depends on height and shelf layout. A 12 inch unit may hold 60 to 75 cans, while an 11 inch countertop one holds 24. Check the can count, not just cubic feet. Whynter's 75 cans in 12 inches is the densest figure here, and the Manastin's 24 cans in 11 inches is the lowest. Count on roughly 4 to 5 cans per inch of width for the denser units."
   },
   {
     "criterion": "Glass door and lock",
@@ -183,27 +183,31 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Noise and cooling method",
-    "explanation": "Compressors cycle with a hum, and fans add constant noise. This matters under a desk. Look for stated dB or a compressor claim."
+    "explanation": "Compressors cycle with a hum, and fans add constant noise. This matters under a desk. Look for stated dB or a compressor claim. Under a desk, a compressor that cycles every 20 minutes is noticeable at night, so a unit with a stated quiet claim helps. A compressor with fan circulation is normally quieter than a bare fan unit but can hum louder when cycling."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Stated width",
-    "description": "We prioritized listings that state an actual width in inches."
+    "title": "Stated width and gap fit",
+    "description": "Whynter and Vushine are 12 inches wide, Manastin lists 11.02 inches, and NutriChef lists 30 x 13 x 17 inches. We treated outer width, not interior capacity, as the first filter, and read each listing for the ventilation space the manual calls for around the cabinet."
   },
   {
-    "title": "Cooling and range",
-    "description": "Compressor claims and listed temperature ranges were compared."
+    "title": "Built-in or freestanding venting",
+    "description": "Whynter is a built-in undercounter design that vents from the front, while Vushine lists built-in or freestanding use. We checked this because a freestanding unit that vents out the back overheats in a tight cabinet slot and shortens its life. We noted where a listing does not say which venting applies."
   },
   {
-    "title": "Capacity",
-    "description": "Can and bottle counts were compared per footprint."
+    "title": "Temperature range and food limits",
+    "description": "Whynter spans 34F to 54F, NutriChef 41F to 64F and Manastin and Tehanld 40F to 61F. We treated these as beverage ranges, since the warmest settings are not safe for raw food or leftovers and only some units reach food-safe cold. Only Whynter's 34F floor approaches true food-safe cold."
   },
   {
-    "title": "Price",
-    "description": "Price was compared to build and installation style."
+    "title": "Capacity per width",
+    "description": "Whynter holds 75 cans in 12 inches, Vushine 60 cans, NutriChef 18 bottles and the 11 inch Manastin 24 cans. We compared cans per inch of width, because a narrow unit's real advantage is height and shelf layout, not volume. Cans per inch of width is the honest comparison for slim units."
+  },
+  {
+    "title": "Noise, door and value",
+    "description": "Compressor units hum while thermoelectric ones use fans, and only NutriChef claims quiet operation. We also considered locking glass doors and price: the two 0.6 cu ft units cost far less than the 12 inch models, and we judged what the extra money buys."
   }
 ];
 
@@ -330,7 +334,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You only need a few drinks. Manastin 18L 24 Can Glass Door Mini Fridge and Tehanld 0.6 Cu Ft Compressor Drink Cooler cost about $100."
+        "text": "You only need a few drinks. Manastin 18L 24 Can Glass Door Mini Fridge and Tehanld 0.6 Cu Ft Compressor Drink Cooler cost under $125."
       }
     ]
   }
@@ -340,27 +344,27 @@ export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
     "q": "Are narrow mini fridges good for food?",
-    "a": "Most slim models here are drink or wine coolers that run above food-safe temperatures, such as the Manastin (40F to 61F) and NutriChef (41F to 64F). Use a standard mini fridge for milk or meat."
+    "a": "Mostly no. These are beverage coolers, and ranges like 34F to 54F or 40F to 61F include temperatures that are too warm for raw meat or dairy, since food-safe refrigeration is at or below 40F. Use them for drinks and treat the cold end of the range as a bonus."
   },
   {
     "q": "Does a 12 inch fridge fit a 12 inch gap?",
-    "a": "Usually not exactly. Measure the unit including handle and leave clearance for the door and venting. The Whynter and Vushine are both listed as 12 inch wide, so a 12.5 inch gap is the minimum to try."
+    "a": "Not necessarily. A 12 inch label is the outer width, so a 12 inch gap leaves no room for venting or a door handle. Add at least a half inch each side or follow the manual's clearance figure, and measure the gap in three places because cabinets are rarely square."
   },
   {
     "q": "Can a freestanding unit go under a counter?",
-    "a": "Only if the manual allows it. Freestanding units vent at the back and can overheat in a tight slot. The Whynter is sold as undercounter, so it is designed for that use."
+    "a": "Usually not. Freestanding fridges vent from the back and sides, so a tight undercounter slot traps heat and can shorten the compressor's life. Choose a built-in model like Whynter's 12 inch or confirm the listing says it can be installed under a counter."
   },
   {
     "q": "Is a built-in worth the money?",
-    "a": "If it will really sit flush in a cabinet, yes, because front venting makes it work in that slot, as with the Whynter undercounter. Otherwise a cheaper freestanding Tehanld at 0.6 cu ft is fine."
+    "a": "Usually only if you want a flush look. A built-in model like Whynter's 12 inch vents from the front, so it sits tight under a counter without overheating, and it costs far more than the Manastin or Tehanld freestanding units. For a desk side or cabinet gap with airflow, freestanding saves money."
   },
   {
     "q": "How do I clean the glass door?",
-    "a": "Wipe with a soft cloth and mild cleaner while the unit is off. The Vushine double-pane UV glass and Whynter locking glass door both show fingerprints, so clean often."
+    "a": "Unplug it, remove loose items and wipe the glass with a soft cloth and mild soap. Avoid abrasive cleaners that scratch double-pane glass, and dry the gasket so it does not collect mold. For a LED-lit interior, wipe only the shelves and never spray near the light."
   },
   {
     "q": "Will a narrow fridge be noisy?",
-    "a": "Compressors hum when they cycle. Check for a stated dB if it sits near your bed, and give it a few inches of clearance so it runs less often."
+    "a": "Compressor models hum when they cycle, and fan models add constant noise. Only NutriChef lists a quiet claim, and none of these listings gives a decibel number, so treat noise as unverified and keep any model under a desk away from the wall to reduce vibration."
   }
 ];
 

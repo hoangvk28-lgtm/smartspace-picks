@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/411mco8y-9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08BJ37HDS?tag=deskfinds0d-20",
-    description: "This injector's listing specifically states auto-sensing technology delivering up to 35W per PoE+ device with backward compatibility for 15.4W 802.3af devices, a slightly higher per-port ceiling than the StarTech pick above. Its full duplex 2Gbps Ethernet speed across 2 Gigabit input and output ports matches the StarTech pick's speed capability at a fraction of the price.\n\nCompared to the StarTech pick above, this one costs about $41 less while delivering comparable core Gigabit PoE+ performance, trading the documented ESD rating for a lower price.\n\nBest for buyers who want solid Gigabit PoE+ performance for two devices at a significantly lower price than the enterprise-grade StarTech pick.",
+    description: "This injector's listing specifically states auto-sensing technology delivering up to 35W per PoE+ device with backward compatibility for 15.4W 802.3af devices, a slightly higher per-port ceiling than the StarTech pick above. Its full duplex 2Gbps Ethernet speed across 2 Gigabit input and output ports matches the StarTech pick's speed capability at a fraction of the price.\n\nCompared to the StarTech pick above, this one costs under $50 less while delivering comparable core Gigabit PoE+ performance, trading the documented ESD rating for a lower price.\n\nBest for buyers who want solid Gigabit PoE+ performance for two devices at a significantly lower price than the enterprise-grade StarTech pick.",
     specs: ["Up to 35W per port, 2 ports", "Full duplex 2Gbps Gigabit", "802.3af/at compliant, auto-sensing"],
     pros: ["Slightly higher per-port power ceiling than the StarTech pick", "Significantly lower price than the enterprise-grade alternative", "Full Gigabit speed across both ports"],
     cons: ["No stated specific ESD kV rating unlike the StarTech pick", "No named enterprise access point compatibility"],
@@ -84,69 +84,151 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Port Speed", "description": "Compared Gigabit versus 10/100Mbps speeds across the 2-port tier." },
-  { "title": "ESD and Surge Protection", "description": "Compared specific stated kV ratings for ESD and surge protection where listings provided them." },
-  { "title": "Power Source Type", "description": "Compared standard AC-powered units against DC-input units for cabinet or industrial power." },
-  { "title": "Per-Port Power Ceiling", "description": "Compared maximum wattage available per port across the different picks." },
-  { "title": "Installation Design", "description": "Compared multi-unit-friendly designs like parallel slide-in mounting against standalone form factors." }
+  {
+    "title": "Per-port vs shared budget",
+    "description": "A 2-port injector either gives each port its own budget or splits one total. The iCreatin lists up to 35W per port, the StarTech 30W max, the Centopto 60W total across both ports, and the PLUSPOE 48W total at 24W average. We scored per-port clarity above a vague total."
+  },
+  {
+    "title": "Standard handling",
+    "description": "We checked whether each unit negotiates power. The StarTech and iCreatin are auto-sensing 802.3af/at, so they only send power to a device that asks for it. The PLUSPOE is passive always-on 48V, which is cheaper but can damage a non-PoE device plugged into the wrong port."
+  },
+  {
+    "title": "Gigabit data path",
+    "description": "Both the StarTech and iCreatin pass Gigabit, and the Centopto is also Gigabit, while the PLUSPOE is 10/100. A 2-port injector near an AP or camera is a speed bottleneck if it caps at 100Mbps, so we marked the PLUSPOE for basic cameras only. Where the datasheet was thin, we assumed the lower number."
+  },
+  {
+    "title": "Installation environment",
+    "description": "The Centopto uses an industrial aluminum housing rated from -40C to 75C with DIN-rail and wall mounts, while the others are desktop boxes. Cold garages, cabinets, and roof enclosures need the rated housing, and we only credited it where the temperature range was stated."
+  },
+  {
+    "title": "Surge and ESD protection",
+    "description": "The StarTech lists 15kV air and 8kV contact ESD protection and 9K jumbo frames. Long outdoor cable runs act like antennas for surges, so we gave real weight to a numeric figure rather than a vague 'protected' badge. Numbers beat adjectives here, since protection is invisible until the night a storm hits a camera on a pole."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Priority",
-    table: {
-      headers: ["What matters most", "Recommended pick"],
-      rows: [
-        ["Highest documented ESD protection", "StarTech 2-Port PoE+ Injector"],
-        ["Best value Gigabit performance", "iCreatin 2-Port Gigabit PoE+ Injector"],
-        ["DC cabinet power source", "Centopto Hardened Gigabit 2-Port PoE+ Injector"],
-        ["Lowest price for basic devices", "PLUSPOE 48 Volt PoE Injector"]
+    "subheading": "By Pair of Devices",
+    "intro": "The two ports usually feed a pair of cameras or a camera and an AP, and each needs its own budget.",
+    "table": {
+      "headers": [
+        "Your two devices",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Two standard cameras or a camera and a small AP on a desk",
+          "iCreatin Gigabit PoE+ Injector Adapter, at up to 35W per port with auto-sensing"
+        ],
+        [
+          "Two devices where a trusted brand and a long record matter",
+          "StarTech 2-Port PoE+ Injector (AF221C), at 30W max with ESD protection"
+        ],
+        [
+          "Two heavier devices in a cold or outdoor cabinet",
+          "Centopto Hardened Gigabit Injector, with 60W total and a -40C to 75C range"
+        ],
+        [
+          "Two basic 100Mbps cameras that need power at the lowest cost",
+          "PLUSPOE 48 Volt Injector Adapter, at 48W total"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $20", "PLUSPOE 48 Volt PoE Injector (under $20)"],
-        ["Under $26", "iCreatin 2-Port Gigabit PoE+ Injector (under $30)"],
-        ["Under $67", "StarTech 2-Port PoE+ Injector (under $70)"],
-        ["Under $145", "Centopto Hardened Gigabit 2-Port PoE+ Injector (under $150)"]
+    "subheading": "By Budget",
+    "intro": "The price spread is wide because one pick is industrial.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $20, passive 48V",
+          "PLUSPOE, for two basic cameras"
+        ],
+        [
+          "Under $30, auto-sensing Gigabit",
+          "iCreatin, with up to 35W per port"
+        ],
+        [
+          "Under $70, a known brand",
+          "StarTech 2-Port PoE+, with 30W max and ESD protection"
+        ],
+        [
+          "Above $140, industrial hardware",
+          "Centopto, for harsh environments"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Enterprise-Grade vs Standard Value 2-Port Injectors",
-    cards: [
-      { label: "Enterprise-grade (StarTech)", text: "Justified for business installations powering enterprise-grade Wi-Fi 6/6E/7 access points where documented ESD protection and jumbo frame support have real value." },
-      { label: "Standard value (iCreatin)", text: "Delivers comparable core Gigabit PoE+ performance for two standard devices at a fraction of the enterprise-grade price." }
+    "subheading": "Active Auto-Sensing vs Passive Always-On",
+    "intro": "This is the safest-vs-cheapest tradeoff in the whole injector category.",
+    "cards": [
+      {
+        "label": "Auto-sensing (StarTech 2-Port PoE+, iCreatin)",
+        "text": "These negotiate before sending power, so a laptop or switch plugged into the wrong port is not damaged. That is the safe choice anywhere that non-PoE gear shares the cabling."
+      },
+      {
+        "label": "Passive always-on (PLUSPOE)",
+        "text": "Power flows as soon as the cable connects. It costs less and works for a dedicated pair of cameras, but you must be sure every device on the line expects 48V."
+      }
     ],
-    note: "Most home and small business buyers should default to the standard value pick unless a specific enterprise access point or documented protection requirement justifies the premium.",
+    "note": "For mixed or changing networks, default to auto-sensing. Passive suits fixed, labeled camera runs."
   },
   {
-    subheading: "By Power Source Available",
-    table: {
-      headers: ["Your available power", "Recommended pick"],
-      rows: [
-        ["Standard AC outlet", "StarTech, iCreatin, or PLUSPOE picks"],
-        ["Existing 12V or 24V DC cabinet supply", "Centopto Hardened Gigabit 2-Port PoE+ Injector"]
+    "subheading": "By Mounting Location",
+    "intro": "The case decides where the injector can safely live.",
+    "table": {
+      "headers": [
+        "Where it mounts",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A desk or shelf in a heated room",
+          "iCreatin or StarTech 2-Port PoE+, both standard desktop boxes"
+        ],
+        [
+          "A DIN rail in a metal cabinet",
+          "Centopto, which includes 35mm DIN-rail and wall mounts"
+        ],
+        [
+          "A wall near a router, no rail needed",
+          "PLUSPOE, a light plastic box"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Two Devices Installed Near Each Other Specifically",
-    cards: [
-      { label: "Look for", text: "A design specifically built for two-device power delivery from one compact unit, rather than buying two separate single-port injectors that take up more installation space and cost more combined." },
-      { label: "In this comparison", text: "All four picks are purpose-built 2-port units, letting you power two nearby devices from one unit rather than two separate single-port injectors." }
-    ],
+    "subheading": "For a Home Network Rack Specifically",
+    "intro": "A small rack or shelf near the router is the most common home placement.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Gigabit data, auto-sensing, and a size that fits next to the router."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The iCreatin gives Gigabit and 35W per port, and the StarTech 2-Port PoE+ adds ESD protection and jumbo frame support."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You're powering enterprise Wi-Fi access points and want documented ESD protection, or need DC cabinet power for an industrial installation, where the StarTech or Centopto picks justify their price." },
-      { label: "Save if", text: "You have two basic devices needing standard PoE power, where the iCreatin or PLUSPOE picks deliver reliable performance at a fraction of the cost." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The spread to industrial gear is large.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need a cold or outdoor cabinet. The Centopto is the only pick rated to -40C, though the 60W injector guide covers higher output units."
+      },
+      {
+        "label": "Save if",
+        "text": "You run two basic cameras. The PLUSPOE and iCreatin cost the least."
+      }
+    ]
   }
 ];
 
@@ -174,12 +256,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Is a 2-port PoE injector better than two separate single-port injectors?", "a": "When your two devices are physically near each other, yes, since it saves installation space and often costs less than buying two separate single-port units; for devices spread far apart, separate injectors may be more practical." },
-  { "q": "What's the real benefit of a higher ESD protection rating like 15kV?", "a": "It provides documented, independently comparable protection against electrostatic discharge events, more meaningful for a business installation protecting expensive enterprise equipment than a low-stakes home setup." },
-  { "q": "Can I power a 2-port PoE injector from a solar or battery system?", "a": "Only if the specific unit is designed for DC input, like the Centopto pick in this comparison; standard AC-powered 2-port injectors cannot accept solar or battery power directly." },
-  { "q": "Do both ports on a 2-port injector share the same total power budget?", "a": "Yes, typically the total wattage stated is shared across both ports, so check the total budget against your two devices' combined power draw, not just the per-port maximum in isolation." },
-  { "q": "Is Gigabit speed necessary for a 2-port injector powering basic security cameras?", "a": "For standard-definition cameras, 10/100Mbps is often sufficient, but for higher-resolution or 4K cameras, Gigabit speed avoids a real throughput bottleneck." },
-  { "q": "Can I mount multiple 2-port PoE injectors together in the same equipment closet?", "a": "Yes, though a design specifically built for that, like a parallel slide-in mounting feature, makes a multi-unit deployment more organized than units designed only for standalone use." }
+  {
+    "q": "Can a 2-port PoE injector power two cameras at once?",
+    "a": "Yes, within the budget. The iCreatin lists up to 35W per port, the Centopto shares 60W across both, and the PLUSPOE splits 48W total. Add up each camera's peak draw, including infrared, before choosing one."
+  },
+  {
+    "q": "What is the biggest mistake with passive 48V injectors?",
+    "a": "Plugging a non-PoE device into a powered port. Power flows immediately, so a laptop or switch can be damaged. Label the injector's output cable and use auto-sensing injectors for anything mixed. A short label saying 48V passive on the output cable takes ten seconds and prevents a costly swap."
+  },
+  {
+    "q": "Is the StarTech worth paying more than the iCreatin?",
+    "a": "Only if you value the brand, ESD ratings, and jumbo frame support. Both are Gigabit and auto-sensing, and the iCreatin allows up to 35W per port, so it often matches or beats the StarTech on power. The two overlap on power, so the decision is brand and ESD rating."
+  },
+  {
+    "q": "How do I power the Centopto injector?",
+    "a": "It takes 12 to 48V DC input, so you need a suitable DC supply. The output is 60W total across two ports, so size the supply with a margin. Mount it on the DIN rail or wall using the included hardware. Do not run it near its limit all day."
+  },
+  {
+    "q": "Do I need Cat6 with a 2-port Gigabit injector?",
+    "a": "Cat5e carries Gigabit and PoE to 100m. A poor or copper-clad cable can drop speed and voltage, so use solid copper. Keep injector and device within 100m of cable length in total. A 10 meter patch cord at each end is fine."
+  },
+  {
+    "q": "Where do I plug each cable on a PoE injector?",
+    "a": "The data side goes to your switch or router, and the PoE side goes to the device. Reversing them can stop the link or waste power, so check the port labels before the first connection. If a link light stays off, swap the two cables before suspecting the injector."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

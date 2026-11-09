@@ -84,70 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "True 10Gbps Verification", "description": "Confirmed each listing explicitly states true 10Gbps port speed, not just a 2.5G or 5G label." },
-  { "title": "Named Device Compatibility", "description": "Compared listings naming specific compatible eero, UniFi, or brand-specific access point models." },
-  { "title": "Power Delivery Tier", "description": "Compared 60W versus 90W power ceilings relative to real device requirements." },
-  { "title": "Power Input Flexibility", "description": "Compared AC-only designs against dual AC/DC input with redundancy support." },
-  { "title": "Certification and Protection", "description": "Compared UL certification and stated surge/ESD protection ratings." }
+  {
+    "title": "True 10Gbps pass-through",
+    "description": "We checked that each injector advertises full 10Gbps and not a Gigabit port with a multi-gig label. Omada steps down through 10, 5, 2.5 and 1Gbps plus 100 and 10Mbps, which matters if the other end of the cable is a switch or access point that negotiates slower speeds. Check the far-end device's maximum link speed too."
+  },
+  {
+    "title": "Power ceiling versus AP draw",
+    "description": "We compared watts, from 60W on both PROCET units to 90W on Cudy and Omada. A Wi-Fi 7 tri-band access point can draw more than 30W under load, so we rated the 60W floor as enough for most and the 90W models as headroom. A device that pulls more than the injector's ceiling will reboot under load."
+  },
+  {
+    "title": "Standard and device compatibility",
+    "description": "We read how each lists its standard, 802.3af, at and bt, and the named devices. PROCET names eero PoE 7 and UniFi U6-Enterprise and U7 Pro Max, Cudy names its own APs, and Omada lists no devices, so we flagged the gaps. Unnamed compatibility is not a failure, but it means checking the standard yourself."
+  },
+  {
+    "title": "Surge and certification",
+    "description": "We compared protection and independent verification. Cudy lists 4kV surge and 6kV ESD, PROCET's DIN-rail unit lists 6KV surge, and Omada's UL certification adds a third-party safety listing that the others lack. Third-party safety listings matter in insurance-sensitive offices."
+  },
+  {
+    "title": "Mounting and temperature range",
+    "description": "We weighed form factor. The ultra-compact PROCET weighs 0.55lb for tight spaces, while the industrial unit adds a DIN-rail mount, dual AC/DC input and operation from -40F to 149F, making it the choice for cabinets. Check the mounting hardware before you order."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Access Point Brand",
-    table: {
-      headers: ["Your access point", "Recommended pick"],
-      rows: [
-        ["Cudy AP11000, AP6500, or similar", "Cudy 90W 10 Gbps PoE++ Injector"],
-        ["eero PoE 7 or UniFi U6-Enterprise/U7 Pro", "PROCET PoE Injector 10 Gigabit 60W"],
-        ["No specific brand, want UL certification", "Omada 10G PoE++ Injector"],
-        ["Industrial cabinet with redundancy need", "PROCET 10 Gbps DIN Rail AC/DC"]
+    "subheading": "By Access Point Brand",
+    "intro": "Many injectors work with any bt device, but named compatibility reduces risk.",
+    "table": {
+      "headers": [
+        "Your equipment",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "An eero PoE 7 or a UniFi U7 Pro Max",
+          "PROCET PoE Injector 10 Gigabit 60W, with those models named"
+        ],
+        [
+          "A Cudy AP11000, AP6500 or AP3600",
+          "Cudy 90W 10 Gbps PoE++ Injector (POE400X), with named compatibility"
+        ],
+        [
+          "A TP-Link Omada access point or a mixed switch fleet",
+          "Omada 10G PoE++ Injector, Up to 90W (POE380S), with the widest port speed range"
+        ],
+        [
+          "A cabinet install that needs redundant power",
+          "PROCET 10 Gbps PoE++ Injector Din Rail, AC/DC Input, with dual input"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $60", "PROCET PoE Injector 10 Gigabit 60W (under $60)"],
-        ["Under $81", "Omada 10G PoE++ Injector (under $90)"],
-        ["Under $90", "Cudy 90W 10 Gbps PoE++ Injector (under $90)"],
-        ["Under $120", "PROCET 10 Gbps DIN Rail AC/DC (under $120)"]
+    "subheading": "By Budget",
+    "intro": "The DIN-rail unit is the most expensive, while the PROCET 60W is cheaper than Cudy.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup for 10Gbps",
+          "PROCET PoE Injector 10 Gigabit 60W, which is cheaper than the Cudy"
+        ],
+        [
+          "A mid-range spend for 90W and monitoring",
+          "Cudy 90W 10 Gbps PoE++ Injector (POE400X), with a wattage LED"
+        ],
+        [
+          "A higher spend for UL certification and 90W",
+          "Omada 10G PoE++ Injector, Up to 90W (POE380S), the second most expensive"
+        ],
+        [
+          "The top of the range for an industrial DIN-rail unit",
+          "PROCET 10 Gbps PoE++ Injector Din Rail, AC/DC Input"
+        ]
+      ]
+    }
   },
   {
-    subheading: "60W vs 90W at the 10Gbps Tier",
-    cards: [
-      { label: "60W (PROCET picks)", text: "Sufficient for most Wi-Fi 6E/7 access points and standard PTZ cameras that don't include a heater element or extreme high-draw features." },
-      { label: "90W (Cudy, Omada)", text: "Necessary for the highest-draw devices like a PTZ camera with a heater or the most demanding enterprise access point models." }
+    "subheading": "60W vs 90W Injectors",
+    "intro": "More power matters only if the device pulls it.",
+    "cards": [
+      {
+        "label": "60W (both PROCET units)",
+        "text": "Enough for most Wi-Fi 7 access points and cameras, with lower cost and a smaller footprint. It will cap a device that tries to draw beyond 60W."
+      },
+      {
+        "label": "90W (Cudy, Omada)",
+        "text": "Gives full 802.3bt headroom for a power-hungry access point or a device plus a heater or PTZ motors, and a real-time wattage LED on the Cudy."
+      }
     ],
-    note: "Check your specific device's actual power draw specification before assuming you need the higher 90W tier; most devices this injector class serves fall within the 60W ceiling.",
+    "note": "Default to 60W unless the device lists a draw above that."
   },
   {
-    subheading: "By Power Input Type",
-    table: {
-      headers: ["Your installation", "Recommended pick"],
-      rows: [
-        ["Standard indoor AC outlet", "Cudy, PROCET 60W, or Omada picks"],
-        ["Industrial cabinet with AC or DC available", "PROCET 10 Gbps DIN Rail AC/DC"],
-        ["Mission-critical with redundancy need", "PROCET 10 Gbps DIN Rail AC/DC"]
+    "subheading": "By Install Location",
+    "intro": "Cabinets, shelves and ceilings call for different housings.",
+    "table": {
+      "headers": [
+        "Install spot",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A ceiling or shelf space where size matters",
+          "PROCET PoE Injector 10 Gigabit 60W, at 0.55lb"
+        ],
+        [
+          "A rack or wall with live power monitoring",
+          "Cudy 90W 10 Gbps PoE++ Injector (POE400X), with a real-time LED"
+        ],
+        [
+          "A DIN-rail cabinet in a cold or hot space",
+          "PROCET 10 Gbps PoE++ Injector Din Rail, AC/DC Input, from -40F to 149F"
+        ],
+        [
+          "An office closet where an independent safety listing is needed",
+          "Omada 10G PoE++ Injector, Up to 90W (POE380S), which is UL certified"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Multi-Camera 4K Surveillance Backbone Specifically",
-    cards: [
-      { label: "Look for", text: "Confirmed true 10Gbps speed rather than a 2.5G unit mislabeled with 10G marketing language, since aggregating multiple 4K camera feeds genuinely benefits from the higher bandwidth ceiling." },
-      { label: "In this comparison", text: "All four picks confirm true 10Gbps speed, with the Cudy pick's documented surge protection and Cat.6A cable support at 90m specifically suited to a demanding camera backbone." }
-    ],
+    "subheading": "For Wi-Fi 7 Access Points Specifically",
+    "intro": "A Wi-Fi 7 AP can overrun an older injector in speed or power.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A true 10Gbps port, a 60W or 90W bt rating and named support for your access point so the PoE negotiation succeeds."
+      },
+      {
+        "label": "In this comparison",
+        "text": "PROCET PoE Injector 10 Gigabit 60W names eero PoE 7 and UniFi U7 hardware, while Cudy 90W covers high-draw access points."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need the highest power ceiling with documented surge protection, or an industrial DIN-rail unit with redundant power input, where the Cudy or PROCET DIN-rail picks justify their price." },
-      { label: "Save if", text: "You have an eero or UniFi Wi-Fi 7 access point that doesn't need more than 60W, where the PROCET pick's under $60 price delivers named compatibility at the lowest cost in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The two premium injectors buy certification or industrial features.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need UL certification or a cabinet-rated unit, where Omada 10G PoE++ Injector or the PROCET DIN-rail unit provides it."
+      },
+      {
+        "label": "Save if",
+        "text": "You run a single Wi-Fi 7 access point, where PROCET PoE Injector 10 Gigabit 60W gives true 10Gbps for the lowest price."
+      }
+    ]
   }
 ];
 

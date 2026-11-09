@@ -5,7 +5,7 @@ export const metaDescription = "Seven under desk foot rests for gaming chairs an
 export const mainKeyword = "gaming foot rest";
 export const introParagraphs = [
   "Gaming chairs tend to sit high and lean back, which leaves feet hanging unless you plan the footrest too. Long sessions are also when you shift position constantly, so a footrest that tilts, rocks or sits at several heights suits the way people actually play.",
-  "We compared seven picks on listed specs: height range, tilt and rocking, platform size, build material and price. Prices run from about $14 to $80, from a basic two-piece foam to a stepless carbon steel stand. Because none of the listings are written for gamers specifically, the comparison focuses on fit and adjustability."
+  "We compared seven picks on listed specs: height range, tilt and rocking, platform size, build material and price. Prices run from under $15 to $80, from a basic two-piece foam to a stepless carbon steel stand. Because none of the listings are written for gamers specifically, the comparison focuses on fit and adjustability."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41eXRlOZzcL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GH67LS98?tag=deskfinds0d-20",
-    "description": "YEASHEIN offers 4 height settings and 3 angle settings, which the listing counts as 7 adjustable positions. The top is high-density memory foam, and the carbon steel frame lifts the foam off the floor so it stays away from dirt. The listing also says the foam can be removed for other uses.\n\nIt undercuts Wikabex by about $40 while still giving you both height and tilt, which Ciao Stilista does not offer since it only changes height. The compromise is that the listing never states the actual inch range or a weight limit, so the numbers need checking on the product page.\n\nA sensible default for gamers who want height and tilt without paying for stepless adjustment. The caveat is that the foam top is soft rather than rigid, which some players find less planted during intense sessions.",
+    "description": "YEASHEIN offers 4 height settings and 3 angle settings, which the listing counts as 7 adjustable positions. The top is high-density memory foam, and the carbon steel frame lifts the foam off the floor so it stays away from dirt. The listing also says the foam can be removed for other uses.\n\nIt undercuts Wikabex by under $50 while still giving you both height and tilt, which Ciao Stilista does not offer since it only changes height. The compromise is that the listing never states the actual inch range or a weight limit, so the numbers need checking on the product page.\n\nA sensible default for gamers who want height and tilt without paying for stepless adjustment. The caveat is that the foam top is soft rather than rigid, which some players find less planted during intense sessions.",
     "specs": [
       "4 heights, 3 angles",
       "Memory foam top",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31q2jQGdOVL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09P8B8JHW?tag=deskfinds0d-20",
-    "description": "C Cushion Lab is a memory foam footrest with raised WaveMassage ridges and a CloudSupport cushion that the listing says is meant to absorb pressure. It is designed to pair with the brand's own back and seat cushions, so it suits a setup built around that range.\n\nAt $55 it costs about $15 more than YEASHEIN, and in return you get a plush surface rather than an adjustable frame, so there are no stated heights or angles. Against FOXHIVE it is much softer but gives you no adjustment at all.\n\nChoose it if feel matters more than adjustability, for example when you game barefoot. The caveat is price and the fact that the highlights give no dimensions, height or weight rating.",
+    "description": "C Cushion Lab is a memory foam footrest with raised WaveMassage ridges and a CloudSupport cushion that the listing says is meant to absorb pressure. It is designed to pair with the brand's own back and seat cushions, so it suits a setup built around that range.\n\nAt $55 it costs under $20 more than YEASHEIN, and in return you get a plush surface rather than an adjustable frame, so there are no stated heights or angles. Against FOXHIVE it is much softer but gives you no adjustment at all.\n\nChoose it if feel matters more than adjustability, for example when you game barefoot. The caveat is price and the fact that the highlights give no dimensions, height or weight rating.",
     "specs": [
       "Memory foam, wave ridges",
       "CloudSupport cushioning",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41FqNLNu7hL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HCNMWFYG?tag=deskfinds0d-20",
-    "description": "FOXHIVE is a bamboo footrest with a 1.8 cm (0.7 inch) thick board that works three ways: flat and stable, reversed, or as a rocker with the cushion. It offers 6 height settings, which the listing contrasts with basic stools that have only a couple.\n\nIt costs under $35, about $6 less than YEASHEIN, and uses bamboo instead of steel and foam. Compared with PEGZONE it offers far more heights, though PEGZONE has split pedals that let each foot move independently.\n\nBest for gamers who like a natural material and want rocking as an option. The caveat is that the highlights give no tilt degrees or weight rating.",
+    "description": "FOXHIVE is a bamboo footrest with a 1.8 cm (0.7 inch) thick board that works three ways: flat and stable, reversed, or as a rocker with the cushion. It offers 6 height settings, which the listing contrasts with basic stools that have only a couple.\n\nIt costs under $35, under $10 less than YEASHEIN, and uses bamboo instead of steel and foam. Compared with PEGZONE it offers far more heights, though PEGZONE has split pedals that let each foot move independently.\n\nBest for gamers who like a natural material and want rocking as an option. The caveat is that the highlights give no tilt degrees or weight rating.",
     "specs": [
       "Bamboo 1.8 cm board",
       "6 heights",
@@ -219,168 +219,169 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Height range for a high chair",
-    "explanation": "Gaming chairs often sit higher than office chairs, so feet can dangle even at a standard desk. A footrest with a 3 to 6 inch range will not help if your gap is 8 inches, while a 7 to 12 inch model like Ciao Stilista would. Measure from the floor to your heel with your knees level, and compare that gap to the minimum and maximum in the listing."
+    "explanation": "Gaming chairs often sit higher than office chairs, so feet can dangle even at a standard desk. A footrest with a 3 to 6 inch range will not help if your gap is 8 inches, while a 7 to 12 inch model like Ciao Stilista would. Measure from the floor to your heel with your knees level, and compare that gap to the minimum and maximum in the listing. Measure at the same posture you game in, since slouching changes the gap by an inch or more."
   },
   {
     "criterion": "Stepless versus stepped height",
-    "explanation": "Stepped footrests lock into set heights, usually 2 to 6 positions, while stepless designs like Wikabex let you stop anywhere in a range. Stepless is useful when the right height falls between two steps or when several people share the footrest. The tradeoff is price, since Wikabex costs about twice as much as most stepped models. Check whether adjustment needs tools or a free hand."
+    "explanation": "Stepped footrests lock into set heights, usually 2 to 6 positions, while stepless designs like Wikabex let you stop anywhere in a range. Stepless is useful when the right height falls between two steps or when several people share the footrest. The tradeoff is price, since Wikabex costs about twice as much as most stepped models. Check whether adjustment needs tools or a free hand. Read the listing for whether steps need a pull pin or a foot press."
   },
   {
     "criterion": "Tilt and rocking for long sessions",
-    "explanation": "Fixed footrests hold the ankle in one position, while tilt, rocking or split pedals allow small movement. Gamers often sit for hours, so some movement can make the session more comfortable. Look for tilt in degrees or a count of angle settings, such as 3 on YEASHEIN, and remember that rocking models are less stable under hard pushing."
+    "explanation": "Fixed footrests hold the ankle in one position, while tilt, rocking or split pedals allow small movement. Gamers often sit for hours, so some movement can make the session more comfortable. Look for tilt in degrees or a count of angle settings, such as 3 on YEASHEIN, and remember that rocking models are less stable under hard pushing. A free rocker moves under hard pushing, so skip it for racing sims."
   },
   {
     "criterion": "Platform size and foot room",
-    "explanation": "A platform around 15 inches wide fits both feet side by side, while narrow ones feel cramped. Ciao Stilista lists 15.7 x 9.8 inches. Check width and depth, and note that a deeper platform is more forgiving if you shift your feet."
+    "explanation": "A platform around 15 inches wide fits both feet side by side, while narrow ones feel cramped. Ciao Stilista lists 15.7 x 9.8 inches. Check width and depth, and note that a deeper platform is more forgiving if you shift your feet. Measure your shoe length and compare it with the platform depth."
   },
   {
     "criterion": "Frame, foam and build",
-    "explanation": "Steel frames resist flex, bamboo is sturdy and natural, and foam is softest. A foam top may compress with heavy use, while a hard platform stays firm. Look for the frame material and any stated weight limit, and be cautious where none is given."
+    "explanation": "Steel frames resist flex, bamboo is sturdy and natural, and foam is softest. A foam top may compress with heavy use, while a hard platform stays firm. Look for the frame material and any stated weight limit, and be cautious where none is given. Look for a stated load limit, as YEASHEIN gives none."
   },
   {
     "criterion": "Price versus features",
-    "explanation": "Prices here run from roughly $20 to $80, but the extra money buys adjustment and build, not necessarily comfort. If you only need a low rest, CushZone does the job. Compare which adjustments you will actually use before paying more."
+    "explanation": "Prices here run from basic foam to a premium stepless unit, but the extra money buys adjustment and build, not necessarily comfort. If you only need a low rest, CushZone does the job. Compare which adjustments you will actually use before paying more. Write down which adjustments you would actually use before paying for them."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Adjustability",
-    "description": "We compared steps and tilt."
+    "title": "Height range against a tall gaming chair",
+    "description": "We compared ranges from Wikabex's 2.7 to 13.1 inches stepless span to Ciao Stilista's 7 to 12 inch steps and CushZone's 6 inch total. Gaming chairs sit high, so a footrest with a 7 inch minimum helps a lot of players but would be wrong for someone with a small gap."
   },
   {
-    "title": "Range",
-    "description": "We compared height ranges."
+    "title": "Stepless vs stepped adjustment",
+    "description": "We checked whether height changes by stepping or by sliding. Wikabex uses a foot operated stepless design, while YEASHEIN, Ciao Stilista and FOXHIVE lock into preset heights. Stepless is easier mid game but costs more and has a short track record, which we flagged."
   },
   {
-    "title": "Build",
-    "description": "We compared materials."
+    "title": "Tilt, rocking and split pedals",
+    "description": "We looked at ankle movement options: three angles on YEASHEIN, reversible rocking on FOXHIVE and split pedals on PEGZONE. Long sessions favor movement, but rocking surfaces are less stable under hard pushing, so we separated comfort for streaming from stability for racing."
   },
   {
-    "title": "Value",
-    "description": "We compared price."
+    "title": "Platform size and foam comfort",
+    "description": "We compared platform sizes like Ciao Stilista's 15.7 x 9.8 inches and cushion types, from C CUSHION LAB's plush memory foam to bamboo boards. A wider deck lets both feet shift, and a firm top keeps support during long play, so we weighed feel against price."
+  },
+  {
+    "title": "Frame, build and value at each price",
+    "description": "We weighed carbon steel on Wikabex and YEASHEIN, bamboo on FOXHIVE and plastic on PEGZONE against price. The Wikabex asks the most with little track record, so we judged whether stepless adjustment earns a premium over the seven position YEASHEIN."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Chair Height",
-    "intro": "Match your chair.",
+    "subheading": "By Chair Height Gap",
+    "intro": "Gaming chairs usually sit higher than office chairs, so the gap under your feet is the first number to know.",
     "table": {
       "headers": [
-        "Your situation",
+        "Your gap",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Very high chair",
-          "Ciao Stilista 6-Height Foot Rest"
+          "A very large gap that no standard footrest covers",
+          "Wikabex Step-to-Adjust Infinite Height Foot Rest, which reaches 13.1 inches"
         ],
         [
-          "Stepless tuning",
-          "Wikabex Step-to-Adjust Infinite Height Foot Rest"
+          "A tall gap of 7 to 12 inches with six preset steps",
+          "Ciao Stilista 6-Height Foot Rest, listed at 7 to 12 inches"
         ],
         [
-          "Height and tilt",
-          "YEASHEIN 7-Position Foot Rest"
+          "A moderate gap and you want height plus angle",
+          "YEASHEIN 7-Position Foot Rest, with four heights and three angles"
         ],
         [
-          "Natural bamboo",
-          "FOXHIVE Bamboo 3-in-1 Foot Rest"
+          "A small gap, under about 6 inches",
+          "CushZone 2-Height Foam Foot Rest, whose total height is 6 inches"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
-    "intro": "Real prices from this comparison.",
+    "intro": "Prices run from budget foam to a premium stepless unit, and the extra spend buys adjustment, not just looks.",
     "table": {
       "headers": [
-        "Price range",
+        "Price bucket",
         "Recommended pick"
       ],
       "rows": [
         [
-          "$16 to $17",
+          "Under $17 for a basic foam stool",
           "CushZone 2-Height Foam Foot Rest"
         ],
         [
-          "$29 to $30",
+          "Under $30 for split pedals and a roller",
           "PEGZONE Split Pedal Foot Rest with Roller"
         ],
         [
-          "$33 to $34",
-          "FOXHIVE Bamboo 3-in-1 Foot Rest"
-        ],
-        [
-          "$39 to $42",
+          "Under $40 for the most positions",
           "YEASHEIN 7-Position Foot Rest"
         ],
         [
-          "$55",
-          "C CUSHION LAB Memory Foam Foot Cushion"
+          "Under $42 for the tallest stepped range",
+          "Ciao Stilista 6-Height Foot Rest"
         ],
         [
-          "$79 to $80",
-          "Wikabex Step-to-Adjust Infinite Height Foot Rest"
+          "Over $75 for stepless, foot operated height",
+          "Wikabex, the priciest pick here"
         ]
       ]
     }
   },
   {
-    "subheading": "Steel vs Foam",
+    "subheading": "Stepless vs Stepped Height",
+    "intro": "The way height changes affects how often you will actually adjust it.",
     "cards": [
       {
-        "label": "Steel",
-        "text": "Firm. Wikabex, YEASHEIN and Ciao fall here."
+        "label": "Stepless (Wikabex)",
+        "text": "Foot operated and continuous from 2.7 to 13.1 inches, so you can fine tune without bending. It costs about twice as much and carries a patent pending design with little track record."
       },
       {
-        "label": "Foam",
-        "text": "Soft. C Cushion Lab and CushZone fall here."
+        "label": "Stepped (YEASHEIN, Ciao Stilista, FOXHIVE, PEGZONE, CushZone)",
+        "text": "Preset steps are simpler and cheaper, and they stay where you set them. You may land between steps, and tool free changes need a free hand mid session."
       }
     ],
-    "note": "Choose steel for stability."
+    "note": "Most players should choose a stepped pick that covers their gap; pay for stepless only if you share the setup or change posture often."
   },
   {
-    "subheading": "By Movement",
-    "intro": "Movement.",
+    "subheading": "By Comfort Preference",
+    "intro": "Feel matters because gaming sessions run long.",
     "table": {
       "headers": [
-        "Your situation",
+        "You prefer",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Rocking",
-          "FOXHIVE Bamboo 3-in-1 Foot Rest"
+          "Plush foam under your feet",
+          "C CUSHION LAB Memory Foam Foot Cushion, with wave ridges"
         ],
         [
-          "Split pedals",
+          "A natural, firm bamboo surface with rocking",
+          "FOXHIVE Bamboo 3-in-1 Foot Rest, with six heights"
+        ],
+        [
+          "Independent foot movement and rollers",
           "PEGZONE Split Pedal Foot Rest with Roller"
         ],
         [
-          "Tilt",
+          "A balance of foam and a steel frame",
           "YEASHEIN 7-Position Foot Rest"
-        ],
-        [
-          "Stepless",
-          "Wikabex Step-to-Adjust Infinite Height Foot Rest"
         ]
       ]
     }
   },
   {
-    "subheading": "For Long Sessions Specifically",
+    "subheading": "For a Standing Desk or Racing Cockpit Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "Adjustability and size."
+        "text": "A stable base that will not rock when you push hard, height steps that cover a tall gap, and a platform at least 15 inches wide so both feet fit."
       },
       {
         "label": "In this comparison",
-        "text": "YEASHEIN 7-Position Foot Rest offers height and tilt."
+        "text": "Ciao Stilista's 15.7 x 9.8 inch platform and metal frame suit stable pushing, while FOXHIVE's reversible rocking mode suits relaxed streaming."
       }
     ]
   },
@@ -389,11 +390,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want stepless range (Wikabex Step-to-Adjust Infinite Height Foot Rest)."
+        "text": "You change positions during a session or share the setup, where Wikabex's stepless range justifies its price over the stepped picks."
       },
       {
         "label": "Save if",
-        "text": "You want basic, where CushZone 2-Height Foam Foot Rest is enough."
+        "text": "Your gap is small, because CushZone or PEGZONE solve it for less, and the under $30 under desk footrests guide lists more budget options."
       }
     ]
   }
@@ -402,28 +403,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do I need a footrest with a gaming chair?",
-    "a": "If your feet reach the floor flat, you probably do not. If they dangle or you sit on the front of the seat, a footrest can help. Set the chair height first and add a footrest only for the remaining gap."
+    "q": "Will a gaming footrest fit under my desk?",
+    "a": "Check the depth and height against your leg space. Ciao Stilista's platform is 15.7 x 9.8 inches and starts at 7 inches high, so it needs clearance under the desk. Measure your floor space before ordering and avoid tall designs if you share the area."
   },
   {
-    "q": "How high should a gaming footrest be?",
-    "a": "Aim to keep your knees close to hip level with your feet supported. Measure the floor to your heel gap and pick a footrest whose range covers it. A model with a high minimum, like Ciao Stilista at 7 inches, will not suit a low chair."
+    "q": "What is the common mistake with gaming footrests?",
+    "a": "Buying a footrest that is too low for a tall gaming chair. Many standard options top out near 6 inches. If your feet dangle by more than that, choose Wikabex at up to 13.1 inches or Ciao Stilista at 7 to 12 inches."
   },
   {
-    "q": "Is stepless adjustment worth the extra cost?",
-    "a": "It is worth it if you change posture often or share the footrest with someone of a different height. For a single user with a stable setup, a stepped model like YEASHEIN is usually enough. Wikabex also lets you adjust with your foot, which is convenient mid-session."
+    "q": "Is the Wikabex worth it over the YEASHEIN?",
+    "a": "Wikabex gives stepless adjustment from 2.7 to 13.1 inches and foot operated height changes, but it costs about twice as much and has little track record. YEASHEIN gives seven positions with a memory foam top at a fair price, so it suits most players."
   },
   {
-    "q": "How do I set up a pin-adjust footrest like Ciao Stilista?",
-    "a": "Push the pins out, slide the tubes to the height you want and align the holes so the pins click in. Check that all legs are at the same height before putting weight on it. The listing says its U-shaped side frames and caps are meant to prevent tilting and skidding."
+    "q": "How do I set a footrest for long sessions?",
+    "a": "Sit back with your knees level and your lower legs roughly vertical, then raise the footrest until your heels rest without lifting your thighs. Use a tilt or rocking setting for movement, and recheck after switching chairs."
   },
   {
-    "q": "Can I use one of these with a standing desk or console chair?",
-    "a": "Ciao Stilista lists a combined design that can be used while standing or sitting, and most others are made for a seated setup. For a console chair, check that the footprint fits in front of the seat. Foam options like CushZone are light and easy to move."
+    "q": "Does foam or hard platform last longer?",
+    "a": "Hard platforms stay firm, while foam like the C CUSHION LAB or CushZone compresses over time. If you want plush comfort, replace foam when it stays flat. Bamboo and steel models such as FOXHIVE or Wikabex hold shape longer."
   },
   {
-    "q": "How do I clean these footrests?",
-    "a": "Wipe steel, bamboo and plastic with a damp cloth. CushZone's cover unzips for washing, and Ciao Stilista's PU leather cushion has a removable zippered cover. Keep foam tops dry and let them air out."
+    "q": "Do I need a split pedal footrest?",
+    "a": "Not necessarily. Split pedals like PEGZONE's let each foot move independently, which helps if you shift often. They offer only two heights, so choose a height range first. For racing sims, a fixed footrest is steadier."
   }
 ];
 

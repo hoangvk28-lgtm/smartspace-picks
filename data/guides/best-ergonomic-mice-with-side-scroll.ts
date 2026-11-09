@@ -5,7 +5,7 @@ export const metaDescription = "Six ergonomic mice with a side or horizontal scr
 export const mainKeyword = "ergonomic mouse with side scroll wheel";
 export const introParagraphs = [
   "Wide spreadsheets, long design timelines and code diffs all force the same awkward habit: dragging a scrollbar or holding shift and spinning the wheel. A dedicated side wheel lets the thumb do horizontal movement, which is why this feature turns up on mice built for office work.",
-  "These six picks all list a horizontal or four-way scroll control. Two are vertical handshake mice, four are conventional ergonomic shapes, and prices run from about $15 to $47. The ranking draws on what each listing states: wheel material and function, how many devices each can pair, DPI range, battery approach and the hand size they target."
+  "These six picks all list a horizontal or four-way scroll control. Two are vertical handshake mice, four are conventional ergonomic shapes, and prices run from under $20 to $47. The ranking draws on what each listing states: wheel material and function, how many devices each can pair, DPI range, battery approach and the hand size they target."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31n+0uZtV5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GK8NZL7N?tag=deskfinds0d-20",
-    "description": "It has 6 DPI levels from 800 to 4800 and a built-in battery the listing says lasts up to 90 days per charge.\n\nAgainst the cheaper TECKNET B0FB99 below, it adds the wired option and fast charging language, which matters if you want to keep working while it charges. It costs about $3 more.\n\nPick it if you want connection flexibility and a rechargeable battery that you can still use with a cable. The caveat is that the conventional shape gives less forearm rotation than the vertical SABLUTE models.",
+    "description": "It has 6 DPI levels from 800 to 4800 and a built-in battery the listing says lasts up to 90 days per charge.\n\nAgainst the cheaper TECKNET B0FB99 below, it adds the wired option and fast charging language, which matters if you want to keep working while it charges. It costs under $10 more.\n\nPick it if you want connection flexibility and a rechargeable battery that you can still use with a cable. The caveat is that the conventional shape gives less forearm rotation than the vertical SABLUTE models.",
     "specs": [
       "Side scroll wheel, metal main wheel",
       "Up to 90 days per charge"
@@ -166,7 +166,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41pLQpgVQML._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H9SGLB3K?tag=deskfinds0d-20",
-    "description": "This lowest-priced SABLUTE MAM51 version is a 59 degree vertical mouse with a 3-in-1 thumb wheel for horizontal scrolling, app switching and zoom. It offers Bluetooth plus 2.4GHz, four DPI levels up to 4000 and a 24-month support promise.\n\nIt costs about $1 less than the B0H9SKR89H listing, with a nearly identical feature list and a note that first-time vertical users need an adjustment period. Compared with CITLLA it has a lower price but needs AAA batteries.\n\nBest for budget shoppers who want to try vertical posture and a thumb wheel together. The caveat is the small to medium hand sizing and the learning curve noted in the listing.",
+    "description": "This lowest-priced SABLUTE MAM51 version is a 59 degree vertical mouse with a 3-in-1 thumb wheel for horizontal scrolling, app switching and zoom. It offers Bluetooth plus 2.4GHz, four DPI levels up to 4000 and a 24-month support promise.\n\nIt costs under $10 less than the B0H9SKR89H listing, with a nearly identical feature list and a note that first-time vertical users need an adjustment period. Compared with CITLLA it has a lower price but needs AAA batteries.\n\nBest for budget shoppers who want to try vertical posture and a thumb wheel together. The caveat is the small to medium hand sizing and the learning curve noted in the listing.",
     "specs": [
       "59 degree angle, 3-in-1 thumb wheel",
       "Bluetooth and 2.4GHz",
@@ -217,24 +217,24 @@ export const buyingCriteria: BuyingCriterion[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Scroll wheel design",
-    "description": "We compared wheel type, material and what horizontal control each side wheel offers."
+    "title": "Side wheel placement and reach",
+    "description": "We checked where each side wheel sits and whether the thumb reaches it without stretching, as on the TECKNET and INFINMIND models, while the SABLUTE uses a thumb wheel. A wheel placed too far forward forces a hand shift, so reach counted as much as having the feature. The TECKNET and INFINMIND place the wheel under the thumb; reach depends on hand size."
   },
   {
-    "title": "Shape and hand fit",
-    "description": "We compared vertical and conventional shapes and the hand size each listing recommends."
+    "title": "Main wheel quality",
+    "description": "We noted metal main wheels, as on the TECKNET and CITLLA, since a plastic wheel wears faster under daily use. A second wheel is only useful if the first one feels precise, and a four-way wheel like the CITLLA earns credit for combining both movements. The CITLLA's four-way wheel and the TECKNET's metal main wheel are the sturdier picks."
   },
   {
-    "title": "Connectivity and switching",
-    "description": "We looked at Bluetooth, 2.4GHz and wired options and how many devices can pair."
+    "title": "Posture and shell shape",
+    "description": "We compared vertical shells, such as the 59 degree SABLUTE pair, against flat shells with a side wheel. A side wheel adds thumb work, so a posture-friendly shape matters, and we noted that the TECKNET picks are flat designs. The SABLUTE pair tilt 59 degrees, while both TECKNET models are flat."
   },
   {
-    "title": "Power and upkeep",
-    "description": "We compared rechargeable versus AA battery approaches and the listed life."
+    "title": "Battery type and run time",
+    "description": "We compared power, from the AA-powered CITLLA with up to 40 months to the rechargeable TECKNET at up to 90 days per charge. A thumb wheel mouse is used constantly, so a battery that outlasts your attention scored well. The CITLLA claims up to 40 months on AA cells; the TECKNET claims up to 90 days per charge."
   },
   {
-    "title": "Value for price",
-    "description": "We weighed the feature list against each price, from about $15 to $47."
+    "title": "Value across the $15 to $47 range",
+    "description": "We weighed price against feature depth, from the $15 SABLUTE with a 3-in-1 thumb wheel to the roughly $47 INFINMIND with front and side metal wheels. A higher price needed visible gains in build or button count, not just brand cachet. At under $20 the SABLUTE has a thumb wheel, and the INFINMIND adds six programmable buttons."
   }
 ];
 
@@ -370,28 +370,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Does every operating system support horizontal scroll?",
-    "a": "Windows and macOS read horizontal scroll events in most apps, but how the app reacts varies. Listings sometimes warn that extra buttons are not supported on certain systems. Check your operating system against the compatibility list."
+    "q": "What does a side scroll wheel actually do?",
+    "a": "It scrolls horizontally, so you can move across wide spreadsheets, timelines and code without dragging a bar. On a mouse like the TECKNET it sits under the thumb. It feels odd for the first few days, but many buyers rely on it afterward."
   },
   {
-    "q": "Will I confuse the thumb wheel with the main wheel at first?",
-    "a": "Most users adjust in a day or two once the thumb finds the wheel. The first week may include accidental horizontal moves. Lowering sensitivity in the system settings can help."
+    "q": "Is the INFINMIND worth the premium over the SABLUTE?",
+    "a": "The INFINMIND offers front and side metal wheels, six programmable buttons and three-device pairing, while the SABLUTE MAM51 is a $15 vertical mouse with a thumb wheel. If you want metal build and remapping, pay more. If you want only a side wheel, the SABLUTE is enough."
   },
   {
-    "q": "Is a vertical side-scroll mouse worth it over a flat one?",
-    "a": "If your forearm feels strained, a handshake angle can feel more relaxed. If you have no discomfort, a flat mouse like TECKNET Side Scroll Bluetooth Mouse is easier to adopt. See a doctor or ergonomist if pain keeps returning."
+    "q": "Does a thumb wheel strain the thumb?",
+    "a": "It can, if you scroll constantly. A thumb wheel puts extra work on the thumb, which may matter if it already aches. Try it for short sessions first, and consider a vertical shell, which helps posture, over a flat one if strain is the concern."
   },
   {
-    "q": "How do I pair the mouse with three devices?",
-    "a": "Hold the pairing button on the underside until the light flashes, then pair through Bluetooth settings on each device. A second Bluetooth channel and the 2.4G receiver are used for the third. Switch with the underside button."
+    "q": "Will the side wheel work on a Mac?",
+    "a": "Basic scrolling usually works, but custom wheel functions may need Windows software. The SABLUTE lists a multi-function side wheel, which may rely on drivers. Check the Q and A for Mac notes, and test the horizontal scroll right after unboxing."
   },
   {
-    "q": "Do these mice work for left-handed users?",
-    "a": "The SABLUTE vertical models are right-hand shaped. The listings for the flat TECKNET and INFINMIND mice describe contoured shapes, so check the product page for handedness. A left-handed buyer should look for ambidextrous language."
+    "q": "Do AA batteries beat a rechargeable cell?",
+    "a": "AA models like the CITLLA, which claims up to 40 months, run longer between changes and swap in seconds. A rechargeable cell like the TECKNET saves buying spares but needs charging. Pick based on whether you prefer a rare chore or a regular one."
   },
   {
-    "q": "How do I clean a metal scroll wheel?",
-    "a": "Power the mouse off and wipe the wheel with a dry or slightly damp microfiber cloth. Avoid soaking it. Dust under the wheel can be blown out with compressed air."
+    "q": "Can I pair one of these with two computers?",
+    "a": "Yes, several can. The TECKNET Side Scroll lists two Bluetooth devices plus a 2.4GHz receiver, and the INFINMIND and SABLUTE Bluetooth models list multi-device support. Press the channel button to switch between your laptop and desktop."
   }
 ];
 

@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41IYq0x0T9L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DHRDFMX3?tag=deskfinds0d-20",
-    "description": "Scalebeard is a foldable under-desk platform with an infinite angle adjustment, a 15.75 by 10.2 inch panel, a removable cleanable cushion and a carbon steel and HDPE frame. The non-slip pad area is larger than on earlier versions, and it folds flat for storage.\n\nAt about $60 it is the most expensive pick, about $9 more than Arejonner, and it is the one with continuous angle adjustment rather than fixed steps. Against the VIVO, it adds angle adjustment and a cushion where the VIVO is a plain platform.\n\nChoose it if you want smooth angle changes and a roomy panel. The caveat is that its load rating is not stated in the bullets.",
+    "description": "Scalebeard is a foldable under-desk platform with an infinite angle adjustment, a 15.75 by 10.2 inch panel, a removable cleanable cushion and a carbon steel and HDPE frame. The non-slip pad area is larger than on earlier versions, and it folds flat for storage.\n\nAt under $75 it is the most expensive pick, under $10 more than Arejonner, and it is the one with continuous angle adjustment rather than fixed steps. Against the VIVO, it adds angle adjustment and a cushion where the VIVO is a plain platform.\n\nChoose it if you want smooth angle changes and a roomy panel. The caveat is that its load rating is not stated in the bullets.",
     "specs": [
       "15.75 x 10.2 inch panel",
       "Infinite angle adjustment",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31hgrKXFxyL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C59LVXKW?tag=deskfinds0d-20",
-    "description": "VIVO is a 9.8 by 15.7 inch platform with a textured anti-slip surface, a steel frame rated to 55 lb, multiple height settings from 5 to 10.25 inches and minimal assembly. It is the plainest of the three platforms, built for stability rather than movement.\n\nIt costs about $10 less than Scalebeard and gives a clear height range, which most platforms leave vague. It does not tilt like the Arejonner or Scalebeard, so it is a stable step rather than a rocker.\n\nBest for someone who needs a measured height range. The caveat is that 55 lb is a low load rating, and the listing says not to stand on it.",
+    "description": "VIVO is a 9.8 by 15.7 inch platform with a textured anti-slip surface, a steel frame rated to 55 lb, multiple height settings from 5 to 10.25 inches and minimal assembly. It is the plainest of the three platforms, built for stability rather than movement.\n\nIt costs under $15 less than Scalebeard and gives a clear height range, which most platforms leave vague. It does not tilt like the Arejonner or Scalebeard, so it is a stable step rather than a rocker.\n\nBest for someone who needs a measured height range. The caveat is that 55 lb is a low load rating, and the listing says not to stand on it.",
     "specs": [
       "Height 5 to 10.25 inches",
       "9.8 x 15.7 inch platform",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41dQSNAdNVL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D176HDLP?tag=deskfinds0d-20",
-    "description": "Arejonner has 12 adjustable angles, a soft removable cushion and a metal frame rated to 80 lb. It can be filled with water for added weight and stability, and it folds.\n\nAt about $51 it costs $9 less than Scalebeard and has a higher load rating than VIVO. It gives step angles rather than the infinite range of the Scalebeard.\n\nBest for a user who wants gentle rocking and a soft surface. The caveat is that water filling is an extra step and the safety note says not to stand on it.",
+    "description": "Arejonner has 12 adjustable angles, a soft removable cushion and a metal frame rated to 80 lb. It can be filled with water for added weight and stability, and it folds.\n\nAt under $60 it costs $9 less than Scalebeard and has a higher load rating than VIVO. It gives step angles rather than the infinite range of the Scalebeard.\n\nBest for a user who wants gentle rocking and a soft surface. The caveat is that water filling is an extra step and the safety note says not to stand on it.",
     "specs": [
       "12 angle settings",
       "80 lb load rating",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/313AfdB46SL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B00CEJR3IC?tag=deskfinds0d-20",
-    "description": "BiMi is a 20 inch chrome-plated steel ring with black aluminum spokes and a 2 inch hub hole. It clamps to a standard gas lift cylinder with a hand wheel and adjusts in height.\n\nIt costs about $14 more than the Kaleurrier and is the widest ring in the list. A wider ring gives more places to put your feet, but it is a bigger piece to knock into.\n\nBest for tall stools at drafting or standing-height desks. The caveat is that you must confirm your cylinder is 2 inches in diameter.",
+    "description": "BiMi is a 20 inch chrome-plated steel ring with black aluminum spokes and a 2 inch hub hole. It clamps to a standard gas lift cylinder with a hand wheel and adjusts in height.\n\nIt costs under $15 more than the Kaleurrier and is the widest ring in the list. A wider ring gives more places to put your feet, but it is a bigger piece to knock into.\n\nBest for tall stools at drafting or standing-height desks. The caveat is that you must confirm your cylinder is 2 inches in diameter.",
     "specs": [
       "20 inch chrome steel ring",
       "Fits 2 inch gas lift",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41d4YrTuGXL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B089LXT4MG?tag=deskfinds0d-20",
-    "description": "Kaleurrier is a 16 inch metal ring with a 2.1 inch center hole, a plastic liner inside the hub to protect the gas lift, black spokes and height adjustment locked with a screw. It comes with a one-year warranty.\n\nIt costs about $1 more than Rboiye and is the smallest ring here. The plastic liner protects the cylinder from scratches.\n\nBest for a shorter stool where space matters. The caveat is that a 16 inch ring is a smaller foot area.",
+    "description": "Kaleurrier is a 16 inch metal ring with a 2.1 inch center hole, a plastic liner inside the hub to protect the gas lift, black spokes and height adjustment locked with a screw. It comes with a one-year warranty.\n\nIt costs under $10 more than Rboiye and is the smallest ring here. The plastic liner protects the cylinder from scratches.\n\nBest for a shorter stool where space matters. The caveat is that a 16 inch ring is a smaller foot area.",
     "specs": [
       "16 inch metal ring",
       "Plastic hub liner protects cylinder",
@@ -190,202 +190,109 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Platform or ring",
-    "explanation": "A platform sits on the floor and suits desk chairs with feet that do not reach the floor. A ring clamps on a stool or tall chair so your feet stop dangling. Check whether the listing is for sitting or standing use."
+    "criterion": "Mounting style",
+    "explanation": "A rest can sit on the floor or clamp to the chair's cylinder, and the two behave differently. Scalebeard, VIVO and Arejonner sit on the floor, while BiMi, Rboiye and Kaleurrier clamp on. Check which style suits your chair and whether you move around a lot.  Mixed chairs favour a platform. Ring rests suit tall chairs, platforms suit ordinary desks. Make sure the clamp or base suits the seat you really use."
   },
   {
-    "criterion": "Height range",
-    "explanation": "Set the chair first, then the footrest, and skip the footrest if your feet rest flat on the floor. A footrest set too high pushes your knees above your hips. Look for a stated range like 5 to 10.25 inches, including the minimum setting."
+    "criterion": "Height and angle range",
+    "explanation": "A wider range fits more bodies. VIVO lists 5 to 10.25 inches, Arejonner 12 angles and Scalebeard continuous adjustment. Look for the range in the listing and compare it with the gap between your feet and the floor. Fine steps beat coarse ones when you share a chair."
   },
   {
-    "criterion": "Tilt and rocking",
-    "explanation": "Tilting lets you shift position, which helps if you sit for long periods. Infinite tilt and 12 steps offer different feels. Check for a degree range or the number of settings."
-  },
-  {
-    "criterion": "Surface size and grip",
-    "explanation": "A panel of about 15 by 10 inches fits two feet, while smaller panels crowd. A non-slip surface and base stop sliding. Check the panel dimensions and non-slip claims."
+    "criterion": "Cylinder size",
+    "explanation": "Ring rests need the right cylinder, 2 inches on BiMi and Kaleurrier and 2.1 inches on Rboiye. Measure your cylinder with a tape. A tapered cylinder will not clamp securely, so check before you order. Use calipers or a tape on the cylinder, not a guess. Measure twice before you buy a ring."
   },
   {
     "criterion": "Load rating",
-    "explanation": "Platforms are rated for feet, not standing, and ratings range from 55 to 80 lb. Never stand on one. Check the rating in the bullets."
+    "explanation": "VIVO lists 55 lbs and Arejonner 80 lbs, and Scalebeard gives no figure. A leg pushes with real force, so a low rating can flex. Look for a stated rating and for a steel frame, and avoid lightweight designs if you shift weight often. Pushing off a chair puts surprising force on a thin steel tube."
   },
   {
-    "criterion": "Cylinder fit for rings",
-    "explanation": "Rings fit standard 2 inch gas lift cylinders and not tapered ones. Measure your cylinder before buying. Check the hub diameter in the listing."
+    "criterion": "Folding and storage",
+    "explanation": "Scalebeard and Arejonner fold, while VIVO and the rings do not. If you stand, you want to stow the rest. Check the folded size and whether the design is tool-free. A fold-flat design is only useful if the hinge locks. Look at hinge photos in the listing."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  {
-    "title": "Type and fit",
-    "description": "We separated platforms from chair-mounted rings and checked fit requirements."
-  },
-  {
-    "title": "Adjustment",
-    "description": "We compared height ranges and tilt options."
-  },
-  {
-    "title": "Surface and size",
-    "description": "We compared panel and ring dimensions."
-  },
-  {
-    "title": "Load and build",
-    "description": "We compared stated load ratings and materials."
-  },
-  {
-    "title": "Price",
-    "description": "We compared prices from $42 to $60."
-  }
+  { "title": "Mounting style and chair fit", "description": "The BiMi, Rboiye and Kaleurrier rings clamp to a gas-lift cylinder, while Scalebeard, VIVO and Arejonner sit on the floor. We matched each style to a use case, because rings suit tall stools and drafting chairs and floor platforms suit standard desks. Fit is the first gate for a ring rest." },
+  { "title": "Height and angle range", "description": "VIVO lists 5 to 10.25 inches, Arejonner offers 12 angles and Scalebeard continuous angle adjustment. We compared how finely each pick adjusts, since a larger range lets a tall or short buyer reach a thigh-parallel posture without a workaround. Fine adjustment matters more at this price than a pretty finish." },
+  { "title": "Cylinder compatibility", "description": "BiMi fits a 2 inch gas lift, Rboiye has a 2.1 inch centre hole and Kaleurrier needs a 2 inch cylinder. Ring rests fail if they do not fit, so we noted compatibility limits and flagged that tapered cylinders are not supported. A ring that slips on a cylinder is useless." },
+  { "title": "Load rating and frame", "description": "VIVO lists 55 lbs, Arejonner 80 lbs and the rings use chrome steel. Because the legs press with force when pushing off, we weighed stated ratings and noted Scalebeard's missing figure, treating a missing load rating as a risk. An unstated load figure was marked as an unknown." },
+  { "title": "Portability and storage", "description": "Scalebeard folds flat and Arejonner folds, while VIVO and the rings do not. At a higher budget we expected a folding or tool-free design, and we considered whether you can put the rest away when you stand. Folding earns credit only when you will actually stow it." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Chair Type",
-    "table": {
-      "headers": [
-        "Your setup",
-        "Recommended pick"
+    subheading: "By Primary Need",
+    intro: "Between $40 and $60 the choice is mostly floor platform versus ring mount, then how finely you adjust.",
+    table: {
+      headers: ["If you mainly need", "Recommended pick"],
+      rows: [
+        ["Continuous angle adjustment that folds flat", "Scalebeard Foldable, with a removable cushion"],
+        ["A tall height range for a standing desk", "VIVO, with 5 to 10.25 inches"],
+        ["Many set angles and a higher load rating", "Arejonner, with 12 angles and 80 lbs"],
+        ["A wide ring for a drafting stool", "BiMi, at 20 inches with hand-wheel adjustment"],
+        ["A ring with a tool-free install", "Rboiye, at 17.7 inches"]
       ],
-      "rows": [
-        [
-          "Regular desk chair, want tilt control",
-          "Scalebeard Foldable Under Desk Foot Rest"
-        ],
-        [
-          "Regular desk chair, want a stated height range",
-          "VIVO Height Adjustable Foot Rest Platform"
-        ],
-        [
-          "Regular desk chair, gentle rocking",
-          "Arejonner Foldable 12-Angle Foot Rest"
-        ],
-        [
-          "Tall drafting stool, large ring",
-          "BiMi 20 Inch Chrome Foot Rest Ring"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "By Budget",
-    "table": {
-      "headers": [
-        "Price range",
-        "Recommended pick"
+    subheading: "By Budget",
+    table: {
+      headers: ["Price range", "Recommended pick"],
+      rows: [
+        ["Around $42", "Rboiye, the cheapest"],
+        ["Around $43", "Kaleurrier, with a one-year warranty"],
+        ["Around $50", "VIVO or Arejonner"],
+        ["Around $57", "BiMi, the widest ring"],
+        ["Around $60", "Scalebeard Foldable, the priciest"]
       ],
-      "rows": [
-        [
-          "$42 to $44",
-          "Rboiye 17.7 Inch Chrome Footrest Ring"
-        ],
-        [
-          "$44 to $51",
-          "Arejonner Foldable 12-Angle Foot Rest"
-        ],
-        [
-          "$51 to $57",
-          "BiMi 20 Inch Chrome Foot Rest Ring"
-        ],
-        [
-          "$57 to $60",
-          "Scalebeard Foldable Under Desk Foot Rest"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "Platform vs Chair Ring",
-    "cards": [
-      {
-        "label": "Platform",
-        "text": "Sits on the floor and adjusts. Scalebeard Foldable Under Desk Foot Rest, VIVO Height Adjustable Foot Rest Platform and Arejonner Foldable 12-Angle Foot Rest are platforms."
-      },
-      {
-        "label": "Chair ring",
-        "text": "Clamps to a gas lift. BiMi 20 Inch Chrome Foot Rest Ring, Rboiye 17.7 Inch Chrome Footrest Ring and Kaleurrier 16 Inch Metal Footrest Ring are rings."
-      }
+    subheading: "Floor Platform vs Ring Mount",
+    cards: [
+      { label: "Floor platform (Scalebeard, VIVO, Arejonner)", text: "These sit on the floor and work with any chair, with adjustable height or tilt. They take floor space and may slide on hard floors." },
+      { label: "Ring mount (BiMi, Rboiye, Kaleurrier)", text: "A ring clamps to the gas lift and moves with the chair. It suits drafting stools and tall chairs but needs a 2 inch cylinder." }
     ],
-    "note": "Use a platform at a desk and a ring on a tall stool."
+    note: "Most buyers should default to a floor platform, unless the chair is a tall drafting stool with a standard cylinder.",
   },
   {
-    "subheading": "By Adjustment Style",
-    "table": {
-      "headers": [
-        "You want",
-        "Recommended pick"
+    subheading: "By Chair Type",
+    table: {
+      headers: ["Your chair", "Recommended pick"],
+      rows: [
+        ["A standard office chair at a desk", "Scalebeard or VIVO"],
+        ["A tall stool or drafting chair", "BiMi, which offers the widest ring"],
+        ["A chair with a 2 inch cylinder and limited space", "Kaleurrier, the smallest ring"],
+        ["A chair you want to roll freely", "Arejonner, which can be moved aside"]
       ],
-      "rows": [
-        [
-          "Continuous angle changes",
-          "Scalebeard Foldable Under Desk Foot Rest"
-        ],
-        [
-          "Measured height steps",
-          "VIVO Height Adjustable Foot Rest Platform"
-        ],
-        [
-          "12 angle steps",
-          "Arejonner Foldable 12-Angle Foot Rest"
-        ],
-        [
-          "Height changes via clamp",
-          "Rboiye 17.7 Inch Chrome Footrest Ring"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "For Shorter Users Specifically",
-    "cards": [
-      {
-        "label": "Look for",
-        "text": "A low minimum height and a tilt range."
-      },
-      {
-        "label": "In this comparison",
-        "text": "VIVO Height Adjustable Foot Rest Platform starts at 5 inches and Scalebeard Foldable Under Desk Foot Rest has continuous tilt."
-      }
-    ]
+    subheading: "For Standing Desk Users Specifically",
+    cards: [
+      { label: "Look for", text: "A rest you can fold or push aside, a surface for shifting weight, and a height that suits a perching stool. Avoid fixed rings if you change chairs. A ring that follows the chair is handy for one seat but a nuisance if you hop between a desk chair and a stool." },
+      { label: "In this comparison", text: "Scalebeard folds flat and VIVO's range reaches 10.25 inches. The rings suit stools but stay attached to the chair. If you stand for part of the day, the folding picks are the easier fit." }
+    ],
   },
   {
-    "subheading": "When to Spend More",
-    "cards": [
-      {
-        "label": "Spend more if",
-        "text": "You want continuous angle control, as with Scalebeard Foldable Under Desk Foot Rest."
-      },
-      {
-        "label": "Save if",
-        "text": "You want a ring for a stool, where Rboiye 17.7 Inch Chrome Footrest Ring or Kaleurrier 16 Inch Metal Footrest Ring is enough."
-      }
-    ]
+    subheading: "When to Spend More",
+    cards: [
+      { label: "Spend more if", text: "You want continuous adjustment and a fold-away design, as with Scalebeard. The under $50 guide covers cheaper picks if you accept set angles." },
+      { label: "Save if", text: "You need a basic ring or a tall platform. Rboiye and VIVO cost less than Scalebeard and cover the core job." }
+    ],
   }
 ];
 
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
-  {
-    "q": "Do I need a footrest?",
-    "a": "If your feet rest flat on the floor with knees near 90 degrees, probably not. A footrest helps when your feet dangle."
-  },
-  {
-    "q": "Which size ring fits my stool?",
-    "a": "Rings should be larger than the seat. A 17.7 inch ring suits most stools, and 20 inches suits tall drafting stools."
-  },
-  {
-    "q": "Is the Scalebeard worth the extra?",
-    "a": "If you want smooth angle control, yes. For a fixed height, VIVO costs about $10 less."
-  },
-  {
-    "q": "How do I set the height?",
-    "a": "Set your chair first, then place the footrest so your knees sit level with or slightly below your hips."
-  },
-  {
-    "q": "How should I use it?",
-    "a": "Change position every few hours and never stand on it. This is a comfort product, not a medical device."
-  }
+  { "q": "How do I measure for a ring foot rest?", "a": "Measure the diameter of your chair's gas cylinder, since BiMi fits 2 inches, Rboiye has a 2.1 inch hole and Kaleurrier needs 2 inches. If the cylinder tapers or is wider, a ring will not clamp securely, so choose a platform instead." },
+  { "q": "What is the most common mistake?", "a": "Buying a ring without measuring the cylinder, or a platform that is too low for a tall chair. Check cylinder diameter first, then compare the height range, such as VIVO's 5 to 10.25 inches, with your seat height." },
+  { "q": "Is Scalebeard worth more than VIVO?", "a": "Scalebeard offers continuous angle adjustment, a removable washable cushion and a folding design, while VIVO offers a taller stated height range and a steel frame for less. Pick Scalebeard if you move around, VIVO if you need height." },
+  { "q": "How do I install a ring rest?", "a": "Remove the chair base if required, slip the ring over the cylinder, set the height and tighten the screw or hand-wheel. Check it sits level and does not scratch the cylinder, then test it with light foot pressure." },
+  { "q": "How do I keep a ring from slipping?", "a": "Use the hub liner on Kaleurrier or make sure the screw is firmly tightened, and avoid hanging weight on it. Re-tighten monthly, because vibration can loosen clamps." },
+  { "q": "Can I fold a foot rest for standing?", "a": "Scalebeard folds flat and Arejonner folds, which lets you stow them when you stand. VIVO and the rings stay in place, so push them aside or choose a folding pick for sit-stand use." }
 ];
 
 export const relatedGuides = [

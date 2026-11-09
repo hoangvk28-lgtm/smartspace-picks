@@ -84,70 +84,151 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Voltage Flexibility", "description": "Compared fixed-voltage splitters against adjustable multi-voltage designs." },
-  { "title": "Real Price Per Unit", "description": "Compared total price against pack size to determine actual per-unit cost." },
-  { "title": "Warranty and Compliance", "description": "Compared stated warranty length and any institutional compliance certifications." },
-  { "title": "Connector Compatibility", "description": "Compared DC barrel versus USB-C connectors and included adapter accessories." },
-  { "title": "Documentation Transparency", "description": "Compared how clearly each listing discloses compatibility limitations." }
+  {
+    "title": "Adjustable vs fixed output",
+    "description": "The TRENDnet and ANVISION units can be set to 5V, 9V, or 12V, while the USB-C pair and the DSLRKIT are fixed at 5V. We favored adjustable output for flexibility, but flagged that a wrong switch setting is the main way to fry a device. Each pick's page makes the default setting clear, which we noted."
+  },
+  {
+    "title": "Warranty as a cost offset",
+    "description": "Cheap splitters fail quietly, so we compared coverage: 3 years for the TRENDnet, 2 years for the ANVISION, none stated for the rest. At this price a longer warranty meant the unit's real cost over time was lower. A 2-year term on a 2-pack of splitters is, in effect, coverage for each device."
+  },
+  {
+    "title": "Data speed",
+    "description": "TRENDnet and ANVISION are Gigabit, and the DSLRKIT is 10/100. We noted that for a camera 100Mbps is plenty, but for an access point or a mini PC the Gigabit ceiling matters. That ceiling is acceptable for cameras and sensors, which stream at a few Mbps, but it holds back any device that moves large files or serves many clients."
+  },
+  {
+    "title": "Standards and compliance",
+    "description": "We read compliance claims: 802.3af for the ANVISION and DSLRKIT, NDAA compliance for the TRENDnet. NDAA matters for institutional buyers and was treated as a real differentiator, not a marketing line. A compliance statement does not guarantee quality, but it narrows the field when you must meet an institutional rule."
+  },
+  {
+    "title": "Kit contents",
+    "description": "We counted what is in the box. The TRENDnet includes jumper cables, the ANVISION includes multi-size tips, and the USB-C pair is a 2-pack. A kit that needs a missing plug adapter costs you more than the sticker price. Missing accessories add shipping time and cost, so a complete kit is worth a small premium."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The longest warranty with voltage flexibility", "TRENDnet Gigabit PoE Splitter (TPE-104GS)"],
-        ["Two devices with different connector needs", "ANVISION 2-Pack Active Gigabit PoE Splitter Adapter"],
-        ["Two USB-C devices at the lowest per-unit price", "2Pack Gigabit PoE Splitter USB C"],
-        ["A single 5V device at the lowest single-unit price", "DSLRKIT DC 5V 2.4A Active PoE Splitter"]
+    "subheading": "By Device Input",
+    "intro": "Check the device's input voltage and plug first, since that rules out half the picks.",
+    "table": {
+      "headers": [
+        "Your device uses",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "5V, 9V, or 12V depending on the device",
+          "TRENDnet Gigabit PoE Splitter (TPE-104GS), via its DIP switch"
+        ],
+        [
+          "Several devices that need different tips",
+          "ANVISION 2-Pack Active Gigabit Splitter Adapter, with multi-size tips"
+        ],
+        [
+          "A USB-C powered camera or board",
+          "2Pack Gigabit PoE Splitter USB C Splitter, at fixed 5V and 2.4A"
+        ],
+        [
+          "A DC barrel plug at 5V",
+          "DSLRKIT DC 5V 2.4A Active PoE Splitter, with a 5.5x2.1mm plug"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $11", "DSLRKIT DC 5V 2.4A (under $15)"],
-        ["Under $15", "TRENDnet TPE-104GS (under $15)"],
-        ["Under $19", "2Pack Gigabit PoE Splitter USB C (under $20)"],
-        ["Under $32", "ANVISION 2-Pack Multi-Voltage (under $35)"]
+    "subheading": "By Budget",
+    "intro": "Low-cost splitters are split by pack size more than features.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $11, a single barrel plug",
+          "DSLRKIT DC 5V, the cheapest pick"
+        ],
+        [
+          "Under $15, adjustable Gigabit",
+          "TRENDnet Gigabit PoE Splitter, with a 3-year warranty"
+        ],
+        [
+          "Under $20, a pair for USB-C",
+          "2Pack Gigabit PoE Splitter USB C, for two devices"
+        ],
+        [
+          "Under $32, a pair with adjustable output",
+          "ANVISION 2-Pack, which gives two units with multi-size tips"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Adjustable Voltage vs Fixed Voltage Value",
-    cards: [
-      { label: "Adjustable voltage (TRENDnet, ANVISION)", text: "Both let you switch between 5V, 9V, and 12V, useful if you're unsure of your exact device requirement or plan to use the same splitter for different devices over time." },
-      { label: "Fixed voltage (USB-C 2-Pack, DSLRKIT)", text: "Both are locked to a single fixed voltage, simpler and cheaper if you already know your device's exact power requirement." }
+    "subheading": "Adjustable vs Fixed Voltage",
+    "intro": "The main choice at this price, and it is mostly about risk.",
+    "cards": [
+      {
+        "label": "Adjustable (TRENDnet, ANVISION)",
+        "text": "One splitter can run a 5V camera today and a 12V device later. The cost is the chance of a wrong DIP setting, so label the unit after setup and check with a meter if unsure."
+      },
+      {
+        "label": "Fixed (USB-C pair, DSLRKIT)",
+        "text": "No switch to get wrong. The unit matches one voltage, so it is the safer choice for a single dedicated device, such as a camera or Pi."
+      }
     ],
-    note: "If you're unsure of your device's exact voltage or want flexibility for future devices, the adjustable-voltage picks are worth the extra cost. If you've already confirmed your device's fixed voltage, the simpler fixed-voltage picks deliver the same practical result for less.",
+    "note": "Most buyers should use fixed 5V unless they know they will swap devices."
   },
   {
-    subheading: "By Device Connector Type",
-    table: {
-      headers: ["Your device's connector", "Recommended pick"],
-      rows: [
-        ["DC barrel jack (adjustable voltage)", "TRENDnet TPE-104GS or ANVISION 2-Pack"],
-        ["USB-C (Raspberry Pi, smart home devices)", "2Pack Gigabit PoE Splitter USB C"],
-        ["Standard 5V DC (household IP cameras)", "DSLRKIT DC 5V 2.4A"]
+    "subheading": "By Install Count",
+    "intro": "Buying one or several affects the real price.",
+    "table": {
+      "headers": [
+        "How many you need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "One device with a long warranty",
+          "TRENDnet Gigabit PoE Splitter, with 3 years and NDAA compliance"
+        ],
+        [
+          "Two devices on the same voltage",
+          "2Pack Gigabit PoE Splitter USB C, as a 2-pack at fixed 5V"
+        ],
+        [
+          "Two devices on different voltages",
+          "ANVISION 2-Pack, which covers 5V, 9V, or 12V in each unit"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a First-Time PoE Splitter Buyer on a Budget Specifically",
-    cards: [
-      { label: "Look for", text: "A clear, honest compatibility disclosure stating exactly which voltage and PoE source the splitter requires, avoiding a mismatched purchase for your specific device." },
-      { label: "In this comparison", text: "The USB-C 2-Pack specifically includes an explicit compatibility guide clarifying its exact requirements and limitations, helping a first-time buyer avoid a mismatch." }
-    ],
+    "subheading": "For a Home Camera Upgrade Specifically",
+    "intro": "Home installs usually have one or two cameras and a PoE switch in a closet.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The camera's input voltage on its label, a plug that matches, and a source that provides 802.3af."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The TRENDnet Gigabit PoE Splitter fits most 12V cameras with jumper cables included, and the DSLRKIT DC 5V suits a 5V camera."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the longest warranty backed by an established brand with institutional compliance, where the TRENDnet pick's under $15 price is justified by its 3-year protection and NDAA compliance." },
-      { label: "Save if", text: "You only need to convert a single 5V device, where the DSLRKIT pick delivers that for under $15, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "None here is expensive, so spending more means a different category.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need 2.5G or higher power. See the 2.5GbE splitter guide for faster units."
+      },
+      {
+        "label": "Save if",
+        "text": "You need one 5V device. The DSLRKIT DC 5V costs the least and the 2Pack Gigabit PoE Splitter USB C gives you a spare."
+      }
+    ]
   }
 ];
 
@@ -175,12 +256,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Is the cheapest single-unit PoE splitter always the best value?", "a": "Not necessarily; if you need to convert two devices, a 2-pack like the USB-C splitter's under $10 per unit can deliver better true value than a slightly cheaper single-unit splitter, so calculating price per device is worth doing." },
-  { "q": "What's the most common mistake buyers make when choosing a budget PoE splitter?", "a": "Assuming a fixed-voltage splitter works with any non-PoE device regardless of voltage, when devices require specific voltages and a mismatched splitter simply won't power an incompatible device correctly." },
-  { "q": "Is the ANVISION 2-pack worth the higher price over the TRENDnet single unit?", "a": "If you need to convert two devices with potentially different connector sizes, the ANVISION's 2-pack and multi-size tips deliver real value, but for a single device, the TRENDnet's lower price and 3-year warranty may be the better choice." },
-  { "q": "Can I use the USB-C 2-pack splitter for a 12V device?", "a": "No, the listing explicitly states it's not for 9V/12V devices, delivering only fixed 5V power, so a 12V device would need the adjustable TRENDnet or ANVISION picks instead." },
-  { "q": "Does a budget PoE splitter need Gigabit speed for a basic security camera?", "a": "Most basic security cameras work fine with either Gigabit or standard 100Mbps splitters like the DSLRKIT pick, so Gigabit speed is specifically worth the investment for higher-resolution 4K cameras needing more bandwidth." },
-  { "q": "How do I know which voltage my non-PoE device actually needs?", "a": "Checking your device's power specification label or documentation for its exact DC voltage requirement is the reliable way to confirm compatibility before choosing between a fixed-voltage or adjustable-voltage budget splitter." }
+  {
+    "q": "Is the TRENDnet splitter safe for a 5V camera?",
+    "a": "Yes if the DIP switch is set to 5V before connecting. The listing includes 5V, 9V, and 12V settings. Set it first, then plug in the camera, since power flows as soon as the cable connects. Check the camera's label before powering on."
+  },
+  {
+    "q": "What is the most common mistake with an adjustable splitter?",
+    "a": "Leaving it on the previous device's voltage. A 12V setting on a 5V camera can destroy it. Check the label on the camera, then the switch position, before every new connection. A 30 second check beats a dead camera."
+  },
+  {
+    "q": "Is the ANVISION worth paying more than the DSLRKIT?",
+    "a": "If you need Gigabit, adjustable voltage, or two units. The DSLRKIT is single, fixed 5V at 10/100, so for one basic camera it is fine, and costs about a third of the pack. The USB-C pair is an easy fit for devices that already use USB-C power."
+  },
+  {
+    "q": "How do I pick the right DC tip on the ANVISION?",
+    "a": "Match the outer and inner diameter on the device's power jack, commonly 5.5x2.1mm. Check polarity, with center positive being the usual standard, and read the label on the original power brick. Matching the tip also prevents the loose, intermittent contact that makes devices reboot at random."
+  },
+  {
+    "q": "Do these splitters work with passive PoE?",
+    "a": "They list 802.3af compliance, which means active PoE with negotiation. A passive injector does not send the handshake, so the splitter will not power on. Use a switch or active injector. A passive injector is not compatible with these."
+  },
+  {
+    "q": "How long will a cheap splitter last?",
+    "a": "It depends on heat and load. Staying under the rated 12W to 24W helps, as does ventilation. The TRENDnet's 3-year warranty is the longest here, which signals the maker expects it to last. Brand does not matter nearly as much as headroom."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

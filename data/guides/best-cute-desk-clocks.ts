@@ -104,10 +104,26 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Legibility required alongside playful design", description: "We required a readable time display and stable placement, not just novelty appearance, for every pick in this comparison." },
-  { title: "Genuine aesthetic variety", description: "We compared digital, wooden, analog, and mechanical-flip designs as genuinely different \"cute\" aesthetics rather than treating them as interchangeable." },
-  { title: "Review volume and rating together", description: "We weighted both metrics, prioritizing established review histories for confidence in build quality." },
-  { title: "Price against novelty value", description: "We noted where the most distinctive mechanism (mooas flip clock) also carries the highest price in this comparison." }
+  {
+    "title": "Visual style and charm",
+    "description": "Cute is subjective, so we compared the style each listing actually describes: the Peakeep's slim mirror surface, the DreamSky's wooden body, the JALL's round analog face, and the mooas auto-flip mechanism. We favored clocks whose look is a stated design choice, not just a colored plastic case."
+  },
+  {
+    "title": "Noise at a quiet desk",
+    "description": "A desk clock sits a foot from your ear. The JALL lists a non-ticking silent movement on a 4 inch analog dial, which matters for call-heavy desks and bedrooms, while digital clocks do not tick at all. We marked a ticking analog clock down for a quiet room."
+  },
+  {
+    "title": "Size against desk space",
+    "description": "We compared stated footprints, such as the Lamisola's 3.5 inch battery clock and the JALL's 4 inch dial, since a clock that dominates a small desk defeats the purpose. A flip clock like the mooas is larger by nature, so we treated its bulk as a design tradeoff."
+  },
+  {
+    "title": "Power and placement",
+    "description": "We checked whether the listing names battery or plug power, because a desk clock with a cord needs an outlet or a USB port nearby. The Lamisola lists battery power, which allows placing it anywhere on a shelf with no cable."
+  },
+  {
+    "title": "Gift versus everyday value",
+    "description": "The mooas is the highest priced and the Lamisola and JALL cost far less, so we asked whether the extra cost buys real novelty. The mooas's flip mechanism is a distinctive design, while the cheaper clocks win on being easy to replace."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,12 +259,30 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  
-  { q: "What's the cheapest option?", a: "The Lamisola 3.5 Inch Small Desk Clock at under $10." },
-  { q: "Is there a non-digital analog option?", a: "Yes, the JALL Analog Alarm Clock, with a classic round face and silent movement." },
-  { q: "What's the most distinctive, playful mechanism?", a: "The mooas Flip Desk Clock, with a genuinely fun auto-flip retro display." },
-  { q: "Which has the softest, warmest aesthetic?", a: "The DreamSky Wooden Digital Alarm Clock, with a wooden body rather than plastic or metal." },
-  { q: "Are cute clocks accurate enough for daily use?", a: "Most use basic quartz or digital timekeeping, which is accurate enough for desk use but may drift by a minute or so over time. Re-set the time occasionally to keep it right. If precision matters, compare against your phone every few weeks." }
+  {
+    "q": "Does a cute desk clock have to be loud?",
+    "a": "No. Digital models, like the Peakeep mirror clock and the DreamSky, have no ticking mechanism. The JALL lists a non-ticking movement on an analog dial. Choose a silent one for a bedroom or a call desk, and avoid cheap quartz movements with an audible tick."
+  },
+  {
+    "q": "How big should a desk clock be?",
+    "a": "Pick the size from how far away you sit. The Lamisola is a compact 3.5 inch and the JALL a 4 inch dial, both readable at arm's length. If you glance across a deep desk, a bigger display is easier. Measure your shelf before you buy a larger flip clock."
+  },
+  {
+    "q": "Is the mooas flip clock worth the higher price?",
+    "a": "It is a display piece, not a utility. The mooas lists an auto-flip mechanism and a retro design and costs the most here, while the Peakeep or DreamSky tell time at a fraction of the cost. Buy it if the look is the point, and skip it for pure function."
+  },
+  {
+    "q": "Do battery clocks need frequent replacement?",
+    "a": "Not usually. The Lamisola runs on battery power, and small quartz clocks typically run months on one cell, though the listing gives no hours. Use fresh batteries of the type listed, and remove them if you plan to store the clock for a long time to prevent leakage."
+  },
+  {
+    "q": "Is a mirror-finish clock hard to read?",
+    "a": "It can be in bright light. The Peakeep's mirror surface looks sleek but reflects windows and lamps. Place it away from direct glare, check whether the display dims, and wipe fingerprints with a microfiber cloth to keep the numbers crisp."
+  },
+  {
+    "q": "Can I put a wooden clock near a window?",
+    "a": "Yes, but keep it out of constant direct sun. The DreamSky lists a wooden body, and strong sunlight can fade or warp wood over time. A spot on a shelf or desk away from the window glass, with a dry cloth for dust, keeps it looking good."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

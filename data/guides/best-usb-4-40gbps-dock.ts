@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Bandwidth Allocation Transparency", "description": "Compared how clearly each listing discloses whether 40Gbps applies upstream, downstream, or both." },
-  { "title": "Certification", "description": "Compared Thunderbolt certification and Intel EVO certification against generic USB4 branding." },
-  { "title": "Display Support", "description": "Compared maximum resolution, refresh rate, and per-chip Mac compatibility details." },
-  { "title": "Expansion Capability", "description": "Compared daisy-chain support and downstream port flexibility." },
-  { "title": "Price and Portability", "description": "Compared price against power adapter size and travel-friendliness." }
+  {
+    "title": "Bandwidth that survives downstream",
+    "description": "A dock labelled 40Gbps may deliver it only upstream. Hagibis lists 40Gbps upstream and downstream, both Plugable hubs have 40Gbps on every Thunderbolt 4 port, and ACASIS gives two 40Gbps ports with others at USB 3.0 speeds, so we read how each port is described."
+  },
+  {
+    "title": "Certification against a bare USB4 label",
+    "description": "Plugable Thunderbolt 4 Hub lists Thunderbolt certification with an Intel Goshen Ridge chipset, and Plugable 5-in-1 is Engineered for Intel Evo. Hagibis and ACASIS list USB4 without a certification we could verify, so we gave certification more weight where a host is picky. A certified dock is the safer choice when a laptop is fussy about USB4 hosts."
+  },
+  {
+    "title": "Display output limits",
+    "description": "Hagibis lists 8K at 60Hz or 4K at 144Hz, and ACASIS adds a dedicated 8K 60Hz DisplayPort. We read the Mac caveats too, since ACASIS notes the Apple M1 does not support dual monitors, and Hagibis lists Apple M-chip limits. A 4K at 144Hz claim and an 8K at 60Hz claim cannot both run on one port at the same time."
+  },
+  {
+    "title": "Power delivery and host charging",
+    "description": "Hagibis and ACASIS list 100W, but Hagibis delivers up to 80W to the host because the dock itself draws 20W. We compared what reaches the laptop, since a 65W laptop is fine and a 96W workstation is not. A dock that draws 20W of its own gives a 100W label an effective 80W at the laptop."
+  },
+  {
+    "title": "Expansion and daisy-chaining",
+    "description": "Plugable Thunderbolt 4 Hub supports daisy-chaining up to 6 additional Thunderbolt peripherals and needs an external adapter, while the 5-in-1 is a compact hub with fewer downstream ports. We favored picks that suit a multi-SSD desk. Plugable's 3-port hub needs a wall adapter, which is a drawback for travel."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,129 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Transparent bandwidth allocation with flexible displays", "Hagibis USB4 Docking Station"],
-        ["Thunderbolt-certified reliability with daisy-chain expansion", "Plugable Thunderbolt 4 Hub, 3x Ports"],
-        ["Dual 40Gbps ports at the lowest price", "ACASIS 40Gbps Dock with DP Port"],
-        ["Intel EVO-certified reliability in a compact form", "Plugable 5-in-1 Thunderbolt 4 Hub"]
+    "subheading": "By Primary Need",
+    "intro": "Pick the one thing this dock must do.",
+    "table": {
+      "headers": [
+        "If you want",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Full 40Gbps both ways with flexible displays",
+          "Hagibis USB4 Docking Station, 8K at 60Hz or 4K at 144Hz."
+        ],
+        [
+          "Certified Thunderbolt 4 and a chain of drives",
+          "Plugable Thunderbolt 4 Hub, 3x Ports, with an Intel Goshen Ridge chipset."
+        ],
+        [
+          "Lowest price with two 40Gbps ports and a DisplayPort",
+          "ACASIS 40Gbps Dock with DP Port, with 100W PD."
+        ],
+        [
+          "Intel Evo certified and compact",
+          "Plugable 5-in-1 Thunderbolt 4 Hub, with an HDMI adapter included."
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $100", "ACASIS 40Gbps Dock (under $100)"],
-        ["Under $110", "Hagibis USB4 Docking Station (under $110)"],
-        ["Under $170", "Plugable 5-in-1 Hub (under $170)"],
-        ["Under $180", "Plugable Thunderbolt 4 Hub, 3x Ports (under $180)"]
+    "subheading": "By Budget",
+    "intro": "Prices cluster at three levels.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $100, cheapest",
+          "ACASIS 40Gbps Dock with DP Port."
+        ],
+        [
+          "Under $110, triple display",
+          "Hagibis USB4 Docking Station."
+        ],
+        [
+          "Under $170, Evo certified",
+          "Plugable 5-in-1 Thunderbolt 4 Hub."
+        ],
+        [
+          "Under $180, three Thunderbolt 4 ports",
+          "Plugable Thunderbolt 4 Hub, 3x Ports."
+        ]
+      ]
+    }
   },
   {
-    subheading: "Upstream-Only vs Full Upstream-and-Downstream 40Gbps",
-    cards: [
-      { label: "Full 40Gbps throughout (Hagibis, both Plugable picks)", text: "Delivers the full 40Gbps bandwidth on both the host connection and individual downstream ports, ideal for simultaneously running multiple high-bandwidth peripherals." },
-      { label: "40Gbps host with mixed downstream speeds (ACASIS)", text: "Delivers 40Gbps on primary ports while some downstream ports run at standard USB 3.0 speeds, still a major upgrade over 10Gbps-only docks." }
+    "subheading": "Full 40Gbps Throughout vs a Mixed Dock",
+    "intro": "A dock can say 40Gbps and still slow its other ports.",
+    "cards": [
+      {
+        "label": "Full 40Gbps",
+        "text": "Hagibis and both Plugable hubs list 40Gbps on the host link and downstream. That suits several fast SSDs or high-res displays at once."
+      },
+      {
+        "label": "Mixed speeds",
+        "text": "ACASIS gives two 40Gbps ports and leaves some ports at USB 3.0 speed. That is fine for a single fast drive and basic peripherals."
+      }
     ],
-    note: "If you'll run multiple demanding peripherals simultaneously (fast SSD plus high-res display plus more), a dock with full 40Gbps throughout avoids bottlenecks. If you mainly need one fast connection plus basic peripherals, a mixed-speed dock still delivers strong value.",
+    "note": "Choose Hagibis or Plugable if more than one demanding device will run at the same time."
   },
   {
-    subheading: "By Certification Type",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Thunderbolt certification specifically", "Plugable Thunderbolt 4 Hub, 3x Ports"],
-        ["Intel EVO certification specifically", "Plugable 5-in-1 Thunderbolt 4 Hub"]
+    "subheading": "By Certification",
+    "intro": "Certification is not necessary for everyone, but it does reduce risk.",
+    "table": {
+      "headers": [
+        "Need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Thunderbolt certification specifically",
+          "Plugable Thunderbolt 4 Hub, 3x Ports."
+        ],
+        [
+          "Intel Evo certification",
+          "Plugable 5-in-1 Thunderbolt 4 Hub."
+        ],
+        [
+          "No certification, widest display options",
+          "Hagibis USB4 Docking Station."
+        ],
+        [
+          "No certification, lowest price",
+          "ACASIS 40Gbps Dock with DP Port."
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Content Creators Running Multiple SSDs Specifically",
-    cards: [
-      { label: "Look for", text: "Daisy-chain support across multiple downstream Thunderbolt ports, so you can connect several high-performance SSDs simultaneously without running out of direct connections." },
-      { label: "In this comparison", text: "The Plugable Thunderbolt 4 Hub with 3 ports specifically supports daisy-chaining up to 6 additional Thunderbolt peripherals." }
-    ],
+    "subheading": "For Content Creators Running Multiple SSDs Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Daisy-chain support across several downstream ports and full 40Gbps on each, so fast drives do not share a slow lane."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Plugable Thunderbolt 4 Hub supports daisy-chaining up to 6 additional Thunderbolt peripherals, and Hagibis lists 40Gbps both ways."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want Thunderbolt-certified reliability with maximum daisy-chain expansion for a content creation setup, where the 3-port Plugable pick justifies its under $180 price." },
-      { label: "Save if", text: "You want dual 40Gbps ports with a portable power adapter, where the ACASIS pick delivers that for under $100." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need certified Thunderbolt and a drive chain. Plugable Thunderbolt 4 Hub sits at the top of the under-$180 tier."
+      },
+      {
+        "label": "Save if",
+        "text": "Two 40Gbps ports are enough. ACASIS stays under $100 and powers a portable monitor as well as the laptop."
+      }
+    ]
   }
 ];
 
@@ -182,12 +266,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Does 40Gbps mean I'll get faster internet speeds through these docks?", "a": "No, the 40Gbps figure refers to the USB4 or Thunderbolt data bandwidth for connected devices like external drives and displays, not internet or network speed, which is instead determined by the dock's separate Ethernet port speed if one is included." },
-  { "q": "What's the most common mistake buyers make when shopping for a 40Gbps USB4 dock?", "a": "Assuming any dock advertising '40Gbps' or 'USB4' delivers that bandwidth uniformly across every port, when some docks apply the full 40Gbps only to specific ports while others run at standard, slower USB speeds." },
-  { "q": "Is the Thunderbolt-certified Plugable pick worth the extra cost over the Hagibis dock for general use?", "a": "If formal Thunderbolt certification and daisy-chain expansion for multiple SSDs matter to you, the Plugable pick's higher price is justified, but for general dual-display and peripheral use, the Hagibis dock's transparent bandwidth disclosure and lower price make it a strong alternative." },
-  { "q": "Can I daisy-chain multiple external monitors using the Plugable Thunderbolt 4 Hub's 3 ports?", "a": "Yes, the listing specifically states you can connect multiple high-performance SSDs or daisy-chain up to 6 additional Thunderbolt peripherals total, which can include additional Thunderbolt-compatible displays depending on your host system's own display output limits." },
-  { "q": "Will these docks work with a laptop that only has USB-C but not USB4 or Thunderbolt?", "a": "They will generally work at reduced functionality, since standard USB-C ports without USB4 or Thunderbolt support won't unlock the dock's full 40Gbps bandwidth or maximum display resolution, so checking your specific laptop's exact port type is worth doing before purchase." },
-  { "q": "Do I need the exact power adapter included with these docks, or can I use a different one?", "a": "Using the specifically included or manufacturer-recommended power adapter is generally advised to ensure you receive the dock's full rated wattage and stable operation, since a substitute adapter with different specifications may not deliver the same performance or could be incompatible." }
+  {
+    "q": "Does 40Gbps on a dock make my internet faster?",
+    "a": "No. The 40Gbps figure is the USB4 or Thunderbolt link between the dock and your devices, not your internet speed. Your internet is limited by your Ethernet port and provider, so a dock without 2.5GbE does not speed up downloads."
+  },
+  {
+    "q": "Do all four docks deliver 40Gbps on every port?",
+    "a": "No. Hagibis, Plugable Thunderbolt 4 Hub and Plugable 5-in-1 list 40Gbps across their Thunderbolt or USB4 ports, while ACASIS has two 40Gbps ports and slower USB 3.0 on the rest. Read the per-port table before assuming a uniform speed."
+  },
+  {
+    "q": "Is Plugable Thunderbolt 4 Hub worth it over Hagibis?",
+    "a": "If you need formal certification and daisy-chaining. Plugable lists Thunderbolt certification and chains 6 more peripherals, but needs an external adapter and costs notably more. Hagibis gives 40Gbps both ways, triple display and 100W for a lower price, without a certification."
+  },
+  {
+    "q": "Can I daisy-chain monitors through the Plugable Thunderbolt 4 Hub?",
+    "a": "Yes, within Thunderbolt limits. The listing says you can connect multiple high-performance SSDs or daisy-chain further Thunderbolt peripherals, up to 6 in total. Each monitor in the chain draws from the same 40Gbps, so two high-refresh 4K panels may not both reach their best mode."
+  },
+  {
+    "q": "Will a laptop with only a basic USB-C port work with these docks?",
+    "a": "It will usually connect but at reduced function. A plain USB-C port without USB4 or Thunderbolt cannot provide the 40Gbps link, so you may lose display outputs or run at USB 3 speeds. Check the port label for a lightning-bolt icon or USB4 mark."
+  },
+  {
+    "q": "Can I use a different power adapter than the one in the box?",
+    "a": "It is safer to use the supplied adapter. Hagibis lists 100W PD3.0 with the dock drawing about 20W, ACASIS ships a compact portable adapter, and Plugable needs its own supply. A weaker substitute adapter can cut host charging or drop displays."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Named Laptop Compatibility", "description": "Compared how specifically each listing discloses confirmed compatible laptop brands and models." },
-  { "title": "Included Power Adapter", "description": "Compared docks that include a power adapter against those requiring a separate purchase." },
-  { "title": "Display Configuration", "description": "Compared dual and triple display support across all four picks." },
-  { "title": "Legacy and Gaming Device Support", "description": "Compared VGA legacy display support and confirmed gaming handheld compatibility." },
-  { "title": "Price Relative to Feature Set", "description": "Compared price against port count, display support, and included accessories." }
+  {
+    "title": "True USB4 or just USB-C",
+    "description": "None of the listings here promise a full USB4 40Gbps link; they are USB-C docks and hubs. We read each one for a stated bandwidth, and treated 'USB4' as a compatibility note, not a performance guarantee. This matters because a cheap hub can share one data lane across displays and storage."
+  },
+  {
+    "title": "Display count and platform limits",
+    "description": "The MOKiN lists dual 4K@60Hz HDMI, the 14-in-1 lists triple display on Windows, and the Anker Nano lists triple display with 2 HDMI and 1 DisplayPort. Many USB-C docks mirror on macOS rather than extend, so we noted any macOS limit as a major caveat."
+  },
+  {
+    "title": "Charging pass-through",
+    "description": "The MOKiN and Anker list 100W PD, but the MOKiN does not include the adapter, while the Anker bundles a 140W adapter. A dock with a charger included saves a purchase, while a dock that needs your own supply was marked for that cost. A dock that comes with a 140W charger removes the most common surprise at checkout, since many listings quote 100W PD for a charger sold separately."
+  },
+  {
+    "title": "Ethernet and USB speed",
+    "description": "The MOKiN has 1000Mbps RJ45, the 11-in-1 is 10/100, and the 14-in-1 lists 10Gbps USB-A ports. A 100Mbps hub is a bottleneck on any gigabit home connection, so we marked that tier for office work, not file transfers. Large file copies and cloud backups on a 100Mbps hub take roughly ten times longer than on Gigabit, so we pointed that tier at light office work."
+  },
+  {
+    "title": "Portability and build",
+    "description": "The Anker splits into a 13-in-1 dock and a 6-in-1 portable hub. For a laptop that travels, a detachable hub counted as a real feature, and we compared it against single-piece docks with more fixed ports. For a commuter, one dock at home and one hub in the bag replaces buying two separate products."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,127 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["A screen-lock privacy feature with dual 4K support", "MOKiN USB C Docking Station"],
-        ["To verify your exact laptop model against a detailed list", "USB C Laptop Docking Station, 14-in-1"],
-        ["The lowest price with gaming handheld compatibility", "11-in-1 USB C Hub with VGA"],
-        ["A detachable dock-plus-hub design", "Anker Nano Laptop Docking Station"]
+    "subheading": "By Monitor Count",
+    "intro": "Cheap docks differ most in how many displays they drive.",
+    "table": {
+      "headers": [
+        "Your monitors",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Two 4K monitors on HDMI",
+          "MOKiN USB C Docking Station Dual Monitor 2 HDMI, with dual 4K@60Hz"
+        ],
+        [
+          "Three displays on a Windows laptop",
+          "USB C Laptop Docking Station, 14-in-1 Multiport Adapter, with triple display support on Windows"
+        ],
+        [
+          "One 4K display plus an old VGA monitor",
+          "11-in-1 USB C Hub with VGA and Ethernet, with 4K HDMI and 1080p VGA"
+        ],
+        [
+          "Two HDMI and one DisplayPort for a full desk",
+          "Anker Nano Laptop Docking Station, with a detachable hub"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $15", "11-in-1 USB C Hub with VGA (under $15)"],
-        ["Under $30", "MOKiN USB C Docking Station (under $30)"],
-        ["Under $50", "USB C Laptop Docking Station, 14-in-1 (under $50)"],
-        ["Under $120", "Anker Nano Laptop Docking Station (under $120)"]
+    "subheading": "By Budget",
+    "intro": "A wide range for one category.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $15, basic hub",
+          "11-in-1 USB C Hub, for a single display"
+        ],
+        [
+          "Under $30, dual 4K",
+          "MOKiN USB C Docking Station, but supply your own charger"
+        ],
+        [
+          "Under $50, triple display",
+          "USB C Laptop Docking Station, 14-in-1, for Windows laptops"
+        ],
+        [
+          "Under $120, charger included",
+          "Anker Nano, with a detachable hub and a 140W adapter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Ultra-Budget Simple Hub vs Complete Docking Package",
-    cards: [
-      { label: "Ultra-budget simple hub (11-in-1 with VGA)", text: "Delivers essential ports and legacy VGA support at the lowest possible price, without an included power adapter or detachable design." },
-      { label: "Complete docking package (Anker Nano)", text: "Includes the power adapter, cable, and warranty in one complete package, at a meaningfully higher price for that completeness." }
+    "subheading": "Hub vs Dock",
+    "intro": "The cheapest units are hubs, and the difference is real.",
+    "cards": [
+      {
+        "label": "Hub (11-in-1 USB C Hub)",
+        "text": "Small and cheap, with 100Mbps Ethernet and basic ports. Fine for a single monitor and a travel bag."
+      },
+      {
+        "label": "Dock (MOKiN USB C Docking Station, USB C Laptop Docking Station, 14-in-1, Anker Nano)",
+        "text": "More ports, faster Ethernet, and dual or triple display. Costs more, and some require a separate charger."
+      }
     ],
-    note: "If budget is your top priority and you already own compatible cables and a power adapter, the 11-in-1 hub delivers real value. If you want everything included and ready to use out of the box, the Anker Nano's higher price reflects that completeness.",
+    "note": "Pick a hub for a travel bag and a dock for a fixed desk."
   },
   {
-    subheading: "By Device Type",
-    table: {
-      headers: ["Your device", "Recommended pick"],
-      rows: [
-        ["Gaming handheld or console (Steam Deck, ROG Ally)", "11-in-1 USB C Hub with VGA"],
-        ["Named Dell, HP, or Lenovo business laptop", "USB C Laptop Docking Station, 14-in-1"]
+    "subheading": "By Laptop",
+    "intro": "Display support depends heavily on the operating system.",
+    "table": {
+      "headers": [
+        "Your laptop",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A Windows laptop that supports multi-stream video",
+          "USB C Laptop Docking Station, 14-in-1, with triple display on Windows and named Dell, HP, Lenovo, and Surface compatibility"
+        ],
+        [
+          "A Mac with a basic M-series chip",
+          "11-in-1 USB C Hub, as a single-display hub, because many docks mirror on macOS"
+        ],
+        [
+          "A laptop that needs a charger in the box",
+          "Anker Nano, with a 140W adapter included"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Shared or Public Workspaces Specifically",
-    cards: [
-      { label: "Look for", text: "A dock with a screen-lock or privacy button, so you can instantly hide sensitive information on your screens when stepping away from a shared or public desk." },
-      { label: "In this comparison", text: "The MOKiN pick specifically includes a screen lock button that turns off connected screens with a short press." }
-    ],
+    "subheading": "For a Home Office With Two Monitors Specifically",
+    "intro": "Two monitors is the most common home office setup.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Dual HDMI at 4K@60Hz, 100W pass-through, and gigabit Ethernet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The MOKiN USB C Docking Station provides dual 4K@60Hz and Gigabit Ethernet, and the Anker Nano adds a charger and a detachable hub."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want a detachable dock-plus-hub design with a complete package including a power adapter, where the Anker Nano justifies its under $120 price." },
-      { label: "Save if", text: "You just need essential ports and legacy VGA support, where the 11-in-1 hub delivers that for under $15, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The Anker is the premium pick here.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a charger included and a portable hub. The Anker Nano costs the most, and the 240W dock guide covers workstation-class docks."
+      },
+      {
+        "label": "Save if",
+        "text": "You need one display. The 11-in-1 USB C Hub costs the least."
+      }
+    ]
   }
 ];
 
@@ -182,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will these budget docks work with any laptop that has a USB-C port?", "a": "Not necessarily; several of these picks specifically require your laptop's USB-C port to support Thunderbolt 3/4 or full-function DisplayPort Alt Mode, so confirming your exact laptop's USB-C port capabilities before purchase is essential to avoid a non-functional display connection." },
-  { "q": "What's the most common mistake buyers make when choosing a budget USB4 dock?", "a": "Assuming any budget dock's low price makes it a great deal without checking whether a separate power adapter is required and not included, which can add a meaningful hidden cost that changes the actual value comparison between similarly priced options." },
-  { "q": "Is the Anker Nano worth the significant price premium over the cheaper picks for basic use?", "a": "If you only need basic dual-display docking without traveling, the cheaper MOKiN or 14-in-1 picks deliver similar core functionality for much less, but if you want a detachable travel hub plus a complete included package, the Anker Nano's premium reflects that added convenience and completeness." },
-  { "q": "Can I use the 11-in-1 USB C Hub with my Steam Deck?", "a": "Yes, the listing specifically confirms compatibility with Steam Deck, ROG Ally, Nintendo Switch, and other gaming consoles, making it a genuinely suitable budget option for docking a gaming handheld to a TV or monitor." },
-  { "q": "How do I know if my Dell or HP laptop is compatible with the 14-in-1 docking station?", "a": "Check the listing's specifically named compatible model list, which includes exact Dell Latitude, Inspiron, Vostro, and XPS models, plus HP EliteBook, Zbook, and ProBook lines, against your exact laptop model before purchase." },
-  { "q": "Do any of these budget docks include the power adapter needed for full charging speed?", "a": "The Anker Nano specifically includes a 140W power adapter in its complete package, while the MOKiN, 14-in-1, and 11-in-1 picks all specifically note the charger is not included, requiring a separate purchase to achieve their stated maximum charging wattage." }
+  {
+    "q": "Are these true USB4 docks?",
+    "a": "No. They are USB-C docks and hubs; none lists a 40Gbps USB4 link. They work with USB4 laptops, but the speeds are lower. A real USB4 or Thunderbolt dock costs more, so check the listing for a stated bandwidth. Look for a stated Gbps figure."
+  },
+  {
+    "q": "Why does my Mac show the same screen on both monitors?",
+    "a": "Many USB-C docks use a single video stream, which macOS mirrors on base M-series chips. The MOKiN and 14-in-1 docks support dual or triple display mainly on Windows, so check your Mac's display limit first. Check Apple's tech specs for your chip."
+  },
+  {
+    "q": "Is the Anker Nano worth paying more than the MOKiN?",
+    "a": "If you want a charger included and a detachable 6-in-1 hub. The Anker ships a 140W adapter and offers triple display. The MOKiN costs far less but needs your own USB-C charger. Both fit most laptops with a USB-C port."
+  },
+  {
+    "q": "Can I use my laptop's charger with the MOKiN?",
+    "a": "Yes. The listing says 100W PD but the adapter is not included, so connect your laptop's own USB-C charger to the dock's PD port. Match or exceed the laptop's wattage to avoid slow charging. Use a charger rated at or above your laptop's original."
+  },
+  {
+    "q": "Will a 10/100 Ethernet hub slow my internet?",
+    "a": "If your plan is faster than 100Mbps, yes. The 11-in-1 hub is capped at 10/100, while the MOKiN offers 1000Mbps. For video calls it is fine, but large downloads will be capped. A wired Gigabit connection matters for fast plans."
+  },
+  {
+    "q": "Do these docks get hot?",
+    "a": "They can warm up under load, especially with dual 4K output. Leave space for airflow, avoid stacking items on top, and unplug if the dock stays hot while idle. A tight stack of chargers and docks traps heat."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

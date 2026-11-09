@@ -104,116 +104,150 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Compared genuine 28-32 inch options near the 30 inch target", description: "Since exact 30 inch listings are less common than nearby sizes, we included the closest confirmed options and disclosed exact dimensions where they varied." },
-  { title: "Flagged where confirmed data showed a slightly different size than the strict target", description: "We noted directly where a pick is confirmed at 28 or 32 inches rather than exactly 30." },
-  { title: "Weighed review volume across VIVO's near-30-inch product line", description: "We compared VIVO's K Series 28 inch model's massive review pool against other alternatives at this general size tier." },
-  { title: "Disclosed where pricing wasn't confirmed for a specific listing", description: "We flagged one pick's unconfirmed current pricing rather than guessing at a figure." }
+  {
+    "title": "Real platform width versus the 30 inch label",
+    "description": "The picks here range from 28 to 32 inches, so we read each listed platform width rather than trusting the keyword. A 30 inch deck fits one monitor and a laptop but not two monitors, so we treated width as the hard filter and marked any listing that does not confirm its exact dimension."
+  },
+  {
+    "title": "Fit on a narrow desk",
+    "description": "Converters at this size usually go on desks 36 to 48 inches wide, where a bigger platform would hang past the edge. We compared how much of the desk each width leaves for a mouse pad, notebook, or mug, because a deck that covers the whole desk leaves no space beside it."
+  },
+  {
+    "title": "Lift mechanism and speed",
+    "description": "We read whether each listing is a manual lift and whether it describes how fast it moves. The JYLH is marketed for quick sit-to-stand transitions. A converter you dread adjusting gets left in one position, which defeats the purchase. We did not credit speed claims that the listing could not back with a specific mechanism."
+  },
+  {
+    "title": "What was confirmed versus assumed",
+    "description": "Several listings here confirm a review base but not full dimensions, and the alternate VIVO listing says to verify exact size. We counted unconfirmed dimensions against the pick and told buyers to check the listing before ordering. Brand names counted for less than confirmed dimensions in this size class."
+  },
+  {
+    "title": "Price tier within a small size class",
+    "description": "Prices run from under $100 for the VIVO 28 inch DESK-V028S to under $140 for the JYLH. At a size where the hardware is nearly identical, we weighed how much each extra inch or brand name costs, and credited lower-cost picks with equal confirmed width."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Platform Size",
+    "subheading": "By Monitor Setup",
+    "intro": "At 30 inches of platform, the question is what fits on top, not how pretty it looks.",
     "table": {
       "headers": [
-        "Your monitor setup",
-        "Recommended pick in this comparison"
+        "Your setup",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Single monitor or laptop, small desk",
-          "VIVO 28 inch Desk Converter"
+          "One monitor up to about 27 inches and a laptop below it",
+          "VIVO Black 32 inch Standing Desk Riser (DESK-V000S), the pick closest to a true 30 inch deck"
         ],
         [
-          "Dual monitors",
-          "VIVO 28 inch Desk Converter"
+          "One monitor with a keyboard and a mouse, on a very small desk",
+          "VIVO 28 inch Desk Converter, K Series, which lists dual-monitor support on a 28 inch deck"
         ],
         [
-          "Triple monitors, need maximum surface area",
-          "JYLH JOYSEEKER 32 inch Standing Desk Converter"
+          "A laptop riser with an external keyboard only",
+          "DESK-V028S, a plain 28 inch platform at the lowest price"
+        ],
+        [
+          "A single wide monitor that needs a deeper stance",
+          "JYLH JOYSEEKER 32 inch converter, the widest deck here"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Price differences here are about the size of one monitor stand.",
     "table": {
       "headers": [
-        "Price range",
+        "Price tier",
         "Recommended pick"
       ],
       "rows": [
         [
           "Under $100",
-          "VIVO Black 28 in Standing Desk Converter"
+          "DESK-V028S Standing Desk Converter, the cheapest confirmed pick"
         ],
         [
-          "Mid-range",
-          "VIVO Black 32 inch Standing Desk Riser"
+          "Under $120",
+          "VIVO 28 inch Desk Converter, K Series, with dual-monitor support"
         ],
         [
-          "No firm budget ceiling, prioritizing lift quality or brand",
-          "JYLH JOYSEEKER 32 inch Standing Desk Converter"
+          "Under $130",
+          "VIVO Black 32 inch, the near 30 inch pick"
+        ],
+        [
+          "Under $140",
+          "JYLH JOYSEEKER, with a quick sit-to-stand design"
         ]
       ]
     }
   },
   {
-    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "subheading": "28 Inch vs 32 Inch Platform",
+    "intro": "Neither size is exactly 30, so the real choice is whether to give up an inch or two or take two inches more.",
     "cards": [
       {
-        "label": "Manual (Gas-Spring)",
-        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO Black 32 inch Standing Desk Riser, VIVO 28 inch Desk Converter, VIVO Black 28 in Standing Desk Converter."
+        "label": "28 inch (VIVO 28 inch Desk Converter, DESK-V028S)",
+        "text": "Leaves more desk visible on each side and suits a 24 inch monitor and a compact keyboard. The tradeoff is that a 27 inch monitor base and a wireless mouse leave little room to spare."
       },
       {
-        "label": "Electric (Motorized)",
-        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: none in this specific roundup, since most picks here use a manual lift."
+        "label": "32 inch (VIVO Black 32 inch, JYLH JOYSEEKER)",
+        "text": "Fits a larger monitor base with room for a keyboard and mouse together. It takes more of a 36 inch desk, so measure the desk before choosing."
       }
     ],
-    "note": "Every pick in this specific comparison uses a manual lift; check our broader converter roundup if you specifically want an electric option."
+    "note": "Most buyers with a single 24 to 27 inch monitor should default to a 32 inch deck unless the desk itself is under 40 inches wide."
   },
   {
-    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "subheading": "By Desk Width",
+    "intro": "Match the platform to the desk it sits on, not just the monitor.",
     "table": {
       "headers": [
-        "What you're weighing",
+        "Your desk",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Highest star rating",
-          "VIVO Black 32 inch Standing Desk Riser"
+          "A 36 inch wide desk",
+          "VIVO 28 inch Desk Converter or DESK-V028S, so the deck leaves hand room on each side"
         ],
         [
-          "Largest review base (more statistical confidence)",
-          "VIVO 28 inch Desk Converter"
+          "A 42 to 48 inch wide desk",
+          "VIVO Black 32 inch, the closest to a true 30 inch deck"
+        ],
+        [
+          "A desk with a side drawer unit",
+          "JYLH JOYSEEKER, if the drawers will not catch on the base"
         ]
       ]
     }
   },
   {
-    "subheading": "For a Dual-Monitor Setup Specifically",
+    "subheading": "For a Compact Home Office Specifically",
+    "intro": "A spare-room desk usually holds one monitor and a laptop dock.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+        "text": "A confirmed platform width, a listing that states the lowest and highest height, and enough depth for a keyboard in front of the monitor."
       },
       {
         "label": "In this comparison",
-        "text": "VIVO 28 inch Desk Converter fits this specifically: Massive review base near this size tier."
+        "text": "The VIVO Black 32 inch is the closest to the 30 inch target, while the Alternate Listing Near 30 listing needs its exact size verified before you order."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "The next size up opens up dual-monitor use.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what JYLH JOYSEEKER 32 inch Standing Desk Converter offers: Solid review base, marketed for fast position transitions. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "You need two monitors. The 36 inch standing desk converter guide covers wider decks, and the JYLH JOYSEEKER at 32 inches is the widest pick here."
       },
       {
         "label": "Save if",
-        "text": "VIVO Black 28 in Standing Desk Converter already covers the essentials: Solid review base under $100. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+        "text": "One monitor is enough. The DESK-V028S and VIVO 28 inch Desk Converter cost the least and still cover a single-monitor setup."
       }
     ]
   }
@@ -221,33 +255,52 @@ export const howToChoose: HowToChooseSection[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Measure your existing desk's height before ordering",
-    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all.\n\nThis matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand.\n\nBefore ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+    "criterion": "Lowest seated height of the stack",
+    "explanation": "A converter sits on top of your desk, so its deck adds inches even in the lowest position. On a desk already at typing height, that extra rise can push a keyboard above your elbows while you sit. Look for the platform's minimum height in the listing, add it to your desk height, and check that your forearms stay level.  Rest your hands on the desk and see where your forearms land before adding the deck."
   },
   {
-    "criterion": "Match platform size to your actual number of monitors",
-    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up.\n\nA platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge.\n\nCheck the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+    "criterion": "Platform width versus monitor plus laptop",
+    "explanation": "A deck near 30 inches fits one monitor and a laptop, but retailers advise wider decks for two monitors. The picks here run from 28 to 32 inches, so a 28 inch deck leaves less room for a mouse than a 32 inch one. Measure the monitor base footprint and the space beside it, and compare against the listed deck width.  The 32 inch JYLH and VIVO decks give the most mouse room in this guide."
   },
   {
-    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
-    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price.\n\nIf you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying.\n\nCheck the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+    "criterion": "Dimensions the listing does not confirm",
+    "explanation": "One listing here is labeled near 30 inches and tells you to verify the size. A deck a few inches off can overhang a narrow desk or leave too little room for a keyboard. Look at the product images for a printed dimension drawing, and ask the seller if the width and depth are not in the bullets."
   },
   {
-    "criterion": "Check your desk's depth against the converter's base footprint",
-    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base.\n\nThis matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view.\n\nCheck the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+    "criterion": "Weight rating for one heavy monitor",
+    "explanation": "A small converter is usually bought for a single monitor, but a 32 inch screen or a laptop dock adds up quickly. Listings in this data do not always give a rating, so a heavy load can strain the lift. Find the stated capacity on the page, then add the monitor, laptop, and accessories.  Weigh the monitor from its spec sheet instead of guessing."
   },
   {
-    "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "criterion": "Wall clearance when the deck rises",
+    "explanation": "Most converters move forward as they rise, so a desk against a wall can block the lift. A 28 to 32 inch deck needs less clearance than a wide one, but a few inches still matter. Measure the gap behind the desk and check the listing for the forward travel."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Is there a converter confirmed at exactly 30 inches?", a: "Exact 30 inch listings are less common than 28 or 32 inch alternatives; we included the closest confirmed options and disclosed exact dimensions." },
-  { q: "Which near-30-inch converter has the most reviews?", a: "The VIVO 28 inch Desk Converter, K Series, sharing VIVO's massive K Series review pool of 15,583." },
-  { q: "What's the cheapest option near this size?", a: "The VIVO Black 28 in Standing Desk Converter at under $100." },
-  { q: "Should I consider 32 inches instead?", a: "If your desk has flexibility, our 32-inch specific guide may offer additional confirmed options at that exact size." },
-  { q: "Is there a quick-adjust option near 30 inches?", a: "Yes, the JYLH JOYSEEKER 32 inch Standing Desk Converter is marketed specifically for fast sit-to-stand transitions." }
+  {
+    "q": "Will a 30 inch standing desk converter hold two monitors?",
+    "a": "Usually not comfortably. A 30 inch deck suits one monitor plus a laptop, and retailers suggest wider decks for two monitors. The VIVO 28 inch K Series lists dual-monitor support, so confirm your monitor bases fit side by side."
+  },
+  {
+    "q": "Why are there no exact 30 inch picks in this guide?",
+    "a": "Standard decks come in 28, 32, 36 inches and so on, so true 30 inch models are rare. The VIVO DESK-V000S is listed as close to 30 inches. Always check the listing's platform dimension before ordering. Verify each listing's stated size."
+  },
+  {
+    "q": "Is the JYLH JOYSEEKER worth paying more than the VIVO 28 inch?",
+    "a": "If you need the extra four inches of deck, yes. The JYLH is marketed for quick transitions and costs more, while the VIVO 28 inch K Series costs less and has dual-monitor support on a narrower platform."
+  },
+  {
+    "q": "What should I measure before buying a 30 inch converter?",
+    "a": "Measure the desk width and depth, the monitor stand footprint, and the distance from the desk edge to a wall. A converter that overhangs the desk or hits the wall will not slide forward when lifted. Take photos of the cable layout so you can rebuild it after a move."
+  },
+  {
+    "q": "How do I set up a manual converter?",
+    "a": "Place it on the desk, lift the deck to a comfortable height with the release handle, and load monitors afterward. Keep the heavier items near the center, and keep cables slack so they do not catch in the arms."
+  },
+  {
+    "q": "Do I need to worry about weight capacity on a small converter?",
+    "a": "Yes. Retail guides flag this as a common oversight, and these listings do not state a rating in the data we have. Check the capacity on the listing, and leave a margin above the weight of your monitor, laptop, and accessories."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

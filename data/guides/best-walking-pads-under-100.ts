@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Motor Power and Speed Range", "description": "Compared stated motor HP and speed ranges across the lineup." },
-  { "title": "Belt Cushioning", "description": "Compared belt layer count and shock absorption design across all four picks." },
-  { "title": "Weight Capacity", "description": "Compared stated weight limits ranging from 264 to 265 lbs across the tier." },
-  { "title": "Incline and Handle Bar Features", "description": "Checked which picks offer built-in incline or a removable handle bar." },
-  { "title": "Portability and Assembly", "description": "Compared folded dimensions, weight, and assembly requirements across the lineup." }
+  { "title": "Belt area against the price ceiling", "description": "We compared listed walking-area figures, from the 90cm x 38cm deck on the Handle Bar Foldable to the roomier pad on the 2.5HP with Remote. At this budget a belt near 35 inches is the realistic norm, so we flagged any pick where a taller walker would have to shorten their stride at a comfortable pace." },
+  { "title": "Cushioning layers you can verify", "description": "We counted the belt layers and shock absorbers each listing actually names, such as the 5-layer belt on the 2.5HP with Remote and the 6-layer design on the 8% Incline. Under $100 cushioning is the main thing separating a pad you can use for an hour from one that makes your knees complain." },
+  { "title": "Stated capacity versus your body weight", "description": "Every pick lists a weight limit around 264 to 265 lbs, so we treated 50 lbs of headroom as the safe rule and noted which buyers sit near the ceiling. Running a motor close to its rated load shortens its life, which matters more when the pad costs less than a month of gym fees." },
+  { "title": "Incline and handle bar trade-offs", "description": "We checked which picks add an 8% incline or a removable handle bar, because each feature adds moving parts and weight on a very tight budget. We weighed whether the extra feature was usable for ordinary desk walking or only a spec-sheet bullet." },
+  { "title": "Storage, noise and setup effort", "description": "We compared folded dimensions, transport wheels, assembly steps and any stated decibel figure. A pad in this tier will usually live under a bed or sofa between sessions, and a loud or fiddly setup is the most common reason buyers stop using a cheap treadmill." }
 ];
 
 export interface HowToChooseSection {
@@ -102,58 +102,64 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "At this price each pad wins on one thing, so start with the feature you would actually notice every day.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
-        ["The most cushioned belt and largest walking area", "Walking Pad Treadmill with Remote, 2.5HP"],
-        ["Built-in incline for more intense workouts", "Walking Pad Treadmill, 8% Incline Under Desk Treadmill"],
-        ["A removable handle bar for walking and jogging", "Walking Pad Treadmill with Handle Bar, Foldable"],
-        ["The simplest, lowest-cost option", "Walking Pad Treadmill, Mini Portable with Adjustable Speed"]
+        ["The most cushioned belt plus the roomiest deck for longer desk sessions", "2.5HP with Remote, whose 5-layer belt and silicone shock absorbers lead the group"],
+        ["A steeper walk for more calorie burn without buying a bigger machine", "8% Incline, which pairs the slope with a 6-layer belt and a motor rated under 45 dB"],
+        ["Jogging support or something to hold while you find your balance", "Handle Bar Foldable, thanks to the removable bar and detachable phone holder"],
+        ["A no-assembly pad that slips under furniture between uses", "Mini Portable, which arrives ready to use with transport wheels"],
+        ["Quiet operation for calls in a shared apartment", "8% Incline, since it is the only listing here with a stated noise figure under 45 dB"]
       ],
     },
   },
   {
     subheading: "By Budget",
+    intro: "These four sit within under $40 of each other, so the real question is what a few extra dollars buys.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $80", "Mini Portable (under $80)"],
-        ["Under $90", "Handle Bar Foldable (under $90)"],
-        ["Under $100", "8% Incline (under $100)"],
-        ["Under $110", "2.5HP with Remote (under $110)"]
+        ["Under $80, the cheapest way to start walking at your desk", "Mini Portable, at the bottom of the tier"],
+        ["Under $90 with a handle bar for stability", "Handle Bar Foldable, the best support-per-dollar pick"],
+        ["Under $125 if you want an incline included", "8% Incline, which costs only slightly more than the flat pads"],
+        ["Just over $100 for the best belt and largest deck here", "2.5HP with Remote, the most expensive pick in the tier"],
+        ["Above $100, where the under $150 guide opens up 3 selectable incline levels", "Step up to the next tier rather than stretching this one"]
       ],
     },
   },
   {
-    subheading: "Flat Belt vs Built-In Incline",
+    subheading: "Casual Walking vs Workout Intensity",
     cards: [
-      { label: "Flat belt (2.5HP with Remote, Handle Bar Foldable, Mini Portable)", text: "Provides a simple, stable walking surface without added workout intensity, better for casual walking during desk work." },
-      { label: "Built-in incline (8% Incline)", text: "Increases calorie burn and muscle engagement over flat walking, better for buyers specifically prioritizing workout intensity in a compact frame." }
+      { label: "Casual walking (2.5HP with Remote, Handle Bar Foldable, Mini Portable)", text: "A flat belt at 1 to 4 mph keeps your hands free for typing and your heart rate low enough to hold a conversation. These three suit buyers who simply want to stop sitting for hours." },
+      { label: "Workout intensity (8% Incline)", text: "A fixed 8% slope raises effort at the same speed, so a short session feels harder on the legs and glutes. It is the only pick here that adds that without a pricier machine." }
     ],
-    note: "If you're mainly walking casually while working, a flat belt keeps things simple. If you want a more intense workout without upgrading to a pricier incline treadmill, the 8% Incline pick delivers that at a similar price to the flat options.",
+    note: "Most desk workers should default to a flat pad and treat incline as a bonus, unless the goal is a short, harder session between meetings.",
   },
   {
-    subheading: "By Handle Bar Preference",
+    subheading: "By Support and Stability Preference",
     table: {
-      headers: ["Your support needs", "Recommended pick"],
+      headers: ["Your situation", "Recommended pick"],
       rows: [
-        ["Removable handle bar for jogging support", "Handle Bar Foldable"],
-        ["No handle bar, purely flat under-desk use", "2.5HP with Remote, 8% Incline, or Mini Portable"]
+        ["You are nervous on a moving belt or returning from a layoff", "Handle Bar Foldable, since you can hold the bar while the belt gets going"],
+        ["You walk only at your standing desk and never jog", "Mini Portable, because a handle bar would only get in the way"],
+        ["You want support but also a slope", "8% Incline, the one pick with an incline in this price class"],
+        ["You are close to the 264 lb limit", "2.5HP with Remote, whose 2.5HP motor is the strongest listed here"]
       ],
     },
   },
   {
-    subheading: "For a Small Apartment With Limited Storage Specifically",
+    subheading: "For Apartment Renters Specifically",
     cards: [
-      { label: "Look for", text: "A compact folded profile with built-in transport wheels, so the pad slides easily under furniture without requiring a dedicated storage closet." },
-      { label: "In this comparison", text: "The Mini Portable pick's lightweight structure and transport wheels specifically support easy storage under a bed, sofa, or desk in tight apartment layouts." }
+      { label: "Look for", text: "Transport wheels, a folded profile low enough to slide under a bed, and a stated noise level you can live with below a neighbour. Skip anything that needs tools or a spare closet." },
+      { label: "In this comparison", text: "Mini Portable ships ready to use with wheels, and Handle Bar Foldable collapses to 104 x 48.7 x 10.5cm. The 8% Incline is the better choice if thin walls are your main worry." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the most cushioned belt and largest walking surface, where the 2.5HP with Remote pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You just want a simple, no-assembly walking pad for casual desk use, where the Mini Portable pick covers that for about $30 less." }
+      { label: "Spend more if", text: "You plan to walk for an hour or more daily, weigh above roughly 215 lbs, or want selectable slopes. The under $150 guide adds 3 incline levels and 300 lb or higher capacity, which is a real jump in durability." },
+      { label: "Save if", text: "You are testing whether a desk treadmill fits your habits. Mini Portable gets you walking for under $40 less than the 2.5HP with Remote, and any pad here beats the cost of an unused machine." }
     ],
   }
 ];
@@ -182,12 +188,12 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I use the flat walking pads in this tier for jogging, or are they walking-only?", "a": "The flat picks without a handle bar, like the 2.5HP with Remote and 8% Incline models, are generally designed for walking speeds and don't provide the stability support recommended for jogging, so the Handle Bar Foldable pick is the better choice if you want to jog occasionally." },
-  { "q": "What's the most common mistake buyers make when choosing a walking pad with incline at this tier?", "a": "Expecting a continuously adjustable incline range like a gym treadmill offers, when budget picks like the GTYY2FLL typically provide a single fixed incline percentage rather than multiple selectable levels." },
-  { "q": "Is the 2.5HP with Remote pick worth it over the cheaper Mini Portable option?", "a": "If you want the most cushioned belt and largest walking surface, yes, but if you just want a simple, no-assembly walking pad for casual desk use, the Mini Portable pick covers that for about $30 less." },
-  { "q": "How do I know if a walking pad's noise level will actually disrupt my video calls?", "a": "Check for a specific decibel figure in the listing, like the GTYY2FLL's stated under 45 dB rating, and compare that against your own sensitivity, since anything under 45-50 dB is generally comparable to a quiet conversation and unlikely to be picked up prominently on most video call microphones." },
-  { "q": "Do any of these walking pads require professional installation or assembly?", "a": "No, all four picks in this comparison are designed for minimal or no assembly, with the Mini Portable pick specifically requiring none at all, making them all suitable for immediate use out of the box." },
-  { "q": "Can I use these walking pads on carpet, or do they need a hard floor?", "a": "Most budget walking pads at this tier are designed for hard floor use, and using one on thick carpet can affect stability and belt performance, so placing a hard mat underneath is worth considering if your only available space has carpet." }
+  { "q": "Can I use a walking pad under $100 for jogging?", "a": "Mostly no. Walking pads are built for around 4 mph, and only the Handle Bar Foldable offers a removable bar for added support. If you jog even occasionally, a pad with a higher rated top speed and a stronger motor, like those in the under $200 tier, will hold up better." },
+  { "q": "What is the most common mistake with cheap walking pads?", "a": "Trusting the headline horsepower. Peak HP figures like 2.5HP describe a brief burst, not what the motor sustains while you walk for an hour. Compare stated weight capacity and belt layers instead, and keep at least 50 lbs between your weight and the limit." },
+  { "q": "Is the 2.5HP with Remote worth more than the Mini Portable?", "a": "If you walk daily, yes. The 2.5HP with Remote adds a 5-layer belt, silicone shock absorbers and a larger deck for a modest step up in cost. If you only want occasional movement while on calls, the Mini Portable does the basic job and stores more easily." },
+  { "q": "How do I set up a walking pad at a standing desk?", "a": "Place it on a hard, level floor with about 3 feet of clear space behind it, and lower your desk so your elbows sit near 90 degrees while you walk. Start at 1 mph, keep your gaze forward, and check that the cable has enough slack to never stretch." },
+  { "q": "Does a walking pad need lubricating?", "a": "Many do, though the schedule varies by model. Check the manual for belt lubrication and tension guidance, wipe dust from the deck edges monthly, and never walk in shoes with debris on the soles. Neglected belts get louder and can strain a budget motor." },
+  { "q": "Will a walking pad damage my floor or annoy neighbours?", "a": "Hard floors are rarely harmed, but a rubber mat under the pad cuts vibration and protects thin carpet. Noise is mostly footfall thud rather than motor hum, so a mat and a lower speed help more than chasing a lower decibel claim." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

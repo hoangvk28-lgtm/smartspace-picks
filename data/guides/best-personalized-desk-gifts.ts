@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31DIqoS2zvL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D4D61FSX?tag=deskfinds0d-20",
-    "description": "MOOGCO is a black glass desk name plate with a built-in clock and a pen holder that comes with 2 pens, sold as a custom piece for executive desks and reception areas.\n\nIt costs about $99, many times more than the other name plates here, and is the only one that tells time. Against ExcelMark below, it is flashier and more functional.\n\nBest for a retirement or major promotion. The caveat is that the listing gives few dimensions and the price is hard to justify for casual gifting.",
+    "description": "MOOGCO is a black glass desk name plate with a built-in clock and a pen holder that comes with 2 pens, sold as a custom piece for executive desks and reception areas.\n\nIt costs under $100, many times more than the other name plates here, and is the only one that tells time. Against ExcelMark below, it is flashier and more functional.\n\nBest for a retirement or major promotion. The caveat is that the listing gives few dimensions and the price is hard to justify for casual gifting.",
     "specs": [
       "Black glass name plate",
       "Built-in clock",
@@ -40,7 +40,7 @@ export const products: GuideProduct[] = [
       "Memorable gift"
     ],
     "cons": [
-      "About $99",
+      "Under $100",
       "Few dimensions listed"
     ],
     "bestFor": "Retirements and major promotions"
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/415+RAm-KEL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HJHHN2Q5?tag=deskfinds0d-20",
-    "description": "SAFESYZ is a birch plywood organizer and phone docking station with compartments for a phone, wallet, keys, watch and pens. It comes blank, as a ready-made Best Dad Ever design or personalized.\n\nIt costs about $30 and does more than any name plate, since it holds everyday items. Against ExcelMark below, it is functional instead of formal.\n\nBest for a dad or partner who drops keys on the desk. The caveat is that plywood is less premium than solid wood.",
+    "description": "SAFESYZ is a birch plywood organizer and phone docking station with compartments for a phone, wallet, keys, watch and pens. It comes blank, as a ready-made Best Dad Ever design or personalized.\n\nIt costs under $40 and does more than any name plate, since it holds everyday items. Against ExcelMark below, it is functional instead of formal.\n\nBest for a dad or partner who drops keys on the desk. The caveat is that plywood is less premium than solid wood.",
     "specs": [
       "Birch plywood organizer",
       "Phone dock, compartments",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41TJVMm7KNL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08MKNL29Q?tag=deskfinds0d-20",
-    "description": "ExcelMark is a solid wood name plate in walnut or rosewood, with a 2 by 8 inch digitally printed plate on a 1.75 by 2.25 inch wooden block and gold or other lettering, in 3 style options.\n\nIt costs about $28, and is a classic office look. Against Gowelly below, it uses wood instead of acrylic.\n\nBest for a professional promotion. The caveat is that the printed plate is not engraved.",
+    "description": "ExcelMark is a solid wood name plate in walnut or rosewood, with a 2 by 8 inch digitally printed plate on a 1.75 by 2.25 inch wooden block and gold or other lettering, in 3 style options.\n\nIt costs under $30, and is a classic office look. Against Gowelly below, it uses wood instead of acrylic.\n\nBest for a professional promotion. The caveat is that the printed plate is not engraved.",
     "specs": [
       "2 x 8 inch printed plate",
       "Walnut or rosewood block",
@@ -97,7 +97,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Printed, not engraved",
-      "Costs about $28"
+      "Costs under $30"
     ],
     "bestFor": "Classic professional gifts"
   },
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/417kivdaG6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FWXPM7WS?tag=deskfinds0d-20",
-    "description": "SNXDO is a solid wood pen holder with laser engraving for a name and message, measuring 6.2 inches wide, 2.7 inches deep and 3.1 inches tall, with two compartments.\n\nIt costs about $22, and is smaller than SAFESYZ. Marketed for teachers, it works for anyone.\n\nBest for a classroom or office thank you. The caveat is that it holds only pens and tools.",
+    "description": "SNXDO is a solid wood pen holder with laser engraving for a name and message, measuring 6.2 inches wide, 2.7 inches deep and 3.1 inches tall, with two compartments.\n\nIt costs under $25, and is smaller than SAFESYZ. Marketed for teachers, it works for anyone.\n\nBest for a classroom or office thank you. The caveat is that it holds only pens and tools.",
     "specs": [
       "6.2 x 2.7 x 3.1 inches",
       "Laser engraved",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51IhvttQzNL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FWHZYC54?tag=deskfinds0d-20",
-    "description": "Idiyfun is a custom desk name plate made and shipped in the USA, printed with UV-cured ink, in designs from minimalist to classic.\n\nAt about $10 it is the cheapest-feeling option, and a few cents more than the other two small plates. Against ExcelMark, it is much cheaper and uses less costly materials.\n\nBest for a quick gift. The caveat is that the material is not named in the visible listing.",
+    "description": "Idiyfun is a custom desk name plate made and shipped in the USA, printed with UV-cured ink, in designs from minimalist to classic.\n\nAt under $15 it is the cheapest-feeling option, and a few cents more than the other two small plates. Against ExcelMark, it is much cheaper and uses less costly materials.\n\nBest for a quick gift. The caveat is that the material is not named in the visible listing.",
     "specs": [
       "UV-cured ink printing",
       "Made in the USA",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51OWpC6KTOL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07VFX2M8G?tag=deskfinds0d-20",
-    "description": "My Sign Center makes a laser-engraved name plate for a desk, door or wall, with customizable name and title and a holder included.\n\nIt costs about $10, and the main difference from the acrylic ones is engraving. Against Idiyfun, it adds the option to mount on a door.\n\nBest for offices, schools or hospitals. The caveat is that materials are described generically.",
+    "description": "My Sign Center makes a laser-engraved name plate for a desk, door or wall, with customizable name and title and a holder included.\n\nIt costs under $15, and the main difference from the acrylic ones is engraving. Against Idiyfun, it adds the option to mount on a door.\n\nBest for offices, schools or hospitals. The caveat is that materials are described generically.",
     "specs": [
       "Laser engraved",
       "Desk, door or wall use",
@@ -219,7 +219,7 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Proofing and spelling risk",
-    "explanation": "Custom orders are usually made after you pay, so a typo cannot be returned. Names with accents or unusual spellings are the most common mistake. Read the preview twice and have someone else check it."
+    "explanation": "Custom orders are usually made after you pay, so a typo cannot be returned. Names with accents or unusual spellings are the most common mistake. Read the preview twice and have someone else check it. Check capital letters, hyphens and accents on the preview, since a laser cannot undo a mistake once the plate is cut."
   },
   {
     "criterion": "Printed versus engraved",
@@ -227,19 +227,19 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Material and finish",
-    "explanation": "Glass, solid wood, plywood and acrylic differ in feel and durability. Solid wood scratches less visibly than acrylic. Check the material named in the listing."
+    "explanation": "Glass, solid wood, plywood and acrylic differ in feel and durability. Solid wood scratches less visibly than acrylic. Check the material named in the listing. Glass and acrylic show fingerprints and scratches, while solid wood hides wear and ages with a warmer look. Clear acrylic suits a modern desk, walnut or rosewood a traditional one, and black glass an executive look."
   },
   {
     "criterion": "Lead time and shipping",
-    "explanation": "Custom items take days to make, and rush options cost more. A gift for a specific date needs margin. Look for 'ships next day' or a stated production time."
+    "explanation": "Custom items take days to make, and rush options cost more. A gift for a specific date needs margin. Look for 'ships next day' or a stated production time. Allow a week or more for production on top of transit unless a seller states next-day shipping. For a gift due Friday, order two weeks early and confirm the seller states a production window."
   },
   {
     "criterion": "Dimensions and desk fit",
-    "explanation": "A name plate should fit the front edge of a desk, and organizers need depth. A 19 inch organizer overwhelms a small desk. Check the dimensions in inches."
+    "explanation": "A name plate should fit the front edge of a desk, and organizers need depth. A 19 inch organizer overwhelms a small desk. Check the dimensions in inches. A plate 8 inches wide fits a 24 inch front edge, but a pen holder over 6 inches deep crowds a shallow desk."
   },
   {
     "criterion": "Return policy",
-    "explanation": "Personalized goods are often non-returnable. Check whether the seller will remake it if there is a defect. Read the policy before ordering."
+    "explanation": "Personalized goods are often non-returnable. Check whether the seller will remake it if there is a defect. Read the policy before ordering. If the policy says remake only, treat the proof as your only chance to catch an error. Ask whether a seller will remake a plate for a typo they made and whether proofs are free."
   }
 ];
 
@@ -247,19 +247,23 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     "title": "Personalization method",
-    "description": "We compared engraving versus printing and what customization options each listing offers."
+    "description": "We separated laser engraving on SNXDO and My Sign Center from UV printing on Idiyfun, Gowelly and ExcelMark. Engraving cuts into the material and tends to hold up to cleaning, while UV ink suits color and logos, and one seller notes that printing the back of acrylic protects it from wear."
   },
   {
-    "title": "Materials and size",
-    "description": "Stated materials and dimensions were weighed for durability and desk fit."
+    "title": "Materials and desk fit",
+    "description": "Sizes range from ExcelMark's 2 x 8 inch plate to SNXDO's 6.2 x 2.7 x 3.1 inch pen holder, and materials include walnut, rosewood, birch plywood, acrylic and black glass. We checked each against a typical front-edge name plate position and a small desk's depth."
   },
   {
-    "title": "Order risk",
-    "description": "We noted lead time and clarity of the listing, since custom orders are hard to return."
+    "title": "Order risk and proofing",
+    "description": "Custom goods are made after payment and are often non-returnable, so spelling errors are costly. We looked for preview proofs, remake policies and any listing note about special characters, and we gave credit to sellers that state a policy instead of staying silent."
   },
   {
-    "title": "Price",
-    "description": "Price was compared with material and function."
+    "title": "Lead time and delivery",
+    "description": "Idiyfun advertises next-day shipping and made-in-USA production, and Gowelly lists US production. We noted that production time was not stated by every seller, which matters for a gift due on a specific date, so we gave a clear timeframe more weight."
+  },
+  {
+    "title": "Price against the gift",
+    "description": "Prices run from under $10 for the acrylic and printed plates up to near $100 for the MOOGCO glass plate with a clock and pen set. We asked who each suits: a quick coworker gift, a desk-warming present for a new hire, or an executive gift."
   }
 ];
 
@@ -309,7 +313,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Gowelly Custom Acrylic Desk Name Plate"
         ],
         [
-          "About $10",
+          "Under $15",
           "Idiyfun Ship Next Day Custom Desk Name Plate"
         ],
         [
@@ -390,7 +394,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "It is a casual thank-you. Gowelly Custom Acrylic Desk Name Plate and Idiyfun Ship Next Day Custom Desk Name Plate cost about $10."
+        "text": "It is a casual thank-you. Gowelly Custom Acrylic Desk Name Plate and Idiyfun Ship Next Day Custom Desk Name Plate cost under $15."
       }
     ]
   }
@@ -400,27 +404,27 @@ export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
     "q": "Can I return a personalized gift?",
-    "a": "Usually not, unless the seller made an error. Check the policy and proof carefully before confirming a plate like the ExcelMark Walnut or Gowelly Acrylic, since misspellings are the usual cause of problems."
+    "a": "Usually not for a change of mind. Personalized goods are made after you order, so most sellers accept returns only for defects or production mistakes, and some will remake a plate that has a seller-side typo. Read the policy before paying, and double-check spelling on the preview."
   },
   {
     "q": "Engraved or printed, which lasts longer?",
-    "a": "Engraving is cut into the material and lasts longer, as on the SNXDO Engraved Wood Pen Holder and My Sign Center plate. UV ink on the back of acrylic, like Gowelly, is also durable. Surface printing wears first."
+    "a": "Engraved text is cut into the material and tends to last longer under wiping and handling, as on SNXDO and My Sign Center. UV ink can last for years too, and Gowelly prints on the back of acrylic so the surface protects it, but a printed face can scratch."
   },
   {
-    "q": "Is a $99 name plate worth it?",
-    "a": "For a retirement or big milestone it can be. The MOOGCO Custom Black Glass Name Plate adds a clock and pen holder with 2 pens. For casual gifts, a simpler plate like the Idiyfun is plenty."
+    "q": "Is the glass name plate with a clock worth the premium?",
+    "a": "Only for an executive or reception desk gift. MOOGCO's black glass plate adds a clock and a pen holder with two pens, which makes it a showpiece, but it costs several times the acrylic plates. For a coworker or a new hire, ExcelMark's walnut or Gowelly's acrylic is plenty."
   },
   {
     "q": "How long does production take?",
-    "a": "It varies. Some listings say ships next day, like the Idiyfun, and others do not state a time, so ask first. Order early for a holiday deadline."
+    "a": "It varies and often is not stated. Idiyfun advertises next-day shipping, while most other sellers list a production window plus transit. If the gift has a date, order at least two weeks ahead, confirm the production time in the listing, and avoid rush options that skip the proof."
   },
   {
     "q": "What if the name has special characters?",
-    "a": "Confirm the seller supports them, and check the preview for accents. The ExcelMark and My Sign Center plates are custom printed or engraved, so message the seller before ordering."
+    "a": "Check the listing and ask the seller before ordering. Accents and unusual spellings are the most common errors, and an engraved plate cannot be corrected afterward. Spell it exactly as the recipient does, add a note if needed and review the preview carefully."
   },
   {
     "q": "How do I clean a name plate?",
-    "a": "Wipe with a soft dry cloth. Avoid harsh cleaners on printed surfaces, and keep the MOOGCO glass away from abrasive sprays."
+    "a": "Wipe wood with a dry or barely damp cloth and avoid soaking it. Acrylic and glass can take a soft cloth and mild soap, but harsh alcohol cleaners can cloud acrylic and fade printed text. Engraved plates tolerate more wiping than printed ones, but none should be scrubbed."
   }
 ];
 

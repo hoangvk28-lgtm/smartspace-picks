@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Actual PD Wattage vs Adapter Rating", "description": "Compared the disclosed real Power Delivery figure against the adapter's total headline wattage." },
-  { "title": "Non-Dell System Compatibility", "description": "Compared charging wattage available to non-Dell laptops versus Dell-specific systems." },
-  { "title": "Named Workstation Compatibility", "description": "Compared exact confirmed compatibility with specific Precision workstation models." },
-  { "title": "Cable and Adapter Completeness", "description": "Compared included cables and accessories across all four docks." },
-  { "title": "Upgrade Path", "description": "Compared modular, upgradeable designs against fixed-configuration docks." }
+  {
+    "title": "Real power delivered to the laptop",
+    "description": "A 240W adapter does not mean 240W reaches the laptop. The WD19DCS lists 210W actual PD to Dell systems but only 90W to non-Dell machines, so we read each listing for the split between dock, peripherals, and laptop charging. A workstation that needs 180W or more was the test case for this tier."
+  },
+  {
+    "title": "Host compatibility",
+    "description": "These are Dell-built docks, and some pair only with specific systems, such as the TB18DC with Precision workstations. We checked named compatibility first, since a 240W dock that will not negotiate full power with a non-Dell laptop behaves like a 90W dock in practice."
+  },
+  {
+    "title": "USB4 vs older Thunderbolt 3 interfaces",
+    "description": "None of these four is a modern USB4 or Thunderbolt 5 dock: they are USB-C or Thunderbolt 3 designs. We treated the label honestly, noting the 40Gbps ceiling of Thunderbolt 3 and the dock's age, which matters if you want to keep it for a newer laptop."
+  },
+  {
+    "title": "Display outputs and resolution",
+    "description": "We compared ports: the TB16 lists up to 3 displays with HDMI at 5120x2880@60Hz, and the TB18DC offers VGA, HDMI, DP, Mini DP, and Thunderbolt video. Output variety counted for legacy monitors, but we only trusted resolution figures that the listing stated."
+  },
+  {
+    "title": "Upgradeability and physical security",
+    "description": "The WD19DCS has a modular, upgradeable design, and the TB16 lists a Kensington lock slot and PowerShare. For a shared desk or a docking station left in a lab, lockability and a swappable module counted as real features. A shared lab dock walks off or gets unplugged, so a lock slot and a field-swappable module are practical, not cosmetic."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +116,127 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Transparent real PD wattage with a future upgrade path", "Dell Performance Dock WD19DCS"],
-        ["A complete cable bundle with dual USB-C flexibility", "Dell WD19DC Performance Docking Station"],
-        ["Maximum video connector variety at the lowest price", "Dell Precision TB18DC Thunderbolt Dock"],
-        ["Triple-display support with a broad legacy port mix", "Dell TB16 Thunderbolt 3 Dock"]
+    "subheading": "By Laptop Type",
+    "intro": "The laptop decides how much of the 240W you actually get.",
+    "table": {
+      "headers": [
+        "Your laptop",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A Dell workstation or gaming laptop that needs 180W or more",
+          "Dell Performance Dock WD19DCS, which lists 210W actual PD to Dell systems"
+        ],
+        [
+          "A Dell laptop that needs dual USB-C and fixed video cables",
+          "Dell WD19DC Performance Docking Station, with included HDMI and DisplayPort cables"
+        ],
+        [
+          "A Dell Precision mobile workstation",
+          "Dell Precision TB18DC Thunderbolt Dock, built for Precision machines"
+        ],
+        [
+          "An older Dell or Thunderbolt 3 laptop with three monitors",
+          "Dell TB16 Thunderbolt 3 Dock, with up to 3 displays"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $90", "Dell Precision TB18DC (under $90)"],
-        ["Under $110", "Dell TB16 Thunderbolt 3 Dock (under $110)"],
-        ["Under $165", "Dell WD19DC (under $170)"],
-        ["Under $180", "Dell WD19DCS (under $180)"]
+    "subheading": "By Budget",
+    "intro": "These are older or refurbished-class docks, so prices are lower than modern ones.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $90, workstation dock",
+          "Dell Precision TB18DC, the cheapest pick"
+        ],
+        [
+          "Under $110, three displays",
+          "Dell TB16, at its mid price"
+        ],
+        [
+          "Under $165, dual USB-C",
+          "Dell WD19DC, with included video cables"
+        ],
+        [
+          "Under $180, newest design",
+          "Dell Performance Dock WD19DCS, with modular design and 210W PD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Modular Upgradeable Dock vs Fixed-Configuration Dock",
-    cards: [
-      { label: "Modular, upgradeable (WD19DCS)", text: "Lets you upgrade power and connectivity components over time as your needs change, at a modest price premium for that future flexibility." },
-      { label: "Fixed-configuration (WD19DC, TB18DC, TB16)", text: "Delivers a complete, ready-to-use dock at purchase with no upgrade path, typically at a similar or lower price point." }
+    "subheading": "Thunderbolt 3 vs USB-C Dock Design",
+    "intro": "The first pair of picks uses USB-C docking, and the second pair uses Thunderbolt 3.",
+    "cards": [
+      {
+        "label": "USB-C docking (Dell Performance Dock WD19DCS, Dell WD19DC)",
+        "text": "Broad laptop compatibility through USB-C, but video output depends on DisplayPort alt mode, and non-Dell laptops often get only 90W. It is cheaper to run on mixed fleets."
+      },
+      {
+        "label": "Thunderbolt 3 (Dell Precision TB18DC, Dell TB16)",
+        "text": "A 40Gbps link that handles more displays and faster storage. Needs a Thunderbolt 3 host, and the TB18DC targets Precision machines."
+      }
     ],
-    note: "If you expect your power or connectivity needs to grow significantly over the dock's lifetime, the WD19DCS's modular design is worth the investment. If you just need a complete, working solution now, the fixed-configuration picks deliver that reliably.",
+    "note": "Default to USB-C unless your laptop explicitly supports Thunderbolt 3 and needs the extra bandwidth."
   },
   {
-    subheading: "By Your Specific Dell Hardware",
-    table: {
-      headers: ["Your Dell system", "Recommended pick"],
-      rows: [
-        ["Precision Mobile Workstation 7530 or 7730", "Dell Precision TB18DC Thunderbolt Dock"],
-        ["An older Windows laptop needing triple-display legacy ports", "Dell TB16 Thunderbolt 3 Dock"],
-        ["Precision 7000 series or general Dell laptop", "Dell WD19DC or WD19DCS"]
+    "subheading": "By Monitor Count",
+    "intro": "Each dock has a different display limit.",
+    "table": {
+      "headers": [
+        "Your monitors",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Two monitors on HDMI and DisplayPort",
+          "Dell WD19DC, with both cables included"
+        ],
+        [
+          "Three monitors including a legacy VGA one",
+          "Dell TB16, which lists up to 3 displays and VGA"
+        ],
+        [
+          "A Thunderbolt display and one other",
+          "Dell Precision TB18DC, with Thunderbolt video out"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Non-Dell Laptop Owners Specifically",
-    cards: [
-      { label: "Look for", text: "A dock that specifically discloses its actual Power Delivery wattage to non-Dell systems, not just the adapter's total headline rating, since Dell-branded docks often reserve their highest PD figures for Dell-specific hardware." },
-      { label: "In this comparison", text: "The Dell WD19DCS specifically states 90W PD to non-Dell systems versus 210W for Dell systems, a real and disclosed difference worth knowing before purchase." }
-    ],
+    "subheading": "For a Mobile Workstation Specifically",
+    "intro": "Mobile workstations are the reason a 240W dock exists.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A named PD figure for your laptop brand, not just the adapter's label, and a compatibility list that includes your model."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Dell Performance Dock WD19DCS gives 210W to Dell systems, while the Dell Precision TB18DC targets Precision workstations directly."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want a transparent real PD wattage figure with future upgrade flexibility, where the WD19DCS's modular design justifies its under $180 price." },
-      { label: "Save if", text: "You specifically own a compatible Precision 7530 or 7730 workstation, where the TB18DC delivers 240W charging with broad video connector support for under $90." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "These docks are older designs, so check what the premium buys.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need maximum PD for a Dell machine. The Dell Performance Dock WD19DCS costs the most here and the budget Thunderbolt 5 dock guide covers newer interfaces."
+      },
+      {
+        "label": "Save if",
+        "text": "Your laptop charges at 90W or less. The Dell Precision TB18DC and Dell TB16 cost the least and still dock fully."
+      }
+    ]
   }
 ];
 
@@ -183,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will I get the full 240W of charging power from these docks?", "a": "No, the Dell WD19DCS listing specifically clarifies its 240W adapter delivers 210W of actual Power Delivery to Dell systems and only 90W to non-Dell systems, so the adapter's headline 240W figure does not represent the full wattage reaching your laptop." },
-  { "q": "What's the most common mistake buyers make when choosing a 240W dock?", "a": "Assuming the full 240W adapter rating reaches their laptop as usable charging power, when the actual disclosed Power Delivery figure is typically meaningfully lower, and lower still for non-Dell systems connected to a Dell-branded dock." },
-  { "q": "Is the WD19DCS worth the extra cost over the WD19DC if I don't need the modular upgrade feature?", "a": "If you don't anticipate needing future power or connectivity upgrades, the WD19DC's complete cable bundle and slightly lower price make it the more straightforward choice, while the WD19DCS's modular design is worth the premium only if long-term upgradeability genuinely matters to you." },
-  { "q": "Can I use the TB18DC dock with a Dell laptop other than the Precision 7530 or 7730?", "a": "The listing specifically confirms compatibility with the Precision Mobile Workstation 7530 and 7730 models, so checking Dell's own compatibility documentation for other specific Dell laptop models before assuming universal compatibility is worth doing." },
-  { "q": "Do these Dell docks work with non-Dell laptops at all?", "a": "Some do, though typically at reduced charging wattage; the WD19DCS specifically states it provides 90W to non-Dell systems, so checking each specific dock's stated non-Dell compatibility and wattage before purchase is worth doing if you don't own a Dell laptop." },
-  { "q": "Is the TB16 dock's Thunderbolt 3 interface too outdated for a current laptop?", "a": "Thunderbolt 3 remains backward compatible with newer Thunderbolt 4 and some USB4 laptops, though you won't get the bandwidth improvements of newer standards, so checking your specific laptop's port generation against this dock's Thunderbolt 3 interface is worth doing before purchase." }
+  {
+    "q": "Does a 240W dock charge my laptop at 240W?",
+    "a": "No. The WD19DCS lists 210W to Dell systems and only 90W to non-Dell laptops. The rest feeds the dock itself and its ports. Check your laptop's charger wattage, and ask whether the dock supports it. If the laptop needs more than the dock supplies, it will charge slowly under load."
+  },
+  {
+    "q": "Are these actually USB4 docks?",
+    "a": "No. They are USB-C and Thunderbolt 3 designs from Dell. USB4 and Thunderbolt 4 docks use a newer 40Gbps spec, and Thunderbolt 5 raises that again. If you need a modern spec, check the product page before buying. The gap shows up in bandwidth and daisy-chain options."
+  },
+  {
+    "q": "Is the WD19DCS worth paying more than the TB16?",
+    "a": "If you own a Dell with a high-wattage charger, yes. The WD19DCS lists 210W PD, a modular design, and newer connectivity. The TB16 is a Thunderbolt 3 dock that still handles three displays."
+  },
+  {
+    "q": "Will the TB18DC work with my non-Precision laptop?",
+    "a": "It is aimed at Precision 7000 workstations. A Thunderbolt 3 laptop may connect, but power negotiation and firmware features can be limited. Read the compatibility list before you buy, and check for a firmware update."
+  },
+  {
+    "q": "How do I connect three monitors to the TB16?",
+    "a": "Use its HDMI, DisplayPort, Mini DisplayPort, and VGA outputs. The listing supports up to 3 displays, and HDMI reaches 5120x2880@60Hz. Check which outputs your laptop supports, since some combinations are limited."
+  },
+  {
+    "q": "Should I update the dock firmware?",
+    "a": "Yes. Docks of this generation had firmware that fixed display and charging bugs. Use the manufacturer's update tool on the laptop, and do it while the dock is on the AC adapter. Run the update before the first workday, not in the middle of one."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

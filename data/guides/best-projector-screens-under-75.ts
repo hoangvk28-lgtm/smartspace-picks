@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Gain Rating and Material", "description": "Compared stated gain figures and frame material, fiberglass versus polyester, across the lineup." },
-  { "title": "Stand Weight and Portability", "description": "Compared stand weight and setup time across all four picks." },
-  { "title": "Viewing Area Size", "description": "Compared diagonal size and aspect ratio suited to different use cases." },
-  { "title": "Image Alignment Features", "description": "Checked for masking borders and other alignment-focused design details." },
-  { "title": "Brand Track Record", "description": "Checked for established brand presence in the projector accessory category." }
+  { "title": "Gain rating on the listing", "description": "We noted which picks state a gain figure, such as the 80 inch model's 1.2 gain, because gain near 1.0 is matte white and suits dark rooms while higher values brighten the picture at the cost of a narrower viewing angle. Listings that give no gain at all scored lower on transparency." },
+  { "title": "Aspect ratio match", "description": "We checked each screen's ratio against the 16:9 shape of most modern projectors. The Pyle 40-Inch uses 4:3, so widescreen movies leave unused screen, while the 80 and 100 inch picks fit 16:9 content edge to edge. A mismatch wastes the diagonal you paid for." },
+  { "title": "Height and tripod adjustment", "description": "We compared adjustability, from the Pyle's 20 to 46 inch height range to the aluminum tripod on the 60 inch pick. A screen that cannot lift the picture above heads at a party forces viewers to sit at the front, which defeats the size." },
+  { "title": "Weight and portability", "description": "We compared listed weights, with the 100 inch Wootfairy at 8.3 lbs and the 80 inch fiberglass screen at 10 lbs rolling into a storage tube. Under $75 portability is the main reason to buy a stand screen, so a heavy kit that is awkward to carry loses value." },
+  { "title": "Size for the money", "description": "We compared real diagonal against cost across the four, since the 40 inch Pyle and 60 inch aluminum model cost about as much as the 100 inch Wootfairy. Bigger is not always better, but paying more per inch for a small picture needs a clear benefit such as a masking border." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "With gain, aspect ratio, and tripod height all in play at this tier, the first table starts with the room and the projector you already own rather than with the screen.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "The four picks cluster close in cost despite a 40 to 100 inch spread, so the table below shows how much picture you get per budget band.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -133,6 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Aspect Ratio Needs",
+    intro: "A second axis is shape, because a 4:3 screen like the Pyle suits slides and older video, while widescreen movies need a 16:9 canvas to fill the frame.",
     table: {
       headers: ["Your primary use", "Recommended pick"],
       rows: [
@@ -152,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the lightest, most portable screen with a stated high gain rating, where the Aluminium Frame pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want an established brand with precise alignment features without needing a large diagonal size, where the Pyle 40-Inch pick covers that for about $13 less." }
+      { label: "Save if", text: "You want an established brand with precise alignment features without needing a large diagonal size, where the Pyle 40-Inch pick covers that for under $15 less." }
     ],
   }
 ];
@@ -182,7 +185,7 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Does a higher gain rating always mean a better picture regardless of room setup?", "a": "No, a higher gain screen reflects more light back but typically has a narrower optimal viewing angle, so it's better for a room with seating positioned relatively centrally, while a wider seating arrangement benefits more from a standard or lower gain rating for even brightness across the room." },
-  { "q": "What's the most common mistake buyers make when comparing screen sizes across different aspect ratios in this tier?", "a": "Comparing the diagonal size numbers directly between a 4:3 screen like the Pyle pick and a 16:9 screen like the others, when the actual viewing area shape differs significantly, so the same diagonal measurement doesn't represent the same width or height between the two ratios." },
+  { "q": "Is a 1.2 gain screen better than a standard matte white one?", "a": "Not automatically. Gain near 1.0 spreads light evenly and works for dark rooms, while a higher value like the 80 inch model's 1.2 gain brightens the center but narrows the angle at which the picture looks even. In a dim room the difference is small, so size and flatness matter more." },
   { "q": "Is the Fiberglass 80in pick worth it over the cheaper Wootfairy 100in option?", "a": "If you specifically want a stated 1.2 gain rating with fiberglass construction for 4K reproduction, yes, but if maximum viewing area at the same price matters more, the Wootfairy pick delivers 100 inches for the same under $70." },
   { "q": "How do I know if the Aluminium Frame pick's 60 inch size is large enough for my room?", "a": "Measure your intended viewing distance and compare it against general projector screen sizing guidelines, since a 60 inch screen suits closer viewing distances typical of smaller rooms, while larger rooms with more distance between viewer and screen benefit from the bigger sizes in this tier." },
   { "q": "Can the Pyle 40-Inch screen's 4:3 ratio still display widescreen movies, just with black bars?", "a": "Yes, widescreen 16:9 content will display with black bars on a 4:3 screen, which works fine functionally but doesn't maximize the screen's usable area for that specific content type, so a 16:9 pick is the better match if movies are your primary use." },

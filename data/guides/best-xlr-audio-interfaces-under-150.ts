@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Onboard Recording Capability", "description": "Compared standalone SD-card recording versus computer-tethered-only designs." },
-  { "title": "Channel Count", "description": "Compared single versus multi-channel simultaneous XLR input support." },
-  { "title": "Built-in Processing", "description": "Compared onboard DSP voice modes versus DAW-dependent processing." },
-  { "title": "Driver and Software Support", "description": "Compared bundled control software and driver compatibility across platforms." },
-  { "title": "Form Factor", "description": "Compared desktop versus rack-mountable physical designs for studio fit." }
+  { "title": "Auto gain and clipping protection", "description": "We looked at the Scarlett Solo 4th Gen's Auto Gain and Clip Safe, which set levels and prevent distortion. Setting gain by ear is the most common beginner mistake, so automatic level-setting is useful for people who record a first podcast and cannot tell how hot is too hot. The UMC404HD and Zoom rely on manual gain knobs." },
+  { "title": "Input count for guests", "description": "We compared the Behringer UMC404HD's four Midas-designed preamps and the Zoom PodTrak P4's four mic inputs against one-input units. A single preamp is enough for solo work, but two hosts need two preamps without adding another device. Shure's MVX2U is a single-mic design." },
+  { "title": "Standalone recording", "description": "We noted that the Zoom PodTrak P4 records to an SD card without a computer. That removes driver and USB issues entirely, but you lose the live-editing flexibility of a DAW-first interface. The Scarlett and Shure units are USB devices only." },
+  { "title": "Built-in voice processing", "description": "We read the Shure MVX2U Gen 2's onboard DSP, including Denoiser, limiter, and compressor. Processing before the signal reaches your computer cleans the voice at the source, but locks in choices that are hard to undo. The Scarlett Solo leaves processing to your DAW." },
+  { "title": "Gain for dynamic microphones", "description": "We considered that dynamic mics need plenty of clean gain, often 55 to 60dB or more. Quiet condensers work fine on any of these, but for gain-hungry dynamics the spec sheet matters more than the brand. Compare the preamp gain figure against your mic before you buy." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "Under $150 the interfaces diverge, from a single-preamp solo unit to a four-channel podcast recorder, so the table begins with how many people record.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Prices cluster at the top of the tier, so the budget table maps each pick to a distinct job.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -133,6 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Channel Count Needed",
+    intro: "Whether you edit live or in post is the second axis, which splits the recorder from the interfaces.",
     table: {
       headers: ["Your recording format", "Recommended pick"],
       rows: [
@@ -152,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want smart auto-gain technology that removes manual level-setting entirely, where the Focusrite Scarlett Solo 4th Gen sits at the top of this tier for that reason." },
-      { label: "Save if", text: "You need multiple simultaneous inputs on a budget, where the Behringer UMC404HD delivers 4 channels for about $20 less than the Scarlett Solo." }
+      { label: "Save if", text: "You need multiple simultaneous inputs on a budget, where the Behringer UMC404HD delivers 4 channels for under $25 less than the Scarlett Solo." }
     ],
   }
 ];
@@ -182,7 +185,7 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Can the Zoom PodTrak P4 replace a full computer-based recording setup entirely?", "a": "For on-location or interview-style recording where portability matters most, yes, since it records standalone to an SD card, but for detailed post-production editing you'll still want to transfer those recordings to a computer with proper editing software afterward." },
-  { "q": "What's the most common mistake buyers make when choosing between single and multi-channel interfaces at this price?", "a": "Buying a single-channel interface like the Scarlett Solo or Shure MVX2U for a format that actually requires recording multiple people simultaneously, then discovering they need to record each person separately or purchase a second interface, when a 4-channel option like the Behringer UMC404HD would have solved this from the start." },
+  { "q": "Is the Scarlett Solo 4th Gen worth it over the Behringer UMC404HD?", "a": "If you record alone, yes, because Auto Gain and Clip Safe protect against bad levels. The Behringer UMC404HD gives four Midas-designed preamps plus MIDI I/O for group recording or a band, so it suits households with several mics rather than a solo streamer." },
   { "q": "Is the Focusrite Scarlett Solo 4th Gen worth the upgrade over the Behringer UMC404HD if I only record solo content?", "a": "If auto-gain technology and Shure-quality bundled software matter to you as a first-time user, yes, but if you're comfortable manually setting levels and might eventually record with a second person, the Behringer's 4 channels provide more long-term flexibility for a similar price." },
   { "q": "How do I set up the Shure MVX2U Gen 2's onboard voice processing for a livestream?", "a": "Install the ShurePlus MOTIV desktop software, which gives real-time control over the Denoiser, limiter, and compressor settings, and most streamers find the default preset settings work well immediately without needing manual adjustment for typical voice recording." },
   { "q": "Do any of these interfaces work with both Windows and Mac without extra driver downloads?", "a": "All four picks in this comparison are designed for both Windows and Mac compatibility, though checking each product's specific listed system requirements and confirming your operating system version meets the minimum stated requirement is worth doing before purchase." },

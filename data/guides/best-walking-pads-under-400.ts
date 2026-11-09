@@ -5,7 +5,7 @@ export const metaDescription = "Six walking pads priced from $189 to $350, all w
 export const mainKeyword = "walking pad under 400";
 export const introParagraphs = [
   "Under $400 is where walking pads stop being throwaway and start being motorized machines. Every pick in this tier lists an automatic incline, a 3.5HP-class motor or a 400 to 450 lb capacity, features that used to sit well above this price.",
-  "All six picks cost between about $189 and $350, so each one clears the $400 ceiling with room to spare. The gap inside that range is real: the cheapest picks lean on capacity and incline, while the dearest add a maker-backed motor claim or a slim deck. We compared listed specs and buyer feedback rather than our own testing, with horsepower claims read cautiously, since peak and continuous ratings differ."
+  "All six picks cost between under $200 and $350, so each one clears the $400 ceiling with room to spare. The gap inside that range is real: the cheapest picks lean on capacity and incline, while the dearest add a maker-backed motor claim or a slim deck. We compared listed specs and buyer feedback rather than our own testing, with horsepower claims read cautiously, since peak and continuous ratings differ."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41v-fStJe8L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GWQXCTL2?tag=deskfinds0d-20",
-    "description": "VITALWALK lists a 15% auto incline, a 6.7 inch profile, a weight of 40 lb and four 2-way wheels, with a full deck belt-to-body design that hides the motor. It stores vertically in a 1.5 square foot footprint.\n\nIt costs about $52 less than MERACH and is the pick built around storage and mobility, while the Rockare is better on stated noise. The 40 lb body is lighter than most auto incline pads.\n\nBest for a small apartment where you need to move it often. The caveat is that the capacity and horsepower are not in the bullets we saw.",
+    "description": "VITALWALK lists a 15% auto incline, a 6.7 inch profile, a weight of 40 lb and four 2-way wheels, with a full deck belt-to-body design that hides the motor. It stores vertically in a 1.5 square foot footprint.\n\nIt costs under $60 less than MERACH and is the pick built around storage and mobility, while the Rockare is better on stated noise. The 40 lb body is lighter than most auto incline pads.\n\nBest for a small apartment where you need to move it often. The caveat is that the capacity and horsepower are not in the bullets we saw.",
     "specs": [
       "15% auto incline, 6.7 in profile",
       "40 lb, four-wheel glide",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/415lKIQLdkL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H7SHGKLM?tag=deskfinds0d-20",
-    "description": "Rayspace lists a 3.5HP motor, a 15% auto incline in 12 levels, a foldable frame, a Bluetooth system, a full-screen LED display and app control. Its fold and app are the main reasons to choose it.\n\nIt costs about $44 less than Rockare and adds a 15% incline and fold, though its listing gives less capacity and noise detail. Compared with Trisomy it costs $16 more and does not state a 450 lb limit.\n\nBest for someone who wants app control and a folding frame. The caveat is that the key figures like capacity are missing from the bullets.",
+    "description": "Rayspace lists a 3.5HP motor, a 15% auto incline in 12 levels, a foldable frame, a Bluetooth system, a full-screen LED display and app control. Its fold and app are the main reasons to choose it.\n\nIt costs under $50 less than Rockare and adds a 15% incline and fold, though its listing gives less capacity and noise detail. Compared with Trisomy it costs $16 more and does not state a 450 lb limit.\n\nBest for someone who wants app control and a folding frame. The caveat is that the key figures like capacity are missing from the bullets.",
     "specs": [
       "3.5HP, 15% auto incline",
       "Foldable frame",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/417hIrY+FXL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FWKH8W98?tag=deskfinds0d-20",
-    "description": "Trisomy lists a 3.5HP quiet motor, a 15% auto incline with 12 levels, a 450 lb capacity and a UI screen. The listing describes a true 8 degree slope.\n\nAt about $200 it is $16 less than Rayspace and states a much higher capacity. Against Joxir, it costs $11 more and has no handle bar listed but a larger motor.\n\nBest for heavier users who want auto incline under $200. The caveat is that 3.5HP may be a peak rating.",
+    "description": "Trisomy lists a 3.5HP quiet motor, a 15% auto incline with 12 levels, a 450 lb capacity and a UI screen. The listing describes a true 8 degree slope.\n\nAt under $250 it is $16 less than Rayspace and states a much higher capacity. Against Joxir, it costs $11 more and has no handle bar listed but a larger motor.\n\nBest for heavier users who want auto incline under $200. The caveat is that 3.5HP may be a peak rating.",
     "specs": [
       "450 lb, 3.5HP",
       "15% auto incline, 12 levels",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41m9Deb0RrL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FND67Q5K?tag=deskfinds0d-20",
-    "description": "Joxir lists a 12% auto incline in 12 levels, a 2.5HP motor, 7.5 mph speeds, a 450 lb capacity and a handle bar. It is the entry point to auto incline in this list.\n\nIt is the cheapest pick here at about $189 and costs $11 less than Trisomy. It has a smaller motor than the 3.5HP pads, but the handle bar adds balance.\n\nBest for a lower-budget buyer who wants a handle and high capacity. The caveat is that a 2.5HP motor is the smallest of the six.",
+    "description": "Joxir lists a 12% auto incline in 12 levels, a 2.5HP motor, 7.5 mph speeds, a 450 lb capacity and a handle bar. It is the entry point to auto incline in this list.\n\nIt is the cheapest pick here at under $200 and costs $11 less than Trisomy. It has a smaller motor than the 3.5HP pads, but the handle bar adds balance.\n\nBest for a lower-budget buyer who wants a handle and high capacity. The caveat is that a 2.5HP motor is the smallest of the six.",
     "specs": [
       "2.5HP, 7.5 mph",
       "12% auto incline",
@@ -190,206 +190,109 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Continuous versus peak horsepower",
-    "explanation": "A 3.5HP rating may be a peak figure, while continuous output is often around 1.25 CHP, as the MERACH listing shows. Continuous power is what holds steady when you walk. Look for a CHP number in the spec text."
+    "criterion": "Continuous versus peak power",
+    "explanation": "A listing that says 3.5HP may be quoting a peak figure for a brief surge, while continuous output, the power the motor holds during a long walk, can be closer to 1.25 CHP, as the MERACH listing shows. The difference matters because a motor running at its limit overheats and wears faster. Look for a CHP number in the bullet points and treat a bare horsepower claim as unverified."
   },
   {
     "criterion": "Auto incline versus manual",
-    "explanation": "Under $400 you can afford a motorized incline, which changes slope with a button instead of making you stop. It adds weight and a mechanism that can fail. Check the maximum percent and number of levels."
+    "explanation": "Under $400 you can afford a motorized incline, which changes the slope with a button rather than making you stop and reposition legs. That convenience matters because you will actually use the incline more if it is easy to change. Check the maximum percent and the number of levels, and confirm the listing covers the incline motor in its warranty."
   },
   {
-    "criterion": "Stated capacity",
-    "explanation": "Capacity ranges from 300 to 450 lb in this tier. A pad close to your weight strains its motor. Check the bullets for the number and keep 50 lb of headroom."
+    "criterion": "Stated capacity and headroom",
+    "explanation": "Capacity here ranges from 300 lbs on the Rockare to 450 lbs on the Trisomy and Joxir, and two listings omit it. A pad rated close to your weight strains its motor and frame, shortening its life. Find the number in the bullets and keep about 50 lbs of headroom; skip listings that never state it."
   },
   {
     "criterion": "Stated noise level",
-    "explanation": "Only some listings give decibels, such as under 30 dB for the Rockare. A number is easier to compare than a quiet claim. Check the figure and the speed it applies to."
+    "explanation": "Only the Rockare gives a decibel figure, under 30 dB, while other listings simply say quiet. A number lets you compare pads, and it tells you whether a call in the same room will be disturbed. Look for the figure and the speed it applies to, and remember footfall can be louder than the motor."
   },
   {
-    "criterion": "Deck thickness and weight",
-    "explanation": "Auto incline pads are heavier and thicker than basic slabs. VITALWALK lists 6.7 inches and 40 lb, which is slim for the class. Check both before assuming it fits under furniture."
-  },
-  {
-    "criterion": "Price tiers inside the cap",
-    "explanation": "The spread from $189 to $350 is wide. Spending more buys clearer specs and slimmer design more than raw power. Compare each pick's listed numbers rather than assuming price equals quality."
+    "criterion": "Deck thickness, weight and storage",
+    "explanation": "Auto-incline pads are heavier and thicker than basic slabs, which affects whether they fit under furniture. The VITALWALK lists 6.7 inches and 40 lbs, slim for the class. Check the profile and weight on the listing, and measure the gap under your bed or sofa before ordering."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  {
-    "title": "Price cap",
-    "description": "We required every pick to cost under $400 with room to spare."
-  },
-  {
-    "title": "Motor disclosure",
-    "description": "We compared how clearly each states continuous versus peak power."
-  },
-  {
-    "title": "Incline",
-    "description": "We compared incline range and levels."
-  },
-  {
-    "title": "Capacity and noise",
-    "description": "We compared stated weight limits and decibel levels."
-  },
-  {
-    "title": "Build and size",
-    "description": "We compared thickness, weight and folding."
-  }
+  { "title": "Continuous versus peak power", "description": "The MERACH is the only pick that separates 1.25 CHP continuous from 3.5 HP peak, so we used it as the honest reference and treated the other 3.5HP claims as peak figures. A lone horsepower number tells you little about what the motor holds during a 60 minute walk." },
+  { "title": "Auto incline range and levels", "description": "All six picks motorize the slope, from 12 levels on the MERACH, Rockare and Trisomy to 15% on the VITALWALK and Rayspace. We checked the maximum percent and the number of steps, since a pad that jumps in coarse increments is awkward for gradual progression." },
+  { "title": "Listed capacity and the picks that omit it", "description": "Trisomy and Joxir state 450 lbs, MERACH 400 and Rockare 300, while the VITALWALK and Rayspace bullets give no figure. We would not recommend a pad with an unstated limit to anyone near 250 lbs, because you cannot confirm the headroom before buying." },
+  { "title": "Noise claims you can verify", "description": "Only the Rockare lists a number, under 30 dB, while Trisomy simply claims a quiet motor. We rated a decibel figure higher than a quiet claim, and noted that footfall on the belt will sound louder than the motor regardless of the rating." },
+  { "title": "Thickness, weight and storage", "description": "The VITALWALK lists a 6.7 inch profile, 40 lbs and vertical storage, which is slim for an auto-incline pad. We compared dimensions because a motorized incline adds bulk, and a pad that cannot slide under furniture often ends up unused in a corner." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Priority",
-    "table": {
-      "headers": [
-        "Your priority",
-        "Recommended pick"
+    subheading: "By Primary Need",
+    intro: "Under $400 every pick has motorized incline, so differences come down to capacity, noise and honest motor specs.",
+    table: {
+      headers: ["If you mainly need", "Recommended pick"],
+      rows: [
+        ["Clear continuous versus peak motor information", "MERACH, the only listing that states 1.25 CHP and 3.5 HP peak"],
+        ["A slim pad that stands on end in a closet", "VITALWALK, at 40 lbs and 6.7 inches thick"],
+        ["The quietest stated operation", "Rockare, rated under 30 dB with settings memory"],
+        ["The highest capacity for the least money", "Trisomy, with 450 lbs, 15% auto incline and a price under $200"],
+        ["A handle bar for balance on a budget", "Joxir, with 450 lbs and 7.5 mph"]
       ],
-      "rows": [
-        [
-          "Clearest motor specs",
-          "MERACH UltraWalk W60 400 lb Auto Incline Walking Pad"
-        ],
-        [
-          "Smallest, lightest body",
-          "VITALWALK 15% Auto Incline Slim Walking Pad"
-        ],
-        [
-          "Lowest stated noise",
-          "Rockare 3.5HP BLDC Auto Incline Walking Pad"
-        ],
-        [
-          "App control and folding",
-          "Rayspace 15% Auto Incline Foldable Walking Pad"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "By Budget",
-    "table": {
-      "headers": [
-        "Price range",
-        "Recommended pick"
+    subheading: "By Budget",
+    table: {
+      headers: ["Price range", "Recommended pick"],
+      rows: [
+        ["Under $200, the cheapest with auto incline", "Joxir, which also includes a handle bar"],
+        ["Under $250 for a high-capacity pad with a UI screen", "Trisomy, whose 450 lb limit is the strongest at this price"],
+        ["Under $250 for an app and LED display", "Rayspace, a foldable 15% pad"],
+        ["Under $300 for quiet operation", "Rockare, the one pick with a decibel number"],
+        ["Under $400 to $350 for a slim or heavily documented pad", "VITALWALK or MERACH, the two priciest picks"]
       ],
-      "rows": [
-        [
-          "$185 to $200",
-          "Joxir 12% Auto Incline Walking Pad with Handle Bar"
-        ],
-        [
-          "$200 to $220",
-          "Trisomy 450 lb 15% Auto Incline Walking Pad"
-        ],
-        [
-          "$220 to $260",
-          "Rockare 3.5HP BLDC Auto Incline Walking Pad"
-        ],
-        [
-          "$260 to $300",
-          "VITALWALK 15% Auto Incline Slim Walking Pad"
-        ],
-        [
-          "$300 to $350",
-          "MERACH UltraWalk W60 400 lb Auto Incline Walking Pad"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "3.5HP Peak vs Continuous Power",
-    "cards": [
-      {
-        "label": "Stated continuous",
-        "text": "The brand gives a CHP figure. MERACH UltraWalk W60 400 lb Auto Incline Walking Pad is the one that does."
-      },
-      {
-        "label": "Peak only",
-        "text": "The brand quotes 3.5HP without a continuous figure. Rockare 3.5HP BLDC Auto Incline Walking Pad, Rayspace 15% Auto Incline Foldable Walking Pad and Trisomy 450 lb 15% Auto Incline Walking Pad fall here."
-      }
+    subheading: "Documented Specs vs Bigger Claims",
+    cards: [
+      { label: "Documented (MERACH, Rockare)", text: "They list continuous power or a decibel number, so you can compare them with other pads. The cost is a higher price and, for Rockare, a 5 mph top speed and 300 lb limit." },
+      { label: "Bigger numbers with less detail (Trisomy, Joxir, Rayspace)", text: "They advertise 3.5HP or 450 lbs at lower prices, but without a CHP or decibel figure. They are attractive for budget buyers who accept some uncertainty." }
     ],
-    "note": "Prefer a stated CHP figure when choosing between similar motors."
+    note: "Most buyers should default to the documented picks if the pad will see daily use, and the high-capacity picks if budget is the priority.",
   },
   {
-    "subheading": "By Weight",
-    "table": {
-      "headers": [
-        "Your weight",
-        "Recommended pick"
+    subheading: "By Storage and Footprint",
+    table: {
+      headers: ["Your space", "Recommended pick"],
+      rows: [
+        ["A one-bedroom apartment with a narrow closet", "VITALWALK, which stores vertically in about 1.5 sq ft"],
+        ["A bedroom where the pad slides under a bed", "Rayspace, because its frame folds"],
+        ["A permanent home office spot", "MERACH, a heavier unit meant to stay put"],
+        ["A garage or basement where size matters less", "Joxir or Trisomy, both with 450 lb capacity"]
       ],
-      "rows": [
-        [
-          "Under 250 lb",
-          "Rockare 3.5HP BLDC Auto Incline Walking Pad"
-        ],
-        [
-          "250 to 350 lb",
-          "MERACH UltraWalk W60 400 lb Auto Incline Walking Pad"
-        ],
-        [
-          "Over 350 lb, handle wanted",
-          "Joxir 12% Auto Incline Walking Pad with Handle Bar"
-        ],
-        [
-          "Over 350 lb, no handle",
-          "Trisomy 450 lb 15% Auto Incline Walking Pad"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "For Apartment Dwellers Specifically",
-    "cards": [
-      {
-        "label": "Look for",
-        "text": "A slim, light body and a low stated noise level."
-      },
-      {
-        "label": "In this comparison",
-        "text": "VITALWALK 15% Auto Incline Slim Walking Pad is slim and light and Rockare 3.5HP BLDC Auto Incline Walking Pad states under 30 dB."
-      }
-    ]
+    subheading: "For Quiet Apartments Specifically",
+    cards: [
+      { label: "Look for", text: "A stated decibel figure at walking speed, a brushless motor, and a pad that lets you set a lower speed memory. Do not rely on 'whisper quiet' wording without a number." },
+      { label: "In this comparison", text: "The Rockare lists under 30 dB and remembers settings. The MERACH adds dual-vent cooling, which helps the motor run cooler and quieter over long sessions." }
+    ],
   },
   {
-    "subheading": "When to Spend More",
-    "cards": [
-      {
-        "label": "Spend more if",
-        "text": "You want motor transparency and a 400 lb rating, as with MERACH UltraWalk W60 400 lb Auto Incline Walking Pad."
-      },
-      {
-        "label": "Save if",
-        "text": "You want auto incline and capacity at the lowest cost, where Joxir 12% Auto Incline Walking Pad with Handle Bar or Trisomy 450 lb 15% Auto Incline Walking Pad works."
-      }
-    ]
+    subheading: "When to Spend More",
+    cards: [
+      { label: "Spend more if", text: "You want a pad with a documented continuous rating and a long motor life claim, which is why the MERACH sits at the top. The under $500 guide adds longer belts like the WalkingPad G1 at 47 inches." },
+      { label: "Save if", text: "You want 450 lbs and a 15% incline without the premium. The Trisomy and Joxir cost roughly $150 less than the MERACH and the under $300 guide covers cheaper manual pads." }
+    ],
   }
 ];
 
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
-  {
-    "q": "Is $400 enough for a good walking pad?",
-    "a": "Yes, this tier includes motorized incline and 450 lb capacity. The differences are in motor disclosure and design."
-  },
-  {
-    "q": "Is auto incline worth it?",
-    "a": "If you change slope often, yes. If you mostly walk flat, a manual incline saves money."
-  },
-  {
-    "q": "Is the MERACH worth $150 more than the Trisomy?",
-    "a": "Only if clear motor specs and cooling matter. Trisomy offers more capacity for less."
-  },
-  {
-    "q": "How do I set one up?",
-    "a": "Place it on a level floor with a mat, plug it in and clip on the safety key. Start at a low speed."
-  },
-  {
-    "q": "How should I maintain it?",
-    "a": "Lubricate the belt as the manual says and keep the deck clear. Check the incline mechanism for noise."
-  }
+  { "q": "Can I trust a 450 lb capacity claim at this price?", "a": "Treat it as a ceiling, not a recommendation. Trisomy and Joxir both list 450 lbs, but heavier users stress any motor, so choose the pad with the strongest documented motor if you weigh over 300 lbs and keep a 50 lb margin." },
+  { "q": "What does 3.5HP mean on a walking pad?", "a": "It is often a peak figure for a short burst, not the continuous output. The MERACH listing shows 1.25 CHP beside its 3.5 HP peak, so use CHP when available and ask whether other listings give a continuous number." },
+  { "q": "Is the MERACH worth more than the Trisomy?", "a": "The MERACH adds a documented 1.25 CHP motor, dual-vent cooling and a 15,000 hour life claim, but it costs under $200 more than the Trisomy. If you want the strongest motor information for daily use, pay up. Otherwise the Trisomy covers most needs." },
+  { "q": "How do I set up an auto-incline pad?", "a": "Place it on a flat floor, plug it in, and calibrate the incline per the manual if it asks you to. Keep the belt clear while it calibrates, and start at a low speed and flat setting before you try a steep slope." },
+  { "q": "How should I store a slim 40 lb pad?", "a": "The VITALWALK stands on end in roughly 1.5 sq ft, so stand it against a wall and keep it off the power cord. Avoid leaning it near heaters, and wipe the deck first so grit does not stay trapped under the belt." },
+  { "q": "Does auto incline wear out faster than manual?", "a": "It adds a motor and a lift mechanism, which are extra parts that can fail. Look for clear warranty terms covering the incline motor, and avoid changing the slope too frequently under load to extend its life." }
 ];
 
 export const relatedGuides = [

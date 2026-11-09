@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41uJ539GfaL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FN44NCTQ?tag=deskfinds0d-20",
-    "description": "BEICHEN is a 4 liter thermoelectric cube that holds six 12 oz cans, uses a removable shelf and ships with AC and USB power cables. The listing states operation under 25 dB, says it fits on desks, nightstands and countertops, and honestly notes that minor condensation, frost or light ice can appear.\n\nCompared with the Cooluli just below, it has the stated noise figure and a clear USB power option, but costs about $15 more. Against the cheaper Antarctic Star cubes, it is the one with the most detail on maintenance and use.\n\nBest for a desk where noise and clear specs matter more than a low price. The caveat is that, like all cubes here, cooling depends on the room, and it is not for perishable food.",
+    "description": "BEICHEN is a 4 liter thermoelectric cube that holds six 12 oz cans, uses a removable shelf and ships with AC and USB power cables. The listing states operation under 25 dB, says it fits on desks, nightstands and countertops, and honestly notes that minor condensation, frost or light ice can appear.\n\nCompared with the Cooluli just below, it has the stated noise figure and a clear USB power option, but costs under $20 more. Against the cheaper Antarctic Star cubes, it is the one with the most detail on maintenance and use.\n\nBest for a desk where noise and clear specs matter more than a low price. The caveat is that, like all cubes here, cooling depends on the room, and it is not for perishable food.",
     "specs": [
       "4L, six can capacity",
       "Under 25 dB, AC and USB cords",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31QnDkxSUSL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B01G7IL51Q?tag=deskfinds0d-20",
-    "description": "Cooluli's Classic is a 4 liter thermoelectric cooler and warmer with a matte finish, measuring 7.25 inches wide, and comes with AC, DC and USB cords. The listing uses a semiconductor design it calls ultra-quiet and suggests storing drinks, snacks, skincare and more.\n\nVersus BEICHEN, it is about $15 cheaper and also includes all three cords, but offers no numeric decibel figure in the listing. Compared with the Frigidaire cube below, it has a warming mode and a USB cord.\n\nBest for a desk where you want a warmer as well as a cooler and flexible power. The caveat is the lack of a stated noise number or cooling gap.",
+    "description": "Cooluli's Classic is a 4 liter thermoelectric cooler and warmer with a matte finish, measuring 7.25 inches wide, and comes with AC, DC and USB cords. The listing uses a semiconductor design it calls ultra-quiet and suggests storing drinks, snacks, skincare and more.\n\nVersus BEICHEN, it is under $20 cheaper and also includes all three cords, but offers no numeric decibel figure in the listing. Compared with the Frigidaire cube below, it has a warming mode and a USB cord.\n\nBest for a desk where you want a warmer as well as a cooler and flexible power. The caveat is the lack of a stated noise number or cooling gap.",
     "specs": [
       "4L cooler and warmer",
       "AC, DC and USB cords",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41o2Q5UetvL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FK3X33TP?tag=deskfinds0d-20",
-    "description": "This Antarctic Star model is a 4 liter cooler with an LED light frame, dimensions of 9.65 by 7.09 by 10.24 inches, and a 25 dB quiet claim. The listing says it cools up to 32F below ambient and holds six 12 oz cans with a removable shelf and AC or DC supply options.\n\nCompared with the plain Antarctic Star cube at the same price, it adds the light frame and a lower stated noise figure. Against BEICHEN, it is about $11 cheaper and has a stated cooling gap, but no USB cable is listed.\n\nBest for a gaming setup where a glowing accent is a plus. The caveat is that the light is a feature you may not want in a bedroom at night.",
+    "description": "This Antarctic Star model is a 4 liter cooler with an LED light frame, dimensions of 9.65 by 7.09 by 10.24 inches, and a 25 dB quiet claim. The listing says it cools up to 32F below ambient and holds six 12 oz cans with a removable shelf and AC or DC supply options.\n\nCompared with the plain Antarctic Star cube at the same price, it adds the light frame and a lower stated noise figure. Against BEICHEN, it is under $15 cheaper and has a stated cooling gap, but no USB cable is listed.\n\nBest for a gaming setup where a glowing accent is a plus. The caveat is that the light is a feature you may not want in a bedroom at night.",
     "specs": [
       "4L, 25 dB listed",
       "Cools up to 32F below ambient",
@@ -219,51 +219,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Footprint in inches",
-    "explanation": "A desktop fridge competes with your monitor stand, keyboard and notebooks for the same surface, so its footprint is its main cost. A typical 4L cube is around 7 by 10 inches and stands about 10 inches tall. Measure your free area and the shelf height above it, since a lid that opens upward needs headroom."
+    "explanation": "A desktop fridge is only useful if it fits where you want it, and most 4L cubes are about 7 to 10 inches on a side. The Frigidaire lists 10 by 7 by 10.5 inches with a flush back, so it can sit against a wall, while the ThreeH is about 85 by 80 by 185 mm. Measure the shelf or desk corner and compare it with the listed size."
   },
   {
     "criterion": "Power source and cord",
-    "explanation": "Desktop coolers run from a wall outlet, a 12V car socket, or in a few cases a USB port. A USB source supplies much less power than a wall outlet, so USB models are usually tiny and cool gently. Check which cords are in the box and how long the cord is relative to your outlet."
+    "explanation": "Most of these plug into 120V AC, and several add a 12V DC cord for a car, while the BEICHEN and ThreeH also run from USB. A USB-powered cube is convenient at a laptop, but check whether the port can supply enough current, because weak ports cool poorly. Look for the cord types named in the title or bullet list."
   },
   {
     "criterion": "Cooling gap versus room",
-    "explanation": "Thermoelectric coolers do not hold a temperature, they cool a limited number of degrees below the air around them. If the listing says it cools 32F below ambient, a 75F room gives roughly a mid 40s F interior at best. Look for the stated gap and do not store dairy or leftovers in a cube."
+    "explanation": "Thermoelectric cubes cool relative to the room, not to a fixed number. The Antarctic Star Gaming lists cooling up to 32F below ambient, which means a 77F room yields roughly 45F inside. In a warm office the inside may only reach the low 50s. Look for a stated gap, and treat a cooling temperature with no ambient reference as unconfirmed."
   },
   {
     "criterion": "Fan hum and listed noise",
-    "explanation": "Cubes have no compressor, but they run a small fan constantly. A stated 25 dB suggests a faint hum, and a 38 dB model is noticeably louder in a quiet room. If there is no number at all, treat that as unknown."
-  },
-  {
-    "criterion": "Condensation and ventilation",
-    "explanation": "Thermoelectric units can collect moisture and light frost, as the BEICHEN listing admits, especially in cool rooms. They also need airflow around the vents. Leave space on all sides, avoid placing it on paper, and wipe the interior regularly."
+    "explanation": "Even a small fan is noticeable at 1 to 2 feet, and a desktop cube sits that close. The BEICHEN, Antarctic Star Gaming, and Xbeauty list 25 dB or less, while the Antarctic Star Classic lists 38 dB. A figure under 30 dB is roughly a whisper. Check the dB figure, since many listings omit it entirely."
   },
   {
     "criterion": "Real interior size",
-    "explanation": "Six cans is the standard claim for 4 liters, but the real interior is only around 5 by 5 by 7.5 inches. That fits a can and a small yogurt, not a lunch box. Check the interior dimensions in the listing against what you want to store."
+    "explanation": "4L holds about six 12 oz cans and little else, and a removable shelf only helps if the item fits in the space left. A door pocket, like the Xbeauty's, holds small items, while the ThreeH holds one can. Check the can capacity and the interior dimensions, and measure your own drink bottle before ordering."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Footprint and height",
-    "description": "We compared stated external dimensions to judge how much desk each unit consumes."
+    "title": "Footprint and desk fit",
+    "description": "We compared outside size, such as the Frigidaire's 10 by 7 by 10.5 inch flush-back body and the ThreeH's roughly 85 by 80 by 185 mm single-can cube. In a space where a keyboard needs room, we treated every extra inch of depth as a cost, not a neutral spec."
   },
   {
-    "title": "Power flexibility",
-    "description": "Wall, car and USB options were noted, since USB models trade power for convenience."
+    "title": "Stated noise",
+    "description": "A fan a foot from your ear matters more than a bedroom fan across the room. The BEICHEN, Antarctic Star Gaming and Xbeauty list 25 dB or under, while the Antarctic Star Classic lists 38 dB. Picks that gave no number, like the Cooluli and Frigidaire, were scored as unconfirmed, since a silent claim could mean a fan you will hear during calls."
   },
   {
-    "title": "Noise claims",
-    "description": "Stated decibel figures were compared, and listings with no number were treated as unknown."
+    "title": "Cooling claim honesty",
+    "description": "Thermoelectric cubes cool relative to the room. The Antarctic Star Gaming lists up to 32F below ambient, which we counted as real information, and we marked down listings like the Antarctic Star Classic with unclear cooling wording."
   },
   {
-    "title": "Cooling information",
-    "description": "Listed cooling gaps and honest notes about condensation or ambient dependence were rewarded."
+    "title": "Power options",
+    "description": "A cube that works from USB, 12V DC and AC is more flexible. We credited the BEICHEN's AC and USB cords, the Cooluli's AC, DC and USB, and the Frigidaire's AC and DC, and noted the ThreeH is USB powered only, which limits its cooling headroom and ties it to a port near your laptop."
   },
   {
-    "title": "Price for the claims made",
-    "description": "Prices were compared against what each listing actually documents."
+    "title": "Capacity per dollar",
+    "description": "At four liters, a six-can capacity is the norm, and the ThreeH holds one can. We compared price against stated capacity and extras, so the Xbeauty's door pockets and the Cooluli's warming mode counted for something beyond price, while a one-can cube had to justify itself on size alone."
   }
 ];
 
@@ -326,7 +322,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Antarctic Star 4L Classic Mini Fridge"
         ],
         [
-          "About $44",
+          "Under $50",
           "BEICHEN 4L AC and USB Desktop Fridge"
         ]
       ]
@@ -391,7 +387,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want clear specs and a stated quiet figure with a USB option. BEICHEN 4L AC and USB Desktop Fridge costs about $44."
+        "text": "You want clear specs and a stated quiet figure with a USB option. BEICHEN 4L AC and USB Desktop Fridge costs under $50."
       },
       {
         "label": "Save if",
@@ -404,28 +400,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can I run a desktop mini fridge from USB?",
-    "a": "Only models built for it, like ThreeH, which lists USB power. BEICHEN includes a USB cable alongside AC, but check each listing since USB supplies far less power than a wall outlet."
+    "q": "Does a desktop mini fridge cool as well as a full fridge?",
+    "a": "No. Most 4L cubes are thermoelectric and cool relative to the room, such as the Antarctic Star Gaming's stated 32F below ambient. In a warm 80F room they may only reach the mid 40s or higher, which is fine for a soda but weak for dairy."
   },
   {
-    "q": "Why is there water or frost inside?",
-    "a": "Thermoelectric coolers can form condensation or light frost, especially in cool rooms. BEICHEN's listing says so. Wipe it dry and leave ventilation space."
+    "q": "Is it safe to keep milk in a desktop fridge?",
+    "a": "Only if the temperature holds below 40F, which a cube may not in a hot room. Use a small fridge thermometer to check, and keep dairy in a real refrigerator when possible. These cubes are better for drinks, skincare, or a snack than for food safety critical items."
   },
   {
-    "q": "Is a 4L cube worth it over a single can chiller?",
-    "a": "If you want to store more than one drink or a yogurt, yes. The ThreeH holds a single can and suits tiny setups, while 4L cubes fit six cans."
+    "q": "Can I run a desktop fridge from a laptop USB port?",
+    "a": "Maybe, but not reliably. The BEICHEN and ThreeH list USB power, though a laptop port may supply too little current to cool well. A wall USB adapter that matches the listed amps is the safer choice, and a weak port may only make the cube lukewarm."
   },
   {
-    "q": "Where should I put it on my desk?",
-    "a": "Leave a few inches around the vents, keep it off paper and out of direct sun. Place it away from your microphone if you stream."
+    "q": "Is the BEICHEN worth more than the Cooluli?",
+    "a": "If quiet matters, yes. The BEICHEN lists under 25 dB with AC and USB cords, while the Cooluli lists AC, DC and USB cords plus a warming mode and costs less but gives no decibel number. For a silent desk the BEICHEN is better; for flexibility the Cooluli is."
   },
   {
-    "q": "Can it keep food safe?",
-    "a": "Not reliably. Cooling is relative to room temperature, so do not store perishables for long. Use it for drinks, skincare and short term snacks."
+    "q": "How do I keep a desk cube from overheating?",
+    "a": "Leave a few inches of clearance for the vent and fan, keep it out of direct sun, and do not stack things on top. The Frigidaire's flush back saves space, but the vent still needs airflow. A cube squeezed into a cabinet will struggle to cool."
   },
   {
-    "q": "Can I use it in a car?",
-    "a": "Most listings include a 12V cord, including Cooluli, Frigidaire and Antarctic Star. Do not leave one running in a parked car with the engine off."
+    "q": "How often should I clean it?",
+    "a": "Wipe the interior monthly with a mild baking soda solution, and let it dry with the door open before refilling. Condensation can form inside, so empty the cube if you will not use it for a while. Unplug it first, and never submerge the unit."
   }
 ];
 

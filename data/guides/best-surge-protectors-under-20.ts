@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Joule Surge Protection Rating", "description": "Compared stated joule ratings across corded strips and cordless wall tap designs." },
-  { "title": "UL Certification Depth", "description": "Checked whether each pick cites single or dual UL certification standards." },
-  { "title": "Outlet Count and USB Integration", "description": "Compared total outlet count and whether USB charging ports are built directly into the design." },
-  { "title": "Connected Equipment Warranty", "description": "Compared documented warranty coverage amounts across the lineup." },
-  { "title": "Cord vs Cordless Design", "description": "Distinguished corded strips that reach across a room from direct-plug wall taps requiring no cord." }
+  {
+    "title": "Surge energy",
+    "description": "We compared listed joules from 540J on the SK6-0B wall tap to 4000J on the Amazon Basics strip. Under $20 the spread is wide, and a 7x gap in absorption means the high-joule strip can take many more hits before its protection wears out. The Tripp Lite TLP606B lands at 900J, which is the middle of the pack."
+  },
+  {
+    "title": "Outlet count and layout",
+    "description": "We counted outlets and noted how many are grounded, since the GE lists 8 with 4 grounded and 4 polarized, and the Amazon Basics lists 12. More outlets cost nothing in power if the total load stays under 15A, but a crowded strip invites overloading. Because a strip with 12 outlets is easy to overfill, we also noted the 15A breaker as a check against overload."
+  },
+  {
+    "title": "USB and extras",
+    "description": "We checked the GE listing for 2 USB-C and 1 USB-A ports, the Amazon Basics 15A breaker and the safety shutters. These add convenience but not surge protection, so we scored them below joules and certification. The GE wall tap includes a lighted USB set, so we asked whether the charging output was enough for a laptop, and flagged that its listing does not guarantee a laptop charging rate."
+  },
+  {
+    "title": "Warranty and listing",
+    "description": "We read each warranty and certification, including Tripp Lite's lifetime warranty and UL 1363 and 1449 on the TLP606B. UL 1449 is the surge standard and 1363 covers relocatable power taps, so units listing both scored highest on this check. The cordless SK6-0B lists UL 1449 with a diagnostic LED, which scored well despite its 540J rating."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The most outlets, USB charging, and highest warranty", "GE All-in-One Surge Protector Wall Tap, 8 Outlets"],
-        ["The highest raw joule rating with a long cord", "Amazon Basics 12-Outlet Surge Protector, 4000 Joules"],
-        ["Dual UL certification with EMI/RFI filtering", "Eaton Tripp Lite TLP606B 6-Outlet Surge Protector"],
-        ["A cordless wall tap with zero cable clutter", "Eaton Tripp Lite SK6-0B 6-Outlet Wall Tap"]
+    "subheading": "By Primary Need",
+    "intro": "Four very different designs share the under $20 slot.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The biggest surge absorption and 12 outlets for a full desk",
+          "Amazon Basics 12-Outlet Surge Protector, 4000J with an 8 foot cord"
+        ],
+        [
+          "USB-C charging plus a wall mount",
+          "GE All-in-One Wall Tap, 8 outlets with 2 USB-C and 1 USB-A"
+        ],
+        [
+          "A trusted brand with a lifetime warranty and EMI filtering",
+          "Tripp Lite TLP606B 6-Outlet Surge Protector, 900J with a 6 foot cord"
+        ],
+        [
+          "A cordless wall tap behind a sofa",
+          "Tripp Lite SK6-0B 6-Outlet Wall Tap, 540J with no cord"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $18", "TLP606B (under $20)"],
-        ["Under $20", "GE All-in-One (under $20), Amazon Basics (under $20), or SK6-0B (under $20)"]
+    "subheading": "By Budget",
+    "intro": "All four land between under $20 and $20, so features decide.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $20, the lowest here",
+          "Tripp Lite TLP606B, with 900J and a lifetime warranty"
+        ],
+        [
+          "Under $20",
+          "GE All-in-One, for the USB-C ports"
+        ],
+        [
+          "Under $20",
+          "Amazon Basics 12-Outlet, the best joules per dollar"
+        ],
+        [
+          "Under $25",
+          "Tripp Lite SK6-0B, the only cordless design"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Cordless Wall Tap vs Corded Extension Strip",
-    cards: [
-      { label: "Cordless wall tap (GE All-in-One, SK6-0B)", text: "Plugs directly into the wall with zero cable clutter, ideal when devices already sit near the outlet." },
-      { label: "Corded extension (Amazon Basics, TLP606B)", text: "Reaches across a room to devices positioned away from the wall, at the cost of visible cable." }
+    "subheading": "Power Strip vs Wall Tap",
+    "intro": "A strip with a cord reaches distant outlets, while a wall tap sits against the wall.",
+    "cards": [
+      {
+        "label": "Power strip with cord",
+        "text": "The Amazon Basics 12-Outlet and Tripp Lite TLP606B have 6 to 8 foot cords that reach across a desk, and their bodies can host larger outlet counts and breakers."
+      },
+      {
+        "label": "Wall tap",
+        "text": "The GE All-in-One and Tripp Lite SK6-0B plug directly into the wall, which saves floor space but may put plugs under strain from heavy adapters."
+      }
     ],
-    note: "If your devices cluster right at the wall, a cordless wall tap keeps things tidy. If you need to reach a desk or entertainment center set back from the outlet, a corded design is necessary.",
+    "note": "If your wall outlet is far from your desk, buy a strip. If it is right behind, a tap is neater."
   },
   {
-    subheading: "By Joule Rating Needs",
-    table: {
-      headers: ["Your protection priority", "Recommended pick"],
-      rows: [
-        ["Maximum raw protection capacity", "Amazon Basics (4000J)"],
-        ["Solid protection with dual certification", "TLP606B (900J, UL 1363 & 1449)"],
-        ["Basic protection in a cordless design", "SK6-0B (540J)"]
+    "subheading": "By Gear Type",
+    "intro": "Match the protector to what you plug in.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A gaming PC, monitor and speakers",
+          "Amazon Basics 12-Outlet, with 4000J and 12 outlets"
+        ],
+        [
+          "A laptop and two phones charging",
+          "GE All-in-One, which charges via USB-C"
+        ],
+        [
+          "A TV and audio gear with noise concerns",
+          "Tripp Lite TLP606B, which lists EMI and RFI filtering"
+        ],
+        [
+          "A single lamp and charger behind a nightstand",
+          "Tripp Lite SK6-0B, as a compact tap"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Kitchen Counter Charging Station Specifically",
-    cards: [
-      { label: "Look for", text: "A cordless wall tap with built-in USB ports so phones and tablets can charge directly without extra cable clutter on the counter." },
-      { label: "In this comparison", text: "The GE All-in-One's built-in USB-C and USB-A ports make it specifically suited to this kitchen counter use case." }
-    ],
+    "subheading": "For a Home Office Specifically",
+    "intro": "A home office adds a PC, a monitor and a printer.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A UL 1449 listing, at least 1000J, an outlet count that matches your gear, and a breaker. Spread loads evenly so the total stays under 1875W."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Amazon Basics 12-Outlet lists a 15A breaker and safety shutters, and Tripp Lite TLP606B lists UL 1363 and 1449 with a lifetime warranty. Either handles a PC desk."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the most outlets, USB charging, and the highest documented warranty, where the GE All-in-One delivers all three in one wall tap." },
-      { label: "Save if", text: "You want dual UL certification and a lifetime warranty without USB ports, where the TLP606B covers that for about $2 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $40 guide adds higher quality ratings and home theater filtering.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want 1440J or more with a flat plug. Tripp Lite TLP606B gives only 900J."
+      },
+      {
+        "label": "Save if",
+        "text": "You want light use at a nightstand. Tripp Lite SK6-0B is cordless and cheap."
+      }
+    ]
   }
 ];
 
@@ -181,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Does a higher joule rating always mean better overall protection than dual UL certification?", "a": "Not necessarily; joule rating measures raw protection capacity while UL certification measures independently verified safety and construction standards, so the Amazon Basics pick's higher 4000J rating and the TLP606B's dual UL 1363/1449 certification represent different, complementary types of assurance rather than directly comparable metrics." },
-  { "q": "What's the most common mistake buyers make when comparing connected equipment warranties?", "a": "Assuming a higher price automatically means a higher warranty amount, when the GE All-in-One's $100,000 policy actually exceeds the pricier SK6-0B's $10,000 coverage despite being priced lower." },
-  { "q": "Is the GE All-in-One pick worth it over the Amazon Basics for someone who doesn't need USB charging?", "a": "If you don't need built-in USB ports and prioritize raw joule protection capacity instead, the Amazon Basics pick's 4000J rating offers meaningfully higher protection, though the GE All-in-One's $100,000 warranty is still the strongest documented coverage in this comparison." },
-  { "q": "Can I use the cordless SK6-0B wall tap in a location where a corded strip won't fit?", "a": "Yes, its direct-plug design specifically works in tight spaces where a corded strip's cable would be inconvenient, though it does block the second outlet on a standard duplex receptacle to gain its 6 additional outlets." },
-  { "q": "How does EMI/RFI filtering actually benefit my electronics in daily use?", "a": "It reduces electrical interference that can otherwise cause subtle issues like audio hum, data transmission errors, or gradual component wear, benefits you likely won't notice directly but that contribute to longer-term device reliability, particularly for sensitive audio or computing equipment." },
-  { "q": "Do I need to register my surge protector to activate the connected equipment warranty?", "a": "Registration requirements vary by manufacturer, so check the specific documentation included with your chosen pick, since some connected equipment warranties require product registration within a certain timeframe after purchase to remain valid." }
+  {
+    "q": "Is 4000 joules on the Amazon Basics strip better than 900 on Tripp Lite?",
+    "a": "In absorption, yes, because it can take more surge energy before wearing out. But a joule number does not say how much voltage gets through. The Tripp Lite lists UL 1363 and 1449 certification and a lifetime warranty, so compare more than joules."
+  },
+  {
+    "q": "Can I plug a surge protector into another power strip?",
+    "a": "Manufacturers generally advise plugging directly into a wall outlet. Daisy-chaining can overload the circuit and the first strip. If you need more outlets, buy a larger unit like the 12 outlet Amazon Basics."
+  },
+  {
+    "q": "Do USB ports on a surge protector offer protection?",
+    "a": "The GE lists 2 USB-C and 1 USB-A ports on a wall tap with 1140J protection, so they are charging ports on a protected device. Their output is limited, so check the amperage if you charge a laptop. Treat the USB ports as a convenience for phones rather than a laptop charger."
+  },
+  {
+    "q": "What does the lifetime warranty on the Tripp Lite cover?",
+    "a": "It typically covers defects in the product and may include a connected equipment policy, such as the $20,000 listed. These policies have conditions, so read the terms before assuming a payout. It is not a guarantee of full replacement."
+  },
+  {
+    "q": "How do I check that a surge protector is still working?",
+    "a": "Look for the protected light, since if it is out the protection may be gone. The Tripp Lite SK6-0B lists a diagnostic LED. Some protectors also fail without a light, so replace them every few years. Test the light after a thunderstorm."
+  },
+  {
+    "q": "Can I mount a strip on the wall?",
+    "a": "The Amazon Basics 12-outlet lists wall-mountable design with keyhole slots. Use screws rated for the weight and avoid hiding it behind fabric. Keep the cord untangled so it does not overheat. A cord running through a closed cabinet door can pinch."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

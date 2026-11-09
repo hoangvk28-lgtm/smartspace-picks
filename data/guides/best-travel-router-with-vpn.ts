@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/318sQdwKTxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B073TSK26W?tag=deskfinds0d-20",
-    description: "This router's listing specifically states OpenVPN client pre-installed and compatible with 30+ VPN service providers at the lowest price in this comparison, matching the AR300M16's 39g weight and pocket-friendly design. Its intuitive mobile app and web admin panel are specifically called out as making setup accessible in just a few steps.\n\nCompared to the AR300M16 pick above, this one costs about $7 less but includes OpenVPN client only, not the dual client-and-server WireGuard support the AR300M16 offers, and its radio is 2.4GHz only rather than dual-band.\n\nBest for budget-conscious buyers who want basic OpenVPN protection in the smallest, cheapest package in this comparison.",
+    description: "This router's listing specifically states OpenVPN client pre-installed and compatible with 30+ VPN service providers at the lowest price in this comparison, matching the AR300M16's 39g weight and pocket-friendly design. Its intuitive mobile app and web admin panel are specifically called out as making setup accessible in just a few steps.\n\nCompared to the AR300M16 pick above, this one costs under $10 less but includes OpenVPN client only, not the dual client-and-server WireGuard support the AR300M16 offers, and its radio is 2.4GHz only rather than dual-band.\n\nBest for budget-conscious buyers who want basic OpenVPN protection in the smallest, cheapest package in this comparison.",
     specs: ["OpenVPN client pre-installed, 2.4GHz only", "39g weight, dual Ethernet ports", "Easy mobile app and web admin panel setup"],
     pros: ["Lowest price in this comparison", "Same ultra-lightweight 39g design as the pricier mini router", "Easy setup via mobile app or web panel"],
     cons: ["2.4GHz only, no 5GHz band unlike the other picks", "OpenVPN client only, no WireGuard or server capability stated"],
@@ -84,70 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "VPN Throughput", "description": "Compared stated OpenVPN and WireGuard maximum speeds across listings." },
-  { "title": "VPN Feature Depth", "description": "Compared kill switch, per-site routing policies, and client-versus-server capability." },
-  { "title": "Provider Compatibility", "description": "Confirmed each listing states compatibility with 30+ VPN service providers." },
-  { "title": "Portability", "description": "Compared physical size and weight for carrying a VPN-enabled router while traveling." },
-  { "title": "Setup Accessibility", "description": "Compared OpenWrt-based configuration depth against simpler app-based setup." }
+  {
+    "title": "Stated VPN throughput",
+    "description": "We compared the maximum VPN speeds each listing publishes, from the Beryl AX's 150 Mbps for OpenVPN and 300 Mbps for WireGuard to the Slate Plus at 28 and 170 Mbps. VPN encryption needs real processing power, so the raw Wi-Fi rating on the box says little. Check the number for your protocol before ordering."
+  },
+  {
+    "title": "Protocol support",
+    "description": "We read which protocols run in client mode and which in server mode. The Beryl AX and AR300M16 run both client and server, while the Mango lists only an OpenVPN client, which rules it out for connecting back to a home network. Server mode needs a matching setup at home."
+  },
+  {
+    "title": "Kill switch and routing rules",
+    "description": "We looked at leak protection. The Slate Plus lists a VPN kill switch and per-site routing policies, so traffic stops if the tunnel drops. Some firmware blocks all traffic until the VPN returns, which is safer but can cut your internet if the tunnel fails. Test the kill switch before relying on it."
+  },
+  {
+    "title": "Wi-Fi and wired speed",
+    "description": "We compared radios and ports. The Beryl AX has Wi-Fi 6 and a 2.5G WAN port for fast hotel Ethernet, the Slate Plus uses older AC Wi-Fi, and the Mango is 2.4GHz only. Campground WiFi often tops out at 70 to 80 Mbps, so ports matter less than the radio. Port speed only helps where the uplink can match it."
+  },
+  {
+    "title": "Size and power",
+    "description": "We compared weight and power. The AR300M16 and Mango weigh 39g and run from USB or a power bank, while the Beryl AX is larger. A router that fits a laptop sleeve and runs off a power bank gets used on every trip. Smaller units also lose less to cable clutter."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Priority",
-    table: {
-      headers: ["What matters most", "Recommended pick"],
-      rows: [
-        ["Fastest VPN throughput", "GL.iNet GL-MT3000 Beryl AX"],
-        ["VPN kill switch and per-site routing", "GL.iNet GL-A1300 Pocket VPN (Slate Plus)"],
-        ["Smallest size with VPN server capability", "GL.iNet GL-AR300M16 Mini"],
-        ["Lowest price", "GL.iNet GL-MT300N-V2 (Mango)"]
+    "subheading": "By VPN Speed Need",
+    "intro": "The VPN protocol and chip decide the speed you actually see.",
+    "table": {
+      "headers": [
+        "Your use",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Streaming and video calls through WireGuard at home speed",
+          "GL.iNet GL-MT3000 Beryl AX, with up to 300 Mbps on WireGuard"
+        ],
+        [
+          "Everyday browsing with a kill switch at a lower price",
+          "GL.iNet GL-A1300 Pocket VPN Travel Router (Slate Plus), with up to 170 Mbps on WireGuard"
+        ],
+        [
+          "Basic browsing and email over a hotel network",
+          "GL.iNet GL-AR300M16 Mini Travel Wi-Fi Router, with client and server installed"
+        ],
+        [
+          "A tight budget with an OpenVPN client only",
+          "GL.iNet GL-MT300N-V2 (Mango), at the lowest price"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $30", "GL.iNet GL-MT300N-V2 (Mango) (under $30)"],
-        ["Under $37", "GL.iNet GL-AR300M16 Mini (under $40)"],
-        ["Under $70", "GL.iNet GL-A1300 Pocket VPN (under $70)"],
-        ["Under $99", "GL.iNet GL-MT3000 Beryl AX (under $100)"]
+    "subheading": "By Budget",
+    "intro": "The Mango is the cheapest, and the Beryl AX is the most expensive.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup",
+          "GL.iNet GL-MT300N-V2 (Mango), with an OpenVPN client pre-installed"
+        ],
+        [
+          "A mid-range price for a mini router with a server",
+          "GL.iNet GL-AR300M16 Mini Travel Wi-Fi Router, with dual Ethernet ports"
+        ],
+        [
+          "A mid-range price with a kill switch",
+          "GL.iNet GL-A1300 Pocket VPN Travel Router (Slate Plus), lower than the Beryl AX"
+        ],
+        [
+          "The highest price for Wi-Fi 6 and a 2.5G WAN port",
+          "GL.iNet GL-MT3000 Beryl AX"
+        ]
+      ]
+    }
   },
   {
-    subheading: "High VPN Throughput vs Ultra-Compact Size",
-    cards: [
-      { label: "High throughput (Beryl AX, GL-A1300)", text: "Worth the larger size and higher price when you plan to route bandwidth-heavy activities like video calls or streaming through the VPN regularly." },
-      { label: "Ultra-compact (AR300M16, Mango)", text: "Better for minimalist travelers who want basic VPN protection for browsing and email without needing to route heavy traffic through it." }
+    "subheading": "VPN Client Only vs Client Plus Server",
+    "intro": "Server mode lets you reach home while traveling.",
+    "cards": [
+      {
+        "label": "Client only (Mango)",
+        "text": "You can send your traffic through a VPN service, but you cannot connect back into a home network from the road. It is simple and costs less."
+      },
+      {
+        "label": "Client and server (Beryl AX, AR300M16)",
+        "text": "You can run a VPN service tunnel and a server at once, and use the server to reach files or a home camera from abroad, which needs a router at home too."
+      }
     ],
-    note: "Match your choice to your actual VPN usage pattern; a 28 Mbps OpenVPN ceiling is plenty for browsing but noticeably limiting for a video call.",
+    "note": "Default to client only if you just want public Wi-Fi protection, and server mode if you want to reach home."
   },
   {
-    subheading: "By VPN Feature Depth Needed",
-    table: {
-      headers: ["Feature you need", "Recommended pick"],
-      rows: [
-        ["VPN kill switch to prevent unprotected traffic", "GL.iNet GL-A1300 Pocket VPN"],
-        ["VPN server capability, not just client", "GL.iNet GL-MT3000 Beryl AX or GL-AR300M16"],
-        ["Basic VPN client only", "GL.iNet GL-MT300N-V2 (Mango)"]
+    "subheading": "By Hotel and Campground Setup",
+    "intro": "Where you connect decides whether the radio or the port matters.",
+    "table": {
+      "headers": [
+        "Your connection",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A hotel with Ethernet in the room",
+          "GL.iNet GL-MT3000 Beryl AX, with a 2.5G WAN port"
+        ],
+        [
+          "Hotel Wi-Fi where you repeat the signal to several devices",
+          "GL.iNet GL-A1300 Pocket VPN Travel Router (Slate Plus), with AC Wi-Fi"
+        ],
+        [
+          "A tiny bag where a power bank powers the router",
+          "GL.iNet GL-AR300M16 Mini Travel Wi-Fi Router, at 39g"
+        ],
+        [
+          "A 2.4GHz-only legacy network",
+          "GL.iNet GL-MT300N-V2 (Mango), which has no 5GHz band"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Frequent Business Travel With Sensitive Data Specifically",
-    cards: [
-      { label: "Look for", text: "A VPN kill switch that blocks all internet traffic if the VPN connection unexpectedly drops, preventing sensitive work data from ever transmitting over an unprotected hotel or airport network." },
-      { label: "In this comparison", text: "The GL-A1300 Pocket VPN specifically states a VPN internet kill switch feature not called out on the other three picks." }
-    ],
+    "subheading": "For Business Travelers Specifically",
+    "intro": "Sensitive data makes leak protection worth more than raw speed.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A VPN kill switch, per-site routing rules and a protocol you can use with your company's VPN."
+      },
+      {
+        "label": "In this comparison",
+        "text": "GL.iNet GL-A1300 Pocket VPN Travel Router (Slate Plus) offers a kill switch and routing policies, while the Beryl AX offers higher speed and server mode."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need fast VPN throughput for video calls or want granular per-site routing control, where the Beryl AX or GL-A1300 near $70-100 deliver those specific capabilities." },
-      { label: "Save if", text: "You just want basic OpenVPN protection for browsing while traveling light, where the Mango at under $30 covers that need in the smallest package." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Paying more buys VPN speed and wired connections.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You stream or take video calls through a VPN, where GL.iNet GL-MT3000 Beryl AX gives 300 Mbps on WireGuard."
+      },
+      {
+        "label": "Save if",
+        "text": "You only browse and read email, where GL.iNet GL-MT300N-V2 (Mango) is the lowest price."
+      }
+    ]
   }
 ];
 
@@ -175,12 +260,12 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Do I need to pay for a separate VPN subscription to use these travel routers' VPN features?", "a": "Yes, these routers come with VPN client software pre-installed, but you still need an active subscription with a compatible VPN service provider to actually use the VPN connection." },
-  { "q": "What's the difference between OpenVPN and WireGuard on a travel router?", "a": "WireGuard is a newer VPN protocol that typically delivers faster speeds and lower overhead than OpenVPN, though OpenVPN remains widely supported and compatible with more VPN providers in some cases." },
+  { "q": "Do I need to pay for a separate VPN subscription to use these travel routers' VPN features?", "a": "Yes, these routers are the tool and not the service, so you still need an active subscription with a compatible VPN provider and its configuration files. The GL.iNet admin panel lets you load OpenVPN or WireGuard configs once, and every device behind the router then uses that tunnel without any app installed on it." },
+  { "q": "What's the difference between OpenVPN and WireGuard on a travel router?", "a": "WireGuard is newer and usually faster on small routers, and the listings show it clearly: the Beryl AX reaches up to 300 Mbps on WireGuard against 150 Mbps on OpenVPN, and the Slate Plus reaches 170 against 28. OpenVPN is still widely supported by providers, so check which one your VPN offers." },
   { "q": "Is a VPN kill switch necessary for casual travel use?", "a": "It's most valuable for business travelers handling sensitive data who want a guarantee against unprotected traffic; casual browsing carries lower risk if a brief connection drop occasionally exposes unencrypted traffic." },
-  { "q": "Can a travel router with VPN also access my home network remotely?", "a": "Only if it specifically supports VPN server mode in addition to client mode, letting you connect back into your home network's VPN server to access files or devices while traveling." },
+  { "q": "Can a travel router with VPN also access my home network remotely?", "a": "Only if the router supports VPN server mode as well as client mode, and you run a VPN endpoint at home. The Beryl AX and AR300M16 list both modes, while the Mango lists only an OpenVPN client, so it cannot take connections back into your home network or share files while you travel." },
   { "q": "Why do VPN speeds vary so much between similarly priced travel routers?", "a": "VPN encryption requires real processing power, and routers with weaker or older processor chips struggle to maintain high throughput once encryption overhead is added, even if their raw Wi-Fi speed rating looks similar on paper." },
-  { "q": "Is a 28 Mbps OpenVPN speed too slow for travel use?", "a": "It's sufficient for basic browsing and email, but noticeably limiting for video calls or streaming through the VPN tunnel, so match your router's stated speed to your actual planned VPN usage." }
+  { "q": "Is a 28 Mbps OpenVPN speed too slow for travel use?", "a": "For email and basic browsing 28 Mbps is fine, but it is limiting for video calls or streaming through the tunnel. Campground WiFi often delivers around 70 to 80 Mbps, so a 28 Mbps OpenVPN ceiling on the Slate Plus would waste most of it, and WireGuard at up to 170 Mbps is the better choice." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

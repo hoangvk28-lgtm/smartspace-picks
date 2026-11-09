@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Surface Size and Fit", "description": "Compared stated surface dimensions and maximum supported laptop screen size across the lineup." },
-  { "title": "Cushion Design", "description": "Distinguished microbead dual-bolster cushioning from rigid, uncushioned board designs." },
-  { "title": "Heat Management", "description": "Compared airflow channels and heat shield features designed to keep both the lap and the device cool." },
-  { "title": "Portability Features", "description": "Compared weight and carrying handle design across the lineup." },
-  { "title": "Additional Storage Features", "description": "Checked for device ledges, storage wells, or cup holders included in each design." }
+  {
+    "title": "Surface size versus laptop size",
+    "description": "We compared listed surfaces, 17.9 by 13 inches on the MyDesk and about 17 by 13.2 inches on the Basic and MyStyle, with the stated laptop limits. A laptop that overhangs the edge tips forward, so under $20 we treated a 15.6 inch maximum as the practical ceiling for these cushioned boards."
+  },
+  {
+    "title": "Heat and airflow",
+    "description": "We checked how each pick handles laptop heat. The MyDesk lists center airflow, the GRIFITI lists a rigid acrylic plate with a heat shield, and the Basic and MyStyle rely on a polystyrene surface. A hard, raised surface keeps vents clear, while a soft one can block them."
+  },
+  {
+    "title": "Cushion and stability",
+    "description": "The three LAPGEAR boards list a dual-bolster microbead cushion that molds to your thighs, while the GRIFITI is a flat plate with a non-skid cover. We scored how well each stays put on a moving lap, favoring the bolster designs for bed and sofa use. We also asked whether a pen, phone or mouse has somewhere to sit, because a bare board forces the mouse onto the cushion."
+  },
+  {
+    "title": "Portability and storage",
+    "description": "We compared weight and carry features, including the 1.15 pound MyStyle and its built-in handle, the MyDesk device ledge and storage wells, and the 0.25 inch GRIFITI that slides into a laptop sleeve. At this price, carrying convenience separated otherwise similar boards."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +112,135 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["A device ledge and airflow cooling", "LAPGEAR MyDesk Lap Desk"],
-        ["A rigid, slim writing surface for laptops or keyboards", "GRIFITI Portable Travel Deck 15 Lap Desk"],
-        ["A simple, no-frills cushioned design", "LAPGEAR Basic Lap Desk"],
-        ["The lightest possible lap desk for easy carrying", "LAPGEAR MyStyle Lap Desk"]
+    "subheading": "By How You Use It",
+    "intro": "The four picks cover couch, bed and travel use.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Couch or bed use with a phone and pen to hold",
+          "LAPGEAR MyDesk Lap Desk, with a device ledge and two storage wells"
+        ],
+        [
+          "A lightweight board carried between rooms",
+          "LAPGEAR MyStyle Lap Desk, listed at about 1.15 pounds with a handle"
+        ],
+        [
+          "A no-frills board for a 15 inch laptop",
+          "LAPGEAR Basic Lap Desk, the simplest of the three LAPGEAR boards"
+        ],
+        [
+          "A slim plate that travels in a bag or sleeve",
+          "GRIFITI Portable Travel Deck 15, at 0.25 inches thick"
+        ],
+        [
+          "Using a hot laptop for long sessions",
+          "GRIFITI, with its rigid plate and heat shield, or LAPGEAR MyDesk with center airflow"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $20", "LAPGEAR MyDesk (under $20), Basic (under $20), or MyStyle (under $20)"],
-        ["Exactly $20", "GRIFITI Travel Deck (under $25)"]
+    "subheading": "By Laptop Size",
+    "intro": "Check the stated maximum screen size before buying.",
+    "table": {
+      "headers": [
+        "Your laptop",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "13 to 14 inch ultrabook",
+          "GRIFITI, a compact deck that suits slim notebooks"
+        ],
+        [
+          "15.6 inch mainstream laptop",
+          "LAPGEAR MyDesk, which lists a 15.6 inch limit"
+        ],
+        [
+          "15 inch laptop with a mouse beside it",
+          "LAPGEAR Basic, with a 17 by 13.2 inch surface"
+        ],
+        [
+          "Tablet or small laptop for the couch",
+          "LAPGEAR MyStyle, with a curved front edge for wrists"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Cushioned Lounging Design vs Rigid Writing Board",
-    cards: [
-      { label: "Cushioned (LAPGEAR MyDesk, Basic, MyStyle)", text: "Soft microbead cushion rests comfortably on the lap, ideal for casual laptop use on a couch or bed." },
-      { label: "Rigid (GRIFITI Travel Deck)", text: "Uncushioned but slim and sturdy, better suited to writing, drawing, or using a separate keyboard on your lap." }
+    "subheading": "Cushioned vs Rigid Plate",
+    "intro": "The comfort tradeoff here is soft support or hard cooling.",
+    "cards": [
+      {
+        "label": "Cushioned bolster",
+        "text": "LAPGEAR MyDesk, LAPGEAR Basic and LAPGEAR MyStyle use microbead bolsters that mold to your lap and keep a laptop from sliding. They are the comfortable option for a bed or sofa."
+      },
+      {
+        "label": "Rigid plate",
+        "text": "GRIFITI is a 0.25 inch acrylic plate with a neoprene cover. It protects against heat and travels easily, but it gives less cushion and no tilt."
+      }
     ],
-    note: "If you mainly watch videos or browse casually on a couch, a cushioned design like the LAPGEAR picks is more comfortable. If you need a stable, flat surface for writing or a mechanical keyboard, the GRIFITI's rigid design suits that better.",
+    "note": "Most buyers should take a cushioned board, unless the laptop runs hot or must travel in a bag."
   },
   {
-    subheading: "By Feature Priority",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Preventing laptop slippage", "LAPGEAR MyDesk (device ledge)"],
-        ["Minimizing weight for portability", "LAPGEAR MyStyle (1.15 lbs)"],
-        ["Fitting inside a laptop sleeve for travel", "GRIFITI Travel Deck"]
+    "subheading": "By Typing Comfort",
+    "intro": "Where your wrists rest matters over a long session.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wrist support while typing",
+          "LAPGEAR MyStyle, with a curved front edge"
+        ],
+        [
+          "Holding a pen and phone on the board",
+          "LAPGEAR MyDesk, with the device ledge"
+        ],
+        [
+          "A flat surface for a mouse",
+          "LAPGEAR Basic, with a 17 by 13.2 inch top"
+        ],
+        [
+          "A cool surface in summer",
+          "GRIFITI, with a heat shield"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Working in Bed for Extended Periods Specifically",
-    cards: [
-      { label: "Look for", text: "A dual-bolster cushion design with an airflow channel to prevent overheating during long sessions." },
-      { label: "In this comparison", text: "The LAPGEAR MyDesk's center airflow channel and dual-bolster cushion are specifically designed for this kind of extended comfortable use." }
-    ],
+    "subheading": "For Students on a Bed or Couch Specifically",
+    "intro": "A bed or sofa tilts the board, so grip and cushioning matter.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Dual-bolster cushioning, a device ledge or lip to hold a phone, and a surface at least as big as your laptop."
+      },
+      {
+        "label": "In this comparison",
+        "text": "LAPGEAR MyDesk lists a device ledge, two storage wells and center airflow, which suits a student on a bed, and LAPGEAR MyStyle is lighter for carrying to the library."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want a device ledge and airflow cooling in one package, where the LAPGEAR MyDesk delivers both at the same price as the simpler picks in this comparison." },
-      { label: "Save if", text: "You just need a simple, reliable cushioned surface, where the LAPGEAR Basic covers that without paying for extra features you may not use." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $30 guide adds cup holders and wrist pads.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a cup holder or a tablet slot. The under $30 guide covers the LAPGEAR Cup Holder desk and HUANUO, which add features the LAPGEAR Basic lacks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need a basic surface. LAPGEAR Basic gives the LAPGEAR cushion and handle at the same price tier."
+      }
+    ]
   }
 ];
 
@@ -181,12 +268,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I use the GRIFITI rigid lap desk comfortably directly on bare legs?", "a": "It's designed with a heat shield and non-skid neoprene cover for comfort and grip, but since it lacks the soft microbead cushioning of the LAPGEAR picks, some users may find extended direct contact with bare skin less comfortable than a cushioned design." },
-  { "q": "What's the most common mistake buyers make when choosing between rigid and cushioned lap desks?", "a": "Assuming any lap desk works equally well for both writing tasks and casual lounging, when a rigid design like the GRIFITI Travel Deck is genuinely better suited to writing or keyboard use, while a cushioned design like the LAPGEAR picks better serves comfortable, reclined laptop use." },
-  { "q": "Is the LAPGEAR MyDesk worth it over the simpler LAPGEAR Basic model?", "a": "If you specifically want a device ledge to prevent laptop sliding and built-in storage wells for pens or cords, yes, the MyDesk includes both features at the same price as the Basic model, which lacks these extras." },
-  { "q": "How do I know if a lap desk's surface size will fit my specific laptop?", "a": "Check your laptop's screen size against the lap desk's stated maximum supported size, and note that all four picks in this comparison support laptops up to 15.6 inches, though the actual physical surface dimensions vary slightly between models." },
-  { "q": "Does the GRIFITI Travel Deck come in different sizes for different laptop sizes?", "a": "Yes, it's available in multiple sizes including 13x12, 15x12, and 17x12 inches, so check the specific size options available to match your laptop or writing surface needs." },
-  { "q": "Can these lap desks be used for eating meals in bed, not just laptop use?", "a": "The flat, stable surfaces on all four picks can support light meal trays, though none of these specific picks include a dedicated cup holder, so consider a lap desk with that specific feature if eating and drinking in bed is a primary intended use." }
+  {
+    "q": "Is a lap desk really better than putting a laptop on my lap?",
+    "a": "Evidence points that way. One controlled study of 15 adults found a lap desk reduced head tilt by about 4 degrees, neck flexion by 2 degrees and wrist extension by 9 degrees. A rigid, raised surface also keeps vents clear, which a soft lap does not."
+  },
+  {
+    "q": "Will the LAPGEAR MyDesk fit a 17 inch laptop?",
+    "a": "No. It lists support for up to 15.6 inch laptops, and a 17 inch machine will overhang its 17.9 by 13 inch surface. A larger laptop needs a bigger board such as the 17 inch Potuopy in the under $50 guide. For a 17 inch machine, look at the larger boards in the under $50 guide."
+  },
+  {
+    "q": "Is the GRIFITI worth it over a cushioned LAPGEAR board?",
+    "a": "If you carry a laptop often, yes. It is only 0.25 inches thick, slides into a sleeve and has a heat shield. For a bed or couch where the board must grip your legs, a cushioned LAPGEAR with dual bolsters stays steadier."
+  },
+  {
+    "q": "How do I keep a laptop from overheating on a lap desk?",
+    "a": "Choose a board with a hard surface and vent space. The MyDesk lists center airflow and the GRIFITI a heat shield. Do not place a laptop on a blanket, since soft surfaces block the intake vents. Placing the laptop on a blanket on top of the board defeats the purpose, since the blanket blocks the same vents."
+  },
+  {
+    "q": "Do these boards tilt?",
+    "a": "No. These under $20 boards are flat, so the screen stays low. If you want a tilt, step up to the under $40 guide, which lists 3 to 8 angles. Raise the screen by a separate stand if your neck bends. Pairing the board with a separate stand for the screen is the usual fix when the display sits too low."
+  },
+  {
+    "q": "How should I clean a microbead cushion board?",
+    "a": "Wipe the surface with a damp cloth and mild soap and let it air dry. Do not machine wash the beaded cushion. Check for beads leaking from seams occasionally. Keep the beads away from sharp edges, and do not leave the board in a hot car where the shell can warp."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

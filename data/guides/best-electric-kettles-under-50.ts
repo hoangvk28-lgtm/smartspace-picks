@@ -219,47 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Preset temperatures that matter",
-    "explanation": "Presets are fixed temperatures like 175F for green tea or 200F for coffee. They matter because boiling water scorches delicate leaves. Look for a list of exact temperatures, not just 'temperature control', and see whether a keep-warm duration is stated."
+    "explanation": "Presets are fixed temperatures like 175F for green tea or 200F for coffee. They matter because boiling water scorches delicate leaves. Look for a list of exact temperatures, not just 'temperature control', and see whether a keep-warm duration is stated. Check that a preset like 175F for green tea or 200F for coffee exists, since a kettle with only a boil button wastes the feature."
   },
   {
     "criterion": "Gooseneck versus standard spout",
-    "explanation": "A gooseneck spout narrows the stream for pour-over, which helps control bloom and flow. The cost is that goosenecks usually hold only 0.8 to 1.0L, which is a poor fit for sharing. Check the capacity before the spout."
+    "explanation": "A gooseneck spout narrows the stream for pour-over, which helps control bloom and flow. The cost is that goosenecks usually hold only 0.8 to 1.0L, which is a poor fit for sharing. Check the capacity before the spout. A gooseneck like the Nueve&Five slows the pour, but a standard spout like the Cosori fills a mug or thermos faster."
   },
   {
     "criterion": "Plastic anywhere water goes",
-    "explanation": "Even steel kettles can have plastic lids, spouts or water windows. That matters for taste and heat exposure. Search for wording about the inside lid and spout, and look at the open-lid photos."
+    "explanation": "Even steel kettles can have plastic lids, spouts or water windows. That matters for taste and heat exposure. Search for wording about the inside lid and spout, and look at the open-lid photos. Plastic often hides in the lid, spout or water window, so look for a stainless path in the airyoyo and Cosori listings."
   },
   {
     "criterion": "Wattage and shared circuits",
-    "explanation": "A 1500W kettle can trip a shared circuit with other appliances, and some dorms limit wattage. Plug it directly into the wall. Read the watts in the title and compare to your rules."
+    "explanation": "A 1500W kettle can trip a shared circuit with other appliances, and some dorms limit wattage. Plug it directly into the wall. Read the watts in the title and compare to your rules. A 1500W kettle such as the airyoyo can trip an older shared circuit, so ask how many outlets share the breaker before buying."
   },
   {
     "criterion": "Dual voltage for travel",
-    "explanation": "Dual voltage means the kettle accepts 110 to 240V, which protects it abroad. A single-voltage kettle can fail on 240V. Look for '110-240V' in the specs, not just 'travel size'."
+    "explanation": "Dual voltage means the kettle accepts 110 to 240V, which protects it abroad. A single-voltage kettle can fail on 240V. Look for '110-240V' in the specs, not just 'travel size'. Dual voltage on the Nicewell covers 110 to 240V, and a single voltage kettle plugged abroad can fail, so check the label before travel."
   },
   {
     "criterion": "Boil-dry and keep-warm limits",
-    "explanation": "Boil-dry protection cuts power when empty, while keep-warm holds heat for a set time. Some keep-warm modes run for limited hours. Check that both are described with numbers."
+    "explanation": "Boil-dry protection cuts power when empty, while keep-warm holds heat for a set time. Some keep-warm modes run for limited hours. Check that both are described with numbers. Boil-dry protection protects an empty kettle, and keep warm holds the heat afterwards, so check the keep warm limit in the airyoyo listing."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Temperature control",
-    "description": "We compared preset counts, displays and keep-warm options as listed."
+    "title": "Preset usefulness",
+    "description": "We counted how many presets each kettle offers and whether they match real drinks. The airyoyo has 6 presets plus keep warm, the Nicewell has 6 settings, and the Nueve&Five adds a built in thermometer. Green tea works at about 175F and coffee near 200F, so presets are only valuable if they hit those numbers. A preset below 160F rarely helps, so we looked for green and oolong settings."
   },
   {
-    "title": "Materials",
-    "description": "Stainless steel contact surfaces and plastic-free claims were weighed against how specifically each listing described them."
+    "title": "Spout type",
+    "description": "Gooseneck kettles narrow the pour for pour over coffee. We compared the Nueve&Five and YTLAD gooseneck models against the standard spouts of the Cosori, BALTER and OLEGA, and noted that a gooseneck is slower to fill a thermos and a poor pick for pouring tea into many cups."
   },
   {
-    "title": "Capacity and wattage",
-    "description": "Listed liters and watts were matched to realistic uses from solo desk to shared kitchen."
+    "title": "Plastic in the water path",
+    "description": "We read which parts touch the water. The Cosori uses a seamless stainless interior and the YTLAD has a 304 steel lid and spout, while a plastic lid can still leave an odor. A stainless path was treated as the safer pick for daily use."
   },
   {
-    "title": "Value under $50",
-    "description": "Price was compared with documented features, not with unsupported claims."
+    "title": "Dual voltage and travel",
+    "description": "Only the Nicewell lists 110 to 240V with 316 stainless steel, so we judged it as the pick for a frequent traveler. The others are US voltage and may be damaged by foreign outlets without a converter. The 316 steel body also resists taste better than looser plastic parts."
+  },
+  {
+    "title": "Circuit load",
+    "description": "The airyoyo draws 1500W and the OLEGA 1200W. A 1500W kettle can trip a shared circuit when a microwave or toaster is on, so we marked the lower wattage Nueve&Five and YTLAD at 1000W as friendlier for older apartments."
   }
 ];
 

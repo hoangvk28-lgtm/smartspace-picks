@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Drawer and Storage Type", "description": "Distinguished enclosed drawers from open shelving across the lineup." },
-  { "title": "Tier Count and Printer Capacity", "description": "Compared 2-tier versus 3-tier designs and their ability to fit multiple printers." },
-  { "title": "Structural Support", "description": "Checked for dual-rod versus single-rod support systems and their stability implications." },
-  { "title": "Mobility Options", "description": "Compared fixed-base designs against rolling caster options across all four picks." },
-  { "title": "Height Adjustability", "description": "Checked which picks offer adjustable height configurations for different desk clearances." }
+  {
+    "title": "Storage layout",
+    "description": "We compared how each stand stores paper and supplies, from the VYUOL foldable fabric drawer and 3-tier layout to the HUANUO drawer with dividers and the YATINEY closed non-woven drawer. At $25 to $34 the drawer is the reason to pay more than for a plain shelf."
+  },
+  {
+    "title": "Weight and height range",
+    "description": "We read the HUANUO 38.5 pound capacity and adjustable height up to 14.1 inches against the fixed designs. Printers differ in height, and a stand that adjusts can fit a tall all-in-one that a fixed 12 inch shelf cannot. We also checked that a taller stand does not push the printer's paper tray out of easy reach."
+  },
+  {
+    "title": "Frame stability",
+    "description": "We looked at dual-rod support on the VYUOL, chipboard and metal on the YATINEY and rolling wheels on the YUFAM. Fabric drawers and chipboard are light, so we asked whether the frame stays square when the printer starts printing. Fabric and non-woven drawers are light, so we asked whether the metal frame carries the printer weight rather than the drawer."
+  },
+  {
+    "title": "Mobility",
+    "description": "We noted the YUFAM four swivel wheels with two locks and drop-resistance testing, and the HUANUO optional locking casters. Rolling is useful for sweeping floors but must lock during printing. The YUFAM lists drop-resistance tested wheels, which is a better sign for durability than an unspecified caster."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["To store two printers with dual-rod stability", "VYUOL Printer Stand with Storage, Fabric Drawer"],
-        ["Adjustable height with organized drawer storage", "HUANUO Printer Stand with Cable Management and Storage Drawer"],
-        ["An enclosed drawer to keep contents hidden", "YATINEY Desktop Printer Stand, Non-Woven Drawer"],
-        ["Tested rolling wheels at a lower price", "YUFAM 2 Tier Under Desk Printer Stand with Storage"]
+    "subheading": "By Storage Need",
+    "intro": "Drawers and extra tiers are the point of this price band.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Two printers or a printer and scanner on separate tiers",
+          "VYUOL Printer Stand with Storage, with a 3-tier design that fits 2 printers"
+        ],
+        [
+          "Paper, ink and cables sorted into compartments",
+          "HUANUO Printer Stand with Cable Management and Storage Drawer, with dividers"
+        ],
+        [
+          "A closed drawer that hides clutter",
+          "YATINEY Desktop Printer Stand, with a non-woven drawer"
+        ],
+        [
+          "An under desk stand that rolls out",
+          "YUFAM 2 Tier Under Desk Printer Stand with Storage"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $26", "YUFAM (under $30)"],
-        ["Under $27", "YATINEY (under $30)"],
-        ["Under $30", "VYUOL (under $30)"],
-        ["Under $34", "HUANUO (under $35)"]
+    "subheading": "By Budget",
+    "intro": "The band runs from under $30 to $34.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $30",
+          "YUFAM, the lowest price with rolling wheels"
+        ],
+        [
+          "Under $30",
+          "YATINEY, with two open shelves and a drawer"
+        ],
+        [
+          "Under $40",
+          "VYUOL Printer Stand with Storage, for the 3-tier layout"
+        ],
+        [
+          "Under $40",
+          "HUANUO, the most adjustable and the best for cable management"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Enclosed Drawer vs Open Shelf Storage",
-    cards: [
-      { label: "Enclosed drawer (YATINEY, VYUOL, HUANUO)", text: "Hides contents from view, protecting private documents and keeping small supplies from spilling out." },
-      { label: "Open shelf only (YUFAM)", text: "Provides simpler, quicker access to items without needing to open a drawer, but leaves contents visible." }
+    "subheading": "Desktop vs Under Desk",
+    "intro": "The stand sits on the desk or below it.",
+    "cards": [
+      {
+        "label": "Desktop",
+        "text": "The YATINEY and VYUOL Printer Stand with Storage raise the printer and hold supplies. They use desk space but keep the printer at arm's reach."
+      },
+      {
+        "label": "Under desk",
+        "text": "The YUFAM and HUANUO slide beneath the desk and free the surface, but you must reach down to load paper."
+      }
     ],
-    note: "If you're storing sensitive documents or want a tidier visual appearance, an enclosed drawer pick like the YATINEY is worth prioritizing. If quick visual access matters more than privacy, the open-shelf YUFAM works fine.",
+    "note": "Take an under desk stand if the desk is small, and a desktop stand if you print often."
   },
   {
-    subheading: "By Printer Count",
-    table: {
-      headers: ["Your printer setup", "Recommended pick"],
-      rows: [
-        ["Single printer with storage below", "YATINEY, HUANUO, or YUFAM"],
-        ["Two printers simultaneously", "VYUOL (3-tier design)"]
+    "subheading": "By Printer Size",
+    "intro": "Check the height of your printer.",
+    "table": {
+      "headers": [
+        "Your printer",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A tall all-in-one",
+          "HUANUO, adjustable up to 14.1 inches"
+        ],
+        [
+          "A compact inkjet",
+          "YUFAM, at 15.7 by 11.8 by 15.4 inches"
+        ],
+        [
+          "Two small devices",
+          "VYUOL Printer Stand with Storage, at 17.02 by 11.8 by 15.6 inches"
+        ],
+        [
+          "A mid-size printer with supplies below",
+          "YATINEY, with open shelves and a drawer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Home Office With Multiple Printing Devices Specifically",
-    cards: [
-      { label: "Look for", text: "A genuine 3-tier layout specifically designed to hold two printers on separate shelves, not just a taller single-printer stand with extra storage below." },
-      { label: "In this comparison", text: "The VYUOL pick's 3-tier design specifically accommodates two printers on the upper and middle shelves simultaneously, a capacity none of the 2-tier picks in this comparison offer." }
-    ],
+    "subheading": "For a Home Office Specifically",
+    "intro": "A home office printer needs paper storage and cable control.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A drawer for paper, a cable gap and a weight rating above your printer."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HUANUO lists cable management and a drawer with dividers, and VYUOL Printer Stand with Storage lists a foldable fabric drawer, so both suit a home office."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want to store two printers with dual-rod stability and a foldable fabric drawer, where the VYUOL pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You just want tested rolling wheels without an enclosed drawer, where the YUFAM pick covers that for about $5 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $50 guide adds power outlets and USB ports.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want built-in power outlets or a high weight capacity. The under $50 guide includes models with outlets."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need a shelf with a little storage. YUFAM costs the least here."
+      }
+    ]
   }
 ];
 
@@ -182,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the VYUOL's 3-tier design fit a large all-in-one printer alongside a smaller device?", "a": "It depends on both devices' individual footprints against the stand's shelf dimensions, so measuring each printer separately against the stated 17.02 x 11.8 inch shelf size is worth doing before assuming both fit comfortably together." },
-  { "q": "What's the most common mistake buyers make when choosing between a fabric drawer and a hard-sided drawer at this tier?", "a": "Storing heavier items in a fabric or non-woven drawer expecting the same load-bearing capacity as a hard-sided drawer, when these softer drawer materials are better suited for lightweight paper and small supplies rather than heavier objects." },
-  { "q": "Is the VYUOL pick worth it over the cheaper YATINEY option?", "a": "If you specifically need to store two printers simultaneously with dual-rod stability, yes, but if a single printer with an enclosed, hidden drawer is your priority, the YATINEY pick covers that for about $3 less." },
-  { "q": "How do I know if the HUANUO's optional caster wheels are already included or need separate purchase?", "a": "The wheels are included with the stand itself but described as optional to install, meaning you choose whether to attach them for rolling use or skip them for stationary desktop use, all within the single purchase." },
-  { "q": "Do any of these printer stands include cable management specifically for a printer's power cord?", "a": "The HUANUO pick specifically markets cable management as a feature in its listing title, while the other three picks don't emphasize dedicated cable routing, so checking each listing's specific cable management claims is worth doing if cord organization matters to you." },
-  { "q": "Can the enclosed drawer picks in this tier be used to store a paper ream without sagging?", "a": "The fabric and non-woven drawer materials on the VYUOL and YATINEY picks are designed for lighter items, so a full ream of paper may be at the upper end of what these softer drawer materials comfortably support without some sagging over time." }
+  {
+    "q": "Is the HUANUO worth the higher price?",
+    "a": "If you want adjustable height up to 14.1 inches, a 38.5 pound rating, cable management and dividers, yes. The YUFAM and YATINEY cost less but have fixed heights and fewer organizing features. The extra price also buys cable management, which keeps the printer cord and USB cable from tangling."
+  },
+  {
+    "q": "Can a fabric drawer hold reams of paper?",
+    "a": "Fabric drawers hold paper but can sag. The VYUOL lists a foldable fabric drawer, so keep heavy reams on the shelf and use the drawer for lighter supplies such as envelopes. Stack lighter items like envelopes and labels in the drawer and keep paper reams on the open shelf where the frame carries them."
+  },
+  {
+    "q": "Can I fit two printers on the VYUOL?",
+    "a": "It lists a 3-tier design that fits two printers. Check each printer's weight against the shelf rating and leave a couple of inches of airflow around each. Each shelf has its own rating, so weigh both printers rather than adding them together."
+  },
+  {
+    "q": "How do I keep a rolling stand from moving?",
+    "a": "Lock the two lockable wheels on the YUFAM or the optional casters on the HUANUO. Do not roll a stand while loaded unless the maker says it is safe. Check the lock actually grips the floor, since carpet and smooth tile behave differently."
+  },
+  {
+    "q": "How long does assembly take?",
+    "a": "The YATINEY lists about 10 minutes of assembly. Most stands use screws and need a screwdriver. Keep the printer off until the frame is tight. Chipboard can chip if you over-tighten a screw, so stop once it feels firm."
+  },
+  {
+    "q": "Where should I place the printer for airflow?",
+    "a": "Leave space beside and above the printer so the vents stay open, and avoid placing it in a closed cabinet. Manufacturers suggest several inches of clearance and enough room to open trays. A closed drawer or shelf directly against the vent can trap heat."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -219,43 +219,43 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Real price at checkout",
-    "explanation": "A gift listed at under $25 can climb with shipping or a variant upgrade, and prices change often. A personalized item can add cost for larger sizes. Confirm the total, including tax and shipping, stays under your ceiling before you click buy."
+    "explanation": "A gift listed at under $25 can climb with shipping or a variant upgrade, and prices change often. A personalized item can add cost for larger sizes. Confirm the total, including tax and shipping, stays under your ceiling before you click buy. Check the final cart total before you commit, since a variant like the larger name plate size adds cost."
   },
   {
     "criterion": "Useful on day thirty",
-    "explanation": "Small gifts usually fail by being forgotten. A phone stand or a shelf is used each day, while a trinket is moved to a drawer. Check the listing for a daily job and prefer picks that have one."
+    "explanation": "Small gifts usually fail by being forgotten. A phone stand or a shelf is used each day, while a trinket is moved to a drawer. Check the listing for a daily job and prefer picks that have one. A phone stand or a shelf is used each day, so ask what the recipient would otherwise do without it before choosing a trinket."
   },
   {
     "criterion": "Size against desk space",
-    "explanation": "A 12.59 inch shelf and a 7.8 inch plant can crowd a small desk, while a 2 inch cube fits anywhere. Compare the listed dimensions to the free space, especially in cubicles and dorms. Measure the gap beside the monitor before you decide."
+    "explanation": "A 12.59 inch shelf and a 7.8 inch plant can crowd a small desk, while a 2 inch cube fits anywhere. Compare the listed dimensions to the free space, especially in cubicles and dorms. Measure the gap beside the monitor before you decide. The BlockPro cube at 2.2 inches fits any desk, so use it as the safe choice when you cannot confirm the space."
   },
   {
     "criterion": "Personalization and returns",
-    "explanation": "Custom items look more thoughtful, but they usually cannot be returned. A misspelled name plate is a wasted gift. Double check spelling and size options before submitting an engraved order."
+    "explanation": "Custom items look more thoughtful, but they usually cannot be returned. A misspelled name plate is a wasted gift. Double check spelling and size options before submitting an engraved order. The Lasercrafting plate has 18 colour options and three sizes, so check both choices before you submit the order."
   },
   {
     "criterion": "Safety for kids and pets",
-    "explanation": "Tiny figures and small parts can be a choking risk. The Gejoy listing warns about swallowing, so keep it out of homes with small children. Read safety notes in the listing for any small item."
+    "explanation": "Tiny figures and small parts can be a choking risk. The Gejoy listing warns about swallowing, so keep it out of homes with small children. Read safety notes in the listing for any small item. Look for a small parts warning on the Gejoy listing and keep it away from toddlers, since a swallowed piece is a real risk."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Price ceiling",
-    "description": "Every pick is under $25 or less, and we ranked by how much real value it gives under that ceiling."
+    "title": "Value after the first week",
+    "description": "Under $25 the risk is a gift that gets forgotten, so we favoured picks with a daily job. The Lamicall phone stand folds pocket sized and holds 4 to 8 inch devices, and the Sorfity bookshelf expands from 12.59 to 24.01 inches. Trinkets and pure decoration ranked lower in this tier."
   },
   {
-    "title": "Daily usefulness",
-    "description": "Items that do a task on the desk ranked above decor of the same price."
+    "title": "Personalisation and returns",
+    "description": "Engraved items like the Lasercrafting name plate come in three sizes and 18 colours, but custom orders are rarely returnable. We scored them on how clearly the listing shows options and mounting choices (desk, wall or tape), since a typo cannot be undone."
   },
   {
-    "title": "Size and fit",
-    "description": "Listed dimensions were compared against typical desk space so picks do not crowd a workspace."
+    "title": "Safety around small parts",
+    "description": "The Gejoy 16 figure set has pieces about 1.57 inches each and carries a swallowing warning, so we noted it as unsuitable for homes with toddlers or pets. The 2.2 inch BlockPro silicone cube is a single large piece with no such issue."
   },
   {
-    "title": "Gift appeal",
-    "description": "We looked at how each item feels to unwrap, including cards, boxes and personalization."
+    "title": "Size on a small desk",
+    "description": "We compared dimensions against a compact desk. The 2.2 inch cube fits anywhere, the 5.1 x 7.8 inch Der Rose pot needs a corner, and the Sorfity shelf at 6.69 inches deep and 13.77 high is a real piece of furniture. Check free space before gifting it to a recipient with a tiny desk."
   }
 ];
 
@@ -396,28 +396,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can a gift under $25 feel thoughtful?",
-    "a": "Yes, if it is personal or solves a small problem. The Lasercrafting Custom Engraved Desk Name Plate or the Lamicall Foldable Adjustable Phone Stand usually feels more considered than a generic trinket."
+    "q": "Is the Lamicall stand a good gift for someone who works from a phone?",
+    "a": "Yes. It extends to 3.2 inches, fits devices from 4 to 8 inches, and folds pocket sized, so it travels. It suits a hybrid worker who moves between desks. It is a plain gadget, so add a note to make it feel like a present."
   },
   {
-    "q": "Is the phone stand good for tablets?",
-    "a": "The listing says it fits devices from 4 to 8 inches, so it suits phones and small tablets, but not a full-size iPad. It extends to 3.2 inches and folds pocket sized, which makes it easy to carry."
+    "q": "What goes wrong with custom engraved name plates?",
+    "a": "The text or size is wrong. The Lasercrafting plate comes in three sizes and 18 colours, and a custom item is normally final sale. Proof the spelling, pick the size against the desk and choose a mounting method before paying."
   },
   {
-    "q": "Can I return an engraved name plate?",
-    "a": "Personalized items are usually non-returnable unless they arrive damaged or wrong. Double check the spelling before ordering the Lasercrafting plate, and pick the size and one of the 18 colors you want."
+    "q": "Is the Gejoy figure set safe for children?",
+    "a": "Check the listing warning before buying. The 16 figures are about 1.57 inches each, which can be a choking hazard for young children and pets. They suit an adult desk but not a house with a toddler."
   },
   {
-    "q": "Are the tiny figures safe for kids?",
-    "a": "No. The Gejoy 16 Piece Mini You Rock Figures are about 1.57 inches each, and the listing warns about swallowing, so keep them away from small children and use them in adult settings."
+    "q": "Is the Sorfity expandable shelf worth it over a simple organizer?",
+    "a": "It suits someone with a crowded desk, since it expands from 12.59 to 24.01 inches and adds a second level. The BlockPro cube or a name plate takes less room. Pick the shelf only if the recipient has the free footprint."
   },
   {
-    "q": "Do prices change?",
-    "a": "Yes, prices change often, so check the current price before you buy. Each pick was under $25 when listed, but a sale ending can push one slightly over."
+    "q": "Does the BlockPro stress cube make noise?",
+    "a": "It is a 2.2 inch food grade silicone cube that returns slowly to shape, so it is silent. That makes it an easy office gift compared with clicking toys. Wash it with mild soap and water if it picks up desk dust."
   },
   {
-    "q": "Which is best for a new employee?",
-    "a": "A custom name plate is the most useful, and the Crochet Toast New Job Gift with Card is the friendliest. The Sorfity Expandable Wood Desktop Bookshelf is a good pick if they have an empty desk to fill."
+    "q": "Does the Der Rose faux succulent need any care?",
+    "a": "Just a wipe. The plastic plant sits in a 5.1 x 7.8 inch concrete ceramic pot and never needs water. A dry cloth every month removes dust, and it is a safe gift for offices that restrict real plants or allergens."
   }
 ];
 

@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Height Range", "description": "Compared minimum and maximum height adjustment across desktop and floor-standing designs." },
-  { "title": "Dual-Device and Multi-Function Support", "description": "Checked which picks support multiple devices or serve multiple purposes beyond tablet holding." },
-  { "title": "Base Stability", "description": "Compared weighted base design and tip resistance across the lineup." },
-  { "title": "Warranty Coverage", "description": "Compared stated warranty length where disclosed across all four picks." },
-  { "title": "Rotation and Angle Flexibility", "description": "Compared 360-degree rotation and multi-hinge adjustment across the tier." }
+  { "title": "Height range for desk or bed use", "description": "We compared height adjustment, from the Dehuft's 9.84 to 20 inches to the Lucky Trip's 27.5 to 53 inch floor design. A taller stand lets you read at eye level without hunching, and the floor stand suits a bedside or kitchen setup. The werfami offers 8 preset heights instead of a smooth pole." },
+  { "title": "Base design and weighted footprint", "description": "We looked at the Dehuft's 15cm weighted base, the LOXP's heavy-duty base, and the Lucky Trip's double base. Tall poles amplify any tip, so base footprint matters more as height rises. The werfami is a folding riser and relies on its aluminum frame." },
+  { "title": "Case thickness limits", "description": "We checked that the LOXP lists support for cases up to 0.8 inches thick, since a rugged case is the most common reason a cradle fails. Chamfered edges also help protect the tablet while clamped. The Dehuft and Lucky Trip do not state a case limit in the same way." },
+  { "title": "Dual-purpose and multi-device use", "description": "We noted the Dehuft's phone or tablet dual mode and the werfami's laptop, tablet, and MagSafe phone support. A stand that does more than one job saves desk space, but multi-purpose designs sometimes compromise stability for either device. The LOXP and Lucky Trip stay focused on tablets." },
+  { "title": "Warranty and support", "description": "We compared support, including the Dehuft's 3-year warranty. Metal rods and joints are where cheap stands fail, so a longer warranty at this price is a meaningful signal. The other three listings give less detail on coverage." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "Under $20 a stand can be a desk riser, a bedside pole, or a laptop-and-tablet hybrid, so we sort picks by where you will use them.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Four picks fall within under $10 of each other, so the budget table pairs each to the situation where its extra feature pays off.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -133,6 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Device Support Type",
+    intro: "Orientation and mounting angle is the second axis, since a floor pole and a desk stand solve different problems.",
     table: {
       headers: ["Your device needs", "Recommended pick"],
       rows: [
@@ -153,7 +156,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need a floor-standing solution with a dramatically taller height range for bedside or sofa use, where the Lucky Trip pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want a desktop stand with rotation flexibility without needing dual-device support, where the LOXP pick covers that for about $2 less." }
+      { label: "Save if", text: "You want a desktop stand with rotation flexibility without needing dual-device support, where the LOXP pick covers that for under $10 less." }
     ],
   }
 ];
@@ -183,8 +186,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Can the Dehuft's dual-phone mode hold two different phone sizes simultaneously?", "a": "Yes, each of the two independent clamps operates separately within the stated 2.36 to 4.33 inch width range, so they can accommodate two different phone sizes as long as both fall within that individual clamp's supported range." },
-  { "q": "What's the most common mistake buyers make when comparing height ranges between desktop and floor stands at this tier?", "a": "Comparing the height figures directly without recognizing that desktop stands like the Dehuft measure height from a table surface, while floor stands like the Lucky Trip measure from the actual floor, meaning the two aren't directly comparable for the same physical setup." },
-  { "q": "Is the Dehuft pick worth it over the cheaper LOXP option?", "a": "If you specifically need dual-device support and the tallest height range with the longest warranty, yes, but if 360-degree rotation for screen sharing matters more without needing dual-device capability, the LOXP pick covers that for about $2 less." },
+  { "q": "Is a floor tablet stand stable enough for a bedside table?", "a": "The Lucky Trip uses a double heavy-duty base and carbon steel, which helps, but a tall pole still tips more easily than a desk stand. Keep the base clear of foot traffic and avoid adjusting height with a heavy tablet mounted. For a bedside table, a lower desk stand like the LOXP is the more compact choice." },
+  { "q": "Is the Dehuft pick worth it over the cheaper LOXP option?", "a": "If you specifically need dual-device support and the tallest height range with the longest warranty, yes, but if 360-degree rotation for screen sharing matters more without needing dual-device capability, the LOXP pick covers that for under $10 less." },
   { "q": "How do I know if the werfami's MagSafe feature will work with my specific iPhone case?", "a": "The magnetic core works with iPhone 15/14/13/12 models and cases specifically designed for MagSafe compatibility, so checking whether your current case is labeled MagSafe-compatible is worth doing before assuming it will attach properly." },
   { "q": "Can the Lucky Trip floor stand be used on carpet, or does it require a hard floor?", "a": "The listing doesn't specifically restrict use to hard floors, though a heavier double base design generally performs more predictably on hard flooring, so testing stability on your specific carpet thickness is worth doing if that's your intended surface." },
   { "q": "Do any of these stands require tools for initial assembly?", "a": "The Lucky Trip pick specifically states no tools are needed for installation, following steps in an included manual, while the other three picks in this tier are similarly designed for straightforward, tool-free setup out of the box." }

@@ -247,51 +247,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Heat levels versus real temperature",
-    "explanation": "A throw with 12 levels sounds precise, but the number alone does not tell you how hot it gets. Qieryun states 86 to 122F and HOMLYNS 86 to 115F, while Eastsora gives only numbers. Look for a degree range, and test the lowest level first."
+    "explanation": "A throw with 12 levels sounds precise, but the number alone does not tell you how hot it gets. Qieryun states 86 to 122F and HOMLYNS 86 to 115F, while Eastsora gives only numbers. Look for a degree range, and test the lowest level first. A range such as 86F to 115F tells you the lowest setting is only a gentle warmth, which suits long sessions."
   },
   {
     "criterion": "Auto-off timer design",
-    "explanation": "Some throws stop after a fixed time, and others let you choose. HOMLYNS stops at 3 hours, Mlivrom at 10, and Eastsora lets you set 1 to 12. Pick based on whether you doze on the couch, and find the stated hours."
+    "explanation": "Some throws stop after a fixed time, and others let you choose. HOMLYNS stops at 3 hours, Mlivrom at 10, and Eastsora lets you set 1 to 12. Pick based on whether you doze on the couch, and find the stated hours. For an afternoon nap or a movie, a 3 to 4 hour cutoff is enough, and a 10 hour option adds little but risk."
   },
   {
     "criterion": "Wattage and shared circuits",
-    "explanation": "Wattage is the load a throw adds to your outlet. Molatink states 100W, but most others give none. Plug into the wall and avoid daisy-chained strips."
+    "explanation": "Wattage is the load a throw adds to your outlet. Molatink states 100W, but most others give none. Plug into the wall and avoid daisy-chained strips. At 100W, a throw uses about the same as a bright bulb, but a space heater on the same strip at 1500W could trip a 15 amp circuit. Look for the wattage on the controller label."
   },
   {
     "criterion": "Safety mark and protection types",
-    "explanation": "A named mark such as ETL means the product itself was assessed, and NTC or PTC sensors watch temperature. HOMLYNS cites ETL with NTC and PTC while Cushious names no mark. Look for the mark on the tag."
+    "explanation": "A named mark such as ETL means the product itself was assessed, and NTC or PTC sensors watch temperature. HOMLYNS cites ETL with NTC and PTC while Cushious names no mark. Look for the mark on the tag. Overheat protection with no named sensor or mark is weaker evidence than ETL plus NTC or PTC."
   },
   {
     "criterion": "Fabric weight and pile",
-    "explanation": "Fabric weight in gsm tells you how thick the throw is, which affects how much heat it traps. Cushious uses 260 gsm faux fur while Qieryun uses 220 gsm flannel. A long pile hides the controller cord."
+    "explanation": "Fabric weight in gsm tells you how thick the throw is, which affects how much heat it traps. Cushious uses 260 gsm faux fur while Qieryun uses 220 gsm flannel. A long pile hides the controller cord. Anything above roughly 240 gsm feels heavy and slows drying, while 200 gsm stays light."
   },
   {
     "criterion": "Care limits",
-    "explanation": "Wash limits vary, with Mlivrom asking for 30C and Qieryun warning against use when tumble dried. Remove the controller before any wash. Read the care line before buying."
+    "explanation": "Wash limits vary, with Mlivrom asking for 30C and Qieryun warning against use when tumble dried. Remove the controller before any wash. Read the care line before buying. Cold or 30C gentle washes are typical, and tumble drying is where most heated throws get damaged, so air-dry or use low heat only."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Heat controls",
-    "description": "We compared level counts, stated degrees and how clearly each listing describes them."
+    "title": "Heat levels versus stated temperature",
+    "description": "We compared how many levels each throw offers against whether it publishes a degree range. Qieryun states 86F to 122F across 10 levels and HOMLYNS 86F to 115F across 5, which is far more useful than Eastsora's 12 unlabelled steps when you want to know how warm the lowest click actually is."
   },
   {
-    "title": "Timer and safety",
-    "description": "Auto-off times, certification marks and temperature sensors were weighed above marketing wording."
+    "title": "Auto-off design and length",
+    "description": "Timers range from HOMLYNS at 3 hours to Mlivrom and BEARKISS at 10 and Eastsora's selectable 1 to 12. We weighed these against how people use a throw: a short cutoff protects a sofa napper, while a long one suits an all-evening reader who does not want the blanket switching off."
   },
   {
-    "title": "Fabric and size",
-    "description": "Fabric weights and the common 50 by 60 inch size were compared."
+    "title": "Safety marks and sensor types",
+    "description": "A named mark such as ETL means the product itself was assessed, and NTC or PTC sensors watch temperature. HOMLYNS and Molatink name both a mark and sensors, so they scored higher than throws that only list overheat protection or nothing, even when the cheaper ones look similar on the shelf."
   },
   {
-    "title": "Care",
-    "description": "Washing temperature limits and controller removal were noted."
+    "title": "Fabric weight and size",
+    "description": "All eight are 50 by 60 inches, so the real difference is pile and weight. Cushious lists 260 gsm faux fur with 200 gsm sherpa, while Qieryun uses 220 gsm flannel. Heavier fabric holds heat longer but hides the controller cord and takes longer to dry after washing."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $25 to $50 were compared with the documented features."
+    "title": "Value per dollar tier",
+    "description": "Prices here span a tight range from the cheapest at under $26 to under $46, so extra spend has to buy something visible. Eastsora earns its price through 12 levels and a 12 hour timer, while the budget picks were credited only for what their listings document."
   }
 ];
 
@@ -341,11 +341,11 @@ export const howToChoose: HowToChooseSection[] = [
           "HOMLYNS 50x60 Heated Throw with 5 Settings"
         ],
         [
-          "About $27",
+          "Under $30",
           "Qieryun 50x60 Heated Flannel Throw with 10 Levels"
         ],
         [
-          "About $29",
+          "Under $30",
           "Cushious 50x60 Sherpa Faux Fur Heated Throw"
         ],
         [
@@ -353,7 +353,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Sealy 50x60 Heated Sherpa Throw with 6 Levels"
         ],
         [
-          "About $46",
+          "Under $50",
           "Eastsora 50x60 Heated Flannel Throw with 12 Levels"
         ]
       ]
@@ -422,7 +422,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "A basic throw is enough. HOMLYNS 50x60 Heated Throw with 5 Settings and Mlivrom 50x60 Heated Flannel Throw with 5 Levels cost about $25."
+        "text": "A basic throw is enough. HOMLYNS 50x60 Heated Throw with 5 Settings and Mlivrom 50x60 Heated Flannel Throw with 5 Levels each cost under $26."
       }
     ]
   }
@@ -432,27 +432,27 @@ export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
     "q": "Is a heated throw worth it over a regular blanket?",
-    "a": "It adds heat on demand, which helps if the room is cold, but it needs an outlet. A regular blanket is silent and cordless."
+    "a": "If your room runs cold, yes. A heated throw lets you drop the thermostat while staying warm in the spot you actually sit. Most of these draw modest power, with Molatink listing 100W, so running one costs far less than heating a whole room, but a normal blanket still wins for zero setup."
   },
   {
     "q": "Can I leave a heated throw on while I sleep?",
-    "a": "No. Heated throws are for lounging, not for sleeping. Use the auto-off and unplug the controller when you finish."
+    "a": "Do not rely on it. These are made for sitting on a couch, and auto-off times run from 3 hours on HOMLYNS to 10 on BEARKISS and Mlivrom. A timer is a safeguard, not a sleeping setting, so switch off and unplug before bed, and never fold or bunch it while powered."
   },
   {
     "q": "What does ETL mean on a heated throw?",
-    "a": "It is a lab mark showing the product was evaluated against a safety standard. Look for it on the tag and in the listing, not only as a generic safe claim."
+    "a": "ETL is a safety listing from a testing laboratory, similar to UL. It signals the product was assessed against a standard, not that it is risk free. Mlivrom, HOMLYNS, Molatink and BEARKISS cite it, while some cheaper throws cite nothing. Look for the mark on the tag or controller, not only on the listing."
   },
   {
     "q": "How do I wash a heated throw?",
-    "a": "Detach the controller first. Mlivrom asks for a 30C wash and Qieryun warns about tumble drying, so follow the listing for your pick."
+    "a": "Unplug it and detach the controller first. Eastsora lists machine washing after controller removal, and Mlivrom asks for a 30C gentle cycle. Skip bleach and wring-out spins that twist the wiring, and dry it on low or air-dry, because high heat can damage the sheathing around the heating wires."
   },
   {
     "q": "Will it trip a circuit?",
-    "a": "Molatink lists 100W, which is small. Plug into the wall, and avoid chaining strips with other heaters."
+    "a": "Unlikely on its own. Molatink lists 100W, which is a small load compared with a space heater at 1500W. Problems come when you chain it on a strip with a heater or kettle, so plug the throw directly into the wall and keep the cord clear of chair wheels and sofa folds."
   },
   {
     "q": "Can a heated throw help with pain?",
-    "a": "We do not rely on those claims. These are comfort products and not medical devices, and anyone with reduced sensation should ask a doctor first."
+    "a": "A warm throw can feel soothing on tense shoulders or legs, but none of the listings here make medical claims and we do not either. If you have reduced sensation or circulation problems, stay on the lowest setting with clothing between you and the blanket, and ask a doctor first."
   }
 ];
 

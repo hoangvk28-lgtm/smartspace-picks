@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Named Compatibility Exclusions", "description": "Compared how specifically each listing discloses incompatible laptop models." },
-  { "title": "Apple Silicon Display Support", "description": "Compared native Alt Mode limitations against DisplayLink-assisted multi-display workarounds." },
-  { "title": "Display Configuration", "description": "Compared dual versus triple display support and included video connector types." },
-  { "title": "Power Delivery Completeness", "description": "Compared included versus separately required power adapters." },
-  { "title": "Security Features", "description": "Compared lock buttons and Kensington-style security slots across all four picks." }
+  {
+    "title": "Native Alt Mode against DisplayLink",
+    "description": "Acer and HoDo docks rely on the laptop's DisplayPort Alt Mode with MST, while Plugable adds DisplayLink software to give triple display on Apple M1 to M5 Macs. We checked which path each dock uses, since that decides how many monitors a Mac can drive. DisplayLink needs a driver, which some managed corporate laptops block."
+  },
+  {
+    "title": "Display count and macOS behavior",
+    "description": "Acer 13-in-1 lists triple display (2 HDMI and 1 DP 1.4) but macOS is limited to mirroring. Acer 9-in-1 offers dual 4K at 60Hz, and HoDo has 4 outputs including VGA, which caps every display at 1080p. We recorded each limit. A VGA output on the HoDo is a useful legacy port, but it costs all displays their resolution."
+  },
+  {
+    "title": "Power delivered to the laptop",
+    "description": "Acer 13-in-1 ships a 110W adapter giving 100W to the laptop, Acer 9-in-1 requires a 100W or larger adapter not included, and HoDo lists 87W output. We compared these against typical 65W to 100W laptops. A dock without a bundled adapter adds an extra cost on top of the sticker price."
+  },
+  {
+    "title": "Compatibility warnings",
+    "description": "HoDo explicitly lists incompatible laptop models, and Plugable is not compatible with Linux. We rewarded listings that say what they do not support, since that is how a buyer avoids a return. Linux users get no support from Plugable, so it is a Windows and Mac pick only."
+  },
+  {
+    "title": "Security and support",
+    "description": "Acer 13-in-1 has a security slot for a cable lock and Acer 9-in-1 a device lock button, while Plugable lists lifetime North American support. We weighed those for an office desk against price. A lock slot is a small feature that matters in shared offices."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -182,12 +197,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will any of these docks work with my ThinkPad X1 Carbon?", "a": "Checking your exact ThinkPad X1 Carbon generation is essential, since the HoDo pick's listing specifically excludes Gen 7 and Gen 8 for lacking video-capable USB-C, while newer ThinkPad X1 Carbon generations with full-featured USB-C ports may work fine with any of these picks." },
-  { "q": "What's the most common mistake buyers make when choosing a USB4 laptop dock?", "a": "Assuming any USB-C port on their laptop supports video output simply because a cable physically fits, when many laptops, including several popular business models, have USB-C ports limited to data transfer and charging only, without DisplayPort Alt Mode support." },
-  { "q": "Is the Plugable dock worth the extra cost over the Acer picks if I'm on Windows, not Mac?", "a": "If you're exclusively on Windows, the Acer 13-in-1's native triple-display support already delivers similar functionality at a lower price, making the Plugable's DisplayLink technology (specifically valuable for Mac compatibility) less necessary for a Windows-only setup." },
-  { "q": "How do I know if my laptop supports the DisplayPort Alt Mode these docks require?", "a": "Checking your laptop manufacturer's official specification sheet for your exact model, or checking whether the manufacturer's dock explicitly lists your model as compatible or incompatible, is the most reliable way to confirm Alt Mode support before purchase." },
-  { "q": "Can I use the HoDo dock's VGA port and HDMI ports at full resolution simultaneously?", "a": "No, the listing specifically states that connecting the VGA port caps all connected displays, including HDMI and DisplayPort outputs, to 1080p resolution maximum, so avoid connecting VGA if you want your other displays at full 4K." },
-  { "q": "Do these docks require installing drivers before use?", "a": "The Acer picks generally support plug-and-play operation on Windows without drivers, while the Plugable pick specifically requires driver installation on macOS 11 and newer to enable its DisplayLink-assisted multi-display functionality." }
+  {
+    "q": "Will any of these docks work with a ThinkPad X1 Carbon?",
+    "a": "Check the exact generation first. HoDo lists incompatible laptop models, and Acer and Plugable depend on the laptop's USB-C video support. Look for DisplayPort Alt Mode and Power Delivery in your ThinkPad's spec sheet before ordering."
+  },
+  {
+    "q": "What is the most common mistake with USB4 laptop docks?",
+    "a": "Assuming any USB-C port carries video. A port can charge or move data without supporting DisplayPort Alt Mode, in which case the dock's monitors stay black. Check the laptop spec for a video symbol or DP Alt Mode."
+  },
+  {
+    "q": "Is Plugable worth the extra cost over Acer on Windows?",
+    "a": "Probably not. Acer 13-in-1 gives native triple display on Windows for much less. Plugable's DisplayLink approach matters mainly for Apple M1 to M5 Macs, where it gives three displays instead of one."
+  },
+  {
+    "q": "How can I tell if my laptop supports DisplayPort Alt Mode?",
+    "a": "Look up your exact model on the maker's spec sheet or manual and search for DisplayPort or Thunderbolt on the USB-C port. A lightning-bolt or DP symbol next to the port is a quick hint."
+  },
+  {
+    "q": "Can HoDo's VGA and HDMI ports run at full resolution together?",
+    "a": "No. The listing states connecting the VGA port caps all connected displays at 1080p. Use the HDMI and DisplayPort outputs only if you want a higher resolution."
+  },
+  {
+    "q": "Do these docks need driver installs?",
+    "a": "Acer docks are generally plug and play on Windows, while Plugable's DisplayLink path needs a driver on Mac and Windows. Install it before connecting, and expect HDCP content such as streaming video to be blocked on DisplayLink ports."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

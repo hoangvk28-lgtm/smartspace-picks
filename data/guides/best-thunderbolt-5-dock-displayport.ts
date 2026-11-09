@@ -84,69 +84,153 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Whether the DisplayPort Cable Is Actually Included", "description": "Compared whether each listing bundles a DisplayPort cable or requires a separate purchase." },
-  { "title": "Real DisplayPort Resolution Ceiling", "description": "Compared documented DisplayPort-specific resolution and refresh rate limits versus the dock's HDMI output." },
-  { "title": "Platform Optimization", "description": "Compared Mac-optimized versus cross-platform DisplayPort support." },
-  { "title": "Additional Storage and Networking Features", "description": "Compared built-in SSD expansion and Ethernet speed alongside DisplayPort output." },
-  { "title": "Independent vs Shared Port Bandwidth", "description": "Compared whether DisplayPort, HDMI, and USB-C outputs function independently and simultaneously." }
+  {
+    "title": "Native DisplayPort output, not just a label",
+    "description": "A Thunderbolt 5 dock can send video over DisplayPort 2.1, HDMI or the USB-C ports. All four list a DisplayPort output, but Dell and StarTech describe DisplayPort 2.1 or independent outputs while Sonnet notes a 4K ceiling on its port, which matters if your monitor is DisplayPort-only."
+  },
+  {
+    "title": "Stated resolution per output",
+    "description": "Headline resolutions often apply to one port only. Kensington lists a single 8K or dual 6K at 60Hz for MacBook Pro or Max chips, while Sonnet states its DisplayPort output reaches 4K monitors. We recorded the figure for the DisplayPort path itself and not the best case across all ports."
+  },
+  {
+    "title": "Whether the cables come in the box",
+    "description": "The Dell bundle ships HDMI, USB-C and DisplayPort cables, while the other three do not advertise a DisplayPort cable. At this price tier a DisplayPort 2.1 cable is a real extra cost, so we counted what is included before comparing sticker prices."
+  },
+  {
+    "title": "Power delivery and charging headroom",
+    "description": "Dell lists 300W power delivery for a single-cable desk, while Kensington, StarTech and Sonnet list 140W. We matched those against laptop chargers, since a MacBook Pro 16 or workstation under load needs more than a 90W dock can give."
+  },
+  {
+    "title": "Networking, storage and platform fit",
+    "description": "Sonnet adds 10GbE, StarTech 2.5GbE with SD 4.0 slots, and Kensington a lockable M.2 SSD slot, sold separately. We weighed these extras against price, and noted Kensington's Mac-first tuning against StarTech's driverless Windows 11 and macOS support."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["A complete kit with every cable included", "Dell Pro Thunderbolt 5 Smart Dock SD25TB5 Bundle"],
-        ["DisplayPort output with lockable SSD storage for Mac", "Kensington EQ Pro Thunderbolt 5 Dock"],
-        ["Flexible independent outputs at the lowest price", "StarTech Thunderbolt 5 USB4 Dock"],
-        ["DisplayPort output paired with 10GbE networking", "Sonnet Echo 20 Thunderbolt 5 SecureDock"]
+    "subheading": "By Primary Need",
+    "intro": "Each of the four wins on a different priority.",
+    "table": {
+      "headers": [
+        "If you want",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Every cable in the box, 300W power delivery",
+          "Dell Pro Thunderbolt 5 Smart Dock SD25TB5 Bundle, with HDMI 2.1, DisplayPort 2.1 and USB-C cables."
+        ],
+        [
+          "DisplayPort output plus lockable SSD storage on a Mac",
+          "Kensington EQ Pro Thunderbolt 5 Dock, with an empty PCIe M.2 slot."
+        ],
+        [
+          "Independent DisplayPort, HDMI and USB-C at the lowest price",
+          "StarTech Thunderbolt 5 USB4 Dock, driverless on Windows 11 and macOS."
+        ],
+        [
+          "DisplayPort output with 10GbE networking",
+          "Sonnet Echo 20 Thunderbolt 5 SecureDock, with 20 interfaces and 3 Thunderbolt 5 ports."
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $283", "StarTech Thunderbolt 5 USB4 Dock (under $300)"],
-        ["Under $303", "Kensington EQ Pro Thunderbolt 5 Dock (under $350)"],
-        ["Under $450", "Dell Pro Bundle (under $450) or Sonnet Echo 20 (under $450)"]
+    "subheading": "By Budget",
+    "intro": "The spread is large, so decide which extras you actually need.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $300, cheapest",
+          "StarTech Thunderbolt 5 USB4 Dock, with 2.5GbE and SD 4.0 slots."
+        ],
+        [
+          "Under $350, Mac-first",
+          "Kensington EQ Pro, plus the cost of an SSD for the slot."
+        ],
+        [
+          "Under $450, complete kit",
+          "Dell Pro SD25TB5 Bundle, with cables included."
+        ],
+        [
+          "Under $450, networking-heavy",
+          "Sonnet Echo 20, which adds 10GbE."
+        ]
+      ]
+    }
   },
   {
-    subheading: "Cables Included vs Cables Purchased Separately",
-    cards: [
-      { label: "Cables included (Dell Pro Bundle)", text: "This bundle specifically includes HDMI, USB-C, and DisplayPort cables, avoiding a common surprise where the DisplayPort cable turns out to be a separate purchase." },
-      { label: "Cables typically separate (Kensington, StarTech, Sonnet)", text: "These docks don't specifically advertise an included DisplayPort cable in the same bundled way, so budgeting for a separate DisplayPort 2.1 cable purchase is worth planning for." }
+    "subheading": "Cables Included vs Cables Bought Separately",
+    "intro": "The cable is a real cost at this level.",
+    "cards": [
+      {
+        "label": "Cables included",
+        "text": "Dell's bundle ships HDMI, USB-C and DisplayPort cables, so the first monitor works out of the box without a second order."
+      },
+      {
+        "label": "Cables separate",
+        "text": "Kensington, StarTech and Sonnet do not advertise a bundled DisplayPort cable, so add a certified DisplayPort 2.1 cable to the budget."
+      }
     ],
-    note: "If you want to avoid any additional cable-buying step, the Dell bundle's complete kit is the most straightforward. If you already own a compatible DisplayPort cable, the other picks may offer better core value for the same budget.",
+    "note": "Choose the Dell bundle if you own none of the cables, and any other pick if you already have a good DisplayPort 2.1 cable."
   },
   {
-    subheading: "By Platform",
-    table: {
-      headers: ["Your platform", "Recommended pick"],
-      rows: [
-        ["MacBook Pro with Pro or Max chip", "Kensington EQ Pro Thunderbolt 5 Dock"],
-        ["Mixed Mac and Windows household", "StarTech Thunderbolt 5 USB4 Dock"],
-        ["Windows-focused professional workstation", "Dell Pro Bundle or Sonnet Echo 20"]
+    "subheading": "By Platform",
+    "intro": "Mac and Windows buyers should choose differently.",
+    "table": {
+      "headers": [
+        "Platform",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "MacBook Pro with Pro or Max chip",
+          "Kensington EQ Pro, tuned for MacBook Pro and Max."
+        ],
+        [
+          "Mixed Mac and Windows household",
+          "StarTech, which is driverless across Windows 11 and macOS."
+        ],
+        [
+          "Windows workstation with a wired network",
+          "Sonnet Echo 20, with 10GbE."
+        ],
+        [
+          "Windows laptop needing a 300W single-cable desk",
+          "Dell Pro SD25TB5 Bundle."
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Monitor With DisplayPort-Only Input Specifically",
-    cards: [
-      { label: "Look for", text: "A dock with a genuinely independent DisplayPort output rather than one that shares bandwidth or requires switching away from other connected displays." },
-      { label: "In this comparison", text: "The StarTech pick specifically supports DisplayPort, HDMI, and USB-C outputs independently and simultaneously, making it a strong fit if one of your monitors is DisplayPort-only." }
-    ],
+    "subheading": "For a Monitor With DisplayPort-Only Input Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A dock with an independent DisplayPort output, not one that shares bandwidth by switching away from another display."
+      },
+      {
+        "label": "In this comparison",
+        "text": "StarTech lists independent DisplayPort, HDMI and USB-C outputs, and Dell lists DisplayPort 2.1 with the cable in the box. Sonnet's DisplayPort tops out at 4K, so confirm your panel."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want a completely hassle-free out-of-box experience with every cable included, where the Dell Pro Bundle's under $450 price removes any additional cable-shopping step." },
-      { label: "Save if", text: "You already have compatible cables and want strong DisplayPort support at a lower price, where the StarTech pick delivers that for under $300, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want every cable included and 300W of delivery. Dell Pro SD25TB5 sits in the under-$450 tier, above the under-$300 StarTech."
+      },
+      {
+        "label": "Save if",
+        "text": "You own a DisplayPort 2.1 cable already. StarTech under $300 gives independent outputs and 2.5GbE for much less."
+      }
+    ]
   }
 ];
 
@@ -174,12 +258,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Do all Thunderbolt 5 docks with a DisplayPort output include the actual DisplayPort cable?", "a": "No, the Dell Pro Bundle specifically confirms an included DisplayPort cable, but other docks in this comparison don't make the same explicit inclusion claim, so checking the included-accessories list before assuming a cable ships in the box is worth doing." },
-  { "q": "What's the most common mistake buyers make when choosing a Thunderbolt 5 dock for DisplayPort output?", "a": "Assuming a dock's headline resolution figure applies equally across every port type, when DisplayPort and HDMI outputs on the same dock can have genuinely different resolution ceilings, as documented on the Sonnet Echo 20 pick." },
-  { "q": "Is the Kensington EQ Pro worth it if I use a Windows laptop instead of a MacBook?", "a": "The Kensington EQ Pro is specifically optimized for MacBook M-Series Pro, Max, and M4 chipsets, so a Windows-focused buyer would likely get better documented cross-platform support from the StarTech or Dell picks in this comparison instead." },
-  { "q": "Can I connect a DisplayPort monitor and an HDMI monitor to the same dock at the same time?", "a": "The StarTech pick specifically supports DisplayPort, HDMI, and USB-C outputs independently and simultaneously, making it a strong choice for exactly this kind of mixed-monitor setup." },
-  { "q": "Does the Sonnet Echo 20's DisplayPort output support the same 8K resolution as its HDMI output?", "a": "No, the Sonnet Echo 20 listing specifically states its DisplayPort output supports up to 4K monitors while its HDMI output can reach up to 8K, a real difference worth checking if your monitor connects via DisplayPort specifically." },
-  { "q": "Do I need to buy an SSD separately for the Kensington EQ Pro's storage slot?", "a": "Yes, the Kensington EQ Pro's built-in and lockable PCIe M.2 SSD slot is sold without the SSD itself, so you'll need to purchase a compatible drive separately to use that storage expansion feature." }
+  {
+    "q": "Does a Thunderbolt 5 dock include the DisplayPort cable?",
+    "a": "Usually not. Only the Dell Pro SD25TB5 bundle lists HDMI, USB-C and DisplayPort cables in the box, while Kensington, StarTech and Sonnet do not advertise one. Buy a certified DisplayPort 2.1 cable if your monitor needs the dock's DisplayPort output."
+  },
+  {
+    "q": "Can I run a DisplayPort monitor and an HDMI monitor from the same dock?",
+    "a": "Yes on StarTech, which lists independent DisplayPort, HDMI and USB-C outputs. Dell offers HDMI 2.1 and DisplayPort 2.1 together as well. Check that both outputs can run at your target resolution at once, since total bandwidth is shared between them."
+  },
+  {
+    "q": "Is Kensington EQ Pro worth it for a Windows laptop?",
+    "a": "Rarely. Kensington tunes the EQ Pro for MacBook Pro, Max and M4 chips, with a lockable M.2 SSD slot and 140W dynamic charging. A Windows buyer gets more value from StarTech, which is driverless on Windows 11 and macOS and costs less."
+  },
+  {
+    "q": "Does Sonnet Echo 20's DisplayPort carry the same resolution as its HDMI?",
+    "a": "No. Sonnet states its native DisplayPort output reaches 4K monitors, so a high-resolution panel is better served through the Thunderbolt 5 ports. It is the pick when 10GbE networking and a DisplayPort monitor are both required."
+  },
+  {
+    "q": "Do I need to buy an SSD for the Kensington dock's slot?",
+    "a": "Yes. The built-in PCIe M.2 slot is sold empty, and the lockable cover is the feature you are paying for. Add the drive cost to the budget, and check which M.2 length and speed class the listing supports before you order."
+  },
+  {
+    "q": "Will an old Thunderbolt 4 laptop get Thunderbolt 5 speeds from these docks?",
+    "a": "No. The dock runs at the speed of the host port, so a Thunderbolt 4 laptop caps at 40Gbps, and the extra display bandwidth that Thunderbolt 5 adds goes unused. Check your laptop's port label before paying for the premium."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

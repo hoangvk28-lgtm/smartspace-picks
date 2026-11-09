@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real IP Rating for the Installation Environment", "description": "Compared IP30 indoor-only ratings against IP67 outdoor-rated enclosures." },
-  { "title": "Operating Temperature Range", "description": "Compared documented temperature tolerance for genuinely harsh industrial climates." },
-  { "title": "Power Delivery Ceiling", "description": "Compared standard PoE+ 30W support against higher-tier PoE++ up to 80-90W." },
-  { "title": "Electrical Protection and Surge Safeguards", "description": "Compared surge protection, grounding points, and short-circuit safeguards." },
-  { "title": "Warranty and Compliance", "description": "Compared warranty length and government procurement compliance certifications." }
+  {
+    "title": "Ingress rating against the real site",
+    "description": "DIN-rail mounting says nothing about water or dust. We read the stated IP rating on every unit: the Industrial DIN-Rail and Intellinet picks are IP30, which is indoor cabinet only, while the two TRENDnet units are IP67. Putting an IP30 box outdoors is the single most expensive mistake in this category."
+  },
+  {
+    "title": "Operating temperature window",
+    "description": "All four state -40F to 167F, so temperature did not split the field, but we still checked it. A factory roof cabinet or unheated warehouse can sit well below freezing, and a consumer extender rated only for 32F would fail there. We treated this range as the floor for anything sold as industrial."
+  },
+  {
+    "title": "Power ceiling and device class",
+    "description": "The base unit tops out at 30W IEEE 802.3at, Intellinet reaches 80W with 802.3bt, and the TRENDnet TI-BE200 delivers up to 60W device output. We matched these against what industrial cameras, access points and PTZ heads actually draw, and did not reward headroom a buyer would never use."
+  },
+  {
+    "title": "Electrical protection and grounding",
+    "description": "Intellinet lists short-circuit, overload and high-voltage protection plus a grounding point, and the TI-BE200 names 4kV True Surge protection. In electrically noisy plants these matter more than extra speed, so we scored named safeguards above generic protected-circuit language."
+  },
+  {
+    "title": "Warranty, compliance and cascade reach",
+    "description": "The TI-BE200 pairs a 3-year warranty with NDAA and TAA compliance and 500m daisy chain reach, while the TI-OE110 reaches 300m. We weighed these against the price gap, since the base 30W unit is the cheapest here but offers the least documentation."
+  }
 ];
 
 export const howToChoose = [

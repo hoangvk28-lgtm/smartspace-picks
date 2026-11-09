@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Cross-Brand Compatibility", "description": "Compared explicitly confirmed compatibility across Dell, Lenovo, HP, and other laptop brands." },
-  { "title": "IT Management Features", "description": "Compared enterprise deployment tools like PXE boot, Wake-on-LAN, and remote firmware updates." },
-  { "title": "Display Support", "description": "Compared single, dual, and triple display configurations across all four picks." },
-  { "title": "Form Factor Flexibility", "description": "Compared detachable, compact, and travel-oriented designs." },
-  { "title": "Sustainability Disclosure", "description": "Compared recycled content figures and other disclosed sustainability details." }
+  {
+    "title": "Cross-brand laptop compatibility",
+    "description": "A dock sold by a laptop maker can lock out other brands. Anker lists confirmed compatibility with Dell XPS, Lenovo ThinkPad and HP laptops, while HP and Lenovo docks are built around their own fleets. We read the compatibility notes before judging port counts. A fleet of mixed brands is where a single-vendor dock causes the most returns."
+  },
+  {
+    "title": "Display count and macOS limits",
+    "description": "Anker offers triple display with 2 HDMI and 1 DisplayPort, HP and Lenovo Travel give dual displays, and Lenovo's ThinkPad dock states no maximum. Anker also notes macOS is limited to mirrored mode across multiple displays, so we recorded which picks suit Mac users. Mirroring on macOS means a second screen shows the same picture, not extra desktop space."
+  },
+  {
+    "title": "Power delivery and what reaches the laptop",
+    "description": "Anker, HP and Lenovo Travel list 100W, but a base Lenovo Travel unit ships a 100W charger giving 65W to the laptop, with a 135W charger optional. We compared delivered watts with typical laptop chargers. A laptop that needs 90W gets noticeably less from a 65W delivery during heavy work."
+  },
+  {
+    "title": "Management and enterprise features",
+    "description": "Lenovo ThinkPad Universal adds PXE boot, Wake-on-LAN, MAC address pass-through, automatic firmware updates and remote monitoring. These matter to an IT team deploying many docks, and do little for a single home desk. Firmware pushes and PXE boot save an IT team hours but give a home user nothing."
+  },
+  {
+    "title": "Host connection type",
+    "description": "HP USB-C/A G2 supports both USB-C and older USB-A hosts, while the others need USB-C. We favored it for mixed fleets, and noted that Anker's detachable hub design is the easiest to carry between desks. Connector type matters first, because USB-A hosts cannot drive video through a USB-C dock."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,129 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["A detachable dock-plus-hub combo with cross-brand compatibility", "Anker Nano Laptop Docking Station"],
-        ["Enterprise IT fleet management features", "Lenovo ThinkPad Universal USB-C Dock"],
-        ["A compact, dual-interface (USB-C and USB-A) dock", "HP USB-C/A Universal Dock G2"],
-        ["Dual 4K displays at the lowest price with a sustainability disclosure", "Lenovo USB-C Dual Display Travel Dock"]
+    "subheading": "By Primary Need",
+    "intro": "Pick on how many laptops and displays you manage.",
+    "table": {
+      "headers": [
+        "If you want",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Cross-brand dock with a detachable hub",
+          "Anker Nano Laptop Docking Station, 13-in-1 with a 6-in-1 portable hub."
+        ],
+        [
+          "IT fleet management",
+          "Lenovo ThinkPad Universal USB-C Dock, with PXE boot and automatic firmware updates."
+        ],
+        [
+          "USB-C and USB-A hosts, compact desk",
+          "HP USB-C/A Universal Dock G2, with dual displays via HDMI and DisplayPort."
+        ],
+        [
+          "Dual 4K displays at the lowest price",
+          "Lenovo USB-C Dual Display Travel Dock, with an always-on USB port."
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $62", "Lenovo USB-C Dual Display Travel Dock (under $70)"],
-        ["Under $103", "HP USB-C/A Universal Dock G2 (under $110)"],
-        ["Under $120", "Anker Nano Laptop Docking Station (under $120)"],
-        ["Under $126", "Lenovo ThinkPad Universal USB-C Dock (under $130)"]
+    "subheading": "By Budget",
+    "intro": "Prices span a wide range.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $70, cheapest",
+          "Lenovo USB-C Dual Display Travel Dock."
+        ],
+        [
+          "Under $110, compact desk dock",
+          "HP USB-C/A Universal Dock G2."
+        ],
+        [
+          "Under $120, cross-brand",
+          "Anker Nano Laptop Docking Station."
+        ],
+        [
+          "Under $130, enterprise",
+          "Lenovo ThinkPad Universal USB-C Dock."
+        ]
+      ]
+    }
   },
   {
-    subheading: "Home Office Dock vs Enterprise IT-Managed Dock",
-    cards: [
-      { label: "Home office dock (Anker, HP, Lenovo Travel Dock)", text: "Prioritizes ease of setup and cross-brand compatibility for a single user's desk, without enterprise deployment overhead." },
-      { label: "Enterprise IT-managed dock (Lenovo ThinkPad Universal)", text: "Adds automatic firmware updates, PXE boot, and remote device management specifically for corporate IT departments managing many docks." }
+    "subheading": "Home Office Dock vs Enterprise IT-Managed Dock",
+    "intro": "The enterprise features cost more and help only if you manage many desks.",
+    "cards": [
+      {
+        "label": "Home office dock",
+        "text": "Anker, HP and Lenovo Travel focus on easy setup and cross-brand compatibility for a single desk."
+      },
+      {
+        "label": "Enterprise dock",
+        "text": "Lenovo ThinkPad Universal adds PXE boot, Wake-on-LAN and remote firmware updates for an IT department."
+      }
     ],
-    note: "If you're outfitting a single home office desk, any of the non-enterprise picks work well. If you're an IT administrator deploying docks across many employee desks, the ThinkPad Universal Dock's management features are worth the focus.",
+    "note": "Choose Anker Nano for one desk and Lenovo ThinkPad Universal only if you also deploy docks at scale."
   },
   {
-    subheading: "By Laptop Fleet Composition",
-    table: {
-      headers: ["Your laptop mix", "Recommended pick"],
-      rows: [
-        ["Mixed Dell, Lenovo, and HP laptops", "Anker Nano Laptop Docking Station (confirmed cross-brand)"],
-        ["Both USB-C and older USB-A laptops", "HP USB-C/A Universal Dock G2"]
+    "subheading": "By Laptop Fleet",
+    "intro": "Fleet makeup decides which dock avoids compatibility issues.",
+    "table": {
+      "headers": [
+        "Fleet",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Mixed Dell, Lenovo and HP laptops",
+          "Anker Nano, with confirmed cross-brand compatibility."
+        ],
+        [
+          "Both USB-C and older USB-A laptops",
+          "HP USB-C/A Universal Dock G2."
+        ],
+        [
+          "All ThinkPads with a central IT team",
+          "Lenovo ThinkPad Universal USB-C Dock."
+        ],
+        [
+          "Laptops that travel with the user",
+          "Lenovo USB-C Dual Display Travel Dock."
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Remote and Hybrid Workers Specifically",
-    cards: [
-      { label: "Look for", text: "A dock with an always-on USB port for continuous device charging and genuine universal USB-C compatibility, so the same dock works reliably whether you're in the office or working from home." },
-      { label: "In this comparison", text: "The Lenovo USB-C Dual Display Travel Dock specifically includes an always-on USB port and engineered universal compatibility for exactly this remote/hybrid use case." }
-    ],
+    "subheading": "For Remote and Hybrid Workers Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "An always-on USB port, true universal compatibility and a footprint small enough to move between home and office."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Lenovo USB-C Dual Display Travel Dock lists an always-on USB port, and Anker Nano's detachable hub splits into a desk dock and a bag hub."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You specifically need enterprise IT fleet management features like automatic firmware updates and remote device monitoring, where the Lenovo ThinkPad Universal Dock justifies its under $130 price." },
-      { label: "Save if", text: "You want dual 4K display support with a genuine sustainability disclosure, where the Lenovo Travel Dock delivers that for under $70, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need enterprise management. Lenovo ThinkPad Universal sits in the under-$130 tier."
+      },
+      {
+        "label": "Save if",
+        "text": "Dual 4K is enough. Lenovo USB-C Dual Display Travel Dock stays under $70."
+      }
+    ]
   }
 ];
 
@@ -182,12 +266,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will the Anker Nano dock work if I switch from a Dell laptop to a Lenovo laptop later?", "a": "Yes, the listing specifically confirms compatibility across Dell XPS, Lenovo ThinkPad, HP Spectre, and most Windows laptops with USB-C, so switching laptop brands later should not require replacing the dock." },
-  { "q": "What's the most common mistake buyers make when choosing a universal USB-C USB4 dock?", "a": "Assuming a generic 'universal compatible' label guarantees the dock works flawlessly across every specific laptop brand and model, when checking for explicitly named confirmed brands in a listing gives much stronger assurance than an unspecific universal compatibility claim." },
-  { "q": "Is the Lenovo ThinkPad Universal Dock worth it for a single home office desk?", "a": "For a single home user, the enterprise IT management features like PXE boot and remote firmware updates provide little practical benefit, so the Anker Nano or HP Universal Dock G2 likely deliver better value for individual, non-fleet use." },
-  { "q": "Can I charge my phone using the Anker Nano dock's USB ports without my laptop connected?", "a": "No, the listing specifically states all ports, including the light strip indicator, only activate when a laptop is connected via the upstream port, so you'll need your laptop docked for the ports to function." },
-  { "q": "How do I know if my older laptop with USB-A will work with these docks?", "a": "The HP USB-C/A Universal Dock G2 specifically supports both USB-C and USB-A host connections, making it the best choice in this comparison if you need to connect an older USB-A-only laptop rather than a newer USB-C model." },
-  { "q": "Does the Lenovo Travel Dock's base model include enough power for my laptop?", "a": "The base model includes a 100W USB-C charger providing 65W power delivery, and checking your specific laptop's power requirements against this figure is worth doing, since an optional 135W charger is available separately if you need the full 100W delivered to your laptop." }
+  {
+    "q": "Will Anker Nano work if I move from a Dell to a Lenovo laptop?",
+    "a": "Yes. The listing confirms compatibility across Dell XPS, Lenovo ThinkPad and HP laptops, which is the main reason to pick it for a mixed fleet. Keep in mind macOS is limited to mirrored mode across multiple external displays."
+  },
+  {
+    "q": "What goes wrong with a universal USB-C dock label?",
+    "a": "Universal does not guarantee every feature on every host. Display count, charging wattage and wake behaviour depend on the laptop's USB-C implementation. Check that your laptop's port supports DisplayPort Alt Mode and Power Delivery before trusting a compatibility badge."
+  },
+  {
+    "q": "Is Lenovo ThinkPad Universal worth it for a home desk?",
+    "a": "Usually not. PXE boot, Wake-on-LAN, MAC address pass-through and automatic firmware updates serve IT administrators. A home user pays for those features and gets the same ports as cheaper HP USB-C/A G2 or Anker Nano."
+  },
+  {
+    "q": "Can I charge a phone from Anker Nano without the laptop connected?",
+    "a": "No. The listing states the ports and light strip work only when the dock is connected to a laptop. If you want a charger that works alone, use a separate wall adapter, or consider the Lenovo Travel dock's always-on USB port."
+  },
+  {
+    "q": "Will an older laptop with USB-A work with these docks?",
+    "a": "HP USB-C/A Universal Dock G2 is the one that lists both USB-C and USB-A host support. The other docks need USB-C, so a USB-A-only laptop will not connect. Check the cable type shipped in the box before ordering."
+  },
+  {
+    "q": "Does Lenovo's travel dock deliver enough power for my laptop?",
+    "a": "The base model ships a 100W USB-C charger that gives 65W power delivery to the laptop, and a 135W charger is optional for maximum power. A 65W ultrabook is fine, while a 90W laptop will charge slowly under load."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

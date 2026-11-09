@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/414jfqy0VhL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G1Y7CJRH?tag=deskfinds0d-20",
-    "description": "Giftota is a boxed set with an acrylic blanket measuring 49 by 60 inches, a dishwasher-safe ceramic mug, a leather notebook, a natural soy wax candle and plush socks.\n\nIt is the most expensive pick at about $39 and the most complete. Against Elequaint below, it gives more items, though the candle is only one piece among many.\n\nBest for a close friend or family member changing careers. The caveat is that the set is more cozy-home than desk, and the listing is aimed at women.",
+    "description": "Giftota is a boxed set with an acrylic blanket measuring 49 by 60 inches, a dishwasher-safe ceramic mug, a leather notebook, a natural soy wax candle and plush socks.\n\nIt is the most expensive pick at under $40 and the most complete. Against Elequaint below, it gives more items, though the candle is only one piece among many.\n\nBest for a close friend or family member changing careers. The caveat is that the set is more cozy-home than desk, and the listing is aimed at women.",
     "specs": [
       "49 x 60 inch blanket",
       "Mug, notebook, candle, socks",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41jhaaY+p8L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D5QW4QDZ?tag=deskfinds0d-20",
-    "description": "Elequaint is a lavender and eucalyptus scented candle packaged as a congratulations gift for a new job.\n\nIt costs about $14 and is the best budget-friendly sentimental option. Against Giftota, it is a single item, and candles are banned in many offices and dorms.\n\nBest for a coworker leaving for a new job. The caveat is that open flames are often not allowed at work, so it suits a recipient's home.",
+    "description": "Elequaint is a lavender and eucalyptus scented candle packaged as a congratulations gift for a new job.\n\nIt costs under $15 and is the best budget-friendly sentimental option. Against Giftota, it is a single item, and candles are banned in many offices and dorms.\n\nBest for a coworker leaving for a new job. The caveat is that open flames are often not allowed at work, so it suits a recipient's home.",
     "specs": [
       "Lavender and eucalyptus scent",
       "Gift-packaged candle",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41rW3SkH1lL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D8S3QXLB?tag=deskfinds0d-20",
-    "description": "This desk sign is a freestanding laser-cut stainless steel puzzle-style piece celebrating a new chapter, described as lightweight and sturdy and usable on a shelf or desk.\n\nIt costs about $12 and is the most desk-friendly keepsake here. Against the crochet star below, it is a hard object that will not squash.\n\nBest for a colleague who needs desk decor. The caveat is that the message is generic.",
+    "description": "This desk sign is a freestanding laser-cut stainless steel puzzle-style piece celebrating a new chapter, described as lightweight and sturdy and usable on a shelf or desk.\n\nIt costs under $15 and is the most desk-friendly keepsake here. Against the crochet star below, it is a hard object that will not squash.\n\nBest for a colleague who needs desk decor. The caveat is that the message is generic.",
     "specs": [
       "Laser cut stainless steel",
       "Freestanding puzzle design",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/511YNp6MNhL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FQCBMF9V?tag=deskfinds0d-20",
-    "description": "AVALYNNE is a handmade crochet star with an uplifting card that reads about a new adventure, sold as a keepsake for graduates, new jobs and farewells.\n\nAt about $10 it is cheaper than the steel sign and warmer in tone. Against the pen below, it is soft and decorative.\n\nBest for a thoughtful coworker gift. The caveat is that it is small and has no practical use.",
+    "description": "AVALYNNE is a handmade crochet star with an uplifting card that reads about a new adventure, sold as a keepsake for graduates, new jobs and farewells.\n\nAt under $15 it is cheaper than the steel sign and warmer in tone. Against the pen below, it is soft and decorative.\n\nBest for a thoughtful coworker gift. The caveat is that it is small and has no practical use.",
     "specs": [
       "Handmade crochet star",
       "Includes message card",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31PlWAAmA1L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HFR2W434?tag=deskfinds0d-20",
-    "description": "SunyJone is a sarcastic desk plate with the line about handling it but complaining first, aimed at coworkers, bosses and managers.\n\nIt costs about $8 and is a joke piece. Against the other signs here, it is a team-culture gift for people you know.\n\nBest for a coworker who laughs easily. The caveat is that sarcasm can backfire on a new hire or a manager you do not know yet.",
+    "description": "SunyJone is a sarcastic desk plate with the line about handling it but complaining first, aimed at coworkers, bosses and managers.\n\nIt costs under $10 and is a joke piece. Against the other signs here, it is a team-culture gift for people you know.\n\nBest for a coworker who laughs easily. The caveat is that sarcasm can backfire on a new hire or a manager you do not know yet.",
     "specs": [
       "Funny desk plate",
       "Sarcastic message",
@@ -219,47 +219,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Tone for the relationship",
-    "explanation": "A close friend can take a sarcastic plate, but a new boss or a stranger may not. A sentimental gift works across levels. Pick the tone that matches how well you know the person."
+    "explanation": "A close friend can take a sarcastic plate, but a new boss or a stranger may not. A sentimental gift works across levels. Pick the tone that matches how well you know the person. A close friend takes a sarcastic plate, but a new boss may not, so choose the Hesuuho pen or the crochet star for mixed audiences."
   },
   {
     "criterion": "Workplace rules for candles",
-    "explanation": "Open flames are banned in many offices and nearly all dorms. A candle gift may only work at home. Check workplace rules or choose a non-flame gift."
+    "explanation": "Open flames are banned in many offices and nearly all dorms. A candle gift may only work at home. Check workplace rules or choose a non-flame gift. Candle gifts like the Elequaint model fail at offices with a no flame rule, so check the workplace policy or give it at home, where an open flame is the recipient's own choice."
   },
   {
     "criterion": "Size and portability",
-    "explanation": "The person has to carry the gift to the new office or home. A boxed set with a blanket is bulky, while a small sign fits a bag. Check the dimensions."
+    "explanation": "The person has to carry the gift to the new office or home. A boxed set with a blanket is bulky, while a small sign fits a bag. Check the dimensions. The Giftota set with its 49 x 60 inch blanket is bulky to carry, so check the final size if the recipient commutes by train."
   },
   {
     "criterion": "Useful versus keepsake",
-    "explanation": "A pen or notebook gets used, while a sign or crochet star sits. Mix one of each when you can. Look at what the recipient will do with it in a week."
+    "explanation": "A pen or notebook gets used, while a sign or crochet star sits. Mix one of each when you can. Look at what the recipient will do with it in a week. A pen and a notebook are used every day, while a sign or the AVALYNNE crochet star sits on a shelf, so pick one of each when the budget allows."
   },
   {
     "criterion": "Gender-neutral wording",
-    "explanation": "Several listings are aimed at women in their titles, which can feel off for others. The gift itself may still work. Read the card message and wording."
+    "explanation": "Several listings are aimed at women in their titles, which can feel off for others. The gift itself may still work. Read the card message and wording. Several listings use titles aimed at women, so check the photos and wording to see whether the printed message suits the recipient, because the text cannot be removed once it is printed on the item."
   },
   {
     "criterion": "Claims on crystals and charms",
-    "explanation": "Listings with crystals sometimes imply healing or energy effects, which are not supported. Treat them as decoration. Judge the pen or item on materials."
+    "explanation": "Listings with crystals sometimes imply healing or energy effects, which are not supported. Treat them as decoration. Judge the pen or item on materials. Listings with crystals sometimes hint at energy effects, so treat the Hesuuho crystal accent as decoration and not as a claim you repeat."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Tone and message",
-    "description": "We compared whether each gift is sentimental, playful or practical."
+    "title": "Tone for the relationship",
+    "description": "We matched each pick to a relationship. The SunyJone funny sarcastic plate and Fancy Land flip signs suit a close friend, while the Hesuuho crystal pen with gift box and the New Chapter steel puzzle sign work for a new boss or a stranger. Sentimental gifts travel across more relationships than humor."
   },
   {
-    "title": "Size and portability",
-    "description": "Dimensions and item counts were weighed for a first-day carry."
+    "title": "Candle and flame rules",
+    "description": "Open flames are banned in many offices and nearly all dorms, so we flagged the Elequaint lavender and eucalyptus candle and the soy candle in the Giftota set as home gifts. The pen, sign and crochet star carry no rule risk and work in any workplace."
   },
   {
-    "title": "Workplace fit",
-    "description": "Flames and heating were flagged for offices."
+    "title": "Portability on the first day",
+    "description": "The recipient has to carry the gift to a new office, so we compared bulk. The Giftota set holds a 49 x 60 inch blanket, a mug, notebook, candle and socks, so it suits a home delivery, while the pen and the crochet star slip into a bag."
   },
   {
-    "title": "Price",
-    "description": "Cost was compared across a typical coworker budget."
+    "title": "Everyday use versus keepsake",
+    "description": "We separated items that get used from items that sit. The Hesuuho pen writes every day, the Fancy Land set offers 30 flip messages, and the AVALYNNE crochet star is a keepsake with a message card. A mix of one useful gift and one keepsake rarely misses."
   }
 ];
 
@@ -390,7 +390,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "It is a coworker collection. AVALYNNE Crochet Star New Adventure Keepsake and Fancy Land 30 Flip Over Funny Desk Signs cost about $10 or less."
+        "text": "It is a coworker collection. AVALYNNE Crochet Star New Adventure Keepsake and Fancy Land 30 Flip Over Funny Desk Signs cost under $15 or less."
       }
     ]
   }

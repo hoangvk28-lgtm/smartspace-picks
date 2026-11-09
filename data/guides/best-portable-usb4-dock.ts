@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Weight and Footprint", "description": "Compared physical size and portability across all four docks." },
-  { "title": "Power Design", "description": "Compared bus-powered designs against docks requiring a separate power adapter." },
-  { "title": "Display Support", "description": "Compared single, dual, and triple display configurations for travel use." },
-  { "title": "Legacy Port Support", "description": "Compared VGA and other legacy connector availability for older displays." },
-  { "title": "Cross-Brand Compatibility", "description": "Compared stated compatibility across Windows, Mac, and specific laptop brands." }
+  {
+    "title": "Weight and footprint",
+    "description": "We compared sizes for a laptop bag. The Satechi Pro Hub Mini is bus-powered with nothing extra to pack, the Cable Matters 8-in-1 is a compact travel unit, and the EDiMAX is a mini slim dock with a power adapter. Every extra gram counts for a dock carried daily."
+  },
+  {
+    "title": "Power design",
+    "description": "Satechi is bus-powered with up to 100W charging passthrough, Lenovo lists 45W charging, and EDiMAX ships a 100W adapter for 85W total Power Delivery. We weighed pack weight against charging, since a bus-powered hub shares power with the laptop while a dock with an adapter does not."
+  },
+  {
+    "title": "Display support",
+    "description": "EDiMAX supports a single 8K, a single 4K at 120Hz or triple 4K, Cable Matters adds dual HDMI over 40Gbps USB4, Satechi gives 5K at 60Hz, and Lenovo offers HDMI plus VGA. We matched these to a hotel desk, a conference room and a home office."
+  },
+  {
+    "title": "Legacy port support",
+    "description": "Lenovo's VGA port covers older projectors and classroom setups that never got an HDMI upgrade. We counted that as a real advantage for presenters, though it is irrelevant for anyone who works only on modern monitors and docking stations."
+  },
+  {
+    "title": "Cross-brand compatibility and certification",
+    "description": "EDiMAX is Thunderbolt 4 certified with Thunderbolt 3 compatibility, while the Lenovo dock lists compatibility with both Lenovo and Apple laptops. We checked what each listing states about your specific laptop, since a USB4 label alone does not guarantee features such as dual display."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,122 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The widest display flexibility while traveling", "EDiMAX 5-in-1 Thunderbolt 4 Mini Slim Dock"],
-        ["A genuinely bus-powered hub with nothing extra to pack", "Satechi Pro Hub Mini USB-C Multiport Adapter"],
-        ["Dual HDMI output in a still-portable size", "Cable Matters 8-in-1 Portable USB4 Hub"],
-        ["Legacy VGA compatibility for older displays", "Lenovo USB-C Mini Dock, 7-in-1"]
+    "subheading": "By Primary Need",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
+      "rows": [
+        [
+          "The widest display flexibility while traveling",
+          "EDiMAX 5-in-1 Thunderbolt 4 Mini Slim Dock"
+        ],
+        [
+          "A genuinely bus-powered hub with nothing extra to pack",
+          "Satechi Pro Hub Mini USB-C Multiport Adapter"
+        ],
+        [
+          "Dual HDMI output in a still-portable size",
+          "Cable Matters 8-in-1 Portable USB4 Hub"
+        ],
+        [
+          "Legacy VGA compatibility for older displays",
+          "Lenovo USB-C Mini Dock, 7-in-1"
+        ]
+      ]
     },
+    "intro": "Each of these docks wins one job, so start from the thing you cannot travel without."
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $50", "Satechi Pro Hub Mini (under $50) or Lenovo USB-C Mini Dock (under $50)"],
-        ["Under $75", "Cable Matters 8-in-1 (under $80)"],
-        ["Under $170", "EDiMAX 5-in-1 Mini Slim Dock (under $170)"]
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
+      "rows": [
+        [
+          "Under $50",
+          "Satechi Pro Hub Mini (under $50) or Lenovo USB-C Mini Dock (under $50)"
+        ],
+        [
+          "Under $75",
+          "Cable Matters 8-in-1 (under $80)"
+        ],
+        [
+          "Under $170",
+          "EDiMAX 5-in-1 Mini Slim Dock (under $170)"
+        ]
+      ]
     },
+    "intro": "Prices fall into three tiers, with the cheapest two near the same cost and the EDiMAX in a class of its own."
   },
   {
-    subheading: "Bus-Powered vs Dock-Powered Travel Docks",
-    cards: [
-      { label: "Bus-powered (Satechi Pro Hub Mini)", text: "Draws power directly through the USB4 connection with nothing extra to pack, trading multi-display support for maximum portability." },
-      { label: "Dock-powered with included adapter (EDiMAX)", text: "Requires packing its own dock-specific power adapter but unlocks significantly more display flexibility and downstream charging." }
+    "subheading": "Bus-Powered vs Dock-Powered Travel Docks",
+    "cards": [
+      {
+        "label": "Bus-powered (Satechi Pro Hub Mini)",
+        "text": "Draws power directly through the USB4 connection with nothing extra to pack, trading multi-display support for maximum portability."
+      },
+      {
+        "label": "Dock-powered with included adapter (EDiMAX)",
+        "text": "Requires packing its own dock-specific power adapter but unlocks significantly more display flexibility and downstream charging."
+      }
     ],
-    note: "If minimizing what you pack matters most, the Satechi's bus-powered design is the lightest option. If you need to drive multiple displays at a destination, the EDiMAX's included adapter is a worthwhile tradeoff.",
+    "note": "If minimizing what you pack matters most, the Satechi's bus-powered design is the lightest option. If you need to drive multiple displays at a destination, the EDiMAX's included adapter is a worthwhile tradeoff.",
+    "intro": "Pack weight and display count trade against each other, so decide which one you will feel first."
   },
   {
-    subheading: "By Display Configuration Needed While Traveling",
-    table: {
-      headers: ["Your display setup", "Recommended pick"],
-      rows: [
-        ["Single display only", "Satechi Pro Hub Mini"],
-        ["Dual HDMI or legacy VGA displays", "Cable Matters 8-in-1 or Lenovo USB-C Mini Dock"],
-        ["Up to triple displays", "EDiMAX 5-in-1 Mini Slim Dock"]
+    "subheading": "By Display Configuration Needed While Traveling",
+    "table": {
+      "headers": [
+        "Your display setup",
+        "Recommended pick"
       ],
+      "rows": [
+        [
+          "Single display only",
+          "Satechi Pro Hub Mini"
+        ],
+        [
+          "Dual HDMI or legacy VGA displays",
+          "Cable Matters 8-in-1 or Lenovo USB-C Mini Dock"
+        ],
+        [
+          "Up to triple displays",
+          "EDiMAX 5-in-1 Mini Slim Dock"
+        ]
+      ]
     },
+    "intro": "The number of external screens you need decides the tier more than the port count does."
   },
   {
-    subheading: "For Presenting in Unfamiliar Conference Rooms Specifically",
-    cards: [
-      { label: "Look for", text: "A dock with a legacy VGA port in addition to HDMI, since older conference rooms and classrooms sometimes still only offer VGA input for projectors." },
-      { label: "In this comparison", text: "The Lenovo USB-C Mini Dock specifically includes a VGA port alongside HDMI, directly covering this legacy compatibility gap." }
+    "subheading": "For Presenting in Unfamiliar Conference Rooms Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A dock with a legacy VGA port in addition to HDMI, since older conference rooms and classrooms sometimes still only offer VGA input for projectors."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Lenovo USB-C Mini Dock specifically includes a VGA port alongside HDMI, directly covering this legacy compatibility gap."
+      }
     ],
+    "intro": "Legacy ports are the most common reason a dock fails in an unfamiliar room, so check the room input first."
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the widest possible display flexibility while traveling, where the EDiMAX pick's triple-display support justifies its under $170 price." },
-      { label: "Save if", text: "You want a genuinely bus-powered hub with nothing extra to pack, where the Satechi Pro Hub Mini delivers that for under $50, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want the widest possible display flexibility while traveling, where the EDiMAX pick's triple-display support justifies its under $170 price."
+      },
+      {
+        "label": "Save if",
+        "text": "You want a genuinely bus-powered hub with nothing extra to pack, where the Satechi Pro Hub Mini delivers that for under $50, the lowest price in this comparison."
+      }
+    ]
   }
 ];
 
@@ -185,8 +262,8 @@ export const faq = [
   { "q": "Can I use the Satechi Pro Hub Mini with a Windows laptop, or is it Mac-only?", "a": "While the listing's specific compatibility notes focus heavily on MacBook Pro models, the underlying USB4 and USB-C standard generally works with compatible Windows laptops as well, though checking your specific Windows laptop's USB4 port capabilities against the hub's stated features is worth doing." },
   { "q": "What's the most common mistake buyers make when choosing a portable USB4 dock for travel?", "a": "Choosing the smallest, lightest option without checking whether it supports the specific number of displays or legacy connectors (like VGA) they'll actually need at their travel destinations, then discovering a display incompatibility while away from home." },
   { "q": "Is the EDiMAX dock worth packing its power adapter for, versus the bus-powered Satechi pick?", "a": "If you regularly need to drive multiple displays while traveling, the EDiMAX's included adapter and triple-display support are worth the extra bulk, but if you mainly need basic charging and a single display, the Satechi's bus-powered simplicity is lighter to travel with." },
-  { "q": "How do I know if a hotel or conference room's projector will work with these docks' HDMI output?", "a": "Most modern venues have upgraded to HDMI, but for venues you're unsure about, packing a dock with a VGA fallback option like the Lenovo USB-C Mini Dock provides a safety net for older display technology." },
-  { "q": "Do any of these portable docks include a carrying case or pouch?", "a": "None of the four picks in this comparison specifically mention an included carrying case, so checking each listing's exact package contents or purchasing a separate small pouch for storage during travel is worth considering." },
+  { "q": "How do I know if a hotel or conference room's projector will work with these docks' HDMI output?", "a": "Check the room's input first. Most modern projectors take HDMI, which all four docks provide, but older rooms may offer only VGA, and only the Lenovo dock has a VGA port. If you cannot confirm the input, pack a small HDMI to VGA adapter or choose the Lenovo." },
+  { "q": "Do any of these portable docks include a carrying case or pouch?", "a": "None of the four lists a pouch in its listing, so budget a small cable organizer if you travel often. A compact hub like the Satechi Pro Hub Mini fits an ordinary pocket, but the EDiMAX plus its power adapter needs a pouch to keep the cables from tangling." },
   { "q": "Can I charge my laptop and use an external display at the same time with these docks?", "a": "Yes, all four picks in this comparison support simultaneous charging and display output, though the specific charging wattage and display resolution combination available varies by pick, so checking your laptop's power draw against the dock's stated charging wattage is worth doing." }
 ];
 

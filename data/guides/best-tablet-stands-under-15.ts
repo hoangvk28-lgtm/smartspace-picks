@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Device Size Range", "description": "Compared minimum and maximum device compatibility across the lineup." },
-  { "title": "Hinge and Damping Quality", "description": "Compared engineered damping mechanisms against basic hinge designs." },
-  { "title": "Base Material and Stability", "description": "Compared named alloy materials and weighted base design for tip resistance." },
-  { "title": "Convenience Features", "description": "Checked for extras like reserved charging ports or stability guidance." },
-  { "title": "Folded Portability", "description": "Compared folded dimensions and weight across all four picks." }
+  { "title": "Hinge damping and drift", "description": "We checked for joint design, noting the Minthouz's dual-axis damping and the tounee's secure locking mechanism. A stand whose joints drift under tapping or a heavy 12.9 inch tablet is annoying, so locking or damped hinges mattered more than the number of angles." },
+  { "title": "Base weight for large tablets", "description": "We compared the all-metal alloy weighted base on the tounee against the lighter foldable build of the Nulaxy. A base under roughly a pound and a half is likely to tip forward when the arm is extended with a large tablet, so we favored weight for 12.9 inch use." },
+  { "title": "Hook width and case fit", "description": "We noted that the Lamicall lists an 18mm hook width, while clips that open past about 0.8 inches accommodate thick cases. A narrow hook on a thick case slips, and thin rubber on bare metal can mar a tablet edge, so check measurements first." },
+  { "title": "Charging port access", "description": "We checked for features like the Minthouz's reserved charging port. If the stand blocks the port, you cannot charge while it is in use, which becomes a real annoyance for long video calls or reading sessions." },
+  { "title": "Device size range", "description": "We compared ranges, from 4 to 11 inches on the Nulaxy to 4.7 to 16.9 inches on the tounee. Claims to fit 12.9 inch iPad Pros need a wider base, and the Lamicall's horizontal orientation tip suggests larger tablets sit best in landscape. The Minthouz tops out at 12.9 inches, a size limit worth noting." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "This tier adds locking joints and bigger weighted bases, so we start from the size of tablet you plan to hold.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Prices climb from the budget Lamicall and Nulaxy to the tounee, so each step should map to damping, base weight, or range.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -133,6 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Device Size",
+    intro: "Cable and port access is the second axis, since a stand that blocks charging forces you to unmount the tablet.",
     table: {
       headers: ["Your device size", "Recommended pick"],
       rows: [
@@ -154,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the widest device compatibility reaching up to a portable monitor size, where the tounee pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You just want a stylish, well-built aluminum stand for standard tablet sizes, where the Lamicall or Nulaxy picks cover that for about $5 less." }
+      { label: "Save if", text: "You just want a stylish, well-built aluminum stand for standard tablet sizes, where the Lamicall or Nulaxy picks cover that for under $10 less." }
     ],
   }
 ];
@@ -184,8 +187,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Does the Minthouz's damping mechanism require any special maintenance over time?", "a": "The listing doesn't specify required maintenance for the damping mechanism, though like any hinge system, avoiding excessive force when adjusting it and keeping it free of dust or debris helps maintain its performance over time." },
-  { "q": "What's the most common mistake buyers make when choosing between a basic hinge and a damped mechanism at this tier?", "a": "Assuming any 'adjustable' stand provides equivalent stability during active use, when a stand without a specifically engineered damping mechanism may wobble or drift when you tap or draw on the tablet, unlike the Minthouz pick's dedicated damping system." },
-  { "q": "Is the tounee pick worth it over the cheaper Lamicall option?", "a": "If you specifically need compatibility up to 16.9 inches for a portable monitor or very large tablet, yes, but if a standard tablet up to 13 inches meets your needs, the Lamicall pick covers that for about $5 less." },
+  { "q": "Will a foldable tablet stand hold a 12.9 inch iPad Pro?", "a": "Only if the base is heavy enough. Foldable does not mean light, and a lightweight base tips once the arm is extended. The tounee lists an all-metal weighted base and a 16.9 inch range, while the Nulaxy covers only up to 11 inches, so it suits a smaller tablet." },
+  { "q": "Is the tounee pick worth it over the cheaper Lamicall option?", "a": "If you specifically need compatibility up to 16.9 inches for a portable monitor or very large tablet, yes, but if a standard tablet up to 13 inches meets your needs, the Lamicall pick covers that for under $10 less." },
   { "q": "How do I know if my tablet's charging port will remain accessible on the Minthouz stand while mounted?", "a": "The listing specifically states a reserved charging port for continuous power access, so most standard tablet charging port placements should remain reachable, though checking your specific device's port location against the stand's holder design is worth confirming before relying on this feature." },
   { "q": "Can these stands support a tablet in landscape orientation for watching wide-format video?", "a": "Yes, all four picks in this comparison support both portrait and landscape orientation through their adjustable hinge or rotation mechanisms, making them suitable for widescreen video content regardless of which pick you choose." },
   { "q": "Do any of these stands include a warranty if the aluminum construction develops issues over time?", "a": "Warranty terms aren't detailed with the same specificity across all four listings in this tier, so checking each specific product page's warranty or guarantee section is worth doing if extended coverage matters to your purchase decision." }

@@ -84,69 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Port Count Relative to Physical Size", "description": "Compared how many real ports each dock packs into its stated compact footprint." },
-  { "title": "Power Delivery Despite Reduced Size", "description": "Compared sustained charging wattage relative to the dock's smaller form factor." },
-  { "title": "Storage and Expansion Options", "description": "Compared built-in NVMe or PCIe expansion slots available within a compact chassis." },
-  { "title": "Cooling Approach", "description": "Compared fanless versus actively cooled designs for compact, space-constrained placement." },
-  { "title": "Real-World Desk Footprint", "description": "Compared stated physical dimensions and mounting flexibility for small desks." }
+  {
+    "title": "Ports per square inch",
+    "description": "The test for a compact dock is real ports for the desk space used. The OWC Thunderbolt 5 Hub lists a 3 by 6 by 1 inch footprint with 5 ports, while the Cable Matters crams in 11. We counted usable ports, treating a dock that drops Ethernet as a real tradeoff for a small desk."
+  },
+  {
+    "title": "Charging that holds under load",
+    "description": "Power delivery is a ceiling, not a promise. The OWC and Cable Matters list 140W, while the CalDigit E5 lists 90W sustained across all devices plus offline charging without a host. We favored docks that state what the laptop actually receives, not just the adapter size."
+  },
+  {
+    "title": "Display limits by operating system",
+    "description": "Thunderbolt 5 lists 80Gbps with up to 120Gbps boost, but display counts vary by platform. The Cable Matters documents dual 6K on Mac chips, the CalDigit lists triple display on Windows only, and the HyperDrive limits macOS to two. We scored clear platform documentation higher."
+  },
+  {
+    "title": "Expansion beyond ports",
+    "description": "A compact dock can add something a bigger one skips. The HyperDrive Next builds in an M.2 PCIe slot for an SSD or AI module, so one box replaces a dock and an external drive. We counted that as real value at its higher price, not a gimmick."
+  },
+  {
+    "title": "Thermals and noise",
+    "description": "Compact chassis handle heat differently. The OWC is a fanless aluminum design with no moving parts, so we treated silence as a plus for a desk beside a bed or a recording corner, and noted that a fanless case may have less sustained thermal headroom than a fan-cooled one."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Detailed per-chip display support with Thunderbolt Share", "Cable Matters 11-in-1 Thunderbolt 5 Dock"],
-        ["Built-in NVMe and PCIe module expansion", "HyperDrive Next Thunderbolt 5 Dock with SSD Enclosure"],
-        ["Sustained power delivery with offline charging", "CalDigit E5 Thunderbolt 5 Element 5 Hub"],
-        ["The smallest footprint and lowest price", "OWC Thunderbolt 5 Hub 5-Port"]
+    "subheading": "By Desk Footprint",
+    "intro": "The physical size you can spare drives the first choice.",
+    "table": {
+      "headers": [
+        "Your space",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A desk corner with almost no spare room and only a few ports needed",
+          "OWC Thunderbolt 5 Hub, which lists a 3 by 6 by 1 inch fanless footprint"
+        ],
+        [
+          "A mid-size dock footprint but you need Ethernet and SD card",
+          "Cable Matters 11-in-1 dock, with 11-in-1 ports and 2.5G Ethernet"
+        ],
+        [
+          "A hub that also doubles as a battery-free charger",
+          "CalDigit E5 Hub, with offline charging and 9 ports"
+        ],
+        [
+          "A single box replacing a dock plus an external SSD",
+          "HyperDrive Next Thunderbolt 5 Dock, with its built-in M.2 slot"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $180", "OWC Thunderbolt 5 Hub 5-Port (under $180)"],
-        ["Under $250", "Cable Matters 11-in-1 (under $250) or CalDigit E5 (under $250)"],
-        ["Under $320", "HyperDrive Next Thunderbolt 5 Dock (under $350)"]
+    "subheading": "By Budget",
+    "intro": "Every pick here sits under $350, with the biggest jump at the SSD enclosure model.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $180, smallest and cheapest",
+          "OWC Thunderbolt 5 Hub, with 140W charging"
+        ],
+        [
+          "$180 to $250, mid ports and display documentation",
+          "CalDigit E5 Hub, with 90W sustained PD"
+        ],
+        [
+          "$220 to $250, most ports at this tier",
+          "Cable Matters 11-in-1 dock, with 11 ports and Thunderbolt Share"
+        ],
+        [
+          "Up to $350, expansion slot",
+          "HyperDrive Next, which adds a PCIe slot and security lock slots"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Maximum Ports vs Minimalist Design",
-    cards: [
-      { label: "More ports in a compact shell (Cable Matters, HyperDrive)", text: "These docks pack 11 or more ports plus advanced features like Thunderbolt Share and PCIe expansion into a still-reasonably compact chassis." },
-      { label: "Truly minimalist (OWC Thunderbolt 5 Hub)", text: "This hub strips down to just 5 essential ports in the smallest physical footprint of this comparison, prioritizing size and price over feature count." }
+    "subheading": "Fewer Ports with Daisy Chain vs Many Ports Built In",
+    "intro": "Compact docks solve port shortage in two different ways.",
+    "cards": [
+      {
+        "label": "Fewer ports, daisy chaining (OWC Thunderbolt 5 Hub)",
+        "text": "Five ports and three independent daisy chains let monitors chain from the dock instead of each needing a socket, but you need Thunderbolt monitors or hubs to take advantage of it, and there is no Ethernet."
+      },
+      {
+        "label": "More built-in ports (Cable Matters 11-in-1, CalDigit E5, HyperDrive Next)",
+        "text": "Nine to eleven ports with Ethernet and card readers cover a typical desk with no extra hubs, but each adds a wider case and a higher price."
+      }
     ],
-    note: "If you want to keep a fuller feature set while still saving desk space, the Cable Matters or HyperDrive picks deliver that. If minimizing physical footprint and cost is your top priority, the OWC hub is purpose-built for exactly that.",
+    "note": "Most small-desk buyers who plug in a keyboard, a drive, and Ethernet should default to a built-in port model, unless the desk has genuinely no room."
   },
   {
-    subheading: "By Storage Expansion Need",
-    table: {
-      headers: ["Your storage situation", "Recommended pick"],
-      rows: [
-        ["Want PCIe module support beyond just storage", "HyperDrive Next Thunderbolt 5 Dock"],
-        ["Don't need built-in storage expansion at all", "OWC Thunderbolt 5 Hub 5-Port"],
-        ["Want strong power delivery without storage expansion", "CalDigit E5 Thunderbolt 5 Element 5 Hub"]
+    "subheading": "By Laptop Platform",
+    "intro": "The host computer changes which dock gives the best display support.",
+    "table": {
+      "headers": [
+        "Your computer",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A MacBook with M-series Pro or Max and two 6K displays",
+          "Cable Matters 11-in-1, which documents dual 6K@60Hz on those chips"
+        ],
+        [
+          "A Windows laptop driving three displays",
+          "CalDigit E5, which lists triple displays on Windows only"
+        ],
+        [
+          "A Windows laptop needing 8K@144Hz or triple 4K@60Hz",
+          "HyperDrive Next, which lists those Windows limits"
+        ],
+        [
+          "A laptop with a plain Thunderbolt 4 port that is not TB5",
+          "OWC Thunderbolt 5 Hub, the cheapest way to try the format, noting it falls back to Thunderbolt 4 speeds"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Small Desk or Shared Workspace Specifically",
-    cards: [
-      { label: "Look for", text: "A genuinely small physical footprint with mounting or placement flexibility, and if the workspace is shared or unattended, a physical security lock slot to deter theft." },
-      { label: "In this comparison", text: "The HyperDrive Next specifically includes Nano and Standard security lock slots, while the OWC hub's compact 3x6x1 inch size fits the tightest desk spaces." }
-    ],
+    "subheading": "For a Shared or Coworking Desk Specifically",
+    "intro": "A dock left on a shared desk faces theft and cable mix-ups.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A Kensington lock slot, a clear port count, and power that does not depend on the host being awake."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The HyperDrive Next lists Nano and Standard lock slots, and the CalDigit E5 lists offline charging that works without a connected host."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need built-in PCIe module expansion beyond simple storage, where the HyperDrive Next's under $350 price is justified by its AI accelerator module support." },
-      { label: "Save if", text: "You want a genuinely compact dock with reliable 140W charging and minimal footprint, where the OWC hub delivers that for under $180, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The step up buys expansion or documentation, not raw speed.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want an SSD enclosure in the dock or a clearly documented platform. The HyperDrive Next costs the most here, and the budget Thunderbolt 5 dock guide shows the cheaper alternatives."
+      },
+      {
+        "label": "Save if",
+        "text": "You need the smallest box and 140W charging. The OWC Thunderbolt 5 Hub is the lowest-priced pick, fanless, and still lists three independent daisy chains."
+      }
+    ]
   }
 ];
 
@@ -174,12 +260,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Does a compact Thunderbolt 5 dock always mean fewer ports than a full-size one?", "a": "Generally yes, though the reduction varies significantly: the Cable Matters pick still packs 11 ports into a compact design, while the OWC hub deliberately strips down to just 5 essential ports for the smallest possible footprint." },
-  { "q": "What's the most common mistake buyers make when choosing a compact Thunderbolt 5 dock?", "a": "Assuming a smaller dock automatically sacrifices power delivery or performance, when several compact docks in this comparison specifically maintain full 140W charging and strong sustained power delivery despite their reduced size." },
-  { "q": "Is the HyperDrive Next worth the higher price over the OWC hub if I just need basic docking?", "a": "If you don't need PCIe module expansion or physical security lock slots, the OWC hub's much lower price and genuinely smaller footprint make it the better fit for basic docking needs." },
-  { "q": "Can I use the CalDigit E5's Offline Charging feature to charge my phone away from my desk?", "a": "Yes, the CalDigit E5 specifically supports Offline Charging that keeps connected devices powered even when the hub isn't connected to a host computer, making it useful as a standalone charging station when moved elsewhere." },
-  { "q": "Do I need a genuine Thunderbolt 5 laptop to use any of these compact docks?", "a": "Full 80Gb/s or higher bandwidth and the highest advertised display configurations specifically require a genuine Thunderbolt 5 host, though most of these docks will still function at reduced capability with Thunderbolt 4 or USB4 hosts." },
-  { "q": "Which of these compact docks is best for a small desk with very limited space?", "a": "The OWC Thunderbolt 5 Hub's 3-inch by 6-inch by 1-inch footprint is the smallest in this comparison, making it the strongest choice specifically for the tightest desk spaces." }
+  {
+    "q": "Do I need a Thunderbolt 5 laptop to use these docks?",
+    "a": "To get Thunderbolt 5 speeds, yes. A Thunderbolt 4 laptop connects to a TB5 dock but runs at the Thunderbolt 4 ceiling of 40Gbps, which limits displays and storage. Check your laptop's port label before paying for 80Gbps you cannot use."
+  },
+  {
+    "q": "Does 140W charging mean my laptop gets 140W?",
+    "a": "No, 140W is a ceiling. The laptop must accept high-wattage USB Power Delivery, and a 14 inch MacBook that tops out at lower wattage will draw less. The CalDigit E5 lists 90W sustained, so check your charger wattage first."
+  },
+  {
+    "q": "What cable do I need for full speed?",
+    "a": "Use a certified Thunderbolt 5 cable, passive up to about one meter or an active one beyond. A cheap USB-C cable will quietly drop to a lower speed. Most docks ship with one, so use the supplied cable first before swapping."
+  },
+  {
+    "q": "Is the HyperDrive worth more than the OWC hub?",
+    "a": "If you need an NVMe slot, yes. The HyperDrive Next adds a built-in M.2 PCIe slot, security lock slots, and triple 4K@60Hz on Windows. The OWC Hub costs far less, is fanless, and fits a tiny desk, but lists no Ethernet and only 3 USB ports."
+  },
+  {
+    "q": "Can I connect three monitors on a Mac?",
+    "a": "Not on every dock. The HyperDrive limits macOS to two extended displays, and the CalDigit lists triple displays on Windows only. The Cable Matters documents dual 6K@60Hz on Mac Pro and Max chips, so verify your chip against the listing."
+  },
+  {
+    "q": "How do I keep a fanless dock from overheating?",
+    "a": "Leave air space around the aluminum case and avoid stacking it under a laptop. The OWC is passively cooled, so airflow is the only heat path. If the case is warm under steady 140W charging, move it, because sustained heat can throttle."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

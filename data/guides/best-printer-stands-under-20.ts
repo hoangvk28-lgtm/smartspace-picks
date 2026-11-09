@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Weight Capacity", "description": "Compared stated weight capacity figures where disclosed across the lineup." },
-  { "title": "Mobility Design", "description": "Compared fixed-base stands against rolling caster designs for repositioning." },
-  { "title": "Structural Bracing", "description": "Checked for reinforced support designs like X-shaped bracing beyond simple straight legs." },
-  { "title": "Material Construction", "description": "Compared particleboard, MDF, and metal frame combinations across all four picks." },
-  { "title": "Warranty and Support", "description": "Checked for stated warranty coverage and customer support availability." }
+  {
+    "title": "Weight rating against real printers",
+    "description": "We compared listed capacities, 55 pounds on the HOOBRO and 120 pounds on the Gewudraw, with typical printer weights. A compact inkjet runs about 5 to 10 kilograms and a multifunction laser can reach 20 kilograms, so at under $20 we checked whether the rating clears a laser's roughly 44 pounds."
+  },
+  {
+    "title": "Footprint and fit",
+    "description": "We read the listed sizes, such as 15.7 by 11.8 inches on the HOOBRO and 16.5 by 11.4 on the VYUOL, against common desktop printer footprints. A stand narrower than the printer's feet is unstable, so we treated a match to the printer's base as a hard requirement."
+  },
+  {
+    "title": "Frame and stability",
+    "description": "We looked at frame materials: particleboard on metal, MDF with a thickened frame on the Gewudraw and X-shape iron support on the VYUOL. Printers vibrate while printing, and manufacturers warn against shaky stands, so non-slip pads and cross bracing scored higher."
+  },
+  {
+    "title": "Mobility and warranty",
+    "description": "We noted the Asgolion four swivel casters with two locks against the fixed bases of the others, and the Gewudraw 12-month replacement warranty. A rolling stand is handy but must lock for printing, so the locking casters counted. For a stand that sits under a desk, we also checked the listed height against a standard desk's clearance."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The highest weight capacity at the lowest price", "HOOBRO Printer Stand for Desk, 2-Tier Desktop Printer Shelf"],
-        ["Rolling mobility to reposition your setup", "Asgolion Printer Table, 2-Tier Under Desk Printer Stand"],
-        ["The highest weight capacity with warranty backing", "Gewudraw Printer Stand, Printer Table for Home Office"],
-        ["Reinforced bracing and a document-catching mesh", "VYUOL Printer Stand for Desk"]
+    "subheading": "By Printer Weight",
+    "intro": "The weight rating is the first filter.",
+    "table": {
+      "headers": [
+        "Your printer",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A heavy multifunction laser near 20 kilograms",
+          "Gewudraw Printer Stand, listed at 120 pounds"
+        ],
+        [
+          "A compact inkjet or photo printer under about 20 pounds",
+          "HOOBRO Printer Stand for Desk 2-Tier Desktop Printer Shelf, rated 55 pounds"
+        ],
+        [
+          "An inkjet that must roll out for paper changes",
+          "Asgolion 2-Tier Under Desk Printer Stand, with four swivel casters"
+        ],
+        [
+          "A printer plus a scanner stacked on two tiers",
+          "VYUOL Printer Stand for Desk, with its X-shape iron support"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $20", "HOOBRO (under $20)"],
-        ["Under $22", "Asgolion (under $25)"],
-        ["Under $23", "Gewudraw (under $25)"],
-        ["Under $24", "VYUOL (under $25)"]
+    "subheading": "By Budget",
+    "intro": "Four stands span under $25 to $24.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $25, the lowest price",
+          "HOOBRO Printer Stand for Desk, a fixed base with non-slip pads"
+        ],
+        [
+          "Under $25",
+          "Asgolion, for casters and an under desk fit"
+        ],
+        [
+          "Under $25",
+          "Gewudraw, for the highest weight rating and a 12-month warranty"
+        ],
+        [
+          "Under $25",
+          "VYUOL Printer Stand for Desk, for the iron X-frame and mesh shelf"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Fixed Base vs Rolling Casters",
-    cards: [
-      { label: "Fixed base (HOOBRO, Gewudraw, VYUOL)", text: "Provides a stable, stationary platform without the added cost or complexity of caster wheels, better for a printer that stays in one spot." },
-      { label: "Rolling casters (Asgolion)", text: "Lets you reposition the stand easily between desk configurations or rooms, worth the tradeoff if your setup changes regularly." }
+    "subheading": "Fixed Base vs Rolling Casters",
+    "intro": "The tradeoff is stability against flexibility.",
+    "cards": [
+      {
+        "label": "Fixed base",
+        "text": "The HOOBRO Printer Stand for Desk, Gewudraw and VYUOL Printer Stand for Desk sit on a flat base, which is the steadiest for printing and cannot roll away."
+      },
+      {
+        "label": "Rolling casters",
+        "text": "The Asgolion rolls on four swivel casters, two with locks. It is easy to pull out for paper but only as steady as its locks."
+      }
     ],
-    note: "If your printer setup is permanent and won't move, a fixed-base pick like the HOOBRO saves a little money. If you rearrange your workspace often, the Asgolion's rolling casters add genuine convenience.",
+    "note": "Take a fixed base unless you move the printer regularly. If it rolls, lock the casters before printing."
   },
   {
-    subheading: "By Weight Capacity",
-    table: {
-      headers: ["Your printer weight", "Recommended pick"],
-      rows: [
-        ["Light printers under 55 lbs total load", "HOOBRO"],
-        ["Heavier printers or combined supplies up to 120 lbs", "Gewudraw"],
-        ["Unspecified capacity, standard home printers", "Asgolion or VYUOL"]
+    "subheading": "By Space",
+    "intro": "Measure under the desk and beside the printer.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A tight desk where the stand slides under",
+          "Asgolion, listed at 15 by 11 by 12.5 inches"
+        ],
+        [
+          "A wide printer base up to about 16 inches",
+          "VYUOL Printer Stand for Desk, at 16.5 inches wide"
+        ],
+        [
+          "A compact printer with room on a shelf above",
+          "HOOBRO Printer Stand for Desk, with a 2-tier shelf"
+        ],
+        [
+          "A thick but narrow 15.35 inch base",
+          "Gewudraw, whose 11 inch depth fits narrow desks"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Shared Home Office With Multiple Users Specifically",
-    cards: [
-      { label: "Look for", text: "Rolling casters with locking wheels, so the printer stand can be repositioned to accommodate different users' desk setups without needing to lift and carry it." },
-      { label: "In this comparison", text: "The Asgolion pick's four swivel casters with 2 locking wheels specifically support easy repositioning for a shared or frequently rearranged office space." }
-    ],
+    "subheading": "For a Dorm or Small Desk Specifically",
+    "intro": "In a small room, a stand is also a storage shelf.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A footprint under 16 inches wide, 11 to 12 inches high clearance for the printer and a lower shelf for paper."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HOOBRO Printer Stand for Desk lists a 2-tier design at 15.7 by 11.8 by 11.8 inches and Gewudraw lists 15.35 by 11.02 by 11.88 inches, which fit a compact desk."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the highest stated weight capacity with warranty backing, where the Gewudraw pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You just need a basic fixed stand for a lightweight printer, where the HOOBRO pick covers that for about $3 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $30 guide adds drawers and cable management.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a drawer or a third tier. The under $30 guide covers the VYUOL fabric drawer model and the HUANUO."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need a shelf for an inkjet. HOOBRO Printer Stand for Desk is the lowest price here."
+      }
+    ]
   }
 ];
 
@@ -183,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the fixed-base picks in this tier be used with rolling casters added separately?", "a": "It's possible to add aftermarket casters to a fixed-base stand, but doing so isn't officially supported by the manufacturer and could affect the stand's stated weight capacity, so choosing a pick with built-in casters like the Asgolion is the more reliable option if mobility matters." },
-  { "q": "What's the most common mistake buyers make when choosing a printer stand under $20?", "a": "Not checking their printer's actual weight against a stand's stated capacity, or assuming an unstated capacity figure means the stand handles any printer safely, when a heavier all-in-one printer could exceed what a budget stand is actually built to support." },
-  { "q": "Is the Gewudraw pick worth it over the cheaper HOOBRO option?", "a": "If you specifically need the highest weight capacity or want warranty backing, yes, but if your printer is lightweight and you just want a basic, budget-friendly stand, the HOOBRO pick covers that for about $3 less." },
-  { "q": "How do I know if my printer will fit on the top shelf of these compact stands?", "a": "Measure your printer's footprint (width and depth) against the stated top shelf dimensions in each listing, since these compact stands range from about 15 to 16.5 inches wide, which fits most standard printers but not larger professional-grade models." },
-  { "q": "Do any of these printer stands require tools for assembly?", "a": "No, all four picks in this comparison are designed for tool-free or minimal-tool assembly with included hardware and step-by-step instructions, typically completable in 10 minutes or less." },
-  { "q": "Can these stands double as general storage shelves if I don't have a printer?", "a": "Yes, all four picks are explicitly marketed as multi-purpose organizers suitable for books, plants, kitchen items, or general storage beyond just printer use, making them versatile even without a dedicated printer to place on top." }
+  {
+    "q": "How much weight should a printer stand hold?",
+    "a": "Match the rating to your printer. A compact inkjet weighs about 5 to 10 kilograms, while a multifunction laser can reach 20 kilograms or more. The Gewudraw lists 120 pounds and the HOOBRO lists 55 pounds, so either clears an inkjet."
+  },
+  {
+    "q": "Does a printer stand need ventilation space?",
+    "a": "Yes. Manufacturers say not to block vents and suggest at least a couple of inches on each side. Keep the printer away from soft items and do not stack loose paper beside the vent. Leave a gap beside the printer so you can open the paper tray fully, and keep cords clear of the vents."
+  },
+  {
+    "q": "Is the Gewudraw worth it over the HOOBRO?",
+    "a": "If your printer is heavy, yes. The Gewudraw lists a 120 pound capacity and a 12-month replacement warranty. The HOOBRO lists 55 pounds, which is fine for an inkjet but close to the limit for a laser. A 120 pound rating also leaves headroom for paper reams on the lower shelf, which adds more weight than most people expect."
+  },
+  {
+    "q": "Can I put a printer on casters while it prints?",
+    "a": "Lock the casters first. The Asgolion lists four swivel casters with two locks. Vibration from printing can roll an unlocked stand, and listings often warn against rolling it loaded. Press the stand with your hand before loading the printer to confirm the locks hold."
+  },
+  {
+    "q": "How do I assemble a particleboard stand?",
+    "a": "Lay out the parts, tighten all screws only after the frame is square and check that the feet sit flat. Particleboard can chip if a screw is over-tightened. Use the supplied hardware and do not force parts."
+  },
+  {
+    "q": "How do I stop a printer from shaking on a stand?",
+    "a": "Use non-slip pads, keep the load centered and tighten the frame. The VYUOL lists X-shape iron support, which reduces sway. A wobbly stand shifts paper, so level it before use. Tighten the frame again after a week, since screws on particleboard can loosen as the stand settles."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

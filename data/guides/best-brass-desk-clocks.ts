@@ -103,116 +103,150 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Verified brass vs. brass-toned finish per listing", description: "We checked each product's described construction and flagged where confirmation of solid brass versus a brass-colored finish wasn't clear." },
-  { title: "Price against design substance", description: "We compared value from basic budget-tier metal clocks up to premium mantel-style pieces." },
-  { title: "Movement type and mechanism", description: "We noted where a clock uses a distinctive mechanism (like the auto-flip mooas pick) versus a standard dial." },
-  { title: "Review volume and rating together", description: "We weighted both metrics, since some budget options have far larger, more proven review histories than pricier alternatives." }
+  {
+    "title": "Solid brass or brass-toned finish",
+    "description": "Most listings say gold, golden, or brass-toned, not solid brass. We read each for what the body is made of: the Maxspace lists a metal body with a gold or brass-toned finish, and the rjuwurv lists a metal body. Real brass tarnishes unless lacquered, while plated finishes can wear through, so we told buyers what to expect."
+  },
+  {
+    "title": "Movement noise",
+    "description": "A desk clock sits near your ear, so we compared noise claims. The Maxspace is non-ticking and the QIYAODECO is listed as a silent movement, while the others do not state it. A ticking clock is distracting in a quiet office, so quiet movements counted as a major advantage."
+  },
+  {
+    "title": "Power and upkeep",
+    "description": "Every pick is battery operated, which means a quartz movement with minimal upkeep. Quartz is low-maintenance but harder to repair than a mechanical clock, so we treated these as clocks to replace, not heirlooms. We compared how clearly each listing states the battery type."
+  },
+  {
+    "title": "Size and desk footprint",
+    "description": "We compared the dimensions where given: the QIYAODECO is 8.3 by 9.1 inches, a mantel size that takes a lot of desk. A small desk wants a compact clock, so size was weighed against the visual presence that brass-style clocks are bought for. A mantel clock on a 24 inch deep desk can crowd the keyboard."
+  },
+  {
+    "title": "Alarm and special mechanisms",
+    "description": "The Maxspace and rjuwurv list alarm functions, while the mooas uses an auto-flip mechanism that changes numbers on flip cards. We counted flip and alarm features as practical extras, but noted that mechanical flips add noise and wear compared with a plain analog dial."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Movement Type",
+    "subheading": "By Desk Type",
+    "intro": "A clock should match the desk it sits on and how loud the room is.",
     "table": {
       "headers": [
-        "What you want",
-        "Recommended pick in this comparison"
+        "Your desk",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "A quiet, non-ticking movement",
-          "Maxspace Metal Golden Table Clock"
+          "A quiet home office where ticking is a distraction",
+          "Maxspace Metal Golden Table Clock, which is non-ticking"
         ],
         [
-          "A digital, fully silent display",
-          "HZDHCLH Vintage Table Clock Battery Operated"
+          "A shelf or large desk that can handle a mantel clock",
+          "QIYAODECO Vintage Table Clock, at 8.3 by 9.1 inches with a silent movement"
         ],
         [
-          "Maximum visual personality (flip or mechanical action)",
-          "mooas Flip Desk Clock (Black)"
+          "A bedside table that needs an alarm",
+          "rjuwurv Metal Desk Clock, a retro analog alarm clock"
+        ],
+        [
+          "A desk that wants a retro statement",
+          "mooas Flip Desk Clock, with an auto-flip mechanism"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "All five sit under $40.",
     "table": {
       "headers": [
-        "Price range",
+        "Price tier",
         "Recommended pick"
       ],
       "rows": [
         [
           "Under $10",
-          "rjuwurv Metal Desk Clock"
+          "rjuwurv, the cheapest metal desk clock"
         ],
         [
-          "Mid-range",
-          "HZDHCLH Vintage Table Clock Battery Operated"
+          "Under $20",
+          "Maxspace, with a non-ticking movement"
         ],
         [
-          "No firm budget ceiling, prioritizing material or brand",
-          "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in"
+          "Under $30",
+          "HZDHCLH Vintage Table Clock Battery Operated, a mantel-style clock"
+        ],
+        [
+          "Under $40",
+          "QIYAODECO or mooas, for a larger mantel clock or a flip clock"
         ]
       ]
     }
   },
   {
-    "subheading": "Battery-Powered vs Corded",
+    "subheading": "Plated Gold Finish vs Real Lacquered Brass",
+    "intro": "The labels use gold and brass loosely, so know what you are buying.",
     "cards": [
       {
-        "label": "Battery-Powered",
-        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: Maxspace Metal Golden Table Clock, HZDHCLH Vintage Table Clock Battery Operated, rjuwurv Metal Desk Clock."
+        "label": "Brass-toned or plated finish (these picks)",
+        "text": "Cheaper and sealed, but the thin finish can wear at the edges where hands touch. Wipe with a soft cloth and avoid polish."
       },
       {
-        "label": "Corded (Plug-In)",
-        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: none in this specific roundup, since most picks here are battery powered."
+        "label": "Solid brass",
+        "text": "Heavier and more expensive. Unlacquered brass tarnishes and needs polishing, while lacquered brass resists it until handling wears the lacquer."
       }
     ],
-    "note": "Most buyers should default to a battery-powered pick like rjuwurv Metal Desk Clock unless you specifically want the USB charging or dimmer features that typically come with corded models."
+    "note": "For a desk clock at this price, accept a plated finish and care for it gently."
   },
   {
-    "subheading": "By Purpose: Everyday Use vs Gift",
+    "subheading": "By Noise Tolerance",
+    "intro": "Quiet matters more on a desk than on a mantel.",
     "table": {
       "headers": [
-        "Your purpose",
+        "Your tolerance",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Everyday functional desk use",
-          "Maxspace Metal Golden Table Clock"
+          "No ticking at all",
+          "Maxspace, with a non-ticking movement"
         ],
         [
-          "A gift or milestone piece",
-          "mooas Flip Desk Clock (Black)"
+          "Silent but with a larger presence",
+          "QIYAODECO, with a silent movement"
+        ],
+        [
+          "You accept some mechanical sound",
+          "mooas, since a flip mechanism makes a soft click"
         ]
       ]
     }
   },
   {
-    "subheading": "For Buying as a Gift Specifically",
+    "subheading": "For a Home Office Desk Specifically",
+    "intro": "A desk clock should be quiet and readable.",
     "cards": [
       {
         "label": "Look for",
-        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+        "text": "A non-ticking movement, a dial you can read from your chair, and a size that does not crowd the keyboard."
       },
       {
         "label": "In this comparison",
-        "text": "mooas Flip Desk Clock (Black) fits this specifically: Distinctive flip mechanism, not just another traditional dial. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+        "text": "The Maxspace is quiet and compact, while the QIYAODECO is the largest and most decorative."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "A higher price buys size, not exotic materials.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in offers: Largest, most substantial piece in this comparison. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+        "text": "You want a larger mantel-style clock. The QIYAODECO costs the most among the analog picks."
       },
       {
         "label": "Save if",
-        "text": "rjuwurv Metal Desk Clock already covers the essentials: Cheapest option with a genuine metal body. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+        "text": "You want a small, quiet clock. The rjuwurv and Maxspace cost the least."
       }
     ]
   }
@@ -242,12 +276,30 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Are these solid brass or brass-colored?", a: "Verify the current listing for each product, most are metal with a brass-toned finish rather than confirmed solid brass construction." },
-  
-  { q: "What's the cheapest option?", a: "The rjuwurv Metal Desk Clock at under $10." },
-  { q: "Is there a non-traditional clock mechanism available?", a: "Yes, the mooas Flip Desk Clock uses an auto-flip display mechanism instead of a standard dial." },
-  { q: "How does this overlap with your gold desk clocks guide?", a: "Substantially, brass and gold finishes are visually similar and often made by the same manufacturers, so check both guides for the full range of options." },
-  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the most proven brass-toned clock at a reasonable price." }
+  {
+    "q": "Are these desk clocks real brass?",
+    "a": "Most are listed as gold or brass-toned metal, not solid brass. Solid brass is heavier and tarnishes unless lacquered. Check the listing for a material statement, and treat gold finish as plated unless it says otherwise. Weigh it in your hand; solid brass feels noticeably heavy for its size."
+  },
+  {
+    "q": "How do I stop a brass clock from tarnishing?",
+    "a": "Keep it away from humid air and handle it with clean hands. Lacquered brass should be washed with lukewarm soapy water and dried, not polished, because polish can remove the lacquer and expose the metal."
+  },
+  {
+    "q": "Is the Maxspace worth paying more than the rjuwurv?",
+    "a": "If you want a non-ticking movement and a gold finish. The Maxspace is quiet, and the rjuwurv costs less and offers an alarm. Choose by whether you tolerate the tick. The two are close in finish, so the deciding factor is noise."
+  },
+  {
+    "q": "How long will a battery last in a desk clock?",
+    "a": "A quartz movement can run for a year or more on one AA battery, but the listings in our data do not state a runtime. Replace the battery at the first sign of slowing, and remove it if you store the clock."
+  },
+  {
+    "q": "What is the difference between quartz and mechanical clocks?",
+    "a": "Quartz uses a battery and needs little care, while mechanical clocks need winding and service. All five picks here are battery operated, so you get low maintenance but a movement that is harder to repair."
+  },
+  {
+    "q": "How do I set up the mooas flip clock?",
+    "a": "Place it on a stable surface, insert the battery, and set the time with the knob or buttons. The flip mechanism clicks softly as the numbers turn, so it suits a desk better than a bedroom if you are a light sleeper."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

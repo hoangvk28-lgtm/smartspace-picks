@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Tilt Adjustability Range", "description": "Compared the number of distinct tilt angles or the total degree range each pick supports." },
-  { "title": "Weight Capacity", "description": "Compared stated weight capacity where specified across the lineup." },
-  { "title": "Surface Size", "description": "Compared stated surface dimensions and their fit for different laptop and tablet sizes." },
-  { "title": "Heat Management", "description": "Compared heat shield features designed to protect both the device and the user's lap." },
-  { "title": "Fold-Flat Portability", "description": "Compared folded dimensions and weight for storage and travel convenience." }
+  {
+    "title": "Adjustability",
+    "description": "We compared listed positions, 8 heights from 10 to 14.2 inches and 120 degrees of tilt on the SONGMICS, 3 angles of 23, 30 and 35 degrees on the AboveTEK, and 8 tilt positions on the HUANUO. Under $40 the ability to raise the screen is what separates a lap desk from a tray."
+  },
+  {
+    "title": "Stability under load",
+    "description": "We read the capacity and structure, including the SONGMICS 55 pound listing and its foldable legs. A bed table that wobbles under typing is unusable, so we gave credit to designs that list a weight rating and a locking angle. We also asked whether the angle locks in place, because a desk that creeps flat while you type is worse than no tilt at all."
+  },
+  {
+    "title": "Mouse and desk space",
+    "description": "We checked surface size, such as the 15.7 by 22 inch SONGMICS and the AboveTEK retractable mouse pad that extends in both directions. A mouse needs room beside the keyboard, or the user will hunch. A mouse on a cushion slides badly, so a stable second surface was a real plus for anyone working longer than an hour."
+  },
+  {
+    "title": "Heat and fold size",
+    "description": "We noted the AboveTEK heat shield and the way the SONGMICS folds to 2.5 inches thick and the AboveTEK folds to about 14.6 inches. Fold size matters in a dorm where storage is scarce. We also considered the HUANUO 30.5 ounce weight against the SONGMICS, since a lighter desk is easier to move from room to room."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The highest weight capacity and largest surface", "SONGMICS Bed Laptop Desk, Foldable, Adjustable Height"],
-        ["Purpose-tuned ergonomic viewing angles", "AboveTEK Adjustable Laptop Lap Desk, 3 Ergonomic Angles"],
-        ["A mouse pad usable by either hand", "AboveTEK Portable Laptop Lap Desk w/Retractable Mouse Pad Tray"],
-        ["The most tilt positions at the lowest price", "HUANUO Lap Desk with 8 Adjustable Angles"]
+    "subheading": "By Position",
+    "intro": "The big question is whether you sit in bed, on a sofa or at a table.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A bed table with adjustable height and a large surface",
+          "SONGMICS Bed Laptop Desk Foldable, Adjustable Height, 15.7 by 22 inches"
+        ],
+        [
+          "A fixed angle tuned for typing",
+          "AboveTEK Adjustable Lap Desk, with 23, 30 and 35 degree angles"
+        ],
+        [
+          "A mouse tray that slides out",
+          "AboveTEK Portable Lap Desk with Retractable Mouse Pad Tray"
+        ],
+        [
+          "The most tilt positions on a small platform",
+          "HUANUO Lap Desk with 8 Lap Desk with 8 Adjustable Angles"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $20", "HUANUO 8 Angles (under $20)"],
-        ["Under $26", "AboveTEK Retractable Mouse Pad (under $30)"],
-        ["Under $30", "AboveTEK 3 Ergonomic Angles (under $30)"],
-        ["Under $34", "SONGMICS Foldable (under $35)"]
+    "subheading": "By Laptop Size",
+    "intro": "Size limits are stated in the listing.",
+    "table": {
+      "headers": [
+        "Your laptop",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Large 15.6 to 17 inch laptop",
+          "SONGMICS Bed Laptop Desk, with a big surface"
+        ],
+        [
+          "15 inch laptop",
+          "AboveTEK Portable, which lists a 15 inch fit"
+        ],
+        [
+          "14 inch laptop with a mouse",
+          "AboveTEK Adjustable, with its mouse pad"
+        ],
+        [
+          "A tablet or small laptop",
+          "HUANUO Lap Desk with 8, with a 14.8 by 11 inch platform"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Fine-Grained Tilt Range vs Specific Ergonomic Angles",
-    cards: [
-      { label: "Fine-grained range (SONGMICS 120 degrees, HUANUO 8 positions)", text: "Offers more granular control to find your exact preferred angle through many small adjustment steps." },
-      { label: "Specific ergonomic angles (AboveTEK 3-angle)", text: "Offers fewer but purpose-tuned angles specifically selected to reduce strain, simpler to choose from." }
+    "subheading": "Fold-Flat Table vs Cushioned Platform",
+    "intro": "This decides how you carry and store the desk.",
+    "cards": [
+      {
+        "label": "Fold-flat table",
+        "text": "The SONGMICS Bed Laptop Desk and AboveTEK Adjustable fold flat on legs, which gives a stable table surface but not a cushion."
+      },
+      {
+        "label": "Cushioned platform",
+        "text": "The HUANUO Lap Desk with 8 uses two conforming cushions and a lip, which suits a lap or bed and is lighter at 30.5 ounces."
+      }
     ],
-    note: "If you like fine-tuning your exact preferred angle, the SONGMICS or HUANUO's wider range of positions offers more control. If you'd rather choose from a few pre-optimized angles, the AboveTEK 3-angle pick simplifies that decision.",
+    "note": "Choose a fold-flat table for bed use and a cushioned platform for sofa and lap use."
   },
   {
-    subheading: "By Surface Size Needs",
-    table: {
-      headers: ["Your device and material needs", "Recommended pick"],
-      rows: [
-        ["Laptop plus tablet or reading material together", "SONGMICS (15.7x22 in)"],
-        ["Standard laptop use with mouse pad", "Either AboveTEK pick"],
-        ["Compact laptop-only use", "HUANUO (14.8x11 in)"]
+    "subheading": "By Features",
+    "intro": "Small extras decide daily use.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A heat shield under a warm laptop",
+          "AboveTEK Adjustable"
+        ],
+        [
+          "A carry handle",
+          "HUANUO Lap Desk with 8, with an integrated handle"
+        ],
+        [
+          "Weight capacity for heavy setups",
+          "SONGMICS Bed Laptop Desk, which lists 55 pounds"
+        ],
+        [
+          "A small tray for a mouse",
+          "AboveTEK Portable, with 7.4 by 6.1 inch mouse pad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Left-Handed Mouse Users Specifically",
-    cards: [
-      { label: "Look for", text: "A retractable mouse pad tray that extends on both the left and right sides rather than one fixed side only." },
-      { label: "In this comparison", text: "The AboveTEK Retractable Mouse Pad pick is specifically designed to extend both directions for either-handed use." }
-    ],
+    "subheading": "For Bed Users Specifically",
+    "intro": "Bed use needs a stable table and a laptop that does not slide.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Folding legs, an anti-slip surface and a height range that clears your knees."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SONGMICS Bed Laptop Desk lists a height range of 10 to 14.2 inches and a 55 pound capacity, which suits a bed."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the highest weight capacity and largest surface with the widest adjustment range, where the SONGMICS pick leads this comparison on all three fronts." },
-      { label: "Save if", text: "You just want multiple tilt positions without extra features, where the HUANUO pick delivers 8 positions for under $20." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $50 guide adds drawers and cooling.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a cooling fan, USB ports or a drawer. The under $50 guide includes those."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need a tilt. HUANUO Lap Desk with 8 costs the least here."
+      }
+    ]
   }
 ];
 
@@ -183,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I use the SONGMICS pick's cup holder while the desk is tilted?", "a": "The listing specifically advises against using the phone/tablet slot or cup holder when the desk is tilted, since items may slip off at an angle, so keep the desk relatively flat when using those specific features." },
-  { "q": "What's the most common mistake buyers make when comparing tilt adjustability across lap desks?", "a": "Assuming a wider tilt range or more adjustment positions is always better without checking whether all features remain safely usable across that full range, since some accessories like cup holders may only work properly at flatter angles." },
-  { "q": "Is the SONGMICS pick worth it over the cheaper HUANUO pick?", "a": "If you need the highest weight capacity, largest surface area, and widest tilt range, yes, but if you just want multiple tilt positions at the lowest price without needing the largest surface, the HUANUO pick delivers solid adjustability for about $14 less." },
-  { "q": "Does the AboveTEK 3-angle pick work with heavier gaming laptops?", "a": "No, the listing specifically states it's not recommended for gaming laptops or heavier devices, so a standard business laptop up to 15.6 inches is the better fit for this specific pick." },
-  { "q": "How do I know if a retractable mouse pad will work for left-handed use?", "a": "Check whether the listing specifically states the mouse pad extends in one fixed direction or both directions, since the AboveTEK Retractable Mouse Pad pick specifically extends both left and right, while other single-direction designs may only accommodate right-handed use." },
-  { "q": "Can these adjustable lap desks be used on a completely flat surface like a table instead of a lap?", "a": "Yes, all four picks in this comparison function on any flat surface including a table or desk, though their portable, foldable designs and lap-focused cushioning are specifically optimized for use directly on your lap in bed, on a couch, or while traveling." }
+  {
+    "q": "Is a 120 degree tilt useful?",
+    "a": "It lets you set the screen close to eye level or lay it nearly flat for reading and drawing. The SONGMICS lists 120 degrees of tilt and 8 heights, so you can match it to your sitting position. For reading or drawing, a flat angle can be more comfortable, and the wide tilt range lets you switch."
+  },
+  {
+    "q": "Is the SONGMICS worth it over the AboveTEK?",
+    "a": "If you want a bigger surface and adjustable height, yes. The SONGMICS lists 15.7 by 22 inches and 55 pounds, while the AboveTEK lists 3 angles and a heat shield. The AboveTEK folds smaller. The AboveTEK also lists a retractable mouse pad and heat shield, which the SONGMICS does not."
+  },
+  {
+    "q": "Will a lap desk work for a left-handed mouse user?",
+    "a": "The AboveTEK mouse pad extends in both directions, which suits either hand. The SONGMICS is wide enough for a mouse on either side. The SONGMICS surface is wide enough to put a mouse on either side of the laptop without leaving the tray."
+  },
+  {
+    "q": "How do I fold the desk for storage?",
+    "a": "The SONGMICS folds to 2.5 inches and the AboveTEK folds to about 14.6 inches. Collapse the legs gently, keep fingers clear and store it flat. Check that the legs lock before loading the laptop, and fold on a flat surface so that the hinges do not pinch."
+  },
+  {
+    "q": "Does tilt help my neck?",
+    "a": "A tilt raises the screen, which reduces how far you look down. A study found a lap desk reduced head tilt by about 4 degrees. You may still need a separate stand if the screen is below eye level. Pair it with an external keyboard so the screen can stay high while your wrists stay low."
+  },
+  {
+    "q": "How heavy a laptop can they hold?",
+    "a": "Only the SONGMICS lists a capacity, 55 pounds, so check the others before loading a heavy gaming laptop. The HUANUO weighs 30.5 ounces and is not rated. If you plan to use a heavy gaming laptop, take the SONGMICS, since it is the only pick with a stated 55 pound limit."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

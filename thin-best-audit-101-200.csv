@@ -1,0 +1,101 @@
+stt,nhom,dong_san_pham,slug,muc_gia_usd,uu_tien,thin_score,van_de,url
+1,1,mini-fridges,best-mini-fridges-under-50,50,P2,30,"HWE 58c; BC 219c",https://www.deskfinds.com/guide/best-mini-fridges-under-50
+2,1,mini-fridges,best-mini-fridges-under-150,150,P2,32,"HWE 43c; BC 208c",https://www.deskfinds.com/guide/best-mini-fridges-under-150
+3,1,mini-fridges,best-mini-fridges-under-300,300,P2,33,"HWE 55c; BC 206c",https://www.deskfinds.com/guide/best-mini-fridges-under-300
+4,1,mini-fridges,best-mini-fridges-for-drinks,,P1,43,"HWE 58c; FAQ 6x101c; BC 169c",https://www.deskfinds.com/guide/best-mini-fridges-for-drinks
+5,1,mini-fridges,best-mini-fridges-for-skincare,,P3,23,"HWE 78c; BC 247c",https://www.deskfinds.com/guide/best-mini-fridges-for-skincare
+6,1,mini-fridges,best-mini-fridges-with-freezer,,P2,26,"HWE 82c; BC 299c",https://www.deskfinds.com/guide/best-mini-fridges-with-freezer
+7,2,surge-protectors,best-surge-protectors-under-15,15,P3,21,"HWE 85c",https://www.deskfinds.com/guide/best-surge-protectors-under-15
+8,2,surge-protectors,best-surge-protectors-under-20,20,P3,22,"HWE 82c",https://www.deskfinds.com/guide/best-surge-protectors-under-20
+9,2,surge-protectors,best-surge-protectors-under-40,40,P3,22,"HWE 83c",https://www.deskfinds.com/guide/best-surge-protectors-under-40
+10,2,surge-protectors,best-surge-protectors-under-50,50,P3,21,"HWE 79c",https://www.deskfinds.com/guide/best-surge-protectors-under-50
+11,3,lap-desks,best-lap-desks-under-20,20,P3,22,"HWE 85c",https://www.deskfinds.com/guide/best-lap-desks-under-20
+12,3,lap-desks,best-lap-desks-under-30,30,P3,21,"HWE 86c",https://www.deskfinds.com/guide/best-lap-desks-under-30
+13,3,lap-desks,best-lap-desks-under-40,40,P3,22,"HWE 80c",https://www.deskfinds.com/guide/best-lap-desks-under-40
+14,3,lap-desks,best-lap-desks-under-50,50,P3,20,"HWE 88c",https://www.deskfinds.com/guide/best-lap-desks-under-50
+15,4,thunderbolt-ssd-enclosures,best-thunderbolt-ssd-enclosures-under-50,50,P3,22,"HWE 74c",https://www.deskfinds.com/guide/best-thunderbolt-ssd-enclosures-under-50
+16,4,thunderbolt-ssd-enclosures,best-thunderbolt-ssd-enclosures-under-75,75,P3,21,"HWE 75c",https://www.deskfinds.com/guide/best-thunderbolt-ssd-enclosures-under-75
+17,4,thunderbolt-ssd-enclosures,best-thunderbolt-ssd-enclosures-under-100,100,P3,21,"HWE 79c",https://www.deskfinds.com/guide/best-thunderbolt-ssd-enclosures-under-100
+18,4,thunderbolt-ssd-enclosures,best-thunderbolt-ssd-enclosures-under-150,150,P3,21,"HWE 78c",https://www.deskfinds.com/guide/best-thunderbolt-ssd-enclosures-under-150
+19,5,printer-stands,best-printer-stands-under-20,20,P3,22,"HWE 78c",https://www.deskfinds.com/guide/best-printer-stands-under-20
+20,5,printer-stands,best-printer-stands-under-30,30,P3,22,"HWE 81c",https://www.deskfinds.com/guide/best-printer-stands-under-30
+21,5,printer-stands,best-printer-stands-under-50,50,P3,18,"HWE 89c",https://www.deskfinds.com/guide/best-printer-stands-under-50
+22,5,printer-stands,best-printer-stands-under-75,75,P3,20,"HWE 80c",https://www.deskfinds.com/guide/best-printer-stands-under-75
+23,6,speakerphones,best-speakerphones-under-50,50,P3,21,"HWE 81c",https://www.deskfinds.com/guide/best-speakerphones-under-50
+24,6,speakerphones,best-speakerphones-under-75,75,P3,20,"HWE 87c",https://www.deskfinds.com/guide/best-speakerphones-under-75
+25,6,speakerphones,best-speakerphones-under-100,100,P3,19,"HWE 88c",https://www.deskfinds.com/guide/best-speakerphones-under-100
+26,6,speakerphones,best-speakerphones-under-150,150,P3,20,"HWE 83c",https://www.deskfinds.com/guide/best-speakerphones-under-150
+27,7,dorm-gifts,best-dorm-gifts-under-15,15,P1,40,"HWE 58c; BC 223c",https://www.deskfinds.com/guide/best-dorm-gifts-under-15
+28,7,dorm-gifts,best-dorm-gifts-under-50,50,P1,35,"HWE 48c; BC 157c",https://www.deskfinds.com/guide/best-dorm-gifts-under-50
+29,7,dorm-gifts,best-dorm-gifts-for-college-students,,P2,29,"HWE 86c; BC 228c",https://www.deskfinds.com/guide/best-dorm-gifts-for-college-students
+30,7,dorm-gifts,best-dorm-gifts-for-girls,,P2,31,"HWE 87c; BC 234c",https://www.deskfinds.com/guide/best-dorm-gifts-for-girls
+31,7,dorm-gifts,best-dorm-gifts-for-guys,,P2,30,"HWE 79c; BC 218c",https://www.deskfinds.com/guide/best-dorm-gifts-for-guys
+32,8,vertical-mice,best-vertical-mice-under-20,20,P3,23,"HWE 77c",https://www.deskfinds.com/guide/best-vertical-mice-under-20
+33,8,vertical-mice,best-vertical-mice-under-30,30,P3,23,"HWE 82c",https://www.deskfinds.com/guide/best-vertical-mice-under-30
+34,8,vertical-mice,best-vertical-mice-under-75,75,P3,20,"HWE 89c",https://www.deskfinds.com/guide/best-vertical-mice-under-75
+35,9,desk-pegboards,best-desk-pegboards-under-20,20,P3,23,"HWE 80c",https://www.deskfinds.com/guide/best-desk-pegboards-under-20
+36,9,desk-pegboards,best-desk-pegboards-under-50,50,P3,21,"HWE 83c",https://www.deskfinds.com/guide/best-desk-pegboards-under-50
+37,9,desk-pegboards,best-desk-pegboards-under-60,60,P3,19,"HWE 87c",https://www.deskfinds.com/guide/best-desk-pegboards-under-60
+38,10,heated-blankets,best-heated-blankets-under-30,30,P2,28,"HWE 79c; BC 272c",https://www.deskfinds.com/guide/best-heated-blankets-under-30
+39,10,heated-blankets,best-heated-blankets-under-100,100,P1,36,"HWE 58c; BC 207c",https://www.deskfinds.com/guide/best-heated-blankets-under-100
+40,10,heated-blankets,best-heated-blankets-for-office,,P2,30,"HWE 75c; BC 208c",https://www.deskfinds.com/guide/best-heated-blankets-for-office
+41,10,heated-blankets,best-heated-blankets-with-foot-pockets,,P3,18,"HWE 88c; BC 285c",https://www.deskfinds.com/guide/best-heated-blankets-with-foot-pockets
+42,11,filing-cabinets,best-filing-cabinets-under-50,50,P3,20,"HWE 89c",https://www.deskfinds.com/guide/best-filing-cabinets-under-50
+43,11,filing-cabinets,best-filing-cabinets-under-100,100,P3,20,"HWE 85c",https://www.deskfinds.com/guide/best-filing-cabinets-under-100
+44,11,filing-cabinets,best-filing-cabinets-under-150,150,P3,22,"HWE 77c",https://www.deskfinds.com/guide/best-filing-cabinets-under-150
+45,12,mini-pc-mounts,best-mini-pc-mounts-under-20,20,P3,21,"HWE 85c",https://www.deskfinds.com/guide/best-mini-pc-mounts-under-20
+46,12,mini-pc-mounts,best-mini-pc-mounts-under-30,30,P3,20,"HWE 89c",https://www.deskfinds.com/guide/best-mini-pc-mounts-under-30
+47,12,mini-pc-mounts,best-mini-pc-mounts-under-50,50,P3,21,"HWE 87c",https://www.deskfinds.com/guide/best-mini-pc-mounts-under-50
+48,13,digital-calendars,best-digital-calendars-under-50,50,P3,20,"HWE 78c",https://www.deskfinds.com/guide/best-digital-calendars-under-50
+49,13,digital-calendars,best-digital-calendars-under-75,75,P3,20,"HWE 81c",https://www.deskfinds.com/guide/best-digital-calendars-under-75
+50,13,digital-calendars,best-digital-calendars-under-150,150,P3,20,"HWE 76c",https://www.deskfinds.com/guide/best-digital-calendars-under-150
+51,14,murphy-beds,best-murphy-beds-under-500,500,P3,20,"HWE 86c",https://www.deskfinds.com/guide/best-murphy-beds-under-500
+52,14,murphy-beds,best-murphy-beds-under-800,800,P3,20,"HWE 81c",https://www.deskfinds.com/guide/best-murphy-beds-under-800
+53,14,murphy-beds,best-murphy-beds-under-1000,1000,P3,20,"HWE 79c",https://www.deskfinds.com/guide/best-murphy-beds-under-1000
+54,15,usb4-dock,best-usb4-dock-for-4k-120hz,,P3,20,"HWE 83c",https://www.deskfinds.com/guide/best-usb4-dock-for-4k-120hz
+55,15,usb4-dock,best-usb4-dock-for-dual-monitors,,P3,22,"HWE 74c",https://www.deskfinds.com/guide/best-usb4-dock-for-dual-monitors
+56,15,usb4-dock,best-usb4-dock-for-gaming-handhelds,,P3,22,"HWE 76c",https://www.deskfinds.com/guide/best-usb4-dock-for-gaming-handhelds
+57,15,usb4-dock,best-usb4-dock-for-mac,,P3,20,"HWE 83c",https://www.deskfinds.com/guide/best-usb4-dock-for-mac
+58,15,usb4-dock,best-usb4-dock-for-surface,,P3,20,"HWE 81c",https://www.deskfinds.com/guide/best-usb4-dock-for-surface
+59,15,usb4-dock,best-usb4-dock-with-10gbe,,P3,22,"HWE 76c",https://www.deskfinds.com/guide/best-usb4-dock-with-10gbe
+60,15,usb4-dock,best-usb4-dock-with-2-5gbe,,P3,20,"HWE 82c",https://www.deskfinds.com/guide/best-usb4-dock-with-2-5gbe
+61,15,usb4-dock,best-usb4-dock-with-displayport,,P3,20,"HWE 79c",https://www.deskfinds.com/guide/best-usb4-dock-with-displayport
+62,15,usb4-dock,best-usb4-dock-with-dual-hdmi,,P3,22,"HWE 76c",https://www.deskfinds.com/guide/best-usb4-dock-with-dual-hdmi
+63,15,usb4-dock,best-usb4-dock-with-nvme,,P3,21,"HWE 79c",https://www.deskfinds.com/guide/best-usb4-dock-with-nvme
+64,15,usb4-dock,best-usb4-dock,,P3,23,"HWE 75c",https://www.deskfinds.com/guide/best-usb4-dock
+65,16,flat-walking-pads,best-flat-walking-pads,,P1,50,"HWE 42c; FAQ 5x92c; BC 162c",https://www.deskfinds.com/guide/best-flat-walking-pads
+66,17,foot-warmers,best-foot-warmers-under-50,50,P3,21,"HWE 87c; BC 261c",https://www.deskfinds.com/guide/best-foot-warmers-under-50
+67,17,foot-warmers,best-foot-warmers-for-bed,,P2,28,"HWE 79c; BC 232c",https://www.deskfinds.com/guide/best-foot-warmers-for-bed
+68,17,foot-warmers,best-foot-warmers-for-neuropathy,,P2,33,"HWE 65c; BC 230c",https://www.deskfinds.com/guide/best-foot-warmers-for-neuropathy
+69,17,foot-warmers,best-foot-warmers-for-office,,P2,30,"HWE 81c; BC 215c",https://www.deskfinds.com/guide/best-foot-warmers-for-office
+70,17,foot-warmers,best-foot-warmers-with-auto-shut-off,,P2,28,"HWE 55c; BC 219c",https://www.deskfinds.com/guide/best-foot-warmers-with-auto-shut-off
+71,18,memory-foam-foot-rests,best-memory-foam-foot-rests,,P1,47,"HWE 37c; BC 192c",https://www.deskfinds.com/guide/best-memory-foam-foot-rests
+72,19,large-foot-rests,best-large-foot-rests,,P1,46,"HWE 32c; BC 201c",https://www.deskfinds.com/guide/best-large-foot-rests
+73,20,luxury-desk-gifts,best-luxury-desk-gifts,,P1,46,"HWE 58c; FAQ 6x83c; BC 162c",https://www.deskfinds.com/guide/best-luxury-desk-gifts
+74,21,trackball-keyboard-combos,best-trackball-keyboard-combos,,P1,46,"HWE 52c; FAQ 6x63c; BC 145c",https://www.deskfinds.com/guide/best-trackball-keyboard-combos
+75,22,wired-trackball-mice,best-wired-trackball-mice,,P1,45,"HWE 55c; FAQ 6x62c; BC 215c",https://www.deskfinds.com/guide/best-wired-trackball-mice
+76,23,desktop-whiteboards,best-desktop-whiteboards-for-home-offices,,P1,38,"FAQ 6x79c; BC 113c",https://www.deskfinds.com/guide/best-desktop-whiteboards-for-home-offices
+77,23,desktop-whiteboards,best-desktop-whiteboards-for-meetings,,P1,37,"FAQ 6x93c; BC 101c",https://www.deskfinds.com/guide/best-desktop-whiteboards-for-meetings
+78,23,desktop-whiteboards,best-desktop-whiteboards-for-students,,P1,39,"FAQ 6x90c; BC 120c",https://www.deskfinds.com/guide/best-desktop-whiteboards-for-students
+79,24,microwaves,best-microwaves-under-150,150,P2,34,"HWE 48c; BC 194c",https://www.deskfinds.com/guide/best-microwaves-under-150
+80,25,laptop-charging-carts,best-laptop-charging-carts-under-300,300,P3,21,"HWE 88c",https://www.deskfinds.com/guide/best-laptop-charging-carts-under-300
+81,25,laptop-charging-carts,best-laptop-charging-carts-under-500,500,P3,20,"HWE 82c",https://www.deskfinds.com/guide/best-laptop-charging-carts-under-500
+82,26,power-strips,best-power-strips-under-30,30,P3,20,"HWE 88c",https://www.deskfinds.com/guide/best-power-strips-under-30
+83,26,power-strips,best-power-strips-under-50,50,P3,20,"HWE 88c",https://www.deskfinds.com/guide/best-power-strips-under-50
+84,27,retro-mini-fridges,best-retro-mini-fridges,,P1,43,"HWE 55c; FAQ 6x99c; BC 193c",https://www.deskfinds.com/guide/best-retro-mini-fridges
+85,28,quiet-trackball-mice,best-quiet-trackball-mice,,P1,41,"HWE 60c; FAQ 6x78c; BC 211c",https://www.deskfinds.com/guide/best-quiet-trackball-mice
+86,29,tilting-foot-rests,best-tilting-foot-rests,,P1,41,"HWE 50c; BC 185c",https://www.deskfinds.com/guide/best-tilting-foot-rests
+87,30,under-desk-foot-hammocks,best-under-desk-foot-hammocks,,P1,41,"HWE 28c; BC 144c",https://www.deskfinds.com/guide/best-under-desk-foot-hammocks
+88,31,cozy-dorm-gifts,best-cozy-dorm-gifts,,P1,40,"HWE 71c; BC 172c",https://www.deskfinds.com/guide/best-cozy-dorm-gifts
+89,32,foldable-walking-pads,best-foldable-walking-pads,,P1,40,"HWE 54c; BC 207c",https://www.deskfinds.com/guide/best-foldable-walking-pads
+90,33,portable-foot-rests,best-portable-foot-rests,,P1,40,"HWE 20c; HTC 1883c; BC 273c",https://www.deskfinds.com/guide/best-portable-foot-rests
+91,34,under-desk-footrests,best-under-desk-footrests-under-30,30,P2,30,"FAQ 6x89c",https://www.deskfinds.com/guide/best-under-desk-footrests-under-30
+92,35,desktop-whiteboard-pads,best-desktop-whiteboard-pads,,P1,39,"FAQ 5x97c; BC 99c",https://www.deskfinds.com/guide/best-desktop-whiteboard-pads
+93,36,ergonomic-foot-rests,best-ergonomic-foot-rests,,P1,39,"HWE 53c; BC 228c",https://www.deskfinds.com/guide/best-ergonomic-foot-rests
+94,37,gaming-foot-rests,best-gaming-foot-rests,,P1,38,"HWE 23c; BC 295c",https://www.deskfinds.com/guide/best-gaming-foot-rests
+95,38,16-inch-lcd-writing-tablets,best-16-inch-lcd-writing-tablets,,P1,37,"FAQ 4x109c",https://www.deskfinds.com/guide/best-16-inch-lcd-writing-tablets
+96,39,secret-santa-desk-gifts,best-secret-santa-desk-gifts,,P1,37,"HWE 53c; BC 146c",https://www.deskfinds.com/guide/best-secret-santa-desk-gifts
+97,40,freestanding-desktop-whiteboards,best-freestanding-desktop-whiteboards,,P1,35,"FAQ 5x87c",https://www.deskfinds.com/guide/best-freestanding-desktop-whiteboards
+98,41,touchscreen-portable-monitors,best-touchscreen-portable-monitors,,P1,35,"FAQ 4x108c",https://www.deskfinds.com/guide/best-touchscreen-portable-monitors
+99,42,compact-desktop-whiteboards,best-compact-desktop-whiteboards,,P2,34,"FAQ 6x104c; BC 107c",https://www.deskfinds.com/guide/best-compact-desktop-whiteboards
+100,43,glass-electric-kettles,best-glass-electric-kettles,,P2,34,"HWE 63c; BC 208c",https://www.deskfinds.com/guide/best-glass-electric-kettles

@@ -84,70 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real Output Wattage and Voltage", "description": "Compared documented power delivery relevant to different IP camera power draws." },
-  { "title": "Connector Compatibility Documentation", "description": "Compared how clearly each listing discloses DC connector size and any device-specific compatibility warnings." },
-  { "title": "Speed Support", "description": "Compared 100Mbps, Gigabit, and 2.5Gbps speed options relevant to camera resolution." },
-  { "title": "Electrical Protection", "description": "Compared isolation voltage and other named safety features." },
-  { "title": "Multi-Voltage Flexibility", "description": "Compared fixed-voltage splitters against switchable multi-voltage designs." }
+  {
+    "title": "Camera voltage and current fit",
+    "description": "We matched each splitter's output against typical camera needs, since most IP cameras expect 12V and a small number expect 5V or 24V. The LINOVISION switchable 5V, 9V, 12V and 24V output stood out because one splitter covers all of them. Check the camera's power brick label before ordering."
+  },
+  {
+    "title": "Link speed for modern cameras",
+    "description": "We compared the Ethernet speed each splitter passes. The REVODATA 2.5G unit handles 4K feeds with headroom, while the two 5V picks cap at 10/100Mbps, which suits small smart home cameras but limits higher resolution video. A 4K camera on a 100Mbps splitter will drop frames."
+  },
+  {
+    "title": "802.3bt and 802.3af source rules",
+    "description": "We read which PoE source each unit needs. REVODATA reaches its 36W only from an 802.3bt source, and LINOVISION rejects passive injectors, so we flagged those cases for buyers using a basic af switch. Check what your switch actually outputs, not what the box says."
+  },
+  {
+    "title": "Connector and plug compatibility",
+    "description": "We checked DC plug sizes, since 5.5x2.1mm and 5.5x2.5mm are both common. The 5V dual-plug unit supports both, while DSLRKIT supports only 2.1mm and warns about 12V devices, which prevents mistaken purchases. A mismatched plug means a return, so measure the barrel."
+  },
+  {
+    "title": "Environmental rating and protection",
+    "description": "We weighed isolation, surge and temperature data, such as DSLRKIT's 2.5KV isolation and LINOVISION's operating range from -40F to 167F. Outdoor cameras live in heat and cold, so a listed range matters. Cold climates make this line the one to check first."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["High bandwidth and power for a 4K camera", "REVODATA 2.5G 36W PoE Splitter"],
-        ["Multiple voltage options for a PTZ camera with accessories", "LINOVISION Industrial Gigabit PoE++ Splitter"],
-        ["Dual connector compatibility without guessing your camera's size", "PoE Splitter 5V2.5A Output, Dual DC Plug Compatible"],
-        ["The lowest price for a confirmed 5.5x2.1mm 5V camera", "DSLRKIT DC 5V 2.4A Active PoE Splitter"]
+    "subheading": "By Camera Voltage",
+    "intro": "Reading the label on the camera's power brick saves a return.",
+    "table": {
+      "headers": [
+        "Your camera needs",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "12V at up to 3A for a high-power camera",
+          "REVODATA 2.5G 36W PoE Splitter, which needs an 802.3bt source for the full 36W"
+        ],
+        [
+          "Mixed cameras at 5V, 9V, 12V and 24V across one site",
+          "LINOVISION Industrial Gigabit PoE++ Splitter, with a switchable output"
+        ],
+        [
+          "A 5V camera or smart home device with either plug size",
+          "PoE Splitter 5V2.5A Output, Dual DC Plug Compatible, with 5.5x2.5mm and 5.5x2.1mm plugs"
+        ],
+        [
+          "A 5V camera with a 5.5x2.1mm plug only",
+          "DSLRKIT DC 5V 2.4A Active PoE Splitter, which is not compatible with 12V devices"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $11", "DSLRKIT DC 5V 2.4A (under $15)"],
-        ["Under $14", "PoE Splitter 5V2.5A Dual Plug (under $15)"],
-        ["Under $19", "REVODATA 2.5G 36W Splitter (under $20)"],
-        ["Under $79", "LINOVISION Industrial PoE++ Splitter (under $80)"]
+    "subheading": "By Budget",
+    "intro": "Camera splitters range from a few dollars to an industrial price tier.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup, under $15",
+          "DSLRKIT DC 5V 2.4A Active PoE Splitter, for smart home cameras"
+        ],
+        [
+          "A step up for a slightly higher 2.5A rating",
+          "PoE Splitter 5V2.5A Output, Dual DC Plug Compatible, the value pick"
+        ],
+        [
+          "A mid-range spend for 2.5Gbps and 36W",
+          "REVODATA 2.5G 36W PoE Splitter, which is the best overall"
+        ],
+        [
+          "The highest price tier for a multi-voltage PoE++ unit",
+          "LINOVISION Industrial Gigabit PoE++ Splitter, priced significantly above the rest"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Fixed Connector vs Dual-Compatible Connector",
-    cards: [
-      { label: "Fixed connector (DSLRKIT)", text: "Works only with a specific 5.5x2.1mm connector size, requiring you to confirm your exact camera's connector before buying." },
-      { label: "Dual-compatible connector (PoE Splitter 5V2.5A)", text: "Fits both 5.5x2.5mm and 5.5x2.1mm sizes, removing the guesswork if you're unsure which exact size your camera uses." }
+    "subheading": "100Mbps vs 2.5Gbps Camera Links",
+    "intro": "Link speed only matters when the video bitrate demands it.",
+    "cards": [
+      {
+        "label": "100Mbps (DSLRKIT, 5V2.5A)",
+        "text": "A 1080p or 2K camera streaming moderate bitrates fits comfortably. These two units are cheaper and cover small indoor cameras, but they limit 4K video."
+      },
+      {
+        "label": "Gigabit or 2.5Gbps (REVODATA, LINOVISION)",
+        "text": "REVODATA's 2.5Gbps and LINOVISION's Gigabit link carry high-bitrate 4K streams and leave room for future upgrades, but you must supply an appropriate PoE source."
+      }
     ],
-    note: "If you've already confirmed your camera's exact DC connector size, the fixed-connector DSLRKIT pick's lower price is a fine choice. If you're unsure or buying for a camera you haven't measured yet, the dual-compatible pick removes that risk.",
+    "note": "Choose 100Mbps for budget indoor cameras and Gigabit or better for any 4K camera."
   },
   {
-    subheading: "By Camera Power Requirement",
-    table: {
-      headers: ["Your camera's power need", "Recommended pick"],
-      rows: [
-        ["Standard 5V IP camera", "PoE Splitter 5V2.5A or DSLRKIT DC 5V 2.4A"],
-        ["High-power 4K camera needing 12V/3A", "REVODATA 2.5G 36W PoE Splitter"],
-        ["PTZ camera with wiper or IR accessories", "LINOVISION Industrial Gigabit PoE++ Splitter"]
+    "subheading": "By PoE Source",
+    "intro": "The splitter only works if the switch or injector can supply its input.",
+    "table": {
+      "headers": [
+        "Your source",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A standard 802.3af switch",
+          "DSLRKIT DC 5V 2.4A Active PoE Splitter, which is 802.3af compliant"
+        ],
+        [
+          "An 802.3af or 802.3at switch with 5V cameras",
+          "PoE Splitter 5V2.5A Output, Dual DC Plug Compatible, rated for af and at"
+        ],
+        [
+          "An 802.3bt switch or injector",
+          "REVODATA 2.5G 36W PoE Splitter, which needs bt for its full 36W"
+        ],
+        [
+          "A 90W 802.3bt PoE++ switch feeding several devices",
+          "LINOVISION Industrial Gigabit PoE++ Splitter, which takes a 90W input and shares 72W"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Popular Smart Home Camera Bridge Specifically",
-    cards: [
-      { label: "Look for", text: "Explicit hardware revision compatibility warnings, since manufacturers sometimes change connector sizes between hardware versions of the same product line without renaming it." },
-      { label: "In this comparison", text: "The DSLRKIT pick specifically warns about a Philips Bridge hardware revision changing DC socket size, a genuinely useful heads-up before assuming compatibility with your specific unit." }
-    ],
+    "subheading": "For Outdoor and Industrial Cameras Specifically",
+    "intro": "Weather and temperature will test a splitter more than any spec on the box.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A listed operating temperature range, a rugged mount and surge or isolation protection suited to long cable runs."
+      },
+      {
+        "label": "In this comparison",
+        "text": "LINOVISION Industrial Gigabit PoE++ Splitter lists -40F to 167F operation and DIN-rail mounting, and REVODATA lists isolation, short-circuit and overvoltage protection."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You're powering a PTZ camera with accessories needing different voltage options, where the LINOVISION pick's under $80 price is justified by its switchable multi-voltage design." },
-      { label: "Save if", text: "You've confirmed your exact camera's connector size and voltage need, where the DSLRKIT pick delivers that for under $15, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Spend more only when the camera or the site justifies it.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You run several camera types or a bt power budget, where LINOVISION Industrial Gigabit PoE++ Splitter at a significantly higher price covers four voltages."
+      },
+      {
+        "label": "Save if",
+        "text": "You power one small 5V indoor camera, where DSLRKIT DC 5V 2.4A under $15 is enough."
+      }
+    ]
   }
 ];
 

@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Mounting Requirements", "description": "Distinguished wall-mounted gas-strut or spring designs from freestanding rotating mechanisms." },
-  { "title": "Weight Capacity", "description": "Compared stated weight limits ranging from 400 to 1000 lbs across the lineup." },
-  { "title": "Integrated Storage and Lighting", "description": "Checked for built-in shelving, hanging storage, and LED lighting features." },
-  { "title": "Comfort Features", "description": "Compared headboard inclusion and mattress thickness compatibility across all four picks." },
-  { "title": "Shipping and Assembly Complexity", "description": "Checked package count and stated assembly requirements across the tier." }
+  {
+    "title": "Mattress thickness and weight limits",
+    "description": "We compared mattress rules, with the Merax limited to 4 to 6 inch mattresses, the Squireewo taking 8 to 12 inches at 59 to 110 lbs, and the LIVAUVEAD holding up to 12 inches. Thickness is the most common deal-breaker, because a mattress that is too thick will not let the bed close. A twin like the Merax is the only one that needs a thin mattress."
+  },
+  {
+    "title": "Mounting requirement",
+    "description": "We separated mounted beds from the Mjkone's no-mount design, which rotates 180 degrees and moves after unfolding. Wall mounting needs studs and a load-bearing wall, so a freestanding bed changes who can buy it, including renters. The Squireewo also requires solid concrete, load-bearing or standard stud walls."
+  },
+  {
+    "title": "Stated weight capacity",
+    "description": "We compared capacities, from the Merax's 400 lb to the 1000 lb on the Squireewo and Mjkone, and the hydraulic rods on the LIVAUVEAD. The listing figures include the mattress, so the real person margin is smaller than the headline. The Mjkone gives the most weight for the least wall work."
+  },
+  {
+    "title": "Storage and extras",
+    "description": "We counted built-ins, including the Merax's 5-tier shelves and hanging storage, the Squireewo's dimmable LED strips and 1500N gas struts, and the LIVAUVEAD's built-in headboard. Storage that is useful beats lighting that looks good. Overhead cabinets also add height, so check ceiling clearance."
+  },
+  {
+    "title": "Assembly and delivery",
+    "description": "We noted that the Squireewo ships in 2 boxes that may arrive separately and the Merax measures 102.6 x 89.5 inches as a finished cabinet. Delivery splits and a large footprint are part of the cost of choosing a bed like this. Unpack and check every box before you start."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,62 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The most comprehensive integrated storage wall", "Merax Twin Murphy Bed with 5-Tier Shelves and Overhead Cabinets"],
-        ["Integrated dimmable LED lighting at queen size", "Squireewo Queen Size Murphy Bed with LED Light"],
-        ["A no-wall-mount option for a rental", "Mjkone Queen Size Wall Murphy Bed with Storage Shelf"],
-        ["Headboard comfort at the lowest price", "LIVAUVEAD Murphy Bed Full with Headboard"]
+    "subheading": "By Mattress",
+    "intro": "Mattress compatibility is the first thing to check.",
+    "table": {
+      "headers": [
+        "Your mattress",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A thin foam mattress, 4 to 6 inches",
+          "Merax Twin Murphy Bed with 5-Tier Shelves and Overhead Cabinets"
+        ],
+        [
+          "A standard 8 to 12 inch queen mattress",
+          "Squireewo Queen Size Murphy Bed with LED Light, fits 59 to 110 lbs"
+        ],
+        [
+          "A thick full mattress up to 12 inches",
+          "LIVAUVEAD Murphy Bed Full with Headboard, holds up to 12 inches"
+        ],
+        [
+          "A queen you already own and want to keep",
+          "Mjkone Queen Size Wall Murphy Bed with Storage Shelf, 1000 lb capacity"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $530", "LIVAUVEAD (under $550)"],
-        ["Under $580", "Mjkone (under $600)"],
-        ["Under $650", "Squireewo (under $650)"],
-        ["Under $800", "Merax (under $800)"]
+    "subheading": "By Budget",
+    "intro": "Under $800 buys either storage or sleeping comfort.",
+    "table": {
+      "headers": [
+        "Budget position",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest price among the four",
+          "LIVAUVEAD Murphy Bed Full with Headboard"
+        ],
+        [
+          "Mid for a twin with storage",
+          "Merax Twin Murphy Bed with 5-Tier Shelves"
+        ],
+        [
+          "Mid to upper for a freestanding queen",
+          "Mjkone Queen Size Wall Murphy Bed with Storage Shelf"
+        ],
+        [
+          "Top of the range for LED lighting and gas struts",
+          "Squireewo Queen Size Murphy Bed with LED Light"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Wall-Mounted vs Freestanding Rotating Design",
-    cards: [
-      { label: "Wall-mounted (LIVAUVEAD, Squireewo, Merax)", text: "Requires anchoring into a load-bearing or stud wall, typically offering higher weight capacity and more integrated features in exchange for a permanent installation." },
-      { label: "Freestanding rotating (Mjkone)", text: "Skips wall mounting entirely via a 180-degree rotation mechanism, ideal for renters or anyone who can't or doesn't want to drill into walls." }
+    "subheading": "Wall Mounted vs Freestanding",
+    "intro": "Whether it needs studs changes who can buy it.",
+    "cards": [
+      {
+        "label": "Wall mounted: Merax, Squireewo, LIVAUVEAD",
+        "text": "Anchors to studs or a load-bearing wall for stability. The Squireewo needs solid concrete, load-bearing or standard stud walls."
+      },
+      {
+        "label": "Freestanding: Mjkone",
+        "text": "Rotates 180 degrees and needs no wall mount, which is good for renters. It can shift if the floor is not stable."
+      }
     ],
-    note: "If you're renting or want the flexibility to relocate the bed later without wall damage, the Mjkone's freestanding design is the clear choice. If you own your home and want maximum integrated features, the wall-mounted picks offer more storage and lighting options.",
+    "note": "Renters should take the Mjkone, and owners with a good stud wall can pick any of the others."
   },
   {
-    subheading: "By Storage Type Needed",
-    table: {
-      headers: ["Your storage priority", "Recommended pick"],
-      rows: [
-        ["Hanging clothing storage plus shelving", "Merax"],
-        ["Simple integrated shelf without wall mounting", "Mjkone"],
-        ["Ambient LED lighting over storage", "Squireewo"],
-        ["No storage, just headboard comfort", "LIVAUVEAD"]
+    "subheading": "By Room Function",
+    "intro": "A murphy bed usually shares a room with something else.",
+    "table": {
+      "headers": [
+        "Room",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Guest room and storage wall in one",
+          "Merax Twin, with 5-tier shelves and overhead cabinets"
+        ],
+        [
+          "A reading bedroom",
+          "LIVAUVEAD Murphy Bed Full with Headboard, with built-in back support"
+        ],
+        [
+          "A mood-lit studio",
+          "Squireewo Queen, with dimmable LED strips"
+        ],
+        [
+          "A rented room that must stay wall-clean",
+          "Mjkone Queen, which needs no wall mounting"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Rented Apartment Without Drilling Permission Specifically",
-    cards: [
-      { label: "Look for", text: "A freestanding rotation mechanism that doesn't require anchoring into wall studs, since most rental agreements restrict permanent wall modifications." },
-      { label: "In this comparison", text: "The Mjkone pick's 180-degree rotating system specifically eliminates the need for wall mounting, making it the only pick in this tier genuinely suitable for a strict no-drilling rental." }
-    ],
+    "subheading": "For a Studio Renter Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A freestanding frame that does not touch the wall, a stable base and a rotation that fits your floor space. Check your lease and measure the open footprint."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Mjkone is freestanding with 180 degree rotation, a storage shelf and 1000 lb capacity, with the caveat that it can shift on slick floors."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the most comprehensive integrated storage wall with hanging space and shelving, where the Merax pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You just want headboard comfort for reading without extra storage or lighting features, where the LIVAUVEAD pick covers that for about $250 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $1000 guide adds mattresses and dual storage cabinets.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a mattress included, flanking cabinets or an engineered hardware kit. See the under $1000 guide."
+      },
+      {
+        "label": "Save if",
+        "text": "You already own a mattress that fits, where the LIVAUVEAD or Merax stays within a lower budget."
+      }
+    ]
   }
 ];
 
@@ -184,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the Mjkone's rotating design be damaged if the floor underneath it isn't perfectly level?", "a": "Since it relies on rotation rather than wall anchoring, a significantly uneven floor could affect smooth operation, so checking that your intended floor space is reasonably level before installation is worth doing, though minor unevenness typically isn't an issue." },
-  { "q": "What's the most common mistake buyers make when choosing a murphy bed with integrated storage at this tier?", "a": "Not checking mattress thickness compatibility against the specific storage design, since a bed like the Merax pick requires a thinner mattress to accommodate its extensive shelving and hanging storage, and a standard thick mattress may not fit properly." },
-  { "q": "Is the Merax pick worth it over the cheaper Mjkone option?", "a": "If you specifically need comprehensive hanging clothing storage alongside shelving, yes, but if a simpler renter-friendly no-mount design at queen size matters more, the Mjkone pick covers that for about $200 less." },
-  { "q": "How do I confirm my wall can support the Squireewo or LIVAUVEAD's wall-mounted weight requirements?", "a": "Locate your wall studs with a stud finder and confirm the wall is load-bearing or has adequate stud spacing as specified in each listing, since both explicitly require solid stud or load-bearing wall installation rather than standard drywall alone." },
-  { "q": "Does the LIVAUVEAD's headboard reduce the usable storage space when the bed is folded up?", "a": "The headboard is designed to fold along with the bed mechanism into the cabinet, so it shouldn't meaningfully reduce storage space, though checking the listing's closed cabinet dimensions against your specific room needs is worth confirming." },
-  { "q": "Can any of these murphy beds be relocated to a different room later without major rework?", "a": "The Mjkone's freestanding rotating design can be moved between rooms relatively easily since it doesn't require wall anchoring, while the three wall-mounted picks would need to be unmounted, patched, and reinstalled at a new wall location if relocated." }
+  {
+    "q": "Is the Squireewo worth more than the Mjkone?",
+    "a": "If you want built-in dimmable LEDs and 1500N gas struts, yes. The Mjkone is freestanding, needs no wall mount and has a storage shelf, which makes it the better choice for renters. Heavy hybrids often exceed the weight rating, so choose foam."
+  },
+  {
+    "q": "What is the most common mistake with a murphy bed?",
+    "a": "Buying a mattress outside the stated thickness. The Merax needs 4 to 6 inches while the others take up to 12. Check the listing before purchasing. The Merax is the only one that limits you that tightly."
+  },
+  {
+    "q": "How much mattress weight can the Squireewo handle?",
+    "a": "Its listing says it fits 8 to 12 inch mattresses at 59 to 110 lbs. Heavy hybrids can exceed that, so weigh your mattress or use a foam one. Mattresses over 110 lbs risk straining the gas struts."
+  },
+  {
+    "q": "How do I install a wall murphy bed?",
+    "a": "Use a stud finder, anchor with lag bolts into studs, and check that the frame is level. Two people are needed, and drywall anchors are not substitutes for studs. Make sure the studs are located and marked before lifting."
+  },
+  {
+    "q": "Will a freestanding bed stay put?",
+    "a": "The Mjkone is mobile after unfolding, so use it on stable flooring and make sure the base is locked before sleeping. Check for shifts after first use. Check the casters and floor type to prevent sliding."
+  },
+  {
+    "q": "Can a murphy bed work with a thin mattress?",
+    "a": "Yes. The Merax is built for 4 to 6 inch mattresses, and a thin foam mattress also folds with less strain on the mechanism. Keep the mattress strapped down when folding up."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

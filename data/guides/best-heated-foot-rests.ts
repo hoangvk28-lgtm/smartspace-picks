@@ -191,51 +191,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Height range under your desk",
-    "explanation": "A footrest is only useful if its height matches your chair, and a mis-sized one can strain your knees. Comfier and Beleduc offer three heights while HDView and THERAZZAGGE only two. Measure the gap between your seat and the floor and compare it to the listed heights."
+    "explanation": "A footrest that is too tall lifts your knees above your hips, while one that is too low does nothing for posture. The Beleduc lists 5 to 7 inches in 3 settings, the Mind Reader is 5.75 inches tall, and the HDView offers 2 heights. Measure the clearance between the floor and your desk's underside, and subtract a few inches for your thighs, then compare that gap with the footrest's lowest setting."
   },
   {
     "criterion": "Heat levels and timer lengths",
-    "explanation": "More heat steps give finer control, but a stated timer is what keeps the pad from running unattended. Comfier lists 1, 2 and 4 hours while Beleduc stops at 15 minutes. Check the exact hours in the listing, not just a timer mention."
+    "explanation": "Heat on bare feet should start gentle. The Comfier lists 45C or 55C with a 1, 2 or 4 hour timer, the HDView lists 3 levels and a timer, and the Beleduc lists a 15 minute auto shut-off, the shortest in the guide. A short timer is a safety feature but an annoyance at a desk, so decide which you prefer."
   },
   {
     "criterion": "Footrest depth and footprint",
-    "explanation": "A footrest takes floor depth, and the legroom under a shallow desk may not have it. Mind Reader measures 16.5 by 10 inches while others give no size. Check the dimensions against your kneehole depth."
+    "explanation": "A deep footrest holds both feet flat but takes floor space, while a shallow one tips toes. The Mind Reader is 16.5 by 10 by 5.75 inches, which fits a small desk. Check the listed width and depth against the area under your desk, and make sure it does not collide with a chair base or a drawer."
   },
   {
     "criterion": "Foam density and rebound",
-    "explanation": "Memory foam compresses under load, so a thin pad can bottom out within weeks. Listings say high-density, but give no firmness numbers. Look for a stated foam type and a layered build, and read what buyers say about sag."
+    "explanation": "A foot that sinks into soft foam loses support, while firm foam keeps arches lifted. The Comfier and HDView use memory foam that conforms to the foot, but memory foam takes a few seconds to recover. Look for the foam type in the listing, and read for notes on how the pad feels after an hour of use, since a very soft pad can feel supportive at first and flat later."
   },
   {
     "criterion": "Cover care and heating pad access",
-    "explanation": "Heated pads can't go in water. HDView and Mind Reader list washable covers, but Beleduc and THERAZZAGGE state no care instructions. Check the cleaning bullet and whether the cover comes off."
-  },
-  {
-    "criterion": "Tilt and posture mechanics",
-    "explanation": "A flat block, a curved shape and a tilting frame each change your ankle and knee angle. Cozy Products has flat, incline and upright positions. Pick the shape that matches how your feet naturally rest."
+    "explanation": "The heater lives inside the pad, so a cover must be removable without exposing the element. The HDView lists a machine washable cover and the Mind Reader a washable mesh cover. Check whether the cover zips off, and never wash the heating element or cord."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Height and fit",
-    "description": "We compared height settings, dimensions and how well each shape suits a typical chair."
+    "title": "Height range for a desk",
+    "description": "We checked how high each footrest sits and whether it adjusts. The Beleduc lists 3 heights from 5 to 7 inches, the Comfier 3 heights with a velcro base, the HDView 2 heights, the THERAZZAGGE 2 height layers, and the Mind Reader a fixed 5.75 inches, since posture depends on matching your seat height, and a fixed footrest only suits one chair."
   },
   {
-    "title": "Heat and timer",
-    "description": "Heat levels, stated temperatures and timer lengths were compared, favoring listings with real numbers."
+    "title": "Heat levels and safety timers",
+    "description": "We compared heat steps and timers: the Comfier's 45C or 55C with 1, 2 or 4 hour timers, the Mind Reader's 4 heat settings and timer, and the Beleduc's 15 minute auto shut-off. Listings that give no temperature or timer hours earned less credit, because an unknown timer on a heater under bare feet is a real gap."
   },
   {
-    "title": "Padding and build",
-    "description": "Memory foam, curved supports and non-slip bases were considered."
+    "title": "Footprint and floor grip",
+    "description": "Footrests slide on hard floors and eat leg room. We credited the Beleduc's grip on carpet and hard floors, the THERAZZAGGE's non-slip base, and the Mind Reader's compact 16.5 by 10 inch footprint, which suits a small desk where a bulky footrest would knock the knees."
   },
   {
-    "title": "Cleaning",
-    "description": "Washable covers and care notes were compared."
+    "title": "Padding and comfort",
+    "description": "We compared memory foam on the Comfier, HDView and Mind Reader with the THERAZZAGGE's curved arch support, and weighed whether the foot cushion stays comfortable after an hour or flattens into a thin pad, which matters for a footrest used for hours."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $25 to $70 were set against the features documented."
+    "title": "Cleaning and electrical care",
+    "description": "Because a footrest meets shoes and dust, we looked for washable covers, like the HDView's machine washable cover and the Mind Reader's washable mesh. We noted the Cozy Products listing's inconsistent wattage, a detail worth checking before use, since 90 or 105 watts changes how long it takes to warm."
   }
 ];
 
@@ -285,15 +281,15 @@ export const howToChoose: HowToChooseSection[] = [
           "Mind Reader Heated Memory Foam Footrest"
         ],
         [
-          "About $34",
+          "Under $40",
           "HDView Heated Foot Rest with 3 Heat Levels and Timer"
         ],
         [
-          "About $50",
+          "Under $60",
           "Comfier Heated Foot Rest with 3 Heights and Vibration"
         ],
         [
-          "About $50, simple controls",
+          "Under $60, simple controls",
           "THERAZZAGGE Heated Foot Rest with Vibration"
         ],
         [
@@ -375,28 +371,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "What height should a footrest be?",
-    "a": "Your knees should sit near a right angle with your feet flat. Comfier and Beleduc give three heights, while others offer two. Start with the lowest and move up only if your feet dangle."
+    "q": "How high should a footrest be under a desk?",
+    "a": "A footrest should let your knees sit at about 90 degrees with feet flat. The Beleduc offers 5 to 7 inches in 3 steps, which suits most desks. If your chair is low, choose a lower height, and avoid a setting that raises your knees above your hips."
   },
   {
-    "q": "Can I leave a heated footrest on all day?",
-    "a": "Use the auto shut-off and unplug it when away. Beleduc stops after 15 minutes, while Comfier offers up to 4 hours. Do not cover the pad."
+    "q": "Is it safe to keep your feet on a heated footrest all day?",
+    "a": "Use the timer and the lowest setting. The Comfier lists 1, 2 or 4 hour timers, and the Beleduc shuts off after 15 minutes. Keep socks on, check your feet for redness, and avoid heat if you have reduced sensation from a medical condition."
   },
   {
-    "q": "Is a footrest with heat worth it over a flat mat?",
-    "a": "Only if you also want posture support. A footrest raises your feet and may need more legroom, while a mat is flat and cheaper."
+    "q": "Is the Beleduc worth more than the Mind Reader?",
+    "a": "If you want vibration, three heights, and a non-slip base, yes. The Beleduc lists 2 heat levels, 2 vibration motors and a 15 minute auto shut-off, while the Mind Reader costs far less with 4 heat settings and a compact size but no vibration."
   },
   {
-    "q": "How do I clean a heated footrest?",
-    "a": "HDView and Mind Reader list washable covers. Remove the cover only, keep the heating pad dry and unplug it first."
+    "q": "Will a heated footrest fit under a small desk?",
+    "a": "Measure first. The Mind Reader is 16.5 by 10 by 5.75 inches, and the Beleduc is taller at up to 7 inches. If your desk has a drawer or a modesty panel, choose a lower, smaller footrest so your toes and knees have room."
   },
   {
-    "q": "Will it fit under a shallow desk?",
-    "a": "Check the dimensions. Mind Reader lists 16.5 by 10 by 5.75 inches, but several listings give no size. Measure your kneehole depth first."
+    "q": "Do the footrests slide on hard floors?",
+    "a": "Some do. The Beleduc and the THERAZZAGGE list non-slip bases, and the Comfier uses velcro on its base. On smooth floors place a small rubber mat under it, and keep cords out of walkways."
   },
   {
-    "q": "Does a heated footrest improve circulation?",
-    "a": "We do not rely on those listing claims. These are comfort accessories, not medical devices, and anyone with reduced sensation should ask a doctor first."
+    "q": "How do I wash the cover on a heated footrest?",
+    "a": "Unplug it, and remove the cover if the listing says it is washable, as the HDView and Mind Reader list. Never put the heating pad in water. Let the cover dry fully before reassembling, and check the cord for damage."
   }
 ];
 

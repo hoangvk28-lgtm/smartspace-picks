@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ZF1CHoC8L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GZ137Y74?tag=deskfinds0d-20",
-    "description": "WallShelfie is a bedside wall shelf that installs and removes without tools or holes, built for dorms and rentals. It holds a phone, remote and small makeup.\n\nIt costs under $25, about $3 more than the Yaztops shelf below, and it is a simpler, lighter design. Compared with the metal Yaztops, it is a plain organizer without a cup holder or cable slot.\n\nA good pick for a student with a bunk bed. The caveat is that adhesive holds only light loads.",
+    "description": "WallShelfie is a bedside wall shelf that installs and removes without tools or holes, built for dorms and rentals. It holds a phone, remote and small makeup.\n\nIt costs under $25, under $10 more than the Yaztops shelf below, and it is a simpler, lighter design. Compared with the metal Yaztops, it is a plain organizer without a cup holder or cable slot.\n\nA good pick for a student with a bunk bed. The caveat is that adhesive holds only light loads.",
     "specs": [
       "Damage-free adhesive removal",
       "Bedside phone and makeup shelf"
@@ -190,47 +190,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Wall mounting method",
-    "explanation": "Dorm walls are usually painted cinder block that rejects some adhesives. Metal shelves with nano strips or removable strips may hold differently. Check the listed load limit and surface notes."
+    "explanation": "Dorm walls are usually painted cinder block that rejects some adhesives. Metal shelves with nano strips or removable strips may hold differently. Check the listed load limit and surface notes. Test the wall by pressing a spare strip first, since textured paint can fail an adhesive that works on smooth plaster. Place a test strip on a hidden spot for 24 hours before committing the shelf."
   },
   {
     "criterion": "Load capacity",
-    "explanation": "A shelf or table has a weight limit, and phones, tablets and cups add up. A 20 pound limit is fine for a lamp and a laptop but not for a stack of textbooks. Look for the load in pounds."
+    "explanation": "A shelf or table has a weight limit, and phones, tablets and cups add up. A 20 pound limit is fine for a lamp and a laptop but not for a stack of textbooks. Look for the load in pounds. Add up the phone, cup and lamp you plan to put on it, and keep the total under the listed limit. Weigh the items first, since a full mug and a phone already approach a light limit."
   },
   {
     "criterion": "Wireless charging compatibility",
-    "explanation": "A 10 watt wireless charger works with phones that support Qi, and a case thicker than a few millimeters can block it. Check your phone and case. Look for Qi in the bullets."
+    "explanation": "A 10 watt wireless charger works with phones that support Qi, and a case thicker than a few millimeters can block it. Check your phone and case. Look for Qi in the bullets. Check whether the listing names Qi and the phone models it supports before gifting. Ask which phone model the student owns and whether it carries a thick case."
   },
   {
     "criterion": "Footprint and clearance",
-    "explanation": "A C-shaped table that slides under furniture must clear the frame, and a dorm bed may sit lower than a couch. Measure the gap in inches. Compare the listed height and depth."
+    "explanation": "A C-shaped table that slides under furniture must clear the frame, and a dorm bed may sit lower than a couch. Measure the gap in inches. Compare the listed height and depth. Slide a tape measure under the couch or bed frame, and compare it to the listed height. Check the bed frame height too, since dorm beds vary by school."
   },
   {
     "criterion": "Lighting quality",
-    "explanation": "A CRI of 95 means colors look natural, and stepless dimming helps at night. Cheap lamps flicker. Check the CRI and dimming type."
+    "explanation": "A CRI of 95 means colors look natural, and stepless dimming helps at night. Cheap lamps flicker. Check the CRI and dimming type. Look for a flicker free note, and favor a lamp with warm and cool modes for different tasks. Pick a lamp with a dimmer so roommates can sleep."
   },
   {
     "criterion": "Power and outlets",
-    "explanation": "Lamp and charger items need outlets near the desk. Count your outlets. Check cord length."
+    "explanation": "Lamp and charger items need outlets near the desk. Count your outlets. Check cord length. Count the outlets and the cord length on the listing, and confirm the dorm allows a lamp. Add a short extension only if the dorm allows it."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Price under $50",
-    "description": "Every pick was at or under $50 when gathered."
+    "title": "Damage-free mounting",
+    "description": "We read each listing for how it attaches, since the WallShelfie and Yaztops shelves use adhesive strips with no drilling, which suits painted cinder block and a deposit. Adhesive performs differently by wall, so we noted the surface notes and load limits. The WallShelfie lists light loads only, which limits what it can hold."
   },
   {
-    "title": "Fit in a small room",
-    "description": "Listed dimensions and mounting methods were compared."
+    "title": "Load capacity and sturdiness",
+    "description": "We compared stated limits, such as the QEEIG C-shaped tables at 20 lb each and the Yaztops carbon steel frame. A shelf holding a phone and a cup needs real strength, and the WallShelfie is rated for light loads only. The QEEIG's 20 lb figure applies per table, not combined."
   },
   {
-    "title": "Load and capacity",
-    "description": "We looked at stated weight capacities and materials."
+    "title": "Charging convenience",
+    "description": "We checked how each gift handles power, including the Sailstar's 10W wireless charger with 800 lumens and CRI 95, and the TechGlow's Bluetooth speaker stand that must itself be charged. A desk item that charges a phone saves a cable and an outlet. The TechGlow's speaker is small, so we treated the stand as the main feature."
   },
   {
-    "title": "Power features",
-    "description": "We compared charging and lighting specs."
+    "title": "Footprint in a small room",
+    "description": "We compared dimensions, noting the QEEIG tables at 11.8 x 15.7 x 25.6 inches that slide under a couch, and the EzrAllora 67 x 43 inch blanket that is not a full bed cover. Everything has to fit where a student actually sits. The Sailstar needs a wall outlet near the desk, which we counted against dorm layouts."
   }
 ];
 
@@ -289,7 +289,7 @@ export const howToChoose: HowToChooseSection[] = [
           "TechGlow Foldable Phone Stand with Bluetooth Speaker"
         ],
         [
-          "About $25",
+          "Under $30",
           "WallShelfie Bedside Wall Organizer in White"
         ],
         [
@@ -379,28 +379,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do adhesive shelves damage dorm walls?",
-    "a": "They are designed not to if removed as directed, but results vary by paint and wall texture. Test a small hidden spot first. The WallShelfie Bedside Wall Organizer lists damage-free adhesive removal, and the Yaztops Metal Floating Bedside Shelf uses nano adhesive strips with no drilling."
+    "q": "Will adhesive shelves like the Yaztops hold on dorm walls?",
+    "a": "They can, but painted cinder block and textured paint vary. The Yaztops uses nano adhesive strips and needs a smooth surface, so wipe the wall with alcohol first and test with a light load before stacking items. Wipe with alcohol and wait for it to dry first."
   },
   {
-    "q": "Will wireless charging work with a case?",
-    "a": "Many thin cases work, but thick or metal ones block it. The Sailstar LED Desk Lamp with Wireless Charger has a 10W charger, so remove bulky cases or add a magnetic ring if charging stalls."
+    "q": "What mistake do gift givers make with bedside shelves?",
+    "a": "Overloading them. The WallShelfie is for light loads like a phone and remote, and the Yaztops adds a cup holder and cable slot. Check the weight limit and avoid putting a full water bottle on adhesive. Keep a full water bottle on the desk, not the shelf."
   },
   {
-    "q": "Can I put a table under a dorm bed?",
-    "a": "Measure the clearance first, since some dorm beds are adjustable and others are not. The QEEIG C-Shaped End Table Set of 2 is 25.6 inches tall, designed to slide beside a bed, not under it."
+    "q": "Is the Sailstar lamp worth more than a plain desk lamp?",
+    "a": "For a student it combines 800 lumens, CRI 95 and stepless dimming with a 10W wireless charger. It needs a wall outlet and a Qi-compatible phone, so confirm the phone and case before gifting. If the phone has a thick case, the charge may fail."
   },
   {
-    "q": "Is a foldable speaker stand worth it?",
-    "a": "The TechGlow Foldable Phone Stand with Bluetooth Speaker is a convenience for video and calls, but a small speaker is not built to fill a large room with music. Treat it as a desk stand that also plays audio."
+    "q": "How do I set up the QEEIG C-shaped tables?",
+    "a": "Assemble both, check the triangular supports, and slide the base under a couch or bed. The listing gives 20 lb per table, so keep a laptop and a mug on top and avoid heavy stacks. Do not stack textbooks on them or lean on the edge."
   },
   {
-    "q": "How much can a floating shelf hold?",
-    "a": "Check the stated load and never exceed it, especially with adhesive mounting. The Yaztops shelf has a carbon steel frame, but keep it for a phone and light items, not a heavy stack."
+    "q": "Does a foot pocket blanket work at a desk?",
+    "a": "Yes. The EzrAllora is 67 x 43 inches with a neck strap and foot pocket, so it stays in place while seated. It is bulky to store and not a full bed blanket. It also keeps cold feet warm in a drafty room."
   },
   {
-    "q": "Are desk lamps with chargers dorm safe?",
-    "a": "The Sailstar lamp is LED and runs cool, with 800 lumens and CRI 95, but check that the adapter or any power strip is allowed by your housing. Some dorms ban certain extension cords."
+    "q": "Can the TechGlow speaker stand replace a normal speaker?",
+    "a": "Not entirely. It is a foldable phone stand with a Bluetooth speaker and charging stand, but the speaker is small and the unit needs charging itself. It suits a desk, not a party. Use it for a desk and a small speaker, not a room."
   }
 ];
 

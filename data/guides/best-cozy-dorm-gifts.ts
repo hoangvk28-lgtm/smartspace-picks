@@ -188,47 +188,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Mattress size match",
-    "explanation": "Most dorm beds are Twin XL, roughly 39 by 80 inches, which is longer than a standard twin. A throw that is only 70 inches long will leave feet uncovered. Check the listed length and width against 80 inches before buying."
+    "explanation": "Most dorm beds are Twin XL, roughly 39 by 80 inches, which is longer than a standard twin. A throw that is only 70 inches long will leave feet uncovered. Check the listed length and width against 80 inches before buying.  Look for the stated length such as 80 inches on the Bedelite, because 70 inches falls short of a Twin XL. Ask the student if they know their bed size."
   },
   {
     "criterion": "Fabric and washing",
-    "explanation": "Fleece, flannel and faux fur wash differently, and a shared dorm laundry room can be hot. Look for machine washable and tumble dry low in the listing. Avoid items that cannot be washed, because dorm fabrics collect dust."
+    "explanation": "Fleece, flannel and faux fur wash differently, and a shared dorm laundry room can be hot. Look for machine washable and tumble dry low in the listing. Avoid items that cannot be washed, because dorm fabrics collect dust.  Check the care label for wash temperature before gifting, since fleece can shed lint and shrink in a hot shared washer. Cold wash is the safer default."
   },
   {
     "criterion": "Power and timers",
-    "explanation": "Heated gifts should have automatic shut-off and low power draw. A USB item at 5 volts 2 amps is easier on a dorm than a mains item. Check the timer length, which for this heated plush is 15 to 60 minutes."
+    "explanation": "Heated gifts should have automatic shut-off and low power draw. A USB item at 5 volts 2 amps is easier on a dorm than a mains item. Check the timer length, which for this heated plush is 15 to 60 minutes.  Look for automatic shut off and a stated wattage. The HOTHUGZ lists 15, 30 or 60 minute timers on 5V/2A USB power. Confirm your housing rules allow it."
   },
   {
     "criterion": "Warm sleepers and heat",
-    "explanation": "Polyester and fleece trap heat, and a dorm room may be warm already. A student who sleeps hot may prefer a lighter throw. Check the fabric weight or material notes."
+    "explanation": "Polyester and fleece trap heat, and a dorm room may be warm already. A student who sleeps hot may prefer a lighter throw. Check the fabric weight or material notes.  Pick a thin fabric if the student already runs warm, and tell them to skip polyester in a room with poor ventilation. A lighter throw is a safer guess."
   },
   {
     "criterion": "Hygiene and allergies",
-    "explanation": "Plush and faux fur can hold dust. A student with allergies should have washable covers. Look for materials and care notes."
+    "explanation": "Plush and faux fur can hold dust. A student with allergies should have washable covers. Look for materials and care notes.  Choose a washable cover for anyone with allergies, and avoid loose faux fur if they are sensitive to dust."
   },
   {
     "criterion": "Gift fit and returns",
-    "explanation": "Slippers need sizing and colors can be wrong. Include a gift receipt. Check the seller's return window."
+    "explanation": "Slippers need sizing and colors can be wrong. Include a gift receipt. Check the seller's return window.  Include a gift receipt and ask the seller about returns, because shoe sizes and colors are the most common reasons these gifts go back."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Comfort materials",
-    "description": "We compared fabric types and sizes as listed to find which items suit a dorm bed or chair."
+    "title": "Mattress fit and coverage",
+    "description": "We checked stated blanket sizes against a Twin XL mattress, which is about 39 by 80 inches. Bedelite's 60 x 80 inch throw reaches the end of the bed while Bedsure's 50 x 70 inch throw suits a couch or chair, so size decided which pick is a bed gift."
   },
   {
-    "title": "Power and safety",
-    "description": "The one powered gift was weighed on timer length, heat levels and USB power."
+    "title": "Fabric, care and shedding",
+    "description": "We looked at fleece, flannel and faux fur, and how they behave in a hot shared laundry room. Fleece can shed lint at first, while flannelette covers wash easily, so we credited gifts with simple washing instructions. A single wash before gifting also removes first-use lint."
   },
   {
-    "title": "Bed fit",
-    "description": "Throw dimensions were compared to a Twin XL mattress."
+    "title": "Heat safety and power draw",
+    "description": "We examined the only electric gift, HOTHUGZ, which uses 5V 2A USB, three heat levels up to 149F and 15, 30 or 60 minute timers. Short automatic timers matter in a dorm, so unattended heat scored lower than a timed one. A 2A adapter requirement also decides whether it works from a laptop port."
   },
   {
-    "title": "Value",
-    "description": "Prices were compared against the features each listing documents."
+    "title": "Giftability and sizing risk",
+    "description": "We considered how safe each item is to buy for someone you do not know well. Slippers need a size, a pillow cover needs an insert and the crochet axolotl suits a care package, so universal items scored higher than sized ones. That is why the plush and the cover tend to travel well."
+  },
+  {
+    "title": "Price tier and presentation",
+    "description": "We compared each item against typical gift budgets, from under $10 for slippers and the axolotl to the HOTHUGZ at the top. A cozy gift should feel considered, so we weighed whether low price meant thin quality or simply a small item. Cheap is fine when the item is small and well chosen."
   }
 ];
 
@@ -369,28 +373,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Is a USB heating pad safe to use in a dorm?",
-    "a": "Low power USB pads are generally easier on dorm outlets and housing rules, and this one has timers. Do not sleep with it on, and ask a doctor if you have reduced sensation."
+    "q": "Does a throw blanket fit a Twin XL dorm bed?",
+    "a": "Only the 60 x 80 inch Bedelite reaches the length. A Twin XL mattress is roughly 39 by 80 inches, so a 50 x 70 inch throw like the Bedsure covers a couch or leg area better than the whole bed. Measure the actual mattress if you can, as dorms vary."
   },
   {
-    "q": "What size blanket fits a dorm bed?",
-    "a": "A Twin XL mattress is about 39 by 80 inches, so choose a throw of 60 by 80 inches or larger for full coverage."
+    "q": "What is the most common dorm gift mistake?",
+    "a": "Buying something sized or heated without checking the rules. Many dorms ban certain heated items, so check housing policy before gifting an electric item, and choose slippers only if you know the student's shoe size."
   },
   {
-    "q": "Can I wash a heated plush?",
-    "a": "Check the listing. Most heated items need the heating pad removed or have special care. Never submerge a heated item unless it says so."
+    "q": "Is the HOTHUGZ heated shark worth it over a blanket?",
+    "a": "It adds a novelty plush with three heat levels and automatic 15 to 60 minute timers on USB power, but it costs more than a throw. Choose the HOTHUGZ for a heated gift, a blanket for broader everyday use."
   },
   {
-    "q": "Is fleece or flannel warmer?",
-    "a": "Fleece is lighter and fluffy, while flannel is a little denser. The difference is small for dorm use."
+    "q": "How do I wash fleece blankets in a dorm?",
+    "a": "Use cold or warm water on a gentle cycle, and dry on low heat. Fleece can shed lint at first, so wash it separately from dark clothes. Dorm machines can be hot, so check the care label before the first wash."
   },
   {
-    "q": "Will faux fur slippers work on tile?",
-    "a": "The non-slip sole helps, but check the tread. Wet floors in shared bathrooms need rubber soles."
+    "q": "Can I send these as a care package?",
+    "a": "Yes. The crochet axolotl and the pillow cover are small and light, and slippers fit a standard box. Include a note and a gift receipt, and tuck the plush in last so it does not get crushed. The pillow cover is flat and weighs very little."
   },
   {
-    "q": "Can I give a pillow cover without an insert?",
-    "a": "Yes, but say so in the note. The cover is 18 inches, so an insert of the same size is needed."
+    "q": "Are these gifts safe for students with allergies?",
+    "a": "Plush toys and faux fur can hold dust, so choose washable items for anyone with allergies. The MONALET pillow cover and the fleece throws wash easily, while the crochet axolotl needs spot cleaning, so it is the riskier pick."
   }
 ];
 

@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Sine Wave Output Quality", "description": "Distinguished genuine pure sine wave, PFC sinewave, and simulated sine wave output types across the lineup." },
-  { "title": "VA/Wattage Capacity", "description": "Compared stated VA and wattage ratings, with most picks reaching 1500VA at this tier." },
-  { "title": "Data Line Protection", "description": "Checked which picks include built-in coaxial and Ethernet surge protection alongside AC outlets." },
-  { "title": "Connected Equipment Warranty", "description": "Compared documented warranty and insurance coverage amounts across the lineup." },
-  { "title": "Energy Efficiency Certification", "description": "Checked for Energy Star certification and stated efficiency percentages." }
+  { "title": "Waveform on the battery", "description": "We separated true pure sine, as on the APC BR1500MS2, from PFC sinewave on the CyberPower CP1500PFCLCD and simulated sine on the others. For gaming PCs and NAS drives, a clean waveform matters when the unit switches to battery. Simulated sine is fine for routers but riskier for active PFC supplies." },
+  { "title": "Published runtime at light load", "description": "We compared the 73 minutes at 100W for the BR1500MS2 and 68 minutes for the BX1500M. Runtime scales with load, so a 100W workstation lasts about an hour while a 600W load drops it to a few minutes, and keeping load near 30 to 50 percent of capacity is the usual guidance. Neither CyberPower listing gives a runtime figure to compare." },
+  { "title": "Real wattage versus 1500VA", "description": "We compared 900W and 1000W ratings across the 1500VA models. The CP1500PFCLCD lists 1000W, giving a little more room for a gaming PC, while the APC models stay at 900W, and exceeding that triggers an overload shutdown. Compare your actual PC draw to that ceiling before buying." },
+  { "title": "Outlet layout", "description": "We counted battery-backed sockets against surge-only: 6 of 12 on the CyberPower picks versus 5 of 10 on the BX1500M. Heavy desk gear needs spaced outlets, and the wrong socket type leaves a monitor powered only by the wall. The BR1500MS2 has 6 battery outlets and 4 surge-only." },
+  { "title": "Battery life and heat", "description": "We noted that 3 to 5 years is the typical life of a lead-acid UPS battery, so replaceability matters. Heat shortens that life, since battery life can roughly halve for every 10 degrees C above 25 C, so keep the unit out of a cramped, warm cabinet and budget for a replacement battery." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "At this size you are protecting a real workstation or NAS, so the primary question is how clean the output must be and how long you need to ride out a blackout.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "These four share a 1500VA class, so budget decides pure sine, PFC sine, or simulated sine rather than raw capacity.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Data Line Protection Needs",
+    intro: "Because 1500VA units are heavy, a second axis is desk or under-desk placement, with heat and ventilation affecting battery life.",
     table: {
       headers: ["Your connection type", "Recommended pick"],
       rows: [
@@ -153,7 +156,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want genuine pure sine wave output and built-in coax/Ethernet protection for sensitive modern electronics, where the APC BR1500MS2 leads this comparison on both fronts." },
-      { label: "Save if", text: "You want near-top capacity and data line protection without pure sine wave output, where the APC BX1500M delivers that for about $110 less." }
+      { label: "Save if", text: "You want near-top capacity and data line protection without pure sine wave output, where the APC BX1500M delivers that for under $125 less." }
     ],
   }
 ];
@@ -183,8 +186,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Is pure sine wave output necessary for a typical home office computer setup?", "a": "For most standard computer setups, PFC sinewave or simulated sine wave output works perfectly well, and pure sine wave output specifically benefits sensitive modern electronics or equipment where the manufacturer explicitly recommends clean power, so it's not a strict necessity for every buyer." },
-  { "q": "What's the most common mistake buyers make when comparing PFC compatibility and pure sine wave output?", "a": "Assuming these terms mean the same thing, when PFC compatibility specifically addresses active PFC power supply support while pure sine wave addresses broader waveform quality, and a UPS can offer one without necessarily providing the other." },
-  { "q": "Is the APC BR1500MS2 worth the price premium over the APC BX1500M given their similar runtime?", "a": "If genuine pure sine wave output specifically matters for your sensitive electronics, yes, but if you just need strong capacity and built-in coax/Ethernet protection without that specific waveform quality, the BX1500M delivers nearly identical practical performance for about $110 less." },
+  { "q": "Is the pricier BR1500MS2 worth it over the BX1500M?", "a": "It outputs pure sine wave, which suits sensitive gaming PCs and NAS drives, and lists 73 minutes at 100W versus 68 for the BX1500M. If your power supply handles the BX1500M's stepped output, which APC lists as Active PFC compatible, the cheaper unit is the better value." },
+  { "q": "Is the APC BR1500MS2 worth the price premium over the APC BX1500M given their similar runtime?", "a": "If genuine pure sine wave output specifically matters for your sensitive electronics, yes, but if you just need strong capacity and built-in coax/Ethernet protection without that specific waveform quality, the BX1500M delivers nearly identical practical performance for under $125 less." },
   { "q": "Does a UPS without built-in coax and Ethernet protection leave my internet connection completely unprotected?", "a": "It leaves that specific connection type unprotected by the UPS itself, though you could add a separate coax or Ethernet surge protector alongside a UPS lacking this built-in feature if that protection matters for your setup." },
   { "q": "How much does the $500,000 connected equipment guarantee on the CyberPower picks actually matter for a typical home office?", "a": "For most home office setups, this level of coverage exceeds what's likely needed, but it does provide substantial documented financial assurance if you're protecting genuinely expensive or business-critical equipment where potential damage costs would be significant." },
   { "q": "Can I run a home theater or gaming PC setup on any of these UPS units without issues?", "a": "Yes, all four picks in this comparison offer 1500VA capacity suitable for a gaming PC or home theater setup, though if your power supply specifically uses active PFC, the CP1500PFCLCD or either APC pick would provide the safest compatibility match." }

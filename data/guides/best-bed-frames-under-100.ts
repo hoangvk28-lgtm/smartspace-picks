@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Weight Capacity", "description": "Compared stated maximum weight capacity figures across all four frames where disclosed." },
-  { "title": "Headboard Inclusion", "description": "Compared bare platform designs against upholstered and wingback headboard options." },
-  { "title": "Under-Bed Clearance", "description": "Compared stated clearance heights for storage and robot vacuum compatibility." },
-  { "title": "Build Material", "description": "Compared solid wood, steel-frame, and layered wood-and-metal construction approaches." },
-  { "title": "Assembly Complexity", "description": "Compared stated assembly time and hardware completeness across listings." }
+  {"title":"Weight capacity against two sleepers","description":"We read each listing for a stated queen weight rating, and only the Sweetcrispy frame commits to a number, 800 lb. Two adults plus a 100 lb mattress can approach 500 lb, so in this under $100 tier we treated a stated figure with margin as worth more than a vague heavy duty claim."},
+  {"title":"Slat support and noise","description":"Foam and hybrid mattresses sag when slat gaps run wider than roughly 3 inches, and loose slats squeak. We looked for the Sweetcrispy Velcro slat lock and the Inadpor 10 slats with metal support rods, and flagged any listing that did not state how the slats are held in place."},
+  {"title":"Under bed clearance","description":"We compared stated clearance, from the Gizoon 7.5 inches and Inadpor 7 inches to the Sweetcrispy 8.5 to 12.5 inch options. About 7 inches suits a robot vacuum and flat bins, while luggage needs closer to 12, so we gave the adjustable frame extra credit for storage buyers."},
+  {"title":"Headboard value","description":"At this price a headboard either comes upholstered or not at all. We compared the bare DUMOS and Sweetcrispy platforms against the Gizoon wingback and Inadpor velvet headboards, and judged whether the padding is useful for sitting up to read or just a styling extra."},
+  {"title":"Assembly and hardware","description":"We checked stated assembly details and hardware, since loose bolts are a common source of squeaks in a new frame. Frames that skip a stated assembly time or hardware list were scored lower, and we recommend retightening every bolt after the first week of use."}
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "Pick by the single feature you would regret missing. At this tier each frame trades a headboard, clearance range or capacity figure against the others.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Four frames cluster tightly below $100, so the gaps are small. Match the pick to what you must have instead of chasing the lowest number.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [

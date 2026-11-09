@@ -5,7 +5,7 @@ export const metaDescription = "Six dorm gifts for college students, from a snac
 export const mainKeyword = "dorm gifts for college students";
 export const introParagraphs = [
   "The gifts that get used in a dorm are rarely the ones that look best in the wrapping. A student sharing a 12 by 12 foot room with a roommate needs things that cut noise, light and hassle: something to eat off, something to sleep through the hallway, something for a scraped knee at 11 pm. The cute extras come second.",
-  "This guide covers six gifts from about $8 to $40 that cover those daily needs plus one desk decor build. We compared them on listed contents, sizes, dorm-compatibility and price. Dorm rules differ by school, so everything here avoids heating, open flames and anything that plugs in, which keeps it safe to bring on move-in day."
+  "This guide covers six gifts from under $10 to $40 that cover those daily needs plus one desk decor build. We compared them on listed contents, sizes, dorm-compatibility and price. Dorm rules differ by school, so everything here avoids heating, open flames and anything that plugs in, which keeps it safe to bring on move-in day."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31goV5GJY0L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08HXSPVLS?tag=deskfinds0d-20",
-    "description": "Layron is a 24 piece kit of four 10.2 inch plates, four 12 oz cups, four 5.5 inch bowls and four sets of fork, knife and spoon, packed in a drawstring mesh bag. It is made of PP, BPA free and listed as microwave safe.\n\nUnlike Quatish, it includes flatware and is sized for four, which is a better fit for a dorm room and a couple of guests. It costs about $11 less, though the plastic feels more camping gear than dinnerware.\n\nBest for a first-year student with a small shelf and a mini fridge. The caveat is that the listing prohibits some kinds of microwave use, so read the guidance before heating food.",
+    "description": "Layron is a 24 piece kit of four 10.2 inch plates, four 12 oz cups, four 5.5 inch bowls and four sets of fork, knife and spoon, packed in a drawstring mesh bag. It is made of PP, BPA free and listed as microwave safe.\n\nUnlike Quatish, it includes flatware and is sized for four, which is a better fit for a dorm room and a couple of guests. It costs under $15 less, though the plastic feels more camping gear than dinnerware.\n\nBest for a first-year student with a small shelf and a mini fridge. The caveat is that the listing prohibits some kinds of microwave use, so read the guidance before heating food.",
     "specs": [
       "24 pieces, service for 4",
       "Includes fork, knife, spoon",
@@ -191,51 +191,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Dorm rule compatibility",
-    "explanation": "Most schools ban open flames, space heaters and cooking appliances, and many ban candles and extra extension cords. A gift that breaks housing rules can be confiscated. Choose items that do not plug in or heat, and check your school's list if the gift is electrical."
+    "explanation": "Most schools ban open flames, space heaters and cooking appliances, and many ban candles and extra extension cords. A gift that breaks housing rules can be confiscated. Choose items that do not plug in or heat, and check your school's list if the gift is electrical. Search the school's housing site for a prohibited items list before buying anything with a cord or a heating element."
   },
   {
     "criterion": "Storage footprint",
-    "explanation": "A dorm room offers a shelf, a drawer and part of a closet, so every gift competes for space. A 24 piece dish set for six takes more room than a set for four in a mesh bag. Check listed dimensions or piece counts against the student's space."
+    "explanation": "A dorm room offers a shelf, a drawer and part of a closet, so every gift competes for space. A 24 piece dish set for six takes more room than a set for four in a mesh bag. Check listed dimensions or piece counts against the student's space. Measure the shelf or drawer where it will live, since dorm storage is usually shallow."
   },
   {
     "criterion": "Consumable versus lasting",
-    "explanation": "Snack boxes are eaten in a week, while a sleep mask or dish set lasts all year. Mixing a lasting practical gift with a small consumable gives the best result. Decide which you are buying before comparing prices."
+    "explanation": "Snack boxes are eaten in a week, while a sleep mask or dish set lasts all year. Mixing a lasting practical gift with a small consumable gives the best result. Decide which you are buying before comparing prices. Decide whether the recipient wants a treat or a keepsake, and pair a consumable with something durable."
   },
   {
     "criterion": "Shared room friendliness",
-    "explanation": "Roommates have different sleep and study schedules, so quiet, light-blocking items solve problems before they start. A blackout mask or earplugs does more for a shared room than decor. Look for items that reduce light or noise."
+    "explanation": "Roommates have different sleep and study schedules, so quiet, light-blocking items solve problems before they start. A blackout mask or earplugs does more for a shared room than decor. Look for items that reduce light or noise. Ask about roommate schedules, since a mask and earplugs matter most in a double."
   },
   {
     "criterion": "Microwave and dishwasher notes",
-    "explanation": "Dorm kitchens often have a shared microwave and no dishwasher. Plastic ware labeled microwave safe may still carry time limits, such as Quatish's 3 minute note. Read the care text and avoid heating food for long periods in plastic."
+    "explanation": "Dorm kitchens often have a shared microwave and no dishwasher. Plastic ware labeled microwave safe may still carry time limits, such as Quatish's 3 minute note. Read the care text and avoid heating food for long periods in plastic. Read the care labels, since microwave and dishwasher limits differ between sets."
   },
   {
     "criterion": "Gift value per dollar",
-    "explanation": "A snack box feels generous but is consumed, while a $10 mask is used for years. Think about use per dollar, not just the price tag. Compare the number of items or the expected months of use."
+    "explanation": "A snack box feels generous but is consumed, while a $10 mask is used for years. Think about use per dollar, not just the price tag. Compare the number of items or the expected months of use. Compare cost per use, and favor the item that gets used every week."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Daily dorm usefulness",
-    "description": "We favored items a student uses every week, like dishes, a sleep mask and snacks, over items that sit on a shelf."
+    "title": "Dorm rule compatibility",
+    "description": "We screened for items that most campuses allow, such as dinnerware, a first aid kit and a sleep mask, and flagged anything with heat or open flames as a housing office question. A gift that breaks the handbook is a bad gift regardless of how thoughtful it feels. The LakeHouse box also says part of each sale is donated."
   },
   {
-    "title": "Dorm rule safety",
-    "description": "Anything that heats, plugs in or flames was excluded to avoid housing violations."
+    "title": "Storage footprint",
+    "description": "We compared how much shelf or drawer space each takes, from the BAND-AID 80 piece kit that fits a drawer to the Quatish 24 piece set that serves six. A student rarely has storage to spare, and organizers consistently recommend gifts that take up little room. The Quatish set is also microwave safe."
   },
   {
-    "title": "Space footprint",
-    "description": "Listed sizes and piece counts were compared with small shelves and drawers."
+    "title": "Consumable versus lasting value",
+    "description": "We separated the LakeHouse's 56 snack box, which disappears in a week, from lasting items like the dinnerware sets and the LEGO Botanicals build. A good bundle mixes one quick treat with something that stays all year, so we ranked each against that goal. The LEGO set needs time at a desk, which a busy student may not have."
   },
   {
-    "title": "Contents transparency",
-    "description": "Listings that spell out what is in the box ranked above those with vague bundles."
+    "title": "Shared-room friendliness",
+    "description": "We looked at roommate impact, with the FACEMOON 3D blackout mask and earplugs helping when schedules differ and the Layron set stacking into a mesh bag. Items that are quiet and low clutter keep both students happy. The FACEMOON also includes earplugs and a pouch."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from about $10 to $40 were weighed against usefulness over a school year."
+    "title": "Everyday practicality",
+    "description": "We read the listings for what a student actually does, including the Quatish being microwave and dishwasher safe and the Layron including flatware in a mesh bag. A gift used three times a week beats a clever one used once. The BAND-AID kit suits a backpack as well as a drawer."
   }
 ];
 
@@ -290,7 +290,7 @@ export const howToChoose: HowToChooseSection[] = [
           "BAND-AID Travel Ready 80 Piece First Aid Kit"
         ],
         [
-          "About $14",
+          "Under $15",
           "Layron 24 Piece Plastic Dishes and Flatware Set"
         ],
         [
@@ -367,7 +367,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You want a simple extra. FACEMOON 3D Weighted Blackout Sleep Mask and BAND-AID Travel Ready 80 Piece First Aid Kit cost about $11 or less."
+        "text": "You want a simple extra. FACEMOON 3D Weighted Blackout Sleep Mask and BAND-AID Travel Ready 80 Piece First Aid Kit cost under $15."
       }
     ]
   }
@@ -376,24 +376,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "What should I avoid giving a dorm student?",
-    "a": "Skip candles, heaters, hot plates, air fryers and anything with an open heating element, since many schools ban them. Also check any rules about extension cords before gifting electrical items."
+    "q": "What is the best dorm gift for a freshman who has everything?",
+    "a": "Something consumable or very practical, such as the LakeHouse 56 count snack package for finals week or the FACEMOON sleep mask with earplugs for roommates. These are small and rarely duplicated. Add a card with a note, since the box has a gift option in some versions."
   },
   {
-    "q": "Can I microwave plastic dishes in a dorm?",
-    "a": "Only if the label says microwave safe, and follow time limits. Quatish's listing says not to microwave for more than 3 minutes, so read the care notes."
+    "q": "Quatish or Layron dinnerware for a dorm?",
+    "a": "The Quatish is service for 6, microwave and dishwasher safe, but has no flatware. The Layron serves 4, includes fork, knife and spoon, and packs into a mesh bag, so it is the better fit for a single student. Ask the student what they already own before buying a set."
   },
   {
-    "q": "Is a snack care package worth it?",
-    "a": "It is a treat that is gone in days, so it works for move-in or finals week. A lasting item like a sleep mask gets more total use."
+    "q": "What mistake do gift givers make with dorm presents?",
+    "a": "Buying large or restricted items. Dorm rooms are small, and many halls ban heat and flame items. Choose compact, quiet gifts, and check the housing handbook before buying anything that plugs in. Ask for a size, and avoid duplicates."
+  },
+  {
+    "q": "Is the LakeHouse snack box worth the price?",
+    "a": "It is the highest priced item in this guide. The package holds 56 snacks, about 4.5 pounds, in a 13 x 12 x 4 inch box, and contents can be substituted, so it suits finals week more than long-term use. It also makes a handy gift to sit alongside a bigger present."
+  },
+  {
+    "q": "Can the LEGO Botanicals set be a real gift?",
+    "a": "Yes if the student enjoys building. It needs no watering, takes time to assemble and works as shelf or desk decor. It is a toy for ages 9 and up, not a necessity. Pair it with a handmade card to make it feel personal."
   },
   {
     "q": "Is a first aid kit a good gift?",
-    "a": "Yes, as a practical item. Include a note to check medicine expiry dates, and remind the student the kit handles only minor care."
-  },
-  {
-    "q": "How do I wash a weighted sleep mask?",
-    "a": "FACEMOON's listing says hand wash below 104F, no bleach, no iron, and air dry. Machine washing can shift the weighted beads."
+    "a": "It is practical rather than exciting. The BAND-AID kit has 80 pieces, including bandages, gauze, wipes and antibiotic cream, and fits a drawer. Pair it with a snack or a candle-free decor item. The kit is not a substitute for a full pharmacy run."
   }
 ];
 

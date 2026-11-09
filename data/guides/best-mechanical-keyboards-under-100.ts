@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Battery Capacity and Life", "description": "Compared stated battery capacity and hours of use across wireless picks in this tier." },
-  { "title": "Programmability Depth", "description": "Compared full VIA/QMK remapping against proprietary or no remapping support." },
-  { "title": "Switch Type and Sound", "description": "Compared linear, tactile, and silent switch categories along with sound dampening design." },
-  { "title": "Layout and Desk Footprint", "description": "Compared full-size, TKL, and 75% layouts against their respective feature tradeoffs." },
-  { "title": "Design Distinctiveness", "description": "Checked for unique visual or material design elements beyond standard keyboard aesthetics." }
+  { "title": "Full-size versus compact", "description": "We compared the 100 percent layout of the Keychron K10 Pro against the TKL K8 and the 75% GravaStar. A numpad helps spreadsheet users, but the extra width pushes the mouse further right, so measure your desk and arm reach before choosing the 100 percent boards. The 75% GravaStar skips the numpad entirely while keeping arrow keys." },
+  { "title": "Battery life claims", "description": "We compared the K10's up to 240 hours with the backlight off against the 4000mAh batteries on the K10 Pro and GravaStar. Battery numbers depend on the backlight, so we treated them as best case and looked for charging that works while typing. The K8 pairs Bluetooth 5.1 with a wired USB-C fallback." },
+  { "title": "Silent switches and noise", "description": "We noted the Keychron K8's silent red switches, which suit shared offices, against the standard linear and tactile switches on the others. Dampened switches help in a quiet office, and the K8 is the only pick here built around them. The K10 and GravaStar use ordinary switch sounds." },
+  { "title": "Mac and Windows support", "description": "We checked Mac key support, including the K10's dedicated Mac shortcut keys and the K8's native macOS keys with Windows keycaps included. A board that ships both keycap sets saves a separate purchase for mixed-OS households. The K10 Pro adds VIA and QMK, while the GravaStar adds a gasket mount." },
+  { "title": "Programmability and mounting", "description": "We looked at VIA and QMK support on the K10 Pro and the gasket mount on the GravaStar. A steel plate and foam also affect the sound, but these are build details to judge by the listing. VIA lets you remap without installing vendor software." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "At this ceiling the keyboards split cleanly by size, so the first table starts with how much desk width you can spare.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Four boards sit within under $15 of each other, so the budget table focuses on wireless range and layout rather than a price gap.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -133,6 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Switch Category",
+    intro: "Noise is the second axis, with the K8's silent switches suiting open offices more than a gaming-oriented 75%.",
     table: {
       headers: ["Your switch preference", "Recommended pick"],
       rows: [
@@ -154,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want full VIA programmability combined with refined sound dampening, where the Keychron K10 Pro delivers both at the top of this tier." },
-      { label: "Save if", text: "You want maximum battery life without needing advanced remapping, where the standard Keychron K10 covers that for about $7 less." }
+      { label: "Save if", text: "You want maximum battery life without needing advanced remapping, where the standard Keychron K10 covers that for under $10 less." }
     ],
   }
 ];
@@ -184,8 +187,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Does the K10 Pro's VIA programmability work if I only ever use the keyboard on wireless mode?", "a": "You need to connect via wired USB-C mode to initially configure your key remapping and macros, but once set, the resulting keymap works on both wireless and wired modes going forward without needing to reconnect the cable each time." },
-  { "q": "What's the most common mistake buyers make when comparing battery life figures across wireless keyboards?", "a": "Comparing two stated battery life numbers without checking whether they were measured under the same backlight conditions, since a figure measured with the backlight off isn't directly comparable to one measured at a low brightness setting." },
-  { "q": "Is the Keychron K10 Pro worth it over the cheaper standard K10?", "a": "If you specifically want VIA programmability and refined sound dampening, yes, but if maximum battery life matters more and you don't need advanced remapping, the standard K10 covers that for about $7 less with significantly longer battery life." },
+  { "q": "Will Bluetooth lag matter on these wireless boards?", "a": "For typing and office work, no. Bluetooth is generally a poor fit for fast competitive games, though, so gamers should use the wired USB-C or 2.4GHz mode where offered. The Keychron K8 supports Bluetooth 5.1 plus wired USB-C at 1000Hz, which covers both cases." },
+  { "q": "Is the Keychron K10 Pro worth it over the cheaper standard K10?", "a": "If you specifically want VIA programmability and refined sound dampening, yes, but if maximum battery life matters more and you don't need advanced remapping, the standard K10 covers that for under $10 less with significantly longer battery life." },
   { "q": "How durable is the GravaStar's transparent chassis compared to a standard plastic case?", "a": "The listing specifically states the polycarbonate construction maintains structural stability for everyday competitive play, though a transparent chassis generally has somewhat different structural properties than a solid aluminum or reinforced case." },
   { "q": "Can the Keychron K8's silent switches still be heard at all, or are they completely quiet?", "a": "They're meaningfully quieter than standard clicky or linear switches due to internal dampeners reducing bottom-out noise, but no genuine mechanical switch eliminates typing sound entirely, so expect noticeably quieter rather than completely silent operation." },
   { "q": "Do any of these keyboards support connecting to a phone or tablet in addition to a computer?", "a": "Yes, the Keychron K10, K10 Pro, K8, and GravaStar picks all support Bluetooth connectivity to multiple device types including phones and tablets, in addition to their wired or 2.4GHz computer connections." }

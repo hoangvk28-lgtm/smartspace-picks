@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Flat Plug vs Standard Plug Design", "description": "Compared which picks use a space-saving flat plug versus a standard bulkier plug." },
-  { "title": "Joule Surge Protection Rating", "description": "Compared stated joule ratings across the lineup, from 1440J up to 4000J." },
-  { "title": "Outlet Spacing and Count", "description": "Compared total outlet count and spacing for accommodating bulky transformers and adapters." },
-  { "title": "Connected Equipment Warranty", "description": "Compared documented warranty and insurance coverage amounts across the lineup." },
-  { "title": "AV-Specific Features", "description": "Checked for noise filtering and other features specifically tuned for home theater equipment." }
+  {
+    "title": "Joule and clamping balance",
+    "description": "We compared listed joules, 1440J on the Tripp Lite, 3420J on the ECHOGEAR and 4000J on the Amazon Basics, and tried to find a voltage rating. Joules are a lifespan figure, while clamping voltage shows how much surge passes through, so we noted when a listing gave only joules."
+  },
+  {
+    "title": "Plug shape and clearance",
+    "description": "We checked the flat plug on the Tripp Lite and the wide spacing on the ECHOGEAR. A flat right-angle plug lets furniture sit flush to the wall, and wide spacing allows bulky chargers, both of which matter on a desk. At this price, a flat plug costs a few dollars more than a standard plug, so we asked whether the room layout justified the premium."
+  },
+  {
+    "title": "Home theater filtering",
+    "description": "The CyberPower lists EMI and RFI noise filtering plus transformer-spaced outlets. We credited it for audio and video gear but not for a plain desk, because noise filtering only matters for sensitive electronics. Wide spacing is useful when a desk has transformers and USB bricks, which tend to cover the neighboring socket."
+  },
+  {
+    "title": "Warranty terms",
+    "description": "We read the ECHOGEAR 5-year $25,000 warranty, the Tripp Lite $75,000 connected equipment policy and the CyberPower limited lifetime warranty. These are marketing promises with conditions, so we credited them lightly. The 5-year ECHOGEAR term is the longest here, but a 5-year warranty also hints at the replacement window you should plan around."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["A flat plug design with the highest warranty", "Eaton Tripp Lite TLP808B Flat Plug Surge Protector"],
-        ["Maximum joule protection at a lower price", "ECHOGEAR ShockBlocker 8 Outlet Surge Protector"],
-        ["Noise filtering for a home theater setup", "CyberPower HT812TC Home Theater Surge Protector"],
-        ["The highest joule rating at the lowest price", "Amazon Basics 12-Outlet Surge Protector, 4000 Joules"]
+    "subheading": "By Primary Need",
+    "intro": "At this price you can pick between desk, home theater and workstation use.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A flat plug that fits behind a desk or bed",
+          "Tripp Lite TLP808B Flat Plug Surge Protector, with an 8 foot cord"
+        ],
+        [
+          "Slim design with a high joule rating",
+          "ECHOGEAR ShockBlocker 8 Outlet Surge Protector, 3420J"
+        ],
+        [
+          "Home theater gear with noise filtering",
+          "CyberPower HT812TC Home Theater Surge Protector"
+        ],
+        [
+          "The most outlets and a breaker",
+          "Amazon Basics 12-Outlet 12-Outlet Surge Protector"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $20", "Amazon Basics (under $20)"],
-        ["Under $27", "CyberPower HT812TC (under $30)"],
-        ["Under $30", "ECHOGEAR ShockBlocker (under $30)"],
-        ["Under $35", "TLP808B (under $35)"]
+    "subheading": "By Budget",
+    "intro": "Prices run from under $25 to $35, so the differences are meaningful.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $25, the cheapest",
+          "Amazon Basics 12-Outlet, with 12 outlets and 4000J"
+        ],
+        [
+          "Under $30",
+          "CyberPower HT812TC, with filtering for AV gear"
+        ],
+        [
+          "Under $40",
+          "ECHOGEAR ShockBlocker, for the 3420J slim design and 5-year warranty"
+        ],
+        [
+          "Under $40",
+          "Tripp Lite TLP808B, for the flat plug and a $75,000 policy"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Flat Plug vs Standard Plug",
-    cards: [
-      { label: "Flat plug (TLP808B)", text: "Lets furniture sit flush against the wall, a genuine space saver in a tight room where a bulky plug would create a gap." },
-      { label: "Standard plug (ECHOGEAR, CyberPower, Amazon Basics)", text: "Works fine in most setups but requires slightly more clearance behind furniture than a flat plug design." }
+    "subheading": "Flat Plug vs Standard Plug",
+    "intro": "The plug shape changes where you can put the strip.",
+    "cards": [
+      {
+        "label": "Flat plug",
+        "text": "The Tripp Lite TLP808B lies flat against the wall, so a desk or bed can sit flush. It is ideal for tight rooms."
+      },
+      {
+        "label": "Standard plug",
+        "text": "The ECHOGEAR ShockBlocker, CyberPower HT812TC and Amazon Basics 12-Outlet stick out a few inches, which can push furniture away from the wall."
+      }
     ],
-    note: "If your surge protector will sit directly behind a couch, bed, or desk pushed against the wall, the TLP808B's flat plug avoids the gap a standard plug creates.",
+    "note": "In a small room, a flat plug is worth a few extra dollars."
   },
   {
-    subheading: "By Joule Rating Priority",
-    table: {
-      headers: ["Your protection priority", "Recommended pick"],
-      rows: [
-        ["Absolute highest joule rating", "Amazon Basics (4000J) or ECHOGEAR (3420J)"],
-        ["Solid protection with a flat plug", "TLP808B (1440J)"],
-        ["AV-specific filtering over raw joules", "CyberPower HT812TC"]
+    "subheading": "By Gear Type",
+    "intro": "Different gear wants different protection.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A TV and streaming box",
+          "CyberPower HT812TC, with EMI and RFI filtering"
+        ],
+        [
+          "A desk with several power bricks",
+          "ECHOGEAR ShockBlocker, with wide outlet spacing"
+        ],
+        [
+          "A PC tower and three monitors",
+          "Amazon Basics 12-Outlet, with 12 outlets and a breaker"
+        ],
+        [
+          "Furniture against the wall",
+          "Tripp Lite TLP808B, with a flat plug"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Room Where Furniture Sits Flush Against the Wall Specifically",
-    cards: [
-      { label: "Look for", text: "A flat plug design that doesn't create a gap between furniture and the wall, unlike a standard bulky plug." },
-      { label: "In this comparison", text: "The TLP808B's flat plug is specifically designed to let furniture move flush against the wall without obstruction." }
-    ],
+    "subheading": "For a Small Desk Setup Specifically",
+    "intro": "A small desk calls for a slim strip with spaced outlets.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A slim body, wide outlet spacing, safety covers and a UL listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "ECHOGEAR ShockBlocker lists a slim design with built-in safety covers and wide outlet spacing, which matches a small desk."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want a flat plug design and the highest documented warranty, where the TLP808B's $75,000 connected equipment insurance leads this comparison." },
-      { label: "Save if", text: "You want the highest raw joule rating without specialized features, where the Amazon Basics pick delivers 4000J for under $20." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $50 guide adds network and coax protection.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need ethernet, phone or coax protection. The under $50 guide includes the Tripp Lite TLP118DBNET with RJ45 and coax."
+      },
+      {
+        "label": "Save if",
+        "text": "You need basic protection. Amazon Basics 12-Outlet lists 4000J and 12 outlets at the lowest price."
+      }
+    ]
   }
 ];
 
@@ -183,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Does a flat plug design affect how well the surge protector actually works?", "a": "No, a flat plug is purely a physical space-saving design choice that doesn't affect the surge protection circuitry's performance; the TLP808B's flat plug and 1440J rating function independently of each other." },
-  { "q": "What's the most common mistake buyers make when comparing joule ratings at this price tier?", "a": "Assuming the highest joule rating always comes at the highest price, when the Amazon Basics pick actually offers the highest rating in this comparison at the lowest price, since joule rating and price don't necessarily scale together." },
-  { "q": "Is the TLP808B worth the price premium over the Amazon Basics pick's higher joule rating?", "a": "If a flat plug design and the highest documented $75,000 connected equipment warranty matter to you, yes, but if raw joule protection capacity at the lowest price is your priority, the Amazon Basics pick's 4000J rating exceeds the TLP808B's 1440J at a lower cost." },
-  { "q": "How much does EMI/RFI noise filtering on the CyberPower pick actually matter for a basic home office setup?", "a": "For general computing and office equipment without sensitive audio or video components, this filtering matters less, so a pick without it, like the Amazon Basics or TLP808B, would perform comparably for basic surge protection needs." },
-  { "q": "Do sliding or built-in safety covers reduce a surge protector's usable outlet count?", "a": "No, these covers simply close over unused outlets and open easily when you need to plug something in, so they don't reduce your actual usable outlet count, they just add a layer of protection when outlets aren't in active use." },
-  { "q": "Can I mount any of these surge protectors under a desk if I don't want them visible on the floor?", "a": "Yes, all four picks in this comparison include keyhole mounting slots or wall-mount compatible designs specifically supporting under-desk or wall installation, keeping the unit off the visible floor space." }
+  {
+    "q": "Why does clamping voltage matter?",
+    "a": "Clamping voltage, shown in UL 1449 as a Voltage Protection Rating, indicates how much of a surge passes through. Lower is better, and 330 to 400 V is commonly cited as good. Many listings show only joules, so look in the specifications."
+  },
+  {
+    "q": "Is the ECHOGEAR worth it over the Amazon Basics?",
+    "a": "If you value a slim body, wide spacing, safety covers and a 5-year warranty, yes. The Amazon Basics lists more outlets and joules, but a bulky body. For a desk with chargers, the ECHOGEAR is easier to live with."
+  },
+  {
+    "q": "Does a home theater surge protector protect my TV better?",
+    "a": "It adds EMI and RFI filtering, which cuts electrical noise on audio and video. The CyberPower lists transformer-spaced outlets and dust covers. The surge protection itself is similar, so it is only worth it for AV gear."
+  },
+  {
+    "q": "Why do plug types matter?",
+    "a": "A flat plug lets a bed or desk sit flush to the wall, while a standard plug sticks out. The Tripp Lite TLP808B has a flat plug and an 8 foot cord, which helps in small rooms. Measure the gap between your bed or desk and the wall before buying so you know how much plug depth you can spare."
+  },
+  {
+    "q": "How many devices can I plug into one strip?",
+    "a": "The total must stay under the 15A rating, or about 1875W. A PC, monitor and speakers fit, but heaters and kitchen appliances do not. Count the watts, not the outlets. If a device lists a high wattage, check that line on its label."
+  },
+  {
+    "q": "How long do surge protectors last?",
+    "a": "Commonly cited guidance is 3 to 5 years, shorter if the unit takes big surges. Replace it when the protected light goes out. Write the purchase date on the back. A visible crack or warm plug is a reason to replace it immediately."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

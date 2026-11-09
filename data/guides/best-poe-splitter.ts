@@ -84,70 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real Power Delivery and Output Voltage", "description": "Compared documented wattage and voltage output options across the picks." },
-  { "title": "Pass-Through and Multi-Device Capability", "description": "Compared whether each splitter can power an additional downstream device alongside its DC output." },
-  { "title": "Electrical Safety Protection", "description": "Compared overcurrent, overvoltage, and short-circuit protection disclosures." },
-  { "title": "Build Quality and Installation Flexibility", "description": "Compared plastic versus metal housing and mounting options." },
-  { "title": "Support and Compatibility Documentation", "description": "Compared named device compatibility lists and support channel accessibility." }
+  {
+    "title": "Output voltage and amperage match",
+    "description": "We checked that each splitter lists both voltage and current, because a 12V splitter rated at 1A cannot run a device that needs 2A, and a 12V unit on a 5V device can destroy it. The SICSOLINK's 12V at 2A and PoE Texas's 12W ceiling were the clearest. Read the amp number, not just the voltage."
+  },
+  {
+    "title": "Input standard versus PoE source",
+    "description": "We read which standard each unit expects, 802.3af at roughly 13W for the device or 802.3at and above. A 24W or 30W splitter on an af-only switch simply never reaches its rated output, so we flagged the mismatch risk. Check your switch's standard before ordering a 24W unit."
+  },
+  {
+    "title": "Gigabit versus 100Mbps passthrough",
+    "description": "We compared the data rate each splitter passes. SICSOLINK and IPCamPower run full Gigabit, enough for 4K surveillance, while cheaper units limit video bandwidth, so we weighted speed where a camera or access point is the load. Gigabit costs almost nothing extra at this tier."
+  },
+  {
+    "title": "Build, isolation and protection",
+    "description": "We weighed housing and protection, from LINOVISION's all-metal DIN-rail body to SICSOLINK's overcurrent, short-circuit and overvoltage protection. A splitter is a fixed install, so a rugged shell matters more than a lower price in a cabinet. Plastic is fine on a shelf, metal in a cabinet."
+  },
+  {
+    "title": "Extras and support",
+    "description": "We counted extras that change real use, such as IPCamPower's PoE pass-through that adds 328ft of reach and PoE Texas's phone support and 30-day return. These decide whether a splitter solves a problem or just converts power. Pass-through is the feature most buyers discover they needed too late."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Comprehensive protection at the lowest price", "SICSOLINK Gigabit Active PoE Splitter"],
-        ["To power a camera plus a separate 12V accessory", "IPCamPower Gigabit POE to 12V DC Converter"],
-        ["A named compatibility list and phone support", "PoE Texas 802.3af 12V PoE Splitter"],
-        ["An industrial metal build with 12V/24V selection", "LINOVISION Industrial 30W Gigabit PoE Splitter"]
+    "subheading": "By Device Power Draw",
+    "intro": "Add up what the device needs in watts before you pick a splitter.",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A 12V camera or router that needs up to 2A and Gigabit speed",
+          "SICSOLINK Gigabit Active PoE Splitter, with 24W at 12V"
+        ],
+        [
+          "A small 12V device that draws under 1A, like an Arduino board or a Wansview camera",
+          "PoE Texas 802.3af 12V PoE Splitter, with a 12W output and named compatibility list"
+        ],
+        [
+          "A 12V camera plus a second PoE device down the line",
+          "IPCamPower Gigabit POE to 12V DC Converter, which has PoE pass-through"
+        ],
+        [
+          "A 24V industrial sensor or a heavy 30W load",
+          "LINOVISION Industrial 30W Gigabit PoE Splitter, with selectable 12V or 24V output"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $10", "SICSOLINK Gigabit Active PoE Splitter (under $10)"],
-        ["Under $18", "PoE Texas 802.3af 12V PoE Splitter (under $20)"],
-        ["Under $30", "IPCamPower POE to 12V DC Converter (under $30)"],
-        ["Under $50", "LINOVISION Industrial 30W Splitter (under $50)"]
+    "subheading": "By Budget",
+    "intro": "These four range from single-digit pricing to the industrial tier.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup, under $10",
+          "SICSOLINK Gigabit Active PoE Splitter, which still delivers 24W and Gigabit"
+        ],
+        [
+          "A bit more for phone support and a 30-day return",
+          "PoE Texas 802.3af 12V PoE Splitter, the value pick with live help"
+        ],
+        [
+          "Up to the under $30 range for dual output",
+          "IPCamPower Gigabit POE to 12V DC Converter, the highest price after LINOVISION"
+        ],
+        [
+          "The under $50 industrial tier for cabinet installs",
+          "LINOVISION Industrial 30W Gigabit PoE Splitter, with a metal housing"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Single-Output Simplicity vs Dual-Output Versatility",
-    cards: [
-      { label: "Single-output simplicity (SICSOLINK, PoE Texas)", text: "Both convert PoE to a single 12V DC output, straightforward for powering one non-PoE device like a camera." },
-      { label: "Dual-output versatility (IPCamPower)", text: "Splits PoE into both a 12V DC output and a downstream PoE output, letting you power two separate devices from one cable run." }
+    "subheading": "Single Output vs Pass-Through",
+    "intro": "Whether you need to feed a second device decides the shape of splitter.",
+    "cards": [
+      {
+        "label": "Single output (SICSOLINK, PoE Texas)",
+        "text": "These convert PoE to one 12V connector. The wiring stays simple and the cost stays low, but the cable run ends at the splitter."
+      },
+      {
+        "label": "Pass-through (IPCamPower, LINOVISION)",
+        "text": "IPCamPower supplies 12V and passes PoE along to a downstream device, extending reach by 328ft. LINOVISION offers an optional passive PoE output for access points and bridges."
+      }
     ],
-    note: "If you only need to power one non-PoE device, the simpler single-output picks are more cost-effective. If you want to power both a camera and a separate 12V accessory like an IR illuminator, the IPCamPower's dual-output design is worth the higher price.",
+    "note": "Default to a single output unless a second PoE device sits farther down the same cable."
   },
   {
-    subheading: "By Output Voltage Need",
-    table: {
-      headers: ["Your device's voltage need", "Recommended pick"],
-      rows: [
-        ["Fixed 12V output", "SICSOLINK, IPCamPower, or PoE Texas"],
-        ["Selectable 12V or 24V output", "LINOVISION Industrial 30W Gigabit PoE Splitter"],
-        ["Passive PoE output for a wireless bridge", "LINOVISION Industrial 30W Gigabit PoE Splitter"]
+    "subheading": "By Install Location",
+    "intro": "Where the splitter lives matters as much as what it powers.",
+    "table": {
+      "headers": [
+        "Install spot",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Indoors beside a camera or router on a shelf",
+          "SICSOLINK Gigabit Active PoE Splitter, in a compact plastic case"
+        ],
+        [
+          "Inside an industrial control cabinet or on a DIN rail",
+          "LINOVISION Industrial 30W Gigabit PoE Splitter, with metal housing and DIN-rail mounting"
+        ],
+        [
+          "An indoor accessory run for IR lights, sirens or strobes",
+          "IPCamPower Gigabit POE to 12V DC Converter, which is indoor use only"
+        ],
+        [
+          "A desk project with a hobby board",
+          "PoE Texas 802.3af 12V PoE Splitter, with named Arduino compatibility"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Camera Plus Accessory Setup Specifically",
-    cards: [
-      { label: "Look for", text: "A splitter with genuine dual-output capability, powering both the camera's DC input and a separate accessory like an illuminator, rather than a single-output splitter you'd need to double up on." },
-      { label: "In this comparison", text: "The IPCamPower pick is specifically designed for exactly this dual-device scenario, sharing power between a 12V output and a PoE pass-through output." }
-    ],
+    "subheading": "For Security Camera Installs Specifically",
+    "intro": "Cameras fail in the field when the splitter cannot hold steady current.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A splitter whose amp rating exceeds the camera's draw, an input standard matching your switch, and Gigabit if the camera streams 4K."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SICSOLINK Gigabit Active PoE Splitter offers 12V at 2A with Gigabit speed at the lowest price, and LINOVISION covers 24V cameras."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want an industrial metal build with selectable 12V/24V output for a control cabinet or wireless bridge deployment, where the LINOVISION pick's under $50 price is justified by that flexibility." },
-      { label: "Save if", text: "You just need to convert PoE to 12V for a single camera, where the SICSOLINK pick delivers that for under $10, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The extra money buys flexibility, not just power.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need pass-through or selectable 12V/24V output, where IPCamPower and LINOVISION add features the budget picks lack."
+      },
+      {
+        "label": "Save if",
+        "text": "You power one 12V device on a standard switch, where SICSOLINK under $10 delivers 24W and Gigabit."
+      }
+    ]
   }
 ];
 
@@ -175,7 +260,7 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can a PoE splitter power both a camera and a separate accessory like a light or siren?", "a": "Only the IPCamPower pick in this comparison specifically offers this dual-output capability, splitting incoming PoE into both a 12V DC output and a downstream PoE output, letting you power two devices from one cable run." },
+  { "q": "Can a PoE splitter power both a camera and a separate accessory like a light or siren?", "a": "Yes, with the right unit. IPCamPower's splitter outputs 12V DC and passes PoE through to a second device, and its listing mentions IR illuminators, sirens and strobes. Its input is up to 30W with 27W shared between the outputs, so add up both loads before choosing, because a siren plus a camera can exceed that." },
   { "q": "What's the most common mistake buyers make when choosing a PoE splitter?", "a": "Assuming any PoE splitter provides pass-through or multi-device capability, when most splitters, including three of the four picks in this comparison, only provide a single DC output without any additional pass-through function." },
   { "q": "Is the LINOVISION splitter worth the higher price over the SICSOLINK pick?", "a": "If you specifically need an industrial metal build with selectable 12V/24V output for a control cabinet or wireless bridge deployment, the LINOVISION's higher price is justified, but for a basic camera installation, the SICSOLINK pick delivers comparable core function for much less." },
   { "q": "How do I know if a PoE splitter is compatible with my specific camera model?", "a": "Checking a listing's specifically named compatible device list, like the PoE Texas pick's list including Foscam, Wansview, and other named brands, or verifying your camera's exact voltage and connector requirements against the splitter's specifications, is the reliable way to confirm compatibility." },

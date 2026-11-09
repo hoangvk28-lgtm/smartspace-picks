@@ -69,7 +69,7 @@ export const products: GuideProduct[] = [
     ],
     "cons": [
       "Only 1L capacity",
-      "Costs about $50"
+      "Costs under $60"
     ],
     "bestFor": "Pour-over coffee with holding"
   },
@@ -191,47 +191,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Keep-warm duration and range",
-    "explanation": "Keep-warm cycles the element to hold water near a set temperature, and listings give anything from 30 minutes to 4 hours. This matters because a short window forces a reboil. Read the number of minutes or hours, and whether the hold is at your chosen preset."
+    "explanation": "Keep-warm cycles the element to hold water near a set temperature, and listings give anything from 30 minutes to 4 hours. This matters because a short window forces a reboil. Read the number of minutes or hours, and whether the hold is at your chosen preset. Hold times range from 30 minutes on the Viante Alba to 4 hours on the 1.0L model, so match the duration to how long you drink."
   },
   {
     "criterion": "Hold temperature",
-    "explanation": "A hold at 176F to 185F suits tea, but not a coffee that needs 195F or more. Water also keeps cooling slowly if the hold is weak. Check what temperature the hold targets."
+    "explanation": "A hold at 176F to 185F suits tea, but not a coffee that needs 195F or more. Water also keeps cooling slowly if the hold is weak. Check what temperature the hold targets. A hold of 176F to 185F suits tea but not coffee, so check the range on the Seydere against the drink you brew."
   },
   {
     "criterion": "Standby energy use",
-    "explanation": "A kettle in keep-warm mode keeps drawing power in cycles, which adds up if left on all day. Energy claims for this are rarely documented. Switch it off when you leave."
+    "explanation": "A kettle in keep-warm mode keeps drawing power in cycles, which adds up if left on all day. Energy claims for this are rarely documented. Switch it off when you leave. Keep warm cycles the element and draws power, so use it with a timer or switch it off when leaving the desk."
   },
   {
     "criterion": "Glass versus steel body",
-    "explanation": "Glass lets you see the level and scale but shows buildup faster and cracks if dropped. Steel hides scale and is sturdier. Check that glass is named borosilicate."
+    "explanation": "Glass lets you see the level and scale but shows buildup faster and cracks if dropped. Steel hides scale and is sturdier. Check that glass is named borosilicate. Glass like the NELO shows level and scale, but cracks if knocked, so pick steel on the COMFEE for a busy room."
   },
   {
     "criterion": "Presets versus single hold",
-    "explanation": "Six or thirteen presets let you brew different drinks, but a single hold button is simpler. If you only drink tea, one setting is enough. Count the presets in the bullets."
+    "explanation": "Six or thirteen presets let you brew different drinks, but a single hold button is simpler. If you only drink tea, one setting is enough. Count the presets in the bullets. Thirteen presets on the Elite Gourmet sound useful, but a single hold on the Seydere may suffice, so count the drinks you actually make."
   },
   {
     "criterion": "Safety listing",
-    "explanation": "Marks like cETL or ETL mean a lab checked the electrical design. This matters because the element runs long hours in keep-warm. Look for the mark in the photos or bullets."
+    "explanation": "Marks like cETL or ETL mean a lab checked the electrical design. This matters because the element runs long hours in keep-warm. Look for the mark in the photos or bullets. Marks like cETL on the NELO show lab tested electrical design, which matters for a kettle that stays powered for hours."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Keep-warm specifics",
-    "description": "We compared listed hold durations and temperatures instead of counting a keep-warm label alone."
+    "title": "Hold duration",
+    "description": "We compared how long each kettle holds heat: the Elite Gourmet EKT3001 and COMFEE hold up to 2 hours, the Viante Alba 30 minutes, and the unbranded 1.0L model 4 hours. A longer hold suits an all morning tea session, but we also weighed whether the extra hours justify the standby draw."
   },
   {
-    "title": "Temperature control",
-    "description": "Preset counts and custom settings were weighed for tea and coffee use."
+    "title": "Hold temperature range",
+    "description": "The Seydere holds 176F to 185F, which suits tea but not a coffee that wants 195F or more. We looked at preset counts too: the Elite Gourmet lists 13 presets plus 3 custom, the 1.0L model 7 settings from 115F to 212F, and the COMFEE 6 presets."
   },
   {
-    "title": "Materials",
-    "description": "Glass and stainless steel water-contact claims were compared with plastic mentions."
+    "title": "Safety listing and thermostat",
+    "description": "We noted the Strix thermostat on the COMFEE and Seydere, and the cETL listing on the NELO. A listed kettle has been checked by a lab for its electrical design, which matters for a heater that sits powered for hours on a desk."
   },
   {
-    "title": "Capacity and price",
-    "description": "Liters and prices were compared with the documented feature set."
+    "title": "Body material",
+    "description": "The Viante Alba uses borosilicate glass with an infuser, and the NELO has a glass window. Glass shows the level and scale but cracks if knocked, while the COMFEE steel build hides scale. We weighed visibility against durability for a kettle that stays on all day."
+  },
+  {
+    "title": "Capacity and footprint",
+    "description": "Keep warm is most useful with a larger volume. The COMFEE, Seydere and NELO hold 1.7L, while the Elite Gourmet and the 7 temperature unit hold 1L. A smaller kettle cools faster, so we favored larger bodies for long holds. A 1.7L body also stays hot longer than a 1L one when idle."
   }
 ];
 
@@ -367,28 +371,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "How long does keep-warm last?",
-    "a": "It depends on the model: the listings here range from 30 minutes to 4 hours. Check the number before buying."
+    "q": "What is keep warm in an electric kettle?",
+    "a": "It cycles the element to hold the water near a set temperature after heating, so a second cup does not need a full reboil. Hold times in this list run from 30 minutes on the Viante Alba to 4 hours on the 1.0L 7 temperature kettle."
   },
   {
-    "q": "Does keep-warm use a lot of electricity?",
-    "a": "It cycles the element on and off to hold temperature, which adds up over a day. Turn it off when you leave."
+    "q": "Is a 176F to 185F hold hot enough for coffee?",
+    "a": "Not for most methods, which want 195F or more. The Seydere holds 176F to 185F, which suits green and white tea. For coffee, choose a kettle with a higher preset range such as the Elite Gourmet or the COMFEE."
   },
   {
-    "q": "Is keep-warm worth it over a vacuum flask?",
-    "a": "A kettle keeps water at a set temperature with power, while a flask holds it with insulation only. If you want power-free holding, an insulated kettle could suit you better."
+    "q": "Does keep warm use a lot of electricity?",
+    "a": "It uses power in cycles, so it adds up when left on for hours. A 1.0L model holding for 4 hours draws steadily, and a 30 minute hold like the Viante Alba finishes sooner. Switch it off when you leave."
   },
   {
-    "q": "Can I leave the kettle on keep-warm overnight?",
-    "a": "We would not. Even with auto shut-off, there is no reason to run a heater unattended, so switch it off."
+    "q": "Is the Elite Gourmet worth it over the COMFEE?",
+    "a": "Choose the Elite Gourmet for the gooseneck spout and 13 presets plus 3 custom, and the COMFEE for the 1.7L capacity and a 2 hour hold with a Strix thermostat. A gooseneck suits pour over, while the COMFEE suits a family."
   },
   {
-    "q": "Why is my keep-warm water cooler than the preset?",
-    "a": "Holds usually cycle within a range. Seydere, for example, lists 176F to 185F, so expect variation."
+    "q": "Is glass or stainless better for keep warm?",
+    "a": "Glass lets you see the water level and scale, as on the NELO and Viante Alba, but it cracks if knocked. Steel hides scale and survives a busy kitchen. Pick glass if it stays on a counter and steel if it travels."
   },
   {
-    "q": "How do I clean a glass kettle?",
-    "a": "Boil a mix of water and white vinegar or citric acid, let it sit and rinse. Glass shows scale quickly in hard water."
+    "q": "How do I clean a keep warm kettle?",
+    "a": "Descale about monthly with equal parts vinegar and water, let it sit, then rinse and boil clean water. Keeping water warm for hours encourages scale, so rinse the kettle before long holds and empty it afterward."
   }
 ];
 

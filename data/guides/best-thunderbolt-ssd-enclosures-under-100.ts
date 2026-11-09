@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Warranty Structure", "description": "Compared tiered warranty offerings and stated coverage length across the lineup." },
-  { "title": "Certification Claims", "description": "Distinguished genuine Intel-certified Thunderbolt technology from broader compatibility claims." },
-  { "title": "Installation Method", "description": "Compared tool-free versus screwdriver-required installation across all four picks." },
-  { "title": "Port Compatibility", "description": "Checked Thunderbolt-only versus broader USB4 and backward compatibility." },
-  { "title": "Brand Quality Assurance", "description": "Compared stated in-house testing processes and brand track record." }
+  {
+    "title": "Real-world performance",
+    "description": "We compared the OWC Express 1M2 figure of up to 3836MB/s and the ICY BOX 10GB in under 7 seconds claim with the other listings. These are vendor numbers, so we used them for ranking and weighed how clearly each explains test conditions. We also looked at whether each listing states the test conditions, since a best-case figure on a premium SSD says little about a mid-range drive."
+  },
+  {
+    "title": "Thunderbolt generation",
+    "description": "We separated the Thunderbolt 3 only SABRENT from the 40Gbps Thunderbolt 4 and USB4 picks. The SABRENT is Intel-certified but requires a genuine Thunderbolt 3 port, while the others also work with USB4, so host flexibility counted. A Thunderbolt 3 port is common on 2016 to 2020 laptops, which is why a Thunderbolt 3 only enclosure still has a real audience."
+  },
+  {
+    "title": "Build and heat dissipation",
+    "description": "We read the OWC patented heat dissipation, the Lexar aircraft-grade aluminum and the ICY BOX fanless design. Under $100, a metal chassis is the main heat tool, and sustained writes to a Gen4 NVMe can still reach 80C without airflow. A solid metal shell can wick away heat from the SSD, but only if the thermal pad touches the controller and flash."
+  },
+  {
+    "title": "Warranty and support",
+    "description": "We recorded the OWC 2-3 year tiered warranty with cable and screwdriver included, the Lexar quality-lab claim and the ICY BOX 24-month warranty. At under $100, buyers are paying for backup and a clear return path. The cheapest pick here is also the one with the shortest stated warranty, so we balanced price against coverage."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +112,127 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["A flexible tiered warranty with a complete accessory package", "OWC Express 1M2 40Gb/s Portable NVMe SSD Enclosure"],
-        ["Genuinely tool-free installation with quality lab testing", "Lexar E750 40Gbps M.2 NVMe SSD Enclosure"],
-        ["Intel-certified genuine Thunderbolt 3 technology", "SABRENT Thunderbolt 3 M.2 NVMe SSD Enclosure"],
-        ["Established engineering with the most flexible port compatibility", "ICY BOX 40Gbps M.2 NVMe SSD Enclosure, Tool-Free Aluminum"]
+    "subheading": "By Priority",
+    "intro": "Each pick wins a different priority.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A Mac-focused brand with a multi-year warranty and cable included",
+          "OWC Express 1M2 Portable NVMe SSD Enclosure, with 3836MB/s listed"
+        ],
+        [
+          "A tool-free, aircraft-grade aluminum case that closes quickly",
+          "Lexar E750 M.2 NVMe SSD Enclosure, Thunderbolt 4 compatible"
+        ],
+        [
+          "An older Thunderbolt 3 Windows laptop or Intel Mac",
+          "SABRENT Thunderbolt 3 M.2 NVMe SSD Enclosure, Intel-certified"
+        ],
+        [
+          "The lowest price among the 40Gbps picks, fanless",
+          "ICY BOX Tool-Free Aluminum, compatible with Thunderbolt 3/4 and USB4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $80", "ICY BOX (under $80)"],
-        ["Under $89", "OWC (under $90)"],
-        ["Under $90", "Lexar E750 or SABRENT (both under $90)"]
+    "subheading": "By Budget",
+    "intro": "Prices cluster tightly between under $100 and $90.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $100",
+          "ICY BOX, the lowest price and a fanless 40Gbps unit"
+        ],
+        [
+          "Under $100",
+          "OWC Express 1M2, for the warranty and heat design"
+        ],
+        [
+          "Under $100",
+          "Lexar E750 or SABRENT Thunderbolt 3, depending on whether you need USB4 flexibility"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Genuine Thunderbolt 3 Certification vs Broader USB4 Compatibility",
-    cards: [
-      { label: "Genuine Thunderbolt 3 (SABRENT)", text: "Provides formal Intel certification specifically for Thunderbolt 3, but requires a genuine Thunderbolt 3 port and won't work with standard USB-C." },
-      { label: "Broader USB4/Thunderbolt compatibility (OWC, Lexar, ICY BOX)", text: "Works across a wider range of port types including USB4 and standard USB-C, more flexible for varied device connections." }
+    "subheading": "Thunderbolt 3 Only vs 40Gbps Universal",
+    "intro": "The SABRENT is a Thunderbolt 3 product, while the rest use a USB4 style controller.",
+    "cards": [
+      {
+        "label": "Thunderbolt 3 only",
+        "text": "SABRENT Thunderbolt 3 needs a genuine Thunderbolt 3 port. It has a detachable cable and an Intel certification, which gives a clear compatibility story on a Thunderbolt 3 computer."
+      },
+      {
+        "label": "40Gbps universal",
+        "text": "OWC Express 1M2, Lexar E750 and ICY BOX list Thunderbolt 3, 4 and USB4 compatibility, so they work with newer laptops and still run on older ports."
+      }
     ],
-    note: "If you specifically have a Thunderbolt 3 port and want formally certified technology, the SABRENT pick delivers that. If you need broader compatibility across different computers and port types, the other three picks offer more flexibility.",
+    "note": "Unless you own only a Thunderbolt 3 machine and want Intel certification, take a universal 40Gbps enclosure."
   },
   {
-    subheading: "By Installation Preference",
-    table: {
-      headers: ["Your installation preference", "Recommended pick"],
-      rows: [
-        ["Fully tool-free, no screwdriver needed", "Lexar E750, SABRENT, or ICY BOX"],
-        ["Comfortable using an included screwdriver", "OWC (screwdriver included)"]
+    "subheading": "By Drive Handling",
+    "intro": "Install effort differs across these enclosures.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Tool-free installation",
+          "Lexar E750 or ICY BOX"
+        ],
+        [
+          "A screwdriver and cable included in the box",
+          "OWC Express 1M2"
+        ],
+        [
+          "A detachable cable if the cable fails",
+          "SABRENT Thunderbolt 3"
+        ],
+        [
+          "Longer warranty for an expensive 4TB drive",
+          "OWC Express 1M2, with the 2-3 year tiered warranty"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Buyer Prioritizing Long-Term Warranty Security Specifically",
-    cards: [
-      { label: "Look for", text: "A tiered warranty structure that extends coverage further when purchasing a complete solution, rather than a single flat warranty period regardless of configuration." },
-      { label: "In this comparison", text: "The OWC pick's tiered warranty specifically extends to 3 years when purchased as a complete solution with an OWC SSD, longer than the flat 24-month coverage on the ICY BOX pick." }
-    ],
+    "subheading": "For Photographers and Video Editors Specifically",
+    "intro": "Large camera files need sustained speed and trustworthy support.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A warranty of at least 2 years, a metal body for heat and a controller that holds speed after a long copy."
+      },
+      {
+        "label": "In this comparison",
+        "text": "OWC Express 1M2 lists a 2-3 year warranty and 3836MB/s, and Lexar E750 lists Lexar quality-lab testing, so both suit photographers."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want a flexible tiered warranty with a complete accessory package, where the OWC pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want established brand engineering with flexible compatibility, where the ICY BOX pick covers that for about $9 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Above $100, Thunderbolt 5 enclosures add 80Gbps.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a Thunderbolt 5 laptop and a Gen5 SSD. The under $150 guide covers 80Gbps models that reach 6000MB/s or more."
+      },
+      {
+        "label": "Save if",
+        "text": "You have a Thunderbolt 4 or USB4 laptop. ICY BOX reaches the same 40Gbps for less."
+      }
+    ]
   }
 ];
 
@@ -181,12 +260,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the SABRENT Thunderbolt 3 enclosure work with a Thunderbolt 4 or USB4 port on a newer computer?", "a": "The listing specifically states the enclosure requires a genuine Thunderbolt 3 port and explicitly notes it is not compatible with USB-C ports, so while Thunderbolt 4 ports are generally backward compatible with Thunderbolt 3 devices, confirming your specific port's Thunderbolt 3 compatibility before purchase is worth doing to avoid connectivity issues." },
-  { "q": "What's the most common mistake buyers make when choosing an OWC enclosure for its warranty benefits?", "a": "Assuming the extended 3-year warranty tier applies automatically regardless of what SSD you install, when the extended coverage specifically requires purchasing the enclosure as a complete solution paired with an OWC-branded SSD, so using a third-party SSD keeps you at the shorter 2-year enclosure-only warranty." },
-  { "q": "Is the OWC pick worth it over the cheaper ICY BOX option?", "a": "If you specifically want a flexible tiered warranty structure with a complete accessory package including a screwdriver, yes, but if established brand engineering with the most flexible Thunderbolt and USB4 compatibility matters more, the ICY BOX pick covers that for about $9 less." },
-  { "q": "How do I know if my computer's Thunderbolt port is genuine Thunderbolt 3 versus just a compatible USB-C port?", "a": "Check your computer manufacturer's official specifications for the exact port designation, since genuine Thunderbolt 3 ports are typically marked with a lightning bolt icon on the physical port itself, distinguishing them from standard USB-C ports that may look similar but lack Thunderbolt certification." },
-  { "q": "Do these enclosures come with the M.2 NVMe SSD included, or is that purchased separately?", "a": "No, all four picks in this comparison are enclosures only, requiring a separately purchased compatible M.2 NVMe SSD to be installed before use, so budget for that additional cost when planning your total purchase." },
-  { "q": "Can I use the Lexar E750's in-house quality lab testing claim as a substitute for checking independent reviews?", "a": "In-house testing claims provide some assurance of manufacturer quality control, but checking independent buyer feedback and reviews alongside manufacturer claims gives a more complete picture of real-world reliability, since self-reported testing claims aren't independently verified the way a third-party certification would be." }
+  {
+    "q": "Is the OWC worth the extra over the ICY BOX?",
+    "a": "If you want a longer warranty, a cable and screwdriver in the box and a Mac-focused brand, yes. The ICY BOX lists the same 40Gbps class and a 24-month warranty at a lower price, so it is the value choice. If you plan to edit video directly from the drive, the extra warranty on the OWC is easier to justify."
+  },
+  {
+    "q": "Will the SABRENT work on a USB4 laptop?",
+    "a": "It lists Thunderbolt 3 only and requires a genuine Thunderbolt 3 port. A USB4 laptop may work as USB4 is designed to be backward compatible, but check the maker's note first. The other three picks list explicit USB4 support."
+  },
+  {
+    "q": "How fast is 3836MB/s in practice?",
+    "a": "It is the OWC listed real-world figure on a high-end SSD and host. Your results depend on the SSD, the cable and heat. Expect a lower figure with a slower drive, a longer cable or a laptop sharing bandwidth with a dock."
+  },
+  {
+    "q": "Does tool-free installation hold the SSD securely?",
+    "a": "Yes, if you seat the SSD and press the retaining clip fully. Check that the thermal pad touches both the controller and flash. If the pad is too thin, add a thicker pad or the SSD may run hotter. If the SSD wobbles, power off and reseat it rather than forcing the clip."
+  },
+  {
+    "q": "Can I use the enclosure for a boot drive?",
+    "a": "Yes on many Macs and PCs, but the drive must be formatted and recognized by the system at startup. Check your computer's notes for external boot. Slower hosts may add a delay. Check the manufacturer notes for your computer model and format before you rely on it."
+  },
+  {
+    "q": "How do I keep the enclosure cool during long copies?",
+    "a": "Place it where air can reach the aluminum, keep it off soft surfaces and avoid stacking it on a warm laptop. Sustained writes can push a Gen4 SSD past 80C, so pause large copies if it is hot to touch. If the case feels too hot to touch, let it rest for a few minutes before carrying it."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

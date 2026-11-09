@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31vzNxiPxkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D41XBXJ4?tag=deskfinds0d-20",
-    description: "This injector's listing specifically states support for both 11-48V DC input and 11-36V AC input, a broader power source flexibility than the DC-only picks in this comparison, boosting either to a regulated 48V PoE output. Its 2 independent output ports each support up to 30W 802.3at PoE+, with a stated total power output of 60W combined.\n\nCompared to the 90W 2-port pick above, this one costs about $13 less for a lower per-port ceiling, a reasonable tradeoff if your two devices don't individually need more than 30W.\n\nBest for buyers who specifically need AC input flexibility alongside DC, powering two standard 30W devices from one compact unit.",
+    description: "This injector's listing specifically states support for both 11-48V DC input and 11-36V AC input, a broader power source flexibility than the DC-only picks in this comparison, boosting either to a regulated 48V PoE output. Its 2 independent output ports each support up to 30W 802.3at PoE+, with a stated total power output of 60W combined.\n\nCompared to the 90W 2-port pick above, this one costs under $15 less for a lower per-port ceiling, a reasonable tradeoff if your two devices don't individually need more than 30W.\n\nBest for buyers who specifically need AC input flexibility alongside DC, powering two standard 30W devices from one compact unit.",
     specs: ["2 ports, up to 30W each, 60W total", "11-48V DC or 11-36V AC input", "35mm DIN-rail and wall mount included"],
     pros: ["Accepts both AC and DC input, unlike the DC-only picks", "Two independent ports in one compact unit", "Lower price than the 90W 2-port alternative"],
     cons: ["Lower per-port power ceiling than the 90W 2-port pick", "No stated NDAA compliance"],
@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "DC/AC Input Flexibility", "description": "Compared each listing's stated input voltage range and whether it accepts AC in addition to DC." },
-  { "title": "Power Output Ceiling", "description": "Compared maximum wattage output relative to the input voltage actually available in a typical cabinet." },
-  { "title": "Port Count", "description": "Compared single-port units against 2-port units for powering multiple devices from one location." },
-  { "title": "Industrial Certifications", "description": "Compared NDAA compliance and documented EMS/surge certifications across listings." },
-  { "title": "DIN-Rail Mount Compatibility", "description": "Confirmed each listing includes standard 35mm DIN-rail mounting hardware." }
+  {
+    "title": "Input voltage against your cabinet supply",
+    "description": "The xoxnikior accepts 12 to 48VDC, the 2-channel 90W unit 12 to 56VDC, and the 2-channel 30W unit 11 to 48VDC or 11 to 36VAC. We matched each against common cabinet rails of 12V, 24V and 48V, because an injector that needs a supply you do not have forces an extra converter."
+  },
+  {
+    "title": "Output depends on input",
+    "description": "The xoxnikior delivers 95W from 24V but only 60W from 12V, a mapping that headline wattage hides. We read every listing for this conversion, since a buyer on a 12V rail who buys for 95W will be short by 35W on the device side. Check your rail voltage against that table before ordering."
+  },
+  {
+    "title": "Port count and panel space",
+    "description": "Two of the four are 2-channel units that power two devices from one DIN-rail footprint. We compared that against buying two single-port injectors, counting the width saved on a rail and the extra power-supply wiring avoided. A single rail slot is often the real constraint in a crowded cabinet."
+  },
+  {
+    "title": "Surge, ESD and industrial standards",
+    "description": "The xoxnikior lists 6kV surge protection and the TRENDnet TI-IG30 lists 6kV surge with 8kV ESD protection and a 3-year warranty. We rewarded documented figures and named industrial certifications over a generic industrial grade label. Look for the figures on the datasheet, not just the product title."
+  },
+  {
+    "title": "Mounting and temperature range",
+    "description": "All four clip to a 35mm DIN rail, three also mount on a wall, and the temperature ranges run roughly -40F to 176F on xoxnikior and -40C to 75C on the 90W unit. We checked these against unheated panel installs, where the low end of the range does the real work."
+  }
 ];
 
 export const howToChoose = [
@@ -178,7 +193,7 @@ export const faq = [
   { "q": "Can I power an industrial DIN-rail PoE injector from a 12V cabinet supply?", "a": "Yes, several industrial injectors specifically accept 12V input and boost it to a regulated 48V PoE output, though check the specific wattage ceiling at 12V input since it's often lower than the unit's maximum rated output at a higher input voltage." },
   { "q": "Do I need NDAA compliance for a commercial industrial installation?", "a": "Only if your specific project has a government or government-adjacent procurement requirement; a private commercial or industrial installation typically has no such requirement and gains no functional benefit from paying extra for it." },
   { "q": "Is a 2-port DIN-rail injector better than two single-port units?", "a": "It saves panel space and installation complexity when you need to power two devices from the same cabinet location, though a single high-power port injector may offer a higher per-device wattage ceiling if you only need to power one device." },
-  { "q": "What temperature range should an industrial PoE injector handle?", "a": "Most industrial-grade units in this comparison handle -40C to 75C or wider, suitable for unheated outdoor cabinets, roadside enclosures, and pump houses without additional climate control." },
+  { "q": "What temperature range should an industrial PoE injector handle?", "a": "Look for a window that covers the coldest and hottest the cabinet will see, not the room around it. The xoxnikior lists -40F to 176F and the 90W 2-channel unit -40C to 75C, which suits most outdoor panels, while an unlisted range means you should treat the injector as indoor only." },
   { "q": "Can an industrial PoE injector accept AC power instead of DC?", "a": "Most industrial DIN-rail injectors are DC-input only, but at least one listing in this comparison specifically accepts 11-36V AC input directly, removing the need for a separate AC-to-DC conversion step." },
   { "q": "What happens if my cabinet's voltage doesn't match the injector's stated maximum power voltage?", "a": "You'll typically still get PoE output, but potentially at a reduced maximum wattage than the injector's headline rating, since output capability at lower input voltages is usually reduced from the peak rating." }
 ];

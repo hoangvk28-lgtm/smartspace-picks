@@ -217,24 +217,24 @@ export const products: GuideProduct[] = [
 
 export const howWeEvaluated = [
   {
-    "title": "Video and display support",
-    "description": "Each hub was compared on its HDMI or display outputs, listed refresh rate at 4K and any note about Mac or Windows limits."
+    "title": "Display capability and monitor count",
+    "description": "We compared video outputs, noting that the Belkin 7-Port offers HDMI 2.0 4K, the Anker 10-in-1 adds a 1080p VGA, and the Anker 7-in-1 Dual HDMI drives two 1080p@60Hz screens. At this tier, how many monitors a hub can drive decides the pick more than its port count. Mac displays often mirror instead of extend on dual hubs, as the Anker 7-in-1 Dual HDMI warns."
   },
   {
-    "title": "Power pass-through",
-    "description": "Listed charging wattage and how much the hub reserves for itself were weighed against typical laptop chargers."
+    "title": "Data speed on every port",
+    "description": "We recorded port speeds, such as 10Gbps per port on the Satechi, Belkin 4-in-1 and StarTech, against 5Gbps on the Belkin 7-Port and Anker 10-in-1. External SSD users should look for 10Gbps ports, since a slow port quietly halves transfer speed. The StarTech shares one port among its four, so only three run at the full 10Gbps."
   },
   {
-    "title": "Ports and speeds",
-    "description": "Port count, USB-A and USB-C mix and the listed data speeds were compared."
+    "title": "Charging and power budget",
+    "description": "We checked wattage, including 100W PD on the Belkin and Satechi and 85W on the Anker pair. A hub that draws power for its own ports leaves less for the laptop, so we read the listed pass-through, not just the headline number. Hubs reserve some wattage for their own ports, so a 100W input leaves less than 100W for the laptop."
   },
   {
-    "title": "Build and layout",
-    "description": "Materials, cable design and port spacing were considered as signs of daily-use quality."
+    "title": "Video-free docks versus full hubs",
+    "description": "We separated video-free picks, such as the Satechi, Belkin 4-in-1, StarTech and EJAY, from hubs with HDMI. A data-only hub is smaller and faster, but cannot drive a monitor, so we judged each against the job it is built for. Mac owners should read the Anker Dual HDMI caveat, because extended mode is not guaranteed."
   },
   {
-    "title": "Value at this price",
-    "description": "Price was weighed against display support and port speed, with extra weight on whether a data-only hub is actually the right tool."
+    "title": "Mac and driver caveats",
+    "description": "We noted the Anker 7-in-1 Dual HDMI shows two mirrored screens on a Mac, and the StarTech needs no drivers. Mac buyers often hit extended-display limits, so a stated caveat counted against a pick for that audience. The Satechi and Belkin 4-in-1 cost about the same as HDMI hubs yet carry no video."
   }
 ];
 
@@ -248,8 +248,8 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Use",
-    "intro": "Pick the job.",
+    "subheading": "By Display Setup",
+    "intro": "Decide how many screens you drive before you decide anything else.",
     "table": {
       "headers": [
         "Your situation",
@@ -257,104 +257,128 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Trusted brand",
-          "Belkin 7-Port USB-C Hub"
+          "One 4K monitor plus card slots",
+          "Belkin 7-Port USB-C Hub lists HDMI 2.0 4K along with SD and microSD."
         ],
         [
-          "Two monitors",
-          "Anker 7-in-1 Dual HDMI"
+          "Two 1080p monitors on Windows",
+          "Anker 7-in-1 Dual HDMI drives two 1080p@60Hz screens."
         ],
         [
-          "Old projectors",
-          "Anker 10-in-1"
+          "One 4K screen plus an older VGA projector",
+          "Anker 10-in-1 pairs 4K HDMI with a 1080p VGA port."
         ],
         [
-          "Fast data",
-          "Satechi 4-in-1 or Belkin 4-in-1 10Gbps"
+          "Monitor already connected to the laptop",
+          "Satechi 4-in-1 gives four 10Gbps USB-C ports with no video."
         ],
         [
-          "IT work",
-          "StarTech 4-Port"
+          "Monitor on a dock, drives on the hub",
+          "Belkin 4-in-1 10Gbps keeps 10Gbps per port and audio support."
         ]
       ]
-    }
+    },
+    "note": "A hub with no video port cannot add a monitor, whatever the laptop supports."
   },
   {
     "subheading": "By Budget",
+    "intro": "These picks all fall in the $30 to $50 bucket, so decide which feature you pay for.",
     "table": {
       "headers": [
-        "Budget",
+        "What matters most",
         "Pick from this guide"
       ],
       "rows": [
         [
-          "$30 to $35",
-          "EJAY Clamp 4-Port, Anker 7-in-1 Dual HDMI or Belkin 7-Port USB-C Hub"
+          "Broadest port mix for the money",
+          "Anker 10-in-1 combines HDMI, VGA, USB-C and three USB-A ports."
         ],
         [
-          "$35 to $40",
-          "Anker 10-in-1, StarTech 4-Port, Satechi 4-in-1 or Belkin 4-in-1 10Gbps"
+          "Safest charging brand",
+          "Belkin 7-Port USB-C Hub lists 100W PD and a 6-point safety system."
+        ],
+        [
+          "Two screens",
+          "Anker 7-in-1 Dual HDMI is the only dual-display model here."
+        ],
+        [
+          "Fastest data on a desk",
+          "Satechi 4-in-1 offers four 10Gbps USB-C ports in aluminum."
+        ],
+        [
+          "Compact desk-edge clip",
+          "EJAY Clamp 4-Port clips on and carries dual cables."
         ]
       ]
-    }
+    },
+    "note": "Ignore the sub-$30 hubs unless you need only ports; this tier adds 10Gbps and dual video."
   },
   {
-    "subheading": "Video Hub vs Data Hub",
-    "intro": "Under $50 the real split is between hubs that drive screens and hubs built only for data.",
+    "subheading": "10Gbps data vs HDMI video",
     "cards": [
       {
-        "label": "Video hub",
-        "text": "Sends a picture to a monitor through HDMI or VGA and charges the laptop, so one cable can run your desk. Belkin 7-Port USB-C Hub, Anker 7-in-1 Dual HDMI and Anker 10-in-1 are video hubs."
+        "label": "10Gbps data hubs",
+        "text": "Move external SSD files at up to twice the speed of 5Gbps ports and keep the laptop cool, but carry no screen. Satechi 4-in-1, Belkin 4-in-1 10Gbps, StarTech 4-Port and EJAY Clamp 4-Port are in this group."
       },
       {
-        "label": "Data hub",
-        "text": "Skips video and puts every port at 10Gbps, so fast SSDs and peripherals run at full speed. Satechi 4-in-1, Belkin 4-in-1 10Gbps, StarTech 4-Port and EJAY Clamp 4-Port are data hubs."
+        "label": "HDMI video hubs",
+        "text": "Add a monitor and often card slots, but drop port speed to 5Gbps in most cases. Belkin 7-Port USB-C Hub, Anker 10-in-1 and Anker 7-in-1 Dual HDMI are in this group."
       }
     ],
-    "note": "Most people should default to a video hub unless their monitor connects directly."
+    "note": "Most buyers with a monitor on the desk should default to an HDMI hub unless they edit large video files."
   },
   {
-    "subheading": "By Display",
+    "subheading": "By Laptop Charger",
+    "intro": "Match the hub to the wattage your charger actually supplies.",
     "table": {
       "headers": [
-        "Display",
+        "Your charger",
         "Pick from this guide"
       ],
       "rows": [
         [
-          "One 4K",
-          "Belkin 7-Port USB-C Hub"
+          "65W laptop charger",
+          "Anker 10-in-1 passes up to 85W, which leaves room for ports."
         ],
         [
-          "Two 1080p",
-          "Anker 7-in-1 Dual HDMI"
+          "100W laptop charger",
+          "Belkin 7-Port USB-C Hub and Satechi 4-in-1 list 100W PD."
+        ],
+        [
+          "Charger plus fast SSD",
+          "StarTech 4-Port lists 100W PD and driverless 10Gbps ports."
+        ],
+        [
+          "Light charging, mostly peripherals",
+          "EJAY Clamp 4-Port is built for peripherals, not heavy charging."
         ]
       ]
     }
   },
   {
-    "subheading": "For a Desk With Monitors Specifically",
+    "subheading": "For Mac Users Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "Ports that sit close to where you reach, such as a clamp or a short cable, and enough ports for your daily kit."
+        "text": "A listing that states macOS support, honest display limits and a USB-C input that carries your charger's wattage."
       },
       {
         "label": "In this comparison",
-        "text": "EJAY Clamp 4-Port clamps to a monitor bezel so ports are within reach, though its power cable only supports low-power devices."
+        "text": "Anker 7-in-1 Dual HDMI mirrors two screens on a Mac, so choose Belkin 7-Port USB-C Hub for a single 4K display or StarTech 4-Port for driverless data."
       }
-    ]
+    ],
+    "note": "Extended dual displays on a Mac usually need a dock, not a hub."
   },
   {
     "subheading": "When to Spend More",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want two screens or fast storage: Anker 7-in-1 Dual HDMI drives two monitors and Satechi 4-in-1 gives four 10Gbps ports."
+        "text": "You need ports that can keep up with an SSD or two screens at once, such as Anker 7-in-1 Dual HDMI or Satechi 4-in-1. The under $30 guide covers cheaper picks that top out at 5Gbps."
       },
       {
         "label": "Save if",
-        "text": "You only need one monitor: Belkin 7-Port USB-C Hub does it with HDMI 2.0 and SD slots."
+        "text": "You only need HDMI and a few USB-A ports, where Belkin 7-Port USB-C Hub or a sub-$30 pick already covers the basics."
       }
     ]
   }
@@ -385,28 +409,28 @@ export const buyingCriteria = [
 
 export const faq = [
   {
-    "q": "Do data hubs have HDMI?",
-    "a": "No."
+    "q": "Can I use two monitors from one USB-C hub?",
+    "a": "The Anker 7-in-1 Dual HDMI drives two screens at 1080p@60Hz, but the listing notes that a Mac shows them mirrored. Windows laptops usually extend them. If you need two extended 4K displays, a docking station is a better tool than a hub."
   },
   {
-    "q": "Do I need Thunderbolt?",
-    "a": "No."
+    "q": "Is a 10Gbps hub worth it over a 5Gbps one?",
+    "a": "Only if you use fast external SSDs. The Satechi, Belkin 4-in-1 and StarTech offer 10Gbps ports, which move large video files faster, while the Belkin 7-Port and Anker 10-in-1 are 5Gbps but add HDMI and card slots. Office users rarely notice the difference."
   },
   {
-    "q": "Why mirror on Mac?",
-    "a": "Mac limit."
+    "q": "Why choose a video-free hub like the Satechi?",
+    "a": "It is smaller, runs cooler and gives four fast USB-C ports. If your monitor connects to the laptop directly or through a dock, you do not need HDMI in the hub. It is for data and charging, not display."
   },
   {
-    "q": "Does clamp matter?",
-    "a": "It saves space."
+    "q": "Does the StarTech share one port?",
+    "a": "Yes. The listing says three ports are dedicated 10Gbps and one port is shared, so plugging two fast drives into the shared pair can slow both. Spread your devices accordingly, and keep the dedicated ports for SSDs."
   },
   {
-    "q": "Is 100W real?",
-    "a": "Less."
+    "q": "Will a hub charge a laptop and run a monitor at once?",
+    "a": "Yes, if the hub passes enough power. The Belkin 7-Port lists 100W PD and the Anker 7-in-1 Dual HDMI lists 100W in and 85W out. Using HDMI and several USB devices leaves less than the full number for the laptop."
   },
   {
-    "q": "Is VGA needed?",
-    "a": "For old devices."
+    "q": "What does the EJAY clamp-on design add?",
+    "a": "It clips to a desk edge or a monitor, which keeps ports in reach. Its dual cables carry 10Gbps, but the listing flags low power, so it is better for peripherals than for charging a laptop. Check that your desk edge fits the clamp."
   }
 ];
 

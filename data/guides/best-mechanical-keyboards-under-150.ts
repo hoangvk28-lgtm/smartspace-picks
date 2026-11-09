@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31YbNgziu0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR165Y3J?tag=deskfinds0d-20",
-    description: "This board's compact 96% layout retains a full number pad while saving desk space compared to the 100% layout Keychron K10 Max pick above, and its upgraded MCU alongside gasket design and sound-absorbing foam deliver all-around typing comfort at a meaningfully lower price than the other three picks in this tier. Both 2.4GHz wireless and wired connections support a 1000Hz polling rate.\n\nCompared to the K10 Max, this one costs about $15 less while still offering full QMK programmability through the Keychron Launcher web app and hot-swap support for nearly any 3-pin or 5-pin MX-style switch on the market. OSA profile double-shot PBT keycaps provide excellent oil resistance and prevent legend fading over time.\n\nBest for buyers who want QMK programmability and gasket-mount comfort at the lowest price in this tier.",
+    description: "This board's compact 96% layout retains a full number pad while saving desk space compared to the 100% layout Keychron K10 Max pick above, and its upgraded MCU alongside gasket design and sound-absorbing foam deliver all-around typing comfort at a meaningfully lower price than the other three picks in this tier. Both 2.4GHz wireless and wired connections support a 1000Hz polling rate.\n\nCompared to the K10 Max, this one costs under $20 less while still offering full QMK programmability through the Keychron Launcher web app and hot-swap support for nearly any 3-pin or 5-pin MX-style switch on the market. OSA profile double-shot PBT keycaps provide excellent oil resistance and prevent legend fading over time.\n\nBest for buyers who want QMK programmability and gasket-mount comfort at the lowest price in this tier.",
     specs: ["96% layout, gasket design, hot-swappable", "QMK and Keychron Launcher programmable", "2.4GHz and Bluetooth 5.1 connectivity"],
     pros: ["Cheapest pick in this tier while still offering full QMK support", "96% layout balances number pad access with desk space savings", "OSA PBT keycaps resist oil and legend fading over time"],
     cons: ["No on-board display or dial like the Logitech G316 X", "No dual-layer acoustic foam like the pricier K10 Max"],
@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Acoustic Engineering", "description": "Compared single-layer versus dual-layer foam designs and their impact on typing sound." },
-  { "title": "Switch Profile and Noise Level", "description": "Compared standard-height versus low-profile switches and their relative typing noise." },
-  { "title": "Report Rate and Responsiveness", "description": "Compared 1000Hz versus 8kHz report rates and their competitive gaming implications." },
-  { "title": "Programmability Ecosystem", "description": "Compared QMK open-source support against proprietary software ecosystems like G HUB and Logi Options+." },
-  { "title": "On-Board Controls", "description": "Checked for physical displays, dials, or knobs providing direct control without software." }
+  { "title": "Low-profile versus standard switches", "description": "We noted the Logitech MX Mechanical's low-profile tactile switches against the full-height gasket boards. Low-profile keys travel less, which some typists find gentler on wrists, but the aftermarket for low-profile keycaps and switches is much smaller than for standard ones. The G316 X, K10 Max, and V5 Max all use standard-height keys." },
+  { "title": "Report rate and latency", "description": "We compared the Logitech G316 X's 8kHz report rate with the Keychron boards' 2.4GHz and Bluetooth options. Wired or 2.4GHz is the safe choice for fast play, and Bluetooth is reserved for convenience when switching between devices. The MX Mechanical is built for office work, not esports latency." },
+  { "title": "Customization depth", "description": "We checked QMK and Keychron Launcher support on the K10 Max and V5 Max, and the LED dot-matrix and dial on the G316 X. Deep customization is a real benefit only if you will actually remap layers. The MX Mechanical uses Logi Options+ instead." },
+  { "title": "Layout and desk room", "description": "We compared 96% and 98% layouts against the 108-key K10 Max. Compact full-size layouts keep a numpad without the usual width, but squeezing the arrow cluster closer to the main block changes how you reach for it. The MX Mechanical's smaller footprint also helps desks that need mouse room." },
+  { "title": "Battery and multi-device use", "description": "We read the MX Mechanical's 15 days with backlight and 10 months without, plus Logi Options+ and Flow. Switching one keyboard between two computers is a work-from-home convenience few boards below this tier handle. The G316 X and Keychron boards trade that convenience for deeper hardware options." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "At this price the choice is between a productivity-first Logitech and customizable Keychron boards, so the first table sorts by daily use.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "The spread runs from the V5 Max up to the MX Mechanical, so each step maps to one headline feature.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -133,6 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Programmability Ecosystem",
+    intro: "Connection reliability is the second axis, because high polling rates only matter on wired or 2.4GHz.",
     table: {
       headers: ["Your customization preference", "Recommended pick"],
       rows: [
@@ -153,7 +156,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want quiet low-profile switches with smart illumination and cross-computer Flow support, where the Logitech MX Mechanical delivers all three at the top of this tier." },
-      { label: "Save if", text: "You want full QMK programmability with solid gasket-mount comfort, where the Keychron V5 Max covers that for about $55 less." }
+      { label: "Save if", text: "You want full QMK programmability with solid gasket-mount comfort, where the Keychron V5 Max covers that for under $60 less." }
     ],
   }
 ];
@@ -183,8 +186,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Do I need to install Logitech's G HUB software to use the G316 X's basic features?", "a": "No, basic typing and standard functionality work without it, but the full 8kHz report rate, custom RGB lighting, and macro programming specifically require G HUB to be installed and configured." },
-  { "q": "What's the most common mistake buyers make when choosing between the Keychron K10 Max and V5 Max?", "a": "Assuming the pricier K10 Max is automatically the better choice, when the V5 Max's 96% layout and gasket design deliver very similar day-to-day typing comfort and full QMK support for about $15 less, making the K10 Max worth it mainly if the dual-layer acoustic foam specifically matters to you." },
-  { "q": "Is the Logitech MX Mechanical worth it over the cheaper Keychron K10 Max?", "a": "If you specifically want quiet low-profile switches with smart illumination and cross-computer Flow support, yes, but if you want full QMK programmability with a full-size layout, the Keychron K10 Max covers that for about $40 less." },
+  { "q": "Is the Logitech MX Mechanical worth more than the Keychron V5 Max?", "a": "It depends on your work. The MX Mechanical offers low-profile tactile keys, Logi Options+, and Flow to move between computers, while the V5 Max gives a 96% layout, gasket design, and QMK programmability for less. Heavy multitaskers should consider the Logitech." },
+  { "q": "Is the Logitech MX Mechanical worth it over the cheaper Keychron K10 Max?", "a": "If you specifically want quiet low-profile switches with smart illumination and cross-computer Flow support, yes, but if you want full QMK programmability with a full-size layout, the Keychron K10 Max covers that for under $50 less." },
   { "q": "How does the Logitech MX Mechanical's Flow feature actually work between two computers?", "a": "Once set up through Logi Options+ on both computers, moving your cursor to the edge of one screen automatically transitions keyboard and mouse control to the second computer, and copied text can also transfer between the two machines seamlessly." },
   { "q": "Can I hot-swap the switches on the Logitech MX Mechanical like the other three picks in this tier?", "a": "No, the MX Mechanical does not support hot-swappable switches, so if switch customization is a priority alongside quiet low-profile typing, that's a tradeoff to consider against the other picks in this comparison." },
   { "q": "Do the Keychron picks in this tier require any software installation for basic QMK remapping?", "a": "No installation is required since QMK remapping is done through the web-based Keychron Launcher app, which works directly in a browser rather than requiring a downloaded and installed program." }

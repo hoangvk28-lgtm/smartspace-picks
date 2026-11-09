@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41PluB7co2L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B01N0SL2VV?tag=deskfinds0d-20",
-    "description": "Mount-It has a 17 x 13 inch bump-textured platform that moves between three heights of 4.25, 5.5 and 6.75 inches with a foot pedal, so you never bend down to change it. The platform tilts up to 30 degrees either way without locking, and the listing states a lifetime manufacturer warranty with US-based support.\n\nIt costs about $8 less than ErgoFoam and $11 more than HUANUO. For that extra money over HUANUO you get the pedal and the warranty, which are the two features that make a footrest feel like a long-term purchase.\n\nBest for people who share a desk with others or change posture often. The caveat is that the tilt cannot be locked, so it stays a rocker, and the body is high-impact plastic rather than wood or steel.",
+    "description": "Mount-It has a 17 x 13 inch bump-textured platform that moves between three heights of 4.25, 5.5 and 6.75 inches with a foot pedal, so you never bend down to change it. The platform tilts up to 30 degrees either way without locking, and the listing states a lifetime manufacturer warranty with US-based support.\n\nIt costs under $10 less than ErgoFoam and $11 more than HUANUO. For that extra money over HUANUO you get the pedal and the warranty, which are the two features that make a footrest feel like a long-term purchase.\n\nBest for people who share a desk with others or change posture often. The caveat is that the tilt cannot be locked, so it stays a rocker, and the body is high-impact plastic rather than wood or steel.",
     "specs": [
       "17 x 13 inch platform",
       "3 heights via foot pedal",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41DFnSDRS4L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HB414X8R?tag=deskfinds0d-20",
-    "description": "HOOBRO is a wide 21.3 x 10.6 inch footrest with three set angles of 0, 12 and 24 degrees, a felt-covered surface and six EVA pads on a metal frame with a particleboard panel. The edges are rounded.\n\nAt under $30 it is about $3 more than HUANUO but about $13 less than HOMELYSTBO, and it is the widest model here. Compared with Mount-It it holds fixed angles instead of rocking, and it offers no height steps.\n\nBest for wide-stance or larger feet that need a roomy, stable surface. The caveat is the shallow 10.6 inch depth and a particleboard panel, which will not shrug off moisture like wood or plastic.",
+    "description": "HOOBRO is a wide 21.3 x 10.6 inch footrest with three set angles of 0, 12 and 24 degrees, a felt-covered surface and six EVA pads on a metal frame with a particleboard panel. The edges are rounded.\n\nAt under $30 it is under $10 more than HUANUO but under $15 less than HOMELYSTBO, and it is the widest model here. Compared with Mount-It it holds fixed angles instead of rocking, and it offers no height steps.\n\nBest for wide-stance or larger feet that need a roomy, stable surface. The caveat is the shallow 10.6 inch depth and a particleboard panel, which will not shrug off moisture like wood or plastic.",
     "specs": [
       "21.3 x 10.6 inch platform",
       "0, 12, 24 degree angles",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41IIlf88aqL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H51GTKY1?tag=deskfinds0d-20",
-    "description": "HOMELYSTBO is a pine wood footrest with three angle positions of 12.5, 23 and 34.5 degrees. It has a non-slip EVA stepping surface and an anti-skid base for wood, tile and carpet.\n\nAt under $45 it costs $13 more than HOOBRO, which has a similar set of angles but a metal frame. Against COREMINDED it offers three angles rather than seven and costs about $7 less.\n\nBest for people who prefer solid wood and a simple angle choice. The caveat is that the highlights give no dimensions or weight rating.",
+    "description": "HOMELYSTBO is a pine wood footrest with three angle positions of 12.5, 23 and 34.5 degrees. It has a non-slip EVA stepping surface and an anti-skid base for wood, tile and carpet.\n\nAt under $45 it costs $13 more than HOOBRO, which has a similar set of angles but a metal frame. Against COREMINDED it offers three angles rather than seven and costs under $10 less.\n\nBest for people who prefer solid wood and a simple angle choice. The caveat is that the highlights give no dimensions or weight rating.",
     "specs": [
       "Pine wood build",
       "3 angles, 12.5 to 34.5 degrees",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41wDruz6+VL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D1XMX1WX?tag=deskfinds0d-20",
-    "description": "COREMINDED is a walnut-toned footstool with 7 angle settings, solid wood and carbon steel construction, non-skid strips and anti-slip rubber pads. It ships ready to use, with no assembly.\n\nAt under $50 it is near the top of the budget, about $7 above HOMELYSTBO, and it offers the finest angle control in this group. Against Ergonest it uses wood and steel without foam.\n\nBest for people who want to dial in angle precisely and like a wood finish. The caveat is price, and the highlights give no dimensions or weight rating.",
+    "description": "COREMINDED is a walnut-toned footstool with 7 angle settings, solid wood and carbon steel construction, non-skid strips and anti-slip rubber pads. It ships ready to use, with no assembly.\n\nAt under $50 it is near the top of the budget, under $10 above HOMELYSTBO, and it offers the finest angle control in this group. Against Ergonest it uses wood and steel without foam.\n\nBest for people who want to dial in angle precisely and like a wood finish. The caveat is price, and the highlights give no dimensions or weight rating.",
     "specs": [
       "7 angle settings",
       "Solid wood and carbon steel",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51OwCEjIMwL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0837CT43Z?tag=deskfinds0d-20",
-    "description": "ErgoFoam is an arched 2-in-1 footrest with a breathable mesh cover that wicks moisture, high-density compression-resistant foam and a flip-over design for a second mode. The maker markets it as chiropractor endorsed, which is its own claim.\n\nIt costs under $50, about $8 more than Mount-It, and swaps adjustable height for firm foam and a mesh cover. Versus Ergonest it has no steel frame but does have the flip design.\n\nBest for people who want firm foam support that is easy to clean. The caveat is the price and the fact that the endorsement is a marketing statement.",
+    "description": "ErgoFoam is an arched 2-in-1 footrest with a breathable mesh cover that wicks moisture, high-density compression-resistant foam and a flip-over design for a second mode. The maker markets it as chiropractor endorsed, which is its own claim.\n\nIt costs under $50, under $10 more than Mount-It, and swaps adjustable height for firm foam and a mesh cover. Versus Ergonest it has no steel frame but does have the flip design.\n\nBest for people who want firm foam support that is easy to clean. The caveat is the price and the fact that the endorsement is a marketing statement.",
     "specs": [
       "Breathable mesh cover",
       "High-density foam",
@@ -218,213 +218,109 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Angle steps versus free tilt",
-    "explanation": "Some footrests lock into set angles, like HOOBRO's 0, 12 and 24 degrees or HOMELYSTBO's 12.5, 23 and 34.5, while others rock freely. Fixed steps let you hold a comfortable slope, and free tilt encourages movement. Check the degrees in the listing and whether the tilt locks."
+    "criterion": "Adjustment type and range",
+    "explanation": "A rest that adjusts fits more bodies, but the method matters. Mount-It! uses a foot pedal for 3 heights, HUANUO offers 4.3 to 6.7 inches with 30 degree tilt, and COREMINDED offers 7 angles. Check the range in inches or degrees and how you change it, because slow adjustment means you will leave it at the wrong setting. A rest you cannot adjust in seconds usually stays at the wrong setting."
   },
   {
-    "criterion": "Platform width and depth",
-    "explanation": "A wide platform such as HOOBRO's 21.3 inches lets feet separate, but a shallow 10.6 inch depth limits heel room. Mount-It's 17 x 13 inches balances both. Check width and depth together."
+    "criterion": "Platform dimensions",
+    "explanation": "Width and depth decide whether both feet fit and whether heels are supported. HOOBRO is 21.3 x 10.6 inches, HUANUO 18 x 13 and Mount-It! 17 x 13. Look for the dimensions in the listing and aim for at least 15 inches wide, and ask the seller for missing figures. Anything under about 15 inches wide forces one foot at a time."
   },
   {
     "criterion": "Frame and panel material",
-    "explanation": "Steel, solid wood, plastic and particleboard behave differently under load and moisture. Mount-It uses high-impact plastic, COREMINDED uses wood and carbon steel and HOOBRO uses a particleboard panel. Look for the material and any weight limit."
+    "explanation": "Steel, solid wood, pine and particleboard behave differently under years of pushing. Ergonest has a reinforced steel frame and COREMINDED solid wood, while HOOBRO uses particleboard. Look for a named frame material and check the unit weight, because a feather-light rest tends to creep. Pick a metal or solid frame if you push off hard."
   },
   {
-    "criterion": "Foot pedal height adjustment",
-    "explanation": "A pedal lets you change height with your foot, which is helpful at a desk shared by several people. Mount-It lists one with three heights. Look for the word pedal in the listing."
+    "criterion": "Surface and grip",
+    "explanation": "A textured, felt, EVA or foam surface changes comfort and traction. Mount-It! has bumps, HOOBRO felt with EVA pads, and Ergonest memory foam. Look for non-slip surfaces and base pads, and consider whether you work in shoes or socks. Test whether a bumpy surface annoys you in socks."
   },
   {
-    "criterion": "Warranty and support",
-    "explanation": "Mount-It lists a lifetime manufacturer warranty with US-based support, while most others state none. For a product with hinges or pivots, a warranty is worth something. Look for a stated term."
-  },
-  {
-    "criterion": "Surface feel",
-    "explanation": "Felt, EVA, bump texture, mesh and velour all feel different against socks or bare feet. A grippy surface suits shoes, and a soft surface suits bare feet. Check the surface description."
+    "criterion": "Warranty and stated claims",
+    "explanation": "Mount-It! lists a lifetime warranty, but HUANUO lists none and ErgoFoam relies on maker claims. A warranty signals confidence in hinges and foam. Look for the term in the listing and confirm who handles claims before buying. A lifetime term is only as good as the seller who honors it."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  {
-    "title": "Adjustment",
-    "description": "We compared angles and heights."
-  },
-  {
-    "title": "Build",
-    "description": "We compared frame materials."
-  },
-  {
-    "title": "Size",
-    "description": "We compared platform dimensions."
-  },
-  {
-    "title": "Value",
-    "description": "We kept every pick under $50."
-  }
+  { "title": "Adjustment method and range", "description": "Mount-It! uses a foot pedal for 3 heights, HUANUO offers 4.3 to 6.7 inches with a 30 degree tilt each way, HOOBRO 3 angles and COREMINDED 7 angles. We compared the range and how easy each is to change, since a foot rest you cannot adjust in seconds stays at the wrong setting. Over 10 inches deep is a good sign." },
+  { "title": "Platform dimensions", "description": "HOOBRO is 21.3 x 10.6 inches, HUANUO 18 x 13 and Mount-It! 17 x 13. We treated about 15 inches wide as the minimum for two feet and looked at depth, because a rest that is only 10.6 inches deep gives your heels less support." },
+  { "title": "Frame and build material", "description": "Ergonest has a reinforced steel frame, HOMELYSTBO is pine, COREMINDED solid wood on carbon steel, and HOOBRO particleboard on metal. We weighed stability and durability, because the cheapest panels can chip and a thin frame can creak under a pushing foot." },
+  { "title": "Surface comfort and grip", "description": "Mount-It! has massage bumps, HOOBRO a felt top with EVA pads, and ErgoFoam and Ergonest use foam. We checked non-slip features, because a surface that moves under your foot defeats the purpose and a hard one may need a sock or cushion." },
+  { "title": "Warranty and listing detail", "description": "Mount-It! carries a lifetime manufacturer warranty, while HUANUO states none and others omit dimensions. We noted which listings give clear numbers, since a pad near $50 should come with specs, and we rated maker claims on the foam as unverified." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Adjustment Style",
-    "intro": "Match adjustment.",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Primary Need",
+    intro: "Between $25 and $50 you gain adjustment, so decide whether you want tilt, set angles or a plush surface.",
+    table: {
+      headers: ["If you mainly need", "Recommended pick"],
+      rows: [
+        ["Height changes with a foot pedal and a warranty", "Mount-It!, with 3 heights and a lifetime warranty"],
+        ["The widest platform for a wide stance", "HOOBRO, at 21.3 inches wide with 3 set angles"],
+        ["The widest tilt range at the lowest price", "HUANUO, with 30 degrees each way and 3 heights"],
+        ["Solid wood with many angle settings", "COREMINDED, offering 7 angles"],
+        ["Foam comfort with a steel frame", "Ergonest, with height and angle adjustment"]
       ],
-      "rows": [
-        [
-          "Pedal and warranty",
-          "Mount-It! Foot Rest with Massage Bumps and Foot Pedal"
-        ],
-        [
-          "Fixed angles on a wide platform",
-          "HOOBRO 21.3 Inch 3-Angle Foot Rest"
-        ],
-        [
-          "Free rocker",
-          "HUANUO Adjustable Foot Rest, Plus or Minus 30 Degrees"
-        ],
-        [
-          "Seven angles",
-          "COREMINDED 7-Angle Walnut Foot Rest"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "By Budget",
-    "intro": "Real prices from this comparison.",
-    "table": {
-      "headers": [
-        "Price range",
-        "Recommended pick"
+    subheading: "By Budget",
+    table: {
+      headers: ["Price range", "Recommended pick"],
+      rows: [
+        ["Under $30", "HUANUO or HOOBRO"],
+        ["Around $38", "Mount-It!, a mid-price choice with warranty"],
+        ["Around $43", "HOMELYSTBO, the pine wood pick"],
+        ["Around $46", "ErgoFoam Mesh, a foam 2-in-1"],
+        ["Around $50", "COREMINDED or Ergonest, the priciest picks"]
       ],
-      "rows": [
-        [
-          "$26 to $27",
-          "HUANUO Adjustable Foot Rest, Plus or Minus 30 Degrees"
-        ],
-        [
-          "$29 to $30",
-          "HOOBRO 21.3 Inch 3-Angle Foot Rest"
-        ],
-        [
-          "$37 to $38",
-          "Mount-It! Foot Rest with Massage Bumps and Foot Pedal"
-        ],
-        [
-          "$42 to $43",
-          "HOMELYSTBO Pine Wood Foot Rest with 3 Angles"
-        ],
-        [
-          "$45 to $46",
-          "ErgoFoam Mesh 2-in-1 Adjustable Foot Rest"
-        ],
-        [
-          "$49 to $50",
-          "Ergonest Steel Frame Memory Foam Foot Rest"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "Wood vs Foam",
-    "cards": [
-      {
-        "label": "Wood and rigid",
-        "text": "Holds shape. HOMELYSTBO, COREMINDED and HOOBRO fall here."
-      },
-      {
-        "label": "Foam",
-        "text": "Soft. ErgoFoam and Ergonest fall here."
-      }
+    subheading: "Stepped Angles vs Free Tilt",
+    cards: [
+      { label: "Stepped angles (HOOBRO, HOMELYSTBO, COREMINDED)", text: "Set positions hold firmly and do not shift under a pushing foot. You get 3 to 7 choices, which suits people who find a favourite angle." },
+      { label: "Free tilt (Mount-It!, HUANUO)", text: "These rock up to 30 degrees either way, which encourages movement. The angle cannot be locked, so they suit buyers who like a restless footrest." }
     ],
-    "note": "Choose by feel."
+    note: "Most buyers should default to stepped angles, unless they specifically want a rocking rest to keep their ankles moving.",
   },
   {
-    "subheading": "By Warranty",
-    "intro": "Warranty.",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Surface Preference",
+    table: {
+      headers: ["Your preference", "Recommended pick"],
+      rows: [
+        ["Massage bumps for stimulation", "Mount-It!, with a bump texture"],
+        ["A soft and cool mesh cover", "ErgoFoam Mesh, with high-density foam"],
+        ["A firm felt or EVA surface", "HOOBRO or HOMELYSTBO"],
+        ["Plush memory foam with a velour finish", "Ergonest, at the top of the price band"]
       ],
-      "rows": [
-        [
-          "Lifetime listed",
-          "Mount-It! Foot Rest with Massage Bumps and Foot Pedal"
-        ],
-        [
-          "No warranty listed budget",
-          "HUANUO Adjustable Foot Rest, Plus or Minus 30 Degrees"
-        ],
-        [
-          "Wood look",
-          "HOMELYSTBO Pine Wood Foot Rest with 3 Angles"
-        ],
-        [
-          "Steel frame",
-          "Ergonest Steel Frame Memory Foam Foot Rest"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "For Home Offices Specifically",
-    "cards": [
-      {
-        "label": "Look for",
-        "text": "Stable, adjustable and sized for both feet."
-      },
-      {
-        "label": "In this comparison",
-        "text": "Mount-It! Foot Rest with Massage Bumps and Foot Pedal has a pedal and warranty."
-      }
-    ]
+    subheading: "For Standing and Sitting Switchers Specifically",
+    cards: [
+      { label: "Look for", text: "A rest that is light enough to push aside and a surface that is stable when you step on it. Check that it will not slide when you stand." },
+      { label: "In this comparison", text: "Mount-It!'s foot pedal changes height without bending, and HUANUO is pre-assembled. COREMINDED's solid wood is stable if you lean on it." }
+    ],
   },
   {
-    "subheading": "When to Spend More",
-    "cards": [
-      {
-        "label": "Spend more if",
-        "text": "You want the pedal and warranty (Mount-It! Foot Rest with Massage Bumps and Foot Pedal)."
-      },
-      {
-        "label": "Save if",
-        "text": "You want the cheapest rocker, where HUANUO Adjustable Foot Rest, Plus or Minus 30 Degrees is enough."
-      }
-    ]
+    subheading: "When to Spend More",
+    cards: [
+      { label: "Spend more if", text: "You want continuous angle adjustment and a folding design. The under $100 guide includes Scalebeard's infinite angle foldable rest and VIVO's 5 to 10.25 inch range." },
+      { label: "Save if", text: "You want tilt without pay-to-play extras. HUANUO costs the least here and offers 30 degrees each way with 3 heights." }
+    ],
   }
 ];
 
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
-  {
-    "q": "Is a $50 footrest worth it over a $20 one?",
-    "a": "If you sit all day, extra adjustability and a sturdier build can matter. A $20 footrest covers the basics but often has a fixed height. Pay more only for features you will use, such as a pedal, angle steps or a warranty."
-  },
-  {
-    "q": "How do I choose between fixed angles and free tilt?",
-    "a": "Fixed angles hold a slope, which is helpful if you want your legs at a set position. Free tilt keeps the platform moving, which suits fidgety sitters. HOOBRO and HOMELYSTBO use fixed angles, and Mount-It and HUANUO rock."
-  },
-  {
-    "q": "Is wood better than foam?",
-    "a": "Wood is sturdy and does not compress, while foam is soft on bare feet. Pick by what you rest your feet on and whether you wear shoes. Many people keep a hard platform at work and a soft one at home."
-  },
-  {
-    "q": "How do I set up a footrest with angle steps?",
-    "a": "Place it under your desk, choose the flattest angle first and increase one step at a time. Keep your heels on the platform. COREMINDED lists 7 angles, so try several before settling."
-  },
-  {
-    "q": "Does it need assembly?",
-    "a": "COREMINDED ships ready to use and HUANUO arrives pre-assembled. Others may need basic assembly. Check the listing before ordering."
-  },
-  {
-    "q": "How do I clean a felt or foam footrest?",
-    "a": "Brush felt with a lint roller and wipe EVA and plastic with a damp cloth. ErgoFoam's mesh cover can be cleaned, and foam should stay dry. Check each listing for wash instructions."
-  }
+  { "q": "What height should a foot rest be?", "a": "It should place your thighs about parallel to the floor, within an inch or two. HUANUO's 4.3 to 6.7 inch range suits most chairs, and shorter users may need the highest setting while taller users stay lower." },
+  { "q": "What is the most common mistake?", "a": "Using the tallest setting by default. Too much height folds your legs and raises knee pressure. Start low and raise it only until your feet rest flat with your thighs level, and test it for a day before changing." },
+  { "q": "Is Mount-It! worth more than HUANUO?", "a": "Mount-It! adds a foot pedal for height, massage bumps and a lifetime warranty, and costs roughly $10 more. HUANUO has no stated warranty but offers a wider tilt range at the lowest price, which suits cost-conscious buyers." },
+  { "q": "How do I adjust a pedal-height rest?", "a": "Press the foot pedal to release the height lock, slide to your setting and release. Check that it clicks into place before resting your feet, and never press the pedal while your legs are fully loaded." },
+  { "q": "How do I maintain a wooden foot rest?", "a": "Wipe pine or solid wood with a damp cloth and dry it, keep it away from heaters and check the non-slip pads each month. Re-seat any loose screws, because small vibrations can loosen hardware over time." },
+  { "q": "Will a particleboard rest hold up?", "a": "HOOBRO's metal frame and particleboard panel suit normal foot weight, but edges can chip if dropped or exposed to moisture. Keep it dry and do not stand on it, and you can expect reasonable service for the price." }
 ];
 
 export const relatedGuides = [

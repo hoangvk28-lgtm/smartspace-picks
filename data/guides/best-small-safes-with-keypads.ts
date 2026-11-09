@@ -152,99 +152,148 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Verified battery access and backup power options for each keypad", description: "We checked whether each pick confirms standard AA batteries, a specific battery compartment location, or a genuine backup power method like USB-C, since dead-battery lockout is the most common keypad failure mode." },
-  { title: "Compared lockout behavior after repeated wrong entries", description: "Several picks confirm a specific wrong-entry lockout duration (commonly 5 minutes after 3 attempts), a real deterrent feature we verified rather than assumed universal." },
-  { title: "Checked for physical key backup on every keypad pick", description: "All eight picks here confirm at least one physical emergency key alongside the keypad, ensuring access even if the electronics fail entirely." },
-  { title: "Noted genuine feature differentiators between otherwise similar keypads", description: "Multi-code support, interior lighting, and reconfigurable shelving are real differences between these keypad safes beyond the code-entry mechanism itself." }
+  {
+    "title": "Power backup if the batteries die",
+    "description": "A keypad safe is only as dependable as its batteries. Both Bonsaii models add a USB-C port that accepts an external power bank, while the rest rely on emergency keys (two on Amazon Basics, SentrySafe, Yuanshikj and MAESTON). We scored a dead-battery path as a core requirement, not a bonus."
+  },
+  {
+    "title": "Anchoring and pre-drilled mounting",
+    "description": "Safe-buying advice is consistent that a light safe should be bolted down, since a small one can simply be carried away. Amazon Basics includes four expansion bolts, MAESTON includes two with four pre-drilled holes, and Bonsaii has pre-drilled holes, so we checked what hardware actually ships."
+  },
+  {
+    "title": "Keypad feedback and lockout behavior",
+    "description": "Voncabay lights an indicator for a correct entry and a red light before the battery dies, plus a 5 minute lockout after three wrong entries. Amazon Basics has three indicator lights. We credited listings that tell you what the keypad is doing, since silent keypads cause lockouts."
+  },
+  {
+    "title": "Interior capacity against real items",
+    "description": "Capacity runs from 0.23 cubic feet on four models to 0.6 on the larger Bonsaii and 0.78 on SentrySafe. We compared those against a laptop, a passport folder and an envelope of cash, because usable space inside a sealed steel box is smaller than the number suggests."
+  },
+  {
+    "title": "Honest fire and security claims",
+    "description": "SentrySafe states it is not a fireproof safe, and none of the others claim a fire or burglary rating we could verify. We did not give credit for fire protection that no listing makes, and gave credit for naming steel type and bolt size, like SPCC steel with 18mm bolts."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Protection Type",
+    "subheading": "By Backup Access",
+    "intro": "What happens when the batteries die is the most underrated spec.",
     "table": {
       "headers": [
-        "Your priority",
+        "If you want",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Fire or water resistance claimed",
-          "SentrySafe Shelf Safe with Digital Keypad Lock"
+          "USB-C power bank as a backup, largest capacity",
+          "Bonsaii Safe Box with Electronic Keypad for Home Office, 0.6 cu ft with a removable shelf."
         ],
         [
-          "Genuine anti-removal, bolt-down support",
-          "Bonsaii Safe Box with Electronic Keypad for Home Office"
+          "USB-C power bank backup, compact",
+          "Bonsaii Small Safe Box with Electronic Keypad for Valuables, 0.23 cu ft."
         ],
         [
-          "Most-reviewed, strongest reliability signal",
-          "Yuanshikj Small Steel Security Safe Box with Keypad"
+          "A keypad that tells you what it is doing",
+          "Voncabay Money Safe Box, with indicator lights and a 5 minute lockout."
+        ],
+        [
+          "Two codes, shared access",
+          "Digital Electronic Money Safe, which accepts 2 codes at once."
+        ],
+        [
+          "Door that locks itself when closed",
+          "Yuanshikj Small Steel Security Safe Box or MAESTON Mini, both with magnetic auto-lock."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "The price range is wide, but most picks sit well under $60.",
     "table": {
       "headers": [
-        "Budget",
+        "Price range",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $24",
-          "Yuanshikj Small Steel Security Safe Box with Keypad"
+          "Under $25, cheapest",
+          "Yuanshikj Small Steel Security Safe Box with Keypad."
         ],
         [
-          "Up to $102",
-          "SentrySafe Shelf Safe with Digital Keypad Lock"
+          "$25 to $35, dual-code or long password",
+          "Digital Electronic Money Safe or MAESTON Mini Electronic Safe Box."
+        ],
+        [
+          "$30 to $40, keypad feedback or USB-C backup",
+          "Voncabay Money Safe Box or Bonsaii Small Safe Box."
+        ],
+        [
+          "$50 to $60, reconfigurable shelf or large capacity",
+          "Amazon Basics Steel Security Safe, or Bonsaii Safe Box 0.6 cu ft."
+        ],
+        [
+          "Over $90, widest interior with light",
+          "SentrySafe Shelf Safe with Digital Keypad Lock."
         ]
       ]
     }
   },
   {
-    "subheading": "Review Base vs Price",
+    "subheading": "Compact 0.23 cu ft vs Larger 0.6 to 0.78 cu ft",
+    "intro": "Capacity is the biggest real tradeoff, and the cost shows in weight too.",
     "cards": [
       {
-        "label": "Yuanshikj Small Steel Security Safe Box with Keypad",
-        "text": "The lower-priced option in this comparison, worth checking its review base against your confidence needs."
+        "label": "Compact, 0.23 cu ft",
+        "text": "Holds passports, cash and a few small items, and fits a drawer. Bonsaii Small, Voncabay, Yuanshikj and MAESTON are this size, but a laptop or large folder will not fit."
       },
       {
-        "label": "SentrySafe Shelf Safe with Digital Keypad Lock",
-        "text": "The higher-priced option, worth it if it offers real feature headroom above the cheaper pick."
+        "label": "Larger, 0.6 to 0.78 cu ft",
+        "text": "Fits a laptop or documents and has a removable shelf. Bonsaii 0.6 cu ft and SentrySafe at 0.78 are here, at a higher price and with more weight to anchor."
       }
     ],
-    "note": "Default to Yuanshikj Small Steel Security Safe Box with Keypad unless your specific needs genuinely call for the pricier pick's extra features."
+    "note": "Buy the small size only if you list what goes inside first, since too small is the most common safe mistake."
   },
   {
     "subheading": "By Fire Protection",
+    "intro": "No pick here claims a fire rating, so manage expectations.",
     "table": {
       "headers": [
-        "Your priority",
+        "Situation",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Fire resistance claimed",
-          "SentrySafe Shelf Safe with Digital Keypad Lock"
+          "Theft deterrence with no fire claim",
+          "Bonsaii Safe Box with Electronic Keypad, with pre-drilled mounting holes."
         ],
         [
-          "Theft deterrence only, no fire claim",
-          "Bonsaii Safe Box with Electronic Keypad for Home Office"
+          "Gun storage certification, not fireproof",
+          "SentrySafe Shelf Safe, California DOJ certified per its listing."
+        ],
+        [
+          "Steel build with named bolts",
+          "Digital Electronic Money Safe, with SPCC steel and 18mm dual locking bolts."
+        ],
+        [
+          "Pry-resistant hinges",
+          "Voncabay Money Safe Box, with concealed hinges."
         ]
       ]
-    }
+    },
+    "note": "If fire protection matters, treat these as theft deterrents only and shop for a unit that names a fire standard."
   },
   {
     "subheading": "For Storing Documents or Cash Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "A confirmed interior dimension roomy enough for the actual items, plus a backup access method beyond just a keypad."
+        "text": "An interior that fits a letter-size folder, a backup access method beyond the keypad, and bolt-down hardware."
       },
       {
         "label": "In this comparison",
-        "text": "Yuanshikj Small Steel Security Safe Box with Keypad is worth checking against its listed interior dimensions before buying, given its strong review base."
+        "text": "SentrySafe at 0.78 cubic feet and Bonsaii at 0.6 are the roomiest, while Amazon Basics adds a carpeted floor and an adjustable shelf."
       }
     ]
   },
@@ -253,11 +302,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You're storing genuinely valuable or irreplaceable items, where SentrySafe Shelf Safe with Digital Keypad Lock's higher price buys real security or fire-protection headroom over the cheaper picks."
+        "text": "You need space, a full interior light or a gun-safe certification. SentrySafe Shelf Safe and Amazon Basics Steel Security Safe sit $60 to $100."
       },
       {
         "label": "Save if",
-        "text": "You just need basic theft deterrence for low-value items, where Yuanshikj Small Steel Security Safe Box with Keypad covers the same job at a lower price."
+        "text": "You only need basic theft deterrence for small items. Yuanshikj under $25 and MAESTON cover that with two keys each."
       }
     ]
   }
@@ -287,11 +336,30 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  { q: "What's the best overall keypad safe?", a: "The Bonsaii Safe Box with Electronic Keypad, 0.6 Cu.Ft, with three access paths including USB-C backup power." },
-  { q: "What happens if the keypad battery dies?", a: "Two picks confirm USB-C external power backup. The rest rely on a physical emergency key, included with every pick here as a fallback." },
-  { q: "Is there a keypad that supports two different codes?", a: "Yes, the Digital Electronic Money Safe supports two independent access codes simultaneously." },
-  { q: "Which keypad gives the most feedback about entry status?", a: "The Voncabay Money Safe Box, with a correct-entry indicator light and a separate low-battery warning light." },
-  { q: "Can I set a longer password than the standard 3-4 digits?", a: "Yes, the MAESTON Mini Electronic Safe Box supports a customizable 3-8 digit password." }
+  {
+    "q": "Are these small keypad safes fireproof?",
+    "a": "No fire claim is made by any listing here, and SentrySafe's listing explicitly says it is not a fireproof safe. A true fire rating names a standard such as a UL or ETL fire test, so for passports and documents you want fire protection, look at a dedicated fire-rated model instead."
+  },
+  {
+    "q": "What happens if the keypad battery dies?",
+    "a": "Both Bonsaii models accept an external power bank through a USB-C port, which opens the keypad. Amazon Basics, SentrySafe, Yuanshikj, MAESTON and Voncabay ship emergency override keys instead. Keep that key somewhere other than inside the safe, and swap the batteries once a year."
+  },
+  {
+    "q": "Does a small safe need to be bolted down?",
+    "a": "Yes, if you care about theft. A 0.23 cubic foot box is light enough for a thief to carry out and open later. Amazon Basics includes four expansion bolts, MAESTON two, and Bonsaii and Yuanshikj have pre-drilled holes, so fix it to a stud, floor or shelf."
+  },
+  {
+    "q": "Is the SentrySafe worth the premium over Yuanshikj?",
+    "a": "Only if you need the space and the light. SentrySafe is the largest at 0.78 cubic feet with a full interior light, two override keys and a California DOJ certification for gun storage, while Yuanshikj is the cheapest keypad pick with a magnetic auto-lock door."
+  },
+  {
+    "q": "How do I set a new code on a keypad safe?",
+    "a": "Most follow a reset and entry routine. The multi-code Digital Electronic Money Safe documents a four-step process: install AA batteries, press reset, and enter your new code within 15 seconds. Read the manual before locking valuables inside, and test the new code with the door open."
+  },
+  {
+    "q": "Can I use a longer password than four digits?",
+    "a": "On some models. MAESTON lets you set a 3 to 8 digit password, which is harder to guess than the fixed 3 to 4 digit codes on most small safes. Avoid birthdays, and keep a copy of the code stored apart from the safe."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -247,51 +247,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Voltage range for your destination",
-    "explanation": "Mains voltage differs between regions, and a kettle built for 120V can fail on 230V. LUUPONKO, HULLIARD, HDQ and Ceaplot state 100 to 240V, while Ikago, Rzlinn and Jettle are 110 to 120V only. Check the voltage line on the label and bring a plug adapter."
+    "explanation": "Mains voltage differs between regions, and a kettle built for 120V can fail on 230V. LUUPONKO, HULLIARD, HDQ and Ceaplot state 100 to 240V, while Ikago, Rzlinn and Jettle are 110 to 120V only. Check the voltage line on the label and bring a plug adapter. Auto-switching models save a manual switch that is easy to forget, and the plug adapter is still a separate purchase."
   },
   {
     "criterion": "Wattage and what it means abroad",
-    "explanation": "Travel kettles run at low wattage, such as 300W to 350W, so they boil slowly and suit a mug or two. LUUPONKO says output varies with regional voltage. Treat boil times as best case, and fill only what you need."
+    "explanation": "Travel kettles run at low wattage, such as 300W to 350W, so they boil slowly and suit a mug or two. LUUPONKO says output varies with regional voltage. Treat boil times as best case, and fill only what you need. At 300W, heating power is half that of a 600W model, so expect the same 450ml fill to take roughly twice as long."
   },
   {
     "criterion": "Steel grade and interior contact",
-    "explanation": "316 stainless resists corrosion better than 304, and an all-steel interior avoids silicone taste. LUUPONKO and HULLIARD use 316, Ceaplot 304, and UpdateClassic uses silicone. Look for the grade on the listing."
+    "explanation": "316 stainless resists corrosion better than 304, and an all-steel interior avoids silicone taste. LUUPONKO and HULLIARD use 316, Ceaplot 304, and UpdateClassic uses silicone. Look for the grade on the listing. 316 stainless also resists chloride-rich hard water better, which helps on trips to coastal cities where tap water is mineral heavy."
   },
   {
     "criterion": "Temperature presets for travel drinks",
-    "explanation": "Presets matter for tea, coffee and baby formula. Ceaplot lists 122, 175, 195 and 212F, Jettle 12 steps. Pick the set that matches what you actually brew."
+    "explanation": "Presets matter for tea, coffee and baby formula. Ceaplot lists 122, 175, 195 and 212F, Jettle 12 steps. Pick the set that matches what you actually brew. Formula and green tea need 160F to 175F, while pour-over works near 195F, so a four-preset list like Ceaplot's covers those three cases."
   },
   {
     "criterion": "Lid and pressure safety",
-    "explanation": "Travel kettles are compact, so steam pressure and lids matter. Rzlinn has a pressure valve and an auto-lock while boiling. Check for a vent or valve and never pour with a hand on the lid."
+    "explanation": "Travel kettles are compact, so steam pressure and lids matter. Rzlinn has a pressure valve and an auto-lock while boiling. Check for a vent or valve and never pour with a hand on the lid. A locking lid matters most when the kettle is in a bag or on a wobbly hotel desk, since a hot spill onto skin or luggage is the main injury risk."
   },
   {
     "criterion": "Pack size and included accessories",
-    "explanation": "A hard case or bag protects the kettle in luggage, and a brush helps with descaling on trips. HULLIARD has a thermal case and Ceaplot a brush and bag. Check what is in the box."
+    "explanation": "A hard case or bag protects the kettle in luggage, and a brush helps with descaling on trips. HULLIARD has a thermal case and Ceaplot a brush and bag. Check what is in the box. Compare folded dimensions with your bag, such as UpdateClassic's 7.2 by 5.2 by 3.8 inches, and check whether a case is included or costs extra."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Voltage and power",
-    "description": "We compared voltage ranges, wattage and whether automatic adaptation is stated."
+    "title": "Voltage range against the destination",
+    "description": "US hotels run 120V and much of the world 220V to 240V, so we checked the stated range first. LUUPONKO and HULLIARD list 100V to 240V, HDQ and Ceaplot 110V to 240V, while Ikago, Rzlinn and Jettle are single-voltage and could fail abroad. A 120V-only element on a 230V outlet is the one mistake here that can destroy the kettle."
   },
   {
-    "title": "Materials",
-    "description": "Steel grades, double-wall designs and silicone contact were compared."
+    "title": "Packed size and weight",
+    "description": "A travel kettle has to fit a carry-on. We favored UpdateClassic, which folds to 7.2 by 5.2 by 3.8 inches, and Jettle, a 1.54 lb slim body, while noting that the folding silicone design puts silicone in contact with water. Weight counts for budget airlines with strict carry-on limits."
   },
   {
-    "title": "Temperature control",
-    "description": "Preset counts and ranges were compared across the eight kettles."
+    "title": "Heating power and boil time",
+    "description": "Small travel kettles run only 300W to 600W, so a 450ml fill takes noticeably longer than at home. Rzlinn at 300W and Ikago at 350W are slowest, and we flagged boil-time claims that vary by voltage as unreliable. Plan for several minutes of waiting even on short trips."
   },
   {
-    "title": "Safety and carry",
-    "description": "Locking lids, boil-dry protection and travel cases were noted."
+    "title": "Temperature control and keep-warm",
+    "description": "Six presets on LUUPONKO, HULLIARD, HDQ, 12 settings on Jettle and 1F steps on Ikago cover tea, formula and coffee. We checked whether the range starts near 104F to 122F, since a preset floor above that skips formula-friendly water. Formula and pour-over need a lower preset than plain tea does."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $15 to $50 were compared with documented features."
+    "title": "Lid safety and cleaning kit",
+    "description": "Hot water in a bag is a hazard, so we weighed Rzlinn's auto-locking lid and pressure valve, HULLIARD's thermal case and Ceaplot's included brush and bag over bare listings. We rewarded listings that state the lock or valve explicitly."
   }
 ];
 
@@ -299,37 +299,39 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Destination",
+    "intro": "Voltage is the deciding factor, so start from where you are going.",
     "table": {
       "headers": [
-        "Your situation",
+        "Trip type",
         "Recommended pick"
       ],
       "rows": [
         [
-          "International, tea and coffee",
-          "LUUPONKO Dual Voltage Travel Kettle with 6 Presets"
+          "International trips, tea and coffee presets",
+          "LUUPONKO Dual Voltage Travel Kettle works from 100V to 240V with 6 presets from 113F to 212F."
         ],
         [
-          "International, want a case",
-          "HULLIARD 450ml Dual Voltage Travel Kettle with Case"
+          "International trips, wants a carry case",
+          "HULLIARD 450ml Dual Voltage includes a thermal travel case and boil-dry protection."
         ],
         [
-          "International, no switch to flip",
-          "HDQ Dual Voltage Travel Kettle 316 Stainless"
+          "International trips, no switch to flip",
+          "HDQ Dual Voltage Travel Kettle adapts to voltage automatically and adds keep-warm mode."
         ],
         [
           "US hotels, precise temperature",
-          "Ikago 15oz Portable Kettle with 1F Temperature Control"
+          "Ikago 15oz Portable Kettle gives 1F steps from 104F to 212F and a UL certified listing."
         ],
         [
-          "Tight bag, anywhere",
-          "UpdateClassic 0.6L Collapsible Silicone Travel Kettle"
+          "Tight bag, any destination",
+          "UpdateClassic 0.6L Collapsible Silicone folds to 7.2 by 5.2 by 3.8 inches."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Dual voltage and fine temperature control are where the price rises.",
     "table": {
       "headers": [
         "Price range",
@@ -337,65 +339,63 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $15",
-          "UpdateClassic 0.6L Collapsible Silicone Travel Kettle"
+          "Under $15, cheapest",
+          "UpdateClassic 0.6L Collapsible Silicone, though its voltage range is not stated."
         ],
         [
-          "About $25",
-          "Ceaplot 350ml Dual Voltage Travel Kettle with Kit"
+          "$25 to $27, small and dual voltage",
+          "Ceaplot 350ml Dual Voltage with a brush and bag, or HDQ Dual Voltage with automatic voltage sensing."
         ],
         [
-          "About $27",
-          "HDQ Dual Voltage Travel Kettle 316 Stainless"
+          "$29 to $30, presets and 316 stainless",
+          "LUUPONKO Dual Voltage, with a double wall and six presets."
         ],
         [
-          "$29 to $30",
-          "LUUPONKO Dual Voltage Travel Kettle with 6 Presets"
-        ],
-        [
-          "About $50",
-          "Jettle 450ml Portable Kettle with 12 Temperature Settings"
+          "Under $55, maximum control",
+          "Jettle 450ml with 12 temperature settings and a 34.5 inch cord, 110V only."
         ]
       ]
     }
   },
   {
     "subheading": "Dual Voltage vs 120V Only",
+    "intro": "The wrong choice fails the first time you plug in abroad.",
     "cards": [
       {
         "label": "Dual voltage",
-        "text": "A 100 to 240V kettle works worldwide with a plug adapter. That covers LUUPONKO Dual Voltage Travel Kettle with 6 Presets, HULLIARD 450ml Dual Voltage Travel Kettle with Case, HDQ Dual Voltage Travel Kettle 316 Stainless and Ceaplot 350ml Dual Voltage Travel Kettle with Kit."
+        "text": "A 100V to 240V kettle works worldwide with a plug adapter. LUUPONKO, HULLIARD, HDQ and Ceaplot all qualify, but boil time varies by voltage and the adapter is a separate purchase."
       },
       {
         "label": "120V only",
-        "text": "A 120V kettle is fine for North America but can fail abroad. That covers Ikago 15oz Portable Kettle with 1F Temperature Control, Rzlinn 120V Portable Travel Kettle with Pressure Valve and Jettle 450ml Portable Kettle with 12 Temperature Settings."
+        "text": "Fine for North America and cheaper to run for travel inside the US. Ikago, Rzlinn and Jettle are single-voltage, and Rzlinn's 300W element is the slowest boil in this guide."
       }
     ],
-    "note": "If you travel outside North America at all, choose dual voltage."
+    "note": "If you cross a border at all, buy dual voltage such as HDQ, and treat 120V models as domestic only."
   },
   {
     "subheading": "By Feature Priority",
+    "intro": "After voltage, the extras separate these small kettles.",
     "table": {
       "headers": [
-        "Your concern",
+        "Priority",
         "Recommended pick"
       ],
       "rows": [
         [
           "Most temperature steps",
-          "Jettle 450ml Portable Kettle with 12 Temperature Settings"
+          "Jettle 450ml with 12 settings from 104F to 212F."
         ],
         [
-          "Locking lid safety",
-          "Rzlinn 120V Portable Travel Kettle with Pressure Valve"
+          "Locking lid safety in a bag",
+          "Rzlinn 120V Portable, with an auto-locking lid and a pressure release valve."
         ],
         [
-          "Insulated, doubles as cup",
-          "Ikago 15oz Portable Kettle with 1F Temperature Control"
+          "Insulated body that doubles as a cup",
+          "Ikago 15oz Portable, with six hours of insulation listed."
         ],
         [
-          "Brush and bag included",
-          "Ceaplot 350ml Dual Voltage Travel Kettle with Kit"
+          "Cleaning brush and bag included",
+          "Ceaplot 350ml Dual Voltage, with presets of 122F, 175F, 195F and 212F."
         ]
       ]
     }
@@ -405,11 +405,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Look for",
-        "text": "A compact body, a safe lid and a voltage rating that matches the country. Confirm the hotel has no restriction on personal kettles."
+        "text": "A body that fits a hotel desk, a safe lid, a voltage rating matching the country and a cord long enough to reach a distant outlet. Confirm the hotel allows personal kettles."
       },
       {
         "label": "In this comparison",
-        "text": "HULLIARD 450ml Dual Voltage Travel Kettle with Case ships with a thermal case, and Rzlinn 120V Portable Travel Kettle with Pressure Valve has a locking lid."
+        "text": "HULLIARD 450ml Dual Voltage ships with a thermal case, Jettle's 34.5 inch cord reaches awkward outlets, and Rzlinn's locking lid is the safest to leave on a hotel desk."
       }
     ]
   },
@@ -418,11 +418,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want fine control, UL certification or insulation. Jettle 450ml Portable Kettle with 12 Temperature Settings and Ikago 15oz Portable Kettle with 1F Temperature Control offer them."
+        "text": "You want fine control, UL certification or insulation. Jettle 450ml with 12 settings and Ikago 15oz with 1F steps offer those, though both are single-voltage."
       },
       {
         "label": "Save if",
-        "text": "You only need boiling water. UpdateClassic 0.6L Collapsible Silicone Travel Kettle and Ceaplot 350ml Dual Voltage Travel Kettle with Kit cost under $25."
+        "text": "You only need boiling water. UpdateClassic 0.6L and Ceaplot 350ml Dual Voltage cost under $25 between them and cover the basics."
       }
     ]
   }
@@ -431,28 +431,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do I need a plug adapter?",
-    "a": "Yes for most countries. A dual-voltage kettle handles the voltage, but the plug shape still needs an adapter."
+    "q": "Do I need a plug adapter with a dual-voltage kettle?",
+    "a": "Yes, almost always. LUUPONKO, HULLIARD, HDQ and Ceaplot handle 100V to 240V, but the plug shape still differs by country, so pack the right adapter. The kettle itself will not need a voltage converter, which is what makes dual-voltage models worth buying for international trips."
   },
   {
-    "q": "Can a 120V kettle work abroad?",
-    "a": "Not on 230V mains. Ikago, Rzlinn and Jettle are 120V models, so a mismatch can damage them. Choose a 100 to 240V kettle for international use."
+    "q": "Will a 120V-only kettle work in Europe?",
+    "a": "No, and it can be damaged. Ikago, Rzlinn and Jettle list 110V to 120V only, so plugging into 230V can burn out the element. They suit US hotels or road trips; if you ever cross an ocean, choose LUUPONKO, HULLIARD, HDQ or Ceaplot."
   },
   {
-    "q": "Is a travel kettle worth it over hotel hot water?",
-    "a": "It gives you control over temperature and cleanliness, and works where there is no kettle. It is not necessary if your room has one."
+    "q": "Is the foldable silicone kettle safe for hot water?",
+    "a": "The UpdateClassic pairs a silicone body with a 304 steel base, and its listing states auto shut-off when empty. Silicone touches the water, so some buyers dislike the taste, and its voltage range is not stated. It earns its place on small size, not on durability."
   },
   {
-    "q": "How do I descale a travel kettle?",
-    "a": "Boil a diluted white vinegar solution and rinse well. Ceaplot includes a cleaning brush for the narrow body."
+    "q": "Is Jettle's 12 temperature settings worth the extra cost over HDQ?",
+    "a": "Only if you vary drinks a lot. Jettle gives 12 steps from 104F to 212F at 110V only, while HDQ offers six presets, keep-warm and automatic 110V to 240V. For most travellers the voltage flexibility matters more than six extra temperature steps."
   },
   {
-    "q": "Can I put silicone kettles on a stove?",
-    "a": "No. UpdateClassic is an electric kettle with a stainless base, and silicone should never touch a flame or hot burner."
+    "q": "How do I pack a travel kettle without damaging it?",
+    "a": "Drain and dry it first, wrap the cord loosely so it does not kink at the base, and use the included case where there is one. HULLIARD ships a thermal case and Ceaplot a bag and brush. Never pack it with water inside the lid."
   },
   {
-    "q": "Is it safe to carry in my suitcase?",
-    "a": "Empty and dry the kettle first, and use a case if you have one. HULLIARD includes a thermal case."
+    "q": "Can I boil milk or soup in a travel kettle?",
+    "a": "It is not recommended. These kettles are built for water, and milk or soup scorches on the heating plate and leaves residue that is hard to clean in a narrow body. Use a preset for tea or formula water, and clean the interior after each trip."
   }
 ];
 

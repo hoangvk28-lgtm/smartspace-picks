@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Drawer Count and Storage Design", "description": "Compared the number of storage drawers and locking mechanisms across all four picks." },
-  { "title": "Weight Capacity", "description": "Compared stated maximum weight capacity figures for structural durability." },
-  { "title": "Headboard Style", "description": "Compared barn-door, DIY-customizable, and finished wingback headboard designs." },
-  { "title": "Built-In Tech Features", "description": "Compared charging station and LED lighting inclusion across the tier." },
-  { "title": "Assembly Complexity", "description": "Compared shipping box count and stated assembly difficulty." }
+  {"title":"Drawer count and access","description":"We compared the VIAGDO 6 locking drawers, LIKIMIO 4 locking drawers and KOMFOTT 2 rolling drawers. More drawers mean more storage but a heavier, harder to move frame, and rolling drawers can slide open when a child pushes them, so locking designs scored better for households."},
+  {"title":"Weight capacity","description":"The KOMFOTT lists no rating in its highlights and rests on 4 pine legs with 8 plywood slats, while the LIKIMIO lists 880 lb and the VIAGDO and Feonase 1000 lb. Capacity covers mattress plus sleepers, so we asked whether two adults and a 100 lb mattress sit well below the rating."},
+  {"title":"Headboard design","description":"The VIAGDO has a farmhouse barn door headboard, the Feonase a button tufted upholstered wingback, and the LIKIMIO has DIY mounting positions for a headboard. We judged each on whether the headboard adds sit up comfort or only styling."},
+  {"title":"Built in power and lighting","description":"The VIAGDO adds 2 AC, USB and USB-C charging with RGB lighting. We counted charging as useful at a bedside, but noted that every added electrical part needs a nearby outlet and is another item that can fail."},
+  {"title":"Assembly and noise","description":"Drawer frames take longer to build and need every bolt tightened. We noted the Feonase Velcro secured slats with EVA foam, which cut squeaks, and flagged that most storage frames ship in several heavy boxes, which matters for apartments with stairs or a fourth floor walk up where a heavy box is hard to carry."}
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "Under $200 the real split is drawers versus headboard. Decide which one you need before comparing weight ratings and features.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "The four frames here range from a simple 2 drawer build to a 6 drawer storage bed, so match drawer count to what you actually store.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [

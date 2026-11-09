@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41z9UTXd4tL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HBB44214?tag=deskfinds0d-20",
-    "description": "Ayzelle is a 2-pack of flocked PVC inflatable foot rests with three air chambers, so you can inflate one, two or all three to set the height. The kit also includes 2 drawstring storage bags, an eye mask and a pair of ear plugs, and the listing mentions use in cars, trains, buses, offices and hotels.\n\nAt under $25 it costs about $4 less than Rewondah's 2-pack and adds the travel extras, though it lists no weight or inflated dimensions. Compared with Sunany it gives you two footrests for only $3 more.\n\nA good choice for couples or for someone who wants a ready-made flight kit. The caveat is that the highlights give no weight, and airline rules for inflatable footrests still apply.",
+    "description": "Ayzelle is a 2-pack of flocked PVC inflatable foot rests with three air chambers, so you can inflate one, two or all three to set the height. The kit also includes 2 drawstring storage bags, an eye mask and a pair of ear plugs, and the listing mentions use in cars, trains, buses, offices and hotels.\n\nAt under $25 it costs under $10 less than Rewondah's 2-pack and adds the travel extras, though it lists no weight or inflated dimensions. Compared with Sunany it gives you two footrests for only $3 more.\n\nA good choice for couples or for someone who wants a ready-made flight kit. The caveat is that the highlights give no weight, and airline rules for inflatable footrests still apply.",
     "specs": [
       "2 inflatables, 3 chambers",
       "Eye mask and ear plugs",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/310x5XSy1GL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07K69DZWK?tag=deskfinds0d-20",
-    "description": "Sunany is a flocked PVC inflatable foot rest that weighs 0.8 pound and folds into a 7 x 4 x 2 inch drawstring bag. A 2-in-1 double valve inflates and deflates it, it has three heights and the cover is described as washable. The package adds an eye mask, 2 ear plugs and a dust cover.\n\nIt is about $5 more than Maliton but lighter, at 0.8 lb versus Maliton's 1.41 lb, and its packed bag is smaller. Against MYFON it comes with extras, but MYFON costs $8 less.\n\nBest for travelers who care most about packed size and weight. The caveat is that it needs inflating by mouth or the valve, and the listing warns to keep it away from sharp objects.",
+    "description": "Sunany is a flocked PVC inflatable foot rest that weighs 0.8 pound and folds into a 7 x 4 x 2 inch drawstring bag. A 2-in-1 double valve inflates and deflates it, it has three heights and the cover is described as washable. The package adds an eye mask, 2 ear plugs and a dust cover.\n\nIt is under $10 more than Maliton but lighter, at 0.8 lb versus Maliton's 1.41 lb, and its packed bag is smaller. Against MYFON it comes with extras, but MYFON costs $8 less.\n\nBest for travelers who care most about packed size and weight. The caveat is that it needs inflating by mouth or the valve, and the listing warns to keep it away from sharp objects.",
     "specs": [
       "0.8 lb, 7 x 4 x 2 inch bag",
       "3 heights",
@@ -191,164 +191,169 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Weight and packed size",
-    "explanation": "A portable footrest earns its place only if it fits in the bag you already carry. The inflatables here weigh 0.8 to 1.41 lb and pack to roughly a thick paperback, while DISFAT folds to 0.5 inches. Compare the listed weight and packed dimensions, since two products that look similar online can pack very differently."
+    "explanation": "A portable footrest earns its place only if it fits in the bag you already carry. The inflatables here weigh 0.8 to 1.41 lb and pack to roughly a thick paperback, while DISFAT folds to 0.5 inches. Compare the listed weight and packed dimensions, since two products that look similar online can pack very differently. Sunany packs to 7 x 4 x 2 inches, so check that figure against the pocket you plan to use."
   },
   {
     "criterion": "Inflatable versus rigid",
-    "explanation": "Inflatable footrests pack small and give a soft surface, but they need inflating and can leak. A rigid folding stool is quicker to set up and cannot deflate, but it has one height and no cushion. Decide which matters more for your trips, and note that a rigid stool sidesteps airline restrictions on inflatables."
+    "explanation": "Inflatable footrests pack small and give a soft surface, but they need inflating and can leak. A rigid folding stool is quicker to set up and cannot deflate, but it has one height and no cushion. Decide which matters more for your trips, and note that a rigid stool sidesteps airline restrictions on inflatables. Count how often you travel, because a stool you leave at home helps nobody."
   },
   {
     "criterion": "Airline restrictions",
-    "explanation": "Several listings state that certain airlines do not allow inflatable footrests onboard. Maliton and MYFON name airlines such as Emirates, Qantas, Hawaiian and Virgin Atlantic. Check your airline's policy before you pack one, because gate staff can make you leave it behind."
+    "explanation": "Several listings state that certain airlines do not allow inflatable footrests onboard. Maliton and MYFON name airlines such as Emirates, Qantas, Hawaiian and Virgin Atlantic. Check your airline's policy before you pack one, because gate staff can make you leave it behind. Search the listing text for the word airline before buying."
   },
   {
     "criterion": "Adjustable height layers",
-    "explanation": "Three-chamber inflatables let you choose one, two or three layers, which changes how much you raise your legs. A fixed stool does not. Look for the phrase 3 heights or layers, and test the height at home before a trip."
+    "explanation": "Three-chamber inflatables let you choose one, two or three layers, which changes how much you raise your legs. A fixed stool does not. Look for the phrase 3 heights or layers, and test the height at home before a trip. Inflate it at home and sit with each layer count before a trip."
   },
   {
     "criterion": "Leak resistance and materials",
-    "explanation": "Flocked PVC is soft but can puncture on sharp edges, and the listings warn about this. MYFON states a 72 hour leak test and Maliton describes air-pressure stable flocked PVC. Look for leak testing language, and keep the footrest away from keys and zippers in your bag."
+    "explanation": "Flocked PVC is soft but can puncture on sharp edges, and the listings warn about this. MYFON states a 72 hour leak test and Maliton describes air-pressure stable flocked PVC. Look for leak testing language, and keep the footrest away from keys and zippers in your bag. A pouch or drawstring bag keeps zippers away from the surface."
   },
   {
     "criterion": "Included extras and cost per unit",
-    "explanation": "Some packs include an eye mask, ear plugs and storage bags, and others sell two footrests together. Rewondah and Ayzelle are 2-packs, so divide the price by the count. Add up what you would otherwise buy separately before deciding what is good value."
+    "explanation": "Some packs include an eye mask, ear plugs and storage bags, and others sell two footrests together. Rewondah and Ayzelle are 2-packs, so divide the price by the count. Add up what you would otherwise buy separately before deciding what is good value. A 2-pack at a higher price can still cost less per footrest."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Weight",
-    "description": "We compared weight."
+    "title": "Packed size and carry weight",
+    "description": "We compared packed dimensions and weight, from Sunany's 7 x 4 x 2 inch bag at 0.8 lb to Maliton's 1.41 lb at 8.7 x 2 x 13.8 inches. A footrest only helps if it rides in the bag you already carry, so we scored small and light designs higher for travel use."
   },
   {
-    "title": "Packed size",
-    "description": "We compared packed size."
+    "title": "Inflatable convenience vs rigid reliability",
+    "description": "We separated the inflatables from DISFAT's 0.5 inch folding stool. Inflatables pack smaller and cushion the feet but need inflating and can puncture, while a rigid stool never leaks. Neither format wins everywhere, so we judged each against how often a buyer would actually carry it."
   },
   {
-    "title": "Heights",
-    "description": "We compared heights."
+    "title": "Airline and shared space limits",
+    "description": "We read each listing for flight limits, since several inflatables state that certain airlines do not allow them onboard. A footrest that gets confiscated at the gate is worth nothing, so listings that flag the restriction clearly earned trust over those that said nothing."
   },
   {
-    "title": "Value",
-    "description": "We compared price."
+    "title": "Height options and leg support",
+    "description": "We checked how many heights each inflatable offers. Sunany, Maliton and MYFON list three heights from stacked chambers, which lets you set the lift for a short or tall leg, while DISFAT has a single fixed height. Adjustability scored higher than raw size."
+  },
+  {
+    "title": "Materials, leak testing and extras",
+    "description": "We noted flocked PVC surfaces, MYFON's 72 hour leak test and the extras that come in kits, such as the eye mask and ear plugs in Ayzelle's set. Leak resistance mattered most because a deflated footrest in an airline seat is just a plastic bag."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Trip Type",
-    "intro": "Trip.",
+    "subheading": "By Travel Style",
+    "intro": "The right footrest depends on whether you fly, commute or just want a spare at a hot desk.",
     "table": {
       "headers": [
-        "Your situation",
+        "If you mainly",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Two travelers",
-          "Rewondah 2-Pack Inflatable Foot Rest"
+          "Fly often and want a spare for a partner too",
+          "Rewondah 2-Pack Inflatable Foot Rest, which inflates to 17 x 12 x 18 inches and weighs 0.8 lb"
         ],
         [
-          "Long flights",
-          "Ayzelle 2-Pack Inflatable Foot Rest Kit"
+          "Travel and want an eye mask and ear plugs in the same box",
+          "Ayzelle 2-Pack Inflatable Foot Rest Kit, with three chambers and drawstring bags"
         ],
         [
-          "Light packing",
-          "Sunany Inflatable Foot Rest Pillow"
+          "Carry a single light footrest in a small bag",
+          "Sunany Inflatable Foot Rest Pillow, 0.8 lb and 7 x 4 x 2 inches packed"
         ],
         [
-          "Quick setup",
-          "Maliton Inflatable Foot Rest Pillow"
+          "Skip pumping and want to inflate in under a minute",
+          "Maliton Inflatable Foot Rest Pillow, which lists 30 to 45 second inflation"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
-    "intro": "Real prices from this comparison.",
+    "intro": "Every pick here is under $30, so the question is which compromise you accept.",
     "table": {
       "headers": [
-        "Price range",
+        "Price bucket",
         "Recommended pick"
       ],
       "rows": [
         [
-          "$8 to $9",
-          "DISFAT Portable Folding Foot Stool"
+          "Under $10 for a rigid stool that never needs air",
+          "DISFAT Portable Folding Foot Stool, the cheapest here"
         ],
         [
-          "$13 to $14",
+          "Under $14 for a leak tested inflatable",
           "MYFON Inflatable Foot Rest Pillow"
         ],
         [
-          "$16 to $17",
+          "Under $17 for quick inflation and three heights",
           "Maliton Inflatable Foot Rest Pillow"
         ],
         [
-          "$21 to $22",
+          "Under $25 for a single light pillow with a washable cover",
           "Sunany Inflatable Foot Rest Pillow"
         ],
         [
-          "$24 to $29",
-          "Ayzelle 2-Pack Inflatable Foot Rest Kit"
+          "Under $30 for two footrests in one purchase",
+          "Rewondah 2-Pack or Ayzelle 2-Pack, the priciest here"
         ]
       ]
     }
   },
   {
-    "subheading": "Inflatable vs Folding",
+    "subheading": "Inflatable vs Folding Stool",
+    "intro": "This is the core tradeoff in the whole category.",
     "cards": [
       {
-        "label": "Inflatable",
-        "text": "Packs small. Most picks."
+        "label": "Inflatable (Rewondah, Ayzelle, Sunany, Maliton, MYFON)",
+        "text": "Packs small, cushions your feet and gives three adjustable heights. The downside is inflation effort, a puncture risk from keys or zippers, and airline bans noted on several listings."
       },
       {
-        "label": "Folding",
-        "text": "Rigid. DISFAT."
+        "label": "Rigid folding stool (DISFAT)",
+        "text": "Folds to 0.5 inch and 9 oz with a stated 220 lb limit, and it cannot leak. It has a single fixed height and a hard surface, so it feels less plush than an inflatable."
       }
     ],
-    "note": "Choose by use."
+    "note": "If you fly, check your airline policy first; if you mostly use it on trains or at a desk, DISFAT is the simplest."
   },
   {
-    "subheading": "By Weight",
-    "intro": "Weight.",
+    "subheading": "By Where You Use It",
+    "intro": "Match the footrest to the environment, not the price.",
     "table": {
       "headers": [
-        "Your situation",
+        "Where you rest your feet",
         "Recommended pick"
       ],
       "rows": [
         [
-          "0.8 lb",
-          "Sunany Inflatable Foot Rest Pillow"
+          "A long haul seat with a footwell",
+          "Rewondah, which gives a taller 18 inch shape"
         ],
         [
-          "9 oz",
-          "DISFAT Portable Folding Foot Stool"
+          "A cramped train or bus seat with little floor space",
+          "Sunany, with the smallest packed size here"
         ],
         [
-          "1.41 lb",
-          "Maliton Inflatable Foot Rest Pillow"
+          "A hot desk at a shared office",
+          "DISFAT, which folds flat and fits in a laptop bag"
         ],
         [
-          "2-pack",
-          "Rewondah 2-Pack Inflatable Foot Rest"
+          "An office chair that is slightly too tall",
+          "Maliton, with three heights and quick inflation"
         ]
       ]
     }
   },
   {
-    "subheading": "For Flights Specifically",
+    "subheading": "For Frequent Flyers Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "Light, small, allowed."
+        "text": "Clear airline notes, a washable surface, three heights and a packed weight under about a pound, so it rides in a personal bag."
       },
       {
         "label": "In this comparison",
-        "text": "Ayzelle 2-Pack Inflatable Foot Rest Kit adds extras but check airline rules."
+        "text": "Rewondah and Sunany weigh 0.8 lb and list three layers, while Maliton lists that several airlines ban it, so check your carrier first."
       }
     ]
   },
@@ -357,11 +362,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want two (Rewondah 2-Pack Inflatable Foot Rest)."
+        "text": "You want a pair of footrests or a complete travel kit, which is where Rewondah and Ayzelle sit, or you want to go up to the under $30 under desk footrests guide for desk use."
       },
       {
         "label": "Save if",
-        "text": "You want cheapest, where DISFAT Portable Folding Foot Stool is enough."
+        "text": "You travel only occasionally, so MYFON or DISFAT cover the job for less than half the cost of the 2-packs."
       }
     ]
   }
@@ -370,28 +375,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Are inflatable footrests allowed on planes?",
-    "a": "Some airlines do not allow them. Maliton and MYFON list airlines such as Emirates, Korean Air, Qantas and Virgin Atlantic. Check your airline's policy before you fly, and keep a rigid stool as a backup if you are unsure."
+    "q": "Are inflatable foot rests allowed on planes?",
+    "a": "Several listings state that some airlines do not allow them onboard, so check your carrier before you pack one. Maliton's listing mentions airline bans explicitly. A rigid stool like DISFAT avoids the issue, but it does not recline or inflate."
+  },
+  {
+    "q": "What is the biggest mistake with portable footrests?",
+    "a": "Buying on price alone without checking height. An inflatable with fixed height may leave your legs awkward. Choose a three height model like Sunany or Maliton, and test the layers at home before a long trip."
+  },
+  {
+    "q": "Is the Rewondah 2-Pack worth it over a single Sunany?",
+    "a": "If two people travel together, the 2-Pack costs less per footrest and weighs only 0.8 lb each. If you travel alone, a single Sunany is lighter in your bag and costs less overall, with the same 0.8 lb weight."
   },
   {
     "q": "How do I inflate one without a pump?",
-    "a": "Maliton describes a quick-inflate bag that you roll two or three times to push in air, taking about 30 to 45 seconds. Others use a double valve where you blow into the upper valve. Press the valve flat afterwards so air does not escape."
+    "a": "Maliton lists inflation in 30 to 45 seconds by mouth with a built-in valve, and most others use a double air valve. Inflate to firm but not hard, and release a little air if your knees feel pushed up."
   },
   {
-    "q": "Is a rigid stool worth it over an inflatable?",
-    "a": "A rigid stool like DISFAT cannot deflate and avoids airline restrictions on inflatables, but it has one height and no cushion. An inflatable is softer and adjustable but can leak. Choose by how you will use it."
+    "q": "Will an inflatable footrest leak over time?",
+    "a": "Flocked PVC is soft but can puncture on sharp edges, and listings warn about this. MYFON lists a 72 hour leak test, so it is the safest pick. Keep keys and zippers away, and store it deflated and loose."
   },
   {
-    "q": "Can I use these at a desk or in a car?",
-    "a": "Yes, the listings describe use in offices, cars, trains and at home. An inflatable gives you a movable rest that you can store when not needed. Check that the height suits your seat."
-  },
-  {
-    "q": "How do I store and care for an inflatable footrest?",
-    "a": "Deflate it fully, fold it and put it in its bag. Keep it away from sharp objects and wipe the flocked surface with a damp cloth. Sunany describes its cover as washable."
-  },
-  {
-    "q": "Do inflatable footrests leak?",
-    "a": "They can if punctured, and they can lose air slowly over time. MYFON lists a 72 hour leakage test, and Sunany warns to avoid sharp objects. Check the valve is closed fully after inflating."
+    "q": "Can I use these at a regular desk?",
+    "a": "Yes, for short periods. Inflatables give a soft rest, and DISFAT folds flat in a bag. For all day desk use, a rigid under desk footrest is more stable. See the under $30 under desk footrests guide for options."
   }
 ];
 

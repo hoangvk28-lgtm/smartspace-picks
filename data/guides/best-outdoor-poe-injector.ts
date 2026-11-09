@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31+j+EantBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09SQ5T8BD?tag=deskfinds0d-20",
-    description: "This injector's listing specifically states an IK10 vandal-resistance rating alongside IP67 dust and waterproof protection, the only pick in this comparison combining both certifications explicitly. Its included mounting kit, earthing kit, and three IP67-rated cable glands create a genuinely sealed installation out of the box.\n\nCompared to the TRENDnet pick above, this one costs about $29 less while covering the more common 60W 802.3bt tier rather than the TRENDnet's higher 95W ceiling, and includes more mounting accessories in the box.\n\nBest for buyers installing in a location exposed to vandalism or physical impact who want a genuinely sealed, complete installation kit.",
+    description: "This injector's listing specifically states an IK10 vandal-resistance rating alongside IP67 dust and waterproof protection, the only pick in this comparison combining both certifications explicitly. Its included mounting kit, earthing kit, and three IP67-rated cable glands create a genuinely sealed installation out of the box.\n\nCompared to the TRENDnet pick above, this one costs under $30 less while covering the more common 60W 802.3bt tier rather than the TRENDnet's higher 95W ceiling, and includes more mounting accessories in the box.\n\nBest for buyers installing in a location exposed to vandalism or physical impact who want a genuinely sealed, complete installation kit.",
     specs: ["60W, 802.3af/at/bt, IP67 + IK10", "Includes mounting kit, earthing kit, cable glands", "6kV surge, 8kV ESD protection"],
     pros: ["IK10 vandal resistance rating not stated on other picks", "Includes mounting and earthing kit plus cable glands", "60W covers the majority of outdoor PoE device needs"],
     cons: ["Lower power ceiling than the TRENDnet pick's 95W", "No stated NDAA compliance"],
@@ -84,70 +84,156 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "IP Rating Verification", "description": "Confirmed each listing explicitly states IP67 (or higher) waterproof and dustproof protection." },
-  { "title": "Vandal Resistance", "description": "Compared stated IK-rating vandal resistance where listings provided it." },
-  { "title": "Surge and ESD Protection", "description": "Compared specific stated kV ratings for surge and ESD protection." },
-  { "title": "Power Source Flexibility", "description": "Compared standard AC-powered units against DC-input units built for solar or remote power." },
-  { "title": "Included Accessories", "description": "Compared whether a listing bundles mounting kits, earthing kits, or cable glands versus a separately sold power supply." }
+  {
+    "title": "Verified IP rating and impact rating",
+    "description": "All four state IP67, but only Intellinet and FASTCABLING add an IK10 impact rating, which matters where vandals or flying debris are a risk. We separated water protection from impact protection, since IP67 says nothing about a hit from a thrown object."
+  },
+  {
+    "title": "Surge and ESD protection",
+    "description": "TRENDnet and Intellinet both list 6kV surge and 8kV ESD protection. An outdoor injector sits on a long cable run that attracts surges, so we gave named figures more weight than general protection claims on the other two units. A long outdoor run acts as an antenna, so surge numbers on the datasheet matter."
+  },
+  {
+    "title": "Power source flexibility",
+    "description": "Three of the four need AC mains. PROCET alone accepts 12 to 55V DC with voltage boosting, which suits solar or battery sites. We checked whether each unit includes its supply, since FASTCABLING has a built-in 100 to 240V supply and TRENDnet sells it separately."
+  },
+  {
+    "title": "Power ceiling against the device",
+    "description": "TRENDnet reaches 95W, Intellinet and FASTCABLING 60W, and PROCET 30W with 10GbE. Most outdoor cameras draw well under 30W, so we penalized paying for a ceiling a device will never use. A 30W unit already covers most fixed cameras, so 95W only helps PoE++ radios and heated PTZ heads."
+  },
+  {
+    "title": "Included mounting and sealing hardware",
+    "description": "Intellinet includes a mounting kit, earthing kit and cable glands, which saves a trip for parts. We counted these because a poorly sealed gland defeats an IP67 body, and missing hardware adds both cost and a weak point. A kit that omits glands or an earth lead means a second order and a second ladder trip."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Installation Environment",
-    table: {
-      headers: ["Your installation", "Recommended pick"],
-      rows: [
-        ["High power need, institutional compliance", "TRENDnet Outdoor IP67 Gigabit PoE++ Injector"],
-        ["Exposed to vandalism, complete sealed kit needed", "Intellinet Outdoor Gigabit PoE++ Injector"],
-        ["Solar or remote DC power, high-speed data", "PROCET 10GbE 30W PoE+ Injector Outdoor"],
-        ["Standard AC power, no separate adapter wanted", "FASTCABLING Outdoor Industrial PoE++ Injector"]
+    "subheading": "By Installation Environment",
+    "intro": "Outdoor use brings water, surges and sometimes vandals, so start with the site and not the wattage.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Demanding PoE++ camera or radio, institutional compliance",
+          "TRENDnet Outdoor IP67 Gigabit PoE++ Injector, up to 95W with NDAA and TAA compliance"
+        ],
+        [
+          "Exposed to vandalism and wanting a complete sealed kit",
+          "Intellinet Outdoor Gigabit PoE++ Injector, IP67 plus IK10 with earthing kit and glands"
+        ],
+        [
+          "Solar or remote DC power with fast data",
+          "PROCET 10GbE 30W PoE+ Injector Outdoor, taking 12 to 55V DC input"
+        ],
+        [
+          "Mains power, no separate adapter wanted",
+          "FASTCABLING Outdoor Industrial PoE++ Injector, with a built-in 100 to 240V supply"
+        ],
+        [
+          "Wide temperature swings on a mast or roof",
+          "TRENDnet Outdoor IP67 Gigabit PoE++ Injector, rated -40C to 75C"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $116", "PROCET 10GbE 30W PoE+ Injector (under $120)"],
-        ["Under $130", "Intellinet Outdoor Gigabit PoE++ Injector (under $130)"],
-        ["Under $150", "FASTCABLING Outdoor Industrial PoE++ Injector (under $150)"],
-        ["Under $160", "TRENDnet Outdoor IP67 Gigabit PoE++ Injector (under $160)"]
+    "subheading": "By Budget",
+    "intro": "All four cost real money, so the choice is about which gap you are willing to pay for.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $120, lowest cost and DC input",
+          "PROCET 10GbE 30W PoE+ Injector Outdoor, which gives up the wattage of the PoE++ units"
+        ],
+        [
+          "Under $130, best sealed-kit value",
+          "Intellinet Outdoor Gigabit PoE++ Injector, with 60W and a mounting and earthing kit included"
+        ],
+        [
+          "Under $150, built-in supply convenience",
+          "FASTCABLING Outdoor Industrial PoE++ Injector, 60W with IK10 and an internal supply"
+        ],
+        [
+          "Under $160, highest power and compliance",
+          "TRENDnet Outdoor IP67 Gigabit PoE++ Injector, 95W with NDAA and TAA status"
+        ]
+      ]
+    }
   },
   {
-    subheading: "AC-Powered vs DC/Solar-Powered Outdoor Injectors",
-    cards: [
-      { label: "AC-powered (TRENDnet, Intellinet, FASTCABLING)", text: "Suits installations with standard grid power access nearby, offering higher wattage ceilings up to 95W for demanding devices." },
-      { label: "DC/solar-powered (PROCET)", text: "Necessary for remote installations without grid power access, like solar-powered PTZ cameras or wireless bridges in areas without electrical infrastructure." }
+    "subheading": "AC-Powered vs DC/Solar-Powered Outdoor Injectors",
+    "cards": [
+      {
+        "label": "AC-powered injectors",
+        "text": "The TRENDnet, Intellinet and FASTCABLING units suit sites with mains nearby and give higher ceilings, up to 95W. FASTCABLING bundles its supply, while TRENDnet needs one purchased separately."
+      },
+      {
+        "label": "DC and solar-powered injector",
+        "text": "The PROCET accepts 12 to 55V DC with voltage boosting, which suits solar PTZ cameras or wireless bridges far from mains. It is limited to 30W, so it will not run a hungry PoE++ device."
+      }
     ],
-    note: "Confirm your installation site's actual power access before choosing; a DC-input unit is only worth its tradeoffs if you genuinely lack standard AC power nearby.",
+    "note": "Choose DC input only if you truly lack mains power, since the PROCET gives up 30W to 65W of ceiling compared with the AC units."
   },
   {
-    subheading: "By Included Accessories",
-    table: {
-      headers: ["What you want included", "Recommended pick"],
-      rows: [
-        ["Mounting kit, earthing kit, cable glands", "Intellinet Outdoor Gigabit PoE++ Injector"],
-        ["Built-in power supply, no separate purchase", "FASTCABLING Outdoor Industrial PoE++ Injector"],
-        ["Power supply sold separately, higher power ceiling", "TRENDnet Outdoor IP67 Gigabit PoE++ Injector"]
+    "subheading": "By Included Accessories",
+    "intro": "Hardware that ships in the box decides how much you spend after the injector.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "You need cable glands, earthing and mounting hardware",
+          "Intellinet Outdoor Gigabit PoE++ Injector, which includes all three in the box"
+        ],
+        [
+          "You want to plug into mains with no adapter purchase",
+          "FASTCABLING Outdoor Industrial PoE++ Injector, built-in 100 to 240V supply"
+        ],
+        [
+          "You already own a suitable 48V supply and want top power",
+          "TRENDnet Outdoor IP67 Gigabit PoE++ Injector, which sells its supply separately"
+        ],
+        [
+          "You will feed it from solar or a battery bank",
+          "PROCET 10GbE 30W PoE+ Injector Outdoor, which takes DC directly"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Remote Solar-Powered Camera Installation Specifically",
-    cards: [
-      { label: "Look for", text: "A wide DC input voltage range with voltage boosting, since solar and battery power sources fluctuate and a standard AC-only injector simply cannot connect to that kind of power source." },
-      { label: "In this comparison", text: "The PROCET pick specifically states a 12-55V DC input with voltage boosting designed for solar applications, unlike the three AC-only picks." }
-    ],
+    "subheading": "For a Remote Solar-Powered Camera Installation Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A wide DC input range with voltage boosting, since solar and battery voltage fluctuates through the day. A mains-only injector cannot connect at all, and a narrow DC range may brown out at dusk."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The PROCET lists 12 to 55V DC input with voltage boosting, 30W output and 10GbE data. It is the only pick in this guide that runs from a solar source, so it wins this scenario by default."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need the highest power ceiling, NDAA compliance, or documented industrial EMS certifications, where the TRENDnet pick's under $160 price justifies those specific requirements." },
-      { label: "Save if", text: "You need solid 60W IP67 protection without NDAA compliance, where the Intellinet or FASTCABLING picks deliver that for roughly $20-30 less." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need 95W, NDAA and TAA compliance or documented EMS certification. The TRENDnet at under $160 is the only unit here that ticks all three, which matters for government or institutional buyers."
+      },
+      {
+        "label": "Save if",
+        "text": "A 60W unit covers your camera. The Intellinet or FASTCABLING cost less than the TRENDnet while keeping IP67 and IK10, and the Intellinet adds a mounting and earthing kit."
+      }
+    ]
   }
 ];
 
@@ -175,11 +261,11 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "What's the real difference between IP67 and IK10 ratings on an outdoor PoE injector?", "a": "IP67 covers dust and water resistance, including temporary submersion, while IK10 is a separate rating for physical impact and vandal resistance, and a unit can have one rating without the other." },
-  { "q": "Can I power an outdoor PoE injector from a solar panel?", "a": "Only if the specific unit is designed for DC input, like the PROCET pick in this comparison; standard AC-powered outdoor injectors cannot accept solar or battery power directly." },
-  { "q": "Do I need NDAA compliance for a residential outdoor PoE injector installation?", "a": "No, NDAA and TAA compliance only matter for U.S. government and government-adjacent procurement requirements, and add no functional benefit for a residential or standard commercial installation." },
+  { "q": "What's the real difference between IP67 and IK10 ratings on an outdoor PoE injector?", "a": "IP67 describes dust and water protection, while IK10 describes impact resistance against a 20 joule strike. A unit can be fully waterproof and still crack when hit, which is why Intellinet and FASTCABLING list both, and why vandal-prone sites should look for IK10 instead of IP67 alone." },
+  { "q": "Can I power an outdoor PoE injector from a solar panel?", "a": "Only with a DC-input unit. The PROCET lists 12 to 55V DC input with voltage boosting, so it can run from a solar and battery setup, while the other three need AC mains. Confirm the panel's controller output voltage stays inside that range before you buy." },
+  { "q": "Do I need NDAA compliance for a residential outdoor PoE injector installation?", "a": "Not for a home setup. NDAA and TAA rules apply to federal and some institutional purchases, and TRENDnet states both. A residential buyer is better served by checking IP67, surge ratings and the included hardware, which Intellinet covers with its mounting, earthing and gland kit." },
   { "q": "Is a higher wattage always better for an outdoor PoE injector?", "a": "No, match the injector's power ceiling to your specific device's actual draw; a 95W injector powering a 30W PTZ camera doesn't provide any extra benefit and typically costs more than a correctly matched lower-wattage unit." },
-  { "q": "What happens if an outdoor PoE injector's power supply isn't included?", "a": "You'll need to purchase a compatible power supply separately, which adds to the real total cost of the installation beyond the listed injector price, so factor that into your budget comparison." },
+  { "q": "What happens if an outdoor PoE injector's power supply isn't included?", "a": "Plan for the extra cost and a weatherproof place to put it. TRENDnet's TI-O119GI sells its supply separately, while FASTCABLING has a built-in 100 to 240V supply, and a loose adapter outdoors needs its own enclosure or it defeats the injector's IP67 rating." },
   { "q": "How do I know if my climate requires a wider operating temperature range?", "a": "Check your local area's historical extreme low and high temperatures against the injector's stated operating range; a unit rated only to 60C maximum could struggle in an extremely hot desert installation compared to one rated to 75C." }
 ];
 

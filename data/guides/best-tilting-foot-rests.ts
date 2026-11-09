@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41p5BvYYBML._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B077TFZ6XB?tag=deskfinds0d-20",
-    "description": "StarTech has an 18 x 14 inch rubberized, anti-slip platform with two height settings of 3.7 to 4.8 inches and two tilt angles of 15 and 30 degrees. Platform rollers and surface bumps are listed for foot massage.\n\nIt is cheaper than EUREKA's metal frame by about $4 while giving fixed angle steps you can set, unlike EUREKA's non-lockable tilt. Versus HUANUO it offers distinct steps instead of a free rock.\n\nBest for people who want a large platform with predictable angles. The caveat is the small height range of only about one inch.",
+    "description": "StarTech has an 18 x 14 inch rubberized, anti-slip platform with two height settings of 3.7 to 4.8 inches and two tilt angles of 15 and 30 degrees. Platform rollers and surface bumps are listed for foot massage.\n\nIt is cheaper than EUREKA's metal frame by under $10 while giving fixed angle steps you can set, unlike EUREKA's non-lockable tilt. Versus HUANUO it offers distinct steps instead of a free rock.\n\nBest for people who want a large platform with predictable angles. The caveat is the small height range of only about one inch.",
     "specs": [
       "18 x 14 inch platform",
       "Tilt 15 and 30 degrees",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41EEXTEmyPL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DSK42H1D?tag=deskfinds0d-20",
-    "description": "HUANUO has an 18 x 13 inch platform with 3 heights of 4.3, 5.5 and 6.7 inches and a tilt of minus 30 to plus 30 degrees. The listing says the angle cannot be fixed, and it arrives pre-assembled.\n\nAt under $30 it is about $17 cheaper than StarTech and has a much wider tilt range than Staples. Versus StarTech it rocks freely and has more height choice.\n\nBest for active sitters who like a free-floating platform. The caveat is that you cannot hold one angle.",
+    "description": "HUANUO has an 18 x 13 inch platform with 3 heights of 4.3, 5.5 and 6.7 inches and a tilt of minus 30 to plus 30 degrees. The listing says the angle cannot be fixed, and it arrives pre-assembled.\n\nAt under $30 it is under $20 cheaper than StarTech and has a much wider tilt range than Staples. Versus StarTech it rocks freely and has more height choice.\n\nBest for active sitters who like a free-floating platform. The caveat is that you cannot hold one angle.",
     "specs": [
       "Tilt minus 30 to plus 30 degrees",
       "Heights 4.3, 5.5, 6.7 inches",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31wXwX+IM+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FH6NWBX6?tag=deskfinds0d-20",
-    "description": "EUREKA offers 0 to 20 degree floating tilt on a sturdy metal frame with a flat massage texture, and the listing says it supports up to 150 lbs. It notes plainly that the tilt adjustment is not lockable.\n\nIt costs under $50, around $4 more than StarTech, and its tilt range is narrower than HUANUO's. Versus Toyswill it is a free rocker rather than a hinged folding stool.\n\nBest for a metal-frame rocker with a stated weight limit. The caveat is that you pay more for a narrower range.",
+    "description": "EUREKA offers 0 to 20 degree floating tilt on a sturdy metal frame with a flat massage texture, and the listing says it supports up to 150 lbs. It notes plainly that the tilt adjustment is not lockable.\n\nIt costs under $50, under $10 more than StarTech, and its tilt range is narrower than HUANUO's. Versus Toyswill it is a free rocker rather than a hinged folding stool.\n\nBest for a metal-frame rocker with a stated weight limit. The caveat is that you pay more for a narrower range.",
     "specs": [
       "0 to 20 degree tilt",
       "Metal frame, 150 lb limit",
@@ -191,130 +191,134 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Tilt range in degrees",
-    "explanation": "Tilt range tells you how far the platform moves, such as 20, 30 or 35 degrees. A larger range suits taller users and people who like to stretch their calves. Look for the number in the title or bullets, and be cautious if a listing only says adjustable."
+    "explanation": "Tilt range tells you how far the platform moves, such as 20, 30 or 35 degrees. A larger range suits taller users and people who like to stretch their calves. Look for the number in the title or bullets, and be cautious if a listing only says adjustable. Check whether the listing gives degrees for both directions, because plus or minus 30 is a wider sweep than a single 0 to 20 range."
   },
   {
     "criterion": "Locking versus free tilt",
-    "explanation": "A footrest that locks holds one angle, while a free rocker keeps moving. Several listings say plainly that the tilt cannot be locked. Decide if you want a steady slope or a rocker, and note that a free rocker is harder to use as a fixed ramp."
+    "explanation": "A footrest that locks holds one angle, while a free rocker keeps moving. Several listings say plainly that the tilt cannot be locked. Decide if you want a steady slope or a rocker, and note that a free rocker is harder to use as a fixed ramp. If you type for long stretches, a locked angle holds your ankles steady, while a free rocker suits fidgeting. The listing should say which one you get."
   },
   {
     "criterion": "Height range and steps",
-    "explanation": "Tilt means little if the height is wrong. Ranges here run from about 1 inch of adjustment to 13 inches. Measure the gap under your desk and compare with the minimum and maximum."
+    "explanation": "Tilt means little if the height is wrong. Ranges here run from about 1 inch of adjustment to 13 inches. Measure the gap under your desk and compare with the minimum and maximum. Compare the minimum and maximum height with the gap between your feet and the floor, and note that StarTech adjusts only about an inch while ShopSol spans 3 to 16 inches."
   },
   {
     "criterion": "Platform size and surface",
-    "explanation": "A platform about 17 to 18 inches wide lets both feet move. Textured or massage surfaces add grip but can feel busy under socks. Check dimensions and surface description."
+    "explanation": "A platform about 17 to 18 inches wide lets both feet move. Textured or massage surfaces add grip but can feel busy under socks. Check dimensions and surface description. Look for a listed platform width near 17 inches, and check whether the surface is rubberized, textured or smooth before assuming it suits socks or bare feet."
   },
   {
     "criterion": "Weight limit and frame",
-    "explanation": "Metal frames state limits such as 140 or 150 lbs, and some do not. A moving platform needs a sturdy hinge. Look for a stated limit and a metal frame."
+    "explanation": "Metal frames state limits such as 140 or 150 lbs, and some do not. A moving platform needs a sturdy hinge. Look for a stated limit and a metal frame. Find a number on the listing, since 140 and 150 lb limits are stated on some and absent on others, and heavier users should avoid unrated frames."
   },
   {
     "criterion": "Stability when tilting",
-    "explanation": "A tilting platform should not tip or slide as you push. Rubber feet and a wide base help. Check for non-slip feet or mats."
+    "explanation": "A tilting platform should not tip or slide as you push. Rubber feet and a wide base help. Check for non-slip feet or mats. Look at the base: rubber feet or a wide stance are named in the listing, and a few reviews mention sliding on hardwood, so test it before cutting the box."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Tilt",
-    "description": "We compared tilt range in degrees and whether the angle locks."
+    "title": "Tilt range in degrees",
+    "description": "We compared the stated sweep of each platform, from the fixed 15 and 30 degree settings on StarTech to the minus 30 to plus 30 rock on HUANUO. A larger arc lets ankles move more, but only if you can actually reach it from a normal seated posture, so we favored ranges that were fully stated."
   },
   {
-    "title": "Height",
-    "description": "We compared height ranges and steps."
+    "title": "Locked angle or free rocking",
+    "description": "We noted which units hold a position and which rock continuously. HUANUO and EUREKA cannot be locked, while StarTech uses fixed angles. Free rockers help circulation but feel unstable if you plan to rest your feet for long periods. Free rocking suits fidgeters, while locked angles suit people who plant their feet."
   },
   {
-    "title": "Build",
-    "description": "We compared frames, weight limits and platform size."
+    "title": "Height range and fit to the chair",
+    "description": "We checked minimum and maximum heights against typical desk setups. ShopSol spans 3 to 16 inches, while StarTech adds only about an inch, so a tall user on a high chair may find a narrow range useless. Range mattered as much as tilt in our scoring. Range counted as much as tilt in the scoring."
   },
   {
-    "title": "Value",
-    "description": "We weighed features against price from $26 to $260."
+    "title": "Platform size and surface grip",
+    "description": "We looked at platform dimensions near 17 to 18 inches wide and at surface texture. A wide platform lets both feet rest without crowding, and rubberized or massage tops help grip, though textured surfaces can bother people who work in thin socks. Wider is better until it hits your chair base."
+  },
+  {
+    "title": "Build, load limit and price tier",
+    "description": "We weighed metal frames and stated load limits, such as 150 lb on EUREKA and 140 lb on Toyswill, against price. ShopSol is priced far above the rest, so we judged whether its ANSI/BIFMA claim and range justify that gap for a home desk. We noted that a stated limit beats a silent one."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Tilt Preference",
-    "intro": "Match tilt to how you sit.",
+    "subheading": "By Preferred Tilt Style",
+    "intro": "Pick the motion first, because it decides which pick feels natural at your desk.",
     "table": {
       "headers": [
-        "Your situation",
+        "If you want",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Fixed angle steps on a big platform",
-          "StarTech 18 x 14 Inch Adjustable Foot Rest"
+          "Fixed tilt positions you can set and forget while typing",
+          "StarTech 18 x 14 Inch Adjustable Foot Rest, with 15 and 30 degree settings"
         ],
         [
-          "Free rock, wide range",
-          "HUANUO Adjustable Foot Rest, Plus or Minus 30 Degree Tilt"
+          "A wide rocking motion that keeps ankles moving",
+          "HUANUO Adjustable Foot Rest, which rocks plus or minus 30 degrees"
         ],
         [
-          "Simple presets",
-          "Staples Ergonomic Tilt Adjustable Footrest"
+          "A lighter rocker with a sturdy metal frame",
+          "EUREKA ERGONOMIC 20 Degree Tilt Foot Rest, with a stated 150 lb limit"
         ],
         [
-          "Metal frame rocker",
-          "EUREKA ERGONOMIC 20 Degree Tilt Foot Rest"
+          "Simple presets with no tilt guesswork",
+          "Staples Ergonomic Tilt Adjustable Footrest, with three preset height and tilt positions"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
-    "intro": "Real prices from this comparison.",
+    "intro": "Five of the six picks fall under $50, with ShopSol in a different class entirely.",
     "table": {
       "headers": [
-        "Price range",
+        "Price bucket",
         "Recommended pick"
       ],
       "rows": [
         [
-          "$25 to $26",
+          "Under $26 and presets are enough",
           "Staples Ergonomic Tilt Adjustable Footrest"
         ],
         [
-          "$28 to $29",
-          "HUANUO Adjustable Foot Rest, Plus or Minus 30 Degree Tilt"
+          "Under $30 with the widest free rock",
+          "HUANUO Adjustable Foot Rest"
         ],
         [
-          "$39 to $40",
+          "Under $40 with a folding design for storage",
           "Toyswill Foldable Foot Rest with Massage Beads"
         ],
         [
-          "$46 to $50",
-          "EUREKA ERGONOMIC 20 Degree Tilt Foot Rest"
+          "Under $50 for a bigger fixed platform or a sturdy rocker",
+          "StarTech or EUREKA, depending on whether you want locked or free tilt"
         ],
         [
-          "$259 to $260",
-          "ShopSol Tiltable Ergonomic Footrest"
+          "Over $250 for commercial grade adjustment",
+          "ShopSol Tiltable Ergonomic Footrest, with a 3 to 16 inch height span"
         ]
       ]
-    },
-    "note": "The mid-priced options cover most home offices."
+    }
   },
   {
-    "subheading": "Locking Steps vs Free Rocker",
+    "subheading": "Locked Angle vs Free Rocking",
+    "intro": "Both are sold as tilting, but they behave very differently over an eight hour day.",
     "cards": [
       {
-        "label": "Set angle steps",
-        "text": "Hold the angle you choose. StarTech and Staples fall here."
+        "label": "Locked or preset angles (StarTech, Staples, Toyswill)",
+        "text": "A fixed angle gives a steady support for typing and avoids the wobble some users find tiring. The drawback is that your ankles stay in one position, which sources note can create pressure points over long sessions."
       },
       {
-        "label": "Free rocker",
-        "text": "Keeps moving as you shift. HUANUO and EUREKA fall here, and neither locks."
+        "label": "Free rocking (HUANUO, EUREKA)",
+        "text": "The platform moves with every shift of your feet, encouraging micro movement. It cannot be locked, so it is less restful if you want to plant your feet and keep them still."
       }
     ],
-    "note": "Choose steps for a steady slope, a rocker if you like to move."
+    "note": "Most people should start with a locking or preset pick, and choose a free rocker only if fidgeting and circulation are the main goal."
   },
   {
-    "subheading": "By Weight Rating",
-    "intro": "Weight limits matter for heavier users.",
+    "subheading": "By Height Gap",
+    "intro": "The gap between your seat and the floor decides whether tilt even matters.",
     "table": {
       "headers": [
         "Your situation",
@@ -322,34 +326,34 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Stated 150 lb limit",
-          "EUREKA ERGONOMIC 20 Degree Tilt Foot Rest"
+          "A small gap, with only an inch or two to make up",
+          "StarTech, whose adjustment range is narrow but stable"
         ],
         [
-          "Stated 140 lb limit",
-          "Toyswill Foldable Foot Rest with Massage Beads"
+          "A medium gap and you want three clear steps",
+          "HUANUO, with 4.3, 5.5 and 6.7 inch heights"
         ],
         [
-          "Commercial grade steel",
-          "ShopSol Tiltable Ergonomic Footrest"
+          "A tall chair or standing desk with a big gap",
+          "ShopSol, the only pick spanning 3 to 16 inches"
         ],
         [
-          "No stated limit, budget pick",
-          "Staples Ergonomic Tilt Adjustable Footrest"
+          "Shared use, where heights change often",
+          "Staples, whose 4.1 to 6.8 inch presets are quick to change"
         ]
       ]
     }
   },
   {
-    "subheading": "For Active Sitters Specifically",
+    "subheading": "For Under-Desk Space Constraints Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "A wide tilt range, a free-floating platform and a stable base."
+        "text": "A platform no deeper than your leg clearance, with a base that will not slide when you push, and a way to store it when you stand."
       },
       {
         "label": "In this comparison",
-        "text": "HUANUO Adjustable Foot Rest, Plus or Minus 30 Degree Tilt rocks 30 degrees each way and has three height steps."
+        "text": "Toyswill folds flat for storage, while HUANUO's 18 x 13 inch platform and Staples 17.3 x 13 inch platform fit under most desks."
       }
     ]
   },
@@ -358,11 +362,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want commercial-grade build and the widest height range (ShopSol Tiltable Ergonomic Footrest)."
+        "text": "You need a wide height and tilt span for several users, in which case the ShopSol is the only pick built for it, though it is well over the other prices in this guide."
       },
       {
         "label": "Save if",
-        "text": "You want simple presets at a low price, where Staples Ergonomic Tilt Adjustable Footrest is enough."
+        "text": "You sit at a normal desk height, where Staples or HUANUO cover tilt and height for far less than the commercial pick or the StarTech."
       }
     ]
   }
@@ -371,28 +375,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "What does a non-lockable tilt mean?",
-    "a": "The platform rocks freely and returns to its natural position rather than holding an angle. HUANUO and EUREKA say this directly. Choose a locking model if you want a fixed slope."
+    "q": "Is a tilting footrest actually better than a fixed one?",
+    "a": "It can be, because a fixed angle holds your ankles in one position and some guides link that to pressure points. A tilting or rocking platform lets your feet change angle through the day, which helps if you sit for long stretches."
   },
   {
-    "q": "How far should a footrest tilt?",
-    "a": "There is no single correct angle, but a range of 15 to 30 degrees is common and lets your ankle move. Start flat and increase only if you feel comfortable."
+    "q": "Why can't I lock the HUANUO or EUREKA?",
+    "a": "Both are free rockers by design, so the platform moves with your feet and cannot be fixed at an angle. If you prefer a firm, still support, choose the StarTech with fixed 15 and 30 degree positions or the Staples presets."
   },
   {
-    "q": "Is a tilting footrest worth it over a fixed one?",
-    "a": "A tilting footrest encourages small movements through the day. A fixed one is quieter and simpler. If you have ankle or leg pain, ask a doctor or ergonomist first."
+    "q": "Is the StarTech worth it over the HUANUO?",
+    "a": "The StarTech gives fixed angles and a larger 18 x 14 inch platform, but only about an inch of height adjustment. The HUANUO costs less, rocks plus or minus 30 degrees and has three height steps. Pick StarTech for stability, HUANUO for movement."
   },
   {
-    "q": "How do I set the height?",
-    "a": "Set your chair first, then pick the height step that keeps your knees near hip level. HUANUO lists 4.3, 5.5 and 6.7 inches."
+    "q": "How do I adjust height on a tilting footrest?",
+    "a": "Most use pop-in legs or rails with stated steps, such as the HUANUO's 4.3, 5.5 and 6.7 inches. Set it so your knees sit near a right angle when your feet rest flat, then test tilt with your normal shoes."
   },
   {
-    "q": "Will it slide on my floor?",
-    "a": "Look for rubber feet or a non-skid base. Staples and Toyswill list non-slip bases."
+    "q": "Does a tilting footrest slide on hardwood floors?",
+    "a": "It can if the feet are plastic. EUREKA lists scratch resistant rubber feet and Staples a non-skid base. Put a thin mat under any unit on hardwood, and press forward hard to test before you trust it. Hardwood and tile are the worst cases."
   },
   {
-    "q": "How do I clean a textured platform?",
-    "a": "Wipe it with a damp cloth. Remove removable pads such as Toyswill's before cleaning."
+    "q": "What weight can these footrests hold?",
+    "a": "Limits are stated on some. EUREKA lists 150 lb and Toyswill 140 lb, while others give no figure. If you plan to push down firmly or rest both legs, favor a listed limit and avoid unrated plastic frames."
   }
 ];
 

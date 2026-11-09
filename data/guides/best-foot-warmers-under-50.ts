@@ -191,51 +191,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Heat range in actual degrees",
-    "explanation": "A listing that says low, medium, high tells you nothing about how hot the surface runs. FAYKONCEN states 104F, 122F and 149F, VIHOSE tops at 131F and Comfier gives 45C and 55C. Look for degrees in the bullets, and treat a missing range as a reason to compare other picks."
+    "explanation": "A listing that says low, medium, high tells you nothing about how hot the surface runs. FAYKONCEN states 104F, 122F and 149F, VIHOSE tops at 131F and Comfier gives 45C and 55C. Look for degrees in the bullets, and treat a missing range as a reason to compare other picks.  That is why a pad that says 'adjustable' with no range ranks below one that prints exact temperatures."
   },
   {
     "criterion": "Timer and shut-off structure",
-    "explanation": "The way a pad turns itself off changes how you work. FAYKONCEN stops at 2 hours, Comfier lets you choose 1, 2 or 4, and VIHOSE lists no timer at all. Check for stated hours, and plan to unplug anything without a shut-off."
+    "explanation": "The way a pad turns itself off changes how you work. FAYKONCEN stops at 2 hours, Comfier lets you choose 1, 2 or 4, and VIHOSE lists no timer at all. Check for stated hours, and plan to unplug anything without a shut-off.  If a pad has no timer, as with the VIHOSE listing, decide in advance that you will unplug it whenever you leave the desk."
   },
   {
     "criterion": "Cord and battery limits",
-    "explanation": "A plug-in pad is bounded by its cord, which is 10 feet on FAYKONCEN and unspecified on others, while CYCYHEAT is bounded by its battery. That matters because a cord that stops short pushes you toward extension cords, which suit heaters poorly. Measure the distance to your outlet, and for cordless units look for the connector spec on spare packs."
+    "explanation": "A plug-in pad is bounded by its cord, which is 10 feet on FAYKONCEN and unspecified on others, while CYCYHEAT is bounded by its battery. That matters because a cord that stops short pushes you toward extension cords, which suit heaters poorly. Measure the distance to your outlet, and for cordless units look for the connector spec on spare packs.  Cordless pads suit warm spots in different rooms, while corded pads suit a fixed desk where an outlet is close."
   },
   {
     "criterion": "Heated area versus footrest height",
-    "explanation": "A footrest raises your feet and may change your posture, whereas a flat pad leaves your posture alone. Comfier offers 3 heights and HAMOPY stacks two pieces, but QOTOLY and VIHOSE sit flat. Decide which you want before buying, because a footrest needs more depth under the desk."
+    "explanation": "A footrest raises your feet and may change your posture, whereas a flat pad leaves your posture alone. Comfier offers 3 heights and HAMOPY stacks two pieces, but QOTOLY and VIHOSE sit flat. Decide which you want before buying, because a footrest needs more depth under the desk.  Under-desk depth matters too: measure how far your chair sits from the wall before choosing a footrest."
   },
   {
     "criterion": "Washing and element protection",
-    "explanation": "Plush covers collect sweat and dust, so a removable or machine washable cover matters. HAMOPY and QOTOLY list removable or zip-out parts, and FAYKONCEN says machine washable. Read the cleaning bullet and unplug the controller first."
+    "explanation": "Plush covers collect sweat and dust, so a removable or machine washable cover matters. HAMOPY and QOTOLY list removable or zip-out parts, and FAYKONCEN says machine washable. Read the cleaning bullet and unplug the controller first.  Do not submerge or machine-wash the heating element, since the cover and the controller have different care rules."
   },
   {
     "criterion": "Named safety listing",
-    "explanation": "A named lab mark such as ETL means the product itself was assessed, which FAYKONCEN cites. Most others list only generic overheat protection, which is useful but not a lab mark. Look for the mark on photos or the tag."
+    "explanation": "A named lab mark such as ETL means the product itself was assessed, which FAYKONCEN cites. Most others list only generic overheat protection, which is useful but not a lab mark. Look for the mark on photos or the tag.  A lab mark is not a guarantee, but it means a third party checked the product design rather than the seller alone."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Heat range and control",
-    "description": "We compared stated temperatures in degrees, number of settings and the clarity of the controls."
+    "title": "Stated temperatures in degrees",
+    "description": "We compared listed heat ranges, because a listing that only says low, medium and high tells you nothing about surface heat. FAYKONCEN states 104F, 122F and 149F, VIHOSE tops at 131F, and Comfier gives 45C or 55C. At this price, a clear number counted as a mark of honesty. That is why we ranked pads with printed degrees above those using vague labels like low and high."
   },
   {
-    "title": "Timer and safety",
-    "description": "Auto shut-off lengths, overheat protection and named safety marks mattered more than wellness claims."
+    "title": "Timer and shut-off",
+    "description": "We read how each pad turns itself off, since that changes how safely you can leave it. FAYKONCEN has a 2 hour auto shut-off, Comfier lists 1 to 4 hour timers, and VIHOSE lists none, so we marked it down for desk use. Unplugging is the only safe answer for any pad without a timer, so we noted that in the verdict."
   },
   {
-    "title": "Form and fit",
-    "description": "We compared footrest, pad, mat and slipper shapes against typical desk clearances."
+    "title": "Cord and battery limits",
+    "description": "We compared cord length and battery life, since a short cord pushes you toward extension cords that do not suit heaters. FAYKONCEN has a 10 foot cord, while CYCYHEAT uses a 4000 mAh battery at 5V 2A. Extension cords are a poor fit for heaters, so a short cord counted against a pad."
   },
   {
-    "title": "Cleaning",
-    "description": "Removable covers, zip-out layers and wipe-clean surfaces were noted."
+    "title": "Footrest versus flat design",
+    "description": "Comfier and HAMOPY lift your feet with 3 heights or a two-piece design, while QOTOLY and VIHOSE lie flat. We weighed which suits an under-desk setup where depth is limited, since a raised footrest needs more room under the desk. A footrest that does not fit under your desk saves nothing, so we flagged the depth each one needs."
   },
   {
-    "title": "Value under $50",
-    "description": "Each pick costs under $50 or less, and we weighed documented features against that price."
+    "title": "Safety marks and cleaning",
+    "description": "We noted FAYKONCEN's ETL listing, the only named lab mark among these picks, and which covers are removable. Under $50, a named mark is worth more than an extra heat level. ETL means a lab assessed the product, which none of the other picks claim in their listings."
   }
 ];
 
@@ -243,130 +243,136 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Product Shape",
+    "intro": "Foot warmers come in very different forms.",
     "table": {
       "headers": [
         "Your situation",
-        "Recommended pick"
+        "Best pick here"
       ],
       "rows": [
         [
-          "Want a footrest that heats",
-          "Comfier Under Desk Foot Rest with Heat and Vibration"
+          "Footrest with heat and massage under a desk",
+          "Comfier Under Desk Foot Rest with Heat and Vibration, with 3 heights and 3 vibration levels"
         ],
         [
-          "Footrest with washable cover",
-          "HAMOPY Heated Foot Rest with Pad Pocket"
+          "Footrest that holds a pad inside",
+          "HAMOPY Heated Foot Rest with Pad Pocket, with a washable cover and waterproof pad"
         ],
         [
-          "Walk around while warm",
-          "CYCYHEAT Heated Slippers with 4000mAh Battery"
+          "Cordless warmth that you can walk in",
+          "CYCYHEAT Heated Slippers with 4000mAh Battery, which heat in under 30 seconds"
         ],
         [
-          "Soft pad, far outlet",
-          "FAYKONCEN Faux Fur Electric Foot Warmer"
+          "Flat double-sided pad for both feet",
+          "QOTOLY Double Sided Electric Foot Warmer, with dual-layer heating and an LED timer"
         ],
         [
-          "Shoes on, large surface",
-          "VIHOSE Heated Floor Mat Under Desk 22 x 20 Inch"
+          "A plush warm-on-top cover",
+          "FAYKONCEN Faux Fur Electric Foot Warmer, with 3 settings and a 2 hour auto shut-off"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Everything here sits under $50, so the spread is small.",
     "table": {
       "headers": [
-        "Price range",
-        "Recommended pick"
+        "Budget",
+        "Best pick here"
       ],
       "rows": [
         [
-          "About $33",
-          "VIHOSE Heated Floor Mat Under Desk 22 x 20 Inch"
+          "Under $35",
+          "VIHOSE Heated Floor Mat Under Desk 22 x 20 Inch, with 100W and 10 levels"
         ],
         [
-          "About $38",
-          "FAYKONCEN Faux Fur Electric Foot Warmer"
+          "Under $40",
+          "FAYKONCEN Faux Fur Electric Foot Warmer, with an ETL listing"
         ],
         [
-          "About $39",
-          "QOTOLY Double Sided Electric Foot Warmer"
+          "Under $40",
+          "QOTOLY Double Sided Electric Foot Warmer, with 104F to 149F"
         ],
         [
-          "About $47",
-          "Comfier Under Desk Foot Rest with Heat and Vibration"
+          "Under $50",
+          "CYCYHEAT Heated Slippers, a cordless option with a 4000 mAh pack"
         ],
         [
-          "Up to $50",
-          "CYCYHEAT Heated Slippers with 4000mAh Battery"
+          "Under $50",
+          "Comfier Under Desk Foot Rest, with heat, vibration and three heights"
         ]
       ]
     }
   },
   {
     "subheading": "Footrest vs Flat Pad",
+    "intro": "One changes your posture, the other only your warmth.",
     "cards": [
       {
-        "label": "Heated footrest",
-        "text": "A raised platform changes how your legs sit and lets you pick a height, but only the soles get heat. In this guide that is Comfier Under Desk Foot Rest with Heat and Vibration and HAMOPY Heated Foot Rest with Pad Pocket."
+        "label": "Footrest",
+        "text": "Comfier and HAMOPY raise your feet with adjustable heights, and may help posture, but need more depth under the desk."
       },
       {
-        "label": "Flat pad or mat",
-        "text": "A pad or mat leaves your posture alone and fits a narrow kneehole, with warmth from below or both sides. That covers QOTOLY Double Sided Electric Foot Warmer, FAYKONCEN Faux Fur Electric Foot Warmer and VIHOSE Heated Floor Mat Under Desk 22 x 20 Inch."
+        "label": "Flat pad",
+        "text": "QOTOLY, FAYKONCEN and VIHOSE lie flat and leave your posture alone, and they slide away more easily."
       }
     ],
-    "note": "Pick a flat pad unless you already want a footrest for posture."
+    "note": "Choose a footrest if your feet dangle, and a flat pad if your desk is shallow."
   },
   {
     "subheading": "By Power Source",
+    "intro": "Plug-in and battery pads behave very differently.",
     "table": {
       "headers": [
-        "Your concern",
-        "Recommended pick"
+        "Your situation",
+        "Best pick here"
       ],
       "rows": [
         [
-          "No outlet near my feet",
-          "CYCYHEAT Heated Slippers with 4000mAh Battery"
+          "A desk next to an outlet",
+          "FAYKONCEN Faux Fur Electric Foot Warmer, with a 10 foot cord"
         ],
         [
-          "Wall power, clear wattage",
-          "VIHOSE Heated Floor Mat Under Desk 22 x 20 Inch"
+          "Moving between rooms",
+          "CYCYHEAT Heated Slippers, running on a 4000 mAh pack"
         ],
         [
-          "Longest cord available",
-          "FAYKONCEN Faux Fur Electric Foot Warmer"
+          "Strong heat from a flat mat",
+          "VIHOSE Heated Floor Mat, with 100W on 110V"
         ],
         [
-          "Display and timer on a flat pad",
-          "QOTOLY Double Sided Electric Foot Warmer"
+          "Heat plus vibration through a cord",
+          "Comfier Under Desk Foot Rest, with 45C or 55C options"
         ]
       ]
     }
   },
   {
     "subheading": "For Cold Home Offices Specifically",
+    "intro": "A cold floor needs steady warmth, not a quick burst.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A heat range you can read in degrees, a timer you can restart easily and a cover you can wash."
+        "text": "A heat range with a stated maximum, a timer that fits your workday, and a pad large enough for both feet."
       },
       {
         "label": "In this comparison",
-        "text": "FAYKONCEN Faux Fur Electric Foot Warmer lists degrees, a 2 hour cutoff and a washable fabric, while Comfier Under Desk Foot Rest with Heat and Vibration adds a 4 hour timer option."
+        "text": "The VIHOSE mat covers about 21.6 x 19.7 inches and reaches 131F, while FAYKONCEN reaches 149F with a 2 hour shut-off."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "The most expensive pick still sits under $50.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want posture support or cordless movement. Comfier Under Desk Foot Rest with Heat and Vibration and CYCYHEAT Heated Slippers with 4000mAh Battery sit at the top of this range."
+        "text": "You want a footrest with height and vibration. The Comfier under $50 adds both; see the best foot rests guide for upgrades."
       },
       {
         "label": "Save if",
-        "text": "You only need warm toes at a fixed desk. VIHOSE Heated Floor Mat Under Desk 22 x 20 Inch and FAYKONCEN Faux Fur Electric Foot Warmer cost about $33 to $38."
+        "text": "You only want warm feet. VIHOSE under $35 or FAYKONCEN under $40 do it for less."
       }
     ]
   }
@@ -375,28 +381,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Which heated foot warmer under $50 lasts longest per use?",
-    "a": "Plug-in pads run as long as their timer allows, so Comfier's 4 hour option or an always-on mat outlast battery slippers. CYCYHEAT is limited by its pack and should be charged between sessions."
+    "q": "Which foot warmer under $50 is safest to leave on at a desk?",
+    "a": "The ones with a timer and a named safety mark. FAYKONCEN lists a 2 hour auto shut-off and an ETL listing. VIHOSE lists no timer, so plan to switch it off manually. Never leave any heater running unattended overnight."
   },
   {
-    "q": "Can I put a heated footrest under a standard desk?",
-    "a": "Check the height settings against your leg clearance. Comfier offers three heights and HAMOPY stacks pieces, but you need enough depth for the footrest and room for your chair."
+    "q": "What do buyers get wrong about heated foot pads?",
+    "a": "They assume higher wattage means better heat. A pad's useful warmth comes from its temperature range and how well it holds heat, not just watts. VIHOSE is 100W and tops at 131F, while FAYKONCEN reaches 149F."
   },
   {
-    "q": "Is a footrest worth it over a flat pad?",
-    "a": "Only if you want the posture change. A footrest heats the soles and raises your feet, while a pad such as QOTOLY or FAYKONCEN warms from below or both sides without moving your legs."
+    "q": "Is the Comfier footrest worth more than the cheaper VIHOSE mat?",
+    "a": "If you want vibration, three heights and 1 to 4 hour timers, yes. The Comfier is close to the top of this price range, while the VIHOSE mat under $35 is a flat pad with no stated timer."
   },
   {
-    "q": "How do I wash a heated pad safely?",
-    "a": "Unplug it, remove any controller or battery, and follow the listing instructions. FAYKONCEN says machine washable, and QOTOLY says to unzip the two heating layers first. Let everything dry fully before reuse."
+    "q": "How do I set up a heated foot pad under my desk?",
+    "a": "Place the pad flat where your feet rest, route the cord along a desk leg, and plug it into a wall outlet, not an extension cord. Start on the lowest setting and let it warm for a few minutes."
   },
   {
-    "q": "What do I do if the shut-off timer is too short?",
-    "a": "Press the power button again, or choose a pad with a timer menu like Comfier. Never tape a switch down to bypass a shut-off."
+    "q": "Can I wash the covers on these foot warmers?",
+    "a": "HAMOPY and QOTOLY list removable or zip-out parts, and FAYKONCEN states a machine-washable cover. Always unplug the controller first and let the cover dry completely before reconnecting. Never wash the heating element itself."
   },
   {
-    "q": "Are these safe for diabetic or numb feet?",
-    "a": "They are comfort products and not medical devices. If you have reduced sensation, ask a doctor first, because you may not feel a surface that is too warm."
+    "q": "Does the cordless CYCYHEAT slipper heat for a full workday?",
+    "a": "Not on its stated battery. It uses a 4000 mAh pack at 5V 2A and heats in under 30 seconds, but runtime depends on the setting. Plan to recharge it or switch to a corded pad for all-day use."
   }
 ];
 

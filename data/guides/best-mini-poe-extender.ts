@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Physical Footprint", "description": "Compared actual dimensions to judge genuine compactness for tight installation spaces." },
-  { "title": "Real Distance and Power Delivery Method", "description": "Compared documented range and whether the remote end needs its own local power source." },
-  { "title": "Per-Port and Total Wattage", "description": "Compared power output capability relative to the compact form factor." },
-  { "title": "Electrical Protection", "description": "Compared surge, lightning, and ESD protection specifications despite the smaller size." },
-  { "title": "Value for Multi-Unit Deployments", "description": "Compared per-unit cost for single extenders versus multi-pack kits." }
+  {
+    "title": "Physical footprint",
+    "description": "We checked listed dimensions, since a mini extender earns its name only if it fits a crowded cabinet or junction box. CONETCH lists 4 by 1.3 by 0.8 inches, the 2-wire kit is a 123 by 26 by 26 mm aluminum body, and we compared both against the bulkier 5-pack format."
+  },
+  {
+    "title": "Reach and how power travels",
+    "description": "Extenders chain every 100 meters, and the numbers differ sharply. CONETCH lists a 3-level cascade to 1700ft and CENTROPOWER daisy chains to 400m, while the 2-wire kit runs 1,640ft with PoE over just two wires. We treated cascade figures as best case, not per-unit distances."
+  },
+  {
+    "title": "Per-port and total wattage",
+    "description": "CONETCH offers up to 60W total across three ports, CENTROPOWER gives 15.4W output per unit, and EmpireTech splits one PoE source across two devices. We added up what a typical camera plus access point would draw before deciding whether the headline wattage was usable."
+  },
+  {
+    "title": "Electrical protection",
+    "description": "CONETCH lists 6KV lightning and 8KV ESD protection with an AI Watchdog that restarts on connection faults, while CENTROPOWER lists auto-detection protection. Small boxes tucked in outdoor cabinets take surges first, so named protection counted heavily for us."
+  },
+  {
+    "title": "Value for multi-unit jobs",
+    "description": "The CENTROPOWER 5-pack costs far less per unit than buying five extenders, but each unit tops out at 15.4W. We weighed that against the 2-wire kit, which costs many times more but solves a distance problem nothing else here can."
+  }
 ];
 
 export const howToChoose = [

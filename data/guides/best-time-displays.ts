@@ -105,91 +105,139 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Prioritized confirmed screen and digit size", description: "We verified actual screen dimensions where stated rather than assuming \"large display\" is consistent across listings." },
-  { title: "Weighed brightness control as a real usability factor", description: "Auto-dimming and manual brightness options genuinely affect readability and eye strain in different lighting conditions throughout the day." },
-  { title: "Evaluated time accuracy features directly", description: "We distinguished atomic radio-sync clocks, which self-correct, from standard clocks that require manual time adjustment." },
-  { title: "Noted color-display customization as a genuine accessibility feature", description: "Where a product offers multiple display color options, we flagged this as useful for buyers with specific contrast or readability needs." }
+  {
+    "title": "Time accuracy and how it is kept",
+    "description": "Only the La Crosse Technology 513-1419BLv4-INT uses atomic radio sync, which corrects the time automatically but depends on the signal reaching your room. We treated it as the most accurate pick and kept in mind that concrete, steel and nearby monitors can block that signal."
+  },
+  {
+    "title": "Display size and readability",
+    "description": "Four of five picks are 7 inch class displays, the size commonly cited for readable day and date clocks. We compared how each prints the day, date and time, and checked whether the listing offers adjustable brightness or color for readers with poor contrast vision."
+  },
+  {
+    "title": "Brightness and night behavior",
+    "description": "SSYA lists 5-level auto-dimming, and another clock lists a 10-level brightness setting with a one-touch sleep mode, while La Crosse is simply backlit. A bright screen in a bedroom can keep you awake, so we gave extra weight to controls that dim without a menu hunt."
+  },
+  {
+    "title": "Alarms, reminders and configuration",
+    "description": "SSINI offers 15 alarms and 5 color options, while the 20-alarm Clock with Day and Date for Elderly adds 20 custom reminders. We weighed how many alarms you can realistically use against how easy they are to set."
+  },
+  {
+    "title": "Price against build and power",
+    "description": "Four clocks sit in a narrow price band, so differences came down to features. We checked for a plug-in power versus battery note in each listing, because a clock that needs an outlet near a bedside table is less flexible. None of the listings published a power note beyond the plug type, so we left that as a question to check."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "subheading": "By Priority",
+    "intro": "Each pick wins on one thing, so decide that first.",
     "table": {
       "headers": [
-        "Your priority",
+        "What matters most",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Highest average rating",
-          "La Crosse Technology 513"
+          "Exact time that corrects itself",
+          "La Crosse Technology 513-1419BLv4-INT, with atomic radio sync and a backlit display."
         ],
         [
-          "Largest review base, strongest reliability signal",
-          "La Crosse Technology 513"
+          "Dimming without touching it",
+          "SSYA 7 Inch Calendar Clock, with 5-level auto dimming."
+        ],
+        [
+          "Display color you can read",
+          "SSINI Digital Calendar Dementia Alarm Clock, with 5 color options."
+        ],
+        [
+          "Many alarms and reminders",
+          "Clock with Day and Date for Elderly, the 20-alarm version with 20 custom reminders."
+        ],
+        [
+          "Plain and cheap",
+          "Clock with Day and Date for Elderly, 7 inch Large Display."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Four of the five picks sit within a few dollars of each other.",
     "table": {
       "headers": [
-        "Budget",
+        "Price range",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $26",
-          "Clock with Day and Date for Elderly"
+          "Under $26, cheapest",
+          "Clock with Day and Date for Elderly, 7 inch Large Display."
         ],
         [
-          "Up to $NaN",
-          "Large Digital Calendar Day Clock with 6"
+          "$26 to $28, dimming or colors",
+          "SSYA 7 Inch Calendar Clock or SSINI Dementia Alarm Clock."
+        ],
+        [
+          "Under $40, atomic sync",
+          "La Crosse Technology 513-1419BLv4-INT, the highest price here."
         ]
       ]
     }
   },
   {
-    "subheading": "Clock with Day and Date for Elderly vs Large Digital Calendar Day Clock with 6",
+    "subheading": "Atomic Sync vs Manual Set",
+    "intro": "The extra cost buys one real thing, so judge whether you need it.",
     "cards": [
       {
-        "label": "Clock with Day and Date for Elderly",
-        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+        "label": "Atomic sync",
+        "text": "The time corrects itself, including daylight saving changes. La Crosse is the only one, but it needs a window-side spot and still has a manual fallback."
       },
       {
-        "label": "Large Digital Calendar Day Clock with 6",
-        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+        "label": "Manual set",
+        "text": "Cheaper and works anywhere, but you must reset it after a power cut or a time change. SSYA, SSINI and the two Clock with Day and Date for Elderly are all manual."
       }
     ],
-    "note": "Default to Clock with Day and Date for Elderly unless your specific need genuinely calls for the pricier pick's extra headroom."
+    "note": "Choose La Crosse only if you want a set-and-forget clock and have decent signal."
   },
   {
-    "subheading": "By Review Base Confidence",
+    "subheading": "By Display Features",
+    "intro": "Brightness and color control separate the displays.",
     "table": {
       "headers": [
-        "Your priority",
+        "Feature",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Largest, most-established review base",
-          "La Crosse Technology 513"
+          "Auto-dimming",
+          "SSYA 7 Inch Calendar Clock."
+        ],
+        [
+          "10 brightness levels plus sleep mode",
+          "Clock with Day and Date for Elderly, 20-alarm version."
+        ],
+        [
+          "Five display colors",
+          "SSINI Digital Calendar Dementia Alarm Clock."
+        ],
+        [
+          "Backlight only",
+          "La Crosse Technology 513-1419BLv4-INT."
         ]
       ]
     }
   },
   {
-    "subheading": "For a First-Time Buyer Specifically",
+    "subheading": "For Seniors or Memory Support Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+        "text": "A 7 inch or larger screen that spells out the day and date, simple controls, and a dim mode for night."
       },
       {
         "label": "In this comparison",
-        "text": "La Crosse Technology 513 is worth checking against its listed specs before buying, given its strong review base."
+        "text": "SSINI was designed with memory care in mind and offers 15 alarms and 5 colors. SSYA's auto-dimming avoids a bright screen at night."
       }
     ]
   },
@@ -198,11 +246,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You need real durability and feature depth for regular use, where Large Digital Calendar Day Clock with 6's build gives real headroom over the cheaper picks."
+        "text": "You want atomic accuracy. La Crosse at under $40 is the premium option over the $25 to $28 group."
       },
       {
         "label": "Save if",
-        "text": "You only need this for light or occasional use, where Clock with Day and Date for Elderly covers the same job at a lower price."
+        "text": "You only need a big readable date. Clock with Day and Date for Elderly under $26 covers that."
       }
     ]
   }
@@ -232,11 +280,30 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which display is the most accurate for time-keeping?", a: "The La Crosse Technology Atomic Full Calendar Clock, which uses atomic radio sync to self-correct continuously." },
-  { q: "Is there an option that dims automatically at night?", a: "Yes, the SSYA 7 Inch Calendar Clock includes 5-level auto-dimming." },
-  { q: "What's the cheapest large display option?", a: "The Clock with Day and Date for Elderly, 7 inch, at under $30." },
-  { q: "Can I change the display color?", a: "Yes, the SSINI Digital Calendar Dementia Alarm Clock offers 5 display color options." },
-  { q: "How far away can these be read from?", a: "A 7 inch display typically reads comfortably from 6-8 feet in normal indoor lighting; for greater distances, prioritize the largest confirmed digit size and a backlit or auto-dimming model." }
+  {
+    "q": "Is an atomic clock worth it over a regular digital display?",
+    "a": "For accuracy, yes. La Crosse Technology 513 syncs to a radio time signal and so never drifts, while the others keep time with a basic quartz clock. The catch is reception, so place it near a window, away from monitors and routers."
+  },
+  {
+    "q": "Why won't my atomic clock sync?",
+    "a": "Radio signal strength, not a fault, is usually the cause. Reinforced concrete, metal roofs, nearby monitors and routers all block it, and reception is often best at night. Move the La Crosse near a window and wait a night, or set the time by hand."
+  },
+  {
+    "q": "Which clock is best for a bedroom at night?",
+    "a": "SSYA 7 Inch Calendar Clock, with 5-level auto-dimming, because the screen adjusts through the day. The 20-alarm Clock with Day and Date for Elderly offers a one-touch sleep mode and 10 brightness levels, which suits those who like manual control."
+  },
+  {
+    "q": "Is a 7 inch display big enough to read from across a room?",
+    "a": "For most people, yes, in normal indoor light. A 7 inch display reads comfortably at several feet, and for greater distances or low vision you want the biggest digits and a high-contrast color. SSINI lets you pick from five colors."
+  },
+  {
+    "q": "Can these clocks help someone with memory loss?",
+    "a": "They can help with orientation because they spell out the day and date, but they are not medical devices. SSINI was designed around memory care with 15 alarms and color choices. Place it where it is seen daily, and keep the settings simple."
+  },
+  {
+    "q": "How do I set the alarms and the date?",
+    "a": "Each has its own button layout, so read the manual once. Large 7 inch clocks usually use a few buttons for time, date, alarm and brightness, and SSINI with 15 alarms takes the longest to set. Write down your alarm times before you start."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

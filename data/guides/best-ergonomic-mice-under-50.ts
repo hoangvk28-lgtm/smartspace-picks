@@ -5,7 +5,7 @@ export const metaDescription = "Five ergonomic mice under $50 compared by vertic
 export const mainKeyword = "ergonomic mouse under $50";
 export const introParagraphs = [
   "Fifty dollars is enough to skip the barebones tier: rechargeable batteries, three-device Bluetooth and a choice of hand sizes all show up here. Spending closer to the ceiling does not automatically buy a more comfortable mouse, though, since the shape you pick matters more than the brand on it.",
-  "This list mixes two TECKNET vertical mice, a TECKNET model with a side scroll wheel, a rotating arc travel mouse and the Dell MS700. Prices run from about $23 to $49. We read every listing for grip angle, stated hand size, scroll features, battery claims and how each is meant to be carried or used, so you can match a shape to your workday rather than chase the highest price."
+  "This list mixes two TECKNET vertical mice, a TECKNET model with a side scroll wheel, a rotating arc travel mouse and the Dell MS700. Prices run from under $25 to $49. We read every listing for grip angle, stated hand size, scroll features, battery claims and how each is meant to be carried or used, so you can match a shape to your workday rather than chase the highest price."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31JmmxmbQaL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FMYHCXC8?tag=deskfinds0d-20",
-    "description": "NYIEFADA is an arc-shaped Bluetooth travel mouse that rotates and snaps flat to fit a pocket. It offers silent soft clicks, Bluetooth 5.0/4.0 plus 2.4G, support for 3 devices and a built-in rechargeable battery. The listing notes the shell is ABS plastic, not aluminum.\n\nCompared with the vertical TECKNET picks it favors portability over palm support, and it costs about $7 more than they do. Next to the Dell MS700 it is rechargeable rather than using AAA cells.\n\nBest for commuters and hot-desk workers who carry the mouse every day. The caveat is that a slim arc offers less hand support for a full day at one desk.",
+    "description": "NYIEFADA is an arc-shaped Bluetooth travel mouse that rotates and snaps flat to fit a pocket. It offers silent soft clicks, Bluetooth 5.0/4.0 plus 2.4G, support for 3 devices and a built-in rechargeable battery. The listing notes the shell is ABS plastic, not aluminum.\n\nCompared with the vertical TECKNET picks it favors portability over palm support, and it costs under $10 more than they do. Next to the Dell MS700 it is rechargeable rather than using AAA cells.\n\nBest for commuters and hot-desk workers who carry the mouse every day. The caveat is that a slim arc offers less hand support for a full day at one desk.",
     "specs": [
       "Snaps flat for pocket",
       "Bluetooth 5.0/4.0 plus 2.4G",
@@ -162,52 +162,52 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Vertical angle in degrees",
-    "explanation": "A vertical mouse stands the hand on its edge so the forearm rotates toward a handshake. Listings quote the angle, such as 57 degrees, and a higher number means a bigger change from a flat mouse. A bigger change can feel better over a long day but also takes longer to learn. Look for the degree figure in the title or first bullet."
+    "criterion": "Angle stated in degrees",
+    "explanation": "A vertical mouse's tilt, often listed as 57 degrees, controls how far your forearm rotates away from the twisted palm-down posture. A listing with no number may be only a mild contour. Look for the degree figure in the title or bullets, and expect a week of awkward pointing as your wrist adjusts to the new position. The TECKNET 57 degree listing gives an angle; the NYIEFADA arc does not."
   },
   {
-    "criterion": "Hand size match",
-    "explanation": "A shell that is too small makes fingers hang off the edge, while one that is too large pushes the arm outward. Some listings name a size, like medium to large, while others say nothing. Measure from wrist crease to middle fingertip, and if the listing is silent, check the dimensions in millimeters against your measurement."
+    "criterion": "Hand size and shell dimensions",
+    "explanation": "Medium to large hands need a longer shell, and a shell that is too short makes your fingers curl and tire. The TECKNET medium to large model names its range, while others give no guidance. Measure your hand from the wrist crease to the tip of the middle finger and compare it with the listed dimensions. The TECKNET medium to large model is the only pick here that names a hand size."
   },
   {
-    "criterion": "Scroll wheel style",
-    "explanation": "A conventional wheel scrolls up and down, a side wheel adds horizontal movement and touch scroll replaces the wheel with a surface. Horizontal scrolling saves time in spreadsheets, but touch scroll can feel imprecise. Look for a named side wheel or the words touch scroll in the listing."
+    "criterion": "Three-device pairing",
+    "explanation": "Multi-device mice remember two Bluetooth hosts plus a 2.4G dongle and switch with a button. That saves you from re-pairing each time you move between a laptop and desktop. Verify the listing says 3 devices, and check that the receiver is included in the box, because a missing dongle leaves a 2.4G channel unusable. Dell MS700 and TECKNET list three devices; the NYIEFADA lists Bluetooth 5.0/4.0 plus 2.4G."
   },
   {
-    "criterion": "Battery claims in context",
-    "explanation": "A claim such as 200 hours of life sounds huge but depends on the sleep mode and how you use the mouse. A built-in cell can be recharged over USB-C but cannot be swapped, while AAA cells can be replaced anywhere. Check the mAh figure and whether batteries are included."
+    "criterion": "Rechargeable battery claims",
+    "explanation": "Charging claims such as a 200 hour figure describe the maker's best case, usually with low brightness and no heavy use. A 500mAh cell is typical at this tier. Look for a Type-C port, which is easier to replace cables for, and for a note on whether the mouse works while charging. The TECKNET 57 degree claims 200 hours from a 500mAh cell, which is a best case."
   },
   {
-    "criterion": "Connection and device count",
-    "explanation": "Bluetooth plus a 2.4G dongle lets one mouse serve several computers. A USB-A dongle can be lost, and some laptops do not have a port for it. Look for the words 3 devices and confirm what the switch button does."
+    "criterion": "Side buttons and scroll hardware",
+    "explanation": "Extra buttons and a horizontal wheel only help if the driver maps them on your system. On macOS, many side functions need Windows software. Read the Q and A section for your operating system, and look for metal wheels, which tend to last longer than plastic ones. The TECKNET side scroll model lists no battery figure, so ask before assuming."
   },
   {
-    "criterion": "Travel versus daily support",
-    "explanation": "Travel mice are thin and light so they pack easily, but a thin shell offers less palm support. If this is your main mouse, prefer a taller, contoured or vertical shell. If it is a bag mouse, accept less support in exchange for weight."
+    "criterion": "Right-hand only designs",
+    "explanation": "Most vertical shells are molded for the right hand and cannot be flipped. If you use your left, a right-handed shell will not be comfortable. Look for the phrase ambidextrous or left-handed in the title or the compatibility bullets, and check the return policy before opening the box. All five listed here are right-handed or unstated, so left-handers should check first."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Ergonomic angle",
-    "description": "We compared vertical angles and conventional contours."
+    "title": "Vertical angle in degrees",
+    "description": "We looked for a stated tilt on each listing, such as the 57 degree TECKNET, because the angle decides how far the forearm rotates. Between $20 and $50 buyers can get a real vertical shell, so a pick that never states its angle lost ground to one that does."
   },
   {
-    "title": "Hand size",
-    "description": "We noted stated hand sizes and shell sizes."
+    "title": "Multi-device switching",
+    "description": "We compared Bluetooth and 2.4G channels, since a $25 to $50 mouse should handle a laptop plus a desktop without re-pairing. Three-device models like the TECKNET side scroll scored well, while single-channel designs lost points for anyone juggling more than one machine."
   },
   {
-    "title": "Features",
-    "description": "We compared scroll type, DPI steps and connection modes."
+    "title": "Travel versus desk shape",
+    "description": "We separated desk-size shells from travel mice such as the Dell MS700 and the NYIEFADA foldable arc, which weighs little and snaps flat. A pocket mouse trades palm support for portability, so we judged each pick against the job it was actually built for."
   },
   {
-    "title": "Power",
-    "description": "We compared rechargeable and AAA approaches and listed claims."
+    "title": "Scrolling and side controls",
+    "description": "We checked scroll hardware, including the side wheel plus metal main wheel on the TECKNET Side Scroll, because spreadsheet and timeline work leans on horizontal scrolling. Extra wheels earned credit only when the listing described how the control works."
   },
   {
-    "title": "Price",
-    "description": "We kept every pick under $50."
+    "title": "Value against the $50 ceiling",
+    "description": "We weighed each shell against what the cheaper $25 tier already offers. The Dell MS700 sits near the ceiling, so it had to justify the premium with portability and brand support rather than just a basic shape, while the sub-$25 vertical picks set the bar."
   }
 ];
 
@@ -339,28 +339,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do I need a mouse pad with these?",
-    "a": "Optical mice work on most desks. Glass or very glossy surfaces can confuse the sensor, and a cheap pad solves that."
+    "q": "Is a vertical mouse under $50 better than one under $25?",
+    "a": "Not always. Shape and angle are similar, since both tiers offer 57 degree shells, but this tier adds more reliable multi-device pairing, Type-C charging and longer battery claims. Pay more only if you switch between machines or want a bigger shell, like the TECKNET for medium to large hands."
   },
   {
-    "q": "Is the Dell worth the extra money?",
-    "a": "It is light and brand-backed, but it is not vertical and costs more than every other pick. Pay for it only if weight matters most."
+    "q": "Can one mouse switch between a laptop and desktop?",
+    "a": "Yes. The TECKNET 57 degree, TECKNET side scroll and Dell MS700 list three-device pairing, so you press a button to move between channels instead of re-pairing. Pair each computer once, label which channel is which, and the switch takes a single press afterward."
   },
   {
-    "q": "Is a vertical mouse worth it over an arc travel mouse?",
-    "a": "A vertical mouse may feel more relaxed over long sessions, while an arc mouse is easier to carry. See a doctor or ergonomist if pain persists."
+    "q": "What does a side scroll wheel do?",
+    "a": "A side wheel scrolls horizontally, which helps in spreadsheets, timelines and wide documents. The TECKNET Side Scroll pairs one with a metal main wheel. It uses your thumb, so check that your hand can reach it comfortably, since the reach depends on hand size and grip."
   },
   {
-    "q": "How do I switch between devices?",
-    "a": "Press the device button, often on the underside, and the mouse cycles between connections. The listing explains the light pattern."
+    "q": "Is a travel mouse a good main mouse?",
+    "a": "Rarely. The NYIEFADA arc and the Dell MS700 are made to fit a bag, so they give the palm less support than a full shell. They are fine for a coffee shop or a hotel desk, but anyone typing and clicking for hours should keep a full-size ergonomic mouse at the main desk."
   },
   {
-    "q": "Will the side wheel work on a Mac?",
-    "a": "The listings name Mac in compatibility lines, but side features can differ. Check the product page before ordering."
+    "q": "Do vertical mice work with Mac laptops?",
+    "a": "The pointer works over Bluetooth on macOS, but some side buttons depend on drivers that are Windows only. Check each listing for a macOS note before buying. The three-device Bluetooth models avoid the dongle problem entirely, which matters on a MacBook with only USB-C ports."
   },
   {
-    "q": "How do I charge the rechargeable models?",
-    "a": "Plug the USB or Type-C cable into the mouse and a USB power source, and wait for the indicator light to change. The TECKNET listings describe built-in batteries of about 500mAh. Switch the mouse off between uses to stretch the charge."
+    "q": "How do I clean and care for a vertical mouse?",
+    "a": "Wipe the shell and thumb rest with a slightly damp cloth, and clear lint from the sensor window with a dry cotton swab. Never soak it. For rechargeable models, avoid leaving them at zero charge for weeks, and remove AAA cells if you will not use the mouse for a month."
   }
 ];
 

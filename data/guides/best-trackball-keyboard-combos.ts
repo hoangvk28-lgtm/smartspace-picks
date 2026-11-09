@@ -247,51 +247,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Trackball diameter",
-    "explanation": "Keyboard trackballs run from 19mm up to a 55mm ball, and a larger ball gives smoother control. A 0.55 inch ball is tiny. Look for the size in millimeters or inches."
+    "explanation": "Keyboard trackballs run from 19mm up to a 55mm ball, and a larger ball gives smoother control. A 0.55 inch ball is tiny. Look for the size in millimeters or inches. A larger ball also needs more room on the board, so check the board's overall width on the listing. Compare it with the width listed in the title."
   },
   {
     "criterion": "Keyboard size and layout",
-    "explanation": "A 78-key board drops the number pad, while 87-key boards keep it. A handheld board has tiny keys. Check key count and dimensions."
+    "explanation": "A 78-key board drops the number pad, while 87-key boards keep it. A handheld board has tiny keys. Check key count and dimensions. Handheld boards put every key within thumb reach but are slow to type on for long periods. Test typing speed on a similar layout before buying."
   },
   {
     "criterion": "Wired versus wireless",
-    "explanation": "Wired boards need no batteries, while wireless ones allow couch use. Some are 2.4GHz only. Check the connection type."
+    "explanation": "Wired boards need no batteries, while wireless ones allow couch use. Some are 2.4GHz only. Check the connection type. A 2.4GHz-only board lacks Bluetooth, so it will not pair with a tablet that has no USB port. Check whether the receiver stores in the board."
   },
   {
     "criterion": "Key switch type",
-    "explanation": "Mechanical, scissor and membrane keys feel and sound different. Membrane is quiet but soft. Look for the switch type."
+    "explanation": "Mechanical, scissor and membrane keys feel and sound different. Membrane is quiet but soft. Look for the switch type. A quiet board suits a shared room, while mechanical keys suit a dedicated desk. Rubber-dome boards are the quietest in shared rooms. Rubber-dome boards are the quietest in shared rooms, and mechanical ones are loudest."
   },
   {
     "criterion": "Built-in USB hubs",
-    "explanation": "Hubs add ports, which helps a crowded desk. They are on some Perixx boards. Check the hub count."
+    "explanation": "Hubs add ports, which helps a crowded desk. They are on some Perixx boards. Check the hub count. Hubs also add power draw, so a hub-equipped board may heat a laptop port. Powered hubs may need a separate cable. Powered hubs may need a separate cable, so check the box contents."
   },
   {
     "criterion": "Operating system support",
-    "explanation": "Older trackball keyboards list Windows 7 to 10 only, while newer ones name Mac OS, iOS and Android. A board without driver support may lose its function keys on another system. Check the compatibility line for the operating system you actually use."
+    "explanation": "Older trackball keyboards list Windows 7 to 10 only, while newer ones name Mac OS, iOS and Android. A board without driver support may lose its function keys on another system. Check the compatibility line for the operating system you actually use. Ask whether the listing names your operating system, since older boards often do not. Read recent buyer comments about driver quirks. Read recent buyer comments about driver quirks and unusual key spacing before you commit."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Trackball",
-    "description": "We compared ball diameter and DPI."
+    "title": "Trackball size and control",
+    "description": "We compared ball sizes, because they range from a 19mm ball on the JOMAA boards to a 55mm ball on the Perixx Periboard-322 and a 0.55 inch ball on the Periboard-505H. A larger ball gives finer control, while a tiny one suits couch use but takes longer to learn. Smaller balls cost less but tire the thumb."
   },
   {
-    "title": "Keyboard",
-    "description": "Key count, switch type and size were noted."
+    "title": "Key count and layout",
+    "description": "Key count changes how you type. The JOMAA boards use 78 keys, Adesso WKB-3100UB has 87 keys and the Periboard-505H also lists 87, while handheld Fonicer and Banalove models have small keys. We matched layout to whether you need a number pad. Layout decides daily comfort."
   },
   {
-    "title": "Connection",
-    "description": "Wired, Bluetooth and dongle were compared."
+    "title": "Wired versus wireless",
+    "description": "Wired boards need no batteries, while wireless ones allow couch use. Adesso lists 30 feet of 2.4GHz range, JOMAA offers Bluetooth 5.0 plus 2.4GHz, and Banalove is 2.4GHz only with no Bluetooth. We weighed connection flexibility against reliability. Pairing flexibility matters when you switch devices."
   },
   {
-    "title": "Extras",
-    "description": "Hubs, backlight and wrist rests were weighed."
+    "title": "Switch type and typing feel",
+    "description": "Mechanical, scissor and membrane keys feel different. Perixx Periboard-322 lists mechanical keys with RGB, the wired JOMAA uses 78 scissor keys with backlight levels, and others use membrane. We favored picks that name their switch type. Typing feel is personal, so a stated switch type helps."
   },
   {
-    "title": "Value for price",
-    "description": "Cost only counted as justified when the listing showed a concrete feature the cheaper picks lack."
+    "title": "Operating system and hub support",
+    "description": "Older trackball keyboards list Windows only, while newer ones name Mac OS, iOS or Android. Perixx adds 2 USB hubs on its boards. We checked compatibility and hub counts, since a board that loses features on your OS is a poor buy. Missing OS support is the costliest surprise."
   }
 ];
 
@@ -423,28 +423,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Are trackball keyboards accurate enough?",
-    "a": "Small balls are less precise than a stand-alone one. For browsing they are fine."
+    "q": "Are trackball keyboards good for a couch or TV setup?",
+    "a": "Yes, handheld models like the Fonicer and Banalove or the Adesso WKB-3100UB are built for that. They use 2.4GHz with about 30 feet of range, so you can sit away from the screen. Check battery type, since some use AA cells."
   },
   {
-    "q": "Can I use one with a tablet?",
-    "a": "Bluetooth models like the JOMAA can. Dongle-only boards need a USB port."
+    "q": "What mistake do buyers make with built-in trackballs?",
+    "a": "Expecting a desktop mouse feel. A small ball such as the 19mm one on JOMAA is slower and takes days to learn, while the 55mm Periboard-322 ball is easier. Decide whether you want a full-time mouse replacement or a convenience tool."
   },
   {
-    "q": "Do they work on Mac?",
-    "a": "Some list Mac. Older boards list Windows only."
+    "q": "Is the Perixx Periboard-322 worth more than the Adesso boards?",
+    "a": "If you want mechanical keys, RGB and a 55mm trackball with 2 USB hubs, yes, but it is a wired board over $100. The Adesso WKB-3500UB is a wireless split design with a palm rest under $75."
   },
   {
-    "q": "Which size ball is best?",
-    "a": "Larger gives smoother control but only a few boards have one."
+    "q": "How do I pair the JOMAA wireless trackball keyboard?",
+    "a": "Insert the two AA batteries, plug in the 2.4GHz receiver or use Bluetooth 5.0 pairing, then switch modes using the key shown in the manual. Test the trackball on a flat surface. The batteries are not included."
   },
   {
-    "q": "Is the Perixx mechanical board worth it?",
-    "a": "It is worth it for a big ball and hubs. For basics, cheaper boards suffice."
+    "q": "Can I use these on a Mac or tablet?",
+    "a": "Check each listing. Newer Adesso and JOMAA boards name multiple systems, while older boards list Windows only. Some function keys may not map correctly on macOS, so confirm the compatibility line before buying."
   },
   {
-    "q": "How do I clean the trackball?",
-    "a": "Remove it from the underside and wipe it."
+    "q": "How do I clean the built-in trackball?",
+    "a": "Pop the ball out if the design allows, wipe the ball and the sensor cavity with a soft cloth and isopropyl alcohol, and let everything dry. Dust build-up causes jumpy movement, so clean every few weeks."
   }
 ];
 

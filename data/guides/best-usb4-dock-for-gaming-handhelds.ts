@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Turbo Mode Charging Compatibility", "description": "Compared charging wattage against each handheld brand's named performance modes." },
-  { "title": "HDMI Refresh Rate", "description": "Compared HDMI 2.0 versus HDMI 2.1 maximum refresh rate ceilings." },
-  { "title": "Cooling Design", "description": "Compared active fan cooling against passive aluminum heat dissipation." },
-  { "title": "Portability", "description": "Compared collapsible travel designs against permanent desk-oriented docks." },
-  { "title": "Handheld Compatibility Range", "description": "Compared stated compatibility across Steam Deck, ROG Ally, Legion Go, and Nintendo Switch." }
+  {
+    "title": "HDMI version and refresh ceiling",
+    "description": "We checked whether each dock offers HDMI 2.1, because handheld-to-TV play at 4K 120Hz or 1080p 360Hz needs it, while HDMI 2.0 docks cap at 4K 60Hz or 2K 120Hz. The BenQ GR10 stood apart as the only pick listing HDMI 2.1 with 4K 120Hz. A TV that only accepts 60Hz makes the extra HDMI 2.1 spend pointless, so we noted that too."
+  },
+  {
+    "title": "Power delivery for handheld modes",
+    "description": "Handhelds like the ROG Ally or Steam Deck can pull more power in their turbo modes, so we compared 100W Power Delivery against the 65W or lower charging common on cheap docks. All four picks list at least 100W charging or matching, which keeps the handheld from draining while docked. A weak charger is a common reason a handheld loses battery mid-game, so we read the wattage lines closely."
+  },
+  {
+    "title": "Fit and stand design",
+    "description": "Grips, protruding sticks and case thickness decide whether a handheld seats properly. We weighed adjustable hinges, like the Razer Chroma's 45 and 75 degree angles, and a widened base such as the JSAUX's for grip-heavy devices. A dock that wobbles puts strain on the USB-C port, which is the part most likely to fail."
+  },
+  {
+    "title": "Cooling and thermal design",
+    "description": "A docked handheld runs hot when it drives a TV. We favored an aluminum cooling shell or active fans, like the dual 5cm fans on the RGB dock, over plain plastic, though fan noise is a tradeoff for quiet rooms. Sustained heat is what makes frame rates stutter during long sessions."
+  },
+  {
+    "title": "Port set and ethernet",
+    "description": "We looked at 2.5Gb Ethernet, USB-A count, and whether the dock exposes ports a controller or keyboard needs. Across a spread from under $25 to over $100, ethernet and HDMI version explained most of the price difference."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The highest HDMI refresh rate for lag-free gaming", "BenQ GR10 USB4 Gaming Docking Station"],
-        ["Charging matched to specific Turbo Modes at the lowest price", "JSAUX 4-in-1 Docking Station"],
-        ["A genuinely portable, travel-friendly dock", "Razer Handheld Dock Chroma"],
-        ["Maximum active cooling to prevent throttling", "Handheld Gaming Console Dock with Dual RGB Fans"]
+    "subheading": "By Display Target",
+    "intro": "The screen you plan to play on sets the HDMI requirement.",
+    "table": {
+      "headers": [
+        "Where you play",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "4K 120Hz TV or 1080p 360Hz esports monitor",
+          "BenQ GR10 USB4 Gaming Docking Station, the only HDMI 2.1 pick here"
+        ],
+        [
+          "1440p monitor at 120Hz",
+          "JSAUX 4-in-1 Docking Station, which lists 2K 120Hz or 4K 60Hz"
+        ],
+        [
+          "Standard 1080p or 4K 60Hz TV",
+          "Razer Handheld Dock Chroma, with HDMI 2.0 and a USB-A trio for controllers"
+        ],
+        [
+          "Quiet-capable cooled docking for long sessions",
+          "Handheld Gaming Console Dock with Dual RGB Fans, with a rear on/off switch for fans"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $21", "JSAUX 4-in-1 (under $25)"],
-        ["Under $43", "Dual RGB Fans Dock (under $45)"],
-        ["Under $80", "Razer Handheld Dock Chroma (under $80)"],
-        ["Under $110", "BenQ GR10 (under $110)"]
+    "subheading": "By Budget",
+    "intro": "The picks run from under $25 to over $100, and the price gap tracks HDMI version and build.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Under $25",
+          "JSAUX 4-in-1 Docking Station, the lowest cost option with 100W charging"
+        ],
+        [
+          "$40 to $50",
+          "Handheld Gaming Console Dock with Dual RGB Fans, with 12 ports and active cooling"
+        ],
+        [
+          "$75 to $85",
+          "Razer Handheld Dock Chroma, with a 45 and 75 degree hinge and Razer Chroma RGB"
+        ],
+        [
+          "Under $125 or more",
+          "BenQ GR10 USB4 Gaming Docking Station, with HDMI 2.1 and 2.5Gb Ethernet"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Home Desk Dock vs Travel-Friendly Dock",
-    cards: [
-      { label: "Home desk dock (BenQ GR10, RGB Fans dock)", text: "Prioritizes maximum refresh rate and cooling for a permanent TV or desk setup, at the cost of a bulkier, less portable design." },
-      { label: "Travel-friendly dock (Razer Handheld Dock Chroma)", text: "Prioritizes a collapsible, lightweight design for gaming on the go, trading some cooling and refresh-rate ceiling for portability." }
+    "subheading": "Active Cooling vs Passive Cooling",
+    "intro": "Cooling changes noise, size and how the dock treats a hot handheld.",
+    "cards": [
+      {
+        "label": "Active fans",
+        "text": "The dual 5cm fan model blows air across the handheld and has a rear switch. It runs louder, but handhelds under heavy load stay cooler."
+      },
+      {
+        "label": "Passive aluminum",
+        "text": "The BenQ GR10 uses an aluminum cooling shell in a flip stand, silent but dependent on room airflow. Razer's Chroma and the JSAUX stay plastic with no active cooling."
+      }
     ],
-    note: "If the dock lives permanently connected to your TV, the BenQ or RGB Fans docks maximize performance. If you travel with your handheld regularly, the Razer's collapsible design is worth the tradeoff.",
+    "note": "Choose active fans for demanding games or warm rooms, and passive aluminum for quiet office use."
   },
   {
-    subheading: "By Handheld Brand and Turbo Mode",
-    table: {
-      headers: ["Your handheld", "Recommended pick"],
-      rows: [
-        ["ROG Ally/Ally X or ROG Xbox Ally series", "JSAUX 4-in-1, specifically matched to named Turbo Mode wattages"],
-        ["Steam Deck, Legion Go, or MSI Claw", "Any of the four picks support full-speed charging"]
+    "subheading": "By Handheld Fit",
+    "intro": "Grips and thickness vary a lot between handhelds.",
+    "table": {
+      "headers": [
+        "Your handheld",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Handhelds with protruding grips",
+          "JSAUX 4-in-1, which widens its base for large-grip devices"
+        ],
+        [
+          "Slim handhelds in a case",
+          "Razer Handheld Dock Chroma, with its adjustable 45 and 75 degree angle"
+        ],
+        [
+          "Devices that need to stay cool during long sessions",
+          "Handheld Gaming Console Dock with Dual RGB Fans, with a sacrificial Type-C adapter to protect the port"
+        ],
+        [
+          "Handheld also used as a desk PC",
+          "BenQ GR10, with 100W PD and 2.5Gb Ethernet"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Cloud Gaming and Streaming Specifically",
-    cards: [
-      { label: "Look for", text: "A dock with fast wired Ethernet (2.5Gb or better) specifically to minimize latency and stuttering during cloud gaming sessions like Moonlight or GeForce NOW." },
-      { label: "In this comparison", text: "The BenQ GR10 specifically states its 2.5Gb Ethernet supports stable streaming with Moonlight and GeForce NOW." }
-    ],
+    "subheading": "For Playing on a Living-Room TV Specifically",
+    "intro": "A TV connection is where HDMI version and cable length matter.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "HDMI 2.1 if the TV supports 4K 120Hz, plus 100W power delivery so the handheld stays charged through long sessions."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The BenQ GR10 lists HDMI 2.1 with up to 4K 120Hz and 100W Power Delivery, which fits modern TVs; the JSAUX tops at 4K 60Hz."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the highest HDMI refresh rate for lag-free high-refresh gameplay on a TV, where the BenQ GR10's HDMI 2.1 justifies its under $110 price." },
-      { label: "Save if", text: "You want charging specifically matched to your handheld's Turbo Mode at the lowest price, where the JSAUX dock delivers that for under $25." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Pay extra only for features you will use on your own display.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You game on a 4K 120Hz TV or want wired ethernet. The BenQ GR10 gives HDMI 2.1 and 2.5Gb Ethernet; no cheaper pick here matches it."
+      },
+      {
+        "label": "Save if",
+        "text": "You play at 1080p or 4K 60Hz. The JSAUX under $25 or the dual-fan dock under $50 covers charging and output; see the USB4 dock guide for laptop docks."
+      }
+    ]
   }
 ];
 
@@ -182,12 +268,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will the JSAUX dock fully charge my ROG Ally X while gaming in Turbo Mode?", "a": "Yes, the listing specifically states full support for the ROG Ally and Ally X's 30W Turbo Mode, though using the manufacturer-recommended 100W charger is necessary to unlock this maximum performance potential." },
-  { "q": "What's the most common mistake buyers make when choosing a gaming handheld dock?", "a": "Buying based on port count or price alone without confirming the dock's charging wattage actually matches their specific handheld's named performance or Turbo Mode, then experiencing battery drain during intensive gaming sessions despite being plugged in." },
-  { "q": "Is the BenQ GR10 worth the extra cost over the JSAUX dock if I mainly play on a standard 60Hz TV?", "a": "If your TV is a standard 60Hz display, the JSAUX dock's 4K@60Hz output already matches your TV's capability at a much lower price, making the BenQ's higher HDMI 2.1 refresh rate ceiling less relevant unless you upgrade to a high-refresh-rate display later." },
-  { "q": "How do I know if my handheld will fit properly in the Dual RGB Fans dock?", "a": "The listing specifically states your device thickness must be under 27cm for a proper fit, so checking your specific handheld's dimensions against this stated limit before purchase is worth doing." },
-  { "q": "Can I use these docks with a Nintendo Switch or Switch 2?", "a": "Compatibility varies by pick: the JSAUX dock explicitly excludes the Nintendo Switch 2, while the Dual RGB Fans dock supports both Switch 1 and 2 for video output, though data ports are limited by Nintendo's own manufacturer design on Switch models." },
-  { "q": "Do I need a separate power adapter for these docks, or is one included?", "a": "Checking each specific listing's included accessories is worth doing, since several of these docks recommend or require a separately purchased 100W USB-C power adapter to achieve their stated maximum charging and performance capability." }
+  {
+    "q": "Do I need HDMI 2.1 to play at 120Hz on a handheld dock?",
+    "a": "For 4K 120Hz, yes, and the BenQ GR10 is the HDMI 2.1 pick here. Docks with HDMI 2.0 like the JSAUX handle 4K 60Hz or 2K 120Hz, which suits a 1440p monitor. Check that your TV or monitor input supports the same version."
+  },
+  {
+    "q": "Will a dock work with my Steam Deck, ROG Ally and Legion Go?",
+    "a": "Most work across handhelds through USB-C, but fit differs. The JSAUX widens its base for handhelds with protruding grips, and the Razer Chroma adjusts angle. Confirm the exact model on the listing, since cases and grips can block seating."
+  },
+  {
+    "q": "Why is my handheld not charging while docked?",
+    "a": "Charging needs a power supply rated for the dock's input, typically 100W Power Delivery here, plus a USB-C cable that supports it. Using a 45W phone charger stalls the handheld in heavy games, so use the wattage the dock lists."
+  },
+  {
+    "q": "Is the BenQ GR10 worth it over the cheaper JSAUX dock?",
+    "a": "If you play on a 4K 120Hz TV or a 1080p high-refresh monitor, yes: HDMI 2.1 and 2.5Gb Ethernet justify the gap. If a 1080p TV at 60Hz is your screen, the budget JSAUX under $25 does the job."
+  },
+  {
+    "q": "How do I keep a docked handheld from overheating?",
+    "a": "Leave the vent area clear, avoid enclosing the dock in a cabinet, and use a dock with a cooling shell or fans such as the dual-fan model. Rear on/off switches let you quiet the fans for light use. Heat shows up as stutter first."
+  },
+  {
+    "q": "Can a handheld dock double as a laptop hub?",
+    "a": "Sometimes. The Razer Handheld Dock Chroma lists HDMI, three USB-A ports and Ethernet, so a phone or laptop works with its USB-C, but fans, stand shapes and PD limits are built for handhelds. For a laptop desk, a general USB4 dock fits better."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41LnHXzhzGL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CGLYKX93?tag=deskfinds0d-20",
-    "description": "Hccsport lists a 3.5HP motor, a top speed of 8 mph, a 300 lb capacity and adjustable incline with shock absorption. It also includes a removable desk workstation, a wristband remote, and arrives pre-lubricated.\n\nIt is the only pick here quoting 8 mph and the most expensive at $300, about $130 more than RHYTHM FUN. In return you get a faster ceiling and a built-in desk, though its listing says less about belt size than CHAOKE's does.\n\nChoose it if you want the highest speed on a compact frame and like the removable desk. The caveat is the unlisted belt size, so verify it matches your stride.",
+    "description": "Hccsport lists a 3.5HP motor, a top speed of 8 mph, a 300 lb capacity and adjustable incline with shock absorption. It also includes a removable desk workstation, a wristband remote, and arrives pre-lubricated.\n\nIt is the only pick here quoting 8 mph and the most expensive at $300, under $150 more than RHYTHM FUN. In return you get a faster ceiling and a built-in desk, though its listing says less about belt size than CHAOKE's does.\n\nChoose it if you want the highest speed on a compact frame and like the removable desk. The caveat is the unlisted belt size, so verify it matches your stride.",
     "specs": [
       "3.5HP, up to 8 mph",
       "300 lb capacity",
@@ -190,206 +190,109 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Listed top speed",
-    "explanation": "A pad that stops at 3.8 mph is a walking machine, and only listings that state 6 mph or more are plausible for running. 6.2 mph is roughly a 9 minute 40 second mile. Check the maximum in mph and note whether it applies with the handrail raised."
+    "criterion": "Top speed versus motor size",
+    "explanation": "A listing may quote a high speed such as 12 km/h on the Goplus, but a 2.25HP motor may not sustain it. Speed claims only matter if the motor and frame can hold them for a whole session. Look for a stated horsepower, ideally brushless, and compare it to the top speed before buying. A fast claim from a small motor is the classic trap here."
   },
   {
-    "criterion": "Belt length for running stride",
-    "explanation": "A running stride is longer than a walking one, and most walking pads have belts of 35 to 38 inches. Short belts leave little margin if you drift backward. Check the belt length and width in the spec list, not the deck."
+    "criterion": "Belt length",
+    "explanation": "CHAOKE's belt is about 37 inches and the RHYTHM FUN's 37.5 inches, which is short for a running stride. A short belt forces you to shorten steps and raises the risk of stepping off the back. Look for the dimension in the listing and aim for at least 40 inches if you jog. If the listing omits belt length, assume it is on the short side."
   },
   {
-    "criterion": "Continuous motor power",
-    "explanation": "Running loads the motor more than walking. Peak horsepower is a short burst, while continuous rating shows what it holds. Look for a continuous or CHP figure, and a motor of 2.75HP or more."
+    "criterion": "Cushioning system",
+    "explanation": "Running puts several times your body weight through each step, so cushioning matters. CHAOKE lists 10 shock absorbers and RHYTHM FUN a six-layer belt. Check the number of layers or absorbers, and treat vague phrases like shock absorbing with caution. Ask how many layers or absorbers, not whether it is cushioned."
   },
   {
-    "criterion": "Weight limit and frame",
-    "explanation": "Running impact is several times body weight, so a pad rated at your weight is under strain. Leave at least 50 lb of headroom and look for a steel frame. Check the capacity in the bullets."
+    "criterion": "Handrails and stability",
+    "explanation": "Handrails give you something to hold when stepping on, and some raise for running. Loose or wobbly rails are a hazard at speed. Check how the rail locks and whether it folds flat, and pick pads with side rails if you are new to jogging. Test the latch by hand before any speed increase."
   },
   {
-    "criterion": "Handrail stability",
-    "explanation": "A raised handrail adds balance when jogging but also adds flex at the hinge. Wobble at the hinge shows up first at faster speeds. Check how the handrail locks and read buyer feedback on stability before buying."
-  },
-  {
-    "criterion": "Noise at speed",
-    "explanation": "Running noise is higher than walking noise. A stated decibel ceiling like under 40 dB or 50 dB gives you a number to compare. Check the figure and the speed it applies to."
+    "criterion": "Capacity and warranty",
+    "explanation": "CHAOKE lists 330 lbs, while Goplus and Abonow give no limit. Running amplifies the load, so a pad near your weight can fail sooner. Look for the capacity and keep about 50 lbs of headroom, and check the warranty length before paying for a faster pad. Read the warranty terms for motor and frame separately."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  {
-    "title": "Top speed",
-    "description": "We required a stated jogging or running speed of 6 mph or more."
-  },
-  {
-    "title": "Belt and frame",
-    "description": "We compared belt size, steel frame and cushioning details."
-  },
-  {
-    "title": "Motor and capacity",
-    "description": "We compared stated horsepower and weight limits."
-  },
-  {
-    "title": "Noise",
-    "description": "We noted stated decibel levels."
-  },
-  {
-    "title": "Price",
-    "description": "We compared price against speed and capacity."
-  }
+  { "title": "Top speed and what it means", "description": "Hccsport lists up to 8 mph and Goplus up to 12 km/h, while the RHYTHM FUN, ApexNexus and CHAOKE stop at 6.2 mph and Abonow at 6.0. We treated a pace near 6 mph as light jogging and flagged any pad whose speed claim is not backed by a stated motor size." },
+  { "title": "Belt length for a longer stride", "description": "CHAOKE's belt is about 37 inches and the RHYTHM FUN's 37.5, which is short for a running stride. Running covers more ground per step than walking, so we noted belt length where listed and flagged pads that leave it out, because a short belt makes a jog feel cramped." },
+  { "title": "Motor rating and cooling", "description": "ApexNexus lists a 3.0HP brushless motor, Hccsport 3.5HP, CHAOKE 2.75HP and Goplus 2.25HP. Running draws much more sustained power than walking, so we gave credit to brushless designs and larger ratings, while noting that these are marketing figures rather than verified output." },
+  { "title": "Cushioning and joint protection", "description": "CHAOKE lists 10 shock absorbers, RHYTHM FUN a six-layer belt, and Hccsport a pre-lubricated belt. Running multiplies impact on knees and hips, so we compared the stated cushioning systems and looked for layers or absorbers rather than a generic claim." },
+  { "title": "Handrails, stability and incline", "description": "Handrails raise for running on the Goplus and sit on the sides of the RHYTHM FUN, and several pads offer manual 9 to 16% incline. We checked that rails lock, since a loose handrail at 6 mph is a hazard, and counted incline as a bonus rather than a requirement." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Running Goal",
-    "table": {
-      "headers": [
-        "Your goal",
-        "Recommended pick"
+    subheading: "By Primary Need",
+    intro: "Walking pads are not full treadmills, so running use should be treated as light jogging and chosen with extra care.",
+    table: {
+      headers: ["If you mainly need", "Recommended pick"],
+      rows: [
+        ["The highest listed speed with a desk attachment", "Hccsport, at up to 8 mph with a removable desk"],
+        ["The steepest incline and handrails", "RHYTHM FUN, with 16% and side handrails"],
+        ["A brushless motor with a stated noise level", "ApexNexus, at 3.0HP and under 50 dB"],
+        ["The strongest cushioning and quietest stated operation", "CHAOKE, with 10 shock absorbers and under 40 dB"],
+        ["A very high speed ceiling at the lowest price", "Goplus, which reaches 12 km/h"]
       ],
-      "rows": [
-        [
-          "Fastest speed available",
-          "Hccsport 3.5HP 8 mph Treadmill with Removable Desk"
-        ],
-        [
-          "Easy jog at a low price",
-          "Goplus 2-in-1 Folding Treadmill"
-        ],
-        [
-          "Quiet jogging in a shared home",
-          "ApexNexus 3.0HP Foldable Treadmill with Incline"
-        ],
-        [
-          "Hill intervals",
-          "RHYTHM FUN 16% Incline Walking Pad"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "By Budget",
-    "table": {
-      "headers": [
-        "Price range",
-        "Recommended pick"
+    subheading: "By Budget",
+    table: {
+      headers: ["Price range", "Recommended pick"],
+      rows: [
+        ["Around $115", "Goplus, the lowest price with a 2-in-1 design"],
+        ["Around $130 to $140", "Abonow or CHAOKE"],
+        ["Around $160 to $170", "ApexNexus or RHYTHM FUN"],
+        ["Around $300 for the fastest", "Hccsport, the priciest pick"],
+        ["Above $300 for a larger belt", "The under $400 guide offers longer and sturdier pads"]
       ],
-      "rows": [
-        [
-          "Under $120",
-          "Goplus 2-in-1 Folding Treadmill"
-        ],
-        [
-          "$120 to $140",
-          "Abonow Foldable Treadmill with Handrails"
-        ],
-        [
-          "$140 to $160",
-          "ApexNexus 3.0HP Foldable Treadmill with Incline"
-        ],
-        [
-          "$160 to $200",
-          "RHYTHM FUN 16% Incline Walking Pad"
-        ],
-        [
-          "$200 and up",
-          "Hccsport 3.5HP 8 mph Treadmill with Removable Desk"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "Manual Incline vs Fixed Flat",
-    "cards": [
-      {
-        "label": "Manual incline",
-        "text": "You step off to set slope. RHYTHM FUN 16% Incline Walking Pad, ApexNexus 3.0HP Foldable Treadmill with Incline and CHAOKE 2.75HP 6.2 mph Walking Pad offer it."
-      },
-      {
-        "label": "Speed focus",
-        "text": "Skip incline and chase speed. Hccsport 3.5HP 8 mph Treadmill with Removable Desk and Goplus 2-in-1 Folding Treadmill lead on top speed."
-      }
+    subheading: "Jogging Pad vs True Treadmill",
+    cards: [
+      { label: "Jogging walking pad (Hccsport, ApexNexus, CHAOKE, RHYTHM FUN, Abonow, Goplus)", text: "These fold and store easily and manage 6 to 8 mph, but belts near 37 to 40 inches and smaller motors limit sustained running." },
+      { label: "Full treadmill", text: "A full-size treadmill has a longer belt and bigger motor, ideal for regular running. It is far heavier and harder to store, so it suits buyers with a permanent space." }
     ],
-    "note": "Most runners should choose speed first, incline second."
+    note: "Most buyers should default to a jogging pad only for occasional runs, and look at a full treadmill if running is the main goal.",
   },
   {
-    "subheading": "By Body Weight",
-    "table": {
-      "headers": [
-        "Your weight",
-        "Recommended pick"
+    subheading: "By Incline Preference",
+    table: {
+      headers: ["Your goal", "Recommended pick"],
+      rows: [
+        ["Steep hill intervals", "RHYTHM FUN, with manual 16%, 12% and 2% levels"],
+        ["Moderate slopes and a brushless motor", "ApexNexus, with 12% manual incline"],
+        ["A gentle 9% slope at a good price", "CHAOKE, fixed incline of 9%"],
+        ["No incline, speed only", "Abonow or Goplus"]
       ],
-      "rows": [
-        [
-          "Under 200 lb",
-          "Goplus 2-in-1 Folding Treadmill"
-        ],
-        [
-          "200 to 250 lb",
-          "ApexNexus 3.0HP Foldable Treadmill with Incline"
-        ],
-        [
-          "250 to 280 lb",
-          "CHAOKE 2.75HP 6.2 mph Walking Pad"
-        ],
-        [
-          "Around 250 lb who wants speed",
-          "Hccsport 3.5HP 8 mph Treadmill with Removable Desk"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "For Shared Homes Specifically",
-    "cards": [
-      {
-        "label": "Look for",
-        "text": "A stated noise ceiling and several shock absorbers."
-      },
-      {
-        "label": "In this comparison",
-        "text": "CHAOKE 2.75HP 6.2 mph Walking Pad quotes under 40 dB with 10 absorbers, and ApexNexus 3.0HP Foldable Treadmill with Incline quotes under 50 dB."
-      }
-    ]
+    subheading: "For Light Jogging at Home Specifically",
+    cards: [
+      { label: "Look for", text: "A top speed above 6 mph, raised handrails, a motor of 2.75HP or more, and a stated noise level. Ignore listings that give a high speed without any motor detail." },
+      { label: "In this comparison", text: "The ApexNexus, CHAOKE and Hccsport meet those points. Goplus offers high speed but has the smallest motor here." }
+    ],
   },
   {
-    "subheading": "When to Spend More",
-    "cards": [
-      {
-        "label": "Spend more if",
-        "text": "You want the fastest top speed, as with Hccsport 3.5HP 8 mph Treadmill with Removable Desk."
-      },
-      {
-        "label": "Save if",
-        "text": "You jog easy and flat, where Goplus 2-in-1 Folding Treadmill is enough."
-      }
-    ]
+    subheading: "When to Spend More",
+    cards: [
+      { label: "Spend more if", text: "You plan to jog three or more times weekly. The Hccsport offers the top speed, and the under $400 guide lists auto-incline pads with larger documented motors." },
+      { label: "Save if", text: "You jog rarely and mainly walk. The CHAOKE and Goplus cost less and still reach 6.2 mph or more." }
+    ],
   }
 ];
 
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
-  {
-    "q": "Can a walking pad really be used for running?",
-    "a": "Some can for easy jogging, but a short belt and small motor limit them. Pick one that states 6 mph or more and has a handrail."
-  },
-  {
-    "q": "Is a 6.2 mph pad fast enough?",
-    "a": "6.2 mph is about a 9 minute 40 second mile, which suits easy jogging. Faster runners need 8 mph like the Hccsport or a full treadmill."
-  },
-  {
-    "q": "Is the Hccsport worth the extra over ApexNexus?",
-    "a": "Only if you want 8 mph and the removable desk. For jogging at 6 mph, ApexNexus costs about $140 less and adds a stated noise level."
-  },
-  {
-    "q": "How do I set it up for running?",
-    "a": "Raise the handrail, lock it, clip on the safety key and start slowly. Place a mat underneath."
-  },
-  {
-    "q": "How should I maintain it?",
-    "a": "Check belt tension and lubrication regularly, since running adds friction. Wipe the belt after sweaty sessions."
-  }
+  { "q": "Can a walking pad really handle running?", "a": "Light jogging, yes, up to roughly 6 to 8 mph on the stronger models like the Hccsport and ApexNexus. They are not built for hard sprints or heavy training, since belts near 37 to 40 inches and compact motors limit sustained speed." },
+  { "q": "What is the common mistake with running pads?", "a": "Judging by top speed alone. A Goplus listing of 12 km/h means little if the 2.25HP motor cannot sustain it. Look at motor rating, capacity and belt length together, and pick the one that sustains the pace you plan." },
+  { "q": "Is the Hccsport worth more than the CHAOKE?", "a": "If you want a higher speed and a removable desk, yes. The Hccsport reaches 8 mph, while the CHAOKE reaches 6.2 mph, adds 10 shock absorbers and costs about half as much. For most joggers, the CHAOKE gives better value." },
+  { "q": "How do I set up a pad for running?", "a": "Use a flat floor, leave about 6 feet behind the belt, and lock the handrails if they raise. Start at a walk and build up gradually, keep the safety key attached, and wear shoes with good cushioning." },
+  { "q": "Do I need to lubricate a running pad more often?", "a": "Running puts more friction on the belt, so check the manual and lubricate more often, roughly every few months for regular use. Hccsport lists a pre-lubricated belt, but it still needs periodic care." },
+  { "q": "Is it safe to run with a handrail raised?", "a": "Handrails offer stability, but you should lock them and avoid leaning on them while running. Goplus raises the rail for running and folds it for desk mode, so confirm the latch holds before increasing the speed." }
 ];
 
 export const relatedGuides = [

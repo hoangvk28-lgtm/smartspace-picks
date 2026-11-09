@@ -5,7 +5,7 @@ export const metaDescription = "Seven dorm gifts for girls, from a pink heating 
 export const mainKeyword = "dorm gifts for girls";
 export const introParagraphs = [
   "Good gifts for a girl heading to a dorm usually split into two camps: things that make a small, shared room feel personal, and things that quietly make long study weeks easier. The best gift often does both, like a night light that is also decor, or a phone stand that fixes posture while it looks cute.",
-  "We picked seven gifts from about $10 to $40, spanning comfort, grooming, decor and food. We compared them on listed power source, size, materials and price. Several plug in or use batteries, so check your school's housing rules before gifting any heated or electrical item, since policies on heating pads, lamps and cords vary."
+  "We picked seven gifts from under $15 to $40, spanning comfort, grooming, decor and food. We compared them on listed power source, size, materials and price. Several plug in or use batteries, so check your school's housing rules before gifting any heated or electrical item, since policies on heating pads, lamps and cords vary."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -219,51 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Power source and dorm rules",
-    "explanation": "Heating pads, lamps and mirrors may plug in, use USB or take batteries, and schools differ on what they allow. A pad that needs a wall outlet may collide with a power strip limit. Check the power source in the listing and confirm your housing list before gifting any heated item."
+    "explanation": "Heating pads, lamps and mirrors may plug in, use USB or take batteries, and schools differ on what they allow. A pad that needs a wall outlet may collide with a power strip limit. Check the power source in the listing and confirm your housing list before gifting any heated item. Check the housing handbook for heating item rules, and read the plug type and cord length before ordering."
   },
   {
     "criterion": "Auto-off timers on heated items",
-    "explanation": "An auto-off timer shuts a heating pad down after a set time, which matters if she falls asleep with it on. ALLJOY lists 4 timer settings. Look for the timer figure in the bullets, and be wary of heated gifts with no listed shut-off."
+    "explanation": "An auto-off timer shuts a heating pad down after a set time, which matters if she falls asleep with it on. ALLJOY lists 4 timer settings. Look for the timer figure in the bullets, and be wary of heated gifts with no listed shut-off. Read the timer options in the listing, because a longer choice like 4 hours matters for sleep."
   },
   {
     "criterion": "Desk footprint when open",
-    "explanation": "A trifold mirror or a phone stand takes room that a shared dorm desk may not have, and a mirror can sprawl to 12 inches or more. Think about whether it can sit on a shelf or dresser instead. Check listed dimensions open and folded."
+    "explanation": "A trifold mirror or a phone stand takes room that a shared dorm desk may not have, and a mirror can sprawl to 12 inches or more. Think about whether it can sit on a shelf or dresser instead. Check listed dimensions open and folded. Open the listing photos and measure the width with the mirror open to see how much desk it takes."
   },
   {
     "criterion": "Washability of soft goods",
-    "explanation": "Blankets and plush items collect dust and spills in a small room, so machine washable care is a real advantage. Bedsure lists machine washable care. Look for the care label in the bullets, and avoid items marked spot clean only."
+    "explanation": "Blankets and plush items collect dust and spills in a small room, so machine washable care is a real advantage. Bedsure lists machine washable care. Look for the care label in the bullets, and avoid items marked spot clean only. Look at the care tag or care line, and avoid dry clean only fabrics for a dorm."
   },
   {
     "criterion": "Brightness and roommate impact",
-    "explanation": "A night light that is too bright annoys a roommate, so dimmable and timed lights are friendlier. The duck lamp has 3 levels and a 30 minute timer. Look for adjustable brightness and an auto-off timer on any light."
+    "explanation": "A night light that is too bright annoys a roommate, so dimmable and timed lights are friendlier. The duck lamp has 3 levels and a 30 minute timer. Look for adjustable brightness and an auto-off timer on any light. Choose adjustable brightness so the light can be dimmed at night."
   },
   {
     "criterion": "Microwave and shared kitchen limits",
-    "explanation": "Dorm kitchens usually have only a shared microwave, so cooking gifts must work in it. A wheat straw bowl is for microwave use only, not ovens. Check the care instructions and the material, and avoid gifts that need a stove."
+    "explanation": "Dorm kitchens usually have only a shared microwave, so cooking gifts must work in it. A wheat straw bowl is for microwave use only, not ovens. Check the care instructions and the material, and avoid gifts that need a stove. Ask whether the dorm has a microwave and what the rules are for shared kitchens."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Daily dorm use",
-    "description": "We favored gifts used every week, like a phone stand, mirror and blanket, over one-time items."
+    "title": "Power source and dorm rules",
+    "description": "We recorded how each gift is powered, from the ALLJOY heating pad's cord to the HUONUL mirror's plug or 4 AA batteries and the YR duck light's USB-C charging. Many campuses restrict heating items and extension cords, so a cordless option got extra credit. The ALLJOY also needs an outlet within reach of the bed."
   },
   {
-    "title": "Power and rules",
-    "description": "We noted whether each item plugs in, uses USB or needs batteries, since that affects housing rules."
+    "title": "Auto-off and safety timers",
+    "description": "We checked for shut-off protection, noting the ALLJOY's 4 timer settings with 10 heat levels and the YR duck's 30 minute timer. Anything that warms a body or lights a room overnight should switch itself off if the student falls asleep. The LEGO set needs no light or water, which suits a dim dorm."
   },
   {
-    "title": "Size and storage",
-    "description": "Listed dimensions and folding were compared with small shared desks and dressers."
+    "title": "Desk footprint when open",
+    "description": "We compared sizes, because the HUONUL trifold mirror takes desk space when open but folds flat, and the LISEN phone stand raises a phone 7.1 to 8.5 inches. In a shared room, an item that stores flat is easier to live with. The YR duck stays dim by design, which a roommate may prefer."
   },
   {
-    "title": "Safety features",
-    "description": "Auto-off timers, cool-touch handles and non-slip bases earned credit when the listing states them."
+    "title": "Washability and softness",
+    "description": "We looked at fabric care, with the Bedsure GentleSoft throw machine washable and the ALLJOY's plush cover soft but heat-related. A blanket that cannot be washed gets sad quickly in a shared space. The Bedsure listing does not state the size in its bullets."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from $10 to $40 were compared against listed features."
+    "title": "Light and roommate impact",
+    "description": "We read brightness notes, with the YR duck offering 3 levels for gentle light and the HUONUL's touch dimming. A bright lamp keeps a roommate awake, so adjustable output counted in a double. The UUGLAM bowl is microwave only, so it cannot go in an oven."
   }
 ];
 
@@ -326,7 +326,7 @@ export const howToChoose: HowToChooseSection[] = [
           "HUONUL Trifold Lighted Magnifying Makeup Mirror"
         ],
         [
-          "About $40",
+          "Under $50",
           "ALLJOY Extra Large Pink Plush Heating Pad"
         ]
       ]
@@ -395,7 +395,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "It is a small gesture. LISEN Adjustable Desk Phone Stand and Bedsure GentleSoft White Throw Blanket cost about $14 or less and see daily use."
+        "text": "It is a small gesture. LISEN Adjustable Desk Phone Stand and Bedsure GentleSoft White Throw Blanket cost under $15 and see daily use."
       }
     ]
   }
@@ -404,24 +404,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Are heating pads allowed in dorms?",
-    "a": "Policies vary by school. Some allow low-wattage pads with an auto-off, others ban heating appliances. Check your housing list before gifting, and look for an auto-off timer."
+    "q": "Can a student bring the ALLJOY heating pad to a dorm?",
+    "a": "Often yes, but check the handbook because heating items can be restricted. The ALLJOY has 10 heat levels and 4 timer settings with auto shut-off, and needs an outlet nearby. Put it on a flat surface and keep it from bedding while in use."
   },
   {
-    "q": "Is a lighted mirror worth it over a normal one?",
-    "a": "If she does makeup in a dim room, yes, since even light with magnification beats overhead light. For quick checks a plain mirror is enough."
+    "q": "What mistake do buyers make with makeup mirrors?",
+    "a": "Ignoring space and power. The HUONUL trifold takes desk room when open and uses a plug or 4 AA batteries that are not included. Pack batteries or give a power adapter with it. Keep spare batteries in a drawer next to it."
   },
   {
-    "q": "Is the heating pad a medical device?",
-    "a": "No. It is a comfort product, and if she has persistent pain or reduced sensation she should talk to a doctor."
+    "q": "Is the LEGO Botanicals Rocking Plants set worth gifting?",
+    "a": "It is a 253 piece build for ages 9 and up with two rocking pastel pots and swappable plants. It is decor, not a necessity, and takes time to assemble. It is a gift for relaxing rather than something used daily."
   },
   {
-    "q": "How do I use a microwave ramen bowl?",
-    "a": "Place the draining bowl inside, add noodles and hot water, cover with the small bowl, and microwave according to the instructions. Strain and eat. Do not use it in a conventional oven."
+    "q": "How long does the YR duck night light run?",
+    "a": "The listing gives 3 brightness levels and a 30 minute timer, and it is USB-C rechargeable. It is gentle and too dim for reading, so it suits a shared room. Charge it by USB-C and keep it near the bed."
   },
   {
-    "q": "How should I wash a fleece throw?",
-    "a": "Machine wash on gentle with similar colors, and dry on low. High heat can flatten the fibers."
+    "q": "What can I microwave in a dorm kitchen?",
+    "a": "The UUGLAM bowl holds about 32 oz and comes with chopsticks and a spoon, but only for microwave use. Check that the dorm kitchen allows a microwave and avoid the oven. Rinse right after using it, and do not leave it soaking."
+  },
+  {
+    "q": "How do I wash the Bedsure throw?",
+    "a": "It is machine washable microfiber flannel fleece. Wash on a gentle cycle and dry on low to reduce shedding. White shows dirt quickly, so wash it more often than a darker throw. Use a delicate wash if you want the fleece to stay soft."
   }
 ];
 

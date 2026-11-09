@@ -84,68 +84,151 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "802.3bt Compliance Verification", "description": "Confirmed each listing states true 802.3bt compliance for the 60W tier rather than just a wattage headline." },
-  { "title": "Port Speed", "description": "Compared Gigabit versus 2.5G multi-gigabit port speeds at the 60W tier." },
-  { "title": "Power Monitoring Features", "description": "Compared listings offering a real-time power display against a simple status LED." },
-  { "title": "Certification", "description": "Compared UL certification and stated warranty length across listings." },
-  { "title": "Build and Deployment Design", "description": "Compared housing material and multi-unit deployment features like interlocking designs." }
+  {
+    "title": "Standard and negotiation",
+    "description": "A 60W injector should support 802.3bt type 3, the class for 60W devices. The LINOVISION, Omada, and Cudy list 802.3bt, while the BV-Tech lists 802.3af/at compliance with a 60W figure. We flagged the mismatch and told buyers to verify it before using the BV-Tech with a 60W-class device."
+  },
+  {
+    "title": "Data speed",
+    "description": "The LINOVISION is 2.5G, while the rest are Gigabit. A 60W device such as a high-power Wi-Fi 6 AP or PTZ camera often has a 2.5G port, so we gave 2.5G credit when it matched the device, not as a generic upgrade. Many 60W devices have 2.5G uplinks, so the speed gap was relevant here."
+  },
+  {
+    "title": "Safety certification",
+    "description": "The Omada lists UL certification, and the Cudy lists surge and ESD protection in a metal housing. Certification matters for a device that sends 60W through a thin cable, so we credited UL over a self-declared rating. A UL listing is a third-party check, while a self-declared compliance badge is only a claim."
+  },
+  {
+    "title": "Visibility into power",
+    "description": "The LINOVISION has a real-time LED power output display, and the Cudy has an LED status indicator. A visible readout helps confirm a PTZ camera is actually drawing what you expect, rather than guessing at a brownout. A display costs nothing in use and saves an hour of guessing when a camera misbehaves in winter."
+  },
+  {
+    "title": "Warranty and deployment",
+    "description": "The LINOVISION lists a 3-year warranty, and the BV-Tech has an interlocking design for multi-unit use. We weighed written coverage above physical convenience, since a 60W injector is hard to replace in an installed rack. A longer written warranty counts for more than a convenient shape on any hard-to-reach rack."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Feature Priority",
-    table: {
-      headers: ["What you need most", "Recommended pick"],
-      rows: [
-        ["Real-time power monitoring and 2.5G speed", "LINOVISION 2.5G BT 60W PoE++ Injector"],
-        ["UL certification", "Omada PoE++ Injector 60W"],
-        ["Durable metal housing", "Cudy 60W Gigabit PoE++ Injector"],
-        ["Lowest price, multi-unit deployment", "BV-Tech 60W Gigabit PoE++ Injector"]
+    "subheading": "By Device Class",
+    "intro": "Different 60W devices need different data speeds and standards.",
+    "table": {
+      "headers": [
+        "Your 60W device",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A 2.5G Wi-Fi 6 or 7 access point",
+          "LINOVISION 2.5G BT 60W PoE++ Injector, with 2.5G data and 802.3bt"
+        ],
+        [
+          "A PTZ camera on Gigabit with safety certification needs",
+          "Omada PoE++ Injector (POE170S), UL certified at 60W"
+        ],
+        [
+          "A heavy camera or kiosk in a metal enclosure",
+          "Cudy 60W Gigabit PoE++ Injector (POE300), with metal housing and surge protection"
+        ],
+        [
+          "A budget install where the device is within af/at class",
+          "BV-Tech 60W Gigabit PoE++ Injector, after checking the device's standard"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $23", "BV-Tech 60W Gigabit PoE++ Injector (under $25)"],
-        ["Under $40", "Cudy 60W Gigabit PoE++ Injector (under $40)"],
-        ["Under $46", "Omada POE170S or LINOVISION 2.5G (both under $46)"]
+    "subheading": "By Budget",
+    "intro": "The spread is nearly double from lowest to highest.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $25",
+          "BV-Tech 60W, the cheapest 60W-labeled injector"
+        ],
+        [
+          "Under $40",
+          "Cudy 60W, with a metal case"
+        ],
+        [
+          "Under $45",
+          "Omada PoE++ Injector, with UL certification"
+        ],
+        [
+          "Under $46",
+          "LINOVISION 2.5G BT 60W, with 2.5G data and a 3-year warranty"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Gigabit vs 2.5G at the 60W Tier",
-    cards: [
-      { label: "Gigabit (Omada, Cudy, BV-Tech)", text: "Covers the bandwidth needs of most PTZ cameras and standard access points at this power tier without a price premium for unused speed." },
-      { label: "2.5G (LINOVISION)", text: "Matches newer Wi-Fi 6E and Wi-Fi 7 access points that can exceed Gigabit throughput, worth the modest premium if your network backbone supports it." }
+    "subheading": "802.3bt vs 802.3at at 60W",
+    "intro": "The difference matters when a device actually draws more than 30W.",
+    "cards": [
+      {
+        "label": "802.3bt (LINOVISION, Omada, Cudy)",
+        "text": "Uses all four pairs of the cable to deliver up to 60W, and negotiates a power class. This is the right standard for a 60W device and will fall back to af/at for older ones."
+      },
+      {
+        "label": "802.3af/at only (BV-Tech)",
+        "text": "An at injector delivers 30W. A listing that claims 60W with at compliance needs verification, because the device may not be able to draw its full wattage."
+      }
     ],
-    note: "Check your specific access point or camera's actual data throughput needs before paying extra for 2.5G speed your device or network can't use.",
+    "note": "For a 60W-class device, default to a clearly 802.3bt injector."
   },
   {
-    subheading: "By Deployment Scale",
-    table: {
-      headers: ["Your deployment", "Recommended pick"],
-      rows: [
-        ["Single unit, feature-rich", "LINOVISION 2.5G BT 60W PoE++ Injector"],
-        ["Multiple units in one rack or closet", "BV-Tech 60W Gigabit PoE++ Injector"]
+    "subheading": "By Existing Network",
+    "intro": "Match the injector's data speed to the switch and the device.",
+    "table": {
+      "headers": [
+        "Your network",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A 2.5G switch and a 2.5G AP",
+          "LINOVISION 2.5G BT 60W, which keeps the link at 2.5G"
+        ],
+        [
+          "A Gigabit switch and a UL-conscious install",
+          "Omada PoE++ Injector, at Gigabit with UL"
+        ],
+        [
+          "A mixed rack with a surge-prone run",
+          "Cudy 60W, with surge and ESD protection"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Wi-Fi 6 or 6E Access Point Deployment Specifically",
-    cards: [
-      { label: "Look for", text: "802.3bt compliance at the full 60W tier plus port speed matching the access point's actual throughput capability, since some Wi-Fi 6E APs can exceed Gigabit speeds under heavy load." },
-      { label: "In this comparison", text: "The LINOVISION pick's 2.5G port speed specifically accommodates high-bandwidth Wi-Fi 6/6E access points that a Gigabit-capped injector would bottleneck." }
-    ],
+    "subheading": "For a PTZ Camera Specifically",
+    "intro": "PTZ cameras often use 60W with heaters, so power is a major factor.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "An 802.3bt label, a heater-capable wattage, and a case that can sit outdoors in a box."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Cudy 60W offers metal housing and surge protection, and the Omada PoE++ Injector is UL certified."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want live power monitoring or UL certification, where the LINOVISION or Omada picks near $45 justify the price with a genuine feature or certification difference." },
-      { label: "Save if", text: "You're deploying several injectors together and just need reliable 60W Gigabit delivery, where the BV-Tech pick's under $25 price and interlocking design fit that need well." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The 90W class sits above these.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your device exceeds 60W. The 90W injector guide covers units with more headroom, and the LINOVISION 2.5G BT 60W adds 2.5G."
+      },
+      {
+        "label": "Save if",
+        "text": "Your device is at class. The BV-Tech 60W and Cudy 60W cost the least."
+      }
+    ]
   }
 ];
 
@@ -173,12 +256,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "What devices actually need a 60W PoE++ injector instead of 30W or 90W?", "a": "Standard PTZ cameras, Wi-Fi 6 access points, and PoE lighting fixtures typically fall in the 60W range, drawing more than PoE+'s 30W ceiling but less than the full 90W top tier." },
-  { "q": "Is 2.5G port speed worth paying extra for at the 60W tier?", "a": "Only if your access point or camera and your network switch both actually support 2.5G speeds; otherwise the connection negotiates down to Gigabit and the extra speed capability goes unused." },
-  { "q": "Can I deploy multiple 60W injectors in the same equipment rack?", "a": "Yes, though a design specifically built for that, like an interlocking side-by-side mounting feature, makes a multi-unit deployment more organized than units designed only for standalone use." },
-  { "q": "Does a real-time power display actually help with troubleshooting?", "a": "Yes, it lets you confirm the exact wattage a connected device is drawing at a glance, which helps identify an underperforming connection faster than a simple on/off status LED can." },
-  { "q": "Is UL certification necessary for a 60W PoE injector?", "a": "It's not strictly necessary for basic operation, but it provides independent third-party safety verification that's worth the modest price premium for a permanent installation." },
-  { "q": "What's the difference between 802.3bt and 802.3at at the 60W power level?", "a": "802.3at (PoE+) tops out at 30W, so any injector rated for 60W must comply with the newer 802.3bt standard, which uses all four wire pairs in the Ethernet cable to deliver higher power levels." }
+  {
+    "q": "Do I need an 802.3bt injector for a 60W device?",
+    "a": "Yes in most cases. 802.3bt type 3 is the standard that delivers 60W, and the LINOVISION, Omada, and Cudy list it. An af/at-only unit tops out at 30W for the device, which may not run a heater. Always check the device's own manual for its class."
+  },
+  {
+    "q": "What mistake do buyers make with the BV-Tech?",
+    "a": "Trusting the 60W label alone. Its listing says 802.3af/at compliant, which is 30W class. Verify the device's real draw and ask the seller how 60W is delivered before relying on it. Ask for the datasheet before you buy."
+  },
+  {
+    "q": "Is the LINOVISION worth paying more than the Cudy?",
+    "a": "If your device has a 2.5G port, yes. It also lists a 3-year warranty and an LED power readout. For a Gigabit device the Cudy offers a metal case and surge protection for less. The Cudy offers the same Gigabit data with a metal case."
+  },
+  {
+    "q": "How do I read the LINOVISION LED power display?",
+    "a": "It shows the live output power, so you can see what the device draws. Compare it to the device's rated wattage, and if it hits the injector's limit, move to a 90W class unit. Anything near the limit means you need the 90W class."
+  },
+  {
+    "q": "Can a 60W injector damage a smaller camera?",
+    "a": "An active 802.3bt injector only sends the power the device requests, so a 12W camera draws 12W. A passive injector would not, so check that your 60W unit lists negotiation. It will not push power into a device that does not ask for it."
+  },
+  {
+    "q": "How long can the Ethernet cable be?",
+    "a": "Up to 100m, or 328ft, for the Omada and BV-Tech. At 60W a long thin cable loses voltage, so use solid copper Cat6 and keep the run short for the highest-power loads. Shorter is always better at this wattage."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Height and Width Adjustability", "description": "Compared the granularity of height adjustment levels and overall width range each bracket supports." },
-  { "title": "Brand-Specific vs Universal Fit", "description": "Distinguished mounts built for a specific manufacturer's exact models from universal adjustable designs." },
-  { "title": "Weight Capacity and Frame Durability", "description": "Compared stated weight limits and construction quality claims like sag resistance or rust resistance." },
-  { "title": "Mounting Scenario Count", "description": "Compared how many distinct mounting locations each pick supports." },
-  { "title": "Warranty Length", "description": "Compared stated warranty duration and support commitments across the lineup." }
+  {
+    "title": "Model-specific compatibility",
+    "description": "We checked compatibility lists, such as the Dell OptiPlex Micro MFF 3000 through 9020 coverage on the first pick and the GMKtec G3 Plus, G1, M3 Plus and M2 list on another. A mount that fits a named model saves guesswork, so a clear list earned credit. Confirm your exact model number on the list."
+  },
+  {
+    "title": "Height and width adjustment",
+    "description": "We compared adjustment ranges, including the 5-level bracket's 1.8 to 3.3 inch height range and the Mount-It!'s 0.67 to 2.8 inch width. Because mini PCs vary widely in thickness, adjustability determines whether the unit sits securely. Measure thickness before choosing."
+  },
+  {
+    "title": "Frame strength and sag resistance",
+    "description": "We looked at steel frames, including the reinforced steel of the 5-level bracket and the rust-resistant steel on the GMKtec mount. Sag over time can loosen a mini PC, so we favored reinforced construction over plain plastic. Plastic would flex under the weight."
+  },
+  {
+    "title": "VESA collision and cable handling",
+    "description": "We noted that the OptiPlex mount's VESA mounting occupies the same holes a monitor arm would use, and credited kits with Velcro adapter straps or cable ties. A power brick left dangling is the usual reason a mounted PC looks messy. Cable clutter shows up quickly."
+  },
+  {
+    "title": "Warranty and support",
+    "description": "We compared support, since the Mount-It! carries a lifetime warranty with USA-based support and others are silent. For hardware holding an expensive PC overhead, a long warranty is meaningful insurance. A long warranty signals confidence."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Device Brand",
-    table: {
-      headers: ["If you own", "Recommended pick"],
-      rows: [
-        ["A specific Dell OptiPlex Micro model", "Mini PC Mount for Dell OptiPlex Micro"],
-        ["A GMKtec G3 Plus, G1, M3 Plus, or M2", "Mini PC Mount for GMKtec with Cable Straps"],
-        ["Mac Mini, Xbox, or Intel NUC needing precise height", "5-Level Height Adjustable Bracket"],
-        ["Any small PC needing maximum flexibility", "Mount-It! Adjustable Thin Client Mount"]
+    "subheading": "By Mini PC Brand",
+    "intro": "At this tier many brackets are tailored to a brand.",
+    "table": {
+      "headers": [
+        "Your mini PC",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Dell OptiPlex Micro MFF 3000 to 9020",
+          "Mini PC Mount for Dell OptiPlex Micro with Power Adapter Straps, with a 10-minute install"
+        ],
+        [
+          "GMKtec G3 Plus, G1, M3 Plus or M2",
+          "Mini PC Mount for GMKtec with Cable Straps, for devices under 11.7 cm wide"
+        ],
+        [
+          "Mac Mini, NUC or an Xbox with a dock",
+          "Under Desk Mini PC Mount Bracket, 5-Level Height Adjustable, with a positioning template"
+        ],
+        [
+          "Unknown or mixed devices including thin clients",
+          "Mount-It! Adjustable Thin Client Mini PC Mount, 0.67 to 2.8 inch width and 11 lbs"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $23", "5-Level Height Adjustable Bracket (under $25)"],
-        ["Under $24", "Dell OptiPlex Mount (under $25) or GMKtec Mount (under $25)"],
-        ["Under $28", "Mount-It! Adjustable Thin Client Mount (under $30)"]
+    "subheading": "By Budget",
+    "intro": "Under $30 the bracket costs reflect how tailored it is.",
+    "table": {
+      "headers": [
+        "Spend position",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest cost for a tailored fit",
+          "Mini PC Mount for GMKtec with Cable Straps, if your model is listed"
+        ],
+        [
+          "Low to mid for adjustable steel",
+          "Under Desk Mini PC Mount Bracket, 5 height levels with reinforced frame"
+        ],
+        [
+          "Mid to upper for a confirmed Dell fit",
+          "Mini PC Mount for Dell OptiPlex Micro with Power Adapter Straps"
+        ],
+        [
+          "Top of the range for a lifetime warranty",
+          "Mount-It! Adjustable Thin Client Mini PC Mount, with USA-based support"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Brand-Specific vs Universal Adjustable",
-    cards: [
-      { label: "Brand-specific (Dell OptiPlex Mount, GMKtec Mount)", text: "Hardware matched exactly to a specific manufacturer's dimensions, offering a more confident, precise fit for that exact device." },
-      { label: "Universal adjustable (5-Level Bracket, Mount-It!)", text: "Sliding arms accommodate a wider range of devices, useful if you're unsure of long-term brand loyalty or own a less common model." }
+    "subheading": "Brand-Specific vs Adjustable Universal",
+    "intro": "Pick tailored for the model, or adjustable for flexibility.",
+    "cards": [
+      {
+        "label": "Brand-specific: Dell OptiPlex and GMKtec mounts",
+        "text": "A snug fit with straps and ties sized to the chassis. They only work within their lists, so check your exact model number."
+      },
+      {
+        "label": "Adjustable: Under Desk 5-Level and Mount-It!",
+        "text": "Cover Mac Mini, NUC and Xbox, plus an 11 lb capacity on the Mount-It!. Less precise, but they survive a PC swap."
+      }
     ],
-    note: "If your device matches a brand-specific mount's exact compatibility list, that precision is usually worth choosing over a generic universal bracket.",
+    "note": "If you already own a Dell or GMKtec on the list, use the tailored mount; otherwise choose adjustable."
   },
   {
-    subheading: "By Mounting Location Flexibility",
-    table: {
-      headers: ["Your mounting need", "Recommended pick"],
-      rows: [
-        ["Pole-clamp mounting to a monitor arm", "Mount-It! Adjustable Thin Client Mount"],
-        ["Wall, VESA, or under desk with power adapter management", "Dell OptiPlex Mount"],
-        ["Under desk only, with precise height control", "5-Level Height Adjustable Bracket"]
+    "subheading": "By Mounting Spot",
+    "intro": "The same bracket behaves differently under a desk or behind a screen.",
+    "table": {
+      "headers": [
+        "Spot",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Behind a monitor on VESA holes",
+          "Mini PC Mount for Dell OptiPlex Micro, which also fits 75x75 and 100x100 holes"
+        ],
+        [
+          "Under a desk with variable height clearance",
+          "Under Desk Mini PC Mount Bracket, 5 height levels from 1.8 to 3.3 inches"
+        ],
+        [
+          "Pole clamp on a monitor stand or cart",
+          "Mount-It! Adjustable Thin Client Mini PC Mount, with pole clamp and 3 VESA sizes"
+        ],
+        [
+          "Tight desk corner with cable tie needs",
+          "Mini PC Mount for GMKtec, with cable ties and rust-resistant steel"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Home Office Video Call Setup Specifically",
-    cards: [
-      { label: "Look for", text: "Precise height adjustment to position a mini PC connected to a webcam or capture device at an optimal, accessible height." },
-      { label: "In this comparison", text: "The 5-Level Height Adjustable Bracket's granular vertical control suits this kind of precision positioning need well." }
-    ],
+    "subheading": "For a Dell OptiPlex Micro Owner Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A mount that lists your exact OptiPlex Micro series, includes a power adapter strap, and does not block the ports or vents."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Dell OptiPlex Micro mount covers MFF 3000 through 9020 with Velcro straps and a 10-minute install, though its VESA mount takes the same holes a monitor arm would use."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the widest mounting flexibility backed by a lifetime warranty, where the Mount-It! pick's pole-clamp option and long-term warranty justify the price over brand-specific alternatives." },
-      { label: "Save if", text: "Your device matches a brand-specific mount's exact compatibility list, where the Dell OptiPlex or GMKtec picks deliver a precisely matched fit for about $4 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $50 guide adds swivel mounts for bigger PCs.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your computer is a larger case up to 22 lbs, or you want a swivel for rear port access. See the under $50 guide."
+      },
+      {
+        "label": "Save if",
+        "text": "You have a small mini PC under 11 lbs, where the Mount-It! or the tailored picks here hold it."
+      }
+    ]
   }
 ];
 
@@ -182,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I use the Dell OptiPlex Mount to attach my mini PC to a monitor arm at the same time?", "a": "No, its VESA mounting option uses the same four holes a monitor arm would occupy, so you'd need to choose either the monitor arm or the VESA mini PC mount for that specific monitor, not both simultaneously." },
-  { "q": "What's the most common mistake buyers make when choosing between brand-specific and universal mounts?", "a": "Assuming a universal adjustable mount will fit as precisely as a brand-specific one, when in reality a mount built around exact manufacturer dimensions typically offers a more secure, confident fit for that specific device." },
-  { "q": "Is the Mount-It! lifetime warranty pick worth the price premium over the Dell or GMKtec brand-specific mounts?", "a": "If you want maximum mounting flexibility including pole-clamp installation and long-term warranty assurance, yes, but if your device matches a brand-specific mount's compatibility list precisely, that option offers a comparably secure fit for less money." },
-  { "q": "How many height levels do I actually need on a height-adjustable mount?", "a": "For most desk setups, 5 or 6 distinct levels provide enough granularity to find a comfortable balance between airflow and port accessibility without needing finer step increments." },
-  { "q": "Does the GMKtec-specific mount work with GMKtec models not listed in its compatibility list?", "a": "It's designed around specific dimension limits under 11.7cm wide and 5.2cm thick, so a GMKtec model outside those measurements, even if not explicitly excluded, may not fit securely." },
-  { "q": "Do these mounts include everything needed for installation, or do I need to buy extra hardware?", "a": "All four picks in this comparison include their own mounting screws and hardware kits, so no additional purchases should be necessary for standard desk or wall installation." }
+  {
+    "q": "How do I check if a mini PC mount fits my Dell OptiPlex Micro?",
+    "a": "Confirm the model against the compatibility list, which spans MFF 3000 through 9020. Many OptiPlex Micro units use 75x75 or 100x100 VESA holes, but depths and port locations vary, so check the exact series number. Check the series number printed on the underside."
+  },
+  {
+    "q": "Is the Mount-It! worth the premium over the 5-level bracket?",
+    "a": "Yes if you value the lifetime warranty and 11 lb capacity with four mounting options, including pole clamp. The 5-level bracket is cheaper and adjusts height, but its listing gives no weight limit. The Mount-It! has the larger range."
+  },
+  {
+    "q": "What goes wrong when mounting a mini PC under a desk?",
+    "a": "Blocked vents and a mismatched width. Hot air rises and under-desk spaces can trap it, so keep intake and exhaust sides open and pick a bracket that actually fits the width and thickness. Heat is the quiet killer."
+  },
+  {
+    "q": "Can I use the Dell mount on a different brand?",
+    "a": "Not reliably. It is built for the Dell OptiPlex Micro form factor, and hole spacing or width will not match other brands. The adjustable Mount-It! bracket is a safer choice for mixed hardware. Test fit before screwing in."
+  },
+  {
+    "q": "How do I handle the power brick?",
+    "a": "Use the Velcro straps included with the Dell mount, or cable ties with the GMKtec mount, to fix the adapter next to the PC. A dangling brick tugs on the DC port, so give the cable some slack. Cable slack prevents port strain."
+  },
+  {
+    "q": "How do I mount behind a monitor with VESA holes?",
+    "a": "Check that your monitor has 75x75 or 100x100 holes, line up the bracket, and tighten with the supplied screws. Remember this takes the holes a monitor arm would use, so plan for a separate desk clamp arm. Do this before drilling the desk."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

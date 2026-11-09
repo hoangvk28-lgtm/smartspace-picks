@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/510G4iqVMTL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CFV5XYPR?tag=deskfinds0d-20",
-    "description": "iCasso heats in about 15 seconds and has 4 temperature levels from 104F to 131F plus four timer choices of 1, 2, 3 or 4 hours. The 31.5 by 13 inch PU leather top is printed with a pastel macaron look and cartoon motifs, and the listing says the surface is tuned for optical and laser mice.\n\nVersus Voltiefy, it gives you a selectable timer rather than a fixed cutoff, and its lowest heat is warmer at 104F. Compared with the plainer ONLYTOP, it costs about $4 more for the decorative look and the timer.\n\nBest for a dorm or home desk where the pad is part of the decor and you want to choose how long it stays on. The caveat is that its lowest setting is 104F, so it is not the gentlest option for people who like a barely warm surface.",
+    "description": "iCasso heats in about 15 seconds and has 4 temperature levels from 104F to 131F plus four timer choices of 1, 2, 3 or 4 hours. The 31.5 by 13 inch PU leather top is printed with a pastel macaron look and cartoon motifs, and the listing says the surface is tuned for optical and laser mice.\n\nVersus Voltiefy, it gives you a selectable timer rather than a fixed cutoff, and its lowest heat is warmer at 104F. Compared with the plainer ONLYTOP, it costs under $10 more for the decorative look and the timer.\n\nBest for a dorm or home desk where the pad is part of the decor and you want to choose how long it stays on. The caveat is that its lowest setting is 104F, so it is not the gentlest option for people who like a barely warm surface.",
     "specs": [
       "104F to 131F, 4 levels",
       "1 to 4 hour selectable timer",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41DFjWXsrpL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DK8ZV5X2?tag=deskfinds0d-20",
-    "description": "UMySpcl has 5 settings from 86F to 122F, a 4 hour auto shut-off and a one hour sedentary reminder, and it is the lowest priced here. The listing says it starts warming in about 5 seconds and spreads heat across 95 percent of the heated surface, on a 110V plug-in with a non-slip base.\n\nCompared with Estleys it saves about $1 and starts at a gentler 86F, though it tops out at 122F, below Voltiefy's 135F. Versus Konohan it matches the 5 steps and 4 hour timer but also adds the break reminder.\n\nBest for a low-cost pad with gentle low steps. The caveat is the lower ceiling, so someone with very cold hands may want more warmth than 122F provides.",
+    "description": "UMySpcl has 5 settings from 86F to 122F, a 4 hour auto shut-off and a one hour sedentary reminder, and it is the lowest priced here. The listing says it starts warming in about 5 seconds and spreads heat across 95 percent of the heated surface, on a 110V plug-in with a non-slip base.\n\nCompared with Estleys it saves under $10 and starts at a gentler 86F, though it tops out at 122F, below Voltiefy's 135F. Versus Konohan it matches the 5 steps and 4 hour timer but also adds the break reminder.\n\nBest for a low-cost pad with gentle low steps. The caveat is the lower ceiling, so someone with very cold hands may want more warmth than 122F provides.",
     "specs": [
       "86F to 122F, 5 settings",
       "4 hour auto shut-off",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31Hz6R1OFKL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FM326Y9V?tag=deskfinds0d-20",
-    "description": "ONLYTOP keeps things simple with 3 heat settings, a 4 hour auto shut-off, overheat protection and a waterproof PU leather top on a 31.5 by 13 inch pad that is 0.08 inches thick. It runs on standard US voltage only.\n\nIt has the fewest steps here, in contrast to the 5 on UMySpcl or Konohan, and does not list any temperatures. In return it is easy to understand at a glance and costs about $2 more than UMySpcl.\n\nBest for people who dislike fiddling with five levels. The caveat is that no degrees are listed, so you cannot tell how warm the highest of the three settings really is.",
+    "description": "ONLYTOP keeps things simple with 3 heat settings, a 4 hour auto shut-off, overheat protection and a waterproof PU leather top on a 31.5 by 13 inch pad that is 0.08 inches thick. It runs on standard US voltage only.\n\nIt has the fewest steps here, in contrast to the 5 on UMySpcl or Konohan, and does not list any temperatures. In return it is easy to understand at a glance and costs under $10 more than UMySpcl.\n\nBest for people who dislike fiddling with five levels. The caveat is that no degrees are listed, so you cannot tell how warm the highest of the three settings really is.",
     "specs": [
       "3 heat settings",
       "4 hour auto shut-off",
@@ -218,24 +218,24 @@ export const buyingCriteria: BuyingCriterion[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Temperature range",
-    "description": "We compared the listed lowest and highest settings and how evenly steps are spaced."
+    "title": "Temperature range and comfort",
+    "description": "We compared stated ranges: the Voltiefy's 95F to 135F across 5 settings, the iCasso's 104F to 131F in 4 levels, the UMySpcl and Konohan's 86F to 122F, and the Estleys' 30C to 50C. A gentle floor near 86F suits a warm office, while a 135F top step is more than most hands want on a keyboard."
   },
   {
-    "title": "Timers and reminders",
-    "description": "Auto shut-off length, selectable timers and break reminders were weighed together."
+    "title": "Auto shut-off and break reminders",
+    "description": "A heated pad left on all day wastes power and warms skin too long. We credited the iCasso's selectable 1 to 4 hour timer, the 3 and 4 hour auto shut-offs on the others, and the sedentary reminders on the Voltiefy and UMySpcl, which nudge you to stand up after an hour."
   },
   {
-    "title": "Safety claims",
-    "description": "We noted named housings, overheat protection and certification claims, treating unverified claims cautiously."
+    "title": "Surface size and desk coverage",
+    "description": "A pad has to cover the keyboard and mouse area to matter. We compared the Voltiefy's 31.5 by 13 inch surface and the ONLYTOP's 0.08 inch thin build, noted that the Konohan lists two different sizes, and treated a wide pad as better for a keyboard plus mouse setup."
   },
   {
-    "title": "Size and surface",
-    "description": "Footprint, thickness, material and mouse friendliness were checked against typical desk setups."
+    "title": "Safety marks and housing",
+    "description": "We looked for named safety information. The Estleys claims FCC, RoHS and UL, the Voltiefy lists a flame-retardant ABS housing, and the ONLYTOP names overheat protection. Listings that claim safety without a mark got less credit, since a mat under your forearms stays on for hours."
   },
   {
-    "title": "Value for price",
-    "description": "Price differences were compared against the specs each listing states."
+    "title": "Mouse tracking and surface care",
+    "description": "A heated pad doubles as a mouse surface, so tracking matters. The iCasso lists optical and laser mouse compatibility, the Estleys has a waterproof, oil resistant PU top, and the Konohan has an anti-skid base. We judged how easy each is to wipe clean and whether the mouse tracks without skipping."
   }
 ];
 
@@ -297,7 +297,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Konohan Heated Desk Mat in Gray-Green"
         ],
         [
-          "Around $26",
+          "Under $30",
           "iCasso Heated Desk Mat with Sticker Design"
         ]
       ]
@@ -371,28 +371,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Will a heated desk pad work with a laptop?",
-    "a": "Yes, as long as the pad's footprint fits under your laptop and mouse. Heat will not harm the laptop at these low temperatures, but avoid placing hot devices or liquids on the pad and keep vents clear."
+    "q": "How hot does a heated desk pad get?",
+    "a": "Most range from about 86F to 135F. The UMySpcl and Konohan start at 86F and top out at 122F, while the Voltiefy reaches 135F. A setting near 100F to 110F is comfortable for hours, so start low and increase only if your hands stay cold."
   },
   {
-    "q": "Can I leave it plugged in all day?",
-    "a": "Most pads shut off automatically after 3 or 4 hours, and they should be unplugged when you leave. Do not stack papers or bags on top, which can trap heat."
+    "q": "Is it safe to leave a heated desk pad on all day?",
+    "a": "Use a model with an auto shut-off, such as the 3 hour cutoff on the Voltiefy and Estleys or the 4 hour on the UMySpcl. Turn it off when you leave, keep liquids away from the cord, and check the surface for cracks. Avoid piling papers on it."
   },
   {
-    "q": "Is a pad with 5 settings better than one with 3?",
-    "a": "Not necessarily. Five steps let you fine tune, as on Voltiefy or UMySpcl, while a 3 step pad like ONLYTOP is simpler. What matters more is whether the listing gives degrees."
+    "q": "Is the Voltiefy worth more than the UMySpcl?",
+    "a": "The Voltiefy lists a wider range from 95F to 135F, a break reminder, and a 3 hour cutoff, while the UMySpcl lists a gentler 86F start and a 4 hour auto shut-off at the lowest price. If you want hotter settings choose the Voltiefy; otherwise the UMySpcl is enough."
   },
   {
-    "q": "How do I clean it?",
-    "a": "Wipe the PU leather with a damp cloth after unplugging. Do not soak it or put it in water, and avoid harsh solvents that could dull the surface."
+    "q": "Will a heated pad work with a laser or optical mouse?",
+    "a": "Mostly yes. The iCasso lists compatibility with optical and laser mice, and the PU leather surface of the Estleys and Konohan is smooth. A very glossy surface can confuse some sensors, so test it, and keep a mouse pad nearby if tracking skips."
   },
   {
-    "q": "Can I use it as a pet mat?",
-    "a": "Some listings say so, but Konohan warns never to leave a pet unattended on it. Treat any pet use as supervised only, and unplug it afterward."
+    "q": "How do I clean a PU leather heated desk pad?",
+    "a": "Unplug it and wipe it with a slightly damp cloth, then dry it. The Estleys lists a waterproof, oil resistant top, but the controller and cord are not waterproof. Avoid soaking or using harsh solvents, which can crack the surface."
   },
   {
-    "q": "Does it work with USB power?",
-    "a": "The pads here are plug-in models, and several are stated as 110V only. If you want USB power, look at a USB heated desk pad instead."
+    "q": "Can I plug it into a power strip or a USB port?",
+    "a": "The UMySpcl lists 110V plug-in power, and most heated pads need wall power. A cheap power strip is fine, but avoid long extension cords that may overheat. Check the listing for the required voltage and wattage before plugging in."
   }
 ];
 

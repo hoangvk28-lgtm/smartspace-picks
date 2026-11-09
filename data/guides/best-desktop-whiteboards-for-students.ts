@@ -103,10 +103,26 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Price weighted more heavily for student budgets", description: "We prioritized affordable options more than in our home-office or professional whiteboard guides, reflecting typical student budget constraints." },
-  { title: "Dorm-desk footprint", description: "We noted where a board's size fits a typical, often shared or limited, dorm-room desk." },
-  { title: "Durability under frequent study-session erasing", description: "We weighted review volume as evidence a board holds up to the repeated use of active studying, not occasional office notes." },
-  { title: "Organizer value for consolidating study materials", description: "We noted where combined storage helps students manage pens and materials on a small desk." }
+  {
+    "title": "Size for study notes",
+    "description": "We compared sizes, because students need to fit formulas and diagrams. AMUSIGHT and Cazeyoo are 16 x 12 inches, the 10 x 10 board is smaller and portable, and Varhomax and Amazon Basics add organizers. A bigger board helps problem solving, a smaller one suits a dorm desk. Bigger boards crowd small dorm desks."
+  },
+  {
+    "title": "Portability and storage",
+    "description": "Students move between dorm, library and class. The 10 x 10 inch magnetic board with stand lists a portable design, which we credited, while the larger boards need a desk. Check whether it fits into a backpack. Backpack fit matters for library study."
+  },
+  {
+    "title": "Magnetic and double-sided",
+    "description": "AMUSIGHT is double-sided and magnetic and Cazeyoo is magnetic, which allow flashcards and schedules to be pinned. Glass Varhomax is not listed as magnetic. We credited magnetic surfaces for study systems. Flashcards need a magnetic face."
+  },
+  {
+    "title": "Surface and ghosting",
+    "description": "Glass resists ghosting best, while melamine stains more over time. Varhomax names glass, while the others name dry erase surfaces. For a student who erases daily, a stained board is a real annoyance. Stains build quickly under daily use."
+  },
+  {
+    "title": "Organizer value on a small desk",
+    "description": "Varhomax and Amazon Basics combine a board with storage for markers, which saves space in a dorm. Varhomax is the highest-priced pick, while Amazon Basics is cheaper. We asked whether the extra storage replaces a cup you already own. Storage is valuable in drawer-poor rooms."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -221,20 +237,53 @@ export const howToChoose: HowToChooseSection[] = [
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Weigh price heavily given typical student budgets", explanation: "We prioritized affordability across this comparison, since student spending is generally more constrained than a home-office or professional budget." },
-  { criterion: "Check dorm-desk footprint before choosing a larger board", explanation: "Dorm desks are often smaller and shared - measure your actual available space before picking the largest option." },
-  { criterion: "Consider an organizer for consolidating study materials", explanation: "The Varhomax and Amazon Basics options combine whiteboard and storage, useful on a cramped dorm desk." },
-  { criterion: "Use review volume as evidence of durability under active study use", explanation: "Frequent erasing during study sessions is more demanding than occasional office notes - an established review base is useful evidence." },
-  { criterion: "Compare near-identical large boards by price and rating", explanation: "The AMUSIGHT and Cazeyoo boards are the same size - compare current price and rating to pick between them." }
+  {
+    "criterion": "Size for your desk and your subject",
+    "explanation": "Math and science notes need more room than vocabulary lists. A 16 x 12 inch board such as AMUSIGHT or Cazeyoo handles worked problems, while a 10 x 10 inch board suits flashcards and daily lists. Measure your desk width and leave room for a laptop. Check the dimensions in the listing photos and compare them with your laptop, since a few inches change how much you can write."
+  },
+  {
+    "criterion": "Magnetic surface for flashcards",
+    "explanation": "Magnetic boards let you pin flashcards, schedules and photos, and AMUSIGHT, Cazeyoo and the 10 x 10 board list magnetic surfaces. Glass boards are not magnetic unless backed with steel. Look for the word magnetic in the listing. Check the dimensions in the listing photos and compare them with your laptop, since a few inches change how much you can write."
+  },
+  {
+    "criterion": "Double-sided versus single-sided",
+    "explanation": "A double-sided board like AMUSIGHT lets you keep one subject on each side without a larger footprint. A single-sided board is cheaper but needs erasing. Check the listing for both sides being dry erase and both being magnetic. Check the dimensions in the listing photos and compare them with your laptop, since a few inches change how much you can write."
+  },
+  {
+    "criterion": "Surface and ghosting",
+    "explanation": "Glass resists ghosting and stains best, while porous melamine can stain after 1 to 3 years of daily use. Varhomax names glass, while others name a dry erase surface. Wipe boards promptly regardless of the surface. Check the dimensions in the listing photos and compare them with your laptop, since a few inches change how much you can write."
+  },
+  {
+    "criterion": "Organizer or plain board",
+    "explanation": "Varhomax and Amazon Basics add storage for markers and an eraser, which helps in a dorm where drawers are scarce. A plain board has more writing area for the same footprint. Choose the organizer only if you need it. Check the dimensions in the listing photos and compare them with your laptop, since a few inches change how much you can write."
+  }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "What's the cheapest option for students?", a: "The Small Dry Erase Board 10x10 at under $9." },
-  { q: "Which has the most writing area for study notes?", a: "The AMUSIGHT Double-Sided Magnetic White Board at 16x12 inches, or the nearly identical Cazeyoo option at a slightly lower price." },
-  { q: "Is there an option with storage for study materials?", a: "Yes, the Varhomax Glass Desk Whiteboard with Storage and the cheaper Amazon Basics alternative." },
-  { q: "Are the AMUSIGHT and Cazeyoo boards different products?", a: "They're the same size (16x12 in) at slightly different prices and ratings - compare the current listings to decide between them." },
-  { q: "Which is best for a small dorm desk?", a: "The compact Small Dry Erase Board 10x10, which uses minimal desk space." },
-  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Students who want combined storage and writing surface on a tight desk." }
+  {
+    "q": "What whiteboard size suits a dorm desk?",
+    "a": "A 10 x 10 inch board fits almost anywhere and moves easily, while a 16 x 12 inch board like AMUSIGHT or Cazeyoo needs more width. Measure the free space beside your laptop before choosing. Leave room for a notebook too."
+  },
+  {
+    "q": "What mistake do students make with desktop whiteboards?",
+    "a": "Buying a larger board than the desk can take, then leaning it on a wall. A 16 x 12 inch board can crowd a small desk. Choose the size that leaves room for a laptop and a notebook."
+  },
+  {
+    "q": "Is AMUSIGHT worth more than Cazeyoo?",
+    "a": "They are both 16 x 12 inches and magnetic. AMUSIGHT is double-sided, which doubles writing space, while Cazeyoo is slightly cheaper. Pick the double-sided one if you use the board for multiple subjects."
+  },
+  {
+    "q": "How do I use a whiteboard to study?",
+    "a": "Write one concept per section, explain it aloud, and erase it. Magnetic boards let you pin flashcards. Use fine-tip markers for formulas, and wipe the board after each session so ghosting does not build. Rotate subjects by section."
+  },
+  {
+    "q": "How do I clean a student whiteboard?",
+    "a": "Wipe with a dry cloth, then use whiteboard spray for old marks. Avoid household cleaners on melamine, which can dull the surface. A clean board is easier to read in low dorm light."
+  },
+  {
+    "q": "Does the 10 x 10 inch board stand up on its own?",
+    "a": "It lists a stand and a portable magnetic design, so yes on a flat desk. Because it is small and light, a tilted desk or a bumped table will knock it over, so place it away from the edge. Place it away from the edge."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

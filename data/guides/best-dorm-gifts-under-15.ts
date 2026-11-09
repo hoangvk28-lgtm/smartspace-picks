@@ -190,47 +190,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Housing rules on power strips",
-    "explanation": "Many residence halls allow only surge protected strips plugged directly into the wall, and some ban multi-plug adapters outright. A strip that violates a rule is taken at room check. Read the school's electrical policy and check the listing for a surge protection rating before gifting."
+    "explanation": "Many residence halls allow only surge protected strips plugged directly into the wall, and some ban multi-plug adapters outright. A strip that violates a rule is taken at room check. Read the school's electrical policy and check the listing for a surge protection rating before gifting. Ask the student or check the housing handbook before buying, since a banned item gets taken at move-in."
   },
   {
     "criterion": "Shared USB power",
-    "explanation": "A tower with several USB ports usually splits one total current across all ports, so charging three phones at once is slower than one. The listing here gives a 5 volt, 2.1 amp total. Check the total rather than the per-port figure when comparing."
+    "explanation": "A tower with several USB ports usually splits one total current across all ports, so charging three phones at once is slower than one. The listing here gives a 5 volt, 2.1 amp total. Check the total rather than the per-port figure when comparing. If several devices will charge at once, add up the amps, because the 2.1A total is split."
   },
   {
     "criterion": "Lap size versus bed size",
-    "explanation": "A throw that is 50 by 60 inches suits a lap or chair but leaves a Twin XL bed, which is about 39 by 80 inches, partly bare. Decide whether the blanket is for the desk chair or the bed. Compare the listed size to those measurements."
+    "explanation": "A throw that is 50 by 60 inches suits a lap or chair but leaves a Twin XL bed, which is about 39 by 80 inches, partly bare. Decide whether the blanket is for the desk chair or the bed. Compare the listed size to those measurements. Measure the couch or bed it will live on, since a lap throw is not a bed blanket."
   },
   {
     "criterion": "Battery type for gadgets",
-    "explanation": "Flashlights and clocks use batteries that may or may not be included. A gift that arrives dead is a letdown. Check the listing for battery type and whether they are in the box, and add spares if not."
+    "explanation": "Flashlights and clocks use batteries that may or may not be included. A gift that arrives dead is a letdown. Check the listing for battery type and whether they are in the box, and add spares if not. Look at the battery type in the listing, and keep a spare set in the box with the flashlight."
   },
   {
     "criterion": "Insert and fit for covers",
-    "explanation": "A pillow cover is only a shell, and uncommon sizes such as 12 by 20 inches are hard to find in stores. Buying the wrong insert wastes the gift. Match the insert size to the cover, and look for one in the listing."
+    "explanation": "A pillow cover is only a shell, and uncommon sizes such as 12 by 20 inches are hard to find in stores. Buying the wrong insert wastes the gift. Match the insert size to the cover, and look for one in the listing. Confirm the insert size before ordering the cover, since an odd size is hard to match later."
   },
   {
     "criterion": "Bundle value under $15",
-    "explanation": "At this price, combining two or three items beats one filler. A flashlight, sewing kit and cover cost under $30 together. Plan the bundle and compare each unit price."
+    "explanation": "At this price, combining two or three items beats one filler. A flashlight, sewing kit and cover cost under $30 together. Plan the bundle and compare each unit price. Compare the pack count against the price, and favor the item that gets used every week."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Price ceiling",
-    "description": "All six picks were priced at or below $15 when gathered."
+    "title": "Housing rule friendliness",
+    "description": "We flagged items that campuses commonly restrict, such as the Lovskoo tower power strip, because many halls allow surge protectors with overload protection but ban daisy-chaining or strips under a mattress. A gift that gets confiscated at move-in is worse than no gift at all, so we noted the risk."
   },
   {
-    "title": "Rule risk",
-    "description": "Power items and decor were weighed against common housing limits."
+    "title": "Space cost in a tiny room",
+    "description": "We compared footprints, since a student lives in a room measured in a few hundred square feet. The Bedsure 50 x 60 inch throw folds small, the Coquimbo sewing kit fits a drawer, and the Freyalife ivy covers wall rather than floor, so each earns its place."
   },
   {
-    "title": "Daily use",
-    "description": "We favored gifts used weekly over novelties."
+    "title": "Daily use versus novelty",
+    "description": "We asked how often each gift would be touched, ranking the Lovskoo's 8 sockets and 3 USB ports and the Bedsure throw above the Hugs from Home pillow cover. Gifts under $15 are easy to waste, so sentiment was weighed against real weekly use."
   },
   {
-    "title": "Bundle fit",
-    "description": "We checked how well each item pairs with others in a care package."
+    "title": "Bundle and value",
+    "description": "We looked at what comes in the box, including the Victoper's 2 flashlights with 5 light modes and the Freyalife's 12 vines totaling 86 feet. A multi-pack stretches a small budget further than a single decorative item, which mattered at this price."
+  },
+  {
+    "title": "Fit and care details",
+    "description": "We checked care and sizing notes, such as the Bedsure throw being machine washable fleece and the 12 x 20 inch pillow cover not including an insert. Small mismatches, like an unusual size, turn a thoughtful gift into one that cannot be used."
   }
 ];
 
@@ -289,7 +293,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Lovskoo Tower Surge Protector Power Strip"
         ],
         [
-          "About $10",
+          "Under $15",
           "Victoper LED Flashlight 2 Pack"
         ],
         [
@@ -371,28 +375,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Are power strips allowed in dorms?",
-    "a": "Many schools allow surge protected strips but ban multi-plug adapters or daisy chains. Check the housing list. If strips are banned, skip this gift."
+    "q": "Can a student bring the Lovskoo power strip to a dorm?",
+    "a": "Often yes, but only with limits. Many schools allow surge protectors with overload protection, ban daisy-chaining, and prohibit running strips under mattresses. Check the housing handbook, and note the Lovskoo's USB output is shared across its 3 ports."
   },
   {
-    "q": "How many devices can a USB tower charge?",
-    "a": "It charges several at once, but the 2.1 amp total is shared across ports. Heavy loads such as a tablet plus two phones will charge slowly."
+    "q": "What is the most common mistake when buying dorm gifts under $15?",
+    "a": "Buying something that is bulky, restricted or already provided. Ivy vines need removable hooks, and heat or flame items are usually banned. Choose small, safe things like the Bedsure throw or the Coquimbo sewing kit."
   },
   {
-    "q": "Is a lap throw enough for a dorm bed?",
-    "a": "It works on a chair or as a top layer, but it will not cover a Twin XL mattress. Pick a larger throw for bedding."
+    "q": "Is the Victoper two-pack worth it over a single flashlight?",
+    "a": "Yes for a dorm. You get 5 light modes, a zoomable beam and a metal body in two lights, one for the desk and one for a bag. The listing is vague about batteries, so buy spares."
   },
   {
-    "q": "Do flashlights need special storage?",
-    "a": "Keep them in a drawer without batteries installed if unused for months, because old batteries can leak."
+    "q": "How do I hang the Freyalife ivy without damaging walls?",
+    "a": "Use removable hooks or adhesive strips rated for light loads, and avoid nails. Twelve vines span about 86 feet, so you can drape a bedhead or window frame and cut to size for a dorm wall."
   },
   {
-    "q": "Can I mail a sewing kit?",
-    "a": "Yes, small scissors are allowed in mail but not in carry-on bags. Pack it in the checked luggage if traveling by air."
+    "q": "Does the Hugs from Home cover include an insert?",
+    "a": "No. The 12 x 20 inch cover is sold without an insert, and that slim size is hard to match with a standard pillow. Buy a matching insert first, or pair it with a lumbar pillow already on hand."
   },
   {
-    "q": "Can I stick faux vines on a dorm wall?",
-    "a": "Use removable adhesive hooks, never nails. Test one hook first for paint damage."
+    "q": "Will the Bedsure throw fit an extra-long twin bed?",
+    "a": "It is a 50 x 60 inch lap-size throw, so it covers a lap or a bed corner but not a full extra-long twin. It works as an extra layer on the couch or desk chair, and it is machine washable."
   }
 ];
 

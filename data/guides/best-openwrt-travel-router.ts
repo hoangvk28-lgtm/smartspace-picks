@@ -84,70 +84,150 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "OpenWrt Firmware Version", "description": "Compared the specific OpenWrt version and kernel each listing ships with." },
-  { "title": "Available Plugin Storage", "description": "Compared RAM and flash storage capacity relevant to how many OpenWrt plugins can be installed." },
-  { "title": "VPN Throughput", "description": "Compared stated OpenVPN and WireGuard maximum speeds across listings." },
-  { "title": "Hardware Capability", "description": "Compared Wi-Fi generation, port speed, and unique hardware features like the touchscreen interface." },
-  { "title": "Price-to-Feature Value", "description": "Compared OpenWrt capability retained at each price tier from budget to flagship." }
+  {
+    "title": "OpenWrt version on the box",
+    "description": "The Slate 7 lists OpenWrt 23.05, while the Beryl 7, Beryl AX and AR300M16 list 21.02. We noted the version because a newer release gets newer kernel and package support, and for basic VPN use either works. This was weighed alongside the router's stated storage. This was weighed alongside the router's stated storage, because a newer release with little flash still cannot hold many packages."
+  },
+  {
+    "title": "Storage and RAM for packages",
+    "description": "Slate 7 and Beryl 7 list 512MB storage, and the AR300M16 lists 128MB RAM and 16MB flash. OpenWrt's own guidance treats 16MB flash and 128MB RAM as a modest floor, so we judged how many packages like VPN, ad blocking and monitoring each router can run together."
+  },
+  {
+    "title": "VPN throughput claims",
+    "description": "The Beryl 7 lists WireGuard up to 1100Mbps and OpenVPN-DCO up to 1000Mbps, far above what the Slate 7 states. We checked whether each figure names the protocol, since a throughput number without WireGuard or OpenVPN attached is hard to compare."
+  },
+  {
+    "title": "Ports, Wi-Fi and device load",
+    "description": "The Slate 7 and Beryl 7 add Wi-Fi 7 and dual 2.5G ports, the Beryl AX is Wi-Fi 6 with a 2.5G WAN port, and the Beryl 7 lists up to 120 connected devices. We matched these to a hotel room, a rented flat and a small team travelling together. A hotel room with eight devices fits any of them, but a team of ten or more needs the Beryl 7's stated device capacity."
+  },
+  {
+    "title": "Price against the feature set",
+    "description": "Prices step from the small AR300M16 up through the Beryl AX to the Beryl 7 and Slate 7. We asked what each step buys: the touchscreen on the Slate 7, the 1100Mbps VPN on the Beryl 7, and Wi-Fi 6 with a 2.5G port on the Beryl AX. The step from the Beryl AX to the Beryl 7 adds Wi-Fi 7 and a far higher VPN speed, which most hotel connections cannot use."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Priority",
-    table: {
-      headers: ["What matters most", "Recommended pick"],
-      rows: [
-        ["Newest firmware, touchscreen control", "GL.iNet GL-BE3600 Slate 7"],
-        ["Highest VPN throughput", "GL.iNet GL-MT3600BE Beryl 7"],
-        ["OpenWrt with lower price, Wi-Fi 6", "GL.iNet GL-MT3000 Beryl AX"],
-        ["Smallest size, lowest price", "GL.iNet GL-AR300M16 Mini"]
+    "subheading": "By Priority",
+    "table": {
+      "headers": [
+        "What matters most",
+        "Recommended pick"
       ],
+      "rows": [
+        [
+          "Newest firmware, touchscreen control",
+          "GL.iNet GL-BE3600 Slate 7"
+        ],
+        [
+          "Highest VPN throughput",
+          "GL.iNet GL-MT3600BE Beryl 7"
+        ],
+        [
+          "OpenWrt with lower price, Wi-Fi 6",
+          "GL.iNet GL-MT3000 Beryl AX"
+        ],
+        [
+          "Smallest size, lowest price",
+          "GL.iNet GL-AR300M16 Mini"
+        ]
+      ]
     },
+    "intro": "Pick the single feature you will actually use on the road, because each router wins a different one."
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $37", "GL.iNet GL-AR300M16 Mini (under $40)"],
-        ["Under $99", "GL.iNet GL-MT3000 Beryl AX (under $100)"],
-        ["Under $130", "GL.iNet GL-MT3600BE Beryl 7 (under $130)"],
-        ["Under $160", "GL.iNet GL-BE3600 Slate 7 (under $160)"]
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
+      "rows": [
+        [
+          "Under $37",
+          "GL.iNet GL-AR300M16 Mini (under $40)"
+        ],
+        [
+          "Under $99",
+          "GL.iNet GL-MT3000 Beryl AX (under $100)"
+        ],
+        [
+          "Under $130",
+          "GL.iNet GL-MT3600BE Beryl 7 (under $130)"
+        ],
+        [
+          "Under $160",
+          "GL.iNet GL-BE3600 Slate 7 (under $160)"
+        ]
+      ]
     },
+    "intro": "Prices step up in four clear tiers, and each step buys one concrete thing, not just speed."
   },
   {
-    subheading: "OpenWrt 23.05 vs OpenWrt 21.02",
-    cards: [
-      { label: "OpenWrt 23.05 (Slate 7)", text: "The newer firmware version generally receives more current security patches and supports a broader range of up-to-date plugins." },
-      { label: "OpenWrt 21.02 (Beryl 7, Beryl AX, AR300M16)", text: "Still actively supported and stable, with a large existing plugin ecosystem, though not the absolute newest release." }
+    "subheading": "OpenWrt 23.05 vs OpenWrt 21.02",
+    "cards": [
+      {
+        "label": "OpenWrt 23.05 (Slate 7)",
+        "text": "The newer firmware version generally receives more current security patches and supports a broader range of up-to-date plugins."
+      },
+      {
+        "label": "OpenWrt 21.02 (Beryl 7, Beryl AX, AR300M16)",
+        "text": "Still actively supported and stable, with a large existing plugin ecosystem, though not the absolute newest release."
+      }
     ],
-    note: "Firmware version matters most if you plan to install newer OpenWrt packages that specifically require a more recent kernel; for basic VPN and browsing use, either version works reliably.",
+    "note": "Firmware version matters most if you plan to install newer OpenWrt packages that specifically require a more recent kernel; for basic VPN and browsing use, either version works reliably.",
+    "intro": "Firmware age matters less than storage and RAM for most travelers, but it affects which packages install cleanly."
   },
   {
-    subheading: "By Wi-Fi Generation",
-    table: {
-      headers: ["Your bandwidth need", "Recommended pick"],
-      rows: [
-        ["Wi-Fi 7 for maximum future-proofing", "GL.iNet Slate 7 or Beryl 7"],
-        ["Wi-Fi 6 at a lower price", "GL.iNet Beryl AX"],
-        ["Basic connectivity, smallest size priority", "GL.iNet AR300M16 (2.4GHz-focused)"]
+    "subheading": "By Wi-Fi Generation",
+    "table": {
+      "headers": [
+        "Your bandwidth need",
+        "Recommended pick"
       ],
+      "rows": [
+        [
+          "Wi-Fi 7 for maximum future-proofing",
+          "GL.iNet Slate 7 or Beryl 7"
+        ],
+        [
+          "Wi-Fi 6 at a lower price",
+          "GL.iNet Beryl AX"
+        ],
+        [
+          "Basic connectivity, smallest size priority",
+          "GL.iNet AR300M16 (2.4GHz-focused)"
+        ]
+      ]
     },
+    "intro": "Most hotel and hostel networks cannot use Wi-Fi 7 speeds, so choose the generation by the devices you carry."
   },
   {
-    subheading: "For a Developer or Network Hobbyist Specifically",
-    cards: [
-      { label: "Look for", text: "The largest available RAM and flash storage, since installing multiple OpenWrt plugins simultaneously, like ad-blocking, VPN, and network monitoring tools together, requires more storage headroom than a minimal single-plugin setup." },
-      { label: "In this comparison", text: "The Slate 7 and Beryl 7 both specifically state 512MB storage, the most headroom in this comparison for running several OpenWrt plugins at once." }
+    "subheading": "For a Developer or Network Hobbyist Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The largest available RAM and flash storage, since installing multiple OpenWrt plugins simultaneously, like ad-blocking, VPN, and network monitoring tools together, requires more storage headroom than a minimal single-plugin setup."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Slate 7 and Beryl 7 both specifically state 512MB storage, the most headroom in this comparison for running several OpenWrt plugins at once."
+      }
     ],
+    "intro": "Package-heavy setups run out of flash before they run out of CPU, so storage is the first check."
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the newest firmware with a touchscreen interface or the highest VPN throughput, where the Slate 7 or Beryl 7 near $130-160 deliver genuinely differentiated capability." },
-      { label: "Save if", text: "You want reliable OpenWrt customization without Wi-Fi 7 speed, where the Beryl AX or AR300M16 deliver that at a meaningfully lower price." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want the newest firmware with a touchscreen interface or the highest VPN throughput, where the Slate 7 or Beryl 7 near $130-160 deliver genuinely differentiated capability."
+      },
+      {
+        "label": "Save if",
+        "text": "You want reliable OpenWrt customization without Wi-Fi 7 speed, where the Beryl AX or AR300M16 deliver that at a meaningfully lower price."
+      }
+    ]
   }
 ];
 
@@ -175,12 +255,12 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "What's the benefit of OpenWrt over a router's stock firmware?", "a": "OpenWrt unlocks thousands of installable plugins and deep configuration control over VPN routing, firewall rules, and network behavior that a stock firmware interface typically doesn't expose." },
-  { "q": "Do I need the newest OpenWrt firmware version for basic VPN use?", "a": "No, both OpenWrt 21.02 and 23.05 support standard VPN client functionality reliably; the newer version matters more if you plan to install specific newer plugins that require a more recent kernel." },
+  { "q": "What's the benefit of OpenWrt over a router's stock firmware?", "a": "OpenWrt gives you thousands of installable packages and fine control over VPN routing, firewall rules and DNS that stock firmware seldom exposes. On a travel router that means a kill switch, ad blocking and a VPN server on one pocket device, and GL.iNet ships its own firmware built on OpenWrt." },
+  { "q": "Do I need the newest OpenWrt firmware version for basic VPN use?", "a": "No. OpenWrt 21.02 on the Beryl 7, Beryl AX and AR300M16 and 23.05 on the Slate 7 both run standard VPN clients reliably. The newer version only matters if you install packages that need a recent kernel, so pick on hardware first and firmware second." },
   { "q": "How much storage do I need for OpenWrt plugins?", "a": "For a few basic plugins like a VPN client, even 128MB RAM and 16MB flash can suffice, but running multiple plugins simultaneously, like VPN, ad-blocking, and monitoring together, benefits from the 512MB storage found on higher-end models." },
-  { "q": "Is a touchscreen necessary on an OpenWrt travel router?", "a": "No, it's a convenience feature for quick on-device adjustments; you can fully manage any OpenWrt router through its web admin panel or mobile app without a physical touchscreen." },
-  { "q": "Can a budget OpenWrt travel router run a VPN server, not just a client?", "a": "Yes, even the smallest and cheapest OpenWrt router in this comparison specifically supports VPN server capability alongside client mode, letting you remotely access your home network while traveling." },
-  { "q": "Does OpenWrt void a travel router's warranty?", "a": "Most GL.iNet routers ship with OpenWrt pre-installed as their standard firmware rather than requiring you to flash it yourself, so using OpenWrt normally doesn't affect the manufacturer's warranty." }
+  { "q": "Is a touchscreen necessary on an OpenWrt travel router?", "a": "No. The Slate 7's touchscreen is a convenience for quick VPN toggles and status, but every router here can be managed through the web admin panel or a mobile app. If you rarely change settings on the road, skip the touchscreen and spend the difference on throughput." },
+  { "q": "Can a budget OpenWrt travel router run a VPN server, not just a client?", "a": "Yes. Even the AR300M16, the cheapest router here at 39g, supports both VPN client and server modes using OpenVPN and WireGuard. A server lets you reach your home network from a hotel, though its small CPU will cap throughput well below the Beryl 7's 1100Mbps WireGuard figure." },
+  { "q": "Does OpenWrt void a travel router's warranty?", "a": "Generally not for these. GL.iNet routers ship with OpenWrt-based firmware, so normal use does not touch the warranty. Flashing a different image or a custom build can be another matter, so read the manufacturer's warranty terms before flashing anything other than the supplied firmware." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

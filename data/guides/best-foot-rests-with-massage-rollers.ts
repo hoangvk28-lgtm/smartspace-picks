@@ -5,7 +5,7 @@ export const metaDescription = "Seven under desk foot rests with built-in massag
 export const mainKeyword = "foot rest with massage rollers";
 export const introParagraphs = [
   "Rollers turn a static footrest into something your feet can actively push around, which suits people who feel restless after an hour of sitting. They are not a heating pad or a vibrating massager, so the effect is gentle and entirely manual.",
-  "Every pick here lists built-in rollers, though the designs differ: a single fixed roller, a pedal-adjusted platform with moving rollers, a wooden base with a roller and a 360 degree rocker. Our comparison rests on the listed facts: height steps, tilt range, platform dimensions, weight and material. Prices run from about $20 to $38."
+  "Every pick here lists built-in rollers, though the designs differ: a single fixed roller, a pedal-adjusted platform with moving rollers, a wooden base with a roller and a 360 degree rocker. Our comparison rests on the listed facts: height steps, tilt range, platform dimensions, weight and material. Prices run from under $25 to $38."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Kypty8spL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07BDP3YV6?tag=deskfinds0d-20",
-    "description": "Mount-It has a 17 x 13 inch platform that tilts up to 30 degrees in either direction, three heights of 4.25, 5.5 and 6.75 inches set by a foot pedal and rollers that move under your feet. The listing also states a lifetime manufacturer warranty with US-based support, and the top is textured to keep feet from slipping.\n\nIt costs under $40, about $4 more than Natheeph and $9 more than HUANUO, and it is the only pick here you can raise or lower without bending down. Compared with HUANUO it adds the pedal and the warranty, but both rock without locking.\n\nBest for people who want an adjustable rocker that is backed for the long term. The caveat is the price and a hardened plastic body, which is less warm to look at than Natheeph's wood.",
+    "description": "Mount-It has a 17 x 13 inch platform that tilts up to 30 degrees in either direction, three heights of 4.25, 5.5 and 6.75 inches set by a foot pedal and rollers that move under your feet. The listing also states a lifetime manufacturer warranty with US-based support, and the top is textured to keep feet from slipping.\n\nIt costs under $40, under $10 more than Natheeph and $9 more than HUANUO, and it is the only pick here you can raise or lower without bending down. Compared with HUANUO it adds the pedal and the warranty, but both rock without locking.\n\nBest for people who want an adjustable rocker that is backed for the long term. The caveat is the price and a hardened plastic body, which is less warm to look at than Natheeph's wood.",
     "specs": [
       "17 x 13 inch tilting platform",
       "3 heights via foot pedal",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ID985m6BL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H1QM7PKB?tag=deskfinds0d-20",
-    "description": "WAVYEASE has a fixed raised massage roller, five lockable heights and an extra-wide textured platform with fine massage grains. It uses a reinforced PP frame with non-slip pads and a smooth waterproof surface.\n\nAt under $20 it is about $5 cheaper than TUOBITUO and has five heights where TUOBITUO has one. Compared with CasaZenith it is a similar price but uses one fixed roller rather than four.\n\nBest for people who want adjustable height and a wide platform at a low price. The caveat is that the roller does not spin and the frame is plastic.",
+    "description": "WAVYEASE has a fixed raised massage roller, five lockable heights and an extra-wide textured platform with fine massage grains. It uses a reinforced PP frame with non-slip pads and a smooth waterproof surface.\n\nAt under $20 it is under $10 cheaper than TUOBITUO and has five heights where TUOBITUO has one. Compared with CasaZenith it is a similar price but uses one fixed roller rather than four.\n\nBest for people who want adjustable height and a wide platform at a low price. The caveat is that the roller does not spin and the frame is plastic.",
     "specs": [
       "5 lockable heights",
       "Fixed raised massage roller",
@@ -218,209 +218,109 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Roller type",
-    "explanation": "A roller can be fixed, meaning it is a raised bump, or free-spinning so it moves under your foot. Free-spinning rollers give more massage motion but can feel unstable. Look for the words rollers move or roll in the listing."
+    "criterion": "Spinning versus fixed rollers",
+    "explanation": "A spinning roller turns under your foot, while a fixed bar is only a bump, so the two feel very different. Mount-It! and CasaZenith use moving rollers and WAVYEASE has a fixed one. Read the title and bullets for words such as spin, roll or fixed before assuming the rollers move. Seller photos often show the roller close up."
   },
   {
-    "criterion": "Height range and steps",
-    "explanation": "Rollers sit on top of the platform, so the height still has to fit the gap between your feet and the floor. A footrest that starts too high pushes your knees above your hips, and one that tops out too low does nothing for taller users. Check the listed minimum and maximum in inches, such as 3.14 up to 6.88, not just the number of steps."
+    "criterion": "Height range",
+    "explanation": "A rest should leave your thighs about level, and ranges run from 3.1 to about 6.9 inches. Natheeph starts at 3.14 inches and WAVYEASE has five lockable heights. Check the stated range and how the height locks, and make sure the lowest setting suits your chair. Choose the lowest setting that works for your chair first."
   },
   {
-    "criterion": "Tilt range",
-    "explanation": "Tilt lets the platform rock so feet keep moving. A range of about 30 degrees either way is common. Look for the degree in the listing."
+    "criterion": "Tilt and platform",
+    "explanation": "Tilt keeps ankles moving, with Mount-It! tilting 30 degrees each way and HUANUO from 0 to 30. A tilt that cannot lock can feel unstable, while one that returns flat easily suits long sessions. Check the angle and whether it locks, and choose a platform wide enough for both feet. Look for a tilt that returns flat easily."
   },
   {
-    "criterion": "Platform size",
-    "explanation": "A bigger platform allows both feet to move freely. Some are 17 or 18 inches wide, while others are around 11. Look for both dimensions."
+    "criterion": "Platform size and weight",
+    "explanation": "Mind Reader is 18 x 13 inches and 4.4 lbs, while TUOBITUO is 11.4 x 7.9 inches. Both feet need room, and a very light rest can creep on hard floors. Check the width and weight in the listing and look for non-slip feet. A very light rest creeps, so check for non-slip feet."
   },
   {
-    "criterion": "Material and weight",
-    "explanation": "Wood is sturdy, plastic is light. Weight matters if you move it often. Check the listed weight."
-  },
-  {
-    "criterion": "Warranty",
-    "explanation": "Few listings mention warranty, but Mount-It states a lifetime one. A warranty is useful for moving parts. Look for it in the bullets."
+    "criterion": "Warranty and build",
+    "explanation": "Mount-It! offers a lifetime warranty, while most others give none and several are plastic. Moving parts are the first to fail on a cheap rest. Check the warranty term and the seller's contact route before buying, and read the roller material. Moving parts are the first thing to fail, so read the roller material."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  {
-    "title": "Roller design",
-    "description": "We compared fixed and moving rollers."
-  },
-  {
-    "title": "Adjustability",
-    "description": "We compared heights and tilt."
-  },
-  {
-    "title": "Build",
-    "description": "We compared materials and weight."
-  },
-  {
-    "title": "Value",
-    "description": "We weighed features against price."
-  }
+  { "title": "Whether the rollers actually move", "description": "Mount-It! lists rollers that move, TUOBITUO has built-in rollers on a rocking body, and WAVYEASE's raised roller is fixed. We separated spinning rollers from a textured bar, because a fixed roller is a bump and not a massage. That distinction matters because a true massage feel needs motion." },
+  { "title": "Height range and adjustment", "description": "Natheeph offers 3.14 to 6.88 inches, HUANUO 3.9 to 6.5, Mind Reader 3.5 to 6.75, WAVYEASE five lockable heights and CasaZenith six. We compared ranges, because a roller rest that cannot reach your thigh-level posture is only a gadget. A rest that only goes to six inches may not suit a tall chair." },
+  { "title": "Tilt and platform size", "description": "Mount-It! tilts 30 degrees either way, HUANUO 0 to 30 degrees and Mind Reader 18 x 13 inches. We looked at tilt control and platform width because an uneven platform and a narrow footprint make rollers awkward. Wide platforms and controlled tilt suit longer sessions." },
+  { "title": "Roller feel and build", "description": "CasaZenith has four rollers plus particles on a detachable ABS body, ZLMHYYM style, and Natheeph has wood and foam. We weighed plastic against wood and the roller size, since tiny rollers rarely feel like anything. Large rollers on a firm body feel more convincing than tiny beads." },
+  { "title": "Warranty and listing detail", "description": "Mount-It! lists a lifetime warranty and others none. We counted warranties and thin specs as a factor, because the cheapest options give least detail. Listings that were silent on warranty were treated as unknown." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Adjustment Style",
-    "intro": "Match adjustments.",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Primary Need",
+    intro: "Rollers vary from true spinning cylinders to a textured bar, so decide how much massage you want.",
+    table: {
+      headers: ["If you mainly need", "Recommended pick"],
+      rows: [
+        ["Spinning rollers with height change by pedal", "Mount-It!, with a lifetime warranty"],
+        ["A wood build with a foam rest area", "Natheeph, starting at 3.14 inches"],
+        ["Pre-assembled with tilt up to 30 degrees", "HUANUO"],
+        ["A wide light platform with center rollers", "Mind Reader, at 18 x 13 inches and 4.4 lbs"],
+        ["A rocking rest with rollers", "TUOBITUO, which rocks 360 degrees"]
       ],
-      "rows": [
-        [
-          "Adjust by foot pedal with warranty",
-          "Mount-It! Foot Rest with Rollers and Foot Pedal"
-        ],
-        [
-          "Pre-assembled with tilt",
-          "HUANUO Adjustable Foot Rest with Massage Roller"
-        ],
-        [
-          "Lowest start height",
-          "Natheeph Wood Foot Rest with Massage Roller"
-        ],
-        [
-          "Light carry",
-          "Mind Reader Foot Rest with Massage Rollers"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "By Budget",
-    "intro": "Real prices from this comparison.",
-    "table": {
-      "headers": [
-        "Price range",
-        "Recommended pick"
+    subheading: "By Budget",
+    table: {
+      headers: ["Price range", "Recommended pick"],
+      rows: [
+        ["Under $20", "WAVYEASE or CasaZenith"],
+        ["Around $25", "TUOBITUO"],
+        ["Around $28 to $29", "Mind Reader or HUANUO"],
+        ["Around $34", "Natheeph"],
+        ["Around $38", "Mount-It!, the priciest"]
       ],
-      "rows": [
-        [
-          "$19 to $20",
-          "WAVYEASE Foot Rest with Fixed Massage Roller"
-        ],
-        [
-          "$24 to $25",
-          "TUOBITUO 360-Degree Rocking Foot Rest with Rollers"
-        ],
-        [
-          "$28 to $29",
-          "HUANUO Adjustable Foot Rest with Massage Roller"
-        ],
-        [
-          "$33 to $34",
-          "Natheeph Wood Foot Rest with Massage Roller"
-        ],
-        [
-          "$37 to $38",
-          "Mount-It! Foot Rest with Rollers and Foot Pedal"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "Moving vs Fixed Rollers",
-    "cards": [
-      {
-        "label": "Moving rollers",
-        "text": "Roll under your foot. Mount-It, HUANUO, Mind Reader and TUOBITUO fall here."
-      },
-      {
-        "label": "Fixed bumps",
-        "text": "Stationary texture. WAVYEASE falls here."
-      }
+    subheading: "Spinning Rollers vs Fixed Texture",
+    cards: [
+      { label: "Spinning rollers (Mount-It!, TUOBITUO, CasaZenith)", text: "Cylinders turn under your feet for a rolling massage. They add parts that can wear." },
+      { label: "Fixed texture (WAVYEASE, HUANUO texture)", text: "A raised bar or bumps gives pressure without moving parts. It is simpler and sturdier but less of a massage." }
     ],
-    "note": "Choose moving rollers for more massage."
+    note: "Most buyers should default to true spinning rollers if massage is the reason to buy. Fixed bars suit buyers who mainly want a firm textured platform and treat the massage as a bonus. Whichever you choose, check that the lowest height works with your chair before you worry about roller feel.",
   },
   {
-    "subheading": "By Movement Style",
-    "intro": "Movement.",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Adjustment Style",
+    table: {
+      headers: ["Your preference", "Recommended pick"],
+      rows: [
+        ["Change height with a foot pedal", "Mount-It!"],
+        ["Lockable heights", "WAVYEASE, with five"],
+        ["Six steps", "CasaZenith"],
+        ["Tilt plus three heights", "HUANUO or Mind Reader"]
       ],
-      "rows": [
-        [
-          "Rocks forward and back",
-          "HUANUO Adjustable Foot Rest with Massage Roller"
-        ],
-        [
-          "Rocks 360 degrees",
-          "TUOBITUO 360-Degree Rocking Foot Rest with Rollers"
-        ],
-        [
-          "Stays still with texture",
-          "WAVYEASE Foot Rest with Fixed Massage Roller"
-        ],
-        [
-          "Six heights",
-          "CasaZenith Six-Height Foot Rest with Massage Rollers"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "For Long Sitting Sessions Specifically",
-    "cards": [
-      {
-        "label": "Look for",
-        "text": "Rollers you can move, tilt and height."
-      },
-      {
-        "label": "In this comparison",
-        "text": "Mount-It! Foot Rest with Rollers and Foot Pedal covers all three."
-      }
-    ]
+    subheading: "For Sore Feet Specifically",
+    cards: [
+      { label: "Look for", text: "Rollers that spin, a wide surface and a height that keeps your knees near 90 degrees. Use shoes off and limit sessions to short intervals. If a roller feels sharp, stop and use socks." },
+      { label: "In this comparison", text: "Mount-It! and CasaZenith have moving rollers, and TUOBITUO offers rocking. If you work in socks, the moving rollers are the gentler way to start, and the rocking TUOBITUO is the better fit for restless ankles. WAVYEASE has a fixed roller. That is fine for a basic footrest, but do not buy it expecting movement." }
+    ],
   },
   {
-    "subheading": "When to Spend More",
-    "cards": [
-      {
-        "label": "Spend more if",
-        "text": "You want a foot pedal and warranty (Mount-It! Foot Rest with Rollers and Foot Pedal)."
-      },
-      {
-        "label": "Save if",
-        "text": "You only want a simple roller, where WAVYEASE Foot Rest with Fixed Massage Roller is enough."
-      }
-    ]
+    subheading: "When to Spend More",
+    cards: [
+      { label: "Spend more if", text: "You want pedal height control and a lifetime warranty, as Mount-It! offers. The under $50 guide lists more adjustable options. They also let you drop the height when you switch to standing. Those suit a changing desk setup." },
+      { label: "Save if", text: "You want rollers at the lowest price. CasaZenith and WAVYEASE cost the least. Both are light plastic and fine for occasional use." }
+    ],
   }
 ];
 
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
-  {
-    "q": "How strong is the roller massage?",
-    "a": "The rollers are manual and gentle, with no motor, so the pressure comes only from how hard you push. Try them with socks on first. If the texture feels too intense, switch back to shoes."
-  },
-  {
-    "q": "Will the moving parts wear out?",
-    "a": "Rollers and tilt mechanisms are the parts most likely to loosen over months of daily use. Mount-It states a lifetime manufacturer warranty, which is useful if you rely on the moving parts. Other listings do not describe warranty terms in their highlights."
-  },
-  {
-    "q": "Is a roller footrest worth it over a plain one?",
-    "a": "A roller footrest gives your feet something to do, which many restless sitters like. A plain footrest is quieter and simpler. These are comfort products, not medical devices, so ask a doctor if you have foot pain or reduced sensation."
-  },
-  {
-    "q": "How do I set up a pedal-adjust model?",
-    "a": "Place the platform where your feet land naturally, then press the pedal to cycle through the three heights. Mount-It lists 4.25, 5.5 and 6.75 inch positions. Start at the lowest and move up until your knees are level with or just below your hips."
-  },
-  {
-    "q": "Can I wear shoes on a roller footrest?",
-    "a": "Yes, but the massage texture is designed to be felt through socks or bare feet. Shoes can scuff the surface and mute the effect. Many users keep a pair of slippers at the desk."
-  },
-  {
-    "q": "How do I clean a textured footrest?",
-    "a": "Wipe the platform with a damp cloth and let it dry fully. Avoid soaking wooden models such as Natheeph. Dust and grit trapped in the grooves can be cleared with a soft brush."
-  }
+  { "q": "Do foot rests with rollers really massage?", "a": "Spinning rollers like Mount-It!'s and CasaZenith's roll under the foot for light stimulation, while a fixed bar gives pressure only. Expect a gentle effect rather than a deep massage, and choose based on whether motion matters to you." },
+  { "q": "Should I choose a roller foot rest for the massage or the height?", "a": "Buying for the roller and ignoring height. A rest that is too tall or low defeats the ergonomics, and the rollers will not make up for it. Choose a height range that keeps your thighs level first, then pick the roller type you like." },
+  { "q": "Is Mount-It! worth more than HUANUO?", "a": "Mount-It! adds a foot pedal for height, true rollers and a lifetime warranty for under $10 more, while HUANUO is pre-assembled and costs less. Choose Mount-It! if you change height often, and HUANUO if you simply want tilt and a basic height." },
+  { "q": "How do I adjust the heights?", "a": "Use the pedal on Mount-It!, or lift and reposition the lock on the others, such as WAVYEASE's five lockable heights. Make sure the lock engages with a click before you place your feet, and avoid adjusting while your weight is on it." },
+  { "q": "How should I clean rollers?", "a": "Wipe the surface and rollers with a damp cloth, and remove lint and debris from the roller ends with a soft brush. Do not soak plastic parts or use harsh cleaners, because moisture can seize the rollers and fade the textured surface." },
+  { "q": "Can I use a roller rest barefoot?", "a": "Yes, but start with short sessions and see how your feet respond. If the rollers feel sharp, wear socks, and skip them if you have a foot injury or numbness. Stop if you feel pain rather than pushing through it." }
 ];
 
 export const relatedGuides = [

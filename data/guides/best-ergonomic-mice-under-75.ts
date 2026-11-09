@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31rjwC0u4rL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HF8PHQSC?tag=deskfinds0d-20",
-    "description": "ProtoArc's EM11 Pro is designed for hand lengths of 19.0 to 21.5 cm, with a larger contoured vertical shell and a side scroll wheel for horizontal movement in spreadsheets. The listing frames the size as the main difference from standard vertical mice.\n\nAt about $50 it is the most expensive pick, $5 more than the Razer Basilisk V3, and it is the only one that states a hand-length range. A vertical shell changes your posture more than the sculpted Razer does.\n\nChoose it if you have large hands and a spreadsheet-heavy day. The caveat is that smaller hands will feel stretched, so check your measurement against the stated range.",
+    "description": "ProtoArc's EM11 Pro is designed for hand lengths of 19.0 to 21.5 cm, with a larger contoured vertical shell and a side scroll wheel for horizontal movement in spreadsheets. The listing frames the size as the main difference from standard vertical mice.\n\nAt under $60 it is the most expensive pick, $5 more than the Razer Basilisk V3, and it is the only one that states a hand-length range. A vertical shell changes your posture more than the sculpted Razer does.\n\nChoose it if you have large hands and a spreadsheet-heavy day. The caveat is that smaller hands will feel stretched, so check your measurement against the stated range.",
     "specs": [
       "Fits 19.0 to 21.5 cm hands",
       "Vertical shell, side scroll wheel",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31N1BZUZLwL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09C13PZX7?tag=deskfinds0d-20",
-    "description": "Razer's Basilisk V3 has a thumb rest, 11 programmable buttons, a HyperScroll tilt wheel and 11 Chroma lighting zones. It is a wired mouse with a sculpted shape rather than a vertical one.\n\nIt costs about $5 less than ProtoArc and is the pick with the most buttons and a true thumb shelf. Against NYIEFADA, it asks you to accept a cable and RGB lighting.\n\nBest for those who want a comfortable shape with lots of programmable controls. The caveat is that it is a gaming mouse and looks it.",
+    "description": "Razer's Basilisk V3 has a thumb rest, 11 programmable buttons, a HyperScroll tilt wheel and 11 Chroma lighting zones. It is a wired mouse with a sculpted shape rather than a vertical one.\n\nIt costs under $10 less than ProtoArc and is the pick with the most buttons and a true thumb shelf. Against NYIEFADA, it asks you to accept a cable and RGB lighting.\n\nBest for those who want a comfortable shape with lots of programmable controls. The caveat is that it is a gaming mouse and looks it.",
     "specs": [
       "Thumb rest, 11 buttons",
       "HyperScroll tilt wheel",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51xdfAd99XL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FNV9BGDQ?tag=deskfinds0d-20",
-    "description": "NYIEFADA is a rechargeable Bluetooth vertical mouse with quiet clicks, a metal scroll wheel that switches between precise and fast modes, and a 4800 DPI maximum. The shape is meant to hold the wrist and forearm in a more neutral line.\n\nAt $40 it costs about $10 less than the ProtoArc and $4 less than the Razer. It adds a quiet click and smart scroll but does not state a hand-size range.\n\nBest for office workers who want a vertical mouse and quiet clicks. The caveat is that vertical mice take a few days to adjust to.",
+    "description": "NYIEFADA is a rechargeable Bluetooth vertical mouse with quiet clicks, a metal scroll wheel that switches between precise and fast modes, and a 4800 DPI maximum. The shape is meant to hold the wrist and forearm in a more neutral line.\n\nAt $40 it costs under $15 less than the ProtoArc and $4 less than the Razer. It adds a quiet click and smart scroll but does not state a hand-size range.\n\nBest for office workers who want a vertical mouse and quiet clicks. The caveat is that vertical mice take a few days to adjust to.",
     "specs": [
       "Vertical shape, 4800 DPI",
       "Quiet clicks, metal wheel",
@@ -191,51 +191,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Hand length against shell length",
-    "explanation": "Measure from your wrist crease to your middle fingertip, then compare with the mouse length. Under about 17 cm is small, 17 to 19 cm medium and over 19 cm large, per vendor guides. Check the mouse length or the stated hand range in the listing."
+    "explanation": "Hand length is measured from the wrist crease to the tip of the middle finger, and the shell should support the palm without your fingers stretching. A shell that is too long makes you reach, and one that is too short curls the fingers. Compare your number with the listed fit, such as the ProtoArc 19.0 to 21.5 cm range."
   },
   {
-    "criterion": "Vertical versus sculpted",
-    "explanation": "A vertical mouse rotates your forearm toward a handshake, while a sculpted shape keeps the palm flat with support. Vertical suits those with forearm twisting, sculpted suits those who want a normal feel. Check the tilt angle if stated."
+    "criterion": "Wired versus rechargeable wireless",
+    "explanation": "A wired mouse needs no charging and has near-zero lag, while a rechargeable wireless model frees the desk from a cable but needs a recharge every few weeks. On a small desk, drag from a cable can bump the mouse mid-motion. Check the cable length and whether the wireless version advertises a charge-while-use option."
   },
   {
-    "criterion": "Grip style",
-    "explanation": "Palm grip needs the longest shell, claw grip a mid-length shell and fingertip grip a short one. A mouse that is too short leaves fingers dangling over buttons. Decide your grip first, then compare shell sizes."
+    "criterion": "Vertical angle versus thumb rest",
+    "explanation": "A vertical angle, such as 57 degrees, turns the forearm toward neutral, while a thumb rest on a sculpted shell only supports the thumb. They address different strain, so pick the feature that matches where it hurts. Look for the degree figure in the title for vertical mice, and photos of the thumb shelf for sculpted ones."
   },
   {
-    "criterion": "Thumb rest and buttons",
-    "explanation": "A thumb rest keeps the thumb off the desk. Programmable buttons help if you remap shortcuts, but extras add complexity. Check for thumb rest and left or right-hand versions."
+    "criterion": "Button count and remapping",
+    "explanation": "A mouse with 11 buttons can run shortcuts, but extra buttons are useful only if software lets you assign them. Many brands need desktop software, and settings sometimes live in the cloud account. Check the listing for the software name, and confirm that it runs on your operating system before paying for more buttons."
   },
   {
-    "criterion": "Connectivity and battery",
-    "explanation": "Wired mice never need charging, while wireless ones trade convenience for a battery. Redragon rates 13 to 170 hours, depending on lighting. Check the connection modes and battery claims."
+    "criterion": "Sensor DPI in real use",
+    "explanation": "DPI is how far the pointer moves per inch of mouse travel, and 25,600 on the G502 is a maximum you will never use. Office work is comfortable between 800 and 1600. Look for adjustable steps and a button to switch them, rather than chasing the biggest number in the title."
   },
   {
-    "criterion": "Adaptation and return window",
-    "explanation": "Switching to a vertical mouse can take several days, as the Transformers listing admits. Stop if you feel pain, tingling or numbness. Check the return policy before buying."
+    "criterion": "Weight and surface feel",
+    "explanation": "A heavy mouse tires the wrist during long sessions, but too light a mouse can drift with a loose grip. The G502 ships with up to five 3.6 g weights you can remove. Check the listed grams, and prefer an adjustable weight if you are not sure which you like."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Hand fit",
-    "description": "We compared stated hand ranges and shell sizes."
+    "title": "Thumb and side-button layout",
+    "description": "We compared button counts, from the 11 on the Razer Basilisk V3 and Logitech G502 to the leaner vertical picks, and checked how each places them under the thumb. Under $75 this is where gaming-derived shells and office vertical mice diverge most."
   },
   {
-    "title": "Posture design",
-    "description": "We compared vertical and sculpted shapes."
+    "title": "Hand size and body length",
+    "description": "We matched each listing to hand size, noting that the ProtoArc EM11 Pro fits 19.0 to 21.5 cm hands and that the G502 and Basilisk bodies run large. A large shell helps a big hand and punishes a small one, so fit steered placement more than sensor numbers."
   },
   {
-    "title": "Controls",
-    "description": "We compared buttons, wheels and thumb support."
+    "title": "Wired versus wireless tradeoff",
+    "description": "We marked which picks are wired, such as the Basilisk V3 and G502, versus rechargeable Bluetooth. Wired avoids charging and lag, but the cable can drag on a small desk, so we weighed that against the cleaner setups the NYIEFADA and Redragon wireless offer."
   },
   {
-    "title": "Connectivity",
-    "description": "We compared wired and wireless options."
+    "title": "Vertical versus gaming shells",
+    "description": "We separated true vertical designs, like the 57 degree Transformers mouse, from sculpted gaming shells with a thumb rest. A vertical angle changes forearm rotation, while a thumb rest only supports the thumb, so each was judged against its own comfort claim."
   },
   {
-    "title": "Price",
-    "description": "We compared price within the $75 cap."
+    "title": "Extras that justify the price",
+    "description": "We weighed features such as the LED screen on the Transformers mouse, adjustable weights on the G502 and tilt wheels, asking whether each makes daily work easier. RGB zones and rapid fire earned nothing for office comfort, so they did not lift a pick."
   }
 ];
 
@@ -367,24 +367,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Are vertical mice better than sculpted ones?",
-    "a": "Neither is better for everyone. Vertical changes forearm posture and takes days to get used to, while a sculpted shape feels familiar."
+    "q": "Is a gaming mouse a good ergonomic choice?",
+    "a": "It can be. The Razer Basilisk V3 and Logitech G502 have thumb rests and sculpted shells that suit larger right hands. But neither tilts the forearm like a vertical mouse, and both are wired and sized large, so small hands or anyone with forearm twisting may prefer the ProtoArc or NYIEFADA."
   },
   {
-    "q": "How do I know my size?",
-    "a": "Measure from wrist crease to middle fingertip. Over 19 cm is large, so ProtoArc fits, while under 17 cm suggests a smaller shell."
+    "q": "What does a wired mouse cost me in daily use?",
+    "a": "Wired models like the Basilisk V3 and G502 never need charging and have no pairing steps, but the cable can drag on a cramped desk. A cable clip or a mouse bungee fixes most drag. If your laptop has few ports, count the USB slots before choosing one."
   },
   {
-    "q": "Is the ProtoArc worth over the NYIEFADA?",
-    "a": "If you have large hands, yes, since it states a 19 to 21.5 cm fit. Otherwise NYIEFADA costs about $10 less."
+    "q": "Who should choose the ProtoArc EM11 Pro?",
+    "a": "Large hands. It lists a 19.0 to 21.5 cm fit with a vertical shell and a side scroll wheel, so it targets people whose hands overflow standard vertical mice. It costs the most in this tier, and small hands will find it too large."
   },
   {
-    "q": "How do I adjust to a vertical mouse?",
-    "a": "Use it for short sessions first, keep your wrist neutral and expect 3 to 7 days. Stop if you feel pain."
+    "q": "Do macro buttons help in office work?",
+    "a": "They can, when you remap them to copy, paste, undo or window switching. The Basilisk V3 and G502 offer 11 buttons each. You need the maker's software to set them up, and the mapping lives in that software, so a second computer without it falls back to defaults."
   },
   {
-    "q": "Can an ergonomic mouse help wrist pain?",
-    "a": "It may feel more comfortable, but it is not a medical device. Ask a doctor about persistent pain or tingling."
+    "q": "Is a vertical mouse hard to switch to?",
+    "a": "Plan on a few days to two weeks. The 57 degree Transformers mouse and the NYIEFADA change wrist angle sharply, so precision tasks feel clumsy at first. Alternate it with your old mouse for the first week, and stop if you feel new pain rather than relief."
+  },
+  {
+    "q": "How do I choose between $35 and $50 here?",
+    "a": "Check hand size and wiring first. The Transformers vertical mouse at under $40 suits a normal-sized right hand, while the $50 ProtoArc buys a larger shell and a side wheel. Spend more only when the cheaper shell is demonstrably too small for you."
   }
 ];
 

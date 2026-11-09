@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/412q3jFM0EL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HGLM6Y1Z?tag=deskfinds0d-20",
-    "description": "SoliSnug gives you 7 temperature levels from 85F to 145F and 13 timer settings, running 1 to 12 hours or always on. It is rated at 36W, has overheat protection and auto shut-off, and a 1.6 inch thick seat. Three sets of adjustable straps hold it on, and it rolls up for carrying.\n\nCompared with MAXCOM just below, it offers the same temperature span and timer range at a higher price, but the pad is thicker. Against HOTHUGZ, its seat is plain rather than dual zone, and it gives finer control over duration.\n\nBest for long days at a desk where you want to dial in comfort. The caveat is price, since MAXCOM covers the same range for about $17 less.",
+    "description": "SoliSnug gives you 7 temperature levels from 85F to 145F and 13 timer settings, running 1 to 12 hours or always on. It is rated at 36W, has overheat protection and auto shut-off, and a 1.6 inch thick seat. Three sets of adjustable straps hold it on, and it rolls up for carrying.\n\nCompared with MAXCOM just below, it offers the same temperature span and timer range at a higher price, but the pad is thicker. Against HOTHUGZ, its seat is plain rather than dual zone, and it gives finer control over duration.\n\nBest for long days at a desk where you want to dial in comfort. The caveat is price, since MAXCOM covers the same range for under $20 less.",
     "specs": [
       "85F to 145F, 7 levels",
       "1 to 12 hour timer",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/411rBg2kN+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FRR1KTRG?tag=deskfinds0d-20",
-    "description": "MAXCOM runs on 12V with a thermostat and overheat protection, and the listing says it warms back, seat and legs within about a minute. It has 7 temperature levels at 85F, 95F, 105F, 115F, 125F, 135F and 145F, a 1 to 12 hour timer, fleece fabric and fastening buckles with belts.\n\nIts spec sheet matches SoliSnug's closely and it costs about $17 less, though it lacks a stated thickness or wattage. Against HOTHUGZ, it has more heat levels but no dual-zone claim.\n\nBest for most office workers who want the full feature set at a lower price. The caveat is that wattage and size are not listed, so measure your chair before buying.",
+    "description": "MAXCOM runs on 12V with a thermostat and overheat protection, and the listing says it warms back, seat and legs within about a minute. It has 7 temperature levels at 85F, 95F, 105F, 115F, 125F, 135F and 145F, a 1 to 12 hour timer, fleece fabric and fastening buckles with belts.\n\nIts spec sheet matches SoliSnug's closely and it costs under $20 less, though it lacks a stated thickness or wattage. Against HOTHUGZ, it has more heat levels but no dual-zone claim.\n\nBest for most office workers who want the full feature set at a lower price. The caveat is that wattage and size are not listed, so measure your chair before buying.",
     "specs": [
       "85F to 145F, 7 levels",
       "1 to 12 hour timer",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41tiI9rFD3L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C65Y28Q2?tag=deskfinds0d-20",
-    "description": "CILI combines heat with 10 vibration motors, 8 in the back and 2 in the seat, and offers 5 modes, 4 intensities, 2 heat levels from 3 heating elements, and 30, 60 or 90 minute timers. At 18.5 by 18.5 by 23.5 inches in suede fabric, the listing says it is not compatible with low-back or narrow chairs.\n\nIt is a vibration massager first and a warmer second, with only 2 heat levels against the 7 on SoliSnug and MAXCOM. It costs about $16 more than MAXCOM, and its size restrictions are the most limiting here.\n\nBest for someone who wants a massage on a compatible chair. The caveat is fit, so check your chair's back height and width.",
+    "description": "CILI combines heat with 10 vibration motors, 8 in the back and 2 in the seat, and offers 5 modes, 4 intensities, 2 heat levels from 3 heating elements, and 30, 60 or 90 minute timers. At 18.5 by 18.5 by 23.5 inches in suede fabric, the listing says it is not compatible with low-back or narrow chairs.\n\nIt is a vibration massager first and a warmer second, with only 2 heat levels against the 7 on SoliSnug and MAXCOM. It costs under $20 more than MAXCOM, and its size restrictions are the most limiting here.\n\nBest for someone who wants a massage on a compatible chair. The caveat is fit, so check your chair's back height and width.",
     "specs": [
       "10 motors, 5 modes, 4 intensities",
       "2 heat levels, 3 elements",
@@ -167,47 +167,47 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Timer length and always-on modes",
-    "explanation": "Timers range from 30 minutes to 12 hours, and a few pads also offer an always-on mode. A short timer protects you if you leave the chair but forces resets during a long workday. Read the exact timer options on the listing, and keep any always-on mode for times you are actually at the desk."
+    "explanation": "Timers range from 30 minutes to 12 hours, and a few pads also offer an always-on mode. A short timer protects you if you leave the chair but forces resets during a long workday. Read the exact timer options on the listing, and keep any always-on mode for times you are actually at the desk. Choose a pad whose shortest option is around an hour, since that suits one focused session."
   },
   {
     "criterion": "Power adapter and voltage",
-    "explanation": "Chair pads draw from a low-voltage adapter, commonly 12V, plugged into the wall. A named adapter rating such as 12V 4A, with a UL claim, is more reassuring than a bare 'safe voltage' line. Look at the cord length against your outlet, since a short cord pushes you toward an extension cord."
+    "explanation": "Chair pads draw from a low-voltage adapter, commonly 12V, plugged into the wall. A named adapter rating such as 12V 4A, with a UL claim, is more reassuring than a bare 'safe voltage' line. Look at the cord length against your outlet, since a short cord pushes you toward an extension cord. A cord under 5 feet often cannot reach a wall outlet behind a desk, so measure before you order."
   },
   {
     "criterion": "Pad size against your chair",
-    "explanation": "A pad that is too long folds awkwardly on a short backrest, and one that is too wide hangs off a narrow seat. CradleTech runs 48 inches, while CILI warns against low-back chairs. Measure your seat width and backrest height, then compare to listed dimensions."
+    "explanation": "A pad that is too long folds awkwardly on a short backrest, and one that is too wide hangs off a narrow seat. CradleTech runs 48 inches, while CILI warns against low-back chairs. Measure your seat width and backrest height, then compare to listed dimensions. Mesh and curved backs fit seat-only pads better than a 48 inch full-length cover."
   },
   {
     "criterion": "Straps and non-slip backing",
-    "explanation": "A heated pad that slides around loses its heat zones and can bunch under you. Look for multiple adjustable straps, buckle hooks and a non-slip back. SoliSnug lists three strap sets, which matters on a chair with a rounded back."
+    "explanation": "A heated pad that slides around loses its heat zones and can bunch under you. Look for multiple adjustable straps, buckle hooks and a non-slip back. SoliSnug lists three strap sets, which matters on a chair with a rounded back. Pads that rely on friction alone tend to creep within the first hour of use, especially on smooth leather."
   },
   {
     "criterion": "Heated zones, not just surface size",
-    "explanation": "A large pad can still heat only a small patch. HOTHUGZ lists two 26 by 28 cm heated pads, one for the back and one for the seat, which gives a concrete number to compare. Look for any heated area or element count, and be skeptical of 'full coverage' claims with no numbers."
+    "explanation": "A large pad can still heat only a small patch. HOTHUGZ lists two 26 by 28 cm heated pads, one for the back and one for the seat, which gives a concrete number to compare. Look for any heated area or element count, and be skeptical of 'full coverage' claims with no numbers. Separate back and seat zones also let you keep one side cooler, which a single large element cannot do."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Heat control",
-    "description": "We compared stated temperature steps and the low starting point of each pad."
+    "title": "Heat range and floor temperature",
+    "description": "We compared the listed low and high temperatures on each pad, because a floor of 85F suits an air-conditioned office while a pad that starts near 104F is already warm on the first click. SoliSnug and MAXCOM both list 85F to 145F across 7 levels, so the gap between them came down to other factors."
   },
   {
-    "title": "Timer and safety",
-    "description": "Timer lengths, always-on modes, overheat protection and adapter claims were weighed together."
+    "title": "Timer length against a real workday",
+    "description": "A pad that cuts out after 30 minutes forces a reset every time you get absorbed in work, while a 12 hour timer can keep heating an empty chair. We favored listings that publish the exact timer steps, such as SoliSnug's 1 to 12 hours or CradleTech's 30, 60 or 120 minutes."
   },
   {
-    "title": "Fit on office chairs",
-    "description": "Dimensions, strap count and non-slip backing were checked against typical chair sizes."
+    "title": "Fit on real office chairs",
+    "description": "We checked listed dimensions against typical seat and backrest sizes, since a 48 inch full-length cover like CradleTech's behaves very differently from a seat-only cushion. Strap count and non-slip backing were weighed because a pad that creeps loses its heat zones within an hour."
   },
   {
-    "title": "Comfort materials",
-    "description": "Fleece, fur, suede and foam were noted for feel and ease of cleaning."
+    "title": "Heated zones and element detail",
+    "description": "Surface size does not equal heated area, so we gave extra credit to listings with a concrete number, like HOTHUGZ's two 26 by 28 cm pads or CILI's three heating elements. Vague full-coverage language with no figures earned no credit in this comparison."
   },
   {
-    "title": "Value for price",
-    "description": "Price was compared against documented heat range and timer features."
+    "title": "Power adapter and value at this tier",
+    "description": "We looked for a named adapter rating, such as 12V 4A, and a stated certification before rewarding a higher price. MAXCOM matches SoliSnug's temperature range for noticeably less, so SoliSnug had to justify its premium through thickness and strap sets rather than headline specs."
   }
 ];
 
@@ -257,7 +257,7 @@ export const howToChoose: HowToChooseSection[] = [
           "HOTHUGZ Faux Rabbit Fur Heated Seat Cushion"
         ],
         [
-          "About $50",
+          "Under $60",
           "CradleTech Extra-Large Heated Seat Cover"
         ],
         [
@@ -265,7 +265,7 @@ export const howToChoose: HowToChooseSection[] = [
           "CILI Vibration Massage Chair Pad with Heat"
         ],
         [
-          "Around $57",
+          "Under $60",
           "SoliSnug Heated Office Chair Pad with 7 Levels"
         ]
       ]
@@ -334,7 +334,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You only need warmth. MAXCOM Heated Seat Cushion with 12V Power has the same heat range as SoliSnug for about $17 less."
+        "text": "You only need warmth. MAXCOM Heated Seat Cushion with 12V Power has the same heat range as SoliSnug for noticeably less money."
       }
     ]
   }
@@ -344,27 +344,27 @@ export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
     "q": "Can I leave a heated chair pad on when I leave my desk?",
-    "a": "It is best to switch it off or use a short timer. Pads such as HOTHUGZ offer an always-on mode, which is better kept for when you are seated. Unplug it at the end of the day."
+    "a": "It is better not to. Most pads here have timers, such as SoliSnug's 1 to 12 hours or HOTHUGZ's 30, 60 or 90 minute steps, but a timer is a backup and not a reason to leave heat running under an empty seat. Unplug it for long breaks, and never let a folded pad stay on."
   },
   {
     "q": "Will a heated pad fit my ergonomic chair?",
-    "a": "Most are designed for standard office chairs with straps. High-contoured or very narrow chairs may not fit, and CILI says so outright. Measure your seat width and backrest height before buying."
+    "a": "Measure the seat width and the backrest height first. CradleTech runs 19.7 by 48 inches and needs a tall, flat back, while CILI warns against low-back chairs. Contoured or mesh backs can leave gaps, so a seat-only pad like MAXCOM with buckle belts is the safer fit for sculpted chairs."
   },
   {
     "q": "Is a 12 hour timer worth it over a 2 hour one?",
-    "a": "A longer timer saves you from resetting, but a shorter one is safer if you forget. SoliSnug and MAXCOM let you choose, which is more flexible than CradleTech's 120 minute maximum."
+    "a": "For most people, no. A 2 hour cutoff covers a focused work block and protects you if you walk away. The 12 hour option on SoliSnug and MAXCOM helps only if you sit for a full shift and hate resetting, and it is the setting most likely to run unattended. Pick by how long you stay seated."
   },
   {
     "q": "Can I wash it?",
-    "a": "Pads with electrical components are generally spot cleaned. Check the listing for a removable cover, and never submerge the controller or cord."
+    "a": "Usually only after the controller and cable are detached, and the listing has to say so. Check for a removable cover, such as the fleece on MAXCOM, or a spot-clean-only note. Never soak a pad with a fixed cord, since moisture around the heating wires is the main thing that shortens life."
   },
   {
     "q": "Do heated pads raise the seat height?",
-    "a": "Yes, slightly. SoliSnug lists a 1.6 inch thickness, which could push your knees closer to the desk. Adjust the chair and keyboard after fitting."
+    "a": "Yes, and by more than you might expect. SoliSnug is listed at 1.6 inches thick, which can lift your knees against a tight desk edge, while thin pads like MAXCOM add very little. If your chair is already at the top of its range, lower the seat a notch after adding the pad."
   },
   {
     "q": "Are they safe for people with reduced sensation?",
-    "a": "These are comfort products and not medical devices. If you have reduced feeling in your legs or back, ask a doctor first, and stick to low settings with a timer."
+    "a": "Use extra caution. If you have diabetes, neuropathy or reduced feeling in your legs, you may not notice a pad is too hot. Stay on the lowest setting, such as the 85F steps on SoliSnug and MAXCOM, keep a layer of clothing between you and the pad, and ask a doctor before regular use."
   }
 ];
 

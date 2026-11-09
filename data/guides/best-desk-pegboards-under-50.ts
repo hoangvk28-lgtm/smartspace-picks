@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Panel Material and Construction", "description": "Compared steel versus ABS/HIPS plastic construction and their respective durability claims." },
-  { "title": "Panel Size and Scalability", "description": "Compared individual panel dimensions and whether panels can combine into larger configurations." },
-  { "title": "Accessory Count and Variety", "description": "Compared total accessory count and the diversity of hook, shelf, and storage types included." },
-  { "title": "Weight Capacity", "description": "Compared stated weight ratings where specified across the lineup." },
-  { "title": "Mounting Method", "description": "Distinguished wall-mounted panel kits from clamp-on desk mounting designs." }
+  {
+    "title": "Metal vs plastic panels",
+    "description": "We separated steel from plastic, since the Daanxw and PEGZONE are powder-coated steel while the MULSAME and Zestify use plastic. Metal panels tend to resist sagging and scratching, but they are heavier and need real fasteners, so each material was judged for desk-adjacent use. Check your own wall type first."
+  },
+  {
+    "title": "Clamp or wall mounting",
+    "description": "We checked how each kit attaches, because the PEGZONE 16.5 x 12.6 clamp-on board grips a desk edge with no wall drilling while the Daanxw needs a drill and hammer. Clamp boards depend on desk thickness, so we flagged that limit. Measure the edge thickness before you order."
+  },
+  {
+    "title": "Hole spacing and hook compatibility",
+    "description": "We noted that the Daanxw uses standard 1/8 and 1/4 inch holes at 1 inch spacing, which accepts existing pegboard hooks. A board with proprietary spacing locks you into the box accessories, which matters if you already own hooks. Open the listing photos to confirm the pattern."
+  },
+  {
+    "title": "Included accessories",
+    "description": "We counted what ships in the box, from the MULSAME's 20 accessories and letter holder to the Zestify's 10 small hooks, 4 large hooks and racks. Accessories are the real cost of a pegboard, so a bundle that includes them scored higher. Count what you will really hang."
+  },
+  {
+    "title": "Rated load and balance",
+    "description": "We compared the stated limits, including the MULSAME's 20 lb rating that depends on even distribution, and noted which kits publish none. A published number only helps if you spread weight across hooks rather than stacking one side. Even spread beats a heavy corner."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Steel construction with standard accessory compatibility", "Daanxw Peg Board Kit, Metal Pegboard"],
-        ["The largest panels with the widest accessory variety", "MULSAME Pegboard Combination Kit, 25.2\" x 25.2\""],
-        ["A gaming-oriented accessory set that's still versatile", "Zestify Pegboard Wall Organizer Kit"],
-        ["Steel clamp-on mounting without wall access", "PEGZONE Clamp on Desk Pegboard"]
+    "subheading": "By Desk or Wall",
+    "intro": "At up to $50 you can choose between attaching to a wall or clamping to the desk edge.",
+    "table": {
+      "headers": [
+        "Your surface",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wall space with a drill and a hammer",
+          "Daanxw Peg Board Kit, Metal Pegboard, steel panels that scale from 12x12 up to 72x12 inches"
+        ],
+        [
+          "Desk edge and no wall drilling allowed",
+          "PEGZONE Clamp on Desk Pegboard, 16.5 x 12.6 inch steel with a headphone hook"
+        ],
+        [
+          "Bare wall with room for four panels",
+          "MULSAME Pegboard Combination Kit, 4 panels at 12.6 inches each"
+        ],
+        [
+          "Wall space and a gaming or craft mix of gear",
+          "Zestify Pegboard Wall Organizer Kit, 4 panels with 10 small and 4 large hooks"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $39", "Zestify (under $40)"],
-        ["Under $40", "MULSAME (under $40) or PEGZONE (under $40)"],
-        ["Under $48", "Daanxw Metal (under $50)"]
+    "subheading": "By Budget",
+    "intro": "The range under $50 splits into a starter tier and a larger-kit tier.",
+    "table": {
+      "headers": [
+        "Budget bracket",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest spend with a real clamp mount",
+          "PEGZONE Clamp on Desk Pegboard, no wall damage and a complete accessory set"
+        ],
+        [
+          "Mid spend for a plastic multi-panel kit",
+          "Zestify Pegboard Wall Organizer Kit, with an ABS/HIPS build and 2 long racks"
+        ],
+        [
+          "Upper mid for the most accessories",
+          "MULSAME Pegboard Combination Kit, 20 accessories including a letter holder"
+        ],
+        [
+          "Top of the range for durable steel",
+          "Daanxw Peg Board Kit, powder-coated steel with cups, boxes and hooks"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Steel vs Plastic Panel Construction",
-    cards: [
-      { label: "Steel (Daanxw, PEGZONE)", text: "Powder-coated for scratch resistance and long-term durability, better suited to heavier items and years of daily use." },
-      { label: "ABS/HIPS plastic (MULSAME, Zestify)", text: "Lighter weight and often includes more accessories at a similar price, suited to lighter everyday items." }
+    "subheading": "Steel vs Plastic Panels",
+    "intro": "The material changes how the hooks behave and how much the board tolerates.",
+    "cards": [
+      {
+        "label": "Steel: Daanxw, PEGZONE",
+        "text": "Rigid and scratch resistant, and hooks hold better when a tool is lifted out. The Daanxw needs drilling, and the PEGZONE needs a desk edge up to the clamp limit."
+      },
+      {
+        "label": "Plastic: MULSAME, Zestify",
+        "text": "Lighter and easier to hang, with a wide accessory mix. Capacity is lower, with the MULSAME stating 20 lbs only when weight is spread out, and the Zestify stating none."
+      }
     ],
-    note: "If you're storing heavier tools or expect years of heavy daily use, steel construction like the Daanxw pick offers more durability. For lighter items with a bigger accessory variety, the plastic kits deliver strong value.",
+    "note": "Most desk setups with a headset or heavy scissors should lean steel, while supplies-only walls are fine on plastic."
   },
   {
-    subheading: "By Total System Size Needs",
-    table: {
-      headers: ["Your storage area needs", "Recommended pick"],
-      rows: [
-        ["A full wall, scalable up to 72x12 inches", "Daanxw Metal Pegboard"],
-        ["A large single combination area at 25.2x25.2 inches", "MULSAME Combination Kit"],
-        ["A moderate desk-corner setup", "PEGZONE Clamp On"]
+    "subheading": "By Gear Type",
+    "intro": "Different hardware wants different panels.",
+    "table": {
+      "headers": [
+        "What you own",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Headset, controller and cable ties",
+          "Zestify Pegboard Wall Organizer Kit, built for gaming and general use"
+        ],
+        [
+          "Letters, notes and small desk tools",
+          "MULSAME Pegboard Combination Kit, with a letter holder not common elsewhere"
+        ],
+        [
+          "Magnetic tools, pin magnets and a headphone hook",
+          "PEGZONE Clamp on Desk Pegboard, steel with pin magnets"
+        ],
+        [
+          "Mixed hooks you already own",
+          "Daanxw Peg Board Kit, since standard hole spacing accepts existing hooks"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For an Entire Wall Organization Project Specifically",
-    cards: [
-      { label: "Look for", text: "Panels specifically designed to combine into larger configurations, with standard hole spacing for accessory compatibility." },
-      { label: "In this comparison", text: "The Daanxw Metal Pegboard's scalable design up to 72x12 inches is specifically built for larger wall organization projects." }
-    ],
+    "subheading": "For Renters With a Thick Desk Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A clamp that states the desk thickness it supports and a mount that skips the wall. Measure your desk edge before buying, because thick butcher block can exceed a clamp's range."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The PEGZONE clamp board is the only no-drill choice here, but the listing requires enough desk edge thickness. If your desk is too thick, the Daanxw on a wall is the fallback."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want steel construction and standard accessory compatibility for a scalable pegboard wall, where the Daanxw pick leads this comparison on durability and expandability." },
-      { label: "Save if", text: "You want a large combination kit with a wide accessory variety without needing steel construction, where the MULSAME pick delivers that for about $8 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $60 guide adds an oversized clamp board and a gaming panel.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a 32 inch clamp board with above or below desk mounting and a magnetic surface. Those are in the under $60 guide."
+      },
+      {
+        "label": "Save if",
+        "text": "A 12 to 16 inch board covers your pens and headphones, where the PEGZONE here already does the job."
+      }
+    ]
   }
 ];
 
@@ -182,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I combine multiple Daanxw kits to build the full 72x12 inch pegboard wall mentioned in the listing?", "a": "Yes, achieving that larger combined size requires purchasing multiple kits rather than getting the full 72x12 inch area from a single purchase, so calculate how many kits you'd need based on each kit's individual panel count and size." },
-  { "q": "What's the most common mistake buyers make when comparing weight capacity across these pegboard kits?", "a": "Assuming the stated maximum weight capacity applies regardless of how items are arranged, when properly distributing weight across multiple mounting points on the panel, rather than concentrating it in one spot, is necessary to actually achieve the rated capacity safely." },
-  { "q": "Is the Daanxw metal pegboard worth it over the cheaper MULSAME plastic kit?", "a": "If steel construction durability and standard hole compatibility with your existing accessories matter most, yes, but if you want the largest individual panels and the widest included accessory variety at a lower price, the MULSAME kit delivers strong value instead." },
-  { "q": "Does the Zestify pick's gaming-focused marketing mean it won't work well for general office organization?", "a": "No, its actual hooks, storage racks, and clips are generic enough to function just as well for craft supplies, kitchen items, or general office storage despite being marketed primarily toward gaming setups." },
-  { "q": "How do I know if the PEGZONE clamp-on pegboard will fit my specific desk?", "a": "Check your desk edge's thickness against the clamp mount's stated compatible range in the product listing, since desks with unusually thick or thin edges may not provide a secure clamp fit." },
-  { "q": "What's the benefit of a letter holder accessory like the one included with the MULSAME kit?", "a": "It provides upright, flat storage specifically suited to papers, mail, or documents, a different storage function than the hanging hooks or bin-style accessories most pegboard kits include, useful if you need to organize paperwork alongside other items." }
+  {
+    "q": "Is the Daanxw metal board worth it over the plastic MULSAME?",
+    "a": "If you hang a heavy headset or tools, yes. The Daanxw is powder-coated steel with standard hole spacing, while the MULSAME ties its 20 lb rating to even weight distribution. For papers and light gear, the MULSAME's 20 accessories are better value."
+  },
+  {
+    "q": "What is the main mistake with clamp-on pegboards?",
+    "a": "Skipping the desk-edge check. Clamp boards like the PEGZONE need enough edge thickness and clear space under the desk. Measure thickness and underside obstructions first, because a drawer rail can block the clamp."
+  },
+  {
+    "q": "Can I mix hooks from different pegboard brands?",
+    "a": "On the Daanxw yes, since it uses standard 1/8 and 1/4 inch holes at 1 inch spacing. On plastic kits like the Zestify, hooks are sized to the panel, so test one before buying a multipack of generic hooks."
+  },
+  {
+    "q": "How do I stop hooks falling out when I pull a tool?",
+    "a": "Add peg locks or plastic clips, or use hooks designed for the board. Standard round hooks on metal boards are the most likely to come loose. Spreading weight and using two pegs per hook also helps."
+  },
+  {
+    "q": "How do I install steel panels on a drywall wall?",
+    "a": "The Daanxw needs a drill and hammer, so mark stud positions, pre-drill, and use anchors rated above your load where there is no stud. Level the first panel before adding others, because small tilts compound across a combined wall."
+  },
+  {
+    "q": "Will a pegboard damage a laminate desk edge?",
+    "a": "A clamp can mark thin laminate if overtightened. Use the supplied pads, tighten by hand until snug, and avoid hanging heavy items at the outer edge of the PEGZONE board where leverage is highest."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

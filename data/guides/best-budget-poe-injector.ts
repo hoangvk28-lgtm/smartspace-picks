@@ -84,69 +84,151 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Port Speed", "description": "Compared Gigabit versus 100Mbps port speeds across similarly priced budget listings." },
-  { "title": "Certification Marks", "description": "Compared listings naming specific UL, CE, or FCC certification against those with no stated certification." },
-  { "title": "Power Ceiling", "description": "Compared stated wattage output relative to price across the budget tier." },
-  { "title": "Form Factor", "description": "Compared integrated wall-mount designs against separate power brick designs." },
-  { "title": "Real Total Value", "description": "Compared price against the combination of speed, certification, and power ceiling rather than price alone." }
+  {
+    "title": "Voltage and class",
+    "description": "All four are passive, so the output voltage must match the device. The TP-Link and both PoE Texas units output 48V (18W and 15W), while the 15V 1A unit is for a 15V device. A mismatch is the one way these cheap boxes cause damage, so we ranked clear labeling first. A clear label is the best defense for a beginner."
+  },
+  {
+    "title": "Mode A vs Mode B wiring",
+    "description": "PoE Texas sells a Mode A and a Mode B version of the same injector. Passive devices expect power on a specific pair of wires, so the wrong mode can leave the device dark. We rewarded listings that state the mode, and noted that Mode B negotiation is listed on one."
+  },
+  {
+    "title": "Data speed",
+    "description": "The TP-Link and both PoE Texas units pass Gigabit, while the 15V injector is 100Mbps only. For a camera, 100Mbps is acceptable, but a Gigabit-capable radio is held back, so we marked the slower unit for older devices. Unlisted modes are a gamble, so we treated a stated mode as worth a few dollars."
+  },
+  {
+    "title": "Safety and certification",
+    "description": "PoE Texas lists UL, CE, and FCC certification on the Mode A unit, and the 15V injector lists several protections plus an ABS fire-retardant shell. At a budget price, a safety mark counted more than a faster spec. Certification marks tell you the part was checked against a safety standard, not just labeled with one."
+  },
+  {
+    "title": "Warranty and form factor",
+    "description": "The Mode B injector lists a 1-year replacement warranty. The single-outlet design of the PoE Texas units saves desk space, while the 2-port 15V injector powers two devices. We weighed warranty over footprint, since a low-cost box still has to last the install. Where two units cost almost the same, coverage broke the tie."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Priority",
-    table: {
-      headers: ["What matters most", "Recommended pick"],
-      rows: [
-        ["Recognized brand, higher power ceiling", "TP-Link TL-PI4818G 48V/18W"],
-        ["Documented UL/CE/FCC certification", "PoE Texas Single-Port Mode A 48V 15W"],
-        ["Integrated wall-mount design", "PoE Texas Single-Port Mode B 48V 15W"],
-        ["Absolute lowest price", "15V 1A Passive PoE Injector 2-Port"]
+    "subheading": "By Device Label",
+    "intro": "Check the device's PoE label before anything else. These are all passive injectors.",
+    "table": {
+      "headers": [
+        "Your device says",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "48V passive at up to 18W",
+          "TP-Link TL-PI4818G 48V/18W DC Passive PoE Injector, the highest wattage here"
+        ],
+        [
+          "48V passive using the data pairs (Mode A)",
+          "PoE Texas Single-Port Mode A Passive PoE Injector 48V 15W, with UL, CE, and FCC certification"
+        ],
+        [
+          "48V passive using the spare pairs (Mode B)",
+          "PoE Texas Single-Port Mode B Passive PoE Injector 48V 15W, with a 1-year replacement warranty"
+        ],
+        [
+          "15V passive with two low-draw devices",
+          "15V 1A Passive PoE Injector, 2-Port 15W, at 100Mbps"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $8", "15V 1A Passive PoE Injector (under $8)"],
-        ["Under $13", "TP-Link TL-PI4818G (under $15)"],
-        ["Under $14", "PoE Texas Single-Port Mode A (under $15)"],
-        ["Under $17", "PoE Texas Single-Port Mode B (under $20)"]
+    "subheading": "By Budget",
+    "intro": "Every pick here is under $17.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $8, 15V and two ports",
+          "15V 1A Passive PoE Injector, the cheapest pick"
+        ],
+        [
+          "Under $13, the highest wattage",
+          "TP-Link TL-PI4818G, with 18W"
+        ],
+        [
+          "Under $14, Mode A with certification",
+          "PoE Texas Single-Port Mode A, with UL, CE, and FCC"
+        ],
+        [
+          "Under $17, Mode B with warranty",
+          "PoE Texas Single-Port Mode B, with a 1-year warranty"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Gigabit vs 100Mbps at the Budget Tier",
-    cards: [
-      { label: "Gigabit (TP-Link, both PoE Texas picks)", text: "Worth the modest price premium for most standard-definition to mid-resolution IP cameras and access points at this budget tier." },
-      { label: "100Mbps (15V ultra-budget pick)", text: "Acceptable only for a genuinely low-bandwidth device where the absolute lowest price outweighs the speed limitation." }
+    "subheading": "Single-Port 48V vs Two-Port 15V",
+    "intro": "The ports and the voltage change what the injector can power.",
+    "cards": [
+      {
+        "label": "Single-port 48V (TP-Link TL-PI4818G, PoE Texas Single-Port Mode A, PoE Texas Single-Port Mode B)",
+        "text": "One device at 15 to 18W, Gigabit speed, and a small body. This is the right fit for a camera or an AP that lists 48V passive."
+      },
+      {
+        "label": "Two-port 15V (15V 1A Passive PoE Injector)",
+        "text": "Two outputs at a fixed 15V and 100Mbps. It only fits devices that list 15V, so it is a niche pick."
+      }
     ],
-    note: "Check your specific device's actual bandwidth need before choosing the ultra-budget 100Mbps option purely to save a few dollars.",
+    "note": "Buy the single-port 48V unit that matches your device's label; the 15V one is for specific gear."
   },
   {
-    subheading: "By Certification Requirement",
-    table: {
-      headers: ["What you need confirmed", "Recommended pick"],
-      rows: [
-        ["UL, CE, and FCC certification named", "PoE Texas Single-Port Mode A 48V 15W"],
-        ["No specific certification requirement", "TP-Link TL-PI4818G or the ultra-budget pick"]
+    "subheading": "By Wiring Mode",
+    "intro": "Mode A and Mode B pick different wire pairs for power.",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Documents Mode A power",
+          "PoE Texas Single-Port Mode A, which matches that wiring"
+        ],
+        [
+          "Documents Mode B power",
+          "PoE Texas Single-Port Mode B, which matches that wiring"
+        ],
+        [
+          "Unspecified, with a TP-Link or similar radio",
+          "TP-Link TL-PI4818G, after checking its manual"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a First-Time Budget PoE Buyer Specifically",
-    cards: [
-      { label: "Look for", text: "A stated Gigabit port speed and at minimum a named brand or basic electrical protection list, since the very cheapest options can sacrifice both speed and certification to hit the lowest possible price." },
-      { label: "In this comparison", text: "The TP-Link pick balances a recognized brand name, Gigabit speed, and a competitive budget price, a reasonable default for a first-time buyer." }
-    ],
+    "subheading": "For a Single Outdoor Camera Specifically",
+    "intro": "The usual budget case is one camera at the end of a run.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A 48V label on the camera, a Gigabit or at least 100Mbps injector, and a drip loop at the camera end."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The TP-Link TL-PI4818G gives the most wattage at 18W, and the PoE Texas Single-Port Mode A is certified UL, CE, and FCC."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want documented UL/CE/FCC certification or Mode B negotiation for a specific device, where the PoE Texas picks near $14-17 justify their price with those specific features." },
-      { label: "Save if", text: "You have a genuinely low-bandwidth 15V device and price is the primary concern, where the under $8 ultra-budget pick covers that specific need." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Moving up leaves passive injectors for active ones.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your devices follow 802.3af or at. See the 2-port injector guide, since active units negotiate power."
+      },
+      {
+        "label": "Save if",
+        "text": "You have one passive device. The 15V 1A Passive PoE Injector and TP-Link TL-PI4818G cost the least."
+      }
+    ]
   }
 ];
 
@@ -174,12 +256,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Is the cheapest PoE injector always the best value?", "a": "Not necessarily; the lowest-priced pick in this comparison caps at 100Mbps while other budget options offer full Gigabit speed for just a few dollars more, so check the port speed before assuming the lowest price is the best deal." },
-  { "q": "What certifications should I look for on a budget PoE injector?", "a": "UL, CE, and FCC are the most commonly cited independent certification marks, and a listing that names all three provides more documented safety assurance than one with no stated certification." },
-  { "q": "What's the difference between Mode A and Mode B passive PoE?", "a": "They're different pin configurations for delivering power over the Ethernet cable; most modern 802.3af/at devices support both automatically, though it's worth confirming with older or specialized equipment." },
-  { "q": "Can a budget PoE injector power a Gigabit IP camera?", "a": "Yes, as long as the specific injector states Gigabit port speed rather than 100Mbps, which most budget options in this comparison do at only a modest price premium over the cheapest 100Mbps alternative." },
-  { "q": "Is a recognized brand name worth paying more for at the budget tier?", "a": "A recognized brand like TP-Link often provides more consistent quality control and support availability, though several lesser-known brands in this comparison still deliver reliable performance at a similar or lower price." },
-  { "q": "Do I need a higher wattage budget injector if my device's power draw is uncertain?", "a": "If you're not sure of your exact device's power requirement, a slightly higher wattage ceiling like the TP-Link pick's 18W provides more headroom than the 15W picks without needing to step up to a pricier 802.3at injector." }
+  {
+    "q": "Is a passive PoE injector safe for any PoE camera?",
+    "a": "No. Passive injectors push a fixed voltage with no negotiation, so a camera that expects 802.3af could be harmed. Use these only for devices that list passive 48V or 15V on their labels. A label check takes ten seconds."
+  },
+  {
+    "q": "What is the difference between PoE Texas Mode A and Mode B?",
+    "a": "They use different wire pairs for power. A device built for one may not work with the other, so check your device's manual. The two injectors otherwise offer the same 48V, 15W output and Gigabit data. The mode is printed on the PoE Texas product title."
+  },
+  {
+    "q": "Is the TP-Link worth paying more than the 15V injector?",
+    "a": "Yes for a 48V device. The TP-Link gives 18W at 48V and Gigabit data, while the 15V unit only fits a 15V device at 100Mbps. They are not substitutes, so pick by the device's label. The 48V unit with a matching label always wins."
+  },
+  {
+    "q": "How do I connect a single-port passive injector?",
+    "a": "Plug the data cable from your switch into the injector's LAN port, then connect the PoE port to the device. Power the injector last, since it is always on once the adapter is plugged in. That order keeps the device from seeing power before the data link is up."
+  },
+  {
+    "q": "Can I power a 24V camera with the 48V injector?",
+    "a": "No. A 48V injector will overvoltage a 24V device and can destroy it. Buy an injector with a 24V output, and check the label on the camera before you plug anything in. Measure the voltage on the old power brick if the label is worn."
+  },
+  {
+    "q": "How far can a budget injector run?",
+    "a": "About 328ft, or 100m, over Cat5e or Cat6. At 48V and 18W the drop is modest, but a long run of thin cable can still cause a reboot. Use solid copper and test under load. Keep a spare cable on hand for testing."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

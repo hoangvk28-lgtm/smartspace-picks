@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Power Outlet Design", "description": "Compared outlet and USB port count, placement, and cable management approach across power-equipped picks." },
-  { "title": "Weight Capacity", "description": "Compared per-shelf and total weight capacity ranging from 33 to 450 lbs across the lineup." },
-  { "title": "Anti-Tip Safety Features", "description": "Checked which picks explicitly include anti-tip hardware for added structural security." },
-  { "title": "Structural Reinforcement", "description": "Compared under-shelf support rods and frame material across all four picks." },
-  { "title": "Mobility Flexibility", "description": "Checked whether picks offer a choice between rolling casters and fixed adjustable feet." }
+  {
+    "title": "Shelf capacity",
+    "description": "We separated total capacity from per-shelf limits, since a listing can show a large total while the shelf is rated far lower. The VECELO lists 450 pounds total and 150 per shelf, the MAHANCRIS 44 pounds per shelf and the HOOBRO 88 pounds on the upper shelf."
+  },
+  {
+    "title": "Power and USB access",
+    "description": "We checked built-in outlets and USB ports, such as the VECELO 2 outlets and 2 USB ports on a 5 foot cord, and the HOOBRO 4 USB ports and one outlet. A stand with power lets you plug in a printer without a separate strip. A powered stand also needs a rating on its outlets, so we looked for a stated cord length and an outlet count."
+  },
+  {
+    "title": "Mobility and safety",
+    "description": "We read wheels and tip safety, including the MAHANCRIS anti-tip device and its two lockable wheels. A loaded rolling cart is a tipping risk, so a lock and a stated anti-tip feature counted. Tip risk rises as shelves load up, so we also checked the base width against the stand's height."
+  },
+  {
+    "title": "Frame and shelf type",
+    "description": "We compared iron frames with P2 chipboard panels and mesh shelves. Mesh lets heat escape, while solid panels hold paper. At this price, a clear materials list indicates how the stand will wear. P2 chipboard is a standard panel grade on these frames, so at this price we compared the listed frame metal and shelf ratings more than the finish."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,62 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The highest weight capacity with thoughtful cable routing", "VECELO Large Printer Stand with Power Outlet"],
-        ["Anti-tip safety alongside built-in power", "MAHANCRIS Mobile Printer Stand with Power Outlets"],
-        ["Raw shelf weight capacity without power features", "HOOBRO Printer Stand, 3-Tier Industrial Under Desk Printer Cart"],
-        ["The most USB ports at the lowest price", "HOOBRO Industrial Printer Stand with Power Outlets and USB Ports"]
+    "subheading": "By Printer Class",
+    "intro": "Weight per shelf is the deciding number.",
+    "table": {
+      "headers": [
+        "Your printer",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A heavy laser all-in-one on the top shelf",
+          "VECELO Large Printer Stand with Power Outlet, with 150 pounds per shelf"
+        ],
+        [
+          "A mid-weight printer under about 44 pounds",
+          "MAHANCRIS Mobile Printer Stand, with 44 pounds per shelf and an anti-tip device"
+        ],
+        [
+          "A printer above and supplies below at desk height",
+          "HOOBRO Printer Stand, 3-Tier Industrial Under Desk Printer Cart, with 88 pounds on the upper shelf"
+        ],
+        [
+          "A small inkjet with several devices to charge",
+          "HOOBRO Industrial Printer Stand with Power Industrial Printer Stand, with 4 USB ports"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $40", "HOOBRO Industrial with USB (under $40)"],
-        ["Under $45", "HOOBRO 3-Tier Industrial (under $45)"],
-        ["Under $46", "MAHANCRIS (under $50)"],
-        ["Under $49", "VECELO (under $50)"]
+    "subheading": "By Budget",
+    "intro": "All four sit between under $50 and $48.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $50",
+          "HOOBRO Industrial Printer Stand with Power, the cheapest with USB ports and an outlet"
+        ],
+        [
+          "Under $50",
+          "HOOBRO Printer Stand, 3-Tier, the strongest upper shelf"
+        ],
+        [
+          "Under $50",
+          "MAHANCRIS, with two outlets and an anti-tip device"
+        ],
+        [
+          "Under $50",
+          "VECELO Large Printer Stand with Power Outlet, the highest capacity with a rear outlet"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Built-In Power vs No Power, Higher Raw Capacity",
-    cards: [
-      { label: "Built-in power (VECELO, MAHANCRIS, HOOBRO Industrial with USB)", text: "Adds genuine charging convenience at the cost of slightly lower per-shelf weight capacity in some cases." },
-      { label: "No power, higher shelf capacity (HOOBRO 3-Tier Industrial)", text: "Prioritizes raw structural strength with an 88 lb top shelf, better if you don't need built-in charging." }
+    "subheading": "With Power vs Without",
+    "intro": "Built-in power reduces cables but adds a limit on what you plug in.",
+    "cards": [
+      {
+        "label": "With power",
+        "text": "The VECELO Large Printer Stand with Power Outlet, MAHANCRIS and HOOBRO Industrial Printer Stand with Power include outlets and USB ports, which tidy cables and give charging."
+      },
+      {
+        "label": "Without power",
+        "text": "The HOOBRO Printer Stand, 3-Tier has no outlet listed, so you use a wall outlet or a strip, but it adds no limit."
+      }
     ],
-    note: "If charging your printer or nearby devices without extra cords matters to you, the power-equipped picks are worth prioritizing. If maximum single-shelf weight capacity is your top concern and you don't need built-in power, the HOOBRO 3-Tier Industrial pick delivers that.",
+    "note": "If your printer and a charger share the stand, take a powered model, and keep total load within the stand's rating."
   },
   {
-    subheading: "By Weight Capacity Needs",
-    table: {
-      headers: ["Your weight capacity needs", "Recommended pick"],
-      rows: [
-        ["Standard capacity with power", "HOOBRO Industrial with USB (44 lb top)"],
-        ["Higher capacity with anti-tip safety", "MAHANCRIS (44 lb per shelf)"],
-        ["Highest single-shelf capacity, no power", "HOOBRO 3-Tier Industrial (88 lb top)"],
-        ["Highest total capacity with power", "VECELO (450 lb total)"]
+    "subheading": "By Space",
+    "intro": "Under-desk and desk-height designs differ.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under a desk with a desk-height design",
+          "HOOBRO Printer Stand, 3-Tier, which lists a desk-height design and 2 lockable wheels"
+        ],
+        [
+          "Rolling to a closet between jobs",
+          "MAHANCRIS, with 4 wheels and 2 lockable"
+        ],
+        [
+          "Standing beside the desk with a rear outlet",
+          "VECELO Large Printer Stand with Power Outlet, with the outlet at the back for cable management"
+        ],
+        [
+          "Feet instead of casters on a hard floor",
+          "HOOBRO Industrial Printer Stand with Power, which lists 4 casters or 4 adjustable feet"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Household With Children or Pets Specifically",
-    cards: [
-      { label: "Look for", text: "An explicitly stated anti-tip device or hardware, since a taller, narrower printer stand loaded with equipment poses a real tipping risk if bumped or climbed on." },
-      { label: "In this comparison", text: "The MAHANCRIS pick's anti-tip device is specifically called out in the listing as doubling structural security, a detail worth prioritizing in a household with children or pets." }
-    ],
+    "subheading": "For a Home Office With Several Devices Specifically",
+    "intro": "A printer often shares the stand with a router or scanner.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Per-shelf ratings, a power outlet with a surge rating, and wheels that lock."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VECELO Large Printer Stand with Power Outlet lists 2 outlets and 2 USB ports and 150 pounds per shelf, which carries a printer, scanner and router."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want the highest total weight capacity with thoughtfully routed power outlets, where the VECELO pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You just want built-in power and USB charging without needing maximum capacity, where the HOOBRO Industrial with USB pick covers that for about $8 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The under $75 guide adds larger desktops and adjustable shelves.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need adjustable heights or a larger desktop. The under $75 guide covers the VECELO adjustable and the niffgaff."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need a small stand with USB charging. HOOBRO Industrial Printer Stand with Power is the lowest price here."
+      }
+    ]
   }
 ];
 
@@ -184,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the built-in power outlets on these stands handle a laser printer's higher power draw?", "a": "Standard printer power outlets on these stands are generally rated for typical household electronics including most printers, but checking your specific laser printer's wattage requirements against the outlet's rated capacity is worth doing if it's a particularly high-power commercial-grade model." },
-  { "q": "What's the most common mistake buyers make when choosing a printer stand with built-in power at this tier?", "a": "Assuming any 'built-in power outlet' automatically means tidy cable management, when outlet placement varies significantly between picks, and a poorly positioned outlet on the side can create as much visible clutter as having no built-in outlet." },
-  { "q": "Is the VECELO pick worth it over the cheaper MAHANCRIS option?", "a": "If you specifically need the highest total weight capacity with thoughtfully routed rear cabling, yes, but if an explicit anti-tip safety device matters more for your household, the MAHANCRIS pick covers that for about $2 less." },
-  { "q": "How do I know if the HOOBRO 3-Tier Industrial's lack of power outlets will be a problem for my setup?", "a": "If your printer's power cord can reach an existing wall outlet or power strip comfortably, the lack of built-in outlets isn't a practical issue, so this pick is worth considering if you specifically want higher shelf capacity without paying for unused charging features." },
-  { "q": "Do the anti-tip devices on these stands require mounting to a wall, or are they self-contained?", "a": "The MAHANCRIS pick's anti-tip device is described as part of the structural design rather than requiring separate wall mounting, though checking the specific installation instructions in the listing confirms the exact setup process." },
-  { "q": "Can I use these printer stands for equipment other than printers, like a small microwave or coffee maker?", "a": "Yes, all four picks are marketed as multi-purpose storage units suitable for various equipment beyond printers, though checking the stated weight capacity against your specific appliance's weight is worth doing regardless of the stand's intended use." }
+  {
+    "q": "Is the per-shelf rating more important than total weight?",
+    "a": "Yes. A printer sits on one shelf, so the shelf rating decides safety. The VECELO lists 150 pounds per shelf, while the MAHANCRIS lists 44 pounds per shelf, which is about the weight of a heavy laser. Check the printer's nameplate weight and compare it with the lowest shelf number on the stand."
+  },
+  {
+    "q": "Is the VECELO worth it over the HOOBRO?",
+    "a": "If you need power outlets and a high shelf rating, yes. The VECELO lists 2 outlets and 2 USB ports and 150 pounds per shelf. The HOOBRO lists 88 pounds on the upper shelf and costs less. The HOOBRO is the cheaper, simpler option if you already have a wall outlet and strip."
+  },
+  {
+    "q": "Can I plug a printer into the built-in outlet?",
+    "a": "Yes, within the outlet rating. Printers draw more power on start, so check the stand's rating and do not plug a heater into it. Use a surge protector as well. Plug a surge protector into the stand's outlet if the stand does not list one, and keep the printer's plug within the rating."
+  },
+  {
+    "q": "How do I stop a rolling cart from tipping?",
+    "a": "Lock the wheels, keep heavy items low and use the anti-tip device the MAHANCRIS lists. Avoid rolling it with a loaded top shelf. Keep heavier items on the bottom shelf and the printer low enough that the stand does not feel top-heavy."
+  },
+  {
+    "q": "Do mesh shelves help with heat?",
+    "a": "They let air pass beneath the printer, which helps ventilation, but laser printers still need open space on the sides. Do not cover the vents with paper. Keep paper and plastic bags away from the vent, since loose paper next to a vent can cause overheating."
+  },
+  {
+    "q": "How should I route cables on a stand?",
+    "a": "Use the rear outlet on the VECELO or the hooks on the HOOBRO to keep cords tidy, and leave slack so the printer door opens. Avoid pinching a cord under a wheel. Leave enough slack for the top cover to open, and avoid running cords through the wheel area."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

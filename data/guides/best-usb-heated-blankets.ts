@@ -191,51 +191,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "USB power budget",
-    "explanation": "A USB blanket draws watts from your source, and the source limits what it can supply. The generic shawl states 5V and 10W, but most others give no wattage. Check the rating and compare it with your power bank's output, since a laptop port may supply less."
+    "explanation": "A USB blanket draws watts from your source, and the source limits what it can supply. The generic shawl states 5V and 10W, but most others give no wattage. Check the rating and compare it with your power bank's output, since a laptop port may supply less. Look for volts and amps, such as 5V and 2A, and confirm your adapter or bank outputs at least that much."
   },
   {
     "criterion": "Power bank included or not",
-    "explanation": "None of these ship with a battery, which is a cost many buyers miss. greenoak states clearly that the battery is not included. Add the price and weight of a bank to your total."
+    "explanation": "None of these ship with a battery, which is a cost many buyers miss. greenoak states clearly that the battery is not included. Add the price and weight of a bank to your total. A battery adds cost and weight, so budget for a bank rated for the blanket's draw and a pocket or strap that holds it."
   },
   {
     "criterion": "Heat level in degrees",
-    "explanation": "Stated temperatures let you compare comfort, while a vague level count does not. greenoak lists 131, 122 and 113F, and the generic shawl lists 95, 113 and 131F. Look for degrees in the bullets."
+    "explanation": "Stated temperatures let you compare comfort, while a vague level count does not. greenoak lists 131, 122 and 113F, and the generic shawl lists 95, 113 and 131F. Look for degrees in the bullets. A top setting of about 131F is warm but not hot, while an unlisted top temperature is a reason to choose a model that states one."
   },
   {
     "criterion": "Timer and overheat protection",
-    "explanation": "A USB blanket left on a desk for hours should have a shut-off. TKOWTB offers 1 to 4 hours and Tuanse lists a timer. Look for stated hours and an overheat protection mention."
+    "explanation": "A USB blanket left on a desk for hours should have a shut-off. TKOWTB offers 1 to 4 hours and Tuanse lists a timer. Look for stated hours and an overheat protection mention. A 1 to 4 hour timer with memory restarts at your last level, which saves resetting each morning."
   },
   {
     "criterion": "Blanket size versus heated area",
-    "explanation": "A listing may give a large blanket dimension but heat only a small zone. Nekewe's heated area is only 12 by 8 inches in an 18 by 32 inch shawl. Compare the heated area to the full size."
+    "explanation": "A listing may give a large blanket dimension but heat only a small zone. Nekewe's heated area is only 12 by 8 inches in an 18 by 32 inch shawl. Compare the heated area to the full size. Compare the heated patch with the area you want warmed, since a 12 by 8 inch patch covers a lap, not a whole shoulder."
   },
   {
     "criterion": "Washing the heating parts",
-    "explanation": "Electric parts and controllers need to be disconnected before washing. Nekewe's heating set removes and greenoak is machine washable. Read the care line and dry fully before reuse."
+    "explanation": "Electric parts and controllers need to be disconnected before washing. Nekewe's heating set removes and greenoak is machine washable. Read the care line and dry fully before reuse. Detachable heating sets, as on Nekewe, are the easiest to clean, while fixed wiring should only be spot cleaned."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Power requirements",
-    "description": "We compared stated voltage, wattage and whether a power bank is needed."
+    "title": "Power budget on a USB source",
+    "description": "A heated blanket draws real watts, and the shawl wrap lists 5V and 10W, which is roughly 2A. We looked for stated input figures, since a laptop port or a 1A charger can leave a blanket lukewarm, and flagged TKOWTB for omitting wattage and input. That mismatch is the most likely reason a blanket never gets warm."
   },
   {
-    "title": "Heat and timer",
-    "description": "Heat levels, stated degrees and shut-off hours were weighed above marketing wording."
+    "title": "Whether a power bank is included",
+    "description": "None of these ship with a battery, including greenoak, whose zip pocket only holds one. We treated bank cost as extra and favored listings that name the connector and amperage the buyer should match. A bank sized for 2A at 5V is the usual match for the 10W wrap."
   },
   {
-    "title": "Size and heated area",
-    "description": "Overall dimensions were compared with the area that actually heats."
+    "title": "Heat levels in degrees",
+    "description": "Greenoak lists 113F, 122F and 131F, and the shawl wrap 95F, 113F and 131F. Junbig, Tuanse, Nekewe and TKOWTB give no temperatures, so we scored them lower on predictability. A 131F ceiling is warm, not hot, so it is a useful reference point."
   },
   {
-    "title": "Washing",
-    "description": "Removable parts, controllers and care instructions were noted."
+    "title": "Timers and overheat protection",
+    "description": "TKOWTB offers a 1 to 4 hour timer with memory, Tuanse has a timer and three settings, and several others list only overheat protection. A blanket left on at a desk needs one or the other. Several picks list neither, so we marked them down for desk use."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $25 to $70 were compared with documented features."
+    "title": "Heated area against blanket size",
+    "description": "Nekewe has an 18 by 32 inch fleece but only a 12 by 8 inch heated patch, while TKOWTB is 150 by 160 cm. We compared what actually heats, not the fabric size on the box. The same fabric size can heat very different amounts of you."
   }
 ];
 
@@ -243,37 +243,39 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "By Form",
+    "intro": "The shape you wear or drape decides everything else.",
     "table": {
       "headers": [
-        "Your situation",
+        "Situation",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Wearable with a power bank pocket",
-          "greenoak USB Heated Wearable Blanket Shawl"
+          "Hands-free at a desk, walks to the printer",
+          "USB Heated Shawl Wrap with 3 Heat Settings lists 5V, 10W and 95F to 131F in a zip-front cape."
         ],
         [
-          "Hoodie with heated pockets",
-          "Junbig USB Wearable Heated Blanket Hoodie"
+          "Full wearable with hands warm too",
+          "Junbig USB Wearable Heated Blanket Hoodie has two heated pockets and a sherpa interior."
         ],
         [
-          "Large throw for couch",
-          "TKOWTB USB Powered Electric Blanket 150x160 cm"
+          "Shoulders and back, widest heat coverage",
+          "greenoak USB Heated Wearable Blanket Shawl has eight pads and states 113F to 131F."
         ],
         [
-          "Two small lap blankets",
-          "Tuanse 2 Pack USB Heated Blanket 25x35"
+          "Knees and lap only",
+          "Nekewe USB Heated Fleece Shawl and Knee Wrap, with a removable heating set."
         ],
         [
-          "Small shoulder or knee patch",
-          "Nekewe USB Heated Fleece Shawl and Knee Wrap"
+          "Share between two people",
+          "Tuanse 2 Pack USB Heated Blanket, with two 25 by 35 inch blankets."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Cheaper wraps heat less area, and the premium buys coverage.",
     "table": {
       "headers": [
         "Price range",
@@ -281,65 +283,67 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $25",
-          "Nekewe USB Heated Fleece Shawl and Knee Wrap"
+          "Under $25, small heated patch",
+          "Nekewe USB Heated Fleece Shawl and Knee Wrap."
         ],
         [
-          "About $35",
-          "USB Heated Shawl Wrap with 3 Heat Settings"
+          "Under $40, stated power and temperatures",
+          "USB Heated Shawl Wrap with 3 Heat Settings."
         ],
         [
-          "About $39",
-          "Tuanse 2 Pack USB Heated Blanket 25x35"
+          "Under $40, two blankets",
+          "Tuanse 2 Pack USB Heated Blanket 25x35."
         ],
         [
-          "$59 to $62",
-          "Junbig USB Wearable Heated Blanket Hoodie"
+          "$59 to $62, hoodie with pockets",
+          "Junbig USB Wearable Heated Blanket Hoodie."
         ],
         [
-          "About $66",
-          "greenoak USB Heated Wearable Blanket Shawl"
+          "Under $70, eight heating pads",
+          "greenoak USB Heated Wearable Blanket Shawl."
         ]
       ]
     }
   },
   {
     "subheading": "Wearable vs Throw",
+    "intro": "Both warm you, but they suit different amounts of movement.",
     "cards": [
       {
-        "label": "Wearable shawl or hoodie",
-        "text": "A wearable keeps heat on your shoulders and leaves your hands free, using less power. That covers greenoak USB Heated Wearable Blanket Shawl, Junbig USB Wearable Heated Blanket Hoodie, USB Heated Shawl Wrap with 3 Heat Settings and Nekewe USB Heated Fleece Shawl and Knee Wrap."
+        "label": "Wearable",
+        "text": "Stays on when you stand and keeps both hands free. greenoak, Junbig and the shawl wrap fit here, at the cost of a bulkier cut and a cable that tethers you."
       },
       {
-        "label": "Throw blanket",
-        "text": "A throw covers your lap or a whole couch seat but needs more power and tangles with chairs. In this guide that means TKOWTB USB Powered Electric Blanket 150x160 cm and Tuanse 2 Pack USB Heated Blanket 25x35."
+        "label": "Throw",
+        "text": "Lies over your lap and is easy to toss aside. TKOWTB at 150 by 160 cm and Tuanse at 25 by 35 inches fit this category, but TKOWTB is bulky for a desk chair."
       }
     ],
-    "note": "For a USB source, a wearable gives the most warmth per watt."
+    "note": "Choose a wearable such as the shawl wrap if you move around, and a throw like Tuanse if you sit still."
   },
   {
     "subheading": "By Control Needs",
+    "intro": "The control type affects how hands-off the blanket is.",
     "table": {
       "headers": [
-        "Your concern",
+        "Control need",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Pick a 1 to 4 hour shut-off",
-          "TKOWTB USB Powered Electric Blanket 150x160 cm"
+          "Timer with memory",
+          "TKOWTB USB Powered Electric Blanket, 1 to 4 hour timer."
         ],
         [
-          "Stated degrees for three levels",
-          "greenoak USB Heated Wearable Blanket Shawl"
+          "Clear temperature steps",
+          "greenoak or the USB Heated Shawl Wrap, both list degrees."
         ],
         [
-          "Stated 10W power rating",
-          "USB Heated Shawl Wrap with 3 Heat Settings"
+          "Timer and three settings",
+          "Tuanse 2 Pack, with a waterproof controller."
         ],
         [
-          "Timer on a travel set",
-          "Tuanse 2 Pack USB Heated Blanket 25x35"
+          "Minimal controls",
+          "Nekewe or Junbig, the simplest listings."
         ]
       ]
     }
@@ -349,11 +353,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Look for",
-        "text": "A stated low wattage, a source that works from a laptop port and a small enough heated area to stay warm on limited current."
+        "text": "A listing that states 5V and a wattage, with a note that says it runs from a computer."
       },
       {
         "label": "In this comparison",
-        "text": "USB Heated Shawl Wrap with 3 Heat Settings lists 5V 10W, and Nekewe USB Heated Fleece Shawl and Knee Wrap lists a computer as a source with a 12 by 8 inch heated area."
+        "text": "Junbig and Nekewe state that they run from a computer. The shawl wrap lists 10W, so give it a wall adapter."
       }
     ]
   },
@@ -362,11 +366,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want clearly documented temperatures and a full wearable. greenoak USB Heated Wearable Blanket Shawl and Junbig USB Wearable Heated Blanket Hoodie deliver that."
+        "text": "You want temperature figures and wide coverage. greenoak and Junbig sit $60 to $66 and use more pads."
       },
       {
         "label": "Save if",
-        "text": "You only need a patch of warmth. Nekewe USB Heated Fleece Shawl and Knee Wrap and USB Heated Shawl Wrap with 3 Heat Settings cost under $35."
+        "text": "A lap and knees are enough. Nekewe at under $25 and the shawl wrap at under $40 cover that."
       }
     ]
   }
@@ -375,28 +379,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can I power a USB blanket from my laptop?",
-    "a": "Several listings say a computer works, but laptop ports supply limited current and the blanket may run cooler. A wall adapter or a suitable power bank is more reliable."
+    "q": "Can I use a laptop USB port for a heated blanket?",
+    "a": "Only if the listing says so. Junbig and Nekewe state that they run from a computer, but the shawl wrap lists 10W at 5V, which is about 2A and more than many laptop ports provide. A wall adapter or power bank rated for that is the reliable route."
   },
   {
-    "q": "Do USB blankets come with a battery?",
-    "a": "No. greenoak states the battery is not included, and the others rely on a bank or adapter. Budget for a bank if you do not own one."
+    "q": "How long will a power bank run a heated blanket?",
+    "a": "Not as long as the listings imply. A 10W wrap draws about 2A, so a 10,000mAh bank gives only a few hours on the top setting. Use low or medium most of the time, and plug in for a full workday."
   },
   {
-    "q": "Is a USB blanket worth it over a plug-in electric blanket?",
-    "a": "It is portable and low power, but the heat is gentler. A mains blanket warms more strongly but needs an outlet."
+    "q": "Is Tuanse's two-pack worth buying over a single shawl?",
+    "a": "If you share a room or want one for a partner, yes. Tuanse gives two 25 by 35 inch lap blankets with 3 settings and a timer, but each warms slowly (3 to 5 minutes per the listing). A single wearable shawl suits one person better."
   },
   {
-    "q": "How do I wash a USB blanket?",
-    "a": "Disconnect the cable and any heating set first. greenoak is machine washable and Nekewe has a removable heating set. Dry fully before use."
+    "q": "Can I wash the blanket and its controller?",
+    "a": "Detach the controller and power source first. greenoak says machine washable flannel, Nekewe has a removable heating set, and Tuanse has a waterproof controller. Use a gentle cycle and air dry, since a hot dryer can damage the wiring."
   },
   {
-    "q": "Can I use any power bank?",
-    "a": "Match the output to the listing. The generic shawl states 5V and 10W, but others give no rating, so ask the seller if unclear."
+    "q": "Does heated area matter more than blanket size?",
+    "a": "Yes, it is the number that tells you where the warmth lands. Nekewe is an 18 by 32 inch fleece but heats only 12 by 8 inches, while greenoak uses eight pads across a 43 by 59 inch body. Look for heated area in the bullets."
   },
   {
-    "q": "Do USB blankets improve circulation?",
-    "a": "We do not rely on that claim. These are comfort products and not medical devices, and anyone with reduced sensation should ask a doctor first."
+    "q": "Is it safe to sleep under a USB heated blanket?",
+    "a": "Generally no. These are made for a desk or sofa while awake, and TKOWTB's 4 hour timer is not a bedtime feature. If you have diabetes or reduced sensation, keep it on the lowest setting and ask a doctor before regular use."
   }
 ];
 

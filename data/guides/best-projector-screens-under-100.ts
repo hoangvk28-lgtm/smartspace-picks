@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Material Layer Construction", "description": "Compared multi-layer PVC and milk silk polyester construction across the lineup." },
-  { "title": "Gain Rating", "description": "Compared stated gain figures ranging from standard to 1.5x across all four picks." },
-  { "title": "Installation Flexibility", "description": "Checked which picks offer wall-mount alternatives versus tripod-only setup." },
-  { "title": "Assembly Speed and Complexity", "description": "Compared stated assembly time and tool requirements across the tier." },
-  { "title": "Ambient Light Performance", "description": "Compared black backing and light-absorption claims for bright-room viewing." }
+  { "title": "Gain and viewing angle", "description": "We checked stated gain on the Paris RHONE and LEORFI, both listed at 1.5. Higher gain brightens the picture for a dim room with some stray light, but it narrows the angle from which the image looks uniform, so seats far to the side see a dimmer picture than the center. A wide sofa puts people at the sides, which is exactly where a 1.5 gain picture looks dimmest." },
+  { "title": "Tripod and wall mount flexibility", "description": "We compared mounting options, including the 2-in-1 pick's tripod or wall-mount design and the X-type aluminum tripod on the Paris RHONE that adjusts from 64 to 85 inches. A frame that works both indoors and out is more useful than one limited to the yard. The Pyle 50 Inch skips both and simply stands on a table or floor." },
+  { "title": "Wind readiness", "description": "We looked for features that help outdoors, such as the ground nails on the Paris RHONE and the wind ropes on the LEORFI. A 100 inch cloth on a lightweight tripod can topple in a mild breeze, so anchoring hardware counts as a core feature. The Pyle 50 Inch is small enough that wind matters far less." },
+  { "title": "Screen size and masking border", "description": "We compared the 4:3 Pyle 50 Inch, whose black masking border sharpens the edges of the image, against the three 100 inch widescreen models. Smaller borders help a classroom or small room, while the large canvases suit groups. Measure your wall first, because a 100 inch canvas needs about 87 inches of width." },
+  { "title": "Layered fabric construction", "description": "We read the construction claims, from multi-layer PVC on the first two picks to 200g milk silk with black backing on the LEORFI. Thicker layered cloth tends to lie flatter and block show-through, which is the upgrade this tier offers over cheaper fabric. Fewer layers usually means more light bleeding through the cloth at night." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "At this tier two of four picks list a 1.5 gain, so choosing by primary need means weighing a brighter center against how wide your seating spreads.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "The four sit within under $15 of the ceiling, so budget here is less about price and more about which trade you accept: size, gain, or layered fabric.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -133,6 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Ambient Light Conditions",
+    intro: "Setup place matters too, since the tripod models differ in how easily they anchor outdoors versus how neatly they mount to a wall indoors.",
     table: {
       headers: ["Your viewing environment", "Recommended pick"],
       rows: [
@@ -153,7 +156,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the flexibility of 2-in-1 tripod or wall-mount installation, where that pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You specifically need strong daytime viewing performance without needing wall-mount flexibility, where the LEORFI pick covers that for about $10 less." }
+      { label: "Save if", text: "You specifically need strong daytime viewing performance without needing wall-mount flexibility, where the LEORFI pick covers that for under $15 less." }
     ],
   }
 ];
@@ -183,8 +186,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Can the 2-in-1 pick be switched between tripod and wall mount after initial setup, or is the choice permanent?", "a": "The design supports switching between the two installation methods as needed, so you're not locked into one method permanently, though each switch does require reconfiguring the mounting hardware appropriately." },
-  { "q": "What's the most common mistake buyers make when choosing between a 1.5 gain screen and a standard gain screen at this tier?", "a": "Assuming higher gain is always better without considering room seating width, since a 1.5 gain screen like the Paris RHONE or LEORFI picks provides a brighter image but with a narrower optimal viewing angle than a standard gain screen." },
-  { "q": "Is the Paris RHONE pick worth it over the cheaper LEORFI option?", "a": "If you specifically want the fastest 2-minute tripod setup with included ground nails for outdoor wind resistance, yes, but if strong daytime ambient-light performance matters more, the LEORFI pick covers that for about $10 less." },
+  { "q": "Which of these screens handles outdoor wind best?", "a": "The Paris RHONE ships with ground nails and the LEORFI with wind ropes, which matters because both are 100 inch sails on light tripods. We would stake any of them down, and avoid putting up a 100 inch screen alone in gusty conditions." },
+  { "q": "Is the Paris RHONE pick worth it over the cheaper LEORFI option?", "a": "If you specifically want the fastest 2-minute tripod setup with included ground nails for outdoor wind resistance, yes, but if strong daytime ambient-light performance matters more, the LEORFI pick covers that for under $15 less." },
   { "q": "How do I know if the Pyle 50 Inch's smaller size will work for my room?", "a": "Consider your typical viewing distance, since a 50 inch screen suits closer seating arrangements common in smaller rooms or personal viewing spaces, while the 100 inch picks in this tier suit larger rooms with more distance between viewers and the screen." },
   { "q": "Do any of these screens require professional installation for the wall-mount option?", "a": "No, the 2-in-1 pick's wall-mount installation is designed for DIY setup with included hardware, though having a helper for the wall-mounting step is generally recommended given the screen's size and weight." },
   { "q": "Can these screens be used with any projector, or do they require specific projector specifications?", "a": "These screens are generally compatible with standard LED, LCD, and DLP projectors, though matching your projector's brightness (lumens) output to the screen's gain rating helps ensure optimal image quality regardless of which pick you choose." }

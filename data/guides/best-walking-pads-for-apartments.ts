@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41m1RZRVZxL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H2W4GDTB?tag=deskfinds0d-20",
-    "description": "This model combines a 3.0HP brushless motor, a stated noise ceiling of 45dB or less and a 300 lb limit with a handrail that folds down. Its deck measures 47.2 by 22.4 by 5.5 inches, and a seven-layer belt with six silicone absorbers sits under the walking surface.\n\nCompared with the MODIDA just below, it costs about $55 more but spells out its noise figure, whereas MODIDA only calls itself ultra-quiet. The deck is also deeper than most under-bed pads, so it needs a closet or wall spot when folded.\n\nPick it if you want one machine for walking and light jogging that your downstairs neighbor should not notice. The caveat is footprint: it is the longest deck here.",
+    "description": "This model combines a 3.0HP brushless motor, a stated noise ceiling of 45dB or less and a 300 lb limit with a handrail that folds down. Its deck measures 47.2 by 22.4 by 5.5 inches, and a seven-layer belt with six silicone absorbers sits under the walking surface.\n\nCompared with the MODIDA just below, it costs under $60 more but spells out its noise figure, whereas MODIDA only calls itself ultra-quiet. The deck is also deeper than most under-bed pads, so it needs a closet or wall spot when folded.\n\nPick it if you want one machine for walking and light jogging that your downstairs neighbor should not notice. The caveat is footprint: it is the longest deck here.",
     "specs": [
       "3.0HP, 45dB or less listed",
       "47.2 x 22.4 x 5.5 in deck",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41h0rFueMcL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GGB9BV77?tag=deskfinds0d-20",
-    "description": "The Vhorilix is a 109 by 50 by 11 cm slab, around 16 kg, with built-in transport wheels, a 2.5HP motor listed above 500W and a 264 lb limit. A diamond-texture five-layer belt rides on silicone absorbers and rubber cushioning.\n\nIt costs about $10 more than the Abonow and has no incline, but it is the easiest to slide under a bed or sofa. Compared with the NEWBULIG, it has a stated horsepower where NEWBULIG gives none.\n\nBest for a studio dweller who needs to hide the machine every night. The caveat is no decibel figure, so rely on a mat for floor noise.",
+    "description": "The Vhorilix is a 109 by 50 by 11 cm slab, around 16 kg, with built-in transport wheels, a 2.5HP motor listed above 500W and a 264 lb limit. A diamond-texture five-layer belt rides on silicone absorbers and rubber cushioning.\n\nIt costs under $15 more than the Abonow and has no incline, but it is the easiest to slide under a bed or sofa. Compared with the NEWBULIG, it has a stated horsepower where NEWBULIG gives none.\n\nBest for a studio dweller who needs to hide the machine every night. The caveat is no decibel figure, so rely on a mat for floor noise.",
     "specs": [
       "109 x 50 x 11 cm deck",
       "2.5HP, 1 to 6 km/h",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41BRDg1xYRL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GX97ZN1M?tag=deskfinds0d-20",
-    "description": "NEWBULIG lists operation under 45 dB, a remote, an LED display and a fold-and-wheel design that stores under a bed or sofa. Its handles let it work in walking pad mode or under desk treadmill mode.\n\nIt is a few cents cheaper than the OLIXIS and, unlike it, folds. Next to the HADMAX it costs about $94 less but gives no motor size or weight limit.\n\nBest for first-time buyers in a small rental who want a stated noise figure for little money. The caveat is thin specs, so check the live listing for user weight.",
+    "description": "NEWBULIG lists operation under 45 dB, a remote, an LED display and a fold-and-wheel design that stores under a bed or sofa. Its handles let it work in walking pad mode or under desk treadmill mode.\n\nIt is a few cents cheaper than the OLIXIS and, unlike it, folds. Next to the HADMAX it costs under $100 less but gives no motor size or weight limit.\n\nBest for first-time buyers in a small rental who want a stated noise figure for little money. The caveat is thin specs, so check the live listing for user weight.",
     "specs": [
       "Under 45 dB listed",
       "Foldable with wheels",
@@ -190,202 +190,109 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Folded or flat footprint",
-    "explanation": "In an apartment, where the pad lives matters as much as how it walks. A deck under about 5.5 inches thick slides under most beds, while foldable frames stand upright in a closet. Look for both the deck dimensions and the folded dimensions in the listing, and measure your gap with a tape before ordering."
+    "criterion": "Stated noise level",
+    "explanation": "Only HADMAX and NEWBULIG give a decibel figure, 45 dB or less, while the MODIDA simply claims ultra-quiet operation. In a flat a number is the only way to compare, because a neighbour hears footfall as much as motor hum. Look for a figure and the speed it applies to, and plan for a mat under the pad. A number measured at 2 mph says little about the pad at 4 mph, so ask what speed the figure refers to."
   },
   {
-    "criterion": "Vibration into the floor",
-    "explanation": "Neighbors below hear footfall impact through the structure more than they hear the motor. Rubber feet, silicone shock absorbers and a thick belt reduce this. Look for stated absorber counts, and buy a dense mat even when the pad lists feet, since thin wood-frame floors transmit impact."
+    "criterion": "Folded or flat profile",
+    "explanation": "The Vhorilix is 11 cm thick and slides under a bed, and the OLIXIS is flat and armless, while the HADMAX is 47.2 inches long. Storage space is the most common reason a pad ends up unused. Measure the gap under your bed or sofa and compare it with the listing. A pad that clears the gap by even a centimetre is easier to slide than one you must tilt."
   },
   {
-    "criterion": "Listed noise number",
-    "explanation": "A figure such as 45 dB is the maker's quoted ceiling for the motor at a given speed. It is helpful for comparing pads, but it says nothing about floor thump. Check that the number is in the bullet points and treat vague quiet language as unproven."
+    "criterion": "Weight and wheels",
+    "explanation": "A pad that is hard to move will stay where it is. The Vhorilix lists about 16 kg with wheels and the NEWBULIG and HADMAX include wheels. Look for the weight in the bullets and wheel placement, and consider whether you can lift the pad alone. Rolling over a threshold or carpet edge is where a heavy pad becomes a nuisance."
   },
   {
-    "criterion": "Weight and portability",
-    "explanation": "A pad of about 16 kg with wheels is something one person can tip and roll, while heavier incline units are awkward on stairs. This matters if you carry it between rooms or up a flight. Look for the shipping weight and built-in wheels."
+    "criterion": "Motor and capacity figures",
+    "explanation": "MODIDA's 3.5HP and HADMAX's 3.0HP are likely peak figures, and NEWBULIG lists no weight limit or HP at all. A limit near your weight strains the pad, so look for a stated capacity such as 264 lbs on the Vhorilix and keep about 50 lbs of headroom. If the capacity is missing, treat it as a gap rather than assuming it is generous."
   },
   {
-    "criterion": "Lease and building rules",
-    "explanation": "Some buildings limit exercise equipment hours or require flooring protection. A mat protects hardwood from scuffs and the belt from lint. Check your lease's quiet hours and keep sessions inside them."
-  },
-  {
-    "criterion": "Remote and safety key",
-    "explanation": "With the pad under a desk, you control speed from the remote or handle, not the console. A safety key that stops the belt if you step off is a basic safeguard. Look for both in the listing."
+    "criterion": "Floor and safety features",
+    "explanation": "Rubber feet, silicone absorbers and a safety key reduce vibration and add control if you stumble. OLIXIS offers four rubber feet and a key, HADMAX offers absorbers and a handrail. Check what protects your floor and whether an emergency stop is included. A safety key that pulls free if you slip is worth more than a decorative extra."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  {
-    "title": "Storage footprint",
-    "description": "We compared deck dimensions, folding and wheels for fit under a bed, sofa or in a closet."
-  },
-  {
-    "title": "Noise and vibration",
-    "description": "We counted listed decibel figures, rubber feet and shock absorbers as the main apartment-friendly features."
-  },
-  {
-    "title": "Motor and capacity",
-    "description": "We checked horsepower and user limit so the motor is not overworked at daily speeds."
-  },
-  {
-    "title": "Ease of moving",
-    "description": "We favored lighter pads with wheels, since renters often shift furniture around."
-  },
-  {
-    "title": "Value",
-    "description": "We compared how many apartment-relevant specs each price tier covers."
-  }
+  { "title": "Stated noise ceiling in decibels", "description": "HADMAX and NEWBULIG list 45 dB or less and the others give no number. In a flat with a neighbour below, we gave a stated figure more weight than a quiet claim, and noted that footfall thud usually outweighs motor hum, so a rubber-footed or silicone-absorber deck mattered too." },
+  { "title": "Folded and flat storage profile", "description": "The Vhorilix measures 109 x 50 x 11 cm, the OLIXIS is armless and flat, and the HADMAX folds its handrail but is 47.2 inches long. We judged each pad on whether it slides under a bed or sofa, because a pad that needs a dedicated corner defeats the point of a small flat." },
+  { "title": "Weight and moving it around", "description": "Vhorilix lists about 16 kg with wheels, and NEWBULIG and HADMAX also include wheels. We checked who can lift or roll the pad alone, since a heavy unit you dread moving is a unit that stops getting used between sessions in a studio apartment." },
+  { "title": "Motor size versus price", "description": "MODIDA lists a 3.5HP brushless motor and HADMAX 3.0HP, while Vhorilix and Abonow sit at 2.5HP and NEWBULIG gives no figure. We read these as peak claims and gave credit mainly where a weight limit and noise number backed them up." },
+  { "title": "Floor protection and safety features", "description": "OLIXIS has four rubber feet, six pads and a safety key, and HADMAX offers silicone absorbers and a handrail. Renters care about floors and deposits, so we noted vibration control and emergency stop features that make a pad easier to live with." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Storage Space",
-    "table": {
-      "headers": [
-        "Your situation",
-        "Recommended pick"
+    subheading: "By Primary Need",
+    intro: "In an apartment the winning pad is the one you can hear least and store fastest, so start with your space and your neighbours.",
+    table: {
+      headers: ["If you mainly need", "Recommended pick"],
+      rows: [
+        ["A stated low noise ceiling and a handrail for stability", "HADMAX, which lists 45 dB or less and has silicone absorbers"],
+        ["The strongest motor for the lowest price", "MODIDA, a 3.5HP brushless pad with 12 speed levels"],
+        ["A slim pad that slides under a bed", "Vhorilix, at 109 x 50 x 11 cm and 16 kg"],
+        ["An incline without spending much", "Abonow, with a 12% incline and 280 lb capacity"],
+        ["A flat armless pad with floor-saving rubber feet", "OLIXIS, with a safety key and remote"]
       ],
-      "rows": [
-        [
-          "You only have a narrow gap under a bed",
-          "Vhorilix Slim Under-Bed Walking Pad"
-        ],
-        [
-          "You have a clear flat space under the bed or couch",
-          "OLIXIS Armless Slim Walking Pad"
-        ],
-        [
-          "You can fold it upright in a closet",
-          "NEWBULIG Quiet Foldable Walking Pad"
-        ],
-        [
-          "You have a closet or corner and want the best motor",
-          "HADMAX Foldable Walking Pad with Handrail"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "By Budget",
-    "table": {
-      "headers": [
-        "Price range",
-        "Recommended pick"
+    subheading: "By Budget",
+    table: {
+      headers: ["Price range", "Recommended pick"],
+      rows: [
+        ["Around $65 for a first pad", "NEWBULIG or OLIXIS, the two cheapest picks"],
+        ["Around $80 to $90 for incline or a steel frame", "Abonow or Vhorilix"],
+        ["Around $105 for a bigger motor", "MODIDA, strong for its price"],
+        ["Around $160 for the longest deck and handrail", "HADMAX, the priciest pick"],
+        ["Under $50, where listings thin out", "The under $100 guide covers more complete options"]
       ],
-      "rows": [
-        [
-          "Under $70",
-          "NEWBULIG Quiet Foldable Walking Pad"
-        ],
-        [
-          "$70 to $90",
-          "Vhorilix Slim Under-Bed Walking Pad"
-        ],
-        [
-          "$90 to $110",
-          "MODIDA 3.5HP Brushless Walking Pad"
-        ],
-        [
-          "$110 and up",
-          "HADMAX Foldable Walking Pad with Handrail"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "Folding vs Slim Slab",
-    "cards": [
-      {
-        "label": "Folding",
-        "text": "Folds upright for closet storage and often adds handles. HADMAX Foldable Walking Pad with Handrail and NEWBULIG Quiet Foldable Walking Pad fall here."
-      },
-      {
-        "label": "Slim slab",
-        "text": "Stays flat and slides under furniture. Vhorilix Slim Under-Bed Walking Pad and OLIXIS Armless Slim Walking Pad are the slab designs."
-      }
+    subheading: "Foldable vs Flat Under-Bed Design",
+    cards: [
+      { label: "Foldable (HADMAX, NEWBULIG)", text: "These fold or tilt upright and roll away on wheels. They suit people with closet space and a bit of room to lift the deck, but the folded unit still takes up floor volume." },
+      { label: "Flat slab (Vhorilix, OLIXIS, Abonow)", text: "A slim deck slides under a bed or sofa without lifting. The drawback is that you usually cannot add a handrail, and the pad sits flat even when you are not using it." }
     ],
-    "note": "If you have a closet, fold it; if your only space is under a bed, choose a slab."
+    note: "Most apartment dwellers should default to a flat slab if the bed gap allows it, and choose the foldable only if there is a closet corner free.",
   },
   {
-    "subheading": "By Floor Type",
-    "table": {
-      "headers": [
-        "Your floor",
-        "Recommended pick"
+    subheading: "By Neighbour and Floor Concerns",
+    table: {
+      headers: ["Your worry", "Recommended pick"],
+      rows: [
+        ["A downstairs neighbour who hears thuds", "OLIXIS, whose rubber feet reduce vibration, with a mat underneath"],
+        ["Calls and video meetings in the same room", "HADMAX, thanks to its listed 45 dB or less"],
+        ["Thin walls in a shared flat", "NEWBULIG, which lists under 45 dB at a very low price"],
+        ["A rental floor you must keep scuff-free", "Vhorilix, because its wheels and steel frame are easy to move on a mat"]
       ],
-      "rows": [
-        [
-          "Thin wood floor over neighbors",
-          "HADMAX Foldable Walking Pad with Handrail"
-        ],
-        [
-          "Carpet over concrete",
-          "MODIDA 3.5HP Brushless Walking Pad"
-        ],
-        [
-          "Tile or hardwood, you add a mat",
-          "Vhorilix Slim Under-Bed Walking Pad"
-        ],
-        [
-          "You want an incline for variety",
-          "Abonow 2.5HP Walking Pad with 12% Incline"
-        ]
-      ]
-    }
+    },
   },
   {
-    "subheading": "For Upstairs Renters Specifically",
-    "cards": [
-      {
-        "label": "Look for",
-        "text": "Stated decibel level, silicone absorbers and rubber feet that limit vibration."
-      },
-      {
-        "label": "In this comparison",
-        "text": "HADMAX Foldable Walking Pad with Handrail lists 45dB or less with six absorbers, and OLIXIS Armless Slim Walking Pad has rubber feet and six anti-slip pads at lower cost."
-      }
-    ]
+    subheading: "For Studio Apartments Specifically",
+    cards: [
+      { label: "Look for", text: "A pad under about 12 cm thick, wheels, and a remote so you can adjust without bending. Check that the folded or flat footprint fits your actual bed gap." },
+      { label: "In this comparison", text: "The Vhorilix at 11 cm thick and the OLIXIS flat shape fit tight spaces. The HADMAX needs more room but offers a handrail and noise figure." }
+    ],
   },
   {
-    "subheading": "When to Spend More",
-    "cards": [
-      {
-        "label": "Spend more if",
-        "text": "You want a stated noise figure and a 300 lb limit, as with HADMAX Foldable Walking Pad with Handrail."
-      },
-      {
-        "label": "Save if",
-        "text": "You use it under 2 mph; NEWBULIG Quiet Foldable Walking Pad or OLIXIS Armless Slim Walking Pad is enough."
-      }
-    ]
+    subheading: "When to Spend More",
+    cards: [
+      { label: "Spend more if", text: "You want a bigger motor, handrails and a stated noise number in one pad, as with the HADMAX. The under $150 guide adds incline pads that carry heavier users." },
+      { label: "Save if", text: "You want a pad you will store most days. The NEWBULIG and OLIXIS cost the least here, and the Vhorilix adds a steel frame for only a little more." }
+    ],
   }
 ];
 
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
-  {
-    "q": "Will my downstairs neighbor hear a walking pad?",
-    "a": "They may hear footfall thump more than the motor. A thick mat, rubber feet and slow speeds all help, and picks with silicone absorbers like the HADMAX do better than bare slabs."
-  },
-  {
-    "q": "Can a walking pad go on an apartment's carpet?",
-    "a": "Usually yes on low-pile carpet, but plush carpet makes the deck wobble. A firm mat under the pad restores a stable surface and protects the belt from fibers."
-  },
-  {
-    "q": "Is a 3.5HP pad overkill for an apartment?",
-    "a": "Not necessarily. A bigger motor runs relaxed at low speed, so MODIDA's listed 3.5HP can be quieter than a small motor strained near its limit. It matters more if you plan to jog."
-  },
-  {
-    "q": "How do I store a non-folding pad?",
-    "a": "Slide it under the bed or sofa and keep the power cable off the floor. Check the thickness first, because most under-bed gaps are lower than people assume."
-  },
-  {
-    "q": "How often should I clean the belt?",
-    "a": "Wipe it down and vacuum around the deck regularly. Dust on the belt and rollers can add friction and noise over time."
-  }
+  { "q": "Which pad is quietest in an apartment?", "a": "HADMAX and NEWBULIG both list 45 dB or less, and the MODIDA claims ultra-quiet operation with a brushless motor, though it gives no figure. Whichever you choose, a rubber mat and lower speeds help more than a lower decibel claim." },
+  { "q": "What mistake do apartment buyers make most?", "a": "Measuring only the floor space. Check the height of the gap under your bed or sofa against the pad's thickness, such as the Vhorilix at 11 cm, and confirm you can lift the unit. A fold that needs two hands is hard to live with." },
+  { "q": "Is the HADMAX worth more than the MODIDA?", "a": "If balance and a stated noise ceiling matter, the HADMAX with its handrail and 3.0HP is worth the extra. If you simply want power and speed presets for less, the MODIDA offers a 3.5HP brushless motor and 12 speed levels." },
+  { "q": "How do I set up a pad in a small bedroom?", "a": "Place it on a mat, leave a small gap behind it, and run the cable along the wall. Keep the remote nearby and start slow. Do not set it in front of a closet door, because walking mid-stride is awkward if you need to open it." },
+  { "q": "Can a walking pad damage a rental floor?", "a": "Seldom, but vibration and wheel marks can scuff soft wood or vinyl. Use a mat and the OLIXIS-style rubber feet where possible, and lift or roll the pad rather than dragging it. Check your lease if you plan to leave it in place." },
+  { "q": "Do I need to lubricate an under-bed pad?", "a": "Follow the manual, because many budget belts need occasional lubrication. Wipe dust from under the deck before sliding it away, since slim pads collect lint. Dry belts get louder and strain the motor over time." }
 ];
 
 export const relatedGuides = [

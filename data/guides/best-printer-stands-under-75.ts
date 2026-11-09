@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Shelf Adjustability", "description": "Compared the number of height positions available for middle shelves across the lineup." },
-  { "title": "Weight Capacity", "description": "Compared per-shelf and total weight capacity ranging from 40 to 300 lbs." },
-  { "title": "Power Outlet Configuration", "description": "Compared outlet count, USB ports, and cord length across power-equipped picks." },
-  { "title": "Desktop and Footprint Size", "description": "Checked which picks specifically accommodate larger, bulkier office equipment." },
-  { "title": "Mobility and Locking Hardware", "description": "Compared caster count, locking mechanisms, and brake features across all four picks." }
+  {
+    "title": "Load rating",
+    "description": "We compared totals and per-shelf limits, such as 450 total and 150 per shelf on the file cabinet styled VECELO, 300 total on the adjustable VECELO and 70 on the top of the 3 Tier. A heavy laser printer needs a shelf rating well above its weight. A heavy laser printer can sit near 20 kilograms, so we treated a shelf rating at least three times that as comfortable."
+  },
+  {
+    "title": "Adjustability",
+    "description": "We looked at the five height positions on the adjustable VECELO, the adjustable shelf heights on the niffgaff and the 5-level middle shelf on the 3 Tier. Adjustability matters when a printer changes, or when you add a scanner. The file cabinet styling is a look more than a function, so we focused on its steel frame and per-shelf rating."
+  },
+  {
+    "title": "Power and cable access",
+    "description": "We checked outlets and USB ports, such as the 6.6 foot cord on the adjustable VECELO and the 3-prong outlet on the 3 Tier. At this price a built-in outlet is expected, so we looked at cord length and placement. A taller stand needs a bigger base for stability, so we compared the 24.4 inch niffgaff height with its caster spread."
+  },
+  {
+    "title": "Mobility and finish",
+    "description": "We noted locking casters on all four, the metal and wood hybrid of the niffgaff at 24.4 inches high and the steel frame of the file cabinet style. Heavier frames are steadier but harder to move. The 3 Tier lists a 70 pound top shelf but a 40 pound mesh shelf, so heavy items belong on top."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Maximum adjustability with the highest weight capacity", "VECELO Adjustable Large Printer Stand with Power Outlet"],
-        ["File cabinet aesthetic with high capacity at a lower price", "VECELO Large Printer Stand, Rolling File Cabinet Style"],
-        ["The largest desktop surface for bulky equipment", "niffgaff Mobile Printer Stand with Large Desktop"],
-        ["Adjustable shelf height and a built-in outlet at the lowest price", "3 Tier Large Printer Stand with Power Outlet and Storage"]
+    "subheading": "By Printer Class",
+    "intro": "These four are for large printers and multi-device setups.",
+    "table": {
+      "headers": [
+        "Your setup",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A large laser with a scanner and storage",
+          "VECELO Large Printer Stand, Rolling, with 450 pounds total and 150 per shelf"
+        ],
+        [
+          "A printer that changes over time and needs shelf height options",
+          "VECELO Adjustable Large, with 5 height positions"
+        ],
+        [
+          "A wide desktop that holds a printer plus accessories",
+          "niffgaff Mobile Printer Stand with Large Desktop"
+        ],
+        [
+          "A three-level setup with an adjustable middle shelf",
+          "3 Tier Large Printer Stand with Power Outlet and Storage, with 70 pounds on the top"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $63", "3 Tier Large with Power Outlet (under $70)"],
-        ["Under $65", "VECELO File Cabinet Style (under $70)"],
-        ["Under $70", "niffgaff (under $70)"],
-        ["Under $80", "VECELO Adjustable (under $80)"]
+    "subheading": "By Budget",
+    "intro": "The four picks sit between under $75 and $80.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $75",
+          "3 Tier Large Printer Stand, the lowest price"
+        ],
+        [
+          "Under $75",
+          "VECELO Large Printer Stand, Rolling, for the highest ratings"
+        ],
+        [
+          "Under $75",
+          "niffgaff, for a larger desktop"
+        ],
+        [
+          "Under $100",
+          "VECELO Adjustable Large, for the adjustable heights and a long cord"
+        ]
+      ]
+    }
   },
   {
-    subheading: "5-Position Adjustable Shelving vs Fixed Shelf Design",
-    cards: [
-      { label: "5-position adjustable (VECELO Adjustable, 3 Tier Large)", text: "Lets you customize shelf spacing for varying equipment sizes, worth it if your equipment sizes change over time." },
-      { label: "Fixed shelf design (VECELO File Cabinet, niffgaff)", text: "Offers a simpler, often sturdier structure at a lower price, better if your equipment sizes are already known and stable." }
+    "subheading": "Adjustable Shelves vs Fixed",
+    "intro": "Flexibility costs a little in rigidity.",
+    "cards": [
+      {
+        "label": "Adjustable",
+        "text": "The VECELO Adjustable Large, niffgaff and 3 Tier Large Printer Stand let you move shelves, which suits changing equipment."
+      },
+      {
+        "label": "Fixed",
+        "text": "The VECELO Large Printer Stand, Rolling has a fixed file cabinet styling with steel, which is rigid and simple."
+      }
     ],
-    note: "If you anticipate storing different-sized equipment over time or want maximum flexibility, the adjustable-shelf picks are worth the investment. If your current equipment fits well and won't change, a fixed-shelf pick delivers solid value at a lower price.",
+    "note": "If you will keep the same printer for years, a fixed design is fine. Otherwise adjustability is worth it."
   },
   {
-    subheading: "By Power Needs",
-    table: {
-      headers: ["Your power needs", "Recommended pick"],
-      rows: [
-        ["Multiple outlets plus USB charging", "VECELO Adjustable or VECELO File Cabinet Style"],
-        ["Basic single outlet charging", "3 Tier Large with Power Outlet"],
-        ["No built-in power needed", "niffgaff"]
+    "subheading": "By Space and Look",
+    "intro": "Appearance matters in a home office.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A cabinet look that blends with office furniture",
+          "VECELO Large Printer Stand, Rolling"
+        ],
+        [
+          "Metal and wood to match a desk",
+          "niffgaff, at 24.4 inches high"
+        ],
+        [
+          "A long cord to reach a far outlet",
+          "VECELO Adjustable Large, with a 6.6 foot cord"
+        ],
+        [
+          "A narrow footprint with mesh shelves",
+          "3 Tier Large Printer Stand, with 40 pounds per mesh shelf"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Home Office With Large, Bulky Equipment Specifically",
-    cards: [
-      { label: "Look for", text: "An explicitly marketed extra-large desktop surface with stated stability for bulky all-in-one machines, not just a standard-sized shelf labeled as fitting 'most printers'." },
-      { label: "In this comparison", text: "The niffgaff pick's extra-large desktop is specifically marketed as stably supporting even bulky printers, scanners, or all-in-one machines without workspace crowding." }
-    ],
+    "subheading": "For a Small Business Specifically",
+    "intro": "A small business prints more and stores more.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A 150 pound shelf rating, two or more outlets and locking casters."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VECELO Large Printer Stand, Rolling lists 150 pounds per shelf and 2 outlets plus 2 USB ports, which suits a small business."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want maximum shelf adjustability combined with the highest weight capacity and longest power cord, where the VECELO Adjustable pick delivers all three at the top of this tier." },
-      { label: "Save if", text: "You just want a built-in outlet with basic shelf adjustability, where the 3 Tier Large pick covers that for about $17 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Above $75 you reach full printer carts and cabinets.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need lockable drawers. A full cabinet beats VECELO Large Printer Stand, Rolling."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need a larger shelf. 3 Tier Large Printer Stand is the lowest price here."
+      }
+    ]
   }
 ];
 
@@ -183,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can the VECELO Adjustable pick's 5 height positions be changed after initial assembly?", "a": "Yes, the adjustable shelf design is meant to be reconfigured as needed after assembly, not just set once during initial setup, so you can adjust shelf spacing later if your equipment changes." },
-  { "q": "What's the most common mistake buyers make when choosing between an adjustable and fixed-shelf printer stand at this tier?", "a": "Paying extra for shelf adjustability without actually needing it, when a fixed-shelf design like the VECELO File Cabinet Style pick delivers the same core storage and power features at a meaningfully lower price if your equipment sizes are already stable and known." },
-  { "q": "Is the VECELO Adjustable pick worth it over the cheaper File Cabinet Style option?", "a": "If you specifically need 5-position height adjustability and the longest power cord reach, yes, but if a file cabinet aesthetic with the same high per-shelf capacity matters more, the File Cabinet Style pick covers that for about $15 less." },
-  { "q": "How do I know if the niffgaff's extra-large desktop will actually fit my specific bulky printer?", "a": "Check the listing's stated desktop dimensions against your printer's exact footprint measurements, since 'extra-large' is a relative marketing term and confirming actual inches against your equipment avoids assuming it fits based on marketing language alone." },
-  { "q": "Do the power outlets on these stands need to be plugged into a specific type of wall outlet?", "a": "No, all four power-equipped picks in this comparison are designed to plug into a standard household wall outlet, requiring no special electrical configuration or adapter." },
-  { "q": "Can these heavy-duty stands support a large format or professional-grade printer?", "a": "The VECELO picks' stated capacities of 300 and 450 lbs total can likely support many professional-grade printers, but checking your specific printer's exact weight against the stand's per-shelf capacity, not just its total capacity, is worth doing before assuming any pick handles very large equipment safely." }
+  {
+    "q": "Is the 450 pound rating realistic?",
+    "a": "It is a total across shelves, so each shelf still holds 150 pounds. A printer sits on one shelf, so the 150 pound limit is what matters. Spread weight across levels. If your printer weighs 20 kilograms or more, choose a stand that lists a shelf rating well above that."
+  },
+  {
+    "q": "Is the adjustable VECELO worth it over the file cabinet style?",
+    "a": "If you want five height positions and a long cord, yes. It lists 300 pounds total and costs more. The file cabinet style lists 450 total and more outlets, so it suits heavy gear. The adjustable model costs more because of the height positions and cord length, while the file style adds capacity."
+  },
+  {
+    "q": "Do locking casters work on carpet?",
+    "a": "They work, but carpet may reduce rolling and increase wobble. Lock them before printing and use a hard floor if possible. Check that the casters lock fully, since carpet pile can prevent a lock from gripping."
+  },
+  {
+    "q": "What is a 3-prong outlet on a stand?",
+    "a": "It is a grounded outlet, which matches your printer's plug. Check the amperage on the listing and avoid plugging in a heater. Use a surge protector for added safety. Never use the stand's outlet for high-draw appliances, and keep the printer cord taut but not pulled."
+  },
+  {
+    "q": "How do I move a loaded stand?",
+    "a": "Many makers advise against rolling it loaded. Remove heavy items first, unlock the casters and push slowly. A tipped stand can damage the printer. Empty the paper trays before moving, since loose items shift and raise the center of gravity."
+  },
+  {
+    "q": "How much clearance should I leave around a large printer?",
+    "a": "Leave several inches on the sides and rear for airflow and enough room to open trays and covers. Printer makers publish exact clearances, so check the manual. Keep the stand away from heater vents and direct sun, and avoid closing it into a cabinet."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

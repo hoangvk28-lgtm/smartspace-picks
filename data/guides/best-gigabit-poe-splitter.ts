@@ -84,69 +84,154 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real Wattage Output", "description": "Compared documented power delivery from 24W to 51W across the picks." },
-  { "title": "Voltage Selectability", "description": "Compared fixed-voltage splitters against DIP-switch selectable 12V/24V designs." },
-  { "title": "Build Quality", "description": "Compared plastic versus metal housing and IP ratings." },
-  { "title": "Surge and Electrical Protection", "description": "Compared explicit surge protection voltage ratings and isolation design." },
-  { "title": "Value Per Unit", "description": "Compared single-unit versus 2-pack pricing." }
+  {
+    "title": "Real output wattage",
+    "description": "The headline matters less than the DC output. The 802.3bt splitter lists 51W at 12V or 24V, the Procet 25W, and the SICSOLINK and Revotech 24W at 12V/2A, and we compared those against typical loads like cameras, LED lights and small routers, because a 25W splitter on a 30W camera will brown out."
+  },
+  {
+    "title": "Voltage selection",
+    "description": "Some devices need 24V, others 12V. The 802.3bt and Procet pick lists selectable 12V or 24V, while the SICSOLINK and Revotech fix 12V at 2A, so we checked whether the splitter matches the device's power input before comparing price, since a 12V device on a 24V output is destroyed instantly."
+  },
+  {
+    "title": "Gigabit speed and input standard",
+    "description": "We checked that data passes at 1000Mbps and which input is needed. The 802.3bt model requires a PoE++ source for full compatibility, while the others take 802.3af/at, and we treated a stated speed and standard as a safeguard against a mismatch that would leave the camera dark with no error message."
+  },
+  {
+    "title": "Protection and housing",
+    "description": "We compared protection: the Procet's metal shell with IP40 and 6KV surge protection, the SICSOLINK's overcurrent, short circuit and overvoltage protection, and the Revotech's isolation and short circuit protection. Metal and surge protection counted for outdoor or industrial use, where lightning and cabinet heat are the usual failures."
+  },
+  {
+    "title": "Value and support",
+    "description": "The SICSOLINK 2-pack lowers the per-unit cost and lists 24 hour support, while the Revotech is the cheapest single unit. We asked whether a bundle or a single unit better fits a one-device install, since a spare splitter is useful only if you have a second device."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The highest wattage at either 12V or 24V", "802.3bt Gigabit PoE++ Splitter to 12V/24V, 51W"],
-        ["A metal industrial housing with 6KV surge protection", "Procet Gigabit PoE Splitter 12V/24V DC 25W"],
-        ["Two units at a low per-unit price", "SICSOLINK 2-Pack Gigabit Active PoE Splitter"],
-        ["The lowest price for a single 12V unit", "Revotech Gigabit PoE Splitter 48V to 12V 2A"]
+    "subheading": "By Output Wattage",
+    "intro": "The device's draw decides which splitter is big enough.",
+    "table": {
+      "headers": [
+        "Your device draw",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A PTZ camera, light bar or heavy device drawing up to 51W",
+          "802.3bt Gigabit PoE++ Splitter to 12V/24V, 51W, the highest wattage here"
+        ],
+        [
+          "A device drawing up to 25W at 12V or 24V",
+          "Procet Gigabit PoE Splitter 12V/24V DC 25W, with selectable voltage"
+        ],
+        [
+          "A 12V router or camera drawing up to 24W",
+          "SICSOLINK 2-Pack Gigabit Active PoE Splitter, at 12V/2A"
+        ],
+        [
+          "A single 12V device at the lowest cost",
+          "Revotech Gigabit PoE Splitter 48V to 12V 2A"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $14", "Revotech Gigabit Splitter (under $15)"],
-        ["Under $16", "SICSOLINK 2-Pack (under $20)"],
-        ["Under $40", "Procet Gigabit Splitter (under $40)"],
-        ["Under $50", "802.3bt Gigabit PoE++ Splitter, 51W (under $50)"]
+    "subheading": "By Budget",
+    "intro": "Prices range from under $15 to under $50.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $15",
+          "Revotech splitter, the cheapest single unit"
+        ],
+        [
+          "Under $20, two units",
+          "SICSOLINK 2-Pack, for two 12V devices"
+        ],
+        [
+          "Under $40",
+          "Procet splitter, with a metal shell and 6KV surge protection"
+        ],
+        [
+          "Under $50",
+          "The 802.3bt 51W splitter, with all cables included"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Maximum Wattage vs Budget Value",
-    cards: [
-      { label: "Maximum wattage (51W, Procet)", text: "Both offer selectable voltage and higher power ceilings, suited to demanding PTZ cameras and industrial deployments." },
-      { label: "Budget value (SICSOLINK, Revotech)", text: "Both deliver full Gigabit speed and 24W at 12V for standard cameras and access points at a fraction of the price." }
-    ],
-    note: "If your device needs more than 24W or requires 24V, the 51W or Procet picks are worth the investment. For a standard 12V camera or access point, the SICSOLINK or Revotech picks deliver full Gigabit performance at a much lower cost.",
+    "subheading": "Selectable Voltage vs Fixed 12V",
+    "intro": "The choice depends on how many different devices you power.",
+    "cards": [
+      {
+        "label": "Selectable (802.3bt 51W, Procet)",
+        "text": "A DIP switch picks 12V or 24V, so one model covers cameras and LED lights. Wattage can differ by voltage, and you must set the switch before connecting."
+      },
+      {
+        "label": "Fixed 12V (SICSOLINK, Revotech)",
+        "text": "Simple, with nothing to misconfigure, and the cheapest. It only works with 12V devices, so check your device's label."
+      }
+    ]
   },
   {
-    subheading: "By Voltage Need",
-    table: {
-      headers: ["Your device's voltage need", "Recommended pick"],
-      rows: [
-        ["Fixed 12V only", "SICSOLINK 2-Pack or Revotech Gigabit Splitter"],
-        ["Selectable 12V or 24V", "802.3bt Gigabit PoE++ Splitter or Procet Splitter"]
+    "subheading": "By Install Environment",
+    "intro": "Where the splitter lives affects housing needs.",
+    "table": {
+      "headers": [
+        "Where it will sit",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A dusty or industrial cabinet",
+          "Procet, with a metal shell, IP40 and 6KV surge protection"
+        ],
+        [
+          "A weatherproof box near a camera",
+          "802.3bt 51W splitter, with a DC terminal connector for secure wiring"
+        ],
+        [
+          "An office closet with a pair of 12V devices",
+          "SICSOLINK 2-Pack, with a plastic shell"
+        ],
+        [
+          "A home network with one camera",
+          "Revotech, a small low-cost unit"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a High-Power PTZ Camera or LED Lighting Installation Specifically",
-    cards: [
-      { label: "Look for", text: "A splitter with genuinely high wattage output and voltage selectability, since PTZ cameras with motorized functions and LED lighting installations often need more power and different voltages than a standard fixed camera." },
-      { label: "In this comparison", text: "The 802.3bt Gigabit PoE++ Splitter specifically names PTZ cameras and LED strip lights among its supported applications, with 51W available at either voltage." }
-    ],
+    "subheading": "For a Security Camera Install Specifically",
+    "intro": "Cameras need steady voltage and safe power.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A listed output wattage above the camera's draw, the right voltage, and overcurrent and short-circuit protection."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The Procet lists 25W at 12V and 24V with 6KV surge protection, and the SICSOLINK lists overcurrent, short-circuit and overvoltage protection."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need the highest wattage in this comparison for a demanding PTZ camera or LED installation, where the 51W pick's under $50 price is justified by that power ceiling." },
-      { label: "Save if", text: "You just need a standard 12V Gigabit splitter for a basic camera, where the Revotech pick delivers that for under $15, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The splitters differ mostly in wattage and housing.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You power a high-draw device. The 802.3bt 51W splitter costs the most and delivers 51W at either voltage."
+      },
+      {
+        "label": "Save if",
+        "text": "You run a 12V device under 24W. The Revotech and SICSOLINK cost far less with Gigabit speed and protection."
+      }
+    ]
   }
 ];
 

@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Display Configuration by Resolution and Refresh", "description": "Compared exact single, dual, triple, and quad display combinations across all four picks." },
-  { "title": "Charging Wattage by System Type", "description": "Compared stated charging wattage to Dell/Lenovo-specific systems versus non-branded systems." },
-  { "title": "Enterprise IT Management", "description": "Compared cloud-based fleet management, remote firmware updates, and security features." },
-  { "title": "Data Transfer Speed", "description": "Compared stated Gbps and real-world file transfer time figures." },
-  { "title": "Collaborative Software Features", "description": "Compared PC-to-PC sharing and other bundled software capabilities." }
+  {
+    "title": "Charging wattage by laptop brand",
+    "description": "We compared stated power delivery, noting that Dell's SD25TB5 sends up to 300W to Dell systems but 240W to non-Dell laptops. A buyer with a gaming or workstation laptop should confirm the charger rating, since a dock that undercharges leaves the battery draining during heavy work. Confirm your laptop's charger wattage before choosing."
+  },
+  {
+    "title": "Monitor count and refresh rate",
+    "description": "We read display limits for Windows hosts, from Dell's four 4K at 120Hz or one 8K at 60Hz to Lenovo's three 8K at 60Hz. Windows can reach higher counts than Mac, so we credited listings that state the mix of refresh rates. Mixed refresh rates matter for a gaming laptop on the side."
+  },
+  {
+    "title": "Host and OS compatibility",
+    "description": "We checked stated operating system support. The Dell SD25TB5 Pro lists Windows, macOS, ChromeOS and Linux, and fleet buyers often need that range when an office mixes hardware across departments. Linux users in particular should read this line closely."
+  },
+  {
+    "title": "Management and firmware",
+    "description": "We weighed firmware features such as Dell's Wi-Fi firmware updates with WPA3 encryption and Lenovo's cloud-based Fleet Manager. Updates matter on a dock because stale firmware is a common cause of dropped monitors. Skipping an update can leave a monitor flickering for weeks."
+  },
+  {
+    "title": "Creative extras",
+    "description": "We counted extras like ASUS's Thunderbolt Share for PC-to-PC transfers and SD or microSD readers. These can replace separate adapters on a creator's desk, so the premium needs to buy something real. If you never use card readers, skip the premium for them."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The highest Dell-specific charging wattage with a complete bundle", "Dell Pro Thunderbolt 5 Smart Dock SD25TB5"],
-        ["Cloud-based fleet management for organizational deployment", "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500"],
-        ["Thunderbolt Share PC-to-PC sharing for creative collaboration", "ASUS Master Thunderbolt 5 Dock DC510"],
-        ["The same core Dell dock capability at a lower price", "Dell SD25TB5 Pro 300W 12-Port"]
+    "subheading": "By Laptop Brand",
+    "intro": "The same dock charges different laptops at different wattage, so match the brand first.",
+    "table": {
+      "headers": [
+        "Your laptop",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A Dell Precision or XPS that can use 300W",
+          "Dell Pro Thunderbolt 5 Smart Dock SD25TB5, which sends up to 300W to Dell systems"
+        ],
+        [
+          "A Dell laptop where you want the same wattage at a lower price",
+          "Dell SD25TB5 Pro 300W 12-Port Thunderbolt 5 Smart Dock, which keeps the 300W capability"
+        ],
+        [
+          "A ThinkPad in a managed office",
+          "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500, with 180W Power Delivery and fleet management"
+        ],
+        [
+          "An ASUS ProArt or ROG laptop used for creative work",
+          "ASUS Master Thunderbolt 5 Dock DC510, which adds Thunderbolt Share and card readers"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $370", "Lenovo ThinkPad Thunderbolt 5 Smart Dock (under $400)"],
-        ["Under $390", "Dell SD25TB5 Pro 12-Port (under $400)"],
-        ["Under $460", "Dell Pro SD25TB5 Bundle (under $500)"],
-        ["Under $635", "ASUS Master Thunderbolt 5 Dock DC510 (under $650)"]
+    "subheading": "By Budget",
+    "intro": "Dell and ASUS sit at the top, while Lenovo and the Pro variant undercut the original Dell.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "You want the lowest cost among these Thunderbolt 5 docks",
+          "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500, which costs less than the Dell SD25TB5"
+        ],
+        [
+          "You want Dell's 300W capability for less money",
+          "Dell SD25TB5 Pro 300W 12-Port Thunderbolt 5 Smart Dock, the value pick here"
+        ],
+        [
+          "You will pay for the full cable bundle and wireless updates",
+          "Dell Pro Thunderbolt 5 Smart Dock SD25TB5, priced under $500"
+        ],
+        [
+          "You will pay the highest price for creative extras",
+          "ASUS Master Thunderbolt 5 Dock DC510, which costs significantly more than the rest"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Dell-Optimized Charging vs Cross-Brand Fleet Management",
-    cards: [
-      { label: "Dell-optimized charging (both Dell picks)", text: "Delivers the highest stated 300W charging specifically to Dell systems, with a real drop to 240W for non-Dell laptops." },
-      { label: "Cross-brand fleet management (Lenovo)", text: "Offers cloud-based AWS management specifically designed for organizations managing docks across potentially mixed laptop fleets." }
+    "subheading": "300W Brand Pairing vs 180W Generic Charging",
+    "intro": "Wattage only matters if the laptop can use it.",
+    "cards": [
+      {
+        "label": "300W Dell path (Dell SD25TB5 and SD25TB5 Pro)",
+        "text": "Dell systems can draw up to 300W while non-Dell laptops are capped at 240W. This helps high-power workstations that need the full feed."
+      },
+      {
+        "label": "180W path (Lenovo 7500)",
+        "text": "The Lenovo dock sends 180W Power Delivery, enough for most thin-and-light and mainstream laptops, but short for a heavy gaming workstation under full load."
+      }
     ],
-    note: "If you're standardized on Dell hardware and want maximum charging wattage, either Dell pick delivers that. If you're managing a broader organizational fleet, Lenovo's cloud management platform is worth considering.",
+    "note": "Most Windows buyers should default to 180W unless the laptop's charger is rated at 200W or more."
   },
   {
-    subheading: "By Display Configuration Needed",
-    table: {
-      headers: ["Your display setup", "Recommended pick"],
-      rows: [
-        ["Up to four 4K@120Hz or single 8K@60Hz", "Either Dell SD25TB5 pick"],
-        ["Up to three 8K@60Hz or mixed high-refresh configurations", "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500"]
+    "subheading": "By Display Setup",
+    "intro": "Windows hosts reach higher monitor counts than Macs, so pick by the layout you want.",
+    "table": {
+      "headers": [
+        "Your display plan",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Four 4K monitors at 120Hz",
+          "Dell Pro Thunderbolt 5 Smart Dock SD25TB5, which lists four 4K at 120Hz"
+        ],
+        [
+          "Up to three 8K displays at 60Hz",
+          "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500, with a flexible mix of 8K and 4K options"
+        ],
+        [
+          "Two 8K screens or three 4K displays from three Thunderbolt 5 ports",
+          "ASUS Master Thunderbolt 5 Dock DC510, which supports that combination"
+        ],
+        [
+          "A single 8K or a mix of HDMI 2.1 and DisplayPort 2.1 monitors",
+          "Dell SD25TB5 Pro 300W 12-Port Thunderbolt 5 Smart Dock, with 2 DP 2.1 and an HDMI 2.1 port"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Creative Professionals Sharing Files Between Computers Specifically",
-    cards: [
-      { label: "Look for", text: "A dock with dedicated PC-to-PC sharing software that operates at Thunderbolt speeds, so transferring large project files or sharing a workstation between two machines doesn't require a separate network transfer." },
-      { label: "In this comparison", text: "The ASUS Master Thunderbolt 5 Dock DC510 specifically includes Thunderbolt Share software for secure, fast PC-to-PC screen, keyboard, mouse, and storage sharing." }
-    ],
+    "subheading": "For IT-Managed Offices Specifically",
+    "intro": "A fleet cares about remote updates and broad host support more than one-desk performance.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Remote firmware management, WPA3-secured updates, and operating system support that covers the mix of Windows, macOS and Linux laptops."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500 uses AWS-powered Fleet Manager, and Dell Pro Thunderbolt 5 Smart Dock SD25TB5 updates firmware over Wi-Fi with WPA3 encryption."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You specifically want Thunderbolt Share's PC-to-PC sharing for creative collaboration, where the ASUS DC510 justifies its under $650 price." },
-      { label: "Save if", text: "You want the same core Dell TB5 dock capability without a cable bundle, where the Dell SD25TB5 Pro 12-Port delivers that for under $400." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The most expensive Windows docks justify the money only for specific jobs.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need PC-to-PC sharing and card readers for camera work, where ASUS Master Thunderbolt 5 Dock DC510 includes Thunderbolt Share and a stated 6-second 20GB transfer."
+      },
+      {
+        "label": "Save if",
+        "text": "You are fine with 12 ports and Dell's 300W, where Dell SD25TB5 Pro 300W 12-Port Thunderbolt 5 Smart Dock delivers the same core capability for less."
+      }
+    ]
   }
 ];
 
@@ -182,7 +268,7 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will I get the full 300W charging if I use a Dell Thunderbolt 5 dock with my HP or Lenovo laptop?", "a": "No, both Dell picks in this comparison specifically state 300W charging applies to Dell systems only, with non-Dell systems limited to 240W, so an HP or Lenovo laptop would receive the lower figure." },
+  { "q": "Will I get the full 300W charging if I use a Dell Thunderbolt 5 dock with my HP or Lenovo laptop?", "a": "No. Dell lists up to 300W for Dell systems but 240W for non-Dell laptops, and the laptop only draws what its own charger rating allows, so an HP or Lenovo ThinkPad may charge at its normal wattage, not 300W. Check your laptop's original charger rating against the dock's non-Dell figure before buying." },
   { "q": "What's the most common mistake buyers make when choosing a Thunderbolt 5 dock for Windows?", "a": "Assuming all Thunderbolt 5 docks deliver identical display and charging capabilities based on similar branding, when the exact display combinations, refresh rates, and charging wattage figures vary meaningfully between specific models even within the same brand." },
   { "q": "Is the ASUS DC510 worth its significant price premium over the Dell or Lenovo picks?", "a": "If you specifically need Thunderbolt Share's PC-to-PC sharing capability for creative collaboration or file transfer between computers, the ASUS DC510's premium is justified, but for standard multi-display docking without that specific feature, the Dell or Lenovo picks deliver comparable core functionality for less." },
   { "q": "Can I use the Dell SD25TB5 12-Port dock without the included cable bundle version?", "a": "Yes, the 12-Port pick is a separate, lower-priced listing without the bundled cables that the pricier SD25TB5 bundle includes, so if you already own compatible DisplayPort, HDMI, and Ethernet cables, the 12-Port version saves money." },

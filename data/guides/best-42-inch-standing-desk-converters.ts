@@ -120,116 +120,158 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Required confirmed 42 inch platform width", description: "We verified this exact dimension across manual, electric, and wood-construction options rather than including rounded nearby sizes." },
-  { title: "Distinguished manual and electric mechanisms at this specific size", description: "We compared the real price gap between manual and electric options, all confirmed at 42 inches." },
-  { title: "Flagged the confirmed wood-construction option separately", description: "We noted TechOrbits as the only confirmed MDF wood platform at this size, distinct from the metal-frame VIVO and FlexiSpot alternatives." },
-  { title: "Included a confirmed color variant for the top pick", description: "We noted the white finish version of VIVO's 42 inch design shares the same proven review pool as the black original." }
+  {
+    "title": "Manual versus electric lift",
+    "description": "Four picks lift by hand and two (the FlexiSpot electric and the VIVO DESK-VE42B) use a motor. We compared them separately, since an electric lift costs noticeably more at this size and adds a power cord, but removes the strain of cranking a heavy deck loaded with two monitors."
+  },
+  {
+    "title": "Deck width for dual or ultrawide setups",
+    "description": "At 42 inches a deck fits two monitors side by side with a keyboard centered, or one ultrawide. We read listed widths and noted the TechOrbits uses MDF wood construction, which is heavier but gives a flatter surface than a thin laminate. Two ultrawide monitors will not fit even here, so we noted that the deck suits two standard monitors or one wide display."
+  },
+  {
+    "title": "Finish and desk matching",
+    "description": "The VIVO comes in black (DESK-V042KB) and white (DESK-V042KW), and the TechOrbits is wood-look MDF. Finish matters on a 42 inch deck because it covers most of a desk and sets the visual weight of the workstation. On a wide deck the surface color is a large share of what you see all day."
+  },
+  {
+    "title": "Price premium for a motor",
+    "description": "Manual decks run from under $150 to under $200, while electric versions run under $220 and under $240. We weighed whether the motor price buys a memory preset or smoother lift, and only credited it where the listing stated electric lift. A memory preset is the usual payoff for the motor price, but the listings here do not mention one, so the motor counted for convenience only."
+  },
+  {
+    "title": "Stability under a wide load",
+    "description": "A 42 inch deck puts weight farther from the lift arms than a 36 inch one. We treated stability as a question to verify, because the listings in our data do not state a rating, and told buyers to check capacity and wobble reports before loading two monitors."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Platform Size",
+    "subheading": "By Lift Type",
+    "intro": "The first decision at 42 inches is manual or motorized.",
     "table": {
       "headers": [
-        "Your monitor setup",
-        "Recommended pick in this comparison"
+        "Your priority",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Single monitor or laptop, small desk",
-          "TechOrbits Standing Desk Converter"
+          "The lowest cost with a manual lift",
+          "FLEXISPOT Standing Desk Converter 42 Inch Extra Large Ergonomic, at the lowest manual price"
         ],
         [
-          "Dual monitors",
-          "VIVO Black 42 in Standing Desk Converter"
+          "A manual lift in black on a dark desk",
+          "DESK-V042KB VIVO 42 inch, with a manual lift"
         ],
         [
-          "Triple monitors, need maximum surface area",
-          "VIVO Black 42 in Standing Desk Converter"
+          "A manual lift in white for a light desk",
+          "DESK-V042KW VIVO 42 inch white, confirmed finish"
+        ],
+        [
+          "A motor that changes height at the push of a button",
+          "DESK-VE42B VIVO Electric Desk Converter, at a lower electric price"
+        ],
+        [
+          "A motor from a long-established standing-desk brand",
+          "FLEXISPOT 42 Inch Electric Motor Desk Converter, the most expensive pick here"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Manual picks cluster near $150 to $200, and electric picks are above.",
     "table": {
       "headers": [
-        "Price range",
+        "Price tier",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $162",
-          "FLEXISPOT Standing Desk Converter 42 Inch"
+          "Under $150, manual",
+          "FLEXISPOT Standing Desk Converter 42, the cheapest 42 inch deck"
         ],
         [
-          "Mid-range",
-          "TechOrbits Standing Desk Converter"
+          "Under $165, black VIVO",
+          "DESK-V042KB, with a manual lift"
         ],
         [
-          "No firm budget ceiling, prioritizing lift quality or brand",
-          "FLEXISPOT 42 Inch Electric Motor Desk Converter"
+          "Under $180, white VIVO",
+          "DESK-V042KW, with a white finish"
+        ],
+        [
+          "Under $200, MDF wood",
+          "TechOrbits 42 Inch, with MDF construction"
+        ],
+        [
+          "Under $220, electric",
+          "DESK-VE42B, the lowest electric pick"
         ]
       ]
     }
   },
   {
-    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "subheading": "Manual Lift vs Electric Motor",
+    "intro": "This choice affects daily use more than width does.",
     "cards": [
       {
-        "label": "Manual (Gas-Spring)",
-        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO Black 42 in Standing Desk Converter, VIVO White 42 in Standing Desk Converter, FLEXISPOT Standing Desk Converter 42 Inch."
+        "label": "Manual (DESK-V042KB, DESK-V042KW, FLEXISPOT Standing Desk Converter 42, TechOrbits)",
+        "text": "Costs less, has no cord, and changes height in seconds with a handle or lever. A loaded 42 inch deck can be heavy to lift, so the effort rises with monitor weight."
       },
       {
-        "label": "Electric (Motorized)",
-        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: FLEXISPOT 42 Inch Electric Motor Desk Converter, VIVO Black 42 inch Electric Desk Converter."
+        "label": "Electric (DESK-VE42B, FLEXISPOT 42 Inch Electric)",
+        "text": "A button does the work, which helps people who change position often or have wrist and shoulder strain. The price is higher and you need an outlet next to the desk."
       }
     ],
-    "note": "Most buyers should default to a manual pick like FLEXISPOT Standing Desk Converter 42 Inch unless you'll adjust height multiple times a day, in which case FLEXISPOT 42 Inch Electric Motor Desk Converter's push-button lift is worth the premium."
+    "note": "If you sit and stand more than twice a day, buy electric; otherwise manual is plenty."
   },
   {
-    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "subheading": "By Desk Finish",
+    "intro": "A 42 inch deck covers a lot of desk surface, so the finish matters.",
     "table": {
       "headers": [
-        "What you're weighing",
+        "Your desk",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Highest star rating",
-          "VIVO Black 42 in Standing Desk Converter"
+          "A black or dark desk",
+          "DESK-V042KB, in black"
         ],
         [
-          "Largest review base (more statistical confidence)",
-          "VIVO Black 42 in Standing Desk Converter"
+          "A white or light desk",
+          "DESK-V042KW, in white"
+        ],
+        [
+          "A wood-look or home-office desk",
+          "TechOrbits, with MDF construction"
         ]
       ]
     }
   },
   {
     "subheading": "For a Dual-Monitor Setup Specifically",
+    "intro": "A 42 inch deck is the entry size where two monitors fit with room to spare.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+        "text": "A listed deck depth deep enough for a keyboard, a weight rating that covers both monitors, and a motor if the load is heavy."
       },
       {
         "label": "In this comparison",
-        "text": "VIVO Black 42 in Standing Desk Converter fits this specifically: Largest review base of any confirmed 42 inch converter."
+        "text": "The DESK-VE42B gives an electric lift at a lower price than the FLEXISPOT 42 Inch Electric, and the FLEXISPOT Standing Desk Converter 42 is the lowest-cost manual option."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "The 48 inch guide is the next size up.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what FLEXISPOT 42 Inch Electric Motor Desk Converter offers: Strongest review base among 42 inch electric options. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "You change position often. The FLEXISPOT 42 Inch Electric and DESK-VE42B are the only motorized picks, and the 48 inch standing desk converter guide offers a wider deck."
       },
       {
         "label": "Save if",
-        "text": "FLEXISPOT Standing Desk Converter 42 Inch already covers the essentials: Lower price than the VIVO options at this size. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+        "text": "You change position once or twice a day. The FLEXISPOT Standing Desk Converter 42 is the cheapest and the DESK-V042KB costs only a little more."
       }
     ]
   }
@@ -237,33 +279,52 @@ export const howToChoose: HowToChooseSection[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Measure your existing desk's height before ordering",
-    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all.\n\nThis matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand.\n\nBefore ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+    "criterion": "Manual or motorized lift",
+    "explanation": "The picks here split between manual levers and electric motors, and the motor adds cost and a power cord. A manual lift takes effort that rises with monitor weight, while a motor lifts at a button. Decide how often you will change position, and check the listing for a cord and outlet needs.  If you stand rarely, a manual lift is usually enough, and a motor pays off for people who switch several times a day."
   },
   {
-    "criterion": "Match platform size to your actual number of monitors",
-    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up.\n\nA platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge.\n\nCheck the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+    "criterion": "Deck material and weight",
+    "explanation": "The TechOrbits uses MDF wood, while most others are metal or laminate. MDF is heavier and flat, but swells with moisture and adds weight to a lift. Read the material in the bullets, and confirm the capacity accounts for the deck's own weight.  A wood deck also needs a dry room and a coaster for drinks."
   },
   {
-    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
-    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price.\n\nIf you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying.\n\nCheck the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+    "criterion": "Two monitors or one ultrawide",
+    "explanation": "At 42 inches a deck fits two standard monitors or one ultrawide with room for a keyboard. Ultrawide monitors have wide feet, so measure the stand. Check the deck width against your monitor's stand and base, and verify there is enough room for a mouse.  Ultrawide monitors often have a central foot, which frees space on the sides."
   },
   {
-    "criterion": "Check your desk's depth against the converter's base footprint",
-    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base.\n\nThis matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view.\n\nCheck the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+    "criterion": "Finish against your desk",
+    "explanation": "A 42 inch deck covers much of the desk surface, so black and white options such as the VIVO pair change the look. Check the exact color named in the listing, because photos can differ. A mismatched finish is a reason people return a large item.  The white VIVO listing names a confirmed white finish, which is why it costs more than the black one."
   },
   {
-    "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "criterion": "Lowest height at seated work",
+    "explanation": "Even a wide deck should sit low enough for a comfortable seated reach. The listing's minimum height matters more than the maximum standing height. Add it to your desk height, and make sure your elbows stay near 90 degrees when you sit.  A comfortable seated reach also keeps your shoulders relaxed during long typing sessions."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which 42 inch converter has the most reviews?", a: "The VIVO Black 42 in Standing Desk Converter, sharing VIVO's massive K Series review pool." },
-  { q: "Is there an electric 42 inch converter?", a: "Yes, both the FLEXISPOT 42 Inch Electric Motor Desk Converter and the VIVO Black 42 inch Electric Desk Converter." },
-  { q: "Is there a wood-construction 42 inch converter?", a: "Yes, the TechOrbits Standing Desk Converter, 42 Inch, confirmed genuine MDF wood construction." },
-  { q: "What's the cheapest confirmed 42 inch option?", a: "The FLEXISPOT Standing Desk Converter 42 Inch, Extra Large Ergonomic, at under $150." },
-  { q: "Is there a white 42 inch converter?", a: "Yes, the VIVO White 42 in Standing Desk Converter, DESK-V042KW, sharing the same proven review pool as the black version." }
+  {
+    "q": "Can a 42 inch standing desk converter hold two monitors?",
+    "a": "Yes, a 42 inch deck suits two monitors side by side with the keyboard centered. Check the weight rating on the listing, since this size puts the load farther from the lift arms than a 36 inch deck does. Allow a few inches of clearance between the monitor bases."
+  },
+  {
+    "q": "Is an electric 42 inch converter worth it over a manual one?",
+    "a": "It is worth it if you change position often or lift heavy monitors. The FlexiSpot electric and VIVO DESK-VE42B cost noticeably more than manual picks, and remove the effort of lifting a loaded deck. For a light, occasional switch, manual is fine."
+  },
+  {
+    "q": "What is the difference between the VIVO V042KB and V042KW?",
+    "a": "They are the same manual 42 inch converter in black and white. The white version lists a confirmed white finish. Pick by desk color, since a deck this wide covers much of the desk. The two differ only in color."
+  },
+  {
+    "q": "How do I set up an electric converter?",
+    "a": "Place it on the desk, plug it in, and position cables with slack for the rise. Press the control to raise the deck and test the full travel with the monitors on before you start working. Test the full travel before loading both monitors."
+  },
+  {
+    "q": "Should I worry about wobble at 42 inches?",
+    "a": "A little. A wide deck raised to its top height sways more than a narrow one. Keep heavy monitors near the center, avoid leaning on the deck, and check reviews for wobble at full height. Check reviews for sway at the top setting."
+  },
+  {
+    "q": "Why is the TechOrbits MDF deck different?",
+    "a": "The listing says MDF wood construction, which is heavier than metal or laminate and gives a flat, solid surface. It adds weight to the lift, so check the capacity, and keep it away from moisture. Keep it dry, since MDF swells with moisture."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

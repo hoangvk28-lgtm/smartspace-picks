@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41lofKDrw0L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B01EIZSF6I?tag=deskfinds0d-20",
-    "description": "Farberware is a 1.1 cubic foot, 1000 watt stainless microwave with ten power levels, six one-touch settings, express cooking buttons for 1 to 6 minutes, and an add 30 seconds control. The interior is easy to clean and has a light.\n\nIt costs under $120, about $30 more than BLACK+DECKER and Frigidaire, which have similar specs.\n\nChoose it if you like Farberware. The caveat is that the price gap is not backed by new features in the listing.",
+    "description": "Farberware is a 1.1 cubic foot, 1000 watt stainless microwave with ten power levels, six one-touch settings, express cooking buttons for 1 to 6 minutes, and an add 30 seconds control. The interior is easy to clean and has a light.\n\nIt costs under $120, under $40 more than BLACK+DECKER and Frigidaire, which have similar specs.\n\nChoose it if you like Farberware. The caveat is that the price gap is not backed by new features in the listing.",
     "specs": [
       "1.1 cu ft, 1000W",
       "10 power levels, 6 one-touch",
@@ -219,47 +219,51 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Output watts versus input watts",
-    "explanation": "Output watts is the power that cooks the food, while input watts is what the outlet draws and is higher. Package directions usually assume about 1000 watts, so a 700 watt microwave needs longer times. Look for output watts in the title or specs, and confirm which number a dorm cap refers to."
+    "explanation": "Output watts is the power that cooks the food, while input watts is what the outlet draws and is higher. Package directions usually assume about 1000 watts, so a 700 watt microwave needs longer times. Look for output watts in the title or specs, and confirm which number a dorm cap refers to. Dorm rules sometimes cap wattage, so confirm the limit before buying a 1000W unit. Dorm rules sometimes cap wattage, so confirm the limit before buying a 1000W unit and keep the manual handy."
   },
   {
     "criterion": "Cooking time at lower power",
-    "explanation": "Retailer examples show soup taking 3:35 in a 1000 watt microwave and 5:10 in a 700 watt one. That matters for a student making quick lunches. Add time and stir for compact units."
+    "explanation": "Retailer examples show soup taking 3:35 in a 1000 watt microwave and 5:10 in a 700 watt one. That matters for a student making quick lunches. Add time and stir for compact units. Add 30 to 60 seconds and stir midway when using a 700 watt unit with a 1000 watt recipe. Add 30 to 60 seconds and stir midway when using a 700 watt unit with a 1000 watt recipe, and expect uneven heating in dense food."
   },
   {
     "criterion": "Turntable diameter",
-    "explanation": "Cubic feet does not say if a dinner plate fits. A standard plate is about 10 to 11 inches, and many compact models have a smaller turntable. Look for the turntable diameter in inches in the spec sheet."
+    "explanation": "Cubic feet does not say if a dinner plate fits. A standard plate is about 10 to 11 inches, and many compact models have a smaller turntable. Look for the turntable diameter in inches in the spec sheet. If your favorite plate is 11 inches, a 10 inch turntable will not rotate it, so measure first. If your favorite plate is 11 inches, a 10 inch turntable will not rotate it, so measure your plate first."
   },
   {
     "criterion": "Footprint and shelf fit",
-    "explanation": "A 1.1 cubic foot microwave can be 20 inches wide and 15 inches tall, which is too big for many dorm shelves. Measure your space and add ventilation clearance. Compare exterior dimensions."
+    "explanation": "A 1.1 cubic foot microwave can be 20 inches wide and 15 inches tall, which is too big for many dorm shelves. Measure your space and add ventilation clearance. Compare exterior dimensions. Leave several inches of ventilation clearance, since a microwave that cannot breathe may overheat. Leave several inches of ventilation clearance, since a microwave that cannot breathe may overheat and trip a shared outlet."
   },
   {
     "criterion": "Dorm and fridge top rules",
-    "explanation": "Placing a microwave on a mini fridge needs both manuals to allow it and the fridge top to carry the weight. A 35 pound unit may exceed some limits. Check each manual."
+    "explanation": "Placing a microwave on a mini fridge needs both manuals to allow it and the fridge top to carry the weight. A 35 pound unit may exceed some limits. Check each manual. Read both manuals and use a separate shelf if either says no stacking. Read both manuals and use a separate shelf if either says no stacking, since fridge tops vary a lot."
   },
   {
     "criterion": "Controls and safety features",
-    "explanation": "Child lock, mute and presets all affect daily use. A dial is simple but a digital panel has presets. Look for the features in the bullets."
+    "explanation": "Child lock, mute and presets all affect daily use. A dial is simple but a digital panel has presets. Look for the features in the bullets. A mute option or child lock matters in a shared room, so list the controls you will use daily. A mute option or child lock matters in a shared room, so list the controls you will use daily and match them to the panel."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Output power",
-    "description": "We compared listed output watts."
+    "title": "Output wattage and cook time",
+    "description": "We compared listed output watts, because a 700 watt microwave needs longer times than a 1000 watt one. BLACK+DECKER, Frigidaire and Farberware list 1000W, Chefman 900W, Nostalgia 800W and the compact BLACK+DECKER and Commercial Chef 700W. Soup can take roughly 1.5 minutes longer on 700W. Check the number in the listing."
   },
   {
-    "title": "Size and fit",
-    "description": "We compared interior and exterior dimensions and turntable data where listed."
+    "title": "Interior size and turntable",
+    "description": "Cubic feet does not tell you if a dinner plate fits. The compact BLACK+DECKER lists a 10 inch turntable and a 14.2 x 12.8 x 8.1 inch interior, while the 1.1 cu ft models fit larger plates. We checked listed dimensions, not just capacity. Plate fit is a daily annoyance."
   },
   {
-    "title": "Controls and safety",
-    "description": "Child lock, mute and presets were weighed."
+    "title": "Footprint and shelf fit",
+    "description": "A 1.1 cu ft microwave can be 20 inches wide and 15 inches tall. Frigidaire lists 21 x 18 x 15 inches and 35 lb, while Commercial Chef is 17.75 x 13.44 x 9.56 inches. We compared picks against typical dorm shelves. Shelf depth varies by dorm."
   },
   {
-    "title": "Price",
-    "description": "Every pick is under $150 when gathered."
+    "title": "Controls and daily use",
+    "description": "Dial timers are simple, while digital panels have presets. Commercial Chef uses a mechanical dial, Chefman has mute and eco modes, and Farberware has express keys for 1 to 6 minutes. We matched controls to who will use it. Choose by who uses it."
+  },
+  {
+    "title": "Placement and safety rules",
+    "description": "Putting a microwave on a mini fridge needs both manuals to allow it and the fridge top to carry the weight. A 35 lb Frigidaire may exceed limits. We flagged weight and clearance, since dorms often have rules. Weight limits are easy to overlook."
   }
 ];
 
@@ -400,28 +404,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "How many watts does a dorm allow?",
-    "a": "It depends on the school. One school lists 900 to 1200 watts and another caps at 1000, so ask whether the limit is output or input. The BLACK+DECKER 0.7 Cu Ft at 700W is the lowest-draw pick if you hit a cap."
+    "q": "Is 700 watts enough for a dorm microwave?",
+    "a": "Yes for reheating, drinks and simple meals, but it takes longer. The BLACK+DECKER 0.7 cu ft and Commercial Chef are 700W. If you heat frozen meals often, take a 1000W model like the BLACK+DECKER 1.1 cu ft."
   },
   {
-    "q": "Do I need 1000 watts?",
-    "a": "Package times assume near 1000 watts. Lower wattage works but needs more time. The BLACK+DECKER, Frigidaire and Farberware 1.1 Cu Ft models are 1000W, while the Chefman is 900W and the Nostalgia Retro 800W."
+    "q": "What mistake do buyers make with microwave size?",
+    "a": "Trusting cubic feet. A 0.9 cu ft Chefman can still be too wide for your shelf, and the turntable might not fit a 10 inch plate. Compare exterior and interior dimensions to your shelf and your dishes."
   },
   {
-    "q": "Can I put a microwave on a mini fridge?",
-    "a": "Only if both manuals allow it and the fridge top supports the weight. The Frigidaire 1.1 Cu Ft is listed at 35 lb, which many small fridges are not rated to carry."
+    "q": "Is the Farberware worth more than the BLACK+DECKER 1.1 cu ft?",
+    "a": "Both list 1000W and 1.1 cu ft. Farberware costs more, with 10 power levels and 1 to 6 minute express keys, while the BLACK+DECKER is under $100 with 6 presets. Pay more only if you want the express keys."
   },
   {
-    "q": "Will a dinner plate fit?",
-    "a": "Check the turntable diameter. The BLACK+DECKER 0.7 Cu Ft has a 10 inch turntable, which fits smaller plates but not a large dinner plate. A 1.1 cu ft model gives more room."
+    "q": "How do I set up a microwave in a small room?",
+    "a": "Leave clearance for ventilation on the sides, back and top as the manual states, place it on a stable surface, and keep the cord away from water. Check outlet capacity, since 1000W models can overload shared power strips."
   },
   {
-    "q": "Are microwave fridge combos allowed?",
-    "a": "Some schools rent them. Check your school, and if you buy your own, a compact unit like the Commercial Chef 0.6 Cu Ft at 17.75 x 13.44 x 9.56 inches is the easiest to fit."
+    "q": "Can I put a microwave on top of a mini fridge?",
+    "a": "Only if both manuals allow it and the fridge top supports the weight. A 35 lb microwave may exceed some limits. Ventilation matters too, so when in doubt, use a separate shelf or cart."
   },
   {
-    "q": "What does mute do?",
-    "a": "It silences beeps, which helps in a shared room. The Chefman 0.9 Cu Ft lists a mute option, so late-night reheating will not wake a roommate."
+    "q": "How do I clean and maintain a microwave?",
+    "a": "Wipe the interior after use, steam with a bowl of water and lemon for stuck food, and clean the turntable. Do not run it empty. A clean door seal and a turntable that spins freely keep it working properly."
   }
 ];
 

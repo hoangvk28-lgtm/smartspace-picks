@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Polling Rate and Latency", "description": "Compared stated polling rates, from standard to 8000Hz, and their minimum hardware requirements." },
-  { "title": "Programmability", "description": "Checked QMK support and web-based launcher tools versus proprietary driver software." },
-  { "title": "Connectivity Flexibility", "description": "Compared wired-only designs against tri-mode wireless connectivity options." },
-  { "title": "Hot-Swap and Build Material", "description": "Compared switch hot-swap support and case material, plastic versus aluminum, across the lineup." },
-  { "title": "Switch Feel Variety", "description": "Compared linear, tactile, and specialty switch types offered across the four picks." }
+  { "title": "Polling rate for gaming", "description": "We compared polling claims, with both Keychron boards at 8000Hz. A polling rate of 1000Hz is enough for most everyday use, and 4000 to 8000Hz is more future-proofing than a need, so we weighted it as a bonus, not a requirement. The Logitech G413 and AULA F75 Pro do not list a polling figure at all." },
+  { "title": "Programmability", "description": "We checked firmware support, including the Keychron V1's QMK via web launcher. Being able to remap keys without installing software helps on shared or locked-down computers, while the Logitech G413 is a plain wired board without that web-based remapping. The AULA F75 Pro adds a multi-function knob but no QMK listing." },
+  { "title": "Layout and key sizes", "description": "We compared a 75% layout on the V1 and AULA F75 Pro with TKL on the V3 and Logitech G413. A 75% board is compact, but its right-side keys may use unusual sizes, which can complicate buying replacement keycaps. The G413 and V3 are TKL, which keeps a full arrow cluster." },
+  { "title": "Switch type and feel", "description": "We noted the V3's tactile banana switches and the G413's tactile switches against the V1's linear options. Tactile switches give a small bump that helps typing accuracy, while linear switches slide smoothly for gaming. The AULA F75 Pro adds RGB and wireless at a lower cost than the Keychron V1." },
+  { "title": "Build materials and wireless", "description": "We compared the G413's aluminum top case with the AULA F75 Pro's tri-mode wireless and 4000mAh battery. Metal feels sturdier, while wireless saves cable clutter, so one of them has to matter more for your desk. The Keychron V1 combines gasket foam with a QMK-ready PCB." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "Under $75 includes both 8000Hz Keychron boards, so the first table separates people who benefit from that polling rate from those who do not.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "These sit within under $20, so budget differences mostly reflect metal casing, wireless, or QMK programmability.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -133,6 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Switch Feel Preference",
+    intro: "A second axis is wired versus wireless, since only the AULA F75 Pro here has tri-mode connectivity.",
     table: {
       headers: ["Your switch preference", "Recommended pick"],
       rows: [
@@ -153,7 +156,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest polling rate with full QMK programmability, where the Keychron V1 or V3 delivers that at the top of this tier." },
-      { label: "Save if", text: "You want a genuinely durable aluminum build without needing hot-swap or wireless features, where the Logitech G413 TKL SE covers that for about $15 less." }
+      { label: "Save if", text: "You want a genuinely durable aluminum build without needing hot-swap or wireless features, where the Logitech G413 TKL SE covers that for under $20 less." }
     ],
   }
 ];
@@ -183,8 +186,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Will the Keychron V1 or V3's 8000Hz polling rate work at all on an older processor, just without the full benefit?", "a": "Yes, the keyboard still functions normally on older systems, but the listing specifically notes that reliably sustaining the full 8000Hz data transmission rate requires an Intel i7 9th gen, AMD Ryzen 7 2nd gen, or newer processor, so older systems may not see the complete latency improvement." },
-  { "q": "What's the most common mistake buyers make when choosing between the Keychron V1 and V3 at the same price?", "a": "Assuming there's a meaningful price or performance difference between them, when the actual choice comes down entirely to layout preference (75% versus TKL) and switch feel (linear versus tactile), since both share the same 8000Hz polling rate and hot-swap support." },
-  { "q": "Is the AULA F75 Pro worth it over the cheaper Logitech G413 TKL SE?", "a": "If you specifically want tri-mode wireless connectivity and hot-swap switch support, yes, but if a genuinely durable aluminum build at the lowest price matters more, the Logitech pick covers that for about $10 less." },
+  { "q": "Do I need 8000Hz polling on a budget board?", "a": "No. A 1000Hz rate is plenty for typing and most games, and higher rates like the 8000Hz on the Keychron V1 and V3 are mostly future-proofing. Windows or USB hub limits can also cap the benefit, so only competitive players will notice." },
+  { "q": "Is the AULA F75 Pro worth it over the cheaper Logitech G413 TKL SE?", "a": "If you specifically want tri-mode wireless connectivity and hot-swap switch support, yes, but if a genuinely durable aluminum build at the lowest price matters more, the Logitech pick covers that for under $15 less." },
   { "q": "How do I switch between the AULA F75 Pro's gaming mode and office mode?", "a": "A long press on the multi-function knob for about 5 seconds toggles between the two modes, after which rotating and clicking the knob controls different functions depending on which mode is active." },
   { "q": "Can I hot-swap the switches on the Logitech G413 TKL SE like the other three picks in this comparison?", "a": "No, the G413 TKL SE does not support hot-swappable switches, so if switch customization is a priority, one of the other three picks in this tier is the better choice." },
   { "q": "Do any of these keyboards work without installing manufacturer software?", "a": "Yes, all four picks function for basic typing without required software, though the Keychron V1 and V3's QMK remapping features require the web-based Keychron Launcher, and the AULA F75 Pro's macro programming requires its dedicated driver." }

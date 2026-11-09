@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41M3DVPx+RL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GLG26RH6?tag=deskfinds0d-20",
-    "description": "FIGERM is a flannel and sherpa wearable with a hood, buckles and pockets, offering 6 heat levels from 86 to 113F and a 1 to 12 hour timer. The listing cites ETL and FCC marks, an auto shut-off, overheat protection and a 13 foot power cord.\n\nThe 13 foot cord is the longest of any plug-in here, which matters when the outlet is behind your desk. Compared with Bedsure below, it costs about $9 more but frees your hands in a wearable shape.\n\nBest for office workers who want hands free and a long reach. The caveat is the plug-in nature, so walking away still needs unplugging, and the controller must be removed before washing.",
+    "description": "FIGERM is a flannel and sherpa wearable with a hood, buckles and pockets, offering 6 heat levels from 86 to 113F and a 1 to 12 hour timer. The listing cites ETL and FCC marks, an auto shut-off, overheat protection and a 13 foot power cord.\n\nThe 13 foot cord is the longest of any plug-in here, which matters when the outlet is behind your desk. Compared with Bedsure below, it costs under $10 more but frees your hands in a wearable shape.\n\nBest for office workers who want hands free and a long reach. The caveat is the plug-in nature, so walking away still needs unplugging, and the controller must be removed before washing.",
     "specs": [
       "6 levels, 86F to 113F",
       "1 to 12 hour timer",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51QIrqZYz6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H2YTYLYH?tag=deskfinds0d-20",
-    "description": "BEARKISS is a 50 by 60 inch throw in flannel and sherpa with 9 heat levels, an auto-off timer of up to 10 hours and ETL and FCC marks. It is machine washable and available in larger sizes.\n\nIt costs under $30, about $7 less than Bedsure, and gives more heat levels but no preheat. Against Aheadpret, it has a longer timer window.\n\nChoose it for a budget throw with more heat steps. The caveat is that cord length and wattage are not listed.",
+    "description": "BEARKISS is a 50 by 60 inch throw in flannel and sherpa with 9 heat levels, an auto-off timer of up to 10 hours and ETL and FCC marks. It is machine washable and available in larger sizes.\n\nIt costs under $30, under $10 less than Bedsure, and gives more heat levels but no preheat. Against Aheadpret, it has a longer timer window.\n\nChoose it for a budget throw with more heat steps. The caveat is that cord length and wattage are not listed.",
     "specs": [
       "9 heat levels",
       "Up to 10 hour auto-off",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41xPFrKYMOL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H2XRJNHF?tag=deskfinds0d-20",
-    "description": "RAYVOICE offers 10 heating settings from 86 to 131F and 5 timers of 1, 2, 4, 6 or 8 hours in a 50 by 60 inch pink plaid throw. The listing says over 85 percent heat coverage and recommends against machine washing.\n\nIt has the widest range of heat settings, but its no-machine-wash instruction makes it harder to clean than BEARKISS or Aheadpret. At under $35 it costs about $3 more than BEARKISS.\n\nChoose it if you want 10 steps of control. The caveat is the washing restriction and no stated certification marks.",
+    "description": "RAYVOICE offers 10 heating settings from 86 to 131F and 5 timers of 1, 2, 4, 6 or 8 hours in a 50 by 60 inch pink plaid throw. The listing says over 85 percent heat coverage and recommends against machine washing.\n\nIt has the widest range of heat settings, but its no-machine-wash instruction makes it harder to clean than BEARKISS or Aheadpret. At under $35 it costs under $10 more than BEARKISS.\n\nChoose it if you want 10 steps of control. The caveat is the washing restriction and no stated certification marks.",
     "specs": [
       "10 settings, 86F to 131F",
       "5 timers, 1 to 8 hours",
@@ -219,58 +219,59 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Power source and cord reach",
-    "explanation": "An office blanket needs either a wall cord, a USB source or a battery, and each limits where you sit. FIGERM includes a 13 foot cord, Secluded Valley needs no outlet and Syglawnd runs from USB. Measure to the nearest outlet and add slack for a rolling chair."
+    "explanation": "An office blanket needs either a wall cord, a USB source or a battery, and each limits where you sit. FIGERM includes a 13 foot cord, Secluded Valley needs no outlet and Syglawnd runs from USB. Measure to the nearest outlet and add slack for a rolling chair. Walk the route from the chair to the outlet and add a few feet of slack, since a rolling chair pulls the cord."
   },
   {
     "criterion": "Auto-off versus unattended use",
-    "explanation": "A shut-off timer keeps a blanket from running through a lunch break or overnight. Aheadpret stops at 3 hours while BEARKISS goes to 10. Choose a shorter cutoff if you step away often."
+    "explanation": "A shut-off timer keeps a blanket from running through a lunch break or overnight. Aheadpret stops at 3 hours while BEARKISS goes to 10. Choose a shorter cutoff if you step away often. Look at the product photos for a controller label, and test the auto-off before relying on it at lunch."
   },
   {
     "criterion": "Heat levels in degrees",
-    "explanation": "More levels let you hold a comfortable temperature, and degrees tell you whether the top level is safe. FIGERM runs 86 to 113F, RAYVOICE up to 131F. Look for a stated range, and check that low is genuinely mild."
+    "explanation": "More levels let you hold a comfortable temperature, and degrees tell you whether the top level is safe. FIGERM runs 86 to 113F, RAYVOICE up to 131F. Look for a stated range, and check that low is genuinely mild. Compare both ends of the span before buying, since a high ceiling is useful only if the low end is comfortable."
   },
   {
     "criterion": "Safety listing and electrical rating",
-    "explanation": "Heated bedding-style products are expected to carry a UL or ETL mark. FIGERM, Bedsure, BEARKISS and Aheadpret cite ETL, while Syglawnd and RAYVOICE cite none. Look for the mark on the product, and note wattage like Bedsure's 100W."
+    "explanation": "Heated bedding-style products are expected to carry a UL or ETL mark. FIGERM, Bedsure, BEARKISS and Aheadpret cite ETL, while Syglawnd and RAYVOICE cite none. Look for the mark on the product, and note wattage like Bedsure's 100W. Note that several listings cite no mark at all, so photograph the label once you receive it."
   },
   {
     "criterion": "Size versus a rolling desk chair",
-    "explanation": "A 50 by 60 inch throw can drape into chair wheels or the floor. A wearable or lap-sized blanket like Syglawnd stays clear. Check dimensions against how you sit."
+    "explanation": "A 50 by 60 inch throw can drape into chair wheels or the floor. A wearable or lap-sized blanket like Syglawnd stays clear. Check dimensions against how you sit. Measure the seat to floor distance and the throw length so nothing drags into the casters."
   },
   {
     "criterion": "Controller removal and washing",
-    "explanation": "Every heated blanket needs the controller removed before washing, and some should not be machine washed. RAYVOICE advises against it, while BEARKISS and Aheadpret allow it. Read the care line before buying."
+    "explanation": "Every heated blanket needs the controller removed before washing, and some should not be machine washed. RAYVOICE advises against it, while BEARKISS and Aheadpret allow it. Read the care line before buying. Keep the controller at the cool end of the cord and away from the washing machine tub."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Power and reach",
-    "description": "We compared cord lengths, USB or battery options and outlet requirements."
+    "title": "Cord, battery or USB reach",
+    "description": "We compared how each pick is powered, from the FIGERM's 13 foot cord to the Secluded Valley's 20,000 mAh pack and the Syglawnd's USB source. An office chair rolls, so a short cord that pulls from the wall was treated as a real problem. That tether is the main downside of every corded pick here."
   },
   {
-    "title": "Heat and timer",
-    "description": "Heat levels, stated degrees and auto-off durations were weighed above marketing wording."
+    "title": "Timer and unattended use",
+    "description": "We weighed auto-off settings, since the Aheadpret stops after 3 hours, the Bedsure offers 6 timers up to 10 hours, and the FIGERM runs 1 to 12. A blanket left on during lunch should stop on its own, so short cutoffs earned credit for shared offices. The Secluded Valley has no timer figure in its listing."
   },
   {
-    "title": "Safety marks",
-    "description": "Cited ETL, FCC and overheat protection were noted, with missing marks flagged."
+    "title": "Heat levels in degrees",
+    "description": "We read the stated spans, from the FIGERM's 86 to 113F to the RAYVOICE's 86 to 131F in 10 settings. A fine ladder lets you hold a comfortable temperature at a desk where you sit still, which a coarse 5 level control cannot match. The Bedsure's preheat then steps down on its own."
   },
   {
-    "title": "Size and wearability",
-    "description": "Throw, wearable and lap shapes were compared for desk-chair use."
+    "title": "Safety listing and wattage",
+    "description": "We recorded the lab marks, noting ETL on the FIGERM, Bedsure, BEARKISS and Aheadpret, and the Bedsure's 100W rating, while the RAYVOICE and Syglawnd cite none. In a shared workspace an unlisted heater is the harder one to defend. The Syglawnd lists no temperatures at all."
   },
   {
-    "title": "Care and value",
-    "description": "Washing instructions and price were compared against documented features."
+    "title": "Fit at a desk",
+    "description": "We compared sizes, from 50 x 60 inch throws that can drape into chair wheels to the Syglawnd lap blanket with hand pockets. Fabric on a rolling chair base is a snag hazard, so smaller or wearable formats scored better. A lap blanket is easiest to tuck under a keyboard tray."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Desk Setup",
+    "subheading": "By Power Source",
+    "intro": "At a desk, how the blanket gets power matters more than softness.",
     "table": {
       "headers": [
         "Your situation",
@@ -278,123 +279,119 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Outlet is far from the desk",
-          "FIGERM Wearable Heated Blanket Hoodie Throw"
+          "Outlet near the desk and a rolling chair",
+          "FIGERM Wearable Heated Blanket Hoodie Throw, with a 13 foot cord"
         ],
         [
-          "No outlet at all",
-          "Secluded Valley Cordless Heated Wearable Blanket"
+          "No outlet reachable at all",
+          "Secluded Valley Cordless Heated Wearable Blanket, 20000 mAh and up to 16 hours"
         ],
         [
-          "USB port only",
-          "Syglawnd USB Heated Lap Blanket with Hand Pockets"
+          "A laptop or power bank in your bag",
+          "Syglawnd USB Heated Lap Blanket with Hand Pockets, for mild heat from a USB port"
         ],
         [
-          "Classic lap throw, full controls",
-          "Bedsure Heated Throw Blanket with Preheat"
-        ],
-        [
-          "You step away often",
-          "Aheadpret Heated Throw Blanket 50x60"
+          "A plug-in throw with 6 timers and a preheat step",
+          "Bedsure Heated Throw Blanket with Preheat, 100W and ETL listed"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Office buyers range from a USB lap blanket to a cordless wearable.",
     "table": {
       "headers": [
-        "Price range",
+        "Budget position",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $25",
+          "Lowest price, USB lap blanket",
           "Syglawnd USB Heated Lap Blanket with Hand Pockets"
         ],
         [
-          "About $27",
-          "Aheadpret Heated Throw Blanket 50x60"
+          "Low to mid for a short auto-off throw",
+          "Aheadpret Heated Throw Blanket 50x60, 3 hour cutoff and one-button controller"
         ],
         [
-          "About $30",
-          "BEARKISS ETL Heated Throw Blanket 50x60"
+          "Mid for a washable throw with 9 levels",
+          "BEARKISS ETL Heated Throw Blanket, machine washable"
         ],
         [
-          "$33 to $37",
-          "Bedsure Heated Throw Blanket with Preheat"
-        ],
-        [
-          "$46 to $66",
-          "FIGERM Wearable Heated Blanket Hoodie Throw"
+          "Top for cordless wearable",
+          "Secluded Valley Cordless Heated Wearable Blanket, the highest price here"
         ]
       ]
     }
   },
   {
-    "subheading": "Wearable vs Throw",
+    "subheading": "Wearable vs Lap Throw",
+    "intro": "How much of you needs the heat?",
     "cards": [
       {
-        "label": "Wearable",
-        "text": "A hooded wearable keeps heat on your shoulders and frees your hands, but costs more and is bulkier. That covers FIGERM Wearable Heated Blanket Hoodie Throw and Secluded Valley Cordless Heated Wearable Blanket."
+        "label": "Wearable: FIGERM, Secluded Valley",
+        "text": "Hood, buckles and pockets keep the blanket on while you type. They cost more and take space on a hook or chair."
       },
       {
-        "label": "Lap throw",
-        "text": "A throw is cheaper and simple but can drape into chair wheels. That includes Bedsure Heated Throw Blanket with Preheat, BEARKISS ETL Heated Throw Blanket 50x60, Aheadpret Heated Throw Blanket 50x60 and RAYVOICE Heated Electric Throw 50x60."
+        "label": "Lap throw: Bedsure, BEARKISS, Aheadpret, RAYVOICE",
+        "text": "Cheaper and easy to move, but 50 x 60 inches can trail into chair wheels. Better for seated work where you can tuck the edges."
       }
     ],
-    "note": "Most office workers do better with a wearable or a small lap blanket than a full throw."
+    "note": "Most desk workers will do better with the FIGERM wearable than a loose throw, since nothing falls under the chair."
   },
   {
-    "subheading": "Heat Control Preference",
+    "subheading": "By Office Etiquette and Rules",
+    "intro": "Shared offices and building rules change what is practical.",
     "table": {
       "headers": [
-        "Your concern",
+        "Rule or concern",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Most heat levels",
-          "RAYVOICE Heated Electric Throw 50x60"
+          "No personal heaters plugged in",
+          "Secluded Valley Cordless Heated Wearable Blanket, battery powered"
         ],
         [
-          "Nine steps plus a long timer",
-          "BEARKISS ETL Heated Throw Blanket 50x60"
+          "Shared space where it must stop automatically",
+          "Aheadpret Heated Throw Blanket, 3 hour auto-off"
         ],
         [
-          "Preheat and step down",
-          "Bedsure Heated Throw Blanket with Preheat"
+          "Quiet desk with fine temperature control",
+          "RAYVOICE Heated Electric Throw, 10 settings from 86 to 131F"
         ],
         [
-          "Three simple settings",
-          "Secluded Valley Cordless Heated Wearable Blanket"
+          "Needs to be washed often",
+          "BEARKISS ETL Heated Throw Blanket, machine washable after controller removal"
         ]
       ]
     }
   },
   {
-    "subheading": "For Shared Offices Specifically",
+    "subheading": "For a Cold Shared Office Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "A named safety mark, a short auto-off and a size that will not tangle with colleagues' space."
+        "text": "A short auto-off, a lab mark you can show a facilities manager, and a cord long enough to avoid an extension cord."
       },
       {
         "label": "In this comparison",
-        "text": "Aheadpret Heated Throw Blanket 50x60 lists ETL and a 3 hour auto-off, and Syglawnd USB Heated Lap Blanket with Hand Pockets avoids a wall outlet entirely."
+        "text": "The FIGERM's 13 foot cord and ETL listing and the Aheadpret's 3 hour auto-off best fit a shared desk, while the Secluded Valley avoids the outlet entirely."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "A cordless wearable is the premium of this list.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want hands-free wear or a cordless setup. FIGERM Wearable Heated Blanket Hoodie Throw and Secluded Valley Cordless Heated Wearable Blanket do that."
+        "text": "You have no outlet, want sleeves, or must keep a clear floor, which the Secluded Valley or FIGERM handle."
       },
       {
         "label": "Save if",
-        "text": "A lap throw is enough. Aheadpret Heated Throw Blanket 50x60 and Syglawnd USB Heated Lap Blanket with Hand Pockets cost under $27."
+        "text": "You only need warm knees, where the Syglawnd USB lap blanket costs the least."
       }
     ]
   }
@@ -403,28 +400,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can I use a heated blanket at work?",
-    "a": "Check workplace and building rules first, since some offices restrict personal heaters. USB and low-wattage options are usually easier to justify than a 100W throw."
+    "q": "Is the FIGERM worth it over a basic throw like the Bedsure?",
+    "a": "For a desk, yes: the 13 foot cord, hood and 1 to 12 hour timer keep it on you. The Bedsure is a better throw for a couch, with 6 timers, 100W and a preheat step. The Bedsure preheat step also helps on cold mornings."
   },
   {
-    "q": "Is it safe to leave one on when I leave the desk?",
-    "a": "Use a model with a short auto-off and unplug it when you leave. Aheadpret stops at 3 hours, but you should still unplug it. Never sleep under a heated blanket."
+    "q": "What is the most common mistake with office heated blankets?",
+    "a": "Letting the blanket cover the controller or fall under chair wheels. Controllers can overheat if covered, and a 50 x 60 inch throw can snag. Keep the controller clear and tuck the edges. Keep the control box on top of the blanket, where air can reach it."
   },
   {
-    "q": "Is a wearable worth it over a throw?",
-    "a": "It frees your hands and stays off the chair wheels, so it suits desk work better. A throw is cheaper and works on a couch."
+    "q": "Will a USB heated lap blanket warm me enough?",
+    "a": "Only mildly. The Syglawnd runs from a USB port or power bank and lists no temperatures. Treat it as a knee warmer, and check that your source supplies enough current. Rules vary, and a heated item may need a sign-off from IT or facilities."
   },
   {
-    "q": "How do I wash a heated blanket?",
-    "a": "Remove the controller first and follow the listing. BEARKISS is machine washable, while RAYVOICE recommends against it."
+    "q": "How long does the Secluded Valley battery last?",
+    "a": "The listing states up to 16 hours on a 20000 mAh pack, which is probably on the lowest of 3 settings. Expect less on high, and charge the pack before long days. Do not trap it under a laptop, which needs airflow too."
   },
   {
-    "q": "Will it trip my power strip?",
-    "a": "Bedsure is rated 100W, which is small, but plug directly into the wall when you can. Avoid daisy-chaining strips."
+    "q": "Can I wash these blankets?",
+    "a": "Most can after you remove the controller. BEARKISS and Aheadpret allow machine or hand washing, while the RAYVOICE listing recommends against machine washing. Dry fully before reconnecting power. Never wash with the controller attached or run it while damp."
   },
   {
-    "q": "Does a heated blanket help circulation or pain?",
-    "a": "We do not rely on those claims. These are comfort products and not medical devices, and anyone with reduced sensation should ask a doctor first."
+    "q": "Do I need permission to use one in a shared office?",
+    "a": "Often yes. Many workplaces restrict heaters, so a battery or USB blanket is easier to approve. Mention the lab marks and the auto shut-off when you ask facilities. A cordless pick sidesteps most of these concerns."
   }
 ];
 

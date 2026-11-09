@@ -247,182 +247,184 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Battery capacity and voltage",
-    "explanation": "Capacity in mAh sets runtime and voltage sets how hard the heat is driven. TZOSDOBO and CYCYHEAT use 20000 mAh at 7.4V, Moteoza 16000 and ZonLi 10000. Look for both numbers and for the warning that replacement packs must match the connector."
+    "explanation": "A 10000 mAh pack and a 20000 mAh pack are not just a 2x gap: the TZOSDOBO and CYCYHEAT list 7.4V packs, while the ZonLi lists a 10000 mAh 5V-class pack. Heaters draw watts, so a higher voltage pack at the same mAh stores more energy. Compare mAh and voltage together, and look for the pack spec in the title or bullet points, not only a runtime claim."
   },
   {
     "criterion": "Runtime at which setting",
-    "explanation": "A headline runtime like 16 or 25 hours almost certainly refers to the lowest setting. TZOSDOBO says up to 10 hours and MIMYTH up to 16. Look for runtime per setting, or assume far less on high."
+    "explanation": "Runtime claims such as up to 10 hours or 16 hours almost always describe the lowest heat step. At the high setting the same pack can drain in 2 to 3 hours, which matters if you want a cold office warm quickly. Look for a listing that states hours per heat level, and treat a single headline number as a best case."
   },
   {
     "criterion": "Heating zones versus full surface",
-    "explanation": "Zoned designs heat the neck, back and hands, using less power, while whole-surface blankets heat everything. Moteoza lists 6 zones and MAXEVE 4, while GUOAN has 8 heaters across the throw. Choose zones if you want to save battery."
+    "explanation": "Six or eight zones give warmth at the lap and chest but leave cooler gaps, while a carbon-film shawl like the Moteoza heats a fixed back and shoulder area. A 50 by 60 inch throw heats only where the wires run. Decide whether you want a lap warmer or a wearable, and read the zone count and layout in the listing."
   },
   {
     "criterion": "Auto-off and certifications",
-    "explanation": "A 2 hour auto-off like ZonLi's protects you if you fall asleep, but interrupts work. TZOSDOBO names the battery as FCC and ETL, while others name no mark. Look for a stated hour count and a mark on the product itself, not only the charger."
+    "explanation": "An auto shut-off timer, such as the ZonLi's 2 hour cutoff, protects against falling asleep with a heater on, but you must restart it. A named mark, such as the FCC and ETL on the TZOSDOBO battery pack, tells you the pack was submitted for testing. Check whether the mark covers the battery or the blanket, since listings often blur this."
   },
   {
     "criterion": "Weight and wearability",
-    "explanation": "A 20000 mAh pack adds real weight, so a blanket that sits on your shoulders can feel heavy. A zipper, snaps or cuffs, as on Moteoza, keep it from sliding. Check for a pocket and closures."
-  },
-  {
-    "criterion": "Washing with the battery out",
-    "explanation": "Heated textiles need the battery removed before washing, and not every listing allows machine washing. TZOSDOBO and GUOAN allow it, while a wet battery pocket could damage the pack. Read the care line before buying, and dry every part fully before reconnecting."
+    "explanation": "A battery pack adds about a pound and sits in a pocket, so a hooded wearable like the MIMYTH or shawls like the MAXEVE feel different from a lap throw. If you sit at a desk, a shawl keeps arms free for typing, while a throw is better for a sofa. Check the product weight and pocket location before you buy."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Battery and runtime",
-    "description": "We compared capacity, voltage and runtime claims, noting when a figure is likely best case."
+    "title": "Battery pack size and voltage",
+    "description": "We read pack capacity and voltage together, because a 7.4V 20000 mAh pack stores far more heat than a 10000 mAh 5V-class one. The TZOSDOBO and CYCYHEAT list 7.4V 20000 mAh, the Moteoza 16000 mAh, and the ZonLi 10000 mAh, which set the ceiling on runtime for each blanket."
   },
   {
-    "title": "Heat layout",
-    "description": "Zone counts, temperature bands and coverage were compared across the eight picks."
+    "title": "Whether runtime claims name a heat level",
+    "description": "A claim of up to 10 or 16 hours says little without a setting attached. We marked down listings that gave one headline number, like the MIMYTH's 16 hours, and favored the Moteoza's clear 104F, 122F and 149F bands because buyers can estimate how long each band will last."
   },
   {
-    "title": "Safety",
-    "description": "Auto-off times, named certifications and overheat protection were weighed ahead of marketing wording."
+    "title": "Cordless in practice, not just in name",
+    "description": "Some picks ship without a battery. The MAXEVE lists a built-in USB cable and no battery, and the GUOAN needs a 12V 1.5A power bank. We checked whether the pack is included and whether it is a standard or proprietary connector, since a blanket without a pack is not cordless out of the box."
   },
   {
-    "title": "Fit and portability",
-    "description": "Weight, closures, size and pockets were noted for desk use."
+    "title": "Safety timers and marks",
+    "description": "At this price a blanket that stays on near sleeping skin needs an auto-off. We rewarded the ZonLi's 2 hour shut-off and the named FCC and ETL marks on the TZOSDOBO pack, and noted the CYCYHEAT names no safety mark in its listing."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $35 to $130 were compared with what each listing documents."
+    "title": "Fit for a desk versus a sofa",
+    "description": "A 62 by 55 inch throw drapes over a lap, but a shawl or hooded wearable keeps hands free. We weighed which format each pick suits, noting that the VOFUOTI is built more like a sleeping bag and is bulky for desk use."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Use Case",
+    "subheading": "By Use Setting",
+    "intro": "Where you will wear it decides the format more than the battery size.",
     "table": {
       "headers": [
-        "Your situation",
+        "Where you will use it",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Full-body, documented specs",
-          "TZOSDOBO Cordless Heated Blanket 20000mAh"
+          "A drafty desk where hands need to stay free",
+          "Moteoza Cordless Heated Shawl, with wrist cuffs and zipper"
         ],
         [
-          "Large size, spare pack",
-          "CYCYHEAT 62x55 Inch Cordless Heated Blanket"
+          "A sofa or bed throw that covers the lap",
+          "CYCYHEAT 62x55 Inch blanket, the largest cordless throw here"
         ],
         [
-          "Warm shoulders and hands",
-          "Moteoza Cordless Heated Shawl with Fleece Lining"
+          "A cold office where you want head and neck covered",
+          "MIMYTH Cordless Heated Blanket with Hood, a wearable with built-in battery pocket"
         ],
         [
-          "Cold office plus outdoors",
-          "VOFUOTI MAX 12V Cordless Wearable Heated Blanket"
+          "Camping, tailgating or a cold car",
+          "VOFUOTI MAX 12V Wearable, with weather-resistant fabric and a car outlet compatible battery"
         ],
         [
-          "Hooded wearable",
-          "MIMYTH Cordless Heated Blanket with Hood"
+          "A light shoulder warmer for a few hours",
+          "MAXEVE USB Heated Shawl, which needs your own USB bank"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Prices run from the low tens to about the price of a small heater.",
     "table": {
       "headers": [
-        "Price range",
+        "Price tier",
         "Recommended pick"
       ],
       "rows": [
         [
           "Under $35",
-          "ZonLi Battery Operated Heated Blanket 50x60"
+          "ZonLi 50x60 blanket, with a 10000 mAh pack and UL cited"
         ],
         [
-          "About $46",
-          "MAXEVE USB and Type-C Heated Faux Fur Shawl"
+          "$35 to $50",
+          "MAXEVE shawl, but bring your own power bank"
         ],
         [
-          "About $57",
-          "GUOAN USB Cordless Electric Heated Throw Blanket"
+          "$50 to $65",
+          "GUOAN USB throw or MIMYTH hooded wearable"
         ],
         [
-          "$63 to $76",
-          "Moteoza Cordless Heated Shawl with Fleece Lining"
+          "$65 to $90",
+          "Moteoza shawl, TZOSDOBO 20000 mAh throw or CYCYHEAT blanket"
         ],
         [
-          "$90 to $130",
-          "TZOSDOBO Cordless Heated Blanket 20000mAh"
+          "Over $100",
+          "VOFUOTI MAX 12V, which is the weather-resistant outdoor option"
         ]
       ]
     }
   },
   {
-    "subheading": "Built-In Battery vs Bring-Your-Own Power Bank",
+    "subheading": "Included Battery vs Bring Your Own Power Bank",
+    "intro": "Some cordless blankets ship with a pack and some only accept one.",
     "cards": [
       {
-        "label": "Battery included",
-        "text": "A bundled pack is plug and play and sized to the blanket, but adds weight and cost. That covers TZOSDOBO Cordless Heated Blanket 20000mAh, CYCYHEAT 62x55 Inch Cordless Heated Blanket, Moteoza Cordless Heated Shawl with Fleece Lining, ZonLi Battery Operated Heated Blanket 50x60 and VOFUOTI MAX 12V Cordless Wearable Heated Blanket."
+        "label": "Included battery (TZOSDOBO, CYCYHEAT, Moteoza, ZonLi)",
+        "text": "The pack is matched to the heater, so runtime estimates in the listing are meaningful and you can start using it out of the box. The downside is that a dead proprietary pack needs the exact connector for a spare."
       },
       {
-        "label": "Bring your own bank",
-        "text": "A cable-only blanket costs less if you already own a compatible bank, but you must match its output. That covers GUOAN USB Cordless Electric Heated Throw Blanket and MAXEVE USB and Type-C Heated Faux Fur Shawl."
+        "label": "Bring your own bank (GUOAN, MAXEVE)",
+        "text": "You can reuse a bank you already own or swap a bigger one, but the listing may not say which output the heater needs, such as the 12V 1.5A on the GUOAN. A 5V bank will not run a 12V heater."
       }
     ],
-    "note": "Choose a bundled battery unless you already own a power bank that meets the listing's rating."
+    "note": "Most buyers should pick an included-battery model like the TZOSDOBO, unless they already own a bank that matches a 5V or 12V requirement."
   },
   {
-    "subheading": "By Heat Coverage",
+    "subheading": "By Battery Size",
+    "intro": "Capacity tells you how long you can leave the cord behind.",
     "table": {
       "headers": [
-        "Your concern",
+        "Capacity need",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Most zones",
-          "TZOSDOBO Cordless Heated Blanket 20000mAh"
+          "A full workday at low heat without recharging",
+          "TZOSDOBO 20000 mAh, with eight heating zones"
         ],
         [
-          "Heat over neck, back, waist and hands",
-          "CYCYHEAT 62x55 Inch Cordless Heated Blanket"
+          "Long sessions on a larger blanket",
+          "CYCYHEAT 20000 mAh pack, which also supports 20W fast charging"
         ],
         [
-          "Whole throw heating",
-          "GUOAN USB Cordless Electric Heated Throw Blanket"
+          "A few hours of evening warmth",
+          "Moteoza 16000 mAh shawl, with six zones"
         ],
         [
-          "Shoulders and neck only",
-          "MAXEVE USB and Type-C Heated Faux Fur Shawl"
+          "Short spot warming at the lowest cost",
+          "ZonLi 10000 mAh, which shuts off after 2 hours"
         ]
       ]
     }
   },
   {
-    "subheading": "For Cold Office Desks Specifically",
+    "subheading": "For a Home Office Worker Specifically",
+    "intro": "Typing needs arms free and a quiet heater.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A shoulder-focused layout, a wrist closure and a short auto-off that matches your workday."
+        "text": "A wearable or shawl with wrist cuffs or a zipper so hands stay out, and a stated heat band so you can pick a level that does not make you sweat."
       },
       {
         "label": "In this comparison",
-        "text": "Moteoza Cordless Heated Shawl with Fleece Lining lists 6 shoulder and arm zones with cuffs, and ZonLi Battery Operated Heated Blanket 50x60 adds a 2 hour auto-off."
+        "text": "The Moteoza lists wrist cuffs and three temperature bands from 104F to 149F, and the MAXEVE lists a snap closure to keep it on the shoulders."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "The extra spend buys battery size or weather resistance.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want long runtime and a named battery certification. TZOSDOBO Cordless Heated Blanket 20000mAh and VOFUOTI MAX 12V Cordless Wearable Heated Blanket sit at the top."
+        "text": "You need outdoor use or many hours per charge. The VOFUOTI is the most expensive and weather resistant, and the TZOSDOBO pairs a 20000 mAh pack with FCC and ETL marks."
       },
       {
         "label": "Save if",
-        "text": "You only need office use for a few hours. ZonLi Battery Operated Heated Blanket 50x60 and MAXEVE USB and Type-C Heated Faux Fur Shawl cost under $46."
+        "text": "You only need a lap warmer for short sessions. The ZonLi is the cheapest here with a named UL, FCC and GCC listing, and its 2 hour cutoff is a safety feature at its price."
       }
     ]
   }
@@ -431,28 +433,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "How long do cordless heated blankets last?",
-    "a": "Listings claim anywhere from 10 to 25 hours, but those figures are best case on the lowest setting. Expect much less on high, and look for per-setting numbers."
+    "q": "How long does a cordless heated blanket really run?",
+    "a": "Longer on low and shorter on high. The ZonLi lists a 10000 mAh pack, and reasonable runtime is a few hours at mid heat, not 10. The TZOSDOBO lists up to 10 hours from a 20000 mAh pack. Treat headline hours as a low-setting best case and plan for much less on high."
   },
   {
-    "q": "Can I take one on a plane?",
-    "a": "Large lithium packs have airline limits, and carry-on rules vary. Check your carrier's current battery rules before packing a 20000 mAh pack."
+    "q": "Can I use any power bank with a USB heated blanket?",
+    "a": "Not always. The GUOAN lists a 12V 1.5A USB power bank input, which is not what a typical 5V bank outputs. Check the heater's required voltage and amps in the listing, then match a bank that states the same output rating, or buy a model with an included pack."
   },
   {
-    "q": "Is a cordless blanket worth it over a plug-in?",
-    "a": "Only if you lack an outlet or move around. A plug-in throw costs less and has no runtime limit, but a cord ties you to one spot."
+    "q": "Is the TZOSDOBO worth more than the ZonLi?",
+    "a": "If you want longer sessions and zones, yes. It lists a 7.4V 20000 mAh pack, eight heating zones and a named FCC and ETL pack, while the ZonLi lists 10000 mAh and a 2 hour auto shut-off at a much lower price. For short evening use the ZonLi is enough."
   },
   {
-    "q": "Can I use any power bank?",
-    "a": "No. GUOAN needs a 12V output, while MAXEVE uses a standard USB source. A standard 5V bank will not run a 12V blanket."
+    "q": "Can I wash a cordless heated blanket?",
+    "a": "Usually, but only with the battery and controller removed. The TZOSDOBO lists a machine washable flannel and the GUOAN lists machine washable. Follow the label on temperature and cycle, air dry flat, and never plug it in while damp."
   },
   {
-    "q": "How do I wash it?",
-    "a": "Remove the battery first. TZOSDOBO is machine washable and GUOAN recommends a laundry bag, but follow the care line for any pick."
+    "q": "Is it safe to sleep with a battery heated blanket?",
+    "a": "Not a good idea. Short auto-off timers, such as the ZonLi's 2 hours, exist because a heater on for hours near skin and fabric raises risk. Use it while awake, switch it off before bed, and do not fold or bunch it while heating."
   },
   {
-    "q": "Is it safe to sleep under one?",
-    "a": "No. Heated blankets are not meant for sleep, and an auto-off like ZonLi's 2 hours is for safety, not a bedtime plan. They are comfort products, so ask a doctor if you have reduced skin sensation."
+    "q": "Can I take a cordless heated blanket on a plane?",
+    "a": "Check the airline's rules on battery size. Lithium packs in the 10000 to 20000 mAh range usually need to go in a carry-on, not checked luggage, and very large packs have limits. The listings do not state airline compliance, so confirm the pack's watt-hour rating on the label."
   }
 ];
 

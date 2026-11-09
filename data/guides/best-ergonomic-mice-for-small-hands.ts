@@ -162,52 +162,48 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Measure your hand first",
-    "explanation": "Hand length is measured from the wrist crease to the middle fingertip, and vendor bands put under about 17cm as small, 17 to 19cm as medium and over 19cm as large. Those numbers are starting points rather than standards. Compare your measurement with the shell length in the listing, usually given in millimeters."
+    "criterion": "Hand length in the listing",
+    "explanation": "Hand length is how long your hand is from the wrist crease to the middle fingertip, and small-hand mice usually target under about 7 inches. A mouse sized for big hands leaves the buttons out of comfortable reach. Look for a line such as up to 7 inches in the bullets, and measure your own hand first. Guidance puts hands under about 17 cm in the smaller-mouse range."
   },
   {
-    "criterion": "Shell length versus grip type",
-    "explanation": "Palm grip needs the longest shell, claw grip a medium one and fingertip grip suits short, light bodies. A small hand with a claw grip fits a compact shell well. Decide your grip first, then pick a shape."
+    "criterion": "Body dimensions",
+    "explanation": "A small shell has dimensions near 4 inches long, such as the TECKNET at 4.09 x 2.68 x 1.49 inches. Anything much larger makes your hand reach. Compare the length and width in the specs with your hand, and be wary of listings that omit dimensions entirely. The PHILIPS says up to 7 inches, which matches an average small hand."
   },
   {
-    "criterion": "Hump height",
-    "explanation": "A tall hump can bend the wrist upward, and vertical mice add height of their own. Small hands may find a high vertical shell awkward. Check the side profile photos for height."
+    "criterion": "Vertical or flat posture",
+    "explanation": "A flat compact mouse keeps the palm facing down, which twists the forearm over hours. A vertical shell at about 57 degrees turns the hand toward a handshake. Small hands can adapt if the shell fits, so check the angle and the hand range together. The PHILIPS tilts 57 degrees and the Woddlffy is merely vertical, so compare angles too."
   },
   {
-    "criterion": "Weight",
-    "explanation": "A lighter mouse is easier to lift and nudge with a small hand, and one retailer cites around 75g as a light target, though that is a commercial claim rather than a standard. Batteries add several grams on top of the shell weight. Check the listed weight and whether it includes the battery."
+    "criterion": "Receiver versus Bluetooth",
+    "explanation": "A 2.4GHz receiver takes up a USB port, which thin laptops often lack, while Bluetooth needs no port. The Lenovo WL310 uses Bluetooth without a receiver. Check the connection type in the title, and keep the dongle in the mouse's storage slot if one is provided. The PHILIPS uses a receiver; the Lenovo WL310 is Bluetooth only and keeps your USB port free."
   },
   {
-    "criterion": "Button reach and thumb rest",
-    "explanation": "If the thumb rest or side buttons sit far from your thumb, you will stretch every time you click them, which defeats the point of a small mouse. A sculpted rest keeps the thumb off the desk and in reach. Look for a stated small-hand fit and check in the photos where the thumb would land."
-  },
-  {
-    "criterion": "Connection and battery trade-offs",
-    "explanation": "Bluetooth saves a port but a receiver pairs instantly and lasts longer. Replaceable batteries add weight. Check the connection type and battery in the bullets."
+    "criterion": "Included batteries and Mac notes",
+    "explanation": "Cheap small mice often leave out batteries, and some have side buttons that fail on Mac. These small details change the real cost and usefulness. Read the final lines of each listing for batteries not included or Mac warnings, and check what the box contains before ordering. The Woddlffy uses an AA battery and the TECKNET leaves its batteries out entirely."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Hand fit evidence",
-    "description": "We kept only listings with a hand size note or dimensions."
+    "title": "Stated hand range",
+    "description": "We checked every listing for a hand-size statement, such as the PHILIPS SPK7628 for hands up to 7 inches and the SABLUTE MAM3 for small to medium hands. A mouse that never names its range forces guesswork, so a clear range was our first filter. The PHILIPS says up to 7 inches and the SABLUTE says small to medium; the Woddlffy and Lenovo state no range."
   },
   {
-    "title": "Shell and angle",
-    "description": "Vertical angle and compact shell size were compared."
+    "title": "Shell footprint",
+    "description": "We compared body dimensions, including the 4.09 x 2.68 x 1.49 inch TECKNET compact, since a small hand needs a shell it can fully cover. A too-big mouse makes the fingers reach for the buttons and wears the wrist. The TECKNET at 4.09 x 2.68 x 1.49 inches is flat, while the PHILIPS tilts 57 degrees."
   },
   {
-    "title": "Weight and portability",
-    "description": "Listed weights and travel notes were noted."
+    "title": "Vertical or flat for small hands",
+    "description": "We separated vertical shells at 57 degrees from flat compact designs. A small hand can adapt to a vertical shell if it fits, but flat mice leave the forearm twisted, so we weighed the posture benefit against fit. The PHILIPS, SABLUTE and Woddlffy are all vertical, but only the first two state hand fit."
   },
   {
-    "title": "Connection",
-    "description": "Bluetooth, receivers and batteries were compared."
+    "title": "Connection simplicity",
+    "description": "We noted Bluetooth-only options like the Lenovo WL310, which needs no receiver, against 2.4GHz dongles that use a USB port. For small-handed buyers who often carry a laptop, fewer parts to lose matters. The Lenovo WL310 pairs one Bluetooth device, while the SABLUTE holds three."
   },
   {
-    "title": "Value for price",
-    "description": "Value meant asking what extra dollars add on the listing, then checking whether owners mention it."
+    "title": "Compatibility caveats",
+    "description": "We noted caveats such as the Woddlffy's back and forward buttons failing on Mac and the TECKNET's battery exclusion. Small mice cost little, so hidden extras like batteries or missing Mac support can change the real value. The Woddlffy's Mac warning and the TECKNET's missing batteries are the two hidden costs here."
   }
 ];
 
@@ -339,28 +335,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "What size is a small hand for a mouse?",
-    "a": "Vendor guides use roughly under 17cm from the wrist crease to the middle fingertip, but these are not standards. Compare your own measurement with the mouse length in the listing."
+    "q": "What counts as a small hand for a mouse?",
+    "a": "Roughly, hands under about 7 inches from wrist crease to fingertip. The PHILIPS SPK7628 lists a fit for up to 7 inches, and the SABLUTE MAM3 targets small to medium hands. Measure your own hand and compare it with each listing."
   },
   {
-    "q": "Do vertical mice suit small hands?",
-    "a": "Some do, if the listing says small or medium hands, like the SABLUTE. A tall vertical shell can feel awkward on a small hand. Check photos for height."
+    "q": "Is a vertical mouse good for small hands?",
+    "a": "Yes, if the shell is sized for them. The SABLUTE and PHILIPS tilt at 57 degrees and are sized for smaller hands. A vertical mouse built for large hands overwhelms a small palm, so check the listed hand fit before buying."
   },
   {
-    "q": "Can I rely on a hand size claim?",
-    "a": "Treat it as a hint. Fit depends on grip style too. Use the return window."
+    "q": "Is the SABLUTE worth it over the $12 TECKNET?",
+    "a": "If you want the forearm rotation of a vertical shell, yes. The TECKNET compact is flat and costs less, but it keeps the palm down. The SABLUTE also lists 3 devices over Bluetooth plus a receiver, which the TECKNET lacks."
   },
   {
-    "q": "Why do some mice not work with Mac buttons?",
-    "a": "Back and forward buttons may not map on macOS, and one listing here warns about it. Choose a model with a Mac note if you rely on them."
+    "q": "Will a small mouse work on a Mac?",
+    "a": "It depends. The Lenovo WL310 pairs over Bluetooth without a receiver, which suits a MacBook. But the Woddlffy listing warns its back and forward buttons fail on Mac, so read compatibility notes before buying."
   },
   {
-    "q": "Is the Philips better than the SABLUTE?",
-    "a": "The Philips is cheaper and gives a clear hand length, but it has no Bluetooth. The SABLUTE adds pairing for three devices."
+    "q": "Do I need batteries for these mice?",
+    "a": "Some do. The TECKNET listing says batteries are not included, and the Woddlffy uses an AA battery with a USB receiver. Check the box contents, and buy a pair of batteries with the mouse so you can use it the day it arrives."
   },
   {
-    "q": "How do I keep a small mouse comfortable?",
-    "a": "Keep it close to the keyboard and relax your grip. If you have persistent pain, see a professional."
+    "q": "How can I tell if a mouse is too big?",
+    "a": "Rest your hand on it. If your fingertips hang past the buttons or you must stretch your thumb, it is too big. A good fit lets the palm rest on the back while the fingers lie flat on the buttons."
   }
 ];
 

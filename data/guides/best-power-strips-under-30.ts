@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Joule Surge Protection Rating", "description": "Compared stated joule ratings across the lineup, from 2100J up to 4800J." },
-  { "title": "Brand Warranty and Equipment Protection", "description": "Compared documented connected equipment warranties and standard product warranty length." },
-  { "title": "USB-C Power Delivery Speed", "description": "Compared USB-C port wattage and stated real-world charging speed for compatible devices." },
-  { "title": "Cord Length", "description": "Compared cord length across brand-name and generic picks in this comparison." },
-  { "title": "Unique Features", "description": "Noted distinguishing features like built-in lighting or grouped switch controls beyond standard outlet and USB specs." }
+  {
+    "title": "Surge energy and what the label hides",
+    "description": "We compared joule ratings from 2100J to 4800J but treated them as only one input. Joules measure how much surge energy a strip absorbs before wearing out, and a high number paired with no clamping figure tells you little about protection quality. Sources also warn that joules alone mislead."
+  },
+  {
+    "title": "Certification and warranty backing",
+    "description": "We checked who names UL certification and who offers an equipment warranty. Belkin lists a $300,000 Connected Equipment Warranty and Anker a lifetime $200,000 one, while LeZone documents neither, so a strong joule figure alone did not earn the top spot."
+  },
+  {
+    "title": "Cord length and plug geometry",
+    "description": "We compared cord lengths from 5 to 15 feet and flat plug profiles. A 15 foot LeZone cord reaches a far wall outlet from a desk corner, while a 5 foot Anker cord works only when the outlet is close, and a thin plug lets furniture sit flush. A short cord pushes people toward extension cords, which defeats the protection."
+  },
+  {
+    "title": "Outlet spacing and USB output",
+    "description": "We looked at whether twelve outlets leave room for bulky adapters, and at USB wattage. Anker offers 20W USB-C, LeZone 15W Power Delivery, and Belkin has none, which matters if you plan to charge a phone from the strip instead of a brick. Wide spacing keeps bulky adapters from blocking neighbors."
+  },
+  {
+    "title": "Safety features beyond the surge circuit",
+    "description": "We noted overload protection, fire resistant housing and whether protection lights exist. Anker lists an 8-point safety system and PASSUS a fire resistant PC shell, and we gave credit to named features instead of generic safe design claims. Vague wording such as safe design counted for nothing."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,129 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Maximum joule rating with a documented equipment warranty", "Belkin 12-Outlet Surge Protector Power Strip"],
-        ["The fastest USB-C phone charging from a trusted brand", "Anker Power Strip with 2100J Surge Protector"],
-        ["The single highest joule rating and longest cord", "LeZone 4800J Surge Protector Power Strip"],
-        ["A bedside-friendly tower with a night light", "PASSUS Surge Protector Power Strip Tower"]
+    "subheading": "By Primary Need",
+    "intro": "All four are 12 outlet strips, so the differences come from protection depth, charging and cord length.",
+    "table": {
+      "headers": [
+        "If you mainly need",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The strongest warranty behind expensive equipment like a monitor and PC tower",
+          "Belkin 12-Outlet Surge Protector, with a documented connected equipment warranty and UL certification"
+        ],
+        [
+          "Fast USB-C charging for a phone or tablet from the same strip",
+          "Anker Power Strip with 2100J Surge Protector, 20W USB-C, the highest USB-C output here"
+        ],
+        [
+          "A long cord to reach an outlet across the room",
+          "LeZone 4800J Surge Protector, with a 15 foot cord and a flat plug"
+        ],
+        [
+          "Night light and grouped switches for a bedroom or dorm",
+          "PASSUS Surge Protector Power Strip Tower, which adds a 3-level night light and four switch groups"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $24", "Anker (under $25)"],
-        ["Under $27", "LeZone 4800J (under $30)"],
-        ["Under $30", "PASSUS Tower (under $30) or Belkin (under $30)"]
+    "subheading": "By Budget",
+    "intro": "All picks stay under $30, so buckets matter less than what each gives up.",
+    "table": {
+      "headers": [
+        "Price bucket",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $25 with brand name support",
+          "Anker Power Strip, the cheapest of the brand picks"
+        ],
+        [
+          "Under $27 with the most joules and USB ports",
+          "LeZone 4800J, which gives four USB ports and a long cord but no documented equipment warranty"
+        ],
+        [
+          "Under $29 with a night light and five USB ports",
+          "PASSUS tower, which states certified components but no single joule figure"
+        ],
+        [
+          "Right at $30 with the best protection documentation",
+          "Belkin 12-Outlet, the priciest pick here"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Established Brand vs Higher Joule Rating from a Generic Manufacturer",
-    cards: [
-      { label: "Established brand (Belkin, Anker)", text: "Backed by documented connected equipment warranties and a company track record, even if the joule rating is technically lower than a generic competitor." },
-      { label: "Generic manufacturer (LeZone)", text: "Can offer a higher raw joule rating and longer cord at a lower price, without the same documented warranty backing." }
+    "subheading": "Brand Warranty vs Higher Joule Count",
+    "intro": "The choice is really between documented backing and a bigger absorption number.",
+    "cards": [
+      {
+        "label": "Documented protection (Belkin, Anker)",
+        "text": "Both name UL certification or a safety system and offer a connected equipment warranty. That means a claim path if a surge damages a laptop, even though joule counts are lower than LeZone."
+      },
+      {
+        "label": "Higher joules with no warranty (LeZone, PASSUS)",
+        "text": "LeZone lists 4800J and PASSUS lists no figure. A big joule number looks strong but gives no recourse if something fails, and sources note a high joule strip with weak clamping can still pass more voltage."
+      }
     ],
-    note: "If you want documented financial protection if your equipment is damaged despite the surge protector, the Belkin or Anker's equipment warranty offers real assurance. If raw joule rating and cord length matter more, the LeZone pick delivers those for less.",
+    "note": "For a desk with a monitor and PC, default to Belkin or Anker, and treat LeZone as the long cord choice for lower value electronics."
   },
   {
-    subheading: "By USB Charging Speed Needs",
-    table: {
-      headers: ["Your charging priority", "Recommended pick"],
-      rows: [
-        ["Fastest single USB-C port for phone charging", "Anker (20W USB-C)"],
-        ["Multiple USB-C ports for several devices", "LeZone (2 USB-C, 15W PD)"],
-        ["No USB needed, maximum joule rating instead", "Belkin (no USB ports)"]
+    "subheading": "By Desk Layout",
+    "intro": "Where the outlet is and how many adapters you own change which strip is practical.",
+    "table": {
+      "headers": [
+        "Your setup",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Outlet is within 5 feet of the desk and you have a few adapters",
+          "Anker Power Strip with 20W USB-C"
+        ],
+        [
+          "Outlet is across the room and the strip sits under the desk",
+          "LeZone 4800J, thanks to its 15 foot cord"
+        ],
+        [
+          "Standing a tower on the desk edge to reach USB ports",
+          "PASSUS tower with five USB ports and grouped switches"
+        ],
+        [
+          "A wall mounted setup near a bed or sofa",
+          "LeZone, which lists wall mounting alongside an ultra thin flat plug"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Nightstand or Bedside Setup Specifically",
-    cards: [
-      { label: "Look for", text: "A built-in light feature that lets the power strip double as functional bedside lighting rather than needing a separate lamp." },
-      { label: "In this comparison", text: "The PASSUS Tower's built-in night light with adjustable brightness is specifically suited to this bedside use case." }
-    ],
+    "subheading": "For a Home Office With a Monitor and PC Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "UL certification, a connected equipment warranty, an 8 foot or longer cord, and joule ratings above 1000 as one source suggests for TVs and computers."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Belkin gives 3780J with UL certification and an 8 foot cord, while Anker adds an 8-point safety system. Both back valuable equipment better than the unbranded tower picks."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want a documented connected equipment warranty from an established brand, where the Belkin or Anker picks each back their surge protection with real financial assurance." },
-      { label: "Save if", text: "You want the highest raw joule rating and longest cord without brand-name warranty backing, where the LeZone pick delivers 4800J of protection for about $3 less than the Belkin." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You own a gaming PC or workstation worth many times the strip cost. The Belkin warranty and the next price tier up, the under $50 power strips guide, add smart control and energy monitoring."
+      },
+      {
+        "label": "Save if",
+        "text": "The strip powers lamps, a fan and phone chargers. The LeZone or PASSUS covers those jobs and adds more USB ports and a longer cord."
+      }
+    ]
   }
 ];
 
@@ -182,12 +266,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Does a higher joule rating always mean better protection regardless of brand?", "a": "A higher joule rating does indicate the surge protector can absorb more energy before its protection is exhausted, but pairing that rating with an established brand's documented equipment warranty, like Belkin or Anker offer, provides additional financial assurance beyond the raw number alone." },
-  { "q": "What's the most common mistake buyers make when comparing USB-C charging speeds across power strips?", "a": "Assuming any USB-C port charges at the same speed, when the actual wattage rating, like the Anker's 20W versus a standard 5W port, directly determines how quickly a compatible device actually charges." },
-  { "q": "Is the Belkin pick worth the price premium over the LeZone with its higher joule rating?", "a": "If a documented $300,000 connected equipment warranty and an established brand's track record matter to you, yes, but if you prioritize the highest raw joule number and a longer cord at a lower price, the LeZone pick offers that instead." },
-  { "q": "How does the PASSUS Tower's night light actually work in practice?", "a": "It offers three selectable brightness levels built into the tower itself, letting you use it as a soft bedside light without needing a separate lamp, a genuinely unique feature not found on the other picks in this comparison." },
-  { "q": "Do I need a connected equipment warranty if I'm just powering basic devices like lamps and fans?", "a": "For inexpensive, easily replaceable devices, a connected equipment warranty matters less, but if you're plugging in expensive electronics like a computer or monitor, the added financial protection from a warranty like Belkin's or Anker's becomes more valuable." },
-  { "q": "Can grouped switches like the PASSUS Tower's 4-separated design control outlets as precisely as fully individual switches?", "a": "No, grouped switches control multiple outlets together in sets rather than each outlet independently, so if you need precise single-outlet control, a pick with fully individual switches would serve that specific need better." }
+  {
+    "q": "Is a higher joule rating always better on these power strips?",
+    "a": "No. Joules measure how much surge energy a strip absorbs before it wears out, but clamping voltage decides how much reaches your devices. The LeZone's 4800J looks big, yet Belkin's UL certification and warranty give more documented protection."
+  },
+  {
+    "q": "Can I plug a space heater into any of these 12 outlet strips?",
+    "a": "Avoid it. Space heaters and similar high wattage appliances are commonly advised against on surge protector strips. Check the strip's amp rating on the label and plug heaters directly into a wall outlet."
+  },
+  {
+    "q": "Is the Belkin worth it over the Anker?",
+    "a": "Belkin has more joules at 3780J and a $300,000 warranty, but no USB ports and the highest price here. Anker costs less, adds 20W USB-C and an 8-point safety system. Choose Belkin for expensive gear, Anker for phones and a smaller desk."
+  },
+  {
+    "q": "How do I mount a power strip under my desk?",
+    "a": "Check for keyhole slots or a mounting plate on the back. The LeZone lists wall mounting and a flat plug that sits close to the wall. Use screws rated for your desk material, and keep cords out of foot traffic."
+  },
+  {
+    "q": "How long does a surge protector last?",
+    "a": "Sources suggest replacing a surge protector every three to five years or after a big surge, since the protection components wear down. A protection light usually confirms power and grounding, not that the strip is still clamping."
+  },
+  {
+    "q": "Why does the PASSUS list no single joule rating?",
+    "a": "The listing names certified components but not one joule figure, so you cannot compare its absorption directly. If surge energy is a priority, choose Belkin, Anker or LeZone, where the number is stated."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

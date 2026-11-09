@@ -84,11 +84,11 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Fabric Quality and Crease Resistance", "description": "Compared material thickness and anti-crease claims across the lineup." },
-  { "title": "Viewing Area Size", "description": "Compared stated diagonal size and actual viewing area dimensions." },
-  { "title": "Washability and Maintenance", "description": "Checked which picks specifically support machine washing versus spot cleaning only." },
-  { "title": "Mounting Accessories", "description": "Compared included hooks, ropes, and tape for wall or frame mounting." },
-  { "title": "Honesty of Positioning", "description": "Checked whether listings transparently set expectations about casual versus professional use." }
+  { "title": "Viewing area versus the diagonal label", "description": "We compared the listed width and height, not the headline diagonal. On a 16:9 screen the width is roughly 0.87 times the diagonal, so the Mdbebbron 120 inch at 104 by 58 inches and the AAJK 80inch at 75 by 44 inches differ by far more than the label suggests. At this price the real canvas size decides the picture." },
+  { "title": "Mounting without a stand", "description": "All four picks are fabric only, so we checked what each ships with for hanging. The 100 inch Foldable pick includes ropes, hooks, and double-sided tape, while the others expect you to supply a wall, fence, or frame. A screen with no place to hang it is worthless, so included hardware weighed heavily in this tier." },
+  { "title": "Crease behavior out of the box", "description": "We read how each listing describes folding and wrinkle recovery, since a folded cloth stays creased until stretched tight for a few days. Thickened polyester with an anti-crease claim, as on the Mdbebbron pick, scored above plain thin fabric, because creases show up as visible shadow lines on bright scenes." },
+  { "title": "Washable fabric claims", "description": "We separated true machine-washable fabric, stated on both AAJK listings, from vague washable wording. For anyone planning backyard movie nights where dust and grass stains are likely, a cloth that survives a wash cycle extends the life of a screen that costs about as much as a pizza." },
+  { "title": "Honest casual-use positioning", "description": "We checked whether each listing admits it is a casual, occasional-use screen rather than implying home-theater quality. At this ceiling no fabric screen offers a gain rating or ambient-light rejection, so we favored listings that set modest expectations over ones that oversold the image." }
 ];
 
 export interface HowToChooseSection {
@@ -102,6 +102,7 @@ export interface HowToChooseSection {
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Primary Need",
+    intro: "Every screen in this tier is a loose cloth, so the first decision is canvas size against the wall you can actually cover. A common rule puts the closest seat at about 1.5 times the screen width, which means a 104 inch wide picture suits seats roughly 13 feet back.",
     table: {
       headers: ["If you mainly need", "Recommended pick"],
       rows: [
@@ -114,6 +115,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Budget",
+    intro: "Prices here sit within a few dollars of each other, so the real choice is between the cheapest Foldable pick, the washable AAJK cloths, and paying a little more for the biggest Mdbebbron canvas.",
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
@@ -134,6 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     subheading: "By Viewing Area Size",
+    intro: "With no frame, flatness comes entirely from how tightly you stretch the cloth, and the widest canvas is also the hardest to keep taut in a breeze, so size and tension trade off directly.",
     table: {
       headers: ["Your room size", "Recommended pick"],
       rows: [
@@ -154,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the largest viewing area with double-sided projection flexibility, where the Mdbebbron pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You just need a basic screen for occasional casual use, where the 100 inch Foldable pick covers that for about $13 less." }
+      { label: "Save if", text: "You just need a basic screen for occasional casual use, where the 100 inch Foldable pick covers that for under $15 less." }
     ],
   }
 ];
@@ -184,8 +187,8 @@ export const buyingCriteria = [
 
 export const faq = [
   { "q": "Can I mount these fabric-only screens without damaging painted walls?", "a": "Most listings specifically warn against using the included double-sided tape directly on painted walls, recommending ropes or nails instead to avoid paint damage, so checking each specific pick's mounting warnings before installation is worth doing." },
-  { "q": "What's the most common mistake buyers make when choosing a projector screen under $30?", "a": "Assuming a fabric-only screen works the same as a screen-with-stand option, when a fabric-only screen requires you to already have a suitable wall, fence, or frame to mount it, unlike a stand-included screen that's self-supporting anywhere." },
-  { "q": "Is the Mdbebbron pick worth it over the cheaper AAJK 100inch option?", "a": "If you specifically want the largest viewing area and double-sided projection support, yes, but if machine-washable fabric matters more for outdoor use, the AAJK 100inch pick covers that for about $4 less." },
+  { "q": "What viewing distance suits a 100 inch fabric screen?", "a": "A common guideline puts the closest seat at about 1.5 times the screen width. The AAJK 100inch is listed at 89 by 50 inches, so seats around 11 feet back keep the picture filling your view without visible pixels, while the 120 inch Mdbebbron suits seats closer to 13 feet." },
+  { "q": "Is the Mdbebbron pick worth it over the cheaper AAJK 100inch option?", "a": "If you specifically want the largest viewing area and double-sided projection support, yes, but if machine-washable fabric matters more for outdoor use, the AAJK 100inch pick covers that for under $10 less." },
   { "q": "How long does it take for creases to disappear on these folded screens after unpacking?", "a": "Most listings recommend stretching the screen tightly for a few days or using a low-heat iron with a damp cloth, so expect a few days of tension-based crease removal rather than instant smoothness upon unpacking." },
   { "q": "Can these budget fabric screens be used for outdoor movie nights in windy conditions?", "a": "Fabric-only screens without a reinforced frame can flutter or shift in wind since they rely entirely on your mounting method, so securing them tautly with ropes and stakes rather than just tape is important for outdoor use in any breeze." },
   { "q": "Do any of these screens include a warranty or replacement guarantee?", "a": "The AAJK picks specifically mention professional after-sales service for issues, while the 100 inch Foldable pick doesn't detail a specific warranty, so checking each listing's stated support policy is worth doing if longer-term coverage matters to you at this price point." }

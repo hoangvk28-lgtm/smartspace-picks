@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Drawer Count and Capacity", "description": "Compared total drawer count and stated dimensions across the lineup." },
-  { "title": "Lock Independence", "description": "Checked whether drawers lock independently or share a single locking mechanism." },
-  { "title": "Anti-Tip Safety Design", "description": "Compared wall-anchoring kits and mechanical interlock systems designed to prevent tipping." },
-  { "title": "Mobility", "description": "Compared caster count and locking wheel designs for mobile versus stationary use." },
-  { "title": "Material and Corrosion Resistance", "description": "Compared steel thickness and powder coating claims across the lineup." }
+  {
+    "title": "Anti-tip and interlock safety",
+    "description": "We compared tip-over protection, from the VASAGLE's wall anti-tip kit to the Letaya Lateral's interlock that mechanically blocks multiple drawers opening at once. Taller cabinets can tip forward when two full drawers are pulled, so safety hardware was a priority. Households with children need this more than anyone else."
+  },
+  {
+    "title": "Locking style",
+    "description": "We read lock designs, including the VASAGLE's independently lockable drawers, the Letaya Lateral's folding key lock and the Letaya mobile's single lock for all 3 drawers with 2 keys. Independent locks let you share a drawer without exposing the rest. A shared cabinet needs independent locks more than a single key."
+  },
+  {
+    "title": "Capacity and footprint",
+    "description": "We compared drawer counts and sizes, from the VIYET's 4 drawers to the 3-drawer Letaya Lateral at 40 x 36 x 16 inches. Lateral cabinets are wide and shallow, vertical ones narrow and deep, so footprint decides where each can fit. The VIYET stands tallest at 52.4 inches."
+  },
+  {
+    "title": "Steel gauge and slides",
+    "description": "We looked at 0.8mm steel on the Letaya mobile, all-steel powder-coated builds, and ball-bearing slides on the VIYET and the Letaya Lateral's full suspension drawers. Thin steel flexes under a full drawer, so gauge and slide type counted. The VIYET fits ball-bearing slides to all four drawers."
+  },
+  {
+    "title": "Assembly and mobility",
+    "description": "We noted that the Letaya mobile arrives fully assembled except for its 5 casters, 2 of them lockable, against kits that need assembling. A cabinet that is rolled around needs lockable casters, so we weighed that against stability. The Letaya mobile's lockable casters give it a stable stance."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,60 +116,130 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The most drawers and total storage capacity", "VIYET File Cabinet, 4 Drawer with Lock"],
-        ["Independent drawer locks with anti-tip wall securing", "VASAGLE 3 Drawer File Cabinet with Locks"],
-        ["A mechanical interlock system to prevent tipping", "Letaya Lateral 3 Drawer File Cabinet with Lock"],
-        ["A fully mobile cabinet with minimal assembly", "Letaya 3 Drawer Mobile File Cabinet with Lock"]
+    "subheading": "By Layout",
+    "intro": "Vertical, lateral and mobile cabinets suit different rooms.",
+    "table": {
+      "headers": [
+        "Your room",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Narrow floor space with tall wall room",
+          "VIYET File Cabinet, 4 Drawer with Lock, for the most drawers in the smallest footprint"
+        ],
+        [
+          "Wall space beside a desk for 3 drawers",
+          "VASAGLE 3 Drawer File Cabinet with Locks, 15.7 x 16.1 x 40.6 inches"
+        ],
+        [
+          "A wide, shallow wall like a credenza zone",
+          "Letaya Lateral 3 Drawer File Cabinet with Lock, 40 x 36 x 16 inches"
+        ],
+        [
+          "A cabinet you roll between rooms",
+          "Letaya 3 Drawer Mobile File Cabinet with Lock, 5 casters with 2 lockable"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $100", "VASAGLE (under $100)"],
-        ["Under $105", "Letaya Mobile (under $110)"],
-        ["Under $140", "VIYET 4-Drawer (under $140)"],
-        ["Under $180", "Letaya Lateral (under $180)"]
+    "subheading": "By Budget",
+    "intro": "Under $150 the price steps track drawer count and safety hardware.",
+    "table": {
+      "headers": [
+        "Budget position",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest price in the range",
+          "VASAGLE 3 Drawer File Cabinet with Locks, the value pick"
+        ],
+        [
+          "Mid to upper for a mobile steel cabinet",
+          "Letaya 3 Drawer Mobile File Cabinet with Lock, fully assembled except wheels"
+        ],
+        [
+          "Upper for four drawers",
+          "VIYET File Cabinet, 4 Drawer with Lock"
+        ],
+        [
+          "Top of the range for interlock safety",
+          "Letaya Lateral 3 Drawer File Cabinet with Lock, the priciest pick"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Wall-Anchored Anti-Tip vs Mechanical Interlock Safety",
-    cards: [
-      { label: "Wall-anchored (VASAGLE)", text: "Physically secures the cabinet to a wall, preventing tipping regardless of how many drawers are open simultaneously." },
-      { label: "Mechanical interlock (Letaya Lateral)", text: "Prevents multiple drawers from opening at once, keeping the center of gravity stable without needing wall attachment." }
+    "subheading": "Interlock System vs Anti-Tip Kit",
+    "intro": "Two different ways to prevent a tip-over.",
+    "cards": [
+      {
+        "label": "Interlock: Letaya Lateral",
+        "text": "Mechanically prevents opening several drawers at once, which is automatic. The downside is you cannot open two drawers together to compare files."
+      },
+      {
+        "label": "Anti-tip kit: VASAGLE",
+        "text": "A wall kit secures the cabinet to the wall and costs you nothing in daily use, but you must install it and have a stud."
+      }
     ],
-    note: "If you can't or don't want to attach the cabinet to a wall, the Letaya Lateral's interlock system provides tip safety without that requirement. If you prefer the flexibility of opening any drawer freely, the VASAGLE's wall anchor achieves safety differently.",
+    "note": "Households with children should choose the interlock or the anti-tip kit rather than neither, and renters can pick the Letaya for no-drill safety."
   },
   {
-    subheading: "By Lock Independence Needs",
-    table: {
-      headers: ["Your access control needs", "Recommended pick"],
-      rows: [
-        ["Lock specific drawers while leaving others open", "VASAGLE (independent locks)"],
-        ["One lock for the whole unit", "VIYET, Letaya Mobile, or Letaya Lateral"]
+    "subheading": "By Security Preference",
+    "intro": "How you share the cabinet decides the lock type.",
+    "table": {
+      "headers": [
+        "Preference",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lock only some drawers",
+          "VASAGLE 3 Drawer File Cabinet, each drawer independently lockable"
+        ],
+        [
+          "One key locks everything",
+          "Letaya 3 Drawer Mobile File Cabinet, single lock with 2 keys"
+        ],
+        [
+          "A foldable key you carry",
+          "Letaya Lateral 3 Drawer File Cabinet, with a folding key lock"
+        ],
+        [
+          "Maximum drawers behind one lock",
+          "VIYET 4 Drawer, with a locking mechanism and ball-bearing slides"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Shared Home Office With Mixed Access Needs Specifically",
-    cards: [
-      { label: "Look for", text: "Independently lockable drawers so you can restrict access to specific sensitive documents while leaving shared files accessible." },
-      { label: "In this comparison", text: "The VASAGLE pick's independently lockable drawers are specifically designed for this kind of mixed-access scenario." }
-    ],
+    "subheading": "For a Shared Home Office Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Independent drawer locks, an anti-tip kit or interlock, and a footprint that does not block a doorway."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The VASAGLE gives independent locks and a wall kit, and the Letaya Lateral combines interlock safety with a folding key lock."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want a mechanical interlock safety system with the deepest, most spacious drawers, where the Letaya Lateral pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You want independent drawer locks and anti-tip wall hardware without paying for the most drawers, where the VASAGLE pick covers that for the lowest price here." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The next step up is fireproof or commercial cabinets.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need documented fire protection or commercial-grade drawers, which sit above this list."
+      },
+      {
+        "label": "Save if",
+        "text": "A two-drawer cabinet covers you, where the under $100 guide's Approgreent or BYNSOE costs less."
+      }
+    ]
   }
 ];
 
@@ -182,12 +267,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Do I really need an anti-tip kit for a 3 or 4-drawer filing cabinet?", "a": "If the cabinet doesn't have a genuine interlock system preventing multiple drawers from opening simultaneously, yes, anchoring it to a wall or ensuring it has some form of tip prevention is a real safety consideration, especially with children or pets in the home, since a fully loaded top drawer extended on a tall cabinet can create a genuine tipping hazard." },
-  { "q": "What's the most common mistake buyers make when comparing lock systems across filing cabinets?", "a": "Assuming any locking cabinet provides the same level of access control, when a single master lock securing all drawers together, like on the VIYET or Letaya picks, offers meaningfully different flexibility than independently lockable drawers like the VASAGLE pick provides." },
-  { "q": "Is the Letaya Lateral pick worth the price premium over the VASAGLE for tipping safety?", "a": "If you can't or don't want to anchor a cabinet to your wall, its interlock system provides genuine tip safety without that requirement, but if wall anchoring is an option for your space, the VASAGLE's anti-tip kit and independently lockable drawers offer strong value at a lower price." },
-  { "q": "Can I access multiple drawers at once on the Letaya Lateral's interlock system?", "a": "No, the interlock system specifically prevents more than one drawer from opening simultaneously as a safety measure to maintain the cabinet's center of gravity, so you'll need to close one drawer before opening another." },
-  { "q": "How much assembly does the Letaya Mobile pick actually require?", "a": "It arrives fully assembled except for the wheels, which need to be attached, making it one of the quicker cabinets in this comparison to get set up and ready for use." },
-  { "q": "Does the VIYET 4-drawer cabinet include any anti-tip safety features?", "a": "The listing doesn't specifically mention an anti-tip kit or interlock system, so if tipping safety is a priority for your household, consider adding your own wall-anchoring hardware or choosing a pick like the VASAGLE that includes this feature by default." }
+  {
+    "q": "Is the VASAGLE 3-drawer worth more than the VIYET?",
+    "a": "If you value independent drawer locks and an anti-tip kit, yes. The VIYET has 4 drawers and ball-bearing slides, but it is taller and lists no anti-tip kit. The VIYET's height needs 52 inches of clearance."
+  },
+  {
+    "q": "What is the main mistake with 3 and 4 drawer cabinets?",
+    "a": "Opening several full drawers at once. Tall cabinets can tip, so open one drawer at a time, load the bottom first and use an anti-tip kit or an interlock like the Letaya Lateral's. The Letaya Lateral's interlock stops two drawers opening at once."
+  },
+  {
+    "q": "Letaya Lateral or Letaya Mobile?",
+    "a": "The Lateral is 40 x 36 x 16 inches with an interlock and full suspension drawers. The Mobile has 0.8mm steel, 5 casters and a single lock, so choose the Lateral for a wall and the Mobile for moving. The VASAGLE is easier for renters to buy than the Lateral."
+  },
+  {
+    "q": "How do I install the VASAGLE anti-tip kit?",
+    "a": "Find a stud behind the cabinet, anchor the strap to the wall and the back of the cabinet, and tighten. Verify it with a gentle pull. The VASAGLE includes the kit. Skip the strap only if the cabinet is truly bolted down."
+  },
+  {
+    "q": "What about legal-size files?",
+    "a": "Letter files are about 15 inches wide in vertical cabinets and legal about 18. Lateral cabinets can hold both in the same drawer, which is a point for the Letaya Lateral. The Lateral is the only pick built for legal and letter together."
+  },
+  {
+    "q": "Will a mobile 3-drawer cabinet slide on the floor?",
+    "a": "Lock the casters before pulling a drawer. The Letaya mobile has 5 casters and 2 lockable ones, so lock them and keep the weight low. Only one lockable caster pair is not enough on a slope."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

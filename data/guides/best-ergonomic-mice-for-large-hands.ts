@@ -162,52 +162,48 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Stated hand length range",
-    "explanation": "A listing that gives a hand length, such as 19.0 to 21.5cm, is more useful than one that only says large. Vendor bands often put hands over about 19cm as large, so measure from wrist crease to middle fingertip. Compare your figure to the stated range."
+    "criterion": "Hand length and shell length",
+    "explanation": "Hand length is measured from the wrist crease to the middle fingertip, and a larger hand needs a longer shell so the fingers rest flat on the buttons. A short shell forces a claw grip that tires the tendons. Look for a stated range, such as 19.0 to 21.5 cm, and compare it with your measurement before ordering. Retailer guides put hands over about 18 cm in the larger-mouse range, which the ProtoArc range covers."
   },
   {
-    "criterion": "Shell length for a palm grip",
-    "explanation": "A palm grip needs a long shell, and vendor rules suggest about 0.75 to 0.85 times your palm length. A short mouse makes the fingers curl and clamp. Look for the length in millimeters."
+    "criterion": "Vertical tilt angle",
+    "explanation": "The tilt is how far the mouse leans from flat, such as 46 degrees on the SANWA, and it controls how much your forearm rotates. A moderate angle suits first-time buyers, while higher angles are closer to a handshake. Look for the degree figure in the title or bullets, and expect an adjustment week. The ProtoArc and SANWA both pair two Bluetooth hosts plus a receiver; the M720 uses Unifying."
   },
   {
-    "criterion": "Width and arm position",
-    "explanation": "Very wide mice push the arm outward, away from the body, which strains the shoulder. A mouse wide enough for the hand but not oversized helps. Check the width in the listing."
+    "criterion": "Palm and wrist support",
+    "explanation": "Palm support is the area beneath the heel of your hand, and a wrist rest keeps it off the desk edge. A large hand can drop onto a flat desk surface if the shell is too shallow. Look for a magnetic or detachable rest, and check whether it can be removed if it gets in the way. The SANWA's magnetic wrist rest can be removed if it crowds your desk."
   },
   {
-    "criterion": "Wrist rest and support",
-    "explanation": "A magnetic or attached rest supports the heel of the hand on a large vertical body. It reduces wrist pressure but adds width. Check whether the rest is removable."
+    "criterion": "Multi-computer switching",
+    "explanation": "Multi-device pairing remembers two or three computers, and Logitech Flow lets the cursor move between them. For someone with a laptop and a desktop, this saves re-pairing. Look for the phrase 3 devices or Flow in the listing, and confirm that the receiver ships in the box. The M720 and SANWA both ship with a receiver, but check the Redragon's tri-mode box."
   },
   {
-    "criterion": "Side scroll for wide sheets",
-    "explanation": "A thumb side wheel scrolls horizontally without dragging the mouse, which helps on wide spreadsheets and timelines. Without one, you drag the sheet by hand or hold a modifier key. Look for horizontal scroll or tilt wheel in the feature list."
-  },
-  {
-    "criterion": "Connection and battery",
-    "explanation": "Large mice often include multi-device pairing, so one shell can serve a laptop and a desktop. A claim such as 24 months or 120 days is a manufacturer figure from light use, not a promise. Check the device count, whether a receiver is included and the exact battery wording."
+    "criterion": "Battery claims and replacement cost",
+    "explanation": "A 24 month battery claim assumes light daily use, while a 1000mAh rechargeable cell needs charging every few weeks. Replaceable cells cost a couple of dollars, while a sealed battery eventually means a new mouse. Look at the battery type in the specs and see what the listing says ships in the box. The M720 claims 24 months, while the Redragon's 1000mAh cell needs recharging."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Hand fit",
-    "description": "We compared stated hand lengths and large-hand wording."
+    "title": "Hand length coverage",
+    "description": "We matched each listing against hand length, noting that the ProtoArc EM11 Pro lists a 19.0 to 21.5 cm fit while the Logitech M720 is full-size. For large hands a shell shorter than the palm pushes the fingers into a claw, so coverage drove our ranking. Only the ProtoArc lists a measured range (19.0 to 21.5 cm), so it was the one pick we could check against hand length."
   },
   {
-    "title": "Shape",
-    "description": "Vertical angle, tilt and wrist rest options were noted."
+    "title": "Support under the palm",
+    "description": "We looked at palm support, such as the magnetic wrist rest on the SANWA vertical mouse and the large contoured body of the ProtoArc. A big hand can bottom out on a shallow shell, so we favored models that fill the palm and keep the wrist off the desk. The SANWA is the only vertical here with a wrist rest, and its 46 degree tilt is mild."
   },
   {
-    "title": "Scroll features",
-    "description": "Side wheels and scroll wheel types were weighed."
+    "title": "Vertical angle for bigger forearms",
+    "description": "We compared tilt, like the 46 degree SANWA, against other vertical designs. A moderate angle suits a forearm that is new to vertical mice, and a larger frame gives a steadier lean, so we judged the angle in the context of body size. Hand-length guides suggest 18 cm and over as the range where standard and large shells make sense."
   },
   {
-    "title": "Connection and power",
-    "description": "Multi-device pairing, receivers and battery claims were compared."
+    "title": "Switching between computers",
+    "description": "We checked multi-device options, including Logitech Flow across 3 computers on the M720 and Bluetooth 5.4 plus 2.4GHz on the SANWA. Large-hand users often work at a desktop plus a laptop, so reliable switching raised a pick's score. The M720 pairs three computers through Flow, but the SANWA stops at two Bluetooth hosts plus 2.4GHz."
   },
   {
-    "title": "Value for price",
-    "description": "Each price was judged against the spec sheet it buys, plus patterns in owner feedback."
+    "title": "Value for a bigger shell",
+    "description": "We weighed price against body size, since large mice cost more at the top end. The $20 Redragon Large Wireless offers a full-size body, but it is a gaming design, so we weighed that against calmer office-focused picks. The $20 Redragon is tri-mode with a 1000mAh battery, but its 12800 DPI sensor is aimed at play."
   }
 ];
 
@@ -344,27 +340,27 @@ export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
     "q": "How do I know if my hand is large?",
-    "a": "Measure from your wrist crease to your middle fingertip. Vendor bands put over about 19cm as large. Treat that as a starting point."
+    "a": "Measure from the wrist crease to the tip of your middle finger. Many guides call anything above roughly 19 cm a larger hand, and the ProtoArc EM11 Pro lists a 19.0 to 21.5 cm fit. If your fingers hang over a mouse's front edge, it is too small."
   },
   {
-    "q": "Are big mice always vertical?",
-    "a": "No. The Logitech M720 and Redragon are conventional shells, while the ProtoArc, SANWA and the generic big mouse are vertical or tilted."
+    "q": "Is a vertical mouse good for large hands?",
+    "a": "It can be, if the shell is large enough. The ProtoArc EM11 Pro and the SANWA are sized for bigger hands and tilt the forearm. A small vertical shell cramps a big hand, so check the dimensions rather than assuming any vertical mouse works."
   },
   {
-    "q": "Is a wrist rest worth it?",
-    "a": "It supports the heel of the hand, which can reduce pressure on a large body. It also widens the device. Check whether it can be removed."
+    "q": "Is the Logitech M720 worth it over the $20 Redragon?",
+    "a": "The M720 is a calm office design with a 24-month battery claim and Logitech Flow for 3 computers, while the Redragon adds gaming extras such as RGB and a 1000mAh battery. If you work all day on spreadsheets, the M720 is quieter in style and features."
   },
   {
-    "q": "Is the ProtoArc worth the price?",
-    "a": "It is worth it for a stated hand range and a side scroll wheel. For basics, cheaper models cover most of the need."
+    "q": "Do large mice need a wrist rest?",
+    "a": "Not necessarily. The SANWA includes a magnetic wrist rest, and some people like it for long sessions. If you already use a gel pad under the wrist, you may not need it. Try a mouse without the rest first and add one if the base of your hand drags."
   },
   {
-    "q": "Can I game with these?",
-    "a": "The Redragon is built for gaming. The others are office oriented, but casual play is fine."
+    "q": "Why is my large mouse still uncomfortable?",
+    "a": "The usual cause is the wrong shell rather than the wrong size. A tall shell with a deep thumb groove can twist a wide palm, so test shapes if you can. Also check desk height, and keep the elbow at about a right angle while you use it."
   },
   {
-    "q": "How do I use a very wide mouse comfortably?",
-    "a": "Keep it close to the keyboard so your arm does not splay. If pain persists, see a professional."
+    "q": "How do I pair one mouse with two computers?",
+    "a": "Pair the first computer over Bluetooth, then hold the channel button and pair the second. The ProtoArc and SANWA hold two Bluetooth hosts plus a 2.4GHz receiver. The M720 uses a Unifying receiver or Bluetooth, and Flow moves your cursor across computers on the same network."
   }
 ];
 

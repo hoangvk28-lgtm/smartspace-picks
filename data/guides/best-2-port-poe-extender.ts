@@ -84,70 +84,152 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real Bandwidth by Distance Mode", "description": "Compared documented speed at both standard and any extended-distance mode." },
-  { "title": "Per-Port Wattage Documentation", "description": "Compared how specifically each listing discloses individual port power limits." },
-  { "title": "Outdoor Waterproofing", "description": "Compared IP ratings and included weatherproofing accessories for outdoor 2-device installations." },
-  { "title": "Warranty and Support Commitment", "description": "Compared warranty length and stated ongoing technical support." },
-  { "title": "Cascade Distance Support", "description": "Compared documented multi-unit cascade configurations and total achievable distance." }
+  {
+    "title": "Speed at each distance mode",
+    "description": "We read the listed speed in the standard 100m mode and in any extended mode. The REVODATA toggle trades bandwidth for reach, while the VIMIN and NICGIGA hold 1000Mbps. At this size we gave full Gigabit more weight than raw distance, since two cameras or an AP plus a camera need real throughput."
+  },
+  {
+    "title": "Per-port power split",
+    "description": "A 2-port extender has one input budget shared by two outputs, so we compared how clearly each listing states the split. The LINOVISION documents 8W on the camera port and 15W on the out port, and the REVODATA lists 15W max per port. Unstated splits were marked down."
+  },
+  {
+    "title": "Weatherproofing for a corner mount",
+    "description": "Most 2-port units end up on an outdoor wall or a shed, so we checked IP ratings and whether waterproof cable caps ship in the box. IP65 (VIMIN) and IP67 (REVODATA) earned credit, while an unrated plastic case only suits a dry attic or garage."
+  },
+  {
+    "title": "PoE voltage compatibility",
+    "description": "We checked the stated input standard, since some extenders only accept 48V active PoE and reject 24V passive gear. NICGIGA and LINOVISION state their limits openly, which is exactly the kind of detail a buyer needs before plugging in an older camera."
+  },
+  {
+    "title": "Warranty and support terms",
+    "description": "We compared written warranty length and support promises, because a mid-run extender is hard to reach once mounted. NICGIGA lists a 1-year warranty with lifetime technical support, which counted for more than a bare return window on a unit installed up a ladder."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Full Gigabit speed with outdoor waterproofing", "VIMIN 2-Port Outdoor PoE Gigabit Extender"],
-        ["The strongest warranty and support at the lowest price", "NICGIGA 1 in 2 Out Gigabit PoE Extender"],
-        ["Flexibility to trade bandwidth for extended reach", "REVODATA IP67 Waterproof 2 Port PoE Extender"],
-        ["The longest total cascade distance", "LINOVISION Mini 2 Port PoE Extender"]
+    "subheading": "By Port Use",
+    "intro": "Two outputs usually mean either two cameras or one camera plus an access point, and each pairing stresses a different spec.",
+    "table": {
+      "headers": [
+        "Your two devices",
+        "Recommended pick"
       ],
+      "rows": [
+        [
+          "Two modern 4K cameras that each need full Gigabit throughput",
+          "VIMIN 2-Port Outdoor PoE Gigabit Extender, which holds 1000Mbps on both outputs"
+        ],
+        [
+          "One camera and one low-draw device such as a small AP",
+          "LINOVISION Mini 2 Port, since its 8W camera port and 15W out port suit unequal loads"
+        ],
+        [
+          "A pair of basic 1080p cameras at the far end of a long run",
+          "REVODATA IP67 Waterproof 2 Port, using the 250m toggle at its reduced speed"
+        ],
+        [
+          "Two devices indoors where support matters most",
+          "NICGIGA 1 in 2 Out Gigabit, with its lifetime technical support"
+        ]
+      ]
     },
+    "note": "Check the sum of both devices' wattage against the extender's input budget before anything else."
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $21", "REVODATA IP67 Waterproof 2 Port (under $25)"],
-        ["Under $22", "NICGIGA 1 in 2 Out Gigabit (under $25)"],
-        ["Under $23", "VIMIN 2-Port Outdoor Gigabit (under $25)"],
-        ["Under $33", "LINOVISION Mini 2 Port (under $35)"]
+    "subheading": "By Budget",
+    "intro": "All four sit in a narrow band, so the real question is what each tier skips; none is above $35.",
+    "table": {
+      "headers": [
+        "Price tier",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $25 with outdoor rating",
+          "REVODATA IP67 Waterproof, the cheapest weatherproof option here"
+        ],
+        [
+          "Under $25 with full Gigabit",
+          "VIMIN Outdoor Gigabit, the best speed per dollar in this group"
+        ],
+        [
+          "Under $25 with documented support",
+          "NICGIGA Gigabit, which adds a 30-day return and lifetime support"
+        ],
+        [
+          "$25 to $35 for cascade reach",
+          "LINOVISION Mini 2 Port, which reaches 1000ft through a 2-level cascade at 100Mbps"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Full Gigabit Speed vs Extended Distance Toggle",
-    cards: [
-      { label: "Full Gigabit speed (VIMIN, NICGIGA)", text: "Both maintain 1000Mbps across their fixed 100m range, better suited to devices that need consistent high bandwidth like modern 4K cameras or fast access points." },
-      { label: "Extended distance toggle (REVODATA)", text: "A physical switch lets you choose 100m at 100Mbps or 250m at a reduced 10Mbps, useful when you need extra reach for a lower-bandwidth device like a basic surveillance camera." }
+    "subheading": "Full Gigabit vs Extended Reach",
+    "intro": "This is the central tradeoff in a 2-port extender: speed or distance, rarely both.",
+    "cards": [
+      {
+        "label": "Full Gigabit (VIMIN, NICGIGA)",
+        "text": "Both keep 1000Mbps over a standard 100m hop. That is what high-bitrate cameras and Wi-Fi APs need, and it keeps the extender from becoming the bottleneck for anything on the far side."
+      },
+      {
+        "label": "Extended reach (REVODATA, LINOVISION)",
+        "text": "The REVODATA toggle reaches 250m at a much lower speed, and the LINOVISION stretches to 1000ft by cascading at 100Mbps. Both are fine for a modest camera stream and not for anything bandwidth hungry."
+      }
     ],
-    note: "If your devices need full bandwidth and your distance need is modest, the VIMIN or NICGIGA picks are the better fit. If you need extra reach for a device that doesn't require high bandwidth, the REVODATA's toggle gives you that flexibility.",
+    "note": "Default to a Gigabit pick unless the run really is longer than 100m, then accept the lower speed."
   },
   {
-    subheading: "By Distance Need",
-    table: {
-      headers: ["Your distance need", "Recommended pick"],
-      rows: [
-        ["Standard 100m (328ft) extension", "VIMIN, NICGIGA, or REVODATA in standard mode"],
-        ["Extended 250m for a lower-bandwidth device", "REVODATA IP67 Waterproof (250m toggle mode)"],
-        ["Maximum 1000ft via 2-level cascade", "LINOVISION Mini 2 Port PoE Extender"]
+    "subheading": "By Distance Need",
+    "intro": "Distance is the second axis after port use, and cable length counts every meter from the switch to the final device.",
+    "table": {
+      "headers": [
+        "Total run from the switch",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Up to 100m from the switch to the extender",
+          "VIMIN or NICGIGA, both running at full speed"
+        ],
+        [
+          "Roughly 150m to 250m to a single basic camera",
+          "REVODATA IP67 Waterproof in its 250m toggle mode"
+        ],
+        [
+          "Past 250m with a stop at a mid-point",
+          "LINOVISION Mini 2 Port with a second unit on its Out port"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Two-Camera Corner Installation Specifically",
-    cards: [
-      { label: "Look for", text: "An extender with outdoor waterproofing and enough per-port wattage to support your specific camera models, since two cameras mounted near each other but far from the switch is a very common installation scenario." },
-      { label: "In this comparison", text: "The VIMIN pick's IP65 rating and full Gigabit speed make it a strong fit for a typical two-camera outdoor corner installation." }
-    ],
+    "subheading": "For a Detached Garage or Shed Specifically",
+    "intro": "A garage run is typically one long hop with a camera outside and a device inside.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "An IP-rated case with waterproof caps, a 48V compatibility statement, and enough wattage for the outside camera, because a damp garage is hard on unrated plastic."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The VIMIN IP65 body with full Gigabit fits a typical garage camera plus a Wi-Fi AP, while the REVODATA IP67 case is the safer call for a fully exposed wall."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You need the longest possible total cascade distance with precise per-port wattage documentation, where the LINOVISION pick's under $35 price is justified by that combination." },
-      { label: "Save if", text: "You want full Gigabit speed with outdoor waterproofing, where the VIMIN or NICGIGA picks deliver that around $22, among the lowest prices in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Differences here are small in money and meaningful in features.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need to chain a second unit. The LINOVISION costs the most in this group and is the only pick with a stated 1000ft cascade; the 4-port guide and the 3-port guide cover bigger layouts."
+      },
+      {
+        "label": "Save if",
+        "text": "Your run is under 100m. The REVODATA and NICGIGA cost the least here and the VIMIN adds only a little more for a proper Gigabit outdoor build."
+      }
+    ]
   }
 ];
 
@@ -175,12 +257,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Will a 2-port PoE extender's extended distance mode still support smooth video from my camera?", "a": "It depends on the resolution; the REVODATA pick's extended 250m mode specifically drops to 10Mbps, which the listing itself recommends specifically for surveillance cameras rather than higher-bandwidth devices, so checking your camera's actual bitrate needs against that reduced speed is worth doing." },
-  { "q": "What's the most common mistake buyers make when choosing a 2-port PoE extender?", "a": "Assuming both ports on a 2-port extender share identical power limits, when some extenders, like the LINOVISION pick, specifically document different wattage limits on each individual port." },
-  { "q": "Is the LINOVISION pick worth the higher price over the VIMIN extender?", "a": "If you specifically need the longest total cascade distance with precise per-port wattage documentation, the LINOVISION's higher price is justified, but for a standard 100m two-device installation, the VIMIN's lower price and full Gigabit speed likely offer better value." },
-  { "q": "Can I use these 2-port extenders with a 24V passive PoE camera?", "a": "The LINOVISION pick specifically states it does not support 24V PoE devices, and the NICGIGA pick specifically limits compatibility to 48V devices, so verifying your exact camera's PoE voltage standard against each listing's stated compatibility is important before buying." },
-  { "q": "Do I need outdoor waterproofing if my 2-port extender will be installed in a garage or shed?", "a": "A garage or shed with some weather exposure but not full outdoor conditions may still benefit from an IP-rated extender like the VIMIN or REVODATA picks, since dust and humidity can affect unprotected electronics even in a partially sheltered space." },
-  { "q": "How do I properly cascade two PoE extenders together to reach maximum distance?", "a": "The LINOVISION listing specifically instructs connecting the second extender's PoE input to the first extender's Out port rather than its Camera port, so following that exact wiring order is necessary to reach the documented maximum cascade distance." }
+  {
+    "q": "Will the REVODATA extended mode still carry camera video cleanly?",
+    "a": "The 250m mode drops the link to a much lower speed, and the listing pitches it at basic surveillance cameras. A 1080p stream at a modest bitrate can fit, but a 4K camera will not, so check your camera's bitrate before using that mode."
+  },
+  {
+    "q": "Can I plug a 24V passive PoE camera into these extenders?",
+    "a": "Not safely without checking first. The LINOVISION states it does not support 24V devices and the NICGIGA limits itself to 48V PoE gear. Passive 24V cameras need a matching source, so confirm the voltage on the camera label before connecting."
+  },
+  {
+    "q": "Why do both outputs on a 2-port extender not get the full wattage?",
+    "a": "One 30W input has to feed the extender itself and both outputs. The LINOVISION lists 8W and 15W on its two ports, and the REVODATA caps each port at 15W. Add up your devices first, because a pair of 12W cameras can brown out a small budget."
+  },
+  {
+    "q": "Is the LINOVISION worth paying more than the VIMIN?",
+    "a": "Only if you need the longer cascade reach. The LINOVISION runs at 100Mbps and tops out at 8W on its camera port, while the VIMIN keeps full Gigabit and an IP65 case for less. For a single 100m hop, the VIMIN is the better value."
+  },
+  {
+    "q": "Where should I connect the second extender when cascading?",
+    "a": "On the LINOVISION, wire the second unit's PoE input to the first unit's Out port, not the Camera port. The wrong port can leave the chain underpowered or dead, so label the two ports before you mount anything on a wall."
+  },
+  {
+    "q": "Does an outdoor extender need a drip loop in the cable?",
+    "a": "Yes. Even with IP65 or IP67 housings and caps, water follows the cable into the port, so a downward loop below the entry stops that. Reseat the caps after any change, and check them each season, since rubber seals harden in sun and cold."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

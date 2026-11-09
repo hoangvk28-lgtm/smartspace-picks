@@ -189,24 +189,24 @@ export const products: GuideProduct[] = [
 
 export const howWeEvaluated = [
   {
-    "title": "Size and layout",
-    "description": "75% and TKL boards were compared on how much space each frees and which keys they keep."
+    "title": "Layout size and what you lose",
+    "description": "A 75% board such as Keychron K3 or RK84 keeps arrows and an F-row in about 80 to 85 keys, while TKL boards like RK87 and Redragon K552 have 87 keys with a separate navigation block. We checked which keys each size drops, since a missing F-row matters for shortcuts."
   },
   {
-    "title": "Switch character",
-    "description": "Low-profile, tactile, quiet and linear switches were compared for feel and noise."
+    "title": "Switch profile and noise",
+    "description": "Low-profile switches are shorter and typically quieter. Logitech MX Mechanical Mini lists Tactile Quiet switches, Keychron K3 uses low-profile switches, and Redragon K552 uses red linear switches, so we compared how each profile suits an office or a shared room. Roommates and shared offices make this the spec buyers notice first."
   },
   {
-    "title": "Connectivity",
-    "description": "Wired, Bluetooth, 2.4GHz and pass-through features were scored for desk flexibility."
+    "title": "Hot-swap sockets",
+    "description": "Redragon K673 PRO and RK84 list hot-swap, which lets you change switches without soldering, while Redragon K552 does not list it. Hot-swap matters if you want to try a different feel later without replacing the board. Only two of the six listings state it, so the rest were treated as soldered."
   },
   {
-    "title": "Build and sound",
-    "description": "Case materials and dampening layers were compared as reported on the listings."
+    "title": "Wireless options",
+    "description": "Redragon K673 PRO offers USB-C, Bluetooth and 2.4GHz, Keychron K3 Bluetooth 5.1 for three devices, and RK87 only 2.4GHz or wired, with RK84 and K552 wired only. We scored by whether the connection suits your desk and devices. A wireless board that needs a dongle takes a USB port."
   },
   {
-    "title": "Value",
-    "description": "Features were weighed against price bucket, with a note where a spec is not documented."
+    "title": "Case build and dampening",
+    "description": "Redragon K673 PRO uses a gasket mount with five-layer dampening, and Redragon K552 uses a metal frame. We compared case weight and dampening as the reason a board sounds solid, and noted which listings state it. Listings with no mounting detail earned no credit for it."
   }
 ];
 
@@ -220,111 +220,122 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Noise Level",
+    "subheading": "By Layout",
+    "intro": "Each size trades a few keys for desk space.",
     "table": {
       "headers": [
-        "Your environment",
-        "Pick from this guide"
+        "Situation",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Shared office, quiet needed",
-          "Logitech MX Mechanical Mini: Tactile Quiet switches"
+          "Smallest board that keeps arrows and F-row",
+          "Keychron K3 Version 2, a 75% low-profile board."
         ],
         [
-          "Dorm at night",
-          "Redragon K673 PRO: five-layer dampening"
+          "75% with USB pass-through ports",
+          "RK ROYAL KLUDGE RK84, with 84 keys and 2 USB pass-through ports."
         ],
         [
-          "Laptop-like feel",
-          "Keychron K3 Version 2: low-profile switches"
+          "81 keys, wireless, hot-swap",
+          "Redragon K673 PRO, with a scroll knob and gasket mount."
         ],
         [
-          "Does not matter",
-          "Redragon K552: linear red"
+          "Standard TKL with a nav cluster",
+          "RK ROYAL KLUDGE RK87, wireless dongle."
         ],
         [
-          "Fewer cables",
-          "RK ROYAL KLUDGE RK84: USB pass-through"
+          "Wired TKL on a tight budget",
+          "Redragon K552, with a metal frame."
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Price buys wireless, hot-swap and quiet switches.",
     "table": {
       "headers": [
-        "Budget",
-        "Pick from this guide"
+        "Price range",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "$25 to $50",
-          "Redragon K673 PRO for wireless, RK87 for a dongle TKL, Redragon K552 for wired TKL"
+          "$25 to $50, wireless",
+          "Redragon K673 PRO."
         ],
         [
-          "$50 to $75",
-          "RK ROYAL KLUDGE RK84: hub and hot-swap"
+          "$25 to $50, dongle TKL",
+          "RK ROYAL KLUDGE RK87."
         ],
         [
-          "$75 to $100",
-          "Logitech MX Mechanical Mini or Keychron K3 Version 2"
+          "$25 to $50, wired TKL",
+          "Redragon K552."
+        ],
+        [
+          "$50 to $75, hub and hot-swap",
+          "RK ROYAL KLUDGE RK84."
+        ],
+        [
+          "$75 to $100, premium",
+          "Logitech MX Mechanical Mini or Keychron K3 Version 2."
         ]
       ]
     }
   },
   {
-    "subheading": "75% vs TKL",
-    "intro": "Both sizes drop the number pad, but a TKL keeps separate navigation keys and is wider.",
+    "subheading": "Low-Profile vs Standard Height Switches",
+    "intro": "Typing feel and noise differ more than the spec sheet suggests.",
     "cards": [
       {
-        "label": "75%",
-        "text": "Compresses arrows and navigation beside the main block for a narrower footprint. The Keychron K3 Version 2, Redragon K673 PRO and RK ROYAL KLUDGE RK84 use this layout."
+        "label": "Low-profile",
+        "text": "Shorter travel and a flat body that suits a laptop-height desk. Logitech MX Mechanical Mini and Keychron K3 use them, but the shallow feel is not for everyone."
       },
       {
-        "label": "TKL",
-        "text": "Gives separate arrow and navigation clusters with a gap, which is easier for touch typists. The RK87 and Redragon K552 are TKL and take a bit more width."
+        "label": "Standard height",
+        "text": "Deeper travel and more switch choices. Redragon K552 and the hot-swap boards use standard switches, and the case is usually taller."
       }
     ],
-    "note": "Choose 75% if desk width is tight, TKL if you want an easier-to-learn layout."
+    "note": "Pick low-profile Keychron K3 for a flat desk and standard-height Redragon for deeper key travel."
   },
   {
-    "subheading": "By Customization Interest",
+    "subheading": "By Connection",
+    "intro": "Wireless adds convenience, but not all boards have it.",
     "table": {
       "headers": [
-        "Interest",
-        "Pick from this guide"
+        "Need",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Remap with firmware",
-          "Keychron K3 Version 2: QMK"
+          "Three connection modes",
+          "Redragon K673 PRO, with USB-C, Bluetooth and 2.4GHz."
         ],
         [
-          "Swap switches",
-          "Redragon K673 PRO or RK ROYAL KLUDGE RK84"
+          "Bluetooth for three devices",
+          "Keychron K3 Version 2."
         ],
         [
-          "Do not care",
-          "Redragon K552 or Logitech MX Mechanical Mini"
+          "Dongle only",
+          "RK ROYAL KLUDGE RK87."
         ],
         [
-          "Software macros",
-          "Redragon K552: software driver"
+          "Wired only, no pairing",
+          "Redragon K552 or RK84."
         ]
       ]
     }
   },
   {
-    "subheading": "For Dorm Rooms Specifically",
+    "subheading": "For Mac and Windows Users Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "Low noise, wireless connectivity so you can type from a bed, and a hot-swap option so you can change switches."
+        "text": "A Mac layout or both keycap sets, and software to remap keys."
       },
       {
         "label": "In this comparison",
-        "text": "The Redragon K673 PRO combines five-layer dampening, three connection modes and hot-swap sockets at a low cost."
+        "text": "Keychron K3 Version 2 ships Mac layout plus Windows keycaps, and Logitech MX Mechanical Mini supports multiple devices."
       }
     ]
   },
@@ -333,11 +344,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You work in a quiet office or want multi-computer control: the Logitech MX Mechanical Mini has quiet switches and Flow."
+        "text": "You want quiet switches or multi-device control. Logitech MX Mechanical Mini and Keychron K3 sit in the $75 to $100 band."
       },
       {
         "label": "Save if",
-        "text": "You are new to mechanical keyboards: the Redragon K552 and K673 PRO give you the real thing for less."
+        "text": "You only need a compact mechanical board. Redragon K552 and RK87 remain in the $25 to $50 band."
       }
     ]
   }
@@ -346,50 +357,50 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Size: 75% versus TKL",
-    "explanation": "A 75% board has 80 to 85 keys with arrows beside the main block, while a TKL has 87 keys with separate navigation. The 75% is narrower, while TKL is easier for muscle memory. Compare the stated dimensions with your free desk width."
+    "explanation": "A 75% board has 80 to 85 keys with arrows beside the main block, while a TKL has 87 keys with separate navigation. The 75% is narrower, while TKL is easier for muscle memory. Compare the stated dimensions with your free desk width. If you use the numpad rarely, 75% drops the numpad block entirely, which frees room for a mouse beside the board on a narrow desk."
   },
   {
     "criterion": "Switch profile and noise",
-    "explanation": "Low-profile switches have a shallow stroke like a laptop, and standard switches have more travel. Linear is smooth, tactile has a bump, and clicky is loud. Look for 'tactile quiet' or a decibel rating if noise matters."
+    "explanation": "Low-profile switches have a shallow stroke like a laptop, and standard switches have more travel. Linear is smooth, tactile has a bump, and clicky is loud. Look for 'tactile quiet' or a decibel rating if noise matters. Linear switches such as red are smooth but silent only in feel, so read buyer comments on noise if a roommate sleeps nearby."
   },
   {
     "criterion": "Hot-swap sockets",
-    "explanation": "A hot-swap board lets you replace switches without soldering. This matters because switch feel is personal. Look for 'hot-swappable' and '3-pin and 5-pin' in the listing; if it is absent, assume soldered."
+    "explanation": "A hot-swap board lets you replace switches without soldering. This matters because switch feel is personal. Look for 'hot-swappable' and '3-pin and 5-pin' in the listing; if it is absent, assume soldered. Check that the listing says hot-swap and names the socket type, since a board with soldered switches cannot be changed later."
   },
   {
     "criterion": "Wireless approach",
-    "explanation": "Bluetooth works with phones and tablets, a dongle gives lower latency, and a wired connection never needs charging. One TKL pick here uses only a dongle. Check which modes are listed before buying."
+    "explanation": "Bluetooth works with phones and tablets, a dongle gives lower latency, and a wired connection never needs charging. One TKL pick here uses only a dongle. Check which modes are listed before buying. A 2.4GHz dongle has lower latency than Bluetooth, and a board with both, like Redragon K673 PRO, covers a PC and a phone."
   },
   {
     "criterion": "Case, dampening and weight",
-    "explanation": "A gasket mount with foam layers gives a softer sound, while a metal frame adds rigidity. If you carry the board, a light plastic case is easier. Look for the number of dampening layers or the case material."
+    "explanation": "A gasket mount with foam layers gives a softer sound, while a metal frame adds rigidity. If you carry the board, a light plastic case is easier. Look for the number of dampening layers or the case material. A heavier case with foam dampening is quieter and sits still, while a thin plastic case can ring on each keystroke."
   }
 ];
 
 export const faq = [
   {
-    "q": "What is the best size for a small mechanical keyboard?",
-    "a": "A 75% board is a common sweet spot because it keeps the function row and arrows in a narrower body. A TKL is wider but easier to learn, and a 65% or 60% is smaller but removes more keys."
+    "q": "Is a 75% keyboard better than a TKL for a small desk?",
+    "a": "Usually yes. Keychron K3 and RK84 at 75% shrink the footprint while keeping arrows and an F-row, while RK87 and Redragon K552 at 87 keys are slightly wider with a separate navigation cluster. If you want the smallest board, pick 75%."
   },
   {
-    "q": "Are small mechanical keyboards loud?",
-    "a": "It depends on the switch. Linear and tactile switches are quieter than clicky ones, and foam dampening lowers noise further. A Tactile Quiet switch, like the Logitech MX Mechanical Mini, is designed for offices."
+    "q": "What does hot-swap mean and do I need it?",
+    "a": "Hot-swap sockets let you pull a switch and push in another without a soldering iron. Redragon K673 PRO and RK84 list it. You need it only if you may change switches later, and Redragon K552 does not list it."
   },
   {
-    "q": "Is low-profile worth it?",
-    "a": "Low-profile keys have a shallow travel and sit flat, which is nicer for wrist comfort on a flat desk. They are limited in switch choices compared with standard hot-swap boards."
+    "q": "Is Logitech MX Mechanical Mini worth the premium over Keychron K3?",
+    "a": "If noise and multi-device control matter. Logitech uses Tactile Quiet switches and smart illumination, while Keychron K3 is a 75% board with QMK remapping and three-device Bluetooth. Keychron is more customizable, Logitech is quieter and costs more."
   },
   {
-    "q": "Can I use a mechanical keyboard on a Mac?",
-    "a": "Yes, most work with macOS. The Keychron K3 Version 2 ships with Mac keycaps, and others may require remapping the Command and Option keys."
+    "q": "Are low-profile switches comfortable for long typing?",
+    "a": "Many people find them gentle, because travel is shorter. Keychron K3 lists shallow travel that is not for everyone, so if you like deep keys a standard-height board such as Redragon K552 may suit better. Try both if you can."
   },
   {
-    "q": "How do I choose between wireless and wired?",
-    "a": "Choose wired for a fixed desk, wireless to move the board between devices. The RK84 shows a wired board can still reduce desk clutter with pass-through ports."
+    "q": "How do I keep a wireless mechanical keyboard from dropping out?",
+    "a": "Place the 2.4GHz dongle in a front USB port with a short extension, away from other wireless devices. Redragon K673 PRO and RK87 ship with a dongle, and Bluetooth boards like Keychron K3 can drop through walls or metal desks."
   },
   {
-    "q": "Do I need to lube or modify these boards?",
-    "a": "No. Boards with gasket mounts and foam are ready to use, and the hot-swap ones let you try other switches later if you want."
+    "q": "Can I use a Windows mechanical keyboard on a Mac?",
+    "a": "Yes, with caveats. Keychron K3 ships Mac layout and Windows keycaps, so it handles both, while a Windows-only board such as Redragon K552 needs remapping of Alt and Windows keys. Brightness and media keys may not work without software."
   }
 ];
 

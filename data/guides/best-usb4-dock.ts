@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Verified Bandwidth", "description": "Compared stated 40Gbps figures against generic USB4 branding claims." },
-  { "title": "Host Charging Wattage", "description": "Compared maximum laptop charging wattage delivered through the host connection." },
-  { "title": "Display Support", "description": "Compared maximum resolution and refresh rate combinations across single and dual display setups." },
-  { "title": "Cross-Platform Compatibility", "description": "Compared driverless setup and stated macOS/Windows compatibility." },
-  { "title": "Port Count and Storage", "description": "Compared total port count and any built-in storage expansion options." }
+  {
+    "title": "Verified 40Gbps USB4",
+    "description": "We checked that each dock states 40Gbps explicitly instead of relying on the USB4 label, because some docks drop to 20Gbps. The StarTech, Lenovo, Razer and WAVLINK all list 40Gbps or USB4 host interfaces. Docks that hide the speed in the fine print scored lower than those printing it up front."
+  },
+  {
+    "title": "Display configuration",
+    "description": "We compared dual 4K 144Hz or single 8K 60Hz on the StarTech and Lenovo, dual up to 4K 120Hz on the Razer, and triple 4K 144Hz on the WAVLINK. The headline number matters less than which ports carry it. Pixel counts are cheap marketing, so we looked at refresh rates with two monitors active, not one."
+  },
+  {
+    "title": "Host charging wattage",
+    "description": "All four list 100W charging, but through different routes: PD 3.1 on the Lenovo and a 180W included adapter on the Razer. Matching wattage to your laptop avoids slow charging. A power-hungry creator laptop can outrun a thin charger, so we noted the included brick."
+  },
+  {
+    "title": "Operating system support",
+    "description": "The StarTech is driverless and lists Windows and ChromeOS only, while the Lenovo lists universal cross-OS compatibility. We weighed this because docks rarely warn Mac buyers up front. Mixed fleets with Macs and Windows laptops need the cross-OS option, which is why we flagged it."
+  },
+  {
+    "title": "Expansion and warranty",
+    "description": "The WAVLINK adds a built-in M.2 enclosure up to 8TB with a 2-year warranty, and the Razer has 14 ports in a metal case. In the $140 to $200 range, we asked what each extra buys. Storage and port count were the tiebreakers in a range where the display specs are nearly identical."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,59 +116,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Driverless cross-platform compatibility", "StarTech Driverless USB4 Dock"],
-        ["A Lenovo-optimized dock with verified bandwidth", "Lenovo ThinkPad USB4 Dock 5000"],
-        ["The maximum port count for many peripherals", "Razer USB 4 Dock, 14 Ports"],
-        ["Built-in NVMe storage expansion", "WAVLINK USB4 Docking Station with M.2 Enclosure"]
+    "subheading": "By Primary Use",
+    "intro": "Pick by the one thing your desk cannot work without, since the four docks differ more in features than in speed.",
+    "table": {
+      "headers": [
+        "You need",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Dual 4K monitors at 144Hz on a Windows laptop with a 2.5GbE wired connection",
+          "StarTech Driverless USB4 Dock, Dual 4K 144Hz, which needs no driver"
+        ],
+        [
+          "A cross-platform dock for a Lenovo laptop that may also meet a Mac or Chromebook",
+          "Lenovo ThinkPad USB4 Dock 5000, with universal OS compatibility"
+        ],
+        [
+          "The largest number of ports in one box, with a sturdy all-metal case",
+          "Razer USB 4 Dock, 14 Ports, with a 180W adapter included"
+        ],
+        [
+          "Built-in SSD storage so you can skip a separate enclosure",
+          "WAVLINK USB4 Docking Station with M.2 Enclosure, up to 8TB"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $140", "WAVLINK with M.2 Enclosure (under $140)"],
-        ["Under $155", "StarTech Driverless (under $140) or Lenovo ThinkPad 5000 (under $160)"],
-        ["Under $200", "Razer USB 4 Dock (under $200)"]
+    "subheading": "By Budget",
+    "intro": "All four docks fall between $140 and $200, so the question is what the last $50 buys.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Under $150 for dual 4K 144Hz and PXE boot support",
+          "StarTech Driverless USB4 Dock, with 2.5GbE and Wake-on-LAN"
+        ],
+        [
+          "Under $150 when you want an M.2 SSD built into the dock",
+          "WAVLINK USB4 Docking Station, with an M.2 enclosure for drives up to 8TB"
+        ],
+        [
+          "Under $160 when your laptop supports newer high-wattage charging",
+          "Lenovo ThinkPad USB4 Dock 5000, with PD 3.1 charging"
+        ],
+        [
+          "Under $200 for the most ports and a large bundled power adapter",
+          "Razer USB 4 Dock, 14 Ports, with a 180W adapter included"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Driverless Setup vs Brand-Optimized Software",
-    cards: [
-      { label: "Driverless (StarTech)", text: "Works identically across macOS and Windows with no software install, ideal for shared or hot-desking environments with mixed devices." },
-      { label: "Brand-optimized (Lenovo ThinkPad 5000)", text: "Tuned specifically for ThinkPad hardware while still claiming broad OS compatibility, appealing if you're standardized on one laptop brand." }
+    "subheading": "Driverless Windows-First vs Cross-OS Docks",
+    "intro": "The operating system decides whether a dock works on day one.",
+    "cards": [
+      {
+        "label": "Driverless Windows-first (StarTech)",
+        "text": "StarTech needs no driver on Windows or ChromeOS and is the pick for dual 4K 144Hz, but its listing does not list macOS support."
+      },
+      {
+        "label": "Cross-OS (Lenovo)",
+        "text": "Lenovo's dock lists universal compatibility, which is the safer choice for a mixed fleet of Windows, Mac and Chromebook machines in one office."
+      }
     ],
-    note: "If your office mixes Mac and Windows devices, the StarTech's driverless design avoids compatibility exceptions. If you're a single-brand ThinkPad shop, the Lenovo pick's tuning is a safe default.",
+    "note": "Choose the cross-OS Lenovo if you might switch to a Mac, and the StarTech if you are staying on Windows."
   },
   {
-    subheading: "By Display Configuration Needed",
-    table: {
-      headers: ["Your display setup", "Recommended pick"],
-      rows: [
-        ["Dual 4K 144Hz or single 8K 60Hz", "StarTech Driverless or Lenovo ThinkPad 5000"],
-        ["Triple 4K 144Hz for creative work", "WAVLINK with M.2 Enclosure"]
+    "subheading": "By Peripheral Needs",
+    "intro": "Ports differ more than raw speed does between these four docks, so match the connections you plug in every day.",
+    "table": {
+      "headers": [
+        "You need",
+        "Best pick here"
       ],
-    },
+      "rows": [
+        [
+          "Wired 2.5GbE networking and Wake-on-LAN for remote access",
+          "StarTech Driverless USB4 Dock, which also supports PXE boot"
+        ],
+        [
+          "14 ports so a keyboard, drives and a webcam all stay plugged in",
+          "Razer USB 4 Dock, 14 Ports, with an all-metal case"
+        ],
+        [
+          "NVMe storage inside the dock for fast project files",
+          "WAVLINK USB4 Docking Station with M.2 Enclosure, up to 8TB"
+        ],
+        [
+          "PD 3.1 charging for a ThinkPad or another high-wattage laptop",
+          "Lenovo ThinkPad USB4 Dock 5000, with universal OS compatibility"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Creative Professionals Specifically",
-    cards: [
-      { label: "Look for", text: "A built-in fast storage enclosure and triple-display support, so you can work directly off high-speed local storage while running multiple reference monitors." },
-      { label: "In this comparison", text: "The WAVLINK pick specifically includes an M.2 NVMe enclosure rated up to 2004MB/s read speeds alongside triple 4K 144Hz display support." }
-    ],
+    "subheading": "For a Single-Cable Laptop Desk Specifically",
+    "intro": "One cable should charge the laptop and drive every monitor, so the desk stays clear when you unplug.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "100W charging, 40Gbps USB4 and a display output that matches your monitors, all delivered through one cable from the laptop."
+      },
+      {
+        "label": "In this comparison",
+        "text": "All four list 100W charging, and the Razer Dock ships a 180W adapter, which leaves headroom for the laptop plus devices on the dock."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You connect many peripherals and want the highest port count, where the Razer USB 4 Dock's 14 ports justify its under $200 price." },
-      { label: "Save if", text: "You want verified 40Gbps bandwidth with strong display support at the lowest price, where the WAVLINK or StarTech picks deliver that under $140." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The price gap between these four is small, so spend where the features change your daily setup.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need many ports on one dock. The Razer under $200 adds 14 ports, and the 4K 120Hz Thunderbolt 5 guide covers faster docks if you need more bandwidth."
+      },
+      {
+        "label": "Save if",
+        "text": "You want dual 4K 144Hz without paying for ports you will not use. The StarTech under $150 does it for the least in this group."
+      }
+    ]
   }
 ];
 
@@ -181,12 +268,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Can I use a USB4 dock with a laptop that only has a USB-C port, not USB4 or Thunderbolt?", "a": "Yes, USB4 docks are generally backward compatible with standard USB-C ports, but you'll only get the speed and display capabilities that your laptop's actual USB-C controller supports, not the dock's full USB4 potential." },
-  { "q": "What's the most common mistake buyers make when choosing between these four USB4 docks?", "a": "Assuming any dock labeled USB4 will deliver the full 40Gbps bandwidth and maximum display resolution regardless of their specific laptop model, when the actual performance ceiling is set by whichever is lower between the dock's and the laptop's USB4 controller capabilities." },
-  { "q": "Is the Razer USB 4 Dock worth the extra cost over the StarTech pick if I don't need 14 ports?", "a": "If you only need basic display and charging connectivity, the StarTech pick's driverless simplicity at a lower price is the better fit, but if you regularly connect many peripherals like external drives and speakers, the Razer's 14 ports justify the higher price." },
-  { "q": "How do I install an SSD into the WAVLINK dock's M.2 enclosure?", "a": "The enclosure is designed for tool-free or simple screwdriver installation of a compatible M.2 PCIe NVMe SSD, and the specific installation steps are included in the dock's documentation, though the SSD itself must be purchased separately." },
-  { "q": "Do these docks work with both Windows 10/11 and macOS without any configuration changes?", "a": "The StarTech and Lenovo picks specifically state cross-platform compatibility with minimal or no configuration, while checking each specific listing's stated OS compatibility is worth doing before purchase if you plan to switch between operating systems regularly." },
-  { "q": "Can I daisy-chain multiple USB4 docks together for even more ports?", "a": "USB4's underlying protocol supports daisy-chaining compatible devices, but checking each specific dock's documentation for daisy-chain support is worth doing, since not every USB4 dock is designed to be chained with another dock in this way." }
+  {
+    "q": "Is USB4 the same as Thunderbolt 4?",
+    "a": "Not exactly. Both can reach 40Gbps, but USB4 can run at 20Gbps and does not guarantee dual 4K display output, while Thunderbolt 4 requires 40Gbps and certification. Check the dock's listed display configuration, not just the label. Label confusion is the common trap."
+  },
+  {
+    "q": "Will a USB4 dock work on my USB-C laptop?",
+    "a": "Only if the laptop's port supports USB4 or Thunderbolt, and a plain USB-C port with DisplayPort Alt Mode may fall back to slower speeds. Look for the lightning bolt or the 40Gbps marking next to the port. A quick check saves a return."
+  },
+  {
+    "q": "Is the Razer dock worth the extra cost over the StarTech?",
+    "a": "If you need 14 ports and an all-metal case, yes, at under $200. The StarTech under $150 has fewer ports but lists dual 4K 144Hz, 2.5GbE and PXE boot."
+  },
+  {
+    "q": "Does the StarTech dock work on Mac?",
+    "a": "No. It is listed as Windows and ChromeOS only. Mac buyers should choose the Lenovo, which lists universal cross-OS compatibility, or the WAVLINK with its M.2 enclosure. Mixed households should avoid Windows-only docks."
+  },
+  {
+    "q": "How do I get full speed from the WAVLINK's built-in SSD?",
+    "a": "Use a PCIe NVMe M.2 drive up to 8TB, connect the dock to a USB4 or Thunderbolt port with the supplied cable, and keep the dock ventilated. Speeds drop on a non-USB4 port."
+  },
+  {
+    "q": "Why does my laptop not charge properly through the dock?",
+    "a": "Charging depends on matching the dock's 100W output to your laptop's needs. A power-hungry model may charge slowly under load; use the Razer's included 180W adapter or the original charger. Check the brick rating."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

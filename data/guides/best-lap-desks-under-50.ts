@@ -84,11 +84,22 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Cooling Method", "description": "Distinguished genuine active USB-powered cooling fans from passive heat shield designs." },
-  { "title": "Storage Features", "description": "Compared hidden drawers, cup holders, and device slots included across the lineup." },
-  { "title": "Weight Capacity", "description": "Compared stated weight ratings where specified, from moderate to the highest capacity in this comparison." },
-  { "title": "USB Charging and Power Features", "description": "Checked which picks include built-in USB ports for charging devices directly from the desk." },
-  { "title": "Surface Size and Fold-Flat Design", "description": "Compared surface dimensions and folded thickness for storage convenience." }
+  {
+    "title": "Laptop fit and surface",
+    "description": "We compared listed laptop fit and desktop sizes, such as the Potuopy 17 inch fit, the cooling fan desk 20.5 by 11.8 inches and the Zapuno 23.6 by 15.7 inches. At this price, a bigger laptop needs a bigger surface, so we credited boards that fit a 17 inch machine."
+  },
+  {
+    "title": "Adjustment range",
+    "description": "We read tilt and height ranges, such as 0 to 36 degrees and 5 heights from 9.45 to 13.35 inches on the Potuopy, and 120 degrees plus 8 heights on the SONGMICS. A wide range lets you sit upright on a bed or lean back on a couch. The SONGMICS runs from 10 to 14.2 inches in height, and the Zapuno stands 10.8 inches tall, so we asked whether each clears an adult's knees while sitting up in bed."
+  },
+  {
+    "title": "Built-in extras",
+    "description": "We checked USB ports on the Zapuno, the cooling fan and 80 pound capacity on the fan desk and the Potuopy hidden drawer. These extras justify the higher price, but each needs a power source or adds weight. The Zapuno bundles a mini light and fan with four USB ports on one cable, so we checked whether those ports need a separate adapter before they power anything."
+  },
+  {
+    "title": "Weight and fold size",
+    "description": "We noted weights and fold thickness, such as the Potuopy at 5.47 pounds and the fan desk folding to 1.8 inches. A heavier desk is stable but harder to carry, so we balanced the two. At 5.47 pounds the Potuopy is the heaviest to move, but its larger desktop is why it is the best fit for a 17 inch laptop."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +112,131 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["A hidden storage drawer with a lifetime warranty", "Potuopy Adjustable Laptop Lap Desk, X-Large Foldable"],
-        ["Genuine active cooling and the highest weight capacity", "Laptop Desk for Bed with Cooling Fan"],
-        ["Built-in USB charging ports at the lowest price", "Zapuno Laptop Lap Desk with 4 USB Ports"],
-        ["The largest overall surface area", "SONGMICS Bed Laptop Desk, Foldable, Adjustable Height"]
+    "subheading": "By Setup",
+    "intro": "These four are desk-size lap tables rather than simple boards.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "A large laptop and a hidden drawer for cables",
+          "Potuopy Adjustable Laptop Lap Desk, X-Large"
+        ],
+        [
+          "A hot laptop that needs a fan",
+          "Bed with Cooling Fan, with a USB fan and 80 pound capacity"
+        ],
+        [
+          "Charging phones and a tablet at the same desk",
+          "Zapuno Laptop Lap Desk with 4 USB Ports"
+        ],
+        [
+          "A fold-flat bed table with tilt and height options",
+          "SONGMICS Bed Laptop Desk, with a 55 pound rating"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $31", "Zapuno 4 USB Ports (under $35)"],
-        ["Under $34", "SONGMICS Foldable (under $35)"],
-        ["Under $40", "Cooling Fan pick (under $40)"],
-        ["Under $50", "Potuopy X-Large (under $50)"]
+    "subheading": "By Laptop Size",
+    "intro": "Large laptops need a large desk.",
+    "table": {
+      "headers": [
+        "Your laptop",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "17 inch laptop",
+          "Potuopy, which lists a 17 inch fit"
+        ],
+        [
+          "17 inch gaming laptop that needs cooling",
+          "Zapuno, which also lists a 17 inch fit with a fan"
+        ],
+        [
+          "15 to 16 inch laptop",
+          "SONGMICS Bed Laptop Desk, with a 15.7 by 22 inch surface"
+        ],
+        [
+          "A small laptop on a bed",
+          "Bed with Cooling Fan, with a 20.5 by 11.8 inch desktop"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Active USB Cooling vs Passive Heat Shielding",
-    cards: [
-      { label: "Active USB cooling (Cooling Fan pick)", text: "A genuine fan connects to your laptop's USB port to actively move air and prevent overheating during extended use." },
-      { label: "Passive design (Potuopy, Zapuno, SONGMICS)", text: "Relies on the desk's material and open construction rather than active airflow, sufficient for laptops that don't run especially hot." }
+    "subheading": "Fan and USB vs Plain Table",
+    "intro": "Extras add convenience and failure points.",
+    "cards": [
+      {
+        "label": "With fan or USB",
+        "text": "Bed with Cooling Fan adds a USB cooling fan, and Zapuno adds four USB ports, a mini light and a fan. They need a laptop USB port or an adapter."
+      },
+      {
+        "label": "Plain table",
+        "text": "Potuopy and SONGMICS Bed Laptop Desk skip electronics and rely on heights and tilts, which makes them lighter and simpler."
+      }
     ],
-    note: "If your laptop tends to run hot during extended sessions, the active cooling fan pick provides genuine, measurable heat management. For laptops with modest heat output, a passive design is perfectly adequate.",
+    "note": "If your laptop runs hot, take a fan model. Otherwise a plain table is easier."
   },
   {
-    subheading: "By Storage and Charging Needs",
-    table: {
-      headers: ["Your accessory needs", "Recommended pick"],
-      rows: [
-        ["A hidden drawer for pens and small items", "Potuopy X-Large"],
-        ["Built-in USB charging for your phone", "Zapuno 4 USB Ports"],
-        ["A cup holder and phone stand combined", "SONGMICS Foldable"]
+    "subheading": "By Posture",
+    "intro": "Raising the screen is the main ergonomic benefit.",
+    "table": {
+      "headers": [
+        "Your concern",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Tilting up to 36 degrees",
+          "Potuopy or Bed with Cooling Fan"
+        ],
+        [
+          "Large tilt range for lying down",
+          "SONGMICS Bed Laptop Desk, with 120 degrees"
+        ],
+        [
+          "Wrist and mouse space",
+          "Zapuno, with its large top"
+        ],
+        [
+          "Raised height for sitting up in bed",
+          "Potuopy, up to 13.35 inches"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Laptop That Runs Notably Hot During Extended Use Specifically",
-    cards: [
-      { label: "Look for", text: "A genuine active USB-powered cooling fan, not just a passive heat shield material claim." },
-      { label: "In this comparison", text: "The Cooling Fan pick is the only one here with a genuine active fan connecting directly to your laptop's USB port." }
-    ],
+    "subheading": "For Gamers and Heavy Users Specifically",
+    "intro": "Hot laptops need airflow, and gamers need space for a mouse.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A fan, an 80 pound rating or more and a 17 inch fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Bed with Cooling Fan lists an 80 pound capacity and a USB fan, and Zapuno lists a 17 inch fit with 4 USB ports."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want a hidden storage drawer backed by a lifetime warranty, where the Potuopy pick delivers both at the top of this tier's price range." },
-      { label: "Save if", text: "You want built-in USB charging ports without paying for the largest surface or a storage drawer, where the Zapuno pick covers that for about $19 less." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "Above $50 you reach standing laptop desks.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need a sit-stand desk or a full height stand."
+      },
+      {
+        "label": "Save if",
+        "text": "You want only tilt and height. SONGMICS Bed Laptop Desk is the lowest-cost table here."
+      }
+    ]
   }
 ];
 
@@ -183,12 +264,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Does the Cooling Fan pick's fan work without being plugged into the laptop?", "a": "No, it requires a USB connection to your laptop to draw power and operate, so it won't function as a standalone fan disconnected from a device." },
-  { "q": "What's the most common mistake buyers make when comparing storage features across lap desks?", "a": "Assuming an open cup holder or device slot provides the same organizational benefit as a hidden drawer, when a concealed drawer like the Potuopy pick's keeps small items out of sight for a cleaner appearance, while open slots keep items visible and quickly accessible instead." },
-  { "q": "Is the Potuopy pick worth the price premium over the cheaper Zapuno pick?", "a": "If a hidden storage drawer and a lifetime warranty matter most to you, yes, but if built-in USB charging ports at a lower price is your priority, the Zapuno pick delivers that specific feature for about $19 less." },
-  { "q": "Can the SONGMICS pick's swivel cup holder be used safely at any tilt angle?", "a": "The listing specifically advises against using the cup holder when the desk is tilted, since items may slip off at an angle, so keep the desk relatively flat when using that specific feature." },
-  { "q": "How do I know if I actually need the Cooling Fan pick's active cooling versus a passive design?", "a": "If your laptop noticeably heats up during extended use or demanding tasks like gaming or video editing, active cooling provides genuine additional heat management, but for lighter everyday use like browsing or word processing, a passive heat shield design is typically sufficient." },
-  { "q": "Do these lap desks require any tools or assembly to set up?", "a": "No, all four picks in this comparison are designed for no-assembly, ready-to-use operation right out of the box, simply requiring you to unfold the legs and adjust to your preferred height and angle." }
+  {
+    "q": "Do cooling fan lap desks actually help?",
+    "a": "They help a little with warm laptops by moving air near the base, but gaming laptops produce a lot of heat and may need more cooling than a basic fan. A hard surface and clear vents matter more. Gaming laptops often need more cooling than a clip-on fan offers, so keep the vents clear and use the desk's hard surface."
+  },
+  {
+    "q": "Can I charge a laptop through the Zapuno USB ports?",
+    "a": "The Zapuno lists 4 USB ports with one cable, which suits phones and small devices. Laptop charging needs more power, so check the output. Charging a laptop usually needs far more power than a USB port supplies, so keep the original charger plugged in."
+  },
+  {
+    "q": "Is the Potuopy worth it over the SONGMICS?",
+    "a": "If you have a 17 inch laptop or want a hidden drawer and waterproof top, yes. The SONGMICS lists a 15.7 by 22 inch surface and 120 degrees of tilt, and it costs less. Choose the Zapuno or fan model only if you want the extras, because the SONGMICS costs less and covers tilt and height."
+  },
+  {
+    "q": "How do I use the tilt to protect my neck?",
+    "a": "Raise the screen so the top is at eye level, and use a separate keyboard if you can. A lap desk reduces head tilt by about 4 degrees in one study, but low screens still strain. Put an external keyboard on the lower tier of the desk and the laptop on the tilt so the screen stays near eye level."
+  },
+  {
+    "q": "What does 80 pound capacity mean?",
+    "a": "It is the load the table is rated to hold, which covers any laptop. It is more about build strength than laptop weight. Check that the legs lock. It is a strength rating for the table itself, not a laptop weight, so check that the hinges lock fully."
+  },
+  {
+    "q": "Can I use a lap desk on a hard chair?",
+    "a": "Yes, but the legs may not sit flat. Use it on a bed or a flat surface. The SONGMICS feet are designed for a bed. On a hard or tilted surface the legs may sit unevenly, so use it on a bed or a flat sofa and check that it does not rock before you start typing."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

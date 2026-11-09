@@ -88,80 +88,139 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Genuine multitouch point count verified over the 'touchscreen' label alone", description: "Verified the genuine multitouch point count rather than assuming any 'touchscreen' label guarantees full 10-point gesture support." },
-  { title: "OS driver compatibility checked across Windows, macOS, and Linux", description: "Checked touch driver compatibility across common operating systems, not just video output support." },
-  { title: "Color accuracy and panel type weighted for creative use cases", description: "Weighted color gamut rating and panel type (IPS versus VA) for buyers considering creative or design work." },
-  { title: "Screen size versus portability tradeoff assessed honestly", description: "Assessed the tradeoff between larger touch canvas size and portability honestly, rather than assuming bigger is always better." }
+  {
+    "title": "Single cable compatibility",
+    "description": "We checked each listing for USB-C and HDMI inputs, since a USB-C port only carries video if the laptop supports DisplayPort Alt Mode or Thunderbolt. A monitor that lists only USB-C can fail with a charge-only port, so listings naming both inputs scored higher for a mixed fleet of laptops."
+  },
+  {
+    "title": "Panel type and color claims",
+    "description": "We compared the stated panels: IPS on CAPERAVE, a 90 percent gamut rating on cocopar, 100 percent sRGB VA on the 23.8 inch model and 125 percent sRGB on UPERFECT. Color percentages are vendor claims, so we treated them as direction, not measurement, and favored IPS for viewing angle."
+  },
+  {
+    "title": "Screen size and portability",
+    "description": "We weighed 15.6 inch against 23.8 inch. The larger panel gives a bigger canvas for drawing or presentations but loses the carry-in-a-bag advantage that defines a portable monitor, so we scored size by the job, not the number alone."
+  },
+  {
+    "title": "Resolution against what you drive",
+    "description": "We compared 1080p on three picks against UPERFECT's 4K at 15.6 inches. A 4K panel over USB-C needs a source that can drive it smoothly, and it draws more power, so sharper is better only if your laptop can push it without lag."
+  },
+  {
+    "title": "Touch limits and power draw",
+    "description": "We noted that touch support depends on the host, with touch generally unsupported on iOS or iPadOS, and that backlight brightness drives power use. A monitor powered by the laptop shortens battery life, so we flagged listings that do not explain power sources."
+  }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Refresh Rate",
-    "note": "Refresh rate isn't consistently confirmed across every pick in this comparison; check each listing's product details directly."
+    "subheading": "By Primary Use",
+    "intro": "The same touchscreen can suit a note taker, an artist or a presenter, so choose by task first.",
+    "table": {
+      "headers": [
+        "If you mainly",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Use touch for notes and light multitasking with a laptop on a budget",
+          "CAPERAVE 15.6'' Portable Monitor Touchscreen, a 15.6 inch FHD IPS panel"
+        ],
+        [
+          "Care about color accuracy for photo or design work",
+          "cocopar Portable Monitor Touchscreen 15.6 Inch, rated 90 percent color gamut"
+        ],
+        [
+          "Need a large canvas for presentations or drawing at a desk",
+          "23.8'' Portable Touchscreen Monitor, with a 23.8 inch VA panel"
+        ],
+        [
+          "Want the sharpest text for reading and spreadsheets",
+          "UPERFECT 4K Portable Monitor Touchscreen, 15.6 inch 4K"
+        ]
+      ]
+    }
   },
   {
     "subheading": "By Budget",
+    "intro": "Prices step up with panel size or resolution, so each bucket buys something different.",
     "table": {
       "headers": [
-        "Price range",
+        "Price bucket",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Under $110",
+          "Under $110 and a genuine IPS touchscreen",
           "CAPERAVE 15.6'' Portable Monitor Touchscreen"
         ],
         [
-          "Mid-range",
+          "Under $160 with a better color rating",
+          "cocopar Portable Monitor Touchscreen 15.6 Inch"
+        ],
+        [
+          "Under $190 for 4K at 15.6 inches",
           "UPERFECT 4K Portable Monitor Touchscreen"
         ],
         [
-          "No firm budget ceiling, prioritizing panel quality or resolution",
-          "23.8\" Portable Touchscreen Monitor 100% sRGB VA FHD 1080P"
+          "Under $200 for the biggest screen",
+          "23.8'' Portable Touchscreen Monitor, which is less portable"
         ]
       ]
     }
   },
   {
-    "subheading": "USB-C DisplayPort Alt Mode vs HDMI",
+    "subheading": "USB-C Alt Mode vs HDMI Plus USB Power",
+    "intro": "How you connect the monitor decides whether it works with your device.",
     "cards": [
       {
-        "label": "USB-C (DisplayPort Alt Mode)",
-        "text": "Usually the port that hits the panel's full rated refresh rate, and can carry power alongside video on one cable. In this comparison: check each listing's stated USB-C refresh rate directly."
+        "label": "USB-C single cable",
+        "text": "Video, touch and power over one wire, as long as the laptop port supports DisplayPort Alt Mode or Thunderbolt. A charge-only USB-C port will not show video, so check the specs for the video symbol first."
       },
       {
-        "label": "HDMI",
-        "text": "Reliable for consoles and older sources, but often capped below the panel's full rated refresh, especially at higher resolutions. In this comparison: check each listing's stated HDMI refresh ceiling directly."
+        "label": "HDMI plus a separate power cable",
+        "text": "Works with consoles, mini PCs and laptops without Alt Mode, but needs a second cable for power and a USB lead for touch. It is less tidy but more universal, so keep an HDMI path as a fallback."
       }
     ],
-    "note": "Check each listing's per-port refresh specs directly before assuming HDMI matches the headline rate."
+    "note": "Most laptop users should look for USB-C with Alt Mode first and treat HDMI as the safety net."
   },
   {
-    "subheading": "By VESA Mount Compatibility",
+    "subheading": "By Screen Size and Desk Space",
+    "intro": "Size changes how portable the monitor really is.",
     "table": {
       "headers": [
-        "Your setup",
+        "Your space",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Check each listing for VESA compatibility directly",
-          "not consistently confirmed in this comparison"
+          "Backpack friendly, ready to pop open at a cafe",
+          "CAPERAVE 15.6 inch, the lightest of the group in practical terms"
+        ],
+        [
+          "A small desk where a 24 inch panel would crowd the keyboard",
+          "cocopar 15.6 inch, with the extra color range"
+        ],
+        [
+          "A permanent second screen for drawing at home",
+          "23.8 inch Portable Touchscreen Monitor"
+        ],
+        [
+          "A sharp second screen for reading documents",
+          "UPERFECT 4K 15.6 inch, if your laptop can drive 4K"
         ]
       ]
     }
   },
   {
-    "subheading": "For a Handheld Gaming PC or Console Specifically",
+    "subheading": "For Windows Laptop and Tablet Users Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "Your exact source device's documented maximum output refresh rate over the connection type you'll use, checked independently from the monitor's own rated capability, since handhelds like Steam Deck and ROG Ally commonly cap at 60Hz over USB-C."
+        "text": "A USB-C port with Alt Mode on your laptop, a monitor that lists touch drivers for Windows, and a cable with video support. Touch is generally not supported on iOS or iPadOS."
       },
       {
         "label": "In this comparison",
-        "text": "CAPERAVE 15.6'' Portable Monitor Touchscreen fits this specifically: Genuine IPS panel for good color accuracy and viewing angles."
+        "text": "All four list USB-C and touch, and the CAPERAVE and cocopar are the easiest to carry. The 23.8 inch pick gives a larger drawing area for desk use."
       }
     ]
   },
@@ -170,11 +229,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what 23.8\" Portable Touchscreen Monitor 100% sRGB VA FHD 1080P offers: Genuinely larger 23.8-inch touch canvas for drawing or presentations. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "You need 4K sharpness on a small panel (UPERFECT) or a large canvas (23.8 inch), where the extra money buys real screen quality."
       },
       {
         "label": "Save if",
-        "text": "CAPERAVE 15.6'' Portable Monitor Touchscreen already covers the essentials: Genuine IPS panel for good color accuracy and viewing angles. The main thing you'd be paying extra for elsewhere in this list is headroom you may not actually use."
+        "text": "You mainly want touch for notes, because CAPERAVE costs the least in this guide and gives a genuine IPS panel."
       }
     ]
   }
@@ -204,10 +263,30 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Does every touchscreen portable monitor support pinch-to-zoom?", a: "Not necessarily, verify the genuine multitouch point count, some budget models support only single or dual-touch." },
-  { q: "Will touch input work on any operating system?", a: "Not automatically, confirm your specific OS is fully supported for touch input, not just video output." },
-  { q: "Is a bigger touchscreen monitor always better?", a: "It depends on your use case, a larger screen suits drawing or presentations but sacrifices some portability." },
-  { q: "Do I need 4K resolution for a touchscreen monitor?", a: "Only if you're doing detailed creative work, 1080P touchscreens are lighter on your device's graphics output." }
+  {
+    "q": "Will a touchscreen portable monitor work with my iPhone or iPad?",
+    "a": "Touch is generally not supported when the monitor connects to iOS or iPadOS, so you would get mirrored video without touch. Use these monitors with Windows, Android or a Mac that supports video over USB-C for the full touch experience."
+  },
+  {
+    "q": "What is the most common mistake with these monitors?",
+    "a": "Assuming any USB-C port will carry video. A port that only charges will not drive a monitor. Look for DisplayPort Alt Mode or Thunderbolt on your laptop, and use a cable rated for video, not a basic charging cable."
+  },
+  {
+    "q": "Is the UPERFECT 4K worth it over the CAPERAVE?",
+    "a": "UPERFECT gives 4K at 15.6 inches and a 125 percent sRGB rating, but costs more and needs a source that can drive 4K. CAPERAVE is genuine IPS at 1080p for less and drains less power. Choose 4K only for reading or editing."
+  },
+  {
+    "q": "How do I connect one to a laptop?",
+    "a": "Use a video capable USB-C cable between the laptop and the monitor port, or HDMI plus a separate USB power cable if the laptop lacks Alt Mode. Then enable touch by connecting the USB lead the listing describes."
+  },
+  {
+    "q": "Will it drain my laptop battery?",
+    "a": "Often. Many portable monitors draw power from the laptop, and sources say the backlight is a major share of consumption. Lower brightness, or plug the monitor into a separate power source if the listing allows it."
+  },
+  {
+    "q": "Does the 23.8 inch monitor work as a portable?",
+    "a": "It can, but it is large and heavier than a 15.6 inch pick, so it suits moving between rooms rather than backpacks. For true travel, choose a 15.6 inch pick. Verify the cable type and touch drivers before buying."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

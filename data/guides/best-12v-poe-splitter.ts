@@ -84,70 +84,155 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Real Amperage and Wattage Output", "description": "Compared documented current and total wattage across the 12V output picks." },
-  { "title": "Outdoor Waterproofing", "description": "Compared IP ratings and operating temperature ranges for outdoor installations." },
-  { "title": "Surge and Electrical Protection", "description": "Compared explicit surge protection ratings and other safety features." },
-  { "title": "Speed and Bandwidth", "description": "Compared Gigabit versus 100Mbps speed support." },
-  { "title": "Pack Size and Value", "description": "Compared single-unit versus 2-pack pricing for per-unit value." }
+  {
+    "title": "Amperage versus device draw",
+    "description": "We compared output current, from Bawofu's 1.2A and the Gigabit PS5712TG's 2A at 24W. A 12V camera that pulls 1.5A will brown out a 1A splitter, so we rated higher amperage as the safer margin for the same price tier. A 1.5A camera on a 1A unit is the usual failure."
+  },
+  {
+    "title": "Speed and bandwidth",
+    "description": "We checked the data rate. The PS5712TG runs Gigabit, enough for 4K cameras, while the TIENFOKOTA, LINOVISION and Bawofu are 10/100Mbps, which suits 1080p cameras but caps 4K video bitrates. Do not buy 100Mbps for a 4K camera."
+  },
+  {
+    "title": "Weather and temperature rating",
+    "description": "We read ingress ratings. TIENFOKOTA lists IP55 and -25C to 75C, LINOVISION has a waterproof port with -20C to 55C, while PS5712TG and Bawofu list no weather rating, so they belong indoors or in an enclosure. An indoor-only splitter left outdoors will fail within a season."
+  },
+  {
+    "title": "Surge and isolation protection",
+    "description": "We compared the electrical protection listed. LINOVISION states 4KV surge protection and the PS5712TG lists isolation, short-circuit and overvoltage protection, relevant on long outdoor runs where surges reach the splitter. Surge protection is cheap insurance on outdoor cable runs."
+  },
+  {
+    "title": "Pack size and per-unit cost",
+    "description": "We weighed multi-packs. Three picks ship as 2-packs, which suits a two-camera install, while the PS5712TG is a single unit. Per-unit value shifted ranking among the sub-$20 options. Two cameras can mean two splitters in one pack for less."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["The highest amperage with full Gigabit speed", "Gigabit PoE Splitter 12V 2A Output"],
-        ["Genuine outdoor waterproofing for two devices", "TIENFOKOTA POE Splitter 48V to 12V (2 Pack)"],
-        ["Explicit 4KV surge protection", "LINOVISION Waterproof PoE Splitter, DC 12V (2 Pack)"],
-        ["The lowest price for two units", "Bawofu Active PoE Splitter Adapter (2 Pack)"]
+    "subheading": "By Device Amperage",
+    "intro": "Pick the amp rating first, because 12V is the same everywhere.",
+    "table": {
+      "headers": [
+        "Your device draws",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Up to 2A, such as a 4K camera or a router",
+          "Gigabit PoE Splitter 12V 2A Output (PS5712TG), with 24W maximum"
+        ],
+        [
+          "Under 1A, such as a small indoor camera",
+          "Bawofu Active PoE Splitter Adapter (2 Pack), which provides 1.2A"
+        ],
+        [
+          "A 12V device around 1A that lives outdoors",
+          "TIENFOKOTA POE Splitter 48V to 12V (2 Pack), with an IP55 rating"
+        ],
+        [
+          "An outdoor device with a surge-prone cable run",
+          "LINOVISION Waterproof PoE Splitter, DC 12V (2 Pack), with 4KV surge protection"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $9", "Bawofu Active PoE Splitter (2 Pack) (under $9)"],
-        ["Under $14", "Gigabit PoE Splitter 12V 2A (under $15)"],
-        ["Under $16", "TIENFOKOTA POE Splitter (2 Pack) (under $20)"],
-        ["Under $20", "LINOVISION Waterproof Splitter (2 Pack) (under $20)"]
+    "subheading": "By Budget",
+    "intro": "These 12V splitters span from under $9 to just under $20.",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "The lowest price in this roundup, under $9",
+          "Bawofu Active PoE Splitter Adapter (2 Pack), with two units included"
+        ],
+        [
+          "A mid-range spend for outdoor rated units",
+          "TIENFOKOTA POE Splitter 48V to 12V (2 Pack), at IP55"
+        ],
+        [
+          "A single unit with the top amperage",
+          "Gigabit PoE Splitter 12V 2A Output (PS5712TG), the best overall"
+        ],
+        [
+          "The highest price, under $20, for surge protection and waterproofing",
+          "LINOVISION Waterproof PoE Splitter, DC 12V (2 Pack)"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Higher Amperage vs Waterproof Outdoor Rating",
-    cards: [
-      { label: "Higher amperage (Gigabit pick)", text: "Delivers 24W (2A) at full Gigabit speed, best for a higher-draw device that needs more continuous power and bandwidth." },
-      { label: "Waterproof outdoor rating (TIENFOKOTA, LINOVISION)", text: "Both carry IP-rated waterproof housings for genuine outdoor exposure, at a lower amperage but with real weatherproofing." }
+    "subheading": "Gigabit vs 100Mbps Splitters",
+    "intro": "Speed costs a little more and matters only for big video streams.",
+    "cards": [
+      {
+        "label": "Gigabit (PS5712TG)",
+        "text": "It carries 4K camera streams and heavy network traffic with 2A at 12V, and it supports a camera that also needs the bandwidth to upload."
+      },
+      {
+        "label": "100Mbps (TIENFOKOTA, LINOVISION, Bawofu)",
+        "text": "These are enough for 1080p cameras and basic devices, they cost less, and they ship as 2-packs. Expect problems if the camera is 4K."
+      }
     ],
-    note: "If your device draws close to 2A or needs Gigabit bandwidth, the top pick's higher output is worth prioritizing. If your installation faces real outdoor weather exposure, the waterproof-rated picks are the more appropriate choice regardless of amperage.",
+    "note": "Default to 100Mbps for 1080p cameras and Gigabit for 4K."
   },
   {
-    subheading: "By Device Power Draw",
-    table: {
-      headers: ["Your device's power draw", "Recommended pick"],
-      rows: [
-        ["Up to 1A (12W)", "Any pick in this comparison covers this need"],
-        ["1A to 1.2A", "Bawofu Active PoE Splitter Adapter"],
-        ["Up to 2A (24W)", "Gigabit PoE Splitter 12V 2A Output"]
+    "subheading": "By Install Location",
+    "intro": "Indoor and outdoor units differ more than their spec sheets suggest.",
+    "table": {
+      "headers": [
+        "Install spot",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "An indoor shelf or enclosure",
+          "Bawofu Active PoE Splitter Adapter (2 Pack), with no stated waterproof rating"
+        ],
+        [
+          "A covered porch or soffit",
+          "TIENFOKOTA POE Splitter 48V to 12V (2 Pack), with IP55 and -25C to 75C"
+        ],
+        [
+          "A pole or exposed fence line",
+          "LINOVISION Waterproof PoE Splitter, DC 12V (2 Pack), with a waterproof port"
+        ],
+        [
+          "A Gigabit indoor rack",
+          "Gigabit PoE Splitter 12V 2A Output (PS5712TG), which lacks an IP rating"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a New Installer Unsure of Power Matching Specifically",
-    cards: [
-      { label: "Look for", text: "A listing that explicitly explains power matching, confirming the splitter's output power must exceed the device's actual power requirement to avoid underpowering." },
-      { label: "In this comparison", text: "The TIENFOKOTA pick specifically provides detailed power-matching guidance, walking through a concrete example of matching a 12V/1A device to an appropriately rated splitter." }
-    ],
+    "subheading": "For Two-Camera Installs Specifically",
+    "intro": "Buying two units in one pack is an easy way to save.",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A 2-pack with matching amperage, DC connectors that fit both cameras and a PoE mode that matches your switch."
+      },
+      {
+        "label": "In this comparison",
+        "text": "LINOVISION Waterproof PoE Splitter, DC 12V (2 Pack) supports Mode A and Mode B and includes DC connectors, while TIENFOKOTA and Bawofu are also 2-packs."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want explicit 4KV surge protection alongside broad PoE Mode A/B compatibility, where the LINOVISION pick's under $20 price is justified by that combination." },
-      { label: "Save if", text: "You just need two basic 12V splitters without waterproofing or surge protection, where the Bawofu pick delivers that for under $9, the lowest price in this comparison." }
-    ],
+    "subheading": "When to Spend More",
+    "intro": "The extra money here is for amperage or weatherproofing.",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your camera draws close to 2A or needs Gigabit, where Gigabit PoE Splitter 12V 2A Output (PS5712TG) offers the most amperage."
+      },
+      {
+        "label": "Save if",
+        "text": "You power two small indoor cameras, where Bawofu Active PoE Splitter Adapter (2 Pack) under $9 does the job."
+      }
+    ]
   }
 ];
 

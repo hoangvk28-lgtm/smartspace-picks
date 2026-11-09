@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Energy Monitoring Depth", "description": "Compared which picks offer per-outlet energy consumption data versus no monitoring at all." },
-  { "title": "Smart Home Protocol Support", "description": "Compared Matter certification against single-ecosystem or dual-ecosystem compatibility." },
-  { "title": "Voice Assistant Breadth", "description": "Compared which voice assistants each smart pick supports beyond basic Alexa integration." },
-  { "title": "Physical Construction", "description": "Compared genuine metal housing against standard plastic construction for the heavy-duty pick." },
-  { "title": "Local vs Cloud-Dependent Control", "description": "Checked whether each smart pick can be controlled locally during an internet outage." }
+  {
+    "title": "Smart control depth",
+    "description": "We compared how much each strip does beyond switching. Kasa and Tapo give per-outlet energy monitoring, Amazon Basics gives only app scheduling, and the CRST skips smart features, so we judged each against the extra money asked inside this under $50 range."
+  },
+  {
+    "title": "Platform and Matter support",
+    "description": "We checked which assistants each strip works with. The Tapo lists Matter, Alexa, Google Home, HomeKit and SmartThings, the Kasa adds Cortana, and Amazon Basics works only with Alexa, which locks you into one ecosystem if you switch phones later. Matter lets one strip serve several apps."
+  },
+  {
+    "title": "Surge protection and certification",
+    "description": "We noted ETL certification on the Kasa, a 1200J rating on the CRST and no stated figure on some smart strips. Smart features do not replace surge protection, so a missing number lowered the safety score regardless of app polish. A smart strip that lists no surge rating should not feed a PC or monitor on its own."
+  },
+  {
+    "title": "USB ports and cord reach",
+    "description": "We counted USB ports and cord length. The Kasa and Tapo give three always-on USB ports, the Amazon Basics one USB-C, and the CRST none, while the Tapo's 3 foot cord is shorter than the CRST's 10 feet, which matters under a deep desk. A short cord limits placement behind a TV stand or deep desk."
+  },
+  {
+    "title": "Outlet spacing and build",
+    "description": "We looked at outlet spacing and housing material. The CRST uses 1.5 mm aluminum alloy with 1.77 inch spacing for bulky adapters, whereas plastic smart strips crowd outlets, so build and spacing carried weight alongside features. Metal housing also resists heat better than thin plastic shells."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -101,61 +116,129 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Need",
-    table: {
-      headers: ["If you mainly need", "Recommended pick"],
-      rows: [
-        ["Per-outlet energy data and the widest voice support", "Kasa Smart Plug Power Strip HS300"],
-        ["The broadest smart home platform compatibility", "Tapo Smart Wi-Fi Power Strip, Matter"],
-        ["Basic hub-free smart control at a lower price", "Amazon Basics Smart Plug Power Strip"],
-        ["Genuine metal durability over smart features", "CRST 8-Outlet Metal Power Strip"]
+    "subheading": "By Smart Home Platform",
+    "intro": "The right strip depends on which ecosystem you already use, so check that first.",
+    "table": {
+      "headers": [
+        "Your ecosystem",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Alexa only and you want the lowest priced smart strip",
+          "Amazon Basics Smart Plug Power Strip, with six individually controlled outlets and no hub"
+        ],
+        [
+          "Apple Home, Google Home or SmartThings alongside Alexa",
+          "Tapo Smart Wi-Fi Power Strip, which is Matter certified and keeps local control working during an internet outage"
+        ],
+        [
+          "Alexa, Google Assistant or Cortana with detailed energy data",
+          "Kasa Smart Plug Power Strip HS300, with per-outlet monitoring and the broadest voice support"
+        ],
+        [
+          "No smart home at all and you just want switches",
+          "CRST 8-Outlet Metal Power Strip with Individual Switches"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $38", "CRST 8-Outlet Metal (under $40)"],
-        ["Under $40", "Amazon Basics Smart Plug (under $40)"],
-        ["Under $42", "Tapo Matter (under $45)"],
-        ["Under $48", "Kasa HS300 (under $50)"]
+    "subheading": "By Budget",
+    "intro": "Every pick here is under $50, but the gap between the smart strips and the CRST is small.",
+    "table": {
+      "headers": [
+        "Price bucket",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $38 and you prefer physical switches",
+          "CRST 8-Outlet Metal Power Strip, the cheapest here"
+        ],
+        [
+          "Under $40 and Alexa is enough",
+          "Amazon Basics Smart Plug Power Strip"
+        ],
+        [
+          "Under $42 and you want Matter",
+          "Tapo Smart Wi-Fi Power Strip, cheaper than the Kasa and more future proof"
+        ],
+        [
+          "Under $48 for the most detailed monitoring",
+          "Kasa HS300, priciest and the most mature app"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Matter Certification vs Single-Ecosystem Smart Control",
-    cards: [
-      { label: "Matter certified (Tapo)", text: "Works across Alexa, Google Home, Apple HomeKit, and SmartThings interchangeably, future-proofing against ecosystem changes." },
-      { label: "Single or dual ecosystem (Kasa, Amazon Basics)", text: "Ties you to specific voice assistants, though Kasa's broader Alexa, Google, and Cortana support covers most common setups." }
+    "subheading": "Smart App Control vs Physical Switches",
+    "intro": "This is a real tradeoff between convenience and reliability, not just features.",
+    "cards": [
+      {
+        "label": "Smart outlets (Kasa, Tapo, Amazon Basics)",
+        "text": "Each outlet can be scheduled and switched from an app, and Kasa and Tapo report energy use. They need Wi-Fi to be controlled, though Tapo's local control keeps working during outages."
+      },
+      {
+        "label": "Physical switches (CRST)",
+        "text": "Eight outlets with individual switches work instantly with no app, router or account. You give up scheduling and monitoring but gain a metal housing and 1200J surge protection."
+      }
     ],
-    note: "If you might switch smart home platforms later or already use HomeKit or SmartThings, the Tapo's Matter certification offers real future flexibility the other smart picks don't.",
+    "note": "Choose smart if you want scheduling or to find standby power waste; choose the CRST if you only need quick switching and reliability."
   },
   {
-    subheading: "By Energy Monitoring Needs",
-    table: {
-      headers: ["Your monitoring priority", "Recommended pick"],
-      rows: [
-        ["Detailed per-outlet consumption data", "Kasa HS300 or Tapo Matter"],
-        ["Basic on/off smart control, no monitoring needed", "Amazon Basics Smart Plug"],
-        ["No monitoring, physical switches instead", "CRST 8-Outlet Metal"]
+    "subheading": "By Use Case",
+    "intro": "Match the outlet count and extras to the job.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Cut standby power on a TV and console behind a TV stand",
+          "Kasa HS300, using energy monitoring to find which device wastes power"
+        ],
+        [
+          "Turn off a heating lamp or coffee setup on a schedule",
+          "Amazon Basics Smart Plug Power Strip, where Alexa routines are enough"
+        ],
+        [
+          "Build a home with mixed Apple and Android devices",
+          "Tapo strip, with Matter and HomeKit support"
+        ],
+        [
+          "Workshop or garage desk with heavy plugs",
+          "CRST metal strip, with a 15A breaker and aluminum housing"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For Reducing a Home Office's Electricity Costs Specifically",
-    cards: [
-      { label: "Look for", text: "Per-outlet energy monitoring that identifies which specific connected device is drawing the most power, not just total strip consumption." },
-      { label: "In this comparison", text: "Both the Kasa HS300 and Tapo Matter picks let you check individual outlet consumption directly from their respective apps." }
-    ],
+    "subheading": "For a Smart Home Beginner Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A strip that needs no hub, offers an app with clear scheduling, and works with the assistant you already own. Matter support helps avoid being locked in."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Amazon Basics needs no hub and works with Alexa, while Tapo adds Matter so it will keep working if you change platforms later."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You want per-outlet energy monitoring and the widest voice assistant support, where the Kasa HS300 delivers the most complete smart feature set in this comparison." },
-      { label: "Save if", text: "You want basic hub-free smart control without energy monitoring, where the Amazon Basics pick covers that for about $8 less than the Kasa." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want detailed per-outlet energy data and the widest voice support, which is the Kasa HS300. For plain surge protection, the under $30 power strips guide lists cheaper non smart strips."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need switching, so the CRST gives a metal housing for less, or Alexa scheduling is enough and Amazon Basics costs less than the Kasa."
+      }
+    ]
   }
 ];
 
@@ -183,12 +266,30 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "What's the real difference between the Kasa HS300 and the Tapo Matter power strip?", "a": "Both offer per-outlet energy monitoring and 6 smart outlets, but the Tapo is Matter-certified for broader smart home platform compatibility including Apple HomeKit and SmartThings, while the Kasa offers slightly broader voice assistant support including Microsoft Cortana." },
-  { "q": "What's the most common mistake buyers make when choosing a smart power strip?", "a": "Assuming any smart strip offers energy monitoring, when some, like the Amazon Basics pick, provide smart on/off control and scheduling but no actual per-outlet consumption data at all." },
-  { "q": "Is the Tapo Matter pick worth it over the cheaper Amazon Basics smart strip?", "a": "If you want per-outlet energy monitoring, local control during internet outages, and broader smart home platform compatibility beyond just Alexa, yes, but if you just need basic hub-free smart on/off control, the Amazon Basics pick covers that for about $2 less." },
-  { "q": "Does the CRST 8-Outlet metal strip work with any smart home features at all?", "a": "No, it's built specifically around physical switches and rugged metal construction rather than smart connectivity, making it a better fit for a workshop or garage where instant physical control matters more than app-based scheduling." },
-  { "q": "How does Matter certification actually benefit me if I already use Alexa?", "a": "Matter certification means the strip will continue working seamlessly even if you later add Google Home, Apple HomeKit, or SmartThings devices to your home, or switch primary ecosystems entirely, without needing to replace the strip itself." },
-  { "q": "Can I use the Kasa or Tapo smart strips without an internet connection at all?", "a": "The Tapo specifically supports local control through your home network during internet outages, while the Kasa's remote features depend on cloud connectivity, though basic physical outlet function on both continues regardless of internet status." }
+  {
+    "q": "Do I need a hub for these smart power strips?",
+    "a": "No. The Amazon Basics strip states no hub required, and the Kasa and Tapo connect over Wi-Fi to their apps. The Tapo is Matter certified, so it can also join a Matter ecosystem such as Apple Home without a separate bridge."
+  },
+  {
+    "q": "Is a smart strip as protected as a normal surge protector?",
+    "a": "Not always. The Kasa lists ETL certified surge protection and the CRST a 1200J rating, but the Tapo and Amazon Basics give less detail. Check the listing for a surge rating if you plan to plug a PC or monitor into it."
+  },
+  {
+    "q": "Kasa or Tapo, which is better?",
+    "a": "Kasa gives broader voice support including Cortana and a mature app, but costs more. Tapo adds Matter certification and local control during an internet outage for slightly less. Choose Tapo if you use Apple Home or SmartThings."
+  },
+  {
+    "q": "How do I set up the Tapo or Kasa strip?",
+    "a": "Plug in the strip, install its app, join your 2.4 GHz Wi-Fi network and name each outlet. Then link the assistant skill. If setup fails, check that your phone is on 2.4 GHz and not a 5 GHz only network."
+  },
+  {
+    "q": "Will it work if my internet goes down?",
+    "a": "It depends. Tapo lists local control during an outage, while Amazon Basics depends on cloud and Alexa. The CRST has physical switches, so it works regardless. Keep a manual option for anything critical like a fridge."
+  },
+  {
+    "q": "Is energy monitoring worth paying for?",
+    "a": "It is useful if you want to find devices drawing power at idle. Kasa and Tapo report usage per outlet, while Amazon Basics does not. If you do not plan to look at the data, skip it and save. Monitoring also shows whether a standby device is quietly using power all night."
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

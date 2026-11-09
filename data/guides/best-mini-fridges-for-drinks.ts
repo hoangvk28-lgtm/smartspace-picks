@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41H9UZ40fNL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DHCYHJW4?tag=deskfinds0d-20",
-    "description": "This Electactic is a 3.2 cu ft glass-door compressor fridge listed for 130 standard cans on 4 adjustable wire shelves, with LED lighting and a 32F to 61F control range.\n\nIt holds the most cans of any pick here and costs about $7 less than Feelfunn. The tradeoff is that the shelves are wire, and the range stops at 61F rather than 64F.\n\nBest for parties and stocking up. The caveat is the size, which suits a garage or den more than a dorm.",
+    "description": "This Electactic is a 3.2 cu ft glass-door compressor fridge listed for 130 standard cans on 4 adjustable wire shelves, with LED lighting and a 32F to 61F control range.\n\nIt holds the most cans of any pick here and costs under $10 less than Feelfunn. The tradeoff is that the shelves are wire, and the range stops at 61F rather than 64F.\n\nBest for parties and stocking up. The caveat is the size, which suits a garage or den more than a dorm.",
     "specs": [
       "130 cans, 3.2 cu ft",
       "32F to 61F range",
@@ -162,55 +162,52 @@ export const products: GuideProduct[] = [
 export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Can capacity versus real life",
-    "explanation": "Can counts are for standard 12 oz cans stacked in rows. Tall cans, bottles and 2 liter bottles waste room. Look for a stated shelf layout, and take off roughly a quarter if you drink bottled water."
+    "criterion": "Can count versus real fit",
+    "explanation": "A listing that says 126 cans assumes standard 12 ounce cans in a perfect stack, so tall bottles, 16 ounce tallboys and bulky seltzer packs cut the real number sharply. Wire shelves with fixed spacing waste vertical room, which is why the Icyglee lists 4 shelves with 8 slots. Check the shelf count and spacing, and the interior height in inches."
   },
   {
-    "criterion": "Temperature floor and ceiling",
-    "explanation": "Beverage fridges often run 34F or 40F up to 61F or 64F. A 32F floor can freeze and burst full cans, while a 40F floor is safe. Check the stated range against how cold you like soda."
+    "criterion": "Temperature floor and range",
+    "explanation": "Drinks taste best near 34 to 38F, and a beverage fridge that bottoms out at 40F, like the Electactic 50 can listing at 40F to 61F, will serve cold but not very cold. The Feelfunn and Icyglee reach 34F, and the Electactic 130 reaches 32F. Check the minimum temperature in the specifications and whether it is stated for a room at 77F."
   },
   {
     "criterion": "Compressor versus thermoelectric",
-    "explanation": "Compressors hold a temperature in any room, while thermoelectric units only cool a set number of degrees below room temperature. In an 80F room that may not be cold enough. Look for the word compressor in the listing."
+    "explanation": "A compressor unit can pull 3.2 cubic feet of drinks down to the set point in a warm garage or office, while a thermoelectric cube such as the Coca-Cola 4L only drops about 32F below ambient. For parties, a compressor is the only choice. Look for the word compressor in the title or the technical details."
   },
   {
-    "criterion": "Glass door insulation",
-    "explanation": "Glass looks good but insulates worse than a solid door unless it is double-pane. Low-E coatings help. Check the listing for double-layer glass."
+    "criterion": "Glass door and light placement",
+    "explanation": "A glass door shows labels but lets heat in and can fog in humid rooms. LED lighting inside, as on the Electactic 130, is nice but adds a small heat load. Check glass thickness, whether the door has a seal on all four sides, and whether the light can be switched off."
   },
   {
-    "criterion": "Footprint and placement",
-    "explanation": "A 126 can fridge stands over two and a half feet tall. Reversible doors help in corners. Check the dimensions and ventilation clearance."
-  },
-  {
-    "criterion": "Shelf flexibility",
-    "explanation": "Adjustable shelves let you fit bottles and cartons. Wire shelves are lighter but can tip cans. Look for the number of adjustable positions."
+    "criterion": "Fitting the footprint",
+    "explanation": "A 3.2 cubic foot drinks fridge stands about 31 inches tall, as the Feelfunn lists, so it needs floor space or a sturdy counter. A 1.3 cubic foot countertop model is easier to place but holds 50 cans. Measure the spot, including door swing, and check the listing dimensions in inches."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Capacity claims",
-    "description": "We compared the can counts and cubic feet each listing gives."
+    "title": "Cooling floor",
+    "description": "We recorded each pick's coldest listed setting, from 32F on the Electactic 130 to 40F on the 50 can countertop model. For drinks, the gap between 34F and 40F is the difference between properly cold and merely cool, so we weighted it heavily in ranking, with a bonus for units that list the minimum temperature at a stated room temperature."
   },
   {
-    "title": "Cooling type and range",
-    "description": "Compressor versus thermoelectric and listed temperature ranges were weighed."
+    "title": "Real capacity",
+    "description": "We compared the listed can counts, 126 on the Feelfunn and Icyglee, 130 on the Electactic, 50 on the countertop model and 6 on the Coca-Cola, against shelf counts and interior size. A big can number with few shelf slots counted for less than a smaller number with flexible spacing, because tall bottles waste fixed shelf gaps."
   },
   {
-    "title": "Size and placement",
-    "description": "Dimensions, door type and shelf design were compared."
+    "title": "Adjustability",
+    "description": "We looked at range and step size, such as the 1F steps on the Icyglee, and extras like LED lighting and removable shelves. Drinks fridges are used by many people, so easy adjustment was a plus at this price level, and so was a lock or a light that can be turned off."
   },
   {
-    "title": "Price",
-    "description": "Price per can was compared across picks."
+    "title": "Placement and size",
+    "description": "We checked listed dimensions, such as 17.5 by 18.9 by 31.2 inches on the Feelfunn, and whether the unit suits a floor, countertop or desk. A fridge that does not fit its spot is useless, so footprint was a scoring factor, especially for the 31 inch tall floor cabinets compared with the countertop picks."
   }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Number of Cans",
+    "subheading": "By Setting",
+    "intro": "The room and how many people you serve decide the size.",
     "table": {
       "headers": [
         "Your situation",
@@ -218,26 +215,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "A few cans at your desk",
-          "Coca-Cola 4L 6 Can Mini Fridge"
+          "Home bar or game room serving a crowd",
+          "Electactic 130 Can Beverage Refrigerator, the highest can count at 130"
         ],
         [
-          "A week of drinks for one",
-          "Electactic 50 Can Countertop Drink Cooler"
+          "Apartment kitchen or office with a mix of cans and bottles",
+          "Feelfunn 126 Can Glass Door Beverage Fridge, with a 34F to 64F range"
         ],
         [
-          "A household or small bar",
-          "Feelfunn 126 Can Glass Door Beverage Fridge"
+          "Anyone who likes fine temperature control",
+          "Icyglee 126 Can Beverage Refrigerator, which adjusts in 1F steps"
         ],
         [
-          "Parties and big stock-ups",
-          "Electactic 130 Can Beverage Refrigerator"
+          "A countertop or desk cooler for a small team",
+          "Electactic 50 Can Countertop Drink Cooler, holding 50 cans"
+        ],
+        [
+          "A personal desk cooler for six cans",
+          "Coca-Cola 4L Mini Fridge, the only desk-size cube here"
         ]
       ]
     }
   },
   {
     "subheading": "By Budget",
+    "intro": "Prices run from the high $20s to nearly $200, and the gap reflects compressor versus thermoelectric.",
     "table": {
       "headers": [
         "Price range",
@@ -246,91 +248,91 @@ export const howToChoose: HowToChooseSection[] = [
       "rows": [
         [
           "Under $30",
-          "Coca-Cola 4L 6 Can Mini Fridge"
+          "Coca-Cola 4L Mini Fridge, for a desk cooler at the lowest price"
         ],
         [
-          "$115 to $125",
-          "Electactic 50 Can Countertop Drink Cooler"
+          "Around $120",
+          "Electactic 50 Can Countertop Drink Cooler for a compressor on a small footprint"
         ],
         [
-          "$185 to $190",
-          "Electactic 130 Can Beverage Refrigerator"
+          "Around $188",
+          "Electactic 130 Can Beverage Refrigerator, the cheapest full-size cabinet and the one with the most cans"
         ],
         [
-          "About $195",
-          "Feelfunn 126 Can Glass Door Beverage Fridge"
-        ],
-        [
-          "About $195",
-          "Icyglee 126 Can Beverage Refrigerator"
+          "Around $195",
+          "Feelfunn 126 Can Glass Door Beverage Fridge or Icyglee 126 Can, the two 126 can cabinets"
         ]
       ]
     }
   },
   {
     "subheading": "Compressor vs Thermoelectric",
+    "intro": "Beverage coolers come in two cooling types with very different results.",
     "cards": [
       {
         "label": "Compressor",
-        "text": "Holds a set temperature regardless of room heat, at the cost of size and some noise. Feelfunn 126 Can Glass Door Beverage Fridge, Icyglee 126 Can Beverage Refrigerator, Electactic 130 Can Beverage Refrigerator and Electactic 50 Can Countertop Drink Cooler fall here."
+        "text": "The Feelfunn 126 Can, Icyglee 126 Can, Electactic 130 Can and Electactic 50 Can use compressors, which can reach 32F to 40F in a warm room and cool a full load, though they cycle and make some noise."
       },
       {
         "label": "Thermoelectric",
-        "text": "Cools only about 32F below the room and has no compressor, so it is small and silent but limited. Coca-Cola 4L 6 Can Mini Fridge falls here."
+        "text": "The Coca-Cola 4L is thermoelectric, which is light, quiet and cheap but cools only about 32F below ambient, so on a warm day it is cool rather than cold."
       }
     ],
-    "note": "Pick a compressor unless you only need a few mildly chilled cans."
+    "note": "For anything beyond a personal desk cooler, a compressor is the right type."
   },
   {
-    "subheading": "Temperature Control Style",
+    "subheading": "By Space and Look",
+    "intro": "Where the unit sits changes which form factor you want.",
     "table": {
       "headers": [
-        "Your preference",
+        "Your concern",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Touch panel with 1F steps",
-          "Icyglee 126 Can Beverage Refrigerator"
+          "Floor space is available and you want to show the drinks",
+          "Feelfunn 126 Can with its glass door and a 31.2 inch height"
         ],
         [
-          "Digital display 34F to 64F",
-          "Feelfunn 126 Can Glass Door Beverage Fridge"
+          "Shelf slots that match different can sizes",
+          "Icyglee 126 Can with 4 shelves and 8 slots"
         ],
         [
-          "Lowest floor 32F",
-          "Electactic 130 Can Beverage Refrigerator"
+          "Bar lighting that shows brands at night",
+          "Electactic 130 Can with its LED light"
         ],
         [
-          "Never colder than 40F",
-          "Electactic 50 Can Countertop Drink Cooler"
+          "Counter space is the limit",
+          "Electactic 50 Can, which stays at 1.3 cubic feet"
         ]
       ]
     }
   },
   {
-    "subheading": "For Office Desks Specifically",
+    "subheading": "For an Office or Studio Specifically",
+    "intro": "Offices want quiet, fast recovery after the door opens and a footprint that fits.",
     "cards": [
       {
         "label": "Look for",
-        "text": "A small footprint, a plug into a standard outlet and a quiet cooling system."
+        "text": "A compressor with a 34F or lower floor, adjustable shelves and a footprint under 20 inches wide."
       },
       {
         "label": "In this comparison",
-        "text": "Coca-Cola 4L 6 Can Mini Fridge sits on a desk at 7 by 10 by 10 inches, and Electactic 50 Can Countertop Drink Cooler holds 50 cans on a counter."
+        "text": "Feelfunn 126 Can is 17.5 inches wide with a 34F to 64F range, which fits most office corners, and Electactic 50 Can suits a small team on a counter."
       }
     ]
   },
   {
     "subheading": "When to Spend More",
+    "intro": "Choose size by how many cans you really serve.",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You need big capacity and a good-looking cabinet. Feelfunn 126 Can Glass Door Beverage Fridge and Icyglee 126 Can Beverage Refrigerator hold 126 cans."
+        "text": "You host regularly. Electactic 130 Can holds 130 cans and reaches 32F, which keeps up with a full load."
       },
       {
         "label": "Save if",
-        "text": "Only a few drinks need chilling. Coca-Cola 4L 6 Can Mini Fridge and Electactic 50 Can Countertop Drink Cooler cost far less."
+        "text": "You want a few cold cans at a desk. Coca-Cola 4L costs a fraction of the cabinets and fits next to a laptop."
       }
     ]
   }
@@ -339,28 +341,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Can a drinks fridge hold food?",
-    "a": "Beverage fridges often run warmer than 40F, which is not food safe. Use a regular mini fridge for perishables."
+    "q": "Is a thermoelectric drink cooler good enough?",
+    "a": "For six cans at a desk, yes. The Coca-Cola 4L cools about 32F below ambient, so in a 75F room it reaches the low 40s. In a warm office it will be less cold. For a party or any large load, pick a compressor cabinet instead."
   },
   {
-    "q": "Will cans freeze in a beverage fridge?",
-    "a": "At the lowest settings, such as 32F, full cans can freeze and burst. Keep the setting above freezing."
+    "q": "How many cans really fit in a 126 can fridge?",
+    "a": "The count assumes standard 12 ounce cans packed tightly. Tallboys, bottles and seltzer packs reduce it by a large margin. The Icyglee lists 4 shelves and 8 slots, so look at the layout, not only the headline number."
   },
   {
-    "q": "Is a glass door worth it?",
-    "a": "It shows what is inside and looks nice, but it insulates worse than a solid door. Double-layer Low-E glass narrows the gap."
+    "q": "Is the 130 can Electactic worth it over the 126 can models?",
+    "a": "Only if you need the extra four cans and the 32F floor. The Feelfunn and Icyglee reach 34F, which is cold enough for most drinks. The Electactic adds LED lighting and wire shelves, so it suits a display, but the price is nearly the same."
   },
   {
-    "q": "How do I set it up?",
-    "a": "Feelfunn says to keep the unit upright for 24 hours before first use. Leave a few inches of clearance around it."
+    "q": "Where should I put a 3.2 cubic foot drinks fridge?",
+    "a": "Give it a few inches behind and beside for airflow, and put it on a flat floor away from heat. The Feelfunn is about 31 inches tall, so a counter may not be suitable. Check door swing before you place it."
   },
   {
-    "q": "Is a thermoelectric cooler enough?",
-    "a": "In an air-conditioned office for a few cans, yes. In a warm room it may not get cold enough."
+    "q": "Can I use a beverage fridge for food?",
+    "a": "Treat them as drinks only. Their ranges, such as 34F to 64F on the Feelfunn and 40F to 61F on the 50 can model, are set for beverages and the thermostat is not designed for meat or dairy. A compact fridge with a chiller is a better choice."
   },
   {
-    "q": "Can I fit 2 liter bottles?",
-    "a": "Shelf spacing varies, so check the listing. Adjustable shelves help."
+    "q": "How do I stop a glass door fridge from fogging?",
+    "a": "Fogging happens when humid air meets a cold glass door. Keep the room dry, avoid opening it often and make sure the door seal is clean. Setting the temperature a degree or two warmer and not placing it in direct sun also helps."
   }
 ];
 

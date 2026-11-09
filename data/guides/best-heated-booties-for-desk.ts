@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41PiCzFW4jL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0B7XXF9DD?tag=deskfinds0d-20",
-    "description": "ThermalStep gives three heat settings up to 140F, with the heating element placed under the sole and toes. The listing makes extensive circulation and condition claims that we do not rely on.\n\nIt costs about $5 less than Ewarmer yet states no battery capacity or runtime, which makes it harder to compare. Against CYCYHEAT below, it offers less data and no stated charging details.\n\nBest for someone who only wants sole warmth and is comfortable with a thin spec sheet. The caveat is that missing battery and runtime data means you buy it on faith, and a doctor should be consulted for any medical use.",
+    "description": "ThermalStep gives three heat settings up to 140F, with the heating element placed under the sole and toes. The listing makes extensive circulation and condition claims that we do not rely on.\n\nIt costs under $10 less than Ewarmer yet states no battery capacity or runtime, which makes it harder to compare. Against CYCYHEAT below, it offers less data and no stated charging details.\n\nBest for someone who only wants sole warmth and is comfortable with a thin spec sheet. The caveat is that missing battery and runtime data means you buy it on faith, and a doctor should be consulted for any medical use.",
     "specs": [
       "3 heat settings, up to 140F",
       "Element under sole and toes",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51Xo6uYPIIL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GZ36NRQR?tag=deskfinds0d-20",
-    "description": "This CYCYHEAT bundle includes two 5000 mAh packs with a 5V 2A DC connector, each pack about 0.19 lbs, and a 10W charging kit. The listing says heat arrives in as little as 30 seconds across three adjustable levels.\n\nBecause two packs ship together, you can charge one while wearing the other, which none of the cheaper pairs allow. Against SEASAND just below, it costs about $10 more, but its size chart is based on inner shoe length and its battery spec is clear.\n\nChoose it for long shifts. The caveat is that runtime per level is not clearly stated, and spare packs must match the connector.",
+    "description": "This CYCYHEAT bundle includes two 5000 mAh packs with a 5V 2A DC connector, each pack about 0.19 lbs, and a 10W charging kit. The listing says heat arrives in as little as 30 seconds across three adjustable levels.\n\nBecause two packs ship together, you can charge one while wearing the other, which none of the cheaper pairs allow. Against SEASAND just below, it costs under $15 more, but its size chart is based on inner shoe length and its battery spec is clear.\n\nChoose it for long shifts. The caveat is that runtime per level is not clearly stated, and spare packs must match the connector.",
     "specs": [
       "2 x 5000 mAh packs",
       "5V 2A DC, 10W charger",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41CsEEZVsxL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FMQVYWN3?tag=deskfinds0d-20",
-    "description": "SEASAND offers three temperature modes and up to 5 hours of heat at the low setting, with the charging port at the control button on the shoe and colored flashes showing charge status. It is described as cordless for walking around the house.\n\nIt costs about $10 less than CYCYHEAT and omits battery capacity. The listing advises sizing up one size and notes the boots are narrow, which is unusual advice among these pairs.\n\nGood for a middle budget when you want to walk freely. The caveat is the narrow fit, so wide-footed buyers must size up, and the high-setting runtime is not given.",
+    "description": "SEASAND offers three temperature modes and up to 5 hours of heat at the low setting, with the charging port at the control button on the shoe and colored flashes showing charge status. It is described as cordless for walking around the house.\n\nIt costs under $15 less than CYCYHEAT and omits battery capacity. The listing advises sizing up one size and notes the boots are narrow, which is unusual advice among these pairs.\n\nGood for a middle budget when you want to walk freely. The caveat is the narrow fit, so wide-footed buyers must size up, and the high-setting runtime is not given.",
     "specs": [
       "3 heat modes",
       "Up to 5 hours on low",
@@ -219,51 +219,47 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Power style at a desk",
-    "explanation": "Booties get power from a built-in battery, a removable pack, a USB cord or a wall plug, and that choice decides whether you can walk, how long you can sit and what you must carry. Ewarmer uses built-in batteries while CYCYHEAT ships two removable packs. Check the first bullet of each listing for the real power source."
+    "explanation": "Rechargeable booties like the Ewarmer and CYCYHEAT have no cord, so you can walk to the printer, while USB booties like the Nukinp need a port and tether you to the desk. Think about whether you move. Look in the listing for the battery or USB wording, and whether the pack is removable, because a sealed pack means the whole bootie is replaced when it ages."
   },
   {
     "criterion": "Heat step and runtime pairing",
-    "explanation": "A bootie that reaches 140F for only 4 hours will not last a full shift. Ewarmer pairs each step with a runtime, and Auccipal lists 2, 2.5 and 4 hours. Look for the pairing, and pick the step you will actually use all day."
+    "explanation": "A runtime claim means little without the heat step. The Ewarmer lists up to 8 hours on its lowest of three steps, 104F, 122F and 140F, but only 4 hours at the hottest. The Auccipal lists 2 to 4 hours per charge. Look for runtime listed for each level, and expect the top step to drain the battery faster."
   },
   {
     "criterion": "Size chart and fit warnings",
-    "explanation": "Heated booties include batteries and heating layers, so they fit differently than normal slippers. SEASAND says to size up and notes the boots run narrow, while Nukinp only offers sizes 35 to 39. Read the size chart and match it against your inner foot length."
+    "explanation": "Heated booties run narrow, and a pair that is too tight cuts circulation. The SEASAND advises sizing up, and the Nukinp lists sizes 35 to 39 only, which may not fit a large man. Read the size chart in the listing, and check whether the product says one size fits all, since a narrow fit is a common complaint on slipper-style heaters."
   },
   {
     "criterion": "Auto shut-off and listing consistency",
-    "explanation": "An auto shut-off protects you when you forget to turn the pair off, but only if the number is clear. Auccipal gives two different values in one listing. Verify a stated time before purchase, especially for pairs with no timer."
+    "explanation": "An auto-off protects against overheating, but listings sometimes give conflicting times. The Auccipal's auto-off time is inconsistent and the Noverlife lists no timer at all. Look for a stated shutoff time, and be careful when the title and the bullets disagree."
   },
   {
     "criterion": "Washable parts and battery access",
-    "explanation": "Booties get sweaty, so a detachable insole or a washable cover is more than a nicety. Ewarmer lists both. Look for cleaning steps and an instruction to disconnect the battery first."
-  },
-  {
-    "criterion": "Spa booties versus daily wear",
-    "explanation": "Paraffin spa booties like Noverlife are made for sitting still on a cord, not walking. They are cheaper but have different goals than a walking slipper. Check the product title and photos for spa wording before you buy."
+    "explanation": "Rechargeable booties need to be washable, but the battery must come out first. The Ewarmer lists a washable outer with a removable insole, and the CYCYHEAT has light 0.19 lb packs. Check whether the battery is easy to remove, and whether the manufacturer allows machine washing, because washing with the pack inside can ruin it."
   }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
-    "title": "Power and runtime",
-    "description": "We compared battery size, USB or wall power and how clearly each listing states runtime."
+    "title": "Power approach at a desk",
+    "description": "The first question is cord or no cord. We compared rechargeable designs, such as the Ewarmer's 2 by 6000 mAh and the CYCYHEAT's 2 by 5000 mAh packs, against USB boots like the Nukinp, and scored cordless designs higher for walking around, since a cord is a trip hazard between a desk and a printer."
   },
   {
-    "title": "Heat control",
-    "description": "Temperature steps, stated degrees and safety cutoffs were compared across all seven pairs."
+    "title": "Runtime at each heat step",
+    "description": "We looked for runtime tied to heat. The Ewarmer lists up to 8 hours on low and 4 hours at its hottest, the SEASAND up to 5 hours on low, and the Auccipal 2 to 4 hours, and marked down listings that give a single hour figure without a setting, because the same battery lasts about half as long at the hottest step."
   },
   {
-    "title": "Fit and comfort",
-    "description": "Size charts, narrow-fit warnings, linings and soles were noted."
+    "title": "Heat range and warm-up",
+    "description": "We compared stated temperatures: the Ewarmer's 104F, 122F and 140F, the ThermalStep's up to 140F, and the Auccipal's 113F to 142F, plus warm-up claims like the CYCYHEAT's 30 seconds and the Noverlife's 2 minutes. Fast warm-up earned credit for a cold start of the day, though a 30 second claim describes the first warmth, not full temperature."
   },
   {
-    "title": "Care and cleaning",
-    "description": "We checked whether insoles, liners or covers can be washed and how batteries are handled."
+    "title": "Fit and daily wear",
+    "description": "Booties worn at a desk need to fit comfortably. We noted the SEASAND runs narrow, the Auccipal has a memory foam insole and an anti-skid sole, and the Noverlife is a spa design that is not for walking, so we judged each by the posture it actually suits."
   },
   {
-    "title": "Value for price",
-    "description": "Prices from roughly $15 to $90 were compared against what the listing documents."
+    "title": "Honesty of claims",
+    "description": "Some listings make medical claims. We flagged the ThermalStep's medical claims as unreliable and treated them as non-evidence, and we noted that the Auccipal's auto-off time is inconsistent and the SEASAND lists no battery capacity, which leaves a buyer unable to judge runtime beyond the low-step figure."
   }
 ];
 
@@ -313,15 +309,15 @@ export const howToChoose: HowToChooseSection[] = [
           "Nukinp USB Heated Booties for Women and Men"
         ],
         [
-          "About $26",
+          "Under $30",
           "Noverlife Electric Heated Booties for Paraffin Care"
         ],
         [
-          "About $50",
+          "Under $60",
           "Auccipal 2500mAh Rechargeable Heated Slippers"
         ],
         [
-          "About $60",
+          "Under $75",
           "SEASAND Rechargeable Heated Slippers Warming Booties"
         ],
         [
@@ -403,28 +399,28 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "Do heated booties need a special charger?",
-    "a": "It depends. Ewarmer uses a Type-C cable, CYCYHEAT uses a 5V 2A DC pack and Nukinp charges by USB. Check the connector before ordering spares."
+    "q": "How long do heated booties stay warm on one charge?",
+    "a": "It depends on the heat step. The Ewarmer lists up to 8 hours on its lowest setting and about 4 on the hottest, the SEASAND up to 5 hours on low, and the Auccipal 2 to 4 hours. Plan for the shorter number when you use higher heat."
   },
   {
-    "q": "Can I wear them all day?",
-    "a": "Only if the battery lasts. Look for runtime at your chosen setting, such as Ewarmer's 8 hours at 104F, and take breaks from heat."
+    "q": "Can I walk around in heated booties?",
+    "a": "Only if they are designed for it. The Auccipal has an anti-skid TPR sole, and the SEASAND lets you walk without cords. The Noverlife is a spa bootie for sitting, and the Nukinp is a soft USB slipper that is better for a chair than a hall."
   },
   {
-    "q": "Are heated booties worth it over a heated mat?",
-    "a": "They cost more but keep the whole foot warm and go with you, which a mat cannot. If you stay at one desk, a mat is cheaper."
+    "q": "Is the Ewarmer worth more than the CYCYHEAT?",
+    "a": "If you want listed runtimes per step and a washable shell, yes. The Ewarmer lists 2 by 6000 mAh packs and three heat steps, while the CYCYHEAT includes two 5000 mAh packs and a 30 second heat-up for less. Both charge with USB-C or a 5V adapter."
+  },
+  {
+    "q": "Are heated booties safe for people with diabetes?",
+    "a": "Ask a doctor first. Reduced sensation can hide overheating, and a hot setting at 140F may burn skin. Even healthy users should start on the lowest step, check your feet, and avoid sleeping in them."
   },
   {
     "q": "How do I wash heated booties?",
-    "a": "Disconnect the battery and follow the listing. Ewarmer has a washable outer cover and removable insole. Dry fully before use."
+    "a": "Remove the battery or cord and check whether the label allows hand or machine washing. The Ewarmer lists a washable outer and removable insole. Air dry fully, and never plug in or charge damp booties."
   },
   {
-    "q": "Are spa booties like Noverlife fine for office use?",
-    "a": "They work while seated near an outlet. They are designed for paraffin care, not walking, and the listing gives no auto-off timer."
-  },
-  {
-    "q": "Can heated booties treat poor circulation?",
-    "a": "No. They are comfort products and not medical devices. Listings that mention circulation or Raynaud's are making claims we do not rely on, and you should ask a doctor first if you have reduced sensation."
+    "q": "Can I use any power bank with USB booties?",
+    "a": "The Nukinp lists USB power, but check the voltage and current. A standard 5V bank usually works, but a weak bank may not heat well. If the listing is vague, use a wall USB adapter or a bank with 2A output."
   }
 ];
 

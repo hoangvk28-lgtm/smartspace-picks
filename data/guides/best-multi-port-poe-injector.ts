@@ -84,69 +84,152 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Port Count Scaling", "description": "Compared the price-per-port ratio across the 4, 8, 12, and 24-port tiers." },
-  { "title": "Total Power Budget", "description": "Compared each unit's total shared wattage against its port count to estimate per-device power availability." },
-  { "title": "Port Speed", "description": "Compared Gigabit versus 10/100Mbps speeds across the different port-count tiers." },
-  { "title": "Power Supply Inclusion", "description": "Confirmed whether each listing's price includes its required power supply." },
-  { "title": "Rack-Mount Suitability", "description": "Compared form factors designed for a standalone desk setup against a server rack installation." }
+  {
+    "title": "Port count scaling",
+    "description": "We compared how the four PoE Texas units step from 4 to 8 to 12 to 24 ports, and what each jump costs. The 8-port unit doubles the 4-port for a small premium, but the 24-port is several times the price, so we counted the real cost per port at each tier."
+  },
+  {
+    "title": "Total power budget, not per port",
+    "description": "The 4-port gives 48W total, the 8-port 60W, the 12-port 120W and the 24-port 240W. That means the 8-port averages only 7.5W per port if fully loaded, which cannot run eight cameras drawing 12W. We checked every tier against realistic device draw."
+  },
+  {
+    "title": "Port speed against the camera load",
+    "description": "The 4, 12 and 24-port units are Gigabit, while the 8-port is 10/100Mbps Fast Ethernet. We checked this because aggregate bandwidth from several high-resolution cameras can exceed 100Mbps, and a Fast Ethernet port then caps the whole group."
+  },
+  {
+    "title": "Power supply inclusion",
+    "description": "All four list an included supply, including a UL-approved one on the 12-port and two 56V 120W supplies on the 24-port. Because a missing supply can add a large cost at higher port counts, we only treated the listed prices as comparable where the supply is actually bundled."
+  },
+  {
+    "title": "Passive mode and rack suitability",
+    "description": "The 4-port uses Mode A and the 8-port Mode B, while the 24-port is rack-mountable. We noted this because passive PoE sends power without negotiation, so a mismatch in pin mode can leave a device dark or stress it, and rack mounting matters in a closet."
+  }
 ];
 
 export const howToChoose = [
   {
-    subheading: "By Device Count",
-    table: {
-      headers: ["Number of devices needing PoE", "Recommended pick"],
-      rows: [
-        ["Up to 4 devices", "PoE Texas 4-Port Gigabit Passive PoE Injector"],
-        ["Up to 8 devices", "PoE Texas 8-Port Passive PoE Injector"],
-        ["Up to 12 devices", "PoE Texas 12-Port Gigabit Passive PoE Injector"],
-        ["Up to 24 devices", "PoE Texas 24-Port Gigabit PoE Injector"]
+    "subheading": "By Device Count",
+    "intro": "Count the devices you will power in the next year, then match the injector tier and its shared wattage budget.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Up to 4 cameras or access points, Gigabit needed",
+          "PoE Texas 4-Port Gigabit Passive PoE Injector, with 48W total shared across all four ports"
+        ],
+        [
+          "5 to 8 low-draw devices on 100Mbps links",
+          "PoE Texas 8-Port Passive PoE Injector, though 60W total averages only 7.5W per port"
+        ],
+        [
+          "9 to 12 devices with Gigabit uplinks",
+          "PoE Texas 12-Port Gigabit Passive PoE Injector, with a 120W budget and VLAN passthrough"
+        ],
+        [
+          "13 to 24 devices in a rack or closet",
+          "PoE Texas 24-Port Gigabit PoE Injector, with 240W across two bundled supplies"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Price range", "Recommended pick"],
-      rows: [
-        ["Under $41", "PoE Texas 4-Port Gigabit Passive PoE Injector (under $45)"],
-        ["Under $48", "PoE Texas 8-Port Passive PoE Injector (under $50)"],
-        ["Under $175", "PoE Texas 12-Port Gigabit Passive PoE Injector (under $180)"],
-        ["Under $300", "PoE Texas 24-Port Gigabit PoE Injector (under $300)"]
+    "subheading": "By Budget",
+    "intro": "Cost per port falls up to 12 ports, then the 24-port tier is a big step up.",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $45, one small room of devices",
+          "PoE Texas 4-Port Gigabit Passive PoE Injector, the cheapest entry and still full Gigabit"
+        ],
+        [
+          "Under $50, more ports at low speed",
+          "PoE Texas 8-Port Passive PoE Injector, best cost per port but capped at 100Mbps"
+        ],
+        [
+          "Under $180, a mid-size install",
+          "PoE Texas 12-Port Gigabit Passive PoE Injector, the sweet spot for Gigabit and a UL-approved supply"
+        ],
+        [
+          "Under $300, a full rack",
+          "PoE Texas 24-Port Gigabit PoE Injector, still far below a comparable managed PoE switch"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Buying a Larger Unit Than You Need vs Right-Sizing",
-    cards: [
-      { label: "Buying larger for headroom", text: "A 12-port unit for 8 current devices leaves room to add 4 more later without a second purchase, worth it if you expect near-term growth." },
-      { label: "Right-sizing to current needs", text: "Matching the injector exactly to your current device count, like the 8-port pick for 8 devices, avoids paying for capacity you may never use." }
+    "subheading": "Buying a Larger Unit vs Right-Sizing",
+    "cards": [
+      {
+        "label": "Buying larger for headroom",
+        "text": "A 12-port unit for 8 devices leaves four spare ports, which saves a second purchase if growth is likely. The catch is the shared 120W budget, which is fixed no matter how many ports you fill."
+      },
+      {
+        "label": "Right-sizing to current needs",
+        "text": "Matching the 4-port or 8-port unit to today's device count avoids paying for ports you may never use, and these two tiers cost only a few dollars apart."
+      }
     ],
-    note: "Most buyers should right-size to current needs plus a small buffer, since the price jump between tiers (especially 12 to 24 ports) is substantial relative to the extra capacity.",
+    "note": "Most buyers should right-size plus one or two spare ports, since the jump from the 12-port to the 24-port is several times the price."
   },
   {
-    subheading: "By Port Speed Requirement",
-    table: {
-      headers: ["Your devices need", "Recommended pick"],
-      rows: [
-        ["Gigabit speed", "4-port, 12-port, or 24-port picks (all Gigabit)"],
-        ["Fast Ethernet is sufficient", "8-port pick (10/100Mbps)"]
+    "subheading": "By Port Speed Requirement",
+    "intro": "Aggregate bandwidth is what Fast Ethernet cannot handle, so choose the speed by the cameras and not the port count.",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Several 4K or 5MP cameras on one uplink",
+          "PoE Texas 12-Port Gigabit Passive PoE Injector, so ports are not capped at 100Mbps"
+        ],
+        [
+          "Four mixed devices needing full speed",
+          "PoE Texas 4-Port Gigabit Passive PoE Injector, with Mode A and Gigabit on every port"
+        ],
+        [
+          "Eight older 720p or 1080p cameras",
+          "PoE Texas 8-Port Passive PoE Injector, since Fast Ethernet is enough for low bitrates"
+        ],
+        [
+          "A closet feeding many cameras and APs",
+          "PoE Texas 24-Port Gigabit PoE Injector, rackmounted with a Gigabit port for each device"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Server Closet or Rack Installation Specifically",
-    cards: [
-      { label: "Look for", text: "A form factor specifically designed for rack mounting rather than a standalone desktop unit, especially at higher port counts where multiple units might otherwise clutter a shared equipment space." },
-      { label: "In this comparison", text: "The 24-port pick is specifically built as a rack-mountable unit, suited to a server closet or equipment rack rather than an open desk or shelf." }
-    ],
+    "subheading": "For a Server Closet or Rack Installation Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Rack ears or a rack-mount form factor, a power supply that fits your shelf, and enough total wattage. At 24 ports, one 240W budget is shared, so two or three high-draw devices can eat most of it."
+      },
+      {
+        "label": "In this comparison",
+        "text": "The PoE Texas 24-Port Gigabit PoE Injector is the rack-mountable pick, with two included 56V 120W supplies that keep a closet tidy compared with 24 loose adapters."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More",
-    cards: [
-      { label: "Spend more if", text: "You're deploying PoE across a mid-size or large installation, where the 12-port or 24-port picks avoid the much higher cost of upgrading to a comparable full PoE switch." },
-      { label: "Save if", text: "You have a small deployment of 4-8 devices, where the entry-level picks in this comparison deliver reliable multi-port PoE without unnecessary port capacity." }
-    ],
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You are powering 10 or more devices and want to avoid the cost and complexity of a full PoE switch. The PoE Texas 12-Port Gigabit and 24-Port units give you Gigabit speed and bundled supplies for far less than switch pricing."
+      },
+      {
+        "label": "Save if",
+        "text": "You have 4 to 8 devices on one site. The PoE Texas 4-Port Gigabit injector under $45 handles that, and the 8-port is the better value if 100Mbps links are enough."
+      }
+    ]
   }
 ];
 
@@ -177,7 +260,7 @@ export const faq = [
   { "q": "How many devices can a multi-port PoE injector actually support?", "a": "Check both the stated port count and the total power budget together; a device count matching the port count only works if your devices' combined power draw stays within the total wattage the unit provides." },
   { "q": "Is a multi-port PoE injector cheaper than a PoE switch?", "a": "Often yes, especially if you already have a working non-PoE switch, since a midspan injector lets you add PoE capability without replacing that switch entirely, though at very high port counts the price gap narrows." },
   { "q": "What's the difference between Mode A and Mode B passive PoE?", "a": "They're different pin configurations for delivering power over the Ethernet cable, and most modern 802.3af/at devices support both automatically, though it's worth confirming with older or specialized equipment." },
-  { "q": "Should I buy a larger port-count unit than I currently need?", "a": "Only if you have concrete near-term plans to add more devices, since the price jump between port-count tiers is substantial relative to the extra unused capacity you'd otherwise be paying for." },
+  { "q": "Should I buy a larger port-count unit than I currently need?", "a": "Add headroom, but only a small amount. The price rises steeply past 12 ports, so a 12-port unit for 8 cameras is sensible, while jumping to the 24-port for future growth costs several times as much. Also check the total budget: 120W shared by 12 ports still limits what each camera can draw." },
   { "q": "Do I need Gigabit speed for a multi-port PoE injector powering security cameras?", "a": "For higher-resolution or multiple simultaneous camera feeds, yes; for basic single cameras or a phone-heavy deployment, Fast Ethernet (10/100Mbps) is often sufficient and available at a lower cost." },
   { "q": "Can a multi-port PoE injector be rack-mounted?", "a": "Higher port-count units, like the 24-port pick in this comparison, are specifically designed for rack mounting, while smaller 4 and 8-port units are typically standalone desktop or wall-mounted designs." }
 ];

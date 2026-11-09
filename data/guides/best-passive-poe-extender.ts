@@ -84,11 +84,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const howWeEvaluated = [
-  { "title": "Documented Voltage Range", "description": "Compared stated DC voltage compatibility and optimal operating voltage across listings." },
-  { "title": "Safety Disclosure", "description": "Compared how transparently each listing discloses risks of non-standard passive PoE use." },
-  { "title": "Speed and Bandwidth", "description": "Compared 10Mbps standard passive splitters against Gigabit-capable options." },
-  { "title": "Build Quality and Materials", "description": "Compared documented housing materials and conductor quality." },
-  { "title": "Kit Size and Value", "description": "Compared single-pair versus multi-pair kit packaging for different device counts." }
+  {
+    "title": "Documented voltage range",
+    "description": "The 5-pair kit lists up to 60V DC, Coaxuhf 12V to 48V with 12V and 1A as optimal, LUORNG a fixed 12V, and UCTRONICS 5V at 2.4A. We checked this above all else, because passive PoE sends fixed voltage with no negotiation and a wrong match can damage the device."
+  },
+  {
+    "title": "Safety disclosure",
+    "description": "Only UCTRONICS states that it needs an IEEE 802.3af or at source and warns about overvolting from non-standard PoE. We rewarded that honesty over silence, since the risk with passive hardware is real and a listing that mentions it respects the buyer."
+  },
+  {
+    "title": "Speed and bandwidth",
+    "description": "The 5-pair kit and Coaxuhf are 10Mbps only, and Coaxuhf adds a 30m (98ft) maximum distance. UCTRONICS is full Gigabit and states up to 400ft. We treated 10Mbps as acceptable for a low-bitrate sensor and unacceptable for a modern camera. A 10Mbps link cannot carry a modern camera stream at full quality."
+  },
+  {
+    "title": "Materials and build",
+    "description": "Coaxuhf names copper-core conductors and metal connectors, and LUORNG names flame-retardant ABS with copper core. We looked at documented materials, since these small adapters run warm continuously and cheap plastic ages quickly. Documented copper conductors beat unspecified wire in a small adapter."
+  },
+  {
+    "title": "Kit size and value",
+    "description": "The 5-pair kits cost under $10 and LUORNG under $7 for one pair. A kit is only good value if you will power five devices, so we compared per-device cost against the number of devices a typical buyer actually has. Buying more pairs than devices adds nothing, so count your devices first."
+  }
 ];
 
 export const howToChoose = [
@@ -177,7 +192,7 @@ export const faq = [
   { "q": "Is a passive PoE splitter safe to use with any PoE device?", "a": "Not necessarily; the UCTRONICS pick specifically warns that non-standard passive PoE can overvolt and damage a device expecting proper negotiated power, so verifying your specific device's passive PoE compatibility before connecting it is important." },
   { "q": "What's the most common mistake buyers make when choosing a passive PoE extender?", "a": "Assuming any passive PoE splitter is interchangeable with an active, negotiated PoE source, when passive splitters deliver power without the voltage negotiation that protects a device from receiving an incompatible or excessive voltage." },
   { "q": "Is the UCTRONICS splitter worth the higher price over the basic DC-jack kits?", "a": "If you're specifically powering a Raspberry Pi or another micro-USB device that also needs full Gigabit data speed, the UCTRONICS pick's higher price is justified, but for a basic IP camera needing only 10Mbps, the cheaper DC-jack kits deliver adequate performance." },
-  { "q": "Can I use a passive PoE splitter to power a device that doesn't natively support PoE?", "a": "Yes, that's specifically the purpose of these passive splitters, converting non-PoE devices like standard IP cameras or access points into PoE-enabled equipment using their DC jack connectors." },
+  { "q": "Can I use a passive PoE splitter to power a device that doesn't natively support PoE?", "a": "Yes, if the device accepts the splitter's output voltage. A passive splitter like the 12V LUORNG or the 5V UCTRONICS turns PoE into a DC barrel or USB-style feed, so a non-PoE camera or Raspberry Pi can run from one Ethernet cable. Match voltage, polarity and the barrel size before connecting." },
   { "q": "How many devices can I power with a 5-pair passive PoE kit?", "a": "A 5-pair kit like the 5 Pairs Passive PoE Injector and Splitter Kit or the Coaxuhf pick includes enough components to convert up to five separate devices, each requiring its own injector and splitter pair." },
   { "q": "Do I need special tools to install a passive PoE splitter kit?", "a": "No, these kits are specifically designed for plug-and-play installation using standard DC jack and RJ45 connectors, requiring no special tools or network configuration beyond connecting the included components." }
 ];
